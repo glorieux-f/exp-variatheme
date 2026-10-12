@@ -1,0 +1,53 @@
+---
+identifier: ddr19460705combat
+creator: Rougemont, Denis de
+created: 1946-07-05
+isPartOf: Combat, articles (1946–1950)
+title: Les intellectuels sont-ils responsables ? (5 juillet 1946)
+---
+
+ 
+
+# Les intellectuels sont-ils responsables ? (5 juillet 1946).
+
+Chose étrange, le 6 février 1934 fut une date de l'histoire littéraire : elle inaugura le temps des moutons enragés.
+
+Fatigués de leur innocence, voyant que l'herbe se faisait rare sous leurs pieds et qu'ils n'avaient plus de berger, aux éclairs de chaleur d'une révolution encore lointaine, ils se sont jetés dans le premier parc venu, à gauche ou à droite, et depuis lors y bêlent d'une voix aigre et anxieuse, tout en signant une quantité de manifestes.
+
+Ils ont signé pour le négus et contre lui ; pour le chef bien-aimé, Père des peuples, et pour ses innocentes victimes, vipères lubriques ; pour Franco et contre Franco ; contre Dollfuss et pour Schuschnigg ; pour Thaelmann, contre le Japon, à propos du tsar, à M. Bénès ; des deux mains, des quatre pattes, les yeux fermés, d'une croix, d'une faucille et d'un marteau, ou avec plus ou moins de réticences ; d'un nom connu, d'un nom à faire connaître… Bref, il n'est pas un acte commis dans le monde, depuis quatre ans, qui n'ait été vertement dénoncé pas des « intellectuels » français.
+
+Mais si le monde ne s'en porte pas mieux, l'intelligence n'y gagne guère.
+⁂
+Tant que les écrivains mettaient leur soin à vivre en marge de tous les conflits et refusaient d'être considérés comme des citoyens responsables, ils étaient au moins en accord avec l'esprit général de l'époque : intelligence d'un côté, action de l'autre, et surtout ne mélangeons rien. Tributaires d'une culture dont l'ambition suprême était de se « distinguer » des contingences, ils étaient au moins purs dans leur erreur. Les modalités de leur retrait ne contredisaient nullement les postulats fondamentaux de leur métaphysique inconsciente. Et leur style traduisait fidèlement les nuances d'une pensée détachée, irresponsable par définition. Il n'y a pas que du mal à en dire : cela nous a valu quelques œuvres durables, mineures sans doute, mais délicates et ingénieuses.
+
+Cependant, les temps ont changé. La crise nous a fait voir soudain que les positions intellectuelles héritées du libéralisme conduisaient à ce régime de faillite qu'on nomme l'État totalitaire. Nous avons constaté que rien, ni la pensée, ni l'acte individuel, n'est en réalité gratuit. Que tout se paye. Que notre liberté de penser n'importe quoi, sans tenir compte de l'époque, était une illusion entretenue par l'apparente paix sociale, mais que l'échéance ne pouvait être indéfiniment repoussée et que les dettes contractées par l'esprit ne laissaient même plus une possibilité de concordat. Déjà les dictatures réglaient les comptes. « Lorsque j'entends parler d'esprit, je désarme mon revolver », disait un officier nazi. Les staliniens faisaient de même en présence du libéralisme et de la culture « désintéressée ».
+
+C'est alors qu'on lança parmi nous le mot d'ordre : « Défense de la culture ».
+
+Toute la confusion vient de là.
+
+Car la culture qu'on nous propose de défendre, c'est elle, précisément, qui est responsable de la brutalité totalitaire.
+
+On nous propose donc de défendre une maladie contre la mort, à quoi elle mène nécessairement.
+
+Au lieu de nous refaire une santé. Au lieu de nous proposer une cure de désintoxication énergique. Au lieu de rechercher les moyens de penser dans le réel et l'actuel, et de surmonter enfin ce vice qu'est la distinction libérale entre la pensée et l'action.
+
+Au lieu de préciser, par exemple, le sens de ce mot d'engagement dont tout le monde abuse aujourd'hui.
+⁂
+Pour qu'une pensée s'engage dans le réel, il ne faut pas ni ne saurait suffire qu'elle se soumette à des réalités dont elle ignore ou répudie la loi interne : la tactique d'un parti par exemple. Ce n'est pas dans l'utilisation accidentelle et partisane d'une pensée que réside son engagement. C'est, au contraire, dans sa démarche intime, dans son élan premier, dans sa prise sur le réel et dans sa volonté de le transformer, donc finalement de le dominer.
+
+S'engager, ce n'est pas se mettre en location. Ce n'est pas « prêter » son nom ou son autorité. Ce n'est pas faire payer sa prose par Ce Soir plutôt que par l'Intransigeant. Ce n'est pas signer ici plutôt que là. Ce n'est pas passer de l'esclavage d'une mode à celui d'une tactique politique. Ce n'est pas du tout devenir esclave d'une doctrine, mais au contraire, c'est se libérer et assumer les risques de sa liberté.
+
+Il peut sembler paradoxal de soutenir que l'engagement d'une pensée suppose sa libération. En vérité, c'est le libéralisme qui a répandu l'idée que l'engagement ne peut être qu'un esclavage. La liberté réelle n'a pas de pires ennemis que les libéraux ; sinon en intention, du moins en fait. Les penseurs les plus violemment libres du xixe siècle, un Nietzsche, un Kierkegaard, un Baudelaire, ont été les plus violemment engagés dans la réalité. Et cela suffirait bien à définir le sens que nous donnons à ce mot d'engagement.
+⁂
+Je l'ai dit ailleurs : un gant qui se retourne ne devient pas pour si peu une main vivante et agissante. Un libéral qui se soumet aux directives d'un parti ne devient pas pour si peu un penseur engagé. Et il ne faudrait pas que ces trahisons insignes ridiculisent toute espèce d'engagement.
+
+Une pensée qui, par sa nature et son mouvement originel, est libérale, irresponsable, ne devient pas libératrice et responsable du seul fait qu'elle se met « au service » d'une doctrine de lutte politique. Faire la révolution, cela demande un effort un peu plus grand, et d'une autre nature, que l'effort de signer un manifeste ou de s'inscrire dans les rangs d'une ligue. On rougit de rappeler de tels truismes. Mais on y est bien forcé par le spectacle de l'intelligentsia française.
+
+Précisons donc encore : la première tâche des intellectuels qui ont compris le péril totalitaire (de droite ou de gauche) ce n'est pas « d'adhérer » à quelque antifascisme, mais de s'attaquer à la forme de pensée d'où vont nécessairement sortir le fascisme et le stalinisme. Et c'est la pensée libérale.
+
+Voyez donc comme nos libéraux se mettent d'eux-mêmes en rangs et marquent le pas dès qu'une menace se précise contre les libertés françaises ! Le réflexe du libéral devant le péril, c'est de faire un fascisme. Fût-ce même pour se défendre du fascisme. Et peut-être surtout dans ce cas ! La panique de « l'union sacrée » qui vient de souffler sur notre élite en est l'ahurissant exemple.
+
+Du moins a-t-elle eu cela de bon : les écrivains qui ont décidé tout récemment de renoncer à l'usage de leur pensée devant la menace hitlérienne (voir le manifeste de Ce Soir) ont exprimé en toute clarté qu'ils étaient de vrais libéraux, irresponsables nés, égarés pour un temps dans les voies de « l'engagement » politique, et faisant amende honorable. Ils étaient en rupture de bercail. Maintenant, tout est rentré dans l'ordre, les moutons se sont apaisés, et la situation s'éclaircit.
+
+Voici venir le temps des vrais dangers, c'est-à-dire des vraies luttes et des vrais engagements.
