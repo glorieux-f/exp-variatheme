@@ -39,7 +39,6 @@ def main():
     }
     for src_name in sorted(src_names):
         src = Path(src_name)
-        print(f"ERROR {src}", file=sys.stderr)
         doc = etree.parse(src)
         try:
             result = transform(

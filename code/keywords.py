@@ -1,28 +1,18 @@
 #!/usr/bin/env python3
-"""Generate ranked chapter keywords inside each author's corpus.
+"""Generate ranked document keywords from prefixed term-document TSV files.
 
-By default, input is ``../data`` and output is ``../results/1_keywords`` relative
-to this script.
+The input prefix identifies ``{prefix}docs.tsv``, ``{prefix}terms.tsv`` and
+``{prefix}postings.tsv``; a directory denotes an empty filename prefix.
 
-Each author corpus is selected by an identifier glob. Scorer statistics such as
-``df``, ``cf``, collection length and average document length are therefore
-computed inside that author's corpus, not across all five authors.
+For the Balzac/Dumas/Sand/Verne/Zola collection, rankings and scorer statistics
+are computed separately by author. Other collections are processed as a whole.
+The output name starts with the author code or input corpus prefix, e.g.::
 
-The scorers are those returned by ``scorers.default_scorers(corpus)``,
-optionally restricted with ``--scorer``. One file is written per author and
-scorer::
+    ddr-keywords100-content-g2a1.4.txt
 
-    <author>-keywords<N>-<vocab>-<scorer>.txt
+With ``--min-doc-len 1000`` the minimum is included before the scorer code.
 
-For example::
-
-    zola-keywords100-content-chi2a0.43.txt
-
-With ``--min-doc-len 1000`` the minimum is included before the scorer code::
-
-    zola-keywords100-content-min1000-chi2a0.43.txt
-
-Vocabulary modes are those of ``2_doc-vsm.py``:
+Vocabulary modes:
 
     all        all terms
     content    neither stopwords nor capitalized terms
@@ -33,30 +23,14 @@ Vocabulary modes are those of ``2_doc-vsm.py``:
     stopscaps  stopwords OR capitalized terms
 
 Modes involving stopwords use ``stopwords.txt`` next to this script unless
-``--stopwords`` supplies another file.
+``--stopwords`` supplies another file. Vocabulary selection does not alter
+corpus statistics. ``--min-doc-len`` affects only which documents are output.
+A keyword list contains only scores above the scorer's neutral value (1 for
+Simple Maths, 0 otherwise). ``--top 0`` disables truncation.
 
-The vocabulary filter is applied *after* scoring. It does not alter corpus
-statistics or document lengths. Likewise, ``--min-doc-len`` filters only the
-chapter rankings written to the output; scorer statistics are still computed on
-the complete author corpus. A keyword list only contains terms the scorer marks
-as keywords: scores above the scorer's neutral value, which is 1 for the Simple
-Maths ratio and 0 for every other scorer. Lists can therefore be shorter than
-``--top`` when a document has few over-represented terms. With ``--top 0``, no
-truncation is applied and all eligible over-represented terms are written.
-
-Each document is written as a two-line block followed by a blank line::
-
-    [identifier] creator — date — work — title
-    keyword1, keyword2, ...
-
-Only ``[identifier]`` is machine-significant on the metadata line.
-
-Existing output files are skipped before scorer computation, so interrupted runs can
-be resumed without recomputing finished author/scorer combinations. ``--force``
-recomputes and overwrites existing files. Scorers are processed one at a time. The
-console shows one in-place status line per scorer, with a spinner while it runs and DONE
-when it finishes. Each completed scorer is written immediately to a temporary name then
-renamed, so an error never leaves an empty or truncated final keyword file.
+Each document is written as a metadata line, a comma-separated keyword line,
+and a blank line. Existing outputs are skipped unless ``--force`` is specified.
+Completed scorer outputs are written via a temporary file then renamed.
 """
 
 from __future__ import annotations
@@ -97,19 +71,26 @@ VOCAB_MODES = (
 STOPWORD_VOCAB_MODES = {"content", "nostops", "stops", "stopscaps"}
 
 
-def author_corpora(base_corpus: Corpus) -> dict[str, Corpus]:
-    """Select every author corpus and check that together they cover the corpus."""
-    corpora = {
-        author_code: base_corpus.select(identifier_glob)
-        for author_code, identifier_glob in AUTHOR_GLOBS.items()
-    }
-    document_count = sum(corpus.n_docs for corpus in corpora.values())
-    if document_count != base_corpus.n_docs:
-        raise ValueError(
-            f"Author globs selected {document_count} documents, "
-            f"but corpus contains {base_corpus.n_docs}"
+def keyword_corpora(base_corpus: Corpus, input_prefix: str | Path) -> dict[str, Corpus]:
+    """Use author subcorpora for the five-author collection, else the entire corpus."""
+    counts = {
+        code: sum(
+            base_corpus.document(int(doc_id)).identifier.startswith(code)
+            for doc_id in base_corpus.doc_ids
         )
-    return corpora
+        for code in AUTHOR_GLOBS
+    }
+    if sum(counts.values()) == base_corpus.n_docs:
+        return {
+            code: base_corpus.select(AUTHOR_GLOBS[code])
+            for code, count in counts.items()
+            if count
+        }
+
+    label = Path(str(input_prefix).rstrip("/\\")).name.rstrip("-_.")
+    if not label:
+        raise ValueError(f"Cannot derive corpus label from prefix: {input_prefix!r}")
+    return {label: base_corpus}
 
 
 def clean_text(value: str) -> str:
@@ -118,7 +99,7 @@ def clean_text(value: str) -> str:
 
 
 def generate(
-    input_dir: Path,
+    input_prefix: str | Path,
     output_dir: Path,
     vocab_mode: str = "all",
     stopwords_path: Path | None = None,
@@ -127,7 +108,7 @@ def generate(
     min_doc_len: int = 0,
     force: bool = False,
 ) -> None:
-    """Generate one keyword file per author and scorer with progress logging."""
+    """Generate one keyword file per corpus and scorer with progress logging."""
     if top_n < 0:
         raise ValueError("top_n must be >= 0")
     if min_doc_len < 0:
@@ -150,14 +131,14 @@ def generate(
         log(f"Loaded {len(stopwords)} stopwords")
 
     load_start = perf_counter()
-    log(f"Loading corpus: {input_dir}")
-    base_corpus = Corpus.load(input_dir)
+    log(f"Loading corpus: {input_prefix}")
+    base_corpus = Corpus.load(input_prefix)
     log(
         f"Loaded corpus: {base_corpus.n_docs} documents, "
         f"{len(base_corpus.lemmas) - 1} terms in {perf_counter() - load_start:.1f}s"
     )
 
-    corpora = author_corpora(base_corpus)
+    corpora = keyword_corpora(base_corpus, input_prefix)
     candidates = keyword_mask(base_corpus, vocab_mode, stopwords)
     candidate_count = int(np.count_nonzero(candidates))
     log(f"Vocabulary {vocab_mode}: {candidate_count} candidate terms")
@@ -166,7 +147,7 @@ def generate(
 
     file_count = 0
     skipped_count = 0
-    for author_code, corpus in corpora.items():
+    for corpus_code, corpus in corpora.items():
         eligible_doc_ids = [
             int(doc_id)
             for doc_id in corpus.doc_ids
@@ -174,7 +155,7 @@ def generate(
         ]
         if not eligible_doc_ids:
             raise ValueError(
-                f"{author_code}: no documents with doc_len >= {min_doc_len}"
+                f"{corpus_code}: no documents with doc_len >= {min_doc_len}"
             )
 
         all_scorers = selected_scorers(corpus, scorer_codes)
@@ -183,7 +164,7 @@ def generate(
         generated_author = 0
         skipped_author = 0
         log(
-            f"{author_code}: {corpus.n_docs} documents, {eligible_count} eligible, "
+            f"{corpus_code}: {corpus.n_docs} documents, {eligible_count} eligible, "
             f"{scorer_count} scorers"
         )
 
@@ -193,13 +174,13 @@ def generate(
         for scorer_index, scorer in enumerate(all_scorers, start=1):
             path = keyword_output_path(
                 output_dir,
-                author_code,
+                corpus_code,
                 scorer.code,
                 vocab_mode,
                 top_n,
                 min_doc_len,
             )
-            prefix = f"{author_code} [{scorer_index}/{scorer_count}] {scorer.code}"
+            prefix = f"{corpus_code} [{scorer_index}/{scorer_count}] {scorer.code}"
             if path.exists() and not force:
                 skipped_count += 1
                 skipped_author += 1
@@ -279,7 +260,7 @@ def generate(
             print(f"\r{status} DONE ({elapsed:.1f}s)", flush=True)
 
         log(
-            f"{author_code}: DONE; {generated_author} generated, "
+            f"{corpus_code}: DONE; {generated_author} generated, "
             f"{skipped_author} existing files skipped"
         )
 
@@ -298,16 +279,16 @@ def generate(
 
 def keyword_output_path(
     output_dir: Path,
-    author_code: str,
+    corpus_code: str,
     scorer_code: str,
     vocab_mode: str,
     top_n: int,
     min_doc_len: int = 0,
 ) -> Path:
-    """Return the keyword output path for one author/scorer combination."""
+    """Return the keyword output path for one corpus/scorer combination."""
     min_tag = f"-min{min_doc_len}" if min_doc_len > 0 else ""
     filename = (
-        f"{author_code}-keywords{top_n}-{vocab_mode}{min_tag}-{scorer_code}.txt"
+        f"{corpus_code}-keywords{top_n}-{vocab_mode}{min_tag}-{scorer_code}.txt"
     )
     return output_dir / filename
 
@@ -371,7 +352,7 @@ def main() -> None:
     """Run the keyword experiment."""
     args = parse_args()
     generate(
-        args.input_dir,
+        args.input_prefix,
         args.output_dir,
         vocab_mode=args.vocab,
         stopwords_path=args.stopwords,
@@ -421,20 +402,19 @@ def normalize_word(value: str) -> str:
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(
-        description="Generate ranked chapter keywords within each author's corpus."
+        description="Generate ranked document keywords from prefixed term-document TSV files."
     )
     script_dir = Path(__file__).resolve().parent
     default_input = (script_dir / ".." / "data").resolve()
     default_output = (script_dir / ".." / "results" / "1_keywords").resolve()
 
     parser.add_argument(
-        "input_dir",
+        "input_prefix",
         nargs="?",
-        type=Path,
-        default=default_input,
+        default=str(default_input),
         help=(
-            "Directory containing docs.tsv, terms.tsv, and postings.tsv "
-            f"(default: {default_input})"
+            "Prefix for {prefix}docs.tsv, {prefix}terms.tsv and "
+            f"{{prefix}}postings.tsv (default: {default_input})"
         ),
     )
     parser.add_argument(
@@ -488,7 +468,7 @@ def parse_args() -> argparse.Namespace:
         default=0,
         help=(
             "Write only documents with doc_len >= this value; scorer statistics "
-            "still use the complete author corpus (default: 0)"
+            "still use the complete selected corpus (default: 0)"
         ),
     )
     parser.add_argument(

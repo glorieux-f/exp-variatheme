@@ -137,7 +137,28 @@
       <xsl:value-of select="$lf"/>
       <xsl:value-of select="$yamline"/>
       <xsl:value-of select="$lf"/>
-      <xsl:apply-templates mode="md"/>
+      <xsl:choose>
+        <xsl:when test="tei:div[@type='chapter']">
+          <xsl:variable name="first-div" select="(
+              tei:back
+            | tei:body
+            | tei:front
+            | tei:group
+            | tei:div
+            | tei:div0
+            | tei:div1
+            | tei:div2
+            | tei:div3
+            | tei:div4
+            | tei:div5
+            | tei:div6
+            )[1]"/>
+          <xsl:apply-templates select="$first-div/preceding-sibling::node()" mode="md"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="md"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </exsl:document>
   </xsl:template>
   <xsl:template match="tei:note" mode="md"/>
