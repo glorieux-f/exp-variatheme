@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns="http://www.w3.org/1999/xhtml" 
   xmlns:tei="http://www.tei-c.org/ns/1.0" 
-  xmlns:data="urn:data" 
+  exclude-result-prefixes="tei"
   xmlns:exsl="http://exslt.org/common"
   extension-element-prefixes="exsl"
-  exclude-result-prefixes="tei html data"
   >
   <xsl:include href="../../../teinte-xsl/tei_txt/tei_markdown.xsl"/>
   <xsl:param name="filename"/>
   <xsl:param name="outdir"/>
+  <xsl:variable name="issued">
+    <xsl:variable name="date" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr/tei:imprint/tei:date"/>
+    <xsl:choose>
+      <xsl:when test="$date/@when">
+        <xsl:value-of select="$date/@when"/>
+      </xsl:when>
+      <xsl:when test="$date != ''">
+        <xsl:value-of select="$date"/>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:variable>
   <xsl:variable name="chapcount" select="count(/tei:TEI/tei:text//tei:div[@type='chapter'])"/>
   <xsl:variable name="artcount" select="count(/tei:TEI/tei:text//tei:div[@type='article'])"/>
   <xsl:variable name="chapformat">
@@ -68,6 +78,11 @@
           <xsl:text>created: </xsl:text>
           <xsl:value-of select="$docdate"/>
           <xsl:value-of select="$lf"/>
+          <xsl:if test="$issued != '' and substring($issued, 1, 4) != substring($docdate, 1, 4)">
+            <xsl:text>issued: </xsl:text>
+            <xsl:value-of select="$issued"/>
+            <xsl:value-of select="$lf"/>
+          </xsl:if>
           <xsl:text>title: </xsl:text>
           <xsl:call-template name="quote">
             <xsl:with-param name="value" select="$doctitle"/>
@@ -115,16 +130,23 @@
       <xsl:text>creator: </xsl:text>
       <xsl:value-of select="$author1"/>
       <xsl:value-of select="$lf"/>
-      <xsl:text>created: </xsl:text>
       <xsl:choose>
         <xsl:when test="@when">
+          <xsl:text>created: </xsl:text>
           <xsl:value-of select="@when"/>
+          <xsl:value-of select="$lf"/>
         </xsl:when>
         <xsl:otherwise>
+          <xsl:text>created: </xsl:text>
           <xsl:value-of select="$docdate"/>
+          <xsl:value-of select="$lf"/>
+          <xsl:if test="$issued != '' and substring($issued, 1, 4) != substring($docdate, 1, 4)">
+            <xsl:text>issued: </xsl:text>
+            <xsl:value-of select="$issued"/>
+            <xsl:value-of select="$lf"/>
+          </xsl:if>
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:value-of select="$lf"/>
       <xsl:text>isPartOf: </xsl:text>
       <xsl:call-template name="quote">
         <xsl:with-param name="value" select="$doctitle"/>
