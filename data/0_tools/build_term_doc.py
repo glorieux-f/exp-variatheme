@@ -169,7 +169,7 @@ def build(input_pattern: str, output_prefix: Path) -> None:
     with output_paths["docs.tsv"].open("w", encoding="utf-8", newline="\n") as stream:
         write_row(
             stream,
-            ("doc_id", "identifier", "creator", "created", "modified", "work", "title", "doc_len"),
+            ("doc_id", "identifier", "creator", "created", "issued", "work", "title", "doc_len"),
         )
         for doc_id, (_, metadata, doc_len) in enumerate(documents, 1):
             write_row(
@@ -179,7 +179,7 @@ def build(input_pattern: str, output_prefix: Path) -> None:
                     metadata.get("identifier", ""),
                     metadata.get("creator", ""),
                     metadata.get("created", ""),
-                    metadata.get("modified", ""),
+                    metadata.get("issued", ""),
                     metadata.get("isPartOf", ""),
                     metadata.get("title", ""),
                     doc_len,
