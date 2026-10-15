@@ -45,6 +45,7 @@
   <xsl:template match="/">
     <xsl:value-of select="$lf"/>
     <xsl:choose>
+      <!--
       <xsl:when test="contains('
         ddr19290300mip
         ddr19341025polpers
@@ -57,6 +58,7 @@
         ddr19680314jde
         ddr19560200ao
         ',$bookid)"/>
+      -->
       <xsl:when test="$chapcount > 1">
         <xsl:apply-templates select="/tei:TEI/tei:text//tei:div[@type='chapter']"/>
       </xsl:when>
