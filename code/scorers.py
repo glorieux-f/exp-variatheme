@@ -798,14 +798,17 @@ def _g2_values(
 class G2(Scorer):
     """Single-cell observed-versus-expected log-likelihood contribution.
 
-    E = cf * dl / CL
-    G2 = 2 * tf * ln(tf / E) if tf > 0, else 0
+    G2 = 2 * O * ln(O / E) if O > 0, else 0
+    O = tf
+    E = dl * cf / CL
 
-    tf : term frequency in document (observed)
-    cf : collection frequency of term
-    dl : document length
-    CL : collection length
-    E : expected frequency in the document
+    tf : observed term frequency in the document
+    cf : total term frequency in the corpus
+    dl : document length in tokens
+    CL : corpus length in tokens
+
+    E is the number of occurrences expected in a document of length dl if
+    the term had the same relative frequency as in the whole corpus (cf / CL).
 
     This is one contribution to the full G² statistic, not a complete
     likelihood-ratio test. It is positive above expectation, negative below
@@ -841,12 +844,26 @@ class G2(Scorer):
 class fullG2(Scorer):
     """Full unsigned likelihood-ratio G² on a 2 x 2 document-vs-rest table.
 
-    G2 = 2 * sum(O * ln(O / E))
+    G2 = 2 * sum(O * ln(O / E)) over the four cells; O = 0 contributes 0.
+
+    Observed counts O (rows: document, rest; columns: term, other terms):
+
+                     term       other terms
+        document     tf         dl - tf
+        rest         cf - tf    CL - dl - cf + tf
+
+    Each expected count E assumes independence between term and document:
+    E = (row total * column total) / CL. Hence:
+
+        E_document_term  = dl * cf / CL
+        E_document_other = dl * (CL - cf) / CL
+        E_rest_term      = (CL - dl) * cf / CL
+        E_rest_other     = (CL - dl) * (CL - cf) / CL
 
     tf : term frequency in document
     cf : collection frequency of term
-    dl : document length
-    CL : collection length
+    dl : document length in tokens
+    CL : corpus length in tokens
 
     G² is non-negative. Direction is deliberately not encoded here; use
     SignedG2 when over- and under-representation must be distinguished.
