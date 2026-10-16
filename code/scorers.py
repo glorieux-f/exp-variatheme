@@ -26,8 +26,10 @@ _SCORER_LABELS = {
     "btfidf": "BTF-IDF",
     "tficf": "TF-ICF",
     "bm25": "BM25",
-    "g2": "G² (single cell)",
-    "fullg2": "Full G²",
+    "g2": "G²",
+    "simpleg2": "simple G²",
+    "g2idf": "G²-IDF",
+    "poissondev": "Signed Poisson deviance",
     "g2signed": "signed G²",
     "g2pos": "G²+",
     "g2neg": "G²−",
@@ -795,7 +797,7 @@ def _g2_values(
     return g2, sign, invalid
 
 
-class G2(Scorer):
+class simpleG2(Scorer):
     """Single-cell observed-versus-expected log-likelihood contribution.
 
     G2 = 2 * O * ln(O / E) if O > 0, else 0
@@ -812,13 +814,13 @@ class G2(Scorer):
 
     This is one contribution to the full G² statistic, not a complete
     likelihood-ratio test. It is positive above expectation, negative below
-    expectation, and zero at expectation. Compare with fullG2.
+    expectation, and zero at expectation. Compare with G2.
     """
 
     @property
     def code(self) -> str:
         """Return the filename code."""
-        return "g2"
+        return "simpleg2"
 
     def score_terms(
         self,
@@ -841,7 +843,7 @@ class G2(Scorer):
         return scores
 
 
-class fullG2(Scorer):
+class G2(Scorer):
     """Full unsigned likelihood-ratio G² on a 2 x 2 document-vs-rest table.
 
     G2 = 2 * sum(O * ln(O / E)) over the four cells; O = 0 contributes 0.
@@ -874,7 +876,7 @@ class fullG2(Scorer):
     @property
     def code(self) -> str:
         """Return the filename code."""
-        return "fullg2"
+        return "g2"
 
     def score_terms(
         self,
@@ -885,6 +887,106 @@ class fullG2(Scorer):
         """Return ordinary unsigned full G² values."""
         g2, _, _ = _g2_values(self.corpus, doc_id, term_ids, tf)
         return g2
+
+
+class G2IDF(Scorer):
+    """Single-cell observed-versus-expected contribution times classical IDF.
+
+    G2-IDF = 2 * O * ln(O / E) * ln(N / df), for O > 0; otherwise 0.
+    O = tf
+    E = dl * cf / CL
+
+    tf : observed term frequency in the document
+    cf : collection frequency of the term
+    dl : document length in tokens
+    CL : corpus length in tokens
+    N : number of documents
+    df : number of documents containing the term
+
+    This uses only one cell, not the full four-cell G² statistic.
+    The single-cell contribution may be negative when O < E.
+    """
+
+    def __init__(self, corpus: TermDocCorpus) -> None:
+        super().__init__(corpus)
+        self._idf = np.zeros(len(corpus.df), dtype=np.float64)
+        valid = corpus.df > 0
+        self._idf[valid] = np.log(corpus.n_docs / corpus.df[valid])
+
+    @property
+    def code(self) -> str:
+        """Return the filename code."""
+        return "g2idf"
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Calculate G²-IDF directly from observed and expected counts."""
+        observed = np.asarray(tf, dtype=np.float64)
+        expected = (
+            np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
+            * float(self.corpus.doc_len[doc_id])
+            / float(self.corpus.collection_len)
+        )
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        valid = (observed > 0.0) & (expected > 0.0)
+        scores[valid] = (
+            2.0 * observed[valid]
+            * np.log(observed[valid] / expected[valid])
+            * self._idf[term_ids[valid]]
+        )
+        return scores
+
+
+class SignedPoissonDeviance(Scorer):
+    """Signed Poisson deviance for observed versus expected term counts.
+
+    D = sign(O - E) * 2 * (O * ln(O / E) - O + E)
+    O = tf
+    E = dl * cf / CL
+
+    tf : observed term frequency in the document
+    cf : collection frequency of the term
+    dl : document length in tokens
+    CL : corpus length in tokens
+
+    The O * ln(O / E) term is defined as 0 when O = 0, giving -2 * E
+    for a term absent from the document (E > 0). The signed deviance is
+    positive above expectation, negative below, and zero at expectation.
+    """
+
+    @property
+    def code(self) -> str:
+        """Return the filename code."""
+        return "poissondev"
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Return the signed Poisson deviance for each term."""
+        observed = np.asarray(tf, dtype=np.float64)
+        expected = (
+            np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
+            * float(self.corpus.doc_len[doc_id])
+            / float(self.corpus.collection_len)
+        )
+        deviance = np.zeros(observed.shape, dtype=np.float64)
+        valid = expected > 0.0
+        deviance[valid] = expected[valid]  # O = 0: O * ln(O/E) = 0
+        positive = valid & (observed > 0.0)
+        deviance[positive] += (
+            observed[positive] * np.log(observed[positive] / expected[positive])
+            - observed[positive]
+        )
+        # The deviance is non-negative; avoid negative round-off at O ~= E.
+        deviance[valid] = np.maximum(deviance[valid], 0.0)
+        return 2.0 * np.sign(observed - expected) * deviance
 
 
 class SignedG2(Scorer):
@@ -2091,7 +2193,8 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     DocumentFrequency,
     ExclusiveTf,
     G2,
-    fullG2,
+    G2IDF,
+    simpleG2,
     G2Alpha,
     G2Neg,
     G2Pos,
@@ -2104,6 +2207,7 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     MutualInformation3,
     MutualInformationLogFrequency,
     SignedG2,
+    SignedPoissonDeviance,
     SimpleMaths,
     SubTf,
     SubTfIdf,
@@ -2145,7 +2249,9 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         DocumentFrequency(corpus),
         ExclusiveTf(corpus),
         G2(corpus),
-        fullG2(corpus),
+        simpleG2(corpus),
+        G2IDF(corpus),
+        SignedPoissonDeviance(corpus),
         G2Alpha(corpus, 00.0),
         G2Alpha(corpus, 00.25),
         G2Alpha(corpus, 00.5),
@@ -2214,7 +2320,8 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     """Create a scorer from its stable experiment code.
 
     Canonical codes include ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
-    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``fullg2``, ``chi2``,
+    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
+    ``poissondev``, ``chi2``,
     ``zscore``, ``tscore``, ``mi``, ``logdice``, ``mi3``, ``milogf``,
     ``minsens``, ``extf``, ``logratio`` and ``simplemaths``.
 
@@ -2238,7 +2345,9 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "txmabs": TxmAbs,
         "bm25": BM25,
         "g2": G2,
-        "fullg2": fullG2,
+        "simpleg2": simpleG2,
+        "g2idf": G2IDF,
+        "poissondev": SignedPoissonDeviance,
         "g2signed": SignedG2,
         "g2pos": G2Pos,
         "g2neg": G2Neg,
