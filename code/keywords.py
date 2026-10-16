@@ -366,11 +366,11 @@ def main() -> None:
 def metadata_line(document: Document) -> str:
     """Return the human-readable metadata line for one document."""
     created = clean_text(document.created)
-    modified = clean_text(document.modified)
-    if created and modified and modified != created:
-        date = f"{created}–{modified}"
+    issued = clean_text(document.issued)
+    if created and issued and issued != created:
+        date = f"{created}–{issued}"
     else:
-        date = created or modified
+        date = created or issued
 
     parts = [
         clean_text(document.creator),

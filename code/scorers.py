@@ -26,7 +26,8 @@ _SCORER_LABELS = {
     "btfidf": "BTF-IDF",
     "tficf": "TF-ICF",
     "bm25": "BM25",
-    "g2": "G²",
+    "g2": "G² (single cell)",
+    "fullg2": "Full G²",
     "g2signed": "signed G²",
     "g2pos": "G²+",
     "g2neg": "G²−",
@@ -795,7 +796,50 @@ def _g2_values(
 
 
 class G2(Scorer):
-    """Unsigned likelihood-ratio G² on a 2 x 2 document-vs-rest table.
+    """Single-cell observed-versus-expected log-likelihood contribution.
+
+    E = cf * dl / CL
+    G2 = 2 * tf * ln(tf / E) if tf > 0, else 0
+
+    tf : term frequency in document (observed)
+    cf : collection frequency of term
+    dl : document length
+    CL : collection length
+    E : expected frequency in the document
+
+    This is one contribution to the full G² statistic, not a complete
+    likelihood-ratio test. It is positive above expectation, negative below
+    expectation, and zero at expectation. Compare with fullG2.
+    """
+
+    @property
+    def code(self) -> str:
+        """Return the filename code."""
+        return "g2"
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Score observed frequencies against their corpus expectations."""
+        observed = np.asarray(tf, dtype=np.float64)
+        expected = (
+            np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
+            * float(self.corpus.doc_len[doc_id])
+            / float(self.corpus.collection_len)
+        )
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        valid = (observed > 0.0) & (expected > 0.0)
+        scores[valid] = 2.0 * observed[valid] * np.log(
+            observed[valid] / expected[valid]
+        )
+        return scores
+
+
+class fullG2(Scorer):
+    """Full unsigned likelihood-ratio G² on a 2 x 2 document-vs-rest table.
 
     G2 = 2 * sum(O * ln(O / E))
 
@@ -813,7 +857,7 @@ class G2(Scorer):
     @property
     def code(self) -> str:
         """Return the filename code."""
-        return "g2"
+        return "fullg2"
 
     def score_terms(
         self,
@@ -821,7 +865,7 @@ class G2(Scorer):
         term_ids: IntArray,
         tf: IntArray,
     ) -> FloatArray:
-        """Return ordinary unsigned G² values."""
+        """Return ordinary unsigned full G² values."""
         g2, _, _ = _g2_values(self.corpus, doc_id, term_ids, tf)
         return g2
 
@@ -2030,6 +2074,7 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     DocumentFrequency,
     ExclusiveTf,
     G2,
+    fullG2,
     G2Alpha,
     G2Neg,
     G2Pos,
@@ -2083,6 +2128,7 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         DocumentFrequency(corpus),
         ExclusiveTf(corpus),
         G2(corpus),
+        fullG2(corpus),
         G2Alpha(corpus, 00.0),
         G2Alpha(corpus, 00.25),
         G2Alpha(corpus, 00.5),
@@ -2151,7 +2197,7 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     """Create a scorer from its stable experiment code.
 
     Canonical codes include ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
-    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``chi2``,
+    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``fullg2``, ``chi2``,
     ``zscore``, ``tscore``, ``mi``, ``logdice``, ``mi3``, ``milogf``,
     ``minsens``, ``extf``, ``logratio`` and ``simplemaths``.
 
@@ -2175,6 +2221,7 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "txmabs": TxmAbs,
         "bm25": BM25,
         "g2": G2,
+        "fullg2": fullG2,
         "g2signed": SignedG2,
         "g2pos": G2Pos,
         "g2neg": G2Neg,

@@ -115,8 +115,9 @@ def main() -> None:
     writer.writerow(("file_a", "file_b", "score"))
     for (a, b), score in sorted(scores.items(), key=lambda item: (-item[1], item[0])):
         if score >= args.min_score:
-            writer.writerow((paths[a].relative_to(args.directory),
-                             paths[b].relative_to(args.directory), f"{score:.3f}"))
+            writer.writerow((paths[a].relative_to(args.directory).with_suffix(""),
+                 paths[b].relative_to(args.directory).with_suffix(""),
+                 f"{score:.3f}"))
 
 
 if __name__ == "__main__":

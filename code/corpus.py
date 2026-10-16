@@ -25,7 +25,7 @@ class Document:
     identifier: str
     creator: str
     created: str
-    modified: str
+    issued: str
     work: str
     title: str
     doc_len: int
@@ -259,7 +259,7 @@ class Corpus:
     def _load_docs(path: Path) -> tuple[list[Document | None], np.ndarray]:
         rows = Corpus._read_tsv(
             path,
-            ["doc_id", "identifier", "creator", "created", "modified", "work", "title", "doc_len"],
+            ["doc_id", "identifier", "creator", "created", "issued", "work", "title", "doc_len"],
         )
 
         n_docs = len(rows)
@@ -276,7 +276,7 @@ class Corpus:
                 identifier=row["identifier"],
                 creator=row["creator"],
                 created=row["created"],
-                modified=row["modified"],
+                issued=row["issued"],
                 work=row["work"],
                 title=row["title"],
                 doc_len=int(row["doc_len"]),
