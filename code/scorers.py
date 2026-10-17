@@ -9,6 +9,7 @@ from typing import Protocol
 
 import numpy as np
 from scipy.stats import hypergeom
+from scipy.special import expit, gammaln
 from numpy.typing import NDArray
 
 
@@ -31,6 +32,7 @@ _SCORER_LABELS = {
     "g2idf": "G²-IDF (DF-adjusted 2×2)",
     "poissondev": "Signed Poisson deviance",
     "poissonidf": "Poisson-IDF",
+    "twopoisson": "Two-Poisson",
     "g2signed": "signed G²",
     "g2pos": "G²+",
     "g2neg": "G²−",
@@ -44,6 +46,7 @@ _SCORER_LABELS = {
     "minsens": "MinSens",
     "hgt": "HGT",
     "txm": "TXM",
+    "txmfast": "TXM (recurrence)",
     "txmpos": "TXM+",
     "txmneg": "TXM−",
     "txmabs": "|TXM|",
@@ -1192,6 +1195,160 @@ class PoissonIDF(SignedPoissonDeviance):
         return super().score_terms(doc_id, term_ids, tf) * self._df_weight[term_ids]
 
 
+class TwoPoisson(Scorer):
+    """Length-aware two-Poisson mixture for topical versus background usage.
+
+    For each term, document counts X_j are fitted by maximum likelihood:
+
+        X_j ~ (1 - pi) * Pois(lambda_0 * dl_j / avg_dl)
+                + pi  * Pois(lambda_1 * dl_j / avg_dl)
+
+    with 0 < lambda_0 < lambda_1 and pi the topical-document prior.
+    Parameters are estimated by EM from *all* document counts, including zeros.
+    The score is the log posterior odds of the topical component:
+
+        log(pi / (1 - pi)) + tf * log(lambda_1 / lambda_0)
+        - (lambda_1 - lambda_0) * dl / avg_dl
+
+    This retains a useful ranking range when probabilities saturate near 1.
+    Document frequency is reflected in the zero counts in the likelihood,
+    rather than introduced as a separate IDF multiplier. This is a heuristic
+    keyword score based on a fitted mixture, not a document likelihood ratio.
+
+    A two-component fit is accepted only if its BIC improves on the single-
+    Poisson fit (two additional parameters); otherwise the term receives zero
+    score. That model-selection rule avoids spurious topical components for
+    insufficiently supported words, especially single occurrences.
+
+    Fits are cached per term. On first use, term counts are obtained through
+    corpus.tf(term_id, doc_id) for every document. Optionally, a corpus can
+    provide postings_for_term(term_id) -> (doc_ids, frequencies), reducing the
+    time needed to retrieve the nonzero counts. No additional dependency is
+    required by the existing TermDocCorpus interface.
+    """
+
+    def __init__(self, corpus: TermDocCorpus) -> None:
+        super().__init__(corpus)
+        if corpus.avg_doc_len <= 0.0 or corpus.n_docs <= 0:
+            raise ValueError("TwoPoisson requires a nonempty corpus")
+        self._exposure = np.asarray(
+            corpus.doc_len[1:corpus.n_docs + 1], dtype=np.float64
+        ) / corpus.avg_doc_len
+        self._valid_docs = self._exposure > 0.0
+        self._exposure_valid = self._exposure[self._valid_docs]
+        self._n_valid = int(np.count_nonzero(self._valid_docs))
+        count = len(corpus.cf)
+        self._fitted = np.zeros(count, dtype=np.bool_)
+        self._log_prior = np.zeros(count, dtype=np.float64)
+        self._log_rate_ratio = np.zeros(count, dtype=np.float64)
+        self._rate_difference = np.zeros(count, dtype=np.float64)
+
+    @property
+    def code(self) -> str:
+        return "twopoisson"
+
+    @property
+    def name(self) -> str:
+        return "Two-Poisson topical/background mixture"
+
+    def _fit_term(self, term_id: int) -> None:
+        """Fit a two-component Poisson mixture once, using EM and BIC."""
+        if self._fitted[term_id]:
+            return
+        self._fitted[term_id] = True
+        if self._n_valid < 3 or int(self.corpus.cf[term_id]) < 2:
+            return
+
+        # An optional term-oriented accessor avoids N scalar tf() lookups.
+        get_postings = getattr(self.corpus, "postings_for_term", None)
+        if callable(get_postings):
+            doc_ids, frequencies = get_postings(term_id)
+            counts = np.zeros(self.corpus.n_docs, dtype=np.float64)
+            ids = np.asarray(doc_ids, dtype=np.int64)
+            counts[ids - 1] = np.asarray(frequencies, dtype=np.float64)
+        else:
+            counts = np.fromiter(
+                (self.corpus.tf(term_id, doc_id)
+                 for doc_id in range(1, self.corpus.n_docs + 1)),
+                dtype=np.float64, count=self.corpus.n_docs,
+            )
+        y = counts[self._valid_docs]
+        x = self._exposure_valid
+        if np.any(y < 0.0) or np.any(~np.isfinite(y)):
+            raise ValueError(f"Invalid term frequencies for term ID {term_id}")
+        total = float(y.sum())
+        if total < 2.0:
+            return
+        mean = total / float(x.sum())
+        nonzero = int(np.count_nonzero(y))
+
+        # Start with rare topical documents, a low background intensity, and
+        # a higher topical intensity. All rates are measured per avg document.
+        pi = float(np.clip(0.7 * nonzero / self._n_valid,
+                           1.0 / self._n_valid, 0.6))
+        lam0 = max(mean * 0.1, 1e-9)
+        lam1 = max((mean - (1.0 - pi) * lam0) / pi, lam0 * 1.01)
+
+        for _ in range(80):
+            odds = (np.log(pi / (1.0 - pi))
+                    + y * np.log(lam1 / lam0) - (lam1 - lam0) * x)
+            q = expit(odds)
+            pi_new = float(np.clip(np.mean(q), 1e-9, 1.0 - 1e-9))
+            lam0_new = max(float(np.dot(1.0 - q, y) / np.dot(1.0 - q, x)), 1e-9)
+            lam1_new = max(float(np.dot(q, y) / np.dot(q, x)), 1e-9)
+            if lam0_new > lam1_new:
+                lam0_new, lam1_new = lam1_new, lam0_new
+                pi_new = 1.0 - pi_new
+            change = max(
+                abs(pi_new - pi),
+                abs(np.log(lam0_new / lam0)),
+                abs(np.log(lam1_new / lam1)),
+            )
+            pi, lam0, lam1 = pi_new, lam0_new, lam1_new
+            if change < 1e-6:
+                break
+
+        # Compare mixture and single Poisson likelihoods; factorial terms
+        # cancel. A fitted mixture has 3 parameters versus 1 for the null.
+        background = y * np.log(lam0 * x) - lam0 * x
+        topical = y * np.log(lam1 * x) - lam1 * x
+        ll_mixture = np.logaddexp(
+            np.log1p(-pi) + background,
+            np.log(pi) + topical,
+        ).sum()
+        ll_single = np.sum(y * np.log(mean * x) - mean * x)
+        bic_gain = 2.0 * (ll_mixture - ll_single) - 2.0 * np.log(self._n_valid)
+        if bic_gain <= 0.0 or lam1 <= lam0 * (1.0 + 1e-6):
+            return
+
+        self._log_prior[term_id] = np.log(pi / (1.0 - pi))
+        self._log_rate_ratio[term_id] = np.log(lam1 / lam0)
+        self._rate_difference[term_id] = lam1 - lam0
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Return topical-component posterior log odds for aligned terms."""
+        ids = np.asarray(term_ids, dtype=np.int64)
+        observed = np.asarray(tf, dtype=np.float64)
+        if ids.shape != observed.shape:
+            raise ValueError("term_ids and tf must have the same shape")
+        for term_id in np.unique(ids[~self._fitted[ids]]):
+            self._fit_term(int(term_id))
+        exposure = float(self.corpus.doc_len[doc_id]) / self.corpus.avg_doc_len
+        scores = (
+            self._log_prior[ids] + observed * self._log_rate_ratio[ids]
+            - exposure * self._rate_difference[ids]
+        )
+        # Absent terms are not keyword candidates.
+        scores[observed <= 0.0] = 0.0
+        # If EM does not justify a mixture, zero is a neutral score.
+        return scores
+
+
 class SignedG2(Scorer):
     """Directional G² association score.
 
@@ -2191,6 +2348,139 @@ class Txm(Scorer):
         return scores
 
 
+class TxmFast(Scorer):
+    """Signed TXM specificity using a logarithmic hypergeometric tail recurrence.
+
+    Uses the same hypergeometric model, mode-based sign, and base-10 scores
+    as :class:`Txm`. The calculation follows Camacho-Collados, Pilehvar &
+    Navigli (2016), Section 3.1.1: start from log P(X=tf), accumulate ratios
+    P(X=k+1)/P(X=k) (or the reverse ratios for the lower tail), and stop
+    when the remaining tail is negligible. There is no vocabulary filtering
+    or score threshold.
+
+    Camacho-Collados, J., Pilehvar, M. T. & Navigli, R. (2016).
+    "Nasari: Integrating explicit knowledge and corpus statistics for a
+    multilingual representation of concepts and entities." Artificial
+    Intelligence 240: 36-64. doi:10.1016/j.artint.2016.07.005.
+    """
+
+    MAX_SCORE = 1000.0
+    # Truncation targets 1e-12 relative error in each probability tail.
+    TAIL_RTOL = 1e-12
+
+    @property
+    def code(self) -> str:
+        return "txmfast"
+
+    @property
+    def name(self) -> str:
+        return "TXM recurrence"
+
+    @staticmethod
+    def _log_tail(
+        counts: IntArray,
+        corpus_term: IntArray,
+        doc_len: int,
+        collection_len: int,
+        upper: bool,
+    ) -> FloatArray:
+        """Compute log P(X>=k) or log P(X<=k) without underflow.
+
+        All input arrays are aligned and valid. Active tails advance together
+        with NumPy operations; the only Python loop is over tail *depth*, not
+        individual term/document pairs.
+        """
+        k = np.asarray(counts, dtype=np.float64)
+        K = np.asarray(corpus_term, dtype=np.float64)
+        n = float(doc_len)
+        M = float(collection_len)
+
+        # log C(K,k) + log C(M-K,n-k) - log C(M,n)
+        log_pmf = (
+            gammaln(K + 1.0) - gammaln(k + 1.0)
+            - gammaln(K - k + 1.0)
+            + gammaln(M - K + 1.0) - gammaln(n - k + 1.0)
+            - gammaln(M - K - n + k + 1.0)
+            - (gammaln(M + 1.0) - gammaln(n + 1.0)
+               - gammaln(M - n + 1.0))
+        )
+
+        endpoint = np.minimum(K, n) if upper else np.maximum(0.0, n - (M - K))
+        current = k.copy()
+        term = np.ones(k.shape, dtype=np.float64)
+        total = np.ones(k.shape, dtype=np.float64)
+        active = current < endpoint if upper else current > endpoint
+        while np.any(active):
+            a = np.flatnonzero(active)
+            position = current[a]
+            if upper:
+                ratio = ((K[a] - position) * (n - position)) / (
+                    (position + 1.0) * (M - K[a] - n + position + 1.0)
+                )
+                current[a] += 1.0
+            else:
+                ratio = (position * (M - K[a] - n + position)) / (
+                    (K[a] - position + 1.0) * (n - position + 1.0)
+                )
+                current[a] -= 1.0
+
+            term[a] *= ratio
+            total[a] += term[a]
+            # Past the mode, recurrence ratios decrease. The omitted tail is
+            # bounded geometrically by term * ratio/(1-ratio). A conservative
+            # bound avoids stopping too early for broad hypergeom tails.
+            bound = np.zeros_like(ratio)
+            decreasing = ratio < 1.0
+            bound[decreasing] = (
+                term[a][decreasing] * ratio[decreasing]
+                / (1.0 - ratio[decreasing])
+            )
+            # Continue until the estimated remaining mass is small, or until
+            # the support endpoint is reached. The bound is based on the last
+            # recurrence ratio, which is an upper bound on subsequent ratios.
+            active[a] = (
+                ((current[a] < endpoint[a]) if upper else (current[a] > endpoint[a]))
+                & (~decreasing | (bound > TxmFast.TAIL_RTOL * total[a]))
+            )
+
+        return log_pmf + np.log(total)
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Score terms using signed hypergeometric tail surprisal."""
+        observed = np.asarray(tf, dtype=np.int64)
+        corpus_term = np.asarray(self.corpus.cf[term_ids], dtype=np.int64)
+        part_size = int(self.corpus.doc_len[doc_id])
+        corpus_size = int(self.corpus.collection_len)
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        if part_size <= 0 or corpus_size <= 0 or part_size > corpus_size:
+            return scores
+        invalid = (
+            (observed < 0) | (corpus_term < observed)
+            | (corpus_term > corpus_size) | (observed > part_size)
+        )
+        mode = np.floor(
+            (corpus_term.astype(np.float64) + 1.0)
+            * (part_size + 1.0) / (corpus_size + 2.0)
+        ).astype(np.int64)
+        positive = (observed > mode) & ~invalid
+        if np.any(positive):
+            lp = self._log_tail(observed[positive], corpus_term[positive],
+                                part_size, corpus_size, upper=True)
+            scores[positive] = np.minimum(-lp / np.log(10.0), self.MAX_SCORE)
+        negative = (observed < mode) & ~invalid
+        if np.any(negative):
+            lp = self._log_tail(observed[negative], corpus_term[negative],
+                                part_size, corpus_size, upper=False)
+            scores[negative] = np.maximum(lp / np.log(10.0), -self.MAX_SCORE)
+        scores[invalid] = np.nan
+        return scores
+
+
 class TxmPos(Txm):
     """Positive TXM specificity only: over-representation magnitude."""
 
@@ -2413,6 +2703,7 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     SignedG2,
     SignedPoissonDeviance,
     PoissonIDF,
+    TwoPoisson,
     SimpleMaths,
     SubTf,
     SubTfIdf,
@@ -2423,6 +2714,7 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     TfIdfAlpha,
     TScore,
     Txm,
+    TxmFast,
     TxmAbs,
     TxmNeg,
     TxmPos,
@@ -2472,6 +2764,7 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         G2IDFAlpha(corpus, 16.0),
         SignedPoissonDeviance(corpus),
         PoissonIDF(corpus),
+        TwoPoisson(corpus),
         G2Alpha(corpus, 00.0),
         G2Alpha(corpus, 00.25),
         G2Alpha(corpus, 00.5),
@@ -2532,6 +2825,7 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         TfIdfAlpha(corpus, 16.0),
         TScore(corpus),
         Txm(corpus),
+        TxmFast(corpus),
         ZScore(corpus),
     )
 
@@ -2540,8 +2834,8 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     """Create a scorer from its stable experiment code.
 
     Canonical codes include ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
-    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
-    ``poissondev``, ``poissonidf``, ``chi2``,
+    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``txmfast``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
+    ``poissondev``, ``poissonidf``, ``twopoisson``, ``chi2``,
     ``zscore``, ``tscore``, ``mi``, ``logdice``, ``mi3``, ``milogf``,
     ``minsens``, ``extf``, ``logratio`` and ``simplemaths``.
 
@@ -2560,6 +2854,7 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "tficf": TfIcf,
         "hgt": Hgt,
         "txm": Txm,
+        "txmfast": TxmFast,
         "txmpos": TxmPos,
         "txmneg": TxmNeg,
         "txmabs": TxmAbs,
@@ -2569,6 +2864,7 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "g2idf": G2IDF,
         "poissondev": SignedPoissonDeviance,
         "poissonidf": PoissonIDF,
+        "twopoisson": TwoPoisson,
         "g2signed": SignedG2,
         "g2pos": G2Pos,
         "g2neg": G2Neg,

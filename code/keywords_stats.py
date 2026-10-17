@@ -12,11 +12,18 @@ strings containing commas (e.g. 0,6).
 Each occurrence of a keyword in one document's list counts once. Statistics
 are pooled across documents for each scorer, possibly across author files.
 Only listed keywords contribute; there is no automatic stopword filtering.
+
+The summary is written to stdout (and optionally -o). A separate stopword
+report lists the most commonly selected stopwords per scorer, sorted by the
+number of documents whose top-N list contains each stopword. With -o, this
+report is saved as <output stem>-stopwords.tsv; otherwise it is displayed
+on stderr or saved to --stopwords-output if specified.
 """
 
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 from dataclasses import dataclass, field
 import glob
 from pathlib import Path
@@ -135,6 +142,11 @@ class Summary:
     docs_with_early_stop: int = 0
     missing: dict[str, int] = field(default_factory=dict)
     seen_documents: set[str] = field(default_factory=set)
+    # Aggregate case-insensitively: e.g. "le" and "Le" are one stopword.
+    stop_occurrences: Counter[str] = field(default_factory=Counter)
+    stop_documents: Counter[str] = field(default_factory=Counter)
+    stop_early_occurrences: Counter[str] = field(default_factory=Counter)
+    stop_rank_sums: Counter[str] = field(default_factory=Counter)
 
     def add(
         self,
@@ -160,7 +172,17 @@ class Summary:
         self.early_stop_count += n_early_stops
         self.docs_with_early_stop += n_early_stops > 0
 
-        for word in selected:
+        seen_stops_in_doc: set[str] = set()
+        for rank, word in enumerate(selected, 1):
+            folded = word.casefold()
+            if folded in stops:
+                self.stop_occurrences[folded] += 1
+                self.stop_rank_sums[folded] += rank
+                if rank <= early:
+                    self.stop_early_occurrences[folded] += 1
+                seen_stops_in_doc.add(folded)
+            # A word may have differently capitalized forms in one document;
+            # document prevalence must still count that document only once.
             stats = terms.get(word)
             if stats is None:
                 self.missing[word] = self.missing.get(word, 0) + 1
@@ -169,6 +191,7 @@ class Summary:
             self.known_count += 1
             self.cf1_count += cf == 1
             self.dfs.append(df)
+        self.stop_documents.update(seen_stops_in_doc)
 
 
 def pct(numerator: int, denominator: int) -> str:
@@ -182,10 +205,20 @@ def main() -> None:
     parser.add_argument("--stopwords", required=True, type=Path, help="Stopword file, one entry per line")
     parser.add_argument("--top", type=int, default=100, help="Keywords considered per document (default: 100)")
     parser.add_argument("--early", type=int, default=10, help="Top ranks used for early-stopword metrics (default: 10)")
-    parser.add_argument("-o", "--output", type=Path, help="Write result TSV here as well as stdout")
+    parser.add_argument("-o", "--output", type=Path, help="Write summary TSV here as well as stdout")
+    parser.add_argument(
+        "--stopwords-top", type=int, default=20,
+        help="Number of most frequently selected stopwords per scorer (default: 20)",
+    )
+    parser.add_argument(
+        "--stopwords-output", type=Path,
+        help="Detailed stopword TSV (default: <output stem>-stopwords.tsv when -o is used)",
+    )
     args = parser.parse_args()
     if args.top < 1 or args.early < 1 or args.early > args.top:
         parser.error("Require --top >= --early >= 1")
+    if args.stopwords_top < 1:
+        parser.error("Require --stopwords-top >= 1")
 
     term_stats = load_terms(args.terms)
     stopwords = load_stopwords(args.stopwords)
@@ -231,6 +264,43 @@ def main() -> None:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(report, encoding="utf-8", newline="\n")
         print(f"Written: {args.output}", file=sys.stderr)
+
+    # Preserve the original summary TSV layout. Produce a second, long-form
+    # TSV with the most common stopwords selected by each scorer.
+    details = ["\t".join((
+        "scorer", "rank", "stopword", f"documents_top{args.top}",
+        f"docs_pct_top{args.top}", f"occurrences_top{args.top}",
+        f"occurrences_first{args.early}", f"mean_rank_top{args.top}",
+    ))]
+    for scorer, acc in sorted(by_scorer.items()):
+        ordered = sorted(
+            acc.stop_occurrences,
+            key=lambda w: (-acc.stop_documents[w], -acc.stop_occurrences[w], w),
+        )[:args.stopwords_top]
+        # Rank by number of documents containing a stopword in the selected
+        # keyword list, not its total corpus frequency.
+        for rank, word in enumerate(ordered, 1):
+            occurrences = acc.stop_occurrences[word]
+            details.append("\t".join((
+                scorer, str(rank), word,
+                str(acc.stop_documents[word]),
+                pct(acc.stop_documents[word], acc.documents),
+                str(occurrences), str(acc.stop_early_occurrences[word]),
+                f"{acc.stop_rank_sums[word] / occurrences:.1f}",
+            )))
+        overview = ", ".join(
+            f"{word} ({acc.stop_documents[word]})" for word in ordered
+        ) or "(none)"
+        print(f"{scorer}, top {args.stopwords_top} stopwords (documents): {overview}", file=sys.stderr)
+
+    stopwords_report = "\n".join(details) + "\n"
+    details_path = args.stopwords_output
+    if details_path is None and args.output:
+        details_path = args.output.with_name(args.output.stem + "-stopwords.tsv")
+    if details_path:
+        details_path.parent.mkdir(parents=True, exist_ok=True)
+        details_path.write_text(stopwords_report, encoding="utf-8", newline="\n")
+        print(f"Written: {details_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":
