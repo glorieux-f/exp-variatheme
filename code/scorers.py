@@ -28,8 +28,9 @@ _SCORER_LABELS = {
     "bm25": "BM25",
     "g2": "G²",
     "simpleg2": "simple G²",
-    "g2idf": "G²-IDF",
+    "g2idf": "G²-IDF (DF-adjusted 2×2)",
     "poissondev": "Signed Poisson deviance",
+    "poissonidf": "Poisson-IDF",
     "g2signed": "signed G²",
     "g2pos": "G²+",
     "g2neg": "G²−",
@@ -66,6 +67,7 @@ def scorer_label(code: str) -> str:
         return fixed
 
     alpha_families = (
+        ("g2idfa", "single-cell G²-IDF"),
         ("subtfidfa", "subTF-IDF"),
         ("tfidfa", "TF-IDF"),
         ("hgta", "HGT"),
@@ -889,29 +891,75 @@ class G2(Scorer):
         return g2
 
 
+def _residual_df_weights(corpus: TermDocCorpus) -> FloatArray:
+    """Return expected-DF / observed-DF weights under random token placement.
+
+    df_hat(t) = sum_j [1 - (1 - dl_j / CL)^cf(t)]
+
+    Occurrences are independently placed across documents proportionally to
+    their lengths. Terms with cf = df = 1 receive weight 1. Unused term IDs
+    also receive weight 1, avoiding division by zero.
+    """
+    weights = np.ones(len(corpus.df), dtype=np.float64)
+    valid = (corpus.cf > 0) & (corpus.df > 0)
+    if not np.any(valid):
+        return weights
+
+    doc_proportions = (
+        np.asarray(corpus.doc_len[1 : corpus.n_docs + 1], dtype=np.float64)
+        / float(corpus.collection_len)
+    )
+    with np.errstate(divide="ignore"):
+        log_nonoccurrence = np.log1p(-doc_proportions)
+
+    frequencies, inverse = np.unique(corpus.cf[valid], return_inverse=True)
+    expected_df = np.asarray(
+        [-np.expm1(float(cf) * log_nonoccurrence).sum() for cf in frequencies],
+        dtype=np.float64,
+    )
+    weights[valid] = expected_df[inverse] / corpus.df[valid]
+    return weights
+
+
 class G2IDF(Scorer):
-    """Single-cell observed-versus-expected contribution times classical IDF.
+    """Signed four-cell G² with a DF-adjusted background term frequency.
 
-    G2-IDF = 2 * O * ln(O / E) * ln(N / df), for O > 0; otherwise 0.
-    O = tf
-    E = dl * cf / CL
+    Start with the document-vs-rest 2 x 2 table:
 
-    tf : observed term frequency in the document
-    cf : collection frequency of the term
-    dl : document length in tokens
-    CL : corpus length in tokens
-    N : number of documents
-    df : number of documents containing the term
+                          term          other terms
+        target document   tf            dl - tf
+        rest of corpus    b             (CL - dl) - b
 
-    This uses only one cell, not the full four-cell G² statistic.
-    The single-cell contribution may be negative when O < E.
+    Instead of the actual outside term count c = cf - tf, use an *effective*
+    count b, adjusted for how broadly the outside occurrences are distributed.
+    For a term present in the target document, set r = df - 1. The expected
+    number of other documents containing the remaining c occurrences is:
+
+        r_hat = sum_(j != d) [1 - (1 - dl_j / (CL - dl))^c]
+
+    With L = CL - dl, adjust the outside term odds by r / r_hat:
+
+        b / (L - b) = (c / (L - c)) * (r / r_hat)
+        b = L * c * r / ((L - c) * r_hat + c * r)
+
+    If c = 0, set b = 0. For absent terms, use r = df instead of df - 1.
+    The final score is the ordinary four-cell G² of this adjusted table,
+    with the sign of the target-vs-background relative frequency difference.
+
+    This is an experimental G²-shaped ranking score, not a likelihood-ratio
+    test on observed token counts: b can be fractional and is not the true
+    outside frequency. The expected DF uses independent allocation of the c
+    remaining occurrences proportional to the *other* document lengths.
+
+    cf = tf and df = 1 imply c = b = 0: a corpus singleton receives no
+    additional DF bonus. There is no extra G² term, IDF exponent or weight.
     """
 
     def __init__(self, corpus: TermDocCorpus) -> None:
         super().__init__(corpus)
-        self._idf = np.zeros(len(corpus.df), dtype=np.float64)
-        valid = corpus.df > 0
-        self._idf[valid] = np.log(corpus.n_docs / corpus.df[valid])
+        self._lengths = np.asarray(
+            corpus.doc_len[1 : corpus.n_docs + 1], dtype=np.float64
+        )
 
     @property
     def code(self) -> str:
@@ -924,7 +972,126 @@ class G2IDF(Scorer):
         term_ids: IntArray,
         tf: IntArray,
     ) -> FloatArray:
-        """Calculate G²-IDF directly from observed and expected counts."""
+        """Return signed G² from a single, DF-adjusted 2 x 2 token table."""
+        observed = np.asarray(tf, dtype=np.float64)
+        corpus_frequency = np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
+        document_frequency = np.asarray(self.corpus.df[term_ids], dtype=np.float64)
+        dl = float(self.corpus.doc_len[doc_id])
+        L = float(self.corpus.collection_len) - dl
+        M = self.corpus.n_docs - 1
+
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        if dl <= 0.0 or L <= 0.0 or M == 0:
+            return scores
+
+        c = corpus_frequency - observed
+        present_here = (observed > 0.0).astype(np.float64)
+        r = document_frequency - present_here
+        invalid = (
+            (observed < 0.0) | (observed > dl)
+            | (c < 0.0) | (c > L)
+            | (r < 0.0) | (r > M) | (r > c)
+        )
+
+        # For cf = tf, no occurrences remain outside the target document.
+        # Else c >= 1 and r >= 1 for valid term/document counts.
+        b = np.zeros(observed.shape, dtype=np.float64)
+        valid = ~invalid & (c > 0.0)
+        if np.any(valid):
+            other_lengths = np.concatenate(
+                (self._lengths[: doc_id - 1], self._lengths[doc_id:])
+            )
+            with np.errstate(divide="ignore", invalid="ignore"):
+                log_absent = np.log1p(-other_lengths / L)
+
+            frequencies, inverse = np.unique(c[valid], return_inverse=True)
+            expected_df = np.empty(len(frequencies), dtype=np.float64)
+            # Chunk the outer product to bound peak memory use for long texts.
+            for start in range(0, len(frequencies), 256):
+                block = frequencies[start : start + 256]
+                expected_df[start : start + len(block)] = (
+                    -np.expm1(np.multiply.outer(block, log_absent))
+                ).sum(axis=1)
+
+            r_hat = expected_df[inverse]
+            r_valid = r[valid]
+            c_valid = c[valid]
+            # Scale odds, keeping b + (L - b) == L. The 0/0 cases occur
+            # only on invalid corpus statistics (or an empty outside corpus).
+            denom = (L - c_valid) * r_hat + c_valid * r_valid
+            with np.errstate(divide="ignore", invalid="ignore"):
+                b[valid] = L * c_valid * r_valid / denom
+            b[valid] = np.clip(b[valid], 0.0, L)
+            invalid |= ~np.isfinite(b)
+
+        # The adjusted outside term count is a token-equivalent count.
+        # Recalculate all four expectations from the adjusted table margins.
+        focus_nonterm = dl - observed
+        other_nonterm = L - b
+        term_total = observed + b
+        nonterm_total = focus_nonterm + other_nonterm
+        total = dl + L
+        g2 = np.zeros(observed.shape, dtype=np.float64)
+        for actual, expected in (
+            (observed, dl * term_total / total),
+            (b, L * term_total / total),
+            (focus_nonterm, dl * nonterm_total / total),
+            (other_nonterm, L * nonterm_total / total),
+        ):
+            positive = (actual > 0.0) & (expected > 0.0) & ~invalid
+            g2[positive] += 2.0 * actual[positive] * np.log(
+                actual[positive] / expected[positive]
+            )
+
+        g2 = np.maximum(g2, 0.0)
+        sign = np.where(observed * L >= b * dl, 1.0, -1.0)
+        scores = g2 * sign
+        scores[(term_total == 0.0) | (nonterm_total == 0.0)] = 0.0
+        scores[invalid] = np.nan
+        return scores
+
+class G2IDFAlpha(Scorer):
+    """Single-cell G² contribution with a parametric IDF exponent.
+
+    G2-IDFalpha = 2 * O * ln(O / E) * ln(N / df)^alpha, if O > 0;
+                  otherwise 0.
+    O = tf
+    E = dl * cf / CL
+
+    alpha : non-negative strength of the document-frequency factor
+
+    alpha=0 gives simpleG2 exactly; alpha=1 gives single-cell G² times
+    classical IDF, not the residual-DF weighting used by G2IDF.
+    Under-represented terms (O < E) retain negative scores. The score
+    uses one cell of the contingency table, not full four-cell G².
+    """
+
+    def __init__(self, corpus: TermDocCorpus, alpha: float = 1.0) -> None:
+        if not isfinite(alpha) or alpha < 0.0:
+            raise ValueError("alpha must be finite and >= 0")
+        super().__init__(corpus)
+        self.alpha = alpha
+        self._idf = np.zeros(len(corpus.df), dtype=np.float64)
+        valid = corpus.df > 0
+        self._idf[valid] = np.log(corpus.n_docs / corpus.df[valid])
+
+    @property
+    def code(self) -> str:
+        """Return the filename code."""
+        return f"g2idfa{self.alpha:g}"
+
+    @property
+    def name(self) -> str:
+        """Return the human-readable scorer name."""
+        return f"G²-IDF (IDF alpha={self.alpha:g})"
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Score observed frequencies against expectations and IDF^alpha."""
         observed = np.asarray(tf, dtype=np.float64)
         expected = (
             np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
@@ -933,11 +1100,11 @@ class G2IDF(Scorer):
         )
         scores = np.zeros(observed.shape, dtype=np.float64)
         valid = (observed > 0.0) & (expected > 0.0)
-        scores[valid] = (
-            2.0 * observed[valid]
-            * np.log(observed[valid] / expected[valid])
-            * self._idf[term_ids[valid]]
+        scores[valid] = 2.0 * observed[valid] * np.log(
+            observed[valid] / expected[valid]
         )
+        if self.alpha != 0.0:
+            scores[valid] *= np.power(self._idf[term_ids[valid]], self.alpha)
         return scores
 
 
@@ -987,6 +1154,42 @@ class SignedPoissonDeviance(Scorer):
         # The deviance is non-negative; avoid negative round-off at O ~= E.
         deviance[valid] = np.maximum(deviance[valid], 0.0)
         return 2.0 * np.sign(observed - expected) * deviance
+
+
+class PoissonIDF(SignedPoissonDeviance):
+    """Signed Poisson deviance weighted by residual document concentration.
+
+    PoissonIDF = sign(O - E) * 2 * [O * ln(O / E) - O + E] * df_hat / df
+    O = tf
+    E = dl * cf / CL
+
+    df_hat = sum_j [1 - (1 - dl_j / CL)^cf], over all corpus documents.
+
+    df_hat is the expected number of documents containing a term if its cf
+    occurrences are independently placed according to document lengths.
+    The ratio df_hat / df rewards concentration beyond what cf explains.
+    In particular, cf = df = 1 implies df_hat = 1 and multiplier = 1.
+
+    This is an experimental residual-IDF weighting, not classical IDF.
+    """
+
+    def __init__(self, corpus: TermDocCorpus) -> None:
+        super().__init__(corpus)
+        self._df_weight = _residual_df_weights(corpus)
+
+    @property
+    def code(self) -> str:
+        """Return the filename code."""
+        return "poissonidf"
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Multiply signed deviance by the precomputed residual-DF factor."""
+        return super().score_terms(doc_id, term_ids, tf) * self._df_weight[term_ids]
 
 
 class SignedG2(Scorer):
@@ -2194,6 +2397,7 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     ExclusiveTf,
     G2,
     G2IDF,
+    G2IDFAlpha,
     simpleG2,
     G2Alpha,
     G2Neg,
@@ -2208,6 +2412,7 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     MutualInformationLogFrequency,
     SignedG2,
     SignedPoissonDeviance,
+    PoissonIDF,
     SimpleMaths,
     SubTf,
     SubTfIdf,
@@ -2251,7 +2456,22 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         G2(corpus),
         simpleG2(corpus),
         G2IDF(corpus),
+        G2IDFAlpha(corpus, 0.0),
+        G2IDFAlpha(corpus, 0.05),
+        G2IDFAlpha(corpus, 0.1),
+        G2IDFAlpha(corpus, 0.15),
+        G2IDFAlpha(corpus, 0.2),
+        G2IDFAlpha(corpus, 0.25),
+        G2IDFAlpha(corpus, 0.3),
+        G2IDFAlpha(corpus, 0.5),
+        G2IDFAlpha(corpus, 0.75),
+        G2IDFAlpha(corpus, 1.0),
+        G2IDFAlpha(corpus, 2.0),
+        G2IDFAlpha(corpus, 4.0),
+        G2IDFAlpha(corpus, 8.0),
+        G2IDFAlpha(corpus, 16.0),
         SignedPoissonDeviance(corpus),
+        PoissonIDF(corpus),
         G2Alpha(corpus, 00.0),
         G2Alpha(corpus, 00.25),
         G2Alpha(corpus, 00.5),
@@ -2321,12 +2541,12 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
 
     Canonical codes include ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
     ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
-    ``poissondev``, ``chi2``,
+    ``poissondev``, ``poissonidf``, ``chi2``,
     ``zscore``, ``tscore``, ``mi``, ``logdice``, ``mi3``, ``milogf``,
     ``minsens``, ``extf``, ``logratio`` and ``simplemaths``.
 
     Parametric families use an explicit numeric suffix: ``tfidfaA``,
-    ``subtfidfaA``, ``hgtaA``, ``g2aA`` and ``chi2aA``.
+    ``subtfidfaA``, ``g2idfaA``, ``hgtaA``, ``g2aA`` and ``chi2aA``.
     """
     code = code.strip().lower()
     factories = {
@@ -2348,6 +2568,7 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "simpleg2": simpleG2,
         "g2idf": G2IDF,
         "poissondev": SignedPoissonDeviance,
+        "poissonidf": PoissonIDF,
         "g2signed": SignedG2,
         "g2pos": G2Pos,
         "g2neg": G2Neg,
@@ -2382,6 +2603,14 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         except ValueError as error:
             raise ValueError(f"Invalid TF-IDF alpha scorer code: {code!r}") from error
         return TfIdfAlpha(corpus, alpha)
+
+    if code.startswith("g2idfa"):
+        value = code[len("g2idfa"):]
+        try:
+            alpha = float(value)
+        except ValueError as error:
+            raise ValueError(f"Invalid G²-IDF alpha scorer code: {code!r}") from error
+        return G2IDFAlpha(corpus, alpha)
 
     if code.startswith("hgta"):
         value = code[len("hgta"):]
@@ -2426,6 +2655,7 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
             "simplemathsk1",
             "tfidfa0.5",
             "subtfidfa0.5",
+            "g2idfa0.3",
             "hgta0.5",
             "g2a2",
             "chi2a2",
