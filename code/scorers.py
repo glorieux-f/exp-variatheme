@@ -27,6 +27,8 @@ _SCORER_LABELS = {
     "btfidf": "BTF-IDF",
     "tficf": "TF-ICF",
     "bm25": "BM25",
+    "inb2": "DFR InB2",
+    "f2log": "Axiomatic F2LOG",
     "g2": "G²",
     "simpleg2": "simple G²",
     "g2idf": "G²-IDF (DF-adjusted 2×2)",
@@ -691,6 +693,119 @@ class BM25(Scorer):
             * tf_float[positive]
             / denominator[positive]
         )
+        return scores
+
+
+class DFRInB2(Scorer):
+    """Lucene DFR I(n)B2 with NormalizationH2(c=1).
+
+    tfn = tf * log2(1 + avgdl / dl)
+    S = log2((N + 1) / (df + 0.5)) * (cf + 2) / (df + 1)
+        * tfn / (1 + tfn)
+
+    tf : term frequency in document
+    cf : collection frequency of term
+    df : document frequency of term
+    N : number of documents
+    dl : document length
+    avgdl : average document length
+
+    Components: BasicModelIn, AfterEffectB, NormalizationH2(1).
+    Lucene 10.5.2: org.apache.lucene.search.similarities.DFRSimilarity.
+    """
+
+    def __init__(self, corpus: TermDocCorpus) -> None:
+        if corpus.avg_doc_len <= 0.0:
+            raise ValueError("avg_doc_len must be > 0")
+        super().__init__(corpus)
+        df = np.asarray(corpus.df, dtype=np.float64)
+        cf = np.asarray(corpus.cf, dtype=np.float64)
+        self._weight = np.zeros(df.shape, dtype=np.float64)
+        valid = df > 0.0
+        self._weight[valid] = (
+            np.log2((corpus.n_docs + 1.0) / (df[valid] + 0.5))
+            * (cf[valid] + 2.0) / (df[valid] + 1.0)
+        )
+
+    @property
+    def code(self) -> str:
+        return "inb2"
+
+    @property
+    def name(self) -> str:
+        return "Lucene DFR InB2"
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Compute normalized TF and apply the precomputed corpus weight."""
+        observed = np.asarray(tf, dtype=np.float64)
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        dl = float(self.corpus.doc_len[doc_id])
+        if dl <= 0.0:
+            return scores
+        tfn = observed * np.log2(1.0 + self.corpus.avg_doc_len / dl)
+        positive = observed > 0.0
+        scores[positive] = (
+            self._weight[term_ids[positive]]
+            * tfn[positive] / (1.0 + tfn[positive])
+        )
+        return scores
+
+
+class AxiomaticF2LOG(Scorer):
+    """Lucene AxiomaticF2LOG with its default growth parameter s=0.25.
+
+    S = [tf / (tf + s * (1 + dl / avgdl))] * ln((N + 1) / df)
+
+    tf : term frequency in document
+    df : document frequency of term
+    N : number of documents
+    dl : document length
+    avgdl : average document length
+    s : growth parameter (Lucene default 0.25)
+
+    Lucene 10.5.2: org.apache.lucene.search.similarities.AxiomaticF2LOG.
+    """
+
+    def __init__(self, corpus: TermDocCorpus) -> None:
+        if corpus.avg_doc_len <= 0.0:
+            raise ValueError("avg_doc_len must be > 0")
+        super().__init__(corpus)
+        df = np.asarray(corpus.df, dtype=np.float64)
+        self._idf = np.zeros(df.shape, dtype=np.float64)
+        valid = df > 0.0
+        self._idf[valid] = np.log((corpus.n_docs + 1.0) / df[valid])
+
+    @property
+    def code(self) -> str:
+        return "f2log"
+
+    @property
+    def name(self) -> str:
+        return "Lucene Axiomatic F2LOG"
+
+    def score_terms(
+        self,
+        doc_id: int,
+        term_ids: IntArray,
+        tf: IntArray,
+    ) -> FloatArray:
+        """Compute Lucene's saturating TF factor and logarithmic IDF."""
+        observed = np.asarray(tf, dtype=np.float64)
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        positive = observed > 0.0
+        if np.any(positive):
+            norm = 0.25 * (
+                1.0 + float(self.corpus.doc_len[doc_id]) / self.corpus.avg_doc_len
+            )
+            scores[positive] = (
+                observed[positive] / (observed[positive] + norm)
+                * self._idf[term_ids[positive]]
+            )
         return scores
 
 
@@ -2678,6 +2793,8 @@ class SimpleMaths(Scorer):
 
 
 SCORER_TYPES: tuple[type[Scorer], ...] = (
+    DFRInB2,
+    AxiomaticF2LOG,
     BinaryTfIdf,
     BM25,
     Chi2,
@@ -2725,6 +2842,8 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
 def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
     """Return the scorer configurations used by the current keyword experiment."""
     return (
+        DFRInB2(corpus),
+        AxiomaticF2LOG(corpus),
         BinaryTfIdf(corpus),
         BM25(corpus, 100.0, 1.0),
         BM25(corpus),
@@ -2833,7 +2952,7 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
 def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     """Create a scorer from its stable experiment code.
 
-    Canonical codes include ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
+    Canonical codes include ``inb2``, ``f2log``, ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
     ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``txmfast``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
     ``poissondev``, ``poissonidf``, ``twopoisson``, ``chi2``,
     ``zscore``, ``tscore``, ``mi``, ``logdice``, ``mi3``, ``milogf``,
@@ -2844,6 +2963,8 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     """
     code = code.strip().lower()
     factories = {
+        "inb2": DFRInB2,
+        "f2log": AxiomaticF2LOG,
         "tf": Tf,
         "df": DocumentFrequency,
         "cf": CollectionFrequency,
