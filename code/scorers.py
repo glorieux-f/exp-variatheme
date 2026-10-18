@@ -9,7 +9,6 @@ from typing import Protocol
 
 import numpy as np
 from scipy.stats import hypergeom
-from scipy.special import expit, gammaln
 from numpy.typing import NDArray
 
 
@@ -23,18 +22,21 @@ _SCORER_LABELS = {
     "cf": "CF",
     "subtf": "subTF",
     "tfidf": "TF-IDF",
+    "authidf": "authIDF (conditional repetition; α=1)",
     "subtfidf": "subTF-IDF",
     "btfidf": "BTF-IDF",
     "tficf": "TF-ICF",
     "bm25": "BM25",
     "inb2": "DFR InB2",
+    "inl2": "DFR InL2",
+    "inbz": "DFR I(n)BZ (z=0.3)",
+    "inbnone": "DFR I(n)B (no normalization)",
     "f2log": "Axiomatic F2LOG",
     "g2": "G²",
     "simpleg2": "simple G²",
     "g2idf": "G²-IDF (DF-adjusted 2×2)",
     "poissondev": "Signed Poisson deviance",
     "poissonidf": "Poisson-IDF",
-    "twopoisson": "Two-Poisson",
     "g2signed": "signed G²",
     "g2pos": "G²+",
     "g2neg": "G²−",
@@ -48,7 +50,6 @@ _SCORER_LABELS = {
     "minsens": "MinSens",
     "hgt": "HGT",
     "txm": "TXM",
-    "txmfast": "TXM (recurrence)",
     "txmpos": "TXM+",
     "txmneg": "TXM−",
     "txmabs": "|TXM|",
@@ -72,7 +73,7 @@ def scorer_label(code: str) -> str:
         return fixed
 
     alpha_families = (
-        ("g2idfa", "single-cell G²-IDF"),
+        ("authidfa", "authIDF"),
         ("subtfidfa", "subTF-IDF"),
         ("tfidfa", "TF-IDF"),
         ("hgta", "HGT"),
@@ -89,6 +90,20 @@ def scorer_label(code: str) -> str:
             if not isfinite(alpha) or alpha < 0.0:
                 raise ValueError(f"Invalid scorer code: {code!r}")
             return f"{label}α({alpha:g})"
+
+    f2log_match = re.fullmatch(r"f2logs([0-9]+(?:\.[0-9]+)?)", code)
+    if f2log_match is not None:
+        value = float(f2log_match.group(1))
+        if not 0.0 <= value <= 1.0:
+            raise ValueError(f"Invalid scorer code: {code!r}")
+        return f"Axiomatic F2LOG(s={value:g})"
+
+    inbz_match = re.fullmatch(r"inbz([0-9]+(?:\.[0-9]+)?)", code)
+    if inbz_match is not None:
+        z = float(inbz_match.group(1))
+        if not 0.0 < z < 0.5:
+            raise ValueError(f"Invalid scorer code: {code!r}")
+        return f"DFR I(n)BZ(z={z:g})"
 
     bm25_match = re.fullmatch(r"bm25k([0-9.]+)b([0-9.]+)", code)
     if bm25_match is not None:
@@ -374,6 +389,88 @@ class TfIdf(Scorer):
         del doc_id
         observed = np.asarray(tf, dtype=np.float64)
         return observed * self._idf[term_ids]
+
+
+class AuthIdfAlpha(Scorer):
+    """Corpus-conditioned repetition × BM25 IDF^alpha (experimental).
+
+    lambda(t,d) = cf(t) * dl(d) / CL
+    E[TF | TF>0, lambda] = lambda / (1 - exp(-lambda))
+    T(t,d) = tf(t,d) * (cf(t) / df(t)) / E[TF | TF>0, lambda]
+    IDF(t) = ln((N + 1) / (df(t) + 0.5))
+    score(t,d) = T(t,d) * IDF(t)**alpha
+
+    Here CF/DF is the observed average TF among documents containing the
+    term, while the denominator is the corresponding conditional Poisson
+    expectation under a random-occurrence background with the document's
+    actual length. The estimate is experimental: it is not a likelihood ratio.
+
+    Computation is vectorized over the supplied postings, requires no global
+    optimization, and depends only on TF, CF, DF and document length.
+    """
+
+    def __init__(self, corpus: TermDocCorpus, alpha: float = 1.0) -> None:
+        super().__init__(corpus)
+        if not isfinite(alpha) or alpha < 0.0:
+            raise ValueError("alpha must be finite and >= 0")
+        self.alpha = float(alpha)
+        df = np.asarray(corpus.df, dtype=np.float64)
+        cf = np.asarray(corpus.cf, dtype=np.float64)
+        valid = (df > 0.0) & (cf > 0.0)
+        self._cf_over_df = np.zeros(df.shape, dtype=np.float64)
+        self._cf_over_df[valid] = cf[valid] / df[valid]
+        self._idf = np.zeros(df.shape, dtype=np.float64)
+        self._idf[valid] = np.power(
+            np.log((corpus.n_docs + 1.0) / (df[valid] + 0.5)),
+            self.alpha,
+        )
+
+    @property
+    def code(self) -> str:
+        return f"authidfa{self.alpha:g}"
+
+    @property
+    def name(self) -> str:
+        return f"authIDF (conditional repetition; alpha={self.alpha:g})"
+
+    def score_terms(
+        self, doc_id: int, term_ids: IntArray, tf: IntArray
+    ) -> FloatArray:
+        observed = np.asarray(tf, dtype=np.float64)
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        positive = observed > 0.0
+        dl = float(self.corpus.doc_len[doc_id])
+        cl = float(self.corpus.collection_len)
+        if not np.any(positive) or dl <= 0.0 or cl <= 0.0:
+            return scores
+
+        ids = np.asarray(term_ids)[positive]
+        lam = np.asarray(self.corpus.cf[ids], dtype=np.float64) * (dl / cl)
+        # (1 - exp(-lambda)) / lambda, with expm1 for small lambda.
+        # At lambda -> 0, the conditional expectation tends to 1.
+        inverse_conditional_mean = np.ones(lam.shape, dtype=np.float64)
+        nonzero = lam > 0.0
+        inverse_conditional_mean[nonzero] = (
+            -np.expm1(-lam[nonzero]) / lam[nonzero]
+        )
+        scores[positive] = (
+            observed[positive]
+            * self._cf_over_df[ids]
+            * inverse_conditional_mean
+            * self._idf[ids]
+        )
+        return scores
+
+
+class AuthIdf(AuthIdfAlpha):
+    """Default authIDF: the conditional-repetition model with alpha=1."""
+
+    def __init__(self, corpus: TermDocCorpus) -> None:
+        super().__init__(corpus, alpha=1.0)
+
+    @property
+    def code(self) -> str:
+        return "authidf"
 
 
 class TfIdfAlpha(Scorer):
@@ -710,8 +807,13 @@ class DFRInB2(Scorer):
     dl : document length
     avgdl : average document length
 
-    Components: BasicModelIn, AfterEffectB, NormalizationH2(1).
-    Lucene 10.5.2: org.apache.lucene.search.similarities.DFRSimilarity.
+    Exact Lucene 10.5.2 DFRSimilarity combination (boost=1):
+    new DFRSimilarity(new BasicModelIn(), new AfterEffectB(),
+                      new NormalizationH2())
+    The B aftereffect is the documented (cf + 2) / (df + 1), not
+    a separately designed rarity adjustment.
+    Source: org.apache.lucene.search.similarities.DFRSimilarity,
+    BasicModelIn, AfterEffectB, NormalizationH2.
     """
 
     def __init__(self, corpus: TermDocCorpus) -> None:
@@ -735,6 +837,10 @@ class DFRInB2(Scorer):
     def name(self) -> str:
         return "Lucene DFR InB2"
 
+    def _normalization_multiplier(self, dl: float) -> float:
+        """Lucene NormalizationH2(c=1): tfn = tf * log2(1 + avgdl/dl)."""
+        return float(np.log2(1.0 + self.corpus.avg_doc_len / dl))
+
     def score_terms(
         self,
         doc_id: int,
@@ -747,7 +853,7 @@ class DFRInB2(Scorer):
         dl = float(self.corpus.doc_len[doc_id])
         if dl <= 0.0:
             return scores
-        tfn = observed * np.log2(1.0 + self.corpus.avg_doc_len / dl)
+        tfn = observed * self._normalization_multiplier(dl)
         positive = observed > 0.0
         scores[positive] = (
             self._weight[term_ids[positive]]
@@ -756,25 +862,107 @@ class DFRInB2(Scorer):
         return scores
 
 
-class AxiomaticF2LOG(Scorer):
-    """Lucene AxiomaticF2LOG with its default growth parameter s=0.25.
+class DFRInL2(DFRInB2):
+    """Lucene DFR I(n)L2: BasicModelIn + AfterEffectL + NormalizationH2(c=1).
 
-    S = [tf / (tf + s * (1 + dl / avgdl))] * ln((N + 1) / df)
+    tfn = tf * log2(1 + avgdl / dl)
+    S = log2((N + 1) / (df + 0.5)) * tfn / (1 + tfn)
+
+    Unlike InB2, the Laplace aftereffect has no CF/DF multiplier:
+    AfterEffectL.scoreTimes1pTfn(stats) returns 1.0 in Lucene 10.5.2.
+    Source: DFRSimilarity, BasicModelIn, AfterEffectL, NormalizationH2.
+    """
+
+    def __init__(self, corpus: TermDocCorpus) -> None:
+        if corpus.avg_doc_len <= 0.0:
+            raise ValueError("avg_doc_len must be > 0")
+        Scorer.__init__(self, corpus)
+        df = np.asarray(corpus.df, dtype=np.float64)
+        self._weight = np.zeros(df.shape, dtype=np.float64)
+        valid = df > 0.0
+        self._weight[valid] = np.log2(
+            (corpus.n_docs + 1.0) / (df[valid] + 0.5)
+        )
+
+    @property
+    def code(self) -> str:
+        return "inl2"
+
+    @property
+    def name(self) -> str:
+        return "Lucene DFR InL2"
+
+
+class DFRInBZ(DFRInB2):
+    """Lucene DFR I(n)B with Pareto-Zipf NormalizationZ (default z=0.3).
+
+    Same BasicModelIn and AfterEffectB as InB2, but normalized frequency is
+        tfn = tf * (avgdl / dl)**z
+    Source: Lucene 10.5.2 NormalizationZ.tfn(). This is not a new weighting
+    model or a corpus-dependent fitted parameter.
+    """
+
+    def __init__(self, corpus: TermDocCorpus, z: float = 0.3) -> None:
+        if not isfinite(z) or not 0.0 < z < 0.5:
+            raise ValueError("Lucene NormalizationZ requires 0 < z < 0.5")
+        super().__init__(corpus)
+        self.z = float(z)
+
+    @property
+    def code(self) -> str:
+        return "inbz" if self.z == 0.3 else f"inbz{self.z:g}"
+
+    @property
+    def name(self) -> str:
+        return f"Lucene DFR I(n)BZ (z={self.z:g})"
+
+    def _normalization_multiplier(self, dl: float) -> float:
+        return float((self.corpus.avg_doc_len / dl) ** self.z)
+
+
+class DFRInBNoNormalization(DFRInB2):
+    """Lucene DFR I(n)B with Normalization.NoNormalization: tfn = tf.
+
+    Java: new DFRSimilarity(new BasicModelIn(), new AfterEffectB(),
+                            new Normalization.NoNormalization()).
+    """
+
+    @property
+    def code(self) -> str:
+        return "inbnone"
+
+    @property
+    def name(self) -> str:
+        return "Lucene DFR I(n)B (no normalization)"
+
+    def _normalization_multiplier(self, dl: float) -> float:
+        return 1.0
+
+
+class AxiomaticF2LOG(Scorer):
+    """Lucene 10.5.2 AxiomaticF2LOG, with its documented parameter s.
+
+    S = tf / (tf + s * (1 + dl / avgdl)) * ln((N + 1) / df)
 
     tf : term frequency in document
     df : document frequency of term
     N : number of documents
     dl : document length
     avgdl : average document length
-    s : growth parameter (Lucene default 0.25)
+    s : growth parameter in [0, 1]; Lucene default 0.25
 
-    Lucene 10.5.2: org.apache.lucene.search.similarities.AxiomaticF2LOG.
+    Matches AxiomaticF2LOG.java's tfln() and idf() with unit query boost.
+    The other Lucene components tf() and ln() are 1; gamma() is 0.
+    Unlike TXM, this formula does not involve a hypergeometric tail.
     """
 
-    def __init__(self, corpus: TermDocCorpus) -> None:
+    def __init__(self, corpus: TermDocCorpus, s: float = 0.25) -> None:
+        if not isfinite(s) or not 0.0 <= s <= 1.0:
+            raise ValueError("s must be finite and in [0, 1] (Lucene Axiomatic)")
         if corpus.avg_doc_len <= 0.0:
             raise ValueError("avg_doc_len must be > 0")
         super().__init__(corpus)
+        self.s = float(s)
         df = np.asarray(corpus.df, dtype=np.float64)
         self._idf = np.zeros(df.shape, dtype=np.float64)
         valid = df > 0.0
@@ -782,11 +970,11 @@ class AxiomaticF2LOG(Scorer):
 
     @property
     def code(self) -> str:
-        return "f2log"
+        return "f2log" if self.s == 0.25 else f"f2logs{self.s:g}"
 
     @property
     def name(self) -> str:
-        return "Lucene Axiomatic F2LOG"
+        return f"Lucene Axiomatic F2LOG (s={self.s:g})"
 
     def score_terms(
         self,
@@ -794,12 +982,12 @@ class AxiomaticF2LOG(Scorer):
         term_ids: IntArray,
         tf: IntArray,
     ) -> FloatArray:
-        """Compute Lucene's saturating TF factor and logarithmic IDF."""
+        """Compute Lucene's mixed TF/length factor and logarithmic IDF."""
         observed = np.asarray(tf, dtype=np.float64)
         scores = np.zeros(observed.shape, dtype=np.float64)
         positive = observed > 0.0
         if np.any(positive):
-            norm = 0.25 * (
+            norm = self.s * (
                 1.0 + float(self.corpus.doc_len[doc_id]) / self.corpus.avg_doc_len
             )
             scores[positive] = (
@@ -1168,64 +1356,6 @@ class G2IDF(Scorer):
         scores[invalid] = np.nan
         return scores
 
-class G2IDFAlpha(Scorer):
-    """Single-cell G² contribution with a parametric IDF exponent.
-
-    G2-IDFalpha = 2 * O * ln(O / E) * ln(N / df)^alpha, if O > 0;
-                  otherwise 0.
-    O = tf
-    E = dl * cf / CL
-
-    alpha : non-negative strength of the document-frequency factor
-
-    alpha=0 gives simpleG2 exactly; alpha=1 gives single-cell G² times
-    classical IDF, not the residual-DF weighting used by G2IDF.
-    Under-represented terms (O < E) retain negative scores. The score
-    uses one cell of the contingency table, not full four-cell G².
-    """
-
-    def __init__(self, corpus: TermDocCorpus, alpha: float = 1.0) -> None:
-        if not isfinite(alpha) or alpha < 0.0:
-            raise ValueError("alpha must be finite and >= 0")
-        super().__init__(corpus)
-        self.alpha = alpha
-        self._idf = np.zeros(len(corpus.df), dtype=np.float64)
-        valid = corpus.df > 0
-        self._idf[valid] = np.log(corpus.n_docs / corpus.df[valid])
-
-    @property
-    def code(self) -> str:
-        """Return the filename code."""
-        return f"g2idfa{self.alpha:g}"
-
-    @property
-    def name(self) -> str:
-        """Return the human-readable scorer name."""
-        return f"G²-IDF (IDF alpha={self.alpha:g})"
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Score observed frequencies against expectations and IDF^alpha."""
-        observed = np.asarray(tf, dtype=np.float64)
-        expected = (
-            np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
-            * float(self.corpus.doc_len[doc_id])
-            / float(self.corpus.collection_len)
-        )
-        scores = np.zeros(observed.shape, dtype=np.float64)
-        valid = (observed > 0.0) & (expected > 0.0)
-        scores[valid] = 2.0 * observed[valid] * np.log(
-            observed[valid] / expected[valid]
-        )
-        if self.alpha != 0.0:
-            scores[valid] *= np.power(self._idf[term_ids[valid]], self.alpha)
-        return scores
-
-
 class SignedPoissonDeviance(Scorer):
     """Signed Poisson deviance for observed versus expected term counts.
 
@@ -1308,160 +1438,6 @@ class PoissonIDF(SignedPoissonDeviance):
     ) -> FloatArray:
         """Multiply signed deviance by the precomputed residual-DF factor."""
         return super().score_terms(doc_id, term_ids, tf) * self._df_weight[term_ids]
-
-
-class TwoPoisson(Scorer):
-    """Length-aware two-Poisson mixture for topical versus background usage.
-
-    For each term, document counts X_j are fitted by maximum likelihood:
-
-        X_j ~ (1 - pi) * Pois(lambda_0 * dl_j / avg_dl)
-                + pi  * Pois(lambda_1 * dl_j / avg_dl)
-
-    with 0 < lambda_0 < lambda_1 and pi the topical-document prior.
-    Parameters are estimated by EM from *all* document counts, including zeros.
-    The score is the log posterior odds of the topical component:
-
-        log(pi / (1 - pi)) + tf * log(lambda_1 / lambda_0)
-        - (lambda_1 - lambda_0) * dl / avg_dl
-
-    This retains a useful ranking range when probabilities saturate near 1.
-    Document frequency is reflected in the zero counts in the likelihood,
-    rather than introduced as a separate IDF multiplier. This is a heuristic
-    keyword score based on a fitted mixture, not a document likelihood ratio.
-
-    A two-component fit is accepted only if its BIC improves on the single-
-    Poisson fit (two additional parameters); otherwise the term receives zero
-    score. That model-selection rule avoids spurious topical components for
-    insufficiently supported words, especially single occurrences.
-
-    Fits are cached per term. On first use, term counts are obtained through
-    corpus.tf(term_id, doc_id) for every document. Optionally, a corpus can
-    provide postings_for_term(term_id) -> (doc_ids, frequencies), reducing the
-    time needed to retrieve the nonzero counts. No additional dependency is
-    required by the existing TermDocCorpus interface.
-    """
-
-    def __init__(self, corpus: TermDocCorpus) -> None:
-        super().__init__(corpus)
-        if corpus.avg_doc_len <= 0.0 or corpus.n_docs <= 0:
-            raise ValueError("TwoPoisson requires a nonempty corpus")
-        self._exposure = np.asarray(
-            corpus.doc_len[1:corpus.n_docs + 1], dtype=np.float64
-        ) / corpus.avg_doc_len
-        self._valid_docs = self._exposure > 0.0
-        self._exposure_valid = self._exposure[self._valid_docs]
-        self._n_valid = int(np.count_nonzero(self._valid_docs))
-        count = len(corpus.cf)
-        self._fitted = np.zeros(count, dtype=np.bool_)
-        self._log_prior = np.zeros(count, dtype=np.float64)
-        self._log_rate_ratio = np.zeros(count, dtype=np.float64)
-        self._rate_difference = np.zeros(count, dtype=np.float64)
-
-    @property
-    def code(self) -> str:
-        return "twopoisson"
-
-    @property
-    def name(self) -> str:
-        return "Two-Poisson topical/background mixture"
-
-    def _fit_term(self, term_id: int) -> None:
-        """Fit a two-component Poisson mixture once, using EM and BIC."""
-        if self._fitted[term_id]:
-            return
-        self._fitted[term_id] = True
-        if self._n_valid < 3 or int(self.corpus.cf[term_id]) < 2:
-            return
-
-        # An optional term-oriented accessor avoids N scalar tf() lookups.
-        get_postings = getattr(self.corpus, "postings_for_term", None)
-        if callable(get_postings):
-            doc_ids, frequencies = get_postings(term_id)
-            counts = np.zeros(self.corpus.n_docs, dtype=np.float64)
-            ids = np.asarray(doc_ids, dtype=np.int64)
-            counts[ids - 1] = np.asarray(frequencies, dtype=np.float64)
-        else:
-            counts = np.fromiter(
-                (self.corpus.tf(term_id, doc_id)
-                 for doc_id in range(1, self.corpus.n_docs + 1)),
-                dtype=np.float64, count=self.corpus.n_docs,
-            )
-        y = counts[self._valid_docs]
-        x = self._exposure_valid
-        if np.any(y < 0.0) or np.any(~np.isfinite(y)):
-            raise ValueError(f"Invalid term frequencies for term ID {term_id}")
-        total = float(y.sum())
-        if total < 2.0:
-            return
-        mean = total / float(x.sum())
-        nonzero = int(np.count_nonzero(y))
-
-        # Start with rare topical documents, a low background intensity, and
-        # a higher topical intensity. All rates are measured per avg document.
-        pi = float(np.clip(0.7 * nonzero / self._n_valid,
-                           1.0 / self._n_valid, 0.6))
-        lam0 = max(mean * 0.1, 1e-9)
-        lam1 = max((mean - (1.0 - pi) * lam0) / pi, lam0 * 1.01)
-
-        for _ in range(80):
-            odds = (np.log(pi / (1.0 - pi))
-                    + y * np.log(lam1 / lam0) - (lam1 - lam0) * x)
-            q = expit(odds)
-            pi_new = float(np.clip(np.mean(q), 1e-9, 1.0 - 1e-9))
-            lam0_new = max(float(np.dot(1.0 - q, y) / np.dot(1.0 - q, x)), 1e-9)
-            lam1_new = max(float(np.dot(q, y) / np.dot(q, x)), 1e-9)
-            if lam0_new > lam1_new:
-                lam0_new, lam1_new = lam1_new, lam0_new
-                pi_new = 1.0 - pi_new
-            change = max(
-                abs(pi_new - pi),
-                abs(np.log(lam0_new / lam0)),
-                abs(np.log(lam1_new / lam1)),
-            )
-            pi, lam0, lam1 = pi_new, lam0_new, lam1_new
-            if change < 1e-6:
-                break
-
-        # Compare mixture and single Poisson likelihoods; factorial terms
-        # cancel. A fitted mixture has 3 parameters versus 1 for the null.
-        background = y * np.log(lam0 * x) - lam0 * x
-        topical = y * np.log(lam1 * x) - lam1 * x
-        ll_mixture = np.logaddexp(
-            np.log1p(-pi) + background,
-            np.log(pi) + topical,
-        ).sum()
-        ll_single = np.sum(y * np.log(mean * x) - mean * x)
-        bic_gain = 2.0 * (ll_mixture - ll_single) - 2.0 * np.log(self._n_valid)
-        if bic_gain <= 0.0 or lam1 <= lam0 * (1.0 + 1e-6):
-            return
-
-        self._log_prior[term_id] = np.log(pi / (1.0 - pi))
-        self._log_rate_ratio[term_id] = np.log(lam1 / lam0)
-        self._rate_difference[term_id] = lam1 - lam0
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Return topical-component posterior log odds for aligned terms."""
-        ids = np.asarray(term_ids, dtype=np.int64)
-        observed = np.asarray(tf, dtype=np.float64)
-        if ids.shape != observed.shape:
-            raise ValueError("term_ids and tf must have the same shape")
-        for term_id in np.unique(ids[~self._fitted[ids]]):
-            self._fit_term(int(term_id))
-        exposure = float(self.corpus.doc_len[doc_id]) / self.corpus.avg_doc_len
-        scores = (
-            self._log_prior[ids] + observed * self._log_rate_ratio[ids]
-            - exposure * self._rate_difference[ids]
-        )
-        # Absent terms are not keyword candidates.
-        scores[observed <= 0.0] = 0.0
-        # If EM does not justify a mixture, zero is a neutral score.
-        return scores
 
 
 class SignedG2(Scorer):
@@ -1595,7 +1571,6 @@ class ExclusiveTf(Scorer):
         exclusive = (observed > 0.0) & (observed == corpus_term)
         scores[exclusive] = observed[exclusive]
         return scores
-
 
 
 class G2Alpha(Scorer):
@@ -2463,139 +2438,6 @@ class Txm(Scorer):
         return scores
 
 
-class TxmFast(Scorer):
-    """Signed TXM specificity using a logarithmic hypergeometric tail recurrence.
-
-    Uses the same hypergeometric model, mode-based sign, and base-10 scores
-    as :class:`Txm`. The calculation follows Camacho-Collados, Pilehvar &
-    Navigli (2016), Section 3.1.1: start from log P(X=tf), accumulate ratios
-    P(X=k+1)/P(X=k) (or the reverse ratios for the lower tail), and stop
-    when the remaining tail is negligible. There is no vocabulary filtering
-    or score threshold.
-
-    Camacho-Collados, J., Pilehvar, M. T. & Navigli, R. (2016).
-    "Nasari: Integrating explicit knowledge and corpus statistics for a
-    multilingual representation of concepts and entities." Artificial
-    Intelligence 240: 36-64. doi:10.1016/j.artint.2016.07.005.
-    """
-
-    MAX_SCORE = 1000.0
-    # Truncation targets 1e-12 relative error in each probability tail.
-    TAIL_RTOL = 1e-12
-
-    @property
-    def code(self) -> str:
-        return "txmfast"
-
-    @property
-    def name(self) -> str:
-        return "TXM recurrence"
-
-    @staticmethod
-    def _log_tail(
-        counts: IntArray,
-        corpus_term: IntArray,
-        doc_len: int,
-        collection_len: int,
-        upper: bool,
-    ) -> FloatArray:
-        """Compute log P(X>=k) or log P(X<=k) without underflow.
-
-        All input arrays are aligned and valid. Active tails advance together
-        with NumPy operations; the only Python loop is over tail *depth*, not
-        individual term/document pairs.
-        """
-        k = np.asarray(counts, dtype=np.float64)
-        K = np.asarray(corpus_term, dtype=np.float64)
-        n = float(doc_len)
-        M = float(collection_len)
-
-        # log C(K,k) + log C(M-K,n-k) - log C(M,n)
-        log_pmf = (
-            gammaln(K + 1.0) - gammaln(k + 1.0)
-            - gammaln(K - k + 1.0)
-            + gammaln(M - K + 1.0) - gammaln(n - k + 1.0)
-            - gammaln(M - K - n + k + 1.0)
-            - (gammaln(M + 1.0) - gammaln(n + 1.0)
-               - gammaln(M - n + 1.0))
-        )
-
-        endpoint = np.minimum(K, n) if upper else np.maximum(0.0, n - (M - K))
-        current = k.copy()
-        term = np.ones(k.shape, dtype=np.float64)
-        total = np.ones(k.shape, dtype=np.float64)
-        active = current < endpoint if upper else current > endpoint
-        while np.any(active):
-            a = np.flatnonzero(active)
-            position = current[a]
-            if upper:
-                ratio = ((K[a] - position) * (n - position)) / (
-                    (position + 1.0) * (M - K[a] - n + position + 1.0)
-                )
-                current[a] += 1.0
-            else:
-                ratio = (position * (M - K[a] - n + position)) / (
-                    (K[a] - position + 1.0) * (n - position + 1.0)
-                )
-                current[a] -= 1.0
-
-            term[a] *= ratio
-            total[a] += term[a]
-            # Past the mode, recurrence ratios decrease. The omitted tail is
-            # bounded geometrically by term * ratio/(1-ratio). A conservative
-            # bound avoids stopping too early for broad hypergeom tails.
-            bound = np.zeros_like(ratio)
-            decreasing = ratio < 1.0
-            bound[decreasing] = (
-                term[a][decreasing] * ratio[decreasing]
-                / (1.0 - ratio[decreasing])
-            )
-            # Continue until the estimated remaining mass is small, or until
-            # the support endpoint is reached. The bound is based on the last
-            # recurrence ratio, which is an upper bound on subsequent ratios.
-            active[a] = (
-                ((current[a] < endpoint[a]) if upper else (current[a] > endpoint[a]))
-                & (~decreasing | (bound > TxmFast.TAIL_RTOL * total[a]))
-            )
-
-        return log_pmf + np.log(total)
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Score terms using signed hypergeometric tail surprisal."""
-        observed = np.asarray(tf, dtype=np.int64)
-        corpus_term = np.asarray(self.corpus.cf[term_ids], dtype=np.int64)
-        part_size = int(self.corpus.doc_len[doc_id])
-        corpus_size = int(self.corpus.collection_len)
-        scores = np.zeros(observed.shape, dtype=np.float64)
-        if part_size <= 0 or corpus_size <= 0 or part_size > corpus_size:
-            return scores
-        invalid = (
-            (observed < 0) | (corpus_term < observed)
-            | (corpus_term > corpus_size) | (observed > part_size)
-        )
-        mode = np.floor(
-            (corpus_term.astype(np.float64) + 1.0)
-            * (part_size + 1.0) / (corpus_size + 2.0)
-        ).astype(np.int64)
-        positive = (observed > mode) & ~invalid
-        if np.any(positive):
-            lp = self._log_tail(observed[positive], corpus_term[positive],
-                                part_size, corpus_size, upper=True)
-            scores[positive] = np.minimum(-lp / np.log(10.0), self.MAX_SCORE)
-        negative = (observed < mode) & ~invalid
-        if np.any(negative):
-            lp = self._log_tail(observed[negative], corpus_term[negative],
-                                part_size, corpus_size, upper=False)
-            scores[negative] = np.maximum(lp / np.log(10.0), -self.MAX_SCORE)
-        scores[invalid] = np.nan
-        return scores
-
-
 class TxmPos(Txm):
     """Positive TXM specificity only: over-representation magnitude."""
 
@@ -2793,7 +2635,12 @@ class SimpleMaths(Scorer):
 
 
 SCORER_TYPES: tuple[type[Scorer], ...] = (
+    AuthIdf,
+    AuthIdfAlpha,
     DFRInB2,
+    DFRInL2,
+    DFRInBZ,
+    DFRInBNoNormalization,
     AxiomaticF2LOG,
     BinaryTfIdf,
     BM25,
@@ -2804,7 +2651,6 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     ExclusiveTf,
     G2,
     G2IDF,
-    G2IDFAlpha,
     simpleG2,
     G2Alpha,
     G2Neg,
@@ -2820,7 +2666,6 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     SignedG2,
     SignedPoissonDeviance,
     PoissonIDF,
-    TwoPoisson,
     SimpleMaths,
     SubTf,
     SubTfIdf,
@@ -2831,7 +2676,6 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     TfIdfAlpha,
     TScore,
     Txm,
-    TxmFast,
     TxmAbs,
     TxmNeg,
     TxmPos,
@@ -2842,6 +2686,7 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
 def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
     """Return the scorer configurations used by the current keyword experiment."""
     return (
+        AuthIdf(corpus),
         DFRInB2(corpus),
         AxiomaticF2LOG(corpus),
         BinaryTfIdf(corpus),
@@ -2867,23 +2712,8 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         G2(corpus),
         simpleG2(corpus),
         G2IDF(corpus),
-        G2IDFAlpha(corpus, 0.0),
-        G2IDFAlpha(corpus, 0.05),
-        G2IDFAlpha(corpus, 0.1),
-        G2IDFAlpha(corpus, 0.15),
-        G2IDFAlpha(corpus, 0.2),
-        G2IDFAlpha(corpus, 0.25),
-        G2IDFAlpha(corpus, 0.3),
-        G2IDFAlpha(corpus, 0.5),
-        G2IDFAlpha(corpus, 0.75),
-        G2IDFAlpha(corpus, 1.0),
-        G2IDFAlpha(corpus, 2.0),
-        G2IDFAlpha(corpus, 4.0),
-        G2IDFAlpha(corpus, 8.0),
-        G2IDFAlpha(corpus, 16.0),
         SignedPoissonDeviance(corpus),
         PoissonIDF(corpus),
-        TwoPoisson(corpus),
         G2Alpha(corpus, 00.0),
         G2Alpha(corpus, 00.25),
         G2Alpha(corpus, 00.5),
@@ -2944,7 +2774,6 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         TfIdfAlpha(corpus, 16.0),
         TScore(corpus),
         Txm(corpus),
-        TxmFast(corpus),
         ZScore(corpus),
     )
 
@@ -2952,18 +2781,24 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
 def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     """Create a scorer from its stable experiment code.
 
-    Canonical codes include ``inb2``, ``f2log``, ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
-    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``txmfast``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
-    ``poissondev``, ``poissonidf``, ``twopoisson``, ``chi2``,
+    Canonical codes include ``authidf``, ``inb2``, ``inl2``, ``inbz``, ``inbnone``, ``f2log``, ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
+    ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
+    ``poissondev``, ``poissonidf``, ``chi2``,
     ``zscore``, ``tscore``, ``mi``, ``logdice``, ``mi3``, ``milogf``,
     ``minsens``, ``extf``, ``logratio`` and ``simplemaths``.
 
-    Parametric families use an explicit numeric suffix: ``tfidfaA``,
-    ``subtfidfaA``, ``g2idfaA``, ``hgtaA``, ``g2aA`` and ``chi2aA``.
+    Parametric families use an explicit numeric suffix: ``authidfaA``, ``tfidfaA``,
+    ``subtfidfaA``, ``hgtaA``, ``g2aA``, ``chi2aA`` and
+    ``f2logsS`` (Lucene F2LOG with growth parameter s in [0, 1])
+    and ``inbzZ`` (Lucene Pareto-Zipf normalization with 0 < z < 0.5).
     """
     code = code.strip().lower()
     factories = {
+        "authidf": AuthIdf,
         "inb2": DFRInB2,
+        "inl2": DFRInL2,
+        "inbz": DFRInBZ,
+        "inbnone": DFRInBNoNormalization,
         "f2log": AxiomaticF2LOG,
         "tf": Tf,
         "df": DocumentFrequency,
@@ -2975,7 +2810,6 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "tficf": TfIcf,
         "hgt": Hgt,
         "txm": Txm,
-        "txmfast": TxmFast,
         "txmpos": TxmPos,
         "txmneg": TxmNeg,
         "txmabs": TxmAbs,
@@ -2985,7 +2819,6 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "g2idf": G2IDF,
         "poissondev": SignedPoissonDeviance,
         "poissonidf": PoissonIDF,
-        "twopoisson": TwoPoisson,
         "g2signed": SignedG2,
         "g2pos": G2Pos,
         "g2neg": G2Neg,
@@ -3005,6 +2838,18 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     if factory is not None:
         return factory(corpus)
 
+    inbz_match = re.fullmatch(r"inbz([0-9]+(?:\.[0-9]+)?)", code)
+    if inbz_match is not None:
+        return DFRInBZ(corpus, float(inbz_match.group(1)))
+
+    if code.startswith("authidfa"):
+        value = code[len("authidfa"):]
+        try:
+            alpha = float(value)
+        except ValueError as error:
+            raise ValueError(f"Invalid authIDF alpha scorer code: {code!r}") from error
+        return AuthIdfAlpha(corpus, alpha)
+
     if code.startswith("subtfidfa"):
         value = code[len("subtfidfa"):]
         try:
@@ -3020,14 +2865,6 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         except ValueError as error:
             raise ValueError(f"Invalid TF-IDF alpha scorer code: {code!r}") from error
         return TfIdfAlpha(corpus, alpha)
-
-    if code.startswith("g2idfa"):
-        value = code[len("g2idfa"):]
-        try:
-            alpha = float(value)
-        except ValueError as error:
-            raise ValueError(f"Invalid G²-IDF alpha scorer code: {code!r}") from error
-        return G2IDFAlpha(corpus, alpha)
 
     if code.startswith("hgta"):
         value = code[len("hgta"):]
@@ -3053,6 +2890,10 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
             raise ValueError(f"Invalid χ² alpha scorer code: {code!r}") from error
         return Chi2Alpha(corpus, alpha)
 
+    f2log_match = re.fullmatch(r"f2logs([0-9]+(?:\.[0-9]+)?)", code)
+    if f2log_match is not None:
+        return AxiomaticF2LOG(corpus, float(f2log_match.group(1)))
+
     bm25_match = re.fullmatch(r"bm25k([0-9.]+)b([0-9.]+)", code)
     if bm25_match is not None:
         return BM25(corpus, float(bm25_match.group(1)), float(bm25_match.group(2)))
@@ -3069,10 +2910,11 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         (
             *factories.keys(),
             "bm25k100b1",
+            "f2logs0.5",
             "simplemathsk1",
+            "authidfa1",
             "tfidfa0.5",
             "subtfidfa0.5",
-            "g2idfa0.3",
             "hgta0.5",
             "g2a2",
             "chi2a2",
