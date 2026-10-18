@@ -419,11 +419,17 @@ class AuthIdfAlpha(Scorer):
         valid = (df > 0.0) & (cf > 0.0)
         self._cf_over_df = np.zeros(df.shape, dtype=np.float64)
         self._cf_over_df[valid] = cf[valid] / df[valid]
+
+        self._idf = np.zeros(len(corpus.df), dtype=np.float64)
+        valid = corpus.df > 0
+        self._idf[valid] = np.log(corpus.n_docs / corpus.df[valid])
+        """
         self._idf = np.zeros(df.shape, dtype=np.float64)
         self._idf[valid] = np.power(
             np.log((corpus.n_docs + 1.0) / (df[valid] + 0.5)),
             self.alpha,
         )
+        """
 
     @property
     def code(self) -> str:
