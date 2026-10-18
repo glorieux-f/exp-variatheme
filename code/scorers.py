@@ -22,7 +22,7 @@ _SCORER_LABELS = {
     "cf": "CF",
     "subtf": "subTF",
     "tfidf": "TF-IDF",
-    "authidf": "authIDF (conditional repetition; α=1)",
+    "poissonidf": "PoissonIDF (conditional repetition; α=1)",
     "subtfidf": "subTF-IDF",
     "btfidf": "BTF-IDF",
     "tficf": "TF-ICF",
@@ -36,7 +36,7 @@ _SCORER_LABELS = {
     "simpleg2": "simple G²",
     "g2idf": "G²-IDF (DF-adjusted 2×2)",
     "poissondev": "Signed Poisson deviance",
-    "poissonidf": "Poisson-IDF",
+    "poisson1idf": "Poisson1IDF (deviance × dispersion)",
     "g2signed": "signed G²",
     "g2pos": "G²+",
     "g2neg": "G²−",
@@ -73,7 +73,8 @@ def scorer_label(code: str) -> str:
         return fixed
 
     alpha_families = (
-        ("authidfa", "authIDF"),
+        ("poissonidfa", "PoissonIDF"),
+        ("poissontestidfa", "PoissonTestIDF"),
         ("subtfidfa", "subTF-IDF"),
         ("tfidfa", "TF-IDF"),
         ("hgta", "HGT"),
@@ -391,7 +392,7 @@ class TfIdf(Scorer):
         return observed * self._idf[term_ids]
 
 
-class AuthIdfAlpha(Scorer):
+class PoissonIDFAlpha(Scorer):
     """Corpus-conditioned repetition × BM25 IDF^alpha (experimental).
 
     lambda(t,d) = cf(t) * dl(d) / CL
@@ -419,25 +420,19 @@ class AuthIdfAlpha(Scorer):
         valid = (df > 0.0) & (cf > 0.0)
         self._cf_over_df = np.zeros(df.shape, dtype=np.float64)
         self._cf_over_df[valid] = cf[valid] / df[valid]
-
-        self._idf = np.zeros(len(corpus.df), dtype=np.float64)
-        valid = corpus.df > 0
-        self._idf[valid] = np.log(corpus.n_docs / corpus.df[valid])
-        """
         self._idf = np.zeros(df.shape, dtype=np.float64)
         self._idf[valid] = np.power(
             np.log((corpus.n_docs + 1.0) / (df[valid] + 0.5)),
             self.alpha,
         )
-        """
 
     @property
     def code(self) -> str:
-        return f"authidfa{self.alpha:g}"
+        return f"poissonidfa{self.alpha:g}"
 
     @property
     def name(self) -> str:
-        return f"authIDF (conditional repetition; alpha={self.alpha:g})"
+        return f"PoissonIDF (conditional repetition; alpha={self.alpha:g})"
 
     def score_terms(
         self, doc_id: int, term_ids: IntArray, tf: IntArray
@@ -468,15 +463,71 @@ class AuthIdfAlpha(Scorer):
         return scores
 
 
-class AuthIdf(AuthIdfAlpha):
-    """Default authIDF: the conditional-repetition model with alpha=1."""
+class PoissonIDF(PoissonIDFAlpha):
+    """Default PoissonIDF: corpus-conditioned repetition, alpha=1."""
 
     def __init__(self, corpus: TermDocCorpus) -> None:
         super().__init__(corpus, alpha=1.0)
 
     @property
     def code(self) -> str:
-        return "authidf"
+        return "poissonidf"
+
+
+class PoissonTestIDFAlpha(Scorer):
+    """Conditional-Poisson TF × BM25 IDF**alpha (experimental control).
+
+    lambda(t,d) = cf(t) * dl(d) / CL
+    E[TF | TF > 0] = lambda / (1 - exp(-lambda))
+    TF_cond(t,d) = tf(t,d) / E[TF | TF > 0]
+    IDF(t) = ln((N + 1) / (df(t) + 0.5))
+    score(t,d) = TF_cond(t,d) * IDF(t)**alpha
+
+    Unlike PoissonIDF, this does not multiply by cf / df. The conditional
+    Poisson expectation corrects the TF component for the expected background
+    frequency, but is neither a tail probability nor a likelihood ratio.
+    """
+
+    def __init__(self, corpus: TermDocCorpus, alpha: float) -> None:
+        super().__init__(corpus)
+        if not isfinite(alpha) or alpha < 0.0:
+            raise ValueError("alpha must be finite and >= 0")
+        self.alpha = float(alpha)
+        df = np.asarray(corpus.df, dtype=np.float64)
+        self._idf = np.zeros(df.shape, dtype=np.float64)
+        valid = df > 0.0
+        self._idf[valid] = np.power(
+            np.log((corpus.n_docs + 1.0) / (df[valid] + 0.5)),
+            self.alpha,
+        )
+
+    @property
+    def code(self) -> str:
+        return f"poissontestidfa{self.alpha:g}"
+
+    @property
+    def name(self) -> str:
+        return f"PoissonTestIDF (conditional TF; alpha={self.alpha:g})"
+
+    def score_terms(
+        self, doc_id: int, term_ids: IntArray, tf: IntArray
+    ) -> FloatArray:
+        observed = np.asarray(tf, dtype=np.float64)
+        scores = np.zeros(observed.shape, dtype=np.float64)
+        positive = observed > 0.0
+        dl = float(self.corpus.doc_len[doc_id])
+        cl = float(self.corpus.collection_len)
+        if not np.any(positive) or dl <= 0.0 or cl <= 0.0:
+            return scores
+
+        ids = np.asarray(term_ids)[positive]
+        lam = np.asarray(self.corpus.cf[ids], dtype=np.float64) * (dl / cl)
+        # Reciprocal zero-truncated Poisson mean; stable at lambda -> 0.
+        inverse_mean = np.ones(lam.shape, dtype=np.float64)
+        nonzero = lam > 0.0
+        inverse_mean[nonzero] = -np.expm1(-lam[nonzero]) / lam[nonzero]
+        scores[positive] = observed[positive] * inverse_mean * self._idf[ids]
+        return scores
 
 
 class TfIdfAlpha(Scorer):
@@ -1410,10 +1461,10 @@ class SignedPoissonDeviance(Scorer):
         return 2.0 * np.sign(observed - expected) * deviance
 
 
-class PoissonIDF(SignedPoissonDeviance):
+class Poisson1IDF(SignedPoissonDeviance):
     """Signed Poisson deviance weighted by residual document concentration.
 
-    PoissonIDF = sign(O - E) * 2 * [O * ln(O / E) - O + E] * df_hat / df
+    Poisson1IDF = sign(O - E) * 2 * [O * ln(O / E) - O + E] * df_hat / df
     O = tf
     E = dl * cf / CL
 
@@ -1434,7 +1485,7 @@ class PoissonIDF(SignedPoissonDeviance):
     @property
     def code(self) -> str:
         """Return the filename code."""
-        return "poissonidf"
+        return "poisson1idf"
 
     def score_terms(
         self,
@@ -2641,8 +2692,10 @@ class SimpleMaths(Scorer):
 
 
 SCORER_TYPES: tuple[type[Scorer], ...] = (
-    AuthIdf,
-    AuthIdfAlpha,
+    PoissonIDF,
+    PoissonIDFAlpha,
+    Poisson1IDF,
+    PoissonTestIDFAlpha,
     DFRInB2,
     DFRInL2,
     DFRInBZ,
@@ -2671,7 +2724,6 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
     MutualInformationLogFrequency,
     SignedG2,
     SignedPoissonDeviance,
-    PoissonIDF,
     SimpleMaths,
     SubTf,
     SubTfIdf,
@@ -2692,7 +2744,15 @@ SCORER_TYPES: tuple[type[Scorer], ...] = (
 def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
     """Return the scorer configurations used by the current keyword experiment."""
     return (
-        AuthIdf(corpus),
+        PoissonIDF(corpus),
+        Poisson1IDF(corpus),
+        PoissonTestIDFAlpha(corpus, 00.5),
+        PoissonTestIDFAlpha(corpus, 00.75),
+        PoissonTestIDFAlpha(corpus, 00.9),
+        PoissonTestIDFAlpha(corpus, 01.0),
+        PoissonTestIDFAlpha(corpus, 01.1),
+        PoissonTestIDFAlpha(corpus, 01.5),
+        PoissonTestIDFAlpha(corpus, 02.0),
         DFRInB2(corpus),
         AxiomaticF2LOG(corpus),
         BinaryTfIdf(corpus),
@@ -2719,7 +2779,6 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
         simpleG2(corpus),
         G2IDF(corpus),
         SignedPoissonDeviance(corpus),
-        PoissonIDF(corpus),
         G2Alpha(corpus, 00.0),
         G2Alpha(corpus, 00.25),
         G2Alpha(corpus, 00.5),
@@ -2787,20 +2846,21 @@ def default_scorers(corpus: TermDocCorpus) -> tuple[Scorer, ...]:
 def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     """Create a scorer from its stable experiment code.
 
-    Canonical codes include ``authidf``, ``inb2``, ``inl2``, ``inbz``, ``inbnone``, ``f2log``, ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
+    Canonical codes include ``poissonidf``, ``poisson1idf``, ``inb2``, ``inl2``, ``inbz``, ``inbnone``, ``f2log``, ``tf``, ``df``, ``cf``, ``subtf``, ``tfidf``, ``subtfidf``,
     ``btfidf``, ``tficf``, ``hgt``, ``txm``, ``bm25``, ``g2``, ``simpleg2``, ``g2idf``,
-    ``poissondev``, ``poissonidf``, ``chi2``,
+    ``poissondev``, ``chi2``,
     ``zscore``, ``tscore``, ``mi``, ``logdice``, ``mi3``, ``milogf``,
     ``minsens``, ``extf``, ``logratio`` and ``simplemaths``.
 
-    Parametric families use an explicit numeric suffix: ``authidfaA``, ``tfidfaA``,
+    Parametric families use an explicit numeric suffix: ``poissonidfaA``, ``poissontestidfaA``, ``tfidfaA``,
     ``subtfidfaA``, ``hgtaA``, ``g2aA``, ``chi2aA`` and
     ``f2logsS`` (Lucene F2LOG with growth parameter s in [0, 1])
     and ``inbzZ`` (Lucene Pareto-Zipf normalization with 0 < z < 0.5).
     """
     code = code.strip().lower()
     factories = {
-        "authidf": AuthIdf,
+        "poissonidf": PoissonIDF,
+        "poisson1idf": Poisson1IDF,
         "inb2": DFRInB2,
         "inl2": DFRInL2,
         "inbz": DFRInBZ,
@@ -2824,7 +2884,6 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
         "simpleg2": simpleG2,
         "g2idf": G2IDF,
         "poissondev": SignedPoissonDeviance,
-        "poissonidf": PoissonIDF,
         "g2signed": SignedG2,
         "g2pos": G2Pos,
         "g2neg": G2Neg,
@@ -2848,13 +2907,21 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
     if inbz_match is not None:
         return DFRInBZ(corpus, float(inbz_match.group(1)))
 
-    if code.startswith("authidfa"):
-        value = code[len("authidfa"):]
+    if code.startswith("poissonidfa"):
+        value = code[len("poissonidfa"):]
         try:
             alpha = float(value)
         except ValueError as error:
-            raise ValueError(f"Invalid authIDF alpha scorer code: {code!r}") from error
-        return AuthIdfAlpha(corpus, alpha)
+            raise ValueError(f"Invalid PoissonIDF alpha scorer code: {code!r}") from error
+        return PoissonIDFAlpha(corpus, alpha)
+
+    if code.startswith("poissontestidfa"):
+        value = code[len("poissontestidfa"):]
+        try:
+            alpha = float(value)
+        except ValueError as error:
+            raise ValueError(f"Invalid PoissonTestIDF alpha scorer code: {code!r}") from error
+        return PoissonTestIDFAlpha(corpus, alpha)
 
     if code.startswith("subtfidfa"):
         value = code[len("subtfidfa"):]
@@ -2918,7 +2985,8 @@ def make_scorer(corpus: TermDocCorpus, code: str) -> Scorer:
             "bm25k100b1",
             "f2logs0.5",
             "simplemathsk1",
-            "authidfa1",
+            "poissonidfa1",
+            "poissontestidfa1",
             "tfidfa0.5",
             "subtfidfa0.5",
             "hgta0.5",

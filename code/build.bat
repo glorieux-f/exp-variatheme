@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 :: Compare some scorers
-python .\keywords.py --vocab all --scorer authidf authidfa0.5 authidfa0.75 authidfa0.9 authidfa1 authidfa1.1  authidfa1.5 authidfa2 g2 poissondev subtfidf subtfidfa0.3 subtfidfa0.5 subtfidfa0.75 tfidf  tfidfa0.75 tfidfa0.9 tfidfa1.1 tfidfa1.5 tfidfa2 txm --top 100  ..\data\3_contingency\ddr- ..\results\keywords100\
+python .\keywords.py --vocab all --scorer poissondev poisson1idf poissonidfa0.5 poissonidfa0.75 poissonidfa0.9 poissonidfa1 poissonidfa1.1  poissonidfa1.5 poissonidfa2 poissontestidfa0.5 poissontestidfa0.75 poissontestidfa0.9 poissontestidfa1 poissontestidfa1.1  poissontestidfa1.5 poissontestidfa2 g2 subtfidf subtfidfa0.3 subtfidfa0.5 subtfidfa0.75 tfidf  tfidfa0.75 tfidfa0.9 tfidfa1.1 tfidfa1.5 tfidfa2 txm --top 100  ..\data\3_contingency\ddr- ..\results\keywords100\
 python .\keywords-matrix.py ..\results\keywords100\ ..\results\keywords100\matrix.tsv
 python .\pcoa.py ..\results\keywords100\matrix.tsv
 python .\keywords_stats.py  --terms ..\data\3_contingency\ddr- --stopwords .\stopwords.txt --top 100 --stopwords-top 20 -o ..\results\keywords100-stats.tsv  "..\results\keywords100\ddr-keywords100-all-*.txt"

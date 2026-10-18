@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Build corpus- and author-level lemma frequency lists from term-document TSV files.
+"""Build frequency lists from a term-document contingency table.
 
-For every scope (full corpus and each creator), four vocabulary variants are written:
+Four vocabulary variants are written:
 
     all       keep capitalized lemmas and stopwords
     nocaps    exclude capitalized lemmas, keep stopwords
     nostops   keep capitalized lemmas, exclude stopwords
     content   exclude capitalized lemmas and stopwords
 
-Each list is sorted by collection frequency (cf). Document frequency (df), mean
-frequency when present (cf / df), frequency per million, and document coverage
-are included for later diagnostics.
+By default, generate lists for the full corpus and each creator. With --select,
+generate lists for the documents whose identifiers match the given glob.
 """
 
 from __future__ import annotations
 
 import argparse
 import csv
+import fnmatch
 import re
 import unicodedata
 from collections import Counter, defaultdict
@@ -39,6 +39,12 @@ def author_slug(value: str) -> str:
     value = "".join(char for char in value if not unicodedata.combining(char))
     value = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower()
     return value or "unknown"
+
+
+def pattern_slug(value: str) -> str:
+    """Make a glob pattern safe for filenames, including on Windows."""
+    value = value.replace("*", "-star").replace("?", "-any")
+    return re.sub(r"[^a-zA-Z0-9._-]+", "-", value).strip("-.")
 
 
 def load_stopwords(path: Path) -> set[str]:
@@ -67,21 +73,27 @@ def load_terms(path: Path) -> dict[int, str]:
     return terms
 
 
-def load_documents(path: Path) -> tuple[dict[int, str], Counter[str]]:
-    """Load doc_id -> creator and document counts per creator from docs.tsv."""
+def load_documents(path: Path, select: str | None) -> tuple[dict[int, str], Counter[str]]:
+    """Load selected doc_id -> creator and document counts per creator."""
     creators: dict[int, str] = {}
     counts: Counter[str] = Counter()
     with path.open("r", encoding="utf-8-sig", newline="") as stream:
         reader = csv.DictReader(stream, delimiter="\t")
         required = {"doc_id", "creator"}
+        if select is not None:
+            required.add("identifier")
         missing = required.difference(reader.fieldnames or ())
         if missing:
             raise ValueError(f"{path}: missing columns: {', '.join(sorted(missing))}")
         for row in reader:
+            if select is not None and not fnmatch.fnmatchcase(row["identifier"], select):
+                continue
             doc_id = int(row["doc_id"])
             creator = row["creator"].strip() or "unknown"
             creators[doc_id] = creator
             counts[creator] += 1
+    if select is not None and not creators:
+        raise ValueError(f"{path}: no identifiers match {select!r}")
     return creators, counts
 
 
@@ -105,8 +117,9 @@ def aggregate(
     path: Path,
     creators: dict[int, str],
     terms: dict[int, str],
+    select: str | None,
 ) -> tuple[dict[str, Counter[int]], dict[str, Counter[int]]]:
-    """Aggregate collection and document frequencies for corpus and creators."""
+    """Aggregate collection and document frequencies for selected documents."""
     cf: dict[str, Counter[int]] = defaultdict(Counter)
     df: dict[str, Counter[int]] = defaultdict(Counter)
 
@@ -118,19 +131,24 @@ def aggregate(
             raise ValueError(f"{path}: missing columns: {', '.join(sorted(missing))}")
 
         for line_no, row in enumerate(reader, 2):
-            term_id = int(row["term_id"])
             doc_id = int(row["doc_id"])
-            tf = int(row["tf"])
+            if doc_id not in creators:
+                if select is not None:
+                    continue
+                raise ValueError(f"{path}:{line_no}: unknown doc_id {doc_id}")
 
+            term_id = int(row["term_id"])
+            tf = int(row["tf"])
             if term_id not in terms:
                 raise ValueError(f"{path}:{line_no}: unknown term_id {term_id}")
-            if doc_id not in creators:
-                raise ValueError(f"{path}:{line_no}: unknown doc_id {doc_id}")
             if tf <= 0:
                 raise ValueError(f"{path}:{line_no}: tf must be > 0")
 
-            creator = creators[doc_id]
-            for scope in ("corpus", creator):
+            if select is None:
+                scopes = ("corpus", creators[doc_id])
+            else:
+                scopes = ("selection",)
+            for scope in scopes:
                 cf[scope][term_id] += tf
                 df[scope][term_id] += 1
 
@@ -179,30 +197,39 @@ def write_frequency_list(
             )
 
 
-def build(input_dir: Path, output_dir: Path, stopwords_path: Path, top: int) -> None:
-    """Build frequency lists for the corpus and for every creator."""
-    terms = load_terms(input_dir / "terms.tsv")
-    creators, creator_doc_counts = load_documents(input_dir / "docs.tsv")
+def build(input_prefix: Path, output_dir: Path, stopwords_path: Path, top: int, select: str | None) -> None:
+    """Build frequency lists for the whole corpus or matching identifiers."""
+    if input_prefix.is_dir():
+        directory, output_prefix = input_prefix, ""
+    else:
+        directory, output_prefix = input_prefix.parent, input_prefix.name
+
+    terms = load_terms(directory / f"{output_prefix}terms.tsv")
+    creators, creator_doc_counts = load_documents(
+        directory / f"{output_prefix}docs.tsv", select
+    )
     stopwords = load_stopwords(stopwords_path)
-    cf, df = aggregate(input_dir / "postings.tsv", creators, terms)
+    cf, df = aggregate(
+        directory / f"{output_prefix}postings.tsv", creators, terms, select
+    )
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    doc_counts = {"corpus": len(creators), **creator_doc_counts}
+    if select is None:
+        scopes = ("corpus", *sorted(creator_doc_counts, key=str.casefold))
+        doc_counts = {"corpus": len(creators), **creator_doc_counts}
+    else:
+        scopes = ("selection",)
+        doc_counts = {"selection": len(creators)}
+        print(f"Selected {len(creators)} document(s) matching {select!r}")
 
-    scopes = ["corpus", *sorted(creator_doc_counts, key=str.casefold)]
     for scope in scopes:
-        prefix = "corpus" if scope == "corpus" else author_slug(scope)
+        name = pattern_slug(select) if select is not None else (
+            "corpus" if scope == "corpus" else author_slug(scope)
+        )
         for vocab in VOCABS:
-            path = output_dir / f"{prefix}-{vocab}.tsv"
+            path = output_dir / f"{output_prefix}{name}-{vocab}.tsv"
             write_frequency_list(
-                path,
-                vocab,
-                doc_counts[scope],
-                terms,
-                cf[scope],
-                df[scope],
-                stopwords,
-                top,
+                path, vocab, doc_counts[scope], terms, cf[scope], df[scope], stopwords, top
             )
             print(path)
 
@@ -210,14 +237,18 @@ def build(input_dir: Path, output_dir: Path, stopwords_path: Path, top: int) -> 
 def main() -> None:
     """Parse command-line arguments and generate frequency lists."""
     parser = argparse.ArgumentParser(
-        description="Build corpus- and author-level frequency lists for four vocabulary variants."
+        description="Build frequency lists for a corpus, creators or selected identifiers."
     )
     parser.add_argument(
-        "input_dir",
+        "input_prefix",
         type=Path,
-        help="Directory containing terms.tsv, docs.tsv and postings.tsv",
+        help="Contingency filename prefix (e.g. 3_contingency/ddr-) or unprefixed directory",
     )
     parser.add_argument("output_dir", type=Path, help="Directory for generated frequency lists")
+    parser.add_argument(
+        "--select",
+        help="Document identifier or glob pattern (*, ?, [abc]); default: all documents",
+    )
     parser.add_argument(
         "--stopwords",
         type=Path,
@@ -235,7 +266,7 @@ def main() -> None:
     if args.top < 0:
         parser.error("--top must be >= 0")
     try:
-        build(args.input_dir, args.output_dir, args.stopwords, args.top)
+        build(args.input_prefix, args.output_dir, args.stopwords, args.top, args.select)
     except (OSError, ValueError) as exc:
         parser.error(str(exc))
 
