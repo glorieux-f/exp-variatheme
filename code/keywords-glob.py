@@ -15,7 +15,6 @@ from __future__ import annotations
 import argparse
 import csv
 import fnmatch
-import re
 import unicodedata
 from collections import Counter
 from datetime import datetime
@@ -27,14 +26,9 @@ from scorers import make_scorer
 
 
 DEFAULT_STOPWORDS = Path(__file__).with_name("stopwords.txt")
-DEFAULT_SCORERS = ("tfidf", "subtfidfa0.3", "poissonidfa1", "txm", "poissondev", "g2")
+DEFAULT_SCORERS = ("tfidf", "subtfidfa0.3", "poissonidfa1", "txm", "poissondev")
 VOCABS = ("all", "content", "nostops", "nocaps", "stops", "caps", "stopscaps")
 AGGREGATIONS = ("pool", "mean", "centroid")
-SUPPORTED_SCORER = re.compile(
-    r"(?:tfidf|tfidfa[0-9]+(?:\.[0-9]+)?|subtfidf|subtfidfa[0-9]+(?:\.[0-9]+)?|"
-    r"poissonidf|poissonidfa[0-9]+(?:\.[0-9]+)?|txm|poissondev|g2)"
-)
-
 
 def read_rows(path: Path, required: set[str]):
     """Yield TSV records with a checked header and physical row number."""
@@ -177,6 +171,10 @@ def scorer_results(corpus: Corpus, postings: dict[int, Counter[int]],
     results = {}
     for code in scorers:
         scorer = make_scorer(corpus, code)
+        if ("pool" in aggregations and corpus.doc_len[corpus.virtual_id] == corpus.collection_len
+                and scorer.requires_complement):
+            raise ValueError(f"Pooled corpus equals the entire corpus: {code} "
+                             "requires a non-empty comparison corpus")
         sums = {}
         if "pool" in aggregations:
             sums["pool"] = scorer.score_terms(corpus.virtual_id, candidate_ids, candidate_tf)
@@ -241,10 +239,6 @@ def build(table_prefix: Path, pattern: str, output_dir: Path, scorers: list[str]
     stopwords = load_stopwords(stopwords_path)
     virtual_length = sum(lengths[doc_id] for doc_id in selected)
     corpus = Corpus(lengths, terms, virtual_length, postings, pooled)
-    if virtual_length == corpus.collection_len and "pool" in aggregations:
-        if any(code in ("txm", "poissondev", "g2") for code in scorers):
-            raise ValueError("Pooled corpus equals the entire corpus: TXM, PoissonDev "
-                             "and G2 have no meaningful corpus-versus-rest comparison")
     if not pooled:
         raise ValueError(f"Selected documents matching {pattern!r} contain no term postings")
 
@@ -296,7 +290,7 @@ def main() -> None:
     parser.add_argument("identifier_glob", help="Case-sensitive document identifier glob")
     parser.add_argument("output_dir", type=Path, help="Directory for the output text file")
     parser.add_argument("--scorer", nargs="+", default=list(DEFAULT_SCORERS),
-                        help="Scorers from scorers.py (default: six experimental families)")
+                        help="Scorers registered in scorers.py (default: five families; G² variants are opt-in)")
     parser.add_argument("--vocab", nargs="+", choices=VOCABS, default=["all"],
                         help="Vocabulary filters (default: all)")
     parser.add_argument("--aggreg", nargs="+", choices=AGGREGATIONS,
@@ -309,10 +303,6 @@ def main() -> None:
     if args.top < 0:
         parser.error("--top must be >= 0")
     args.scorer = list(dict.fromkeys(code.strip().lower() for code in args.scorer))
-    for code in args.scorer:
-        if not SUPPORTED_SCORER.fullmatch(code):
-            parser.error(f"Unsupported scorer {code!r}; this draft supports TF-IDF, "
-                         "subTF-IDF, PoissonIDF, TXM, PoissonDev and G2 families")
     try:
         build(args.table_prefix, args.identifier_glob, args.output_dir, args.scorer,
               list(dict.fromkeys(args.vocab)), list(dict.fromkeys(args.aggreg)),
