@@ -8,8 +8,8 @@ Four vocabulary variants are written:
     nostops   keep capitalized lemmas, exclude stopwords
     content   exclude capitalized lemmas and stopwords
 
-By default, generate lists for the full corpus and each creator. With --select,
-generate lists for the documents whose identifiers match the given glob.
+By default, aggregate all documents. Use --select to restrict the aggregation
+by document identifier, with shell-style patterns such as ddr19721100ao*.
 """
 
 from __future__ import annotations
@@ -19,7 +19,7 @@ import csv
 import fnmatch
 import re
 import unicodedata
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 
@@ -32,19 +32,10 @@ def normalize_word(value: str) -> str:
     return unicodedata.normalize("NFC", value.strip()).casefold()
 
 
-def author_slug(value: str) -> str:
-    """Return the surname-like first metadata token as a filesystem-safe slug."""
-    value = value.strip().split()[0] if value.strip() else "unknown"
-    value = unicodedata.normalize("NFKD", value)
-    value = "".join(char for char in value if not unicodedata.combining(char))
-    value = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower()
-    return value or "unknown"
-
-
 def pattern_slug(value: str) -> str:
     """Make a glob pattern safe for filenames, including on Windows."""
-    value = value.replace("*", "-star").replace("?", "-any")
-    return re.sub(r"[^a-zA-Z0-9._-]+", "-", value).strip("-.")
+    value = value.replace("*", "~").replace("?", "_")
+    return re.sub(r"[^a-zA-Z0-9._~\[\]-]+", "-", value).strip("-.")
 
 
 def load_stopwords(path: Path) -> set[str]:
@@ -73,28 +64,21 @@ def load_terms(path: Path) -> dict[int, str]:
     return terms
 
 
-def load_documents(path: Path, select: str | None) -> tuple[dict[int, str], Counter[str]]:
-    """Load selected doc_id -> creator and document counts per creator."""
-    creators: dict[int, str] = {}
-    counts: Counter[str] = Counter()
+def load_documents(path: Path, select: str | None) -> set[int]:
+    """Load IDs of documents whose identifiers match the selected pattern."""
+    doc_ids: set[int] = set()
     with path.open("r", encoding="utf-8-sig", newline="") as stream:
         reader = csv.DictReader(stream, delimiter="\t")
-        required = {"doc_id", "creator"}
-        if select is not None:
-            required.add("identifier")
+        required = {"doc_id"} | ({"identifier"} if select is not None else set())
         missing = required.difference(reader.fieldnames or ())
         if missing:
             raise ValueError(f"{path}: missing columns: {', '.join(sorted(missing))}")
         for row in reader:
-            if select is not None and not fnmatch.fnmatchcase(row["identifier"], select):
-                continue
-            doc_id = int(row["doc_id"])
-            creator = row["creator"].strip() or "unknown"
-            creators[doc_id] = creator
-            counts[creator] += 1
-    if select is not None and not creators:
-        raise ValueError(f"{path}: no identifiers match {select!r}")
-    return creators, counts
+            if select is None or fnmatch.fnmatchcase(row["identifier"], select):
+                doc_ids.add(int(row["doc_id"]))
+    if not doc_ids:
+        raise ValueError(f"{path}: no documents match {select!r}")
+    return doc_ids
 
 
 def keep_lemma(lemma: str, vocab: str, stopwords: set[str]) -> bool:
@@ -114,14 +98,11 @@ def keep_lemma(lemma: str, vocab: str, stopwords: set[str]) -> bool:
 
 
 def aggregate(
-    path: Path,
-    creators: dict[int, str],
-    terms: dict[int, str],
-    select: str | None,
-) -> tuple[dict[str, Counter[int]], dict[str, Counter[int]]]:
-    """Aggregate collection and document frequencies for selected documents."""
-    cf: dict[str, Counter[int]] = defaultdict(Counter)
-    df: dict[str, Counter[int]] = defaultdict(Counter)
+    path: Path, doc_ids: set[int], terms: dict[int, str], select: str | None
+) -> tuple[Counter[int], Counter[int]]:
+    """Aggregate term and document frequencies over selected documents."""
+    cf: Counter[int] = Counter()
+    df: Counter[int] = Counter()
 
     with path.open("r", encoding="utf-8-sig", newline="") as stream:
         reader = csv.DictReader(stream, delimiter="\t")
@@ -132,10 +113,10 @@ def aggregate(
 
         for line_no, row in enumerate(reader, 2):
             doc_id = int(row["doc_id"])
-            if doc_id not in creators:
-                if select is not None:
-                    continue
-                raise ValueError(f"{path}:{line_no}: unknown doc_id {doc_id}")
+            if doc_id not in doc_ids:
+                if select is None:
+                    raise ValueError(f"{path}:{line_no}: unknown doc_id {doc_id}")
+                continue
 
             term_id = int(row["term_id"])
             tf = int(row["tf"])
@@ -144,13 +125,8 @@ def aggregate(
             if tf <= 0:
                 raise ValueError(f"{path}:{line_no}: tf must be > 0")
 
-            if select is None:
-                scopes = ("corpus", creators[doc_id])
-            else:
-                scopes = ("selection",)
-            for scope in scopes:
-                cf[scope][term_id] += tf
-                df[scope][term_id] += 1
+            cf[term_id] += tf
+            df[term_id] += 1
 
     return cf, df
 
@@ -165,79 +141,65 @@ def write_frequency_list(
     stopwords: set[str],
     top: int,
 ) -> None:
-    """Write one frequency list sorted by decreasing collection frequency."""
+    """Write terms in descending frequency, normalized by all selected tokens."""
     rows = [
-        (term_id, terms[term_id], frequency, df[term_id])
+        (terms[term_id], frequency, df[term_id])
         for term_id, frequency in cf.items()
         if keep_lemma(terms[term_id], vocab, stopwords)
     ]
-    rows.sort(key=lambda row: (-row[2], row[1].casefold(), row[1]))
+    rows.sort(key=lambda row: (-row[1], row[0].casefold(), row[0]))
 
-    total_cf = sum(row[2] for row in rows)
+    total_cf = sum(cf.values())
     if top > 0:
         rows = rows[:top]
 
     with path.open("w", encoding="utf-8", newline="") as stream:
         writer = csv.writer(stream, delimiter="\t", lineterminator="\n")
-        writer.writerow(("rank", "lemma", "cf", "df", "mean_tf", "cf_pm", "df_pct"))
-        for rank, (_, lemma, frequency, document_frequency) in enumerate(rows, 1):
-            mean_tf = frequency / document_frequency
+        if n_docs == 1:
+            writer.writerow(("rank", "lemma", "cf", "cf_pm"))
+        else:
+            writer.writerow(("rank", "lemma", "cf", "df", "mean_tf", "cf_pm", "df_pct"))
+
+        for rank, (lemma, frequency, document_frequency) in enumerate(rows, 1):
             cf_pm = 1_000_000 * frequency / total_cf if total_cf else 0.0
-            df_pct = 100 * document_frequency / n_docs if n_docs else 0.0
-            writer.writerow(
-                (
-                    rank,
-                    lemma,
-                    frequency,
-                    document_frequency,
-                    f"{mean_tf:.6f}",
-                    f"{cf_pm:.6f}",
-                    f"{df_pct:.6f}",
+            if n_docs == 1:
+                writer.writerow((rank, lemma, frequency, f"{cf_pm:.6f}"))
+            else:
+                mean_tf = frequency / document_frequency
+                df_pct = 100 * document_frequency / n_docs
+                writer.writerow(
+                    (rank, lemma, frequency, document_frequency,
+                     f"{mean_tf:.6f}", f"{cf_pm:.6f}", f"{df_pct:.6f}")
                 )
-            )
 
 
 def build(input_prefix: Path, output_dir: Path, stopwords_path: Path, top: int, select: str | None) -> None:
-    """Build frequency lists for the whole corpus or matching identifiers."""
+    """Write frequency lists for the corpus or the selected identifiers."""
     if input_prefix.is_dir():
-        directory, output_prefix = input_prefix, ""
+        directory, prefix = input_prefix, ""
     else:
-        directory, output_prefix = input_prefix.parent, input_prefix.name
+        directory, prefix = input_prefix.parent, input_prefix.name
 
-    terms = load_terms(directory / f"{output_prefix}terms.tsv")
-    creators, creator_doc_counts = load_documents(
-        directory / f"{output_prefix}docs.tsv", select
-    )
+    terms = load_terms(directory / f"{prefix}terms.tsv")
+    doc_ids = load_documents(directory / f"{prefix}docs.tsv", select)
     stopwords = load_stopwords(stopwords_path)
-    cf, df = aggregate(
-        directory / f"{output_prefix}postings.tsv", creators, terms, select
-    )
+    cf, df = aggregate(directory / f"{prefix}postings.tsv", doc_ids, terms, select)
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    if select is None:
-        scopes = ("corpus", *sorted(creator_doc_counts, key=str.casefold))
-        doc_counts = {"corpus": len(creators), **creator_doc_counts}
-    else:
-        scopes = ("selection",)
-        doc_counts = {"selection": len(creators)}
-        print(f"Selected {len(creators)} document(s) matching {select!r}")
+    if select is not None:
+        print(f"Selected {len(doc_ids)} document(s) matching {select!r}")
 
-    for scope in scopes:
-        name = pattern_slug(select) if select is not None else (
-            "corpus" if scope == "corpus" else author_slug(scope)
-        )
-        for vocab in VOCABS:
-            path = output_dir / f"{output_prefix}{name}-{vocab}.tsv"
-            write_frequency_list(
-                path, vocab, doc_counts[scope], terms, cf[scope], df[scope], stopwords, top
-            )
-            print(path)
+    name = pattern_slug(select) if select is not None else "corpus"
+    for vocab in VOCABS:
+        path = output_dir / f"{prefix}{name}-{vocab}.tsv"
+        write_frequency_list(path, vocab, len(doc_ids), terms, cf, df, stopwords, top)
+        print(path)
 
 
 def main() -> None:
     """Parse command-line arguments and generate frequency lists."""
     parser = argparse.ArgumentParser(
-        description="Build frequency lists for a corpus, creators or selected identifiers."
+        description="Build frequency lists for a corpus or selected document identifiers."
     )
     parser.add_argument(
         "input_prefix",
