@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""Interactive or one-shot term search over a compiled term-document corpus.
+r"""Interactive or one-shot term search over prefixed term-document TSV tables.
+
+The input is a filename prefix: ``{prefix}docs.tsv``, ``{prefix}terms.tsv``
+and ``{prefix}postings.tsv``. Scorers are resolved by ``scorers.make_scorer``.
 
 Examples::
 
-    python 2_term_search.py violacé --select "verne*"
-    python 2_term_search.py poulpe --select "verne*" --scorer bm25
-    python 2_term_search.py --select "verne*"
+    python term-search.py guerre --input ..\data\3_contingency\ddr-
+    python term-search.py guerre --input ..\data\3_contingency\ddr- --scorer bm25 g2 txm poissondev
+    python term-search.py guerre paix --scorer tfidf subtfidfa0.3
+    python term-search.py --scorer bm25 g2
 
 With no lemma argument, the corpus is loaded once and an interactive prompt is
 started. An empty line or EOF exits.
@@ -20,11 +24,12 @@ from pathlib import Path
 import numpy as np
 
 from corpus import Corpus
-from scorers import make_scorer
+from scorers import Scorer, make_scorer
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_INPUT_DIR = (SCRIPT_DIR / "../data").resolve()
+DEFAULT_INPUT_PREFIX = (SCRIPT_DIR / "../data/3_contingency/ddr-").resolve()
+DEFAULT_SCORERS = ("tf",)
 
 
 def format_number(value: float) -> str:
@@ -36,8 +41,8 @@ def format_number(value: float) -> str:
     return f"{value:.8g}"
 
 
-def print_result(corpus: Corpus, scorer_code: str, lemma: str, limit: int | None) -> None:
-    """Print corpus statistics and ranked documents for one exact lemma."""
+def print_result(corpus: Corpus, scorers: list[Scorer], lemma: str, limit: int | None) -> None:
+    """Print corpus statistics and independently ranked documents for each scorer."""
     try:
         term_id = corpus.term_id(lemma)
     except KeyError:
@@ -60,25 +65,25 @@ def print_result(corpus: Corpus, scorer_code: str, lemma: str, limit: int | None
             f"df={df}, postings={len(doc_ids)}, cf={cf}, sum(tf)={int(tf.sum())}"
         )
 
-    scorer = make_scorer(corpus, scorer_code)
-    scores = scorer.score_docs(term_id, doc_ids, tf)
-    sortable = np.nan_to_num(scores, nan=-np.inf)
+    for scorer in scorers:
+        scores = np.asarray(scorer.score_docs(term_id, doc_ids, tf), dtype=np.float64)
+        sortable = np.nan_to_num(scores, nan=-np.inf)
 
-    # Primary: score descending. Tie: tf descending, then global doc_id ascending.
-    order = np.lexsort((doc_ids, -tf, -sortable))
-    if limit is not None:
-        order = order[:limit]
+        # Primary: score descending. Tie: tf descending, then doc ID ascending.
+        order = np.lexsort((doc_ids, -tf, -sortable))
+        if limit is not None:
+            order = order[:limit]
 
-    print(f"  scorer:      {scorer.code} — {scorer.name}")
-    print()
-    print("rank\ttf\tscore\tidentifier\twork\ttitle")
-    for rank, pos in enumerate(order, start=1):
-        doc_id = int(doc_ids[pos])
-        document = corpus.document(doc_id)
-        print(
-            f"{rank}\t{int(tf[pos])}\t{format_number(float(scores[pos]))}\t"
-            f"{document.identifier}\t{document.work}\t{document.title}"
-        )
+        print(f"\n  scorer:      {scorer.code} — {scorer.name}")
+        print()
+        print("rank\ttf\tscore\tidentifier\twork\ttitle")
+        for rank, pos in enumerate(order, start=1):
+            doc_id = int(doc_ids[pos])
+            document = corpus.document(doc_id)
+            print(
+                f"{rank}\t{int(tf[pos])}\t{format_number(float(scores[pos]))}\t"
+                f"{document.identifier}\t{document.work}\t{document.title}"
+            )
 
 
 def parse_args() -> argparse.Namespace:
@@ -94,25 +99,35 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--input",
         type=Path,
-        default=DEFAULT_INPUT_DIR,
-        help=f"directory containing docs.tsv, terms.tsv, postings.tsv (default: {DEFAULT_INPUT_DIR})",
+        default=DEFAULT_INPUT_PREFIX,
+        metavar="PREFIX",
+        help=(
+            "prefix for {prefix}docs.tsv, {prefix}terms.tsv and "
+            f"{{prefix}}postings.tsv (default: {DEFAULT_INPUT_PREFIX})"
+        ),
     )
     parser.add_argument(
         "--select",
         default="*",
         metavar="GLOB",
-        help='document identifier glob defining the active corpus, e.g. "verne*" (default: *)',
+        help='document identifier glob defining the active corpus (default: "*")',
     )
     parser.add_argument(
         "--scorer",
-        default="freq",
-        help="document ranking scorer: freq, tfidf, bm25, chi2, lafon, logratio, simplemaths, g2sX",
+        action="extend",
+        nargs="+",
+        default=[],
+        metavar="CODE",
+        help=(
+            "one or more scorer codes registered in scorers.py; repeatable "
+            f"(default: {' '.join(DEFAULT_SCORERS)})"
+        ),
     )
     parser.add_argument(
         "--limit",
         type=int,
         default=None,
-        help="maximum number of documents to print (default: all)",
+        help="maximum number of documents to print per scorer (default: all)",
     )
     args = parser.parse_args()
     if args.limit is not None and args.limit < 1:
@@ -127,17 +142,25 @@ def main() -> None:
     if args.select != "*":
         corpus = corpus.select(args.select)
 
-    # Fail early on an invalid scorer code, before entering interactive mode.
-    scorer = make_scorer(corpus, args.scorer)
+    # Fail early on invalid codes, and reuse scorer instances across lemmas.
+    codes = args.scorer or DEFAULT_SCORERS
+    scorers: list[Scorer] = []
+    seen_codes: set[str] = set()
+    for code in codes:
+        scorer = make_scorer(corpus, code)
+        if scorer.code not in seen_codes:
+            scorers.append(scorer)
+            seen_codes.add(scorer.code)
+
     print(
         f"Corpus: {args.select} — {corpus.n_docs:,} documents — "
         f"{corpus.collection_len:,} term occurrences\n"
-        f"Document scorer: {scorer.code} — {scorer.name}"
+        f"Document scorers: {', '.join(scorer.code for scorer in scorers)}"
     )
 
     if args.lemmas:
         for lemma in args.lemmas:
-            print_result(corpus, args.scorer, lemma, args.limit)
+            print_result(corpus, scorers, lemma, args.limit)
         return
 
     while True:
@@ -148,7 +171,7 @@ def main() -> None:
             return
         if not lemma:
             return
-        print_result(corpus, args.scorer, lemma, args.limit)
+        print_result(corpus, scorers, lemma, args.limit)
 
 
 if __name__ == "__main__":

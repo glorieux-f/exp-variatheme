@@ -271,7 +271,7 @@ def _g2_values(
 
     # G² is mathematically non-negative. Floating-point cancellation can
     # nevertheless produce tiny negative values near independence; clamp those
-    # artifacts before fractional powers are applied by G2Alpha.
+    # artifacts before powers of the G² magnitude are applied by G2Alpha.
     finite = ~invalid & np.isfinite(g2)
     g2[finite] = np.maximum(g2[finite], 0.0)
     g2[invalid] = np.nan
@@ -899,11 +899,14 @@ class ExclusiveTf(Scorer):
         return scores
 
 
-@register_scorer('g2', 'G²')
+@register_scorer('g2', 'signed G²')
 class G2(Scorer):
-    """Full unsigned likelihood-ratio G² on a 2 x 2 document-vs-rest table.
+    """Signed likelihood-ratio G² on a 2 x 2 document-vs-rest table.
 
-    G2 = 2 * sum(O * ln(O / E)) over the four cells; O = 0 contributes 0.
+    G² = 2 * sum(O * ln(O / E)) over the four cells; O = 0 contributes 0.
+    The magnitude is the ordinary non-negative G² statistic; its sign is
+    positive for an overrepresented term and negative for an underrepresented
+    term in the focus document relative to the rest of the corpus.
 
     Observed counts O (rows: document, rest; columns: term, other terms):
 
@@ -924,9 +927,6 @@ class G2(Scorer):
     dl : document length in tokens
     CL : corpus length in tokens
 
-    G² is non-negative. Direction is deliberately not encoded here; use
-    SignedG2 when over- and under-representation must be distinguished.
-
     Dunning, T. (1993). "Accurate Methods for the Statistics of Surprise and Coincidence." Computational Linguistics 19(1): 61-74.
     """
 
@@ -943,30 +943,26 @@ class G2(Scorer):
         term_ids: IntArray,
         tf: IntArray,
     ) -> FloatArray:
-        """Return ordinary unsigned full G² values."""
-        g2, _, _ = _g2_values(self.corpus, doc_id, term_ids, tf)
-        return g2
+        """Return G² with the direction of association attached."""
+        g2, sign, _ = _g2_values(self.corpus, doc_id, term_ids, tf)
+        return g2 * sign
 
 
 @register_scorer('g2a{alpha}', 'G²α({alpha:g})')
 class G2Alpha(Scorer):
-    """Parametric G² specificity.
+    """Parametric signed G² specificity.
 
-    G2alpha = tf * (G2 / tf)^alpha
-            = tf^(1-alpha) * G2^alpha
+    G2alpha = sign * tf * (abs(G2signed) / tf)^alpha  (tf > 0)
 
     tf : observed frequency in the focus
-    G2 : unsigned likelihood-ratio statistic on the 2 x 2 table
+    G2signed : signed likelihood-ratio statistic on the 2 x 2 table
     alpha : strength of the G²-per-occurrence specificity factor
 
-    alpha=0 gives raw tf exactly. alpha=1 gives ordinary G² exactly. Values
-    above 1 continue the same family by increasingly favouring terms with high
-    G² per observed occurrence. No document-frequency statistic is required; the
-    scorer depends only on the 2 x 2 contingency table.
-
-    G² is unsigned. Consequently, for alpha>1 a very strong under-representation
-    can also receive a large score. Use G2Pos when only positive association is
-    desired.
+    alpha=0 gives raw tf exactly. alpha=1 gives signed G² exactly, including
+    terms with tf=0. For other positive alpha values, tf=0 gives 0.
+    The exponent is applied to the non-negative G² magnitude and its original
+    sign is restored; this supports fractional alpha without complex values.
+    No document-frequency statistic is required.
 
     Dunning, T. (1993). "Accurate Methods for the Statistics of Surprise and Coincidence." Computational Linguistics 19(1): 61-74.
     """
@@ -1003,17 +999,16 @@ class G2Alpha(Scorer):
         if self.alpha == 0.0:
             return observed.copy()
 
-        g2, _, invalid = _g2_values(self.corpus, doc_id, term_ids, tf)
+        g2, sign, invalid = _g2_values(self.corpus, doc_id, term_ids, tf)
         if self.alpha == 1.0:
-            return g2
+            return g2 * sign
 
         scores = np.zeros(g2.shape, dtype=np.float64)
         valid = (observed > 0.0) & (g2 > 0.0) & ~invalid
-        specificity = np.divide(
-            g2[valid],
-            observed[valid],
+        specificity = g2[valid] / observed[valid]
+        scores[valid] = (
+            sign[valid] * observed[valid] * np.power(specificity, self.alpha)
         )
-        scores[valid] = observed[valid] * np.power(specificity, self.alpha)
         scores[invalid] = np.nan
         return scores
 
@@ -1146,75 +1141,6 @@ class G2IDF(Scorer):
         scores = g2 * sign
         scores[(term_total == 0.0) | (nonterm_total == 0.0)] = 0.0
         scores[invalid] = np.nan
-        return scores
-
-
-@register_scorer('g2neg', 'G²−')
-class G2Neg(Scorer):
-    """Negative directional G² only: under-representation magnitude.
-
-    Under-represented terms keep their G² magnitude as a positive value;
-    over-represented terms are set to 0.
-    """
-
-    requires_complement = True
-
-    @property
-    def code(self) -> str:
-        """Return the filename code."""
-        return "g2neg"
-
-    @property
-    def name(self) -> str:
-        """Return the human-readable scorer name."""
-        return "Negative G²"
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Keep only under-represented G² magnitudes."""
-        g2, sign, _ = _g2_values(self.corpus, doc_id, term_ids, tf)
-        scores = np.zeros(g2.shape, dtype=np.float64)
-        negative = sign < 0.0
-        scores[negative] = g2[negative]
-        scores[np.isnan(g2) | np.isnan(sign)] = np.nan
-        return scores
-
-
-@register_scorer('g2pos', 'G²+')
-class G2Pos(Scorer):
-    """Positive directional G² only: over-representation magnitude.
-
-    This is the positive part of SignedG2. Under-represented terms are set to 0.
-    """
-
-    requires_complement = True
-
-    @property
-    def code(self) -> str:
-        """Return the filename code."""
-        return "g2pos"
-
-    @property
-    def name(self) -> str:
-        """Return the human-readable scorer name."""
-        return "Positive G²"
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Keep only over-represented G² magnitudes."""
-        g2, sign, _ = _g2_values(self.corpus, doc_id, term_ids, tf)
-        scores = np.zeros(g2.shape, dtype=np.float64)
-        positive = sign > 0.0
-        scores[positive] = g2[positive]
-        scores[np.isnan(g2) | np.isnan(sign)] = np.nan
         return scores
 
 
@@ -1926,41 +1852,6 @@ class PoissonTestIDFAlpha(Scorer):
         inverse_mean[nonzero] = -np.expm1(-lam[nonzero]) / lam[nonzero]
         scores[positive] = observed[positive] * inverse_mean * self._idf[ids]
         return scores
-
-
-@register_scorer('g2signed', 'signed G²')
-class SignedG2(Scorer):
-    """Directional G² association score.
-
-    The magnitude is ordinary G². The sign is positive when the term relative
-    frequency is at least as high in the focus document as in the rest of the
-    corpus, otherwise negative.
-
-    This is a signed association score built from G²; G² itself remains
-    intrinsically non-negative.
-    """
-
-    requires_complement = True
-
-    @property
-    def code(self) -> str:
-        """Return the filename code."""
-        return "g2signed"
-
-    @property
-    def name(self) -> str:
-        """Return the human-readable scorer name."""
-        return "Signed G²"
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Return G² with the direction of association attached."""
-        g2, sign, _ = _g2_values(self.corpus, doc_id, term_ids, tf)
-        return g2 * sign
 
 
 @register_scorer('simpleg2', 'simple G²')

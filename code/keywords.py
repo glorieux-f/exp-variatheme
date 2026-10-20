@@ -4,9 +4,8 @@
 The input prefix identifies ``{prefix}docs.tsv``, ``{prefix}terms.tsv`` and
 ``{prefix}postings.tsv``; a directory denotes an empty filename prefix.
 
-For the Balzac/Dumas/Sand/Verne/Zola collection, rankings and scorer statistics
-are computed separately by author. Other collections are processed as a whole.
-The output name starts with the author code or input corpus prefix, e.g.::
+Rankings use the complete input corpus and its global term statistics.
+The output name starts with the input corpus prefix, e.g.::
 
     ddr-keywords100-content-g2a1.4.txt
 
@@ -44,20 +43,20 @@ import unicodedata
 import numpy as np
 
 from corpus import Corpus, Document
-from scorers import Scorer, SimpleMaths, default_scorers, make_scorer
+from scorers import Scorer, SimpleMaths, make_scorer
 
 
 DEFAULT_STOPWORDS = Path(__file__).with_name("stopwords.txt")
 DEFAULT_TOP_N = 100
 KEYWORD_SEPARATOR = ", "
-
-AUTHOR_GLOBS = {
-    "balzac": "balzac*",
-    "dumas": "dumas*",
-    "sand": "sand*",
-    "verne": "verne*",
-    "zola": "zola*",
-}
+DEFAULT_SCORERS = (
+    "tfidf",
+    "subtfidfa0.3",
+    "poissonidfa1",
+    "txm",
+    "poissondev",
+    "g2",
+)
 
 VOCAB_MODES = (
     "all",
@@ -71,26 +70,12 @@ VOCAB_MODES = (
 STOPWORD_VOCAB_MODES = {"content", "nostops", "stops", "stopscaps"}
 
 
-def keyword_corpora(base_corpus: Corpus, input_prefix: str | Path) -> dict[str, Corpus]:
-    """Use author subcorpora for the five-author collection, else the entire corpus."""
-    counts = {
-        code: sum(
-            base_corpus.document(int(doc_id)).identifier.startswith(code)
-            for doc_id in base_corpus.doc_ids
-        )
-        for code in AUTHOR_GLOBS
-    }
-    if sum(counts.values()) == base_corpus.n_docs:
-        return {
-            code: base_corpus.select(AUTHOR_GLOBS[code])
-            for code, count in counts.items()
-            if count
-        }
-
+def corpus_label(input_prefix: str | Path) -> str:
+    """Return the output label derived from a contingency-table prefix."""
     label = Path(str(input_prefix).rstrip("/\\")).name.rstrip("-_.")
     if not label:
         raise ValueError(f"Cannot derive corpus label from prefix: {input_prefix!r}")
-    return {label: base_corpus}
+    return label
 
 
 def clean_text(value: str) -> str:
@@ -138,7 +123,7 @@ def generate(
         f"{len(base_corpus.lemmas) - 1} terms in {perf_counter() - load_start:.1f}s"
     )
 
-    corpora = keyword_corpora(base_corpus, input_prefix)
+    corpora = {corpus_label(input_prefix): base_corpus}
     candidates = keyword_mask(base_corpus, vocab_mode, stopwords)
     candidate_count = int(np.count_nonzero(candidates))
     log(f"Vocabulary {vocab_mode}: {candidate_count} candidate terms")
@@ -161,8 +146,8 @@ def generate(
         all_scorers = selected_scorers(corpus, scorer_codes)
         scorer_count = len(all_scorers)
         eligible_count = len(eligible_doc_ids)
-        generated_author = 0
-        skipped_author = 0
+        generated_corpus = 0
+        skipped_corpus = 0
         log(
             f"{corpus_code}: {corpus.n_docs} documents, {eligible_count} eligible, "
             f"{scorer_count} scorers"
@@ -183,7 +168,7 @@ def generate(
             prefix = f"{corpus_code} [{scorer_index}/{scorer_count}] {scorer.code}"
             if path.exists() and not force:
                 skipped_count += 1
-                skipped_author += 1
+                skipped_corpus += 1
                 continue
 
             scorer_start = perf_counter()
@@ -248,7 +233,7 @@ def generate(
             # the file while this scorer was being computed.
             if path.exists() and not force:
                 skipped_count += 1
-                skipped_author += 1
+                skipped_corpus += 1
                 print(flush=True)
                 log(f"{prefix}: SKIP created by another process: {path.name}")
                 continue
@@ -256,12 +241,12 @@ def generate(
             write_atomic(path, "".join(blocks))
             elapsed = perf_counter() - scorer_start
             file_count += 1
-            generated_author += 1
+            generated_corpus += 1
             print(f"\r{status} DONE ({elapsed:.1f}s)", flush=True)
 
         log(
-            f"{corpus_code}: DONE; {generated_author} generated, "
-            f"{skipped_author} existing files skipped"
+            f"{corpus_code}: DONE; {generated_corpus} generated, "
+            f"{skipped_corpus} existing files skipped"
         )
 
     stopword_text = (
@@ -450,7 +435,7 @@ def parse_args() -> argparse.Namespace:
         help=(
             "Use one or more scorer codes; the option may also be repeated. "
             "Parameterized codes are accepted, e.g. "
-            "--scorer txm hgt g2a1.4 chi2a0.43"
+            "--scorer txm g2 g2a1.4 subtfidfa0.3"
         ),
     )
     parser.add_argument(
@@ -490,7 +475,7 @@ def rank_terms(
 
     ``top_n == 0`` means no truncation; otherwise return at most ``top_n`` terms.
     Default ordering is score descending, tf descending, then term_id ascending.
-    For raw TF only, caller supplies author-internal cf, producing:
+    For raw TF only, caller supplies corpus cf, producing:
     tf descending, cf descending, then term_id ascending.
     """
     term_ids = np.asarray(term_ids, dtype=np.int64)
@@ -521,13 +506,10 @@ def rank_terms(
 
 
 def selected_scorers(corpus: Corpus, scorer_codes: list[str] | None) -> list[Scorer]:
-    """Return default scorers, or instantiate the explicitly requested codes."""
-    if not scorer_codes:
-        return list(default_scorers(corpus))
-
+    """Instantiate application defaults or requested scorers via the registry."""
     scorers: list[Scorer] = []
     seen_codes: set[str] = set()
-    for code in scorer_codes:
+    for code in scorer_codes or DEFAULT_SCORERS:
         scorer = make_scorer(corpus, code)
         if scorer.code in seen_codes:
             continue
