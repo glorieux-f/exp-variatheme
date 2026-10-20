@@ -6,8 +6,8 @@
 # title = "[Entretien] Que fera-t-on quand l’essence coûtera 25 fr. le litre ? (22 février 1978)"
 
 ↵↵	↵↵	PUNCTstruct
-Entretien	entretien	NOUN
-Que	que	PRON
+entretien	entretien	NOUN
+que	que	PRON
 fera	faire	VERB
 on	on	PRON
 quand	quand	ADV
@@ -26,7 +26,7 @@ février	février	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Denis	Denis	PROPN
+Denis	Denis	DET
 de	de	ADP
 Rougemont	Rougemont	PROPN
 est	être	AUX
@@ -55,13 +55,13 @@ milieu	milieu	NOUN
 vital	vital	ADJ
 d'autre part	d'autre part	ADV
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 son	son	DET
 dernier	dernier	ADJ
 livre	livre	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-Avenir	Avenir	PROPN
+avenir	avenir	UNKNOWN
 est	être	AUX
 notre	notre	DET
 affaire	affaire	NOUN
@@ -82,7 +82,7 @@ de	de	ADP
 l'	le	DET
 auto	auto	NOUN
 .	.	PUNCTsent
-Quelle	quel	DET
+quelle	quel	DET
 est	être	AUX
 alors	alors	ADV
 son	son	DET
@@ -94,7 +94,7 @@ Franz	Franz	PROPN
 Weber	Weber	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 suis	être	AUX
 tout	tout	ADV
 à	à	ADP
@@ -105,7 +105,7 @@ cette	ce	DET
 initiative	initiative	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 considérez	considérer	VERB
 vous	vous	PRON
 d'abord	d'abord	ADV
@@ -123,7 +123,7 @@ la	le	DET
 démocratie	démocratie	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 agit	agir	VERB
 avant	avant	ADP
@@ -169,7 +169,7 @@ référendum	référendum	NOUN
 facultatif	facultatif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	DET
+ce	ce	DET
 référendum	référendum	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -183,7 +183,7 @@ préserver	préserver	VERB
 l'	le	DET
 environnement	environnement	NOUN
 ?	?	PUNCTsent
-Il	il	PRON
+il	il	PRON
 semble	sembler	VERB
 en effet	en effet	ADV
 que	que	SCONJ
@@ -203,7 +203,7 @@ par	par	ADP
 vos	vos	DET
 thèses	thèse	NOUN
 …	…	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 ne	ne	ADV
 se	se	PRON
 opposeront	opposer	VERB
@@ -220,12 +220,12 @@ fédérale	fédéral	ADJ
 ↵↵	↵↵	PUNCTstruct
 bien sûr	bien sûr	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ils	ils	PRON
 sont	être	AUX
 inconscients	inconscient	ADJ
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 préfèrent	préférer	VERB
 un	un	DET
 avantage	avantage	NOUN
@@ -236,7 +236,7 @@ réflexion	réflexion	NOUN
 approfondie	approfondi	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Alors	alors	ADV
+alors	alors	ADV
 à	à	ADP
 quoi	quoi	PRON
 sert	servir	VERB
@@ -244,7 +244,7 @@ cette	ce	DET
 initiative	initiative	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Son	son	DET
+son	son	DET
 grand	grand	ADJ
 mérite	mérite	NOUN
 ,	,	PUNCTclause
@@ -270,7 +270,7 @@ par	par	ADP
 les	le	DET
 autorités	autorité	NOUN
 .	.	PUNCTsent
-Qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	PRON
 qui	qui	PRON
 prouve	prouver	VERB
 la	le	DET
@@ -282,7 +282,7 @@ du	du	ADP_DET
 réseau	réseau	NOUN
 routier	routier	ADJ
 ?	?	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 ne	ne	ADV
 se	se	PRON
 contente	contenter	VERB
@@ -310,7 +310,7 @@ la	le	DET
 croissance	croissance	NOUN
 indéfinie	indéfini	ADJ
 ?	?	PUNCTsent
-Tenez	tenir	VERB
+tenez	tenir	VERB
 ,	,	PUNCTclause
 le	le	DET
 but	but	NOUN
@@ -330,7 +330,7 @@ fluidité	fluidité	NOUN
 du	du	ADP_DET
 trafic	trafic	NOUN
 ?	?	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 des	un	DET
 heures	heure	NOUN
@@ -367,13 +367,13 @@ bouchons	bouchon	NOUN
 déjà	déjà	ADV
 gigantesques	gigantesque	ADJ
 !	!	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 dépasse	dépasser	VERB
 le	le	DET
 grotesque	grotesque	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Considérez	considérer	VERB
+considérez	considérer	VERB
 vous	vous	PRON
 par conséquent	par conséquent	CCONJ
 que	que	PRON
@@ -393,7 +393,7 @@ en	en	PRON
 suis	être	AUX
 convaincu	convaincre	VERB
 .	.	PUNCTsent
-D'autant	d'autant	ADV
+d'autant	d'autant	ADV
 plus	plus	ADV
 que	que	SCONJ
 il y a	il y a	VERB
@@ -416,7 +416,7 @@ ans	an	NOUN
 hé	hé	INTJ
 oui	oui	INTJ
 !	!	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 que	que	SCONJ
 fera	faire	AUX
 on	on	PRON
@@ -429,7 +429,7 @@ francs	franc	NOUN
 le	le	DET
 litre	litre	NOUN
 ?	?	PUNCTsent
-À	à	ADP
+à	à	ADP
 cette	ce	DET
 question	question	NOUN
 ,	,	PUNCTclause
@@ -439,7 +439,7 @@ ne	ne	ADV
 répond	répondre	VERB
 pas	pas	ADV
 .	.	PUNCTsent
-Pourtant	pourtant	ADV
+pourtant	pourtant	ADV
 la	le	DET
 croissance	croissance	NOUN
 est	être	AUX
@@ -466,7 +466,7 @@ dise	dire	VERB
 ,	,	PUNCTclause
 inépuisable	inépuisable	ADJ
 .	.	PUNCTsent
-Non	non	ADV
+non	non	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -492,7 +492,7 @@ le	le	DET
 faire	faire	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 on	on	PRON
 ne	ne	ADV
 construit	construire	VERB
@@ -548,7 +548,7 @@ un	un	DET
 statut	statut	NOUN
 social	social	ADJ
 .	.	PUNCTsent
-Pourquoi	pourquoi	ADV
+pourquoi	pourquoi	ADV
 la	le	DET
 voiture	voiture	NOUN
 servirait	servir	VERB
@@ -560,7 +560,7 @@ celle	celle	PRON
 du	du	ADP_DET
 déplacement	déplacement	NOUN
 ?	?	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 puis	puis	CCONJ
 ,	,	PUNCTclause
 encore une fois	encore une fois	ADV
@@ -584,7 +584,7 @@ se	se	PRON
 épuisent	épuiser	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 parle	parler	VERB
 beaucoup	beaucoup	ADV
 à	à	ADP
@@ -628,19 +628,19 @@ août	août	NOUN
 1973	1973	NUM
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Absolument	absolument	ADV
+absolument	absolument	ADV
 pas	pas	ADV
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 danger	danger	NOUN
 ne	ne	ADV
 existe	exister	VERB
 pas	pas	ADV
 .	.	PUNCTsent
-Pourtant	pourtant	ADV
+pourtant	pourtant	ADV
 ,	,	PUNCTclause
 le	le	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 fédéral	fédéral	ADJ
 a	avoir	AUX
 repris	reprendre	VERB
@@ -681,7 +681,7 @@ un	un	DET
 scrutin	scrutin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 revenir	revenir	VERB
 aux	au	ADP_DET
 démolitions	démolition	NOUN
@@ -694,7 +694,7 @@ ait	avoir	AUX
 risque	risque	NOUN
 ,	,	PUNCTclause
 le	le	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 fédéral	fédéral	ADJ
 en	en	ADP
 est	être	AUX
@@ -702,7 +702,7 @@ le	le_PRON	PRON
 seul	seul	ADJ
 responsable	responsable	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 avait	avoir	VERB
 que	que	ADV
@@ -723,7 +723,7 @@ de	de	ADP
 l'	le	DET
 initiative	initiative	NOUN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 disposition	disposition	NOUN
 transitoire	transitoire	ADJ
 était	être	AUX
@@ -743,7 +743,7 @@ de	de	ADP
 moratoire	moratoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 votre	votre	DET
 livre	livre	NOUN
 ,	,	PUNCTclause
@@ -765,7 +765,7 @@ dangers	danger	NOUN
 comparables	comparable	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Bien	bien	ADV
+bien	bien	ADV
 que	que	SCONJ
 la	le	DET
 construction	construction	NOUN
@@ -789,7 +789,7 @@ type	type	NOUN
 de	de	ADP
 catastrophes	catastrophe	NOUN
 .	.	PUNCTsent
-Elles	elles	PRON
+elles	elles	PRON
 sont	être	AUX
 toutes	tout	ADJ
 deux	deux	NUM
@@ -814,7 +814,7 @@ cesser	cesser	VERB
 très	très	ADV
 prochainement	prochainement	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 vaudrait	valoir	VERB
 mieux	mieux	ADV
 concentrer	concentrer	VERB
@@ -840,7 +840,7 @@ pollue	polluer	VERB
 l'	le	DET
 atmosphère	atmosphère	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 pourrait	pouvoir	VERB
 aborder	aborder	VERB
 ici	ici	ADV
@@ -851,7 +851,7 @@ transports	transport	NOUN
 en	en	ADP
 commun	commun	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 est	être	AUX
 une	un	DET

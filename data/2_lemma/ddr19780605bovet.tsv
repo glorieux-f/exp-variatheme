@@ -6,7 +6,7 @@
 # title = Le Grandchamp des Bovet (5 juin 1978)
 
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 Grandchamp	Grandchamp	PROPN
 des	un	ADP_DET
 Bovet	Bovet	PROPN
@@ -19,18 +19,18 @@ juin	juin	NOUN
 ↵↵	↵↵	PUNCTstruct
 M.	M.	PUNCT
 le	le	DET
-Conseiller	Conseiller	NOUN
+conseiller	conseiller	NOUN
 de	de	ADP
-État	État	NOUN
+état	état	NOUN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 M.	M.	PUNCT
 le	le	DET
-Recteur	Recteur	PROPN
+recteur	recteur	UNKNOWN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Chers	cher	ADJ
-Cousins	Cousins	NOUN
+chers	cher	ADJ
+cousins	cousin	NOUN
 de	de	ADP
 Grandchamp	Grandchamp	PROPN
 et	et	CCONJ
@@ -38,9 +38,9 @@ de	de	ADP
 Areuse	Areuse	PROPN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mesdames	madame	NOUN
+mesdames	madame	NOUN
 et	et	CCONJ
-Messieurs	monsieur	DET
+messieurs	monsieur	DET
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -82,7 +82,7 @@ infiniment	infiniment	ADV
 mieux	mieux	ADV
 selon	selon	ADP
 les	le	DET
-Grecs	Grecs	NOUN
+grecs	grec	NOUN
 —	—	PUNCTclause
 que	que	SCONJ
 nous	nous	PRON
@@ -95,7 +95,7 @@ ce	ce	DET
 soir	soir	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 agit	agir	VERB
 là	là	ADV
@@ -134,12 +134,12 @@ honneur	honneur	NOUN
 à	à	ADP
 rendre	rendre	VERB
 aux	au	ADP_DET
-Pères	Pères	PROPN
+pères	père	UNKNOWN
 comme	comme	ADP
 le	le	DET
 dira	dire	VERB
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 ,	,	PUNCTclause
 «	«	PUNCTclause
 afin que	afin que	SCONJ
@@ -149,15 +149,15 @@ soient	être	AUX
 prolongés	prolonger	VERB
 sur	sur	ADP
 la	le	DET
-Terre	Terre	NOUN
+terre	terre	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Prolonger	prolonger	VERB
+prolonger	prolonger	VERB
 nos	nos	DET
 jours	jour	NOUN
 sur	sur	ADP
 la	le	DET
-Terre	Terre	NOUN
+terre	terre	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -218,7 +218,7 @@ nous	nous	PRON
 l'	le	DET
 avenir	avenir	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 voudrais	vouloir	VERB
 ,	,	PUNCTclause
 au	au	ADP_DET
@@ -238,7 +238,7 @@ aurait	avoir	AUX
 dit	dire	VERB
 Stendhal	Stendhal	PROPN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 voudrais	vouloir	VERB
 vous	vous	PRON
 parler	parler	VERB
@@ -305,7 +305,7 @@ de	de	ADP
 jeunesse	jeunesse	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 tronc	tronc	NOUN
 commun	commun	ADJ
 aux	au	ADP_DET
@@ -322,7 +322,7 @@ Fleurier	Fleurier	PROPN
 ,	,	PUNCTclause
 Val-de-Travers	Val-de-Travers	PROPN
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 fils	fils	NOUN
 Jean-Jacques	Jean-Jacques	PROPN
 et	et	CCONJ
@@ -346,7 +346,7 @@ viennent	venir	VERB
 «	«	PUNCTclause
 dans	dans	ADP
 le	le	DET
-Bas	Bas	PROPN
+bas	bas	UNKNOWN
 »	»	PUNCTclause
 —	—	PUNCTclause
 comme	comme	SCONJ
@@ -377,7 +377,7 @@ admirablement	admirablement	ADV
 contrastés	contraster	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Installés	installer	VERB
+installés	installer	VERB
 d'abord	d'abord	ADV
 à	à	ADP
 Cortaillod	Cortaillod	PROPN
@@ -405,7 +405,7 @@ ou	ou	CCONJ
 indiennes	indien	ADJ
 ,	,	PUNCTclause
 les	le	DET
-Du	Du	PROPN
+du	du	UNKNOWN
 Pasquier	Pasquier	PROPN
 ,	,	PUNCTclause
 les	le	DET
@@ -415,7 +415,7 @@ Luze	Luze	PROPN
 les	le	DET
 Verdan	Verdan	PROPN
 .	.	PUNCTsent
-Vers	vers	ADP
+vers	vers	ADP
 1870	1870	NUM
 ,	,	PUNCTclause
 Jean-Jacques	Jean-Jacques	PROPN
@@ -452,7 +452,7 @@ assez	assez	ADV
 grands	grand	ADJ
 parcs	parc	NOUN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 chacune	chacune	PRON
 habiteront	habiter	VERB
 un	un	DET
@@ -463,7 +463,7 @@ fils	fils	NOUN
 et	et	CCONJ
 filles	fille	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 chroniqueurs	chroniqueur	NOUN
 de	de	ADP
 l'	le	DET
@@ -483,7 +483,7 @@ les	le	DET
 fêtes	fête	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Vers	vers	ADP
+vers	vers	ADP
 1820	1820	NUM
 ,	,	PUNCTclause
 sauf	sauf	ADP
@@ -510,7 +510,7 @@ l'	le	DET
 Areuse	Areuse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 la	le	DET
 région	région	NOUN
 de	de	ADP
@@ -544,7 +544,7 @@ un	un	DET
 monde	monde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 Bovet	Bovet	PROPN
 de	de	ADP
 Areuse	Areuse	PROPN
@@ -571,14 +571,14 @@ enfin	enfin	ADV
 colonel	colonel	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Tous	tous	PRON
+tous	tous	PRON
 mes	mon	DET
 oncles	oncle	NOUN
 seront	être	AUX
 officiers	officier	NOUN
 tandis que	tandis que	SCONJ
 Philippe	Philippe	PROPN
-Godet	Godet	PROPN
+godet	godet	UNKNOWN
 a	avoir	AUX
 pu	pouvoir	VERB
 écrire	écrire	VERB
@@ -622,13 +622,13 @@ je	je	PRON
 crois	croire	VERB
 ,	,	PUNCTclause
 l'	le	DET
-Armée	Armée	NOUN
+armée	armée	NOUN
 du	du	ADP_DET
 salut	salut	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Areuse	Areuse	PROPN
+Areuse	Areuse	ADJ
 est	être	AUX
 dominé	dominer	VERB
 par	par	ADP
@@ -638,7 +638,7 @@ dans	dans	ADP
 les	le	DET
 vignes	vigne	NOUN
 nommé	nommer	VERB
-Tiens	Tiens	PROPN
+tiens	tiens	UNKNOWN
 toi	toi	PRON
 bien	bien	ADV
 (	(	PUNCTclause
@@ -685,7 +685,7 @@ fondera	fonder	VERB
 la	le	DET
 Croix-Bleue	Croix-Bleue	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 ne	ne	ADV
 sont	être	AUX
@@ -694,7 +694,7 @@ que	que	SCONJ
 anecdotes	anecdote	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Entre	entre	ADP
+entre	entre	ADP
 Areuse	Areuse	PROPN
 et	et	CCONJ
 Grandchamp	Grandchamp	PROPN
@@ -715,7 +715,7 @@ de	de	ADP
 nature	nature	NOUN
 spirituelle	spirituel	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 dirai	dire	VERB
 simplement	simplement	ADV
 comment	comment	ADV
@@ -730,7 +730,7 @@ vacances	vacance	NOUN
 enfantines	enfantin	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Areuse	Areuse	PROPN
+Areuse	Areuse	ADJ
 était	être	AUX
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -738,7 +738,7 @@ moi	moi	PRON
 ,	,	PUNCTclause
 venant	venir	VERB
 du	du	ADP_DET
-Haut	haut	ADJ
+haut	haut	ADJ
 ,	,	PUNCTclause
 je	je	PRON
 veux	vouloir	VERB
@@ -776,7 +776,7 @@ ailes	aile	NOUN
 noires	noir	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 quand	quand	SCONJ
 il	il	PRON
 me	me	PRON
@@ -817,7 +817,7 @@ de	de	ADP
 moi	moi	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 hameau	hameau	NOUN
 de	de	ADP
 Grandchamp	Grandchamp	PROPN
@@ -896,7 +896,7 @@ parcs	parc	NOUN
 de	de	ADP
 Areuse	Areuse	PROPN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 longeais	longer	VERB
 le	le	DET
 long	long	ADJ
@@ -966,7 +966,7 @@ de	de	ADP
 Grandchamp	Grandchamp	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 long	long	ADJ
 bâtiment	bâtiment	NOUN
 principal	principal	ADJ
@@ -995,7 +995,7 @@ de	de	ADP
 livres	livre	NOUN
 sur	sur	ADP
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 sept	sept	NUM
@@ -1008,10 +1008,10 @@ textes	texte	NOUN
 sur	sur	ADP
 Port-Royal	Port-Royal	PROPN
 des	un	ADP_DET
-Champs	Champs	PROPN
+champs	champ	UNKNOWN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 ceci	ceci	PRON
 nous	nous	PRON
 amène	amener	VERB
@@ -1060,7 +1060,7 @@ du	du	ADP_DET
 piétisme	piétisme	NOUN
 morave	morave	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 pour	pour	ADP
 le	le	DET
 reste	reste	NOUN
@@ -1098,7 +1098,7 @@ début	début	NOUN
 éducative	éducatif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 première	premier	ADJ
 influence	influence	NOUN
 morave	morave	ADJ
@@ -1160,7 +1160,7 @@ de	de	ADP
 Montmirail	Montmirail	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vers	vers	ADP
+vers	vers	ADP
 la	le	DET
 fin	fin	NOUN
 de	de	ADP
@@ -1184,8 +1184,8 @@ que	que	SCONJ
 il	il	PRON
 intitule	intituler	VERB
 :	:	PUNCTclause
-Un	un	DET
-Siècle	Siècle	PROPN
+un	un	DET
+siècle	siècle	UNKNOWN
 de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
@@ -1202,7 +1202,7 @@ la	le	DET
 communauté	communauté	NOUN
 spirituelle	spirituel	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 trouve	trouver	VERB
 dans	dans	ADP
 ce	ce	DET
@@ -1219,7 +1219,7 @@ de	de	ADP
 sa	son	DET
 grand-mère	grand-mère	NOUN
 ,	,	PUNCTclause
-Madame	Madame	NOUN
+madame	madame	NOUN
 Philippe	Philippe	PROPN
 Bovet	Bovet	PROPN
 ,	,	PUNCTclause
@@ -1263,7 +1263,7 @@ de	de	ADP
 Pierre	Pierre	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Toutes	tout	ADJ
+toutes	tout	ADJ
 les	le	DET
 trois	trois	NUM
 ont	avoir	AUX
@@ -1289,14 +1289,14 @@ moraves	morave	ADJ
 ou	ou	CCONJ
 illuminés	illuminer	VERB
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 une	un	DET
 charmante	charmant	ADJ
 causerie	causerie	NOUN
 consacrée	consacrer	VERB
 aux	au	ADP_DET
 «	«	PUNCTclause
-Femmes	Femmes	NOUN
+femmes	femme	NOUN
 de	de	ADP
 Grandchamp	Grandchamp	PROPN
 »	»	PUNCTclause
@@ -1321,7 +1321,7 @@ de	de	ADP
 Reims	Reims	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Transportée	transporter	VERB
+transportée	transporter	VERB
 par	par	ADP
 son	son	DET
 mariage	mariage	NOUN
@@ -1399,7 +1399,7 @@ en	en	ADP
 1856	1856	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 Clara	Clara	PROPN
 ,	,	PUNCTclause
 fille	fille	NOUN
@@ -1446,7 +1446,7 @@ malicieuse	malicieux	ADJ
 ambiguïté	ambiguïté	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 aurait	avoir	AUX
@@ -1462,7 +1462,7 @@ tout le monde	tout le monde	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-Pensées	penser	VERB
+pensées	penser	VERB
 ,	,	PUNCTclause
 123	123	NUM
 )	)	PUNCTclause
@@ -1486,7 +1486,7 @@ par	par	ADP
 Bertha	Bertha	PROPN
 Bovet-Mumm	Bovet-Mumm	PROPN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 possédait	posséder	VERB
 des	un	DET
 «	«	PUNCTclause
@@ -1509,13 +1509,13 @@ visiteurs	visiteur	NOUN
 de	de	ADP
 Grandchamp	Grandchamp	PROPN
 .	.	PUNCTsent
-Charles	Charles	PROPN
+Charles	Charles	NOUN
 Secrétan	Secrétan	PROPN
 était	être	AUX
 de	de	ADP
 ceux	ceux	PRON
 .	.	PUNCTsent
-Quand	quand	SCONJ
+quand	quand	SCONJ
 il	il	PRON
 était	être	AUX
 en	en	ADP
@@ -1572,7 +1572,7 @@ prière	prière	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 (	(	PUNCTclause
-Lettres	lettre	NOUN
+lettres	lettre	NOUN
 de	de	ADP
 Grandchamp	Grandchamp	PROPN
 ,	,	PUNCTclause
@@ -1594,7 +1594,7 @@ la	le	DET
 maison	maison	NOUN
 dite	dire	VERB
 l'	le	DET
-Andalouse	Andalouse	PROPN
+andalouse	andalou	UNKNOWN
 :	:	PUNCTclause
 les	le	DET
 Bovet	Bovet	PROPN
@@ -1626,7 +1626,7 @@ leur	leur	DET
 pays	pays	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 puis	puis	CCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -1682,7 +1682,7 @@ lieu	lieu	NOUN
 de	de	ADP
 prières	prière	NOUN
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 la	le	DET
 chapelle	chapelle	NOUN
 de	de	ADP
@@ -1766,7 +1766,7 @@ l'	le	DET
 esprit	esprit	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 a	avoir	AUX
 même	même	ADV
 vu	voir	VERB
@@ -1789,7 +1789,7 @@ heure	heure	NOUN
 de	de	ADP
 prière	prière	NOUN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 ce	ce	DET
 sujet	sujet	NOUN
 ,	,	PUNCTclause
@@ -1807,7 +1807,7 @@ me	me	PRON
 récemment	récemment	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Ceci	ceci	PRON
+ceci	ceci	PRON
 se	se	PRON
 passait	passer	VERB
 dans	dans	ADP
@@ -1884,7 +1884,7 @@ et	et	CCONJ
 dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Là	là	ADV
+là	là	ADV
 sera	être	AUX
 la	le	DET
 chapelle	chapelle	NOUN
@@ -1892,7 +1892,7 @@ chapelle	chapelle	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 respect	respect	NOUN
 pour	pour	ADP
 les	le	DET
@@ -1928,14 +1928,14 @@ pas	pas	ADV
 seulement	seulement	ADV
 religieuses	religieux	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 Grandchamp	Grandchamp	PROPN
 de	de	ADP
 Félix	Félix	PROPN
 Bovet	Bovet	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Félix	Félix	PROPN
+Félix	Félix	NOUN
 Bovet	Bovet	PROPN
 qui	qui	PRON
 fut	être	AUX
@@ -1946,7 +1946,7 @@ de	de	ADP
 littérature	littérature	NOUN
 à	à	ADP
 l'	le	DET
-Académie	Académie	NOUN
+académie	académie	NOUN
 de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 a	avoir	AUX
@@ -1959,7 +1959,7 @@ petit	petit	ADJ
 recueil	recueil	NOUN
 de	de	ADP
 ses	son	DET
-Pensées	Pensées	PROPN
+pensées	pensée	UNKNOWN
 le	le_PRON	PRON
 met	mettre	VERB
 au	au	ADP_DET
@@ -1987,7 +1987,7 @@ par	par	ADP
 Nietzsche	Nietzsche	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-La	le	DET
+la	le	DET
 Rochefoucauld	Rochefoucauld	PROPN
 à	à	ADP
 Valéry	Valéry	PROPN
@@ -1996,8 +1996,8 @@ en passant	en passant	ADV
 par	par	ADP
 Pascal	Pascal	PROPN
 et	et	CCONJ
-La	le	DET
-Bruyère	Bruyère	PROPN
+la	le	DET
+bruyère	bruyère	UNKNOWN
 ,	,	PUNCTclause
 Chamfort	Chamfort	PROPN
 et	et	CCONJ
@@ -2012,7 +2012,7 @@ nos	nos	DET
 jours	jour	NOUN
 Cioran	Cioran	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 plus	plus	ADV
 encore	encore	ADV
 que	que	SCONJ
@@ -2052,7 +2052,7 @@ des	un	ADP_DET
 pages	page	NOUN
 de	de	ADP
 son	son	DET
-Journal	Journal	NOUN
+journal	journal	NOUN
 les	le	DET
 impressions	impression	NOUN
 qui	qui	PRON
@@ -2083,7 +2083,7 @@ le	le	DET
 pédagogue	pédagogue	NOUN
 français	français	ADJ
 Ferdinand	Ferdinand	PROPN
-Buisson	Buisson	PROPN
+buisson	buisson	UNKNOWN
 ,	,	PUNCTclause
 de	de	ADP
 innombrables	innombrable	ADJ
@@ -2120,9 +2120,9 @@ emprisonnée	emprisonner	VERB
 Boudry	Boudry	PROPN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 ces	ce	DET
-Pensées	Pensées	NOUN
+pensées	pensée	NOUN
 (	(	PUNCTclause
 que	que	SCONJ
 on	on	PRON
@@ -2133,7 +2133,7 @@ citer	citer	VERB
 et	et	CCONJ
 de	de	ADP
 ses	son	DET
-Lettres	Lettres	NOUN
+lettres	lettre	NOUN
 de	de	ADP
 jeunesse	jeunesse	NOUN
 puis	puis	CCONJ
@@ -2177,7 +2177,7 @@ sera	être	AUX
 Pierre	Pierre	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 tout	tout	PRON
 d'abord	d'abord	ADV
 un	un	PRON
@@ -2230,14 +2230,14 @@ comme	comme	ADP
 aux	au	ADP_DET
 orgueilleux	orgueilleux	NOUN
 .	.	PUNCTsent
-Félix	Félix	PROPN
+Félix	Félix	NOUN
 Bovet	Bovet	PROPN
 supportait	supporter	VERB
 mal	mal	ADV
 l'	le	DET
 étroitesse	étroitesse	NOUN
 des	un	ADP_DET
-Églises	Églises	NOUN
+églises	église	NOUN
 de	de	ADP
 son	son	DET
 temps	temps	NOUN
@@ -2270,10 +2270,10 @@ fait	fait	NOUN
 …	…	PUNCTsent
 )	)	PUNCTclause
 .	.	PUNCTsent
-Une	un	PRON
+une	un	PRON
 de	de	ADP
 ses	son	DET
-Lettres	Lettres	NOUN
+lettres	lettre	NOUN
 de	de	ADP
 jeunesse	jeunesse	NOUN
 décrit	décrire	VERB
@@ -2287,7 +2287,7 @@ de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Aux	au	ADP_DET
+aux	au	ADP_DET
 textes	texte	NOUN
 succéda	succéder	VERB
 le	le	DET
@@ -2307,7 +2307,7 @@ et	et	CCONJ
 au	au	ADP_DET
 tonnerre	tonnerre	NOUN
 …	…	PUNCTsent
-Je	je	PRON
+je	je	PRON
 connais	connaître	VERB
 le	le	DET
 procédé	procédé	NOUN
@@ -2328,7 +2328,7 @@ les	le	DET
 paradoxes	paradoxe	NOUN
 de	de	ADP
 l'	le	DET
-Écriture	Écriture	NOUN
+écriture	écriture	NOUN
 et	et	CCONJ
 accompli	accomplir	VERB
 cette	ce	DET
@@ -2336,7 +2336,7 @@ parole	parole	NOUN
 du	du	ADP_DET
 prophète	prophète	NOUN
 :	:	PUNCTclause
-Toute	toute	DET
+toute	toute	DET
 hauteur	hauteur	NOUN
 sera	être	AUX
 abaissée	abaisser	VERB
@@ -2346,7 +2346,7 @@ vallée	vallée	NOUN
 sera	être	AUX
 comblée	combler	VERB
 …	…	PUNCTsent
-Le	le	DET
+le	le	DET
 chant	chant	NOUN
 était	être	AUX
 admirablement	admirablement	ADV
@@ -2395,7 +2395,7 @@ la	le	DET
 prose	prose	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-A	avoir	AUX
+a	avoir	AUX
 on	on	PRON
 remarqué	remarquer	VERB
 que	que	SCONJ
@@ -2465,7 +2465,7 @@ déceler	déceler	VERB
 chez	chez	ADP
 l'autre	l'autre	PRON
 ?	?	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 puis	puis	CCONJ
 guère	guère	ADV
@@ -2484,12 +2484,12 @@ de	de	ADP
 une	un	PRON
 de	de	ADP
 ses	son	DET
-Lettres	Lettres	NOUN
+lettres	lettre	NOUN
 de	de	ADP
 Grandchamp	Grandchamp	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 serai	être	AUX
 pleinement	pleinement	ADV
@@ -2511,14 +2511,14 @@ contraire	contraire	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 principal	principal	ADJ
 reproche	reproche	NOUN
 que	que	SCONJ
 il	il	PRON
 adresse	adresser	VERB
 aux	au	ADP_DET
-Églises	Églises	NOUN
+églises	église	NOUN
 ne	ne	ADV
 est	être	AUX
 il	il	PRON
@@ -2570,7 +2570,7 @@ il	il	PRON
 refuse	refuser	VERB
 dans	dans	ADP
 toute	toute	DET
-Église	Église	NOUN
+église	église	NOUN
 ,	,	PUNCTclause
 toute	toute	DET
 nation	nation	NOUN
@@ -2598,14 +2598,14 @@ de plus	de plus	ADV
 insupportable	insupportable	ADJ
 que	que	SCONJ
 le	le	DET
-Moi	Moi	PROPN
+moi	moi	UNKNOWN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
 le	le	DET
-Nous	nous	PRON
+nous	nous	PRON
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 le	le	DET
 moi	moi	PRON
 le	le	DET
@@ -2628,7 +2628,7 @@ la	le	DET
 nation	nation	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 ou	ou	CCONJ
 la	le	DET
 société	société	NOUN
@@ -2660,7 +2660,7 @@ toute	tout	ADJ
 bonne conscience	bonne conscience	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Pensées	penser	VERB
+pensées	penser	VERB
 ,	,	PUNCTclause
 n°	n°	SYM
 105	105	NUM
@@ -2669,7 +2669,7 @@ p.	p.	PUNCT
 63	63	NUM
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 comment	comment	ADV
 ne	ne	ADV
@@ -2689,11 +2689,11 @@ on	on	PRON
 trouve	trouver	VERB
 dans	dans	ADP
 les	le	DET
-Pensées	Pensées	NOUN
+pensées	pensée	NOUN
 et	et	CCONJ
 dans	dans	ADP
 les	le	DET
-Lettres	Lettres	NOUN
+lettres	lettre	NOUN
 sur	sur	ADP
 le	le	DET
 sujet	sujet	NOUN
@@ -2705,7 +2705,7 @@ de	de	ADP
 l'	le	DET
 enfant	enfant	NOUN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 pensée	pensée	NOUN
 par exemple	par exemple	ADV
 que	que	SCONJ
@@ -2728,7 +2728,7 @@ avais	avoir	AUX
 subie	subir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cet	ce	DET
+cet	ce	DET
 enfant	enfant	NOUN
 me	me	PRON
 inquiète	inquiéter	VERB
@@ -2748,7 +2748,7 @@ développe	développer	VERB
 trop	trop	ADV
 !	!	PUNCTsent
 —	—	PUNCTclause
-Il	il	PRON
+il	il	PRON
 faudra	falloir	VERB
 le	le	DET
 mettre	mettre	VERB
@@ -2761,7 +2761,7 @@ le	le	DET
 père	père	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 cette	ce	DET
 pensée	pensée	NOUN
 finale	final	ADJ
@@ -2772,7 +2772,7 @@ très	très	ADV
 loin	loin	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 dressons	dresser	VERB
 nos	nos	DET
 enfants	enfant	NOUN
@@ -2787,7 +2787,7 @@ les	le_PRON	PRON
 élèveront	élever	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 me	me	PRON
 paraît	paraître	VERB
 que	que	SCONJ
@@ -2811,7 +2811,7 @@ le	le	DET
 motto	motto	NOUN
 de	de	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 Rousseau	Rousseau	PROPN
 ,	,	PUNCTclause
 quand	quand	SCONJ
@@ -2843,7 +2843,7 @@ l'	le	DET
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 me	me	PRON
 paraît	paraître	VERB
 aussi	aussi	ADV
@@ -2927,7 +2927,7 @@ Pierre	Pierre	PROPN
 Bovet	Bovet	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-D'autres	d'autre	PRON
+d'autres	d'autre	PRON
 ont	avoir	AUX
 dit	dire	VERB
 et	et	CCONJ
@@ -2945,7 +2945,7 @@ du	du	ADP_DET
 psychologue	psychologue	NOUN
 de	de	ADP
 l'	le	DET
-Instinct	Instinct	NOUN
+instinct	instinct	NOUN
 combatif	combatif	ADJ
 et	et	CCONJ
 l'	le	DET
@@ -2955,7 +2955,7 @@ du	du	ADP_DET
 directeur	directeur	NOUN
 de	de	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 Rousseau	Rousseau	PROPN
 .	.	PUNCTsent
 pour ma part	pour ma part	ADP
@@ -2986,7 +2986,7 @@ fait	fait	NOUN
 paradoxaux	paradoxal	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 tolérant	tolérer	VERB
 dans	dans	ADP
 l'	le	DET
@@ -3036,19 +3036,19 @@ l'	le	DET
 apôtre	apôtre	NOUN
 de	de	ADP
 la	le	DET
-Paix	Paix	PROPN
+paix	paix	UNKNOWN
 par	par	ADP
 l'	le	DET
 école	école	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
-Fédération	Fédération	NOUN
+fédération	fédération	NOUN
 abolitionniste	abolitionniste	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
-École	École	NOUN
+école	école	NOUN
 active	actif	ADJ
 ,	,	PUNCTclause
 de	de	ADP
@@ -3059,7 +3059,7 @@ l'	le	DET
 antisémitisme	antisémitisme	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
-Foyer	Foyer	PROPN
+foyer	foyer	UNKNOWN
 de	de	ADP
 la	le	DET
 solidarité	solidarité	NOUN
@@ -3076,7 +3076,7 @@ Pierre	Pierre	PROPN
 Ceresole	Ceresole	PROPN
 et	et	CCONJ
 des	un	DET
-Amis	Amis	NOUN
+amis	ami	NOUN
 de	de	ADP
 la	le	DET
 nature	nature	NOUN
@@ -3093,7 +3093,7 @@ la	le	DET
 première	premier	ADJ
 section	section	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 risque	risquer	VERB
 guère	guère	ADV
@@ -3133,7 +3133,7 @@ journée	journée	NOUN
 européenne	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 voyageur	voyageur	NOUN
 à	à	ADP
 la	le	DET
@@ -3183,10 +3183,10 @@ lors de	lors de	ADP
 une	un	DET
 fête	fête	NOUN
 de	de	ADP
-Noël	Noël	PROPN
+noël	noël	UNKNOWN
 à	à	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 Rousseau	Rousseau	PROPN
 ,	,	PUNCTclause
 les	le	DET
@@ -3197,7 +3197,7 @@ des	un	DET
 cadeaux	cadeau	NOUN
 humoristiques	humoristique	ADJ
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 professeur	professeur	NOUN
 reçut	recevoir	VERB
 «	«	PUNCTclause
@@ -3208,7 +3208,7 @@ se	se	PRON
 effacer	effacer	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 élève	élève	NOUN
 eut	avoir	VERB
 droit	droit	NOUN
@@ -3240,7 +3240,7 @@ pour	pour	ADP
 prendre contact	prendre contact	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-Était	être	AUX
+était	être	AUX
 ce	ce	DET
 pour	pour	ADP
 surmonter	surmonter	VERB
@@ -3261,7 +3261,7 @@ remarquables	remarquable	ADJ
 de	de	ADP
 linguiste	linguiste	NOUN
 ?	?	PUNCTsent
-Il	il	PRON
+il	il	PRON
 parlait	parler	VERB
 le	le	DET
 grec	grec	NOUN
@@ -3287,7 +3287,7 @@ et	et	CCONJ
 l'	le	DET
 espagnol	espagnol	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 avait	avoir	AUX
 appris	apprendre	VERB
@@ -3309,7 +3309,7 @@ retenu	retenir	VERB
 alité	aliter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 me	me	PRON
 paraît	paraître	VERB
@@ -3348,7 +3348,7 @@ que	que	PRON
 la	le	DET
 Bovétie	Bovétie	PROPN
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 livre	livre	NOUN
 sur	sur	ADP
 Grandchamp	Grandchamp	PROPN
@@ -3406,7 +3406,7 @@ de	de	ADP
 Spinoza	Spinoza	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-D'autant	d'autant	ADV
+d'autant	d'autant	ADV
 plus	plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
@@ -3422,7 +3422,7 @@ Dieu	Dieu	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 avant	avant	ADP
 tout	tout	DET
 et	et	CCONJ
@@ -3441,7 +3441,7 @@ de	de	ADP
 la	le	DET
 paix	paix	NOUN
 .	.	PUNCTsent
-Ne	ne	ADV
+ne	ne	ADV
 reculons	reculer	VERB
 pas	pas	ADV
 devant	devant	ADP
@@ -3494,7 +3494,7 @@ tout	tout	ADV
 simplement	simplement	ADV
 intelligent	intelligent	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 sais	savoir	VERB
 que	que	SCONJ
 le	le	DET
@@ -3516,17 +3516,17 @@ aussi	aussi	ADV
 dangereux	dangereux	ADJ
 que	que	SCONJ
 les	le	DET
-Brigades	Brigades	PROPN
+brigades	brigade	UNKNOWN
 rouges	rouge	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 tiens	tenir	VERB
 que	que	SCONJ
 son	son	DET
 livre	livre	NOUN
 sur	sur	ADP
 l'	le	DET
-Instinct	Instinct	NOUN
+instinct	instinct	NOUN
 combatif	combatif	ADJ
 ,	,	PUNCTclause
 en	en	ADP
@@ -3590,7 +3590,7 @@ de	de	ADP
 commissions	commission	NOUN
 parlementaires	parlementaire	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 crains	craindre	VERB
 que	que	SCONJ
 il	il	PRON

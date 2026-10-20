@@ -6,12 +6,12 @@
 # title = "[Préface] Guy de Pourtalès l’Européen (1981)"
 
 ↵↵	↵↵	PUNCTstruct
-Préface	préface	NOUN
+préface	préface	NOUN
 Guy	Guy	PROPN
 de	de	ADP
-Pourtalès	Pourtalès	PROPN
+Pourtalès	Pourtalès	ADP
 l'	le	DET
-Européen	Européen	PROPN
+européen	européen	UNKNOWN
 (	(	PUNCTclause
 1981	1981	NUM
 )	)	PUNCTclause
@@ -83,7 +83,7 @@ ce	ce	DET
 fond	fond	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Certains	certain	DET
+certains	certain	DET
 auteurs	auteur	NOUN
 ne	ne	ADV
 pensent	penser	VERB
@@ -113,7 +113,7 @@ les	le_PRON	PRON
 explique	expliquer	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-D'autres	d'autre	PRON
+d'autres	d'autre	PRON
 ,	,	PUNCTclause
 sous	sous	ADP
 bénéfice	bénéfice	NOUN
@@ -143,7 +143,7 @@ nous	nous	PRON
 l'	le_PRON	PRON
 expliquer	expliquer	VERB
 .	.	PUNCTsent
-Nul	nul	ADJ
+nul	nul	ADJ
 doute	doute	NOUN
 que	que	SCONJ
 Guy	Guy	PROPN
@@ -157,7 +157,7 @@ ces	ce	DET
 derniers	dernier	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 dirait	dire	VERB
 que	que	SCONJ
 sa	son	DET
@@ -189,7 +189,7 @@ venu	venir	VERB
 pied	pied	NOUN
 dans	dans	ADP
 le	le	DET
-Pays	Pays	PROPN
+pays	pays	UNKNOWN
 de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 ,	,	PUNCTclause
@@ -243,10 +243,10 @@ l'	le	DET
 aventure	aventure	NOUN
 de	de	ADP
 l'	le	DET
-Esprit	Esprit	NOUN
+esprit	esprit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 agit	agir	VERB
 aux	au	ADP_DET
@@ -287,7 +287,7 @@ une	un	DET
 nation	nation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vers	vers	ADP
+vers	vers	ADP
 1715	1715	NUM
 ,	,	PUNCTclause
 un	un	DET
@@ -325,7 +325,7 @@ sa	son	DET
 foi	foi	NOUN
 réformée	réformé	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 porte	porter	VERB
 un	un	DET
 prénom	prénom	NOUN
@@ -341,14 +341,14 @@ les	le	DET
 huguenots	huguenot	NOUN
 ,	,	PUNCTclause
 les	le	DET
-Suisses	Suisses	PROPN
+suisses	suisse	UNKNOWN
 romands	romand	ADJ
 et	et	CCONJ
 les	le	DET
-Anglais	Anglais	NOUN
+anglais	anglais	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Je	je	PRON
+je	je	PRON
 trouve	trouver	VERB
 parmi	parmi	ADP
 mes	mon	DET
@@ -356,7 +356,7 @@ ascendants	ascendant	NOUN
 ,	,	PUNCTclause
 dès	dès	ADP
 la	le	DET
-Réforme	Réforme	NOUN
+réforme	réforme	NOUN
 ,	,	PUNCTclause
 des	un	DET
 Jonas	Jonas	PROPN
@@ -373,7 +373,7 @@ et	et	CCONJ
 ce	ce	DET
 même	même	ADJ
 Jérémie	Jérémie	NOUN
-Pourtalès	Pourtalès	PROPN
+Pourtalès	Pourtalès	ADV
 ,	,	PUNCTclause
 arrière-grand-père	arrière-grand-père	NOUN
 de	de	ADP
@@ -383,8 +383,8 @@ mes	mon	DET
 arrière-grand-mères	arrière-grand-mère	NOUN
 .	.	PUNCTsent
 l'	le	DET
-Ancien	ancien	ADJ
-Testament	Testament	NOUN
+ancien	ancien	ADJ
+testament	testament	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
 l'	le_PRON	PRON
@@ -398,13 +398,13 @@ il	il	PRON
 pas	pas	ADV
 la	le	DET
 véritable	véritable	ADJ
-Antiquité	Antiquité	NOUN
+antiquité	antiquité	NOUN
 des	un	ADP_DET
 protestants	protestant	NOUN
 ?	?	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Jérémie	Jérémie	PROPN
+Jérémie	Jérémie	NOUN
 va	aller	VERB
 d'abord	d'abord	ADV
 à	à	ADP
@@ -417,7 +417,7 @@ la	le	DET
 Rome	Rome	PROPN
 protestante	protestant	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 pour	pour	ADP
 des	un	DET
 raisons	raison	NOUN
@@ -441,7 +441,7 @@ se	se	PRON
 en	en	ADP
 1717	1717	NUM
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 en	en	PRON
 acquiert	acquérir	VERB
 la	le	DET
@@ -459,7 +459,7 @@ maison	maison	NOUN
 de	de	ADP
 commerce	commerce	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 vingtaine	vingtaine	NOUN
 de	de	ADP
 années	année	NOUN
@@ -476,12 +476,12 @@ l'	le	DET
 anoblit	anoblir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 petite	petit	ADJ
 patrie	patrie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pourquoi	pourquoi	ADV
+pourquoi	pourquoi	ADV
 Frédéric	Frédéric	PROPN
 II	II	NUM
 de	de	ADP
@@ -544,7 +544,7 @@ l'un	l'un	PRON
 des	un	ADP_DET
 plus	plus	ADV
 petits	petit	ADJ
-États	États	NOUN
+états	état	NOUN
 du	du	ADP_DET
 continent	continent	NOUN
 qui	qui	PRON
@@ -565,7 +565,7 @@ des	un	ADP_DET
 Pourtalès	Pourtalès	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 1806	1806	NUM
 ,	,	PUNCTclause
 Napoléon	Napoléon	PROPN
@@ -575,7 +575,7 @@ au	au	ADP_DET
 maréchal	maréchal	NOUN
 Berthier	Berthier	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 des	un	ADP_DET
 petits-fils	petit-fils	NOUN
 de	de	ADP
@@ -584,7 +584,7 @@ est	être	AUX
 créé	créer	VERB
 comte	comte	NOUN
 de	de	ADP
-Empire	Empire	NOUN
+empire	empire	NOUN
 en	en	ADP
 1809	1809	NUM
 ,	,	PUNCTclause
@@ -620,7 +620,7 @@ de	de	ADP
 Prusse	Prusse	PROPN
 recouvre	recouvrir	VERB
 sa	son	DET
-Principauté	Principauté	NOUN
+principauté	principauté	NOUN
 en	en	ADP
 1814	1814	NUM
 ,	,	PUNCTclause
@@ -634,7 +634,7 @@ branche	branche	NOUN
 neuchâteloise	neuchâtelois	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 ainsi	ainsi	ADV
@@ -687,7 +687,7 @@ monarchie	monarchie	NOUN
 prussienne	prussien	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-Chaque	chaque	DET
+chaque	chaque	DET
 mouche	mouche	NOUN
 a	avoir	VERB
 son	son	DET
@@ -698,7 +698,7 @@ p.	p.	DET
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Or	or	NOUN
+or	or	NOUN
 la	le	DET
 France	France	PROPN
 et	et	CCONJ
@@ -733,14 +733,14 @@ l'	le	DET
 Europe	Europe	PROPN
 moderne	moderne	ADJ
 .	.	PUNCTsent
-Entre	entre	ADP
+entre	entre	ADP
 les	le	DET
 deux	deux	NUM
 ,	,	PUNCTclause
 il y a	il y a	VERB
 ce	ce	DET
 petit	petit	ADJ
-État	État	NOUN
+état	état	NOUN
 qui	qui	PRON
 à partir de	à partir de	ADP
 1848	1848	NUM
@@ -766,7 +766,7 @@ Europe	Europe	PROPN
 venir	venir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Que	que	SCONJ
+que	que	SCONJ
 Neuchâtel	Neuchâtel	PROPN
 soit	être	AUX
 le	le	DET
@@ -805,7 +805,7 @@ soit	être	AUX
 devenue	devenir	VERB
 universelle	universel	ADJ
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 Neuchâtel	Neuchâtel	PROPN
 —	—	PUNCTclause
 voyez	voir	VERB
@@ -824,7 +824,7 @@ de	de	ADP
 cette	ce	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 participe	participer	VERB
 également	également	ADV
 par	par	ADP
@@ -865,7 +865,7 @@ famille	famille	NOUN
 européenne	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 trois	trois	NUM
 fils	fils	NOUN
 de	de	ADP
@@ -890,7 +890,7 @@ de	de	ADP
 la	le	DET
 famille	famille	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 1870	1870	NUM
 ,	,	PUNCTclause
 des	un	DET
@@ -911,15 +911,15 @@ de	de	ADP
 Guillaume	Guillaume	PROPN
 1er	1er	NUM
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 1914	1914	NUM
 ,	,	PUNCTclause
 un	un	DET
 Pourtalès	Pourtalès	NOUN
 préside	présider	VERB
 le	le	DET
-Jockey	Jockey	PROPN
-Club	Club	PROPN
+jockey	jockey	UNKNOWN
+club	club	UNKNOWN
 de	de	ADP
 Paris	Paris	PROPN
 ,	,	PUNCTclause
@@ -943,13 +943,13 @@ de	de	ADP
 Guillaume	Guillaume	PROPN
 II	II	NUM
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 rien	rien	PRON
 encore	encore	ADV
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 1915	1915	NUM
 ,	,	PUNCTclause
 Guy	Guy	PROPN
@@ -998,7 +998,7 @@ des	un	ADP_DET
 pays	pays	NOUN
 protestants	protestant	ADJ
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 beau	beau	ADJ
 jour	jour	NOUN
 il	il	PRON
@@ -1008,7 +1008,7 @@ au	au	ADP_DET
 ministère	ministère	NOUN
 de	de	ADP
 l'	le	DET
-Intérieur	Intérieur	NOUN
+intérieur	intérieur	NOUN
 ,	,	PUNCTclause
 où	où	PRON
 M.	M.	NOUN
@@ -1047,7 +1047,7 @@ un	un	DET
 officier	officier	NOUN
 suisse	suisse	ADJ
 !	!	PUNCTsent
-Clemenceau	Clemenceau	PROPN
+Clemenceau	Clemenceau	NOUN
 ,	,	PUNCTclause
 lui	lui	PRON
 dit	dire	VERB
@@ -1060,12 +1060,12 @@ de	de	ADP
 interpellé	interpeller	VERB
 à	à	ADP
 la	le	DET
-Chambre	Chambre	NOUN
+chambre	chambre	NOUN
 sur	sur	ADP
 ce	ce	DET
 sujet	sujet	NOUN
 …	…	PUNCTsent
-Incident	incident	NOUN
+incident	incident	NOUN
 ridicule	ridicule	ADJ
 mais	mais	CCONJ
 bien	bien	ADV
@@ -1099,7 +1099,7 @@ les	le	DET
 alliances	alliance	NOUN
 militaires	militaire	ADJ
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -1110,7 +1110,7 @@ un	un	DET
 auteur	auteur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 maintenant	maintenant	ADV
 ,	,	PUNCTclause
 laissant	laisser	VERB
@@ -1126,7 +1126,7 @@ qui	qui	PRON
 dans	dans	ADP
 un	un	DET
 petit	petit	ADJ
-État	État	NOUN
+état	état	NOUN
 fait	faire	AUX
 naître	naître	VERB
 et	et	CCONJ
@@ -1158,7 +1158,7 @@ son	son	DET
 sens	sens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Né	naître	VERB
+né	naître	VERB
 à	à	ADP
 Berlin	Berlin	PROPN
 ,	,	PUNCTclause
@@ -1249,7 +1249,7 @@ commence	commencer	VERB
 à	à	ADP
 publier	publier	VERB
 .	.	PUNCTsent
-Ayant	avoir	AUX
+ayant	avoir	AUX
 recouvré	recouvrer	VERB
 la	le	DET
 nationalité	nationalité	NOUN
@@ -1275,7 +1275,7 @@ l'	le	DET
 armée	armée	NOUN
 anglaise	anglais	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 victime	victime	NOUN
 de	de	ADP
@@ -1318,7 +1318,7 @@ offensive	offensive	NOUN
 hitlérienne	hitlérien	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Au	au	ADP_DET
+au	au	ADP_DET
 lendemain	lendemain	NOUN
 de	de	ADP
 la	le	DET
@@ -1375,7 +1375,7 @@ son	son	DET
 fils	fils	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ces	ce	DET
+ces	ce	DET
 trajets	trajet	NOUN
 dans	dans	ADP
 le	le	DET
@@ -1429,12 +1429,12 @@ l'	le	DET
 éducation	éducation	NOUN
 maternelle	maternel	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 cela	cela	PRON
 nous	nous	PRON
 vaudra	valoir	VERB
 d'abord	d'abord	ADV
-Marins	Marins	PROPN
+marins	marin	UNKNOWN
 de	de	ADP
 eau	eau	NOUN
 douce	doux	ADJ
@@ -1457,7 +1457,7 @@ de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 années	année	NOUN
 de	de	ADP
 formation	formation	NOUN
@@ -1526,11 +1526,11 @@ je	je	PRON
 veux	vouloir	VERB
 parler	parler	VERB
 de	de	ADP
-La	le	DET
-Pêche	Pêche	PROPN
+la	le	DET
+pêche	pêche	UNKNOWN
 miraculeuse	miraculeux	ADJ
 .	.	PUNCTsent
-Première	premier	ADJ
+première	premier	ADJ
 esquisse	esquisse	NOUN
 de	de	ADP
 cette	ce	DET
@@ -1638,7 +1638,7 @@ transcendental	transcendental	ADJ
 de	de	ADP
 Bach	Bach	PROPN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 tout	tout	ADV
@@ -1660,7 +1660,7 @@ entre-deux-guerres	entre-deux-guerres	NOUN
 ,	,	PUNCTclause
 les	le	DET
 quatre	quatre	NUM
-Vies	Vies	PROPN
+vies	vie	UNKNOWN
 si	si	SCONJ
 fameuses	fameux	ADJ
 de	de	ADP
@@ -1712,7 +1712,7 @@ ses	son	DET
 génies	génie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ajoutons	ajouter	VERB
+ajoutons	ajouter	VERB
 à	à	ADP
 tout	tout	PRON
 cela	cela	PRON

@@ -6,15 +6,15 @@
 # title = "[Compte rendu] Roger Breuil, Les Uns les Autres (avril 1935)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Roger	Roger	PROPN
 Breuil	Breuil	PROPN
 ,	,	PUNCTclause
-Les	le	DET
-Uns	Uns	NOUN
 les	le	DET
-Autres	Autres	NOUN
+uns	un	NOUN
+les	le	DET
+autres	autre	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
 1935	1935	NUM
@@ -64,7 +64,7 @@ quelque	quelque	DET
 temps	temps	NOUN
 avant	avant	ADP
 les	le	DET
-Vivants	Vivants	PROPN
+vivants	vivant	UNKNOWN
 )	)	PUNCTclause
 une	un	DET
 intention	intention	NOUN
@@ -102,14 +102,14 @@ du	du	ADP_DET
 livre	livre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Roger	Roger	PROPN
+Roger	Roger	VERB
 Breuil	Breuil	PROPN
 nous	nous	PRON
 révèle	révéler	VERB
 une	un	DET
 espèce	espèce	NOUN
 de	de	ADP
-Français	Français	NOUN
+français	français	NOUN
 dont	dont	PRON
 il	il	PRON
 est	être	AUX
@@ -131,7 +131,7 @@ de	de	ADP
 aristocratie	aristocratie	NOUN
 paysanne	paysan	ADJ
 .	.	PUNCTsent
-Vivant	vivre	VERB
+vivant	vivre	VERB
 près de	près de	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
@@ -168,7 +168,7 @@ intime	intime	ADJ
 leurs	leur	DET
 relations	relation	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 serait	être	AUX
 tenté	tenter	VERB
 de	de	ADP
@@ -178,14 +178,14 @@ dans	dans	ADP
 leur	leur	DET
 personne	personne	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 connais	connaître	VERB
 peu de	peu de	DET
 livres	livre	NOUN
 moins	moins	ADV
 conventionnels	conventionnel	ADJ
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 cette	ce	DET
 raison	raison	NOUN
 d'abord	d'abord	ADV
@@ -203,7 +203,7 @@ par	par	ADP
 les	le	DET
 sociologues	sociologue	NOUN
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 roman	roman	NOUN
 tendrait	tendre	VERB
 à	à	ADP
@@ -218,7 +218,7 @@ la	le	DET
 réalité	réalité	NOUN
 campagnarde	campagnard	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 met	mettre	VERB
 en	en	ADP
 évidence	évidence	NOUN
@@ -261,7 +261,7 @@ le	le_PRON	PRON
 croit	croire	VERB
 couramment	couramment	ADV
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 fond	fond	NOUN
 ,	,	PUNCTclause
 son	son	DET
@@ -326,7 +326,7 @@ dans	dans	ADP
 la	le	DET
 vie	vie	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 en	en	ADP
 parlant	parler	VERB
 de	de	ADP
@@ -371,7 +371,7 @@ un	un	DET
 chapitre	chapitre	NOUN
 comme	comme	ADP
 la	le	DET
-Promenade	Promenade	NOUN
+promenade	promenade	NOUN
 au	au	ADP_DET
 marais	marais	NOUN
 est	être	AUX
@@ -436,7 +436,7 @@ de	de	ADP
 jeunes	jeune	ADJ
 ruses	ruse	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 sent	sentir	VERB
 que	que	SCONJ
 Breuil	Breuil	PROPN
@@ -485,7 +485,7 @@ le	le	DET
 je	je	PRON
 »	»	PUNCTclause
 des	un	DET
-Vivants	Vivants	NOUN
+vivants	vivant	NOUN
 :	:	PUNCTclause
 plus	plus	ADV
 complice	complice	ADJ
@@ -494,13 +494,13 @@ plus	plus	ADV
 fraternel	fraternel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 défaut	défaut	NOUN
 de	de	ADP
-Les	le	DET
-Uns	Uns	NOUN
 les	le	DET
-Autres	Autres	NOUN
+uns	un	NOUN
+les	le	DET
+autres	autre	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -525,7 +525,7 @@ fort bien	fort bien	ADV
 du reste	du reste	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 laisse	laisser	VERB
 deviner	deviner	VERB
 trop	trop	ADV
@@ -549,7 +549,7 @@ carrément	carrément	ADV
 ses	son	DET
 desseins	dessein	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 parmi	parmi	ADP
 toutes	tout	ADJ
 ces	ce	DET
@@ -583,7 +583,7 @@ des	un	ADP_DET
 thèmes	thème	NOUN
 humains	humain	ADJ
 auxquels	auxquels	ADP_PRON
-Esprit	Esprit	PROPN
+esprit	esprit	UNKNOWN
 voudrait	vouloir	VERB
 voir	voir	VERB
 se	se	PRON
@@ -658,7 +658,7 @@ de	de	ADP
 le	le_PRON	PRON
 reconnaître	reconnaître	VERB
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 tel	tel	PRON
 livre	livrer	VERB
 ne	ne	ADV

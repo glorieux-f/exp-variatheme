@@ -7,14 +7,14 @@
 
 ↵↵	↵↵	PUNCTstruct
 X.	X.	PUNCT
-La	le	DET
+la	le	DET
 tâche	tâche	NOUN
 politique	politique	ADJ
 du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Princeton	Princeton	PROPN
+Princeton	Princeton	NOUN
 (	(	PUNCTclause
 N.	N.	PROPN
 J.	J.	PROPN
@@ -26,7 +26,7 @@ novembre	novembre	NOUN
 1945	1945	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comme	comme	ADP
+comme	comme	ADP
 la	le	DET
 paix	paix	NOUN
 ,	,	PUNCTclause
@@ -47,16 +47,16 @@ menaces	menace	NOUN
 de	de	ADP
 guerre	guerre	NOUN
 !	!	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 que	que	SCONJ
 ferions	faire	VERB
 nous	nous	PRON
 sans	sans	ADP
 la	le	DET
-Bombe	Bombe	PROPN
+bombe	bombe	UNKNOWN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Depuis	depuis	ADP
+depuis	depuis	ADP
 des	un	DET
 mois	mois	NOUN
 ,	,	PUNCTclause
@@ -76,7 +76,7 @@ des	un	DET
 journaux	journal	NOUN
 américains	américain	ADJ
 .	.	PUNCTsent
-Libéré	libérer	VERB
+libéré	libérer	VERB
 de	de	ADP
 la	le	DET
 pression	pression	NOUN
@@ -104,7 +104,7 @@ menacé	menacer	VERB
 de	de	ADP
 ennui	ennui	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 en même temps	en même temps	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -120,7 +120,7 @@ longue	long	ADJ
 torpeur	torpeur	NOUN
 stupéfiée	stupéfier	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 temps	temps	NOUN
 de	de	ADP
 réfléchir	réfléchir	VERB
@@ -142,7 +142,7 @@ dans	dans	ADP
 notre	notre	DET
 tête	tête	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 y	y	PRON
 trouverons	trouver	VERB
 d'abord	d'abord	ADV
@@ -159,16 +159,16 @@ de	de	ADP
 cette	ce	DET
 guerre	guerre	NOUN
 ?	?	PUNCTsent
-Quelles	quel	DET
+quelles	quel	DET
 nouveautés	nouveauté	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Aucune	aucun	DET
+aucune	aucun	DET
 ,	,	PUNCTclause
 répondent	répondre	VERB
 beaucoup	beaucoup	ADV
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 que	que	SCONJ
 du	du	ADP_DET
 négatif	négatif	NOUN
@@ -192,21 +192,21 @@ répondrai	répondre	VERB
 je	je	PRON
 au contraire	au contraire	ADV
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 triomphe	triomphe	NOUN
 de	de	ADP
 un	un	DET
 régime	régime	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 idée	idée	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 une	un	DET
 arme	arme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	DET
+ce	ce	DET
 régime	régime	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -240,7 +240,7 @@ bouches	bouche	NOUN
 officielles	officiel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 idée	idée	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -272,10 +272,10 @@ globale	global	ADJ
 comme	comme	ADP
 disent	dire	VERB
 les	le	DET
-Anglo-Saxons	Anglo-Saxons	PROPN
+anglo-saxons	anglo-saxon	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 cette	ce	DET
 arme	arme	NOUN
 ,	,	PUNCTclause
@@ -285,7 +285,7 @@ la	le	DET
 bombe atomique	bombe atomique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Or	or	NOUN
+or	or	NOUN
 remarquez	remarquer	VERB
 que	que	SCONJ
 la	le	DET
@@ -328,11 +328,11 @@ se	se	PRON
 renforcent	renforcer	VERB
 mutuellement	mutuellement	ADV
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 comment	comment	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 gouvernement	gouvernement	NOUN
 mondial	mondial	ADJ
 court	courir	VERB
@@ -363,7 +363,7 @@ nationales	national	ADJ
 ou	ou	CCONJ
 régionales	régional	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 si	si	SCONJ
 ce	ce	DET
 gouvernement	gouvernement	NOUN
@@ -424,7 +424,7 @@ planétaire	planétaire	ADJ
 ,	,	PUNCTclause
 précisément	précisément	ADV
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 donc	donc	ADV
 le	le	DET
 danger	danger	NOUN
@@ -482,7 +482,7 @@ dictatures	dictature	NOUN
 impérialistes	impérialiste	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ces	ce	DET
+ces	ce	DET
 trois	trois	NUM
 nouveautés	nouveauté	NOUN
 ,	,	PUNCTclause
@@ -544,7 +544,7 @@ sont	être	AUX
 apparues	apparaître	VERB
 simultanément	simultanément	ADV
 .	.	PUNCTsent
-Elles	elles	PRON
+elles	elles	PRON
 se	se	PRON
 proposent	proposer	VERB
 à	à	ADP
@@ -592,14 +592,14 @@ au	au	ADP_DET
 but	but	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Telles	tel	DET
+telles	tel	DET
 sont	être	AUX
 les	le	DET
 perspectives	perspective	NOUN
 théoriques	théorique	ADJ
 .	.	PUNCTsent
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 ne	ne	ADV
 en	en	PRON
 a	avoir	AUX
@@ -612,9 +612,9 @@ ni	ni	CCONJ
 de plus	de plus	ADV
 pacifiantes	pacifiant	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 nous	nous	PRON
 apprend	apprendre	VERB
 aussi	aussi	ADV
@@ -660,7 +660,7 @@ appelle	appeler	VERB
 utopies	utopie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 grande	grand	ADJ
 tâche	tâche	NOUN
 politique	politique	ADJ
@@ -675,7 +675,7 @@ paraît	paraître	VERB
 claire	clair	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 d'abord	d'abord	ADV
 dresser	dresser	VERB
@@ -695,7 +695,7 @@ sont	être	AUX
 ouvertes	ouvrir	VERB
 désormais	désormais	ADV
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 faut	falloir	VERB
 insister	insister	VERB
@@ -735,7 +735,7 @@ notre	notre	DET
 action	action	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ensuite	ensuite	ADV
+ensuite	ensuite	ADV
 ,	,	PUNCTclause
 il	il	PRON
 se	se	PRON
@@ -748,7 +748,7 @@ obstacles	obstacle	NOUN
 cette	ce	DET
 union	union	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 sont	être	AUX
 dans	dans	ADP
 l'	le	DET
@@ -768,7 +768,7 @@ dans	dans	ADP
 les	le	DET
 faits	fait	NOUN
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 premier	premier	ADJ
 rang	rang	NOUN
 ,	,	PUNCTclause
@@ -799,13 +799,13 @@ ou	ou	CCONJ
 moralement	moralement	ADV
 déprimées	déprimer	VERB
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 parle	parler	VERB
 surtout	surtout	ADV
 pour	pour	ADP
 vous	vous	PRON
 ,	,	PUNCTclause
-Européens	Européens	PROPN
+européens	européen	UNKNOWN
 ,	,	PUNCTclause
 que	que	PRON
 je	je	PRON
@@ -857,7 +857,7 @@ et	et	CCONJ
 le	le	DET
 mépris	mépris	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 ce	ce	PRON
 est	être	AUX
 de	de	ADP
@@ -872,7 +872,7 @@ virus	virus	NOUN
 nationaliste	nationaliste	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 maintenant	maintenant	ADV
 ,	,	PUNCTclause
 fâchez	fâcher	VERB

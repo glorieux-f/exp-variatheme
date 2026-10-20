@@ -6,7 +6,7 @@
 # title = Messieurs, n’oubliez pas l’exemple de la Suisse (3 octobre 1950)
 
 ↵↵	↵↵	PUNCTstruct
-Messieurs	monsieur	NOUN
+messieurs	monsieur	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
 oubliez	oublier	VERB
@@ -23,13 +23,13 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Messieurs	monsieur	NOUN
+messieurs	monsieur	NOUN
 les	le	DET
 députés	député	NOUN
 européens	européen	ADJ
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 êtes	être	VERB
 ici	ici	ADV
 pour	pour	ADP
@@ -45,7 +45,7 @@ de	de	ADP
 la	le	DET
 faire	faire	AUX
 .	.	PUNCTsent
-Faire	faire	VERB
+faire	faire	VERB
 l'	le	DET
 Europe	Europe	PROPN
 signifie	signifier	VERB
@@ -58,7 +58,7 @@ signifie	signifier	VERB
 pas	pas	ADV
 grand-chose	grand-chose	NOUN
 .	.	PUNCTsent
-Comment	comment	ADV
+comment	comment	ADV
 fédérer	fédérer	VERB
 des	un	DET
 nations	nation	NOUN
@@ -68,12 +68,12 @@ croient	croire	VERB
 encore	encore	ADV
 souveraines	souverain	NOUN
 ?	?	PUNCTsent
-Voyons	voir	VERB
+voyons	voir	VERB
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 .	.	PUNCTsent
-Les	le	DET
-Suisses	Suisses	PROPN
+les	le	DET
+suisses	suisse	UNKNOWN
 ont	avoir	AUX
 réussi	réussir	VERB
 :	:	PUNCTclause
@@ -110,13 +110,13 @@ tout le monde	tout le monde	NOUN
 se	se	PRON
 trompe	tromper	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 fallu	falloir	VERB
 neuf	neuf	NUM
 mois	mois	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 voici	voici	ADP
 le	le	DET
 récit	récit	NOUN
@@ -128,17 +128,17 @@ mois	mois	NOUN
 pour	pour	ADP
 fédérer	fédérer	VERB
 vingt-cinq	vingt-cinq	NUM
-États	États	NOUN
+états	état	NOUN
 souverains	souverain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Au	au	ADP_DET
+au	au	ADP_DET
 début	début	NOUN
 de	de	ADP
 1848	1848	NUM
 ,	,	PUNCTclause
 la	le	DET
-Confédération	Confédération	NOUN
+confédération	confédération	NOUN
 ne	ne	ADV
 était	être	AUX
 que	que	ADV
@@ -148,11 +148,11 @@ de	de	ADP
 alliance	alliance	NOUN
 entre	entre	ADP
 vingt-cinq	vingt-cinq	NUM
-États	États	NOUN
+états	état	NOUN
 absolument	absolument	ADV
 souverains	souverain	ADJ
 .	.	PUNCTsent
-Point	point	ADV
+point	point	ADV
 de	de	ADP
 citoyenneté	citoyenneté	NOUN
 suisse	suisse	ADJ
@@ -175,17 +175,17 @@ représentation	représentation	NOUN
 des	un	ADP_DET
 peuples	peuple	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 seul	seul	ADJ
 organe	organe	NOUN
 commun	commun	ADJ
 ,	,	PUNCTclause
 la	le	DET
-Diète	Diète	PROPN
+diète	diète	UNKNOWN
 ,	,	PUNCTclause
 sorte	sorte	NOUN
 de	de	ADP
-Comité	Comité	NOUN
+comité	comité	NOUN
 des	un	ADP_DET
 ministres	ministre	NOUN
 ,	,	PUNCTclause
@@ -196,7 +196,7 @@ agissant	agir	VERB
 au	au	ADP_DET
 nom	nom	NOUN
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 et	et	CCONJ
 prenant	prendre	VERB
 leurs	leur	DET
@@ -208,7 +208,7 @@ majorité	majorité	NOUN
 des	un	ADP_DET
 trois-quarts	trois-quarts	NOUN
 .	.	PUNCTsent
-Pratiquement	pratiquement	ADV
+pratiquement	pratiquement	ADV
 :	:	PUNCTclause
 le	le	DET
 «	«	PUNCTclause
@@ -250,11 +250,11 @@ la	le	DET
 guerre	guerre	NOUN
 entre	entre	ADP
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 membres	membre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Niera	nier	VERB
+niera	nier	VERB
 on	on	PRON
 que	que	PRON
 ce	ce	PRON
@@ -291,7 +291,7 @@ nous	nous	PRON
 courons	courir	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 partie	partie	NOUN
 de	de	ADP
 l'	le	DET
@@ -308,7 +308,7 @@ limités	limité	ADJ
 mais	mais	CCONJ
 réels	réel	ADJ
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 d'autre	d'autre	PUNCT
 ,	,	PUNCTclause
 en vérité	en vérité	ADV
@@ -321,12 +321,12 @@ indépendance	indépendance	NOUN
 du	du	ADP_DET
 pays	pays	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 la	le	DET
-Diète	Diète	PROPN
+diète	diète	UNKNOWN
 ,	,	PUNCTclause
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 et	et	CCONJ
 leurs	leur	DET
 experts	expert	NOUN
@@ -346,7 +346,7 @@ cette	ce	DET
 chimère	chimère	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 bon sens	bon sens	NOUN
 dénonçait	dénoncer	VERB
 l'	le	DET
@@ -358,7 +358,7 @@ les	le	DET
 barrières	barrière	NOUN
 douanières	douanier	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 routine	routine	NOUN
 rétorquait	rétorquer	VERB
 ,	,	PUNCTclause
@@ -434,7 +434,7 @@ et	et	CCONJ
 de	de	ADP
 vœux	vœu	NOUN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 la	le	DET
 faveur	faveur	NOUN
 de	de	ADP
@@ -452,7 +452,7 @@ fit	faire	AUX
 adopter	adopter	VERB
 par	par	ADP
 la	le	DET
-Diète	Diète	PROPN
+diète	diète	UNKNOWN
 le	le	DET
 principe	principe	NOUN
 de	de	ADP
@@ -463,7 +463,7 @@ du	du	ADP_DET
 pacte	pacte	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 1847	1847	NUM
 ,	,	PUNCTclause
 notons	noter	VERB
@@ -481,7 +481,7 @@ des	un	ADP_DET
 réalistes	réaliste	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Nous	nous	PRON
+nous	nous	PRON
 en	en	PRON
 sommes	être	VERB
 là	là	ADV
@@ -489,7 +489,7 @@ en	en	ADP
 1950	1950	NUM
 .	.	PUNCTsent
 )	)	PUNCTclause
-La	le	DET
+la	le	DET
 décision	décision	NOUN
 survint	survenir	VERB
 l'	le	DET
@@ -497,20 +497,20 @@ année	année	NOUN
 suivante	suivant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 17	17	NUM
 février	février	NOUN
 1848	1848	NUM
 ,	,	PUNCTclause
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 de	de	ADP
 révision	révision	NOUN
 —	—	PUNCTclause
 nommée	nommer	VERB
 par	par	ADP
 la	le	DET
-Diète	Diète	PROPN
+diète	diète	UNKNOWN
 dans	dans	ADP
 son	son	DET
 sein	sein	NOUN
@@ -522,7 +522,7 @@ réunit	réunir	VERB
 pour	pour	ADP
 la première fois	la première fois	ADV
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 décide	décider	VERB
 de	de	ADP
 siéger	siéger	VERB
@@ -534,7 +534,7 @@ fois	fois	NOUN
 par	par	ADP
 semaine	semaine	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 8	8	NUM
 avril	avril	NOUN
 ,	,	PUNCTclause
@@ -550,15 +550,15 @@ les	le	DET
 résultats	résultat	NOUN
 aux	au	ADP_DET
 vingt-cinq	vingt-cinq	NUM
-États	États	NOUN
+états	état	NOUN
 souverains	souverain	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 15	15	NUM
 mai	mai	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Diète	Diète	PROPN
+diète	diète	UNKNOWN
 est	être	AUX
 saisie	saisir	VERB
 du	du	ADP_DET
@@ -571,7 +571,7 @@ le	le	DET
 27	27	NUM
 juin	juin	NOUN
 .	.	PUNCTsent
-Pendant	pendant	ADP
+pendant	pendant	ADP
 le	le	DET
 mois	mois	NOUN
 de	de	ADP
@@ -583,16 +583,16 @@ dans	dans	ADP
 les	le	DET
 cantons	canton	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 12	12	NUM
 septembre	septembre	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Diète	Diète	PROPN
+diète	diète	UNKNOWN
 proclame	proclamer	VERB
 que	que	SCONJ
 la	le	DET
-Constitution	Constitution	NOUN
+constitution	constitution	NOUN
 est	être	AUX
 acceptée	accepter	VERB
 par	par	ADP
@@ -600,7 +600,7 @@ près de	près de	ADP
 deux	deux	NUM
 tiers	tiers	NOUN
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 et	et	CCONJ
 plus	plus	ADV
 de	de	ADP
@@ -610,13 +610,13 @@ des	un	ADP_DET
 citoyens	citoyen	NOUN
 votants	votant	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 16	16	NUM
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 le	le	DET
 premier	premier	ADJ
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 fédéral	fédéral	ADJ
 ,	,	PUNCTclause
 organe	organe	NOUN
@@ -626,7 +626,7 @@ entre	entre	ADP
 en	en	ADP
 fonction	fonction	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 drapeau	drapeau	NOUN
 suisse	suisse	ADJ
 est	être	AUX
@@ -639,7 +639,7 @@ des	un	ADP_DET
 cantons	canton	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Aucun	aucun	PRON
+aucun	aucun	PRON
 des	un	ADP_DET
 troubles	trouble	NOUN
 graves	grave	ADJ
@@ -675,7 +675,7 @@ un	un	NUM
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Messieurs	monsieur	NOUN
+messieurs	monsieur	NOUN
 les	le	DET
 députés	député	NOUN
 ,	,	PUNCTclause
@@ -686,14 +686,14 @@ suffi	suffire	VERB
 pour	pour	ADP
 fédérer	fédérer	VERB
 25	25	NUM
-États	États	NOUN
+états	état	NOUN
 souverains	souverain	NOUN
 .	.	PUNCTsent
-Pensez	penser	VERB
+pensez	penser	VERB
 vous	vous	PRON
 que	que	SCONJ
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 vous	vous	PRON
 en	en	PRON
 laisse	laisser	VERB
@@ -704,7 +704,7 @@ plus	plus	ADV
 pour	pour	ADP
 unir	unir	VERB
 vos	vos	DET
-États	États	NOUN
+états	état	NOUN
 dans	dans	ADP
 un	un	DET
 plus	plus	ADV
@@ -712,12 +712,12 @@ grand	grand	ADJ
 péril	péril	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 me	me	PRON
 direz	dire	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 me	me	PRON
 direz	dire	VERB
 que	que	SCONJ
@@ -786,7 +786,7 @@ nations	nation	NOUN
 contemporaines	contemporain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 ne	ne	ADV
 est	être	AUX
@@ -843,11 +843,11 @@ de	de	ADP
 Genève	Genève	PROPN
 ou	ou	CCONJ
 des	un	DET
-Grisons	Grisons	PROPN
+grisons	grison	UNKNOWN
 à	à	ADP
 Berne	Berne	PROPN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 la	le	DET
 guerre	guerre	NOUN
 entre	entre	ADP
@@ -861,7 +861,7 @@ vous	vous	PRON
 sortez	sortir	VERB
 suffisent	suffire	VERB
 .	.	PUNCTsent
-Vos	vos	DET
+vos	vos	DET
 nations	nation	NOUN
 vivent	vivre	VERB
 ensemble	ensemble	ADV
@@ -878,7 +878,7 @@ que	que	SCONJ
 nos	nos	DET
 cantons	canton	NOUN
 .	.	PUNCTsent
-Leurs	leur	DET
+leurs	leur	DET
 sorts	sort	NOUN
 ne	ne	ADV
 sont	être	AUX
@@ -897,7 +897,7 @@ ensemble	ensemble	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Vos	vos	DET
+vos	vos	DET
 cordons	cordon	NOUN
 de	de	ADP
 douanes	douane	NOUN
@@ -917,7 +917,7 @@ l'	le_PRON	PRON
 étaient	être	AUX
 les nôtres	les nôtres	PRON
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 vos	vos	DET
 économies	économie	NOUN
 ne	ne	ADV
@@ -939,7 +939,7 @@ petits	petit	ADJ
 voisins	voisin	NOUN
 paysans	paysan	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 sombres	sombre	ADJ
 prévisions	prévision	NOUN
 des	un	ADP_DET
@@ -997,7 +997,7 @@ sont	être	AUX
 tellement	tellement	ADV
 différentes	différent	ADJ
 …	…	PUNCTsent
-Certes	certes	ADV
+certes	certes	ADV
 ,	,	PUNCTclause
 comparaison	comparaison	NOUN
 ne	ne	ADV
@@ -1039,7 +1039,7 @@ les	le	DET
 leçons	leçon	NOUN
 de	de	ADP
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
 je	je	PRON
@@ -1055,7 +1055,7 @@ daltonisme	daltonisme	NOUN
 politique	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Messieurs	monsieur	NOUN
+messieurs	monsieur	NOUN
 les	le	DET
 députés	député	NOUN
 ,	,	PUNCTclause
@@ -1079,7 +1079,7 @@ aujourd'hui	aujourd'hui	ADV
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 exemple	exemple	NOUN
 vivant	vivre	VERB
 tend	tendre	VERB
@@ -1115,7 +1115,7 @@ réfléchir	réfléchir	VERB
 quelques	quelque	DET
 minutes	minute	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 Suisse	Suisse	PROPN
 se	se	PRON
 est	être	AUX
@@ -1124,7 +1124,7 @@ en	en	ADP
 neuf	neuf	NUM
 mois	mois	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 vaut	valoir	VERB
 la	le	DET
 peine	peine	NOUN
@@ -1146,7 +1146,7 @@ aller	aller	VERB
 très	très	ADV
 vite	vite	ADV
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 le	le	DET
 temps	temps	NOUN
 fait	faire	VERB
@@ -1155,7 +1155,7 @@ beaucoup	beaucoup	ADV
 l'	le	DET
 affaire	affaire	NOUN
 .	.	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 que	que	SCONJ
 vous	vous	PRON
 ne	ne	ADV
@@ -1175,7 +1175,7 @@ méditer	méditer	VERB
 avant de	avant de	ADP
 agir	agir	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 celui	celui	PRON
 que	que	PRON
 vous	vous	PRON
@@ -1212,6 +1212,6 @@ de	de	ADP
 bataille	bataille	NOUN
 de	de	ADP
 l'	le	DET
-Armée	Armée	NOUN
+armée	armée	NOUN
 rouge	rouge	ADJ
 .	.	PUNCTsent

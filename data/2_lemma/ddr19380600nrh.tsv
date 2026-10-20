@@ -6,7 +6,7 @@
 # title = Souvenir d’Esztergom (juin 1938)
 
 ↵↵	↵↵	PUNCTstruct
-Souvenir	souvenir	NOUN
+souvenir	souvenir	NOUN
 de	de	ADP
 Esztergom	Esztergom	PROPN
 (	(	PUNCTclause
@@ -25,7 +25,7 @@ poèmes	poème	NOUN
 en	en	ADP
 traduction	traduction	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 savais	savoir	VERB
 que	que	SCONJ
 il	il	PRON
@@ -61,7 +61,7 @@ par	par	ADP
 la	le	DET
 culture	culture	NOUN
 .	.	PUNCTsent
-Des	un	DET
+des	un	DET
 amis	ami	NOUN
 me	me	PRON
 proposèrent	proposer	VERB
@@ -93,7 +93,7 @@ par	par	ADP
 ses	son	DET
 poètes	poète	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 plaine	plaine	NOUN
 hongroise	hongrois	ADJ
 était	être	AUX
@@ -174,7 +174,7 @@ de	de	ADP
 Michel	Michel	PROPN
 Babits	Babits	PROPN
 .	.	PUNCTsent
-Esztergom	Esztergom	PROPN
+Esztergom	Esztergom	NOUN
 est	être	AUX
 la	le	DET
 plus	plus	ADV
@@ -184,7 +184,7 @@ de	de	ADP
 la	le	DET
 Hongrie	Hongrie	PROPN
 .	.	PUNCTsent
-Attila	Attila	PROPN
+Attila	Attila	X
 ,	,	PUNCTclause
 me	me	PRON
 dit	dire	VERB
@@ -193,16 +193,16 @@ on	on	PRON
 y	y	PRON
 régna	régner	VERB
 .	.	PUNCTsent
-Aujourd'hui	aujourd'hui	ADV
+aujourd'hui	aujourd'hui	ADV
 ce	ce	PRON
 est	être	AUX
 la	le	DET
 résidence	résidence	NOUN
 du	du	ADP_DET
 Prince	Prince	PROPN
-Primat	primat	ADJ
+primat	primat	ADJ
 .	.	PUNCTsent
-Au-dessus	au-dessus	ADV
+au-dessus	au-dessus	ADV
 du	du	ADP_DET
 palais	palais	NOUN
 de	de	ADP
@@ -218,7 +218,7 @@ Danube	Danube	PROPN
 contourne	contourner	VERB
 ,	,	PUNCTclause
 la	le	DET
-Basilique	Basilique	PROPN
+basilique	basilique	UNKNOWN
 élève	élever	VERB
 une	un	DET
 coupole	coupole	NOUN
@@ -249,11 +249,11 @@ horizon	horizon	NOUN
 —	—	PUNCTclause
 chez	chez	ADP
 les	le	DET
-Tchèques	Tchèques	NOUN
+tchèques	tchèque	NOUN
 déjà	déjà	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 allons	aller	VERB
 aux	au	ADP_DET
 bains	bain	NOUN
@@ -271,7 +271,7 @@ rencontrer	rencontrer	VERB
 le	le	DET
 poète	poète	NOUN
 .	.	PUNCTsent
-Cheveux	cheveu	NOUN
+cheveux	cheveu	NOUN
 noirs	noir	ADJ
 de	de	ADP
 aigle	aigle	NOUN
@@ -298,7 +298,7 @@ mi-corps	mi-corps	NOUN
 ,	,	PUNCTclause
 mythologique	mythologique	ADJ
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 sortons	sortir	VERB
 ensemble	ensemble	ADV
 de	de	ADP
@@ -370,12 +370,12 @@ soi	soi	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 la	le	DET
-Basilique	Basilique	PROPN
+basilique	basilique	UNKNOWN
 sur	sur	ADP
 son	son	DET
 rocher	rocher	NOUN
 .	.	PUNCTsent
-Fraîches	fraîche	NOUN
+fraîches	fraîche	NOUN
 ,	,	PUNCTclause
 sentant	sentir	VERB
 bon	bon	ADJ
@@ -407,7 +407,7 @@ un	un	DET
 pan	pan	NOUN
 de	de	ADP
 toit	toit	NOUN
-par-dessus	par-dessus	NOUN
+par-dessus	par-dessus	ADV
 ,	,	PUNCTclause
 cela	cela	PRON
 fait	faire	VERB
@@ -486,7 +486,7 @@ après-midi	après-midi	NOUN
 est	être	AUX
 immense	immense	ADJ
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 buvons	boire	VERB
 des	un	DET
 vins	vin	NOUN
@@ -496,7 +496,7 @@ doux	doux	ADJ
 que	que	PRON
 nous	nous	PRON
 verse	verser	VERB
-Ilonka	Ilonka	PROPN
+Ilonka	Ilonka	DET
 Babits	Babits	PROPN
 (	(	PUNCTclause
 elle	elle	PRON
@@ -509,7 +509,7 @@ très	très	ADV
 belle	beau	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 inscrivons	inscrire	VERB
 nos	nos	DET
 noms	nom	NOUN

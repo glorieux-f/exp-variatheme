@@ -6,17 +6,17 @@
 # title = "[Compte rendu] Sherwood Anderson, Mon père et moi et Je suis un homme (janvier 1929)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Sherwood	Sherwood	PROPN
 Anderson	Anderson	PROPN
 ,	,	PUNCTclause
-Mon	Mon	PROPN
+mon	mon	UNKNOWN
 père	père	NOUN
 et	et	CCONJ
 moi	moi	PRON
 et	et	CCONJ
-Je	je	PRON
+je	je	PRON
 suis	être	AUX
 un	un	DET
 homme	homme	NOUN
@@ -26,7 +26,7 @@ janvier	janvier	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 critique	critique	NOUN
 se	se	PRON
 sent	sentir	VERB
@@ -146,7 +146,7 @@ de	de	ADP
 apparente	apparent	ADJ
 simplicité	simplicité	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 récit	récit	NOUN
 se	se	PRON
 avance	avancer	VERB
@@ -189,7 +189,7 @@ sur	sur	ADP
 l'	le	DET
 époque	époque	NOUN
 .	.	PUNCTsent
-Anderson	Anderson	PROPN
+Anderson	Anderson	NOUN
 est	être	AUX
 avant	avant	ADP
 tout	tout	ADV
@@ -211,7 +211,7 @@ modernes	moderne	ADJ
 ,	,	PUNCTclause
 dégradantes	dégradant	ADJ
 .	.	PUNCTsent
-Cet	ce	DET
+cet	ce	DET
 amour	amour	NOUN
 de	de	ADP
 l'	le	DET
@@ -227,7 +227,7 @@ poésie	poésie	NOUN
 —	—	PUNCTclause
 mais	mais	CCONJ
 à	à	ADP
-Chicago	Chicago	PROPN
+Chicago	Chicago	X
 on	on	PRON
 doit	devoir	VERB
 appeler	appeler	VERB
@@ -246,7 +246,7 @@ des	un	ADP_DET
 conteurs	conteur	NOUN
 américains	américain	ADJ
 .	.	PUNCTsent
-Avec	avec	ADP
+avec	avec	ADP
 cela	cela	PRON
 ,	,	PUNCTclause
 un	un	DET
@@ -260,7 +260,7 @@ souvent	souvent	ADV
 de	de	ADP
 amertume	amertume	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 là	là	ADV
 où	où	PRON
 d'autres	d'autre	PRON
@@ -283,7 +283,7 @@ un	un	DET
 autre	autre	ADJ
 souvenir	souvenir	NOUN
 .	.	PUNCTsent
-Qui	qui	PRON
+qui	qui	PRON
 parmi	parmi	ADP
 nous	nous	PRON
 sait	savoir	VERB
@@ -302,12 +302,12 @@ tendresse	tendresse	NOUN
 ce	ce	PRON
 est	être	AUX
 un	un	DET
-Chinois	Chinois	NOUN
+chinois	chinois	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
 un	un	DET
-Américain	Américain	NOUN
+américain	américain	NOUN
 qui	qui	PRON
 viennent	venir	VERB
 nous	nous	PRON
@@ -324,7 +324,7 @@ notre	notre	DET
 maison	maison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voici	voici	ADP
+voici	voici	ADP
 un	un	PRON
 de	de	ADP
 ces	ce	DET
@@ -344,7 +344,7 @@ si	si	ADV
 émouvant	émouvant	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
-À	à	ADP
+à	à	ADP
 cette	ce	DET
 époque	époque	NOUN
 je	je	PRON
@@ -412,7 +412,7 @@ approchais	approcher	VERB
 tout	tout	ADV
 à	à	ADP
 coup	coup	NOUN
-par-derrière	par-derrière	NOUN
+par-derrière	par-derrière	ADP
 de	de	ADP
 un	un	DET
 homme	homme	NOUN
@@ -469,7 +469,7 @@ fous	fou	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 non	non	ADV
 ,	,	PUNCTclause
 on	on	PRON
@@ -518,7 +518,7 @@ devient	devenir	VERB
 impuissant	impuissant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Impossible	impossible	ADJ
+impossible	impossible	ADJ
 de	de	ADP
 évoquer	évoquer	VERB
 un	un	DET
@@ -539,7 +539,7 @@ nommé	nommer	VERB
 Ford	Ford	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-Détroit	Détroit	PROPN
+détroit	détroit	UNKNOWN
 ,	,	PUNCTclause
 a	avoir	AUX
 contribué	contribuer	VERB
@@ -577,14 +577,14 @@ de	de	ADP
 son	son	DET
 époque	époque	NOUN
 ?	?	PUNCTsent
-Rendre	rendre	VERB
+rendre	rendre	VERB
 impuissant	impuissant	ADJ
 ce	ce	PRON
 est	être	AUX
 à coup sûr	à coup sûr	ADV
 tuer	tuer	VERB
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 on	on	PRON
 parle	parler	VERB
 de	de	ADP
@@ -604,7 +604,7 @@ acte	acte	NOUN
 serait	être	AUX
 adéquat	adéquat	ADJ
 !	!	PUNCTsent
-Tamerlan	Tamerlan	PROPN
+Tamerlan	Tamerlan	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
 la	le	DET
@@ -651,17 +651,17 @@ souverain	souverain	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Tamerlan	Tamerlan	PROPN
+Tamerlan	Tamerlan	NOUN
 pour	pour	ADP
 les	le	DET
 anciens	ancien	ADJ
 .	.	PUNCTsent
-Ford	Ford	PROPN
+Ford	Ford	NOUN
 pour	pour	ADP
 les	le	DET
 modernes	moderne	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Quelle	quel	DET
+quelle	quel	DET
 décadence	décadence	NOUN
 !	!	PUNCTsent

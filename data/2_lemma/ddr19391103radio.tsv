@@ -6,13 +6,13 @@
 # title = Comment j’ai écrit Nicolas de Flue (3 novembre 1939)
 
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 je	je	PRON
 ai	avoir	AUX
 écrit	écrire	VERB
 Nicolas	Nicolas	PROPN
 de	de	ADP
-Flue	Flue	PROPN
+flue	fluer	UNKNOWN
 (	(	PUNCTclause
 3	3	NUM
 novembre	novembre	NOUN
@@ -20,7 +20,7 @@ novembre	novembre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 cherchais	chercher	VERB
 un	un	DET
 sujet	sujet	NOUN
@@ -31,9 +31,9 @@ vastes	vaste	ADJ
 dimensions	dimension	NOUN
 de	de	ADP
 la	le	DET
-Halle	Halle	NOUN
+halle	halle	NOUN
 des	un	ADP_DET
-Fêtes	Fêtes	NOUN
+fêtes	fête	NOUN
 à	à	ADP
 Zurich	Zurich	PROPN
 .	.	PUNCTsent
@@ -50,7 +50,7 @@ entière	entier	ADJ
 allait	aller	VERB
 mobiliser	mobiliser	VERB
 .	.	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 vous	vous	PRON
 souvenez	souvenir	VERB
 de	de	ADP
@@ -87,7 +87,7 @@ décisive	décisif	ADJ
 de	de	ADP
 Munich	Munich	PROPN
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 au	au	ADP_DET
 soir	soir	NOUN
@@ -105,9 +105,9 @@ vie	vie	NOUN
 de	de	ADP
 Nicolas	Nicolas	PROPN
 de	de	ADP
-Flue	Flue	PROPN
+flue	fluer	UNKNOWN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 je	je	PRON
 tombai	tomber	VERB
 sur	sur	ADP
@@ -115,7 +115,7 @@ le	le	DET
 récit	récit	NOUN
 de	de	ADP
 la	le	DET
-Diète	Diète	PROPN
+diète	diète	UNKNOWN
 de	de	ADP
 Stans	Stans	PROPN
 ,	,	PUNCTclause
@@ -171,7 +171,7 @@ coup	coup	NOUN
 le	le	DET
 même	même	ADV
 «	«	PUNCTclause
-Alléluia	Alléluia	PROPN
+alléluia	alléluia	UNKNOWN
 !	!	PUNCTsent
 »	»	PUNCTclause
 parce que	parce que	SCONJ
@@ -193,7 +193,7 @@ et	et	CCONJ
 l'	le	DET
 accomplir	accomplir	VERB
 !	!	PUNCTsent
-Le	le	DET
+le	le	DET
 message	message	NOUN
 de	de	ADP
 l'	le	DET
@@ -208,7 +208,7 @@ des	un	ADP_DET
 résonances	résonance	NOUN
 monumentales	monumental	ADJ
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 petite	petit	ADJ
 scène	scène	NOUN
 de	de	ADP
@@ -250,7 +250,7 @@ Europe	Europe	PROPN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 avait	avoir	VERB
@@ -258,7 +258,7 @@ plus	plus	ADV
 à	à	ADP
 hésiter	hésiter	VERB
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 tenais	tenir	VERB
 enfin	enfin	ADV
 le	le	DET
@@ -266,7 +266,7 @@ grand	grand	ADJ
 sujet	sujet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 pièce	pièce	NOUN
 fut	être	AUX
 écrite	écrire	VERB
@@ -281,7 +281,7 @@ le	le	DET
 puissant	puissant	ADJ
 auteur	auteur	NOUN
 du	du	ADP_DET
-Roi	Roi	NOUN
+roi	roi	NOUN
 David	David	PROPN
 et	et	CCONJ
 de	de	ADP
@@ -302,7 +302,7 @@ l'	le	DET
 égide	égide	NOUN
 de	de	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 neuchâtelois	neuchâtelois	ADJ
 ,	,	PUNCTclause
 500	500	NUM
@@ -324,7 +324,7 @@ réaliser	réaliser	VERB
 le	le	DET
 spectacle	spectacle	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 magnifique	magnifique	ADJ
 effort	effort	NOUN
 de	de	ADP
@@ -343,11 +343,11 @@ journées	journée	NOUN
 neuchâteloises	neuchâtelois	ADJ
 de	de	ADP
 l'	le	DET
-Exposition	Exposition	NOUN
+exposition	exposition	NOUN
 de	de	ADP
 Zurich	Zurich	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 mois	mois	NOUN
 de	de	ADP
@@ -383,7 +383,7 @@ nous	nous	PRON
 redire	redire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 cependant	cependant	ADV
 nous	nous	PRON
 ne	ne	ADV
@@ -392,7 +392,7 @@ pas	pas	ADV
 perdu	perdre	VERB
 courage	courage	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 foi	foi	NOUN
 de	de	ADP
 Nicolas	Nicolas	PROPN
@@ -400,15 +400,15 @@ domine	dominer	VERB
 les	le	DET
 temps	temps	NOUN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 vit	vivre	VERB
 encore	encore	ADV
 au	au	ADP_DET
 cœur	cœur	NOUN
 des	un	ADP_DET
-Suisses	Suisses	PROPN
+suisses	suisse	UNKNOWN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 est	être	AUX
 encore	encore	ADV
 le	le	DET
@@ -416,7 +416,7 @@ grand	grand	ADJ
 symbole	symbole	NOUN
 de	de	ADP
 notre	notre	DET
-Confédération	Confédération	NOUN
+confédération	confédération	NOUN
 et	et	CCONJ
 de	de	ADP
 sa	son	DET
@@ -424,7 +424,7 @@ mission	mission	NOUN
 en	en	ADP
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Plus	plus	ADV
+plus	plus	ADV
 que	que	SCONJ
 jamais	jamais	ADV
 ,	,	PUNCTclause
@@ -443,7 +443,7 @@ faire	faire	AUX
 entendre	entendre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Grâce	grâce	NOUN
+grâce	grâce	NOUN
 aux	au	ADP_DET
 organisateurs	organisateur	NOUN
 de	de	ADP
@@ -480,28 +480,28 @@ pour	pour	ADP
 Zurich	Zurich	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Compagnie	compagnie	NOUN
+compagnie	compagnie	NOUN
 de	de	ADP
 la	le	DET
 Saint-Grégoire	Saint-Grégoire	PROPN
 ,	,	PUNCTclause
-Chorales	Chorales	PROPN
+chorales	choral	UNKNOWN
 du	du	ADP_DET
 Locle	Locle	PROPN
 et	et	CCONJ
 de	de	ADP
-La	le	DET
-Chaux-de-Fonds	Chaux-de-Fonds	PROPN
+la	le	DET
+Chaux-de-Fonds	Chaux-de-Fonds	ADJ
 ,	,	PUNCTclause
 dirigées	diriger	VERB
 par	par	ADP
 M.	M.	NOUN
 Charles	Charles	PROPN
-Taller	Taller	PROPN
+taller	taller	UNKNOWN
 ,	,	PUNCTclause
-Fanfare	Fanfare	PROPN
+fanfare	fanfare	UNKNOWN
 des	un	ADP_DET
-Armes	Armes	PROPN
+armes	arme	UNKNOWN
 réunies	réunir	VERB
 ,	,	PUNCTclause
 dirigée	diriger	VERB
@@ -516,7 +516,7 @@ Jean	Jean	PROPN
 Kiehl	Kiehl	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
-Beaucoup	beaucoup	ADV
+beaucoup	beaucoup	ADV
 d'entre	d'entre	ADP
 eux	eux	PRON
 sont	être	AUX
@@ -525,7 +525,7 @@ moi	moi	PRON
 ,	,	PUNCTclause
 mobilisés	mobiliser	VERB
 .	.	PUNCTsent
-Remercions	remercier	VERB
+remercions	remercier	VERB
 l'	le	DET
 armée	armée	NOUN
 de	de	ADP

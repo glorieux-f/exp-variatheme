@@ -6,10 +6,10 @@
 # title = "Club-Énergie de l’Est vaudois : avec Denis de Rougemont (19 juin 1984)"
 
 ↵↵	↵↵	PUNCTstruct
-Club-Énergie	Club-Énergie	PROPN
+Club-Énergie	Club-Énergie	NOUN
 de	de	ADP
 l'	le	DET
-Est	Est	PROPN
+est	être	UNKNOWN
 vaudois	vaudois	ADJ
 :	:	PUNCTclause
 avec	avec	ADP
@@ -55,7 +55,7 @@ et	et	CCONJ
 le	le	DET
 solaire	solaire	ADJ
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 chacune	chacune	PRON
 de	de	ADP
 ces	ce	DET
@@ -100,7 +100,7 @@ dans	dans	ADP
 les	le	DET
 faits	fait	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 temps	temps	NOUN
 est	être	AUX
 venu	venir	VERB
@@ -160,7 +160,7 @@ et	et	CCONJ
 la	le	DET
 liberté	liberté	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 puissance	puissance	NOUN
 sur	sur	ADP
 autrui	autrui	PRON
@@ -169,7 +169,7 @@ la	le	DET
 liberté	liberté	NOUN
 personnelle	personnel	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 puissance	puissance	NOUN
 collective	collectif	ADJ
 de	de	ADP
@@ -189,7 +189,7 @@ roi	roi	NOUN
 puis	puis	CCONJ
 de	de	ADP
 l'	le_PRON	PRON
-État	état	AUX
+état	état	AUX
 moderne	moderne	ADJ
 ;	;	PUNCTclause
 et	et	CCONJ
@@ -226,7 +226,7 @@ propre	propre	ADJ
 destin	destin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 parmi	parmi	ADP
 ceux	ceux	PRON
@@ -277,7 +277,7 @@ leurs	leur	DET
 droits	droit	NOUN
 à	à	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 ,	,	PUNCTclause
 au	au	ADP_DET
 parti	parti	NOUN
@@ -323,7 +323,7 @@ la	le	DET
 communauté	communauté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 se	se	PRON
 sentir	sentir	VERB
 libre	libre	ADJ
@@ -335,7 +335,7 @@ responsable	responsable	ADJ
 de	de	ADP
 rien	rien	PRON
 ?	?	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 comment	comment	ADV
 serait	être	AUX
 on	on	PRON
@@ -396,7 +396,7 @@ conflit	conflit	NOUN
 se	se	PRON
 poursuit	poursuivre	VERB
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 deux	deux	NUM
 pulsions	pulsion	NOUN
 contraires	contraire	ADJ
@@ -404,7 +404,7 @@ coexistent	coexister	VERB
 en	en	ADP
 nous	nous	PRON
 .	.	PUNCTsent
-Personne	personne_PRON	PRON
+personne	personne_PRON	PRON
 ne	ne	ADV
 est	être	AUX
 jamais	jamais	ADV
@@ -415,7 +415,7 @@ ni	ni	CCONJ
 tout	tout	PRON
 l'autre	l'autre	PRON
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 ne	ne	ADV
 existe	exister	VERB
@@ -449,7 +449,7 @@ librement	librement	ADV
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 choix	choix	NOUN
 ,	,	PUNCTclause
@@ -470,7 +470,7 @@ de	de	ADP
 une	un	DET
 finalité	finalité	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 désigne	désigner	VERB
 l'	le	DET
 aménagement	aménagement	NOUN
@@ -524,7 +524,7 @@ une	un	DET
 libre	libre	ADJ
 discussion	discussion	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 choix	choix	NOUN
 proprement	proprement	ADV
 politique	politique	ADJ
@@ -546,7 +546,7 @@ de	de	ADP
 concourir	concourir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Choisir	choisir	VERB
+choisir	choisir	VERB
 les	le	DET
 centrale nucléaire	centrale nucléaire	NOUN
 —	—	PUNCTclause
@@ -603,7 +603,7 @@ leur	leur	PRON
 capitale	capital	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 adversaires	adversaire	NOUN
 des	un	ADP_DET
 centrales	centrale	NOUN
@@ -631,11 +631,11 @@ qui	qui	PRON
 font	faire	VERB
 que	que	SCONJ
 nos	nos	DET
-États	États	NOUN
+états	état	NOUN
 les	le	DET
 adoptent	adopter	VERB
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 «	«	PUNCTclause
 très	très	ADV
 grand	grand	ADJ
@@ -653,7 +653,7 @@ très	très	ADV
 centralisé	centraliser	VERB
 .	.	PUNCTsent
 «	«	PUNCTclause
-Très	très	ADV
+très	très	ADV
 cher	cher	ADJ
 »	»	PUNCTclause
 implique	impliquer	VERB
@@ -661,7 +661,7 @@ l'	le	DET
 intervention	intervention	NOUN
 de	de	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 dans	dans	ADP
 les	le	DET
 investissements	investissement	NOUN
@@ -680,7 +680,7 @@ des	un	ADP_DET
 dépenses	dépense	NOUN
 nationales	national	ADJ
 .	.	PUNCTsent
-Enfin	enfin	ADV
+enfin	enfin	ADV
 «	«	PUNCTclause
 très	très	ADV
 dangereux	dangereux	ADJ
@@ -745,7 +745,7 @@ an	an	NOUN
 2000	2000	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 l'	le	DET
 inverse	inverse	NOUN
 ,	,	PUNCTclause
@@ -788,7 +788,7 @@ une	un	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 clair	clair	ADJ
 comme	comme	SCONJ
@@ -833,7 +833,7 @@ l'	le	DET
 histoire	histoire	NOUN
 humaine	humain	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 non	non	ADV
 moins	moins	ADV
@@ -884,7 +884,7 @@ notre	notre	DET
 terre	terre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Choisir	choisir	VERB
+choisir	choisir	VERB
 les	le	DET
 unités	unité	NOUN
 locales	local	ADJ
@@ -925,7 +925,7 @@ de	de	ADP
 se	se	PRON
 faire	faire	VERB
 «	«	PUNCTclause
-Suisses	Suisses	PROPN
+suisses	suisse	UNKNOWN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 de	de	ADP
@@ -954,7 +954,7 @@ autonomie	autonomie	NOUN
 civique	civique	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-Small	small	NOUN
+small	small	NOUN
 is	is	ADJ
 beautiful	beautiful	ADJ
 »	»	PUNCTclause
@@ -995,7 +995,7 @@ le	le	DET
 prochain	prochain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 que	que	PRON
 il	il	PRON
 faut	falloir	VERB
@@ -1037,12 +1037,12 @@ de	de	ADP
 leur	leur	DET
 vocation	vocation	NOUN
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 leur	leur	DET
 personne	personne	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 problème	problème	NOUN
 des	un	ADP_DET
 centrale nucléaire	centrale nucléaire	NOUN
@@ -1077,7 +1077,7 @@ elle	elle	PRON
 est	être	AUX
 perdue	perdre	VERB
 .	.	PUNCTsent
-Quand	quand	SCONJ
+quand	quand	SCONJ
 les	le	DET
 centrale nucléaire	centrale nucléaire	NOUN
 ne	ne	ADV
@@ -1143,7 +1143,7 @@ Pluton	Pluton	PROPN
 est	être	AUX
 maître	maître	NOUN
 des	un	ADP_DET
-Enfers	Enfers	NOUN
+enfers	enfer	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -1152,7 +1152,7 @@ comme	comme	ADP
 les	le	DET
 taupes	taupe	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 soleil	soleil	NOUN
 vient	venir	VERB

@@ -6,11 +6,11 @@
 # title = "[Réponse à une enquête] Vos fantômes ne sont pas les miens… (juillet 1930)"
 
 ↵↵	↵↵	PUNCTstruct
-Réponse	réponse	NOUN
+réponse	réponse	NOUN
 à	à	ADP
 une	un	DET
 enquête	enquête	NOUN
-Vos	Vos	PROPN
+vos	vos	UNKNOWN
 fantômes	fantôme	NOUN
 ne	ne	ADV
 sont	être	AUX
@@ -23,9 +23,9 @@ juillet	juillet	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I	I	PROPN
+I	I	X
 ↵↵	↵↵	PUNCTstruct
-Vos	vos	DET
+vos	vos	DET
 fantômes	fantôme	NOUN
 ne	ne	ADV
 sont	être	AUX
@@ -51,7 +51,7 @@ choses	chose	NOUN
 et	et	CCONJ
 réciproquement	réciproquement	ADV
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 distinction	distinction	NOUN
 entre	entre	ADP
 «	«	PUNCTclause
@@ -79,7 +79,7 @@ de	de	ADP
 signification	signification	NOUN
 générale	général	ADJ
 .	.	PUNCTsent
-Certains	certain	DET
+certains	certain	DET
 fantômes	fantôme	NOUN
 me	me	PRON
 apparaissent	apparaître	VERB
@@ -101,7 +101,7 @@ par	par	ADP
 le	le	DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 ont	avoir	AUX
 tous	tous	PRON
 le	le	DET
@@ -110,7 +110,7 @@ air	air	NOUN
 absurde	absurde	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Des	un	ADP_DET
+des	un	ADP_DET
 fantômes	fantôme	NOUN
 de	de	ADP
 une	un	DET
@@ -141,7 +141,7 @@ mon	mon	DET
 univers	univers	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 vision	vision	NOUN
 «	«	PUNCTclause
 autre	autre	ADJ
@@ -160,7 +160,7 @@ avec	avec	ADP
 le	le	DET
 monde	monde	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 quoi	quoi	PRON
 cette	ce	DET
 première	premier	ADJ
@@ -172,7 +172,7 @@ indiscrète	indiscret	ADJ
 ↵↵	↵↵	PUNCTstruct
 II	II	PRON
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 y	y	PRON
 aurait	avoir	VERB
 beaucoup	beaucoup	ADV
@@ -201,7 +201,7 @@ celui	celui	PRON
 des	un	ADP_DET
 autres	autre	ADJ
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avons	avoir	AUX
 vu	voir	VERB
 des	un	DET
@@ -227,7 +227,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 spirituel	spirituel	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -288,7 +288,7 @@ apparente	apparent	ADJ
 nous	nous	PRON
 fascine	fasciner	VERB
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 fantôme	fantôme	NOUN
 ne	ne	ADV
 manifeste	manifester	VERB
@@ -303,13 +303,13 @@ qui	qui	PRON
 le	le_PRON	PRON
 perçoit	percevoir	VERB
 .	.	PUNCTsent
-Dis	dire	VERB
+dis	dire	VERB
 moi	moi	PRON
 qui	qui	PRON
 te	te	PRON
 hante	hanter	VERB
 …	…	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 ,	,	PUNCTclause
 la	le	DET
 vulgarité	vulgarité	NOUN
@@ -337,7 +337,7 @@ sécheresse	sécheresse	NOUN
 de	de	ADP
 âme	âme	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 on	on	PRON
 ne	ne	ADV
 voit	voir	VERB
@@ -348,7 +348,7 @@ on	on	PRON
 mérite	mériter	VERB
 .	.	PUNCTsent
 —	—	PUNCTclause
-Les	le	DET
+les	le	DET
 plus	plus	ADV
 beaux	beau	ADJ
 fantômes	fantôme	NOUN
@@ -363,7 +363,7 @@ sont	être	AUX
 les	le	DET
 anges	ange	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ceux	ceux	PRON
 seuls	seul	ADJ
 parmi	parmi	ADP
@@ -411,7 +411,7 @@ les	le	DET
 correspondances	correspondance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comprenons	comprendre	VERB
+comprenons	comprendre	VERB
 à	à	ADP
 ce	ce	DET
 signe	signe	NOUN
@@ -492,7 +492,7 @@ de	de	ADP
 une	un	DET
 création	création	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 agit	agir	VERB
 de	de	ADP

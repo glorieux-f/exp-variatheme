@@ -6,13 +6,13 @@
 # title = "[Compte rendu] Louis Aragon, Le Paysan de Paris (janvier 1927)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Louis	Louis	PROPN
 Aragon	Aragon	PROPN
 ,	,	PUNCTclause
-Le	le	DET
-Paysan	Paysan	PROPN
+le	le	DET
+paysan	paysan	UNKNOWN
 de	de	ADP
 Paris	Paris	PROPN
 (	(	PUNCTclause
@@ -22,7 +22,7 @@ janvier	janvier	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 admets	admettre	VERB
 pas	pas	ADV
@@ -38,7 +38,7 @@ me	me	PRON
 les	le_PRON	PRON
 oppose	opposer	VERB
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
@@ -50,7 +50,7 @@ traité	traité	NOUN
 de	de	ADP
 paix	paix	NOUN
 .	.	PUNCTsent
-Entre	entre	ADP
+entre	entre	ADP
 moi	moi	PRON
 et	et	CCONJ
 vous	vous	PRON
@@ -61,7 +61,7 @@ la	le	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Voilà	voilà	ADP
+voilà	voilà	ADP
 pour	pour	ADP
 les	le	DET
 critiques	critique	NOUN
@@ -125,7 +125,7 @@ du	du	ADP_DET
 poète	poète	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 me	me	PRON
 ont	avoir	AUX
 suivi	suivre	VERB
@@ -142,7 +142,7 @@ sans	sans	ADP
 rire	rire	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-À	à	ADP
+à	à	ADP
 mort	mourir	VERB
 ceux	ceux	PRON
 qui	qui	PRON
@@ -190,7 +190,7 @@ de	de	ADP
 Rousseau	Rousseau	PROPN
 surréaliste	surréaliste	ADJ
 .	.	PUNCTsent
-Devant	devant	ADP
+devant	devant	ADP
 cette	ce	DET
 ostentation	ostentation	NOUN
 de	de	ADP
@@ -210,11 +210,11 @@ songe	songer	VERB
 au	au	ADP_DET
 Frank	Frank	PROPN
 de	de	ADP
-La	le	DET
-Coupe	Coupe	NOUN
+la	le	DET
+coupe	coupe	NOUN
 et	et	CCONJ
 les	le	DET
-Lèvres	Lèvres	PROPN
+lèvres	lèvre	UNKNOWN
 ,	,	PUNCTclause
 à	à	ADP
 qui	qui	PRON
@@ -223,7 +223,7 @@ compagnons	compagnon	NOUN
 criaient	crier	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Te	te	PRON
+te	te	PRON
 fais	faire	VERB
 tu	tu	PRON
 le	le	DET
@@ -265,7 +265,7 @@ jeune	jeune	ADJ
 littérature	littérature	NOUN
 française	français	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 le	le	DET
 proclame	proclamer	VERB
 «	«	PUNCTclause
@@ -279,7 +279,7 @@ des	un	ADP_DET
 torrents	torrent	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Génie	génie	NOUN
+génie	génie	NOUN
 inégal	inégal	ADJ
 si	si	SCONJ
 il	il	PRON
@@ -307,7 +307,7 @@ défauts	défaut	NOUN
 pareillement	pareillement	ADV
 énormes	énorme	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 remonter	remonter	VERB
 loin	loin	ADV
@@ -322,7 +322,7 @@ de	de	ADP
 la	le	DET
 langue	langue	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 parmi	parmi	ADP
 les	le	DET
 modernes	moderne	NOUN
@@ -356,7 +356,7 @@ un	un	DET
 lyrisme	lyrisme	NOUN
 inouï	inouï	ADJ
 .	.	PUNCTsent
-Que	que	SCONJ
+que	que	SCONJ
 Louis	Louis	PROPN
 Aragon	Aragon	PROPN
 ne	ne	ADV
@@ -379,7 +379,7 @@ prétentieuse	prétentieux	ADJ
 que	que	SCONJ
 incertaine	incertain	ADJ
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 affaire	affaire	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -398,7 +398,7 @@ l'	le	DET
 époque	époque	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Voulez	vouloir	VERB
+voulez	vouloir	VERB
 vous	vous	PRON
 des	un	ADP_DET
 douleurs	douleur	NOUN
@@ -410,7 +410,7 @@ des	un	ADP_DET
 chansons	chanson	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
-On	on	PRON
+on	on	PRON
 a	avoir	AUX
 l'	le	DET
 hallucination	hallucination	NOUN
@@ -436,8 +436,8 @@ moderne	moderne	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
-Paysan	Paysan	PROPN
+le	le	DET
+paysan	paysan	UNKNOWN
 de	de	ADP
 Paris	Paris	PROPN
 est	être	AUX
@@ -455,7 +455,7 @@ sans	sans	ADP
 rappeler	rappeler	VERB
 celle	celle	PRON
 des	un	ADP_DET
-Nuits	Nuits	NOUN
+nuits	nuit	NOUN
 de	de	ADP
 octobre	octobre	NOUN
 de	de	ADP
@@ -499,7 +499,7 @@ un	un	DET
 parc	parc	NOUN
 public	public	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV

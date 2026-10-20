@@ -6,7 +6,7 @@
 # title = Orphée sans charme (février 1927)
 
 ↵↵	↵↵	PUNCTstruct
-Orphée	Orphée	PROPN
+Orphée	Orphée	VERB
 sans	sans	ADP
 charme	charme	NOUN
 (	(	PUNCTclause
@@ -16,7 +16,7 @@ février	février	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Cet	ce	DET
+cet	ce	DET
 âge	âge	NOUN
 est	être	AUX
 sans	sans	ADP
@@ -25,7 +25,7 @@ pitié	pitié	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 véritable	véritable	ADJ
 symbole	symbole	NOUN
 ne	ne	ADV
@@ -43,13 +43,13 @@ dans	dans	ADP
 la	le	DET
 préface	préface	NOUN
 des	un	ADP_DET
-Mariés	Mariés	NOUN
+mariés	marié	NOUN
 de	de	ADP
 la	le	DET
 tour	tour	NOUN
 Eiffel	Eiffel	PROPN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 une	un	DET
 note	note	NOUN
 de	de	ADP
@@ -57,7 +57,7 @@ Orphée	Orphée	PROPN
 précise	préciser	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Inutile	inutile	ADJ
+inutile	inutile	ADJ
 de	de	ADP
 dire	dire	VERB
 que	que	SCONJ
@@ -74,7 +74,7 @@ la	le	DET
 pièce	pièce	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 me	me	PRON
 gêne	gêner	VERB
@@ -129,7 +129,7 @@ la	le	DET
 possibilité	possibilité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Orphée	Orphée	PROPN
+Orphée	Orphée	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
@@ -139,7 +139,7 @@ poète	poète	NOUN
 surréaliste	surréaliste	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 jeter	jeter	VERB
 une	un	DET
@@ -154,7 +154,7 @@ obtenir	obtenir	VERB
 un	un	DET
 scandale	scandale	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 un	un	PRON
 de	de	ADP
@@ -166,7 +166,7 @@ l'	le	DET
 air	air	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Il	il	PRON
+il	il	PRON
 prétend	prétendre	VERB
 «	«	PUNCTclause
 traquer	traquer	VERB
@@ -174,7 +174,7 @@ l'	le	DET
 inconnu	inconnu	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Sa	son	DET
+sa	son	DET
 femme	femme	NOUN
 l'	le_PRON	PRON
 accuse	accuser	VERB
@@ -193,7 +193,7 @@ une	un	DET
 phrase	phrase	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 cette	ce	DET
 phrase	phrase	NOUN
 ,	,	PUNCTclause
@@ -209,16 +209,16 @@ a	avoir	AUX
 dictée	dicter	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Madame	madame	NOUN
+madame	madame	NOUN
 Eurydice	Eurydice	PROPN
-Reviendra	Reviendra	PROPN
-Des	Des	PROPN
-Enfers	Enfers	PROPN
+reviendra	revenir	UNKNOWN
+des	un	UNKNOWN
+enfers	enfer	UNKNOWN
 .	.	PUNCTsent
 »	»	PUNCTclause
 —	—	PUNCTclause
 «	«	PUNCTclause
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -248,7 +248,7 @@ la	le	DET
 mort	mort	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 on	on	PRON
 découvre	découvrir	VERB
@@ -267,7 +267,7 @@ un	un	DET
 peu	peu	ADV
 ordurière	ordurier	ADJ
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 les	le	DET
 rêves	rêve	NOUN
 publiés	publier	VERB
@@ -309,14 +309,14 @@ le	le	DET
 psychanalyste	psychanalyste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 pourrais	pouvoir	VERB
 poursuivre	poursuivre	VERB
 le	le	DET
 jeu	jeu	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 puis	puis	CCONJ
 ,	,	PUNCTclause
 il y a	il y a	VERB
@@ -327,14 +327,14 @@ de	de	ADP
 calembours	calembour	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Art	art	NOUN
+art	art	NOUN
 chrétien	chrétien	ADJ
 ,	,	PUNCTclause
 a	avoir	AUX
 on	on	PRON
 dit	dire	VERB
 .	.	PUNCTsent
-Certes	certes	ADV
+certes	certes	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 pièce	pièce	NOUN
@@ -362,7 +362,7 @@ une	un	DET
 œuvre	œuvre	NOUN
 de	de	ADP
 article	article	NOUN
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ,	,	PUNCTclause
 d'autre part	d'autre part	ADV
 ,	,	PUNCTclause
@@ -381,7 +381,7 @@ habileté	habileté	NOUN
 surtout	surtout	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 sais	savoir	VERB
 si	si	SCONJ
@@ -409,14 +409,14 @@ plus	plus	ADV
 haut	haut	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 anges	ange	NOUN
 véritables	véritable	ADJ
 qui	qui	PRON
 connaissent	connaître	VERB
 les	le	DET
 signes	signe	NOUN
-Sont	être	AUX
+sont	être	AUX
 moins	moins	ADV
 bons	bon	ADJ
 acrobates	acrobate	NOUN
@@ -426,7 +426,7 @@ etc.	etc.	NOUN
 )	)	PUNCTclause
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cocteau	Cocteau	PROPN
+Cocteau	Cocteau	NOUN
 se	se	PRON
 est	être	AUX
 trop	trop	ADV
@@ -439,7 +439,7 @@ la	le	DET
 corde	corde	NOUN
 raide	raide	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 suis	être	AUX
 sûr	sûr	ADJ
 que	que	SCONJ
@@ -453,7 +453,7 @@ admire	admirer	VERB
 sans	sans	ADP
 émoi	émoi	NOUN
 .	.	PUNCTsent
-Certes	certes	ADV
+certes	certes	ADV
 ,	,	PUNCTclause
 les	le	DET
 qualités	qualité	NOUN
@@ -464,7 +464,7 @@ pièce	pièce	NOUN
 sont	être	AUX
 grandes	grand	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 saurais	savoir	VERB
 même	même	ADV
@@ -483,14 +483,14 @@ chers	cher	ADJ
 l'	le	DET
 auteur	auteur	NOUN
 du	du	ADP_DET
-Secret	secret	X
+secret	secret	X
 professionnel	professionnel	ADJ
 et	et	CCONJ
 de	de	ADP
 la	le	DET
 préface	préface	NOUN
 des	un	ADP_DET
-Mariés	Mariés	NOUN
+mariés	marié	NOUN
 —	—	PUNCTclause
 principes	principe	NOUN
 dont	dont	PRON
@@ -510,7 +510,7 @@ de	de	ADP
 Cocteau	Cocteau	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Précision	précision	NOUN
+précision	précision	NOUN
 et	et	CCONJ
 relief	relief	NOUN
 du	du	ADP_DET
@@ -575,7 +575,7 @@ un	un	DET
 trait	trait	NOUN
 pur	pur	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 semble	sembler	VERB
 que	que	SCONJ
 Cocteau	Cocteau	PROPN
@@ -589,7 +589,7 @@ il	il	PRON
 voulait	vouloir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 pourtant	pourtant	ADV
 cette	ce	DET
 admirable	admirable	ADJ
@@ -613,7 +613,7 @@ sans	sans	ADP
 surprises	surprise	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Puisque	puisque	SCONJ
+puisque	puisque	SCONJ
 ces	ce	DET
 mystères	mystère	NOUN
 me	me	PRON
@@ -631,9 +631,9 @@ disait	dire	VERB
 le	le	DET
 photographe	photographe	NOUN
 des	un	ADP_DET
-Mariés	Mariés	NOUN
+mariés	marié	NOUN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 Orphée	Orphée	PROPN
 ,	,	PUNCTclause
 le	le	DET
@@ -690,7 +690,7 @@ est	être	AUX
 pas	pas	ADV
 respirable	respirable	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 manque	manquer	VERB
 rien	rien	PRON

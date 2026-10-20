@@ -6,10 +6,10 @@
 # title = Préface à Le Cœur est un chasseur solitaire de Carson McCullers (1947)
 
 ↵↵	↵↵	PUNCTstruct
-Préface	préface	NOUN
+préface	préface	NOUN
 à	à	ADP
-Le	le	DET
-Cœur	Cœur	PROPN
+le	le	DET
+cœur	cœur	UNKNOWN
 est	être	AUX
 un	un	DET
 chasseur	chasseur	NOUN
@@ -22,7 +22,7 @@ McCullers	McCullers	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 connais	connaître	VERB
 dans	dans	ADP
@@ -43,13 +43,13 @@ Brevoort	Brevoort	PROPN
 au bas de	au bas de	ADP
 la	le	DET
 5e	5e	ADJ
-Avenue	Avenue	NOUN
+avenue	avenue	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
 là	là	ADV
 que	que	SCONJ
-Dos	Dos	PROPN
+dos	dos	UNKNOWN
 Passos	Passos	PROPN
 situe	situer	VERB
 plusieurs	plusieurs	DET
@@ -74,7 +74,7 @@ connu	connaître	VERB
 Carson	Carson	PROPN
 McCullers	McCullers	PROPN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 avait	avoir	VERB
 l'	le	DET
 air	air	NOUN
@@ -111,7 +111,7 @@ sa	son	DET
 contenance	contenance	NOUN
 effarouchée	effaroucher	VERB
 .	.	PUNCTsent
-Ses	son	DET
+ses	son	DET
 mains	main	NOUN
 tremblaient	trembler	VERB
 ,	,	PUNCTclause
@@ -140,7 +140,7 @@ dans	dans	ADP
 la	le	DET
 ville	ville	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 la	le	DET
 félicitai	féliciter	VERB
 sur	sur	ADP
@@ -184,7 +184,7 @@ fait	faire	VERB
 un	un	DET
 compliment	compliment	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 suppose	supposer	VERB
 que	que	SCONJ
 mon	mon	DET
@@ -208,7 +208,7 @@ a	avoir	AUX
 lonely	lonely	ADV
 Hunter	Hunter	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 peu	peu	ADV
 plus tard	plus tard	ADV
 je	je	PRON
@@ -238,14 +238,14 @@ de	de	ADP
 Thomas	Thomas	PROPN
 Mann	Mann	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 mélange	mélange	NOUN
 improbable	improbable	ADJ
 de	de	ADP
 Kafka	Kafka	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-Enfants	Enfants	NOUN
+enfants	enfant	NOUN
 terribles	terrible	ADJ
 et	et	CCONJ
 de	de	ADP
@@ -257,7 +257,7 @@ définissait	définir	VERB
 l'	le	DET
 atmosphère	atmosphère	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 écrivait	écrire	VERB
 ,	,	PUNCTclause
 on	on	PRON
@@ -298,7 +298,7 @@ trois	trois	NUM
 énormes	énorme	ADJ
 négresses	négresse	NOUN
 .	.	PUNCTsent
-Wystan	Wystan	PROPN
+Wystan	Wystan	DET
 Auden	Auden	PROPN
 y	y	PRON
 présidait	présider	VERB
@@ -381,7 +381,7 @@ de	de	ADP
 sculpture	sculpture	NOUN
 précolombienne	précolombien	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 crois	croire	VERB
 bien	bien	ADV
 que	que	SCONJ
@@ -428,7 +428,7 @@ de	de	ADP
 ce	ce	DET
 pays	pays	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 puis	puis	CCONJ
 leur	leur	DET
 nomadisme	nomadisme	NOUN
@@ -437,7 +437,7 @@ les	le_PRON	PRON
 a	avoir	AUX
 repris	reprendre	VERB
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 an	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
@@ -466,7 +466,7 @@ dans	dans	ADP
 une	un	DET
 clinique	clinique	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 jour	jour	NOUN
 je	je	PRON
 la	le	DET
@@ -476,7 +476,7 @@ un	un	DET
 train	train	NOUN
 venant	venir	VERB
 du	du	ADP_DET
-Sud	Sud	NOUN
+sud	sud	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 route	route	NOUN
@@ -495,7 +495,7 @@ Nord	Nord	PROPN
 près de	près de	ADP
 Saratoga	Saratoga	PROPN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 me	me	PRON
 tend	tendre	VERB
 de	de	ADP
@@ -520,7 +520,7 @@ signalé	signaler	VERB
 comme	comme	ADP
 le	le	DET
 premier	premier	ADJ
-Américain	Américain	NOUN
+américain	américain	NOUN
 blessé	blesser	VERB
 lors	lors	ADV
 du	du	ADP_DET
@@ -528,7 +528,7 @@ débarquement	débarquement	NOUN
 en	en	ADP
 Normandie	Normandie	PROPN
 .	.	PUNCTsent
-Aujourd'hui	aujourd'hui	ADV
+aujourd'hui	aujourd'hui	ADV
 elle	elle	PRON
 est	être	AUX
 à	à	ADP
@@ -562,10 +562,10 @@ des	un	ADP_DET
 américains	américain	ADJ
 vers	vers	ADP
 le	le	DET
-Vieux	vieux	ADJ
-Monde	Monde	NOUN
+vieux	vieux	ADJ
+monde	monde	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 principale	principal	ADJ
 différence	différence	NOUN
 entre	entre	ADP
@@ -598,7 +598,7 @@ la	le	DET
 seconde	second	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Carson	Carson	PROPN
+Carson	Carson	NOUN
 McCullers	McCullers	PROPN
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
@@ -622,12 +622,12 @@ là	là	ADV
 où	où	PRON
 un	un	DET
 jeune	jeune	NOUN
-Français	français	ADJ
+français	français	ADJ
 citerait	citer	VERB
 sans doute	sans doute	ADV
 Hemingway	Hemingway	PROPN
 ,	,	PUNCTclause
-Dos	Dos	PROPN
+dos	dos	UNKNOWN
 Passos	Passos	PROPN
 et	et	CCONJ
 Steinbeck	Steinbeck	PROPN
@@ -639,7 +639,7 @@ peut-être	peut-être	ADV
 que	que	SCONJ
 les	le	DET
 jeunes	jeune	NOUN
-Américains	Américains	PROPN
+américains	américain	UNKNOWN
 sont	être	AUX
 moins	moins	ADV
 anxieux	anxieux	ADJ
@@ -688,7 +688,7 @@ que	que	SCONJ
 l'	le	DET
 explication	explication	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 cette	ce	DET
 recherche	recherche	NOUN
 obscurément	obscurément	ADV
@@ -709,11 +709,11 @@ ferait	faire	VERB
 irrésistiblement	irrésistiblement	ADV
 chez	chez	ADP
 un	un	DET
-Français	Français	NOUN
+français	français	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
 «	«	PUNCTclause
-Trouver	trouver	VERB
+trouver	trouver	VERB
 le	le	DET
 lieu	lieu	NOUN
 et	et	CCONJ
@@ -725,7 +725,7 @@ disait	dire	VERB
 Rimbaud	Rimbaud	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
-Elle	elle	PRON
+elle	elle	PRON
 ne	ne	ADV
 se	se	PRON
 décante	décanter	VERB
@@ -789,7 +789,7 @@ que	que	SCONJ
 volontaire	volontaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 les	le	DET
 êtres	être	NOUN
 qui	qui	PRON
@@ -832,7 +832,7 @@ certitudes	certitude	NOUN
 à	à	ADP
 embrasser	embrasser	VERB
 .	.	PUNCTsent
-Comme	comme	ADP
+comme	comme	ADP
 cette	ce	DET
 Mick	Mick	PROPN
 ,	,	PUNCTclause
@@ -869,7 +869,7 @@ que	que	PRON
 elle	elle	PRON
 aime	aimer	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 soir	soir	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -884,20 +884,20 @@ et	et	CCONJ
 elle	elle	PRON
 écoute	écouter	VERB
 .	.	PUNCTsent
-Puis	puis	CCONJ
+puis	puis	CCONJ
 elle	elle	PRON
 essaie	essayer	VERB
 de	de	ADP
 composer	composer	VERB
 elle-même	elle-même	PRON
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 appelle	appeler	VERB
 sa	son	DET
 première	premier	ADJ
 sonate	sonate	NOUN
 :	:	PUNCTclause
-Cette	ce	DET
+cette	ce	DET
 chose	chose	NOUN
 que	que	PRON
 je	je	PRON
@@ -910,7 +910,7 @@ pas	pas	ADV
 quoi	quoi	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 pense	penser	VERB
 que	que	SCONJ
 on	on	PRON
@@ -949,7 +949,7 @@ le	le_PRON	PRON
 faire	faire	AUX
 sentir	sentir	VERB
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 personnages	personnage	NOUN
 de	de	ADP
 un	un	DET
@@ -1018,7 +1018,7 @@ sont	être	AUX
 les	le	DET
 supports	support	NOUN
 .	.	PUNCTsent
-Leurs	leur	DET
+leurs	leur	DET
 dialogues	dialogue	NOUN
 sont	être	AUX
 de	de	ADP
@@ -1071,7 +1071,7 @@ de	de	ADP
 la	le	DET
 partition	partition	NOUN
 .	.	PUNCTsent
-Chez	chez	ADP
+chez	chez	ADP
 les	le	DET
 jeunes	jeune	ADJ
 écrivains	écrivain	NOUN
@@ -1098,7 +1098,7 @@ intime	intime	ADJ
 des	un	ADP_DET
 héros	héros	NOUN
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 à	à	ADP
 citer	citer	VERB
 de	de	ADP
@@ -1107,7 +1107,7 @@ part	part	NOUN
 du	du	ADP_DET
 romancier	romancier	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 arguments	argument	NOUN
 que	que	PRON
 échangent	échanger	VERB
@@ -1150,7 +1150,7 @@ propos	propos	NOUN
 du	du	ADP_DET
 problème	problème	NOUN
 des	un	ADP_DET
-Noirs	Noirs	NOUN
+noirs	noir	NOUN
 en	en	ADP
 Amérique	Amérique	PROPN
 —	—	PUNCTclause
@@ -1170,7 +1170,7 @@ et	et	CCONJ
 limiter	limiter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Notons	noter	VERB
+notons	noter	VERB
 aussi	aussi	ADV
 que	que	SCONJ
 la	le	DET
@@ -1212,7 +1212,7 @@ tourmentent	tourmenter	VERB
 l'	le	DET
 époque	époque	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 suis	être	AUX
 demandé	demander	VERB
@@ -1226,7 +1226,7 @@ de	de	ADP
 ce	ce	DET
 roman	roman	NOUN
 ?	?	PUNCTsent
-Point	point	ADV
+point	point	ADV
 de	de	ADP
 intrigue	intrigue	NOUN
 ,	,	PUNCTclause
@@ -1290,7 +1290,7 @@ de	de	ADP
 la	le	DET
 vie quotidienne	vie quotidienne	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 longue	long	ADJ
 suite	suite	NOUN
 de	de	ADP
@@ -1309,7 +1309,7 @@ comme	comme	ADP
 la	le	DET
 promenade	promenade	NOUN
 de	de	ADP
-Baby	Baby	PROPN
+baby	baby	UNKNOWN
 )	)	PUNCTclause
 qui	qui	PRON
 finissent	finir	VERB
@@ -1347,7 +1347,7 @@ l'	le	DET
 adulte	adulte	ADJ
 ?	?	PUNCTsent
 (	(	PUNCTclause
-Les	le	DET
+les	le	DET
 scènes	scène	NOUN
 et	et	CCONJ
 les	le	DET
@@ -1374,7 +1374,7 @@ le	le	DET
 problème	problème	NOUN
 noir	noir	ADJ
 ?	?	PUNCTsent
-Ou	ou	CCONJ
+ou	ou	CCONJ
 simplement	simplement	ADV
 la	le	DET
 description	description	NOUN
@@ -1384,7 +1384,7 @@ petite	petit	ADJ
 ville	ville	NOUN
 pauvre	pauvre	ADJ
 du	du	ADP_DET
-Sud	Sud	NOUN
+sud	sud	NOUN
 ?	?	PUNCTsent
 ou bien	ou bien	CCONJ
 toutes	tout	ADJ
@@ -1393,7 +1393,7 @@ choses	chose	NOUN
 à la fois	à la fois	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 demandais	demander	VERB
 aussi	aussi	ADV
@@ -1424,7 +1424,7 @@ relatif	relatif	ADJ
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-Sécession	Sécession	NOUN
+sécession	sécession	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 susceptible	susceptible	ADJ
@@ -1448,7 +1448,7 @@ en	en	ADP
 Amérique	Amérique	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
 pas	pas	ADV
@@ -1465,7 +1465,7 @@ fait	fait	NOUN
 est	être	AUX
 là	là	ADV
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 la	le	DET
 première	premier	ADJ
 ,	,	PUNCTclause
@@ -1503,7 +1503,7 @@ pages	page	NOUN
 -220	-220	NUM
 :	:	PUNCTclause
 «	«	PUNCTsent
-Les	le	DET
+les	le	DET
 autres	autre	PRON
 ,	,	PUNCTclause
 écrit	écrire	VERB
@@ -1513,7 +1513,7 @@ haïssent	haïr	VERB
 tous	tout	ADJ
 quelque chose	quelque chose	PRON
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ils	ils	PRON
 ont	avoir	AUX
 tous	tous	PRON
@@ -1552,7 +1552,7 @@ occupés	occupé	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Dernièrement	dernièrement	ADV
+dernièrement	dernièrement	ADV
 ,	,	PUNCTclause
 à	à	ADP
 Paris	Paris	PROPN
@@ -1571,7 +1571,7 @@ interviewer	interviewer	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -1586,7 +1586,7 @@ ce	ce	DET
 roman	roman	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Elle	elle	PRON
+elle	elle	PRON
 me	me	PRON
 regarde	regarder	VERB
 étonnée	étonné	ADJ
@@ -1596,7 +1596,7 @@ indignée	indigner	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -1604,7 +1604,7 @@ que	que	SCONJ
 cela	cela	PRON
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Elle	elle	PRON
+elle	elle	PRON
 voulait	vouloir	VERB
 dire	dire	VERB
 l'	le	DET
@@ -1624,7 +1624,7 @@ des	un	ADP_DET
 romans	roman	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-New York	New York	PROPN
+New York	New York	ADV
 ,	,	PUNCTclause
 le	le	DET
 15	15	NUM

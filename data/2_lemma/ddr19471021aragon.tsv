@@ -6,7 +6,7 @@
 # title = Une lettre de Denis de Rougemont (à propos d’Aragon) (21 octobre 1947)
 
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 lettre	lettre	NOUN
 de	de	ADP
 Denis	Denis	PROPN
@@ -23,26 +23,26 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ferney-Voltaire	Ferney-Voltaire	PROPN
+Ferney-Voltaire	Ferney-Voltaire	NOUN
 ,	,	PUNCTclause
 le	le	DET
 21	21	NUM
 octobre	octobre	NOUN
 1947	1947	NUM
 ↵↵	↵↵	PUNCTstruct
-Cher	cher	ADJ
+cher	cher	ADJ
 Max-Pol	Max-Pol	PROPN
 Fouchet	Fouchet	PROPN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 viens	venir	VERB
 de	de	ADP
 recevoir	recevoir	VERB
 un	un	DET
 exemplaire	exemplaire	NOUN
 des	un	ADP_DET
-Conférences	Conférences	NOUN
+conférences	conférence	NOUN
 de	de	ADP
 l'	le	DET
 UNESCO	UNESCO	PROPN
@@ -50,9 +50,9 @@ publiées	publier	VERB
 par	par	ADP
 les	le	DET
 éditions	édition	NOUN
-Fontaine	Fontaine	PROPN
+fontaine	fontaine	UNKNOWN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 le	le	DET
 feuilletant	feuilleter	VERB
 ,	,	PUNCTclause
@@ -74,7 +74,7 @@ se	se	PRON
 agit	agir	VERB
 des	un	ADP_DET
 «	«	PUNCTclause
-Rencontres	Rencontres	NOUN
+rencontres	rencontre	NOUN
 internationales	international	ADJ
 de	de	ADP
 Genève	Genève	PROPN
@@ -142,7 +142,7 @@ et	et	CCONJ
 le	le	DET
 nationalisme	nationalisme	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 ai	avoir	AUX
 pas	pas	ADV
@@ -159,7 +159,7 @@ du vivant de	du vivant de	ADP
 Hitler	Hitler	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 passage	passage	NOUN
 est	être	AUX
 censé	censé	ADJ
@@ -190,7 +190,7 @@ de	de	ADP
 Aragon	Aragon	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cet	ce	DET
+cet	ce	DET
 auteur	auteur	NOUN
 qui	qui	PRON
 a	avoir	AUX
@@ -214,7 +214,7 @@ une	un	DET
 lettre	lettre	NOUN
 anonyme	anonyme	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 donc	donc	ADV
@@ -226,12 +226,12 @@ on	on	PRON
 peut	pouvoir	VERB
 répondre	répondre	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 pour	pour	ADP
 les	le	DET
 lecteurs	lecteur	NOUN
 de	de	ADP
-Fontaine	Fontaine	PROPN
+fontaine	fontaine	UNKNOWN
 ,	,	PUNCTclause
 mettons	mettre	VERB
 les	le	DET
@@ -260,10 +260,10 @@ les	le	DET
 émissions	émission	NOUN
 de	de	ADP
 l'	le	DET
-Office	Office	NOUN
+office	office	NOUN
 of	of	VERB
-War	War	PROPN
-Information	Information	NOUN
+War	War	DET
+information	information	NOUN
 ,	,	PUNCTclause
 retransmises	retransmettre	VERB
 à	à	ADP
@@ -273,7 +273,7 @@ par	par	ADP
 la	le	DET
 		TOKEN
 .	.	PUNCTsent
-Quelques	quelque	DET
+quelques	quelque	DET
 fragments	fragment	NOUN
 de	de	ADP
 ces	ce	DET
@@ -304,7 +304,7 @@ de	de	ADP
 publié	publier	VERB
 ici	ici	ADV
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 le	le	DET
 reste	reste	NOUN
 :	:	PUNCTclause
@@ -326,7 +326,7 @@ Vichy	Vichy	PROPN
 mais	mais	CCONJ
 au contraire	au contraire	ADV
 mon	mon	DET
-Journal	Journal	NOUN
+journal	journal	NOUN
 de	de	ADP
 Allemagne	Allemagne	PROPN
 a	avoir	AUX
@@ -336,7 +336,7 @@ et	et	CCONJ
 détruit	détruire	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-La	le	DET
+la	le	DET
 résistance	résistance	NOUN
 hollandaise	hollandais	ADJ
 en	en	PRON
@@ -347,7 +347,7 @@ rééditions	réédition	NOUN
 clandestines	clandestin	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
-Dans	dans	ADP
+dans	dans	ADP
 le	le	DET
 même	même	ADJ
 temps	temps	NOUN
@@ -365,7 +365,7 @@ Paris	Paris	PROPN
 2	2	NUM
 °	°	SYM
 )	)	PUNCTclause
-Mon	Mon	PROPN
+mon	mon	UNKNOWN
 «	«	PUNCTclause
 passeport	passeport	NOUN
 suisse	suisse	ADJ
@@ -400,8 +400,8 @@ en	en	ADP
 la	le	DET
 publication	publication	NOUN
 de	de	ADP
-La	le	DET
-Part	Part	PROPN
+la	le	DET
+part	part	UNKNOWN
 du	du	ADP_DET
 diable	diable	NOUN
 ,	,	PUNCTclause
@@ -412,7 +412,7 @@ injurieuse	injurieux	ADJ
 pour	pour	ADP
 Hitler	Hitler	PROPN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 le	le	DET
 même	même	ADJ
 temps	temps	NOUN
@@ -438,7 +438,7 @@ inoffensives	inoffensif	ADJ
 3	3	NUM
 °	°	SYM
 )	)	PUNCTclause
-Parmi	parmi	ADP
+parmi	parmi	ADP
 les	le	DET
 maladies	maladie	NOUN
 de	de	ADP
@@ -475,7 +475,7 @@ l'	le	DET
 affirme	affirmer	VERB
 Aragon	Aragon	PROPN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 un	un	DET
 mouvement	mouvement	NOUN
 de	de	ADP
@@ -510,7 +510,7 @@ de	de	ADP
 aliénés	aliéné	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Demandons	demander	VERB
+demandons	demander	VERB
 nous	nous	PRON
 ,	,	PUNCTclause
 plus	plus	ADV
@@ -554,7 +554,7 @@ antisémitisme	antisémitisme	NOUN
 du vivant de	du vivant de	ADP
 Hitler	Hitler	PROPN
 .	.	PUNCTsent
-Que	que	SCONJ
+que	que	SCONJ
 veut	vouloir	VERB
 il	il	PRON
 prouver	prouver	VERB
@@ -567,7 +567,7 @@ cet	ce	DET
 intéressant	intéressant	ADJ
 oubli	oubli	NOUN
 ?	?	PUNCTsent
-Supposez	supposer	VERB
+supposez	supposer	VERB
 que	que	SCONJ
 il	il	PRON
 ne	ne	ADV
@@ -593,7 +593,7 @@ a	avoir	AUX
 pas	pas	ADV
 loué	louer	VERB
 ?	?	PUNCTsent
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 rafraîchissons	rafraîchir	VERB
 cette	ce	DET
@@ -609,8 +609,8 @@ l'	le	DET
 antisémitisme	antisémitisme	NOUN
 notamment	notamment	ADV
 dans	dans	ADP
-Les	le	DET
-Juifs	Juifs	NOUN
+les	le	DET
+juifs	juif	NOUN
 (	(	PUNCTclause
 Plon	Plon	PROPN
 ,	,	PUNCTclause
@@ -618,20 +618,20 @@ Plon	Plon	PROPN
 )	)	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-Mission	Mission	PROPN
+mission	mission	UNKNOWN
 ou	ou	CCONJ
 démission	démission	NOUN
 de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-La	le	DET
+la	le	DET
 Baconnière	Baconnière	NOUN
 ,	,	PUNCTclause
 1940	1940	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
-Entre	entre	ADP
+entre	entre	ADP
 autres	autre	PRON
 ,	,	PUNCTclause
 M.	M.	NOUN
@@ -642,7 +642,7 @@ il	il	PRON
 l'	le	DET
 ignorait	ignorer	VERB
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 ce	ce	DET
 cas	cas	NOUN
 ,	,	PUNCTclause
@@ -655,7 +655,7 @@ se	se	PRON
 taire	taire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comme	comme	ADP
+comme	comme	ADP
 vous	vous	PRON
 le	le	DET
 voyez	voir	VERB
@@ -707,7 +707,7 @@ moi	moi	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Nous	nous	PRON
+nous	nous	PRON
 autres	autre	PRON
 ,	,	PUNCTclause
 hommes	homme	NOUN

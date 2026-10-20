@@ -8,12 +8,12 @@
 ↵↵	↵↵	PUNCTstruct
 XII	XII	X
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 quatre	quatre	NUM
 libertés	liberté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-New York	New York	PROPN
+New York	New York	ADV
 ,	,	PUNCTclause
 le	le	DET
 24	24	NUM
@@ -21,7 +21,7 @@ novembre	novembre	NOUN
 1945	1945	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Puisque	puisque	SCONJ
+puisque	puisque	SCONJ
 je	je	PRON
 ai	avoir	AUX
 pris	prendre	VERB
@@ -41,21 +41,21 @@ notre	notre	DET
 ,	,	PUNCTclause
 comme	comme	ADP
 la	le	DET
-Bombe	Bombe	PROPN
+bombe	bombe	UNKNOWN
 ,	,	PUNCTclause
 la	le	DET
-Guerre	Guerre	NOUN
+guerre	guerre	NOUN
 et	et	CCONJ
 la	le	DET
-Paix	Paix	PROPN
+paix	paix	UNKNOWN
 ,	,	PUNCTclause
 la	le	DET
-Démocratie	Démocratie	PROPN
+démocratie	démocratie	UNKNOWN
 et	et	CCONJ
 le	le	DET
 gouvernement	gouvernement	NOUN
 du	du	ADP_DET
-Monde	Monde	NOUN
+monde	monde	NOUN
 ,	,	PUNCTclause
 vous	vous	PRON
 ne	ne	ADV
@@ -71,7 +71,7 @@ le	le	DET
 thème	thème	NOUN
 des	un	ADP_DET
 Quatre	Quatre	NUM
-Libertés	Libertés	NOUN
+libertés	liberté	NOUN
 .	.	PUNCTsent
 sans doute	sans doute	ADV
 vous	vous	PRON
@@ -98,7 +98,7 @@ occupé	occuper	VERB
 d'autre	d'autre	PUNCT
 chose	chose	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 l'	le	DET
 Amérique	Amérique	PROPN
 a	avoir	AUX
@@ -114,9 +114,9 @@ les	le	DET
 mêmes	même	ADJ
 effets	effet	NOUN
 …	…	PUNCTsent
-Les	le	DET
+les	le	DET
 Quatre	Quatre	NUM
-Libertés	Libertés	NOUN
+libertés	liberté	NOUN
 ne	ne	ADV
 en	en	PRON
 furent	être	AUX
@@ -140,7 +140,7 @@ de	de	ADP
 la	le	DET
 paix	paix	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 je	je	PRON
 ai	avoir	AUX
 remarqué	remarquer	VERB
@@ -154,7 +154,7 @@ de	de	ADP
 les	le	DET
 énumérer	énumérer	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 semble	sembler	VERB
 que	que	SCONJ
 on	on	PRON
@@ -179,7 +179,7 @@ dans	dans	ADP
 l'	le	DET
 esprit	esprit	NOUN
 …	…	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 rappelez	rappeler	VERB
 vous	vous	PRON
 ?	?	PUNCTsent
@@ -204,7 +204,7 @@ l'	le	DET
 état	état	NOUN
 de	de	ADP
 l'	le	DET
-Union	Union	NOUN
+union	union	NOUN
 :	:	PUNCTclause
 freedom	freedom	NOUN
 of	of	X
@@ -250,7 +250,7 @@ la	le	DET
 crainte	crainte	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Donc	donc	ADV
+donc	donc	ADV
 les	le	DET
 ONU	ONU	PROPN
 ayant	avoir	AUX
@@ -280,7 +280,7 @@ la	le	DET
 lutte	lutte	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 deuxième	deuxième	ADJ
 ,	,	PUNCTclause
 celle	celle	PRON
@@ -310,7 +310,7 @@ et	et	CCONJ
 au	au	ADP_DET
 Japon	Japon	PROPN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 brûle	brûler	VERB
 encore	encore	ADV
 ,	,	PUNCTclause
@@ -426,7 +426,7 @@ autres	autre	PRON
 .	.	PUNCTsent
 quant à	quant à	ADP
 la	le	DET
-Bombe	Bombe	PROPN
+bombe	bombe	UNKNOWN
 ,	,	PUNCTclause
 elle	elle	PRON
 a	avoir	AUX
@@ -445,7 +445,7 @@ chaque	chaque	DET
 instant	instant	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Tout	tout	ADJ
+tout	tout	ADJ
 cela	cela	PRON
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -488,7 +488,7 @@ but	but	NOUN
 de	de	ADP
 écraser	écraser	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ceci	ceci	PRON
 est	être	AUX
 une	un	DET
@@ -496,7 +496,7 @@ autre	autre	ADJ
 histoire	histoire	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
-Ma	mon	DET
+ma	mon	DET
 génération	génération	NOUN
 est	être	AUX
 elle	elle	PRON
@@ -519,7 +519,7 @@ est	être	AUX
 à	à	ADP
 combattre	combattre	VERB
 ?	?	PUNCTsent
-Doit	devoir	VERB
+doit	devoir	VERB
 elle	elle	PRON
 accepter	accepter	VERB
 de	de	ADP
@@ -546,20 +546,20 @@ données	donnée	NOUN
 par	par	ADP
 qui	qui	PRON
 ?	?	PUNCTsent
-Sommes	être	AUX
+sommes	être	AUX
 nous	nous	PRON
 voués	vouer	VERB
 à	à	ADP
 l'	le	DET
 esclavage	esclavage	NOUN
 de	de	ADP
-État	État	NOUN
+état	état	NOUN
 par	par	ADP
 nécessité	nécessité	NOUN
 matérielle	matériel	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 me	me	PRON
 en	en	PRON
 voudrez	vouloir	VERB
@@ -595,7 +595,7 @@ nécessités	nécessiter	VERB
 des	un	DET
 ruines	ruine	NOUN
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 le	le	DET
 rappel	rappel	NOUN
 des	un	ADP_DET
@@ -624,7 +624,7 @@ du	du	ADP_DET
 présent	présent	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 propose	proposer	VERB
 donc	donc	ADV
 que	que	SCONJ
@@ -645,7 +645,7 @@ attendant	attendre	VERB
 le	le	DET
 reste	reste	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 propose	proposer	VERB
 que	que	PRON
 nous	nous	PRON
@@ -665,7 +665,7 @@ une	un	DET
 affirmation	affirmation	NOUN
 unique	unique	ADJ
 de	de	ADP
-Liberté	Liberté	NOUN
+liberté	liberté	NOUN
 indivisible	indivisible	ADJ
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -679,7 +679,7 @@ de	de	ADP
 saisir	saisir	VERB
 à l'instant	à l'instant	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -687,7 +687,7 @@ pas	pas	ADV
 quatre	quatre	NUM
 libertés	liberté	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -698,7 +698,7 @@ liberté	liberté	NOUN
 ou	ou	CCONJ
 non	non	ADV
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 le	le_PRON	PRON
 prouverai	prouver	VERB
 par	par	ADP
@@ -706,7 +706,7 @@ une	un	DET
 parabole	parabole	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 connais	connaître	VERB
 certains	certain	DET
 hommes	homme	NOUN
@@ -719,7 +719,7 @@ quatre	quatre	NUM
 libertés	liberté	NOUN
 susdites	susdit	ADJ
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 :	:	PUNCTclause
 ils	ils	PRON
 peuvent	pouvoir	VERB
@@ -772,7 +772,7 @@ les	le	DET
 périls	péril	NOUN
 extérieurs	extérieur	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 les	le	DET
 détenus	détenu	NOUN
@@ -781,7 +781,7 @@ prisons	prison	NOUN
 américaines	américain	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-On	on	PRON
+on	on	PRON
 leur	leur	PRON
 donne	donner	VERB
 même	même	ADV
@@ -792,7 +792,7 @@ cinéma	cinéma	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 liberté	liberté	NOUN
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -807,7 +807,7 @@ elle	elle	PRON
 est	être	AUX
 vivante	vivant	ADJ
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 pas	pas	ADV
@@ -816,7 +816,7 @@ plus	plus	ADV
 être	être	AUX
 donnée	donner	VERB
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 exige	exiger	VERB
 de	de	ADP
 être	être	AUX
@@ -841,7 +841,7 @@ toujours	toujours	ADV
 des	un	DET
 obstacles	obstacle	NOUN
 .	.	PUNCTsent
-Ceux	ceux	PRON
+ceux	ceux	PRON
 qui	qui	PRON
 ont	avoir	VERB
 peur	peur	NOUN
@@ -858,13 +858,13 @@ l'	le	DET
 ont	avoir	AUX
 fait	faire	VERB
 les	le	DET
-Allemands	Allemands	NOUN
+allemands	allemand	NOUN
 sous	sous	ADP
 l'	le	DET
 hitlérisme	hitlérisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 liberté	liberté	NOUN
 fondamentale	fondamental	ADJ
 dont	dont	PRON
@@ -879,7 +879,7 @@ se	se	PRON
 réaliser	réaliser	VERB
 personnellement	personnellement	ADV
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 nous	nous	PRON
 ne	ne	ADV
 pourrons	pouvoir	VERB
@@ -889,7 +889,7 @@ recevoir	recevoir	VERB
 de	de	ADP
 autrui	autrui	PRON
 .	.	PUNCTsent
-Sans	sans	ADP
+sans	sans	ADP
 elle	elle	PRON
 ,	,	PUNCTclause
 les	le	DET
@@ -899,7 +899,7 @@ ne	ne	ADV
 comptent	compter	VERB
 guère	guère	ADV
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 elle	elle	PRON
 seule	seul	ADJ
 ,	,	PUNCTclause
@@ -908,7 +908,7 @@ peuvent	pouvoir	VERB
 être	être	AUX
 conquises	conquérir	VERB
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 l'	le	DET
 affirmons	affirmer	VERB
 et	et	CCONJ
@@ -931,21 +931,21 @@ opposent	opposer	VERB
 sans	sans	ADP
 relâche	relâche	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 cette	ce	DET
 lutte	lutte	NOUN
 est	être	AUX
 toujours	toujours	ADV
 possible	possible	ADJ
 .	.	PUNCTsent
-Cette	ce	DET
-Résistance	Résistance	NOUN
+cette	ce	DET
+résistance	résistance	NOUN
 ne	ne	ADV
 fait	faire	VERB
 que	que	ADV
 commencer	commencer	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 si	si	SCONJ
 nous	nous	PRON
 décidons	décider	VERB
@@ -978,9 +978,9 @@ de	de	ADP
 être	être	AUX
 libres	libre	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 aura	avoir	VERB
 tous	tout	ADJ
 les	le	DET
@@ -995,7 +995,7 @@ les	le	DET
 devoirs	devoir	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 que	que	PRON
 il	il	PRON
 nous	nous	PRON
@@ -1014,14 +1014,14 @@ autour de	autour de	ADP
 nous	nous	PRON
 .	.	PUNCTsent
 (	(	PUNCTclause
-Les	le	DET
+les	le	DET
 prisons	prison	NOUN
 sont	être	AUX
 bien	bien	ADV
 arrangées	arranger	VERB
 .	.	PUNCTsent
 )	)	PUNCTclause
-Ce	ce	PRON
+ce	ce	PRON
 que	que	PRON
 il	il	PRON
 nous	nous	PRON
@@ -1041,7 +1041,7 @@ du	du	ADP_DET
 courage	courage	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Car	car	CCONJ
+car	car	CCONJ
 nous	nous	PRON
 sommes	être	AUX
 libres	libre	ADJ
@@ -1067,7 +1067,7 @@ de	de	ADP
 sa	son	DET
 personne	personne	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 homme	homme	NOUN
 libre	libre	ADJ
 ,	,	PUNCTclause
@@ -1096,7 +1096,7 @@ ou	ou	CCONJ
 trente-six	trente-six	NUM
 libertés	liberté	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 entend	entendre	VERB
 dire	dire	VERB
 :	:	PUNCTclause
@@ -1108,17 +1108,17 @@ esprit	esprit	NOUN
 libre	libre	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
-De	de	ADP
+de	de	ADP
 qui	qui	PRON
 tient	tenir	VERB
 il	il	PRON
 sa	son	DET
 liberté	liberté	NOUN
 ?	?	PUNCTsent
-Ni	ni	CCONJ
+ni	ni	CCONJ
 de	de	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 de	de	ADP
@@ -1141,7 +1141,7 @@ de	de	ADP
 leurs	leur	DET
 experts	expert	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 la	le	DET
 tient	tenir	VERB
 de	de	ADP
@@ -1158,7 +1158,7 @@ pour	pour	ADP
 la	le	DET
 joindre	joindre	VERB
 .	.	PUNCTsent
-Lénine	Lénine	PROPN
+Lénine	Lénine	NOUN
 sous	sous	ADP
 le	le	DET
 tsarisme	tsarisme	NOUN
@@ -1174,7 +1174,7 @@ communiste	communiste	ADJ
 sous	sous	ADP
 Staline	Staline	PROPN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 George	George	PROPN
 Washington	Washington	PROPN
 était	être	AUX
@@ -1192,14 +1192,14 @@ de	de	ADP
 sa	son	DET
 radio	radio	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 combattaient	combattre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 nous	nous	PRON
 ?	?	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 ne	ne	ADV
 serons	être	VERB
 libres	libre	ADJ

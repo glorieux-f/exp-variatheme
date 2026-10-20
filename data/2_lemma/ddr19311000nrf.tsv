@@ -6,10 +6,10 @@
 # title = "[Compte rendu] Les Éléments de la grandeur humaine, par Rudolf Kassner (octobre 1931)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
-Les	le	DET
-Éléments	Éléments	NOUN
+les	le	DET
+éléments	élément	NOUN
 de	de	ADP
 la	le	DET
 grandeur	grandeur	NOUN
@@ -24,7 +24,7 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 l'	le	DET
 existence	existence	NOUN
 —	—	PUNCTclause
@@ -51,7 +51,7 @@ est	être	AUX
 l'	le	DET
 impuissance	impuissance	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 proie	proie	NOUN
 de	de	ADP
 désirs	désir	NOUN
@@ -94,7 +94,7 @@ nous	nous	PRON
 avons	avoir	VERB
 besoin	besoin	NOUN
 .	.	PUNCTsent
-Kierkegaard	Kierkegaard	PROPN
+Kierkegaard	Kierkegaard	NOUN
 nous	nous	PRON
 en	en	PRON
 propose	proposer	VERB
@@ -104,7 +104,7 @@ le	le	DET
 plus	plus	ADV
 efficace	efficace	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 ainsi	ainsi	ADV
@@ -134,7 +134,7 @@ Europe	Europe	PROPN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 France	France	PROPN
 ne	ne	ADV
 l'	le	DET
@@ -176,7 +176,7 @@ Barth	Barth	PROPN
 génial	génial	ADJ
 disciple	disciple	NOUN
 du	du	ADP_DET
-Danois	Danois	PROPN
+danois	danois	UNKNOWN
 ,	,	PUNCTclause
 et	et	CCONJ
 dont	dont	PRON
@@ -233,7 +233,7 @@ extrême	extrême	ADJ
 conséquence	conséquence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 la	le	DET
 mesure	mesure	NOUN
 même	même	ADJ
@@ -267,7 +267,7 @@ des	un	DET
 formules	formule	NOUN
 explicites	explicite	ADJ
 .	.	PUNCTsent
-Même	même	ADV
+même	même	ADV
 dans	dans	ADP
 son	son	DET
 essai	essai	NOUN
@@ -312,7 +312,7 @@ leur	leur	DET
 valeur	valeur	NOUN
 originale	original	ADJ
 .	.	PUNCTsent
-Kassner	Kassner	PROPN
+Kassner	Kassner	VERB
 reprend	reprendre	VERB
 un	un	DET
 des	un	DET
@@ -384,7 +384,7 @@ dieux	dieu	NOUN
 ,	,	PUNCTclause
 nature	nature	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 se	se	PRON
 recherche	rechercher	VERB
@@ -442,7 +442,7 @@ incomplet	incomplet	ADJ
 et	et	CCONJ
 coupable	coupable	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 donc	donc	ADV
 possible	possible	ADJ
@@ -470,7 +470,7 @@ d'autre	d'autre	ADP
 grandeur	grandeur	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 le	le	DET
 chrétien	chrétien	NOUN
 existe	exister	VERB
@@ -485,7 +485,7 @@ lui	lui	PRON
 et	et	CCONJ
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 péché	péché	NOUN
 ne	ne	ADV
@@ -531,7 +531,7 @@ chimères	chimère	NOUN
 et	et	CCONJ
 incohérence	incohérence	NOUN
 .	.	PUNCTsent
-Que	que	PRON
+que	que	PRON
 l'on	on	PRON
 considère	considérer	VERB
 en effet	en effet	ADV
@@ -576,7 +576,7 @@ indiscret	indiscret	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 «	«	PUNCTclause
-Sa	son	DET
+sa	son	DET
 substance	substance	NOUN
 interne	interne	ADJ
 est	être	AUX
@@ -584,7 +584,7 @@ crevassée	crevasser	VERB
 et	et	CCONJ
 divisée	diviser	VERB
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 œuvre	œuvre	NOUN
 souvent	souvent	ADV
 pleine	plein	ADJ
@@ -608,7 +608,7 @@ nous	nous	PRON
 détermine	déterminer	VERB
 jamais	jamais	ADV
 .	.	PUNCTsent
-Cet	ce	DET
+cet	ce	DET
 homme	homme	NOUN
 indiscret	indiscret	ADJ
 est	être	AUX
@@ -622,7 +622,7 @@ de	de	ADP
 l'	le	DET
 intérieur	intérieur	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 jamais	jamais	ADV
@@ -654,16 +654,16 @@ impudeur	impudeur	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 l'	le	DET
 opposition	opposition	NOUN
 du	du	ADP_DET
-Beau	Beau	PROPN
+beau	beau	UNKNOWN
 objectif	objectif	NOUN
 et	et	CCONJ
 de	de	ADP
 l'	le	DET
-Intéressant	Intéressant	PROPN
+intéressant	intéressant	UNKNOWN
 sentimental	sentimental	ADJ
 qui	qui	PRON
 pour	pour	ADP
@@ -697,7 +697,7 @@ l'	le	DET
 indiscrétion	indiscrétion	NOUN
 journalistique	journalistique	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 férocité	férocité	NOUN
 réfléchie	réfléchir	VERB
 qui	qui	PRON
@@ -718,7 +718,7 @@ mal	mal	NOUN
 du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
-Ici	ici	ADV
+ici	ici	ADV
 le	le	DET
 mépris	mépris	NOUN
 ne	ne	ADV
@@ -734,7 +734,7 @@ est	être	AUX
 vraiment	vraiment	ADV
 souverain	souverain	ADJ
 .	.	PUNCTsent
-Peut-être	peut-être	ADV
+peut-être	peut-être	ADV
 faut	falloir	VERB
 il	il	PRON
 reconnaître	reconnaître	VERB
@@ -770,7 +770,7 @@ une	un	DET
 pensée	pensée	NOUN
 autoritaire	autoritaire	ADJ
 .	.	PUNCTsent
-Entendons	entendre	VERB
+entendons	entendre	VERB
 que	que	SCONJ
 pour	pour	ADP
 lui	lui	PRON
@@ -797,7 +797,7 @@ l'	le	DET
 impuissance	impuissance	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Si	si	SCONJ
+si	si	SCONJ
 Kassner	Kassner	PROPN
 exprime	exprimer	VERB
 un	un	DET
@@ -819,7 +819,7 @@ est	être	AUX
 tourmentée	tourmenter	VERB
 .	.	PUNCTsent
 )	)	PUNCTclause
-Penser	penser	VERB
+penser	penser	VERB
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -853,7 +853,7 @@ un	un	DET
 certain	certain	ADJ
 style	style	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 il	il	PRON
 ne	ne	ADV
 est	être	AUX
@@ -863,7 +863,7 @@ vérité	vérité	NOUN
 sans	sans	ADP
 forme	forme	NOUN
 .	.	PUNCTsent
-Quelques	quelque	DET
+quelques	quelque	DET
 pages	page	NOUN
 étranges	étrange	ADJ
 et	et	CCONJ
@@ -907,7 +907,7 @@ apparente	apparent	ADJ
 obscurité	obscurité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 savoir	savoir	VERB
 être	être	AUX
@@ -917,7 +917,7 @@ penser	penser	VERB
 avec	avec	ADP
 autorité	autorité	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 savoir	savoir	VERB
 taire	taire	VERB
@@ -934,7 +934,7 @@ sans	sans	ADP
 réaliser	réaliser	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 que	que	SCONJ
 les	le	DET
@@ -965,7 +965,7 @@ qui	qui	PRON
 les	le_PRON	PRON
 domestique	domestiquer	VERB
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 pensée	pensée	NOUN
 neuve	neuf	ADJ
 ne	ne	ADV
@@ -989,7 +989,7 @@ dispense	dispenser	VERB
 le	le	DET
 lecteur	lecteur	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 pourrait	pouvoir	VERB
 dire	dire	VERB
 aussi	aussi	ADV
@@ -1008,7 +1008,7 @@ que	que	SCONJ
 de	de	ADP
 illustrer	illustrer	VERB
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 selon	selon	ADP
 Kierkegaard	Kierkegaard	PROPN
 ,	,	PUNCTclause
@@ -1031,7 +1031,7 @@ Judas	Judas	PROPN
 numéro	numéro	NOUN
 deux	deux	NUM
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 il	il	PRON
 ne	ne	ADV
 se	se	PRON
@@ -1047,7 +1047,7 @@ de	de	ADP
 la	le	DET
 chose	chose	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 rare	rare	ADJ
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1076,7 +1076,7 @@ fait	fait	NOUN
 du	du	ADP_DET
 détachement	détachement	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 ironie	ironie	NOUN
 à	à	ADP
 l'	le	DET
@@ -1102,11 +1102,11 @@ non	non	ADV
 du	du	ADP_DET
 scepticisme	scepticisme	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 dialogue	dialogue	NOUN
 de	de	ADP
 Laurence	Laurence	PROPN
-Sterne	Sterne	PROPN
+sterne	sterne	UNKNOWN
 et	et	CCONJ
 du	du	ADP_DET
 recteur	recteur	NOUN
@@ -1115,7 +1115,7 @@ sur	sur	ADP
 Judas	Judas	PROPN
 et	et	CCONJ
 la	le	DET
-Parole	Parole	PROPN
+parole	parole	UNKNOWN
 est	être	AUX
 à cet égard	à cet égard	ADP
 de	de	ADP
@@ -1178,7 +1178,7 @@ filantes	filant	ADJ
 »	»	PUNCTclause
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 plus	plus	ADV
 encore	encore	ADV
 que	que	SCONJ
@@ -1209,8 +1209,8 @@ tragique	tragique	ADJ
 du	du	ADP_DET
 péché	péché	NOUN
 .	.	PUNCTsent
-Le	le	DET
-Lépreux	Lépreux	PROPN
+le	le	DET
+lépreux	lépreux	UNKNOWN
 ,	,	PUNCTclause
 journal	journal	NOUN
 apocryphe	apocryphe	ADJ
@@ -1239,7 +1239,7 @@ qui	qui	PRON
 caractérise	caractériser	VERB
 Kierkegaard	Kierkegaard	PROPN
 .	.	PUNCTsent
-L'on	on	PRON
+l'on	on	PRON
 y	y	PRON
 trouvera	trouver	VERB
 moins	moins	ADV
@@ -1290,7 +1290,7 @@ sournoise	sournois	NOUN
 malice	malice	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 dire	dire	VERB
@@ -1342,7 +1342,7 @@ réalité	réalité	NOUN
 plus	plus	ADV
 absolue	absolu	ADJ
 .	.	PUNCTsent
-Telle	tel	PRON
+telle	tel	PRON
 est	être	AUX
 la	le	DET
 forme	forme	NOUN
@@ -1352,7 +1352,7 @@ où	où	PRON
 culmine	culminer	VERB
 son	son	DET
 article	article	NOUN
-De	de	ADP
+de	de	ADP
 ces	ce	DET
 dialogues	dialogue	NOUN
 ,	,	PUNCTclause
@@ -1405,11 +1405,11 @@ modèle	modèle	NOUN
 immortel	immortel	ADJ
 ,	,	PUNCTclause
 le	le	DET
-Livre	Livre	NOUN
+livre	livre	NOUN
 de	de	ADP
 Job	Job	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 serait	être	AUX
 curieux	curieux	ADJ
 de	de	ADP
@@ -1420,9 +1420,9 @@ filiation	filiation	NOUN
 ,	,	PUNCTclause
 jusque	jusque	ADP
 au	au	ADP_DET
-Soulier	Soulier	PROPN
+soulier	soulier	UNKNOWN
 de	de	ADP
-Satin	Satin	PROPN
+satin	satin	UNKNOWN
 de	de	ADP
 Claudel	Claudel	PROPN
 :	:	PUNCTclause

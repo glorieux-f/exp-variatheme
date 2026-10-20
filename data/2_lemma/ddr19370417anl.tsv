@@ -6,7 +6,7 @@
 # title = Lénine, Staline et la littérature (17 avril 1937)
 
 ↵↵	↵↵	PUNCTstruct
-Lénine	Lénine	PROPN
+Lénine	Lénine	NOUN
 ,	,	PUNCTclause
 Staline	Staline	PROPN
 et	et	CCONJ
@@ -19,7 +19,7 @@ avril	avril	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 lutter	lutter	VERB
 contre	contre	ADP
 le	le	DET
@@ -37,7 +37,7 @@ défendre	défendre	VERB
 la	le	DET
 culture	culture	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 malheur	malheur	NOUN
 est	être	AUX
 que	que	SCONJ
@@ -53,7 +53,7 @@ moyens	moyen	NOUN
 fascistes	fasciste	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-Toute	tout	ADJ
+toute	tout	ADJ
 la	le	DET
 littérature	littérature	NOUN
 sociale-démocrate	sociale-démocrate	PUNCT
@@ -70,10 +70,10 @@ devenir	devenir	VERB
 une	un	DET
 littérature	littérature	NOUN
 de	de	ADP
-Parti	Parti	NOUN
+parti	parti	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Et	et	CCONJ
+et	et	CCONJ
 Staline	Staline	PROPN
 fait	faire	VERB
 écho	écho	NOUN
@@ -94,10 +94,10 @@ aux	au	ADP_DET
 cadets	cadet	NOUN
 de	de	ADP
 l'	le	DET
-Académie	Académie	NOUN
+académie	académie	NOUN
 de	de	ADP
 l'	le	DET
-Armée	Armée	NOUN
+armée	armée	NOUN
 rouge	rouge	ADJ
 ,	,	PUNCTclause
 il	il	PRON
@@ -105,7 +105,7 @@ se	se	PRON
 écrie	écrier	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Chez	chez	ADP
+chez	chez	ADP
 nous	nous	PRON
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -120,10 +120,10 @@ de	de	ADP
 tout	tout	PRON
 !	!	PUNCTsent
 »	»	PUNCTclause
-Compris	comprendre	VERB
+compris	comprendre	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ces	ce	DET
+ces	ce	DET
 deux	deux	NUM
 phrases	phrase	NOUN
 sont	être	AUX
@@ -138,17 +138,17 @@ Lénine	Lénine	PROPN
 et	et	CCONJ
 de	de	ADP
 Staline	Staline	PROPN
-Sur	sur	ADP
+sur	sur	ADP
 la	le	DET
 littérature	littérature	NOUN
 et	et	CCONJ
 l'	le	DET
 article	article	NOUN
-Disons	Disons	PROPN
+disons	dire	UNKNOWN
 tout de suite	tout de suite	ADV
 que	que	SCONJ
 le	le	DET
-Père	Père	NOUN
+père	père	NOUN
 des	un	ADP_DET
 peuples	peuple	NOUN
 ne	ne	ADV
@@ -175,7 +175,7 @@ nationale-socialiste	nationale-socialiste	ADJ
 en	en	ADP
 Russie	Russie	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 cela	cela	PRON
 permet	permettre	VERB
 toutefois	toutefois	ADV
@@ -189,7 +189,7 @@ de	de	ADP
 Lénine	Lénine	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Lénine	Lénine	PROPN
+Lénine	Lénine	ADJ
 affiche	affiche	NOUN
 en	en	ADP
 littérature	littérature	NOUN
@@ -216,7 +216,7 @@ et	et	CCONJ
 Barbusse	Barbusse	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 inculture	inculture	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -232,7 +232,7 @@ sa	son	DET
 veuve	veuf	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-En	en	ADP
+en	en	ADP
 Russie	Russie	PROPN
 ,	,	PUNCTclause
 Ilitch	Ilitch	PROPN
@@ -249,7 +249,7 @@ demeurait	demeurer	VERB
 étranger	étranger	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Il	il	PRON
+il	il	PRON
 préférait	préférer	VERB
 de	de	ADP
 beaucoup	beaucoup	ADV
@@ -257,13 +257,13 @@ beaucoup	beaucoup	ADV
 Maïakovski	Maïakovski	PROPN
 le	le	DET
 «	«	PUNCTclause
-Salut	Salut	NOUN
+salut	salut	NOUN
 au	au	ADP_DET
 17	17	NUM
 e	e	NOUN
 »	»	PUNCTclause
 :	:	PUNCTclause
-Salut	Salut	NOUN
+salut	salut	NOUN
 ,	,	PUNCTclause
 salut	salut	NOUN
 à	à	ADP
@@ -285,13 +285,13 @@ sur	sur	ADP
 l'	le	DET
 Alsace-Lorraine	Alsace-Lorraine	NOUN
 :	:	PUNCTclause
-Vous	vous	PRON
+vous	vous	PRON
 avez	avoir	AUX
 pu	pouvoir	VERB
 germaniser	germaniser	ADP
 nos	nos	DET
 plaines	plaine	NOUN
-Mais	mais	CCONJ
+mais	mais	CCONJ
 notre	notre	DET
 cœur	cœur	NOUN
 —	—	PUNCTclause
@@ -302,7 +302,7 @@ aurez	avoir	AUX
 jamais	jamais	ADV
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 un	un	DET
 article	article	NOUN
 de	de	ADP
@@ -320,7 +320,7 @@ les	le	DET
 bureaucrates	bureaucrate	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 appartiens	appartenir	VERB
 pas	pas	ADV
@@ -348,7 +348,7 @@ dans	dans	ADP
 ce	ce	DET
 domaine	domaine	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 depuis	depuis	ADP
 longtemps	longtemps	ADV
 ,	,	PUNCTclause
@@ -365,7 +365,7 @@ politique	politique	ADJ
 et	et	CCONJ
 administratif	administratif	ADJ
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 son	son	DET
 poème	poème	NOUN
 ,	,	PUNCTclause
@@ -388,7 +388,7 @@ et	et	CCONJ
 siéger	siéger	VERB
 encore	encore	ADV
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 sais	savoir	VERB
 ce	ce	PRON
@@ -417,7 +417,7 @@ parfaitement	parfaitement	ADV
 vrai	vrai	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voilà	voilà	ADP
+voilà	voilà	ADP
 qui	qui	PRON
 donne	donner	VERB
 toute	tout	ADJ
@@ -456,7 +456,7 @@ homme	homme	NOUN
 plutôt	plutôt	ADV
 sympathique	sympathique	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ,	,	PUNCTclause
 en	en	ADP
 1935	1935	NUM
@@ -471,7 +471,7 @@ a	avoir	AUX
 bien	bien	ADV
 changé	changer	VERB
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 ce	ce	PRON
 que	que	SCONJ
 écrit	écrire	VERB
@@ -481,7 +481,7 @@ cette	ce	DET
 date	date	NOUN
 ,	,	PUNCTclause
 le	le	DET
-Père	Père	NOUN
+père	père	NOUN
 des	un	ADP_DET
 peuples	peuple	NOUN
 ,	,	PUNCTclause
@@ -491,7 +491,7 @@ même	même	ADJ
 Maïakovski	Maïakovski	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 été	être	AUX
 et	et	CCONJ
@@ -524,7 +524,7 @@ un	un	DET
 crime	crime	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 reconnaissez	reconnaître	VERB
 le	le	DET
 ton	ton	NOUN
@@ -547,7 +547,7 @@ un	un	DET
 crime	crime	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Heureusement	heureusement	ADV
+heureusement	heureusement	ADV
 pour	pour	ADP
 lui	lui	PRON
 que	que	SCONJ
@@ -559,7 +559,7 @@ et	et	CCONJ
 momifié	momifier	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 sais	savoir	VERB
 quelle	quel	DET
@@ -573,7 +573,7 @@ de	de	ADP
 ce	ce	DET
 choix	choix	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 en	en	PRON
 ressort	ressortir	VERB
 à	à	ADP
@@ -635,7 +635,7 @@ empire	empire	NOUN
 national-socialiste	national-socialiste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 nous	nous	PRON
 de	de	ADP
 relever	relever	VERB
@@ -666,10 +666,10 @@ de	de	ADP
 prix	prix	NOUN
 à	à	ADP
 l'	le	DET
-Académie	Académie	NOUN
+académie	académie	NOUN
 de	de	ADP
 l'	le	DET
-Armée	Armée	NOUN
+armée	armée	NOUN
 rouge	rouge	ADJ
 ,	,	PUNCTclause
 l'	le	DET

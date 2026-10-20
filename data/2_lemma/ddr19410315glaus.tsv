@@ -6,7 +6,7 @@
 # title = Souvenir de la paix française (15 mars 1941)
 
 ↵↵	↵↵	PUNCTstruct
-Souvenir	souvenir	NOUN
+souvenir	souvenir	NOUN
 de	de	ADP
 la	le	DET
 paix	paix	NOUN
@@ -18,7 +18,7 @@ mars	mars	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Périgny	Périgny	PROPN
+Périgny	Périgny	NOUN
 …	…	PUNCTsent
 ce	ce	PRON
 était	être	AUX
@@ -26,7 +26,7 @@ bien	bien	ADV
 ce	ce	DET
 nom	nom	NOUN
 ?	?	PUNCTsent
-Un	un	DET
+un	un	DET
 long	long	ADJ
 village	village	NOUN
 en	en	ADP
@@ -67,9 +67,9 @@ du	du	ADP_DET
 plateau	plateau	NOUN
 de	de	ADP
 la	le	DET
-Brie	Brie	PROPN
+brie	brie	UNKNOWN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 montais	monter	VERB
 vers	vers	ADP
 Périgny	Périgny	PROPN
@@ -88,7 +88,7 @@ de	de	DET
 vieux	vieux	ADJ
 escaliers	escalier	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 seule	seul	ADJ
 rangée	rangée	NOUN
 de	de	ADP
@@ -109,7 +109,7 @@ est	être	AUX
 vide	vide	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 toits	toit	NOUN
 de	de	ADP
 ardoises	ardoise	NOUN
@@ -130,7 +130,7 @@ par	par	ADP
 les	le	DET
 vents	vent	NOUN
 .	.	PUNCTsent
-Rares	rare	ADJ
+rares	rare	ADJ
 sont	être	AUX
 les	le	DET
 boutiques	boutique	NOUN
@@ -140,7 +140,7 @@ même	même	ADV
 les	le	DET
 cafés	café	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 si	si	SCONJ
 il	il	PRON
 passe	passer	VERB
@@ -189,7 +189,7 @@ pacifique	pacifique	ADJ
 et	et	CCONJ
 séculaire	séculaire	ADJ
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 pays	pays	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -217,7 +217,7 @@ leur	leur	DET
 destin	destin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 longeais	longer	VERB
 cette	ce	DET
 rue	rue	NOUN
@@ -244,7 +244,7 @@ au ras de	au ras de	ADP
 la	le	DET
 plaine	plaine	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 peu	peu	ADV
 avant	avant	ADP
 la	le	DET
@@ -284,7 +284,7 @@ dans	dans	ADP
 les	le	DET
 vergers	verger	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 étais	être	AUX
 arrêté	arrêter	VERB
@@ -299,7 +299,7 @@ route	route	NOUN
 à	à	ADP
 prendre	prendre	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 soudain	soudain	ADJ
 je	je	PRON
 vis	voir	VERB
@@ -336,7 +336,7 @@ suis	être	AUX
 aux	au	ADP_DET
 champs	champ	NOUN
 ↵↵	↵↵	PUNCTstruct
-Paix	paix	NOUN
+paix	paix	NOUN
 du	du	ADP_DET
 village	village	NOUN
 ,	,	PUNCTclause
@@ -370,7 +370,7 @@ pudeur	pudeur	NOUN
 naïvement	naïvement	ADV
 dévoilé	dévoiler	VERB
 .	.	PUNCTsent
-Secret	secret	NOUN
+secret	secret	NOUN
 de	de	ADP
 ce	ce	DET
 village	village	NOUN
@@ -378,12 +378,12 @@ aux	au	ADP_DET
 volets	volet	NOUN
 clos	clos	ADJ
 .	.	PUNCTsent
-Imaginant	imaginer	VERB
+imaginant	imaginer	VERB
 une	un	DET
 idylle	idylle	NOUN
 muette	muet	ADJ
 .	.	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 qui	qui	PRON
 revient	revenir	VERB
 au	au	ADP_DET
@@ -404,7 +404,7 @@ ne	ne	ADV
 trouve	trouver	VERB
 personne	personne_PRON	PRON
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ses	son	DET
 outils	outil	NOUN
 sont	être	AUX
@@ -414,7 +414,7 @@ contre	contre	ADP
 le	le	DET
 mur	mur	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 reprend	reprendre	VERB
 le	le	DET
 chemin	chemin	NOUN
@@ -432,7 +432,7 @@ se	se	PRON
 est	être	AUX
 dit	dire	VERB
 :	:	PUNCTclause
-Peut-être	peut-être	ADV
+peut-être	peut-être	ADV
 est	être	AUX
 elle	elle	PRON
 à	à	ADP
@@ -445,17 +445,17 @@ jour	jour	NOUN
 de	de	ADP
 marché	marché	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 écrit	écrire	VERB
 ces	ce	DET
 mots	mot	NOUN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 saura	savoir	VERB
 bien	bien	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 rejoint	rejoindre	VERB
 l'	le	DET
@@ -470,14 +470,14 @@ choses	chose	NOUN
 de	de	ADP
 toujours	toujours	ADV
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 le	le	DET
 moindre	moindre	ADJ
 signe	signe	NOUN
 suffit	suffire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 suis	être	AUX
 redescendu	redescendre	VERB
 vers	vers	ADP
@@ -497,7 +497,7 @@ des	un	ADP_DET
 peupliers	peuplier	NOUN
 blancs	blanc	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faisait	faire	VERB
 lourd	lourd	ADJ
 et	et	CCONJ

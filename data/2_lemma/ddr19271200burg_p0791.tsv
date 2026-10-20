@@ -6,19 +6,19 @@
 # title = "[Compte rendu] Léon Bopp, Interférences (décembre 1927)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Léon	Léon	PROPN
 Bopp	Bopp	PROPN
 ,	,	PUNCTclause
-Interférences	Interférences	PROPN
+interférences	interférence	UNKNOWN
 (	(	PUNCTclause
 décembre	décembre	NOUN
 1927	1927	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 jeune	jeune	ADJ
 auteur	auteur	NOUN
 raconte	raconter	VERB
@@ -37,12 +37,12 @@ sur	sur	ADP
 commande	commander	VERB
 ,	,	PUNCTclause
 une	un	DET
-Promenade	Promenade	NOUN
+promenade	promenade	NOUN
 dans	dans	ADP
 le	le	DET
 Midi	Midi	PROPN
 .	.	PUNCTsent
-Récit	récit	NOUN
+récit	récit	NOUN
 alerte	alerte	ADJ
 et	et	CCONJ
 familier	familier	ADJ
@@ -94,12 +94,12 @@ malaise	malaise	NOUN
 de	de	ADP
 écrire	écrire	VERB
 .	.	PUNCTsent
-Bopp	Bopp	PROPN
+Bopp	Bopp	NOUN
 est	être	AUX
 très	très	ADV
 intelligent	intelligent	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 plein	plein	ADJ
 de	de	ADP
 verve	verve	NOUN
@@ -132,7 +132,7 @@ l'	le	DET
 air	air	NOUN
 dupe	dupe	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 a	avoir	VERB
 des	un	DET
@@ -144,7 +144,7 @@ de	de	ADP
 voir	voir	VERB
 juste	juste	ADV
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 quand	quand	SCONJ
 son	son	DET
 bonhomme	bonhomme	NOUN
@@ -195,9 +195,9 @@ du	du	ADP_DET
 phénomène	phénomène	NOUN
 littéraire	littéraire	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 «	«	PUNCTclause
-Promenade	Promenade	PROPN
+promenade	promenade	UNKNOWN
 »	»	PUNCTclause
 du	du	ADP_DET
 héros	héros	NOUN
@@ -209,7 +209,7 @@ sorte	sorte	NOUN
 de	de	ADP
 pensum	pensum	NOUN
 .	.	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 rend	rendre	VERB
 peut-être	peut-être	ADV
 moins	moins	ADV
@@ -258,7 +258,7 @@ affronter	affronter	VERB
 d'autres	d'autre	PRON
 dédales	dédale	NOUN
 !	!	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 a	avoir	AUX
 su	savoir	VERB
@@ -277,7 +277,7 @@ ces	ce	DET
 50	50	NUM
 pages	page	NOUN
 .	.	PUNCTsent
-Beaucoup	beaucoup	ADV
+beaucoup	beaucoup	ADV
 sont	être	AUX
 excellentes	excellent	ADJ
 et	et	CCONJ
@@ -289,7 +289,7 @@ une	un	DET
 réussite	réussite	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Léon	Léon	PROPN
+Léon	Léon	DET
 Bopp	Bopp	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -305,7 +305,7 @@ esprit	esprit	NOUN
 de	de	ADP
 géométrie	géométrie	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 scientisme	scientisme	NOUN
 assez	assez	ADV
 insolent	insoler	VERB
@@ -322,7 +322,7 @@ interfèrent	interférer	VERB
 en	en	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 aussi	aussi	ADV
 (	(	PUNCTclause
 presque	presque	ADV

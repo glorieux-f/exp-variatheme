@@ -6,10 +6,10 @@
 # title = "[Compte rendu] La Poésie scientifique en France au xvie siècle, par Albert-Marie Schmidt (septembre 1939)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
-La	le	DET
-Poésie	Poésie	NOUN
+la	le	DET
+poésie	poésie	NOUN
 scientifique	scientifique	ADJ
 en	en	ADP
 France	France	PROPN
@@ -26,7 +26,7 @@ septembre	septembre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ronsard	Ronsard	PROPN
+Ronsard	Ronsard	NOUN
 évoquant	évoquer	VERB
 les	le	DET
 démons	démon	NOUN
@@ -41,22 +41,22 @@ Adam-microcosme	Adam-microcosme	NOUN
 Belleau	Belleau	PROPN
 décrivant	décrire	VERB
 les	le	DET
-Amours	Amours	NOUN
+amours	amour	NOUN
 des	un	ADP_DET
-Pierres	Pierres	NOUN
+pierres	pierre	NOUN
 précieuses	précieux	ADJ
 ,	,	PUNCTclause
 Peletier	Peletier	PROPN
 du	du	ADP_DET
-Mans	Mans	PROPN
+mans	man	UNKNOWN
 versifiant	versifier	VERB
 l'	le	DET
-Éloge	Éloge	NOUN
+éloge	éloge	NOUN
 du	du	ADP_DET
-Nombre	Nombre	NOUN
-Un	un	DET
+nombre	nombre	NOUN
+un	un	DET
 ,	,	PUNCTclause
-Du	Du	PROPN
+du	du	UNKNOWN
 Chesne	Chesne	PROPN
 ,	,	PUNCTclause
 calviniste	calviniste	ADJ
@@ -76,10 +76,10 @@ Gamon	Gamon	PROPN
 Clovis	Clovis	PROPN
 Hesteau	Hesteau	PROPN
 de	de	ADP
-Nuysement	Nuysement	PROPN
+Nuysement	Nuysement	ADV
 blasonnant	blasonner	VERB
 des	un	ADP_DET
-Visions	Visions	NOUN
+visions	vision	NOUN
 hermétiques	hermétique	ADJ
 :	:	PUNCTclause
 tels	tel	PRON
@@ -112,7 +112,7 @@ M.	M.	NOUN
 Albert-Marie	Albert-Marie	PROPN
 Schmidt	Schmidt	PROPN
 .	.	PUNCTsent
-Tous	tout	ADJ
+tous	tout	ADJ
 ces	ce	DET
 poètes	poète	NOUN
 ont	avoir	VERB
@@ -127,7 +127,7 @@ nous	nous	PRON
 pensions	penser	VERB
 connaître	connaître	VERB
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 ne	ne	ADV
 ont	avoir	AUX
 pas	pas	ADV
@@ -145,7 +145,7 @@ par	par	ADP
 nos	nos	DET
 lectures	lecture	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 voici	voici	ADP
 avec	avec	ADP
 toutes	toutes	PRON
@@ -193,7 +193,7 @@ fécondes	fécond	ADJ
 ou	ou	CCONJ
 grotesques	grotesque	ADJ
 .	.	PUNCTsent
-Qui	qui	PRON
+qui	qui	PRON
 sait	savoir	VERB
 où	où	PRON
 cela	cela	PRON
@@ -201,7 +201,7 @@ nous	nous	PRON
 eut	avoir	AUX
 menés	mener	VERB
 ?	?	PUNCTsent
-Le	le	DET
+le	le	DET
 livre	livre	NOUN
 de	de	ADP
 Schmidt	Schmidt	PROPN
@@ -226,13 +226,13 @@ faire	faire	AUX
 le	le	DET
 sacrifice	sacrifice	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 rien	rien	PRON
 !	!	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 donne	donner	VERB
 à	à	ADP
 Phèdre	Phèdre	PROPN
@@ -270,7 +270,7 @@ de	de	ADP
 famille	famille	NOUN
 datant	dater	VERB
 du	du	ADP_DET
-Moyen-Âge	Moyen-Âge	NOUN
+moyen-âge	moyen-âge	NOUN
 ,	,	PUNCTclause
 un	un	DET
 tas	tas	NOUN
@@ -285,7 +285,7 @@ de	de	ADP
 significations	signification	NOUN
 magiques	magique	ADJ
 .	.	PUNCTsent
-Ensuite	ensuite	ADV
+ensuite	ensuite	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 18e	18e	ADJ
@@ -300,14 +300,14 @@ nudité	nudité	NOUN
 du	du	ADP_DET
 décor	décor	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 discipline	discipline	NOUN
 est	être	AUX
 devenue	devenir	VERB
 lésinerie	lésinerie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 louer	louer	VERB
 assez	assez	ADV
 les	le	DET
@@ -333,7 +333,7 @@ suppose	supposer	VERB
 son	son	DET
 entreprise	entreprise	NOUN
 ?	?	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 l'	le	DET
 étude	étude	NOUN
 des	un	ADP_DET
@@ -404,7 +404,7 @@ de	de	ADP
 abstruse	abstrus	ADJ
 érudition	érudition	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 fallait	falloir	VERB
 être	être	AUX
 Schmidt	Schmidt	PROPN
@@ -436,7 +436,7 @@ matériel	matériel	NOUN
 encore	encore	ADV
 utilisable	utilisable	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 me	me	PRON
 semble	sembler	VERB
 d'ailleurs	d'ailleurs	ADV
@@ -460,7 +460,7 @@ beaux	beau	ADJ
 poèmes	poème	NOUN
 oubliés	oublier	VERB
 .	.	PUNCTsent
-Toutes	tout	ADJ
+toutes	tout	ADJ
 ces	ce	DET
 tentatives	tentative	NOUN
 constituent	constituer	VERB
@@ -484,7 +484,7 @@ l'	le	DET
 avenir	avenir	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 écrivain	écrivain	NOUN
 contemporain	contemporain	ADJ
 ,	,	PUNCTclause
@@ -521,7 +521,7 @@ incitations	incitation	NOUN
 très	très	ADV
 fécondes	fécond	ADJ
 .	.	PUNCTsent
-Encore	encore	ADV
+encore	encore	ADV
 y	y	PRON
 faudrait	falloir	VERB
 il	il	PRON
@@ -539,7 +539,7 @@ ont	avoir	AUX
 passablement	passablement	ADV
 déprimée	déprimer	VERB
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 imagine	imaginer	VERB
 un	un	DET
 Valéry	Valéry	PROPN
@@ -564,7 +564,7 @@ du	du	ADP_DET
 point	point	NOUN
 originel	originel	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 qui	qui	PRON
 oserait	oser	VERB
 encore	encore	ADV
@@ -583,7 +583,7 @@ Peletier	Peletier	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 un	un	PRON
-La	le	DET
+la	le	DET
 Boderie	Boderie	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -594,7 +594,7 @@ cet	ce	DET
 inventaire	inventaire	NOUN
 de	de	ADP
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 embrassant	embrasser	VERB
 tous	tout	ADJ
 les	le	DET
@@ -650,7 +650,7 @@ mécanique	mécanique	NOUN
 l'	le	DET
 astronomie	astronomie	NOUN
 .	.	PUNCTsent
-Schmidt	Schmidt	PROPN
+Schmidt	Schmidt	VERB
 nous	nous	PRON
 aide	aider	VERB
 à	à	ADP
@@ -663,7 +663,7 @@ titanique	titanique	ADJ
 qui	qui	PRON
 animait	animer	VERB
 ces	ce	DET
-Renaissants	Renaissants	PROPN
+renaissants	renaissant	UNKNOWN
 ,	,	PUNCTclause
 leur	leur	DET
 volonté	volonté	NOUN
@@ -693,7 +693,7 @@ les	le	DET
 parfaire	parfaire	VERB
 par	par	ADP
 le	le	DET
-Verbe	Verbe	PROPN
+verbe	verbe	UNKNOWN
 et	et	CCONJ
 ,	,	PUNCTclause
 finalement	finalement	ADV
@@ -704,7 +704,7 @@ en	en	ADP
 rendre	rendre	VERB
 maîtres	maître	NOUN
 .	.	PUNCTsent
-Tous	tous	PRON
+tous	tous	PRON
 sont	être	AUX
 soutenus	soutenir	VERB
 par	par	ADP
@@ -734,7 +734,7 @@ avec	avec	ADP
 ses	son	DET
 mains	main	NOUN
 le	le_PRON	PRON
-Paradis	Paradis	PROPN
+paradis	paradis	UNKNOWN
 perdu	perdre	VERB
 et	et	CCONJ
 les	le	DET
@@ -744,7 +744,7 @@ de	de	ADP
 Dieu	Dieu	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 poète	poète	NOUN
 a	avoir	AUX
 reçu	recevoir	VERB
@@ -811,7 +811,7 @@ et	et	CCONJ
 de	de	ADP
 Herder	Herder	PROPN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 création	création	NOUN
 entière	entier	ADJ
 ,	,	PUNCTclause
@@ -845,7 +845,7 @@ annonce	annoncer	VERB
 à	à	ADP
 l'autre	l'autre	PRON
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 parole	parole	NOUN
 traverse	traverser	VERB
 tous	tout	ADJ
@@ -868,7 +868,7 @@ chaque	chaque	DET
 dialecte	dialecte	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 l'	le_PRON	PRON
 avons	avoir	AUX
 perçue	percevoir	VERB
@@ -891,7 +891,7 @@ de	de	ADP
 tel	tel	DET
 surréaliste	surréaliste	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 notre	notre	DET
 monde	monde	NOUN
 est	être	AUX
@@ -904,7 +904,7 @@ et	et	CCONJ
 en	en	ADP
 rythmes	rythme	NOUN
 ?	?	PUNCTsent
-La	le_PRON	PRON
+la	le_PRON	PRON
 science	science	NOUN
 moderne	moderne	ADJ
 ne	ne	ADV
@@ -923,9 +923,9 @@ a	avoir	AUX
 elle	elle	PRON
 pas	pas	ADV
 dissocié	dissocier	VERB
-Nombre	Nombre	NOUN
+nombre	nombre	NOUN
 et	et	CCONJ
-Verbe	Verbe	PROPN
+verbe	verbe	UNKNOWN
 au	au	ADP_DET
 point	point	NOUN
 de	de	ADP

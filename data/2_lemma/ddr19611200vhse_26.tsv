@@ -8,10 +8,10 @@
 ↵↵	↵↵	PUNCTstruct
 6	6	NUM
 .	.	PUNCTsent
-Goethe	Goethe	PROPN
+Goethe	Goethe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Johann	Johann	PROPN
+Johann	Johann	PRON
 Wolfgang	Wolfgang	PROPN
 von	von	X
 Goethe	Goethe	PROPN
@@ -30,7 +30,7 @@ seul	seul	ADJ
 un	un	DET
 chapitre	chapitre	NOUN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 143	143	NUM
 volumes	volume	NOUN
@@ -44,7 +44,7 @@ de	de	ADP
 ce	ce	DET
 «	«	PUNCTclause
 grand	grand	ADJ
-Européen	européen	ADJ
+européen	européen	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
 on	on	PRON
@@ -91,7 +91,7 @@ une	un	DET
 entité	entité	NOUN
 objective	objectif	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 plans	plan	NOUN
 de	de	ADP
 union	union	NOUN
@@ -105,12 +105,12 @@ chose	chose	NOUN
 politique	politique	ADJ
 en général	en général	ADV
 .	.	PUNCTsent
-Toutefois	toutefois	ADV
+toutefois	toutefois	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
 en	en	ADP
-Européen	Européen	PROPN
+européen	européen	UNKNOWN
 que	que	SCONJ
 il	il	PRON
 réagit	réagir	VERB
@@ -129,7 +129,7 @@ dans	dans	ADP
 son	son	DET
 Allemagne	Allemagne	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 lorsque	lorsque	SCONJ
 il	il	PRON
 est	être	AUX
@@ -143,10 +143,10 @@ d'autres	d'autre	PRON
 civilisations	civilisation	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-Orient	Orient	PROPN
+orient	orient	UNKNOWN
 dans	dans	ADP
 le	le	DET
-Divan	Divan	PROPN
+divan	divan	UNKNOWN
 occidental-oriental	occidental-oriental	ADJ
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -154,8 +154,8 @@ la	le	DET
 jeune	jeune	ADJ
 Amérique	Amérique	PROPN
 dans	dans	ADP
-Les	le	DET
-Années	Années	PROPN
+les	le	DET
+années	année	UNKNOWN
 de	de	ADP
 voyage	voyage	NOUN
 de	de	ADP
@@ -170,7 +170,7 @@ peuvent	pouvoir	VERB
 paraître	paraître	VERB
 ambiguës	ambigu	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 a	avoir	AUX
 lu	lire	VERB
 sa	son	DET
@@ -189,7 +189,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 va	aller	VERB
 lire	lire	VERB
 ses	son	DET
@@ -214,14 +214,14 @@ l'	le	DET
 american	american	NOUN
 way of life	way of life	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 saurait	savoir	VERB
 se	se	PRON
 en	en	ADP
 étonner	étonner	VERB
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 contradictions	contradiction	NOUN
 apparentes	apparent	ADJ
 relèvent	relever	VERB
@@ -242,7 +242,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 ne	ne	ADV
 serait	être	VERB
 moins	moins	ADV
@@ -301,7 +301,7 @@ et	et	CCONJ
 propagés	propager	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voici	voici	ADP
+voici	voici	ADP
 d'abord	d'abord	ADV
 un	un	DET
 choix	choix	NOUN
@@ -373,7 +373,7 @@ l'	le	DET
 union	union	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 Goethe	Goethe	PROPN
 craint	craindre	VERB
 que	que	SCONJ
@@ -416,7 +416,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 grands	grand	ADJ
 travaux	travail	NOUN
 —	—	PUNCTclause
@@ -427,7 +427,7 @@ glorifie	glorifier	VERB
 la	le	DET
 fin	fin	NOUN
 du	du	ADP_DET
-Second	second	ADJ
+second	second	ADJ
 Faust	Faust	PROPN
 —	—	PUNCTclause
 sont	être	AUX
@@ -441,7 +441,7 @@ union	union	NOUN
 des	un	ADP_DET
 peuples	peuple	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 enthousiasme	enthousiasmer	VERB
 à	à	ADP
@@ -487,7 +487,7 @@ la	le	DET
 culture	culture	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Une	un	DET
+une	un	DET
 fois	fois	NOUN
 de plus	de plus	ADV
 ,	,	PUNCTclause
@@ -498,7 +498,7 @@ est	être	AUX
 survolé	survoler	VERB
 )	)	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 ne	ne	ADV
 se	se	PRON
@@ -511,7 +511,7 @@ les	le	DET
 deux	deux	NUM
 mondes	monde	NOUN
 .	.	PUNCTsent
-Tantôt	tantôt	ADV
+tantôt	tantôt	ADV
 ,	,	PUNCTclause
 il	il	PRON
 exprime	exprimer	VERB
@@ -533,7 +533,7 @@ cordialité	cordialité	NOUN
 ainsi	ainsi	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 l'on	on	PRON
 connaît	connaître	VERB
 ses	son	DET
@@ -544,7 +544,7 @@ l'	le	DET
 Amérique	Amérique	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 en même temps	en même temps	ADV
 il	il	PRON
 met	mettre	VERB
@@ -583,7 +583,7 @@ sur	sur	ADP
 pied	pied	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 se	se	PRON
 félicite	féliciter	VERB
@@ -616,7 +616,7 @@ tôt	tôt	ADV
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 ambivalence	ambivalence	NOUN
 de	de	ADP
 son	son	DET
@@ -633,7 +633,7 @@ donne	donner	VERB
 aux	au	ADP_DET
 personnages	personnage	NOUN
 des	un	ADP_DET
-Années	Années	PROPN
+années	année	UNKNOWN
 nomades	nomade	ADJ
 de	de	ADP
 Wilhelm	Wilhelm	PROPN
@@ -646,8 +646,8 @@ se	se	PRON
 embarquent	embarquer	VERB
 pour	pour	ADP
 le	le	DET
-Nouveau	nouveau	ADJ
-Monde	Monde	NOUN
+nouveau	nouveau	ADJ
+monde	monde	NOUN
 ,	,	PUNCTclause
 un	un	DET
 autre	autre	ADJ

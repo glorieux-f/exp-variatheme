@@ -6,14 +6,14 @@
 # title = Conférence de René Guisan « Sur le Saint » (2 février 1926)
 
 ↵↵	↵↵	PUNCTstruct
-Conférence	conférence	NOUN
+conférence	conférence	NOUN
 de	de	ADP
 René	René	PROPN
 Guisan	Guisan	PROPN
 «	«	PUNCTclause
-Sur	sur	ADP
+sur	sur	ADP
 le	le	DET
-Saint	Saint	PROPN
+saint	saint	UNKNOWN
 »	»	PUNCTclause
 (	(	PUNCTclause
 2	2	NUM
@@ -35,7 +35,7 @@ et	et	CCONJ
 directeur	directeur	NOUN
 de	de	ADP
 la	le	DET
-Revue	Revue	PROPN
+revue	revue	UNKNOWN
 de	de	ADP
 théologie	théologie	NOUN
 et	et	CCONJ
@@ -67,7 +67,7 @@ groupe	groupe	NOUN
 neuchâtelois	neuchâtelois	ADJ
 des	un	ADP_DET
 «	«	PUNCTclause
-Amis	Amis	NOUN
+amis	ami	NOUN
 de	de	ADP
 la	le	DET
 pensée	pensée	NOUN
@@ -98,7 +98,7 @@ la	le	DET
 notion	notion	NOUN
 de	de	ADP
 «	«	PUNCTclause
-Saint	Saint	PROPN
+saint	saint	UNKNOWN
 »	»	PUNCTclause
 et	et	CCONJ
 son	son	DET
@@ -109,10 +109,10 @@ des	un	ADP_DET
 siècles	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Primitivement	primitivement	ADV
+primitivement	primitivement	ADV
 ,	,	PUNCTclause
 le	le	DET
-Saint	Saint	PROPN
+saint	saint	UNKNOWN
 est	être	AUX
 un	un	DET
 homme	homme	NOUN
@@ -127,7 +127,7 @@ pour que	pour que	SCONJ
 il	il	PRON
 serve	servir	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 très	très	ADV
 vite	vite	ADV
 on	on	PRON
@@ -158,7 +158,7 @@ Jésus-Christ	Jésus-Christ	PROPN
 et	et	CCONJ
 dans	dans	ADP
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 persécutée	persécuter	VERB
 ,	,	PUNCTclause
 le	le	DET
@@ -171,7 +171,7 @@ de	de	ADP
 la	le	DET
 sainteté	sainteté	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 peuple	peuple	NOUN
 ,	,	PUNCTclause
 encore	encore	ADV
@@ -197,7 +197,7 @@ de	de	ADP
 dieux	dieu	NOUN
 protecteurs	protecteur	ADJ
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 croyance	croyance	NOUN
 se	se	PRON
 répand	répandre	VERB
@@ -210,7 +210,7 @@ dont	dont	PRON
 fait	faire	VERB
 preuve	preuve	NOUN
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 de	de	ADP
 alors	alors	ADV
 quand	quand	SCONJ
@@ -227,8 +227,8 @@ dogme	dogme	NOUN
 en	en	ADP
 formation	formation	NOUN
 .	.	PUNCTsent
-Au	au	ADP_DET
-Moyen-Âge	Moyen-Âge	NOUN
+au	au	ADP_DET
+moyen-âge	moyen-âge	NOUN
 l'	le	DET
 évolution	évolution	NOUN
 se	se	PRON
@@ -238,7 +238,7 @@ le	le	DET
 même	même	ADJ
 sens	sens	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 spécialise	spécialiser	VERB
 les	le	DET
 «	«	PUNCTclause
@@ -256,15 +256,15 @@ se	se	PRON
 multiplient	multiplier	VERB
 prodigieusement	prodigieusement	ADV
 .	.	PUNCTsent
-Alors	alors	ADV
+alors	alors	ADV
 éclate	éclater	VERB
 la	le	DET
 protestation	protestation	NOUN
 de	de	ADP
 la	le	DET
-Réforme	Réforme	NOUN
+réforme	réforme	NOUN
 .	.	PUNCTsent
-Honorons	honorer	VERB
+honorons	honorer	VERB
 les	le	DET
 saints	saint	NOUN
 pour	pour	ADP
@@ -295,7 +295,7 @@ cœur	cœur	NOUN
 du	du	ADP_DET
 croyant	croyant	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 centre	centre	NOUN
 de	de	ADP
 gravité	gravité	NOUN
@@ -306,22 +306,22 @@ en	en	ADP
 Jésus-Christ	Jésus-Christ	PROPN
 .	.	PUNCTsent
 —	—	PUNCTclause
-Comment	comment	ADV
+comment	comment	ADV
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 catholique	catholique	ADJ
 réagit	réagir	VERB
 elle	elle	PRON
 ?	?	PUNCTsent
-En	en	ADP
+en	en	ADP
 codifiant	codifier	VERB
 l'	le	DET
 état de choses	état de choses	NOUN
 antérieur	antérieur	ADJ
 .	.	PUNCTsent
-Donc	donc	ADV
+donc	donc	ADV
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 continue	continuer	VERB
 à	à	ADP
 faire	faire	VERB
@@ -342,13 +342,13 @@ pour	pour	ADP
 nous	nous	PRON
 protestants	protestant	ADJ
 .	.	PUNCTsent
-Est	être	VERB
+est	être	VERB
 ce	ce	PRON
 là	là	ADV
 nous	nous	PRON
 juger	juger	VERB
 ?	?	PUNCTsent
-Les	le	DET
+les	le	DET
 catholiques	catholique	NOUN
 nous	nous	PRON
 reprochent	reprocher	VERB
@@ -366,7 +366,7 @@ saints	saint	NOUN
 maintiennent	maintenir	VERB
 dans	dans	ADP
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 .	.	PUNCTsent
 M.	M.	PUNCT
 Guisan	Guisan	PROPN
@@ -381,7 +381,7 @@ de	de	DET
 telles	tel	PRON
 critiques	critique	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 est	être	AUX
 pour	pour	ADP
@@ -423,7 +423,7 @@ de	de	ADP
 sainteté	sainteté	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 mère	mère	NOUN
 qui	qui	PRON
 se	se	PRON
@@ -464,7 +464,7 @@ dans	dans	ADP
 le	le	DET
 protestantisme	protestantisme	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 ne	ne	ADV
 est	être	AUX
@@ -476,7 +476,7 @@ aux	au	ADP_DET
 de	de	ADP
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 sainteté	sainteté	NOUN
 parfaite	parfait	ADJ
 ne	ne	ADV
@@ -491,7 +491,7 @@ de	de	ADP
 la	le	DET
 vertu	vertu	NOUN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 ce	ce	DET
 sens	sens	NOUN
 ,	,	PUNCTclause
@@ -503,7 +503,7 @@ de	de	ADP
 saint	saint	NOUN
 véritable	véritable	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -517,7 +517,7 @@ faut	falloir	VERB
 être	être	AUX
 parfait	parfait	ADJ
 .	.	PUNCTsent
-Tel	tel	PRON
+tel	tel	PRON
 est	être	AUX
 l'	le	DET
 enseignement	enseignement	NOUN
@@ -536,7 +536,7 @@ le	le	DET
 protestantisme	protestantisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 place	place	NOUN
 nous	nous	PRON
 manque	manquer	VERB
@@ -582,7 +582,7 @@ que	que	SCONJ
 les siens	les siens	PRON
 propre	propre	ADJ
 .	.	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 donne	donner	VERB
 à	à	ADP
 ses	son	DET

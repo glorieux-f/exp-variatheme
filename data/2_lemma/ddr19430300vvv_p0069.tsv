@@ -6,14 +6,14 @@
 # title = Angérone (mars 1943)
 
 ↵↵	↵↵	PUNCTstruct
-Angérone	Angérone	PROPN
+Angérone	Angérone	NOUN
 (	(	PUNCTclause
 mars	mars	NOUN
 1943	1943	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Somnium	Somnium	PROPN
+Somnium	Somnium	NOUN
 narrare	narrare	ADJ
 vigilantis	vigilantis	VERB
 est	être	AUX
@@ -95,7 +95,7 @@ avarice	avarice	NOUN
 anxieuse	anxieux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 est	être	AUX
 une	un	DET
@@ -165,12 +165,12 @@ la	le	DET
 cour	cour	NOUN
 :	:	PUNCTclause
 le	le	DET
-Roi	Roi	NOUN
+roi	roi	NOUN
 se	se	PRON
 approche	approcher	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Toute	toute	DET
+toute	toute	DET
 éloquence	éloquence	NOUN
 est	être	AUX
 amoureuse	amoureux	ADJ
@@ -184,7 +184,7 @@ la	le_PRON	PRON
 rend	rendre	VERB
 fleurissante	fleurissant	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 l'	le	DET
 amour	amour	NOUN
 même	même	ADJ
@@ -193,7 +193,7 @@ chose	chose	NOUN
 du	du	ADP_DET
 silence	silence	NOUN
 .	.	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 dont	dont	PRON
 je	je	PRON
 ne	ne	ADV
@@ -215,7 +215,7 @@ enflamme	enflammer	VERB
 à	à	ADP
 parler	parler	VERB
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 être	être	AUX
@@ -245,8 +245,8 @@ vraiment	vraiment	ADV
 dite	dire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
-Fable	Fable	PROPN
+la	le	DET
+fable	fable	UNKNOWN
 nous	nous	PRON
 apprend	apprendre	VERB
 à	à	ADP
@@ -263,11 +263,11 @@ un	un	DET
 mutisme	mutisme	NOUN
 sacré	sacré	ADJ
 .	.	PUNCTsent
-Angérone	Angérone	PROPN
+Angérone	Angérone	NOUN
 ,	,	PUNCTclause
 déesse	déesse	NOUN
 du	du	ADP_DET
-Silence	Silence	PROPN
+silence	silence	UNKNOWN
 :	:	PUNCTclause
 on	on	PRON
 croit	croire	VERB
@@ -281,9 +281,9 @@ le	le	DET
 temple	temple	NOUN
 de	de	ADP
 la	le	DET
-Volupté	Volupté	PROPN
+volupté	volupté	UNKNOWN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 certains	certain	DET
 pensent	penser	VERB
 que	que	SCONJ
@@ -297,7 +297,7 @@ déesse	déesse	NOUN
 Volupie	Volupie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Promenons	promener	VERB
+promenons	promener	VERB
 nous	nous	PRON
 aux	au	ADP_DET
 alentours	alentour	NOUN
@@ -306,8 +306,8 @@ ce	ce	DET
 colloque	colloque	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
-Volupté	Volupté	PROPN
+la	le	DET
+volupté	volupté	UNKNOWN
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -329,7 +329,7 @@ de	de	ADP
 son	son	DET
 terme	terme	NOUN
 .	.	PUNCTsent
-Quand	quand	SCONJ
+quand	quand	SCONJ
 le	le	DET
 désir	désir	NOUN
 se	se	PRON
@@ -346,7 +346,7 @@ le	le	DET
 rende	rendre	VERB
 muet	muet	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 arrive	arriver	VERB
 même	même	ADV
 que	que	SCONJ
@@ -360,7 +360,7 @@ par	par	ADP
 ce	ce	DET
 mutisme	mutisme	NOUN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 tel	tel	DET
 point	point	NOUN
 que	que	SCONJ
@@ -385,7 +385,7 @@ esprit	esprit	NOUN
 se	se	PRON
 libère	libérer	VERB
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 volupté	volupté	NOUN
 serait	être	AUX
 un	un	DET
@@ -437,7 +437,7 @@ chez	chez	ADP
 l'autre	l'autre	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Que	que	SCONJ
+que	que	SCONJ
 cette	ce	DET
 hypnose	hypnose	NOUN
 soit	être	AUX
@@ -518,7 +518,7 @@ aimer	aimer	VERB
 que	que	SCONJ
 indéfiniment	indéfiniment	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 aime	aimer	VERB
 que	que	ADV
@@ -536,7 +536,7 @@ des	un	DET
 yeux	œil	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Certaines	certain	DET
+certaines	certain	DET
 heures	heure	NOUN
 ,	,	PUNCTclause
 soirs	soir	NOUN
@@ -583,7 +583,7 @@ comparable	comparable	ADJ
 au	au	ADP_DET
 vertige	vertige	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 jugement	jugement	NOUN
 peut	pouvoir	VERB
 rester	rester	VERB
@@ -606,7 +606,7 @@ le	le	DET
 regard	regard	NOUN
 unique	unique	ADJ
 .	.	PUNCTsent
-Durant	durant	ADP
+durant	durant	ADP
 certaines	certain	DET
 secondes	second	NOUN
 ,	,	PUNCTclause
@@ -629,7 +629,7 @@ elle	elle	PRON
 se	se	PRON
 penche	pencher	VERB
 …	…	PUNCTsent
-Maintenant	maintenant	ADV
+maintenant	maintenant	ADV
 un	un	DET
 seul	seul	ADJ
 œil	œil	NOUN
@@ -681,7 +681,7 @@ de	de	ADP
 l'	le	DET
 angoisse	angoisse	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 l'un	l'un	PRON
 se	se	PRON
 écarte	écarter	VERB
@@ -696,7 +696,7 @@ comme	comme	ADP
 hors de	hors de	ADP
 eux-mêmes	eux-mêmes	PRON
 .	.	PUNCTsent
-Alors	alors	ADV
+alors	alors	ADV
 il	il	PRON
 lui	lui	PRON
 saisit	saisir	VERB
@@ -710,7 +710,7 @@ et	et	CCONJ
 la	le	DET
 contemple	contempler	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 la	le_PRON	PRON
 nomme	nommer	VERB
@@ -723,10 +723,10 @@ si	si	SCONJ
 il	il	PRON
 doutait	douter	VERB
 …	…	PUNCTsent
-Adolescence	adolescence	NOUN
+adolescence	adolescence	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 charme	charme	NOUN
 du	du	ADP_DET
 désir	désir	NOUN
@@ -743,7 +743,7 @@ le	le	DET
 terme	terme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Tu	tu	PRON
+tu	tu	PRON
 ne	ne	ADV
 entends	entendre	VERB
 que	que	ADV
@@ -752,7 +752,7 @@ qui	qui	PRON
 se	se	PRON
 interrompt	interrompre	VERB
 .	.	PUNCTsent
-Tu	tu	PRON
+tu	tu	PRON
 ne	ne	ADV
 sais	savoir	VERB
 rien	rien	PRON
@@ -761,7 +761,7 @@ tu	tu	PRON
 ne	ne	ADV
 perdes	perdre	VERB
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
@@ -779,13 +779,13 @@ connaissance	connaissance	NOUN
 du	du	ADP_DET
 présent	présent	ADJ
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 cette	ce	DET
 connaissance	connaissance	NOUN
 est	être	AUX
 interdite	interdit	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 l'	le	DET
@@ -815,7 +815,7 @@ effroi	effroi	NOUN
 mortel	mortel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 le	le	DET
 silence	silence	NOUN
 du	du	ADP_DET
@@ -834,7 +834,7 @@ affrontées	affronter	VERB
 et	et	CCONJ
 hostiles	hostile	ADJ
 .	.	PUNCTsent
-Maintenant	maintenant	ADV
+maintenant	maintenant	ADV
 ,	,	PUNCTclause
 l'	le	DET
 onde	onde	NOUN
@@ -848,7 +848,7 @@ nouveau	nouveau	ADJ
 nous	nous	PRON
 environne	environner	VERB
 .	.	PUNCTsent
-Ceux	ceux	PRON
+ceux	ceux	PRON
 qui	qui	PRON
 ne	ne	ADV
 aiment	aimer	VERB
@@ -870,13 +870,13 @@ minute	minute	NOUN
 du	du	ADP_DET
 plaisir	plaisir	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 fuient	fuir	VERB
 ,	,	PUNCTclause
 bavardent	bavarder	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Tristesse	tristesse	NOUN
+tristesse	tristesse	NOUN
 platonicienne	platonicien	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -907,7 +907,7 @@ de	de	ADP
 l'	le	DET
 inaccessible	inaccessible	ADJ
 .	.	PUNCTsent
-Atteintes	atteint	ADJ
+atteintes	atteint	ADJ
 enfin	enfin	ADV
 les	le	DET
 limites	limite	NOUN
@@ -942,12 +942,12 @@ votre	votre	DET
 union	union	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ô	ô	INTJ
+ô	ô	INTJ
 silence	silence	NOUN
 des	un	ADP_DET
 astres	astre	NOUN
 !	!	PUNCTsent
-Fondues	fondre	VERB
+fondues	fondre	VERB
 nos	nos	DET
 âmes	âme	NOUN
 ?	?	PUNCTsent
@@ -971,7 +971,7 @@ où	où	PRON
 se	se	PRON
 prendre	prendre	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 ramène	ramener	VERB
 en soi	en soi	ADV
@@ -982,7 +982,7 @@ en	en	ADP
 ses	son	DET
 ombres	ombre	NOUN
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 passent	passer	VERB
 les	le	DET
 heures	heure	NOUN
@@ -1002,7 +1002,7 @@ les	le	DET
 métamorphoses	métamorphose	NOUN
 indicibles	indicible	ADJ
 .	.	PUNCTsent
-Lui	lui	PRON
+lui	lui	PRON
 se	se	PRON
 éveille	éveiller	VERB
 parfois	parfois	ADV
@@ -1018,16 +1018,16 @@ le	le	DET
 noir	noir	NOUN
 imaginent	imaginer	VERB
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 étreinte	étreinte	NOUN
 qui	qui	PRON
 se	se	PRON
 égalerait	égaler	VERB
 à	à	ADP
 l'	le	DET
-Infini	Infini	PROPN
+infini	infini	UNKNOWN
 .	.	PUNCTsent
-Se	se	PRON
+se	se	PRON
 fondre	fondre	VERB
 en	en	ADP
 un	un	DET
@@ -1057,7 +1057,7 @@ aime	aimer	VERB
 les	le	DET
 possède	posséder	VERB
 !	!	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 par	par	ADP
 une	un	DET
 suite	suite	NOUN
@@ -1085,7 +1085,7 @@ désespérément	désespérément	ADV
 consciente	conscient	ADJ
 de	de	ADP
 l'	le	DET
-Être	Être	NOUN
+être	être	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -1106,7 +1106,7 @@ de	de	ADP
 un	un	DET
 regard	regard	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 corps	corps	NOUN
 auprès	auprès	ADV
 du	du	ADP_DET
@@ -1120,7 +1120,7 @@ l'	le	DET
 incommensurable	incommensurable	ADJ
 nuit	nuit	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 ne	ne	ADV
 irons	aller	VERB
 pas	pas	ADV
@@ -1128,7 +1128,7 @@ au-delà	au-delà	ADV
 de	de	ADP
 nous-mêmes	nous-mêmes	PRON
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 dans	dans	ADP
 cette	ce	DET
 défaite	défaite	NOUN
@@ -1149,7 +1149,7 @@ nous	nous	PRON
 chercherons	chercher	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Au	au	ADP_DET
+au	au	ADP_DET
 terme	terme	NOUN
 de	de	ADP
 la	le	DET
@@ -1164,7 +1164,7 @@ un	un	DET
 impossible	impossible	ADJ
 fascinant	fascinant	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 nous	nous	PRON
 vivrons	vivre	VERB
 dès lors	dès lors	ADV
@@ -1189,7 +1189,7 @@ et	et	CCONJ
 la	le	DET
 douleur	douleur	NOUN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 le	le	DET
 vertige	vertige	NOUN
 de	de	ADP
@@ -1230,7 +1230,7 @@ il	il	PRON
 naît	naître	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Tout	tout	PRON
+tout	tout	PRON
 notre	notre	DET
 platonisme	platonisme	NOUN
 échoue	échouer	VERB
@@ -1242,7 +1242,7 @@ l'	le	DET
 étreinte	étreinte	NOUN
 dénouée	dénouer	VERB
 .	.	PUNCTsent
-Alors	alors	ADV
+alors	alors	ADV
 l'	le	DET
 amour	amour	NOUN
 ,	,	PUNCTclause
@@ -1253,7 +1253,7 @@ change	changer	VERB
 de	de	DET
 signe	signe	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 voit	voir	VERB
 soudain	soudain	ADJ
 que	que	SCONJ
@@ -1285,7 +1285,7 @@ arrachés	arracher	VERB
 retirés	retirer	VERB
 en soi	en soi	ADV
 .	.	PUNCTsent
-Alors	alors	ADV
+alors	alors	ADV
 paraissent	paraître	VERB
 la	le	DET
 conscience	conscience	NOUN
@@ -1302,12 +1302,12 @@ vies	vie	NOUN
 au	au	ADP_DET
 jour	jour	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 sommes	être	AUX
 deux	deux	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -1345,7 +1345,7 @@ la	le	DET
 parole	parole	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 négation	négation	NOUN
 du	du	ADP_DET
 désir	désir	NOUN
@@ -1374,7 +1374,7 @@ que	que	SCONJ
 nous	nous	PRON
 souffrons	souffrir	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 désir	désir	NOUN
 divinise	diviniser	VERB
 ,	,	PUNCTclause
@@ -1401,7 +1401,7 @@ tâche	tâche	NOUN
 sérieuse	sérieux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Quittons	quitter	VERB
+quittons	quitter	VERB
 ce	ce	DET
 temple	temple	NOUN
 où	où	PRON
@@ -1414,5 +1414,5 @@ parlons	parler	VERB
 le	le	DET
 langage	langage	NOUN
 du	du	ADP_DET
-Jour	Jour	NOUN
+jour	jour	NOUN
 .	.	PUNCTsent

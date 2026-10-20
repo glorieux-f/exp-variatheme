@@ -6,15 +6,15 @@
 # title = "La sculpture : Alberto Giacometti"
 
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 sculpture	sculpture	NOUN
 :	:	PUNCTclause
 Alberto	Alberto	PROPN
 Giacometti	Giacometti	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
-Grisons	Grisons	PROPN
+les	le	DET
+grisons	grison	UNKNOWN
 ont	avoir	AUX
 eu	avoir	VERB
 trois	trois	NUM
@@ -54,7 +54,7 @@ du	du	ADP_DET
 pays	pays	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Alberto	Alberto	PROPN
+Alberto	Alberto	NOUN
 Giacometti	Giacometti	PROPN
 est	être	AUX
 le	le	DET
@@ -62,7 +62,7 @@ fils	fils	NOUN
 de	de	ADP
 Giovanni	Giovanni	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 né	naître	VERB
 dans	dans	ADP
@@ -80,7 +80,7 @@ vieux	vieux	ADJ
 village	village	NOUN
 préromain	préromain	ADJ
 du	du	ADP_DET
-Val	Val	PROPN
+val	val	UNKNOWN
 Bregaglia	Bregaglia	PROPN
 ,	,	PUNCTclause
 traversé	traverser	VERB
@@ -99,7 +99,7 @@ et	et	CCONJ
 Sils-Maria	Sils-Maria	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Tout	tout	PRON
+tout	tout	PRON
 près de	près de	ADP
 là	là	ADV
 ,	,	PUNCTclause
@@ -151,14 +151,14 @@ maison	maison	NOUN
 voisine	voisin	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
-Ici	ici	ADV
+ici	ici	ADV
 est	être	AUX
 né	naître	VERB
 Augusto	Augusto	PROPN
 Giacometti	Giacometti	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Un	un	DET
+un	un	DET
 petit	petit	ADJ
 enfant	enfant	NOUN
 ,	,	PUNCTclause
@@ -178,13 +178,13 @@ un	un	DET
 pré	pré	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Où	où	PRON
+où	où	PRON
 est	être	AUX
 ta	ton	DET
 mère	mère	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
-Il	il	PRON
+il	il	PRON
 court	courir	VERB
 à	à	ADP
 une	un	DET
@@ -200,7 +200,7 @@ nous	nous	PRON
 répond	répondre	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 Alberto	Alberto	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -214,7 +214,7 @@ poste	poste	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 l'	le_PRON	PRON
 avons	avoir	AUX
 surpris	surprendre	VERB
@@ -231,7 +231,7 @@ de	de	ADP
 terre	terre	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Comment	comment	ADV
+comment	comment	ADV
 donner	donner	VERB
 à	à	ADP
 cette	ce	DET
@@ -240,7 +240,7 @@ son	son	DET
 volume	volume	NOUN
 normal	normal	ADJ
 ?	?	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 à	à	ADP
 faire	faire	VERB
 ,	,	PUNCTclause
@@ -251,9 +251,9 @@ et	et	CCONJ
 se	se	PRON
 amincit	amincir	VERB
 .	.	PUNCTsent
-Pourquoi	pourquoi	ADV
+pourquoi	pourquoi	ADV
 ?	?	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 comprends	comprendre	VERB
 pas	pas	ADV
@@ -267,7 +267,7 @@ moi	moi	PRON
 …	…	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 admirons	admirer	VERB
 un	un	DET
 portrait	portrait	NOUN
@@ -288,7 +288,7 @@ plaque	plaque	NOUN
 absolument	absolument	ADV
 plane	plan	ADJ
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 tête	tête	NOUN
 de	de	ADP
 sa	son	DET
@@ -321,7 +321,7 @@ vie	vie	NOUN
 de	de	ADP
 tendresse	tendresse	NOUN
 .	.	PUNCTsent
-Puis	puis	CCONJ
+puis	puis	CCONJ
 le	le	DET
 «	«	PUNCTclause
 souvenir	souvenir	NOUN
@@ -377,7 +377,7 @@ sans	sans	ADP
 épaisseur	épaisseur	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Je	je	PRON
+je	je	PRON
 voudrais	vouloir	VERB
 arriver	arriver	VERB
 à	à	ADP
@@ -389,7 +389,7 @@ ouvertes	ouvert	ADJ
 qui	qui	PRON
 changent	changer	VERB
 …	…	PUNCTsent
-Comment	comment	ADV
+comment	comment	ADV
 trouver	trouver	VERB
 le	le	DET
 point	point	NOUN
@@ -443,7 +443,7 @@ traits	trait	NOUN
 profonds	profond	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 la	le	DET
 terrasse	terrasse	NOUN
 de	de	ADP
@@ -463,7 +463,7 @@ parle	parler	VERB
 du	du	ADP_DET
 pays	pays	NOUN
 de	de	ADP
-Appenzell	Appenzell	PROPN
+appenzell	appenzell	UNKNOWN
 où	où	PRON
 il	il	PRON
 a	avoir	AUX
@@ -504,7 +504,7 @@ des	un	ADP_DET
 pays	pays	NOUN
 suisses	suisse	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 passé	passer	VERB
 les	le	DET
@@ -524,14 +524,14 @@ internat	internat	NOUN
 puis	puis	CCONJ
 Paris	Paris	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 revient	revenir	VERB
 souvent	souvent	ADV
 ici	ici	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Clocher	clocher	NOUN
+clocher	clocher	NOUN
 très	très	ADV
 aigu	aigu	ADJ
 de	de	ADP
@@ -570,14 +570,14 @@ la	le	DET
 Sciora	Sciora	PROPN
 .	.	PUNCTsent
 «	«	PUNCTclause
-On	on	PRON
+on	on	PRON
 dirait	dire	VERB
 des	un	DET
 formations	formation	NOUN
 volcaniques	volcanique	ADJ
 ?	?	PUNCTsent
 —	—	PUNCTclause
-Oui	oui	INTJ
+oui	oui	INTJ
 ,	,	PUNCTclause
 ils	ils	PRON
 sont	être	AUX
@@ -591,7 +591,7 @@ la	le	DET
 dernière	dernier	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
-Son	son	DET
+son	son	DET
 père	père	NOUN
 le	le_PRON	PRON
 conduisait	conduire	VERB
@@ -612,7 +612,7 @@ vers	vers	ADP
 le	le	DET
 haut	haut	NOUN
 …	…	PUNCTsent
-Émotion	émotion	NOUN
+émotion	émotion	NOUN
 de	de	ADP
 pressentir	pressentir	VERB
 derrière	derrière	ADP
@@ -643,7 +643,7 @@ violence	violence	NOUN
 formatrice	formateur	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 connaît	connaître	VERB
 moins	moins	ADV
 dans	dans	ADP
@@ -667,12 +667,12 @@ abstraites	abstrait	ADJ
 jalonnaient	jalonner	VERB
 la	le	DET
 «	«	PUNCTclause
-Voie	Voie	NOUN
+voie	voie	NOUN
 suisse	suisse	ADJ
 »	»	PUNCTclause
 de	de	ADP
 l'	le	DET
-Exposition	Exposition	NOUN
+exposition	exposition	NOUN
 nationale	national	ADJ
 de	de	ADP
 Lausanne	Lausanne	PROPN
@@ -776,7 +776,7 @@ musée	musée	NOUN
 de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 ces	ce	DET
 charmantes	charmant	ADJ
 poupées	poupée	NOUN
@@ -821,7 +821,7 @@ chaque	chaque	DET
 visite	visite	NOUN
 guidée	guider	VERB
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 enfants	enfant	NOUN
 des	un	ADP_DET
 écoles	école	NOUN
@@ -832,7 +832,7 @@ ces	ce	DET
 bons	bon	ADJ
 élèves	élève	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 seraient	être	AUX
 sans doute	sans doute	ADV
 fascinés	fasciner	VERB
@@ -844,7 +844,7 @@ destructions	destruction	NOUN
 de	de	ADP
 Tinguely	Tinguely	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 l'	le	DET
 énorme	énorme	ADJ
 machine	machine	NOUN
@@ -857,7 +857,7 @@ a	avoir	AUX
 montée	monter	VERB
 pour	pour	ADP
 l'	le	DET
-Exposition	Exposition	NOUN
+exposition	exposition	NOUN
 nationale	national	ADJ
 de	de	ADP
 1964	1964	NUM
@@ -876,7 +876,7 @@ répétitive	répétitif	ADJ
 éperdument	éperdument	ADV
 coordonnée	coordonner	VERB
 .	.	PUNCTsent
-Métamécanique	Métamécanique	PROPN
+Métamécanique	Métamécanique	ADJ
 amusante	amusant	ADJ
 ,	,	PUNCTclause
 qui	qui	PRON

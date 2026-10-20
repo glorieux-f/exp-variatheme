@@ -6,8 +6,8 @@
 # title = "[Entretien] Visite à M. Denis de Rougemont, directeur du Centre européen de la culture (septembre 1954)"
 
 ↵↵	↵↵	PUNCTstruct
-Entretien	entretien	NOUN
-Visite	Visite	PROPN
+entretien	entretien	NOUN
+visite	visite	UNKNOWN
 à	à	ADP
 M.	M.	PROPN
 Denis	Denis	PROPN
@@ -16,7 +16,7 @@ Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
 directeur	directeur	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -27,7 +27,7 @@ septembre	septembre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Interrogé	interroger	VERB
+interrogé	interroger	VERB
 sur	sur	ADP
 le	le	DET
 sens	sens	NOUN
@@ -47,8 +47,8 @@ nous	nous	PRON
 répond	répondre	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-T.	T.	PROPN
-S.	S.	PROPN
+T.	T.	NOUN
+S.	S.	X
 Eliot	Eliot	PROPN
 l'	le_PRON	PRON
 a	avoir	AUX
@@ -75,7 +75,7 @@ de	de	ADP
 être	être	AUX
 vécue	vivre	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 centre	centre	NOUN
 a	avoir	AUX
 créé	créer	VERB
@@ -111,7 +111,7 @@ histoire	histoire	NOUN
 enseignement	enseignement	NOUN
 ,	,	PUNCTclause
 etc.	etc.	NOUN
-Nous	nous	PRON
+nous	nous	PRON
 encourageons	encourager	VERB
 également	également	ADV
 les	le	DET
@@ -123,7 +123,7 @@ les	le	DET
 intra-européens	intra-européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pourtant	pourtant	ADV
+pourtant	pourtant	ADV
 l'	le	DET
 UNESCO	UNESCO	PROPN
 couvre	couvrir	VERB
@@ -136,13 +136,13 @@ de	de	ADP
 nécessité	nécessité	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 voulant	vouloir	VERB
 rester	rester	VERB
 européen	européen	ADJ
 ,	,	PUNCTclause
 notre	notre	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 ne	ne	ADV
 fera	faire	VERB
 pas	pas	ADV
@@ -192,7 +192,7 @@ sentiment	sentiment	NOUN
 européen	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Avez	avoir	AUX
+avez	avoir	AUX
 vous	vous	PRON
 également	également	ADV
 une	un	DET
@@ -201,7 +201,7 @@ politique	politique	ADJ
 ou	ou	CCONJ
 économique	économique	ADJ
 ?	?	PUNCTsent
-Quand	quand	SCONJ
+quand	quand	SCONJ
 on	on	PRON
 dit	dire	VERB
 «	«	PUNCTclause
@@ -209,7 +209,7 @@ Europe	Europe	PROPN
 »	»	PUNCTclause
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 cherchons	chercher	VERB
 naturellement	naturellement	ADV
 à	à	ADP
@@ -229,7 +229,7 @@ dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 peut	pouvoir	VERB
 appeler	appeler	VERB
 cela	cela	PRON
@@ -241,13 +241,13 @@ cela	cela	PRON
 éducation	éducation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Parmi	parmi	ADP
+parmi	parmi	ADP
 les	le	DET
 organismes	organisme	NOUN
 créés	créer	VERB
 par	par	ADP
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -259,7 +259,7 @@ de	de	ADP
 relever	relever	VERB
 :	:	PUNCTclause
 l'	le	DET
-Association	Association	NOUN
+association	association	NOUN
 des	un	ADP_DET
 instituts	institut	NOUN
 de	de	ADP
@@ -275,21 +275,21 @@ assemblée générale	assemblée générale	NOUN
 Turin	Turin	PROPN
 ,	,	PUNCTclause
 le	le	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 européen	européen	ADJ
 de	de	ADP
 éducation	éducation	NOUN
 populaire	populaire	ADJ
 ,	,	PUNCTclause
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 recherches	recherche	NOUN
 nucléaires	nucléaire	ADJ
 ,	,	PUNCTclause
 l'	le	DET
-Association	Association	NOUN
+association	association	NOUN
 européenne	européen	ADJ
 des	un	ADP_DET
 festivals	festival	NOUN
@@ -297,7 +297,7 @@ de	de	ADP
 musique	musique	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Communauté	Communauté	NOUN
+communauté	communauté	NOUN
 européenne	européen	ADJ
 des	un	ADP_DET
 guildes	guilde	NOUN
@@ -305,20 +305,20 @@ du	du	ADP_DET
 livre	livre	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-Association	Association	NOUN
+association	association	NOUN
 européenne	européen	ADJ
 du	du	ADP_DET
 disque	disque	NOUN
 ,	,	PUNCTclause
 les	le	DET
-Agences	Agences	NOUN
+agences	agence	NOUN
 de	de	ADP
 presse	presse	NOUN
 européennes	européen	ADJ
 associées	associer	VERB
 ,	,	PUNCTclause
 etc.	etc.	NOUN
-Pour	pour	ADP
+pour	pour	ADP
 éviter	éviter	VERB
 une	un	DET
 nouvelle	nouveau	ADJ
@@ -332,7 +332,7 @@ les	le	DET
 récentes	récent	ADJ
 initiatives	initiative	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 ,	,	PUNCTclause
 une	un	DET
 Conférence internationale	Conférence internationale	NOUN
@@ -361,7 +361,7 @@ siècle	siècle	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 un	un	DET
-Prix	Prix	NOUN
+prix	prix	NOUN
 de	de	ADP
 littérature	littérature	NOUN
 européenne	européen	ADJ

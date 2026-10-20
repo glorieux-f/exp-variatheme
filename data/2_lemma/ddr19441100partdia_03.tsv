@@ -7,19 +7,19 @@
 # title = Première partie. L’Incognito et la Révélation
 
 ↵↵	↵↵	PUNCTstruct
-Première	premier	ADJ
+première	premier	ADJ
 partie	partie	NOUN
 .	.	PUNCTsent
 l'	le	DET
-Incognito	Incognito	PROPN
+incognito	incognito	UNKNOWN
 et	et	CCONJ
 la	le	DET
-Révélation	Révélation	NOUN
+révélation	révélation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 premier	premier	ADJ
 tour	tour	NOUN
 .	.	PUNCTsent
@@ -28,8 +28,8 @@ ce	ce	PRON
 est	être	AUX
 dans	dans	ADP
 les	le	DET
-Petits	petit	ADJ
-Poèmes	Poèmes	NOUN
+petits	petit	ADJ
+poèmes	poème	NOUN
 en	en	ADP
 prose	prose	NOUN
 de	de	ADP
@@ -51,7 +51,7 @@ sur	sur	ADP
 Satan	Satan	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 plus	plus	ADV
 belle	beau	ADJ
 ruse	ruse	NOUN
@@ -71,10 +71,10 @@ pas	pas	ADV
 2	2	NUM
 .	.	PUNCTsent
 l'	le	DET
-Incognito	incognito	X
+incognito	incognito	X
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Reconnaissons	reconnaître	VERB
+reconnaissons	reconnaître	VERB
 que	que	SCONJ
 ce	ce	DET
 tour	tour	NOUN
@@ -132,7 +132,7 @@ un	un	DET
 livre	livre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 premier	premier	ADJ
 tour	tour	NOUN
 du	du	ADP_DET
@@ -146,14 +146,14 @@ Dieu	Dieu	PROPN
 dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Je	je	PRON
+je	je	PRON
 suis	être	AUX
 celui	celui	PRON
 qui	qui	PRON
 suis	être	AUX
 »	»	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le_PRON	PRON
 diable	diable	NOUN
 toujours	toujours	ADV
@@ -177,13 +177,13 @@ dit	dire	VERB
 comme	comme	ADP
 Ulysse	Ulysse	PROPN
 au	au	ADP_DET
-Cyclope	Cyclope	PROPN
+cyclope	cyclope	UNKNOWN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 nomme	nommer	VERB
-Personne	Personne	PROPN
+personne	personne_PRON	UNKNOWN
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -191,13 +191,13 @@ y	y	PRON
 a	avoir	AUX
 personne	personne_PRON	PRON
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 qui	qui	PRON
 aurais	avoir	VERB
 tu	tu	PRON
 peur	peur	NOUN
 ?	?	PUNCTsent
-Vas	aller	VERB
+vas	aller	VERB
 tu	tu	PRON
 trembler	trembler	VERB
 devant	devant	ADP
@@ -206,7 +206,7 @@ inexistant	inexistant	ADJ
 ?	?	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 Angleterre	Angleterre	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
@@ -226,7 +226,7 @@ et	et	CCONJ
 de	de	ADP
 Bosch	Bosch	PROPN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 représentait	représenter	VERB
 un	un	DET
 personnage	personnage	NOUN
@@ -248,7 +248,7 @@ corps	corps	NOUN
 restait	rester	VERB
 invisible	invisible	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 le	le	DET
 titre	titre	NOUN
 était	être	AUX
@@ -256,7 +256,7 @@ titre	titre	NOUN
 No-body	No-body	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comme	comme	ADP
+comme	comme	ADP
 le	le	DET
 chat	chat	NOUN
 de	de	ADP
@@ -292,10 +292,10 @@ gens	gens	NOUN
 pressés	pressé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cependant	cependant	ADV
+cependant	cependant	ADV
 ,	,	PUNCTclause
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 dénonce	dénoncer	VERB
 l'	le	DET
 existence	existence	NOUN
@@ -387,8 +387,8 @@ siècles	siècle	NOUN
 des	un	ADP_DET
 siècles	siècle	NOUN
 .	.	PUNCTsent
-La	le	DET
-Bible	Bible	NOUN
+la	le	DET
+bible	bible	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
 ce	ce	PRON
@@ -407,7 +407,7 @@ mal	mal	NOUN
 en général	en général	ADV
 que	que	SCONJ
 du	du	ADP_DET
-Malin	Malin	PROPN
+malin	malin	UNKNOWN
 personnifié	personnifier	VERB
 (	(	PUNCTclause
 tout	tout	PRON
@@ -418,7 +418,7 @@ textes	texte	NOUN
 originaux	original	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 l'on	on	PRON
 croit	croire	VERB
 à	à	ADP
@@ -426,7 +426,7 @@ la	le	DET
 vérité	vérité	NOUN
 de	de	ADP
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -443,13 +443,13 @@ du	du	ADP_DET
 diable	diable	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 qui	qui	PRON
 croit	croire	VERB
 encore	encore	ADV
 à	à	ADP
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 ,	,	PUNCTclause
 sérieusement	sérieusement	ADV
 ,	,	PUNCTclause
@@ -531,29 +531,29 @@ incrédulité	incrédulité	NOUN
 :	:	PUNCTclause
 —	—	PUNCTclause
 «	«	PUNCTclause
-Vous	vous	PRON
+vous	vous	PRON
 croyez	croire	VERB
 donc	donc	ADV
 au	au	ADP_DET
 diable	diable	NOUN
 ?	?	PUNCTsent
-Auquel	auquel	ADP_PRON
+auquel	auquel	ADP_PRON
 ?	?	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 du	du	ADP_DET
-Moyen-Âge	Moyen-Âge	NOUN
+moyen-âge	moyen-âge	NOUN
 avec	avec	ADP
 ses	son	DET
 cornes	corne	NOUN
 rouges	rouge	ADJ
 ?	?	PUNCTsent
-Ou	ou	CCONJ
+ou	ou	CCONJ
 un	un	DET
 vrai	vrai	ADJ
 diable	diable	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
-Ces	ce	DET
+ces	ce	DET
 questions	question	NOUN
 sont	être	AUX
 inévitables	inévitable	ADJ
@@ -561,7 +561,7 @@ inévitables	inévitable	ADJ
 notre	notre	DET
 époque	époque	NOUN
 .	.	PUNCTsent
-Elles	elles	PRON
+elles	elles	PRON
 traduisent	traduire	VERB
 fort	fort	ADV
 exactement	exactement	ADV
@@ -573,7 +573,7 @@ les	le	DET
 plus	plus	ADV
 courantes	courant	ADJ
 .	.	PUNCTsent
-Négliger	négliger	VERB
+négliger	négliger	VERB
 de	de	ADP
 y	y	PRON
 répondre	répondre	VERB
@@ -592,7 +592,7 @@ quiproquo	quiproquo	NOUN
 ↵↵	↵↵	PUNCTstruct
 3	3	NUM
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 ceux	ceux	PRON
 qui	qui	PRON
 ne	ne	ADV
@@ -603,7 +603,7 @@ la	le	DET
 queue	queue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Abordons	aborder	VERB
+abordons	aborder	VERB
 la	le	DET
 difficulté	difficulté	NOUN
 par	par	ADP
@@ -626,7 +626,7 @@ apparences	apparence	NOUN
 naïves	naïf	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 nous	nous	PRON
 dit	dire	VERB
 «	«	PUNCTclause
@@ -642,7 +642,7 @@ vieillard	vieillard	NOUN
 barbe	barbe	NOUN
 blanche	blanc	ADJ
 ,	,	PUNCTclause
-Père	père	ADJ
+père	père	ADJ
 éternel	éternel	ADJ
 de	de	ADP
 Michel-Ange	Michel-Ange	PROPN
@@ -654,7 +654,7 @@ de	de	ADP
 la	le	DET
 Sixtine	Sixtine	PROPN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 nous	nous	PRON
 dit	dire	VERB
 «	«	PUNCTclause
@@ -681,7 +681,7 @@ plus	plus	ADV
 mauvaises	mauvais	ADJ
 intentions	intention	NOUN
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 réflexes	réflexe	NOUN
 de	de	ADP
 optique	optique	NOUN
@@ -697,7 +697,7 @@ sur	sur	ADP
 son	son	DET
 existence	existence	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 chose	chose	NOUN
 curieuse	curieux	ADJ
 ,	,	PUNCTclause
@@ -724,7 +724,7 @@ mystères	mystère	NOUN
 médiévaux	médiéval	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Supposons	supposer	VERB
+supposons	supposer	VERB
 un	un	DET
 instant	instant	NOUN
 que	que	SCONJ
@@ -739,7 +739,7 @@ prémédité	préméditer	VERB
 du	du	ADP_DET
 diable	diable	NOUN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 première	premier	ADJ
 vue	vue	NOUN
 ,	,	PUNCTclause
@@ -762,7 +762,7 @@ sa	son	DET
 propre	propre	ADJ
 image	image	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 choisit	choisir	VERB
 de	de	ADP
 revêtir	revêtir	VERB
@@ -784,7 +784,7 @@ des	un	ADP_DET
 personnes	personne	NOUN
 instruites	instruire	VERB
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 si	si	SCONJ
 le	le	DET
 diable	diable	NOUN
@@ -836,7 +836,7 @@ croit	croire	VERB
 pas	pas	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 ,	,	PUNCTclause
 par	par	ADP
 un	un	DET
@@ -889,7 +889,7 @@ des	un	DET
 siècles	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 mascarade	mascarade	NOUN
 anachronique	anachronique	ADJ
 et	et	CCONJ
@@ -909,13 +909,13 @@ que	que	SCONJ
 dénonce	dénoncer	VERB
 Baudelaire	Baudelaire	PROPN
 .	.	PUNCTsent
-Beaucoup	beaucoup	ADV
+beaucoup	beaucoup	ADV
 se	se	PRON
 y	y	PRON
 arrêtent	arrêter	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Comment	comment	ADV
+comment	comment	ADV
 peut	pouvoir	VERB
 on	on	PRON
 perdre	perdre	VERB
@@ -931,7 +931,7 @@ autre	autre	ADJ
 ?	?	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Or	or	NOUN
+or	or	NOUN
 il	il	PRON
 me	me	PRON
 semble	sembler	VERB
@@ -946,7 +946,7 @@ laissent	laisser	VERB
 prendre	prendre	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Fascinés	fasciner	VERB
+fascinés	fasciner	VERB
 par	par	ADP
 l'	le	DET
 image	image	NOUN
@@ -978,7 +978,7 @@ mains	main	NOUN
 peut-être	peut-être	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 me	me	PRON
 paraît	paraître	VERB
@@ -1021,7 +1021,7 @@ les	le	DET
 victimes	victime	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 est	être	AUX
 un	un	DET
@@ -1068,7 +1068,7 @@ il	il	PRON
 demandait	demander	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 ceux	ceux	PRON
 qui	qui	PRON
 en	en	PRON
@@ -1110,12 +1110,12 @@ femmes	femme	NOUN
 ↵↵	↵↵	PUNCTstruct
 4	4	NUM
 .	.	PUNCTsent
-Réalité	réalité	NOUN
+réalité	réalité	NOUN
 du	du	ADP_DET
 mythe	mythe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 si	si	SCONJ
 nous	nous	PRON
 écartons	écarter	VERB
@@ -1127,13 +1127,13 @@ que	que	PRON
 trouverons	trouver	VERB
 nous	nous	PRON
 ?	?	PUNCTsent
-Un	un	DET
+un	un	DET
 mythe	mythe	NOUN
 ou	ou	CCONJ
 une	un	DET
 réalité	réalité	NOUN
 ?	?	PUNCTsent
-Derrière	derrière	ADP
+derrière	derrière	ADP
 l'	le	DET
 image	image	NOUN
 de	de	ADP
@@ -1160,7 +1160,7 @@ nos	nos	DET
 esprits	esprit	NOUN
 rationalo-matérialistes	rationalo-matérialistes	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 la	le	DET
 crois	croire	VERB
 mal	mal	NOUN
@@ -1182,7 +1182,7 @@ pose	poser	VERB
 nous	nous	PRON
 .	.	PUNCTsent
 (	(	PUNCTclause
-Ou	ou	CCONJ
+ou	ou	CCONJ
 que	que	SCONJ
 le	le	DET
 diable	diable	NOUN
@@ -1193,7 +1193,7 @@ pose	pose	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -1206,7 +1206,7 @@ dira	dire	VERB
 l'	le	DET
 historien	historien	NOUN
 .	.	PUNCTsent
-Preuve	preuve	NOUN
+preuve	preuve	NOUN
 en	en	PRON
 soit	soit	ADV
 que	que	SCONJ
@@ -1232,7 +1232,7 @@ de	de	ADP
 nos	nos	DET
 contemporains	contemporain	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 hommes	homme	NOUN
 ont	avoir	AUX
 créé	créer	VERB
@@ -1240,7 +1240,7 @@ ce	ce	DET
 fantôme	fantôme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 tout	tout	PRON
 d'abord	d'abord	ADV
 ,	,	PUNCTclause
@@ -1251,7 +1251,7 @@ une	un	DET
 invention	invention	NOUN
 juive	juif	ADJ
 .	.	PUNCTsent
-C'est-à-dire	c'est-à-dire	CCONJ
+c'est-à-dire	c'est-à-dire	CCONJ
 que	que	SCONJ
 le	le	DET
 diable	diable	NOUN
@@ -1270,7 +1270,7 @@ Panzerdivision	Panzerdivision	PROPN
 est	être	AUX
 allemande	allemand	ADJ
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -1281,10 +1281,10 @@ diable	diable	NOUN
 fut	être	AUX
 donnée	donner	VERB
 aux	au	ADP_DET
-Juifs	Juifs	NOUN
+juifs	juif	NOUN
 par	par	ADP
 l'	le	DET
-Orient	Orient	PROPN
+orient	orient	UNKNOWN
 et	et	CCONJ
 ses	son	DET
 mystères	mystère	NOUN
@@ -1297,7 +1297,7 @@ captif	captif	ADJ
 à	à	ADP
 Babylone	Babylone	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 sont	être	AUX
 les	le	DET
@@ -1331,7 +1331,7 @@ modèle	modèle	NOUN
 en	en	ADP
 Assyrie	Assyrie	PROPN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 les	le	DET
 rabbins	rabbin	NOUN
@@ -1375,7 +1375,7 @@ des	un	DET
 géants	géant	NOUN
 malfaisants	malfaisant	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 les	le	DET
 rabbins	rabbin	NOUN
@@ -1394,7 +1394,7 @@ Samaël	Samaël	PROPN
 ,	,	PUNCTclause
 Lucifer	Lucifer	PROPN
 ,	,	PUNCTclause
-Python	Python	PROPN
+python	python	UNKNOWN
 ,	,	PUNCTclause
 Asmodée	Asmodée	PROPN
 ,	,	PUNCTclause
@@ -1422,7 +1422,7 @@ en	en	ADP
 grec	grec	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-Accusateur	Accusateur	NOUN
+accusateur	accusateur	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 ennemi	ennemi	NOUN
@@ -1437,7 +1437,7 @@ au	au	ADP_DET
 serpent	serpent	NOUN
 de	de	ADP
 la	le	DET
-Genèse	Genèse	PROPN
+genèse	genèse	UNKNOWN
 .	.	PUNCTsent
 dès lors	dès lors	ADV
 ,	,	PUNCTclause
@@ -1454,7 +1454,7 @@ et	et	CCONJ
 de plus en plus	de plus en plus	ADV
 formidable	formidable	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 christianisme	christianisme	NOUN
 lui	lui	PRON
 donne	donner	VERB
@@ -1469,10 +1469,10 @@ vie	vie	NOUN
 de	de	ADP
 Jésus-Christ	Jésus-Christ	PROPN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 dans	dans	ADP
 l'	le	DET
-Apocalypse	Apocalypse	PROPN
+apocalypse	apocalypse	UNKNOWN
 il	il	PRON
 est	être	AUX
 autorisé	autoriser	VERB
@@ -1488,15 +1488,15 @@ chute	chute	NOUN
 grandiose	grandiose	ADJ
 dans	dans	ADP
 un	un	DET
-Enfer	Enfer	NOUN
+enfer	enfer	NOUN
 dont	dont	PRON
 encore	encore	ADV
 il	il	PRON
 reste	rester	VERB
 le	le	DET
-Roi	Roi	NOUN
+roi	roi	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 l'	le	DET
 an	an	NOUN
 547	547	NUM
@@ -1509,10 +1509,10 @@ le	le	DET
 déclare	déclarer	VERB
 éternel	éternel	ADJ
 .	.	PUNCTsent
-Pendant	pendant	ADP
+pendant	pendant	ADP
 tout	tout	DET
 le	le_PRON	PRON
-Moyen-Âge	Moyen-Âge	NOUN
+moyen-âge	moyen-âge	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 terrorise	terroriser	VERB
@@ -1523,7 +1523,7 @@ l'	le	DET
 Europe	Europe	PROPN
 christianisée	christianiser	VERB
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 moines	moine	NOUN
 font	faire	VERB
 autant	autant	ADV
@@ -1540,7 +1540,7 @@ pour	pour	ADP
 sa	son	DET
 naissance	naissance	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 lui	lui	PRON
 attribue	attribuer	VERB
 des	un	DET
@@ -1552,7 +1552,7 @@ et	et	CCONJ
 de	de	ADP
 diablotins	diablotin	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 lui	lui	PRON
 invente	inventer	VERB
 une	un	DET
@@ -1562,14 +1562,14 @@ des	un	DET
 messes	messe	NOUN
 noires	noir	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 lui	lui	PRON
 oppose	opposer	VERB
 des	un	DET
 tribunaux	tribunal	NOUN
 ,	,	PUNCTclause
 une	un	DET
-Chambre	Chambre	NOUN
+chambre	chambre	NOUN
 ardente	ardent	ADJ
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1605,20 +1605,20 @@ suggère	suggérer	VERB
 l'	le	DET
 obsession	obsession	NOUN
 des	un	ADP_DET
-Inquisiteurs	Inquisiteurs	NOUN
+inquisiteurs	inquisiteur	NOUN
 ou	ou	CCONJ
 des	un	DET
 magistrats	magistrat	NOUN
 puritains	puritain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 finit	finir	VERB
 cette	ce	DET
 névrose	névrose	NOUN
 collective	collectif	ADJ
 ?	?	PUNCTsent
-Non	non	ADV
+non	non	ADV
 par	par	ADP
 la	le	DET
 guérison	guérison	NOUN
@@ -1640,13 +1640,13 @@ par	par	ADP
 le	le	DET
 feu	feu	NOUN
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 siècle	siècle	NOUN
 des	un	ADP_DET
-Lumières	Lumières	NOUN
+lumières	lumière	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-Inquisition	Inquisition	NOUN
+inquisition	inquisition	NOUN
 se	se	PRON
 apaise	apaiser	VERB
 et	et	CCONJ
@@ -1660,7 +1660,7 @@ les	le	DET
 sorciers	sorcier	NOUN
 disparaissent	disparaître	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 bientôt	bientôt	ADV
 à	à	ADP
 leur	leur	DET
@@ -1682,7 +1682,7 @@ de	de	ADP
 une	un	DET
 procession	procession	NOUN
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 de plus	de plus	ADV
 clair	clair	ADJ
 que	que	SCONJ
@@ -1720,7 +1720,7 @@ morbide	morbide	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Tel	tel	PRON
+tel	tel	PRON
 est	être	AUX
 le	le	DET
 point de vue	point de vue	NOUN
@@ -1728,7 +1728,7 @@ de	de	ADP
 l'	le	DET
 historien	historien	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 exact	exact	ADJ
 tant	tant	ADV
@@ -1752,7 +1752,7 @@ de	de	ADP
 documents	document	NOUN
 écrits	écrit	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 est	être	AUX
 faux	faux	ADJ
@@ -1771,7 +1771,7 @@ réalité	réalité	NOUN
 du	du	ADP_DET
 diable	diable	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 tout	tout	ADJ
 cela	cela	PRON
 revient	revenir	VERB
@@ -1799,7 +1799,7 @@ me	me	PRON
 dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -1821,7 +1821,7 @@ je	je	PRON
 réponds	répondre	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 est	être	AUX
 un	un	DET
@@ -1847,7 +1847,7 @@ du	du	ADP_DET
 débat	débat	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 mythe	mythe	NOUN
 est	être	AUX
 une	un	DET
@@ -1869,7 +1869,7 @@ du	du	ADP_DET
 réel	réel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 parle	parler	VERB
 de	de	ADP
 structures	structure	NOUN
@@ -1890,7 +1890,7 @@ et	et	CCONJ
 l'	le	DET
 esprit	esprit	NOUN
 .	.	PUNCTsent
-Elles	elles	PRON
+elles	elles	PRON
 informent	informer	VERB
 notre	notre	DET
 univers	univers	NOUN
@@ -1902,7 +1902,7 @@ de	de	ADP
 sa	son	DET
 réalité	réalité	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 seulement	seulement	ADV
@@ -1950,7 +1950,7 @@ prévoir	prévoir	VERB
 leur	leur	DET
 développement	développement	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 mythes	mythe	NOUN
 sont	être	AUX
 les	le	DET
@@ -1969,24 +1969,24 @@ ces	ce	DET
 structures	structure	NOUN
 formatrices	formateur	ADJ
 —	—	PUNCTclause
-Idées	idée	ADJ
+idées	idée	ADJ
 de	de	ADP
 Platon	Platon	PROPN
 ,	,	PUNCTclause
-Catégories	Catégories	PROPN
+catégories	catégorie	UNKNOWN
 de	de	ADP
 Kant	Kant	PROPN
 ,	,	PUNCTclause
-Mères	Mères	NOUN
+mères	mère	NOUN
 de	de	ADP
 Goethe	Goethe	PROPN
 ,	,	PUNCTclause
-Archétypes	Archétypes	PROPN
+archétypes	archétype	UNKNOWN
 de	de	ADP
 Jung	Jung	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 le	le	DET
 mythe	mythe	NOUN
 ,	,	PUNCTclause
@@ -2003,7 +2003,7 @@ et	et	CCONJ
 réciproquement	réciproquement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Hors	hors	ADV
+hors	hors	ADV
 du	du	ADP_DET
 mythe	mythe	NOUN
 ,	,	PUNCTclause
@@ -2051,7 +2051,7 @@ de	de	ADP
 notre	notre	DET
 existence	existence	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 raison	raison	NOUN
 se	se	PRON
 imagine	imaginer	VERB
@@ -2078,7 +2078,7 @@ lois	loi	NOUN
 prétendues	prétendu	ADJ
 générales	général	ADJ
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 lois	loi	NOUN
 sont	être	AUX
 en réalité	en réalité	ADV
@@ -2135,7 +2135,7 @@ lois	loi	NOUN
 biologiques	biologique	ADJ
 ,	,	PUNCTclause
 etc.	etc.	NOUN
-Or	or_CCONJ	CCONJ
+or	or_CCONJ	CCONJ
 loin de	loin de	ADP
 se	se	PRON
 effrayer	effrayer	VERB
@@ -2165,7 +2165,7 @@ domaines	domaine	NOUN
 différents	différent	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Phrase	phrase	NOUN
+phrase	phrase	NOUN
 typiquement	typiquement	ADV
 provinciale	provincial	ADJ
 ,	,	PUNCTclause
@@ -2173,7 +2173,7 @@ provinciale	provincial	ADJ
 ce	ce	DET
 stade	stade	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 quand	quand	SCONJ
 la	le	DET
 raison	raison	NOUN
@@ -2214,7 +2214,7 @@ de	de	ADP
 l'	le	DET
 incohérence	incohérence	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 chaos	chaos	NOUN
 où	où	PRON
 nous	nous	PRON
@@ -2222,7 +2222,7 @@ sommes	être	AUX
 en	en	ADP
 témoigne	témoigner	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 la	le	DET
 grande	grand	ADJ
 explosion	explosion	NOUN
@@ -2262,7 +2262,7 @@ sens	sens	NOUN
 général	général	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 temps	temps	NOUN
 est	être	AUX
 venu	venir	VERB
@@ -2275,7 +2275,7 @@ rationalisme	rationalisme	NOUN
 ou	ou	CCONJ
 irrationalisme	irrationalisme	NOUN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 discussion	discussion	NOUN
 a	avoir	AUX
 mal	mal	ADV
@@ -2283,7 +2283,7 @@ tourné	tourner	VERB
 ,	,	PUNCTclause
 décidément	décidément	ADV
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 a	avoir	AUX
 fait	faire	VERB
 trop	trop	ADV
@@ -2293,7 +2293,7 @@ dans	dans	ADP
 le	le	DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 temps	temps	NOUN
 de	de	ADP
@@ -2315,7 +2315,7 @@ une	un	DET
 sagesse	sagesse	NOUN
 nouvelle	nouveau	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 crois	croire	VERB
 que	que	SCONJ
 l'	le	DET
@@ -2355,14 +2355,14 @@ vitale	vital	ADJ
 du	du	ADP_DET
 mythe	mythe	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 lorsque	lorsque	SCONJ
 il	il	PRON
 déclare	déclarer	VERB
 par exemple	par exemple	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 est	être	AUX
 un	un	DET
@@ -2382,7 +2382,7 @@ plus	plus	ADV
 exactement	exactement	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 perçois	percevoir	VERB
 que	que	PRON
@@ -2399,7 +2399,7 @@ uns	un	PRON
 des	un	ADP_DET
 autres	autre	PRON
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 je	je	PRON
 suis	être	AUX
 incapable	incapable	ADJ
@@ -2423,7 +2423,7 @@ ces	ce	DET
 maux	mal	NOUN
 isolés	isoler	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 mythe	mythe	NOUN
 seul	seul	ADJ
 ,	,	PUNCTclause
@@ -2432,7 +2432,7 @@ personnifiant	personnifier	VERB
 ou	ou	CCONJ
 anthropomorphisant	anthropomorphiser	VERB
 le	le	DET
-Mal	Mal	PROPN
+mal	mal	UNKNOWN
 ,	,	PUNCTclause
 est	être	AUX
 capable	capable	ADJ
@@ -2454,7 +2454,7 @@ modestement	modestement	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 revient	revenir	VERB
 à	à	ADP
@@ -2499,7 +2499,7 @@ et	et	CCONJ
 de	de	ADP
 absurdités	absurdité	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 collection	collection	NOUN
 de	de	ADP
 grands	grand	ADJ
@@ -2563,7 +2563,7 @@ l'	le	DET
 inconscient	inconscient	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Enregistrons	enregistrer	VERB
+enregistrons	enregistrer	VERB
 cette	ce	DET
 carence	carence	NOUN
 rationaliste	rationaliste	ADJ
@@ -2580,7 +2580,7 @@ du	du	ADP_DET
 mythe	mythe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Tout	tout	PRON
+tout	tout	PRON
 ,	,	PUNCTclause
 ici	ici	ADV
 ,	,	PUNCTclause
@@ -2661,7 +2661,7 @@ bien	bien	ADV
 rendu	rendre	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 boutade	boutade	NOUN
 signifie	signifier	VERB
 ,	,	PUNCTclause
@@ -2678,7 +2678,7 @@ un	un	DET
 Dieu	Dieu	PROPN
 inexistant	inexistant	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 si	si	SCONJ
 l'on	on	PRON
 prend	prendre	VERB
@@ -2703,7 +2703,7 @@ terme	terme	NOUN
 devient	devenir	VERB
 normal	normal	ADJ
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 l'	le	DET
 homme	homme	NOUN
 ne	ne	ADV
@@ -2741,7 +2741,7 @@ l'	le	DET
 erreur	erreur	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 trompe	tromper	VERB
 dans	dans	ADP
@@ -2754,7 +2754,7 @@ de	de	ADP
 faux	faux	ADJ
 dieux	dieu	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 alors	alors	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -2766,13 +2766,13 @@ les	le	DET
 aides	aide	NOUN
 de	de	ADP
 la	le	DET
-Révélation	Révélation	NOUN
+révélation	révélation	NOUN
 corrigeant	corriger	VERB
 ses	son	DET
 erreurs	erreur	NOUN
 égoïstes	égoïste	ADJ
 .	.	PUNCTsent
-Celles	celle	PRON
+celles	celle	PRON
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
@@ -2825,7 +2825,7 @@ de	de	ADP
 ce	ce	DET
 terme	terme	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
@@ -2846,7 +2846,7 @@ finalité	finalité	NOUN
 et	et	CCONJ
 plan	plan	NOUN
 .	.	PUNCTsent
-Tout	tout	PRON
+tout	tout	PRON
 prend	prendre	VERB
 figure	figurer	VERB
 et	et	CCONJ
@@ -2857,7 +2857,7 @@ est	être	AUX
 personnifié	personnifier	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 ,	,	PUNCTclause
 parler	parler	VERB
 du	du	ADP_DET
@@ -2874,7 +2874,7 @@ illustrer	illustrer	VERB
 des	un	DET
 idées	idée	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 réel	réel	ADJ
 ne	ne	ADV
 est	être	AUX
@@ -2886,7 +2886,7 @@ et	et	CCONJ
 de	de	ADP
 matière	matière	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 le	le	DET
 conçois	concevoir	VERB
 gouverné	gouverner	VERB
@@ -2914,7 +2914,7 @@ nous	nous	PRON
 pourrions	pouvoir	VERB
 élucider	élucider	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 dynamisme	dynamisme	NOUN
 très	très	ADV
 particulier	particulier	ADJ
@@ -2933,7 +2933,7 @@ de	de	ADP
 diable	diable	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	DET
+ce	ce	DET
 diable	diable	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -2951,7 +2951,7 @@ authentiques	authentique	ADJ
 ou	ou	CCONJ
 anciens	ancien	ADJ
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 il	il	PRON
 est	être	AUX
 un	un	DET
@@ -2999,7 +2999,7 @@ paradoxe	paradoxe	NOUN
 la	le	DET
 tragédie	tragédie	NOUN
 .	.	PUNCTsent
-Tout	tout	DET
+tout	tout	DET
 cela	cela	PRON
 suppose	supposer	VERB
 et	et	CCONJ
@@ -3017,7 +3017,7 @@ que	que	SCONJ
 le	le	DET
 bien	bien	NOUN
 .	.	PUNCTsent
-Sinon	sinon	ADV
+sinon	sinon	ADV
 ,	,	PUNCTclause
 où	où	PRON
 seraient	être	AUX
@@ -3030,7 +3030,7 @@ tragédie	tragédie	NOUN
 la	le	DET
 liberté	liberté	NOUN
 ?	?	PUNCTsent
-Quand	quand	SCONJ
+quand	quand	SCONJ
 ce	ce	DET
 non-bien	non-bien	NOUN
 ,	,	PUNCTclause
@@ -3053,7 +3053,7 @@ ce	ce	DET
 nom	nom	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 pages	page	NOUN
 qui	qui	PRON
@@ -3098,7 +3098,7 @@ dans	dans	ADP
 ce	ce	DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 pense	penser	VERB
 que	que	SCONJ
 les	le	DET
@@ -3121,7 +3121,7 @@ de	de	ADP
 la	le	DET
 raison	raison	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 elles	elles	PRON
 transmettent	transmettre	VERB
 une	un	DET
@@ -3151,11 +3151,11 @@ superficielles	superficiel	ADJ
 5	5	NUM
 .	.	PUNCTsent
 l'	le	DET
-Ange	Ange	PROPN
+ange	ange	UNKNOWN
 déchu	déchoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 voyais	voir	VERB
 Satan	Satan	PROPN
 tomber	tomber	VERB
@@ -3166,10 +3166,10 @@ un	un	DET
 éclair	éclair	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Luc	Luc	PROPN
+Luc	Luc	ADJ
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
-Bible	Bible	NOUN
+la	le	DET
+bible	bible	NOUN
 nous	nous	PRON
 apprend	apprendre	VERB
 que	que	SCONJ
@@ -3182,7 +3182,7 @@ du	du	ADP_DET
 ciel	ciel	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 anges	ange	NOUN
 sont	être	AUX
 des	un	DET
@@ -3200,7 +3200,7 @@ l'	le	DET
 et	et	CCONJ
 de	de	ADP
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -3209,7 +3209,7 @@ et	et	CCONJ
 du	du	ADP_DET
 temps	temps	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 des	un	DET
 intentions	intention	NOUN
@@ -3263,7 +3263,7 @@ de	de	ADP
 l'	le	DET
 omniscience	omniscience	NOUN
 du	du	ADP_DET
-Créateur	Créateur	NOUN
+créateur	créateur	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -3275,7 +3275,7 @@ comprenons	comprendre	VERB
 mal	mal	ADV
 .	.	PUNCTsent
 «	«	PUNCTclause
-Tout	tout	PRON
+tout	tout	PRON
 ange	ange	NOUN
 est	être	AUX
 terrible	terrible	ADJ
@@ -3285,7 +3285,7 @@ terrible	terrible	ADJ
 dit	dire	VERB
 Rilke	Rilke	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 tout	tout	PRON
 ange	ange	NOUN
 est	être	AUX
@@ -3294,7 +3294,7 @@ bon	bon	ADJ
 servant	servir	VERB
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 sommet	sommet	NOUN
 de	de	ADP
 leur	leur	DET
@@ -3304,7 +3304,7 @@ les	le	DET
 archanges	archange	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 seul	seul	ADJ
 archange	archange	NOUN
 a	avoir	AUX
@@ -3324,11 +3324,11 @@ est	être	AUX
 Lucifer	Lucifer	PROPN
 ,	,	PUNCTclause
 le	le	DET
-Porteur	Porteur	NOUN
+porteur	porteur	NOUN
 de	de	ADP
-Lumière	Lumière	NOUN
+lumière	lumière	NOUN
 .	.	PUNCTsent
-Satan	Satan	PROPN
+Satan	Satan	DET
 se	se	PRON
 est	être	AUX
 révolté	révolter	VERB
@@ -3367,7 +3367,7 @@ lumières	lumière	NOUN
 à	à	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 aussitôt	aussitôt	ADV
 ,	,	PUNCTclause
 par	par	ADP
@@ -3384,12 +3384,12 @@ est	être	AUX
 tombé	tombé	ADJ
 »	»	PUNCTclause
 du	du	ADP_DET
-Ciel	Ciel	PROPN
+ciel	ciel	UNKNOWN
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX
 le	le	DET
-Royaume	Royaume	NOUN
+royaume	royaume	NOUN
 où	où	PRON
 l'	le	DET
 intention	intention	NOUN
@@ -3399,7 +3399,7 @@ règne	régner	VERB
 absolue	absolu	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-Coupez	couper	VERB
+coupez	couper	VERB
 la	le	DET
 communication	communication	NOUN
 ,	,	PUNCTclause
@@ -3410,7 +3410,7 @@ tombe	tombe	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 )	)	PUNCTclause
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 devenu	devenir	VERB
 le	le	DET
@@ -3436,7 +3436,7 @@ la	le	DET
 source	source	NOUN
 de	de	ADP
 l'	le	DET
-Esprit	Esprit	NOUN
+esprit	esprit	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -3444,14 +3444,14 @@ devenu	devenir	VERB
 le	le	DET
 messager	messager	NOUN
 du	du	ADP_DET
-Néant	Néant	PROPN
+néant	néant	UNKNOWN
 et	et	CCONJ
 de	de	ADP
 ses	son	DET
 mystères	mystère	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 quoique	quoique	SCONJ
 déchu	déchoir	VERB
 ,	,	PUNCTclause
@@ -3464,7 +3464,7 @@ de	de	ADP
 esprit	esprit	NOUN
 pur	pur	ADJ
 .	.	PUNCTsent
-Comme	comme	ADP
+comme	comme	ADP
 un	un	DET
 artiste	artiste	NOUN
 qui	qui	PRON
@@ -3501,7 +3501,7 @@ Satan	Satan	PROPN
 connaît	connaître	VERB
 encore	encore	ADV
 l'	le	DET
-Esprit	Esprit	NOUN
+esprit	esprit	NOUN
 et	et	CCONJ
 les	le	DET
 esprits	esprit	NOUN
@@ -3521,7 +3521,7 @@ sont	être	AUX
 destinés	destiner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ayant	avoir	AUX
+ayant	avoir	AUX
 refusé	refuser	VERB
 de	de	ADP
 servir	servir	VERB
@@ -3539,21 +3539,21 @@ celui	celui	PRON
 qui	qui	PRON
 sert	servir	VERB
 le	le	DET
-Rien	Rien	PROPN
+rien	rien	UNKNOWN
 ,	,	PUNCTclause
 ne	ne	ADV
 sert	servir	VERB
 à	à	ADP
-Rien	rien	PRON
+rien	rien	PRON
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 tout	tout	ADJ
 ce	ce	PRON
 qui	qui	PRON
 ne	ne	ADV
 sert	servir	VERB
 à	à	ADP
-Rien	rien	PRON
+rien	rien	PRON
 ,	,	PUNCTclause
 au	au	ADP_DET
 sens	sens	NOUN
@@ -3564,13 +3564,13 @@ la	le	DET
 marque	marque	NOUN
 diabolique	diabolique	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 Nobody	Nobody	PROPN
 lui-même	lui-même	PRON
 reste	rester	VERB
-Quelqu'un	quelqu'un	DET
+quelqu'un	quelqu'un	DET
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 en	en	PRON
 sait	savoir	VERB
 plus	plus	ADV
@@ -3593,7 +3593,7 @@ abuse	abuser	VERB
 ↵↵	↵↵	PUNCTstruct
 6	6	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 Prince	Prince	PROPN
 de	de	ADP
 ce	ce	DET
@@ -3610,11 +3610,11 @@ consumant	consumer	VERB
 qui	qui	PRON
 transforma	transformer	VERB
 l'	le	DET
-Ange	Ange	PROPN
+ange	ange	UNKNOWN
 de	de	ADP
 lumière	lumière	NOUN
 en	en	ADP
-Ange	Ange	PROPN
+ange	ange	UNKNOWN
 et	et	CCONJ
 Prince	Prince	PROPN
 des	un	ADP_DET
@@ -3633,12 +3633,12 @@ donc	donc	ADV
 par définition	par définition	ADV
 désespéré	désespérer	VERB
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 perte	perte	NOUN
 de	de	ADP
 l'	le	DET
-Unique	Unique	PROPN
-Nécessaire	Nécessaire	PROPN
+unique	unique	UNKNOWN
+nécessaire	nécessaire	UNKNOWN
 fait	faire	AUX
 naître	naître	VERB
 une	un	DET
@@ -3646,7 +3646,7 @@ soif	soif	NOUN
 essentiellement	essentiellement	ADV
 inextinguible	inextinguible	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 monde entier	monde entier	NOUN
 ne	ne	ADV
 saurait	savoir	VERB
@@ -3672,7 +3672,7 @@ dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Tombé	tomber	VERB
+tombé	tomber	VERB
 de	de	ADP
 l'	le	DET
 éternel	éternel	ADJ
@@ -3682,17 +3682,17 @@ veut	vouloir	VERB
 l'	le	DET
 infini	infini	ADJ
 .	.	PUNCTsent
-Tombé	tomber	VERB
+tombé	tomber	VERB
 de	de	ADP
 l'	le	DET
-Être	Être	NOUN
+être	être	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 veut	vouloir	VERB
 l'	le	DET
-Avoir	Avoir	PROPN
+avoir	avoir	UNKNOWN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 problème	problème	NOUN
 est	être	AUX
@@ -3701,7 +3701,7 @@ insoluble	insoluble	ADJ
 tout	tout	DET
 jamais	jamais	ADV
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 pour	pour	ADP
 avoir	avoir	VERB
 et	et	CCONJ
@@ -3717,7 +3717,7 @@ ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
 .	.	PUNCTsent
-Tout	tout	PRON
+tout	tout	PRON
 ce	ce	PRON
 que	que	PRON
 il	il	PRON
@@ -3729,15 +3729,15 @@ le	le	DET
 détruit	détruire	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-Le	le	DET
-Néant	Néant	PROPN
+le	le	DET
+néant	néant	UNKNOWN
 néantit	néantit	VERB
 ,	,	PUNCTclause
 dit	dire	VERB
 Heidegger	Heidegger	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 certes	certes	ADV
 ,	,	PUNCTclause
 il	il	PRON
@@ -3755,7 +3755,7 @@ ce	ce	DET
 monde	monde	NOUN
 dans	dans	ADP
 l'	le	DET
-Évangile	Évangile	NOUN
+évangile	évangile	NOUN
 —	—	PUNCTclause
 mais	mais	CCONJ
 il	il	PRON
@@ -3766,12 +3766,12 @@ que	que	PRON
 ce	ce	PRON
 monde	monde	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 reconquerra	reconquérir	VERB
 jamais	jamais	ADV
 le	le	DET
-Ciel	Ciel	PROPN
+ciel	ciel	UNKNOWN
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX
@@ -3790,7 +3790,7 @@ dans	dans	ADP
 l'	le	DET
 immanence	immanence	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 aura	avoir	VERB
 de	de	ADP
@@ -3801,7 +3801,7 @@ la	le	DET
 carcasse	carcasse	NOUN
 matérielle	matériel	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 probablement	probablement	ADV
@@ -3810,7 +3810,7 @@ ces	ce	DET
 débris	débris	NOUN
 de	de	ADP
 la	le	DET
-Maison	Maison	NOUN
+maison	maison	NOUN
 désaffectée	désaffecter	VERB
 que	que	SCONJ
 il	il	PRON
@@ -3821,10 +3821,10 @@ de	de	ADP
 chauffage	chauffage	NOUN
 de	de	ADP
 son	son	DET
-Enfer	Enfer	NOUN
+enfer	enfer	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 le	le_PRON	PRON
 sait	savoir	VERB
 bien	bien	ADV
@@ -3845,7 +3845,7 @@ nos	nos	DET
 âmes	âme	NOUN
 individuelles	individuel	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 rôde	rôder	VERB
 autour de	autour de	ADP
 nous	nous	PRON
@@ -3861,9 +3861,9 @@ proie	proie	NOUN
 ,	,	PUNCTclause
 dit	dire	VERB
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 rôde	rôder	VERB
 autour de	autour de	ADP
 nous	nous	PRON
@@ -3875,7 +3875,7 @@ par	par	ADP
 le	le	DET
 kidnapping	kidnapping	NOUN
 .	.	PUNCTsent
-Ses	son	DET
+ses	son	DET
 victoires	victoire	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -3886,7 +3886,7 @@ seront	être	AUX
 toujours	toujours	ADV
 stériles	stérile	ADJ
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 on	on	PRON
 ne	ne	ADV
 devient	devenir	VERB
@@ -3897,7 +3897,7 @@ volant	volant	NOUN
 un	un	NUM
 enfant	enfant	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 peut	pouvoir	VERB
 voler	voler	VERB
 l'	le	DET
@@ -3907,7 +3907,7 @@ non	non	ADV
 la	le	DET
 paternité	paternité	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 peut	pouvoir	VERB
 voler	voler	VERB
 le	le	DET
@@ -3918,7 +3918,7 @@ non	non	ADV
 l'	le	DET
 autorité	autorité	NOUN
 .	.	PUNCTsent
-Satan	Satan	PROPN
+Satan	Satan	PRON
 peut	pouvoir	VERB
 voler	voler	VERB
 ce	ce	DET
@@ -3928,7 +3928,7 @@ non	non	ADV
 sa	son	DET
 divinité	divinité	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 cependant	cependant	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -3961,7 +3961,7 @@ chance	chance	NOUN
 du	du	ADP_DET
 diable	diable	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 la	le_PRON	PRON
 manquera	manquer	VERB
@@ -3970,11 +3970,11 @@ pas	pas	ADV
 ↵↵	↵↵	PUNCTstruct
 7	7	NUM
 .	.	PUNCTsent
-Le	le	DET
-Tentateur	Tentateur	NOUN
+le	le	DET
+tentateur	tentateur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 serpent	serpent	NOUN
 était	être	AUX
 le	le	DET
@@ -3993,7 +3993,7 @@ Dieu	Dieu	PROPN
 avait	avoir	AUX
 fait	faire	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 dit	dire	VERB
 à	à	ADP
 la	le	DET
@@ -4017,7 +4017,7 @@ arbres	arbre	NOUN
 du	du	ADP_DET
 jardin	jardin	NOUN
 ?	?	PUNCTsent
-La	le	DET
+la	le	DET
 femme	femme	NOUN
 répondit	répondre	VERB
 au	au	ADP_DET
@@ -4032,7 +4032,7 @@ arbres	arbre	NOUN
 du	du	ADP_DET
 jardin	jardin	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 quant à	quant à	ADP
 fruit	fruit	NOUN
 de	de	ADP
@@ -4069,7 +4069,7 @@ ne	ne	ADV
 en	en	PRON
 mouriez	mourir	VERB
 .	.	PUNCTsent
-Alors	alors	ADV
+alors	alors	ADV
 le	le	DET
 serpent	serpent	NOUN
 dit	dire	VERB
@@ -4077,12 +4077,12 @@ dit	dire	VERB
 la	le	DET
 femme	femme	NOUN
 :	:	PUNCTclause
-Vous	vous	PRON
+vous	vous	PRON
 ne	ne	ADV
 mourrez	mourir	VERB
 point	point	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 Dieu sait	Dieu sait	ADP
 que	que	SCONJ
 le	le	DET
@@ -4112,7 +4112,7 @@ le	le	DET
 mal	mal	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voyez	voir	VERB
+voyez	voir	VERB
 :	:	PUNCTclause
 avant	avant	ADP
 la	le	DET
@@ -4123,7 +4123,7 @@ il y a	il y a	VERB
 le	le	DET
 doute	doute	NOUN
 !	!	PUNCTsent
-Le	le	DET
+le	le	DET
 premier	premier	ADJ
 procédé	procédé	NOUN
 du	du	ADP_DET
@@ -4161,7 +4161,7 @@ réellement	réellement	ADV
 dit	dire	VERB
 ?…	?…	PUNCTsent
 »	»	PUNCTclause
-Sitôt	sitôt	ADV
+sitôt	sitôt	ADV
 que	que	SCONJ
 cette	ce	DET
 incertitude	incertitude	NOUN
@@ -4180,7 +4180,7 @@ tentation	tentation	NOUN
 se	se	PRON
 entrouvre	entrouvrir	VERB
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -4202,7 +4202,7 @@ que	que	PRON
 l'	le	DET
 état de fait	état de fait	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 dit	dire	VERB
 bien	bien	ADV
 :	:	PUNCTclause
@@ -4212,7 +4212,7 @@ fait	faire	VERB
 le	le	DET
 larron	larron	NOUN
 .	.	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 ne	ne	ADV
 êtes	être	AUX
 pas	pas	ADV
@@ -4221,7 +4221,7 @@ de	de	ADP
 aller	aller	VERB
 dans	dans	ADP
 la	le	DET
-Lune	Lune	NOUN
+lune	lune	NOUN
 parce que	parce que	SCONJ
 vous	vous	PRON
 savez	savoir	VERB
@@ -4231,7 +4231,7 @@ est	être	AUX
 absolument	absolument	ADV
 impossible	impossible	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 vous	vous	PRON
 seriez	être	AUX
 probablement	probablement	ADV
@@ -4250,7 +4250,7 @@ de	de	ADP
 le	le_PRON	PRON
 faire	faire	VERB
 .	.	PUNCTsent
-Ève	Ève	PROPN
+Ève	Ève	ADP
 ne	ne	ADV
 pensait	penser	VERB
 même	même	ADV
@@ -4275,7 +4275,7 @@ ordonnance	ordonnance	NOUN
 de	de	ADP
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 l'	le	DET
 origine	origine	NOUN
 de	de	ADP
@@ -4319,7 +4319,7 @@ les	le	DET
 lois	loi	NOUN
 de	de	ADP
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 ordre	ordre	NOUN
@@ -4332,7 +4332,7 @@ l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 voici	voici	ADP
 le	le	DET
 deuxième	deuxième	ADJ
@@ -4343,7 +4343,7 @@ tentation	tentation	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-La	le	DET
+la	le	DET
 femme	femme	NOUN
 vit	vivre	VERB
 que	que	SCONJ
@@ -4380,7 +4380,7 @@ mangea	manger	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Voyez	voir	VERB
+voyez	voir	VERB
 :	:	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -4427,7 +4427,7 @@ soi	soi	PRON
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ève	Ève	PROPN
+Ève	Ève	ADP
 ne	ne	ADV
 fut	être	AUX
 pas	pas	ADV
@@ -4456,7 +4456,7 @@ pour	pour	ADP
 l'	le	DET
 esprit	esprit	NOUN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 ne	ne	ADV
 fut	être	AUX
 pas	pas	ADV
@@ -4483,7 +4483,7 @@ une	un	DET
 excellente	excellent	ADJ
 idée	idée	NOUN
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 malheur	malheur	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -4505,7 +4505,7 @@ de	de	ADP
 sa	son	DET
 réalité	réalité	NOUN
 .	.	PUNCTsent
-Manger	manger	VERB
+manger	manger	VERB
 cette	ce	DET
 pomme	pomme	NOUN
 et	et	CCONJ
@@ -4538,7 +4538,7 @@ et	et	CCONJ
 aux	au	ADP_DET
 ordonnances	ordonnance	NOUN
 du	du	ADP_DET
-Jardin	Jardin	NOUN
+jardin	jardin	NOUN
 ;	;	PUNCTclause
 en d'autres termes	en d'autres termes	ADV
 ,	,	PUNCTclause
@@ -4550,7 +4550,7 @@ les	le	DET
 lois	loi	NOUN
 de	de	ADP
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 les	le_PRON	PRON
@@ -4559,7 +4559,7 @@ utiliser	utiliser	VERB
 contre-fin	contre-fin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 suite	suite	NOUN
 du	du	ADP_DET
 récit	récit	NOUN
@@ -4573,7 +4573,7 @@ allait	aller	VERB
 à	à	ADP
 contre-fin	contre-fin	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 avoir	avoir	AUX
 voulu	vouloir	VERB
 prendre	prendre	VERB
@@ -4589,7 +4589,7 @@ et	et	CCONJ
 débouchent	déboucher	VERB
 hors	hors	ADV
 du	du	ADP_DET
-Jardin	Jardin	NOUN
+jardin	jardin	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
@@ -4598,7 +4598,7 @@ au	au	ADP_DET
 sol	sol	NOUN
 maudit	maudire	VERB
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 avoir	avoir	AUX
 voulu	vouloir	VERB
 dépasser	dépasser	VERB
@@ -4623,7 +4623,7 @@ humanité	humanité	NOUN
 parfaite	parfait	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-Qui	qui	PRON
+qui	qui	PRON
 veut	vouloir	VERB
 faire	faire	VERB
 l'	le	DET
@@ -4640,7 +4640,7 @@ leur	leur	DET
 propos	propos	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 la	le	DET
 tentation	tentation	NOUN
 est	être	AUX
@@ -4675,7 +4675,7 @@ ne	ne	ADV
 prévoit	prévoir	VERB
 pas	pas	ADV
 .	.	PUNCTsent
-Satan	Satan	PROPN
+Satan	Satan	DET
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 il	il	PRON
@@ -4705,7 +4705,7 @@ sentier	sentier	NOUN
 du	du	ADP_DET
 Golgotha	Golgotha	PROPN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 l'	le	DET
 origine	origine	NOUN
 donc	donc	ADV
@@ -4731,7 +4731,7 @@ tout	tout	ADJ
 au moins	au moins	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 est	être	AUX
 celui	celui	PRON
@@ -4753,7 +4753,7 @@ vrai	vrai	ADJ
 bien	bien	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 méchant	méchant	NOUN
 fait	faire	VERB
 une	un	DET
@@ -4763,7 +4763,7 @@ le	le_PRON	PRON
 trompe	tromper	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
-Or	or	NOUN
+or	or	NOUN
 ce	ce	PRON
 est	être	AUX
 parce que	parce que	SCONJ
@@ -4778,14 +4778,14 @@ va	aller	VERB
 le	le	DET
 tromper	tromper	VERB
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 réalité	réalité	NOUN
 méprisée	mépriser	VERB
 se	se	PRON
 vengera	venger	VERB
 automatiquement	automatiquement	ADV
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 péché	péché	NOUN
 est	être	AUX
 une	un	DET
@@ -4804,12 +4804,12 @@ chute	chute	NOUN
 8	8	NUM
 .	.	PUNCTsent
 «	«	PUNCTclause
-Connaissant	connaître	VERB
+connaissant	connaître	VERB
 le	le	DET
-Bien	Bien	NOUN
+bien	bien	NOUN
 et	et	CCONJ
 le	le	DET
-Mal	Mal	PROPN
+mal	mal	UNKNOWN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4826,18 +4826,18 @@ le	le	DET
 récit	récit	NOUN
 de	de	ADP
 la	le	DET
-Genèse	Genèse	PROPN
+genèse	genèse	UNKNOWN
 ,	,	PUNCTclause
 que	que	PRON
 de	de	ADP
 connaître	connaître	VERB
 le	le	DET
-Bien	Bien	NOUN
+bien	bien	NOUN
 et	et	CCONJ
 le	le	DET
-Mal	Mal	PROPN
+mal	mal	UNKNOWN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 psychologues	psychologue	NOUN
 et	et	CCONJ
 moralistes	moraliste	NOUN
@@ -4884,7 +4884,7 @@ capables	capable	ADJ
 de	de	ADP
 bon sens	bon sens	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 bien	bien	NOUN
 et	et	CCONJ
 le	le	DET
@@ -4917,11 +4917,11 @@ de	de	ADP
 un	un	DET
 pays	pays	NOUN
 .	.	PUNCTsent
-Le	le	DET
-Bien	Bien	NOUN
+le	le	DET
+bien	bien	NOUN
 et	et	CCONJ
 le	le	DET
-Mal	Mal	PROPN
+mal	mal	UNKNOWN
 en soi	en soi	ADV
 ne	ne	ADV
 sont	être	AUX
@@ -4970,9 +4970,9 @@ dernière	dernier	ADJ
 de	de	ADP
 toute	toute	DET
 sa	son	DET
-Création	Création	NOUN
+création	création	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 seulement	seulement	ADV
@@ -5000,17 +5000,17 @@ sans	sans	ADP
 erreur	erreur	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Ne	ne	ADV
+ne	ne	ADV
 jugez	juger	VERB
 pas	pas	ADV
 »	»	PUNCTclause
 ,	,	PUNCTclause
 dit	dire	VERB
 l'	le	DET
-Évangile	Évangile	NOUN
+évangile	évangile	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 perspective	perspective	NOUN
 biblique	biblique	ADJ
 ,	,	PUNCTclause
@@ -5031,7 +5031,7 @@ prendre	prendre	VERB
 une	un	DET
 vue	vue	NOUN
 du	du	ADP_DET
-Mal	Mal	PROPN
+mal	mal	UNKNOWN
 moins	moins	ADV
 locale	local	ADJ
 et	et	CCONJ
@@ -5044,7 +5044,7 @@ nos	nos	DET
 morales	morale	NOUN
 humaines	humain	ADJ
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 illusion	illusion	NOUN
 commune	commun	ADJ
 et	et	CCONJ
@@ -5066,7 +5066,7 @@ constituent	constituer	VERB
 le	le	DET
 mal	mal	NOUN
 .	.	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 prend	prendre	VERB
 alors	alors	ADV
 une	un	DET
@@ -5099,7 +5099,7 @@ notre	notre	DET
 être	être	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 dissiper	dissiper	VERB
 cette	ce	DET
 illusion	illusion	NOUN
@@ -5111,7 +5111,7 @@ nous	nous	PRON
 ce	ce	PRON
 que	que	SCONJ
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 vient	venir	VERB
 de	de	ADP
 nous	nous	PRON
@@ -5119,18 +5119,18 @@ apprendre	apprendre	VERB
 au sujet de	au sujet de	ADP
 Satan	Satan	PROPN
 .	.	PUNCTsent
-Lucifer	Lucifer	PROPN
+Lucifer	Lucifer	ADJ
 est	être	AUX
 tombé	tomber	VERB
 du	du	ADP_DET
-Ciel	Ciel	NOUN
+ciel	ciel	NOUN
 pour	pour	ADP
 avoir	avoir	AUX
 voulu	vouloir	VERB
 singer	singer	VERB
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 devenu	devenir	VERB
 le	le	DET
@@ -5146,7 +5146,7 @@ réel	réel	ADJ
 l'	le	DET
 agent	agent	NOUN
 du	du	ADP_DET
-Néant	Néant	PROPN
+néant	néant	UNKNOWN
 parmi	parmi	ADP
 nous	nous	PRON
 .	.	PUNCTsent
@@ -5159,7 +5159,7 @@ plus	plus	ADV
 créer	créer	VERB
 que	que	SCONJ
 le	le	DET
-Rien	Rien	PROPN
+rien	rien	UNKNOWN
 ,	,	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -5168,13 +5168,13 @@ pas	pas	ADV
 de	de	DET
 existence	existence	NOUN
 .	.	PUNCTsent
-Créer	créer	VERB
+créer	créer	VERB
 le	le	DET
 mal	mal	NOUN
 est	être	AUX
 impossible	impossible	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 revient	revenir	VERB
 à	à	ADP
@@ -5186,7 +5186,7 @@ ne	ne	ADV
 existe	exister	VERB
 pas	pas	ADV
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 agir	agir	VERB
 ,	,	PUNCTclause
 le	le	DET
@@ -5211,7 +5211,7 @@ créé	créer	VERB
 par	par	ADP
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 lui-même	lui-même	PRON
 ,	,	PUNCTclause
 Satan	Satan	PROPN
@@ -5246,7 +5246,7 @@ la	le	DET
 terre	terre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ni	ni	CCONJ
+ni	ni	CCONJ
 le	le	DET
 diable	diable	NOUN
 ,	,	PUNCTclause
@@ -5271,7 +5271,7 @@ une	un	DET
 formule	formule	NOUN
 trompeuse	trompeur	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 l'	le	DET
 homme	homme	NOUN
 peut	pouvoir	VERB
@@ -5285,9 +5285,9 @@ avec	avec	ADP
 les	le	DET
 dons	don	NOUN
 du	du	ADP_DET
-Créateur	Créateur	NOUN
+créateur	créateur	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 pas	pas	ADV
@@ -5315,10 +5315,10 @@ malfaisante	malfaisant	ADJ
 ,	,	PUNCTclause
 contre	contre	ADP
 l'	le	DET
-Ordre	Ordre	NOUN
+ordre	ordre	NOUN
 donné	donner	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 mal	mal	NOUN
 en soi	en soi	ADV
 ne	ne	ADV
@@ -5328,11 +5328,11 @@ au	au	ADP_DET
 titre	titre	NOUN
 où	où	PRON
 le	le	DET
-Bien	Bien	NOUN
+bien	bien	NOUN
 existe	exister	VERB
 en soi	en soi	ADV
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 mal	mal	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -5349,7 +5349,7 @@ ce	ce	PRON
 qui	qui	PRON
 existe	exister	VERB
 .	.	PUNCTsent
-Telle	tel	PRON
+telle	tel	PRON
 est	être	AUX
 la	le	DET
 situation	situation	NOUN
@@ -5357,7 +5357,7 @@ fondamentale	fondamental	ADJ
 et	et	CCONJ
 primitive	primitif	ADJ
 .	.	PUNCTsent
-Cependant	cependant	ADV
+cependant	cependant	ADV
 ,	,	PUNCTclause
 le	le	DET
 diable	diable	NOUN
@@ -5377,7 +5377,7 @@ peut	pouvoir	VERB
 aussi	aussi	ADV
 créer	créer	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 pourquoi	pourquoi	ADV
@@ -5398,7 +5398,7 @@ serait	être	AUX
 l'	le	DET
 auteur	auteur	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 mal	mal	NOUN
 en soi	en soi	ADV
 ne	ne	ADV
@@ -5409,9 +5409,9 @@ ni	ni	CCONJ
 mentionné	mentionner	VERB
 par	par	ADP
 la	le	DET
-Genèse	Genèse	PROPN
+genèse	genèse	UNKNOWN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 est	être	AUX
 que	que	ADV
@@ -5433,7 +5433,7 @@ aux yeux de	aux yeux de	ADP
 notre	notre	DET
 orgueil	orgueil	NOUN
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 parfaite	parfait	ADJ
 et	et	CCONJ
 la	le	DET
@@ -5490,7 +5490,7 @@ devenue	devenir	VERB
 seconde	second	ADJ
 nature	nature	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 à	à	ADP
@@ -5519,7 +5519,7 @@ trouve	trouver	VERB
 la	le	DET
 volupté	volupté	NOUN
 …	…	PUNCTsent
-La	le	DET
+la	le	DET
 volupté	volupté	NOUN
 unique	unique	ADJ
 et	et	CCONJ
@@ -5534,7 +5534,7 @@ le	le	DET
 mal	mal	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Je	je	PRON
+je	je	PRON
 crois	croire	VERB
 plutôt	plutôt	ADV
 ,	,	PUNCTclause
@@ -5547,7 +5547,7 @@ Blake	Blake	PROPN
 que	que	SCONJ
 «	«	PUNCTclause
 la	le	DET
-Chute	Chute	PROPN
+chute	chute	UNKNOWN
 ne	ne	ADV
 a	avoir	AUX
 fait	faire	VERB
@@ -5577,7 +5577,7 @@ de	de	ADP
 la	le	DET
 mort	mort	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 ici	ici	ADV
 se	se	PRON
 sont	être	AUX
@@ -5605,13 +5605,13 @@ de	de	ADP
 se	se	PRON
 détruire	détruire	VERB
 .	.	PUNCTsent
-Se	se	PRON
+se	se	PRON
 détruire	détruire	VERB
 pour	pour	ADP
 se	se	PRON
 innocenter	innocenter	VERB
 !	!	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 échapper	échapper	VERB
 à	à	ADP
 sa	son	DET
@@ -5656,11 +5656,11 @@ utopie	utopie	NOUN
 ↵↵	↵↵	PUNCTstruct
 9	9	NUM
 .	.	PUNCTsent
-Le	le	DET
-Menteur	Menteur	PROPN
+le	le	DET
+menteur	menteur	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Examinons	examiner	VERB
+examinons	examiner	VERB
 maintenant	maintenant	ADV
 de	de	ADP
 un	un	DET
@@ -5710,7 +5710,7 @@ sur	sur	ADP
 la	le	DET
 réalité	réalité	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 dans	dans	ADP
 l'	le	DET
 humain	humain	NOUN
@@ -5729,7 +5729,7 @@ seul	seul	ADJ
 dans	dans	ADP
 toute	tout	ADJ
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 ,	,	PUNCTclause
 peut	pouvoir	VERB
 dire	dire	VERB
@@ -5750,7 +5750,7 @@ volonté	volonté	NOUN
 réfléchie	réfléchir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 minéral	minéral	NOUN
 repose	reposer	VERB
 où	où	PRON
@@ -5781,7 +5781,7 @@ de	de	ADP
 l'	le	DET
 instinct	instinct	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 l'	le	DET
 homme	homme	NOUN
 a	avoir	AUX
@@ -5798,7 +5798,7 @@ et	et	CCONJ
 de	de	ADP
 dénaturer	dénaturer	VERB
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 la	le	DET
 grâce	grâce	NOUN
 du	du	ADP_DET
@@ -5821,7 +5821,7 @@ peut	pouvoir	VERB
 y	y	PRON
 contredire	contredire	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 peut	pouvoir	VERB
 créer	créer	VERB
 selon	selon	ADP
@@ -5829,7 +5829,7 @@ les	le	DET
 perspectives	perspective	NOUN
 de	de	ADP
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 peut	pouvoir	VERB
@@ -5840,7 +5840,7 @@ tort	tort	NOUN
 et	et	CCONJ
 à travers	à travers	ADP
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 peut	pouvoir	VERB
 être	être	AUX
 un	un	DET
@@ -5870,7 +5870,7 @@ ou	ou	CCONJ
 dénature	dénaturer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 duplicité	duplicité	NOUN
 de	de	ADP
 nos	nos	DET
@@ -5879,7 +5879,7 @@ constitue	constituer	VERB
 notre	notre	DET
 liberté	liberté	NOUN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 en	en	PRON
 est	être	AUX
 à la fois	à la fois	ADV
@@ -5890,7 +5890,7 @@ la	le	DET
 condition	condition	NOUN
 nécessaire	nécessaire	ADJ
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 est	être	AUX
 notre	notre	DET
 gloire	gloire	NOUN
@@ -5918,7 +5918,7 @@ pouvoir	pouvoir	NOUN
 de	de	ADP
 pécher	pécher	VERB
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 pécher	pécher	VERB
 ce	ce	PRON
 est	être	AUX
@@ -5944,7 +5944,7 @@ courtes	court	ADJ
 vues	vue	NOUN
 intéressées	intéressé	ADJ
 .	.	PUNCTsent
-Pécher	pécher	VERB
+pécher	pécher	VERB
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -5970,7 +5970,7 @@ l'	le	DET
 opérer	opérer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Par	par	ADP
+par	par	ADP
 le	le	DET
 langage	langage	NOUN
 ,	,	PUNCTclause
@@ -5982,7 +5982,7 @@ il	il	PRON
 est	être	AUX
 libre	libre	ADJ
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 le	le	DET
 langage	langage	NOUN
 ,	,	PUNCTclause
@@ -5990,7 +5990,7 @@ il	il	PRON
 peut	pouvoir	VERB
 mentir	mentir	VERB
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 sa	son	DET
 liberté	liberté	NOUN
 seule	seul	ADJ
@@ -5998,7 +5998,7 @@ il	il	PRON
 peut	pouvoir	VERB
 pécher	pécher	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 le	le	DET
 péché	péché	NOUN
 ne	ne	ADV
@@ -6007,30 +6007,30 @@ que	que	ADV
 un	un	DET
 mensonge	mensonge	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 mensonge	mensonge	NOUN
 proféré	proférer	VERB
 nous	nous	PRON
 lie	lier	VERB
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 liberté	liberté	NOUN
 jouée	jouer	VERB
 selon	selon	ADP
 la	le	DET
-Loi	Loi	NOUN
+loi	loi	NOUN
 se	se	PRON
 accroît	accroître	VERB
 ;	;	PUNCTclause
 jouée	jouer	VERB
 contre	contre	ADP
 la	le	DET
-Loi	Loi	PROPN
+loi	loi	UNKNOWN
 se	se	PRON
 perd	perdre	VERB
 .	.	PUNCTsent
-Plus	plus	ADV
+plus	plus	ADV
 elle	elle	PRON
 se	se	PRON
 accroît	accroître	VERB
@@ -6068,7 +6068,7 @@ du	du	ADP_DET
 possible	possible	ADJ
 divin	divin	ADJ
 .	.	PUNCTsent
-Saisissant	saisir	VERB
+saisissant	saisir	VERB
 la	le	DET
 proie	proie	NOUN
 ,	,	PUNCTclause
@@ -6096,7 +6096,7 @@ du	du	ADP_DET
 désir	désir	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comprenons	comprendre	VERB
+comprenons	comprendre	VERB
 maintenant	maintenant	ADV
 que	que	SCONJ
 le	le	DET
@@ -6108,7 +6108,7 @@ sans	sans	ADP
 notre	notre	DET
 liberté	liberté	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 ce	ce	PRON
 est	être	AUX
 par	par	ADP
@@ -6140,7 +6140,7 @@ et	et	CCONJ
 nous	nous	PRON
 lie	lier	VERB
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 Ève	Ève	PROPN
 ne	ne	ADV
 avait	avoir	AUX
@@ -6165,7 +6165,7 @@ après	après	ADP
 elle	elle	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 la	le	DET
 gloire	gloire	NOUN
 de	de	ADP
@@ -6186,7 +6186,7 @@ ce	ce	PRON
 point	point	ADV
 que	que	SCONJ
 le	le	DET
-Malin	Malin	PROPN
+malin	malin	UNKNOWN
 devait	devoir	VERB
 atteindre	atteindre	VERB
 notre	notre	DET
@@ -6201,7 +6201,7 @@ les	le	DET
 plus	plus	ADV
 secrètes	secret	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 parole	parole	NOUN
 nous	nous	PRON
 étant	être	AUX
@@ -6252,12 +6252,12 @@ dans	dans	ADP
 sa	son	DET
 source	source	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 pourquoi	pourquoi	ADV
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 dit	dire	VERB
 ,	,	PUNCTclause
 énergiquement	énergiquement	ADV
@@ -6283,7 +6283,7 @@ langue	langue	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 est	être	AUX
 deux	deux	NUM
@@ -6301,7 +6301,7 @@ tromper	tromper	VERB
 un	un	DET
 client	client	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 la	le	DET
 balance	balance	NOUN
 indique	indiquer	VERB
@@ -6317,7 +6317,7 @@ est	être	AUX
 1	1	NUM
 kilo	kilo	NOUN
 .	.	PUNCTsent
-Votre	votre	DET
+votre	votre	DET
 mensonge	mensonge	NOUN
 restera	rester	VERB
 relatif	relatif	ADJ
@@ -6328,7 +6328,7 @@ invariable	invariable	ADJ
 du	du	ADP_DET
 vrai	vrai	ADJ
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 le	le	DET
 client	client	NOUN
 contrôle	contrôler	VERB
@@ -6357,7 +6357,7 @@ juge	juger	VERB
 entre	entre	ADP
 vous	vous	PRON
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 si	si	SCONJ
 le	le	DET
 démon	démon	NOUN
@@ -6388,7 +6388,7 @@ de	de	ADP
 contrôle	contrôle	NOUN
 possible	possible	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 peu à peu	peu à peu	ADV
 vous	vous	PRON
 oublierez	oublier	VERB
@@ -6396,7 +6396,7 @@ que	que	SCONJ
 vous	vous	PRON
 trichez	tricher	VERB
 .	.	PUNCTsent
-Parions	parer	VERB
+parions	parer	VERB
 même	même	ADV
 que	que	SCONJ
 vous	vous	PRON
@@ -6477,24 +6477,24 @@ de	de	ADP
 l'	le	DET
 œuvre	œuvre	NOUN
 du	du	ADP_DET
-Malin	Malin	PROPN
+malin	malin	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 est	être	AUX
 menteur	menteur	ADJ
 et	et	CCONJ
 le	le	DET
-Père	Père	NOUN
+père	père	NOUN
 du	du	ADP_DET
 mensonge	mensonge	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 dit	dire	VERB
 l'	le	DET
-Évangile	Évangile	NOUN
+évangile	évangile	NOUN
 tel	tel	PRON
 que	que	SCONJ
 on	on	PRON
@@ -6503,7 +6503,7 @@ cite	citer	VERB
 de	de	ADP
 ordinaire	ordinaire	NOUN
 .	.	PUNCTsent
-Ceci	ceci	PRON
+ceci	ceci	PRON
 concerne	concerner	VERB
 le	le	DET
 premier	premier	ADJ
@@ -6547,7 +6547,7 @@ de	de	ADP
 exister	exister	VERB
 )	)	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 texte	texte	NOUN
 original	original	ADJ
@@ -6560,7 +6560,7 @@ plus	plus	ADV
 étrange	étrange	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 est	être	AUX
 menteur	menteur	ADJ
@@ -6580,7 +6580,7 @@ propre	propre	ADJ
 mensonge	mensonge	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Par	par	ADP
+par	par	ADP
 ici	ici	ADV
 nous	nous	PRON
 entrons	entrer	VERB
@@ -6589,7 +6589,7 @@ mystère	mystère	NOUN
 du	du	ADP_DET
 mal	mal	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 père	père	NOUN
 de	de	ADP
 son	son	DET
@@ -6628,7 +6628,7 @@ mis	mettre	VERB
 au	au	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Monstrueuse	monstrueux	ADJ
+monstrueuse	monstrueux	ADJ
 création	création	NOUN
 du	du	ADP_DET
 mensonge	mensonge	NOUN
@@ -6667,7 +6667,7 @@ l'	le	DET
 art	art	NOUN
 inauthentique	inauthentique	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 est	être	AUX
 le	le	DET
@@ -6703,7 +6703,7 @@ mêmes	même	ADJ
 du	du	ADP_DET
 beau	beau	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -6736,9 +6736,9 @@ ne	ne	ADV
 existe	exister	VERB
 pas	pas	ADV
 de	de	DET
-Loi	Loi	NOUN
+loi	loi	NOUN
 .	.	PUNCTsent
-Peut-être	peut-être	ADV
+peut-être	peut-être	ADV
 ici	ici	ADV
 découvrons	découvrir	VERB
 nous	nous	PRON
@@ -6757,7 +6757,7 @@ de	de	ADP
 innocence	innocence	NOUN
 utopique	utopique	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 mensonge	mensonge	NOUN
 ordinaire	ordinaire	ADJ
 ne	ne	ADV
@@ -6779,7 +6779,7 @@ nous	nous	PRON
 jugeait	juger	VERB
 encore	encore	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 mensonge	mensonge	NOUN
 diabolique	diabolique	ADJ
@@ -6787,7 +6787,7 @@ nie	nier	VERB
 le	le	DET
 juge	juge	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 part	partir	VERB
 que	que	ADV
@@ -6824,10 +6824,10 @@ vérité	vérité	NOUN
 10	10	NUM
 .	.	PUNCTsent
 l'	le	DET
-Accusateur	Accusateur	NOUN
+accusateur	accusateur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Par	par	ADP
+par	par	ADP
 le	le	DET
 doute	doute	NOUN
 que	que	SCONJ
@@ -6864,7 +6864,7 @@ bien	bien	NOUN
 pensons	penser	VERB
 nous	nous	PRON
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	DET
 mouvement	mouvement	NOUN
 de	de	ADP
@@ -6901,7 +6901,7 @@ le	le	DET
 néant	néant	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 mal	mal	ADV
 fait	faire	VERB
 ,	,	PUNCTclause
@@ -6932,7 +6932,7 @@ de	de	ADP
 sa	son	DET
 révolte	révolte	NOUN
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 que	que	SCONJ
 il	il	PRON
 nous	nous	PRON
@@ -6948,7 +6948,7 @@ qui	qui	PRON
 pointe	pointer	VERB
 vers	vers	ADP
 l'	le	DET
-Enfer	Enfer	NOUN
+enfer	enfer	NOUN
 :	:	PUNCTclause
 il	il	PRON
 nous	nous	PRON
@@ -6970,7 +6970,7 @@ possible	possible	ADJ
 réparation	réparation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 au	au	ADP_DET
 monde	monde	NOUN
@@ -7005,7 +7005,7 @@ et	et	CCONJ
 le	le	DET
 réel	réel	ADJ
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 douter	douter	VERB
 du	du	ADP_DET
 pardon	pardon	NOUN
@@ -7035,7 +7035,7 @@ pour	pour	ADP
 moi	moi	PRON
 »	»	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 croire	croire	VERB
 au	au	ADP_DET
@@ -7073,7 +7073,7 @@ courage	courage	NOUN
 de	de	ADP
 rebâtir	rebâtir	VERB
 .	.	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 qui	qui	PRON
 doute	douter	VERB
 du	du	ADP_DET
@@ -7101,11 +7101,11 @@ l'	le	DET
 étendue	étendue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 diable	diable	NOUN
 est	être	AUX
 cet	ce	DET
-Accusateur	Accusateur	NOUN
+accusateur	accusateur	NOUN
 qui	qui	PRON
 veut	vouloir	VERB
 nous	nous	PRON
@@ -7126,13 +7126,13 @@ du	du	ADP_DET
 pire	pire	NOUN
 .	.	PUNCTsent
 l'	le	DET
-Apocalypse	Apocalypse	PROPN
+apocalypse	apocalypse	UNKNOWN
 le	le_PRON	PRON
 désigne	désigner	VERB
 comme	comme	ADP
 «	«	PUNCTclause
 l'	le	DET
-Accusateur	Accusateur	NOUN
+accusateur	accusateur	NOUN
 de	de	ADP
 nos	nos	DET
 frères	frère	NOUN
@@ -7191,7 +7191,7 @@ la	le	DET
 plus	plus	ADV
 impitoyable	impitoyable	ADJ
 .	.	PUNCTsent
-Non	non	ADV
+non	non	ADV
 par	par	ADP
 amour	amour	NOUN
 de	de	ADP
@@ -7209,7 +7209,7 @@ par	par	ADP
 haine	haine	NOUN
 froide	froid	ADJ
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 le	le	DET
 stérile	stérile	ADJ
 plaisir	plaisir	NOUN
@@ -7247,7 +7247,7 @@ arrêté	arrêter	VERB
 pour	pour	ADP
 toujours	toujours	ADV
 .	.	PUNCTsent
-Depuis	depuis	ADP
+depuis	depuis	ADP
 sa	son	DET
 chute	chute	NOUN
 ,	,	PUNCTclause
@@ -7258,7 +7258,7 @@ le	le	DET
 sens	sens	NOUN
 de	de	ADP
 la	le	DET
-Création	Création	NOUN
+création	création	NOUN
 continue	continuer	VERB
 ,	,	PUNCTclause
 du	du	ADP_DET
@@ -7267,7 +7267,7 @@ immanent	immanent	ADJ
 au	au	ADP_DET
 réel	réel	ADJ
 .	.	PUNCTsent
-Par-dessus	par-dessus	ADP
+par-dessus	par-dessus	ADP
 tout	tout	PRON
 ,	,	PUNCTclause
 il	il	PRON
@@ -7278,9 +7278,9 @@ du	du	ADP_DET
 drame	drame	NOUN
 de	de	ADP
 la	le	DET
-Rédemption	Rédemption	NOUN
+rédemption	rédemption	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 sait	savoir	VERB
 pas	pas	ADV
@@ -7311,7 +7311,7 @@ le	le	DET
 centre	centre	NOUN
 de	de	ADP
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -7322,7 +7322,7 @@ histoires	histoire	NOUN
 individuelles	individuel	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Aussi	aussi	ADV
+aussi	aussi	ADV
 ,	,	PUNCTclause
 partout	partout	ADV
 où	où	PRON
@@ -7346,7 +7346,7 @@ qui	qui	PRON
 parle	parler	VERB
 ,	,	PUNCTclause
 l'	le	DET
-Accusateur	Accusateur	NOUN
+accusateur	accusateur	NOUN
 qui	qui	PRON
 tient	tenir	VERB
 le	le	DET
@@ -7367,7 +7367,7 @@ calcul	calcul	NOUN
 statistique	statistique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 duplicité	duplicité	NOUN
 infernale	infernal	ADJ
 ,	,	PUNCTclause
@@ -7408,9 +7408,9 @@ de	de	ADP
 contravention	contravention	NOUN
 devant	devant	ADP
 le	le	DET
-Juge	Juge	NOUN
+juge	juge	NOUN
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 la	le	DET
 morale	morale	NOUN
 laïque	laïque	ADJ
@@ -7438,11 +7438,11 @@ de	de	ADP
 tout	tout	PRON
 recours	recourir	VERB
 à	à	ADP
-Celui	celui	PRON
+celui	celui	PRON
 qui	qui	PRON
 pardonne	pardonner	VERB
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 ne	ne	ADV
 laisse	laisser	VERB
 aux	au	ADP_DET
@@ -7461,20 +7461,20 @@ révolte	révolte	NOUN
 ↵↵	↵↵	PUNCTstruct
 11	11	NUM
 .	.	PUNCTsent
-Légion	légion	NOUN
+légion	légion	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 appelle	appeler	VERB
 le	le	DET
 diable	diable	NOUN
 :	:	PUNCTclause
-Légion	Légion	NOUN
+légion	légion	NOUN
 .	.	PUNCTsent
-Ici	ici	ADV
+ici	ici	ADV
 nous	nous	PRON
 ne	ne	ADV
 en	en	PRON
@@ -7489,7 +7489,7 @@ nature	nature	NOUN
 du	du	ADP_DET
 sujet	sujet	NOUN
 .	.	PUNCTsent
-Bornons	borner	VERB
+bornons	borner	VERB
 nous	nous	PRON
 à	à	ADP
 marquer	marquer	VERB
@@ -7507,11 +7507,11 @@ du	du	DET
 livre	livre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 le	le	DET
 diable	diable	NOUN
 est	être	AUX
-Légion	Légion	PROPN
+légion	légion	UNKNOWN
 ,	,	PUNCTclause
 cela	cela	PRON
 signifie	signifier	VERB
@@ -7538,7 +7538,7 @@ le	le	DET
 monde	monde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 cela	cela	PRON
 peut	pouvoir	VERB
 signifier	signifier	VERB
@@ -7552,7 +7552,7 @@ masse	masse	NOUN
 anonyme	anonyme	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 finalement	finalement	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -7569,10 +7569,10 @@ apparaître	apparaître	VERB
 comme	comme	ADP
 ne	ne	ADV
 étant	être	AUX
-Personne	personne_PRON	ADV
+personne	personne_PRON	ADV
 en particulier	en particulier	ADV
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ceci	ceci	PRON
 nous	nous	PRON
 ramène	ramener	VERB
@@ -7594,10 +7594,10 @@ existence	existence	NOUN
 même	même	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 nom	nom	NOUN
 de	de	ADP
-Légion	Légion	NOUN
+légion	légion	NOUN
 évoque	évoquer	VERB
 par ailleurs	par ailleurs	ADV
 le	le	DET
@@ -7606,7 +7606,7 @@ hellénique	hellénique	ADJ
 de	de	ADP
 Protée	Protée	PROPN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 venons	venir	VERB
 de	de	ADP
 énumérer	énumérer	VERB
@@ -7619,7 +7619,7 @@ diable	diable	NOUN
 revêt	revêtir	VERB
 dans	dans	ADP
 la	le	DET
-Bible	Bible	NOUN
+bible	bible	NOUN
 :	:	PUNCTclause
 ils	ils	PRON
 sont	être	AUX
@@ -7636,7 +7636,7 @@ son	son	DET
 malheur	malheur	NOUN
 originel	originel	ADJ
 .	.	PUNCTsent
-Satan	Satan	PROPN
+Satan	Satan	DET
 craint	craindre	VERB
 de	de	ADP
 se	se	PRON
@@ -7660,7 +7660,7 @@ exister	exister	VERB
 nos	nos	DET
 yeux	œil	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 présentera	présenter	VERB
 donc	donc	ADV
@@ -7675,7 +7675,7 @@ ou	ou	CCONJ
 flatteurs	flatteur	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Déguisement	déguisement	NOUN
+déguisement	déguisement	NOUN
 ,	,	PUNCTclause
 tu	tu	PRON
 es	être	VERB
@@ -7690,7 +7690,7 @@ ruse	ruse	NOUN
 par	par	ADP
 où	où	PRON
 notre	notre	DET
-Ennemi	Ennemi	NOUN
+ennemi	ennemi	NOUN
 ,	,	PUNCTclause
 fertile	fertile	ADJ
 en	en	ADP
@@ -7702,13 +7702,13 @@ action	action	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 pouvons	pouvoir	VERB
 comprendre	comprendre	VERB
 cette	ce	DET
 ruse	ruse	NOUN
 .	.	PUNCTsent
-Pourquoi	pourquoi	ADV
+pourquoi	pourquoi	ADV
 sommes	être	AUX
 nous	nous	PRON
 parfois	parfois	ADV
@@ -7746,7 +7746,7 @@ de	de	ADP
 nos	nos	DET
 possibilités	possibilité	NOUN
 .	.	PUNCTsent
-Chose	chose	NOUN
+chose	chose	NOUN
 étrange	étrange	ADJ
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -7776,7 +7776,7 @@ masque	masque	NOUN
 nos	nos	DET
 méfaits	méfait	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 sommes	être	AUX
 prêts	prêt	ADJ
 à	à	ADP
@@ -7804,14 +7804,14 @@ de	de	ADP
 projeter	projeter	VERB
 sur	sur	ADP
 les	le	DET
-Choses	Choses	NOUN
+choses	chose	NOUN
 ,	,	PUNCTclause
 le	le	DET
-Destin	Destin	PROPN
+destin	destin	UNKNOWN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 les	le	DET
-Autres	Autres	NOUN
+autres	autre	NOUN
 ,	,	PUNCTclause
 un	un	DET
 mal	mal	NOUN
@@ -7823,7 +7823,7 @@ réellement	réellement	ADV
 en	en	ADP
 nous	nous	PRON
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 chacun	chacun	PRON
 de	de	ADP
 nous	nous	PRON
@@ -7849,7 +7849,7 @@ seuls	seul	ADJ
 chefs	chef	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ici	ici	ADV
+ici	ici	ADV
 le	le	DET
 diable	diable	NOUN
 joue	jouer	VERB
@@ -7864,7 +7864,7 @@ de	de	ADP
 nos	nos	DET
 vies	vie	NOUN
 .	.	PUNCTsent
-Autrefois	autrefois	ADV
+autrefois	autrefois	ADV
 il	il	PRON
 avait	avoir	VERB
 recours	recours	NOUN
@@ -7872,7 +7872,7 @@ au	au	ADP_DET
 déguisement	déguisement	NOUN
 vestimentaire	vestimentaire	ADJ
 .	.	PUNCTsent
-Aujourd'hui	aujourd'hui	ADV
+aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 le	le	DET
 costume	costume	NOUN
@@ -7881,7 +7881,7 @@ signifie	signifier	VERB
 plus	plus	ADV
 rien	rien	PRON
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 phénomène	phénomène	NOUN
 du	du	ADP_DET
 déguisement	déguisement	NOUN
@@ -7912,7 +7912,7 @@ dans	dans	ADP
 l'	le	DET
 impunité	impunité	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 monde	monde	NOUN
 actuel	actuel	ADJ
 est	être	AUX
@@ -7929,7 +7929,7 @@ costume	costume	NOUN
 de	de	ADP
 louage	louage	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 se	se	PRON
 cachent	cacher	VERB
 à	à	ADP
@@ -7937,7 +7937,7 @@ leurs	leur	DET
 propres	propre	ADJ
 yeux	œil	NOUN
 .	.	PUNCTsent
-Comment	comment	ADV
+comment	comment	ADV
 connaîtraient	connaître	VERB
 ils	ils	PRON
 Satan	Satan	PROPN
@@ -7965,17 +7965,17 @@ pourrait	pouvoir	VERB
 se	se	PRON
 révéler	révéler	VERB
 le	le	DET
-Tentateur	Tentateur	NOUN
+tentateur	tentateur	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 12	12	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 sophisme	sophisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
-Ange	Ange	PROPN
+ange	ange	UNKNOWN
 déchu	déchoir	VERB
 nous	nous	PRON
 dit	dire	VERB
@@ -7993,7 +7993,7 @@ pas	pas	ADV
 d'autre	d'autre	DET
 espérance	espérance	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 Prince	Prince	PROPN
 de	de	ADP
 ce	ce	PRON
@@ -8009,8 +8009,8 @@ pas	pas	ADV
 d'autre	d'autre	DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Le	le	DET
-Tentateur	Tentateur	NOUN
+le	le	DET
+tentateur	tentateur	NOUN
 nous	nous	PRON
 dit	dire	VERB
 :	:	PUNCTclause
@@ -8023,7 +8023,7 @@ de	de	ADP
 juge	juge	NOUN
 .	.	PUNCTsent
 l'	le	DET
-Accusateur	Accusateur	NOUN
+accusateur	accusateur	NOUN
 nous	nous	PRON
 dit	dire	VERB
 :	:	PUNCTclause
@@ -8035,8 +8035,8 @@ point	point	ADV
 de	de	ADP
 pardon	pardon	NOUN
 .	.	PUNCTsent
-Le	le	DET
-Menteur	Menteur	NOUN
+le	le	DET
+menteur	menteur	NOUN
 résume	résumer	VERB
 tout	tout	ADV
 en	en	ADP
@@ -8070,8 +8070,8 @@ pas	pas	ADV
 de	de	ADP
 réalité	réalité	NOUN
 .	.	PUNCTsent
-Enfin	enfin	ADV
-Légion	Légion	NOUN
+enfin	enfin	ADV
+légion	légion	NOUN
 dit	dire	VERB
 le	le	DET
 dernier	dernier	ADJ
@@ -8081,10 +8081,10 @@ il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	AUX
-Personne	Personne	PROPN
+personne	personne_PRON	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le_PRON	PRON
+le	le_PRON	PRON
 monde	monde	NOUN
 moderne	moderne	ADJ
 (	(	PUNCTclause
@@ -8164,7 +8164,7 @@ loi	loi	NOUN
 de	de	ADP
 Satan	Satan	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 du même coup	du même coup	ADP
 ,	,	PUNCTclause
 il	il	PRON
@@ -8178,7 +8178,7 @@ il	il	PRON
 sert	servir	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Satan	Satan	PROPN
+Satan	Satan	PRON
 veut	vouloir	VERB
 nous	nous	PRON
 faire	faire	AUX
@@ -8192,7 +8192,7 @@ pas	pas	ADV
 d'autre	d'autre	DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 nous	nous	PRON
 le	le	DET
 croyons	croire	VERB
@@ -8240,7 +8240,7 @@ enfer	enfer	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 de	de	DET
-Maître	Maître	NOUN
+maître	maître	NOUN
 de	de	ADP
 l'	le	DET
 enfer	enfer	NOUN
@@ -8265,7 +8265,7 @@ de	de	ADP
 faute	faute	NOUN
 ni	ni	CCONJ
 de	de	DET
-Auteur	Auteur	NOUN
+auteur	auteur	NOUN
 du	du	DET
 mal	mal	NOUN
 .	.	PUNCTsent
@@ -8289,7 +8289,7 @@ de	de	ADP
 mensonge	mensonge	NOUN
 ni	ni	CCONJ
 de	de	ADP
-Menteur	Menteur	PROPN
+menteur	menteur	UNKNOWN
 .	.	PUNCTsent
 si	si	SCONJ
 il	il	PRON
@@ -8310,7 +8310,7 @@ plus	plus	ADV
 lui	lui	PRON
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 ,	,	PUNCTclause
 plus	plus	ADV
 il	il	PRON
@@ -8325,7 +8325,7 @@ pouvons	pouvoir	VERB
 le	le_PRON	PRON
 reconnaître	reconnaître	VERB
 .	.	PUNCTsent
-Plus	plus	ADV
+plus	plus	ADV
 il	il	PRON
 est	être	AUX
 effectif	effectif	ADJ
@@ -8335,7 +8335,7 @@ il	il	PRON
 paraît	paraître	VERB
 dangereux	dangereux	ADJ
 .	.	PUNCTsent
-Sa	son	DET
+sa	son	DET
 propre	propre	ADJ
 action	action	NOUN
 le	le	DET
@@ -8346,7 +8346,7 @@ que	que	SCONJ
 elle	elle	PRON
 domine	dominer	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 évanouit	évanouir	VERB
 dans	dans	ADP
@@ -8361,7 +8361,7 @@ son	son	DET
 incognito	incognito	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 preuve	preuve	NOUN
 que	que	SCONJ
 le	le	DET
@@ -8383,7 +8383,7 @@ croyons	croire	VERB
 plus	plus	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 à	à	ADP
 l'	le	DET
 inverse	inverse	NOUN
@@ -8395,7 +8395,7 @@ pas	pas	ADV
 douteux	douteux	ADJ
 que	que	SCONJ
 ce	ce	DET
-Dissimulé	Dissimulé	NOUN
+dissimulé	dissimuler	NOUN
 ne	ne	ADV
 perde	perdre	VERB
 sa	son	DET
@@ -8431,7 +8431,7 @@ sa	son	DET
 tactique	tactique	NOUN
 favorite	favori	ADJ
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avons	avoir	AUX
 donc	donc	ADV
 soumis	soumettre	VERB
@@ -8443,7 +8443,7 @@ au	au	ADP_DET
 réactif	réactif	NOUN
 de	de	ADP
 la	le	DET
-Révélation	Révélation	NOUN
+révélation	révélation	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 le	le_PRON	PRON
@@ -8455,7 +8455,7 @@ l'	le	DET
 spirituel	spirituel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 va	aller	VERB
 il	il	PRON
 se	se	PRON
@@ -8483,7 +8483,7 @@ nous	nous	PRON
 la	le	DET
 connaissance	connaissance	NOUN
 du	du	ADP_DET
-Bien	Bien	PROPN
+bien	bien	UNKNOWN
 ,	,	PUNCTclause
 comme	comme	ADP
 le	le	DET
@@ -8501,7 +8501,7 @@ et	et	CCONJ
 péché	pécher	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Imaginez	imaginer	VERB
+imaginez	imaginer	VERB
 que	que	SCONJ
 le	le	DET
 diable	diable	NOUN
@@ -8530,7 +8530,7 @@ moralistes	moraliste	NOUN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 serait	être	AUX
 un	un	DET
 excellent	excellent	ADJ
@@ -8614,7 +8614,7 @@ pas	pas	ADV
 le	le	DET
 voir	voir	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 nous	nous	PRON
 terroriserait	terroriser	VERB
 si	si	SCONJ
@@ -8639,7 +8639,7 @@ peur	peur	NOUN
 que	que	SCONJ
 envie	envie	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 nous	nous	PRON
 savions	savoir	VERB
 voir	voir	VERB
@@ -8655,7 +8655,7 @@ beaucoup	beaucoup	ADV
 plus	plus	ADV
 prudents	prudent	ADJ
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 astuce	astuce	NOUN
 sera	être	AUX
 donc	donc	ADV
@@ -8690,7 +8690,7 @@ dans	dans	ADP
 le	le	DET
 conte	conte	NOUN
 du	du	ADP_DET
-Chaperon	Chaperon	NOUN
+chaperon	chaperon	NOUN
 rouge	rouge	ADJ
 ,	,	PUNCTclause
 alors que	alors que	CCONJ
@@ -8797,7 +8797,7 @@ trouble	trouble	NOUN
 de	de	ADP
 conscience	conscience	NOUN
 .	.	PUNCTsent
-Elles	elles	PRON
+elles	elles	PRON
 ne	ne	ADV
 conçoivent	concevoir	VERB
 pas	pas	ADV
@@ -8829,7 +8829,7 @@ veut	vouloir	VERB
 du	du	DET
 mal	mal	NOUN
 .	.	PUNCTsent
-Elles	elles	PRON
+elles	elles	PRON
 ne	ne	ADV
 se	se	PRON
 doutent	douter	VERB
@@ -8855,7 +8855,7 @@ lui	lui	PRON
 seul	seul	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 diable-apparition	diable-apparition	NOUN
 ,	,	PUNCTclause
 sans	sans	ADP
@@ -8898,7 +8898,7 @@ refusons	refuser	VERB
 de	de	ADP
 assumer	assumer	VERB
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 subterfuge	subterfuge	NOUN
 de	de	ADP
 l'	le	DET
@@ -8916,7 +8916,7 @@ honteuse	honteux	ADJ
 de	de	ADP
 nous-mêmes	nous-mêmes	PRON
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 le	le	DET
 résultat	résultat	NOUN
 nous	nous	PRON
@@ -8943,7 +8943,7 @@ et	et	CCONJ
 fantastique	fantastique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 d'autres	d'autre	PRON
 vont	aller	VERB
 me	me	PRON
@@ -8960,14 +8960,14 @@ mieux	mieux	ADV
 réveillés	réveiller	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Pourquoi	pourquoi	ADV
+pourquoi	pourquoi	ADV
 parler	parler	VERB
 de	de	ADP
 un	un	DET
 diable	diable	NOUN
 personnel	personnel	ADJ
 ?	?	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 voyons	voir	VERB
 bien	bien	ADV
 le	le	DET
@@ -8978,7 +8978,7 @@ pas	pas	ADV
 le	le	DET
 diable	diable	NOUN
 .	.	PUNCTsent
-Ne	ne	ADV
+ne	ne	ADV
 peut	pouvoir	VERB
 on	on	PRON
 pas	pas	ADV
@@ -8987,7 +8987,7 @@ faire	faire	VERB
 l'	le	DET
 économie	économie	NOUN
 ?	?	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 l'on	on	PRON
 dissipait	dissiper	VERB
 le	le	DET
@@ -9007,7 +9007,7 @@ l'	le	DET
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Ici	ici	ADV
+ici	ici	ADV
 ,	,	PUNCTclause
 le	le	DET
 diable	diable	NOUN
@@ -9040,7 +9040,7 @@ la	le	DET
 figure	figure	NOUN
 mythique	mythique	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 tour	tour	NOUN
 est	être	AUX
 subtil	subtil	ADJ
@@ -9060,7 +9060,7 @@ le	le	DET
 déjouer	déjouer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Certes	certes	ADV
+certes	certes	ADV
 ,	,	PUNCTclause
 le	le	DET
 péché	péché	NOUN
@@ -9080,7 +9080,7 @@ de	de	ADP
 soi-même	soi-même	PRON
 et	et	CCONJ
 sans	sans	ADP
-Auteur	Auteur	NOUN
+auteur	auteur	NOUN
 ,	,	PUNCTclause
 en vertu de	en vertu de	ADP
 une	un	DET
@@ -9094,7 +9094,7 @@ de	de	ADP
 l'	le	DET
 habitude	habitude	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 coutume	coutume	NOUN
 du	du	ADP_DET
 mal	mal	NOUN
@@ -9165,7 +9165,7 @@ de	de	ADP
 toute	toute	DET
 espèce	espèce	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 possible	possible	ADJ
 que	que	SCONJ
@@ -9181,7 +9181,7 @@ pour	pour	ADP
 si	si	ADV
 peu	peu	ADV
 .	.	PUNCTsent
-Comme	comme	ADP
+comme	comme	ADP
 un	un	DET
 directeur	directeur	NOUN
 de	de	ADP
@@ -9205,7 +9205,7 @@ la	le	DET
 politique	politique	NOUN
 mondiale	mondial	ADJ
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 cependant	cependant	ADV
 où	où	PRON
 l'on	on	PRON
@@ -9238,7 +9238,7 @@ se	se	PRON
 justifier	justifier	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 mécanismes	mécanisme	NOUN
 hérités	hérité	VERB
@@ -9263,7 +9263,7 @@ ce	ce	PRON
 est	être	AUX
 lui	lui	PRON
 !	!	PUNCTsent
-Tout	tout	PRON
+tout	tout	PRON
 de	de	ADP
 un	un	DET
 coup	coup	NOUN
@@ -9367,7 +9367,7 @@ sans	sans	ADP
 issue	issue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 cas	cas	NOUN
 de	de	ADP
 ce	ce	DET
@@ -9389,7 +9389,7 @@ nos	nos	DET
 péchés	péché	NOUN
 catalogués	cataloguer	VERB
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 les	le	DET
 autres	autre	ADJ
 ,	,	PUNCTclause
@@ -9412,7 +9412,7 @@ les	le	DET
 règlements	règlement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 compte	compter	VERB
 me	me	PRON
 livrer	livrer	VERB
@@ -9439,7 +9439,7 @@ de	de	ADP
 nos	nos	DET
 actes	acte	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
@@ -9466,7 +9466,7 @@ tendait	tendre	VERB
 à	à	ADP
 dégager	dégager	VERB
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 dernière	dernier	ADJ
 analyse	analyse	NOUN
 ,	,	PUNCTclause
@@ -9487,7 +9487,7 @@ de	de	ADP
 nos	nos	DET
 vertus	vertu	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 nous	nous	PRON
 savons	savoir	VERB
 que	que	SCONJ
@@ -9505,7 +9505,7 @@ de	de	ADP
 son	son	DET
 action	action	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 donc	donc	ADV
@@ -9523,7 +9523,7 @@ fait	faire	VERB
 par	par	ADP
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-Nos	nos	DET
+nos	nos	DET
 vices	vice	NOUN
 mêmes	même	ADJ
 ne	ne	ADV
@@ -9542,7 +9542,7 @@ vertus	vertu	NOUN
 mal	mal	ADV
 orientées	orienter	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 sens	sens	NOUN
 originel	originel	ADJ
 de	de	ADP
@@ -9571,7 +9571,7 @@ la	le	DET
 conscience	conscience	NOUN
 humaine	humain	ADJ
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 vice	vice	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -9616,7 +9616,7 @@ ce	ce	DET
 bien	bien	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 donc	donc	ADV
 je	je	PRON
 évite	éviter	VERB
@@ -9661,7 +9661,7 @@ désir	désir	NOUN
 de	de	ADP
 surprendre	surprendre	VERB
 .	.	PUNCTsent
-Tout	tout	ADV
+tout	tout	ADV
 simplement	simplement	ADV
 ,	,	PUNCTclause
 le	le	DET
@@ -9672,7 +9672,7 @@ en	en	ADP
 temps	temps	NOUN
 normal	normal	ADJ
 .	.	PUNCTsent
-Poussé	pousser	VERB
+poussé	pousser	VERB
 par	par	ADP
 la	le	DET
 logique	logique	NOUN
@@ -9707,7 +9707,7 @@ maudissait	maudire	VERB
 le	le	DET
 Jésus-Christ	Jésus-Christ	PROPN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 lui	lui	PRON
 donne	donner	VERB
 rendez-vous	rendez-vous	NOUN
@@ -9718,12 +9718,12 @@ vertus	vertu	NOUN
 ↵↵	↵↵	PUNCTstruct
 14	14	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 psychanalyste	psychanalyste	NOUN
 confondu	confondre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 dernier	dernier	ADJ
 mot	mot	NOUN
 sur	sur	ADP
@@ -9820,14 +9820,14 @@ conditionnement	conditionnement	NOUN
 social	social	ADJ
 insuffisant	insuffisant	ADJ
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 ne	ne	ADV
 sommes	être	AUX
 responsables	responsable	ADJ
 de	de	ADP
 rien	rien	PRON
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 ne	ne	ADV
 sommes	être	AUX
 pas	pas	ADV
@@ -9837,7 +9837,7 @@ mais	mais	CCONJ
 malades	malade	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 psychanalyse	psychanalyse	NOUN
 ,	,	PUNCTclause
 considérée	considérer	VERB
@@ -9865,7 +9865,7 @@ le	le	DET
 péché	péché	NOUN
 et	et	CCONJ
 le	le	DET
-Mal	Mal	PROPN
+mal	mal	UNKNOWN
 à	à	ADP
 des	un	DET
 mécanismes	mécanisme	NOUN
@@ -9880,14 +9880,14 @@ rendre	rendre	VERB
 le	le	DET
 maître	maître	NOUN
 .	.	PUNCTsent
-Chaque	chaque	DET
+chaque	chaque	DET
 époque	époque	NOUN
 a	avoir	VERB
 son	son	DET
 utopie	utopie	NOUN
 .	.	PUNCTsent
-Le	le	DET
-Moyen-Âge	Moyen-Âge	NOUN
+le	le	DET
+moyen-âge	moyen-âge	NOUN
 cherchait	chercher	VERB
 la	le	DET
 pierre	pierre	NOUN
@@ -9898,7 +9898,7 @@ cornues	cornu	NOUN
 des	un	ADP_DET
 alchimistes	alchimiste	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 essayons	essayer	VERB
 de	de	ADP
 dissoudre	dissoudre	VERB
@@ -9911,7 +9911,7 @@ troubles	trouble	ADJ
 du	du	ADP_DET
 subconscient	subconscient	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 encore	encore	ADV
@@ -9925,7 +9925,7 @@ de	de	ADP
 l'	le	DET
 incognito	incognito	NOUN
 .	.	PUNCTsent
-Point	point	ADV
+point	point	ADV
 de	de	ADP
 diable	diable	NOUN
 aux	au	ADP_DET
@@ -9952,7 +9952,7 @@ sentiment	sentiment	NOUN
 de	de	ADP
 culpabilité	culpabilité	NOUN
 .	.	PUNCTsent
-Guérissez	guérir	VERB
+guérissez	guérir	VERB
 ce	ce	DET
 sentiment	sentiment	NOUN
 ,	,	PUNCTclause
@@ -9970,7 +9970,7 @@ donc	donc	ADV
 de	de	ADP
 diable	diable	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 démon	démon	NOUN
 ne	ne	ADV
 serait	être	AUX
@@ -9997,7 +9997,7 @@ du	du	ADP_DET
 traitement	traitement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 demanderait	demander	VERB
 pas	pas	ADV
@@ -10007,7 +10007,7 @@ de	de	ADP
 y	y	PRON
 croire	croire	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 les	le	DET
 psychanalystes	psychanalyste	NOUN
 et	et	CCONJ
@@ -10056,7 +10056,7 @@ par	par	ADP
 ses	son	DET
 complexes	complexe	NOUN
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 la	le	DET
 chute	chute	NOUN
 de	de	ADP
@@ -10066,7 +10066,7 @@ Lucifer	Lucifer	PROPN
 est	être	AUX
 justement	justement	ADV
 l'	le	DET
-Accident	Accident	NOUN
+accident	accident	NOUN
 absolu	absolu	ADJ
 qui	qui	PRON
 survint	survenir	VERB
@@ -10108,7 +10108,7 @@ pas	pas	ADV
 vraie	vrai	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comme	comme	SCONJ
+comme	comme	SCONJ
 on	on	PRON
 demandait	demander	VERB
 à	à	ADP
@@ -10134,7 +10134,7 @@ l'	le	DET
 anecdote	anecdote	NOUN
 suivante	suivant	ADJ
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 jour	jour	NOUN
 une	un	DET
 dame	dame	NOUN
@@ -10167,7 +10167,7 @@ par	par	ADP
 les	le	DET
 oiseaux	oiseau	NOUN
 .	.	PUNCTsent
-Depuis	depuis	ADP
+depuis	depuis	ADP
 des	un	DET
 mois	mois	NOUN
 elle	elle	PRON
@@ -10182,7 +10182,7 @@ en	en	ADP
 voiture	voiture	NOUN
 fermée	fermer	VERB
 .	.	PUNCTsent
-Jugeant	juger	VERB
+jugeant	juger	VERB
 elle-même	elle-même	PRON
 que	que	SCONJ
 il	il	PRON
@@ -10200,7 +10200,7 @@ de	de	ADP
 la	le	DET
 traiter	traiter	VERB
 .	.	PUNCTsent
-Chacun	chacun	PRON
+chacun	chacun	PRON
 sait	savoir	VERB
 ce	ce	PRON
 que	que	PRON
@@ -10209,7 +10209,7 @@ oiseau	oiseau	NOUN
 veut	vouloir	VERB
 dire	dire	VERB
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 cas	cas	NOUN
 paraissait	paraître	VERB
 clair	clair	ADJ
@@ -10218,12 +10218,12 @@ la	le	DET
 cure	cure	NOUN
 facile	facile	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 séances	séance	NOUN
 commencèrent	commencer	VERB
 aussitôt	aussitôt	ADV
 .	.	PUNCTsent
-Après	après	ADP
+après	après	ADP
 deux	deux	NUM
 ou	ou	CCONJ
 trois	trois	NUM
@@ -10240,7 +10240,7 @@ se	se	PRON
 notablement	notablement	ADV
 amélioré	améliorer	VERB
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 dormait	dormir	VERB
 mieux	mieux	ADV
 ,	,	PUNCTclause
@@ -10254,7 +10254,7 @@ duraient	durer	VERB
 moins	moins	ADV
 longtemps	longtemps	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 nul	nul	ADJ
 changement	changement	NOUN
 ne	ne	ADV
@@ -10266,10 +10266,10 @@ phobie	phobie	NOUN
 des	un	ADP_DET
 oiseaux	oiseau	NOUN
 …	…	PUNCTsent
-On	on	PRON
+on	on	PRON
 continua	continuer	VERB
 .	.	PUNCTsent
-Tous	tout	ADJ
+tous	tout	ADJ
 les	le	DET
 complexes	complexe	NOUN
 habituels	habituel	ADJ
@@ -10294,7 +10294,7 @@ règles	règle	NOUN
 de	de	ADP
 l'	le	DET
 article	article	NOUN
-Mais	mais	CCONJ
+mais	mais	CCONJ
 toujours	toujours	ADV
 rien	rien	PRON
 ne	ne	ADV
@@ -10317,7 +10317,7 @@ oiseaux	oiseau	NOUN
 agresseurs	agresseur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 an	an	NOUN
 se	se	PRON
 écoula	écouler	VERB
@@ -10325,7 +10325,7 @@ se	se	PRON
 sans	sans	ADP
 progrès	progrès	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 médecin	médecin	NOUN
 commençait	commencer	VERB
 à	à	ADP
@@ -10340,7 +10340,7 @@ la	le	DET
 cure	cure	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Et	et	CCONJ
+et	et	CCONJ
 vous	vous	PRON
 savez	savoir	VERB
 pourtant	pourtant	ADV
@@ -10354,7 +10354,7 @@ un	un	DET
 psychanalyste	psychanalyste	NOUN
 !	!	PUNCTsent
 )	)	PUNCTclause
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 par	par	ADP
 un	un	DET
@@ -10371,13 +10371,13 @@ une	un	DET
 dernière	dernier	ADJ
 tentative	tentative	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faisait	faire	VERB
 une	un	DET
 chaleur	chaleur	NOUN
 torride	torride	ADJ
 .	.	PUNCTsent
-Jung	Jung	PROPN
+Jung	Jung	NOUN
 possède	posséder	VERB
 une	un	DET
 villa	villa	NOUN
@@ -10389,7 +10389,7 @@ lac	lac	NOUN
 de	de	ADP
 Zurich	Zurich	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 proposa	proposer	VERB
 que	que	SCONJ
 la	le	DET
@@ -10404,7 +10404,7 @@ au bord de	au bord de	ADP
 l'	le	DET
 eau	eau	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 sort	sortir	VERB
 ,	,	PUNCTclause
 la	le	DET

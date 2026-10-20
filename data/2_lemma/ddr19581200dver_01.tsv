@@ -6,11 +6,11 @@
 # title = Note liminaire
 
 ↵↵	↵↵	PUNCTstruct
-Note	noter	VERB
+note	noter	VERB
 liminaire	liminaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Au	au	ADP_DET
+au	au	ADP_DET
 terme	terme	NOUN
 de	de	ADP
 une	un	DET
@@ -22,7 +22,7 @@ séminaires	séminaire	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
 nos	nos	DET
-Bulletins	Bulletins	PROPN
+bulletins	bulletin	UNKNOWN
 ont	avoir	AUX
 publié	publier	VERB
 les	le	DET
@@ -45,7 +45,7 @@ Europe	Europe	PROPN
 —	—	PUNCTclause
 comme	comme	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 enseignement secondaire	enseignement secondaire	NOUN
@@ -79,7 +79,7 @@ ces	ce	DET
 efforts	effort	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Passer	passer	VERB
+passer	passer	VERB
 des	un	DET
 idées	idée	NOUN
 générales	général	ADJ
@@ -105,7 +105,7 @@ de	de	ADP
 notre	notre	DET
 		TOKEN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 cet	ce	DET
 engagement	engagement	NOUN
 dans	dans	ADP
@@ -144,7 +144,7 @@ leur	leur	PRON
 restera	rester	VERB
 fidèle	fidèle	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 à	à	ADP
 ces	ce	DET
@@ -161,7 +161,7 @@ se	se	PRON
 référer	référer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	PRON
 donc	donc	ADV
 que	que	SCONJ
 cette	ce	DET
@@ -171,7 +171,7 @@ nous	nous	PRON
 voulons	vouloir	VERB
 servir	servir	VERB
 ?	?	PUNCTsent
-Comment	comment	ADV
+comment	comment	ADV
 la	le	DET
 définir	définir	VERB
 ?	?	PUNCTsent
@@ -181,7 +181,7 @@ elle	elle	PRON
 au	au	ADP_DET
 monde	monde	NOUN
 ?	?	PUNCTsent
-Quelles	quel	DET
+quelles	quel	DET
 sont	être	AUX
 les	le	DET
 sources	source	NOUN
@@ -189,12 +189,12 @@ de	de	ADP
 son	son	DET
 énergie	énergie	NOUN
 ?	?	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 comment	comment	ADV
 les	le	DET
 canaliser	canaliser	VERB
 ?	?	PUNCTsent
-Les	le	DET
+les	le	DET
 essais	essai	NOUN
 que	que	PRON
 l'on	on	PRON
@@ -205,7 +205,7 @@ répondent	répondre	VERB
 ces	ce	DET
 questions	question	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ils	ils	PRON
 ne	ne	ADV
 ont	avoir	VERB
@@ -213,7 +213,7 @@ rien	rien	PRON
 de	de	ADP
 systématique	systématique	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 verra	voir	VERB
 que	que	SCONJ
 ils	ils	PRON
@@ -253,7 +253,7 @@ plusieurs	plusieurs	DET
 angles	angle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 définir	définir	VERB
 l'	le	DET
 Europe	Europe	PROPN
@@ -273,7 +273,7 @@ mars	mars	NOUN
 Nice	Nice	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 universitaire	universitaire	ADJ
 méditerranéen	méditerranéen	ADJ
 ,	,	PUNCTclause
@@ -324,7 +324,7 @@ du	du	ADP_DET
 congrès	congrès	NOUN
 de	de	ADP
 l'	le	DET
-Union	Union	NOUN
+union	union	NOUN
 internationale	international	ADJ
 des	un	ADP_DET
 producteurs	producteur	NOUN
@@ -340,11 +340,11 @@ deux	deux	NUM
 autres	autre	ADJ
 essais	essai	NOUN
 …	…	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 dona	dona	VERB
 ferentes	ferentes	ADJ
 et	et	CCONJ
-Pour	pour	ADP
+pour	pour	ADP
 une	un	DET
 politique	politique	NOUN
 de	de	ADP
@@ -381,10 +381,10 @@ n°	n°	SYM
 1	1	NUM
 de	de	ADP
 la	le	DET
-Revue	Revue	NOUN
+revue	revue	NOUN
 internationale	international	ADJ
 du	du	ADP_DET
-Marché	Marché	NOUN
+marché	marché	NOUN
 commun	commun	ADJ
 ,	,	PUNCTclause
 en	en	ADP
@@ -392,7 +392,7 @@ avril	avril	NOUN
 1958	1958	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Conçus	concevoir	VERB
+conçus	concevoir	VERB
 pour	pour	ADP
 des	un	DET
 publics	public	NOUN
@@ -418,7 +418,7 @@ uns	un	PRON
 des	un	ADP_DET
 autres	autre	PRON
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 là	là	ADV
 certaines	certain	DET
 répétitions	répétition	NOUN
@@ -440,7 +440,7 @@ de	de	ADP
 l'	le	DET
 exposé	exposé	NOUN
 .	.	PUNCTsent
-Mieux	mieux	ADV
+mieux	mieux	ADV
 vaut	valoir	VERB
 dix	dix	NUM
 fois	fois	NOUN
@@ -462,7 +462,7 @@ en vue de	en vue de	ADP
 l'	le	DET
 action	action	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 l'on	on	PRON
 voit	voir	VERB
 bien	bien	ADV

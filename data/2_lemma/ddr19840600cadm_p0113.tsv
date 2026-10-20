@@ -6,10 +6,10 @@
 # title = "Chronique européenne : La préparation des élections européennes (printemps 1984)"
 
 ↵↵	↵↵	PUNCTstruct
-Chronique	chronique	NOUN
+chronique	chronique	NOUN
 européenne	européen	ADJ
 :	:	PUNCTclause
-La	le	DET
+la	le	DET
 préparation	préparation	NOUN
 des	un	ADP_DET
 élections	élection	NOUN
@@ -20,8 +20,8 @@ printemps	printemps	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PROPN
-Pour	pour	ADP
+I.	I.	PRON
+pour	pour	ADP
 tous	tous	PRON
 les	le	DET
 vieux	vieux	ADJ
@@ -35,14 +35,14 @@ d'abord	d'abord	ADV
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 cas	cas	NOUN
 de	de	ADP
 la	le	DET
 France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Prenons	prendre	VERB
+prenons	prendre	VERB
 ce	ce	DET
 pays	pays	NOUN
 de	de	ADP
@@ -68,7 +68,7 @@ n'importe	n'importe	ADJ
 quel	quel	DET
 pays	pays	NOUN
 des	un	ADP_DET
-Dix	Dix	PROPN
+dix	dix	UNKNOWN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 qui	qui	PRON
@@ -103,8 +103,8 @@ vertu	vertu	NOUN
 cardinale	cardinal	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Raymond	Raymond	PROPN
-Barre	Barre	PROPN
+Raymond	Raymond	VERB
+barre	barre	UNKNOWN
 traduisait	traduire	VERB
 fidèlement	fidèlement	ADV
 ,	,	PUNCTclause
@@ -133,7 +133,7 @@ sur	sur	ADP
 l'	le	DET
 élection	élection	NOUN
 du	du	ADP_DET
-Parlement	Parlement	NOUN
+parlement	parlement	NOUN
 européen	européen	ADJ
 ,	,	PUNCTclause
 «	«	PUNCTclause
@@ -146,7 +146,7 @@ avant de	avant de	ADP
 remarquer	remarquer	VERB
 :	:	PUNCTclause
 —	—	PUNCTclause
-Cette	ce	DET
+cette	ce	DET
 élection	élection	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -158,14 +158,14 @@ une	un	DET
 cantonale	cantonal	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
-Le	le	DET
-Monde	Monde	NOUN
+le	le	DET
+monde	monde	NOUN
 ,	,	PUNCTclause
 6	6	NUM
 février	février	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 tous	tout	ADJ
 les	le	DET
 chefs	chef	NOUN
@@ -193,7 +193,7 @@ national	national	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 Georges	Georges	PROPN
-Marchais	Marchais	PROPN
+marchais	marcher	UNKNOWN
 ,	,	PUNCTclause
 pour	pour	ADP
 le	le	DET
@@ -237,8 +237,8 @@ le	le	DET
 )	)	PUNCTclause
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
-Le	le	DET
-Monde	Monde	NOUN
+le	le	DET
+monde	monde	NOUN
 précisait	préciser	VERB
 le	le	DET
 15	15	NUM
@@ -282,7 +282,7 @@ l'	le_PRON	PRON
 ascension	ascension	NOUN
 de	de	ADP
 M.	M.	NOUN
-Le	le	DET
+le	le	DET
 Pen	Pen	PROPN
 ?	?	PUNCTsent
 —	—	PUNCTclause
@@ -300,7 +300,7 @@ des	un	ADP_DET
 50	50	NUM
 ?	?	PUNCTsent
 —	—	PUNCTclause
-La	le	DET
+la	le	DET
 gauche	gauche	NOUN
 peut	pouvoir	VERB
 elle	elle	PRON
@@ -313,7 +313,7 @@ retard	retard	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Problèmes	problème	NOUN
+problèmes	problème	NOUN
 ,	,	PUNCTclause
 on	on	PRON
 le	le_PRON	PRON
@@ -340,7 +340,7 @@ donc	donc	ADV
 nationale	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 unanimité	unanimité	NOUN
 des	un	ADP_DET
 passions	passion	NOUN
@@ -401,8 +401,8 @@ notre	notre	DET
 société	société	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
-S.	S.	PROPN
-Veil	Veil	PROPN
+S.	S.	X
+Veil	Veil	X
 )	)	PUNCTclause
 ou	ou	CCONJ
 «	«	PUNCTclause
@@ -447,12 +447,12 @@ un	un	DET
 intérêt	intérêt	NOUN
 relatif	relatif	ADJ
 .	.	PUNCTsent
-Interrogée	interroger	VERB
+interrogée	interroger	VERB
 par	par	ADP
 le	le	DET
 journal	journal	NOUN
-La	le	DET
-Croix	Croix	NOUN
+la	le	DET
+croix	croix	NOUN
 sur	sur	ADP
 ses	son	DET
 alliés	allié	NOUN
@@ -475,7 +475,7 @@ Chirac	Chirac	PROPN
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 fout	foutre	VERB
 de	de	ADP
@@ -494,7 +494,7 @@ l'	le	DET
 Europe	Europe	PROPN
 de	de	ADP
 Georges	Georges	PROPN
-Marchais	Marchais	PROPN
+marchais	marcher	UNKNOWN
 ,	,	PUNCTclause
 il	il	PRON
 manque	manquer	VERB
@@ -515,7 +515,7 @@ action	action	NOUN
 commune	commun	ADJ
 entre	entre	ADP
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 ,	,	PUNCTclause
 la	le	DET
 solidarité	solidarité	NOUN
@@ -529,15 +529,15 @@ de	de	ADP
 identité	identité	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
-Le	le	DET
-Monde	Monde	NOUN
+le	le	DET
+monde	monde	NOUN
 ,	,	PUNCTclause
 17	17	NUM
 mai	mai	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 pour	pour	ADP
 peu	peu	ADV
 que	que	SCONJ
@@ -549,7 +549,7 @@ la	le	DET
 droite	droite	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Ni	ni	CCONJ
+ni	ni	CCONJ
 M.	M.	NOUN
 Giscard	Giscard	PROPN
 de	de	ADP
@@ -557,7 +557,7 @@ Estaing	Estaing	PROPN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 M.	M.	NOUN
-Barre	Barre	PROPN
+barre	barre	UNKNOWN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 même	même	ADV
@@ -599,7 +599,7 @@ majorité	majorité	NOUN
 possible	possible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 21	21	NUM
 mai	mai	NOUN
 ,	,	PUNCTclause
@@ -633,7 +633,7 @@ pour	pour	ADP
 la	le	DET
 gauche	gauche	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 en	en	PRON
 est	être	AUX
 résulté	résulter	VERB
@@ -659,7 +659,7 @@ faut	falloir	VERB
 unir	unir	VERB
 d'abord	d'abord	ADV
 .	.	PUNCTsent
-Ni	ni	CCONJ
+ni	ni	CCONJ
 l'un	l'un	PRON
 ni	ni	CCONJ
 l'autre	l'autre	PRON
@@ -695,7 +695,7 @@ les	le	DET
 y	y	PRON
 aider	aider	VERB
 .	.	PUNCTsent
-Pas	pas	ADV
+pas	pas	ADV
 un	un	DET
 mot	mot	NOUN
 ne	ne	ADV
@@ -736,14 +736,14 @@ disait	dire	VERB
 un	un	DET
 journaliste	journaliste	NOUN
 .	.	PUNCTsent
-Justement	justement	ADV
+justement	justement	ADV
 ,	,	PUNCTclause
 personne	personne_PRON	PRON
 ne	ne	ADV
 en	en	PRON
 parlait	parler	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 agissait	agir	VERB
 de	de	ADP
@@ -782,12 +782,12 @@ des	un	ADP_DET
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 autres	autre	ADJ
 pays	pays	NOUN
 des	un	ADP_DET
-Dix	Dix	PROPN
+dix	dix	UNKNOWN
 ,	,	PUNCTclause
 même	même	ADV
 processus	processus	NOUN
@@ -848,7 +848,7 @@ chevronnés	chevronner	VERB
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 cas	cas	NOUN
 de	de	ADP
 la	le	DET
@@ -856,7 +856,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-La	le	DET
+la	le	DET
 présentation	présentation	NOUN
 du	du	ADP_DET
 programme	programme	NOUN
@@ -918,8 +918,8 @@ financier	financier	ADJ
 du	du	ADP_DET
 Royaume-Uni	Royaume-Uni	PROPN
 (	(	PUNCTclause
-Le	le	DET
-Monde	Monde	NOUN
+le	le	DET
+monde	monde	NOUN
 ,	,	PUNCTclause
 23	23	NUM
 mai	mai	NOUN
@@ -929,7 +929,7 @@ mai	mai	NOUN
 ↵↵	↵↵	PUNCTstruct
 messieurs	monsieur	NOUN
 .	.	PUNCTsent
-Thatcher	Thatcher	PROPN
+Thatcher	Thatcher	VERB
 se	se	PRON
 est	être	AUX
 félicitée	féliciter	VERB
@@ -944,7 +944,7 @@ arracher	arracher	VERB
 ses	son	DET
 partenaires	partenaire	NOUN
 des	un	ADP_DET
-Dix	Dix	PROPN
+dix	dix	UNKNOWN
 ,	,	PUNCTclause
 des	un	DET
 ristournes	ristourne	NOUN
@@ -961,7 +961,7 @@ livres	livre	NOUN
 «	«	PUNCTclause
 alors que	alors que	CCONJ
 le	le	DET
-Labour	Labour	PROPN
+labour	labour	UNKNOWN
 ne	ne	ADV
 avait	avoir	AUX
 pas	pas	ADV
@@ -974,7 +974,7 @@ seul	seul	ADJ
 penny	penny	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 se	se	PRON
 propose	proposer	VERB
 de	de	ADP
@@ -986,7 +986,7 @@ des	un	ADP_DET
 ressources	ressource	NOUN
 de	de	ADP
 la	le	DET
-Communauté	Communauté	NOUN
+communauté	communauté	NOUN
 si	si	ADV
 la	le	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
@@ -999,7 +999,7 @@ pour	pour	ADP
 1983	1983	NUM
 »	»	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 elle	elle	PRON
 exige	exiger	VERB
 le	le	DET
@@ -1007,7 +1007,7 @@ maintien	maintien	NOUN
 du	du	ADP_DET
 veto	veto	NOUN
 au	au	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 des	un	ADP_DET
 ministres	ministre	NOUN
 de	de	ADP
@@ -1024,7 +1024,7 @@ grande	grand	ADJ
 puissance	puissance	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Moyennant	moyenner	VERB
+moyennant	moyenner	VERB
 quoi	quoi	PRON
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -1033,11 +1033,11 @@ que	que	SCONJ
 l'	le	DET
 engagement	engagement	NOUN
 du	du	ADP_DET
-Parti	Parti	NOUN
+parti	parti	NOUN
 conservateur	conservateur	ADJ
 en faveur de	en faveur de	ADV
 la	le	DET
-Communauté	Communauté	NOUN
+communauté	communauté	NOUN
 est	être	AUX
 sans	sans	ADP
 ambiguïté	ambiguïté	NOUN
@@ -1048,7 +1048,7 @@ Kinnock	Kinnock	PROPN
 ,	,	PUNCTclause
 pour	pour	ADP
 le	le	DET
-Parti	Parti	NOUN
+parti	parti	NOUN
 travailliste	travailliste	ADJ
 ,	,	PUNCTclause
 a	avoir	AUX
@@ -1065,14 +1065,14 @@ pouvoirs	pouvoir	NOUN
 «	«	PUNCTclause
 ravis	ravi	ADJ
 au	au	ADP_DET
-Parlement	Parlement	NOUN
+parlement	parlement	NOUN
 britannique	britannique	ADJ
 par	par	ADP
 la	le	DET
 		TOKEN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Là	là	ADV
+là	là	ADV
 ,	,	PUNCTclause
 vraiment	vraiment	ADV
 ,	,	PUNCTclause
@@ -1089,7 +1089,7 @@ expression	expression	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
 le	le	DET
-Labour	Labour	PROPN
+labour	labour	UNKNOWN
 est	être	AUX
 franchement	franchement	ADV
 contre	contre	ADP
@@ -1099,14 +1099,14 @@ la	le	DET
 ↵↵	↵↵	PUNCTstruct
 3	3	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 cas	cas	NOUN
 de	de	ADP
 l'	le	DET
 Italie	Italie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 été	être	AUX
 très	très	ADV
@@ -1136,7 +1136,7 @@ par	par	ADP
 Michele	Michele	PROPN
 Tito	Tito	PROPN
 .	.	PUNCTsent
-Précision	précision	NOUN
+précision	précision	NOUN
 est	être	AUX
 ici	ici	ADV
 synonyme	synonyme	ADJ
@@ -1156,7 +1156,7 @@ les	le	DET
 autres	autre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 l'	le	DET
 Irlande	Irlande	PROPN
 à	à	ADP
@@ -1164,7 +1164,7 @@ la	le	DET
 Grèce	Grèce	PROPN
 ,	,	PUNCTclause
 le	le	DET
-Parlement	Parlement	NOUN
+parlement	parlement	NOUN
 européen	européen	ADJ
 est	être	AUX
 un	un	DET
@@ -1178,7 +1178,7 @@ sur	sur	ADP
 d'autres	d'autre	PRON
 thèmes	thème	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
 en	en	ADP
@@ -1200,7 +1200,7 @@ plus	plus	ADV
 importants	important	ADJ
 de	de	ADP
 la	le	DET
-Communauté	Communauté	NOUN
+communauté	communauté	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	AUX
@@ -1219,7 +1219,7 @@ les	le	DET
 politiques	politique	NOUN
 internes	interne	ADJ
 .	.	PUNCTsent
-Ceci	ceci	PRON
+ceci	ceci	PRON
 reflète	refléter	VERB
 le	le	DET
 paradoxe	paradoxe	NOUN
@@ -1239,7 +1239,7 @@ manifeste	manifester	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-On	on	PRON
+on	on	PRON
 pourrait	pouvoir	VERB
 dire	dire	VERB
 que	que	SCONJ
@@ -1263,7 +1263,7 @@ européen	européen	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 Italie	Italie	PROPN
 ,	,	PUNCTclause
 tout	tout	ADV
@@ -1303,7 +1303,7 @@ de	de	ADP
 se	se	PRON
 compter	compter	VERB
 .	.	PUNCTsent
-Plus	plus	ADV
+plus	plus	ADV
 spécialement	spécialement	ADV
 ici	ici	ADV
 ,	,	PUNCTclause
@@ -1312,14 +1312,14 @@ est	être	AUX
 le	le	DET
 problème	problème	NOUN
 du	du	ADP_DET
-Parti	Parti	NOUN
+parti	parti	NOUN
 socialiste	socialiste	ADJ
 ,	,	PUNCTclause
 parti	parti	NOUN
 du	du	ADP_DET
 président	président	NOUN
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 ,	,	PUNCTclause
 M.	M.	NOUN
 Craxi	Craxi	PROPN
@@ -1378,7 +1378,7 @@ de	de	ADP
 complaisance	complaisance	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-M.	M.	PROPN
+M.	M.	NOUN
 Craxi	Craxi	PROPN
 a	avoir	AUX
 d'ailleurs	d'ailleurs	ADV
@@ -1394,14 +1394,14 @@ offraient	offrir	VERB
 ↵↵	↵↵	PUNCTstruct
 4	4	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 cas	cas	NOUN
 de	de	ADP
 la	le	DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Là	là	ADV
+là	là	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 un	un	DET
@@ -1422,7 +1422,7 @@ le	le	DET
 territoire	territoire	NOUN
 allemand	allemand	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 se	se	PRON
 trouve	trouver	VERB
@@ -1460,7 +1460,7 @@ du	du	ADP_DET
 17	17	NUM
 juin	juin	NOUN
 .	.	PUNCTsent
-Cas	cas	NOUN
+cas	cas	NOUN
 unique	unique	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1468,7 +1468,7 @@ aussi	aussi	ADV
 exemplaire	exemplaire	ADJ
 parmi	parmi	ADP
 les	le	DET
-Dix	Dix	NOUN
+dix	dix	NOUN
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1482,7 +1482,7 @@ commune	commun	NOUN
 et	et	CCONJ
 autonome	autonome	ADJ
 des	un	ADP_DET
-Européens	Européens	NOUN
+européens	européen	NOUN
 qui	qui	PRON
 se	se	PRON
 trouve	trouver	VERB
@@ -1494,7 +1494,7 @@ urgence	urgence	NOUN
 dramatique	dramatique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Faut	falloir	VERB
+faut	falloir	VERB
 il	il	PRON
 aller	aller	VERB
 vers	vers	ADP
@@ -1509,7 +1509,7 @@ l'	le	DET
 Allemagne	Allemagne	PROPN
 de	de	ADP
 l'	le	DET
-Ouest	Ouest	NOUN
+ouest	ouest	NOUN
 ,	,	PUNCTclause
 en tant que	en tant que	CCONJ
 État-nation	État-nation	NOUN
@@ -1563,7 +1563,7 @@ Europe	Europe	PROPN
 fédérée	fédéré	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 résulte	résulter	VERB
 de	de	ADP
 cette	ce	DET
@@ -1651,7 +1651,7 @@ Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
 II	II	PRON
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 jeunes	jeune	ADJ
 mouvements	mouvement	NOUN
 :	:	PUNCTclause
@@ -1663,7 +1663,7 @@ régions	région	NOUN
 fédérées	fédéré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 l'	le	DET
 heure	heure	NOUN
 où	où	PRON
@@ -1717,7 +1717,7 @@ du	du	ADP_DET
 17	17	NUM
 juin	juin	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 que	que	PRON
 l'on	on	PRON
@@ -1815,11 +1815,11 @@ comme	comme	ADP
 tels	tel	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Quelques	quelque	DET
+quelques	quelque	DET
 exemples	exemple	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 jeunes	jeune	NOUN
 giscardiens	giscardiens	ADJ
 se	se	PRON
@@ -1873,7 +1873,7 @@ fédérale	fédéral	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
 il	il	PRON
@@ -1918,7 +1918,7 @@ régionale	régional	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ils	ils	PRON
+ils	ils	PRON
 expriment	exprimer	VERB
 l'	le	DET
 espoir	espoir	NOUN
@@ -1963,8 +1963,8 @@ faire	faire	AUX
 »	»	PUNCTclause
 .	.	PUNCTsent
 (	(	PUNCTclause
-Le	le	DET
-Monde	Monde	NOUN
+le	le	DET
+monde	monde	NOUN
 ,	,	PUNCTclause
 4	4	NUM
 -5	-5	AUX
@@ -1973,7 +1973,7 @@ mars	mars	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 ils	ils	PRON
 ajoutent	ajouter	VERB
 (	(	PUNCTclause
@@ -1986,7 +1986,7 @@ date	date	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
-Les	le	DET
+les	le	DET
 régions	région	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -2005,7 +2005,7 @@ nationales	national	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 rejoint	rejoindre	VERB
 les	le	DET
@@ -2029,14 +2029,14 @@ régions	région	NOUN
 et	et	CCONJ
 dans	dans	ADP
 l'	le	DET
-Avenir	Avenir	PROPN
+avenir	avenir	UNKNOWN
 est	être	AUX
 notre	notre	DET
 affaire	affaire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Jeunes	jeune	ADJ
+jeunes	jeune	ADJ
 giscardiens	giscardiens	NOUN
 »	»	PUNCTclause
 :	:	PUNCTclause
@@ -2047,8 +2047,8 @@ croirait	croire	VERB
 droite	droite	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Les	le	DET
-Verts	Verts	PROPN
+les	le	DET
+verts	vert	UNKNOWN
 »	»	PUNCTclause
 :	:	PUNCTclause
 voilà	voilà	ADP
@@ -2066,7 +2066,7 @@ disons	dire	VERB
 le	le	DET
 .	.	PUNCTsent
 «	«	PUNCTclause
-Conserver	conserver	VERB
+conserver	conserver	VERB
 la	le	DET
 nature	nature	NOUN
 pour que	pour que	SCONJ
@@ -2139,7 +2139,7 @@ gauche	gauche	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 les	le	DET
 verts	vert	NOUN
 français	français	ADJ
@@ -2147,10 +2147,10 @@ français	français	ADJ
 qui	qui	PRON
 regroupent	regrouper	VERB
 la	le	DET
-Confédération	Confédération	NOUN
+confédération	confédération	NOUN
 et	et	CCONJ
 le	le	DET
-Parti	Parti	NOUN
+parti	parti	NOUN
 écologiste	écologiste	ADJ
 ,	,	PUNCTclause
 quatre	quatre	NUM
@@ -2238,7 +2238,7 @@ le	le	DET
 tiers-monde	tiers-monde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 régions	région	NOUN
 unies	uni	ADJ
 de	de	ADP
@@ -2266,7 +2266,7 @@ Europe	Europe	PROPN
 confédérée	confédéré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 Europe	Europe	PROPN
 indépendante	indépendant	ADJ
 ,	,	PUNCTclause
@@ -2286,14 +2286,14 @@ chaque	chaque	DET
 citoyen	citoyen	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 quoi	quoi	PRON
 l'on	on	PRON
 ajoutera	ajouter	VERB
 ,	,	PUNCTclause
 selon	selon	ADP
-Le	le	DET
-Monde	Monde	NOUN
+le	le	DET
+monde	monde	NOUN
 du	du	ADP_DET
 7	7	NUM
 mars	mars	NOUN
@@ -2322,7 +2322,7 @@ technocrates	technocrate	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 «	«	PUNCTclause
-La	le	DET
+la	le	DET
 prééminence	prééminence	NOUN
 des	un	ADP_DET
 États-nations	États-nations	NOUN
@@ -2339,7 +2339,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Signe	signer	VERB
+signe	signer	VERB
 des	un	DET
 temps	temps	NOUN
 :	:	PUNCTclause
@@ -2365,7 +2365,7 @@ appelé	appeler	VERB
 jadis	jadis	ADV
 une	un	DET
 «	«	PUNCTclause
-Internationale	Internationale	NOUN
+internationale	international	NOUN
 écologiste	écologiste	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
@@ -2383,12 +2383,12 @@ occurrence	occurrence	NOUN
 de	de	ADP
 baptiser	baptiser	VERB
 la	le	DET
-Première	premier	ADJ
+première	premier	ADJ
 interrégionale	interrégional	NOUN
 européenne	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 alliance	alliance	NOUN
 des	un	ADP_DET
 huit	huit	NUM
@@ -2413,7 +2413,7 @@ des	un	DET
 écologistes	écologiste	NOUN
 luxembourgeois	luxembourgeois	ADJ
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 absence	absence	NOUN
 est	être	AUX
 due	devoir	VERB
@@ -2444,7 +2444,7 @@ ouvert	ouvrir	VERB
 tous	tous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 huit	huit	NUM
 partis	parti	NOUN
 membres	membre	NOUN
@@ -2463,7 +2463,7 @@ flamand	flamand	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
 le	le	DET
-Parti	Parti	NOUN
+parti	parti	NOUN
 écologiste	écologiste	ADJ
 (	(	PUNCTclause
 belge	belge	ADJ
@@ -2471,7 +2471,7 @@ francophone	francophone	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
 les	le	DET
-Verts	Verts	PROPN
+verts	vert	UNKNOWN
 (	(	PUNCTclause
 France	France	PROPN
 )	)	PUNCTclause
@@ -2484,13 +2484,13 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 la	le	DET
-Green	Green	PROPN
-Alliance	Alliance	PROPN
+green	green	UNKNOWN
+alliance	alliance	UNKNOWN
 (	(	PUNCTclause
 Irlande	Irlande	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-De	de	ADP
+de	de	ADP
 Groenen	Groenen	PROPN
 (	(	PUNCTclause
 Pays-Bas	Pays-Bas	PROPN
@@ -2515,14 +2515,14 @@ Suède	Suède	PROPN
 )	)	PUNCTclause
 et	et	CCONJ
 la	le	DET
-Liste	Liste	NOUN
+liste	liste	NOUN
 alternative	alternatif	ADJ
 (	(	PUNCTclause
 Autriche	Autriche	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 verts	vert	NOUN
 européens	européen	ADJ
 viennent	venir	VERB
@@ -2542,7 +2542,7 @@ de	de	ADP
 chapitres	chapitre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vers	vers	ADP
+vers	vers	ADP
 la	le	DET
 paix	paix	NOUN
 en	en	ADP
@@ -2566,7 +2566,7 @@ et	et	CCONJ
 la	le	DET
 non-violence	non-violence	NOUN
 .	.	PUNCTsent
-Vers	vers	ADP
+vers	vers	ADP
 une	un	DET
 politique	politique	NOUN
 de	de	ADP
@@ -2594,7 +2594,7 @@ nationales	national	ADJ
 ou	ou	CCONJ
 européennes	européen	ADJ
 .	.	PUNCTsent
-Vers	vers	ADP
+vers	vers	ADP
 une	un	DET
 politique	politique	NOUN
 économique	économique	ADJ
@@ -2602,7 +2602,7 @@ et	et	CCONJ
 sociale	social	ADJ
 écologique	écologique	ADJ
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 une	un	DET
 agriculture	agriculture	NOUN
 en	en	ADP
@@ -2611,7 +2611,7 @@ avec	avec	ADP
 la	le	DET
 nature	nature	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 un	un	DET
 partage	partage	NOUN
 honnête	honnête	ADJ
@@ -2627,14 +2627,14 @@ peuples	peuple	NOUN
 du	du	ADP_DET
 tiers-monde	tiers-monde	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 une	un	DET
 Europe	Europe	PROPN
 des	un	ADP_DET
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	DET
+de	de	DET
 nombreux	nombreux	ADJ
 groupes	groupe	NOUN
 régionalistes	régionaliste	ADJ
@@ -2666,7 +2666,7 @@ loin de	loin de	ADP
 assurée	assurer	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-On	on	PRON
+on	on	PRON
 sait	savoir	VERB
 que	que	SCONJ
 le	le	DET
@@ -2689,12 +2689,12 @@ liste	liste	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Signalons	signaler	VERB
+signalons	signaler	VERB
 parmi	parmi	ADP
 ces	ce	DET
 groupes	groupe	NOUN
 l'	le	DET
-Action	Action	NOUN
+action	action	NOUN
 fédéraliste	fédéraliste	ADJ
 socialisme	socialisme	NOUN
 et	et	CCONJ
@@ -2731,7 +2731,7 @@ intérêts	intérêt	NOUN
 nationaux	national	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 se	se	PRON
 déclare	déclarer	VERB
 «	«	PUNCTclause
@@ -2745,7 +2745,7 @@ Europe	Europe	PROPN
 fédérée	fédéré	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 affirme	affirmer	VERB
 donc	donc	ADV
 ,	,	PUNCTclause
@@ -2762,7 +2762,7 @@ l'	le	DET
 omnipotence	omnipotence	NOUN
 de	de	ADP
 un	un	DET
-État	État	NOUN
+état	état	NOUN
 technocratique	technocratique	ADJ
 et	et	CCONJ
 bureaucratique	bureaucratique	ADJ
@@ -2811,7 +2811,7 @@ communautés	communauté	NOUN
 intermédiaires	intermédiaire	ADJ
 et	et	CCONJ
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 ,	,	PUNCTclause
 entre	entre	ADP
 l'	le	DET
@@ -2822,7 +2822,7 @@ pouvoir	pouvoir	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	DET
+de	de	DET
 nombreux	nombreux	ADJ
 mouvements	mouvement	NOUN
 régionalistes	régionaliste	ADJ
@@ -2833,7 +2833,7 @@ former	former	VERB
 des	un	DET
 listes	liste	NOUN
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 Europe	Europe	PROPN
 2000	2000	NUM
 (	(	PUNCTclause
@@ -2848,8 +2848,8 @@ son	son	DET
 programme	programme	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
-Voulons	Voulons	PROPN
+nous	nous	PRON
+voulons	vouloir	UNKNOWN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -2877,7 +2877,7 @@ régions	région	NOUN
 au	au	ADP_DET
 sein	sein	NOUN
 du	du	ADP_DET
-Parlement	Parlement	NOUN
+parlement	parlement	NOUN
 de	de	ADP
 Strasbourg	Strasbourg	PROPN
 ;	;	PUNCTclause
@@ -2986,7 +2986,7 @@ populaire	populaire	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voilà	voilà	ADP
+voilà	voilà	ADP
 qui	qui	PRON
 fait	faire	AUX
 beaucoup de	beaucoup de	DET
@@ -3021,7 +3021,7 @@ leur	leur	DET
 parlement	parlement	NOUN
 national	national	ADJ
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 sont	être	AUX
 très	très	ADV
 fortement	fortement	ADV
@@ -3068,7 +3068,7 @@ nationaux	national	ADJ
 ↵↵	↵↵	PUNCTstruct
 III	III	PRON
 .	.	PUNCTsent
-Quelques	quelque	DET
+quelques	quelque	DET
 déclarations	déclaration	NOUN
 remarquables	remarquable	ADJ
 sur	sur	ADP
@@ -3090,7 +3090,7 @@ est	être	AUX
 le	le	DET
 renouvellement	renouvellement	NOUN
 du	du	ADP_DET
-Parlement	Parlement	NOUN
+parlement	parlement	NOUN
 européen	européen	ADJ
 :	:	PUNCTclause
 personne	personne_PRON	PRON
@@ -3107,7 +3107,7 @@ le	le	DET
 dénigrer	dénigrer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Sauf	sauf	ADP
+sauf	sauf	ADP
 l'un	l'un	PRON
 des	un	ADP_DET
 rédacteurs	rédacteur	NOUN
@@ -3153,8 +3153,8 @@ de	de	ADP
 citer	citer	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
-Parlement	Parlement	NOUN
+le	le	DET
+parlement	parlement	NOUN
 européen	européen	ADJ
 est	être	AUX
 le	le	DET
@@ -3220,11 +3220,11 @@ ONU	ONU	PROPN
 ,	,	PUNCTclause
 messieurs	monsieur	NOUN
 .	.	PUNCTsent
-Kirkpatrick	Kirkpatrick	PROPN
+Kirkpatrick	Kirkpatrick	NOUN
 ,	,	PUNCTclause
 interviewée	interviewer	VERB
 pour	pour	ADP
-Antenne	Antenne	PROPN
+antenne	antenne	UNKNOWN
 2	2	NUM
 par	par	ADP
 deux	deux	NUM
@@ -3266,7 +3266,7 @@ volonté	volonté	NOUN
 ↵↵	↵↵	PUNCTstruct
 l'un	l'un	PRON
 des	un	ADP_DET
-Français	Français	NOUN
+français	français	NOUN
 lui	lui	PRON
 dit	dire	VERB
 :	:	PUNCTclause
@@ -3276,19 +3276,19 @@ est	être	AUX
 dur	dur	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Elle	elle	PRON
+elle	elle	PRON
 ,	,	PUNCTclause
 souriant	sourire	VERB
 :	:	PUNCTclause
 —	—	PUNCTclause
-Non	Non	PROPN
+non	non	UNKNOWN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
 vrai	vrai	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 président	président	NOUN
 du	du	ADP_DET
 mouvement	mouvement	NOUN
@@ -3316,14 +3316,14 @@ de	de	ADP
 Athènes	Athènes	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 citoyens	citoyen	NOUN
 ne	ne	ADV
 peuvent	pouvoir	VERB
 comprendre	comprendre	VERB
 que	que	SCONJ
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 membres	membre	NOUN
 et	et	CCONJ
 leurs	leur	DET
@@ -3368,7 +3368,7 @@ impéritie	impéritie	NOUN
 au	au	ADP_DET
 sein	sein	NOUN
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 des	un	ADP_DET
 communautés	communauté	NOUN
 ,	,	PUNCTclause
@@ -3382,7 +3382,7 @@ l'	le	DET
 unanimité	unanimité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 citoyens	citoyen	NOUN
 ne	ne	ADV
 peuvent	pouvoir	VERB
@@ -3393,7 +3393,7 @@ plus	plus	ADV
 hauts	haut	ADJ
 représentants	représentant	NOUN
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 membres	membre	NOUN
 se	se	PRON
 abaissent	abaisser	VERB
@@ -3416,7 +3416,7 @@ présent	présent	ADJ
 .	.	PUNCTsent
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 temps	temps	NOUN
 que	que	SCONJ
@@ -3444,14 +3444,14 @@ pratiquent	pratiquer	VERB
 ↵↵	↵↵	PUNCTstruct
 quant à	quant à	ADP
 la	le	DET
-Tribune	Tribune	PROPN
+tribune	tribune	UNKNOWN
 pour	pour	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 information	information	NOUN
 du	du	ADP_DET
-Parlement	Parlement	NOUN
+parlement	parlement	NOUN
 européen	européen	ADJ
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -3486,14 +3486,14 @@ souveraineté	souveraineté	NOUN
 que	que	SCONJ
 européenne	européen	ADJ
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 jeudi	jeudi	NOUN
 16	16	NUM
 février	février	NOUN
 1984	1984	NUM
 ,	,	PUNCTclause
-Sa	son	DET
-Majesté	Majesté	NOUN
+sa	son	DET
+majesté	majesté	NOUN
 la	le	DET
 reine	reine	NOUN
 Béatrix	Béatrix	PROPN
@@ -3506,7 +3506,7 @@ aux	au	ADP_DET
 députés	député	NOUN
 européens	européen	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 reine	reine	NOUN
 a	avoir	AUX
 insisté	insister	VERB
@@ -3526,7 +3526,7 @@ options	option	NOUN
 nationales	national	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-Vous	vous	PRON
+vous	vous	PRON
 avez	avoir	VERB
 raison	raison	NOUN
 de	de	ADP
@@ -3548,7 +3548,7 @@ en	en	PRON
 ajoutant	ajouter	VERB
 que	que	SCONJ
 la	le	DET
-Communauté	Communauté	NOUN
+communauté	communauté	NOUN
 devrait	devoir	VERB
 rompre	rompre	VERB
 avec	avec	ADP
@@ -3573,7 +3573,7 @@ pays	pays	NOUN
 respectifs	respectif	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 de	de	ADP
 conclure	conclure	VERB
 ,	,	PUNCTclause
@@ -3585,7 +3585,7 @@ parlementaires	parlementaire	NOUN
 debout	debout	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
-La	le	DET
+la	le	DET
 démocratie	démocratie	NOUN
 politique	politique	ADJ
 est	être	AUX
@@ -3605,7 +3605,7 @@ au	au	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 si	si	SCONJ
 la	le	DET
 démocratie	démocratie	NOUN
@@ -3630,7 +3630,7 @@ ans	an	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Une	un	DET
+une	un	DET
 souveraineté	souveraineté	NOUN
 européenne	européen	ADJ
 »	»	PUNCTclause
@@ -3669,7 +3669,7 @@ souveraineté	souveraineté	NOUN
 absolue	absolu	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Seule	seul	ADJ
+seule	seul	ADJ
 une	un	DET
 reine	reine	NOUN
 incontestable	incontestable	ADJ

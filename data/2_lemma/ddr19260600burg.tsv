@@ -6,19 +6,19 @@
 # title = "[Compte rendu] Le Corbusier, Urbanisme (juin 1926)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
-Le	le	DET
+le	le	DET
 Corbusier	Corbusier	PROPN
 ,	,	PUNCTclause
-Urbanisme	Urbanisme	PROPN
+urbanisme	urbanisme	UNKNOWN
 (	(	PUNCTclause
 juin	juin	NOUN
 1926	1926	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 disons	dire	VERB
 adieu	adieu	NOUN
 aux	au	ADP_DET
@@ -30,7 +30,7 @@ de	de	ADP
 la	le	DET
 nature	nature	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 agit	agir	VERB
 de	de	ADP
@@ -45,7 +45,7 @@ utile	utile	ADJ
 et	et	CCONJ
 beau	beau	ADJ
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 «	«	PUNCTclause
 la	le	DET
 grande	grand	ADJ
@@ -74,7 +74,7 @@ esprit	esprit	NOUN
 de	de	ADP
 géométrie	géométrie	NOUN
 …	…	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 use	user	VERB
 et	et	CCONJ
 conduit	conduire	VERB
@@ -88,7 +88,7 @@ de	de	ADP
 humains	humain	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
@@ -113,7 +113,7 @@ détail	détail	NOUN
 des	un	ADP_DET
 rues	rue	NOUN
 .	.	PUNCTsent
-Congestion	congestion	NOUN
+congestion	congestion	NOUN
 :	:	PUNCTclause
 «	«	PUNCTclause
 un	un	DET
@@ -123,7 +123,7 @@ arrête	arrêter	VERB
 chevaux-vapeurs	chevaux-vapeurs	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 pourtant	pourtant	ADV
 «	«	PUNCTclause
 la	le	DET
@@ -158,7 +158,7 @@ le	le	DET
 problème	problème	NOUN
 de	de	ADP
 l'	le	DET
-Urbanisme	Urbanisme	NOUN
+urbanisme	urbanisme	NOUN
 se	se	PRON
 place	placer	VERB
 au	au	ADP_DET
@@ -171,7 +171,7 @@ sociales	social	ADJ
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 résoudre	résoudre	VERB
 la	le	DET
 crise	crise	NOUN
@@ -195,7 +195,7 @@ des	un	DET
 dictateurs	dictateur	NOUN
 :	:	PUNCTclause
 des	un	DET
-Architectes	Architectes	NOUN
+architectes	architecte	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -205,8 +205,8 @@ de	de	ADP
 la	le	DET
 matière	matière	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
-Le	le	DET
+si	si	SCONJ
+le	le	DET
 Corbusier	Corbusier	PROPN
 réalise	réaliser	VERB
 son	son	DET
@@ -237,7 +237,7 @@ Rome	Rome	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Urbanisme	urbanisme	NOUN
+urbanisme	urbanisme	NOUN
 est	être	AUX
 une	un	DET
 étude	étude	NOUN
@@ -272,7 +272,7 @@ dans	dans	ADP
 la	le	DET
 statistique	statistique	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 en	en	ADP
 sort	sortir	VERB
 convaincu	convaincre	VERB
@@ -291,7 +291,7 @@ tant de	tant de	DET
 aspirations	aspiration	NOUN
 modernes	moderne	ADJ
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 sans	sans	ADP
 aucun	aucun	DET
 doute	doute	NOUN
@@ -316,7 +316,7 @@ armé	armer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Notre	notre	DET
+notre	notre	DET
 monde	monde	NOUN
 comme	comme	ADP
 un	un	DET
@@ -329,7 +329,7 @@ de	de	ADP
 époques	époque	NOUN
 mortes	mort	ADJ
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 tâche	tâche	NOUN
 nous	nous	PRON
 incombe	incomber	VERB
@@ -349,7 +349,7 @@ notre	notre	DET
 temps	temps	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 je	je	PRON
 déplie	déplier	VERB
 ce	ce	DET
@@ -361,7 +361,7 @@ ville	ville	NOUN
 contemporaine	contemporain	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Pures	pur	ADJ
+pures	pur	ADJ
 géométries	géométrie	NOUN
 de	de	ADP
 verre	verre	NOUN
@@ -374,7 +374,7 @@ flamboyantes	flamboyant	ADJ
 au	au	ADP_DET
 soleil	soleil	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 vingt-quatre	vingt-quatre	NUM
 gratte-ciel	gratte-ciel	NOUN
 de	de	ADP
@@ -406,7 +406,7 @@ de	de	ADP
 la	le	DET
 ville	ville	NOUN
 .	.	PUNCTsent
-Puis	puis	CCONJ
+puis	puis	CCONJ
 se	se	PRON
 étendent	étendre	VERB
 les	le	DET
@@ -431,7 +431,7 @@ toitures	toiture	NOUN
 en	en	ADP
 terrasses	terrasse	NOUN
 .	.	PUNCTsent
-Des	un	ADP_DET
+des	un	ADP_DET
 perspectives	perspective	NOUN
 régulières	régulier	ADJ
 recoupées	recouper	VERB
@@ -456,7 +456,7 @@ heure	heure	NOUN
 des	un	ADP_DET
 autos	auto	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 maisons	maison	NOUN
 habitées	habiter	VERB
 ne	ne	ADV
@@ -503,7 +503,7 @@ spectacle	spectacle	NOUN
 organisé	organiser	VERB
 par	par	ADP
 l'	le	DET
-Architecture	Architecture	NOUN
+architecture	architecture	NOUN
 avec	avec	ADP
 les	le	DET
 ressources	ressource	NOUN
@@ -521,7 +521,7 @@ la	le	DET
 lumière	lumière	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Cristallisation	cristallisation	NOUN
+cristallisation	cristallisation	NOUN
 de	de	ADP
 un	un	DET
 rêve	rêve	NOUN
@@ -539,9 +539,9 @@ leur	leur	DET
 chant	chant	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Utopie	utopie	NOUN
+utopie	utopie	NOUN
 !	!	PUNCTsent
-Oui	oui	INTJ
+oui	oui	INTJ
 ,	,	PUNCTclause
 si	si	SCONJ
 notre	notre	DET
@@ -578,7 +578,7 @@ un	un	DET
 opportunisme	opportunisme	NOUN
 anarchique	anarchique	ADJ
 .	.	PUNCTsent
-Tirer	tirer	VERB
+tirer	tirer	VERB
 des	un	DET
 lignes	ligne	NOUN
 droites	droit	ADJ
@@ -590,7 +590,7 @@ de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent
-Toutes	tout	ADJ
+toutes	tout	ADJ
 les	le	DET
 civilisations	civilisation	NOUN
 fortes	fort	ADJ
@@ -598,7 +598,7 @@ l'	le	DET
 ont	avoir	AUX
 osé	oser	VERB
 .	.	PUNCTsent
-Créer	créer	VERB
+créer	créer	VERB
 un	un	DET
 espace	espace	NOUN
 architectural	architectural	ADJ
@@ -619,7 +619,7 @@ germes	germe	NOUN
 de	de	ADP
 révolution	révolution	NOUN
 .	.	PUNCTsent
-Déjà	déjà	ADV
+déjà	déjà	ADV
 des	un	DET
 ingénieurs	ingénieur	NOUN
 se	se	PRON
@@ -642,7 +642,7 @@ ville	ville	NOUN
 contemporaine	contemporain	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 labeur	labeur	NOUN
 précis	précis	ADJ
 et	et	CCONJ
@@ -660,9 +660,9 @@ l'	le	DET
 homme	homme	NOUN
 sur	sur	ADP
 la	le	DET
-Nature	Nature	NOUN
+nature	nature	NOUN
 .	.	PUNCTsent
-Architecture	architecture	NOUN
+architecture	architecture	NOUN
 :	:	PUNCTclause
 «	«	PUNCTclause
 tout	tout	ADJ
@@ -673,7 +673,7 @@ au-delà	au-delà	ADV
 du	du	ADP_DET
 calcul	calcul	NOUN
 …	…	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sera	être	AUX
 la	le	DET
 passion	passion	NOUN

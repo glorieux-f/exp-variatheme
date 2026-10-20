@@ -6,7 +6,7 @@
 # title = Agora (1994)
 
 ↵↵	↵↵	PUNCTstruct
-Agora	agora	NOUN
+agora	agora	NOUN
 (	(	PUNCTclause
 1994	1994	NUM
 )	)	PUNCTclause
@@ -31,7 +31,7 @@ vues	vue	NOUN
 ,	,	PUNCTclause
 dialoguer	dialoguer	VERB
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 est	être	AUX
 donc	donc	ADV
 le	le	DET
@@ -81,7 +81,7 @@ action	action	NOUN
 publique	public	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Platon	Platon	PROPN
+Platon	Platon	NOUN
 et	et	CCONJ
 Aristote	Aristote	PROPN
 en	en	ADP
@@ -89,7 +89,7 @@ ont	avoir	VERB
 beaucoup	beaucoup	ADV
 parlé	parler	VERB
 .	.	PUNCTsent
-Aristote	Aristote	PROPN
+Aristote	Aristote	NOUN
 surtout	surtout	ADV
 a	avoir	AUX
 traité	traiter	VERB
@@ -170,7 +170,7 @@ informe	informe	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 bâtiments	bâtiment	NOUN
 constants	constant	ADJ
 qui	qui	PRON
@@ -181,7 +181,7 @@ sont	être	AUX
 ,	,	PUNCTclause
 chez	chez	ADP
 les	le	DET
-Grecs	Grecs	NOUN
+grecs	grec	NOUN
 ,	,	PUNCTclause
 le	le	DET
 temple	temple	NOUN
@@ -229,8 +229,8 @@ les	le	DET
 cafés	café	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Au	au	ADP_DET
-Moyen-Âge	Moyen-Âge	NOUN
+au	au	ADP_DET
+moyen-âge	moyen-âge	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 agora	agora	NOUN
@@ -246,12 +246,12 @@ des	un	ADP_DET
 communes	commun	NOUN
 italiennes	italien	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 la	le	DET
 formule	formule	NOUN
 traversera	traverser	VERB
 les	le	DET
-Alpes	Alpes	PROPN
+alpes	alpe	UNKNOWN
 par	par	ADP
 le	le	DET
 col	col	NOUN
@@ -268,10 +268,10 @@ ce	ce	PRON
 qui	qui	PRON
 formera	former	VERB
 la	le	DET
-Confédération	Confédération	PROPN
+confédération	confédération	UNKNOWN
 suisse	suisse	ADJ
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 ce	ce	DET
 propos	propos	NOUN
 ,	,	PUNCTclause
@@ -280,7 +280,7 @@ sait	savoir	VERB
 aujourd'hui	aujourd'hui	ADV
 que	que	SCONJ
 le	le	DET
-Pacte	Pacte	PROPN
+pacte	pacte	UNKNOWN
 de	de	ADP
 1291	1291	NUM
 ,	,	PUNCTclause
@@ -319,7 +319,7 @@ par	par	ADP
 le	le	DET
 Saint-Empire	Saint-Empire	PROPN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 ces	ce	DET
 greffiers	greffier	NOUN
@@ -370,7 +370,7 @@ aux	au	ADP_DET
 Pays-Bas	Pays-Bas	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 de	de	ADP
 là	là	ADV
 ,	,	PUNCTclause
@@ -463,7 +463,7 @@ du	du	ADP_DET
 continent	continent	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 règles	règle	NOUN
 impératives	impératif	ADJ
 à	à	ADP
@@ -486,9 +486,9 @@ Aristote	Aristote	PROPN
 notamment	notamment	ADV
 dans	dans	ADP
 sa	son	DET
-Politique	Politique	NOUN
+politique	politique	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 première	premier	ADJ
 règle	règle	NOUN
 est	être	AUX
@@ -497,7 +497,7 @@ de	de	ADP
 la	le	DET
 dimension	dimension	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 agit	agir	VERB
 de	de	ADP
@@ -511,7 +511,7 @@ et	et	CCONJ
 trop	trop	ADV
 grand	grand	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 dimension	dimension	NOUN
 de	de	ADP
 une	un	DET
@@ -519,7 +519,7 @@ polis	poli	ADJ
 —	—	PUNCTclause
 ville	ville	NOUN
 ou	ou	CCONJ
-État	État	NOUN
+état	état	NOUN
 —	—	PUNCTclause
 ne	ne	ADV
 doit	devoir	VERB
@@ -567,7 +567,7 @@ ne	ne	ADV
 serait	être	AUX
 pas	pas	ADV
 nécessairement	nécessairement	ADV
-Stentor	Stentor	PROPN
+stentor	stentor	UNKNOWN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 précise	préciser	VERB
@@ -635,7 +635,7 @@ responsabilité	responsabilité	NOUN
 civique	civique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 vraies	vrai	ADJ
 difficultés	difficulté	NOUN
 commencent	commencer	VERB
@@ -689,7 +689,7 @@ la	le	DET
 responsabilité	responsabilité	NOUN
 à	à	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 aux	au	ADP_DET
@@ -707,7 +707,7 @@ en	en	ADP
 fait	fait	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ici	ici	ADV
+ici	ici	ADV
 se	se	PRON
 pose	poser	VERB
 la	le	DET
@@ -728,7 +728,7 @@ des	un	ADP_DET
 échanges	échange	NOUN
 électroniques	électronique	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 peut	pouvoir	VERB
 imaginer	imaginer	VERB
 une	un	DET
@@ -751,7 +751,7 @@ et	et	CCONJ
 se	se	PRON
 parler	parler	VERB
 …	…	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 non	non	ADV
 pas	pas	ADV
 se	se	PRON
@@ -760,7 +760,7 @@ serrer la main	serrer la main	VERB
 l'	le	DET
 arrivée	arrivée	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 sent	sentir	VERB
 tout	tout	ADV
 ce	ce	PRON
@@ -787,12 +787,12 @@ en	en	ADP
 contact	contact	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Bibliographie	bibliographie	NOUN
+bibliographie	bibliographie	NOUN
 ↵↵	↵↵	PUNCTstruct
-Aristote	Aristote	PROPN
+Aristote	Aristote	NOUN
 ,	,	PUNCTclause
-La	le	DET
-Politique	Politique	PROPN
+la	le	DET
+politique	politique	UNKNOWN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ,	,	PUNCTclause
@@ -801,26 +801,26 @@ Vrin	Vrin	PROPN
 1989	1989	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mumford	Mumford	PROPN
+Mumford	Mumford	NOUN
 Lewis	Lewis	PROPN
 ,	,	PUNCTclause
-La	le	DET
-Cité	Cité	NOUN
+la	le	DET
+cité	cité	NOUN
 à travers	à travers	ADP
 l'	le	DET
 histoire	histoire	NOUN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-Seuil	Seuil	PROPN
+seuil	seuil	UNKNOWN
 ,	,	PUNCTclause
 1964	1964	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Platon	Platon	PROPN
+Platon	Platon	NOUN
 ,	,	PUNCTclause
-Les	le	DET
-Lois	Lois	PROPN
+les	le	DET
+lois	loi	UNKNOWN
 ,	,	PUNCTclause
 in	in	ADJ
 œuvres	œuvre	NOUN
@@ -828,8 +828,8 @@ complètes	complet	ADJ
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-La	le	DET
-Pléiade	Pléiade	PROPN
+la	le	DET
+pléiade	pléiade	UNKNOWN
 ,	,	PUNCTclause
 1989	1989	NUM
 -1990	-1990	NUM

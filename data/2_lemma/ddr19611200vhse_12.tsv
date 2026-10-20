@@ -8,20 +8,20 @@
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
 .	.	PUNCTsent
-Premiers	premier	ADJ
+premiers	premier	ADJ
 plans	plan	NOUN
 de	de	ADP
 union	union	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dante	Dante	PROPN
+Dante	Dante	ADJ
 (	(	PUNCTclause
 1265	1265	NUM
 -1321	-1321	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Selon	selon	ADP
+selon	selon	ADP
 Gilles	Gilles	PROPN
 de	de	ADP
 Rome	Rome	PROPN
@@ -36,9 +36,9 @@ est	être	AUX
 Dieu	Dieu	PROPN
 ,	,	PUNCTclause
 premier	premier	ADJ
-Moteur	Moteur	NOUN
+moteur	moteur	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 la	le	DET
 source	source	NOUN
@@ -72,10 +72,10 @@ temporelle	temporel	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
 la	le	DET
-Lune	Lune	NOUN
+lune	lune	NOUN
 reçoit	recevoir	VERB
 du	du	ADP_DET
-Soleil	Soleil	NOUN
+soleil	soleil	NOUN
 la	le	DET
 lumière	lumière	NOUN
 que	que	PRON
@@ -83,7 +83,7 @@ elle	elle	PRON
 nous	nous	PRON
 renvoie	renvoyer	VERB
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 lui	lui	PRON
 viennent	venir	VERB
 l'	le	DET
@@ -115,7 +115,7 @@ légitimité	légitimité	NOUN
 du	du	ADP_DET
 mariage	mariage	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 pécheur	pécheur	NOUN
 séparé	séparer	VERB
 du	du	ADP_DET
@@ -139,10 +139,10 @@ dresse	dresser	VERB
 l'	le	DET
 empereur	empereur	NOUN
 .	.	PUNCTsent
-Selon	selon	ADP
+selon	selon	ADP
 Marsile	Marsile	PROPN
 de	de	ADP
-Padoue	Padoue	PROPN
+padoue	padoue	UNKNOWN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -165,7 +165,7 @@ délègue	déléguer	VERB
 l'	le	DET
 empereur	empereur	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 dernier	dernier	ADJ
 représente	représenter	VERB
 donc	donc	ADV
@@ -183,7 +183,7 @@ de	de	ADP
 autorité	autorité	NOUN
 .	.	PUNCTsent
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 peut	pouvoir	VERB
 avertir	avertir	VERB
 ,	,	PUNCTclause
@@ -197,7 +197,7 @@ la	le	DET
 terre	terre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 survient	survenir	VERB
 un	un	DET
 troisième	troisième	ADJ
@@ -230,19 +230,19 @@ Saint-Empire	Saint-Empire	PROPN
 que	que	SCONJ
 celle	celle	PRON
 du	du	ADP_DET
-Souverain	Souverain	PROPN
-Pontife	Pontife	PROPN
+souverain	souverain	UNKNOWN
+pontife	pontife	UNKNOWN
 .	.	PUNCTsent
-Philippe	Philippe	PROPN
+Philippe	Philippe	NOUN
 le	le	DET
-Bel	Bel	PROPN
+bel	beau	UNKNOWN
 ,	,	PUNCTclause
 contre	contre	ADP
 l'	le	DET
 empereur	empereur	NOUN
 et	et	CCONJ
 contre	contre	ADP
-Boniface	Boniface	PROPN
+Boniface	Boniface	X
 VIII	VIII	NUM
 ,	,	PUNCTclause
 représente	représenter	VERB
@@ -255,11 +255,11 @@ souverains	souverain	NOUN
 »	»	PUNCTclause
 de	de	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 national	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 se	se	PRON
 situe	situer	VERB
 Dante	Dante	PROPN
@@ -268,7 +268,7 @@ ce	ce	DET
 drame	drame	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 lui	lui	PRON
 ,	,	PUNCTclause
 le	le	DET
@@ -285,7 +285,7 @@ la	le	DET
 9e	9e	ADJ
 sphère	sphère	NOUN
 du	du	ADP_DET
-Ciel	Ciel	PROPN
+ciel	ciel	UNKNOWN
 qui	qui	PRON
 communique	communiquer	VERB
 son	son	DET
@@ -294,7 +294,7 @@ aux	au	ADP_DET
 huit	huit	NUM
 autres	autre	ADJ
 .	.	PUNCTsent
-Nul	nul	ADJ
+nul	nul	ADJ
 chef	chef	NOUN
 ne	ne	ADV
 commande	commander	VERB
@@ -304,7 +304,7 @@ devoir	devoir	VERB
 son	son	DET
 autorité	autorité	NOUN
 .	.	PUNCTsent
-Cependant	cependant	ADV
+cependant	cependant	ADV
 ,	,	PUNCTclause
 l'	le	DET
 empereur	empereur	NOUN
@@ -329,7 +329,7 @@ lui	lui	PRON
 son	son	DET
 pouvoir	pouvoir	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 le	le	DET
 principe	principe	NOUN
@@ -338,7 +338,7 @@ unité	unité	NOUN
 du	du	ADP_DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 est	être	AUX
 nécessairement	nécessairement	ADV
@@ -373,7 +373,7 @@ sur	sur	ADP
 le	le	DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 commande	commander	VERB
 souverainement	souverainement	ADV
 aux	au	ADP_DET
@@ -403,7 +403,7 @@ seule	seul	ADJ
 liberté	liberté	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-De	de	ADP
+de	de	ADP
 Monarchia	Monarchia	PROPN
 ,	,	PUNCTclause
 III	III	NUM
@@ -412,7 +412,7 @@ XVI	XVI	NUM
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 un	un	DET
 tel	tel	PRON
 système	système	NOUN
@@ -425,7 +425,7 @@ la	le	DET
 souveraineté	souveraineté	NOUN
 absolue	absolu	ADJ
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -435,7 +435,7 @@ que	que	SCONJ
 au	au	ADP_DET
 chaos	chaos	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 monarchie	monarchie	NOUN
 unique	unique	ADJ
 ,	,	PUNCTclause
@@ -450,7 +450,7 @@ une	un	DET
 Société	Société	PROPN
 universelle	universel	ADJ
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 ,	,	PUNCTclause
 est	être	AUX
 donc	donc	ADV
@@ -461,7 +461,7 @@ paix	paix	NOUN
 du	du	ADP_DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 le	le	DET
 monarque	monarque	NOUN
 ,	,	PUNCTclause
@@ -483,7 +483,7 @@ par	par	ADP
 nature	nature	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Ne	ne	ADV
+ne	ne	ADV
 serait	être	AUX
 ce	ce	PRON
 pas	pas	ADV
@@ -499,7 +499,7 @@ pouvoir	pouvoir	NOUN
 moderne	moderne	ADJ
 de	de	ADP
 la	le	DET
-Science	Science	NOUN
+science	science	NOUN
 ?	?	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -531,11 +531,11 @@ Dante	Dante	PROPN
 en	en	ADP
 1308	1308	NUM
 son	son	DET
-De	De	PROPN
+de	de	UNKNOWN
 Monarchia	Monarchia	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Il	il	PRON
+il	il	PRON
 a	avoir	VERB
 46	46	NUM
 ans	an	NOUN
@@ -547,13 +547,13 @@ a	avoir	AUX
 composé	composer	VERB
 de	de	ADP
 sa	son	DET
-Comédie	Comédie	NOUN
+comédie	comédie	NOUN
 que	que	SCONJ
 l'	le	DET
-Enfer	Enfer	NOUN
+enfer	enfer	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
-Le	le	DET
+le	le	DET
 paradoxe	paradoxe	NOUN
 central	central	ADJ
 de	de	ADP
@@ -643,16 +643,16 @@ le	le	DET
 nationalisme	nationalisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Après	après	ADP
+après	après	ADP
 cette	ce	DET
 utopie	utopie	NOUN
 sublime	sublime	ADJ
 de	de	ADP
 la	le	DET
-Paix	Paix	PROPN
+paix	paix	UNKNOWN
 par	par	ADP
 l'	le	DET
-Empire	Empire	NOUN
+empire	empire	NOUN
 —	—	PUNCTclause
 bafouée	bafouer	VERB
 par	par	ADP
@@ -709,7 +709,7 @@ dirait	dire	VERB
 notre	notre	DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 unité	unité	NOUN
 dans	dans	ADP
 la	le	DET
@@ -722,10 +722,10 @@ exemple	exemple	NOUN
 des	un	ADP_DET
 langues	langue	NOUN
 .	.	PUNCTsent
-Citons	citer	VERB
+citons	citer	VERB
 le	le	DET
 traité	traité	NOUN
-De	de	ADP
+de	de	ADP
 vulgari	vulgari	NOUN
 eloquentia	eloquentia	X
 (	(	PUNCTclause
@@ -745,10 +745,10 @@ env	env	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Contemporain	contemporain	ADJ
+contemporain	contemporain	ADJ
 de	de	ADP
 la	le	DET
-Monarchie	Monarchie	NOUN
+monarchie	monarchie	NOUN
 (	(	PUNCTclause
 1308	1308	NUM
 )	)	PUNCTclause
@@ -786,7 +786,7 @@ possibilités	possibilité	NOUN
 immédiates	immédiat	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-D'ailleurs	d'ailleurs	ADV
+d'ailleurs	d'ailleurs	ADV
 en vain	en vain	ADV
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -823,7 +823,7 @@ puis	puis	CCONJ
 du	du	ADP_DET
 Vatican	Vatican	PROPN
 .	.	PUNCTsent
-Depuis	depuis	ADP
+depuis	depuis	ADP
 Renan	Renan	PROPN
 ,	,	PUNCTclause
 tout le monde	tout le monde	NOUN
@@ -836,7 +836,7 @@ l'	le	DET
 ont	avoir	AUX
 lu	lire	VERB
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 rendre	rendre	VERB
 un	un	DET
 peu de	peu de	DET
@@ -879,7 +879,7 @@ lui	lui	PRON
 consacre	consacrer	VERB
 dans	dans	ADP
 son	son	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 littéraire	littéraire	ADJ
 de	de	ADP
 la	le	DET
@@ -887,7 +887,7 @@ France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Il	il	PRON
+il	il	PRON
 serait	être	AUX
 assez	assez	ADV
 difficile	difficile	ADJ
@@ -895,8 +895,8 @@ difficile	difficile	ADJ
 écrit	écrire	VERB
 Chr	Chr	PROPN
 .	.	PUNCTsent
-L.	L.	PROPN
-Lange	Lange	PROPN
+L.	L.	DET
+lange	lange	UNKNOWN
 ,	,	PUNCTclause
 de	de	ADP
 exposer	exposer	VERB
@@ -916,7 +916,7 @@ l'	le	DET
 auteur	auteur	NOUN
 lui-même	lui-même	PRON
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 ouvrage	ouvrage	NOUN
 ne	ne	ADV
 a	avoir	VERB
@@ -1001,7 +1001,7 @@ abréger	abréger	VERB
 les	le	DET
 procès	procès	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 dernier	dernier	ADJ
 sujet	sujet	NOUN
 lui	lui	PRON
@@ -1026,7 +1026,7 @@ des	un	ADP_DET
 guerres	guerre	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 suivrons	suivre	VERB
 donc	donc	ADV
 ici	ici	ADV
@@ -1036,15 +1036,15 @@ proposée	proposer	VERB
 par	par	ADP
 Chr	Chr	PROPN
 .	.	PUNCTsent
-L.	L.	PROPN
-Lange	Lange	PROPN
+L.	L.	DET
+lange	lange	UNKNOWN
 dans	dans	ADP
 son	son	DET
 ouvrage	ouvrage	NOUN
 monumental	monumental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 Pierre	Pierre	PROPN
 Dubois	Dubois	PROPN
 comme	comme	CCONJ
@@ -1053,7 +1053,7 @@ Dante	Dante	PROPN
 et	et	CCONJ
 Marsile	Marsile	PROPN
 de	de	ADP
-Padoue	Padoue	PROPN
+padoue	padoue	UNKNOWN
 ,	,	PUNCTclause
 la	le	DET
 paix	paix	NOUN
@@ -1062,7 +1062,7 @@ le	le	DET
 summum	summum	NOUN
 bonum	bonum	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 elle	elle	PRON
 signifie	signifier	VERB
 avant	avant	ADP
@@ -1081,13 +1081,13 @@ de	de	ADP
 la	le	DET
 croisade	croisade	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 croisés	croisé	NOUN
 ne	ne	ADV
 demeureront	demeurer	VERB
 pas	pas	ADV
 en	en	ADP
-Terre	Terre	NOUN
+terre	terre	NOUN
 sainte	saint	ADJ
 si	si	SCONJ
 ils	ils	PRON
@@ -1101,7 +1101,7 @@ danger	danger	NOUN
 de	de	ADP
 guerre	guerre	NOUN
 .	.	PUNCTsent
-Cependant	cependant	ADV
+cependant	cependant	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -1113,7 +1113,7 @@ la	le	DET
 paix	paix	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 des	un	DET
 remèdes	remède	NOUN
@@ -1138,7 +1138,7 @@ la	le	DET
 société	société	NOUN
 chrétienne	chrétien	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 à	à	ADP
 cette	ce	DET
 fin	fin	NOUN
@@ -1166,7 +1166,7 @@ pas	pas	ADV
 réalisable	réalisable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 «	«	PUNCTclause
 république	république	NOUN
 chrétienne	chrétien	ADJ
@@ -1178,7 +1178,7 @@ est	être	AUX
 une	un	DET
 sorte	sorte	NOUN
 de	de	ADP
-Confédération	Confédération	NOUN
+confédération	confédération	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 serait	être	AUX
@@ -1202,7 +1202,7 @@ absolue	absolu	ADJ
 quoad	quoad	ADP
 temporalia	temporalia	NOUN
 .	.	PUNCTsent
-Cependant	cependant	ADV
+cependant	cependant	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -1216,9 +1216,9 @@ une	un	PRON
 réforme	réforme	NOUN
 de	de	ADP
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 .	.	PUNCTsent
-Fort	fort	ADV
+fort	fort	ADV
 de	de	ADP
 l'	le	DET
 autorité	autorité	NOUN
@@ -1257,10 +1257,10 @@ la	le	DET
 reprise	reprise	NOUN
 de	de	ADP
 la	le	DET
-Terre	Terre	PROPN
+terre	terre	UNKNOWN
 sainte	saint	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 surtout	surtout	ADV
 organiser	organiser	VERB
@@ -1301,7 +1301,7 @@ facilite	faciliter	VERB
 rien	rien	PRON
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 intéressant	intéressant	ADJ
 de	de	ADP
@@ -1316,7 +1316,7 @@ cet	ce	DET
 avocat	avocat	NOUN
 de	de	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 national	national	ADJ
 pour	pour	ADP
 être	être	AUX
@@ -1334,7 +1334,7 @@ terris	terrir	NOUN
 non	non	ADV
 recognoscentes	recognoscentes	ADJ
 .	.	PUNCTsent
-Cependant	cependant	ADV
+cependant	cependant	ADV
 les	le	DET
 sanctions	sanction	NOUN
 ecclésiastiques	ecclésiastique	ADJ
@@ -1358,7 +1358,7 @@ l'on	on	PRON
 craint	craindre	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 veut	vouloir	VERB
 donc	donc	ADV
 profiter	profiter	VERB
@@ -1385,7 +1385,7 @@ trouble-paix	trouble-paix	NOUN
 seront	être	AUX
 déportés	déporter	VERB
 en	en	ADP
-Orient	Orient	PROPN
+orient	orient	UNKNOWN
 ,	,	PUNCTclause
 où	où	PRON
 ils	ils	PRON
@@ -1399,7 +1399,7 @@ capacités	capacité	NOUN
 militaires	militaire	ADJ
 contre	contre	ADP
 les	le	DET
-Infidèles	Infidèles	PROPN
+infidèles	infidèle	UNKNOWN
 ,	,	PUNCTclause
 au	au	ADP_DET
 lieu	lieu	NOUN
@@ -1419,14 +1419,14 @@ la	le	DET
 république	république	NOUN
 chrétienne	chrétien	ADJ
 !	!	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 cette	ce	DET
 disposition	disposition	NOUN
 ne	ne	ADV
 suffit	suffire	VERB
 pas	pas	ADV
 .	.	PUNCTsent
-Dubois	Dubois	PROPN
+Dubois	Dubois	NOUN
 montre	montrer	VERB
 par	par	ADP
 un	un	DET
@@ -1472,7 +1472,7 @@ armes	arme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 trait	trait	NOUN
 caractéristique	caractéristique	ADJ
 de	de	ADP
@@ -1480,7 +1480,7 @@ ce	ce	DET
 projet	projet	NOUN
 ,	,	PUNCTclause
 remarque	remarque	NOUN
-Lange	Lange	PROPN
+lange	lange	UNKNOWN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1488,7 +1488,7 @@ son	son	DET
 esprit	esprit	NOUN
 réaliste	réaliste	ADJ
 .	.	PUNCTsent
-Dubois	Dubois	PROPN
+Dubois	Dubois	NOUN
 sait	savoir	VERB
 apprécier	apprécier	VERB
 sobrement	sobrement	ADV
@@ -1505,7 +1505,7 @@ lequel	lequel	PRON
 il	il	PRON
 vit	vivre	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 voit	voir	VERB
 que	que	SCONJ
 la	le	DET
@@ -1531,7 +1531,7 @@ dans	dans	ADP
 la	le	DET
 paix	paix	NOUN
 de	de	ADP
-États	États	NOUN
+états	état	NOUN
 souverains	souverain	ADJ
 ;	;	PUNCTclause
 il	il	PRON
@@ -1546,13 +1546,13 @@ vider	vider	VERB
 les	le	DET
 litiges	litige	NOUN
 entre	entre	ADP
-États	États	NOUN
+états	état	NOUN
 souverains	souverain	ADJ
 est	être	AUX
 l'	le	DET
 arbitrage	arbitrage	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 recommande	recommander	VERB
 des	un	DET
 mesures	mesure	NOUN
@@ -1629,7 +1629,7 @@ l'	le_PRON	PRON
 a	avoir	AUX
 vue	vu	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 était	être	AUX
 trop	trop	ADV
 réaliste	réaliste	ADJ
@@ -1644,9 +1644,9 @@ l'	le_PRON	PRON
 guère	guère	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
-Cependant	cependant	ADV
+cependant	cependant	ADV
 ,	,	PUNCTclause
-Lange	Lange	PROPN
+lange	lange	UNKNOWN
 a	avoir	AUX
 bien	bien	ADV
 montré	montrer	VERB
@@ -1666,7 +1666,7 @@ de	de	ADP
 Dubois	Dubois	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Le	le	DET
+le	le	DET
 point	point	NOUN
 de	de	ADP
 départ	départ	NOUN
@@ -1678,7 +1678,7 @@ l'	le	DET
 existence	existence	NOUN
 de	de	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
 prince	prince	NOUN
@@ -1692,7 +1692,7 @@ superiorem	superiorem	X
 in	in	X
 terris	terrir	X
 …	…	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 affirmation	affirmation	NOUN
@@ -1702,7 +1702,7 @@ la	le	DET
 souveraineté	souveraineté	NOUN
 de	de	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 doit	devoir	VERB
 ,	,	PUNCTclause
 poussée	pousser	VERB
@@ -1719,7 +1719,7 @@ les	le	DET
 relations	relation	NOUN
 entre	entre	ADP
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 ,	,	PUNCTclause
 anarchie	anarchie	NOUN
 qui	qui	PRON
@@ -1730,7 +1730,7 @@ principe	principe	NOUN
 règne	régner	VERB
 encore	encore	ADV
 …	…	PUNCTsent
-On	on	PRON
+on	on	PRON
 voit	voir	VERB
 que	que	SCONJ
 ce	ce	PRON
@@ -1751,7 +1751,7 @@ celle	celle	PRON
 de	de	ADP
 Philippe	Philippe	PROPN
 le	le	DET
-Bel	Bel	PROPN
+bel	beau	UNKNOWN
 et	et	CCONJ
 de	de	ADP
 Boniface	Boniface	PROPN
@@ -1779,14 +1779,14 @@ solution	solution	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Pétrarque	Pétrarque	PROPN
+Pétrarque	Pétrarque	NOUN
 (	(	PUNCTclause
 1304	1304	NUM
 -1374	-1374	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cependant	cependant	ADV
+cependant	cependant	ADV
 l'	le	DET
 anarchie	anarchie	NOUN
 ne	ne	ADV
@@ -1796,8 +1796,8 @@ grandir	grandir	VERB
 en	en	ADP
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Les	le	DET
-Souverainetés	Souverainetés	PROPN
+les	le	DET
+souverainetés	souveraineté	UNKNOWN
 absolues	absolu	ADJ
 ,	,	PUNCTclause
 à	à	ADP
@@ -1811,7 +1811,7 @@ déchirent	déchirer	VERB
 son	son	DET
 corps	corps	NOUN
 .	.	PUNCTsent
-Est	être	AUX
+est	être	AUX
 ce	ce	DET
 le	le_PRON	PRON
 corps	corps	NOUN
@@ -1819,7 +1819,7 @@ de	de	ADP
 la	le	DET
 chrétienté	chrétienté	NOUN
 ?	?	PUNCTsent
-Pétrarque	Pétrarque	PROPN
+Pétrarque	Pétrarque	NOUN
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
@@ -1853,7 +1853,7 @@ méconnu	méconnu	ADJ
 »	»	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 roi	roi	NOUN
 Georges	Georges	PROPN
 Podiebrad	Podiebrad	PROPN
@@ -1862,7 +1862,7 @@ Antoine	Antoine	PROPN
 Marini	Marini	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 roi	roi	NOUN
 de	de	ADP
 France	France	PROPN
@@ -1896,7 +1896,7 @@ du	du	ADP_DET
 premier	premier	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Georges	Georges	PROPN
+Georges	Georges	NOUN
 Podiebrad	Podiebrad	PROPN
 (	(	PUNCTclause
 1420	1420	NUM
@@ -1967,7 +1967,7 @@ que	que	SCONJ
 ,	,	PUNCTclause
 briguant	briguer	VERB
 l'	le	DET
-Empire	Empire	NOUN
+empire	empire	NOUN
 bien	bien	ADV
 que	que	SCONJ
 hérétique	hérétique	ADJ
@@ -2003,7 +2003,7 @@ au	au	ADP_DET
 trône	trône	NOUN
 —	—	PUNCTclause
 écrit	écrire	VERB
-Lange	Lange	PROPN
+lange	lange	UNKNOWN
 —	—	PUNCTclause
 que	que	SCONJ
 Georges	Georges	PROPN
@@ -2040,7 +2040,7 @@ et	et	CCONJ
 en	en	ADP
 Salzburg	Salzburg	PROPN
 .	.	PUNCTsent
-Antoine	Antoine	PROPN
+Antoine	Antoine	NOUN
 déployait	déployer	VERB
 depuis	depuis	ADP
 1456	1456	NUM
@@ -2074,7 +2074,7 @@ carbonista	carbonista	CCONJ
 ,	,	PUNCTclause
 charbonnier	charbonnier	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 doit	devoir	VERB
 supposé que	supposé que	ADP
 ce	ce	PRON
@@ -2149,7 +2149,7 @@ l'	le_PRON	PRON
 a	avoir	AUX
 éconduit	éconduire	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 enfin	enfin	ADV
 soumis	soumettre	VERB
@@ -2166,7 +2166,7 @@ de	de	ADP
 à	à	ADP
 1463	1463	NUM
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 1464	1464	NUM
 Antoine	Antoine	PROPN
 prend	prendre	VERB
@@ -2196,7 +2196,7 @@ cet	ce	DET
 événement	événement	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
-On	on	PRON
+on	on	PRON
 sait	savoir	VERB
 que	que	SCONJ
 plus tard	plus tard	ADV
@@ -2217,7 +2217,7 @@ le	le	DET
 roi	roi	NOUN
 Georges	Georges	PROPN
 .	.	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 tint	tenir	VERB
 bon	bon	ADJ
 cependant	cependant	ADV
@@ -2232,7 +2232,7 @@ en	en	ADP
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 projet	projet	NOUN
 présenté	présenter	VERB
 à	à	ADP
@@ -2245,9 +2245,9 @@ est	être	AUX
 en	en	ADP
 latin	latin	NOUN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
-Mémoires	Mémoires	NOUN
+mémoires	mémoire	NOUN
 de	de	ADP
 Philippe	Philippe	PROPN
 de	de	ADP
@@ -2264,7 +2264,7 @@ titre	titre	NOUN
 en	en	ADP
 français	français	NOUN
 :	:	PUNCTclause
-Traité	Traité	NOUN
+traité	traité	NOUN
 de	de	ADP
 alliance	alliance	NOUN
 et	et	CCONJ
@@ -2288,9 +2288,9 @@ Venise	Venise	PROPN
 pour	pour	ADP
 résister	résister	VERB
 au	au	ADP_DET
-Turc	Turc	PROPN
+turc	turc	UNKNOWN
 .	.	PUNCTsent
-Podiebrad	Podiebrad	PROPN
+Podiebrad	Podiebrad	X
 comptait	compter	VERB
 y	y	PRON
 faire	faire	VERB
@@ -2339,7 +2339,7 @@ nouvelle	nouveau	ADJ
 ,	,	PUNCTclause
 celle	celle	PRON
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 et	et	CCONJ
 des	un	ADP_DET
 nations	nation	NOUN
@@ -2381,7 +2381,7 @@ des	un	ADP_DET
 souverainetés	souveraineté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Bien	bien	ADV
+bien	bien	ADV
 que	que	SCONJ
 il	il	PRON
 ait	avoir	AUX
@@ -2418,7 +2418,7 @@ esquisse	esquisser	VERB
 pour	pour	ADP
 la première fois	la première fois	ADV
 une	un	DET
-Confédération	Confédération	NOUN
+confédération	confédération	NOUN
 continentale	continental	ADJ
 ,	,	PUNCTclause
 limitant	limiter	VERB
@@ -2432,10 +2432,10 @@ garantissant	garantir	VERB
 l'	le	DET
 autonomie	autonomie	NOUN
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 membres	membre	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 porte	porter	VERB
 création	création	NOUN
 de	de	ADP
@@ -2449,9 +2449,9 @@ simple	simple	ADJ
 ;	;	PUNCTclause
 de	de	ADP
 une	un	DET
-Cour	Cour	NOUN
+cour	cour	NOUN
 de	de	ADP
-Justice	Justice	NOUN
+justice	justice	NOUN
 ;	;	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -2479,7 +2479,7 @@ la	le	DET
 dîme	dîme	NOUN
 ecclésiastique	ecclésiastique	ADJ
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 ce	ce	DET
 texte	texte	NOUN
 fort	fort	ADV
@@ -2524,13 +2524,13 @@ notre	notre	DET
 temps	temps	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Car	car	CCONJ
+car	car	CCONJ
 l'	le	DET
 islam	islam	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 les	le	DET
-Turcs	Turcs	NOUN
+turcs	turc	NOUN
 ,	,	PUNCTclause
 sont	être	AUX
 survenus	survenir	VERB
@@ -2545,7 +2545,7 @@ le	le	DET
 glorieux	glorieux	ADJ
 empire	empire	NOUN
 des	un	ADP_DET
-Grecs	Grecs	NOUN
+grecs	grec	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 …	…	PUNCTsent
@@ -2563,7 +2563,7 @@ infini	infini	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 trois	trois	NUM
 premiers	premier	ADJ
 articles	article	NOUN
@@ -2641,20 +2641,20 @@ arbitrage	arbitrage	NOUN
 international	international	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 organes	organe	NOUN
 de	de	ADP
 la	le	DET
-Confédération	Confédération	PROPN
+confédération	confédération	UNKNOWN
 sont	être	AUX
 ensuite	ensuite	ADV
 indiqués	indiquer	VERB
 :	:	PUNCTclause
-Cour	Cour	NOUN
+cour	cour	NOUN
 de	de	ADP
 justice	justice	NOUN
 ou	ou	CCONJ
-Consistoire	Consistoire	NOUN
+consistoire	consistoire	NOUN
 ,	,	PUNCTclause
 Assemblée	Assemblée	PROPN
 ,	,	PUNCTclause
@@ -2679,7 +2679,7 @@ en	en	ADP
 action	action	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 voici	voici	ADP
 comment	comment	ADV
 le	le	DET
@@ -2747,7 +2747,7 @@ dîmes	dîme	NOUN
 perçues	percevoir	VERB
 par	par	ADP
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 ,	,	PUNCTclause
 soient	être	AUX
 désormais	désormais	ADV
@@ -2760,10 +2760,10 @@ nouveau	nouveau	ADJ
 défenseur	défenseur	NOUN
 de	de	ADP
 la	le	DET
-Foi	Foi	NOUN
+foi	foi	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Poliment	poliment	ADV
+poliment	poliment	ADV
 écarté	écarter	VERB
 par	par	ADP
 Louis	Louis	PROPN
@@ -2785,7 +2785,7 @@ aucune	aucun	DET
 suite	suite	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Æneas	Æneas	PROPN
+Æneas	Æneas	DET
 Silvius	Silvius	PROPN
 Piccolomini	Piccolomini	PROPN
 (	(	PUNCTclause
@@ -2794,7 +2794,7 @@ Piccolomini	Piccolomini	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 aura	avoir	VERB
 remarqué	remarquer	VERB
 que	que	SCONJ
@@ -2837,7 +2837,7 @@ chrétienté	chrétienté	NOUN
 de	de	ADP
 fait	fait	NOUN
 .	.	PUNCTsent
-Chose	chose	NOUN
+chose	chose	NOUN
 curieuse	curieux	ADJ
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -2898,7 +2898,7 @@ prétentions	prétention	NOUN
 temporelles	temporel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Æneas	Æneas	PROPN
+Æneas	Æneas	DET
 Silvius	Silvius	PROPN
 Piccolomini	Piccolomini	PROPN
 ,	,	PUNCTclause
@@ -2940,17 +2940,17 @@ roi	roi	NOUN
 de	de	ADP
 bohème	bohème	NOUN
 .	.	PUNCTsent
-Byzance	Byzance	PROPN
+Byzance	Byzance	NOUN
 venait	venir	VERB
 de	de	ADP
 tomber	tomber	VERB
 aux	au	ADP_DET
 mains	main	NOUN
 des	un	ADP_DET
-Turcs	Turcs	NOUN
+turcs	turc	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 Æneas	Æneas	PROPN
 Silvius	Silvius	PROPN
 ,	,	PUNCTclause
@@ -2978,7 +2978,7 @@ destin	destin	NOUN
 menacé	menacer	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Vers	vers	ADP
+vers	vers	ADP
 la	le	DET
 fin	fin	NOUN
 de	de	ADP
@@ -2992,7 +2992,7 @@ la	le	DET
 rédaction	rédaction	NOUN
 de	de	ADP
 une	un	DET
-Cosmographie	Cosmographie	NOUN
+cosmographie	cosmographie	NOUN
 générale	général	ADJ
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -3011,7 +3011,7 @@ purent	pouvoir	VERB
 être	être	AUX
 terminés	terminer	VERB
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 la première fois	la première fois	ADV
 depuis	depuis	ADP
 des	un	DET
@@ -3035,7 +3035,7 @@ plus	plus	ADV
 seulement	seulement	ADV
 géographique	géographique	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 malheureusement	malheureusement	ADV
 impossible	impossible	ADJ
@@ -3065,7 +3065,7 @@ et	et	CCONJ
 Byzance	Byzance	PROPN
 inclus	inclure	VERB
 .	.	PUNCTsent
-Æneas	Æneas	PROPN
+Æneas	Æneas	DET
 Silvius	Silvius	PROPN
 y	y	PRON
 décrit	décrire	VERB
@@ -3100,7 +3100,7 @@ mot	mot	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Personne	personne_PRON	PRON
+personne	personne_PRON	PRON
 ne	ne	ADV
 connaissait	connaître	VERB
 l'	le	DET
@@ -3145,7 +3145,7 @@ force	force	NOUN
 des	un	ADP_DET
 armes	arme	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 Pie	Pie	PROPN
 II	II	NUM
 ,	,	PUNCTclause
@@ -3162,10 +3162,10 @@ même chose	même chose	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 sa	son	DET
 fameuse	fameux	ADJ
-Lettre	Lettre	NOUN
+lettre	lettre	NOUN
 à	à	ADP
 Mahomet	Mahomet	PROPN
 II	II	NUM
@@ -3222,7 +3222,7 @@ faux	faux	ADJ
 chrétiens	chrétien	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mahomet	Mahomet	PROPN
+Mahomet	Mahomet	VERB
 comprendrait	comprendre	VERB
 vite	vite	ADV
 la	le	DET
@@ -3313,7 +3313,7 @@ infidèle	infidèle	NOUN
 de	de	ADP
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Lorsque	lorsque	SCONJ
+lorsque	lorsque	SCONJ
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -3333,7 +3333,7 @@ croisés	croisé	NOUN
 il	il	PRON
 dit	dire	VERB
 :	:	PUNCTclause
-Donne	Donne	PROPN
+donne	donner	UNKNOWN
 nous	nous	PRON
 la	le	DET
 victoire	victoire	NOUN
@@ -3359,7 +3359,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Relevons	relever	VERB
+relevons	relever	VERB
 la	le	DET
 triade	triade	NOUN
 significative	significatif	ADJ
@@ -3411,12 +3411,12 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 les	le	DET
 chefs	chef	NOUN
 des	un	ADP_DET
 nouveaux	nouveau	ADJ
-États	États	NOUN
+états	état	NOUN
 divisant	diviser	VERB
 le	le	DET
 corps	corps	NOUN
@@ -3428,7 +3428,7 @@ sourds	sourd	ADJ
 aux	au	ADP_DET
 appels	appel	NOUN
 du	du	ADP_DET
-Pontife	Pontife	PROPN
+pontife	pontife	UNKNOWN
 ,	,	PUNCTclause
 comme	comme	ADP
 à	à	ADP
@@ -3441,7 +3441,7 @@ roi	roi	NOUN
 de	de	ADP
 bohème	bohème	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 eut	avoir	VERB
 beau	beau	ADJ
 joindre	joindre	VERB
@@ -3477,7 +3477,7 @@ une	un	DET
 nouvelle	nouveau	ADJ
 croisade	croisade	NOUN
 :	:	PUNCTclause
-Qui	qui	PRON
+qui	qui	PRON
 pourrait	pouvoir	VERB
 refuser	refuser	VERB
 son	son	DET
@@ -3495,12 +3495,12 @@ sa	son	DET
 propre	propre	ADJ
 vie	vie	NOUN
 ?	?	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 ne	ne	ADV
 y	y	PRON
 fit	faire	VERB
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 Ancône	Ancône	PROPN
 ,	,	PUNCTclause
 où	où	PRON
@@ -3545,7 +3545,7 @@ armes	arme	NOUN
 ni	ni	CCONJ
 chefs	chef	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 mourut	mourir	VERB
 quelques	quelque	DET
 semaines	semaine	NOUN
@@ -3558,7 +3558,7 @@ de	de	ADP
 cette	ce	DET
 déception	déception	NOUN
 .	.	PUNCTsent
-Ne	ne	ADV
+ne	ne	ADV
 devait	devoir	VERB
 il	il	PRON
 pas	pas	ADV

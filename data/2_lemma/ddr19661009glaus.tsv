@@ -6,8 +6,8 @@
 # title = André Breton à New York (8-9 octobre 1966)
 
 ↵↵	↵↵	PUNCTstruct
-André	André	PROPN
-Breton	Breton	PROPN
+André	André	VERB
+breton	breton	UNKNOWN
 à	à	ADP
 New York	New York	PROPN
 (	(	PUNCTclause
@@ -18,7 +18,7 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 guerre	guerre	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -106,7 +106,7 @@ un	un	DET
 petit	petit	ADJ
 restaurant	restaurant	NOUN
 du	du	ADP_DET
-Village	Village	NOUN
+village	village	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 New York	New York	PROPN
@@ -136,10 +136,10 @@ avais	avoir	AUX
 rencontré	rencontrer	VERB
 à	à	ADP
 l'	le	DET
-Office	Office	NOUN
+office	office	NOUN
 of	of	VERB
-War	War	PROPN
-Information	Information	NOUN
+War	War	DET
+information	information	NOUN
 ,	,	PUNCTclause
 où	où	PRON
 je	je	PRON
@@ -158,14 +158,14 @@ par	par	ADP
 jour	jour	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-La	le	DET
-Voix	Voix	NOUN
+la	le	DET
+voix	voix	NOUN
 de	de	ADP
 l'	le	DET
 Amérique	Amérique	PROPN
 parle	parler	VERB
 aux	au	ADP_DET
-Français	Français	NOUN
+français	français	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -209,10 +209,10 @@ fils	fils	NOUN
 Pitoëff	Pitoëff	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Il	il	PRON
+il	il	PRON
 avait	avoir	AUX
 trouvé	trouver	VERB
 ce	ce	DET
@@ -236,7 +236,7 @@ l'	le	DET
 affût	affût	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 plaignit	plaindre	VERB
 ,	,	PUNCTclause
@@ -264,13 +264,13 @@ nous	nous	PRON
 rencontrer	rencontrer	VERB
 .	.	PUNCTsent
 «	«	PUNCTclause
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 de	de	ADP
 ces	ce	DET
 conneries	connerie	NOUN
 !	!	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 que	que	SCONJ
 l'on	on	PRON
 expie	expier	VERB
@@ -286,7 +286,7 @@ mots	mot	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 me	me	PRON
 arrive	arriver	VERB
 de	de	ADP
@@ -319,11 +319,11 @@ rompu	rompre	VERB
 sans	sans	ADP
 retour	retour	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 soir	soir	NOUN
 ,	,	PUNCTclause
 au	au	ADP_DET
-Village	Village	NOUN
+village	village	NOUN
 ,	,	PUNCTclause
 mon	mon	DET
 rêve	rêve	NOUN
@@ -351,7 +351,7 @@ la	le	DET
 psychanalyse	psychanalyse	NOUN
 ,	,	PUNCTclause
 Saint-John	Saint-John	PROPN
-Perse	Perse	PROPN
+perse	pers	UNKNOWN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 aussi	aussi	ADV
@@ -372,7 +372,7 @@ morales	morale	ADJ
 et	et	CCONJ
 religieuses	religieux	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 nous	nous	PRON
 voici	voici	ADP
 bientôt	bientôt	ADV
@@ -387,7 +387,7 @@ convergence	convergence	NOUN
 heureuse	heureux	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 quelques	quelque	DET
 jours	jour	NOUN
 de	de	ADP
@@ -423,7 +423,7 @@ occasion	occasion	NOUN
 quotidienne	quotidien	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 culte	culte	NOUN
 de	de	ADP
 une	un	DET
@@ -431,7 +431,7 @@ pierre	pierre	NOUN
 bleue	bleu	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dès	dès	ADP
+dès	dès	ADP
 notre	notre	DET
 première	premier	ADJ
 vraie	vrai	ADJ
@@ -463,7 +463,7 @@ jours	jour	NOUN
 ce	ce	PRON
 est	être	AUX
 que	que	ADV
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 pour	pour	ADP
 toute	tout	ADJ
@@ -513,7 +513,7 @@ dénigrait	dénigrer	VERB
 sans	sans	ADP
 relâche	relâche	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 voulait	vouloir	VERB
 un	un	DET
 rituel	rituel	NOUN
@@ -548,9 +548,9 @@ défi	défi	NOUN
 qui	qui	PRON
 rejoignait	rejoindre	VERB
 l'	le	DET
-Inquisition	Inquisition	NOUN
+inquisition	inquisition	NOUN
 …	…	PUNCTsent
-Il	il	PRON
+il	il	PRON
 me	me	PRON
 dit	dire	VERB
 ce	ce	DET
@@ -605,7 +605,7 @@ des	un	DET
 plus	plus	ADV
 exaltants	exaltant	ADJ
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -632,7 +632,7 @@ de	de	ADP
 la	le	DET
 poésie	poésie	NOUN
 selon	selon	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 autrement dit	autrement dit	ADV
 ,	,	PUNCTclause
@@ -642,7 +642,7 @@ sa	son	DET
 religion	religion	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 en	en	PRON
 tirait	tirer	VERB
 une	un	DET
@@ -697,7 +697,7 @@ jusque	jusque	ADP
 l'	le	DET
 âme	âme	NOUN
 .	.	PUNCTsent
-D'autres	d'autre	PRON
+d'autres	d'autre	PRON
 fois	fois	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -740,7 +740,7 @@ dégonflé	dégonfler	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-Combien	combien	ADV
+combien	combien	ADV
 de	de	ADP
 poètes	poète	NOUN
 ,	,	PUNCTclause
@@ -762,7 +762,7 @@ leur	leur	DET
 cœur	cœur	NOUN
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ne	ne	ADV
 les	le_PRON	PRON
 avait	avoir	AUX
@@ -798,14 +798,14 @@ que	que	SCONJ
 avait	avoir	AUX
 reconstitué	reconstituer	VERB
 André	André	PROPN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 dès	dès	ADP
 son	son	DET
 arrivée	arrivée	NOUN
 à	à	ADP
 New York	New York	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 avait	avoir	VERB
 pour	pour	ADP
 noyau	noyau	NOUN
@@ -846,7 +846,7 @@ vingt	vingt	NUM
 ans	an	NOUN
 plus tard	plus tard	ADV
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 y	y	PRON
 voyait	voir	VERB
 aussi	aussi	ADV
@@ -872,7 +872,7 @@ comédies	comédie	NOUN
 de	de	ADP
 Shakespeare	Shakespeare	PROPN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 se	se	PRON
 rencontrait	rencontrer	VERB
 chez	chez	ADP
@@ -908,7 +908,7 @@ ou	ou	CCONJ
 de	de	ADP
 télépathie	télépathie	NOUN
 .	.	PUNCTsent
-Parfois	parfois	ADV
+parfois	parfois	ADV
 ,	,	PUNCTclause
 on	on	PRON
 arrangeait	arranger	VERB
@@ -921,7 +921,7 @@ qui	qui	PRON
 fut	être	AUX
 dédiée	dédier	VERB
 au	au	ADP_DET
-Nombre	Nombre	NOUN
+nombre	nombre	NOUN
 21	21	NUM
 )	)	PUNCTclause
 ou	ou	CCONJ
@@ -932,7 +932,7 @@ ou	ou	CCONJ
 une	un	DET
 vitrine	vitrine	NOUN
 (	(	PUNCTclause
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 Seligmann	Seligmann	PROPN
 et	et	CCONJ
@@ -942,7 +942,7 @@ celle	celle	PRON
 qui	qui	PRON
 annonçait	annoncer	VERB
 ma	mon	DET
-Part	Part	PROPN
+part	part	UNKNOWN
 du	du	ADP_DET
 diable	diable	NOUN
 )	)	PUNCTclause
@@ -976,7 +976,7 @@ studio	studio	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 l'	le	DET
-Européen	Européen	PROPN
+européen	européen	UNKNOWN
 le	le_PRON	PRON
 plus	plus	ADV
 moderne	moderne	ADJ
@@ -994,9 +994,9 @@ criait	crier	VERB
 il	il	PRON
 en	en	PRON
 déclamant	déclamer	VERB
-Zone	Zone	NOUN
+zone	zone	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 pape	pape	NOUN
 ne	ne	ADV
 le	le_PRON	PRON
@@ -1011,7 +1011,7 @@ de	de	ADP
 Apollinaire	Apollinaire	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Mais	mais	CCONJ
+mais	mais	CCONJ
 tout de même	tout de même	ADV
 ,	,	PUNCTclause
 la	le	DET
@@ -1036,7 +1036,7 @@ lut	lire	VERB
 un	un	DET
 jour	jour	NOUN
 l'	le	DET
-Ode	Ode	PROPN
+ode	ode	UNKNOWN
 à	à	ADP
 Charles	Charles	PROPN
 Fourier	Fourier	PROPN
@@ -1060,7 +1060,7 @@ crayon	crayon	NOUN
 de	de	ADP
 couleur	couleur	NOUN
 .	.	PUNCTsent
-Fourier	Fourier	PROPN
+Fourier	Fourier	VERB
 était	être	AUX
 alors	alors	ADV
 son	son	DET
@@ -1092,7 +1092,7 @@ l'	le	DET
 utopie	utopie	NOUN
 phalanstérienne	phalanstérien	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 eût	avoir	AUX
 dit	dire	VERB
 que	que	SCONJ
@@ -1109,7 +1109,7 @@ de	de	ADP
 avant-garde	avant-garde	NOUN
 !	!	PUNCTsent
 «	«	PUNCTclause
-Ombre	ombre	NOUN
+ombre	ombre	NOUN
 frénétique	frénétique	ADJ
 de	de	ADP
 Fourier	Fourier	PROPN
@@ -1123,8 +1123,8 @@ Tristan	Tristan	PROPN
 ombre	ombre	NOUN
 délicieuse	délicieux	ADJ
 du	du	ADP_DET
-Père	Père	NOUN
-Enfantin	Enfantin	NOUN
+père	père	NOUN
+enfantin	enfantin	NOUN
 …	…	PUNCTsent
 une	un	DET
 grande	grand	ADJ
@@ -1137,7 +1137,7 @@ due	devoir	VERB
 écrira	écrire	VERB
 il	il	PRON
 dans	dans	ADP
-Arcane	Arcane	PROPN
+arcane	arcane	UNKNOWN
 17	17	NUM
 ,	,	PUNCTclause
 deux	deux	NUM
@@ -1189,15 +1189,15 @@ extrême	extrême	ADJ
 fraîcheur	fraîcheur	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Jamais	jamais	ADV
-Breton	Breton	PROPN
+jamais	jamais	ADV
+breton	breton	UNKNOWN
 ne	ne	ADV
 se	se	PRON
 est	être	AUX
 mieux	mieux	ADV
 défini	défini	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 pense	penser	VERB
 au	au	ADP_DET
 soir	soir	NOUN
@@ -1231,7 +1231,7 @@ ancêtre	ancêtre	NOUN
 des	un	ADP_DET
 jansénistes	janséniste	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 lui	lui	PRON
 dîmes	dire	VERB
 que	que	SCONJ
@@ -1267,11 +1267,11 @@ avait	avoir	VERB
 canonisé	canoniser	VERB
 «	«	PUNCTclause
 l'	le	DET
-Obscurantisme	Obscurantisme	NOUN
+obscurantisme	obscurantisme	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 dimanche	dimanche	NOUN
 matin	matin	NOUN
 à	à	ADP
@@ -1279,7 +1279,7 @@ New York	New York	PROPN
 ,	,	PUNCTclause
 au bas de	au bas de	ADP
 Madison	Madison	PROPN
-Avenue	Avenue	PROPN
+avenue	avenue	UNKNOWN
 déserte	déserter	VERB
 ,	,	PUNCTclause
 vingt	vingt	NUM
@@ -1295,7 +1295,7 @@ me	me	PRON
 trouve	trouver	VERB
 soudain	soudain	ADJ
 devant	devant	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 qui	qui	PRON
 marche	marcher	VERB
@@ -1306,7 +1306,7 @@ de	de	ADP
 rêve	rêve	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Je	je	PRON
+je	je	PRON
 pensais	penser	VERB
 ,	,	PUNCTclause
 me	me	PRON
@@ -1338,12 +1338,12 @@ bleue	bleu	ADJ
 ?	?	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Changer	changer	VERB
+changer	changer	VERB
 la	le	DET
 vie	vie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 grande	grand	ADJ
 contradiction	contradiction	NOUN
 qui	qui	PRON
@@ -1396,7 +1396,7 @@ au	au	ADP_DET
 moindre	moindre	ADJ
 soupir	soupir	NOUN
 .	.	PUNCTsent
-Autoritaire	autoritaire	ADJ
+autoritaire	autoritaire	ADJ
 et	et	CCONJ
 libertaire	libertaire	ADJ
 ,	,	PUNCTclause
@@ -1440,7 +1440,7 @@ pour	pour	ADP
 lui	lui	PRON
 seul	seul	ADJ
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 personne	personne	NOUN
 je	je	PRON
 ne	ne	ADV

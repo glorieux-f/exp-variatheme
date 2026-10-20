@@ -6,13 +6,13 @@
 # title = "[Compte rendu] André Malraux, La Voie royale (février 1931)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compter	VERB
+compte	compter	VERB
 rendu	rendre	VERB
 André	André	PROPN
 Malraux	Malraux	PROPN
 ,	,	PUNCTclause
-La	le	DET
-Voie	Voie	NOUN
+la	le	DET
+voie	voie	NOUN
 royale	royal	ADJ
 (	(	PUNCTclause
 février	février	NOUN
@@ -20,7 +20,7 @@ février	février	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-M.	M.	PROPN
+M.	M.	NOUN
 André	André	PROPN
 Malraux	Malraux	PROPN
 écrit	écrire	VERB
@@ -59,12 +59,12 @@ un	un	DET
 jeune	jeune	ADJ
 écrivain	écrivain	NOUN
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 premier	premier	ADJ
 roman	roman	NOUN
 ,	,	PUNCTclause
-Les	le	DET
-Conquérants	Conquérants	NOUN
+les	le	DET
+conquérants	conquérant	NOUN
 ,	,	PUNCTclause
 décrivait	décrire	VERB
 la	le	DET
@@ -98,7 +98,7 @@ assez	assez	ADV
 directement	directement	ADV
 autobiographique	autobiographique	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 philosophie	philosophie	NOUN
 de	de	ADP
 ce	ce	DET
@@ -125,15 +125,15 @@ aigu	aigu	ADJ
 et	et	CCONJ
 dense	dense	ADJ
 intitulé	intituler	VERB
-La	le	DET
-Tentation	Tentation	NOUN
+la	le	DET
+tentation	tentation	NOUN
 de	de	ADP
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
-Voix	Voix	NOUN
+la	le	DET
+voix	voix	NOUN
 royale	royal	ADJ
 ,	,	PUNCTclause
 est	être	AUX
@@ -190,9 +190,9 @@ la	le	DET
 plus	plus	ADV
 sauvage	sauvage	ADJ
 .	.	PUNCTsent
-Comme	comme	ADP
-Les	le	DET
-Conquérants	Conquérants	NOUN
+comme	comme	ADP
+les	le	DET
+conquérants	conquérant	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -223,9 +223,9 @@ des	un	ADP_DET
 héros	héros	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 jeune	jeune	ADJ
-Français	Français	NOUN
+français	français	NOUN
 a	avoir	AUX
 décidé	décider	VERB
 de	de	ADP
@@ -237,7 +237,7 @@ en	en	ADP
 ruines	ruine	NOUN
 de	de	ADP
 la	le	DET
-Voie	Voie	NOUN
+voie	voie	NOUN
 royale	royal	ADJ
 de	de	ADP
 Angkor	Angkor	PROPN
@@ -256,7 +256,7 @@ un	un	DET
 prix	prix	NOUN
 considérable	considérable	ADJ
 .	.	PUNCTsent
-Sur	sur	ADP
+sur	sur	ADP
 le	le	DET
 bateau	bateau	NOUN
 qui	qui	PRON
@@ -275,7 +275,7 @@ un	un	DET
 aventurier	aventurier	NOUN
 danois	danois	ADJ
 ,	,	PUNCTclause
-Perken	Perken	PROPN
+Perken	Perken	X
 ,	,	PUNCTclause
 personnage	personnage	NOUN
 énigmatique	énigmatique	ADJ
@@ -307,7 +307,7 @@ rapprochent	rapprocher	VERB
 du	du	ADP_DET
 Garine	Garine	NOUN
 des	un	ADP_DET
-Conquérants	Conquérants	NOUN
+conquérants	conquérant	NOUN
 :	:	PUNCTclause
 «	«	PUNCTclause
 hostilité	hostilité	NOUN
@@ -337,7 +337,7 @@ refus	refus	NOUN
 surtout	surtout	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
-Refus	refus	NOUN
+refus	refus	NOUN
 des	un	ADP_DET
 «	«	PUNCTclause
 conditions	condition	NOUN
@@ -361,7 +361,7 @@ demeure	demeurer	VERB
 assez	assez	ADV
 incertain	incertain	ADJ
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 mystère	mystère	NOUN
 qui	qui	PRON
 entoure	entourer	VERB
@@ -422,7 +422,7 @@ pour	pour	ADP
 dissiper	dissiper	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Perken	Perken	PROPN
+Perken	Perken	X
 ,	,	PUNCTclause
 dans	dans	ADP
 ses	son	DET
@@ -460,7 +460,7 @@ et	et	CCONJ
 mots	mot	NOUN
 couverts	couvrir	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 intimide	intimider	VERB
 un	un	DET
 peu	peu	ADV
@@ -477,7 +477,7 @@ ses	son	DET
 secrets	secret	NOUN
 desseins	dessein	NOUN
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 reste	reste	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -513,7 +513,7 @@ en	en	PRON
 a	avoir	AUX
 pas	pas	ADV
 .	.	PUNCTsent
-Perken	Perken	PROPN
+Perken	Perken	X
 ,	,	PUNCTclause
 comme	comme	ADP
 Garine	Garine	PROPN
@@ -608,7 +608,7 @@ monstrueuse	monstrueux	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 les	le	DET
 incidents	incident	NOUN
 pathétiques	pathétique	ADJ
@@ -626,8 +626,8 @@ de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent
-Chez	chez	ADP
-Perken	Perken	PROPN
+chez	chez	ADP
+Perken	Perken	X
 comme	comme	CCONJ
 chez	chez	ADP
 Garine	Garine	PROPN
@@ -670,7 +670,7 @@ la	le	DET
 mort	mort	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Tout	tout	ADJ
+tout	tout	ADJ
 cela	cela	PRON
 ,	,	PUNCTclause
 dira	dire	VERB
@@ -712,7 +712,7 @@ un	un	DET
 intellectualisme	intellectualisme	NOUN
 anarchique	anarchique	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 tiens	tenir	VERB
 au contraire	au contraire	ADV
 le	le	DET
@@ -728,19 +728,19 @@ post-nietzschéenne	post-nietzschéenne	ADJ
 et	et	CCONJ
 pré-communiste	pré-communiste	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 cas	cas	NOUN
 Malraux	Malraux	PROPN
 ,	,	PUNCTclause
 —	—	PUNCTclause
 le	le	DET
 cas	cas	NOUN
-Perken	Perken	PROPN
+Perken	Perken	X
 si	si	SCONJ
 vous	vous	PRON
 voulez	vouloir	VERB
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 personnages	personnage	NOUN
 de	de	ADP
 M.	M.	NOUN
@@ -774,7 +774,7 @@ de	de	ADP
 leur	leur	DET
 auteur	auteur	NOUN
 .	.	PUNCTsent
-Qui	qui	PRON
+qui	qui	PRON
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
@@ -795,7 +795,7 @@ traits	trait	NOUN
 du	du	ADP_DET
 modèle	modèle	NOUN
 .	.	PUNCTsent
-Cet	ce	DET
+cet	ce	DET
 air	air	NOUN
 de	de	ADP
 famille	famille	NOUN
@@ -845,7 +845,7 @@ ressemblant	ressembler	VERB
 du	du	ADP_DET
 maître	maître	NOUN
 ?	?	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 apparaissent	apparaître	VERB
 à travers	à travers	ADP
 des	un	DET
@@ -885,7 +885,7 @@ fait	faire	VERB
 de	de	ADP
 lui-même	lui-même	PRON
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 suis	être	AUX
 tenté	tenter	VERB
 de	de	ADP
@@ -906,7 +906,7 @@ et	et	CCONJ
 intime	intime	ADJ
 adhésion	adhésion	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avons	avoir	AUX
 tous	tous	PRON
 en	en	ADP
@@ -932,7 +932,7 @@ et	et	CCONJ
 plus	plus	ADV
 accompli	accomplir	VERB
 .	.	PUNCTsent
-Perken-Garine	Perken-Garine	PROPN
+Perken-Garine	Perken-Garine	NOUN
 est	être	AUX
 la	le	DET
 personnification	personnification	NOUN
@@ -1013,7 +1013,7 @@ relié	relier	VERB
 à	à	ADP
 rien	rien	PRON
 .	.	PUNCTsent
-Plutôt	plutôt	ADV
+plutôt	plutôt	ADV
 aventurier	aventurier	NOUN
 que	que	SCONJ
 conquérant	conquérir	VERB
@@ -1046,7 +1046,7 @@ où	où	PRON
 renaître	renaître	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 sais	savoir	VERB
 pas	pas	ADV
@@ -1070,7 +1070,7 @@ de	de	ADP
 notre	notre	DET
 civilisation	civilisation	NOUN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 ce	ce	DET
 titre	titre	NOUN
 ,	,	PUNCTclause
@@ -1083,8 +1083,8 @@ que	que	SCONJ
 Malraux	Malraux	PROPN
 inaugure	inaugurer	VERB
 avec	avec	ADP
-La	le	DET
-Voie	Voie	NOUN
+la	le	DET
+voie	voie	NOUN
 royale	royal	ADJ
 ,	,	PUNCTclause
 mérite	mériter	VERB
@@ -1101,7 +1101,7 @@ admiration	admiration	NOUN
 littéraire	littéraire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 courage	courage	NOUN
 presque	presque	ADV
 agressif	agressif	ADJ
@@ -1140,7 +1140,7 @@ contre	contre	ADP
 la	le	DET
 vie	vie	NOUN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 nous	nous	PRON
 amène	amener	VERB
 à	à	ADP

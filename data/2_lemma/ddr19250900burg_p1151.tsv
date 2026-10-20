@@ -6,12 +6,12 @@
 # title = "[Compte rendu] Lucien Fabre, Le Tarramagnou (septembre 1925)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Lucien	Lucien	PROPN
 Fabre	Fabre	PROPN
 ,	,	PUNCTclause
-Le	le	DET
+le	le	DET
 Tarramagnou	Tarramagnou	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
@@ -19,7 +19,7 @@ septembre	septembre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Lucien	Lucien	PROPN
+Lucien	Lucien	ADJ
 Fabre	Fabre	PROPN
 ,	,	PUNCTclause
 ingénieur	ingénieur	NOUN
@@ -30,14 +30,14 @@ chroniqueur	chroniqueur	NOUN
 scientifique	scientifique	ADJ
 ,	,	PUNCTclause
 «	«	PUNCTclause
-Prix	Prix	NOUN
+prix	prix	NOUN
 Goncourt	Goncourt	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 curieux	curieux	NOUN
 homme	homme	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 livre	livrer	VERB
 à	à	ADP
@@ -54,7 +54,7 @@ plan	plan	NOUN
 un	un	DET
 poème	poème	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 écrit	écrire	VERB
 un	un	DET
 livre	livre	NOUN
@@ -66,11 +66,11 @@ articles	article	NOUN
 sur	sur	ADP
 Valéry	Valéry	PROPN
 ,	,	PUNCTclause
-Saint	Saint	PROPN
+saint	saint	UNKNOWN
 John	John	PROPN
-Perse	Perse	PROPN
+perse	pers	UNKNOWN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 le	le_PRON	PRON
 vit	vivre	VERB
 naguère	naguère	ADV
@@ -81,7 +81,7 @@ des	un	DET
 stocks	stock	NOUN
 américains	américain	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ses	son	DET
 romans	roman	NOUN
 ,	,	PUNCTclause
@@ -118,7 +118,7 @@ dans	dans	ADP
 leur	leur	DET
 flot	flot	NOUN
 .	.	PUNCTsent
-Voilà	voilà	ADP
+voilà	voilà	ADP
 le	le	DET
 lecteur	lecteur	NOUN
 entraîné	entraîner	VERB
@@ -139,7 +139,7 @@ pages	page	NOUN
 comme	comme	ADP
 Rabevel	Rabevel	PROPN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 si	si	SCONJ
 la	le	DET
 liquidation	liquidation	NOUN
@@ -155,7 +155,7 @@ complète	compléter	VERB
 aussi	aussi	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 se	se	PRON
 étonne	étonner	VERB
 de	de	ADP
@@ -178,7 +178,7 @@ si	si	ADV
 mal	mal	ADV
 équarris	équarri	ADJ
 .	.	PUNCTsent
-Certes	certes	ADV
+certes	certes	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -198,7 +198,7 @@ son	son	DET
 maître	maître	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-La	le	DET
+la	le	DET
 marquise	marquis	NOUN
 sortit	sortir	VERB
 à	à	ADP
@@ -206,7 +206,7 @@ cinq	cinq	NUM
 heures	heure	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 telle	tel	PRON
 platitude	platitude	NOUN
 est	être	AUX
@@ -224,7 +224,7 @@ le	le_PRON	PRON
 sont	être	AUX
 moins	moins	ADV
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 écrit	écrire	VERB
 pas	pas	ADV
@@ -242,7 +242,7 @@ et	et	CCONJ
 des	un	DET
 négligences	négligence	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 on	on	PRON
 ne	ne	ADV
 demande	demander	VERB
@@ -261,7 +261,7 @@ bien	bien	ADV
 peigné	peigner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Rabevel	Rabevel	PROPN
+Rabevel	Rabevel	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 était	être	AUX
@@ -273,7 +273,7 @@ brasseur	brasseur	NOUN
 de	de	ADP
 affaires	affaire	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 sujet	sujet	NOUN
 du	du	ADP_DET
 Tarramagnou	Tarramagnou	PROPN
@@ -321,7 +321,7 @@ capitalistes	capitaliste	NOUN
 des	un	ADP_DET
 villes	ville	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 dans	dans	ADP
 une	un	PRON
 de	de	ADP
@@ -362,7 +362,7 @@ descendant	descendant	NOUN
 de	de	ADP
 Roland	Roland	PROPN
 le	le	DET
-Camisard	Camisard	PROPN
+camisard	camisard	UNKNOWN
 ,	,	PUNCTclause
 ce	ce	DET
 «	«	PUNCTclause
@@ -391,7 +391,7 @@ les	le	DET
 lois	loi	NOUN
 tyranniques	tyrannique	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 succès	succès	NOUN
 grandit	grandir	VERB
 rapidement	rapidement	ADV
@@ -400,7 +400,7 @@ le	le	DET
 gouvernement	gouvernement	NOUN
 cède	céder	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 la	le	DET
 même	même	ADJ
 inertie	inertie	NOUN
@@ -422,7 +422,7 @@ au-delà	au-delà	ADV
 du	du	ADP_DET
 but	but	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 Tarramagnou	Tarramagnou	PROPN
 voit	voir	VERB
 son	son	DET
@@ -446,7 +446,7 @@ huent	huer	VERB
 sa	son	DET
 modération	modération	NOUN
 .	.	PUNCTsent
-Alors	alors	ADV
+alors	alors	ADV
 il	il	PRON
 va	aller	VERB
 se	se	PRON
@@ -498,7 +498,7 @@ richesse	richesse	NOUN
 psychologique	psychologique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 fermant	fermer	VERB
 le	le	DET
 livre	livre	NOUN
@@ -520,7 +520,7 @@ y	y	PRON
 manque	manquer	VERB
 il	il	PRON
 ?	?	PUNCTsent
-Un	un	DET
+un	un	DET
 style	style	NOUN
 ?	?	PUNCTsent
 l'	le	DET
@@ -564,7 +564,7 @@ qui	qui	PRON
 est	être	AUX
 confuse	confus	ADJ
 .	.	PUNCTsent
-Non	non	ADV
+non	non	ADV
 pas	pas	ADV
 que	que	SCONJ
 le	le	DET
@@ -575,7 +575,7 @@ construit	construire	VERB
 ,	,	PUNCTclause
 au contraire	au contraire	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 tissu	tissu	NOUN
 des	un	ADP_DET
@@ -595,7 +595,7 @@ trop	trop	ADV
 nues	nu	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Chef-d'œuvre	chef-d'œuvre	NOUN
+chef-d'œuvre	chef-d'œuvre	NOUN
 ou	ou	CCONJ
 pas	pas	ADV
 chef-d'œuvre	chef-d'œuvre	NOUN
@@ -616,7 +616,7 @@ une	un	DET
 saine	sain	ADJ
 puissance	puissance	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 reste	rester	VERB
 que	que	SCONJ
 Lucien	Lucien	PROPN

@@ -6,7 +6,7 @@
 # title = Le dernier des Mohicans (11 octobre 1945)
 
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 dernier	dernier	ADJ
 des	un	ADP_DET
 Mohicans	Mohicans	PROPN
@@ -17,13 +17,13 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Lake	Lake	PROPN
+Lake	Lake	NOUN
 George	George	PROPN
 (	(	PUNCTclause
 		TOKEN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 clapotis	clapotis	NOUN
 doux	doux	ADJ
 de	de	ADP
@@ -63,7 +63,7 @@ de	de	ADP
 eau	eau	NOUN
 limpide	limpide	ADJ
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 grande	grand	ADJ
 flèche	flèche	NOUN
 rouge	rouge	ADJ
@@ -95,7 +95,7 @@ de	de	ADP
 or	or	NOUN
 neigeux	neigeux	ADJ
 .	.	PUNCTsent
-Sur	sur	ADP
+sur	sur	ADP
 l'autre	l'autre	PRON
 rive	river	VERB
 ,	,	PUNCTclause
@@ -118,7 +118,7 @@ pour	pour	ADP
 les	le	DET
 vêpres	vêpres	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 lac	lac	NOUN
 clair	clair	ADJ
 ,	,	PUNCTclause
@@ -168,7 +168,7 @@ de	de	ADP
 la	le	DET
 mort	mort	NOUN
 de	de	ADP
-Œil	Œil	PROPN
+œil	œil	UNKNOWN
 de	de	ADP
 faucon	faucon	NOUN
 et	et	CCONJ
@@ -177,7 +177,7 @@ dernier	dernier	ADJ
 des	un	ADP_DET
 Mohicans	Mohicans	NOUN
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 ne	ne	ADV
 a	avoir	AUX
 changé	changer	VERB
@@ -201,12 +201,12 @@ depuis	depuis	ADP
 l'	le	DET
 époque	époque	NOUN
 des	un	ADP_DET
-Iroquois	Iroquois	NOUN
+iroquois	iroquois	NOUN
 et	et	CCONJ
 des	un	DET
-Hurons	Hurons	PROPN
+hurons	huron	UNKNOWN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 villages	village	NOUN
 et	et	CCONJ
 les	le	DET
@@ -224,11 +224,11 @@ fameuses	fameux	ADJ
 :	:	PUNCTclause
 Saratoga	Saratoga	PROPN
 ,	,	PUNCTclause
-Mohawk	Mohawk	PROPN
+mohawk	mohawk	UNKNOWN
 ou	ou	CCONJ
 Ticonderoga	Ticonderoga	PROPN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 maisons	maison	NOUN
 sont	être	AUX
 presque	presque	ADV
@@ -269,7 +269,7 @@ de	de	ADP
 mon	mon	DET
 enfance	enfance	NOUN
 .	.	PUNCTsent
-Non	non	ADV
+non	non	ADV
 point	point	ADV
 la	le	DET
 vraie	vrai	ADJ
@@ -293,7 +293,7 @@ presque	presque	ADV
 toutes	tout	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Entre	entre	ADP
+entre	entre	ADP
 les	le	DET
 pages	page	NOUN
 de	de	ADP
@@ -327,13 +327,13 @@ anglican	anglican	ADJ
 de	de	ADP
 Albany	Albany	PROPN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 connais	connaître	VERB
 bien	bien	ADV
 son	son	DET
 petit-fils	petit-fils	NOUN
 .	.	PUNCTsent
-Roi	roi	NOUN
+roi	roi	NOUN
 du	du	ADP_DET
 pays	pays	NOUN
 et	et	CCONJ
@@ -385,14 +385,14 @@ de	de	ADP
 gouverneur	gouverneur	NOUN
 de	de	ADP
 cet	ce	DET
-État	État	NOUN
+état	état	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 tanné	tanner	VERB
 comme	comme	ADP
 un	un	DET
-Indien	Indien	NOUN
+indien	indien	NOUN
 ,	,	PUNCTclause
 juste	juste	ADV
 juge	juge	NOUN
@@ -403,7 +403,7 @@ riche	riche	ADJ
 et	et	CCONJ
 pieux	pieux	ADJ
 .	.	PUNCTsent
-Sa	son	DET
+sa	son	DET
 femme	femme	NOUN
 préside	présider	VERB
 ,	,	PUNCTclause
@@ -412,7 +412,7 @@ un	un	DET
 optimisme	optimisme	NOUN
 effervescent	effervescent	ADJ
 le	le	DET
-Comité	Comité	NOUN
+comité	comité	NOUN
 pour	pour	ADP
 les	le	DET
 étudiants	étudiant	NOUN
@@ -436,7 +436,7 @@ aux	au	ADP_DET
 idées	idée	NOUN
 communistes	communiste	ADJ
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 élève	élever	VERB
 des	un	DET
 milliers	millier	NOUN
@@ -451,9 +451,9 @@ a	avoir	AUX
 nommé	nommer	VERB
 le	le	DET
 «	«	PUNCTclause
-Sommet	Sommet	NOUN
+sommet	sommet	NOUN
 du	du	ADP_DET
-Monde	Monde	NOUN
+monde	monde	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
@@ -483,14 +483,14 @@ socialiste	socialiste	ADJ
 et	et	CCONJ
 sportif	sportif	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 seconde	second	ADJ
 est	être	AUX
 femme	femme	NOUN
 de	de	ADP
 pasteur	pasteur	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 cadette	cadet	NOUN
 rêvant	rêver	VERB
 de	de	ADP
@@ -503,9 +503,9 @@ a	avoir	AUX
 bâti	bâtir	VERB
 sur	sur	ADP
 le	le	DET
-Sommet	Sommet	NOUN
+sommet	sommet	NOUN
 du	du	ADP_DET
-Monde	Monde	NOUN
+monde	monde	NOUN
 un	un	DET
 amphithéâtre	amphithéâtre	NOUN
 de	de	ADP
@@ -522,7 +522,7 @@ avant	avant	ADP
 la	le	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 deux	deux	NUM
 fils	fils	NOUN
 ,	,	PUNCTclause
@@ -535,9 +535,9 @@ sont	être	AUX
 battus	battre	VERB
 dans	dans	ADP
 le	le	DET
-Pacifique	Pacifique	PROPN
+pacifique	pacifique	UNKNOWN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 disputes	dispute	NOUN
 politiques	politique	ADJ
 ,	,	PUNCTclause
@@ -559,14 +559,14 @@ taquineries	taquinerie	NOUN
 de	de	ADP
 famille	famille	NOUN
 .	.	PUNCTsent
-Simple	simple	ADJ
+simple	simple	ADJ
 question	question	NOUN
 de	de	ADP
 générations	génération	NOUN
 ,	,	PUNCTclause
 en apparence	en apparence	ADV
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 dit	dire	VERB
 le	le	DET
 benedicite	benedicite	NOUN
@@ -584,8 +584,8 @@ de	de	ADP
 roman	roman	NOUN
 détective	détective	NOUN
 .	.	PUNCTsent
-Les	le	DET
-Européens	Européens	NOUN
+les	le	DET
+européens	européen	NOUN
 vus	vu	VERB
 d'ici	d'ici	ADV
 ,	,	PUNCTclause
@@ -609,7 +609,7 @@ de	de	ADP
 idées	idée	NOUN
 nouvelles	nouveau	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 vie	vie	NOUN
 de	de	ADP
 ce	ce	DET
@@ -647,7 +647,7 @@ capitalistes	capitaliste	NOUN
 et	et	CCONJ
 centralisateurs	centralisateur	NOUN
 .	.	PUNCTsent
-Point	point	ADV
+point	point	ADV
 de	de	ADP
 usine	usine	NOUN
 au	au	ADP_DET
@@ -669,7 +669,7 @@ catholique	catholique	NOUN
 la	le	DET
 méthodiste	méthodiste	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 curé	curé	NOUN
 canadien	canadien	ADJ
 prêche	prêcher	VERB
@@ -695,7 +695,7 @@ nomme	nommer	VERB
 le	le	DET
 Sagamore	Sagamore	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 avis	avis	NOUN
 discret	discret	ADJ
 à	à	ADP
@@ -710,13 +710,13 @@ restricted	restricted	VERB
 signifiant	signifier	VERB
 que	que	SCONJ
 les	le	DET
-Juifs	Juifs	NOUN
+juifs	juif	NOUN
 ne	ne	ADV
 étaient	être	AUX
 pas	pas	ADV
 désirés	désiré	ADJ
 .	.	PUNCTsent
-Des	un	DET
+des	un	DET
 lois	loi	NOUN
 «	«	PUNCTclause
 contre	contre	ADP
@@ -731,7 +731,7 @@ cet	ce	DET
 hiver	hiver	NOUN
 dans	dans	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 ,	,	PUNCTclause
 la	le	DET
 pancarte	pancarte	NOUN
@@ -739,14 +739,14 @@ porte	porter	VERB
 aujourd'hui	aujourd'hui	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 sommes	être	AUX
 catholiques	catholique	ADJ
 et	et	CCONJ
 protestants	protestant	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
-Les	le	DET
+les	le	DET
 rives	rive	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -769,9 +769,9 @@ morts	mourir	VERB
 des	un	DET
 guerres	guerre	NOUN
 de	de	ADP
-Indépendance	Indépendance	PROPN
+indépendance	indépendance	UNKNOWN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 liberté	liberté	NOUN
 et	et	CCONJ
 la	le	DET
@@ -783,10 +783,10 @@ de	de	ADP
 un	un	DET
 visage	visage	NOUN
 .	.	PUNCTsent
-Comme	comme	ADP
+comme	comme	ADP
 ailleurs	ailleurs	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ici	ici	ADV
 plus	plus	ADV
 que	que	SCONJ
@@ -852,7 +852,7 @@ préjugés	préjugé	NOUN
 séculaires	séculaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 me	me	PRON
 semble	sembler	VERB
 avoir	avoir	AUX
@@ -882,7 +882,7 @@ argent	argent	NOUN
 seul	seul	ADJ
 existe	exister	VERB
 …	…	PUNCTsent
-On	on	PRON
+on	on	PRON
 voit	voir	VERB
 New York	New York	PROPN
 et	et	CCONJ
@@ -924,7 +924,7 @@ dernier	dernier	ADJ
 des	un	ADP_DET
 Mohicans	Mohicans	NOUN
 !	!	PUNCTsent
-Vaincu	vaincre	VERB
+vaincu	vaincre	VERB
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	AUX

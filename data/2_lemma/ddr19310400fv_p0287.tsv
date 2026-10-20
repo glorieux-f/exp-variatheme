@@ -6,7 +6,7 @@
 # title = Conférences du comte Keyserling (avril 1931)
 
 ↵↵	↵↵	PUNCTstruct
-Conférences	conférence	NOUN
+conférences	conférence	NOUN
 du	du	ADP_DET
 comte	comte	NOUN
 Keyserling	Keyserling	PROPN
@@ -19,7 +19,7 @@ avril	avril	NOUN
 l'	le	DET
 auteur	auteur	NOUN
 du	du	ADP_DET
-Journal	Journal	NOUN
+journal	journal	NOUN
 de	de	ADP
 voyage	voyage	NOUN
 de	de	ADP
@@ -27,14 +27,14 @@ un	un	DET
 philosophe	philosophe	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-Analyse	Analyse	PROPN
+analyse	analyse	UNKNOWN
 spectrale	spectral	ADJ
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-Psychanalyse	Psychanalyse	NOUN
+psychanalyse	psychanalyse	NOUN
 de	de	ADP
 l'	le	DET
 Amérique	Amérique	PROPN
@@ -45,10 +45,10 @@ philosophe	philosophe	NOUN
 fondateur	fondateur	ADJ
 de	de	ADP
 l'	le	DET
-École	École	NOUN
+école	école	NOUN
 de	de	ADP
 la	le	DET
-Sagesse	Sagesse	PROPN
+sagesse	sagesse	UNKNOWN
 de	de	ADP
 Darmstadt	Darmstadt	PROPN
 vient	venir	VERB
@@ -67,7 +67,7 @@ la	le	DET
 civilisation	civilisation	NOUN
 moderne	moderne	ADJ
 .	.	PUNCTsent
-Décidément	décidément	ADV
+décidément	décidément	ADV
 ,	,	PUNCTclause
 le	le	DET
 goût	goût	NOUN
@@ -76,7 +76,7 @@ colossal	colossal	ADJ
 —	—	PUNCTclause
 transmis	transmis	ADJ
 aux	au	ADP_DET
-Américains	Américains	NOUN
+américains	américain	NOUN
 —	—	PUNCTclause
 reste	rester	VERB
 un	un	DET
@@ -110,7 +110,7 @@ fois	fois	NOUN
 de plus	de plus	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Accueilli	accueillir	VERB
+accueilli	accueillir	VERB
 avec	avec	ADP
 quelque	quelque	DET
 perplexité	perplexité	NOUN
@@ -170,7 +170,7 @@ de	de	ADP
 enregistrée	enregistrer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Rien	rien	PRON
+rien	rien	PRON
 de	de	ADP
 très	très	ADV
 neuf	neuf	NUM
@@ -211,7 +211,7 @@ Lénine	Lénine	PROPN
 ou	ou	CCONJ
 Ford	Ford	PROPN
 .	.	PUNCTsent
-Soucieux	soucieux	ADJ
+soucieux	soucieux	ADJ
 de	de	ADP
 comprendre	comprendre	VERB
 notre	notre	DET
@@ -251,9 +251,9 @@ très	très	ADV
 représentatif	représentatif	ADJ
 de	de	ADP
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 a	avoir	VERB
 rien	rien	PRON
@@ -273,7 +273,7 @@ en	en	ADP
 garde	garde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Keyserling	Keyserling	PROPN
+Keyserling	Keyserling	X
 voit	voir	VERB
 la	le	DET
 cause	cause	NOUN
@@ -319,7 +319,7 @@ en	en	PRON
 jouir	jouir	VERB
 convenablement	convenablement	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 organiser	organiser	VERB
 la	le	DET
@@ -336,7 +336,7 @@ où	où	PRON
 la	le	DET
 technique	technique	NOUN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 prétention	prétention	NOUN
 des	un	ADP_DET
 masses	masse	NOUN
@@ -428,7 +428,7 @@ du	du	ADP_DET
 voisin	voisin	NOUN
 inévitable	inévitable	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ces	ce	DET
 anomalies	anomalie	NOUN
 très	très	ADV
@@ -442,7 +442,7 @@ transitoires	transitoire	ADJ
 ajoute	ajouter	VERB
 Keyserling	Keyserling	PROPN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 traversons	traverser	VERB
 une	un	DET
 crise	crise	NOUN
@@ -537,7 +537,7 @@ vivante	vivant	ADJ
 réalité	réalité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 tout	tout	ADJ
 ceci	ceci	PRON
 ,	,	PUNCTclause
@@ -571,7 +571,7 @@ mais	mais	CCONJ
 nullement	nullement	ADV
 suffisante	suffisant	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -599,7 +599,7 @@ immédiat	immédiat	ADJ
 parce que	parce que	SCONJ
 éternel	éternel	ADJ
 .	.	PUNCTsent
-Là	là	ADV
+là	là	ADV
 où	où	PRON
 Keyserling	Keyserling	PROPN
 dit	dire	VERB

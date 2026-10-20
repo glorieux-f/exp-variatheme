@@ -6,8 +6,8 @@
 # title = "[Introduction] Une université européenne (juillet 1958)"
 
 ↵↵	↵↵	PUNCTstruct
-Introduction	introduction	NOUN
-Une	un	DET
+introduction	introduction	NOUN
+une	un	DET
 université	université	NOUN
 européenne	européen	ADJ
 (	(	PUNCTclause
@@ -16,11 +16,11 @@ juillet	juillet	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 présent	présent	NOUN
 numéro	numéro	NOUN
 du	du	ADP_DET
-Bulletin	Bulletin	PROPN
+bulletin	bulletin	UNKNOWN
 du	du	ADP_DET
 		TOKEN
 est	être	AUX
@@ -53,11 +53,11 @@ la	le	DET
 création	création	NOUN
 de	de	ADP
 une	un	DET
-Université	Université	NOUN
+université	université	NOUN
 européenne	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 trouvera	trouver	VERB
 ci-après	ci-après	ADV
 l'	le	DET
@@ -75,7 +75,7 @@ et	et	CCONJ
 5	5	NUM
 juillet	juillet	NOUN
 au	au	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -120,7 +120,7 @@ résolution	résolution	NOUN
 adoptée	adopter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 circonstances	circonstance	NOUN
 et	et	CCONJ
 les	le	DET
@@ -157,9 +157,9 @@ larges	large	ADJ
 extraits	extrait	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Messieurs	monsieur	NOUN
+messieurs	monsieur	NOUN
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 souhaitions	souhaiter	VERB
 réunir	réunir	VERB
 une	un	DET
@@ -171,7 +171,7 @@ personnes	personne	NOUN
 représentants	représentant	NOUN
 de	de	ADP
 l'	le	DET
-Association	Association	NOUN
+association	association	NOUN
 des	un	ADP_DET
 instituts	institut	NOUN
 de	de	ADP
@@ -182,7 +182,7 @@ européennes	européen	ADJ
 représentants	représentant	NOUN
 de	de	ADP
 l'	le	DET
-Association	Association	NOUN
+association	association	NOUN
 des	un	ADP_DET
 universitaires	universitaire	NOUN
 de	de	ADP
@@ -191,7 +191,7 @@ et	et	CCONJ
 5	5	NUM
 observateurs	observateur	NOUN
 .	.	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 voici	voici	ADP
 vingt	vingt	NUM
 au	au	ADP_DET
@@ -233,7 +233,7 @@ construction	construction	NOUN
 européenne	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 quoi	quoi	PRON
 se	se	PRON
 agit	agir	VERB
@@ -287,7 +287,7 @@ notre	notre	DET
 rencontre	rencontre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voici	voici	ADP
+voici	voici	ADP
 le	le	DET
 principe	principe	NOUN
 à	à	ADP
@@ -332,7 +332,7 @@ pas	pas	ADV
 nécessairement	nécessairement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 voici	voici	ADP
 la	le	DET
 situation	situation	NOUN
@@ -358,10 +358,10 @@ décision	décision	NOUN
 de	de	ADP
 créer	créer	VERB
 une	un	DET
-Université	Université	NOUN
+université	université	NOUN
 européenne	européen	ADJ
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avons	avoir	AUX
 appris	apprendre	VERB
 un	un	DET
@@ -385,11 +385,11 @@ le	le	DET
 er	er	NOUN
 juillet	juillet	NOUN
 aux	au	ADP_DET
-Conseils	Conseils	NOUN
+conseils	conseil	NOUN
 des	un	ADP_DET
 ministres	ministre	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 ignorons	ignorer	VERB
 encore	encore	ADV
 le	le	DET
@@ -409,7 +409,7 @@ pu	pouvoir	VERB
 lui	lui	PRON
 donner	donner	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 est	être	AUX
 donc	donc	ADV
@@ -420,7 +420,7 @@ se	se	PRON
 prononcer	prononcer	VERB
 là-dessus	là-dessus	ADV
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 vous	vous	PRON
 avons	avoir	AUX
 demandé	demander	VERB
@@ -486,7 +486,7 @@ assemblée générale	assemblée générale	NOUN
 annuelle	annuel	ADJ
 de	de	ADP
 l'	le	DET
-Association	Association	NOUN
+association	association	NOUN
 des	un	ADP_DET
 instituts	institut	NOUN
 de	de	ADP
@@ -518,7 +518,7 @@ la	le	DET
 création	création	NOUN
 de	de	ADP
 une	un	DET
-Université	Université	NOUN
+université	université	NOUN
 européenne	européen	ADJ
 ,	,	PUNCTclause
 il	il	PRON
@@ -545,7 +545,7 @@ de	de	ADP
 demander	demander	VERB
 à	à	ADP
 l'	le	DET
-Association	Association	NOUN
+association	association	NOUN
 des	un	ADP_DET
 universitaires	universitaire	NOUN
 de	de	ADP
@@ -567,7 +567,7 @@ de	de	ADP
 ce	ce	PRON
 projet	projet	NOUN
 les	le	DET
-Conseils	Conseils	NOUN
+conseils	conseil	NOUN
 des	un	ADP_DET
 ministres	ministre	NOUN
 et	et	CCONJ
@@ -666,7 +666,7 @@ depuis	depuis	ADP
 dix	dix	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avons	avoir	AUX
 proposé	proposer	VERB
 aussitôt	aussitôt	ADV
@@ -678,7 +678,7 @@ et	et	CCONJ
 5	5	NUM
 juillet	juillet	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 nous	nous	PRON
 sommes	être	AUX
 engagés	engager	VERB
@@ -704,7 +704,7 @@ vous	vous	PRON
 voici	voici	ADP
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 remercie	remercier	VERB
 particulièrement	particulièrement	ADV
 les	le	DET
@@ -734,7 +734,7 @@ le	le	DET
 cas	cas	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 plusieurs	plusieurs	DET
 côtés	côté	NOUN
 ,	,	PUNCTclause
@@ -744,14 +744,14 @@ a	avoir	AUX
 dit	dire	VERB
 :	:	PUNCTclause
 —	—	PUNCTclause
-Attention	Attention	NOUN
+attention	attention	NOUN
 !	!	PUNCTsent
 cette	ce	DET
 réunion	réunion	NOUN
 est	être	AUX
 prématurée	prématuré	ADJ
 !	!	PUNCTsent
-Attention	attention	NOUN
+attention	attention	NOUN
 !	!	PUNCTsent
 vous	vous	PRON
 arriverez	arriver	VERB
@@ -766,7 +766,7 @@ pas	pas	ADV
 toujours	toujours	ADV
 ainsi	ainsi	ADV
 ?	?	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avons	avoir	AUX
 pensé	penser	VERB
 que	que	SCONJ
@@ -783,7 +783,7 @@ le	le	DET
 mieux	mieux	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -798,7 +798,7 @@ vous	vous	PRON
 ,	,	PUNCTclause
 représentants	représentant	NOUN
 des	un	ADP_DET
-Instituts	Instituts	NOUN
+instituts	institut	NOUN
 universitaires	universitaire	ADJ
 de	de	ADP
 études	étude	NOUN
@@ -825,10 +825,10 @@ ou	ou	CCONJ
 souhaitez	souhaiter	VERB
 de	de	ADP
 une	un	DET
-Université	Université	NOUN
+université	université	NOUN
 européenne	européen	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 se	se	PRON
 agit	agir	VERB
@@ -881,14 +881,14 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Que	que	SCONJ
+que	que	SCONJ
 représente	représenter	VERB
 le	le	DET
 groupe	groupe	NOUN
 ici	ici	ADV
 réuni	réunir	VERB
 ?	?	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 avez	avoir	VERB
 devant	devant	ADP
 vous	vous	PRON
@@ -901,7 +901,7 @@ et	et	CCONJ
 leurs	leur	DET
 titres	titre	NOUN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 dit	dire	VERB
 assez	assez	ADV
 ce	ce	PRON

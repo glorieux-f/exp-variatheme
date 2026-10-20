@@ -6,13 +6,13 @@
 # title = "[Préface] Bertrand de Launay,Le Poker nucléaire : comme brebis à l’abattoir (1983)"
 
 ↵↵	↵↵	PUNCTstruct
-Préface	préface	NOUN
+préface	préface	NOUN
 Bertrand	Bertrand	PROPN
 de	de	ADP
 Launay	Launay	PROPN
 ,	,	PUNCTclause
-Le	le	DET
-Poker	Poker	PROPN
+le	le	DET
+poker	poker	UNKNOWN
 nucléaire	nucléaire	ADJ
 :	:	PUNCTclause
 comme	comme	ADP
@@ -25,9 +25,9 @@ abattoir	abattoir	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PROPN
+I.	I.	PRON
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 montée	montée	NOUN
 vers	vers	ADP
 la	le	DET
@@ -103,7 +103,7 @@ des	un	ADP_DET
 dirigeants	dirigeant	NOUN
 de	de	ADP
 nos	nos	DET
-États	États	NOUN
+états	état	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 nos	nos	DET
@@ -129,7 +129,7 @@ défenses	défense	NOUN
 nationales	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 démocraties	démocratie	NOUN
 ont	avoir	AUX
 vaincu	vaincre	VERB
@@ -145,7 +145,7 @@ arme	arme	NOUN
 totalitaire	totalitaire	ADJ
 par excellence	par excellence	ADV
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 les	le_PRON	PRON
 domine	dominer	VERB
 depuis	depuis	ADP
@@ -192,7 +192,7 @@ la	le	DET
 paix	paix	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 disons	dire	VERB
 que	que	SCONJ
 cet	ce	DET
@@ -214,7 +214,7 @@ simultanée	simultané	ADJ
 des	un	ADP_DET
 partenaires	partenaire	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 disons	dire	VERB
 que	que	SCONJ
 cela	cela	PRON
@@ -252,7 +252,7 @@ nucléaires	nucléaire	ADJ
 existantes	existant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 couverture	couverture	NOUN
 de	de	ADP
 un	un	DET
@@ -266,8 +266,8 @@ grosses	gros	ADJ
 lettres	lettre	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Nuclear	Nuclear	PROPN
-Poker	Poker	PROPN
+Nuclear	Nuclear	ADP
+poker	poker	UNKNOWN
 The	The	PROPN
 Stakes	Stakes	PROPN
 get	get	AUX
@@ -276,7 +276,7 @@ and	and	CCONJ
 higher	higher	X
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Non	non	ADV
+non	non	ADV
 ,	,	PUNCTclause
 messieurs	monsieur	NOUN
 les	le	DET
@@ -301,7 +301,7 @@ l'	le	DET
 humanité	humanité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 attendant	attendre	VERB
 ,	,	PUNCTclause
 il	il	PRON
@@ -334,7 +334,7 @@ le	le	DET
 terrorisme	terrorisme	NOUN
 déstabilisant	déstabiliser	VERB
 .	.	PUNCTsent
-Que	que	SCONJ
+que	que	SCONJ
 voulez	vouloir	VERB
 vous	vous	PRON
 ,	,	PUNCTclause
@@ -348,7 +348,7 @@ haut	haut	NOUN
 II	II	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cassandre	Cassandre	PROPN
+Cassandre	Cassandre	VERB
 toujours	toujours	ADV
 fut	être	AUX
 tenue	tenir	VERB
@@ -360,7 +360,7 @@ que	que	SCONJ
 elle	elle	PRON
 annonçait	annoncer	VERB
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 va	aller	VERB
 il	il	PRON
 de	de	ADP
@@ -388,7 +388,7 @@ la	le	DET
 guerre	guerre	NOUN
 nucléaire	nucléaire	ADJ
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 «	«	PUNCTclause
 pacifistes	pacifiste	NOUN
 »	»	PUNCTclause
@@ -433,7 +433,7 @@ au	au	ADP_DET
 pouvoir	pouvoir	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 donc	donc	ADV
 entendu	entendre	VERB
@@ -496,7 +496,7 @@ suis	être	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Ils	ils	PRON
+ils	ils	PRON
 ont	avoir	AUX
 été	être	AUX
 traumatisés	traumatiser	VERB
@@ -506,24 +506,24 @@ bombe	bombe	NOUN
 de	de	ADP
 Hiroshima	Hiroshima	PROPN
 .	.	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 non	non	ADV
 ,	,	PUNCTclause
 sans doute	sans doute	ADV
 ?	?	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 ne	ne	ADV
 avez	avoir	VERB
 rien	rien	PRON
 senti	sentir	VERB
 ?	?	PUNCTsent
-Voilà	voilà	ADP
+voilà	voilà	ADP
 qui	qui	PRON
 est	être	AUX
 grave	grave	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Névrosé	névrosé	ADJ
+névrosé	névrosé	ADJ
 est	être	AUX
 celui	celui	PRON
 qui	qui	PRON
@@ -568,7 +568,7 @@ certain	certain	ADJ
 profit	profit	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 a	avoir	AUX
 reconnu	reconnaître	VERB
 les	le	DET
@@ -585,13 +585,13 @@ en particulier	en particulier	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Ils	ils	PRON
+ils	ils	PRON
 sont	être	AUX
 manipulés	manipuler	VERB
 par	par	ADP
 Moscou	Moscou	PROPN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 hypothèse	hypothèse	NOUN
 suppose	supposer	VERB
 que	que	SCONJ
@@ -637,9 +637,9 @@ une	un	DET
 démission	démission	NOUN
 de	de	ADP
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 en effet	en effet	ADV
 ,	,	PUNCTclause
 certains	certain	PRON
@@ -667,7 +667,7 @@ Bertrand	Bertrand	PROPN
 Russell	Russell	PROPN
 à	à	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 de	de	ADP
 Berkeley	Berkeley	PROPN
 (	(	PUNCTclause
@@ -676,7 +676,7 @@ Californie	Californie	PROPN
 en	en	ADP
 1961	1961	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 philosophe	philosophe	NOUN
 Sidney	Sidney	PROPN
 Hook	Hook	PROPN
@@ -685,7 +685,7 @@ répondit	répondre	VERB
 aussitôt	aussitôt	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 nous	nous	PRON
 vous	vous	PRON
 suivions	suivre	VERB
@@ -701,7 +701,7 @@ morts	mort	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 clair	clair	ADJ
 que	que	SCONJ
@@ -714,9 +714,9 @@ antinucléaires	antinucléaire	ADJ
 que	que	SCONJ
 à	à	ADP
 l'	le	DET
-Ouest	Ouest	NOUN
+ouest	ouest	NOUN
 .	.	PUNCTsent
-Aussi	aussi	ADV
+aussi	aussi	ADV
 bien	bien	ADV
 ,	,	PUNCTclause
 ces	ce	DET
@@ -749,7 +749,7 @@ sont	être	AUX
 encore	encore	ADV
 clandestins	clandestin	ADJ
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 sont	être	AUX
 seuls	seul	ADJ
 à	à	ADP
@@ -775,19 +775,19 @@ Washington	Washington	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Ils	ils	PRON
+ils	ils	PRON
 sont	être	AUX
 mal	mal	ADV
 informés	informer	VERB
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 livre	livre	NOUN
 suffit	suffire	VERB
 pour	pour	ADP
 répondre	répondre	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-La	le	DET
+la	le	DET
 désinformation	désinformation	NOUN
 systématique	systématique	ADJ
 par	par	ADP
@@ -813,13 +813,13 @@ siècle	siècle	NOUN
 ↵↵	↵↵	PUNCTstruct
 III	III	PRON
 .	.	PUNCTsent
-Progrès	progrès	NOUN
+progrès	progrès	NOUN
 des	un	ADP_DET
 armements	armement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Moyen-Âge	Moyen-Âge	NOUN
+moyen-âge	moyen-âge	NOUN
 et	et	CCONJ
 Renaissance	Renaissance	PROPN
 :	:	PUNCTclause
@@ -845,7 +845,7 @@ chacun	chacun	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Fin	fin	NOUN
+fin	fin	NOUN
 du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
@@ -865,7 +865,7 @@ premier	premier	ADJ
 échange	échange	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cela	cela	PRON
+cela	cela	PRON
 correspond	correspondre	VERB
 à	à	ADP
 :	:	PUNCTclause
@@ -914,7 +914,7 @@ réciproque	réciproque	ADJ
 total	total	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 seule	seul	ADJ
 manière	manière	NOUN
 de	de	ADP
@@ -938,7 +938,7 @@ les	le	DET
 moindres	moindre	ADJ
 délais	délai	NOUN
 .	.	PUNCTsent
-Faire	faire	VERB
+faire	faire	VERB
 de	de	ADP
 cet	ce	DET
 objectif	objectif	NOUN
@@ -965,7 +965,7 @@ de	de	ADP
 Genève	Genève	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 me	me	PRON
 répondrez	répondre	VERB
 que	que	SCONJ
@@ -988,7 +988,7 @@ millions	million	NOUN
 de	de	ADP
 chômeurs	chômeur	NOUN
 .	.	PUNCTsent
-Votre	votre	DET
+votre	votre	DET
 devise	devise	NOUN
 serait	être	AUX
 elle	elle	PRON
@@ -999,7 +999,7 @@ la	le	DET
 fin	fin	NOUN
 de	de	ADP
 l'	le	DET
-Humanité	Humanité	PROPN
+humanité	humanité	UNKNOWN
 que	que	SCONJ
 la	le	DET
 ruine	ruine	NOUN
@@ -1008,7 +1008,7 @@ ma	mon	DET
 société	société	NOUN
 »	»	PUNCTclause
 ?	?	PUNCTsent
-Ou	ou	CCONJ
+ou	ou	CCONJ
 simplement	simplement	ADV
 :	:	PUNCTclause
 «	«	PUNCTclause
@@ -1019,7 +1019,7 @@ chômeurs	chômeur	NOUN
 »	»	PUNCTclause
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cet	ce	DET
+cet	ce	DET
 «	«	PUNCTclause
 impossible	impossible	ADJ
 »	»	PUNCTclause
@@ -1029,7 +1029,7 @@ seul	seul	ADJ
 possible	possible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Avec	avec	ADP
+avec	avec	ADP
 des	un	DET
 dizaines	dizaine	NOUN
 de	de	ADP
@@ -1115,13 +1115,13 @@ armes	arme	NOUN
 nucléaires	nucléaire	ADJ
 ,	,	PUNCTclause
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 peut	pouvoir	VERB
 encore	encore	ADV
 continuer	continuer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cela	cela	PRON
+cela	cela	PRON
 suffira	suffire	VERB
 il	il	PRON
 à	à	ADP
@@ -1133,7 +1133,7 @@ solution	solution	NOUN
 raisonnable	raisonnable	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Tendance	tendance	NOUN
+tendance	tendance	NOUN
 suicidaire	suicidaire	ADJ
 du	du	ADP_DET
 genre humain	genre humain	NOUN
@@ -1142,7 +1142,7 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Notre	notre	DET
+notre	notre	DET
 mort	mort	NOUN
 individuelle	individuel	ADJ
 est	être	AUX
@@ -1158,7 +1158,7 @@ l'	le	DET
 éviter	éviter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 guerre	guerre	NOUN
 nucléaire	nucléaire	ADJ
 est	être	AUX
@@ -1177,7 +1177,7 @@ elle	elle	PRON
 arrive	arriver	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 calculs	calcul	NOUN
 imbéciles	imbécile	ADJ
 de	de	ADP
@@ -1187,7 +1187,7 @@ overkill	overkill	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vouloir	vouloir	VERB
+vouloir	vouloir	VERB
 comparer	comparer	VERB
 les	le	DET
 «	«	PUNCTclause
@@ -1235,7 +1235,7 @@ domaine	domaine	NOUN
 économique	économique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 totaux	total	NOUN
 perdent	perdre	VERB
 toute	toute	DET
@@ -1255,7 +1255,7 @@ peuvent	pouvoir	VERB
 décisifs	décisif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mettons	mettre	VERB
+mettons	mettre	VERB
 que	que	SCONJ
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
@@ -1272,10 +1272,10 @@ tous	tout	ADJ
 les	le	DET
 humains	humain	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 comme	comme	SCONJ
 les	le	DET
-Soviétiques	Soviétiques	PROPN
+soviétiques	soviétique	UNKNOWN
 en	en	ADP
 seraient	être	VERB
 à	à	ADP
@@ -1314,7 +1314,7 @@ retard	retard	NOUN
 tragique	tragique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 raisonnement	raisonnement	NOUN
 relève	relever	VERB
 de	de	ADP
@@ -1326,7 +1326,7 @@ joueurs	joueur	NOUN
 de	de	ADP
 billes	bille	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 je	je	PRON
 ai	avoir	VERB
 trois	trois	NUM
@@ -1346,7 +1346,7 @@ de	de	ADP
 être	être	AUX
 inquiet	inquiet	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 si	si	SCONJ
 je	je	PRON
 en	en	PRON
@@ -1382,13 +1382,13 @@ le	le	DET
 non-sens	non-sens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Que	que	SCONJ
+que	que	SCONJ
 faudra	falloir	VERB
 il	il	PRON
 encore	encore	ADV
 pour que	pour que	SCONJ
 les	le	DET
-Grands	grand	ADJ
+grands	grand	ADJ
 comprennent	comprendre	VERB
 cette	ce	DET
 évidence	évidence	NOUN
@@ -1411,16 +1411,16 @@ démesuré	démesuré	ADJ
 ↵↵	↵↵	PUNCTstruct
 IV	IV	NOUN
 .	.	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 avez	avoir	AUX
 dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Catastrophisme	catastrophisme	NOUN
+catastrophisme	catastrophisme	NOUN
 »	»	PUNCTclause
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 oubliez	oublier	VERB
 que	que	SCONJ
 les	le	DET
@@ -1436,7 +1436,7 @@ vous	vous	PRON
 préparez	préparer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 la	le	DET
 tradition	tradition	NOUN
 antique	antique	ADJ
@@ -1452,9 +1452,9 @@ vates	vates	VERB
 falsus	falsus	NOUN
 sim	sim	ADJ
 (	(	PUNCTclause
-Plaise	Plaise	PROPN
+plaise	plaire	UNKNOWN
 au	au	ADP_DET
-Ciel	Ciel	PROPN
+ciel	ciel	UNKNOWN
 que	que	PRON
 je	je	PRON
 sois	être	AUX
@@ -1462,7 +1462,7 @@ faux	faux	ADJ
 prophète	prophète	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 dans	dans	ADP
 la	le	DET
 tradition	tradition	NOUN
@@ -1492,7 +1492,7 @@ du	du	ADP_DET
 malheur	malheur	NOUN
 !	!	PUNCTsent
 (	(	PUNCTclause
-Jérémie	Jérémie	PROPN
+Jérémie	Jérémie	NOUN
 ,	,	PUNCTclause
 17.16	17.16	NUM
 )	)	PUNCTclause

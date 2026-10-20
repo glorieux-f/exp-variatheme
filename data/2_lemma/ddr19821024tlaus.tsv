@@ -6,8 +6,8 @@
 # title = "[Entretien] Un écrivain au service de la cité (24 octobre 1982)"
 
 ↵↵	↵↵	PUNCTstruct
-Entretien	entretien	NOUN
-Un	un	DET
+entretien	entretien	NOUN
+un	un	DET
 écrivain	écrivain	NOUN
 au	au	ADP_DET
 service	service	NOUN
@@ -21,7 +21,7 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Denis	Denis	PROPN
+Denis	Denis	DET
 de	de	ADP
 Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
@@ -36,7 +36,7 @@ elle	elle	PRON
 décidée	décider	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 crois	croire	VERB
 que	que	SCONJ
 il	il	PRON
@@ -90,7 +90,7 @@ et	et	CCONJ
 25	25	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-Dès	dès	ADP
+dès	dès	ADP
 mon	mon	DET
 adolescence	adolescence	NOUN
 ,	,	PUNCTclause
@@ -108,7 +108,7 @@ ce	ce	PRON
 la	le	DET
 littérature	littérature	NOUN
 .	.	PUNCTsent
-Auparavant	auparavant	ADV
+auparavant	auparavant	ADV
 ,	,	PUNCTclause
 je	je	PRON
 avais	avoir	AUX
@@ -123,7 +123,7 @@ un	un	DET
 grand	grand	ADJ
 chimiste	chimiste	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 y	y	PRON
 étais	être	VERB
@@ -145,7 +145,7 @@ de	de	ADP
 chimie	chimie	NOUN
 ,	,	PUNCTclause
 au	au	ADP_DET
-Gymnase	Gymnase	PROPN
+gymnase	gymnase	UNKNOWN
 de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 ,	,	PUNCTclause
@@ -162,7 +162,7 @@ tout	tout	ADV
 fait	fait	NOUN
 ça	ça	PRON
 …	…	PUNCTsent
-Donc	donc	ADV
+donc	donc	ADV
 je	je	PRON
 ne	ne	ADV
 jurais	jurer	VERB
@@ -178,7 +178,7 @@ la	le	DET
 poésie	poésie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 poèmes	poème	NOUN
 que	que	PRON
@@ -206,7 +206,7 @@ découvre	découvrir	VERB
 les	le	DET
 surréalistes	surréaliste	NOUN
 .	.	PUNCTsent
-Mon	mon	DET
+mon	mon	DET
 premier	premier	ADJ
 article	article	NOUN
 ,	,	PUNCTclause
@@ -220,7 +220,7 @@ ans	an	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
-Semaine	Semaine	NOUN
+semaine	semaine	NOUN
 littéraire	littéraire	ADJ
 de	de	ADP
 Genève	Genève	PROPN
@@ -244,7 +244,7 @@ de	de	ADP
 ce	ce	DET
 sport	sport	NOUN
 .	.	PUNCTsent
-Puis	puis	CCONJ
+puis	puis	CCONJ
 je	je	PRON
 suis	être	AUX
 entré	entrer	VERB
@@ -253,7 +253,7 @@ lettres	lettre	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 qui	qui	PRON
@@ -273,7 +273,7 @@ la	le	DET
 plus	plus	ADV
 minuscule	minuscule	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 y	y	PRON
 avait	avoir	VERB
 comme	comme	ADP
@@ -295,7 +295,7 @@ de	de	ADP
 Saussure	Saussure	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 ,	,	PUNCTclause
 cinquante	cinquante	NUM
 ans	an	NOUN
@@ -305,7 +305,7 @@ ne	ne	ADV
 arrive	arriver	VERB
 à	à	ADP
 la	le	DET
-Sorbonne	Sorbonne	PROPN
+sorbonne	sorbonne	UNKNOWN
 ,	,	PUNCTclause
 nous	nous	PRON
 découvrions	découvrir	VERB
@@ -373,12 +373,12 @@ choses	chose	NOUN
 formidables	formidable	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 époque	époque	NOUN
 bouillonnante	bouillonnant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Après	après	ADP
+après	après	ADP
 cela	cela	PRON
 ,	,	PUNCTclause
 je	je	PRON
@@ -392,7 +392,7 @@ un	un	DET
 an	an	NOUN
 à	à	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 de	de	ADP
 Vienne	Vienne	PROPN
 ,	,	PUNCTclause
@@ -412,7 +412,7 @@ sentimentale	sentimental	ADJ
 alors	alors	ADV
 tumultueuse	tumultueux	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 fis	faire	VERB
 aussi	aussi	ADV
 de	de	ADP
@@ -440,8 +440,8 @@ retrouve	retrouver	VERB
 le	le	DET
 climat	climat	NOUN
 dans	dans	ADP
-Le	le	DET
-Paysan	Paysan	PROPN
+le	le	DET
+paysan	paysan	UNKNOWN
 du	du	ADP_DET
 Danube	Danube	PROPN
 .	.	PUNCTsent
@@ -458,14 +458,14 @@ il y a	il y a	VERB
 de plus	de plus	ADV
 sages	sage	ADJ
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 l'un	l'un	PRON
 d'entre	d'entre	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
 intitulé	intituler	VERB
 «	«	PUNCTclause
-Adieu	Adieu	PROPN
+adieu	adieu	UNKNOWN
 beau	beau	ADJ
 désordre	désordre	NOUN
 …	…	PUNCTsent
@@ -510,7 +510,7 @@ la	le	DET
 crise	crise	NOUN
 naissante	naissant	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 ne	ne	ADV
 me	me	PRON
@@ -529,13 +529,13 @@ extrême	extrême	ADJ
 virulence	virulence	NOUN
 ,	,	PUNCTclause
 tel	tel	DET
-Les	Les	NOUN
-Méfaits	méfaire	VERB
+les	le	NOUN
+méfaits	méfaire	VERB
 de	de	ADP
 l'	le	DET
 instruction publique	instruction publique	NOUN
 .	.	PUNCTsent
-Quoi	quoi	PRON
+quoi	quoi	PRON
 ou	ou	CCONJ
 il	il	PRON
 en	en	PRON
@@ -558,7 +558,7 @@ intellectuellement	intellectuellement	ADV
 et	et	CCONJ
 politiquement	politiquement	ADV
 .	.	PUNCTsent
-Après	après	ADP
+après	après	ADP
 une	un	DET
 crise	crise	NOUN
 sentimentale	sentimental	ADJ
@@ -590,7 +590,7 @@ une	un	DET
 maison d'édition	maison d'édition	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dès	dès	ADP
+dès	dès	ADP
 ce	ce	DET
 moment	moment	NOUN
 ,	,	PUNCTclause
@@ -638,7 +638,7 @@ Barth	Barth	PROPN
 ou	ou	CCONJ
 Berdiaev	Berdiaev	PROPN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 puis	puis	CCONJ
 ,	,	PUNCTclause
 des	un	ADP_DET
@@ -666,7 +666,7 @@ plusieurs	plusieurs	DET
 revues	revue	NOUN
 —	—	PUNCTclause
 dont	dont	PRON
-Esprit	Esprit	PROPN
+esprit	esprit	UNKNOWN
 ,	,	PUNCTclause
 à	à	ADP
 laquelle	laquelle	PRON
@@ -691,7 +691,7 @@ et	et	CCONJ
 du	du	ADP_DET
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -741,7 +741,7 @@ de	de	ADP
 l'	le	DET
 État-nation	État-nation	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
@@ -767,7 +767,7 @@ quelque	quelque	DET
 trente-cinq	trente-cinq	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 étant	être	AUX
 ,	,	PUNCTclause
 je	je	PRON
@@ -781,7 +781,7 @@ de	de	ADP
 être	être	AUX
 écrivain	écrivain	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 l'	le	DET
 instant	instant	NOUN
 ,	,	PUNCTclause
@@ -794,7 +794,7 @@ chantier	chantier	NOUN
 .	.	PUNCTsent
 à la suite de	à la suite de	ADP
 mon	mon	DET
-Journal	Journal	NOUN
+journal	journal	NOUN
 de	de	ADP
 une	un	DET
 époque	époque	NOUN
@@ -803,10 +803,10 @@ devrait	devoir	VERB
 bientôt	bientôt	ADV
 paraître	paraître	VERB
 le	le	DET
-Journal	Journal	NOUN
+journal	journal	NOUN
 de	de	ADP
 un	un	DET
-Européen	européen	ADJ
+européen	européen	ADJ
 ,	,	PUNCTclause
 portant	porter	VERB
 sur	sur	ADP
@@ -815,7 +815,7 @@ trente	trente	NUM
 dernières	dernier	ADJ
 années	année	NOUN
 .	.	PUNCTsent
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 je	je	PRON
 travaille	travailler	VERB
@@ -836,7 +836,7 @@ mon	mon	DET
 œuvre	œuvre	NOUN
 :	:	PUNCTclause
 une	un	DET
-Morale	Morale	NOUN
+morale	morale	NOUN
 du	du	ADP_DET
 but	but	NOUN
 où	où	PRON

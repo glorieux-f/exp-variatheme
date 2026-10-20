@@ -6,16 +6,16 @@
 # title = "[Compte rendu] Hölderlin, La Mort d’Empédocle et Poèmes de la folie (octobre 1930)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Hölderlin	Hölderlin	PROPN
 ,	,	PUNCTclause
-La	le	DET
-Mort	Mort	NOUN
+la	le	DET
+mort	mort	NOUN
 de	de	ADP
 Empédocle	Empédocle	PROPN
 et	et	CCONJ
-Poèmes	Poèmes	PROPN
+poèmes	poème	UNKNOWN
 de	de	ADP
 la	le	DET
 folie	folie	NOUN
@@ -43,13 +43,13 @@ par	par	ADP
 la	le	DET
 France	France	PROPN
 .	.	PUNCTsent
-La	le	DET
-Mort	Mort	NOUN
+la	le	DET
+mort	mort	NOUN
 de	de	ADP
 Empédocle	Empédocle	PROPN
 et	et	CCONJ
 les	le	DET
-Poèmes	Poèmes	NOUN
+poèmes	poème	NOUN
 de	de	ADP
 la	le	DET
 folie	folie	NOUN
@@ -62,7 +62,7 @@ l'on	on	PRON
 annonce	annoncer	VERB
 Hypérion	Hypérion	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 manquera	manquer	VERB
 plus	plus	ADV
@@ -119,7 +119,7 @@ notre	notre	DET
 ère	ère	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 doit	devoir	VERB
 beaucoup de	beaucoup de	DET
 reconnaissance	reconnaissance	NOUN
@@ -141,11 +141,11 @@ de	de	ADP
 profondeur	profondeur	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Mort	Mort	NOUN
+mort	mort	NOUN
 de	de	ADP
 Empédocle	Empédocle	PROPN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 tragédie	tragédie	NOUN
 difficile	difficile	ADJ
 ,	,	PUNCTclause
@@ -163,7 +163,7 @@ donne	donner	VERB
 moins	moins	ADV
 que	que	SCONJ
 les	le	DET
-Poèmes	Poèmes	NOUN
+poèmes	poème	NOUN
 cette	ce	DET
 impression	impression	NOUN
 bizarre	bizarre	ADJ
@@ -190,7 +190,7 @@ en	en	PRON
 fut	être	AUX
 obsédé	obséder	VERB
 .	.	PUNCTsent
-Empédocle	Empédocle	PROPN
+Empédocle	Empédocle	NOUN
 est	être	AUX
 de	de	ADP
 ces	ce	DET
@@ -219,7 +219,7 @@ se	se	PRON
 en	en	ADP
 libérer	libérer	VERB
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 la	le	DET
 France	France	PROPN
 conçut	concevoir	VERB
@@ -270,9 +270,9 @@ communier	communier	VERB
 avec	avec	ADP
 la	le	DET
 divine	divin	ADJ
-Nature	Nature	NOUN
+nature	nature	NOUN
 .	.	PUNCTsent
-Mythe	mythe	NOUN
+mythe	mythe	NOUN
 grec	grec	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -310,7 +310,7 @@ symboles	symbole	NOUN
 nettement	nettement	ADV
 messianiques	messianique	ADJ
 …	…	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 par	par	ADP
 quoi	quoi	PRON
 Hölderlin	Hölderlin	PROPN
@@ -364,7 +364,7 @@ réflexion	réflexion	NOUN
 consciente	conscient	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-Vers	vers	ADP
+vers	vers	ADP
 l'	le	DET
 époque	époque	NOUN
 où	où	PRON
@@ -385,7 +385,7 @@ essais	essai	NOUN
 philosophiques	philosophique	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
-Le	le	DET
+le	le	DET
 tragique	tragique	NOUN
 de	de	ADP
 Hölderlin	Hölderlin	PROPN
@@ -406,7 +406,7 @@ réfléchir	réfléchir	VERB
 sa	son	DET
 création	création	NOUN
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 là	là	ADV
 sa	son	DET
 folie	folie	NOUN
@@ -415,7 +415,7 @@ que	que	SCONJ
 il	il	PRON
 pressent	presser	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 M.	M.	NOUN
 Babelon	Babelon	PROPN
 cite	citer	VERB
@@ -446,7 +446,7 @@ une	un	DET
 plus	plus	ADV
 faible	faible	ADJ
 …	…	PUNCTsent
-Le	le	DET
+le	le	DET
 grand	grand	ADJ
 poète	poète	NOUN
 ne	ne	ADV
@@ -471,7 +471,7 @@ il	il	PRON
 le	le_PRON	PRON
 veut	vouloir	VERB
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 peut	pouvoir	VERB
 tomber	tomber	VERB
 dans	dans	ADP
@@ -484,7 +484,7 @@ la	le	DET
 profondeur	profondeur	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Comment	comment	ADV
+comment	comment	ADV
 ne	ne	ADV
 point	point	ADV
 songer	songer	VERB
@@ -541,7 +541,7 @@ le	le	DET
 veut	vouloir	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 Hölderlin	Hölderlin	PROPN
 est	être	AUX
 sans doute	sans doute	ADV
@@ -569,7 +569,7 @@ va	aller	VERB
 brusquement	brusquement	ADV
 succomber	succomber	VERB
 .	.	PUNCTsent
-Buisson	buisson	NOUN
+buisson	buisson	NOUN
 ardent	ardent	NOUN
 auquel	auquel	ADP_PRON
 un	un	DET
@@ -584,7 +584,7 @@ pour	pour	ADP
 son	son	DET
 support	support	NOUN
 .	.	PUNCTsent
-Reste	rester	VERB
+reste	rester	VERB
 une	un	DET
 cendre	cendre	NOUN
 où	où	PRON
@@ -597,7 +597,7 @@ lueurs	lueur	NOUN
 réminiscentes	réminiscentes	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 les	le	DET
 quatrains	quatrain	NOUN
@@ -631,9 +631,9 @@ est	être	AUX
 celle	celle	PRON
 de	de	ADP
 ses	son	DET
-Noces	Noces	PROPN
+noces	noce	UNKNOWN
 .	.	PUNCTsent
-Jouve	Jouve	PROPN
+Jouve	Jouve	NOUN
 est	être	AUX
 le	le	DET
 plus	plus	ADV
@@ -680,13 +680,13 @@ autre	autre	ADJ
 poète	poète	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 quatrains	quatrain	NOUN
 sont	être	AUX
 ici	ici	ADV
 précédés	précéder	VERB
 de	de	ADP
-Fragments	Fragments	NOUN
+fragments	fragment	NOUN
 dont	dont	PRON
 je	je	PRON
 me	me	PRON
@@ -700,7 +700,7 @@ de	de	ADP
 les	le	DET
 traduire	traduire	VERB
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 a	avoir	AUX
 respecté	respecter	VERB
 scrupuleusement	scrupuleusement	ADV
@@ -728,7 +728,7 @@ bribes	bribe	NOUN
 de	de	ADP
 phrases	phrase	NOUN
 …	…	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
 comme	comme	SCONJ
@@ -842,7 +842,7 @@ la	le	DET
 pensée	pensée	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Insensé	insensé	ADJ
+insensé	insensé	ADJ
 ,	,	PUNCTclause
 —	—	PUNCTclause
 penses	penser	VERB
@@ -857,7 +857,7 @@ l'	le	DET
 âme	âme	NOUN
 ?	?	PUNCTsent
 —	—	PUNCTclause
-Tu	tu	PRON
+tu	tu	PRON
 iras	aller	VERB
 dans	dans	ADP
 les	le	DET

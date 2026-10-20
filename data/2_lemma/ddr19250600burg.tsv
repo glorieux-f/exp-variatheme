@@ -6,12 +6,12 @@
 # title = "[Compte rendu] André Breton, Manifeste du surréalisme (juin 1925)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compter	VERB
+compte	compter	VERB
 rendu	rendre	VERB
 André	André	PROPN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
-Manifeste	Manifeste	PROPN
+manifeste	manifester	UNKNOWN
 du	du	ADP_DET
 surréalisme	surréalisme	NOUN
 (	(	PUNCTclause
@@ -20,7 +20,7 @@ juin	juin	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Sous	sous	ADP
+sous	sous	ADP
 une	un	DET
 «	«	PUNCTclause
 vague	vague	NOUN
@@ -50,7 +50,7 @@ ce	ce	PRON
 que	que	PRON
 proclame	proclamer	VERB
 M.	M.	NOUN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 en	en	ADP
 un	un	DET
 manifeste	manifeste	NOUN
@@ -72,7 +72,7 @@ il	il	PRON
 révèle	révéler	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 style	style	NOUN
 brillant	brillant	ADJ
 et	et	CCONJ
@@ -106,7 +106,7 @@ réussit	réussir	VERB
 pas	pas	ADV
 toujours	toujours	ADV
 chez	chez	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 à	à	ADP
 masquer	masquer	VERB
 la	le	DET
@@ -115,7 +115,7 @@ de	de	ADP
 la	le	DET
 pensée	pensée	NOUN
 .	.	PUNCTsent
-D'autant	d'autant	ADV
+d'autant	d'autant	ADV
 plus	plus	ADV
 que	que	SCONJ
 les	le	DET
@@ -145,10 +145,10 @@ ou	ou	CCONJ
 de	de	ADP
 psychanalyse	psychanalyse	NOUN
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 principes	principe	NOUN
 ?	?	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 se	se	PRON
 laissent	laisser	VERB
 hélas	hélas	INTJ
@@ -162,10 +162,10 @@ dictionnaire	dictionnaire	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Surréalisme	surréalisme	NOUN
+surréalisme	surréalisme	NOUN
 ,	,	PUNCTclause
 n.m.	n.m.	DET
-Automatisme	Automatisme	NOUN
+automatisme	automatisme	NOUN
 psychique	psychique	ADJ
 pur	pur	ADJ
 par	par	ADP
@@ -195,7 +195,7 @@ de	de	ADP
 la	le	DET
 pensée	pensée	NOUN
 .	.	PUNCTsent
-Dictée	dicter	VERB
+dictée	dicter	VERB
 de	de	ADP
 la	le	DET
 pensée	pensée	NOUN
@@ -223,7 +223,7 @@ p.	p.	PUNCT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 surréalisme	surréalisme	NOUN
 ne	ne	ADV
 serait	être	AUX
@@ -238,11 +238,11 @@ des	un	ADP_DET
 textes	texte	NOUN
 généralisée	généraliser	VERB
 ?	?	PUNCTsent
-Point	point	NOUN
+point	point	NOUN
 du	du	ADP_DET
 tout	tout	PRON
 !	!	PUNCTsent
-Il	il	PRON
+il	il	PRON
 paraît	paraître	VERB
 que	que	SCONJ
 il	il	PRON
@@ -254,7 +254,7 @@ littéraire	littéraire	ADJ
 aujourd'hui	aujourd'hui	ADV
 concevable	concevable	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 par	par	ADP
 quelles	quel	DET
 tricheries	tricherie	NOUN
@@ -263,7 +263,7 @@ ou	ou	CCONJ
 moins	moins	ADV
 conscientes	conscient	ADJ
 M.	M.	NOUN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 peut	pouvoir	VERB
 il	il	PRON
 préconiser	préconiser	VERB
@@ -279,19 +279,19 @@ tels	tel	PRON
 principes	principe	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
-Rêve	Rêve	PROPN
+le	le	DET
+rêve	rêve	UNKNOWN
 est	être	AUX
 la	le	DET
 seule	seul	ADJ
 matière	matière	NOUN
 poétique	poétique	ADJ
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 du	du	ADP_DET
-Rêve	Rêve	NOUN
+rêve	rêve	NOUN
 autant	autant	ADV
 de	de	ADP
 cellules	cellule	NOUN
@@ -300,7 +300,7 @@ que	que	SCONJ
 de	de	ADP
 rêveurs	rêveur	NOUN
 .	.	PUNCTsent
-Toute	toute	DET
+toute	toute	DET
 poésie	poésie	NOUN
 est	être	AUX
 incommunicable	incommunicable	ADJ
@@ -315,9 +315,9 @@ de	de	ADP
 ses	son	DET
 rêves	rêve	NOUN
 .	.	PUNCTsent
-Soit	soit	CCONJ
+soit	soit	CCONJ
 .	.	PUNCTsent
-De	de	ADP
+de	de	ADP
 ces	ce	DET
 faits	fait	NOUN
 ,	,	PUNCTclause
@@ -333,7 +333,7 @@ publier	publier	VERB
 des	un	DET
 poèmes	poème	NOUN
 .	.	PUNCTsent
-Éluard	Éluard	PROPN
+Éluard	Éluard	VERB
 le	le	DET
 comprenait	comprendre	VERB
 ,	,	PUNCTclause
@@ -341,7 +341,7 @@ qui	qui	PRON
 écrivit	écrire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Quand	quand	SCONJ
+quand	quand	SCONJ
 les	le	DET
 livres	livre	NOUN
 se	se	PRON
@@ -356,7 +356,7 @@ secours	secours	NOUN
 des	un	ADP_DET
 lecteurs	lecteur	NOUN
 ?	?	PUNCTsent
-Quand	quand	SCONJ
+quand	quand	SCONJ
 les	le	DET
 hommes	homme	NOUN
 se	se	PRON
@@ -365,9 +365,9 @@ ils	ils	PRON
 individuellement	individuellement	ADV
 ?	?	PUNCTsent
 »	»	PUNCTclause
-Que	que	SCONJ
+que	que	SCONJ
 M.	M.	PROPN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 donne	donner	VERB
 des	un	DET
 «	«	PUNCTclause
@@ -401,7 +401,7 @@ manifeste	manifeste	NOUN
 de	de	ADP
 proses	prose	NOUN
 —	—	PUNCTclause
-Poisson	Poisson	NOUN
+poisson	poisson	NOUN
 soluble	soluble	ADJ
 —	—	PUNCTclause
 qui	qui	PRON
@@ -415,7 +415,7 @@ la	le	DET
 poésie	poésie	NOUN
 pure	pur	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 beautés	beauté	NOUN
 que	que	PRON
 je	je	PRON
@@ -442,7 +442,7 @@ poète	poète	NOUN
 et	et	CCONJ
 les miens	les miens	PRON
 ?	?	PUNCTsent
-Je	je	PRON
+je	je	PRON
 comprends	comprendre	VERB
 trop	trop	ADV
 de	de	ADP
@@ -457,13 +457,13 @@ me	me	PRON
 parfaitement	parfaitement	ADV
 impénétrables	impénétrable	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 crois	croire	VERB
 même	même	ADV
 voir	voir	VERB
 que	que	SCONJ
 M.	M.	NOUN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 serait	être	AUX
 un	un	DET
 très	très	ADV
@@ -495,15 +495,15 @@ dictée	dictée	NOUN
 non	non	ADV
 corrigée	corriger	VERB
 du	du	ADP_DET
-Rêve	Rêve	NOUN
+rêve	rêve	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 reconnais	reconnaître	VERB
 à	à	ADP
 chaque	chaque	DET
 ligne	ligne	NOUN
 de	de	ADP
-Poisson	Poisson	NOUN
+poisson	poisson	NOUN
 soluble	soluble	ADJ
 cette	ce	DET
 «	«	PUNCTclause
@@ -537,12 +537,12 @@ me	me	PRON
 empêcher	empêcher	VERB
 de	de	ADP
 accuser	accuser	VERB
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 de	de	ADP
 préméditation	préméditation	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 quoi	quoi	PRON
 sert	servir	VERB
 ,	,	PUNCTclause
@@ -555,7 +555,7 @@ psychologique	psychologique	ADJ
 si	si	SCONJ
 scolaire	scolaire	ADJ
 ?	?	PUNCTsent
-À	à	ADP
+à	à	ADP
 donner	donner	VERB
 le	le	DET
 change	change	NOUN
@@ -568,7 +568,7 @@ art	art	NOUN
 purement	purement	ADV
 formel	formel	ADJ
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 ce	ce	PRON
 est	être	AUX
 ici	ici	ADV
@@ -592,7 +592,7 @@ savent	savoir	VERB
 admirablement	admirablement	ADV
 parler	parler	VERB
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 érigent	ériger	VERB
 donc	donc	ADV
 en	en	ADP
@@ -602,7 +602,7 @@ impuissance	impuissance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
@@ -617,7 +617,7 @@ mots	mot	NOUN
 Aragon	Aragon	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Aussi	aussi	ADV
+aussi	aussi	ADV
 se	se	PRON
 paient	payer	VERB
 ils	ils	PRON
@@ -628,7 +628,7 @@ d'autres	d'autre	PRON
 de	de	ADP
 raisonnements	raisonnement	NOUN
 .	.	PUNCTsent
-Plaisante	plaisant	ADJ
+plaisante	plaisant	ADJ
 ironie	ironie	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -644,7 +644,7 @@ nos	nos	DET
 poncifs	poncif	NOUN
 intellectuels	intellectuel	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 elle	elle	PRON
 risque	risquer	VERB
 bien	bien	ADV
@@ -657,7 +657,7 @@ peu	peu	ADV
 plus	plus	ADV
 esclaves	esclave	ADJ
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 depuis	depuis	ADP
 Freud	Freud	PROPN
 —	—	PUNCTclause
@@ -688,7 +688,7 @@ tout	tout	DET
 finalisme	finalisme	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Surréalisme	surréalisme	NOUN
+surréalisme	surréalisme	NOUN
 S.A.	S.A.	PROPN
 ,	,	PUNCTclause
 entreprise	entreprendre	VERB
@@ -703,7 +703,7 @@ abandonnés	abandonner	VERB
 par	par	ADP
 Dada	Dada	PROPN
 S.A.	S.A.	PROPN
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -722,7 +722,7 @@ avant	avant	ADP
 tout	tout	DET
 morales	morale	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 tendances	tendance	NOUN
 encore	encore	ADV
 un	un	DET
@@ -733,7 +733,7 @@ un	un	DET
 groupe	groupe	NOUN
 tel	tel	PRON
 que	que	SCONJ
-Philosophies	Philosophies	PROPN
+philosophies	philosophie	UNKNOWN
 laissent	laisser	VERB
 pressentir	pressentir	VERB
 des	un	DET
@@ -742,7 +742,7 @@ plus	plus	ADV
 réelles	réel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 souhaite	souhaiter	VERB
 que	que	SCONJ
 après	après	ADP
@@ -846,9 +846,9 @@ Aragon	Aragon	PROPN
 ,	,	PUNCTclause
 Éluard	Éluard	PROPN
 .	.	PUNCTsent
-Sans	sans	ADP
+sans	sans	ADP
 oublier	oublier	VERB
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 enchanteur	enchanteur	NOUN
 des	un	ADP_DET

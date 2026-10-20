@@ -6,12 +6,12 @@
 # title = "[Compte rendu] Edmond Jaloux, Ô toi que j’eusse aimée… (mars 1927)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Edmond	Edmond	PROPN
-Jaloux	Jaloux	PROPN
+jaloux	jaloux	UNKNOWN
 ,	,	PUNCTclause
-Ô	ô	ADP
+ô	ô	ADP
 toi	toi	PRON
 que	que	PRON
 je	je	PRON
@@ -26,7 +26,7 @@ mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 M.	M.	PUNCT
 Edmond	Edmond	PROPN
-Jaloux	Jaloux	PROPN
+jaloux	jaloux	UNKNOWN
 offre	offrir	VERB
 l'	le	DET
 exemple	exemple	NOUN
@@ -98,7 +98,7 @@ riche	riche	ADJ
 de	de	ADP
 romancier	romancier	NOUN
 .	.	PUNCTsent
-Son	son	DET
+son	son	DET
 regard	regard	NOUN
 se	se	PRON
 promène	promener	VERB
@@ -133,7 +133,7 @@ en	en	PRON
 sait	savoir	VERB
 long	long	ADJ
 …	…	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ,	,	PUNCTclause
 certes	certes	ADV
 ,	,	PUNCTclause
@@ -152,7 +152,7 @@ cette	ce	DET
 mélancolique	mélancolique	ADJ
 grâce	grâce	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 quelques-uns	quelques-uns	PRON
 de	de	ADP
 ses	son	DET
@@ -202,7 +202,7 @@ cette	ce	DET
 ambassade	ambassade	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Parfois	parfois	ADV
+parfois	parfois	ADV
 l'on	on	PRON
 se	se	PRON
 demande	demander	VERB
@@ -223,9 +223,9 @@ en face	en face	ADV
 des	un	ADP_DET
 personnages	personnage	NOUN
 de	de	ADP
-Jaloux	Jaloux	PROPN
+jaloux	jaloux	UNKNOWN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 peut-être	peut-être	ADV
 que	que	SCONJ
 la	le	DET
@@ -274,7 +274,7 @@ ce	ce	DET
 roman	roman	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 la	le	DET
 veille	veille	NOUN
 de	de	ADP
@@ -305,7 +305,7 @@ de	de	ADP
 l'	le	DET
 amour	amour	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 confidence	confidence	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -318,7 +318,7 @@ la	le	DET
 reverra	revoir	VERB
 jamais	jamais	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 aime	aimer	VERB
 encore	encore	ADV
 sa	son	DET
@@ -360,7 +360,7 @@ une	un	DET
 merveilleuse	merveilleux	ADJ
 obsession	obsession	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 lui	lui	PRON
 écrit	écrire	VERB
 de	de	ADP
@@ -371,7 +371,7 @@ sans	sans	ADP
 les	le_PRON	PRON
 envoyer	envoyer	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 apprend	apprendre	VERB
 sa	son	DET
 mort	mort	NOUN
@@ -384,7 +384,7 @@ aurait	avoir	AUX
 peut-être	peut-être	ADV
 aimé	aimer	VERB
 .	.	PUNCTsent
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 divorcé	divorcer	VERB
 ,	,	PUNCTclause
@@ -459,7 +459,7 @@ inavoués	inavoué	ADJ
 rêves	rêve	NOUN
 éveillés	éveillé	ADJ
 .	.	PUNCTsent
-Tout	tout	ADV
+tout	tout	ADV
 un	un	DET
 système	système	NOUN
 de	de	ADP
@@ -542,7 +542,7 @@ secret	secret	ADJ
 du	du	ADP_DET
 héros	héros	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 sait	savoir	VERB
 mieux	mieux	ADV
 que	que	SCONJ
@@ -573,7 +573,7 @@ il	il	PRON
 dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Personne	personne_PRON	PRON
+personne	personne_PRON	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 juger	juger	VERB
@@ -593,14 +593,14 @@ même	même	ADV
 eux	eux	PRON
 »	»	PUNCTclause
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 ce	ce	DET
 roman	roman	NOUN
 ,	,	PUNCTclause
 comme	comme	SCONJ
 dans	dans	ADP
 l'	le	DET
-Âge	Âge	NOUN
+âge	âge	NOUN
 de	de	ADP
 or	or	NOUN
 ,	,	PUNCTclause
@@ -669,7 +669,7 @@ quiproquo	quiproquo	NOUN
 de	de	ADP
 destinées	destinée	NOUN
 …	…	PUNCTsent
-Le	le	DET
+le	le	DET
 tragique	tragique	NOUN
 du	du	ADP_DET
 peut-être	peut-être	ADV
@@ -685,7 +685,7 @@ de	de	ADP
 Sylvie	Sylvie	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Là	là	ADV
+là	là	ADV
 était	être	AUX
 le	le	DET
 bonheur	bonheur	NOUN
@@ -695,7 +695,7 @@ peut-être	peut-être	ADV
 »	»	PUNCTclause
 )	)	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 ton	ton	NOUN
 reste	rester	VERB
@@ -715,7 +715,7 @@ personnage	personnage	NOUN
 épisodique	épisodique	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
-Il	il	PRON
+il	il	PRON
 confondait	confondre	VERB
 la	le	DET
 rose	rose	NOUN
@@ -733,7 +733,7 @@ ananas	ananas	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 telle	tel	DET
 œuvre	œuvre	NOUN
 ,	,	PUNCTclause

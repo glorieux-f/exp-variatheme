@@ -8,7 +8,7 @@
 ↵↵	↵↵	PUNCTstruct
 4	4	NUM
 .	.	PUNCTsent
-Cadmus	Cadmus	PROPN
+Cadmus	Cadmus	NOUN
 ou	ou	CCONJ
 la	le	DET
 quête	quête	NOUN
@@ -16,7 +16,7 @@ de	de	ADP
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 légendes	légende	NOUN
 et	et	CCONJ
 l'	le	DET
@@ -41,14 +41,14 @@ et	et	CCONJ
 le	le	DET
 biblique	biblique	ADJ
 .	.	PUNCTsent
-Voyons	voir	VERB
+voyons	voir	VERB
 d'abord	d'abord	ADV
 les	le	DET
 légendes	légende	NOUN
 grecques	grec	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Agénor	Agénor	PROPN
+Agénor	Agénor	NOUN
 ,	,	PUNCTclause
 roi	roi	NOUN
 de	de	ADP
@@ -58,7 +58,7 @@ de	de	ADP
 la	le	DET
 région	région	NOUN
 du	du	ADP_DET
-Delta	Delta	PROPN
+delta	delta	UNKNOWN
 pour	pour	ADP
 habiter	habiter	VERB
 le	le	DET
@@ -79,7 +79,7 @@ fille	fille	NOUN
 :	:	PUNCTclause
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 dernière	dernier	ADJ
 ayant	avoir	AUX
 été	être	AUX
@@ -115,7 +115,7 @@ de	de	ADP
 leur	leur	DET
 père	père	NOUN
 .	.	PUNCTsent
-Comme	comme	SCONJ
+comme	comme	SCONJ
 ils	ils	PRON
 ignorent	ignorer	VERB
 où	où	PRON
@@ -131,7 +131,7 @@ une	un	DET
 direction	direction	NOUN
 différente	différent	ADJ
 .	.	PUNCTsent
-Phœnix	phœnix	NOUN
+phœnix	phœnix	NOUN
 se	se	PRON
 dirige	diriger	VERB
 vers	vers	ADP
@@ -153,7 +153,7 @@ donne	donner	VERB
 son	son	DET
 nom	nom	NOUN
 aux	au	ADP_DET
-Punici	Punici	PROPN
+Punici	Punici	X
 (	(	PUNCTclause
 de	de	ADP
 Pœni	Pœni	PROPN
@@ -171,7 +171,7 @@ en	en	ADP
 son	son	DET
 honneur	honneur	NOUN
 .	.	PUNCTsent
-Cilix	Cilix	PROPN
+Cilix	Cilix	NOUN
 va	aller	VERB
 en	en	ADP
 Cilicie	Cilicie	PROPN
@@ -190,7 +190,7 @@ l'	le	DET
 de	de	ADP
 Thasos	Thasos	PROPN
 .	.	PUNCTsent
-Enfin	enfin	ADV
+enfin	enfin	ADV
 Cadmus	Cadmus	PROPN
 ,	,	PUNCTclause
 le	le	DET
@@ -206,7 +206,7 @@ Rhodes	Rhodes	PROPN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 en	en	ADP
-Thrace	Thrace	PROPN
+thrace	thrace	UNKNOWN
 et	et	CCONJ
 de	de	ADP
 là	là	ADV
@@ -214,7 +214,7 @@ là	là	ADV
 à	à	ADP
 Delphes	Delphes	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 interroge	interroger	VERB
 l'	le	DET
 oracle	oracle	NOUN
@@ -225,14 +225,14 @@ il	il	PRON
 trouvera	trouver	VERB
 Europe	Europe	PROPN
 .	.	PUNCTsent
-La	le	DET
-Pythie	Pythie	PROPN
+la	le	DET
+pythie	pythie	UNKNOWN
 lui	lui	PRON
 conseille	conseiller	VERB
 de	de	ADP
 abandonner	abandonner	VERB
 sa	son	DET
-Quête	Quête	NOUN
+quête	quête	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -255,7 +255,7 @@ bâtir	bâtir	VERB
 une	un	DET
 ville	ville	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 achète	acheter	VERB
 donc	donc	ADV
 une	un	DET
@@ -299,12 +299,12 @@ de	de	ADP
 Thèbes	Thèbes	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 voit	voir	VERB
 donc	donc	ADV
 que	que	SCONJ
 la	le	DET
-Quête	Quête	PROPN
+quête	quête	UNKNOWN
 de	de	ADP
 Europe	Europe	PROPN
 —	—	PUNCTclause
@@ -325,9 +325,9 @@ les	le	DET
 voyages	voyage	NOUN
 historiques	historique	ADJ
 des	un	ADP_DET
-Phéniciens	Phéniciens	NOUN
+phéniciens	phénicien	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 voit	voir	VERB
 aussi	aussi	ADV
 combien	combien	ADV
@@ -375,14 +375,14 @@ actif	actif	ADJ
 d'entre	d'entre	ADP
 eux	eux	PRON
 .	.	PUNCTsent
-Voilà	voilà	ADP
+voilà	voilà	ADP
 qui	qui	PRON
 est	être	AUX
 plein	plein	ADJ
 de	de	ADP
 enseignements	enseignement	NOUN
 .	.	PUNCTsent
-Rechercher	rechercher	VERB
+rechercher	rechercher	VERB
 l'	le_PRON	PRON
 Europe	Europe	PROPN
 ce	ce	PRON
@@ -401,7 +401,7 @@ la	le_PRON	PRON
 crée	créer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 venons	venir	VERB
 en	en	ADP
 à	à	ADP
@@ -411,7 +411,7 @@ des	un	ADP_DET
 deux	deux	NUM
 mythes	mythe	NOUN
 .	.	PUNCTsent
-Selon	selon	ADP
+selon	selon	ADP
 Robert	Robert	PROPN
 Graves	Graves	PROPN
 ,	,	PUNCTclause
@@ -426,14 +426,14 @@ qui	qui	PRON
 apparaît	apparaître	VERB
 dans	dans	ADP
 la	le	DET
-Genèse	Genèse	PROPN
+genèse	genèse	UNKNOWN
 sous	sous	ADP
 le	le	DET
 nom	nom	NOUN
 de	de	ADP
 Canaan	Canaan	PROPN
 .	.	PUNCTsent
-Nombre	nombre	NOUN
+nombre	nombre	NOUN
 de	de	ADP
 coutumes	coutume	NOUN
 cananéennes	cananéen	ADJ
@@ -444,7 +444,7 @@ est-africaine	est-africaine	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
-Cananéens	Cananéens	NOUN
+cananéens	cananéen	NOUN
 pourraient	pouvoir	VERB
 être	être	AUX
 venus	venir	VERB
@@ -458,9 +458,9 @@ du	du	ADP_DET
 Nil	Nil	PROPN
 et	et	CCONJ
 le	le	DET
-Delta	Delta	PROPN
+delta	delta	UNKNOWN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 dispersion	dispersion	NOUN
 des	un	ADP_DET
 fils	fils	NOUN
@@ -478,7 +478,7 @@ vers	vers	ADP
 l'	le	DET
 ouest	ouest	NOUN
 des	un	ADP_DET
-Cananéens	Cananéens	NOUN
+cananéens	cananéen	NOUN
 ,	,	PUNCTclause
 au	au	ADP_DET
 second	second	ADJ
@@ -492,7 +492,7 @@ des	un	ADP_DET
 envahisseurs	envahisseur	NOUN
 aryens	aryen	ADJ
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 correspond	correspondre	VERB
 en	en	ADP
 tout	tout	PRON
@@ -508,9 +508,9 @@ descubridores	descubridores	NOUN
 que	que	PRON
 furent	être	AUX
 les	le	DET
-Phéniciens	Phéniciens	PROPN
+phéniciens	phénicien	UNKNOWN
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 comment	comment	ADV
 Victor	Victor	PROPN
 Bérard	Bérard	PROPN
@@ -539,7 +539,7 @@ rend	rendre	VERB
 intelligibles	intelligible	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 la	le	DET
 pleine	plein	ADJ
 signification	signification	NOUN
@@ -560,7 +560,7 @@ de	de	ADP
 la	le	DET
 découverte	découverte	NOUN
 du	du	ADP_DET
-Couchant	Couchant	NOUN
+couchant	couchant	NOUN
 .	.	PUNCTsent
 en effet	en effet	ADV
 ,	,	PUNCTclause
@@ -572,7 +572,7 @@ Bérard	Bérard	PROPN
 ,	,	PUNCTclause
 «	«	PUNCTclause
 l'	le	DET
-Antiquité	Antiquité	PROPN
+antiquité	antiquité	UNKNOWN
 presque	presque	ADV
 unanime	unanime	ADJ
 attribuait	attribuer	VERB
@@ -599,7 +599,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 les	le	DET
 trouvailles	trouvaille	NOUN
 récentes	récent	ADJ
@@ -610,7 +610,7 @@ confirment	confirmer	VERB
 cette	ce	DET
 date	date	NOUN
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 la	le	DET
 Crète	Crète	PROPN
 ,	,	PUNCTclause
@@ -619,7 +619,7 @@ alphabet	alphabet	NOUN
 nous	nous	PRON
 vient	venir	VERB
 des	un	DET
-Phéniciens	Phéniciens	PROPN
+phéniciens	phénicien	UNKNOWN
 ;	;	PUNCTclause
 ceux	ceux	PRON
 colonisèrent	coloniser	VERB
@@ -653,8 +653,8 @@ Milet	Milet	PROPN
 ,	,	PUNCTclause
 deux	deux	NUM
 des	un	ADP_DET
-Sept	Sept	PROPN
-Sages	Sages	PROPN
+sept	sept	UNKNOWN
+sages	sage	UNKNOWN
 ,	,	PUNCTclause
 fondèrent	fonder	VERB
 plus tard	plus tard	ADV
@@ -695,7 +695,7 @@ en	en	ADP
 Béotie	Béotie	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Relevons	relever	VERB
+relevons	relever	VERB
 enfin	enfin	ADV
 deux	deux	NUM
 autres	autre	ADJ
@@ -705,7 +705,7 @@ parenté	parenté	NOUN
 mythologique	mythologique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 Agénor	Agénor	PROPN
 ,	,	PUNCTclause
 père	père	NOUN
@@ -720,7 +720,7 @@ serait	être	AUX
 ,	,	PUNCTclause
 selon	selon	ADP
 la	le	DET
-Genèse	Genèse	PROPN
+genèse	genèse	UNKNOWN
 ,	,	PUNCTclause
 ce	ce	DET
 fils	fils	NOUN
@@ -731,7 +731,7 @@ promis	promettre	VERB
 l'	le	DET
 esclavage	esclavage	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 mythe	mythe	NOUN
 gréco-phénicien	gréco-phénicien	ADJ
 et	et	CCONJ
@@ -793,7 +793,7 @@ continent	continent	NOUN
 occidental	occidental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Non	non	ADV
+non	non	ADV
 moins	moins	ADV
 curieux	curieux	ADJ
 est	être	AUX
@@ -812,7 +812,7 @@ le	le	DET
 Japhet	Japhet	PROPN
 de	de	ADP
 la	le	DET
-Genèse	Genèse	PROPN
+genèse	genèse	UNKNOWN
 ,	,	PUNCTclause
 fils	fils	NOUN
 de	de	ADP
@@ -843,10 +843,10 @@ précisément	précisément	ADV
 le	le	DET
 Noé	Noé	NOUN
 des	un	ADP_DET
-Grecs	Grecs	NOUN
+grecs	grec	NOUN
 …	…	PUNCTsent
 l'	le	DET
-Antiquité	Antiquité	PROPN
+antiquité	antiquité	UNKNOWN
 tenait	tenir	VERB
 Japet	Japet	PROPN
 pour	pour	ADP
@@ -855,14 +855,14 @@ ancêtre	ancêtre	NOUN
 du	du	ADP_DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
-Audax	Audax	PROPN
+Audax	Audax	ADJ
 Japeti	Japeti	PROPN
 genus	genus	X
 ,	,	PUNCTclause
 écrit	écrire	VERB
 Horace	Horace	PROPN
 …	…	PUNCTsent
-La	le	DET
+la	le	DET
 tradition	tradition	NOUN
 occidentale	occidental	ADJ
 a	avoir	AUX
@@ -872,11 +872,11 @@ ces	ce	DET
 deux	deux	NUM
 ancêtres	ancêtre	NOUN
 .	.	PUNCTsent
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 Bossuet	Bossuet	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Nous	nous	PRON
+nous	nous	PRON
 allons	aller	VERB
 voir	voir	VERB
 comment	comment	ADV

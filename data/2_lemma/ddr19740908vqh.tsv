@@ -6,8 +6,8 @@
 # title = "[Entretien] Surréalisme : un jeu qui dure depuis 50 ans (7-8 septembre 1974)"
 
 ↵↵	↵↵	PUNCTstruct
-Entretien	entretien	NOUN
-Surréalisme	Surréalisme	NOUN
+entretien	entretien	NOUN
+surréalisme	surréalisme	NOUN
 :	:	PUNCTclause
 un	un	DET
 jeu	jeu	NOUN
@@ -24,7 +24,7 @@ septembre	septembre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 août	août	NOUN
 1940	1940	NUM
 ,	,	PUNCTclause
@@ -44,23 +44,23 @@ de	de	ADP
 conférences	conférence	NOUN
 par	par	ADP
 le	le	DET
-Secrétariat	Secrétariat	NOUN
+secrétariat	secrétariat	NOUN
 des	un	ADP_DET
-Suisses	Suisses	PROPN
+suisses	suisse	UNKNOWN
 à	à	ADP
 l'	le	DET
 étranger	étranger	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comment	comment	ADV
+comment	comment	ADV
 avez	avoir	AUX
 vous	vous	PRON
 rencontré	rencontrer	VERB
 André	André	PROPN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 l'	le_PRON	PRON
 ai	avoir	AUX
 vu	voir	VERB
@@ -73,10 +73,10 @@ en	en	ADP
 ,	,	PUNCTclause
 à	à	ADP
 l'	le	DET
-Office	Office	NOUN
+office	office	NOUN
 of	of	VERB
-War	War	PROPN
-Information	Information	NOUN
+War	War	DET
+information	information	NOUN
 .	.	PUNCTsent
 je	je	PRON
 étais	être	AUX
@@ -87,16 +87,16 @@ principal	principal	ADJ
 de	de	ADP
 l'	le	DET
 émission	émission	NOUN
-La	le	DET
-Voix	Voix	NOUN
+la	le	DET
+voix	voix	NOUN
 de	de	ADP
 l'	le	DET
 Amérique	Amérique	PROPN
 parle	parler	VERB
 aux	au	ADP_DET
-Français	Français	NOUN
+français	français	NOUN
 .	.	PUNCTsent
-Mes	mon	DET
+mes	mon	DET
 deux	deux	NUM
 textes	texte	NOUN
 quotidiens	quotidien	ADJ
@@ -131,10 +131,10 @@ Claude	Claude	PROPN
 Lévi-Strauss	Lévi-Strauss	PROPN
 et	et	CCONJ
 André	André	PROPN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 .	.	PUNCTsent
-Entre	entre	ADP
-Breton	Breton	PROPN
+entre	entre	ADP
+breton	breton	UNKNOWN
 et	et	CCONJ
 moi	moi	PRON
 ,	,	PUNCTclause
@@ -147,7 +147,7 @@ coup de foudre	coup de foudre	NOUN
 de	de	ADP
 amitié	amitié	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avons	avoir	AUX
 décidé	décider	VERB
 de	de	ADP
@@ -174,7 +174,7 @@ Ernst	Ernst	PROPN
 Matta	Matta	PROPN
 ,	,	PUNCTclause
 André	André	PROPN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 le	le	DET
 peintre	peintre	NOUN
@@ -210,7 +210,7 @@ de	de	ADP
 groupe	groupe	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 surréalisme	surréalisme	NOUN
 a	avoir	AUX
 toujours	toujours	ADV
@@ -225,7 +225,7 @@ de	de	ADP
 groupe	groupe	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 était	être	AUX
 le	le	DET
 «	«	PUNCTclause
@@ -246,7 +246,7 @@ Marcel	Marcel	PROPN
 Duchamp	Duchamp	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 jeunes	jeune	ADJ
 femmes	femme	NOUN
 ravissantes	ravissant	ADJ
@@ -297,7 +297,7 @@ de	de	ADP
 affinité	affinité	NOUN
 élective	électif	ADJ
 .	.	PUNCTsent
-Plusieurs	plusieurs	DET
+plusieurs	plusieurs	DET
 ravissantes	ravissant	ADJ
 jeunes	jeune	ADJ
 femmes	femme	NOUN
@@ -339,7 +339,7 @@ trous	trou	NOUN
 artistement	artistement	ADV
 disposés	disposer	VERB
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 allures	allure	NOUN
 un	un	DET
 peu	peu	ADV
@@ -351,14 +351,14 @@ jamais	jamais	ADV
 la	le	DET
 drogue	drogue	NOUN
 .	.	PUNCTsent
-Breton	breton	NOUN
+breton	breton	NOUN
 ne	ne	ADV
 l'	le_PRON	PRON
 eût	avoir	VERB
 pas	pas	ADV
 toléré	tolérer	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 régnait	régner	VERB
 parmi	parmi	ADP
 nous	nous	PRON
@@ -372,19 +372,19 @@ liberté	liberté	NOUN
 de	de	ADP
 ton	ton	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 faisions	faire	VERB
 des	un	DET
 jeux	jeu	NOUN
 que	que	PRON
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 prenait	prendre	VERB
 très	très	ADV
 au	au	ADP_DET
 sérieux	sérieux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 lui	lui	PRON
 ,	,	PUNCTclause
 le	le	DET
@@ -413,7 +413,7 @@ conscience	conscience	NOUN
 rationnelle	rationnel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Quelles	quel	DET
+quelles	quel	DET
 sortes	sorte	NOUN
 de	de	ADP
 jeux	jeu	NOUN
@@ -436,7 +436,7 @@ que	que	PRON
 je	je	PRON
 préférais	préférer	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 jouait	jouer	VERB
 par	par	ADP
@@ -460,7 +460,7 @@ il	il	PRON
 si	si	ADV
 …	…	PUNCTsent
 ?	?	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 l'autre	l'autre	PRON
 ,	,	PUNCTclause
 en même temps	en même temps	ADV
@@ -469,7 +469,7 @@ en même temps	en même temps	ADV
 trois	trois	NUM
 réponses	réponse	NOUN
 .	.	PUNCTsent
-Puis	puis	CCONJ
+puis	puis	CCONJ
 on	on	PRON
 lisait	lire	VERB
 à haute voix	à haute voix	ADV
@@ -498,7 +498,7 @@ souvent	souvent	ADV
 l'	le	DET
 écriture	écriture	NOUN
 de	de	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 les	le	DET
@@ -522,7 +522,7 @@ maison	maison	NOUN
 de	de	ADP
 Ferney	Ferney	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 soir	soir	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -547,20 +547,20 @@ cette	ce	DET
 pièce	pièce	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
-Je	je	PRON
+je	je	PRON
 lus	lire	VERB
 ma	mon	DET
 réponse	réponse	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Toutes	tout	ADJ
+toutes	tout	ADJ
 les	le	DET
 lumières	lumière	NOUN
 se	se	PRON
 éteindraient	éteindre	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
-Et	et	CCONJ
+et	et	CCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
@@ -577,14 +577,14 @@ la	le	DET
 maison	maison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 crise	crise	NOUN
 de	de	ADP
 l'	le	DET
 énergie	énergie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cela	cela	PRON
+cela	cela	PRON
 vous	vous	PRON
 est	être	AUX
 il	il	PRON
@@ -592,7 +592,7 @@ arrivé	arriver	VERB
 depuis	depuis	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Oui	oui	INTJ
+oui	oui	INTJ
 ,	,	PUNCTclause
 dans	dans	ADP
 des	un	DET
@@ -600,7 +600,7 @@ circonstances	circonstance	NOUN
 assez	assez	ADV
 différentes	différent	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 donnais	donner	VERB
 la	le	DET
 leçon	leçon	NOUN
@@ -612,7 +612,7 @@ année	année	NOUN
 -1974	-1974	NUM
 à	à	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 universitaire	universitaire	ADJ
 des	un	ADP_DET
 hautes	haut	ADJ
@@ -690,7 +690,7 @@ de	de	ADP
 Genève	Genève	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Naturellement	naturellement	ADV
+naturellement	naturellement	ADV
 ,	,	PUNCTclause
 les	le	DET
 auditeurs	auditeur	NOUN
@@ -722,7 +722,7 @@ une	un	DET
 torche	torche	NOUN
 électrique	électrique	ADJ
 .	.	PUNCTsent
-Après	après	ADP
+après	après	ADP
 vingt	vingt	NUM
 minutes	minute	NOUN
 ,	,	PUNCTclause
@@ -734,7 +734,7 @@ mes	mon	DET
 notes	note	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Ceci	ceci	PRON
+ceci	ceci	PRON
 devrait	devoir	VERB
 être	être	AUX
 regardé	regarder	VERB
@@ -750,7 +750,7 @@ sont	être	AUX
 rallumées	rallumer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Était	être	AUX
+était	être	AUX
 ce	ce	DET
 «	«	PUNCTclause
 la	le	DET
@@ -760,7 +760,7 @@ diable	diable	NOUN
 »	»	PUNCTclause
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Breton	breton	NOUN
+breton	breton	NOUN
 me	me	PRON
 a	avoir	AUX
 souvent	souvent	ADV
@@ -776,7 +776,7 @@ ai	avoir	AUX
 à	à	ADP
 New York	New York	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 demandait	demander	VERB
 comment	comment	ADV
@@ -794,7 +794,7 @@ avec	avec	ADP
 la	le	DET
 magie	magie	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 ce	ce	PRON
 est	être	AUX
 un	un	DET
@@ -820,11 +820,11 @@ toujours	toujours	ADV
 juste	juste	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
-Breton	Breton	PROPN
+et	et	CCONJ
+breton	breton	UNKNOWN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Lui	lui	PRON
+lui	lui	PRON
 ,	,	PUNCTclause
 jamais	jamais	ADV
 !	!	PUNCTsent
@@ -854,7 +854,7 @@ médiumniques	médiumnique	ADJ
 la	le	DET
 parapsychologie	parapsychologie	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 était	être	AUX
 le	le	DET
@@ -863,7 +863,7 @@ de	de	ADP
 un	un	DET
 médium	médium	NOUN
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 fond	fond	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -879,13 +879,13 @@ malgré	malgré	ADP
 lui	lui	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 insultes	insulte	NOUN
 de	de	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 soir	soir	NOUN
 ,	,	PUNCTclause
 on	on	PRON
@@ -928,7 +928,7 @@ qui	qui	PRON
 l'	le	DET
 objet	objet	NOUN
 .	.	PUNCTsent
-Breton	breton	NOUN
+breton	breton	NOUN
 était	être	AUX
 comme	comme	ADP
 «	«	PUNCTclause
@@ -941,7 +941,7 @@ de	de	ADP
 choses	chose	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 vous	vous	PRON
 souveniez	souvenir	VERB
 des	un	DET
@@ -953,10 +953,10 @@ ces	ce	DET
 objets	objet	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Absolument	absolument	ADV
+absolument	absolument	ADV
 pas	pas	ADV
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 me	me	PRON
 plaçait	placer	VERB
 quelque chose	quelque chose	PRON
@@ -999,14 +999,14 @@ Barbara	Barbara	PROPN
 etc.	etc.	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Y	y	PRON
+y	y	PRON
 avait	avoir	VERB
 il	il	PRON
 d'autres	d'autre	PRON
 jeux	jeu	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Oui	oui	INTJ
+oui	oui	INTJ
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 celui	celui	PRON
@@ -1034,7 +1034,7 @@ louangeur	louangeur	NOUN
 l'autre	l'autre	PRON
 péjoratif	péjoratif	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 donné	donner	VERB
 lieu	lieu	NOUN
@@ -1045,14 +1045,14 @@ scènes	scène	NOUN
 terribles	terrible	ADJ
 ,	,	PUNCTclause
 quand	quand	SCONJ
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ne	ne	ADV
 était	être	AUX
 pas	pas	ADV
 d'accord	d'accord	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 jour	jour	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
@@ -1088,7 +1088,7 @@ dans	dans	ADP
 ma	mon	DET
 vie	vie	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 avions	avoir	AUX
 lancé	lancer	VERB
 21	21	NUM
@@ -1106,7 +1106,7 @@ docks	dock	NOUN
 de	de	ADP
 New York	New York	PROPN
 .	.	PUNCTsent
-Vers	vers	ADP
+vers	vers	ADP
 dix	dix	NUM
 heures	heure	NOUN
 du	du	ADP_DET
@@ -1136,10 +1136,10 @@ siècle	siècle	NOUN
 Levi	Levi	PROPN
 ,	,	PUNCTclause
 que	que	SCONJ
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 vénérait	vénérer	VERB
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 jeune	jeune	ADJ
 philosophe	philosophe	NOUN
 grec	grec	ADJ
@@ -1147,7 +1147,7 @@ fut	être	AUX
 désigné	désigner	VERB
 ,	,	PUNCTclause
 que	que	SCONJ
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 avait	avoir	AUX
 baptisé	baptiser	VERB
 «	«	PUNCTclause
@@ -1156,7 +1156,7 @@ nouveau	nouveau	ADJ
 Hegel	Hegel	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 fit	faire	VERB
 le	le	DET
 tour	tour	NOUN
@@ -1223,10 +1223,10 @@ qui	qui	PRON
 critiquait	critiquer	VERB
 Freud	Freud	PROPN
 .	.	PUNCTsent
-Fureur	fureur	NOUN
+fureur	fureur	NOUN
 jupitérienne	jupitérien	ADJ
 de	de	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 qui	qui	PRON
 expulsa	expulser	VERB
@@ -1237,12 +1237,12 @@ l'	le	DET
 heure	heure	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Sortez	sortir	VERB
+sortez	sortir	VERB
 !	!	PUNCTsent
 tonna	tonner	VERB
 il	il	PRON
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 je	je	PRON
 me	me	PRON
 réjouis	réjouir	VERB
@@ -1263,7 +1263,7 @@ témoin	témoin	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 malheureux	malheureux	ADJ
 sortit	sortir	VERB
 de	de	ADP
@@ -1280,7 +1280,7 @@ chassé	chassé	ADJ
 du	du	ADP_DET
 paradis	paradis	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 là	là	ADV
 ,	,	PUNCTclause
 il y a	il y a	VERB
@@ -1292,7 +1292,7 @@ peut	pouvoir	VERB
 guère	guère	ADV
 pardonner	pardonner	VERB
 à	à	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 cette	ce	DET
 faculté	faculté	NOUN
@@ -1311,7 +1311,7 @@ de	de	ADP
 raison	raison	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
 après	après	ADP
@@ -1334,7 +1334,7 @@ dans	dans	ADP
 la	le	DET
 salle	salle	NOUN
 …	…	PUNCTsent
-La	le	DET
+la	le	DET
 «	«	PUNCTclause
 victime	victime	NOUN
 »	»	PUNCTclause
@@ -1349,12 +1349,12 @@ nombre	nombre	NOUN
 21	21	NUM
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 religion	religion	NOUN
 nouvelle	nouveau	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 surréalistes	surréaliste	NOUN
 ont	avoir	AUX
 célébré	célébrer	VERB
@@ -1362,13 +1362,13 @@ les	le	DET
 villes	ville	NOUN
 modernes	moderne	ADJ
 .	.	PUNCTsent
-Breton	breton	NOUN
+breton	breton	NOUN
 aimait	aimer	VERB
 il	il	PRON
 New York	New York	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
 la	le	DET
@@ -1385,7 +1385,7 @@ que	que	SCONJ
 cela	cela	PRON
 paraisse	paraître	VERB
 .	.	PUNCTsent
-Breton	breton	NOUN
+breton	breton	NOUN
 détestait	détester	VERB
 New York	New York	PROPN
 ,	,	PUNCTclause
@@ -1399,7 +1399,7 @@ artificiel	artificiel	ADJ
 sans	sans	ADP
 âme	âme	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 rappelle	rappeler	VERB
 un	un	DET
@@ -1408,9 +1408,9 @@ matin	matin	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 Madison	Madison	PROPN
-Avenue	Avenue	PROPN
+avenue	avenue	UNKNOWN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 rue	rue	NOUN
 était	être	AUX
 déserte	désert	ADJ
@@ -1435,9 +1435,9 @@ trouvé	trouver	VERB
 pile	pile	NOUN
 devant	devant	ADP
 André	André	PROPN
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 marchait	marcher	VERB
 tête	tête	NOUN
 levée	lever	VERB
@@ -1449,7 +1449,7 @@ entre	entre	ADP
 les	le	DET
 gratte-ciel	gratte-ciel	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 arrêta	arrêter	VERB
 et	et	CCONJ
@@ -1461,7 +1461,7 @@ un	un	DET
 silence	silence	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 pourquoi	pourquoi	ADV
 ne	ne	ADV
 ferait	faire	VERB
@@ -1478,7 +1478,7 @@ pierre	pierre	NOUN
 bleue	bleu	ADJ
 ?	?	PUNCTsent
 »	»	PUNCTclause
-Et	et	CCONJ
+et	et	CCONJ
 puis	puis	CCONJ
 il	il	PRON
 est	être	AUX
@@ -1491,7 +1491,7 @@ quelque chose	quelque chose	PRON
 chez	chez	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 passé	passer	VERB
 toute	toute	DET
@@ -1518,7 +1518,7 @@ des	un	ADP_DET
 grands	grand	ADJ
 prêtres	prêtre	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 jour	jour	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -1531,7 +1531,7 @@ avec	avec	ADP
 un	un	DET
 ami	ami	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 écoutait	écouter	VERB
 de	de	ADP
 une	un	DET
@@ -1547,13 +1547,13 @@ vers	vers	ADP
 nous	nous	PRON
 :	:	PUNCTclause
 «	«	PUNCTsent
-Voilà	voilà	ADP
+voilà	voilà	ADP
 ,	,	PUNCTclause
 dit	dire	VERB
 il	il	PRON
 ,	,	PUNCTclause
 une	un	DET
-Église	Église	NOUN
+église	église	NOUN
 où	où	PRON
 je	je	PRON
 aurais	avoir	AUX

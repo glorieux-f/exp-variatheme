@@ -6,19 +6,19 @@
 # title = "[Compte rendu] Ramon Fernandez, Messages (juillet 1926)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Ramon	Ramon	PROPN
 Fernandez	Fernandez	PROPN
 ,	,	PUNCTclause
-Messages	Messages	PROPN
+messages	message	UNKNOWN
 (	(	PUNCTclause
 juillet	juillet	NOUN
 1926	1926	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 crois	croire	VERB
 pas	pas	ADV
@@ -58,7 +58,7 @@ jeunes	jeune	NOUN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 «	«	PUNCTclause
 critique	critique	NOUN
 philosophique	philosophique	ADJ
@@ -124,7 +124,7 @@ de	de	ADP
 cité	cité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voici	voici	ADP
+voici	voici	ADP
 enfin	enfin	ADV
 un	un	DET
 critique	critique	NOUN
@@ -160,7 +160,7 @@ pas	pas	ADV
 de	de	ADP
 un	un	DET
 «	«	PUNCTclause
-Jugement	Jugement	PROPN
+jugement	jugement	UNKNOWN
 »	»	PUNCTclause
 sans	sans	ADP
 issue	issue	NOUN
@@ -211,7 +211,7 @@ expériences	expérience	NOUN
 négatives	négatif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 critique	critique	NOUN
 de	de	ADP
 ces	ce	DET
@@ -226,11 +226,11 @@ essais	essai	NOUN
 sur	sur	ADP
 Proust	Proust	PROPN
 ,	,	PUNCTclause
-Pater	Pater	PROPN
+pater	pater	UNKNOWN
 et	et	CCONJ
 Stendhal	Stendhal	PROPN
 .	.	PUNCTsent
-Certes	certes	ADV
+certes	certes	ADV
 ,	,	PUNCTclause
 il	il	PRON
 était	être	AUX
@@ -258,7 +258,7 @@ l'	le	DET
 esthétique	esthétique	NOUN
 modernes	moderne	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 à	à	ADP
 ce	ce	DET
 propos	propos	NOUN
@@ -290,7 +290,7 @@ liée	lier	VERB
 cette	ce	DET
 confusion	confusion	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 si	si	SCONJ
 il	il	PRON
 est	être	AUX
@@ -342,10 +342,10 @@ un	un	DET
 essai	essai	NOUN
 sur	sur	ADP
 l'	le	DET
-Autobiographie	Autobiographie	NOUN
+autobiographie	autobiographie	NOUN
 et	et	CCONJ
 le	le	DET
-Roman	Roman	PROPN
+roman	roman	UNKNOWN
 ,	,	PUNCTclause
 dont	dont	PRON
 pour ma part	pour ma part	ADP
@@ -377,7 +377,7 @@ de	de	ADP
 connaissance	connaissance	NOUN
 personnelle	personnel	ADJ
 .	.	PUNCTsent
-Après	après	ADP
+après	après	ADP
 quoi	quoi	PRON
 il	il	PRON
 écrit	écrire	VERB
@@ -421,7 +421,7 @@ de	de	ADP
 se	se	PRON
 essayer	essayer	VERB
 ?	?	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 puis	puis	CCONJ
 amorcer	amorcer	VERB
@@ -482,7 +482,7 @@ y	y	PRON
 décèle	déceler	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 meilleur	meilleur	ADJ
 morceau	morceau	NOUN
 du	du	ADP_DET
@@ -508,7 +508,7 @@ une	un	DET
 critique	critique	NOUN
 décisive	décisif	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 justement	justement	ADV
@@ -570,7 +570,7 @@ de	de	ADP
 la	le	DET
 philosophie	philosophie	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 nous	nous	PRON
 prémunir	prémunir	VERB
 contre	contre	ADP
@@ -663,7 +663,7 @@ sa	son	DET
 véritable	véritable	ADJ
 unité	unité	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 borne	borner	VERB
 à	à	ADP
@@ -683,7 +683,7 @@ esthétique	esthétique	NOUN
 du	du	ADP_DET
 roman	roman	NOUN
 .	.	PUNCTsent
-Fernandez	Fernandez	PROPN
+Fernandez	Fernandez	VERB
 en	en	ADP
 formule	formuler	VERB
 une	un	DET
@@ -729,7 +729,7 @@ qui	qui	PRON
 soit	soit	CCONJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
@@ -740,7 +740,7 @@ critiques	critique	NOUN
 cette	ce	DET
 œuvre	œuvre	NOUN
 .	.	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 tient	tenir	VERB
 surtout	surtout	ADV
 à	à	ADP
@@ -773,7 +773,7 @@ mais	mais	CCONJ
 péniblement	péniblement	ADV
 comprimées	comprimer	VERB
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 défaut	défaut	NOUN
 de	de	ADP
 forme	forme	NOUN
@@ -791,7 +791,7 @@ pratiqué	pratiquer	VERB
 par	par	ADP
 Fernandez	Fernandez	PROPN
 .	.	PUNCTsent
-Périlleuse	périlleux	ADJ
+périlleuse	périlleux	ADJ
 situation	situation	NOUN
 que	que	SCONJ
 la sienne	la sienne	PRON
@@ -817,11 +817,11 @@ philosophe	philosophe	ADJ
 aux	au	ADP_DET
 littérateurs	littérateur	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 manque	manquer	VERB
 à	à	ADP
 M.	M.	NOUN
-Fernandez	Fernandez	PROPN
+Fernandez	Fernandez	VERB
 un	un	DET
 certain	certain	ADJ
 recul	recul	NOUN
@@ -862,13 +862,13 @@ nettes	net	ADJ
 de	de	ADP
 synthèse	synthèse	NOUN
 .	.	PUNCTsent
-Avec	avec	ADP
+avec	avec	ADP
 une	un	DET
 œuvre	œuvre	NOUN
 comme	comme	ADP
-Plaisir	Plaisir	PROPN
+plaisir	plaisir	UNKNOWN
 des	un	ADP_DET
-Sports	Sports	NOUN
+sports	sport	NOUN
 de	de	ADP
 Jean	Jean	PROPN
 Prévost	Prévost	PROPN
@@ -883,7 +883,7 @@ la	le	DET
 Rochelle	Rochelle	PROPN
 ,	,	PUNCTclause
 les	le	DET
-Messages	Messages	NOUN
+messages	message	NOUN
 de	de	ADP
 Fernandez	Fernandez	PROPN
 sont	être	AUX

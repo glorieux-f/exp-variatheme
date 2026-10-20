@@ -6,13 +6,13 @@
 # title = "[Compte rendu] Henri Brugmans, Les Origines de la civilisation européenne (septembre 1959)"
 
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 Henri	Henri	PROPN
 Brugmans	Brugmans	PROPN
 ,	,	PUNCTclause
-Les	le	DET
-Origines	Origines	PROPN
+les	le	DET
+origines	origine	UNKNOWN
 de	de	ADP
 la	le	DET
 civilisation	civilisation	NOUN
@@ -50,7 +50,7 @@ de	de	ADP
 conseils	conseil	NOUN
 politiques	politique	ADJ
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 il	il	PRON
 voit	voir	VERB
 bien	bien	ADV
@@ -80,7 +80,7 @@ leur	leur	DET
 seule	seul	ADJ
 issue	issue	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 conçoit	concevoir	VERB
 l'	le	DET
 histoire	histoire	NOUN
@@ -116,7 +116,7 @@ ses	son	DET
 complexes	complexe	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 cette	ce	DET
 vue	vue	NOUN
 de	de	ADP
@@ -134,10 +134,10 @@ déchiffrer	déchiffrer	VERB
 des	un	DET
 documents	document	NOUN
 .	.	PUNCTsent
-Or	or	NOUN
+or	or	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 départ	départ	NOUN
 de	de	ADP
 tout	tout	DET
@@ -160,7 +160,7 @@ inconsciente	inconscient	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Depuis	depuis	ADP
+depuis	depuis	ADP
 cent	cent	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -189,7 +189,7 @@ le	le	DET
 natiocentrisme	natiocentrisme	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Doctrine	doctrine	NOUN
+doctrine	doctrine	NOUN
 évolutionniste	évolutionniste	NOUN
 ,	,	PUNCTclause
 idéaliste	idéaliste	NOUN
@@ -228,21 +228,21 @@ elle	elle	PRON
 entraîna	entraîner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ici	ici	ADV
+ici	ici	ADV
 Brugmans	Brugmans	PROPN
 pose	poser	VERB
 trois	trois	NUM
 questions	question	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Premièrement	premièrement	ADV
+premièrement	premièrement	ADV
 :	:	PUNCTclause
-Est	Est	PROPN
+est	être	UNKNOWN
 il	il	PRON
 vrai	vrai	ADJ
 que	que	SCONJ
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 national	national	ADJ
 actuel	actuel	ADJ
 soit	être	AUX
@@ -263,9 +263,9 @@ du	du	ADP_DET
 progrès	progrès	NOUN
 ?	?	PUNCTsent
 —	—	PUNCTclause
-Deuxièmement	deuxièmement	ADV
+deuxièmement	deuxièmement	ADV
 :	:	PUNCTclause
-La	le	DET
+la	le	DET
 science	science	NOUN
 historique	historique	ADJ
 peut	pouvoir	VERB
@@ -297,9 +297,9 @@ temps	temps	NOUN
 »	»	PUNCTclause
 ?	?	PUNCTsent
 —	—	PUNCTclause
-Troisièmement	troisièmement	ADV
+troisièmement	troisièmement	ADV
 :	:	PUNCTclause
-Est	Est	PROPN
+est	être	UNKNOWN
 il	il	PRON
 permis	permettre	VERB
 de	de	ADP
@@ -333,7 +333,7 @@ l'	le	DET
 histoire	histoire	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 quelques	quelque	DET
 pages	page	NOUN
 nourries	nourrir	VERB
@@ -401,7 +401,7 @@ célèbre	célèbre	ADJ
 de	de	ADP
 Toynbee	Toynbee	PROPN
 .	.	PUNCTsent
-Texte	texte	NOUN
+texte	texte	NOUN
 classique	classique	ADJ
 ,	,	PUNCTclause
 à	à	ADP
@@ -446,7 +446,7 @@ agir	agir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Civilisation	civilisation	NOUN
+civilisation	civilisation	NOUN
 incomparablement	incomparablement	ADV
 dynamique	dynamique	ADJ
 ,	,	PUNCTclause
@@ -461,7 +461,7 @@ grandes	grand	ADJ
 autorités	autorité	NOUN
 traditionnelles	traditionnel	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 variations	variation	NOUN
 de	de	ADP
 son	son	DET
@@ -475,7 +475,7 @@ un	un	DET
 fond	fond	NOUN
 commun	commun	ADJ
 …	…	PUNCTsent
-Qui	qui	PRON
+qui	qui	PRON
 veut	vouloir	VERB
 écrire	écrire	VERB
 l'	le	DET
@@ -499,7 +499,7 @@ cinq	cinq	NUM
 Rome	Rome	PROPN
 ,	,	PUNCTclause
 les	le	DET
-Barbares	Barbares	PROPN
+barbares	barbare	UNKNOWN
 ,	,	PUNCTclause
 l'	le	DET
 hellénisme	hellénisme	NOUN
@@ -509,7 +509,7 @@ et	et	CCONJ
 le	le	DET
 christianisme	christianisme	NOUN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 la	le	DET
 triade	triade	NOUN
 classique	classique	ADJ
@@ -521,13 +521,13 @@ ajoute	ajouter	VERB
 l'	le	DET
 héritage	héritage	NOUN
 des	un	ADP_DET
-Barbares	Barbares	PROPN
+barbares	barbare	UNKNOWN
 ,	,	PUNCTclause
-Celtes	Celtes	PROPN
+celtes	celte	UNKNOWN
 ,	,	PUNCTclause
-Germains	Germains	PROPN
+germains	germain	UNKNOWN
 et	et	CCONJ
-Slaves	Slaves	PROPN
+slaves	slave	UNKNOWN
 ,	,	PUNCTclause
 dont	dont	PRON
 l'	le	DET
@@ -592,7 +592,7 @@ deuxième	deuxième	ADJ
 partie	partie	NOUN
 ,	,	PUNCTclause
 les	le	DET
-Expériences	Expériences	PROPN
+expériences	expérience	UNKNOWN
 communes	commun	ADJ
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -605,7 +605,7 @@ réinterprétation	réinterprétation	NOUN
 »	»	PUNCTclause
 annoncée	annoncer	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 cela	cela	PRON
 va	aller	VERB
 nous	nous	PRON
@@ -638,7 +638,7 @@ synthèse	synthèse	NOUN
 spécifiquement	spécifiquement	ADV
 européenne	européen	ADJ
 .	.	PUNCTsent
-Brugmans	Brugmans	PROPN
+Brugmans	Brugmans	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
 Dawson	Dawson	PROPN
@@ -671,7 +671,7 @@ le	le	DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Friedrich	Friedrich	PROPN
+Friedrich	Friedrich	NOUN
 Heer	Heer	PROPN
 tient	tenir	VERB
 que	que	SCONJ
@@ -701,10 +701,10 @@ une	un	DET
 création	création	NOUN
 du	du	ADP_DET
 haut	haut	NOUN
-Moyen-Âge	Moyen-Âge	NOUN
+moyen-âge	moyen-âge	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Enfin	enfin	ADV
+enfin	enfin	ADV
 Reynold	Reynold	PROPN
 appelle	appeler	VERB
 chrétienté	chrétienté	NOUN
@@ -733,7 +733,7 @@ l'	le	DET
 Europe	Europe	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Quelles	quel	DET
+quelles	quel	DET
 que	que	SCONJ
 soient	être	AUX
 leurs	leur	DET
@@ -764,7 +764,7 @@ accordent	accorder	VERB
 reconnaître	reconnaître	VERB
 dans	dans	ADP
 le	le	DET
-Moyen-Âge	Moyen-Âge	NOUN
+moyen-âge	moyen-âge	NOUN
 le	le	DET
 «	«	PUNCTclause
 sommet	sommet	NOUN
@@ -773,7 +773,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 quoi	quoi	PRON
 l'on	on	PRON
 pourrait	pouvoir	VERB
@@ -788,7 +788,7 @@ si	si	ADV
 fréquent	fréquent	ADJ
 sous	sous	ADP
 les	le	DET
-Carolingiens	Carolingiens	NOUN
+carolingiens	carolingien	NOUN
 ,	,	PUNCTclause
 disparaît	disparaître	VERB
 précisément	précisément	ADV
@@ -841,7 +841,7 @@ brève	bref	ADJ
 recension	recension	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 grand	grand	ADJ
 avantage	avantage	NOUN
 de	de	ADP
@@ -864,12 +864,12 @@ est	être	AUX
 que	que	SCONJ
 il	il	PRON
 est	être	AUX
-Hollandais	hollandais	ADJ
+hollandais	hollandais	ADJ
 de	de	ADP
 culture	culture	NOUN
 polyglotte	polyglotte	ADJ
 .	.	PUNCTsent
-Voilà	voilà	ADP
+voilà	voilà	ADP
 qui	qui	PRON
 lui	lui	PRON
 permet	permettre	VERB
@@ -912,7 +912,7 @@ les	le	DET
 plus	plus	ADV
 variées	varié	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 était	être	AUX
 important	important	ADJ
 que	que	SCONJ

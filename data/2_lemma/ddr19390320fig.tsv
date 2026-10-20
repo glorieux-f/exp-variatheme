@@ -6,7 +6,7 @@
 # title = Le bon vieux temps présent (20 mars 1939)
 
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 bon vieux temps	bon vieux temps	NOUN
 présent	présent	ADJ
 (	(	PUNCTclause
@@ -17,8 +17,8 @@ mars	mars	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Le	le	DET
-Führer	Führer	PROPN
+le	le	DET
+führer	führer	UNKNOWN
 a	avoir	AUX
 passé	passer	VERB
 la	le	DET
@@ -28,7 +28,7 @@ Hradschin	Hradschin	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Après	après	ADP
+après	après	ADP
 Vienne	Vienne	PROPN
 ,	,	PUNCTclause
 avec	avec	ADP
@@ -43,7 +43,7 @@ vient	venir	VERB
 de	de	ADP
 mourir	mourir	VERB
 .	.	PUNCTsent
-Europe	Europe	PROPN
+Europe	Europe	VERB
 du	du	ADP_DET
 sentiment	sentiment	NOUN
 ,	,	PUNCTclause
@@ -64,7 +64,7 @@ un	un	DET
 paradis	paradis	NOUN
 perdu	perdu	ADJ
 !	!	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 les	le	DET
 vrais	vrai	ADJ
 paradis	paradis	NOUN
@@ -83,7 +83,7 @@ les	le_PRON	PRON
 perd	perdre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Souvenirs	souvenir	NOUN
+souvenirs	souvenir	NOUN
 de	de	ADP
 Salzbourg	Salzbourg	PROPN
 et	et	CCONJ
@@ -149,7 +149,7 @@ voix	voix	NOUN
 de	de	ADP
 Schumann	Schumann	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 mythe	mythe	NOUN
 nouveau	nouveau	ADJ
 prend	prendre	VERB
@@ -162,7 +162,7 @@ de	de	ADP
 la	le	DET
 catastrophe	catastrophe	NOUN
 .	.	PUNCTsent
-Tout	tout	PRON
+tout	tout	PRON
 un	un	DET
 âge	âge	NOUN
 ,	,	PUNCTclause
@@ -181,7 +181,7 @@ mémoires	mémoire	NOUN
 se	se	PRON
 idéalise	idéaliser	VERB
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 «	«	PUNCTclause
 bon vieux temps	bon vieux temps	NOUN
 »	»	PUNCTclause
@@ -192,7 +192,7 @@ près de	près de	ADP
 nous	nous	PRON
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 bon vieux temps	bon vieux temps	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -223,7 +223,7 @@ l'	le	DET
 avait	avoir	AUX
 vu	voir	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 déjà	déjà	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -243,12 +243,12 @@ de	de	ADP
 notre	notre	DET
 enfance	enfance	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 voici	voici	ADP
 que	que	SCONJ
 ce	ce	DET
-Temps	Temps	NOUN
-Perdu	Perdu	PROPN
+temps	temps	NOUN
+perdu	perdre	UNKNOWN
 ,	,	PUNCTclause
 tout	tout	PRON
 de	de	ADP
@@ -278,7 +278,7 @@ ce	ce	DET
 aujourd'hui	aujourd'hui	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 oui	oui	INTJ
 ,	,	PUNCTclause
 peut-être	peut-être	ADV
@@ -301,7 +301,7 @@ du	du	ADP_DET
 bon vieux temps	bon vieux temps	NOUN
 européen	européen	ADJ
 .	.	PUNCTsent
-Jours	jour	NOUN
+jours	jour	NOUN
 de	de	ADP
 sursis	sursis	NOUN
 de	de	ADP
@@ -342,7 +342,7 @@ plaisirs	plaisir	NOUN
 personnels	personnel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Combien	combien	ADV
+combien	combien	ADV
 de	de	ADP
 temps	temps	NOUN
 encore	encore	ADV
@@ -371,7 +371,7 @@ douceur	douceur	NOUN
 de	de	ADP
 vivre	vivre	VERB
 ?	?	PUNCTsent
-Déjà	déjà	ADV
+déjà	déjà	ADV
 nous	nous	PRON
 éprouvons	éprouver	VERB
 que	que	SCONJ
@@ -404,7 +404,7 @@ apprivoiser	apprivoiser	VERB
 le	le	DET
 destin	destin	NOUN
 .	.	PUNCTsent
-Soit	soit	ADV
+soit	soit	ADV
 que	que	SCONJ
 les	le	DET
 tyrans	tyran	NOUN
@@ -474,7 +474,7 @@ un	un	DET
 défi	défi	NOUN
 grossier	grossier	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 liberté	liberté	NOUN
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -484,7 +484,7 @@ de	de	DET
 tels	tel	PRON
 chocs	choc	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 elle	elle	PRON
 est	être	AUX
 vraiment	vraiment	ADV
@@ -509,7 +509,7 @@ de	de	ADP
 un	un	DET
 miracle	miracle	NOUN
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 est	être	AUX
 encore	encore	ADV
 une	un	DET
@@ -532,7 +532,7 @@ elle	elle	PRON
 fait	faire	VERB
 régner	régner	VERB
 .	.	PUNCTsent
-Des	un	ADP_DET
+des	un	ADP_DET
 lois	loi	NOUN
 adroites	adroit	ADJ
 et	et	CCONJ
@@ -585,7 +585,7 @@ usurpateur	usurpateur	NOUN
 du	du	ADP_DET
 Hradschin	Hradschin	PROPN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 dès lors que	dès lors que	SCONJ
 il	il	PRON
 l'	le_PRON	PRON
@@ -615,7 +615,7 @@ dans	dans	ADP
 nos	nos	DET
 vies	vie	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 sommes	être	AUX
 pareils	pareil	NOUN
 à	à	ADP
@@ -635,7 +635,7 @@ un	un	DET
 rêve	rêve	NOUN
 inachevé	inachevé	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 sait	savoir	VERB
 bien	bien	ADV
@@ -645,7 +645,7 @@ est	être	AUX
 fini	finir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Brève	bref	ADJ
+brève	bref	ADJ
 dispense	dispense	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -656,12 +656,12 @@ peu	peu	ADV
 se	se	PRON
 souvenir	souvenir	VERB
 …	…	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 se	se	PRON
 lever	lever	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 entrer	entrer	VERB
 résolument	résolument	ADV

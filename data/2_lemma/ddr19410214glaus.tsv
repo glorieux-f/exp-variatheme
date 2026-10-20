@@ -6,7 +6,7 @@
 # title = New York alpestre (14 février 1941)
 
 ↵↵	↵↵	PUNCTstruct
-New York	New York	PROPN
+New York	New York	ADV
 alpestre	alpestre	ADJ
 (	(	PUNCTclause
 14	14	NUM
@@ -15,7 +15,7 @@ février	février	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Personne	personne_PRON	PRON
+personne	personne_PRON	PRON
 ne	ne	ADV
 me	me	PRON
 avait	avoir	AUX
@@ -72,7 +72,7 @@ avenues	avenue	NOUN
 angle	angle	NOUN
 droit	droit	ADJ
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 milieu	milieu	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -93,7 +93,7 @@ cité	cité	NOUN
 de	de	ADP
 Manhattan	Manhattan	PROPN
 …	…	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 les	le	DET
 faubourgs	faubourg	NOUN
 ,	,	PUNCTclause
@@ -138,7 +138,7 @@ autostrades	autostrade	NOUN
 surélevées	surélever	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Personne	personne_PRON	PRON
+personne	personne_PRON	PRON
 ne	ne	ADV
 me	me	PRON
 avait	avoir	AUX
@@ -154,7 +154,7 @@ une	un	DET
 ville	ville	NOUN
 alpestre	alpestre	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 l'	le_PRON	PRON
 ai	avoir	AUX
 senti	sentir	VERB
@@ -221,7 +221,7 @@ et	et	CCONJ
 salubre	salubre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 mer	mer	NOUN
 et	et	CCONJ
 la	le	DET
@@ -230,7 +230,7 @@ se	se	PRON
 ressemblent	ressembler	VERB
 partout	partout	ADV
 .	.	PUNCTsent
-Ici	ici	ADV
+ici	ici	ADV
 elles	elles	PRON
 se	se	PRON
 rejoignent	rejoindre	VERB
@@ -238,7 +238,7 @@ et	et	CCONJ
 se	se	PRON
 mêlent	mêler	VERB
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 grands	grand	ADJ
 souffles	souffle	NOUN
 océaniques	océanique	ADJ
@@ -259,11 +259,11 @@ et	et	CCONJ
 argentées	argenté	ADJ
 de	de	ADP
 l'	le	DET
-Empire	Empire	NOUN
-State	State	PROPN
+empire	empire	NOUN
+state	stater	UNKNOWN
 ,	,	PUNCTclause
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 Rockefeller	Rockefeller	PROPN
 ,	,	PUNCTclause
 du	du	ADP_DET
@@ -278,7 +278,7 @@ sommités	sommité	NOUN
 célèbres	célèbre	ADJ
 que	que	SCONJ
 les	le	DET
-New-Yorkais	New-Yorkais	PROPN
+new-yorkais	new-yorkais	UNKNOWN
 ne	ne	ADV
 se	se	PRON
 lassent	lasser	VERB
@@ -290,7 +290,7 @@ comme	comme	ADP
 nous	nous	PRON
 énumérons	énumérer	VERB
 nos	nos	DET
-Alpes	Alpes	NOUN
+alpes	alpe	NOUN
 quand	quand	SCONJ
 nous	nous	PRON
 en	en	PRON
@@ -312,7 +312,7 @@ la	le	DET
 ville	ville	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 vent	vent	NOUN
 fou	fou	ADJ
 ,	,	PUNCTclause
@@ -343,7 +343,7 @@ que	que	PRON
 je	je	PRON
 connais	connaître	VERB
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il y a	il y a	VERB
 plus	plus	ADV
 .	.	PUNCTsent
@@ -357,8 +357,8 @@ dans	dans	ADP
 sa	son	DET
 profondeur	profondeur	NOUN
 .	.	PUNCTsent
-À	à	ADP
-Central	Central	PROPN
+à	à	ADP
+central	central	UNKNOWN
 Park	Park	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
@@ -375,14 +375,14 @@ dalles	dalle	NOUN
 de	de	ADP
 granit	granit	NOUN
 .	.	PUNCTsent
-Autrefois	autrefois	ADV
+autrefois	autrefois	ADV
 les	le	DET
 glaciers	glacier	NOUN
 sont	être	AUX
 venus	venir	VERB
 jusqu'ici	jusqu'ici	ADV
 !	!	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 couvraient	couvrir	VERB
 la	le	DET
 moitié	moitié	NOUN
@@ -399,7 +399,7 @@ bien	bien	ADV
 plus	plus	ADV
 avant	avant	ADV
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 l'un	l'un	PRON
 des	un	ADP_DET
 secrets	secret	NOUN
@@ -428,7 +428,7 @@ de	de	ADP
 cent	cent	NUM
 étages	étage	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 les	le	DET
 blocs	bloc	NOUN
 erratiques	erratique	ADJ
@@ -467,7 +467,7 @@ antiquité	antiquité	NOUN
 souterraine	souterrain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Bien	bien	ADV
+bien	bien	ADV
 des	un	ADP_DET
 aspects	aspect	NOUN
 physiques	physique	ADJ
@@ -487,13 +487,13 @@ et	et	CCONJ
 ce	ce	DET
 climat	climat	NOUN
 .	.	PUNCTsent
-Entre	entre	ADP
+entre	entre	ADP
 la	le	DET
-Prairie	Prairie	PROPN
+prairie	prairie	UNKNOWN
 proche	proche	ADJ
 et	et	CCONJ
 l'	le	DET
-Océan	Océan	PROPN
+océan	océan	UNKNOWN
 ,	,	PUNCTclause
 ce	ce	DET
 lieu	lieu	NOUN
@@ -527,13 +527,13 @@ atmosphère	atmosphère	NOUN
 irrévocablement	irrévocablement	ADV
 désertique	désertique	ADJ
 .	.	PUNCTsent
-Les	le	DET
-Américains	Américains	NOUN
+les	le	DET
+américains	américain	NOUN
 des	un	ADP_DET
 plaines	plaine	NOUN
 de	de	ADP
 l'	le	DET
-Ouest	Ouest	NOUN
+ouest	ouest	NOUN
 ,	,	PUNCTclause
 venant	venir	VERB
 à	à	ADP
@@ -557,7 +557,7 @@ les	le	DET
 rapports	rapport	NOUN
 humains	humain	ADJ
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 pensent	penser	VERB
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -574,7 +574,7 @@ trop	trop	ADV
 européenne	européen	ADJ
 »	»	PUNCTclause
 …	…	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 moi	moi	PRON
 ,	,	PUNCTclause
 je	je	PRON
@@ -591,7 +591,7 @@ avenir	avenir	NOUN
 démesuré	démesuré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-New York	New York	PROPN
+New York	New York	ADV
 ,	,	PUNCTclause
 janvier	janvier	NOUN
 1941	1941	NUM

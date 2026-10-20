@@ -6,8 +6,8 @@
 # title = "[Entretien] Écologie, régionalisme, fédéralisme : l’avenir selon Denis de Rougemont (30 décembre 1977)"
 
 ↵↵	↵↵	PUNCTstruct
-Entretien	entretien	NOUN
-Écologie	Écologie	NOUN
+entretien	entretien	NOUN
+écologie	écologie	NOUN
 ,	,	PUNCTclause
 régionalisme	régionalisme	NOUN
 ,	,	PUNCTclause
@@ -26,7 +26,7 @@ décembre	décembre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Après	après	ADP
+après	après	ADP
 une	un	DET
 trentaine	trentaine	NOUN
 de	de	ADP
@@ -47,7 +47,7 @@ de	de	ADP
 Denis	Denis	PROPN
 Rougemont	Rougemont	PROPN
 l'	le	DET
-Avenir	Avenir	PROPN
+avenir	avenir	UNKNOWN
 est	être	AUX
 notre	notre	DET
 affaire	affaire	NOUN
@@ -62,7 +62,7 @@ bon	bon	ADJ
 moment	moment	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 juin	juin	NOUN
 dernier	dernier	ADJ
 ,	,	PUNCTclause
@@ -73,7 +73,7 @@ encore	encore	ADV
 trop	trop	ADV
 tôt	tôt	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 cet	ce	DET
 été	été	NOUN
 ,	,	PUNCTclause
@@ -94,7 +94,7 @@ entre	entre	ADP
 autres	autre	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Après	après	ADP
+après	après	ADP
 avoir	avoir	AUX
 vécu	vivre	VERB
 plusieurs	plusieurs	DET
@@ -129,12 +129,12 @@ puis	puis	CCONJ
 à	à	ADP
 Saint-Genis	Saint-Genis	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 dirige	diriger	VERB
 à	à	ADP
 Genève	Genève	PROPN
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 universitaire	universitaire	ADJ
 de	de	ADP
 études	étude	NOUN
@@ -193,7 +193,7 @@ terme	terme	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 différents	différent	ADJ
 éléments	élément	NOUN
 qui	qui	PRON
@@ -228,11 +228,11 @@ l'	le	DET
 inflation	inflation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 crise	crise	NOUN
 de	de	ADP
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 mondial	mondial	ADJ
 a	avoir	VERB
 pour	pour	ADP
@@ -254,7 +254,7 @@ utopie	utopie	NOUN
 industrielle	industriel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Déjà	déjà	ADV
+déjà	déjà	ADV
 la	le	DET
 croissance	croissance	NOUN
 démographique	démographique	ADJ
@@ -286,7 +286,7 @@ cadre	cadre	NOUN
 de	de	ADP
 vie	vie	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 la	le	DET
@@ -299,13 +299,13 @@ deux	deux	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Prenons	prendre	VERB
+prenons	prendre	VERB
 le	le	DET
 cas	cas	NOUN
 de	de	ADP
 Ferney-Voltaire	Ferney-Voltaire	PROPN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 1947	1947	NUM
 ,	,	PUNCTclause
 il y a	il y a	VERB
@@ -318,7 +318,7 @@ et	et	CCONJ
 treize	treize	NUM
 magasins	magasin	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 1974	1974	NUM
 ,	,	PUNCTclause
 il y a	il y a	VERB
@@ -338,7 +338,7 @@ deux	deux	NUM
 grandes	grand	ADJ
 surfaces	surface	NOUN
 !	!	PUNCTsent
-En	en	ADP
+en	en	ADP
 1977	1977	NUM
 ,	,	PUNCTclause
 il	il	PRON
@@ -369,10 +369,10 @@ sur	sur	ADP
 trente	trente	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Saint-Thomas	Saint-Thomas	PROPN
+Saint-Thomas	Saint-Thomas	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Croyez	croire	VERB
+croyez	croire	VERB
 vous	vous	PRON
 que	que	PRON
 avec	avec	ADP
@@ -390,14 +390,14 @@ le	le	DET
 tissu	tissu	NOUN
 social	social	ADJ
 ?	?	PUNCTsent
-Les	le	DET
+les	le	DET
 hommes	homme	NOUN
 ne	ne	ADV
 se	se	PRON
 connaissent	connaître	VERB
 plus	plus	ADV
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 effectuent	effectuer	VERB
 quotidiennement	quotidiennement	ADV
 des	un	DET
@@ -425,7 +425,7 @@ apportent	apporter	VERB
 aucune	aucun	DET
 gratification	gratification	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
@@ -439,7 +439,7 @@ se	se	PRON
 détester	détester	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 sait	savoir	VERB
 aujourd'hui	aujourd'hui	ADV
 que	que	SCONJ
@@ -488,7 +488,7 @@ le	le	DET
 même	même	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 pourtant	pourtant	ADV
 on	on	PRON
 parle	parler	VERB
@@ -507,7 +507,7 @@ totale	total	ADJ
 une	un	DET
 absurdité	absurdité	NOUN
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 relançant	relancer	VERB
 on	on	PRON
 ne	ne	ADV
@@ -522,7 +522,7 @@ la	le	DET
 situation	situation	NOUN
 actuelle	actuel	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 résorbera	résorber	VERB
 ni	ni	CCONJ
@@ -563,7 +563,7 @@ ressources	ressource	NOUN
 naturelles	naturel	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 les	le	DET
 hommes	homme	NOUN
 politiques	politique	ADJ
@@ -587,7 +587,7 @@ croissance	croissance	NOUN
 sans	sans	ADP
 fin	fin	NOUN
 .	.	PUNCTsent
-Après	après	ADP
+après	après	ADP
 moi	moi	PRON
 le	le	DET
 déluge	déluge	NOUN
@@ -596,7 +596,7 @@ semblent	sembler	VERB
 ils	ils	PRON
 dire	dire	VERB
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 ne	ne	ADV
 pensent	penser	VERB
 que	que	ADV
@@ -614,7 +614,7 @@ promises	promettre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 :	:	PUNCTclause
 le	le	DET
 roi	roi	NOUN
@@ -624,7 +624,7 @@ est	être	AUX
 moi	moi	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 19e	19e	NUM
 et	et	CCONJ
 20e	20e	NUM
@@ -658,7 +658,7 @@ aux	au	ADP_DET
 multinationales	multinationale	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 tiers-monde	tiers-monde	NOUN
 continuera	continuer	VERB
@@ -684,7 +684,7 @@ société	société	NOUN
 industrielle	industriel	ADJ
 occidentale	occidental	ADJ
 ?	?	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 d'ailleurs	d'ailleurs	ADV
 noter	noter	VERB
@@ -711,7 +711,7 @@ que	que	SCONJ
 quatre-vingts	quatre-vingts	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 fossé	fossé	NOUN
 se	se	PRON
 est	être	AUX
@@ -720,7 +720,7 @@ depuis	depuis	ADP
 la	le	DET
 décolonisation	décolonisation	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 que	que	PRON
 Denis	Denis	PROPN
 de	de	ADP
@@ -737,7 +737,7 @@ avoir	avoir	AUX
 démontré	démontrer	VERB
 que	que	SCONJ
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 est	être	AUX
 responsable	responsable	ADJ
 de	de	ADP
@@ -751,7 +751,7 @@ contrôle	contrôle	NOUN
 de	de	ADP
 tout	tout	DET
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 particulièrement	particulièrement	ADV
 de	de	ADP
 l'	le	DET
@@ -762,7 +762,7 @@ celui	celui	PRON
 qui	qui	PRON
 dit	dire	VERB
 :	:	PUNCTclause
-Le	le	DET
+le	le	DET
 roi	roi	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -787,7 +787,7 @@ que	que	SCONJ
 on	on	PRON
 parle	parler	VERB
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 les	le	DET
 États-nations	États-nations	NOUN
@@ -801,7 +801,7 @@ géré	gérer	VERB
 la	le	DET
 terre	terre	NOUN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 ont	avoir	AUX
 géré	gérer	VERB
 et	et	CCONJ
@@ -813,13 +813,13 @@ leur	leur	DET
 puissance	puissance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 ne	ne	ADV
 devrait	devoir	VERB
 être	être	AUX
@@ -834,7 +834,7 @@ ce	ce	PRON
 est	être	AUX
 tout	tout	ADV
 .	.	PUNCTsent
-Ses	son	DET
+ses	son	DET
 propositions	proposition	NOUN
 développées	développer	VERB
 en	en	ADP
@@ -855,7 +855,7 @@ personnalistes	personnaliste	NOUN
 de	de	ADP
 la	le	DET
 revue	revue	NOUN
-Esprit	Esprit	PROPN
+esprit	esprit	UNKNOWN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 de	de	ADP
@@ -870,7 +870,7 @@ région	région	NOUN
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Tout	tout	PRON
+tout	tout	PRON
 le	le	DET
 système	système	NOUN
 de	de	ADP
@@ -936,14 +936,14 @@ tout	tout	ADJ
 seul	seul	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Alice	Alice	PROPN
+Alice	Alice	NOUN
 au	au	ADP_DET
 pays	pays	NOUN
 des	un	ADP_DET
 merveilles	merveille	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 ennemis	ennemi	NOUN
 de	de	ADP
 l'	le	DET
@@ -963,7 +963,7 @@ que	que	SCONJ
 à	à	ADP
 gauche	gauche	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 le	le	DET
 nationalisme	nationalisme	NOUN
 ,	,	PUNCTclause
@@ -991,7 +991,7 @@ qui	qui	PRON
 la	le_PRON	PRON
 différencie	différencier	VERB
 du	du	ADP_DET
-Parti	Parti	NOUN
+parti	parti	NOUN
 communiste	communiste	ADJ
 français	français	ADJ
 ?	?	PUNCTsent
@@ -1009,7 +1009,7 @@ la	le	DET
 gauche	gauche	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 nucléaire	nucléaire	ADJ
 pourrait	pouvoir	VERB
 il	il	PRON
@@ -1022,7 +1022,7 @@ de	de	ADP
 énergie	énergie	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Là	là	ADV
+là	là	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 soit	être	AUX
@@ -1040,7 +1040,7 @@ virage	virage	NOUN
 180	180	NUM
 degrés	degré	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 sur	sur	ADP
 le	le	DET
 fond	fond	NOUN
@@ -1074,7 +1074,7 @@ les	le	DET
 vendeurs	vendeur	NOUN
 »	»	PUNCTclause
 de	de	ADP
-État	État	NOUN
+état	état	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 cette	ce	DET
@@ -1089,7 +1089,7 @@ du	du	ADP_DET
 système	système	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-D'abord	d'abord	ADV
+d'abord	d'abord	ADV
 elle	elle	PRON
 exige	exiger	VERB
 des	un	DET
@@ -1107,7 +1107,7 @@ sept	sept	NUM
 ans	an	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 prix	prix	NOUN
 de	de	ADP
 tous	tout	ADJ
@@ -1129,7 +1129,7 @@ Alice	Alice	PROPN
 au	au	ADP_DET
 pays	pays	NOUN
 des	un	ADP_DET
-Merveilles	Merveilles	PROPN
+merveilles	merveille	UNKNOWN
 où	où	PRON
 les	le	DET
 boules	boule	NOUN
@@ -1152,7 +1152,7 @@ leur	leur	DET
 humeur	humeur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ensuite	ensuite	ADV
+ensuite	ensuite	ADV
 ,	,	PUNCTclause
 tout	tout	DET
 passe	passe	NOUN
@@ -1181,7 +1181,7 @@ défendre	défendre	VERB
 les	le	DET
 centrales	centrale	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 se	se	PRON
 livre	livrer	VERB
 à	à	ADP
@@ -1232,7 +1232,7 @@ raison	raison	NOUN
 pour	pour	ADP
 laquelle	laquelle	PRON
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 y	y	PRON
 sont	être	AUX
 hostiles	hostile	ADJ
@@ -1252,7 +1252,7 @@ des	un	ADP_DET
 citoyens	citoyen	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 le	le	DET
 mouvement	mouvement	NOUN
 autogestionnaire	autogestionnaire	ADJ
@@ -1290,20 +1290,20 @@ sans	sans	ADP
 précédent	précédent	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 je	je	PRON
 ai	avoir	AUX
 bon	bon	ADJ
 espoir	espoir	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 choses	chose	NOUN
 peuvent	pouvoir	VERB
 aller	aller	VERB
 très	très	ADV
 vite	vite	ADV
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 ce	ce	DET
 mouvement	mouvement	NOUN
 ne	ne	ADV

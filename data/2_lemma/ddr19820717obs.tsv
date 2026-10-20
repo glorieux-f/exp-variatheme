@@ -6,12 +6,12 @@
 # title = Denis de Rougemont devant l’Histoire (17 juillet 1982)
 
 ↵↵	↵↵	PUNCTstruct
-Denis	Denis	PROPN
+Denis	Denis	DET
 de	de	ADP
 Rougemont	Rougemont	PROPN
 devant	devant	ADP
 l'	le	DET
-Histoire	Histoire	NOUN
+histoire	histoire	NOUN
 (	(	PUNCTclause
 17	17	NUM
 juillet	juillet	NOUN
@@ -19,9 +19,9 @@ juillet	juillet	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
-Nouvel	Nouvel	PROPN
-Observateur	Observateur	PROPN
+le	le	DET
+nouvel	nouveau	UNKNOWN
+observateur	observateur	UNKNOWN
 du	du	ADP_DET
 26	26	NUM
 avril	avril	NOUN
@@ -44,14 +44,14 @@ Dominique	Dominique	PROPN
 Grisoni	Grisoni	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 malentendu	malentendu	NOUN
 était	être	AUX
 à	à	ADP
 son	son	DET
 comble	comble	NOUN
 .	.	PUNCTsent
-Rougemont	Rougemont	PROPN
+Rougemont	Rougemont	NOUN
 et	et	CCONJ
 ses	son	DET
 amis	ami	NOUN
@@ -73,7 +73,7 @@ pendant	pendant	ADP
 la	le	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 Lévy	Lévy	PROPN
 et	et	CCONJ
 les siens	les siens	PRON
@@ -86,7 +86,7 @@ années	année	NOUN
 1930	1930	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -97,7 +97,7 @@ une	un	DET
 phrase	phrase	NOUN
 parue	paraître	VERB
 dans	dans	ADP
-Lu	Lu	PROPN
+lu	lire	UNKNOWN
 ,	,	PUNCTclause
 selon	selon	ADP
 laquelle	laquelle	PRON
@@ -138,17 +138,17 @@ Pellepoix	Pellepoix	PROPN
 »	»	PUNCTclause
 au nom de	au nom de	ADP
 la	le	DET
-Race	Race	PROPN
+race	race	UNKNOWN
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
-Terre	Terre	NOUN
+terre	terre	NOUN
 et	et	CCONJ
 de	de	ADP
 la	le	DET
-Nation	Nation	NOUN
+nation	nation	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 procès	procès	NOUN
 qui	qui	PRON
 me	me	PRON
@@ -165,7 +165,7 @@ années	année	NOUN
 1930	1930	NUM
 »	»	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 portait	porter	VERB
 sur	sur	ADP
 mon	mon	DET
@@ -175,7 +175,7 @@ en	en	ADP
 juin	juin	NOUN
 1940	1940	NUM
 .	.	PUNCTsent
-Juin	juin	NOUN
+juin	juin	NOUN
 1940	1940	NUM
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -198,7 +198,7 @@ France	France	PROPN
 de	de	ADP
 Pétain	Pétain	PROPN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 17	17	NUM
 juin	juin	NOUN
 1940	1940	NUM
@@ -285,7 +285,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Cet	ce	DET
+cet	ce	DET
 article	article	NOUN
 faisait	faire	VERB
 suite à	suite à	ADP
@@ -333,6 +333,6 @@ la	le	DET
 revue	revue	NOUN
 personnaliste	personnaliste	ADJ
 l'	le	DET
-Ordre	Ordre	NOUN
+ordre	ordre	NOUN
 nouveau	nouveau	ADJ
 .	.	PUNCTsent

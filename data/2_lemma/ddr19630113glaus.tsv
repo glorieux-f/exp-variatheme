@@ -6,7 +6,7 @@
 # title = "Universités américaines : notes d’un journal de voyage (12-13 janvier 1963)"
 
 ↵↵	↵↵	PUNCTstruct
-Universités	université	NOUN
+universités	université	NOUN
 américaines	américain	ADJ
 :	:	PUNCTclause
 notes	note	NOUN
@@ -23,12 +23,12 @@ janvier	janvier	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 grand	grand	ADJ
 poème	poème	NOUN
 de	de	ADP
 Saint-John	Saint-John	PROPN
-Perse	Perse	PROPN
+perse	pers	UNKNOWN
 évoquant	évoquer	VERB
 les	le	DET
 États-Unis	États-Unis	PROPN
@@ -41,7 +41,7 @@ en	en	ADP
 ouest	ouest	NOUN
 se	se	PRON
 nomme	nommer	VERB
-Vents	vent	ADJ
+vents	vent	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 nul	nul	PRON
@@ -85,10 +85,10 @@ pères	père	NOUN
 ont	avoir	AUX
 conquis	conquérir	VERB
 la	le	DET
-Prairie	Prairie	PROPN
+prairie	prairie	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Hors	hors	ADV
+hors	hors	ADV
 des	un	ADP_DET
 hauts	haut	ADJ
 murs	mur	NOUN
@@ -187,7 +187,7 @@ pendant	pendant	ADP
 des	un	DET
 heures	heure	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 «	«	PUNCTclause
 station-vagon	station-vagon	NOUN
 »	»	PUNCTclause
@@ -248,13 +248,13 @@ mon	mon	DET
 Amérique	Amérique	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Liberté	liberté	NOUN
+liberté	liberté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Invité	inviter	VERB
+invité	inviter	VERB
 par	par	ADP
 la	le	DET
-Fondation	Fondation	NOUN
+fondation	fondation	NOUN
 Ford	Ford	PROPN
 pour	pour	ADP
 me	me	PRON
@@ -309,21 +309,21 @@ arranger	arranger	VERB
 des	un	DET
 conférences	conférence	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 en	en	PRON
 remets	remettre	VERB
 au	au	ADP_DET
 dieu	dieu	NOUN
 du	du	ADP_DET
-Hasard	Hasard	PROPN
+hasard	hasard	UNKNOWN
 ,	,	PUNCTclause
 dont	dont	PRON
 l'autre	l'autre	PRON
 face	face	NOUN
 est	être	AUX
 l'	le	DET
-Organisation	Organisation	NOUN
+organisation	organisation	NOUN
 :	:	PUNCTclause
 ce	ce	DET
 Janus	Janus	NOUN
@@ -367,7 +367,7 @@ amis	ami	NOUN
 anciens	ancien	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-Mais	mais	CCONJ
+mais	mais	CCONJ
 tout	tout	PRON
 bouge	bouger	VERB
 ici	ici	ADV
@@ -378,15 +378,15 @@ ils	ils	PRON
 ?	?	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Harvard	Harvard	PROPN
+Harvard	Harvard	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Déjeuner	déjeuner	VERB
+déjeuner	déjeuner	VERB
 avec	avec	ADP
 Paul	Paul	PROPN
 Tillich	Tillich	PROPN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 l'	le_PRON	PRON
 avais	avoir	AUX
@@ -408,8 +408,8 @@ commun	commun	ADJ
 Reinhold	Reinhold	PROPN
 Niebuhr	Niebuhr	PROPN
 .	.	PUNCTsent
-Cet	ce	DET
-Allemand	Allemand	NOUN
+cet	ce	DET
+allemand	allemand	NOUN
 qui	qui	PRON
 a	avoir	AUX
 fui	fuir	VERB
@@ -451,7 +451,7 @@ des	un	ADP_DET
 religions	religion	NOUN
 de	de	ADP
 l'	le	DET
-Orient	Orient	PROPN
+orient	orient	UNKNOWN
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -501,7 +501,7 @@ progressiste	progressiste	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ces	ce	DET
+ces	ce	DET
 trois	trois	NUM
 noms	nom	NOUN
 dominent	dominer	VERB
@@ -516,17 +516,17 @@ plus	plus	ADV
 religieux	religieux	ADJ
 de	de	ADP
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 trois	trois	NUM
 noms	nom	NOUN
 européens	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
-Européens	Européens	NOUN
+les	le	DET
+européens	européen	NOUN
 goguenards	goguenard	ADJ
 pour	pour	ADP
 qui	qui	PRON
@@ -549,7 +549,7 @@ génération	génération	NOUN
 intellectuelle	intellectuel	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-Note	note	NOUN
+note	note	NOUN
 de	de	ADP
 1962	1962	NUM
 :	:	PUNCTclause
@@ -559,7 +559,7 @@ vient	venir	VERB
 de	de	ADP
 recevoir	recevoir	VERB
 le	le	DET
-Prix	Prix	NOUN
+prix	prix	NOUN
 de	de	ADP
 la	le	DET
 paix	paix	NOUN
@@ -567,7 +567,7 @@ paix	paix	NOUN
 décerné	décerner	VERB
 à	à	ADP
 la	le	DET
-Foire	Foire	NOUN
+foire	foire	NOUN
 du	du	ADP_DET
 livre	livre	NOUN
 de	de	ADP
@@ -579,7 +579,7 @@ enfin	enfin	ADV
 le	le	DET
 redécouvre	redécouvrir	VERB
 .	.	PUNCTsent
-Qui	qui	PRON
+qui	qui	PRON
 va	aller	VERB
 le	le	DET
 traduire	traduire	VERB
@@ -588,11 +588,11 @@ français	français	NOUN
 ?	?	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Mohawk	mohawk	VERB
+mohawk	mohawk	VERB
 trail	trail	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 route	route	NOUN
 américaine	américain	ADJ
 ,	,	PUNCTclause
@@ -616,7 +616,7 @@ pendant	pendant	ADP
 des	un	DET
 heures	heure	NOUN
 .	.	PUNCTsent
-Ciel	ciel	NOUN
+ciel	ciel	NOUN
 de	de	ADP
 craie	craie	NOUN
 bleu	bleu	ADJ
@@ -646,7 +646,7 @@ jamais	jamais	ADV
 vue	vu	VERB
 ailleurs	ailleurs	ADV
 .	.	PUNCTsent
-Arrêt	arrêt	NOUN
+arrêt	arrêt	NOUN
 dans	dans	ADP
 une	un	DET
 auberge	auberge	NOUN
@@ -689,7 +689,7 @@ phrases	phrase	NOUN
 banales	banal	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vivre	vivre	VERB
+vivre	vivre	VERB
 ici	ici	ADV
 serait	être	VERB
 une	un	DET
@@ -697,7 +697,7 @@ belle	beau	ADJ
 aventure	aventure	NOUN
 intérieure	intérieur	ADJ
 .	.	PUNCTsent
-Air	air	NOUN
+air	air	NOUN
 des	un	ADP_DET
 hauteurs	hauteur	NOUN
 ,	,	PUNCTclause
@@ -725,7 +725,7 @@ la	le	DET
 solitude	solitude	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 		TOKEN
 de	de	ADP
 New York	New York	PROPN
@@ -735,7 +735,7 @@ l'autre	l'autre	PRON
 jour	jour	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Toutes	tout	ADJ
+toutes	tout	ADJ
 les	le	DET
 personnes	personne	NOUN
 de	de	ADP
@@ -829,7 +829,7 @@ ni	ni	CCONJ
 aucun	aucun	DET
 confort	confort	NOUN
 .	.	PUNCTsent
-Pas	pas	ADV
+pas	pas	ADV
 une	un	DET
 maison	maison	NOUN
 à	à	ADP
@@ -839,11 +839,11 @@ km	km	NOUN
 la	le	DET
 ronde	ronde	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 paix	paix	NOUN
 totale	total	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 coupe	couper	VERB
 du	du	ADP_DET
 bois	bois	NOUN
@@ -860,7 +860,7 @@ et	et	CCONJ
 je	je	PRON
 récupère	récupérer	VERB
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 trouverais	trouver	VERB
 pas	pas	ADV
@@ -882,7 +882,7 @@ jamais	jamais	ADV
 seuls	seul	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
-Je	je	PRON
+je	je	PRON
 lui	lui	PRON
 ai	avoir	AUX
 dit	dire	VERB
@@ -900,7 +900,7 @@ refuges	refuge	NOUN
 à peu près	à peu près	ADV
 comparables	comparable	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 je	je	PRON
 ai	avoir	VERB
 dû	devoir	VERB
@@ -908,16 +908,16 @@ dire	dire	VERB
 :	:	PUNCTclause
 encore	encore	ADV
 .	.	PUNCTsent
-D'ici	d'ici	ADV
+d'ici	d'ici	ADV
 vingt	vingt	NUM
 ans	an	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-New	New	PROPN
+New	New	ADV
 England	England	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Williamstown	Williamstown	PROPN
+Williamstown	Williamstown	NOUN
 est	être	AUX
 le	le	DET
 site	site	NOUN
@@ -929,7 +929,7 @@ de	de	ADP
 jeunes	jeune	ADJ
 gens	gens	NOUN
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 y	y	PRON
 entrons	entrer	VERB
 par	par	ADP
@@ -970,7 +970,7 @@ espacées	espacer	VERB
 et	et	CCONJ
 spacieuses	spacieux	ADJ
 .	.	PUNCTsent
-Au	au	ADP_DET
+au	au	ADP_DET
 fond	fond	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -988,7 +988,7 @@ sur	sur	ADP
 un	un	DET
 tertre	tertre	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 subitement	subitement	ADV
 voici	voici	ADP
 tomber	tomber	VERB
@@ -1010,7 +1010,7 @@ pièces	pièce	NOUN
 de	de	ADP
 or	or	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 sais	savoir	VERB
 rien	rien	PRON
@@ -1030,7 +1030,7 @@ de	de	ADP
 Nouvelle-Angleterre	Nouvelle-Angleterre	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 collège	collège	NOUN
 de	de	ADP
 jeunes	jeune	ADJ
@@ -1040,7 +1040,7 @@ le	le	DET
 Vermont	Vermont	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Longue	long	ADJ
+longue	long	ADJ
 avenue	avenue	NOUN
 sinueuse	sinueux	ADJ
 dans	dans	ADP
@@ -1058,7 +1058,7 @@ un	un	DET
 bâtiment	bâtiment	NOUN
 rouge	rouge	ADJ
 .	.	PUNCTsent
-Parking	parking	NOUN
+parking	parking	NOUN
 sous	sous	ADP
 de	de	DET
 grands	grand	ADJ
@@ -1067,7 +1067,7 @@ aux	au	ADP_DET
 branches	branche	NOUN
 horizontales	horizontal	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 nous	nous	PRON
 conduit	conduire	VERB
 par	par	ADP
@@ -1102,7 +1102,7 @@ toits	toit	NOUN
 de	de	ADP
 ardoises	ardoise	NOUN
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 l'	le	DET
 escalier	escalier	NOUN
 de	de	ADP
@@ -1132,7 +1132,7 @@ signée	signer	VERB
 Georges	Georges	PROPN
 Mathieu	Mathieu	PROPN
 .	.	PUNCTsent
-Tout	tout	PRON
+tout	tout	PRON
 en haut	en haut	ADV
 ,	,	PUNCTclause
 notre	notre	DET
@@ -1141,7 +1141,7 @@ pour	pour	ADP
 quelques	quelque	DET
 jours	jour	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 musique	musique	NOUN
 bien	bien	ADV
 rythmée	rythmer	VERB
@@ -1149,7 +1149,7 @@ remplit	remplir	VERB
 l'	le	DET
 étage	étage	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 pousse	pousser	VERB
 des	un	DET
 portes	porte	NOUN
@@ -1166,7 +1166,7 @@ vide	vide	NOUN
 de	de	ADP
 sièges	siège	NOUN
 .	.	PUNCTsent
-Groupes	groupe	NOUN
+groupes	groupe	NOUN
 de	de	ADP
 jeunes	jeune	ADJ
 filles	fille	NOUN
@@ -1179,7 +1179,7 @@ vêtues	vêtir	VERB
 de	de	ADP
 collants	collant	NOUN
 .	.	PUNCTsent
-Sur	sur	ADP
+sur	sur	ADP
 la	le	DET
 scène	scène	NOUN
 ,	,	PUNCTclause
@@ -1193,7 +1193,7 @@ et	et	CCONJ
 symbolique	symbolique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cocktails	cocktail	NOUN
+cocktails	cocktail	NOUN
 dans	dans	ADP
 le	le	DET
 cottage	cottage	NOUN
@@ -1203,7 +1203,7 @@ doyen	doyen	NOUN
 de	de	ADP
 faculté	faculté	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 vingtaine	vingtaine	NOUN
 de	de	ADP
 professeurs	professeur	NOUN
@@ -1237,11 +1237,11 @@ de	de	ADP
 musique	musique	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 dirigé	diriger	VERB
 le	le	DET
-Roi	Roi	NOUN
+roi	roi	NOUN
 David	David	PROPN
 lors de	lors de	ADP
 sa	son	DET
@@ -1260,7 +1260,7 @@ guerre	guerre	NOUN
 New York	New York	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
-Une	un	DET
+une	un	DET
 proportion	proportion	NOUN
 considérable	considérable	ADJ
 des	un	ADP_DET
@@ -1303,13 +1303,13 @@ dotées	doter	VERB
 de	de	ADP
 la	le	DET
 côte	côte	NOUN
-Est	Est	PROPN
+est	être	UNKNOWN
 ou	ou	CCONJ
 de	de	ADP
 la	le	DET
 Californie	Californie	PROPN
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 y	y	PRON
 enseignent	enseigner	VERB
 en général	en général	ADV
@@ -1329,7 +1329,7 @@ sont	être	AUX
 en train de	en train de	ADV
 écrire	écrire	VERB
 .	.	PUNCTsent
-Combien	combien	ADV
+combien	combien	ADV
 de	de	ADP
 écrivains	écrivain	NOUN
 véritables	véritable	ADJ
@@ -1360,7 +1360,7 @@ la	le	DET
 jeunesse	jeunesse	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 lendemain	lendemain	NOUN
 matin	matin	NOUN
 ,	,	PUNCTclause
@@ -1373,13 +1373,13 @@ de	de	ADP
 creative	creative	NOUN
 writing	writing	X
 .	.	PUNCTsent
-Salle	salle	NOUN
+salle	salle	NOUN
 meublée	meubler	VERB
 comme	comme	ADP
 un	un	DET
 salon	salon	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 professeur	professeur	NOUN
 (	(	PUNCTclause
 qui	qui	PRON
@@ -1424,7 +1424,7 @@ blouses	blouse	NOUN
 de	de	ADP
 sport	sport	NOUN
 .	.	PUNCTsent
-Quelques-unes	quelques-unes	PRON
+quelques-unes	quelques-unes	PRON
 ont	avoir	AUX
 gardé	garder	VERB
 leurs	leur	DET
@@ -1448,7 +1448,7 @@ le	le	DET
 samedi	samedi	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Elles	elles	PRON
+elles	elles	PRON
 se	se	PRON
 installent	installer	VERB
 longuement	longuement	ADV
@@ -1481,7 +1481,7 @@ de	de	ADP
 un	un	DET
 fauteuil	fauteuil	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 professeur	professeur	NOUN
 annonce	annoncer	VERB
 que	que	SCONJ
@@ -1508,7 +1508,7 @@ taira	taire	VERB
 le	le	DET
 nom	nom	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 lit	lire	VERB
 la	le	DET
 pièce	pièce	NOUN
@@ -1518,7 +1518,7 @@ la	le	DET
 relit	relire	VERB
 lentement	lentement	ADV
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 vingtaine	vingtaine	NOUN
 de	de	ADP
 vers	vers	NOUN
@@ -1526,7 +1526,7 @@ brefs	bref	ADJ
 ,	,	PUNCTclause
 irréguliers	irrégulier	ADJ
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 la	le	DET
 seconde	second	ADJ
 lecture	lecture	NOUN
@@ -1552,7 +1552,7 @@ fin	fin	NOUN
 de	de	ADP
 automne	automne	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 le	le	DET
 réalisme	réalisme	NOUN
 du	du	ADP_DET
@@ -1576,7 +1576,7 @@ l'	le	DET
 auteur	auteur	NOUN
 anonyme	anonyme	ADJ
 .	.	PUNCTsent
-Plusieurs	plusieurs	DET
+plusieurs	plusieurs	DET
 girls	girl	NOUN
 manifestent	manifester	VERB
 leur	leur	DET
@@ -1595,7 +1595,7 @@ très	très	ADV
 long	long	ADJ
 fume-cigarette	fume-cigarette	NOUN
 .	.	PUNCTsent
-Elles	elles	PRON
+elles	elles	PRON
 parlent	parler	VERB
 posément	posément	ADV
 avec	avec	ADP
@@ -1619,7 +1619,7 @@ avis	avis	NOUN
 I	I	NUM
 feel	feel	NOUN
 …	…	PUNCTsent
-Le	le	DET
+le	le	DET
 professeur	professeur	NOUN
 intervient	intervenir	VERB
 peu	peu	ADV
@@ -1639,7 +1639,7 @@ de	de	ADP
 jugement	jugement	NOUN
 poétique	poétique	ADJ
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 «	«	PUNCTclause
 stratégie	stratégie	NOUN
 »	»	PUNCTclause
@@ -1666,7 +1666,7 @@ son	son	DET
 thème	thème	NOUN
 favori	favori	ADJ
 .	.	PUNCTsent
-Ici	ici	ADV
+ici	ici	ADV
 comme	comme	ADP
 ailleurs	ailleurs	ADV
 ,	,	PUNCTclause
@@ -1696,7 +1696,7 @@ l'	le	DET
 expression	expression	NOUN
 littéraire	littéraire	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 exclu	exclure	VERB
 de	de	ADP
@@ -1745,7 +1745,7 @@ le	le	DET
 vieux	vieux	ADJ
 couple	couple	NOUN
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 jeunes	jeune	ADJ
 filles	fille	NOUN
 ,	,	PUNCTclause
@@ -1784,7 +1784,7 @@ l'	le	DET
 Amérique	Amérique	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pendant	pendant	ADP
+pendant	pendant	ADP
 quatre	quatre	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -1830,7 +1830,7 @@ dollars	dollar	NOUN
 par	par	ADP
 an	an	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 seront	être	AUX
 elles	elles	PRON
@@ -1848,10 +1848,10 @@ infaillible	infaillible	ADJ
 compétence	compétence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Berkeley	Berkeley	PROPN
+Berkeley	Berkeley	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 une	un	DET
 heure	heure	NOUN
 de	de	ADP
@@ -1877,9 +1877,9 @@ dispersés	disperser	VERB
 sur	sur	ADP
 tout	tout	PRON
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 .	.	PUNCTsent
-Ici	ici	ADV
+ici	ici	ADV
 ,	,	PUNCTclause
 à	à	ADP
 Berkeley	Berkeley	PROPN
@@ -1891,7 +1891,7 @@ de	de	ADP
 25	25	NUM
 000	000	NUM
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 vais	aller	VERB
 y	y	PRON
 rencontrer	rencontrer	VERB
@@ -1924,7 +1924,7 @@ mon	mon	DET
 premier	premier	ADJ
 rendez-vous	rendez-vous	NOUN
 .	.	PUNCTsent
-Labyrinthe	labyrinthe	NOUN
+labyrinthe	labyrinthe	NOUN
 de	de	ADP
 allées	aller	VERB
 entre	entre	ADP
@@ -1950,7 +1950,7 @@ rococo	rococo	NOUN
 américain	américain	ADJ
 1910	1910	NUM
 .	.	PUNCTsent
-Des	un	DET
+des	un	DET
 centaines	centaine	NOUN
 de	de	ADP
 étudiants	étudiant	NOUN
@@ -1972,7 +1972,7 @@ des	un	ADP_DET
 divers	divers	ADJ
 halls	hall	NOUN
 .	.	PUNCTsent
-Beaucoup	beaucoup	ADV
+beaucoup	beaucoup	ADV
 sont	être	AUX
 de	de	ADP
 couleur	couleur	NOUN
@@ -1980,7 +1980,7 @@ couleur	couleur	NOUN
 toute	tout	ADJ
 nuance	nuance	NOUN
 .	.	PUNCTsent
-Tous	tous	PRON
+tous	tous	PRON
 portent	porter	VERB
 le	le	DET
 même	même	ADJ
@@ -2011,8 +2011,8 @@ existentialistes	existentialiste	NOUN
 parisiens	parisien	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Wheeler	Wheeler	PROPN
-Hall	Hall	PROPN
+Wheeler	Wheeler	VERB
+hall	hall	UNKNOWN
 ,	,	PUNCTclause
 je	je	PRON
 me	me	PRON
@@ -2032,7 +2032,7 @@ panneaux	panneau	NOUN
 de	de	ADP
 annonces	annonce	NOUN
 .	.	PUNCTsent
-Soudain	soudain	ADJ
+soudain	soudain	ADJ
 ,	,	PUNCTclause
 mon	mon	DET
 nom	nom	NOUN
@@ -2045,15 +2045,15 @@ une	un	DET
 affiche	affiche	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-À	à	ADP
+à	à	ADP
 3	3	NUM
 heures	heure	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
-Salle	Salle	PROPN
+salle	salle	UNKNOWN
 de	de	ADP
-Bal	Bal	PROPN
+bal	bal	UNKNOWN
 ,	,	PUNCTclause
 D.	D.	PROPN
 de	de	ADP
@@ -2061,7 +2061,7 @@ R.	R.	PROPN
 ,	,	PUNCTclause
 président	président	NOUN
 du	du	ADP_DET
-Congrès	Congrès	NOUN
+congrès	congrès	NOUN
 pour	pour	ADP
 la	le	DET
 liberté	liberté	NOUN
@@ -2073,15 +2073,15 @@ et	et	CCONJ
 auteur	auteur	NOUN
 de	de	ADP
 l'	le	DET
-Amour	Amour	NOUN
+amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 donnera	donner	VERB
 une	un	DET
 conférence	conférence	NOUN
 sur	sur	ADP
-La	le	DET
+la	le	DET
 guerre	guerre	NOUN
 totale	total	ADJ
 et	et	CCONJ
@@ -2089,20 +2089,20 @@ les	le	DET
 valeurs	valeur	NOUN
 occidentales	occidental	ADJ
 .	.	PUNCTsent
-Sous	sous	ADP
+sous	sous	ADP
 les	le	DET
 auspices	auspice	NOUN
 des	un	ADP_DET
 Americans	Americans	NOUN
 for	for	NOUN
 Democratic	Democratic	PROPN
-Action	Action	PROPN
+action	action	UNKNOWN
 ,	,	PUNCTclause
 		TOKEN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 me	me	PRON
 avait	avoir	AUX
 parlé	parler	VERB
@@ -2165,7 +2165,7 @@ en	en	PRON
 sais	savoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 série	série	NOUN
 de	de	ADP
 mes	mon	DET
@@ -2187,7 +2187,7 @@ inquiéter	inquiéter	VERB
 de	de	ADP
 rien	rien	PRON
 .	.	PUNCTsent
-Tout	tout	PRON
+tout	tout	PRON
 occupé	occuper	VERB
 à	à	ADP
 satisfaire	satisfaire	VERB
@@ -2202,7 +2202,7 @@ l'	le	DET
 Europe	Europe	PROPN
 et	et	CCONJ
 le	le	DET
-Marché	Marché	NOUN
+marché	marché	NOUN
 commun	commun	ADJ
 que	que	SCONJ
 l'	le	DET
@@ -2220,7 +2220,7 @@ est	être	AUX
 fait	faire	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 3	3	NUM
 heures	heure	NOUN
 ,	,	PUNCTclause
@@ -2238,7 +2238,7 @@ sur	sur	ADP
 l'	le	DET
 estrade	estrade	NOUN
 .	.	PUNCTsent
-Fragments	fragment	NOUN
+fragments	fragment	NOUN
 de	de	ADP
 interventions	intervention	NOUN
 des	un	ADP_DET
@@ -2261,7 +2261,7 @@ comprends	comprendre	VERB
 assez	assez	ADV
 mal	mal	ADV
 .	.	PUNCTsent
-Better	Better	PROPN
+Better	Better	ADP
 red	red	VERB
 than	than	PROPN
 dead	dead	X
@@ -2274,13 +2274,13 @@ Bertrand	Bertrand	PROPN
 Russell	Russell	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Plutôt	plutôt	ADV
+plutôt	plutôt	ADV
 rouges	rouge	ADJ
 que	que	SCONJ
 morts	mort	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
-À	à	ADP
+à	à	ADP
 quoi	quoi	PRON
 mon	mon	DET
 ami	ami	NOUN
@@ -2290,7 +2290,7 @@ a	avoir	AUX
 répondu	répondre	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 attitude	attitude	NOUN
 nous	nous	PRON
 conduirait	conduire	VERB
@@ -2302,7 +2302,7 @@ et	et	CCONJ
 morts	mort	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
-Ils	ils	PRON
+ils	ils	PRON
 ont	avoir	AUX
 parlé	parler	VERB
 surtout	surtout	ADV
@@ -2313,7 +2313,7 @@ froide	froid	ADJ
 et	et	CCONJ
 de	de	ADP
 la	le	DET
-Bombe	Bombe	PROPN
+bombe	bombe	UNKNOWN
 ,	,	PUNCTclause
 et	et	CCONJ
 très	très	ADV
@@ -2322,7 +2322,7 @@ des	un	DET
 valeurs	valeur	NOUN
 occidentales	occidental	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 vois	voir	VERB
 donc	donc	ADV
 ce	ce	PRON
@@ -2333,12 +2333,12 @@ reste	rester	VERB
 faire	faire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Improvisation	improvisation	NOUN
+improvisation	improvisation	NOUN
 de	de	ADP
 une	un	DET
 demi-heure	demi-heure	NOUN
 .	.	PUNCTsent
-Sachant	savoir	VERB
+sachant	savoir	VERB
 que	que	SCONJ
 mon	mon	DET
 auditoire	auditoire	NOUN
@@ -2412,7 +2412,7 @@ concept	concept	NOUN
 de	de	ADP
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 leur	leur	PRON
 rappelle	rappeler	VERB
 aussi	aussi	ADV
@@ -2428,7 +2428,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Marx	Marx	PROPN
+Marx	Marx	NOUN
 ,	,	PUNCTclause
 juif	juif	NOUN
 rhénan	rhénan	ADJ
@@ -2443,8 +2443,8 @@ protestant	protestant	ADJ
 ,	,	PUNCTclause
 écrit	écrire	VERB
 au	au	ADP_DET
-British	british	X
-Museum	Museum	PROPN
+british	british	X
+Museum	Museum	X
 ,	,	PUNCTclause
 des	un	DET
 articles	article	NOUN
@@ -2453,35 +2453,35 @@ publie	publier	VERB
 le	le	DET
 New York	New York	PROPN
 Herald	Herald	PROPN
-Tribune	Tribune	PROPN
+tribune	tribune	UNKNOWN
 :	:	PUNCTclause
 on	on	PRON
 ne	ne	ADV
 fait	faire	VERB
 pas	pas	ADV
 plus	plus	ADV
-Européen	européen	ADJ
+européen	européen	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
-Où	où	PRON
+où	où	PRON
 sont	être	AUX
 les	le	DET
 successeurs	successeur	NOUN
 de	de	ADP
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 ?	?	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
 que	que	ADV
 des	un	DET
 imitateurs	imitateur	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 but	but	NOUN
 des	un	ADP_DET
-Soviétiques	Soviétiques	PROPN
+soviétiques	soviétique	UNKNOWN
 ,	,	PUNCTclause
 à	à	ADP
 les	le	DET
@@ -2502,7 +2502,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Croyons	croire	VERB
+croyons	croire	VERB
 à	à	ADP
 nos	nos	DET
 valeurs	valeur	NOUN
@@ -2523,7 +2523,7 @@ nous	nous	PRON
 rejoindre	rejoindre	VERB
 en fin de compte	en fin de compte	ADV
 ,	,	PUNCTclause
-Russes	russe	DET
+russes	russe	DET
 compris	compris	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2541,7 +2541,7 @@ reçois	recevoir	VERB
 42	42	NUM
 par écrit	par écrit	ADV
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
@@ -2552,7 +2552,7 @@ opinion	opinion	NOUN
 actuelle	actuel	ADJ
 des	un	ADP_DET
 jeunes	jeune	NOUN
-Américains	Américains	NOUN
+américains	américain	NOUN
 .	.	PUNCTsent
 je	je	PRON
 en	en	PRON
@@ -2562,7 +2562,7 @@ exemples	exemple	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Le	le	DET
+le	le	DET
 plus	plus	ADV
 grand	grand	ADJ
 homme	homme	NOUN
@@ -2572,7 +2572,7 @@ temps	temps	NOUN
 était	être	AUX
 Gandhi	Gandhi	PROPN
 .	.	PUNCTsent
-Pourquoi	pourquoi	ADV
+pourquoi	pourquoi	ADV
 ne	ne	ADV
 pas	pas	ADV
 défendre	défendre	VERB
@@ -2597,13 +2597,13 @@ nom	nom	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Nous	nous	PRON
+nous	nous	PRON
 devons	devoir	VERB
 incarner	incarner	VERB
 nos	nos	DET
 valeurs	valeur	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 comment	comment	ADV
 peut	pouvoir	VERB
 on	on	PRON
@@ -2620,7 +2620,7 @@ actuelles	actuel	ADJ
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Comment	comment	ADV
+comment	comment	ADV
 la	le	DET
 nécessité	nécessité	NOUN
 de	de	ADP
@@ -2648,16 +2648,16 @@ sermon	sermon	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-La	le	DET
+la	le	DET
 décision	décision	NOUN
 ne	ne	ADV
 appartient	appartenir	VERB
 elle	elle	PRON
 pas	pas	ADV
 aux	au	ADP_DET
-Soviets	Soviets	PROPN
+soviets	soviet	UNKNOWN
 ?	?	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 si	si	SCONJ
 ils	ils	PRON
 décident	décider	VERB
@@ -2695,7 +2695,7 @@ façon	façon	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Admettez	admettre	VERB
+admettez	admettre	VERB
 vous	vous	PRON
 que	que	SCONJ
 l'	le	DET
@@ -2730,7 +2730,7 @@ nucléaire	nucléaire	ADJ
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-À	à	ADP
+à	à	ADP
 votre	votre	DET
 sens	sens	NOUN
 ,	,	PUNCTclause
@@ -2742,7 +2742,7 @@ idée	idée	NOUN
 que	que	SCONJ
 tous	tout	ADJ
 les	le	DET
-Américains	Américains	NOUN
+américains	américain	NOUN
 intelligents	intelligent	ADJ
 se	se	PRON
 mettent	mettre	VERB
@@ -2756,14 +2756,14 @@ Agapè	Agapè	PROPN
 )	)	PUNCTclause
 tous	tout	ADJ
 les	le	DET
-Russes	Russes	NOUN
+russes	russe	NOUN
 du	du	ADP_DET
 commun	commun	ADJ
 peuple	peuple	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 la	le	DET
 dernière	dernier	ADJ
 question	question	NOUN
@@ -2786,7 +2786,7 @@ permission	permission	NOUN
 pour	pour	ADP
 aimer	aimer	VERB
 les	le	DET
-Russes	Russes	NOUN
+russes	russe	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
@@ -2796,7 +2796,7 @@ croule	crouler	VERB
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 couvent	couvent	NOUN
 laïque	laïque	ADJ
 .	.	PUNCTsent
@@ -2823,12 +2823,12 @@ niveau	niveau	NOUN
 intellectuel	intellectuel	ADJ
 ,	,	PUNCTclause
 la	le	DET
-Fondation	Fondation	NOUN
+fondation	fondation	NOUN
 Ford	Ford	PROPN
 a	avoir	AUX
 créé	créer	VERB
 un	un	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 de	de	ADP
 études	étude	NOUN
 avancées	avancé	ADJ
@@ -2839,7 +2839,7 @@ du	du	ADP_DET
 comportement	comportement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 club-house	club-house	NOUN
 domine	dominer	VERB
 la	le	DET
@@ -2858,7 +2858,7 @@ style	style	NOUN
 champêtre	champêtre	ADJ
 ultramoderne	ultramoderne	ADJ
 .	.	PUNCTsent
-Tout	tout	ADV
+tout	tout	ADV
 autour	autour	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
@@ -2958,7 +2958,7 @@ ai	avoir	AUX
 brièvement	brièvement	ADV
 exposé	exposer	VERB
 .	.	PUNCTsent
-Critiques	critique	NOUN
+critiques	critique	NOUN
 et	et	CCONJ
 suggestions	suggestion	NOUN
 de	de	ADP
@@ -2967,7 +2967,7 @@ pertinence	pertinence	NOUN
 parfaite	parfait	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 visite	visiter	VERB
 la	le	DET
 colline	colline	NOUN
@@ -3002,7 +3002,7 @@ et	et	CCONJ
 sociologue	sociologue	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 ai	avoir	AUX
 jamais	jamais	ADV
@@ -3034,7 +3034,7 @@ nos	nos	DET
 différentes	différent	ADJ
 spécialités	spécialité	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 historiens	historien	NOUN
 recourent	recourir	VERB
 aux	au	ADP_DET
@@ -3058,7 +3058,7 @@ pouvoir	pouvoir	NOUN
 des	un	ADP_DET
 dictateurs	dictateur	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 économistes	économiste	NOUN
 appliquent	appliquer	VERB
 les	le	DET
@@ -3070,7 +3070,7 @@ l'	le	DET
 analyse	analyse	NOUN
 conjoncturelle	conjoncturel	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 philosophes	philosophe	NOUN
 suivent	suivre	VERB
 un	un	DET
@@ -3081,7 +3081,7 @@ les	le	DET
 matrices	matrice	NOUN
 algébriques	algébrique	ADJ
 .	.	PUNCTsent
-Bref	bref	ADJ
+bref	bref	ADJ
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -3091,7 +3091,7 @@ moderne	moderne	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 demande	demander	VERB
 où	où	PRON
@@ -3129,14 +3129,14 @@ plus	plus	ADV
 philosophique	philosophique	ADJ
 au sens large	au sens large	ADV
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 encore	encore	ADV
 faudrait	falloir	VERB
 il	il	PRON
 le	le_PRON	PRON
 créer	créer	VERB
 .	.	PUNCTsent
-Où	où	PRON
+où	où	PRON
 sont	être	AUX
 nos	nos	DET
 fondations	fondation	NOUN

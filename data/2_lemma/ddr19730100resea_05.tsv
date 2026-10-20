@@ -6,14 +6,14 @@
 # title = Jean-Paul Sartre et l’engagement
 
 ↵↵	↵↵	PUNCTstruct
-Jean-Paul	Jean-Paul	PROPN
+Jean-Paul	Jean-Paul	ADP
 Sartre	Sartre	PROPN
 et	et	CCONJ
 l'	le	DET
 engagement	engagement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 critique	critique	NOUN
 de	de	ADP
 l'	le	DET
@@ -38,13 +38,13 @@ ajouter	ajouter	VERB
 ces	ce	DET
 malentendus	malentendu	NOUN
 .	.	PUNCTsent
-Plus	plus	ADV
+plus	plus	ADV
 que	que	SCONJ
 l'	le	DET
 erreur	erreur	NOUN
 temporaire	temporaire	ADJ
 de	de	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ,	,	PUNCTclause
 elle	elle	PRON
 expose	exposer	VERB
@@ -59,11 +59,11 @@ l'	le	DET
 engagement	engagement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-J.-P.	J.-P.	PROPN
+J.-P.	J.-P.	DET
 Sartre	Sartre	PROPN
 reproche	reprocher	VERB
 à	à	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 de	de	ADP
 avoir	avoir	VERB
 dans	dans	ADP
@@ -86,7 +86,7 @@ ne	ne	ADV
 faisait	faire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 finir	finir	VERB
 il	il	PRON
 noircit	noircir	VERB
@@ -104,7 +104,7 @@ de	de	ADP
 vrai	vrai	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
-À	à	ADP
+à	à	ADP
 mon	mon	DET
 sens	sens	NOUN
 ,	,	PUNCTclause
@@ -134,7 +134,7 @@ de	de	ADP
 étiquette	étiquette	NOUN
 révolutionnaire	révolutionnaire	ADJ
 .	.	PUNCTsent
-Sans	sans	ADP
+sans	sans	ADP
 insister	insister	VERB
 sur	sur	ADP
 le	le	DET
@@ -159,7 +159,7 @@ les	le	DET
 velléités	velléité	NOUN
 révolutionnaires	révolutionnaire	ADJ
 de	de	ADP
-Mai	Mai	PROPN
+mai	mai	UNKNOWN
 68	68	NUM
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -234,7 +234,7 @@ de	de	ADP
 utile	utile	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 «	«	PUNCTclause
 vraie	vrai	ADJ
 »	»	PUNCTclause
@@ -297,7 +297,7 @@ même	même	ADV
 beaucoup	beaucoup	ADV
 écrit	écrire	VERB
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -313,7 +313,7 @@ de	de	DET
 vrai	vrai	ADJ
 »	»	PUNCTclause
 que	que	SCONJ
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 ne	ne	ADV
 était	être	AUX
 pas	pas	ADV
@@ -370,7 +370,7 @@ des	un	ADP_DET
 premiers	premier	ADJ
 textes	texte	NOUN
 de	de	ADP
-Breton	Breton	PROPN
+breton	breton	UNKNOWN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -431,7 +431,7 @@ ouvrage	ouvrage	NOUN
 cité	citer	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-En	en	ADP
+en	en	ADP
 un	un	DET
 mot	mot	NOUN
 ,	,	PUNCTclause
@@ -453,7 +453,7 @@ la	le	DET
 révolution	révolution	NOUN
 socialiste	socialiste	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 a	avoir	AUX
 souvent	souvent	ADV
 prétendu	prétendre	VERB
@@ -533,7 +533,7 @@ l'	le	DET
 engagé	engager	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Entre	entre	ADP
+entre	entre	ADP
 l'	le	DET
 URSS	URSS	PROPN
 et	et	CCONJ
@@ -607,7 +607,7 @@ de	de	ADP
 un	un	DET
 groupe	groupe	NOUN
 de	de	ADP
-États	États	NOUN
+états	état	NOUN
 à	à	ADP
 structure	structure	NOUN
 démocratique	démocratique	ADJ
@@ -632,7 +632,7 @@ de	de	ADP
 l'	le	DET
 ensemble	ensemble	NOUN
 …	…	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 l'	le	DET
 écrivain	écrivain	NOUN
 est	être	AUX
@@ -678,7 +678,7 @@ de	de	ADP
 libre	libre	ADJ
 création	création	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 chance	chance	NOUN
 de	de	ADP
 la	le	DET
@@ -697,7 +697,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 la	le	DET
 jouer	jouer	VERB
@@ -717,7 +717,7 @@ nous	nous	PRON
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Faut	falloir	VERB
+faut	falloir	VERB
 il	il	PRON
 donc	donc	ADV
 dire	dire	VERB
@@ -727,7 +727,7 @@ Sartre	Sartre	PROPN
 l'	le	DET
 écrivain	écrivain	NOUN
 ?	?	PUNCTsent
-De	de	ADP
+de	de	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -744,7 +744,7 @@ chance	chance	NOUN
 bien	bien	ADV
 au contraire	au contraire	ADV
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 choisi	choisir	VERB
 le	le	DET
@@ -819,7 +819,7 @@ devait	devoir	VERB
 le	le	DET
 démontrer	démontrer	VERB
 .	.	PUNCTsent
-Parlant	parler	VERB
+parlant	parler	VERB
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN

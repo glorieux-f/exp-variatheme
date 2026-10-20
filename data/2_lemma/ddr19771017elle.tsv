@@ -6,8 +6,8 @@
 # title = "[Entretien] Je suis un pessimiste actif (17 octobre 1977)"
 
 ↵↵	↵↵	PUNCTstruct
-Entretien	entretien	NOUN
-Je	je	PRON
+entretien	entretien	NOUN
+je	je	PRON
 suis	être	AUX
 un	un	DET
 pessimiste	pessimiste	ADJ
@@ -19,7 +19,7 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Denis	Denis	PROPN
+Denis	Denis	DET
 de	de	ADP
 Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
@@ -30,10 +30,10 @@ avec	avec	ADP
 le	le	DET
 sourire	sourire	NOUN
 .	.	PUNCTsent
-Pas	pas	ADV
+pas	pas	ADV
 banal	banal	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 diseurs	diseur	NOUN
 de	de	ADP
 avenir	avenir	NOUN
@@ -82,7 +82,7 @@ la	le	DET
 mine	mine	NOUN
 morose	morose	ADJ
 .	.	PUNCTsent
-Denis	Denis	PROPN
+Denis	Denis	DET
 de	de	ADP
 Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
@@ -108,19 +108,19 @@ de	de	ADP
 paraître	paraître	VERB
 aux	au	ADP_DET
 éditions	édition	NOUN
-Stock	Stock	PROPN
+stock	stock	UNKNOWN
 a	avoir	AUX
 un	un	DET
 beau	beau	ADJ
 titre	titre	NOUN
 :	:	PUNCTclause
 l'	le	DET
-Avenir	Avenir	PROPN
+avenir	avenir	UNKNOWN
 est	être	AUX
 notre	notre	DET
 affaire	affaire	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 va	aller	VERB
 devenir	devenir	VERB
 la	le	DET
@@ -139,7 +139,7 @@ autres	autre	ADJ
 espérons	espérer	VERB
 le	le	DET
 .	.	PUNCTsent
-Ne	ne	ADV
+ne	ne	ADV
 pas	pas	ADV
 oublier	oublier	VERB
 que	que	SCONJ
@@ -151,7 +151,7 @@ ans	an	NOUN
 est	être	AUX
 directeur	directeur	ADJ
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -173,16 +173,16 @@ ouvrages	ouvrage	NOUN
 parmi	parmi	ADP
 lesquels	lesquels	PRON
 l'	le	DET
-Amour	Amour	NOUN
+amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
-Occident	Occident	NOUN
+occident	occident	NOUN
 paru	paraître	VERB
 en	en	ADP
 1939	1939	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 avais	avoir	AUX
 pas	pas	ADV
@@ -191,10 +191,10 @@ mon	mon	DET
 essai	essai	NOUN
 sur	sur	ADP
 l'	le	DET
-Amour	Amour	NOUN
+amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 à	à	ADP
 la	le	DET
 date	date	NOUN
@@ -230,19 +230,19 @@ Gaulle	Gaulle	PROPN
 et	et	CCONJ
 qui	qui	PRON
 publiait	publier	VERB
-La	le	DET
+la	le	DET
 France	France	PROPN
 et	et	CCONJ
 son	son	DET
 armée	armée	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Entre	entre	ADP
+entre	entre	ADP
 l'	le	DET
-Amour	Amour	NOUN
+amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 qui	qui	PRON
 est	être	AUX
 une	un	DET
@@ -259,7 +259,7 @@ sur	sur	ADP
 le	le	DET
 goût	goût	NOUN
 des	un	ADP_DET
-Occidentaux	Occidentaux	NOUN
+occidentaux	occidental	NOUN
 pour	pour	ADP
 l'	le	DET
 amour	amour	NOUN
@@ -293,7 +293,7 @@ la	le	DET
 parenté	parenté	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 y	y	PRON
 en	en	PRON
 a	avoir	AUX
@@ -301,7 +301,7 @@ une	un	DET
 très	très	ADV
 visible	visible	ADJ
 !	!	PUNCTsent
-Je	je	PRON
+je	je	PRON
 défends	défendre	VERB
 une	un	DET
 certaine	certain	ADJ
@@ -310,10 +310,10 @@ du	du	ADP_DET
 mariage	mariage	NOUN
 dans	dans	ADP
 l'	le	DET
-Amour	Amour	NOUN
+amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	UNKNOWN
 ,	,	PUNCTclause
 en	en	ADP
 opposition	opposition	NOUN
@@ -331,7 +331,7 @@ pas	pas	ADV
 »	»	PUNCTclause
 l'autre	l'autre	PRON
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 rallie	rallier	VERB
 à	à	ADP
@@ -347,7 +347,7 @@ une	un	DET
 tribu	tribu	NOUN
 africaine	africain	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 marié	marié	NOUN
 dit	dire	VERB
 à	à	ADP
@@ -355,7 +355,7 @@ sa	son	DET
 femme	femme	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Je	je	PRON
+je	je	PRON
 te	te	PRON
 vois	voir	VERB
 »	»	PUNCTclause
@@ -363,7 +363,7 @@ vois	voir	VERB
 et	et	CCONJ
 réciproquement	réciproquement	ADV
 .	.	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 veut	vouloir	VERB
 dire	dire	VERB
 :	:	PUNCTclause
@@ -378,7 +378,7 @@ dans	dans	ADP
 la	le	DET
 différence	différence	NOUN
 .	.	PUNCTsent
-Pas	pas	ADV
+pas	pas	ADV
 de	de	ADP
 subordination	subordination	NOUN
 ,	,	PUNCTclause
@@ -439,7 +439,7 @@ commence	commencer	VERB
 me	me	PRON
 rejoindre	rejoindre	VERB
 !	!	PUNCTsent
-Je	je	PRON
+je	je	PRON
 suis	être	AUX
 beaucoup	beaucoup	ADV
 plus	plus	ADV
@@ -450,7 +450,7 @@ il y a	il y a	VERB
 cinq	cinq	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-Regardez	regarder	VERB
+regardez	regarder	VERB
 ce	ce	PRON
 qui	qui	PRON
 mobilise	mobiliser	VERB
@@ -466,7 +466,7 @@ lutte	lutte	NOUN
 antinucléaire	antinucléaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vous	vous	PRON
+vous	vous	PRON
 dites	dire	VERB
 que	que	SCONJ
 vous	vous	PRON
@@ -496,7 +496,7 @@ est	être	AUX
 celle	celle	PRON
 :	:	PUNCTclause
 «	«	PUNCTsent
-La	le	DET
+la	le	DET
 décadence	décadence	NOUN
 de	de	ADP
 un	un	DET
@@ -520,7 +520,7 @@ vais	aller	VERB
 faire	faire	VERB
 ?	?	PUNCTsent
 »	»	PUNCTclause
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 crois	croire	VERB
 pas	pas	ADV
@@ -545,7 +545,7 @@ le	le	DET
 moins	moins	ADV
 possible	possible	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 est	être	AUX
 grave	grave	ADJ
@@ -567,7 +567,7 @@ les	le	DET
 hommes	homme	NOUN
 politiques	politique	ADJ
 .	.	PUNCTsent
-Regardez	regarder	VERB
+regardez	regarder	VERB
 la	le	DET
 France	France	PROPN
 :	:	PUNCTclause
@@ -589,7 +589,7 @@ pas	pas	ADV
 très	très	ADV
 différentes	différent	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 fais	faire	VERB
 commenter	commenter	VERB
 à	à	ADP
@@ -603,9 +603,9 @@ Debré	Debré	PROPN
 et	et	CCONJ
 de	de	ADP
 Georges	Georges	PROPN
-Marchais	Marchais	PROPN
+marchais	marcher	UNKNOWN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 sont	être	AUX
 à peu près	à peu près	ADV
 les	le	DET
@@ -615,10 +615,10 @@ encore	encore	ADV
 plus	plus	ADV
 cocorico	cocorico	NOUN
 pour	pour	ADP
-Marchais	Marchais	PROPN
+marchais	marcher	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 France	France	PROPN
 ne	ne	ADV
 vous	vous	PRON
@@ -638,7 +638,7 @@ l'	le	DET
 environnement	environnement	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 France	France	PROPN
 est	être	AUX
 un	un	DET
@@ -652,9 +652,9 @@ goût	goût	NOUN
 du	du	ADP_DET
 secret	secret	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 les	le	DET
-Français	Français	NOUN
+français	français	NOUN
 ,	,	PUNCTclause
 le	le	DET
 régionalisme	régionalisme	NOUN
@@ -684,7 +684,7 @@ propos	propos	NOUN
 du	du	ADP_DET
 nucléaire	nucléaire	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 met	mettre	VERB
 dans	dans	ADP
 la	le	DET
@@ -700,7 +700,7 @@ peuvent	pouvoir	VERB
 pas	pas	ADV
 comprendre	comprendre	VERB
 …	…	PUNCTsent
-Je	je	PRON
+je	je	PRON
 les	le	DET
 invite	invite	NOUN
 à	à	ADP
@@ -732,13 +732,13 @@ un	un	DET
 de	de	ADP
 réflexion	réflexion	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 à partir de là	à partir de là	ADP
 ,	,	PUNCTclause
 informez	informer	VERB
 vous	vous	PRON
 !	!	PUNCTsent
-Je	je	PRON
+je	je	PRON
 crois	croire	VERB
 que	que	SCONJ
 il	il	PRON
@@ -751,7 +751,7 @@ de	de	ADP
 la	le	DET
 responsabilité	responsabilité	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
@@ -774,6 +774,6 @@ régions	région	NOUN
 ,	,	PUNCTclause
 contre	contre	ADP
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 centralisateur	centralisateur	ADJ
 .	.	PUNCTsent

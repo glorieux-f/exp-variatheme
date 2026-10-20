@@ -7,16 +7,16 @@
 
 ↵↵	↵↵	PUNCTstruct
 I.	I.	PUNCT
-Préhistoire	préhistoire	NOUN
+préhistoire	préhistoire	NOUN
 du	du	ADP_DET
 CERN	CERN	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 archives	archive	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -40,7 +40,7 @@ Jean-Paul	Jean-Paul	PROPN
 de	de	ADP
 Dadelsen	Dadelsen	PROPN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 note	note	NOUN
 donnera	donner	VERB
 sans doute	sans doute	ADV
@@ -55,10 +55,10 @@ va	aller	VERB
 suivre	suivre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 projet	projet	NOUN
 de	de	ADP
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 européen	européen	ADJ
 de	de	ADP
 recherches	recherche	NOUN
@@ -68,10 +68,10 @@ une	un	DET
 initiative	initiative	NOUN
 européenne	européen	ADJ
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 adversaires	adversaire	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 européen	européen	ADJ
 de	de	ADP
 physique	physique	NOUN
@@ -84,7 +84,7 @@ séries	série	NOUN
 de	de	ADP
 arguments	argument	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 uns	un	PRON
 reposent	reposer	VERB
 sur	sur	ADP
@@ -118,7 +118,7 @@ installation	installation	NOUN
 atomique	atomique	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 autres	autre	ADJ
 proviennent	provenir	VERB
 de	de	ADP
@@ -148,7 +148,7 @@ nos	nos	DET
 affaires	affaire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voyons	voir	VERB
+voyons	voir	VERB
 ce	ce	PRON
 que	que	PRON
 il	il	PRON
@@ -162,18 +162,18 @@ de	de	ADP
 arguments	argument	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 présentation	présentation	NOUN
 officielle	officiel	ADJ
 des	un	ADP_DET
 faits	fait	NOUN
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 mois	mois	NOUN
 dernier	dernier	ADJ
 ,	,	PUNCTclause
 le	le	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 européen	européen	ADJ
 pour	pour	ADP
 la	le	DET
@@ -188,7 +188,7 @@ son	son	DET
 second	second	ADJ
 rapport	rapport	NOUN
 aux	au	ADP_DET
-États	États	NOUN
+états	état	NOUN
 membres	membre	NOUN
 (	(	PUNCTclause
 Rome	Rome	PROPN
@@ -198,7 +198,7 @@ mai	mai	NOUN
 1953	1953	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 rapport	rapport	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -251,7 +251,7 @@ e	e	NOUN
 session	session	NOUN
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 générale	général	ADJ
 de	de	ADP
 l'	le	DET
@@ -299,7 +299,7 @@ recherches	recherche	NOUN
 régionaux	régional	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 résolution	résolution	NOUN
 faisait	faire	VERB
 suite à	suite à	ADP
@@ -314,7 +314,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 et	et	CCONJ
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 économique	économique	ADJ
 et	et	CCONJ
 social	social	ADJ
@@ -323,7 +323,7 @@ l'	le	DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 rapport	rapport	NOUN
 du	du	ADP_DET
 CERN	CERN	PROPN
@@ -334,7 +334,7 @@ plus	plus	ADV
 loin	loin	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
-Bien	bien	ADV
+bien	bien	ADV
 que	que	SCONJ
 cette	ce	DET
 résolution	résolution	NOUN
@@ -407,7 +407,7 @@ le	le	DET
 projet	projet	NOUN
 du	du	ADP_DET
 «	«	PUNCTclause
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 international	international	ADJ
 (	(	PUNCTclause
 européen	européen	ADJ
@@ -424,7 +424,7 @@ construit	construire	VERB
 à	à	ADP
 Genève	Genève	PROPN
 .	.	PUNCTsent
-Comme	comme	ADP
+comme	comme	ADP
 l'	le	DET
 UNESCO	UNESCO	PROPN
 ne	ne	ADV
@@ -470,8 +470,8 @@ des	un	ADP_DET
 études	étude	NOUN
 nécessaires	nécessaire	ADJ
 .	.	PUNCTsent
-La	le	DET
-Conférence	Conférence	NOUN
+la	le	DET
+conférence	conférence	NOUN
 aboutit	aboutir	VERB
 à	à	ADP
 la	le	DET
@@ -484,7 +484,7 @@ février	février	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
 «	«	PUNCTclause
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 européen	européen	ADJ
 pour	pour	ADP
 la	le	DET
@@ -495,15 +495,15 @@ nucléaire	nucléaire	ADJ
 qui	qui	PRON
 groupe	grouper	VERB
 11	11	NUM
-États	États	NOUN
+états	état	NOUN
 européens	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 véritable	véritable	ADJ
 origine	origine	NOUN
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 présentation	présentation	NOUN
 des	un	ADP_DET
 faits	fait	NOUN
@@ -528,7 +528,7 @@ principales	principal	ADJ
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 son	son	DET
 souci	souci	NOUN
 de	de	ADP
@@ -591,7 +591,7 @@ actuel	actuel	ADJ
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
 .	.	PUNCTsent
-En	en	ADP
+en	en	ADP
 prenant	prendre	VERB
 ainsi	ainsi	ADV
 comme	comme	SCONJ
@@ -626,7 +626,7 @@ plus	plus	ADV
 généraux	général	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Sans	sans	ADP
+sans	sans	ADP
 vouloir	vouloir	VERB
 méconnaître	méconnaître	VERB
 l'	le	DET
@@ -681,7 +681,7 @@ une	un	DET
 propagande	propagande	NOUN
 mensongère	mensonger	ADJ
 .	.	PUNCTsent
-Aussi	aussi	ADV
+aussi	aussi	ADV
 bien	bien	ADV
 ne	ne	ADV
 y	y	PRON
@@ -700,7 +700,7 @@ moins	moins	ADV
 incertaine	incertain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 réunion	réunion	NOUN
 de	de	ADP
 Genève	Genève	PROPN
@@ -713,7 +713,7 @@ ce	ce	PRON
 est	être	AUX
 au cours de	au cours de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 européenne	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -734,7 +734,7 @@ sous	sous	ADP
 les	le	DET
 auspices	auspice	NOUN
 du	du	ADP_DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -755,7 +755,7 @@ en matière de	en matière de	ADP
 recherche	recherche	NOUN
 nucléaire	nucléaire	ADJ
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 une	un	DET
 résolution	résolution	NOUN
 adoptée	adopter	VERB
@@ -769,7 +769,7 @@ de	de	ADP
 pays	pays	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 recommandait	recommander	VERB
 :	:	PUNCTclause
 «	«	PUNCTclause
@@ -797,7 +797,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Comme	comme	ADP
+comme	comme	ADP
 application	application	NOUN
 caractéristique	caractéristique	ADJ
 des	un	ADP_DET
@@ -808,7 +808,7 @@ la	le	DET
 résolution	résolution	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 proposait	proposer	VERB
 de	de	ADP
 «	«	PUNCTclause
@@ -820,7 +820,7 @@ la	le	DET
 création	création	NOUN
 de	de	ADP
 un	un	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 de	de	ADP
 science	science	NOUN
 nucléaire	nucléaire	ADJ
@@ -835,17 +835,17 @@ courante	courant	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 mise	mise	NOUN
 à	à	ADP
 l'	le	DET
 étude	étude	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 fut	être	AUX
 confiée	confier	VERB
 au	au	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -854,7 +854,7 @@ culture	culture	NOUN
 organisateur	organisateur	NOUN
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
 l'une	l'une	PRON
@@ -863,13 +863,13 @@ ses	son	DET
 premières	premier	ADJ
 tâches	tâche	NOUN
 .	.	PUNCTsent
-La	le	DET
-Commission	Commission	NOUN
+la	le	DET
+commission	commission	NOUN
 de	de	ADP
 coopération	coopération	NOUN
 scientifique	scientifique	ADJ
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 ,	,	PUNCTclause
 présidée	présider	VERB
 par	par	ADP
@@ -878,7 +878,7 @@ Dautry	Dautry	PROPN
 ,	,	PUNCTclause
 administrateur général	administrateur général	NOUN
 du	du	ADP_DET
-Commissariat	Commissariat	NOUN
+commissariat	commissariat	NOUN
 français	français	ADJ
 pour	pour	ADP
 l'	le	DET
@@ -943,7 +943,7 @@ du	du	ADP_DET
 futur	futur	ADJ
 emplacement	emplacement	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ;	;	PUNCTclause
 elle	elle	PRON
 suggérait	suggérer	VERB
@@ -976,7 +976,7 @@ programme	programme	NOUN
 des	un	ADP_DET
 travaux	travail	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 était	être	AUX
 en outre	en outre	ADV
 convenu	convenir	VERB
@@ -1003,7 +1003,7 @@ internationales	international	ADJ
 établir	établir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 rôle	rôle	NOUN
 de	de	ADP
 l'	le	DET
@@ -1034,16 +1034,16 @@ des	un	ADP_DET
 négociations	négociation	NOUN
 intergouvernementales	intergouvernemental	ADJ
 .	.	PUNCTsent
-Ceci	ceci	PRON
+ceci	ceci	PRON
 fait	faire	VERB
 ,	,	PUNCTclause
 le	le	DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ,	,	PUNCTclause
 doté	doter	VERB
 de	de	ADP
 un	un	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 de	de	ADP
 représentants	représentant	NOUN
 des	un	ADP_DET
@@ -1065,7 +1065,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ainsi	ainsi	ADV
+ainsi	ainsi	ADV
 se	se	PRON
 trouve	trouver	VERB
 très	très	ADV
@@ -1086,14 +1086,14 @@ besoins	besoin	NOUN
 spécifiquement	spécifiquement	ADV
 européens	européen	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 peut	pouvoir	VERB
 dire	dire	VERB
 davantage	davantage	ADV
 :	:	PUNCTclause
 si	si	SCONJ
 le	le	DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 doit	devoir	VERB
 être	être	AUX
 édifié	édifier	VERB
@@ -1113,7 +1113,7 @@ a	avoir	AUX
 à	à	ADP
 Genève	Genève	PROPN
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 un	un	DET
 juste	juste	ADJ
 retour	retour	NOUN
@@ -1136,7 +1136,7 @@ est	être	AUX
 partie	partir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Reprenons	reprendre	VERB
+reprenons	reprendre	VERB
 maintenant	maintenant	ADV
 avec	avec	ADP
 plus	plus	ADV
@@ -1162,7 +1162,7 @@ préhistoire	préhistoire	NOUN
 du	du	ADP_DET
 CERN	CERN	NOUN
 .	.	PUNCTsent
-Car	car	CCONJ
+car	car	CCONJ
 l'	le	DET
 histoire	histoire	NOUN
 scientifique	scientifique	ADJ
@@ -1190,7 +1190,7 @@ son	son	DET
 initiative	initiative	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Itinéraire	itinéraire	NOUN
+itinéraire	itinéraire	NOUN
 de	de	ADP
 une	un	DET
 idée	idée	NOUN
@@ -1198,7 +1198,7 @@ idée	idée	NOUN
 I	I	NUM
 )	)	PUNCTclause
 :	:	PUNCTclause
-Premières	premier	ADJ
+premières	premier	ADJ
 lueurs	lueur	NOUN
 dans	dans	ADP
 l'	le	DET
@@ -1213,7 +1213,7 @@ un	un	DET
 ingénieur	ingénieur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Colloque	colloque	NOUN
+colloque	colloque	NOUN
 du	du	ADP_DET
 20e	20e	ADJ
 anniversaire	anniversaire	NOUN
@@ -1222,7 +1222,7 @@ du	du	ADP_DET
 :	:	PUNCTclause
 extraits	extrait	NOUN
 du	du	ADP_DET
-Rapport	Rapport	NOUN
+rapport	rapport	NOUN
 général	général	ADJ
 présenté	présenter	VERB
 par	par	ADP
@@ -1236,7 +1236,7 @@ enregistrement	enregistrement	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 années	année	NOUN
 1945	1945	NUM
@@ -1280,15 +1280,15 @@ qui	qui	PRON
 avaient	avoir	AUX
 alerté	alerter	VERB
 la	le	DET
-Terre	Terre	NOUN
+terre	terre	NOUN
 entière	entier	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 Princeton	Princeton	PROPN
 (	(	PUNCTclause
-New	New	PROPN
-Jersey	jersey	X
+New	New	X
+jersey	jersey	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 où	où	PRON
@@ -1312,12 +1312,12 @@ soirée	soirée	NOUN
 avec	avec	ADP
 Einstein	Einstein	PROPN
 .	.	PUNCTsent
-Celui	celui	PRON
+celui	celui	PRON
 ,	,	PUNCTclause
 ayant	avoir	AUX
 lu	lire	VERB
 les	le	DET
-Lettres	Lettres	NOUN
+lettres	lettre	NOUN
 sur	sur	ADP
 la	le	DET
 bombe atomique	bombe atomique	NOUN
@@ -1356,7 +1356,7 @@ votre	votre	DET
 livre	livre	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 dès	dès	ADP
 cette	ce	DET
 conversation	conversation	NOUN
@@ -1411,7 +1411,7 @@ mutuelle	mutuel	NOUN
 utilité	utilité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 là	là	ADV
 les	le	DET
 entretiens	entretien	NOUN
@@ -1434,13 +1434,13 @@ Dautry	Dautry	PROPN
 alors	alors	ADV
 administrateur général	administrateur général	NOUN
 du	du	ADP_DET
-Commissariat	Commissariat	NOUN
+commissariat	commissariat	NOUN
 à	à	ADP
 l'	le	DET
 énergie	énergie	NOUN
 atomique	atomique	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 passai	passer	VERB
 de	de	DET
 longues	long	ADJ
@@ -1451,7 +1451,7 @@ bureau	bureau	NOUN
 de	de	ADP
 Paris	Paris	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 jour	jour	NOUN
 ,	,	PUNCTclause
 comme	comme	SCONJ
@@ -1466,7 +1466,7 @@ en	en	ADP
 riant	rire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Savez	savoir	VERB
+savez	savoir	VERB
 vous	vous	PRON
 que	que	PRON
 tous	tous	PRON
@@ -1477,7 +1477,7 @@ ont	avoir	AUX
 été	être	AUX
 enregistrés	enregistrer	VERB
 ?	?	PUNCTsent
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 doutais	douter	VERB
 de	de	ADP
@@ -1530,7 +1530,7 @@ l'	le	DET
 avoir	avoir	AUX
 inventé	inventer	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 pour	pour	ADP
 me	me	PRON
 venger	venger	VERB
@@ -1543,7 +1543,7 @@ brevet	brevet	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Raoul	Raoul	PROPN
+Raoul	Raoul	ADJ
 Dautry	Dautry	PROPN
 était	être	AUX
 probablement	probablement	ADV
@@ -1593,7 +1593,7 @@ la	le	DET
 fonction	fonction	NOUN
 publique	public	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 coïncidait	coïncider	VERB
 étroitement	étroitement	ADV
 avec	avec	ADP
@@ -1611,7 +1611,7 @@ la	le	DET
 réunion	réunion	NOUN
 de	de	ADP
 une	un	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 européenne	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -1619,12 +1619,12 @@ culture	culture	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
 le	le	DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 avait	avoir	AUX
 chargé	charger	VERB
 son	son	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 de	de	ADP
@@ -1646,7 +1646,7 @@ au	au	ADP_DET
 décembre	décembre	NOUN
 1949	1949	NUM
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 allait	aller	VERB
 apporter	apporter	VERB
 à	à	ADP
@@ -1677,7 +1677,7 @@ du	du	ADP_DET
 congrès	congrès	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Message	message	NOUN
+message	message	NOUN
 de	de	ADP
 Louis	Louis	PROPN
 de	de	ADP
@@ -1688,7 +1688,7 @@ extraits	extrait	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 …	…	PUNCTsent
-Chaque	chaque	DET
+chaque	chaque	DET
 pays	pays	NOUN
 se	se	PRON
 efforce	efforcer	VERB
@@ -1720,7 +1720,7 @@ centres	centre	NOUN
 de	de	ADP
 recherches	recherche	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ,	,	PUNCTclause
 à	à	ADP
 l'	le	DET
@@ -1741,7 +1741,7 @@ suffire	suffire	VERB
 .	.	PUNCTsent
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 mouvement	mouvement	NOUN
 général	général	ADJ
 créé	créer	VERB
@@ -1778,7 +1778,7 @@ leurs	leur	DET
 efforts	effort	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -1808,7 +1808,7 @@ sur le plan	sur le plan	ADP
 scientifique	scientifique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 l'	le	DET
 heure	heure	NOUN
 où	où	PRON
@@ -1862,7 +1862,7 @@ différentes	différent	ADJ
 nations	nation	NOUN
 participantes	participant	ADJ
 .	.	PUNCTsent
-Résultat	résultat	NOUN
+résultat	résultat	NOUN
 de	de	ADP
 la	le	DET
 coopération	coopération	NOUN
@@ -1871,7 +1871,7 @@ un	un	DET
 grand	grand	ADJ
 nombre	nombre	NOUN
 de	de	ADP
-États	États	NOUN
+états	état	NOUN
 européens	européen	ADJ
 ,	,	PUNCTclause
 cet	ce	DET
@@ -1914,7 +1914,7 @@ interdites	interdire	VERB
 à	à	ADP
 ceux	ceux	PRON
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 servirait	servir	VERB
 à	à	ADP
 coordonner	coordonner	VERB
@@ -1995,7 +1995,7 @@ européenne	européen	ADJ
 .	.	PUNCTsent
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Resserrant	resserrer	VERB
+resserrant	resserrer	VERB
 les	le	DET
 liens	lien	NOUN
 entre	entre	ADP
@@ -2062,7 +2062,7 @@ l'	le	DET
 Europe	Europe	PROPN
 contemporaine	contemporain	ADJ
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 convergence	convergence	NOUN
 des	un	ADP_DET
 efforts	effort	NOUN
@@ -2107,7 +2107,7 @@ dans	dans	ADP
 d'autres	d'autre	PRON
 domaines	domaine	NOUN
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 caractère	caractère	NOUN
 universel	universel	ADJ
 et	et	CCONJ
@@ -2131,7 +2131,7 @@ fructueuse	fructueux	ADJ
 collaboration	collaboration	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Aussi	aussi	ADV
+aussi	aussi	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 forme	forme	NOUN
@@ -2171,7 +2171,7 @@ la	le	DET
 civilisation	civilisation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 principes	principe	NOUN
 généraux	général	ADJ
 formulés	formuler	VERB
@@ -2197,7 +2197,7 @@ révélèrent	révéler	VERB
 décisives	décisif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Extraits	extraire	VERB
+extraits	extraire	VERB
 du	du	ADP_DET
 discours	discours	NOUN
 de	de	ADP
@@ -2205,7 +2205,7 @@ Raoul	Raoul	PROPN
 Dautry	Dautry	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Puisque	puisque	SCONJ
+puisque	puisque	SCONJ
 M.	M.	NOUN
 de	de	ADP
 Broglie	Broglie	PROPN
@@ -2273,7 +2273,7 @@ adresser	adresser	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Soyez	être	AUX
+soyez	être	AUX
 audacieux	audacieux	ADJ
 et	et	CCONJ
 clairs	clair	ADJ
@@ -2290,11 +2290,11 @@ a	avoir	AUX
 il	il	PRON
 dit	dire	VERB
 .	.	PUNCTsent
-Soyez	être	AUX
+soyez	être	AUX
 pratiques	pratique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 me	me	PRON
 efforcerai	efforcer	VERB
 de	de	ADP
@@ -2305,7 +2305,7 @@ présentant	présenter	VERB
 demain	demain	ADV
 à	à	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 des	un	ADP_DET
 institutions	institution	NOUN
 une	un	DET
@@ -2319,7 +2319,7 @@ retenir	retenir	VERB
 l'	le	DET
 attention	attention	NOUN
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -2328,16 +2328,16 @@ de	de	ADP
 l'	le	DET
 ensemble	ensemble	NOUN
 des	un	ADP_DET
-Européens	Européens	NOUN
+européens	européen	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Anticipant	anticiper	VERB
+anticipant	anticiper	VERB
 sur	sur	ADP
 les	le	DET
 travaux	travail	NOUN
 de	de	ADP
 cette	ce	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 ,	,	PUNCTclause
 mon	mon	DET
 intention	intention	NOUN
@@ -2394,7 +2394,7 @@ de	de	ADP
 l'	le	DET
 énergétique	énergétique	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 veux	vouloir	VERB
 dire	dire	VERB
 pour	pour	ADP
@@ -2476,7 +2476,7 @@ pendant	pendant	ADP
 quarante	quarante	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 maintenant	maintenant	ADV
 l'	le	DET
 éclat	éclat	NOUN
@@ -2494,7 +2494,7 @@ est	être	AUX
 ce	ce	PRON
 dû	devoir	VERB
 ?	?	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 évidemment	évidemment	ADV
@@ -2544,7 +2544,7 @@ ruinée	ruiner	VERB
 .	.	PUNCTsent
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 que	que	PRON
 chaque	chaque	DET
 nation	nation	NOUN
@@ -2572,7 +2572,7 @@ ferait	faire	AUX
 brillamment	brillamment	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 que	que	SCONJ
 elle	elle	PRON
@@ -2580,7 +2580,7 @@ se	se	PRON
 y	y	PRON
 décide	décider	VERB
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 jour	jour	NOUN
 ,	,	PUNCTclause
 peut-être	peut-être	ADV
@@ -2612,7 +2612,7 @@ tonnes	tonne	NOUN
 de	de	ADP
 uranium	uranium	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 jour	jour	NOUN
 la	le	DET
 physionomie	physionomie	NOUN
@@ -2649,7 +2649,7 @@ leurs	leur	DET
 portes	porte	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Gouvernements	gouvernement	NOUN
+gouvernements	gouvernement	NOUN
 ,	,	PUNCTclause
 savants	savant	NOUN
 et	et	CCONJ
@@ -2698,23 +2698,23 @@ les	le	DET
 moyens	moyen	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Est	être	AUX
+est	être	AUX
 ce	ce	DET
 possible	possible	ADJ
 ?	?	PUNCTsent
-Je	je	PRON
+je	je	PRON
 le	le_PRON	PRON
 crois	croire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Est	être	AUX
+est	être	AUX
 ce	ce	DET
 difficile	difficile	ADJ
 ?	?	PUNCTsent
-Certainement	certainement	ADV
+certainement	certainement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 quand	quand	SCONJ
 une	un	DET
 chose	chose	NOUN
@@ -2748,10 +2748,10 @@ la	le	DET
 minute	minute	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 le	le	DET
-Rapport	Rapport	NOUN
+rapport	rapport	NOUN
 général	général	ADJ
 présenté	présenter	VERB
 à	à	ADP
@@ -2760,12 +2760,12 @@ séance	séance	NOUN
 inaugurale	inaugural	ADJ
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 par	par	ADP
 son	son	DET
 auteur	auteur	NOUN
 ,	,	PUNCTclause
-D.	D.	PROPN
+D.	D.	X
 de	de	ADP
 Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
@@ -2783,19 +2783,19 @@ des	un	ADP_DET
 recherche scientifique	recherche scientifique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Extraits	extraire	VERB
+extraits	extraire	VERB
 du	du	ADP_DET
-Rapport	Rapport	NOUN
+rapport	rapport	NOUN
 général	général	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 …	…	PUNCTsent
-Nationalisation	nationalisation	NOUN
+nationalisation	nationalisation	NOUN
 de	de	ADP
 la	le	DET
 recherche scientifique	recherche scientifique	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 situation	situation	NOUN
 des	un	ADP_DET
 physiciens	physicien	NOUN
@@ -2804,7 +2804,7 @@ une	un	DET
 mention	mention	NOUN
 particulière	particulier	ADJ
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 nous	nous	PRON
 bornerons	borner	VERB
 à	à	ADP
@@ -2825,14 +2825,14 @@ Thibaud	Thibaud	PROPN
 directeur	directeur	NOUN
 de	de	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 français	français	ADJ
 de	de	ADP
 physique	physique	NOUN
 atomique	atomique	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-Dans	dans	ADP
+dans	dans	ADP
 le	le	DET
 domaine	domaine	NOUN
 de	de	ADP
@@ -2900,7 +2900,7 @@ mondiale	mondial	ADJ
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 fait	faire	AUX
 peser	peser	VERB
 sur	sur	ADP
@@ -2935,7 +2935,7 @@ politiques	politique	ADJ
 et	et	CCONJ
 militaires	militaire	ADJ
 .	.	PUNCTsent
-Élargissant	élargir	VERB
+élargissant	élargir	VERB
 le	le	DET
 problème	problème	NOUN
 ,	,	PUNCTclause
@@ -2946,7 +2946,7 @@ que	que	SCONJ
 «	«	PUNCTclause
 dans	dans	ADP
 un	un	DET
-État	État	NOUN
+état	état	NOUN
 moderne	moderne	ADJ
 ,	,	PUNCTclause
 non	non	ADV
@@ -3023,7 +3023,7 @@ sur	sur	ADP
 ses	son	DET
 rivaux	rival	NOUN
 .	.	PUNCTsent
-Seuls	seul	ADJ
+seuls	seul	ADJ
 des	un	DET
 hommes	homme	NOUN
 de	de	ADP
@@ -3056,11 +3056,11 @@ dernier	dernier	ADJ
 »	»	PUNCTclause
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Résolutions	résolution	NOUN
+résolutions	résolution	NOUN
 à	à	ADP
 étudier	étudier	VERB
 .	.	PUNCTsent
-Nous	nous	PRON
+nous	nous	PRON
 recommanderons	recommander	VERB
 donc	donc	ADV
 en	en	ADP
@@ -3098,7 +3098,7 @@ circulation	circulation	NOUN
 .	.	PUNCTsent
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 la	le	DET
 recherche scientifique	recherche scientifique	NOUN
 ,	,	PUNCTclause
@@ -3137,7 +3137,7 @@ organismes	organisme	NOUN
 nationaux	national	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 y	y	PRON
 aurait	avoir	VERB
 lieu	lieu	NOUN
@@ -3184,13 +3184,13 @@ isolément	isolément	ADV
 .	.	PUNCTsent
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Fonds	fond	NOUN
+fonds	fond	NOUN
 européen	européen	ADJ
 pour	pour	ADP
 les	le	DET
 recherche scientifique	recherche scientifique	NOUN
 .	.	PUNCTsent
-Selon	selon	ADP
+selon	selon	ADP
 les	le	DET
 indications	indication	NOUN
 données	donner	VERB
@@ -3206,7 +3206,7 @@ ce	ce	DET
 rapport	rapport	NOUN
 (	(	PUNCTclause
 «	«	PUNCTclause
-Résolutions	Résolutions	NOUN
+résolutions	résolution	NOUN
 à	à	ADP
 étudier	étudier	VERB
 »	»	PUNCTclause
@@ -3225,7 +3225,7 @@ la	le	DET
 création	création	NOUN
 de	de	ADP
 un	un	DET
-Fonds	Fonds	NOUN
+fonds	fond	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -3239,16 +3239,16 @@ les	le	DET
 organes	organe	NOUN
 compétents	compétent	ADJ
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Un	un	DET
+un	un	DET
 projet	projet	NOUN
 de	de	ADP
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 des	un	ADP_DET
 recherches	recherche	NOUN
@@ -3258,7 +3258,7 @@ atomiques	atomique	ADJ
 lié	lier	VERB
 à	à	ADP
 ce	ce	DET
-Fonds	Fonds	NOUN
+fonds	fond	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 dont	dont	PRON
@@ -3278,10 +3278,10 @@ l'	le	DET
 examen	examen	NOUN
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ces	ce	DET
+ces	ce	DET
 deux	deux	NUM
 messages	message	NOUN
 ,	,	PUNCTclause
@@ -3289,7 +3289,7 @@ et	et	CCONJ
 la	le	DET
 partie	partie	NOUN
 du	du	ADP_DET
-Rapport	Rapport	NOUN
+rapport	rapport	NOUN
 général	général	ADJ
 consacrée	consacrer	VERB
 aux	au	ADP_DET
@@ -3334,12 +3334,12 @@ Montel	Montel	PROPN
 doyen	doyen	NOUN
 de	de	ADP
 la	le	DET
-Faculté	Faculté	NOUN
+faculté	faculté	NOUN
 des	un	ADP_DET
 sciences	science	NOUN
 de	de	ADP
 la	le	DET
-Sorbonne	Sorbonne	PROPN
+sorbonne	sorbonne	UNKNOWN
 ,	,	PUNCTclause
 André	André	PROPN
 George	George	PROPN
@@ -3363,7 +3363,7 @@ Willems	Willems	PROPN
 ,	,	PUNCTclause
 président	président	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 de	de	ADP
 recherches	recherche	NOUN
 universitaires	universitaire	ADJ
@@ -3373,7 +3373,7 @@ le	le	DET
 chimiste	chimiste	NOUN
 italien	italien	ADJ
 Mario	Mario	PROPN
-Rollier	Rollier	PROPN
+rollier	rollier	UNKNOWN
 ,	,	PUNCTclause
 le	le	DET
 physicien	physicien	NOUN
@@ -3392,14 +3392,14 @@ Colonnetti	Colonnetti	PROPN
 ,	,	PUNCTclause
 président	président	NOUN
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 italien	italien	ADJ
 de	de	ADP
 la	le	DET
 recherche scientifique	recherche scientifique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 veille	veille	NOUN
 de	de	ADP
 la	le	DET
@@ -3427,13 +3427,13 @@ avec	avec	ADP
 les	le	DET
 dirigeants	dirigeant	NOUN
 du	du	ADP_DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 ,	,	PUNCTclause
 qui	qui	PRON
 patronnait	patronner	VERB
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 .	.	PUNCTsent
 l'un	l'un	PRON
 de	de	ADP
@@ -3456,7 +3456,7 @@ me	me	PRON
 dire	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 voulez	vouloir	VERB
 donc	donc	ADV
 livrer	livrer	VERB
@@ -3465,10 +3465,10 @@ nos	nos	DET
 secrets	secret	NOUN
 atomiques	atomique	ADJ
 aux	au	ADP_DET
-Russes	Russes	NOUN
+russes	russe	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
-Parler	parler	VERB
+parler	parler	VERB
 de	de	ADP
 recherches	recherche	NOUN
 atomiques	atomique	ADJ
@@ -3485,7 +3485,7 @@ de	de	ADP
 faire	faire	VERB
 sauter	sauter	VERB
 la	le	DET
-Terre	Terre	NOUN
+terre	terre	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 au moins	au moins	ADV
@@ -3493,7 +3493,7 @@ la	le	DET
 préparation	préparation	NOUN
 de	de	ADP
 une	un	DET
-Troisième	troisième	ADJ
+troisième	troisième	ADJ
 guerre mondiale	guerre mondiale	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -3506,9 +3506,9 @@ et	et	CCONJ
 des	un	DET
 secrets	secret	NOUN
 de	de	ADP
-État	État	NOUN
+état	état	NOUN
 …	…	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 de	de	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
@@ -3536,7 +3536,7 @@ les	le	DET
 membres	membre	NOUN
 de	de	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 scientifique	scientifique	ADJ
 et	et	CCONJ
 devenaient	devenir	VERB
@@ -3562,13 +3562,13 @@ dans	dans	ADP
 une	un	DET
 salle	salle	NOUN
 du	du	ADP_DET
-Tribunal	Tribunal	NOUN
+tribunal	tribunal	NOUN
 fédéral	fédéral	ADJ
 où	où	PRON
 se	se	PRON
 tenait	tenir	VERB
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 si	si	SCONJ
@@ -3620,7 +3620,7 @@ le	le	DET
 CERN	CERN	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ici	ici	ADV
+ici	ici	ADV
 nous	nous	PRON
 laisserons	laisser	VERB
 la	le	DET
@@ -3629,7 +3629,7 @@ parole	parole	NOUN
 Raoul	Raoul	PROPN
 Dautry	Dautry	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 an	an	NOUN
 après	après	ADP
 la	le	DET
@@ -3654,7 +3654,7 @@ destiné	destiner	VERB
 au	au	ADP_DET
 journal	journal	NOUN
 l'	le	DET
-Activité	Activité	NOUN
+activité	activité	NOUN
 nationale	national	ADJ
 et	et	CCONJ
 internationale	international	ADJ
@@ -3692,7 +3692,7 @@ du	du	ADP_DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Itinéraire	itinéraire	NOUN
+itinéraire	itinéraire	NOUN
 de	de	ADP
 une	un	DET
 idée	idée	NOUN
@@ -3704,7 +3704,7 @@ les	le	DET
 cheminements	cheminement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Vers	vers	ADP
+vers	vers	ADP
 un	un	DET
 fonds	fond	NOUN
 européen	européen	ADJ
@@ -3755,7 +3755,7 @@ ces	ce	DET
 dernières	dernier	ADJ
 années	année	NOUN
 .	.	PUNCTsent
-Notamment	notamment	ADV
+notamment	notamment	ADV
 ,	,	PUNCTclause
 en	en	ADP
 août	août	NOUN
@@ -3791,7 +3791,7 @@ pouvait	pouvoir	VERB
 être	être	AUX
 créé	créer	VERB
 un	un	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 international	international	ADJ
 de	de	ADP
 recherches	recherche	NOUN
@@ -3804,7 +3804,7 @@ ce	ce	PRON
 est	être	AUX
 à	à	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 européenne	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -3824,7 +3824,7 @@ sous	sous	ADP
 les	le	DET
 auspices	auspice	NOUN
 du	du	ADP_DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 que	que	SCONJ
 il	il	PRON
@@ -3843,15 +3843,15 @@ toute	toute	DET
 son	son	NOUN
 étendue	étendre	VERB
 .	.	PUNCTsent
-Préparée	préparer	VERB
+préparée	préparer	VERB
 par	par	ADP
 le	le	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 pour	pour	ADP
 un	un	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -3880,7 +3880,7 @@ de	de	ADP
 Madariaga	Madariaga	PROPN
 ,	,	PUNCTclause
 cette	ce	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 groupa	grouper	VERB
 170	170	NUM
 délégués	délégué	NOUN
@@ -3889,7 +3889,7 @@ représentant	représenter	VERB
 pays	pays	NOUN
 européens	européen	ADJ
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 important	important	ADJ
 message	message	NOUN
 de	de	ADP
@@ -3907,12 +3907,12 @@ la	le	DET
 lecture	lecture	NOUN
 de	de	ADP
 un	un	DET
-Rapport	Rapport	NOUN
+rapport	rapport	NOUN
 général	général	ADJ
 préparé	préparer	VERB
 par	par	ADP
 le	le	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 qui	qui	PRON
@@ -3946,11 +3946,11 @@ nationales	national	ADJ
 que	que	SCONJ
 privées	privé	ADJ
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 débats	débat	NOUN
 conduisirent	conduire	VERB
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 des	un	ADP_DET
 institutions	institution	NOUN
 européennes	européen	ADJ
@@ -4074,7 +4074,7 @@ et	et	CCONJ
 d'ailleurs	d'ailleurs	ADV
 et	et	CCONJ
 aux	au	ADP_DET
-Écoles	Écoles	NOUN
+écoles	école	NOUN
 de	de	ADP
 physique	physique	NOUN
 de	de	ADP
@@ -4102,7 +4102,7 @@ relativement	relativement	ADV
 faible	faible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 conclusion	conclusion	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -4119,12 +4119,12 @@ résolutions	résolution	NOUN
 prises	priser	VERB
 par	par	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-La	le	DET
-Conférence	Conférence	NOUN
+la	le	DET
+conférence	conférence	NOUN
 européenne	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -4311,7 +4311,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comme	comme	ADP
+comme	comme	ADP
 application	application	NOUN
 caractéristique	caractéristique	ADJ
 des	un	ADP_DET
@@ -4323,7 +4323,7 @@ présente	présent	ADJ
 résolution	résolution	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 propose	proposer	VERB
 de	de	ADP
 mettre	mettre	VERB
@@ -4334,7 +4334,7 @@ la	le	DET
 création	création	NOUN
 de	de	ADP
 un	un	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 de	de	ADP
 science	science	NOUN
 nucléaire	nucléaire	ADJ
@@ -4359,7 +4359,7 @@ depuis	depuis	ADP
 décembre	décembre	NOUN
 1949	1949	NUM
 .	.	PUNCTsent
-Comment	comment	ADV
+comment	comment	ADV
 depuis	depuis	ADV
 a	avoir	AUX
 elle	elle	PRON
@@ -4375,7 +4375,7 @@ des	un	ADP_DET
 différents	différent	ADJ
 pays	pays	NOUN
 ?	?	PUNCTsent
-Des	un	DET
+des	un	DET
 contacts	contact	NOUN
 avec	avec	ADP
 l'	le	DET
@@ -4417,7 +4417,7 @@ sciences naturelles	sciences naturelles	NOUN
 et	et	CCONJ
 exactes	exact	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 résultat	résultat	NOUN
 en	en	ADP
 fut	être	AUX
@@ -4452,7 +4452,7 @@ américaine	américain	ADJ
 ,	,	PUNCTclause
 devant	devant	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 du	du	ADP_DET
 programme	programme	NOUN
 et	et	CCONJ
@@ -4460,7 +4460,7 @@ du	du	ADP_DET
 budget	budget	NOUN
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 générale	général	ADJ
 de	de	ADP
 l'	le	DET
@@ -4516,8 +4516,8 @@ saurait	savoir	VERB
 suffire	suffire	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-La	le	DET
-Commission	Commission	NOUN
+la	le	DET
+commission	commission	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 approuvant	approuver	VERB
@@ -4568,7 +4568,7 @@ centres	centre	NOUN
 déjà	déjà	ADV
 existants	existant	ADJ
 .	.	PUNCTsent
-Parmi	parmi	ADP
+parmi	parmi	ADP
 les	le	DET
 centres	centre	NOUN
 prévus	prévoir	VERB
@@ -4591,7 +4591,7 @@ occidentale	occidental	ADJ
 de	de	ADP
 un	un	DET
 «	«	PUNCTclause
-Centre	Centre	NOUN
+centre	centre	NOUN
 de	de	ADP
 recherche	recherche	NOUN
 pour	pour	ADP
@@ -4622,7 +4622,7 @@ organisateur	organisateur	NOUN
 éventuel	éventuel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ensuite	ensuite	ADV
+ensuite	ensuite	ADV
 ,	,	PUNCTclause
 le	le	DET
 19	19	NUM
@@ -4630,7 +4630,7 @@ août	août	NOUN
 dernier	dernier	ADJ
 ,	,	PUNCTclause
 le	le	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 économique	économique	ADJ
 et	et	CCONJ
 social	social	ADJ
@@ -4654,7 +4654,7 @@ laboratoires	laboratoire	NOUN
 de	de	ADP
 recherche scientifique	recherche scientifique	NOUN
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 résolution	résolution	NOUN
 présentée	présenter	VERB
 par	par	ADP
@@ -4692,7 +4692,7 @@ laboratoires	laboratoire	NOUN
 internationaux	international	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 M.	M.	NOUN
 Torrès-Bodet	Torrès-Bodet	PROPN
@@ -4759,7 +4759,7 @@ de	de	ADP
 nations	nation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-On	on	PRON
+on	on	PRON
 le	le_PRON	PRON
 voit	voir	VERB
 ,	,	PUNCTclause
@@ -4829,10 +4829,10 @@ aller	aller	VERB
 vite	vite	ADV
 ,	,	PUNCTclause
 le	le	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 supérieur	supérieur	ADJ
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -4873,7 +4873,7 @@ ses	son	DET
 discussions	discussion	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Puisque	puisque	SCONJ
+puisque	puisque	SCONJ
 la	le	DET
 recherche scientifique	recherche scientifique	NOUN
 a	avoir	AUX
@@ -4945,21 +4945,21 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-R.	R.	PROPN
+R.	R.	NOUN
 Dautry	Dautry	PROPN
-Vice-président	Vice-président	PROPN
+vice-président	vice-président	UNKNOWN
 du	du	ADP_DET
 conseil	conseil	NOUN
 de	de	ADP
 direction	direction	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
 culture	culture	NOUN
 ↵↵	↵↵	PUNCTstruct
-Itinéraire	itinéraire	NOUN
+itinéraire	itinéraire	NOUN
 de	de	ADP
 une	un	DET
 idée	idée	NOUN
@@ -4968,11 +4968,11 @@ III	III	NUM
 )	)	PUNCTclause
 :	:	PUNCTclause
 l'	le	DET
-Acte	Acte	PROPN
+acte	acte	UNKNOWN
 créateur	créateur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 erreurs	erreur	NOUN
 si	si	ADV
 fréquentes	fréquent	ADJ
@@ -4998,7 +4998,7 @@ du	du	ADP_DET
 décembre	décembre	NOUN
 1950	1950	NUM
 au	au	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -5032,7 +5032,7 @@ pauvrement	pauvrement	ADV
 dotée	doter	VERB
 par	par	ADP
 le	le	DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 et	et	CCONJ
 quatre	quatre	NUM
@@ -5041,7 +5041,7 @@ cinq	cinq	NUM
 seulement	seulement	ADV
 des	un	DET
 quatorze	quatorze	NUM
-États	États	NOUN
+états	état	NOUN
 membres	membre	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -5049,13 +5049,13 @@ ce	ce	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 apparaît	apparaître	VERB
 donc	donc	ADV
 opportun	opportun	ADJ
@@ -5073,7 +5073,7 @@ du	du	ADP_DET
 CERN	CERN	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 réunion	réunion	NOUN
 du	du	ADP_DET
 12	12	NUM
@@ -5082,16 +5082,16 @@ décembre	décembre	NOUN
 au	au	ADP_DET
 		TOKEN
 :	:	PUNCTclause
-Résolution	Résolution	NOUN
+résolution	résolution	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
-Commission	Commission	NOUN
+la	le	DET
+commission	commission	NOUN
 de	de	ADP
 coopération	coopération	NOUN
 scientifique	scientifique	ADJ
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -5114,7 +5114,7 @@ décembre	décembre	NOUN
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -5126,7 +5126,7 @@ la	le	DET
 résolution	résolution	NOUN
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 européenne	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -5153,7 +5153,7 @@ n°	n°	SYM
 2.21	2.21	NUM
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 générale	général	ADJ
 de	de	ADP
 l'	le	DET
@@ -5171,7 +5171,7 @@ vu	voir	VERB
 la	le	DET
 résolution	résolution	NOUN
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 économique	économique	ADJ
 et	et	CCONJ
 social	social	ADJ
@@ -5203,7 +5203,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 et	et	CCONJ
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -5239,7 +5239,7 @@ particules	particule	NOUN
 élémentaires	élémentaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 puissance	puissance	NOUN
 de	de	ADP
 cet	ce	DET
@@ -5275,7 +5275,7 @@ de	de	ADP
 ce	ce	DET
 laboratoire	laboratoire	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 fonds	fondre	VERB
 serait	être	AUX
 alimenté	alimenter	VERB
@@ -5284,7 +5284,7 @@ par	par	ADP
 les	le	DET
 cotisations	cotisation	NOUN
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 fondateurs	fondateur	ADJ
 ,	,	PUNCTclause
 selon	selon	ADP
@@ -5344,7 +5344,7 @@ que	que	SCONJ
 proximité	proximité	NOUN
 de	de	ADP
 un	un	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 important	important	ADJ
 de	de	ADP
 recherches	recherche	NOUN
@@ -5408,11 +5408,11 @@ suivantes	suivant	ADJ
 —	—	PUNCTclause
 1951	1951	NUM
 .	.	PUNCTsent
-Études	étude	NOUN
+études	étude	NOUN
 préparatoires	préparatoire	ADJ
 par	par	ADP
 un	un	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 ;	;	PUNCTclause
@@ -5421,7 +5421,7 @@ de	de	ADP
 1952	1952	NUM
 -1955	-1955	NUM
 .	.	PUNCTsent
-Construction	construction	NOUN
+construction	construction	NOUN
 du	du	ADP_DET
 grand	grand	ADJ
 appareil	appareil	NOUN
@@ -5453,7 +5453,7 @@ UNESCO	UNESCO	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 un	un	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 chargé	charger	VERB
@@ -5476,7 +5476,7 @@ technique	technique	ADJ
 et	et	CCONJ
 administrative	administratif	ADJ
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 f	f	NOUN
@@ -5487,7 +5487,7 @@ dès	dès	ADP
 à présent	à présent	ADV
 de	de	ADP
 un	un	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 de	de	ADP
 formation	formation	NOUN
 de	de	ADP
@@ -5502,10 +5502,10 @@ section	section	NOUN
 théorique	théorique	ADJ
 indispensable	indispensable	ADJ
 au	au	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Genève	Genève	PROPN
+Genève	Genève	NOUN
 ,	,	PUNCTclause
 le	le	DET
 12	12	NUM
@@ -5513,7 +5513,7 @@ décembre	décembre	NOUN
 1950	1950	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Compte	compte	NOUN
+compte	compte	NOUN
 rendu	rendre	VERB
 analytique	analytique	ADJ
 de	de	ADP
@@ -5527,7 +5527,7 @@ décembre	décembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 résolution	résolution	NOUN
 ci-jointe	ci-joint	ADJ
 a	avoir	AUX
@@ -5545,7 +5545,7 @@ décembre	décembre	NOUN
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -5553,12 +5553,12 @@ culture	culture	NOUN
 ,	,	PUNCTclause
 par	par	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 de	de	ADP
 coopération	coopération	NOUN
 scientifique	scientifique	ADJ
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 ,	,	PUNCTclause
 groupant	grouper	VERB
 les	le	DET
@@ -5566,7 +5566,7 @@ personnalités	personnalité	NOUN
 suivantes	suivant	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Étaient	être	AUX
+étaient	être	AUX
 présents	présent	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -5577,7 +5577,7 @@ Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
 directeur	directeur	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -5595,7 +5595,7 @@ France	France	PROPN
 ,	,	PUNCTclause
 directeur	directeur	NOUN
 du	du	ADP_DET
-Département	Département	NOUN
+département	département	NOUN
 des	un	ADP_DET
 sciences exactes	sciences exactes	NOUN
 et	et	CCONJ
@@ -5605,7 +5605,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 ;	;	PUNCTclause
 Paul	Paul	PROPN
-Capron	Capron	PROPN
+capron	capron	UNKNOWN
 (	(	PUNCTclause
 Belgique	Belgique	PROPN
 )	)	PUNCTclause
@@ -5613,11 +5613,11 @@ Belgique	Belgique	PROPN
 vice-président	vice-président	NOUN
 de	de	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 scientifique	scientifique	ADJ
 de	de	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 interuniversitaire	interuniversitaire	ADJ
 de	de	ADP
 physique	physique	NOUN
@@ -5632,7 +5632,7 @@ Italie	Italie	PROPN
 professeur	professeur	NOUN
 à	à	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 de	de	ADP
 Rome	Rome	PROPN
 ,	,	PUNCTclause
@@ -5656,7 +5656,7 @@ Pays-Bas	Pays-Bas	PROPN
 président	président	NOUN
 de	de	ADP
 l'	le	DET
-Union	Union	NOUN
+union	union	NOUN
 internationale	international	ADJ
 de	de	ADP
 physique	physique	NOUN
@@ -5681,12 +5681,12 @@ Randers	Randers	PROPN
 Norvège	Norvège	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-Institutt	Institutt	PROPN
+Institutt	Institutt	X
 for	for	NOUN
 Atomenergi	Atomenergi	PROPN
 ;	;	PUNCTclause
 Mario	Mario	PROPN
-Rollier	Rollier	PROPN
+rollier	rollier	UNKNOWN
 (	(	PUNCTclause
 Italie	Italie	PROPN
 )	)	PUNCTclause
@@ -5713,11 +5713,11 @@ Belgique	Belgique	PROPN
 président	président	NOUN
 de	de	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 scientifique	scientifique	ADJ
 de	de	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 interuniversitaire	interuniversitaire	ADJ
 de	de	ADP
 physique	physique	NOUN
@@ -5739,9 +5739,9 @@ Amaldi	Amaldi	PROPN
 Italie	Italie	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-Centro	Centro	PROPN
+Centro	Centro	X
 di	di	X
-Studi	Studi	PROPN
+Studi	Studi	X
 per	per	VERB
 la	le	DET
 Fisica	Fisica	PROPN
@@ -5794,7 +5794,7 @@ France	France	PROPN
 ,	,	PUNCTclause
 administrateur général	administrateur général	NOUN
 du	du	ADP_DET
-Commissariat	Commissariat	NOUN
+commissariat	commissariat	NOUN
 à	à	ADP
 l'	le	DET
 énergie	énergie	NOUN
@@ -5807,7 +5807,7 @@ France	France	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 du	du	ADP_DET
-Commissariat	Commissariat	PROPN
+commissariat	commissariat	UNKNOWN
 à	à	ADP
 l'	le	DET
 énergie	énergie	NOUN
@@ -5830,7 +5830,7 @@ physique	physique	NOUN
 théorique	théorique	ADJ
 à	à	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 de	de	ADP
 Goettingen	Goettingen	PROPN
 ;	;	PUNCTclause
@@ -5846,7 +5846,7 @@ physique	physique	NOUN
 théorique	théorique	ADJ
 à	à	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 de	de	ADP
 Louvain	Louvain	PROPN
 ;	;	PUNCTclause
@@ -5859,7 +5859,7 @@ Suisse	Suisse	PROPN
 professeur	professeur	NOUN
 à	à	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 de	de	ADP
 physique	physique	NOUN
 de	de	ADP
@@ -5869,7 +5869,7 @@ fédérale	fédéral	ADJ
 à	à	ADP
 Zurich	Zurich	PROPN
 ;	;	PUNCTclause
-Manne	Manne	PROPN
+manne	manne	UNKNOWN
 Siegbahn	Siegbahn	PROPN
 (	(	PUNCTclause
 Suède	Suède	PROPN
@@ -5877,7 +5877,7 @@ Suède	Suède	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 Nobel	Nobel	PROPN
 de	de	ADP
 physique	physique	NOUN
@@ -5893,7 +5893,7 @@ Suède	Suède	PROPN
 professeur	professeur	NOUN
 à	à	ADP
 l'	le	DET
-Université	Université	NOUN
+université	université	NOUN
 de	de	ADP
 Upsala	Upsala	PROPN
 ;	;	PUNCTclause
@@ -5905,7 +5905,7 @@ Belgique	Belgique	PROPN
 ,	,	PUNCTclause
 directeur	directeur	NOUN
 du	du	ADP_DET
-Fonds	Fonds	NOUN
+fonds	fond	NOUN
 national	national	ADJ
 de	de	ADP
 la	le	DET
@@ -5914,7 +5914,7 @@ recherche scientifique	recherche scientifique	NOUN
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 objections	objection	NOUN
 parfois	parfois	ADV
 formulées	formuler	VERB
@@ -5964,7 +5964,7 @@ américain	américain	ADJ
 le	le	DET
 prof	prof	NOUN
 .	.	PUNCTsent
-Rabi	Rabi	PROPN
+Rabi	Rabi	NOUN
 ,	,	PUNCTclause
 prix Nobel	prix Nobel	NOUN
 de	de	ADP
@@ -5972,7 +5972,7 @@ physique	physique	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 générale	général	ADJ
 de	de	ADP
 l'	le	DET
@@ -6001,7 +6001,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Cette	ce	DET
+cette	ce	DET
 résolution	résolution	NOUN
 précise	préciser	VERB
 que	que	SCONJ
@@ -6076,7 +6076,7 @@ par	par	ADP
 l'un	l'un	PRON
 quelconque	quelconque	ADJ
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 de	de	ADP
 la	le	DET
 région	région	NOUN
@@ -6150,7 +6150,7 @@ entretien	entretien	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 cette	ce	DET
 conférence	conférence	NOUN
 de	de	ADP
@@ -6159,7 +6159,7 @@ Florence	Florence	PROPN
 le	le	DET
 prof	prof	NOUN
 .	.	PUNCTsent
-Rabi	Rabi	PROPN
+Rabi	Rabi	VERB
 avait	avoir	AUX
 précisé	préciser	VERB
 oralement	oralement	ADV
@@ -6175,7 +6175,7 @@ la	le	DET
 création	création	NOUN
 de	de	ADP
 un	un	DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 de	de	ADP
 physique	physique	NOUN
 nucléaire	nucléaire	ADJ
@@ -6189,7 +6189,7 @@ haute	haut	ADJ
 énergie	énergie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Néanmoins	néanmoins	ADV
+néanmoins	néanmoins	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 l'	le	DET
@@ -6243,7 +6243,7 @@ des	un	ADP_DET
 résultats	résultat	NOUN
 obtenus	obtenir	VERB
 au	au	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 c	c	PRON
@@ -6264,7 +6264,7 @@ la	le	DET
 réunion	réunion	NOUN
 de	de	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 comme	comme	ADP
 représentant	représentant	NOUN
 officiel	officiel	ADJ
@@ -6290,7 +6290,7 @@ des	un	DET
 conseils	conseil	NOUN
 de	de	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
@@ -6308,7 +6308,7 @@ l'	le	DET
 UNESCO	UNESCO	PROPN
 et	et	CCONJ
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -6329,11 +6329,11 @@ la	le	DET
 résolution	résolution	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 le	le	DET
 programme	programme	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ,	,	PUNCTclause
 M.	M.	NOUN
 Auger	Auger	PROPN
@@ -6346,7 +6346,7 @@ réunion	réunion	NOUN
 de	de	ADP
 physiciens	physicien	NOUN
 à	à	ADP
-Oxford	Oxford	PROPN
+oxford	oxford	UNKNOWN
 ,	,	PUNCTclause
 deux	deux	NUM
 tendances	tendance	NOUN
@@ -6401,7 +6401,7 @@ grouper	grouper	VERB
 autour	autour	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Selon	selon	ADP
+selon	selon	ADP
 la	le	DET
 commission	commission	NOUN
 ,	,	PUNCTclause
@@ -6429,7 +6429,7 @@ de	de	DET
 intérêt	intérêt	NOUN
 scientifique	scientifique	ADJ
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 des	un	ADP_DET
 savants	savant	NOUN
 participants	participant	ADJ
@@ -6465,7 +6465,7 @@ actuellement	actuellement	ADV
 prévu	prévoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 durée	durée	NOUN
 de	de	ADP
 construction	construction	NOUN
@@ -6478,7 +6478,7 @@ est	être	AUX
 trois	trois	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 travail	travail	NOUN
 devrait	devoir	VERB
 donc	donc	ADV
@@ -6576,7 +6576,7 @@ aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Les	le	DET
+les	le	DET
 premiers	premier	ADJ
 calculs	calcul	NOUN
 ont	avoir	AUX
@@ -6677,7 +6677,7 @@ plus	plus	ADV
 en outre	en outre	ADV
 ,	,	PUNCTclause
 M.	M.	NOUN
-Capron	Capron	PROPN
+capron	capron	UNKNOWN
 ,	,	PUNCTclause
 rappelant	rappeler	VERB
 que	que	SCONJ
@@ -6726,7 +6726,7 @@ pour	pour	ADP
 obtenir	obtenir	VERB
 pour	pour	ADP
 le	le	DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 une	un	DET
 première	premier	ADJ
 mise	mise	NOUN
@@ -6778,7 +6778,7 @@ la	le	DET
 résolution	résolution	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 discutant	discuter	VERB
 le	le	DET
 choix	choix	NOUN
@@ -6787,7 +6787,7 @@ un	un	DET
 emplacement	emplacement	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 a	avoir	AUX
 été	être	AUX
 d'accord	d'accord	ADV
@@ -6876,7 +6876,7 @@ que	que	PRON
 ont	avoir	AUX
 eues	avoir	VERB
 les	le	DET
-Canadiens	Canadiens	NOUN
+canadiens	canadien	NOUN
 à	à	ADP
 attirer	attirer	VERB
 du	du	DET
@@ -6905,11 +6905,11 @@ toute	toute	DET
 agglomération	agglomération	NOUN
 importante	important	ADJ
 .	.	PUNCTsent
-Par	par	ADP
+par	par	ADP
 contre	contre	NOUN
 ,	,	PUNCTclause
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 a	avoir	AUX
 estimé	estimer	VERB
 que	que	SCONJ
@@ -6952,7 +6952,7 @@ de	de	ADP
 une	un	DET
 frontière	frontière	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 tel	tel	PRON
 emplacement	emplacement	NOUN
 faciliterait	faciliter	VERB
@@ -6963,7 +6963,7 @@ par	par	ADP
 les	le	DET
 gouvernements	gouvernement	NOUN
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -6974,7 +6974,7 @@ statut	statut	NOUN
 de	de	ADP
 exterritorialité	exterritorialité	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 été	être	AUX
 précisé	préciser	VERB
@@ -7018,7 +7018,7 @@ puisque	puisque	SCONJ
 dans	dans	ADP
 un	un	DET
 tel	tel	PRON
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ,	,	PUNCTclause
 en	en	ADP
 moyenne	moyenne	NOUN
@@ -7078,7 +7078,7 @@ accroître	accroître	VERB
 la	le	DET
 superficie	superficie	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	NOUN
+laboratoire	laboratoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 6	6	NUM
@@ -7092,12 +7092,12 @@ la	le	DET
 résolution	résolution	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 estimé	estimer	VERB
 que	que	SCONJ
 le	le	DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 permettra	permettre	VERB
 de	de	ADP
 premières	premier	ADJ
@@ -7116,7 +7116,7 @@ grand	grand	ADJ
 appareil	appareil	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pour	pour	ADP
+pour	pour	ADP
 l'	le	DET
 équipement	équipement	NOUN
 en	en	ADP
@@ -7139,7 +7139,7 @@ disposée	disposer	VERB
 à	à	ADP
 céder	céder	VERB
 au	au	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 le	le	DET
 cyclotron	cyclotron	NOUN
 de	de	ADP
@@ -7174,7 +7174,7 @@ expériences	expérience	NOUN
 ↵↵	↵↵	PUNCTstruct
 7	7	NUM
 .	.	PUNCTsent
-Concernant	concernant	ADP
+concernant	concernant	ADP
 le	le	DET
 développement	développement	NOUN
 parallèle	parallèle	ADJ
@@ -7198,14 +7198,14 @@ sur	sur	ADP
 cet	ce	DET
 instrument	instrument	NOUN
 le	le	DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 envisagé	envisagé	ADJ
 ont	avoir	AUX
 été	être	AUX
 évoqués	évoquer	VERB
 par	par	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 M.	M.	PUNCT
@@ -7233,14 +7233,14 @@ pour	pour	ADP
 la	le	DET
 création	création	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 que	que	SCONJ
 un	un	DET
 tel	tel	PRON
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 soit	être	AUX
 moins	moins	ADV
 utile	utile	ADJ
@@ -7274,7 +7274,7 @@ de	de	ADP
 leurs	leur	DET
 chercheurs	chercheur	NOUN
 au	au	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 envisagé	envisager	VERB
 ,	,	PUNCTclause
 non seulement	non seulement	ADV
@@ -7310,16 +7310,16 @@ talents	talent	NOUN
 inemployés	inemployé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 résumé	résumer	VERB
 ,	,	PUNCTclause
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 constate	constater	VERB
 que	que	SCONJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 patent	patent	ADJ
 que	que	SCONJ
@@ -7355,7 +7355,7 @@ pourraient	pouvoir	VERB
 en	en	ADP
 produire	produire	VERB
 .	.	PUNCTsent
-Des	un	ADP_DET
+des	un	ADP_DET
 universités	université	NOUN
 qui	qui	PRON
 pourraient	pouvoir	VERB
@@ -7392,7 +7392,7 @@ et	et	CCONJ
 des	un	DET
 débouchés	débouché	NOUN
 .	.	PUNCTsent
-Ce	ce	DET
+ce	ce	DET
 même	même	ADJ
 manque de	manque de	ADP
 moyens	moyen	NOUN
@@ -7428,7 +7428,7 @@ recherche	recherche	NOUN
 américaine	américain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 ces	ce	DET
 conditions	condition	NOUN
 ,	,	PUNCTclause
@@ -7463,7 +7463,7 @@ les	le	DET
 plus	plus	ADV
 récents	récent	ADJ
 .	.	PUNCTsent
-Après	après	ADP
+après	après	ADP
 un	un	DET
 séjour	séjour	NOUN
 de	de	ADP
@@ -7504,7 +7504,7 @@ propre	propre	ADJ
 pays	pays	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 problème	problème	NOUN
 suivant	suivant	ADJ
 se	se	PRON
@@ -7513,7 +7513,7 @@ ainsi	ainsi	ADV
 posé	poser	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
 renonçait	renoncer	VERB
@@ -7697,8 +7697,8 @@ la	le	DET
 résolution	résolution	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
-Commission	Commission	NOUN
+la	le	DET
+commission	commission	NOUN
 a	avoir	AUX
 donné	donner	VERB
 mandat	mandat	NOUN
@@ -7717,7 +7717,7 @@ M.	M.	NOUN
 Dautry	Dautry	PROPN
 ,	,	PUNCTclause
 un	un	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 qui	qui	PRON
@@ -7727,7 +7727,7 @@ plans	plan	NOUN
 de	de	ADP
 construction	construction	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 et	et	CCONJ
 préparera	préparer	VERB
 son	son	DET
@@ -7735,12 +7735,12 @@ programme	programme	NOUN
 de	de	ADP
 travail	travail	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 entendu	entendre	VERB
 que	que	SCONJ
 ce	ce	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 (	(	PUNCTclause
 trois	trois	NUM
 ou	ou	CCONJ
@@ -7758,7 +7758,7 @@ un	un	DET
 recrutement	recrutement	NOUN
 international	international	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 également	également	ADV
 convenu	convenir	VERB
@@ -7844,7 +7844,7 @@ avril	avril	NOUN
 l'	le	DET
 UNESCO	UNESCO	PROPN
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 réunion	réunion	NOUN
 ,	,	PUNCTclause
 après	après	ADP
@@ -7854,7 +7854,7 @@ plans	plan	NOUN
 préparés	préparer	VERB
 par	par	ADP
 le	le	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 ,	,	PUNCTclause
@@ -7867,11 +7867,11 @@ et	et	CCONJ
 de	de	ADP
 financement	financement	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
-Commission	Commission	NOUN
+la	le	DET
+commission	commission	NOUN
 ,	,	PUNCTclause
 après	après	ADP
 avoir	avoir	AUX
@@ -7919,10 +7919,10 @@ pays	pays	NOUN
 suivants	suivant	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Allemagne	Allemagne	PROPN
+Allemagne	Allemagne	VERB
 de	de	ADP
 l'	le	DET
-Ouest	Ouest	NOUN
+ouest	ouest	NOUN
 —	—	PUNCTclause
 Autriche	Autriche	PROPN
 —	—	PUNCTclause
@@ -7975,7 +7975,7 @@ diriger	diriger	VERB
 les	le	DET
 recherches	recherche	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -8005,7 +8005,7 @@ théoriciens	théoricien	NOUN
 qui	qui	PRON
 équiperont	équiper	VERB
 le	le	DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 lorsque	lorsque	SCONJ
 il	il	PRON
 sera	être	AUX
@@ -8015,8 +8015,8 @@ fonctionner	fonctionner	VERB
 ↵↵	↵↵	PUNCTstruct
 11	11	NUM
 .	.	PUNCTsent
-La	le	DET
-Commission	Commission	NOUN
+la	le	DET
+commission	commission	NOUN
 a	avoir	AUX
 entendu	entendre	VERB
 une	un	DET
@@ -8090,7 +8090,7 @@ professeurs	professeur	NOUN
 visitants	visitants	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 cours	cours	NOUN
 orientés	orienter	VERB
 dans	dans	ADP
@@ -8144,7 +8144,7 @@ Californie	Californie	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 entendu	entendre	VERB
 que	que	SCONJ
@@ -8171,8 +8171,8 @@ dès	dès	ADP
 ↵↵	↵↵	PUNCTstruct
 12	12	NUM
 .	.	PUNCTsent
-La	le	DET
-Commission	Commission	NOUN
+la	le	DET
+commission	commission	NOUN
 se	se	PRON
 réunira	réunir	VERB
 à nouveau	à nouveau	ADV
@@ -8193,7 +8193,7 @@ plans	plan	NOUN
 élaborés	élaborer	VERB
 par	par	ADP
 le	le	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 de	de	ADP
 études	étude	NOUN
 et	et	CCONJ
@@ -8202,17 +8202,17 @@ le	le	DET
 directeur	directeur	NOUN
 de	de	ADP
 ce	ce	DET
-Bureau	Bureau	NOUN
+bureau	bureau	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Genève	Genève	PROPN
+Genève	Genève	NOUN
 ,	,	PUNCTclause
 le	le	DET
 18	18	NUM
 décembre	décembre	NOUN
 1950	1950	NUM
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 chef	chef	NOUN
 du	du	ADP_DET
 département	département	NOUN
@@ -8225,7 +8225,7 @@ Jean-Paul	Jean-Paul	PROPN
 de	de	ADP
 Dadelsen	Dadelsen	PROPN
 ↵↵	↵↵	PUNCTstruct
-Itinéraire	itinéraire	NOUN
+itinéraire	itinéraire	NOUN
 de	de	ADP
 une	un	DET
 idée	idée	NOUN
@@ -8233,10 +8233,10 @@ idée	idée	NOUN
 IV	IV	NUM
 )	)	PUNCTclause
 :	:	PUNCTclause
-Étapes	Étapes	PROPN
+étapes	étape	UNKNOWN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dès	dès	ADP
+dès	dès	ADP
 l'	le	DET
 été	été	NOUN
 1951	1951	NUM
@@ -8260,7 +8260,7 @@ gouvernements	gouvernement	NOUN
 européens	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Une	un	DET
+une	un	DET
 série	série	NOUN
 de	de	ADP
 colloques	colloque	NOUN
@@ -8293,7 +8293,7 @@ le	le	DET
 Danemark	Danemark	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 site	site	NOUN
 de	de	ADP
 Meyrin	Meyrin	PROPN
@@ -8309,18 +8309,18 @@ celui	celui	PRON
 que	que	PRON
 souhaitait	souhaiter	VERB
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 scientifique	scientifique	ADJ
 du	du	ADP_DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 choix	choix	NOUN
 du	du	ADP_DET
 site	site	NOUN
 ↵↵	↵↵	PUNCTstruct
-Si	si	SCONJ
+si	si	SCONJ
 l'on	on	PRON
 se	se	PRON
 reporte	reporter	VERB
@@ -8390,7 +8390,7 @@ c	c	NOUN
 et	et	CCONJ
 d.	d.	DET
 ↵↵	↵↵	PUNCTstruct
-De	de	ADP
+de	de	ADP
 fait	fait	NOUN
 ,	,	PUNCTclause
 au cours de	au cours de	ADP
@@ -8423,7 +8423,7 @@ la	le	DET
 table	table	NOUN
 de	de	ADP
 la	le	DET
-Commission	Commission	NOUN
+commission	commission	NOUN
 :	:	PUNCTclause
 deux	deux	NUM
 longs	long	ADJ
@@ -8484,7 +8484,7 @@ Super-CERN	Super-CERN	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Seule	seul	ADJ
+seule	seul	ADJ
 ,	,	PUNCTclause
 l'	le	DET
 exterritorialité	exterritorialité	NOUN
@@ -8502,7 +8502,7 @@ printemps	printemps	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-À	à	ADP
+à	à	ADP
 l'	le	DET
 occasion	occasion	NOUN
 du	du	ADP_DET
@@ -8514,7 +8514,7 @@ juillet	juillet	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
-Chambre	Chambre	NOUN
+chambre	chambre	NOUN
 française	français	ADJ
 ,	,	PUNCTclause
 sur	sur	ADP
@@ -8557,16 +8557,16 @@ toute	tout	ADJ
 clarté	clarté	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Voir	voir	VERB
+voir	voir	VERB
 l'	le	DET
-Appendice	Appendice	PROPN
+appendice	appendice	UNKNOWN
 ,	,	PUNCTclause
 p.	p.	PUNCT
 40	40	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 10	10	NUM
 juin	juin	NOUN
 1955	1955	NUM
@@ -8586,7 +8586,7 @@ Petitpierre	Petitpierre	PROPN
 président	président	NOUN
 de	de	ADP
 la	le	DET
-Confédération	Confédération	PROPN
+confédération	confédération	UNKNOWN
 suisse	suisse	ADJ
 —	—	PUNCTclause
 qui	qui	PRON
@@ -8608,7 +8608,7 @@ le	le	DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 16	16	NUM
 août	août	NOUN
 1957	1957	NUM
@@ -8628,7 +8628,7 @@ annoncer	annoncer	VERB
 que	que	SCONJ
 «	«	PUNCTclause
 le	le	DET
-Synchrocyclotron	Synchrocyclotron	PROPN
+synchrocyclotron	synchrocyclotron	UNKNOWN
 ,	,	PUNCTclause
 premier	premier	ADJ
 des	un	ADP_DET
@@ -8639,7 +8639,7 @@ construction	construction	NOUN
 au	au	ADP_DET
 CERN	CERN	PROPN
 (	(	PUNCTclause
-Organisation	Organisation	NOUN
+organisation	organisation	NOUN
 européenne	européen	ADJ
 pour	pour	ADP
 la	le	DET
@@ -8664,7 +8664,7 @@ son	son	DET
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Fin	fin	NOUN
+fin	fin	NOUN
 1959	1959	NUM
 ,	,	PUNCTclause
 un	un	DET
@@ -8701,20 +8701,20 @@ expérimentaux	expérimental	ADJ
 intéressants	intéressant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 19	19	NUM
 février	février	NOUN
 1971	1971	NUM
 ,	,	PUNCTclause
 le	le	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 du	du	ADP_DET
 CERN	CERN	NOUN
 adopte	adopter	VERB
 le	le	DET
 programme	programme	NOUN
 du	du	ADP_DET
-Laboratoire	Laboratoire	PROPN
+laboratoire	laboratoire	UNKNOWN
 II	II	NUM
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -8758,7 +8758,7 @@ de	de	ADP
 Super-CERN	Super-CERN	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-En	en	ADP
+en	en	ADP
 1975	1975	NUM
 ,	,	PUNCTclause
 les	le	DET
@@ -8769,7 +8769,7 @@ en	en	ADP
 fonction	fonction	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Itinéraire	itinéraire	NOUN
+itinéraire	itinéraire	NOUN
 de	de	ADP
 une	un	DET
 idée	idée	NOUN
@@ -8782,9 +8782,9 @@ regard	regard	NOUN
 en arrière	en arrière	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Lors	lors	ADV
+lors	lors	ADV
 du	du	ADP_DET
-Colloque	Colloque	NOUN
+colloque	colloque	NOUN
 marquant	marquer	VERB
 le	le	DET
 20e	20e	ADJ
@@ -8841,7 +8841,7 @@ du	du	ADP_DET
 CERN	CERN	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 ne	ne	ADV
 sera	être	AUX
 pas	pas	ADV
@@ -8864,7 +8864,7 @@ plus	plus	ADV
 haut	haut	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Discours	discours	NOUN
+discours	discours	NOUN
 de	de	ADP
 M.	M.	NOUN
 Pierre	Pierre	PROPN
@@ -8924,7 +8924,7 @@ proprement dite	proprement dite	ADV
 le	le	DET
 développement	développement	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
@@ -8940,7 +8940,7 @@ du	du	ADP_DET
 CERN	CERN	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-Organisation	Organisation	NOUN
+organisation	organisation	NOUN
 européenne	européen	ADJ
 de	de	ADP
 recherches	recherche	NOUN
@@ -8953,7 +8953,7 @@ au cours de	au cours de	ADP
 une	un	DET
 réunion	réunion	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -9059,7 +9059,7 @@ des	un	ADP_DET
 nations	nation	NOUN
 participantes	participant	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 faut	falloir	VERB
 remarquer	remarquer	VERB
 ici	ici	ADV
@@ -9092,7 +9092,7 @@ ne	ne	ADV
 étaient	être	AUX
 cités	citer	VERB
 .	.	PUNCTsent
-Plus	plus	ADV
+plus	plus	ADV
 anciennement	anciennement	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
@@ -9109,7 +9109,7 @@ délégation	délégation	NOUN
 française	français	ADJ
 auprès	auprès	ADV
 du	du	ADP_DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 économique	économique	ADJ
 et	et	CCONJ
 social	social	ADJ
@@ -9143,7 +9143,7 @@ budget	budget	NOUN
 de	de	ADP
 celle	celle	PRON
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 justifiait	justifier	VERB
 sa	son	DET
 proposition	proposition	NOUN
@@ -9152,7 +9152,7 @@ ces	ce	DET
 mots	mot	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Le	le	DET
+le	le	DET
 travail	travail	NOUN
 créateur	créateur	NOUN
 en	en	ADP
@@ -9172,7 +9172,7 @@ esprit	esprit	NOUN
 international	international	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
-Une	un	DET
+une	un	DET
 commission	commission	NOUN
 de	de	ADP
 experts	expert	NOUN
@@ -9210,7 +9210,7 @@ devraient	devoir	VERB
 se	se	PRON
 consacrer	consacrer	VERB
 .	.	PUNCTsent
-Finalement	finalement	ADV
+finalement	finalement	ADV
 ,	,	PUNCTclause
 on	on	PRON
 réunit	réunir	VERB
@@ -9238,7 +9238,7 @@ de	de	ADP
 la	le	DET
 recherche	recherche	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 vrai	vrai	ADJ
 que	que	SCONJ
@@ -9258,7 +9258,7 @@ réaliser	réaliser	VERB
 restaient	rester	VERB
 introuvables	introuvable	ADJ
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 résolution	résolution	NOUN
 des	un	ADP_DET
 ONU	ONU	PROPN
@@ -9300,7 +9300,7 @@ aucune	aucun	DET
 réalisation	réalisation	NOUN
 concrète	concret	ADJ
 .	.	PUNCTsent
-Ces	ce	DET
+ces	ce	DET
 idées	idée	NOUN
 ,	,	PUNCTclause
 très	très	ADV
@@ -9358,7 +9358,7 @@ Kramers	Kramers	PROPN
 ,	,	PUNCTclause
 Bakker	Bakker	PROPN
 .	.	PUNCTsent
-Rabi	Rabi	PROPN
+Rabi	Rabi	NOUN
 était	être	AUX
 très	très	ADV
 impressionné	impressionner	VERB
@@ -9385,9 +9385,9 @@ ce	ce	DET
 côté	côté	NOUN
 de	de	ADP
 l'	le	DET
-Atlantique	Atlantique	PROPN
+atlantique	atlantique	UNKNOWN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 de	de	DET
 tels	tel	PRON
 entretiens	entretenir	VERB
@@ -9435,7 +9435,7 @@ telle	tel	DET
 œuvre	œuvre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 alors que	alors que	CCONJ
@@ -9463,7 +9463,7 @@ juin	juin	NOUN
 à	à	ADP
 Florence	Florence	PROPN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 résolution	résolution	NOUN
 2.21	2.21	NUM
 ,	,	PUNCTclause
@@ -9520,7 +9520,7 @@ isolé	isoler	VERB
 serait	être	AUX
 insuffisant	insuffisant	ADJ
 .	.	PUNCTsent
-Dans	dans	ADP
+dans	dans	ADP
 ce	ce	DET
 but	but	NOUN
 ,	,	PUNCTclause
@@ -9615,7 +9615,7 @@ a	avoir	AUX
 il	il	PRON
 dit	dire	VERB
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 avait	avoir	AUX
 soigneusement	soigneusement	ADV
@@ -9636,7 +9636,7 @@ de	de	ADP
 physique	physique	NOUN
 nucléaire	nucléaire	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 telle	tel	DET
 quelle	quel	DET
 ,	,	PUNCTclause
@@ -9653,7 +9653,7 @@ et	et	CCONJ
 comme	comme	ADP
 directeur	directeur	NOUN
 du	du	ADP_DET
-Département	Département	NOUN
+département	département	NOUN
 des	un	ADP_DET
 sciences	science	NOUN
 ,	,	PUNCTclause
@@ -9664,7 +9664,7 @@ de	de	ADP
 la	le	DET
 mise en œuvre	mise en œuvre	NOUN
 .	.	PUNCTsent
-Sans	sans	ADP
+sans	sans	ADP
 argent	argent	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -9674,7 +9674,7 @@ pas	pas	ADV
 très	très	ADV
 facile	facile	ADJ
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 que	que	PRON
 je	je	PRON
 ai	avoir	AUX
@@ -9730,7 +9730,7 @@ idée	idée	NOUN
 comme	comme	ADP
 disent	dire	VERB
 les	le	DET
-Américains	Américains	NOUN
+américains	américain	NOUN
 —	—	PUNCTclause
 et	et	CCONJ
 pour	pour	ADP
@@ -9754,7 +9754,7 @@ que	que	SCONJ
 l'	le	DET
 intervention	intervention	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -9807,7 +9807,7 @@ et	et	CCONJ
 international	international	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 souvenir	souvenir	NOUN
 de	de	ADP
 ces	ce	DET
@@ -9828,7 +9828,7 @@ dans	dans	ADP
 ma	mon	DET
 mémoire	mémoire	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 physiciens	physicien	NOUN
 présents	présent	ADJ
 ,	,	PUNCTclause
@@ -9853,11 +9853,11 @@ statesmen	statesmen	ADJ
 )	)	PUNCTclause
 Randers	Randers	PROPN
 ,	,	PUNCTclause
-Capron	Capron	PROPN
+capron	capron	UNKNOWN
 ,	,	PUNCTclause
 Verhaeghe	Verhaeghe	PROPN
 ,	,	PUNCTclause
-Rollier	Rollier	PROPN
+rollier	rollier	UNKNOWN
 ,	,	PUNCTclause
 constituaient	constituer	VERB
 avec	avec	ADP
@@ -9868,7 +9868,7 @@ de	de	ADP
 coopération	coopération	NOUN
 scientifique	scientifique	ADJ
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -9895,7 +9895,7 @@ enthousiastes	enthousiaste	ADJ
 et	et	CCONJ
 réalistes	réaliste	ADJ
 .	.	PUNCTsent
-Avec	avec	ADP
+avec	avec	ADP
 une	un	DET
 pointe	pointe	NOUN
 de	de	ADP
@@ -9920,7 +9920,7 @@ qui	qui	PRON
 absolument	absolument	ADV
 nouveau	nouveau	ADJ
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 il	il	PRON
 se	se	PRON
 agissait	agir	VERB
@@ -9942,7 +9942,7 @@ particules	particule	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 !	!	PUNCTsent
-Le	le	DET
+le	le	DET
 coût	coût	NOUN
 de	de	ADP
 cet	ce	DET
@@ -9965,7 +9965,7 @@ millions	million	NOUN
 de	de	ADP
 dollars	dollar	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 comparaison	comparaison	NOUN
 de	de	ADP
 ces	ce	DET
@@ -10004,7 +10004,7 @@ une	un	DET
 montagne	montagne	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Dans	dans	ADP
+dans	dans	ADP
 les	le	DET
 documents	document	NOUN
 ,	,	PUNCTclause
@@ -10082,7 +10082,7 @@ choisie	choisir	VERB
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 avait	avoir	AUX
 même	même	ADV
 fixé	fixer	VERB
@@ -10209,7 +10209,7 @@ performance	performance	NOUN
 espérée	espérer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 l'	le	DET
 ambition	ambition	NOUN
 avouée	avouer	VERB
@@ -10287,13 +10287,13 @@ leurs	leur	DET
 efforts	effort	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 réunion	réunion	NOUN
 du	du	ADP_DET
 12	12	NUM
 décembre	décembre	NOUN
 au	au	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -10354,7 +10354,7 @@ hélas	hélas	INTJ
 ,	,	PUNCTclause
 déterminant	déterminer	VERB
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 disposais	disposer	VERB
 de	de	ADP
@@ -10363,12 +10363,12 @@ ressource	ressource	NOUN
 budgétaire	budgétaire	ADJ
 après	après	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 générale	général	ADJ
 de	de	ADP
 Florence	Florence	PROPN
 .	.	PUNCTsent
-Après	après	ADP
+après	après	ADP
 la	le	DET
 réunion	réunion	NOUN
 de	de	ADP
@@ -10423,7 +10423,7 @@ ma	mon	DET
 disposition	disposition	NOUN
 directe	direct	ADJ
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 pus	pouvoir	VERB
 alors	alors	ADV
 constituer	constituer	VERB
@@ -10473,7 +10473,7 @@ Mussard	Mussard	PROPN
 alors	alors	ADV
 dans	dans	ADP
 mon	mon	DET
-Département	Département	NOUN
+département	département	NOUN
 des	un	ADP_DET
 sciences exactes	sciences exactes	NOUN
 et	et	CCONJ
@@ -10500,7 +10500,7 @@ ici	ici	ADV
 ,	,	PUNCTclause
 affectueusement	affectueusement	ADV
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 étapes	étape	NOUN
 qui	qui	PRON
 suivirent	suivre	VERB
@@ -10538,7 +10538,7 @@ préparatoire	préparatoire	ADJ
 fut	être	AUX
 constitué	constituer	VERB
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 signe	signer	VERB
 CERN	CERN	ADV
 ,	,	PUNCTclause
@@ -10547,13 +10547,13 @@ le	le_PRON	PRON
 rappelle	rappeler	VERB
 ,	,	PUNCTclause
 signifiait	signifier	VERB
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 recherches	recherche	NOUN
 nucléaires	nucléaire	ADJ
 .	.	PUNCTsent
-Puis	puis	CCONJ
+puis	puis	CCONJ
 le	le_PRON	PRON
 CERN	CERN	PROPN
 I	I	NUM
@@ -10587,7 +10587,7 @@ tour	tour	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 est	être	AUX
 considéré	considérer	VERB
 comme	comme	ADP
@@ -10600,7 +10600,7 @@ scientifique	scientifique	ADJ
 européenne	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 rappellerai	rappeler	VERB
 pas	pas	ADV
@@ -10617,7 +10617,7 @@ PS	PS	PROPN
 en	en	ADP
 construction	construction	NOUN
 .	.	PUNCTsent
-Choix	choix	NOUN
+choix	choix	NOUN
 de	de	ADP
 site	site	NOUN
 ,	,	PUNCTclause
@@ -10637,7 +10637,7 @@ Genève	Genève	PROPN
 au	au	ADP_DET
 Danemark	Danemark	PROPN
 .	.	PUNCTsent
-Genève	Genève	PROPN
+Genève	Genève	NOUN
 fut	être	AUX
 choisie	choisir	VERB
 et	et	CCONJ
@@ -10684,18 +10684,18 @@ dis	dire	VERB
 au	au	ADP_DET
 conseiller	conseiller	NOUN
 de	de	ADP
-État	État	NOUN
-Picot	Picot	PROPN
+état	état	NOUN
+picot	picot	UNKNOWN
 :	:	PUNCTclause
-Pourquoi	pourquoi	ADV
+pourquoi	pourquoi	ADV
 pas	pas	ADV
 là	là	ADV
 ?	?	PUNCTsent
-Cela	cela	PRON
+cela	cela	PRON
 se	se	PRON
 appelait	appeler	VERB
 :	:	PUNCTclause
-À	à	ADP
+à	à	ADP
 Franchevaux	Franchevaux	PROPN
 ,	,	PUNCTclause
 à	à	ADP
@@ -10707,7 +10707,7 @@ le	le	DET
 cadastre	cadastre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 l'	le	DET
 histoire	histoire	NOUN
 du	du	ADP_DET
@@ -10745,7 +10745,7 @@ non	non	ADV
 gouvernemental	gouvernemental	ADJ
 ,	,	PUNCTclause
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -10793,7 +10793,7 @@ la	le	DET
 culture	culture	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Permettez	permettre	VERB
+permettez	permettre	VERB
 moi	moi	PRON
 maintenant	maintenant	ADV
 de	de	ADP
@@ -10818,7 +10818,7 @@ organisations	organisation	NOUN
 scientifiques	scientifique	ADJ
 européennes	européen	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 en	en	PRON
 existe	exister	VERB
 plusieurs	plusieurs	DET
@@ -10833,7 +10833,7 @@ forme	forme	NOUN
 une	un	DET
 catégorie	catégorie	NOUN
 !	!	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 parle	parler	VERB
 que	que	ADV
@@ -10861,7 +10861,7 @@ programme	programme	NOUN
 opérationnel	opérationnel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 premier	premier	ADJ
 critère	critère	NOUN
 est	être	AUX
@@ -10918,12 +10918,12 @@ du	du	ADP_DET
 groupe	groupe	NOUN
 de	de	ADP
 l'	le	DET
-Est	Est	NOUN
+est	est	NOUN
 de	de	ADP
 Dubna	Dubna	PROPN
 ,	,	PUNCTclause
 etc.	etc.	NOUN
-Le	le	ADP
+le	le	ADP
 second	second	NOUN
 critère	critère	NOUN
 serait	être	AUX
@@ -10953,7 +10953,7 @@ Eldo	Eldo	PROPN
 Euratom	Euratom	PROPN
 respectivement	respectivement	ADV
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ces	ce	DET
 différences	différence	NOUN
 se	se	PRON
@@ -10974,7 +10974,7 @@ et	et	CCONJ
 les	le	DET
 budgets	budget	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 domaines	domaine	NOUN
 couverts	couvert	ADJ
 doivent	devoir	VERB
@@ -11019,7 +11019,7 @@ avec	avec	ADP
 l'	le	DET
 Embo	Embo	PROPN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 me	me	PRON
 risquerai	risquer	VERB
@@ -11032,7 +11032,7 @@ du	du	ADP_DET
 prochain	prochain	ADJ
 essai	essai	NOUN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -11060,7 +11060,7 @@ intérêt	intérêt	NOUN
 assez	assez	ADV
 puissant	puissant	ADJ
 .	.	PUNCTsent
-Là	là	ADV
+là	là	ADV
 aussi	aussi	ADV
 le	le	DET
 sujet	sujet	NOUN
@@ -11099,7 +11099,7 @@ de	de	ADP
 équipes	équipe	NOUN
 multidisciplinaires	multidisciplinaire	ADJ
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 dernier	dernier	ADJ
 point de vue	point de vue	NOUN
 est	être	AUX
@@ -11126,7 +11126,7 @@ calibre	calibre	NOUN
 des	un	ADP_DET
 accélérateurs	accélérateur	NOUN
 .	.	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 l'	le	DET
 espace	espace	NOUN
 ,	,	PUNCTclause
@@ -11159,7 +11159,7 @@ pays	pays	NOUN
 européens	européen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ces	ce	DET
+ces	ce	DET
 considérations	considération	NOUN
 paraissent	paraître	VERB
 raisonnables	raisonnable	ADJ
@@ -11179,7 +11179,7 @@ et	et	CCONJ
 quelques	quelque	DET
 autres	autre	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 je	je	PRON
 ai	avoir	AUX
 pourtant	pourtant	ADV
@@ -11231,7 +11231,7 @@ du	du	ADP_DET
 CERN	CERN	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Vous	vous	PRON
+vous	vous	PRON
 allez	aller	VERB
 enlever	enlever	VERB
 l'	le	DET
@@ -11251,7 +11251,7 @@ chercheurs	chercheur	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 «	«	PUNCTclause
-Tout	tout	PRON
+tout	tout	PRON
 le	le	DET
 budget	budget	NOUN
 passera	passer	VERB
@@ -11294,7 +11294,7 @@ la	le	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
 dans	dans	ADP
 le	le	DET
-Marché	Marché	NOUN
+marché	marché	NOUN
 commun	commun	ADJ
 —	—	PUNCTclause
 et	et	CCONJ
@@ -11316,7 +11316,7 @@ domaine	domaine	NOUN
 des	un	ADP_DET
 sciences	science	NOUN
 .	.	PUNCTsent
-Peut-être	peut-être	ADV
+peut-être	peut-être	ADV
 pas	pas	ADV
 sous	sous	ADP
 la	le	DET
@@ -11353,14 +11353,14 @@ Europe	Europe	PROPN
 —	—	PUNCTclause
 de	de	ADP
 la	le	DET
-Grande	grand	ADJ
+grande	grand	ADJ
 Europe	Europe	PROPN
 —	—	PUNCTclause
 se	se	PRON
 sont	être	AUX
 réunis	réunir	VERB
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 bureau	bureau	NOUN
 européen	européen	ADJ
 va	aller	VERB
@@ -11379,7 +11379,7 @@ services	service	NOUN
 importants	important	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nucléaire	nucléaire	ADJ
+nucléaire	nucléaire	ADJ
 et	et	CCONJ
 européen	européen	ADJ
 ↵↵	↵↵	PUNCTstruct
@@ -11413,7 +11413,7 @@ l'	le	DET
 institut	institut	NOUN
 proposé	proposer	VERB
 .	.	PUNCTsent
-Toutefois	toutefois	ADV
+toutefois	toutefois	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 que	que	SCONJ
@@ -11460,7 +11460,7 @@ la	le	DET
 création	création	NOUN
 de	de	ADP
 un	un	DET
-Institut	Institut	NOUN
+institut	institut	NOUN
 européen	européen	ADJ
 spécialisé	spécialiser	VERB
 de	de	ADP
@@ -11471,11 +11471,11 @@ nucléaires	nucléaire	ADJ
 puis	puis	CCONJ
 à	à	ADP
 la	le	DET
-Résolution	Résolution	NOUN
+résolution	résolution	NOUN
 finale	final	ADJ
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 que	que	SCONJ
 il	il	PRON
 faut	falloir	VERB
@@ -11575,7 +11575,7 @@ en	en	ADP
 avant	avant	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Après	après	ADP
+après	après	ADP
 l'	le	DET
 intervention	intervention	NOUN
 de	de	ADP
@@ -11595,7 +11595,7 @@ Adams	Adams	PROPN
 directeur	directeur	NOUN
 du	du	ADP_DET
 «	«	PUNCTclause
-Super	Super	PROPN
+super	super	UNKNOWN
 CERN	CERN	PROPN
 »	»	PUNCTclause
 et	et	CCONJ
@@ -11609,20 +11609,20 @@ premier	premier	ADJ
 CERN	CERN	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Professor	Professor	PROPN
+Professor	Professor	NOUN
 John	John	PROPN
 Adams	Adams	PROPN
 speech	speech	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I	I	PROPN
+I	I	X
 came	came	NOUN
 along	along	ADJ
 to	to	X
 listen	listen	X
 to	to	X
 Pierre	Pierre	PROPN
-Auger	Auger	PROPN
+Auger	Auger	X
 talk	talk	X
 about	about	NOUN
 the	the	X
@@ -11688,16 +11688,16 @@ Esro	Esro	PROPN
 Eso	Eso	PROPN
 ,	,	PUNCTclause
 the	the	X
-Molecular	Molecular	PROPN
-Biological	Biological	PROPN
-Organization	Organization	PROPN
+Molecular	Molecular	X
+Biological	Biological	X
+Organization	Organization	X
 ,	,	PUNCTclause
 and	and	X
 so	so	X
 on	on	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Of	Of	PROPN
+Of	Of	NOUN
 course	course	NOUN
 ,	,	PUNCTclause
 an	an	NOUN
@@ -11712,7 +11712,7 @@ has	has	X
 to	to	X
 continue	continuer	VERB
 .	.	PUNCTsent
-I	I	PROPN
+I	I	X
 do	do	NOUN
 not	not	VERB
 mean	mean	NOUN
@@ -11735,7 +11735,7 @@ not	not	X
 be	be	X
 stopped	stopped	X
 .	.	PUNCTsent
-But	but	NOUN
+but	but	NOUN
 providing	providing	NOUN
 it	it	VERB
 is	is	ADJ
@@ -11787,7 +11787,7 @@ if	if	NOUN
 you	you	CCONJ
 like	like	NOUN
 .	.	PUNCTsent
-And	And	PROPN
+And	And	CCONJ
 this	this	NOUN
 would	would	X
 make	make	X
@@ -11803,10 +11803,10 @@ a	avoir	AUX
 similar	similar	NOUN
 kind	kind	X
 in	in	X
-Europe	Europe	PROPN
+Europe	Europe	X
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Now	Now	PROPN
+Now	Now	VERB
 this	this	NOUN
 is	is	ADJ
 just	just	ADV
@@ -11826,7 +11826,7 @@ features	features	ADJ
 of	of	ADJ
 CERN	CERN	NOUN
 .	.	PUNCTsent
-The	The	PROPN
+The	The	X
 other	other	X
 feature	feature	X
 of	of	X
@@ -11845,9 +11845,9 @@ importance	importance	NOUN
 of	of	X
 this	this	X
 in	in	X
-Europe	Europe	PROPN
+Europe	Europe	X
 .	.	PUNCTsent
-At	At	PROPN
+At	At	VERB
 this	this	NOUN
 moment	moment	NOUN
 ,	,	PUNCTclause
@@ -11861,7 +11861,7 @@ of	of	X
 what	what	X
 has been	has been	NOUN
 called	called	X
-Super-CERN	Super-CERN	PROPN
+Super-CERN	Super-CERN	X
 (	(	PUNCTclause
 I	I	NUM
 think	think	X
@@ -11914,7 +11914,7 @@ the	the	X
 original	original	ADJ
 one	one	X
 .	.	PUNCTsent
-And	And	PROPN
+And	And	X
 the	the	X
 reason	reason	X
 for	for	NOUN
@@ -11949,7 +11949,7 @@ research	research	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I	I	PROPN
+I	I	X
 try	try	X
 to	to	X
 put	pouvoir	VERB
@@ -11968,7 +11968,7 @@ of	of	X
 the	the	X
 moment	moment	NOUN
 in	in	X
-Europe	Europe	PROPN
+Europe	Europe	X
 ,	,	PUNCTclause
 in	in	X
 science	science	NOUN
@@ -12027,7 +12027,7 @@ idea	idea	X
 is	is	X
 established	established	X
 in	in	X
-Europe	Europe	PROPN
+Europe	Europe	X
 ,	,	PUNCTclause
 CERN	CERN	X
 exists	exists	X
@@ -12052,7 +12052,7 @@ in	in	X
 some	some	X
 ways	ways	X
 .	.	PUNCTsent
-If	if	NOUN
+if	if	NOUN
 we	we	NOUN
 want	want	ADJ
 to	to	X
@@ -12060,7 +12060,7 @@ go	go	NOUN
 on	on	PRON
 with	with	VERB
 the	the	X
-European	European	PROPN
+European	European	X
 collaboration	collaboration	NOUN
 in	in	ADJ
 physics	physics	ADJ
@@ -12090,12 +12090,12 @@ like	like	ADJ
 CERN	CERN	PROPN
 ,	,	PUNCTclause
 like	like	NOUN
-Esro	Esro	PROPN
+Esro	Esro	X
 in	in	X
 space	space	X
 ,	,	PUNCTclause
 by	by	X
-Embo	Embo	PROPN
+Embo	Embo	X
 in	in	X
 molecular	molecular	X
 biology	biology	X
@@ -12111,10 +12111,10 @@ research	research	X
 have	haver	VERB
 with	with	X
 the	the	X
-European	European	PROPN
+European	European	X
 society	society	X
 .	.	PUNCTsent
-I	I	PROPN
+I	I	X
 think	think	X
 this	this	X
 relationship	relationship	X
@@ -12154,7 +12154,7 @@ the	the	X
 education	education	X
 system	system	X
 in	in	X
-Europe	Europe	PROPN
+Europe	Europe	X
 in	in	X
 the	the	X
 next	next	X
@@ -12195,7 +12195,7 @@ for	for	NOUN
 universities	universities	ADJ
 all	all	ADJ
 over	over	X
-Europe	Europe	PROPN
+Europe	Europe	X
 for	for	NOUN
 the	the	X
 education	education	X
@@ -12210,7 +12210,7 @@ relate	relater	VERB
 them	them	X
 to	to	X
 the	the	X
-European	European	PROPN
+European	European	X
 expansion	expansion	NOUN
 in	in	ADJ
 education	education	PUNCT
@@ -12220,7 +12220,7 @@ higher	higher	NOUN
 education	education	PUNCT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Just	Just	PROPN
+Just	Just	ADV
 to	to	NOUN
 finish	finish	NOUN
 a	avoir	AUX
@@ -12233,7 +12233,7 @@ I	I	NUM
 did	did	NOUN
 not	not	X
 know	know	X
-I	I	PROPN
+I	I	X
 had	had	X
 to	to	X
 make	make	X
@@ -12246,7 +12246,7 @@ has been	has been	NOUN
 a	avoir	AUX
 success	success	VERB
 .	.	PUNCTsent
-One	One	PROPN
+One	One	VERB
 is	is	NOUN
 talking	talking	X
 now	now	X
@@ -12269,7 +12269,7 @@ continue	continuer	VERB
 the	the	X
 research	research	X
 .	.	PUNCTsent
-This	This	PROPN
+This	This	NOUN
 is	is	ADJ
 linked	linked	X
 ,	,	PUNCTclause
@@ -12278,7 +12278,7 @@ think	think	X
 ,	,	PUNCTclause
 with	with	X
 the	the	X
-European	European	PROPN
+European	European	X
 situation	situation	NOUN
 in	in	ADJ
 higher	higher	ADJ
@@ -12294,7 +12294,7 @@ think	think	X
 ,	,	PUNCTclause
 with	with	X
 the	the	X
-European	European	PROPN
+European	European	X
 spirit	spirit	X
 as	avoir	AUX
 expressed	expressed	VERB
@@ -12305,17 +12305,17 @@ this	this	ADJ
 morning	morning	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Conclusion	conclusion	NOUN
+conclusion	conclusion	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Comme	comme	ADP
+comme	comme	ADP
 le	le	DET
 soulignait	souligner	VERB
 lors	lors	ADV
 du	du	ADP_DET
 colloque	colloque	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -12398,20 +12398,20 @@ des	un	ADP_DET
 nationalismes	nationalisme	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 rôle	rôle	NOUN
 décisif	décisif	ADJ
 concédé	concéder	VERB
 par	par	ADP
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 membres	membre	NOUN
 au	au	ADP_DET
 directeur général	directeur général	NOUN
 paraît	paraître	VERB
 exemplaire	exemplaire	ADJ
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 cette	ce	DET
 condition	condition	NOUN
 de	de	ADP
@@ -12442,7 +12442,7 @@ du	du	ADP_DET
 projet	projet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Or	or	NOUN
+or	or	NOUN
 ,	,	PUNCTclause
 ainsi	ainsi	ADV
 que	que	SCONJ
@@ -12462,7 +12462,7 @@ en	en	ADP
 1970	1970	NUM
 :	:	PUNCTclause
 «	«	PUNCTsent
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 pas	pas	ADV
@@ -12491,14 +12491,14 @@ révéler	révéler	VERB
 néfaste	néfaste	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 question	question	NOUN
 est	être	AUX
 des	un	DET
 plus	plus	ADV
 actuelles	actuel	ADJ
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 se	se	PRON
 pose	poser	VERB
 de	de	ADP
@@ -12571,7 +12571,7 @@ un	un	DET
 synchrocyclotron	synchrocyclotron	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
-À	à	ADP
+à	à	ADP
 cette	ce	DET
 occasion	occasion	NOUN
 ,	,	PUNCTclause
@@ -12591,29 +12591,29 @@ le	le	DET
 quatrain	quatrain	NOUN
 suivant	suivant	ADJ
 :	:	PUNCTclause
-To	To	PROPN
+To	To	X
 whom	whom	X
 it	it	X
 may	may	X
 concern	concern	X
-The	The	PROPN
+The	The	X
 purpose	purpose	X
 of	of	X
 the	the	X
-Cern	Cern	PROPN
-Is	Is	PROPN
+Cern	Cern	X
+Is	Is	X
 for	for	NOUN
 mankind	mankind	X
 to	to	X
 learn	learn	X
-Not	Not	PROPN
+Not	Not	X
 for	for	NOUN
 cities	cities	ADJ
 to	to	X
 burn	burn	X
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Voué	vouer	VERB
+voué	vouer	VERB
 à	à	ADP
 la	le	DET
 connaissance	connaissance	NOUN
@@ -12644,7 +12644,7 @@ volonté	volonté	NOUN
 de	de	ADP
 puissance	puissance	NOUN
 des	un	ADP_DET
-États	États	NOUN
+états	état	NOUN
 :	:	PUNCTclause
 on	on	PRON
 sait	savoir	VERB
@@ -12690,7 +12690,7 @@ argent	argent	NOUN
 perdu	perdre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Mais	mais	CCONJ
+mais	mais	CCONJ
 il	il	PRON
 ne	ne	ADV
 en	en	PRON
@@ -12700,12 +12700,12 @@ de même	de même	ADV
 des	un	ADP_DET
 centrale nucléaire	centrale nucléaire	NOUN
 .	.	PUNCTsent
-Là	là	ADV
+là	là	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
 l'	le	DET
-État	État	NOUN
+état	état	NOUN
 qui	qui	PRON
 essaie	essayer	VERB
 de	de	ADP
@@ -12725,7 +12725,7 @@ désastreux	désastreux	ADJ
 à long terme	à long terme	ADV
 …	…	PUNCTsent
 (	(	PUNCTclause
-Mais	mais	CCONJ
+mais	mais	CCONJ
 ,	,	PUNCTclause
 à long terme	à long terme	ADV
 ,	,	PUNCTclause
@@ -12754,7 +12754,7 @@ sérieux	sérieux	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Devant	devant	ADP
+devant	devant	ADP
 le	le	DET
 tir	tir	NOUN
 de	de	ADP
@@ -12828,7 +12828,7 @@ passé	passer	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Certes	certes	ADV
+certes	certes	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 les	le	DET
@@ -12848,7 +12848,7 @@ ans	an	NOUN
 ,	,	PUNCTclause
 par	par	ADP
 un	un	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 des	un	ADP_DET
 ministres	ministre	NOUN
 français	français	ADJ
@@ -12872,7 +12872,7 @@ la	le	DET
 ni	ni	CCONJ
 même	même	ADV
 le	le	DET
-Conseil	Conseil	NOUN
+conseil	conseil	NOUN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -12889,12 +12889,12 @@ institutions	institution	NOUN
 privées	privé	ADJ
 comme	comme	ADP
 le	le	DET
-Collège	Collège	NOUN
+collège	collège	NOUN
 de	de	ADP
 Europe	Europe	PROPN
 et	et	CCONJ
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -12909,7 +12909,7 @@ proprement	proprement	ADV
 concevables	concevable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-La	le	DET
+la	le	DET
 cause	cause	NOUN
 européenne	européen	ADJ
 a	avoir	AUX
@@ -12932,17 +12932,17 @@ de	de	ADP
 opinion	opinion	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 sont	être	AUX
 plus	plus	ADV
 négatifs	négatif	ADJ
 que	que	SCONJ
 jamais	jamais	ADV
 .	.	PUNCTsent
-La	le	DET
-Crise	Crise	PROPN
+la	le	DET
+crise	crise	UNKNOWN
 ne	ne	ADV
 fait	faire	VERB
 que	que	SCONJ
@@ -12978,7 +12978,7 @@ de	de	ADP
 solidarité	solidarité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 est	être	AUX
 passé	passer	VERB
@@ -13000,10 +13000,10 @@ pouvoir	pouvoir	VERB
 fonder	fonder	VERB
 sur	sur	ADP
 les	le	DET
-États	États	NOUN
+états	état	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 vient	venir	VERB
 ,	,	PUNCTclause
@@ -13033,21 +13033,21 @@ régions	région	NOUN
 fédérées	fédéré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Appendice	appendice	NOUN
+appendice	appendice	NOUN
 :	:	PUNCTclause
-Un	un	DET
+un	un	DET
 débat	débat	NOUN
 à	à	ADP
 la	le	DET
-Chambre	Chambre	NOUN
+chambre	chambre	NOUN
 française	français	ADJ
 en	en	ADP
 1954	1954	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Extraits	extraire	VERB
+extraits	extraire	VERB
 du	du	ADP_DET
-Journal	Journal	NOUN
+journal	journal	NOUN
 officiel	officiel	ADJ
 de	de	ADP
 la	le	DET
@@ -13057,7 +13057,7 @@ française	français	ADJ
 Assemblée	Assemblée	PROPN
 nationale	national	ADJ
 ,	,	PUNCTclause
-Séance	Séance	PROPN
+séance	séance	UNKNOWN
 du	du	ADP_DET
 mardi	mardi	NOUN
 6	6	NUM
@@ -13065,7 +13065,7 @@ juillet	juillet	NOUN
 1954	1954	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Discussion	discussion	NOUN
+discussion	discussion	NOUN
 du	du	ADP_DET
 projet	projet	NOUN
 de	de	ADP
@@ -13098,7 +13098,7 @@ ces	ce	DET
 mots	mot	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Le	le	DET
+le	le	DET
 projet	projet	NOUN
 qui	qui	PRON
 vous	vous	PRON
@@ -13119,7 +13119,7 @@ p.	p.	PUNCT
 3227	3227	NUM
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Au	au	ADP_DET
+au	au	ADP_DET
 nom	nom	NOUN
 du	du	ADP_DET
 parti	parti	NOUN
@@ -13150,7 +13150,7 @@ purement	purement	ADV
 français	français	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 élève	élever	VERB
 contre	contre	ADP
@@ -13173,11 +13173,11 @@ p.	p.	PUNCT
 3228	3228	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 ajoute	ajouter	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-La	le	DET
+la	le	DET
 science	science	NOUN
 française	français	ADJ
 est	être	AUX
@@ -13192,7 +13192,7 @@ transfusion	transfusion	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 se	se	PRON
 présente	présenter	VERB
@@ -13201,7 +13201,7 @@ une	un	DET
 saignée	saignée	NOUN
 .	.	PUNCTsent
 …	…	PUNCTsent
-Pour	pour	ADP
+pour	pour	ADP
 cacher	cacher	VERB
 l'	le	DET
 absence	absence	NOUN
@@ -13226,7 +13226,7 @@ choses	chose	NOUN
 en	en	ADP
 commission	commission	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 nous	nous	PRON
 a	avoir	AUX
 dit	dire	VERB
@@ -13241,7 +13241,7 @@ une	un	DET
 initiative	initiative	NOUN
 française	français	ADJ
 …	…	PUNCTsent
-La	le	DET
+la	le	DET
 vérité	vérité	NOUN
 historique	historique	ADJ
 est	être	AUX
@@ -13249,7 +13249,7 @@ que	que	SCONJ
 l'	le	DET
 idée	idée	NOUN
 du	du	ADP_DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 a	avoir	AUX
 été	être	AUX
 conçue	concevoir	VERB
@@ -13264,7 +13264,7 @@ que	que	SCONJ
 on	on	PRON
 appelle	appeler	VERB
 le	le	DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 ,	,	PUNCTclause
 lors de	lors de	ADP
@@ -13284,13 +13284,13 @@ col.	col.	DET
 l	l	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-M.	M.	PROPN
+M.	M.	NOUN
 Jules	Jules	PROPN
 Moch	Moch	PROPN
 répond	répondre	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Je	je	PRON
+je	je	PRON
 voudrais	vouloir	VERB
 insister	insister	VERB
 sur	sur	ADP
@@ -13319,7 +13319,7 @@ politique	politique	ADJ
 ni	ni	CCONJ
 de	de	ADP
 la	le	DET
-Communauté	Communauté	NOUN
+communauté	communauté	NOUN
 européenne	européen	ADJ
 du	du	ADP_DET
 charbon	charbon	NOUN
@@ -13394,7 +13394,7 @@ de	de	ADP
 1949	1949	NUM
 de	de	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 européenne	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -13464,7 +13464,7 @@ col	col	NOUN
 2	2	NUM
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Enfin	enfin	ADV
+enfin	enfin	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 dernière	dernier	ADJ
@@ -13475,11 +13475,11 @@ opposition	opposition	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-M.	M.	PROPN
+M.	M.	NOUN
 Georges	Georges	PROPN
 Cogniot	Cogniot	PROPN
 .	.	PUNCTsent
-Monsieur	monsieur	NOUN
+monsieur	monsieur	NOUN
 le	le	DET
 rapporteur	rapporteur	NOUN
 nous	nous	PRON
@@ -13490,7 +13490,7 @@ toutes	tout	ADJ
 vos	vos	DET
 références	référence	NOUN
 au	au	ADP_DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 ne	ne	ADV
 ont	avoir	VERB
@@ -13503,7 +13503,7 @@ projet	projet	NOUN
 en	en	ADP
 discussion	discussion	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 regrette	regretter	VERB
 beaucoup	beaucoup	ADV
 ,	,	PUNCTclause
@@ -13521,7 +13521,7 @@ un	un	DET
 document	document	NOUN
 officiel	officiel	ADJ
 intitulé	intituler	VERB
-Notes	Notes	PROPN
+notes	note	UNKNOWN
 et	et	CCONJ
 études	étude	NOUN
 documentaires	documentaire	ADJ
@@ -13554,7 +13554,7 @@ ce	ce	PRON
 est	être	AUX
 à	à	ADP
 la	le	DET
-Conférence	Conférence	NOUN
+conférence	conférence	NOUN
 européenne	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -13570,12 +13570,12 @@ sous	sous	ADP
 les	le	DET
 auspices	auspice	NOUN
 du	du	ADP_DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 …	…	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -13587,14 +13587,14 @@ la	le	DET
 liaison	liaison	NOUN
 entre	entre	ADP
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 recherches	recherche	NOUN
 nucléaires	nucléaire	ADJ
 et	et	CCONJ
 le	le	DET
-Mouvement	Mouvement	NOUN
+mouvement	mouvement	NOUN
 européen	européen	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ

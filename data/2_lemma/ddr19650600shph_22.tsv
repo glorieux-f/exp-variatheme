@@ -11,9 +11,9 @@ architecture	architecture	NOUN
 :	:	PUNCTclause
 des	un	DET
 grands	grand	ADJ
-Baroques	Baroques	NOUN
+baroques	baroque	NOUN
 à	à	ADP
-Le	le	DET
+le	le	DET
 Corbusier	Corbusier	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -21,7 +21,7 @@ je	je	PRON
 ai	avoir	AUX
 mentionné	mentionner	VERB
 les	le	DET
-Tessinois	Tessinois	NOUN
+tessinois	tessinois	NOUN
 des	un	ADP_DET
 16e	16e	NUM
 et	et	CCONJ
@@ -57,7 +57,7 @@ Saint-Pierre	Saint-Pierre	PROPN
 de	de	ADP
 Rome	Rome	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 peu	peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
@@ -77,7 +77,7 @@ Rome	Rome	PROPN
 dont	dont	PRON
 Saint-Jean-de-Latran	Saint-Jean-de-Latran	PROPN
 .	.	PUNCTsent
-Rien	rien	PRON
+rien	rien	PRON
 de	de	ADP
 suisse	suisse	ADJ
 dans	dans	ADP
@@ -103,7 +103,7 @@ des	un	ADP_DET
 trois	trois	NUM
 Waldstätten	Waldstätten	PROPN
 .	.	PUNCTsent
-Oui	oui	INTJ
+oui	oui	INTJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 rien	rien	PRON
@@ -162,7 +162,7 @@ culture	culture	NOUN
 bénédictine	bénédictin	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 siècle	siècle	NOUN
 suivant	suivant	ADJ
 ,	,	PUNCTclause
@@ -175,7 +175,7 @@ construit	construire	VERB
 sans	sans	ADP
 créer	créer	VERB
 .	.	PUNCTsent
-Si	si	SCONJ
+si	si	SCONJ
 l'on	on	PRON
 trouvait	trouver	VERB
 un	un	DET
@@ -232,11 +232,11 @@ grand	grand	ADJ
 aîné	aîné	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Charles-Édouard	Charles-Édouard	PROPN
+Charles-Édouard	Charles-Édouard	NOUN
 Jeanneret	Jeanneret	PROPN
 ,	,	PUNCTclause
 dit	dire	VERB
-Le	le	DET
+le	le	DET
 Corbusier	Corbusier	PROPN
 ,	,	PUNCTclause
 est	être	AUX
@@ -254,8 +254,8 @@ deux	deux	NUM
 longs	long	ADJ
 villages	village	NOUN
 de	de	ADP
-La	le	DET
-Chaux-de-Fonds	Chaux-de-Fonds	PROPN
+la	le	DET
+Chaux-de-Fonds	Chaux-de-Fonds	ADJ
 et	et	CCONJ
 du	du	ADP_DET
 Locle	Locle	PROPN
@@ -312,11 +312,11 @@ Andersen	Andersen	PROPN
 écrivit	écrire	VERB
 au	au	ADP_DET
 Locle	Locle	PROPN
-La	le	DET
+la	le	DET
 petite	petit	ADJ
-Sirène	Sirène	NOUN
+sirène	sirène	NOUN
 .	.	PUNCTsent
-Des	un	ADP_DET
+des	un	ADP_DET
 bataillons	bataillon	NOUN
 de	de	ADP
 sapins	sapin	NOUN
@@ -331,7 +331,7 @@ de	de	ADP
 la	le	DET
 vallée	vallée	NOUN
 .	.	PUNCTsent
-Vers	vers	ADP
+vers	vers	ADP
 la	le	DET
 fin	fin	NOUN
 du	du	ADP_DET
@@ -383,8 +383,8 @@ un	un	DET
 canton	canton	NOUN
 suisse	suisse	ADJ
 .	.	PUNCTsent
-Rencontrant	rencontrer	VERB
-Le	le	DET
+rencontrant	rencontrer	VERB
+le	le	DET
 Corbusier	Corbusier	PROPN
 dans	dans	ADP
 le	le	DET
@@ -409,7 +409,7 @@ nous	nous	PRON
 compatriotes	compatriote	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-Oui	oui	INTJ
+oui	oui	INTJ
 ,	,	PUNCTclause
 me	me	PRON
 répondit	répondre	VERB
@@ -430,10 +430,10 @@ ce	ce	PRON
 exact	exact	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Puritain	puritain	ADJ
+puritain	puritain	ADJ
 révolutionnaire	révolutionnaire	ADJ
 ,	,	PUNCTclause
-Le	le	DET
+le	le	DET
 Corbusier	Corbusier	PROPN
 l'	le_PRON	PRON
 est	être	AUX
@@ -451,7 +451,7 @@ et	et	CCONJ
 son	son	DET
 comportement	comportement	NOUN
 .	.	PUNCTsent
-Les	le	DET
+les	le	DET
 bourgeois	bourgeois	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -476,7 +476,7 @@ que	que	SCONJ
 tiendra	tenir	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-Ils	ils	PRON
+ils	ils	PRON
 ont	avoir	AUX
 donc	donc	ADV
 laissé	laisser	VERB
@@ -521,7 +521,7 @@ de	de	ADP
 docteur	docteur	NOUN
 honoris causa	honoris causa	ADV
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 Corbusier	Corbusier	PROPN
 ne	ne	ADV
 veut	vouloir	VERB
@@ -530,14 +530,14 @@ entendre parler	entendre parler	VERB
 de	de	ADP
 eux	eux	PRON
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 se	se	PRON
 est	être	AUX
 fait	faire	VERB
 citoyen	citoyen	NOUN
 français	français	ADJ
 .	.	PUNCTsent
-Ses	son	DET
+ses	son	DET
 rares	rare	ADJ
 interviews	interview	NOUN
 le	le_PRON	PRON
@@ -560,7 +560,7 @@ l'	le	DET
 a	avoir	AUX
 pillé	piller	VERB
 .	.	PUNCTsent
-Une	un	DET
+une	un	DET
 vue	vue	NOUN
 plus	plus	ADV
 optimiste	optimiste	ADJ
@@ -601,7 +601,7 @@ dans	dans	ADP
 le	le	DET
 monde entier	monde entier	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 a	avoir	AUX
 construit	construire	VERB
 en	en	ADP
@@ -635,7 +635,7 @@ en	en	ADP
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-Boston	Boston	PROPN
+boston	boston	UNKNOWN
 des	un	ADP_DET
 musées	musée	NOUN
 «	«	PUNCTclause
@@ -676,7 +676,7 @@ dont	dont	PRON
 Niemeyer	Niemeyer	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Par	par	ADP
+par	par	ADP
 son	son	DET
 dépouillement	dépouillement	NOUN
 ,	,	PUNCTclause
@@ -691,7 +691,7 @@ fonctionnelle	fonctionnel	ADJ
 ,	,	PUNCTclause
 le	le	DET
 style	style	NOUN
-Le	le	DET
+le	le	DET
 Corbusier	Corbusier	PROPN
 est	être	AUX
 très	très	ADV
@@ -737,7 +737,7 @@ siècles	siècle	NOUN
 le	le	DET
 décor	décor	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 ne	ne	ADV
 parle	parler	VERB
 pas	pas	ADV
@@ -797,7 +797,7 @@ de	de	ADP
 Schaffhouse	Schaffhouse	PROPN
 et	et	CCONJ
 de	de	ADP
-Appenzell	Appenzell	PROPN
+appenzell	appenzell	UNKNOWN
 ,	,	PUNCTclause
 aux	au	ADP_DET
 places	place	NOUN
@@ -881,7 +881,7 @@ du	du	ADP_DET
 fonctionnel	fonctionnel	ADJ
 puritain	puritain	ADJ
 .	.	PUNCTsent
-Seule	seul	ADJ
+seule	seul	ADJ
 ,	,	PUNCTclause
 peut-être	peut-être	ADV
 ,	,	PUNCTclause

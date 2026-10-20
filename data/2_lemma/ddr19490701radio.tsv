@@ -6,13 +6,13 @@
 # title = "[Entretien] Le promoteur de l’émission Demain l’Europe nous dit… (1er juillet 1949)"
 
 ↵↵	↵↵	PUNCTstruct
-Entretien	entretien	NOUN
-Le	le	DET
+entretien	entretien	NOUN
+le	le	DET
 promoteur	promoteur	NOUN
 de	de	ADP
 l'	le	DET
 émission	émission	NOUN
-Demain	Demain	PROPN
+demain	demain	UNKNOWN
 l'	le_PRON	PRON
 Europe	Europe	PROPN
 nous	nous	PRON
@@ -26,7 +26,7 @@ juillet	juillet	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Monsieur	monsieur	NOUN
+monsieur	monsieur	NOUN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
@@ -53,7 +53,7 @@ la	le	DET
 guerre	guerre	NOUN
 atomique	atomique	ADJ
 .	.	PUNCTsent
-Fédérer	fédérer	VERB
+fédérer	fédérer	VERB
 nos	nos	DET
 pays	pays	NOUN
 ,	,	PUNCTclause
@@ -80,7 +80,7 @@ les	le	DET
 deux	deux	NUM
 autres	autre	ADJ
 .	.	PUNCTsent
-Imaginez	imaginer	VERB
+imaginez	imaginer	VERB
 cette	ce	DET
 Europe	Europe	PROPN
 grande	grand	ADJ
@@ -118,11 +118,11 @@ entre	entre	ADP
 nos	nos	DET
 cantons	canton	NOUN
 .	.	PUNCTsent
-Imaginez	imaginer	VERB
+imaginez	imaginer	VERB
 ensuite	ensuite	ADV
 cette	ce	DET
 grande	grand	ADJ
-Europe	Europe	PROPN
+Europe	Europe	X
 aussi	aussi	ADV
 décidée	décider	VERB
 que	que	SCONJ
@@ -147,7 +147,7 @@ son	son	DET
 indépendance	indépendance	NOUN
 reconquise	reconquérir	VERB
 .	.	PUNCTsent
-Paix	paix	NOUN
+paix	paix	NOUN
 ,	,	PUNCTclause
 liberté	liberté	NOUN
 ,	,	PUNCTclause
@@ -207,7 +207,7 @@ annexe	annexe	NOUN
 toute	tout	ADJ
 neuve	neuf	ADJ
 du	du	ADP_DET
-Palais	Palais	NOUN
+palais	palais	NOUN
 Wilson	Wilson	PROPN
 ,	,	PUNCTclause
 que	que	PRON
@@ -217,7 +217,7 @@ en train de	en train de	ADV
 préparer	préparer	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Je	je	PRON
+je	je	PRON
 mets	mettre	VERB
 la	le	DET
 dernière	dernier	ADJ
@@ -249,7 +249,7 @@ de	de	ADP
 différents	différent	DET
 pays	pays	NOUN
 .	.	PUNCTsent
-Je	je	PRON
+je	je	PRON
 prépare	préparer	VERB
 également	également	ADV
 une	un	DET
@@ -266,7 +266,7 @@ octobre	octobre	NOUN
 à	à	ADP
 Lausanne	Lausanne	PROPN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 qui	qui	PRON
 me	me	PRON
 préoccupe	préoccuper	VERB
@@ -307,14 +307,14 @@ de	de	ADP
 études	étude	NOUN
 pour	pour	ADP
 un	un	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
 culture	culture	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Pouvez	pouvoir	VERB
+pouvez	pouvoir	VERB
 vous	vous	PRON
 ,	,	PUNCTclause
 très	très	ADV
@@ -327,14 +327,14 @@ la	le	DET
 mission	mission	NOUN
 de	de	ADP
 ce	ce	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
 culture	culture	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Constitué	constituer	VERB
+constitué	constituer	VERB
 en	en	ADP
 toute	toute	DET
 indépendance	indépendance	NOUN
@@ -434,7 +434,7 @@ possible	possible	ADJ
 de plus	de plus	ADV
 ,	,	PUNCTclause
 le	le	DET
-Centre	Centre	NOUN
+centre	centre	NOUN
 européen	européen	ADJ
 offrira	offrir	VERB
 un	un	DET

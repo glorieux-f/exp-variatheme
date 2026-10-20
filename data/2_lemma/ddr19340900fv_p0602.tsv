@@ -6,7 +6,7 @@
 # title = Notice biographique [Kierkegaard] (août 1934)
 
 ↵↵	↵↵	PUNCTstruct
-Notice	notice	NOUN
+notice	notice	NOUN
 biographique	biographique	ADJ
 Kierkegaard	Kierkegaard	PROPN
 (	(	PUNCTclause
@@ -15,7 +15,7 @@ août	août	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Søren	Søren	PROPN
+Søren	Søren	ADP
 Kierkegaard	Kierkegaard	PROPN
 naquit	naître	VERB
 à	à	ADP
@@ -29,7 +29,7 @@ mourut	mourir	VERB
 en	en	ADP
 1855	1855	NUM
 .	.	PUNCTsent
-Presque	presque	ADV
+presque	presque	ADV
 toute	tout	ADJ
 son	son	DET
 œuvre	œuvre	NOUN
@@ -60,7 +60,7 @@ douze	douze	NUM
 années	année	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Le	le	DET
+le	le	DET
 père	père	NOUN
 de	de	ADP
 Kierkegaard	Kierkegaard	PROPN
@@ -78,7 +78,7 @@ plaine	plaine	NOUN
 du	du	ADP_DET
 Jutland	Jutland	PROPN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 jour	jour	NOUN
 ,	,	PUNCTclause
 accablé	accabler	VERB
@@ -107,7 +107,7 @@ mourir	mourir	VERB
 de	de	ADP
 faim	faim	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 blasphème	blasphémer	VERB
 assombrit	assombrir	VERB
 toute	toute	DET
@@ -123,7 +123,7 @@ de	de	ADP
 faire	faire	VERB
 fortune	fortune	NOUN
 .	.	PUNCTsent
-Et	et	CCONJ
+et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 ainsi	ainsi	ADV
@@ -151,7 +151,7 @@ belle	beau	ADJ
 aisance	aisance	NOUN
 matérielle	matériel	ADJ
 .	.	PUNCTsent
-Du	du	ADP_DET
+du	du	ADP_DET
 secret	secret	NOUN
 il	il	PRON
 tira	tirer	VERB
@@ -212,13 +212,13 @@ surtout	surtout	ADV
 en	en	ADP
 dons	don	NOUN
 .	.	PUNCTsent
-Sa	son	DET
+sa	son	DET
 vie	vie	NOUN
 était	être	AUX
 très	très	ADV
 simple	simple	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 travaillait	travailler	VERB
 une	un	DET
 grande	grand	ADJ
@@ -227,7 +227,7 @@ de	de	ADP
 la	le	DET
 nuit	nuit	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 aimait	aimer	VERB
 se	se	PRON
 promener	promener	VERB
@@ -235,14 +235,14 @@ promener	promener	VERB
 l'	le	DET
 aube	aube	NOUN
 .	.	PUNCTsent
-Puis	puis	CCONJ
+puis	puis	CCONJ
 il	il	PRON
 se	se	PRON
 remettait	remettre	VERB
 à	à	ADP
 écrire	écrire	VERB
 .	.	PUNCTsent
-Vers	vers	NOUN
+vers	vers	NOUN
 midi	midi	NOUN
 ,	,	PUNCTclause
 on	on	PRON
@@ -281,7 +281,7 @@ le	le	DET
 petit	petit	ADJ
 peuple	peuple	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 connaissait	connaître	VERB
 sa	son	DET
 silhouette	silhouette	NOUN
@@ -298,7 +298,7 @@ d	d	ADP
 original	original	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 savait	savoir	VERB
 aussi	aussi	ADV
 que	que	SCONJ
@@ -311,7 +311,7 @@ de	de	ADP
 son	son	DET
 pays	pays	NOUN
 .	.	PUNCTsent
-Sa	son	DET
+sa	son	DET
 première	premier	ADJ
 œuvre	œuvre	NOUN
 eut	avoir	AUX
@@ -382,7 +382,7 @@ un	un	DET
 grand	grand	ADJ
 esprit	esprit	NOUN
 .	.	PUNCTsent
-Un	un	DET
+un	un	DET
 an	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
@@ -397,7 +397,7 @@ dans	dans	ADP
 la	le	DET
 rue	rue	NOUN
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 le	le_PRON	PRON
 transporta	transporter	VERB
 à	à	ADP
@@ -417,7 +417,7 @@ les	le	DET
 hommes	homme	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-Le	le	DET
+le	le	DET
 seul	seul	ADJ
 événement	événement	NOUN
 extérieur	extérieur	ADJ
@@ -434,7 +434,7 @@ avec	avec	ADP
 Régine	Régine	PROPN
 Olsen	Olsen	PROPN
 .	.	PUNCTsent
-Mais	mais	CCONJ
+mais	mais	CCONJ
 son	son	DET
 acte	acte	NOUN
 ,	,	PUNCTclause
@@ -466,10 +466,10 @@ du	du	ADP_DET
 Jésus-Christ	Jésus-Christ	PROPN
 de	de	ADP
 l'	le	DET
-Évangile	Évangile	NOUN
+évangile	évangile	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Il	il	PRON
+il	il	PRON
 avait	avoir	AUX
 terminé	terminer	VERB
 les	le	DET
@@ -484,7 +484,7 @@ fut	être	AUX
 jamais	jamais	ADV
 pasteur	pasteur	NOUN
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 lui	lui	PRON
 arriva	arriver	VERB
 pourtant	pourtant	ADV
@@ -501,7 +501,7 @@ le	le	DET
 titre	titre	NOUN
 général	général	ADJ
 de	de	ADP
-Discours	Discours	NOUN
+discours	discours	NOUN
 de	de	ADP
 édification	édification	NOUN
 ,	,	PUNCTclause
@@ -509,7 +509,7 @@ remplissent	remplir	VERB
 plusieurs	plusieurs	DET
 volumes	volume	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 furent	être	AUX
 les	le	DET
 seuls	seul	ADJ
@@ -521,7 +521,7 @@ sous	sous	ADP
 son	son	DET
 nom	nom	NOUN
 .	.	PUNCTsent
-Tous	tout	ADJ
+tous	tout	ADJ
 ses	son	DET
 ouvrages	ouvrage	NOUN
 esthétiques	esthétique	ADJ
@@ -530,21 +530,21 @@ philosophiques	philosophique	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
-Répétition	Répétition	NOUN
+répétition	répétition	NOUN
 à	à	ADP
 l'	le	DET
-Exercice	Exercice	NOUN
+exercice	exercice	NOUN
 du	du	ADP_DET
 christianisme	christianisme	NOUN
 ,	,	PUNCTclause
 en passant	en passant	ADV
 par	par	ADP
 la	le	DET
-Maladie	Maladie	PROPN
+maladie	maladie	UNKNOWN
 mortelle	mortel	ADJ
 et	et	CCONJ
 le	le	DET
-Concept	Concept	PROPN
+concept	concept	UNKNOWN
 de	de	ADP
 angoisse	angoisse	NOUN
 ,	,	PUNCTclause
@@ -554,7 +554,7 @@ divers	divers	DET
 pseudonymes	pseudonyme	NOUN
 symboliques	symbolique	ADJ
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 voulait	vouloir	VERB
 signifier	signifier	VERB
 par là	par là	ADV
@@ -590,7 +590,7 @@ devant	devant	ADP
 les	le	DET
 hommes	homme	NOUN
 .	.	PUNCTsent
-Ce	ce	PRON
+ce	ce	PRON
 ne	ne	ADV
 fut	être	AUX
 que	que	ADV
@@ -611,7 +611,7 @@ la	le	DET
 lutte	lutte	NOUN
 contre	contre	ADP
 l'	le	DET
-Église	Église	NOUN
+église	église	NOUN
 établie	établir	VERB
 ,	,	PUNCTclause
 lutte	lutte	NOUN
@@ -629,7 +629,7 @@ sa	son	DET
 vocation	vocation	NOUN
 chrétienne	chrétien	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 a	avoir	AUX
 comparé	comparer	VERB
 Kierkegaard	Kierkegaard	PROPN
@@ -642,7 +642,7 @@ Dostoïevski	Dostoïevski	PROPN
 à	à	ADP
 Pascal	Pascal	PROPN
 .	.	PUNCTsent
-Lui-même	lui-même	PRON
+lui-même	lui-même	PRON
 ne	ne	ADV
 se	se	PRON
 est	être	AUX
@@ -666,7 +666,7 @@ pour	pour	ADP
 se	se	PRON
 condamner	condamner	VERB
 .	.	PUNCTsent
-Il	il	PRON
+il	il	PRON
 affirmait	affirmer	VERB
 que	que	SCONJ
 il	il	PRON
@@ -720,7 +720,7 @@ se	se	PRON
 dire	dire	VERB
 chrétien	chrétien	ADJ
 .	.	PUNCTsent
-Cette	ce	DET
+cette	ce	DET
 position	position	NOUN
 paradoxale	paradoxal	ADJ
 a	avoir	AUX
@@ -731,7 +731,7 @@ les	le	DET
 plus	plus	ADV
 diverses	divers	ADJ
 .	.	PUNCTsent
-Elle	elle	PRON
+elle	elle	PRON
 assure	assurer	VERB
 aussi	aussi	ADV
 à	à	ADP
@@ -749,7 +749,7 @@ avec	avec	ADP
 le	le	DET
 temps	temps	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 philosophie	philosophie	NOUN
 allemande	allemand	ADJ
 contemporaine	contemporain	ADJ
@@ -772,7 +772,7 @@ de	de	ADP
 l'	le	DET
 existence	existence	NOUN
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 théologie	théologie	NOUN
 barthienne	barthienne	ADJ
 se	se	PRON
@@ -795,7 +795,7 @@ l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-Le	le	DET
+le	le	DET
 sens	sens	NOUN
 réel	réel	ADJ
 et	et	CCONJ
@@ -823,7 +823,7 @@ l'	le	DET
 absolu	absolu	NOUN
 évangélique	évangélique	ADJ
 .	.	PUNCTsent
-Voici	voici	ADP
+voici	voici	ADP
 le	le	DET
 jugement	jugement	NOUN
 que	que	SCONJ
@@ -844,14 +844,14 @@ ses	son	DET
 écrits	écrit	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Kierkegaard	Kierkegaard	PROPN
+Kierkegaard	Kierkegaard	NOUN
 fut	être	AUX
 le	le	DET
 dernier	dernier	ADJ
 grand	grand	ADJ
 protestant	protestant	ADJ
 .	.	PUNCTsent
-On	on	PRON
+on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 le	le	DET
@@ -869,7 +869,7 @@ Luther	Luther	PROPN
 à	à	ADP
 Calvin	Calvin	PROPN
 .	.	PUNCTsent
-Tous	tout	ADJ
+tous	tout	ADJ
 les	le	DET
 autres	autre	ADJ
 paraissent	paraître	VERB
@@ -877,19 +877,19 @@ petits	petit	ADJ
 à côté de	à côté de	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-La	le	DET
+la	le	DET
 question	question	NOUN
 essentielle	essentiel	ADJ
 pour	pour	ADP
 Kierkegaard	Kierkegaard	PROPN
 était	être	AUX
 :	:	PUNCTclause
-Comment	comment	ADV
+comment	comment	ADV
 deviendrai	devenir	VERB
 je	je	PRON
 chrétien	chrétien	ADJ
 ?	?	PUNCTsent
-Seul	seul	ADJ
+seul	seul	ADJ
 ,	,	PUNCTclause
 un	un	DET
 protestant	protestant	ADJ
@@ -911,7 +911,7 @@ de	de	ADP
 Kierkegaard	Kierkegaard	PROPN
 est	être	AUX
 son	son	DET
-Concept	Concept	PROPN
+concept	concept	UNKNOWN
 de	de	ADP
 l'	le	DET
 angoisse	angoisse	NOUN
@@ -927,7 +927,7 @@ que	que	SCONJ
 chez	chez	ADP
 Dostoïevski	Dostoïevski	PROPN
 .	.	PUNCTsent
-Kierkegaard	Kierkegaard	PROPN
+Kierkegaard	Kierkegaard	NOUN
 ,	,	PUNCTclause
 d'ailleurs	d'ailleurs	ADV
 ,	,	PUNCTclause
