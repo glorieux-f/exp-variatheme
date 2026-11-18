@@ -185,7 +185,7 @@ un	un	DET
 livre	livre	NOUN
 comme	comme	ADP
 le	le	DET
-défi	défi	UNKNOWN
+Défi	Défi	PROPN
 américain	américain	ADJ
 de	de	ADP
 Jean-Jacques	Jean-Jacques	PROPN
@@ -253,7 +253,7 @@ crains	craindre	VERB
 au	au	ADP_DET
 fond	fond	NOUN
 ,	,	PUNCTclause
-qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	NOUN
 qui	qui	PRON
 a	avoir	AUX
 changé	changer	VERB
@@ -462,7 +462,7 @@ y	y	PRON
 en	en	PRON
 a	avoir	VERB
 pas	pas	ADV
-d'autre	d'autre	DET
+d'autre	d'autre	PRON
 ,	,	PUNCTclause
 que	que	SCONJ
 elle	elle	PRON
@@ -692,7 +692,7 @@ prenait	prendre	VERB
 ceux	ceux	PRON
 de	de	ADP
 l'	le	DET
-est	être	UNKNOWN
+Est	Est	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -886,7 +886,7 @@ de	de	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-suez	suer	UNKNOWN
+Suez	Suez	PROPN
 que	que	SCONJ
 ces	ce	DET
 droits	droit	NOUN
@@ -1021,7 +1021,7 @@ elle	elle	PRON
 ne	ne	ADV
 a	avoir	VERB
 plus	plus	ADV
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 efficacité	efficacité	NOUN
 que	que	SCONJ
 le	le	DET
@@ -1553,7 +1553,7 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 rien	rien	PRON
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 à	à	ADP
 faire	faire	VERB
 .	.	PUNCTsent
@@ -1951,7 +1951,7 @@ Bretagne	Bretagne	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
-pays	pays	UNKNOWN
+Pays	Pays	PROPN
 basque	basque	ADJ
 ,	,	PUNCTclause
 voire	voire	CCONJ
@@ -1977,7 +1977,7 @@ catalans	catalan	NOUN
 et	et	CCONJ
 chez	chez	ADP
 les	le	DET
-basques	basque	UNKNOWN
+Basques	Basques	PROPN
 ;	;	PUNCTclause
 agitation	agitation	NOUN
 beaucoup	beaucoup	ADV
@@ -2080,7 +2080,7 @@ représentation	représentation	NOUN
 tout de même	tout de même	ADV
 à	à	ADP
 la	le	DET
-chambre	chambre	NOUN
+Chambre	Chambre	PROPN
 des	un	ADP_DET
 communes	commun	NOUN
 .	.	PUNCTsent
@@ -2406,7 +2406,7 @@ université	université	NOUN
 :	:	PUNCTclause
 à	à	ADP
 la	le	DET
-sorbonne	sorbonne	UNKNOWN
+Sorbonne	Sorbonne	PROPN
 ,	,	PUNCTclause
 il y a	il y a	VERB
 la	le	DET
@@ -2793,7 +2793,7 @@ que	que	SCONJ
 pour	pour	ADP
 nous	nous	PRON
 ,	,	PUNCTclause
-suisses	suisse	UNKNOWN
+Suisses	Suisses	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 était	être	AUX
@@ -2939,7 +2939,7 @@ même chose	même chose	NOUN
 que	que	PRON
 pour	pour	ADP
 les	le	DET
-québécois	québécois	UNKNOWN
+Québécois	Québécois	PROPN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 une	un	DET
@@ -3366,7 +3366,7 @@ se	se	PRON
 est	être	AUX
 manifesté	manifester	VERB
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 .	.	PUNCTsent
 ceci	ceci	PRON
 explique	expliquer	VERB
@@ -4828,7 +4828,7 @@ a	avoir	AUX
 dit	dire	VERB
 à	à	ADP
 la	le	DET
-sorbonne	sorbonne	UNKNOWN
+Sorbonne	Sorbonne	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
 cassez	casser	VERB
@@ -5064,7 +5064,7 @@ rôle	rôle	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 nous	nous	PRON
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -5147,7 +5147,7 @@ modèle	modèle	NOUN
 questions	question	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
+I.	I.	VERB
 la	le	DET
 discussion	discussion	NOUN
 du	du	ADP_DET
@@ -5270,7 +5270,7 @@ passé	passé	NOUN
 culturel	culturel	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 1	1	NUM
 .	.	PUNCTsent
@@ -5388,7 +5388,7 @@ fédération	fédération	NOUN
 européenne	européen	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 le	le	DET
 groupe	groupe	NOUN
@@ -5504,7 +5504,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-IV	IV	NOUN
+IV	IV	NUM
 .	.	PUNCTsent
 1	1	NUM
 .	.	PUNCTsent
@@ -5583,7 +5583,7 @@ Europe	Europe	PROPN
 nouvelle	nouveau	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-V.	V.	ADP
+V.	V.	PROPN
 la	le	DET
 discussion	discussion	NOUN
 au	au	ADP_DET
@@ -5687,7 +5687,7 @@ la	le_PRON	PRON
 rejoindre	rejoindre	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-VI	VI	ADJ
+VI	VI	NUM
 .	.	PUNCTsent
 le	le	DET
 groupe	groupe	NOUN
@@ -6453,7 +6453,7 @@ avons	avoir	AUX
 publié	publier	VERB
 ,	,	PUNCTclause
 au	au	ADP_DET
-centre	centre	NOUN
+Centre	Centre	PROPN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -6463,7 +6463,7 @@ une	un	DET
 première	premier	ADJ
 brochure	brochure	NOUN
 ,	,	PUNCTclause
-naissance	naissance	UNKNOWN
+Naissance	Naissance	PROPN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -7475,7 +7475,7 @@ dans	dans	ADP
 le	le	DET
 pays	pays	NOUN
 de	de	ADP
-bade	bader	UNKNOWN
+Bade	Bade	PROPN
 .	.	PUNCTsent
 en	en	ADP
 gros	gros	ADJ
@@ -7495,7 +7495,7 @@ le	le	DET
 Jura	Jura	PROPN
 et	et	CCONJ
 la	le	DET
-forêt-noire	forêt-noire	UNKNOWN
+Forêt-Noire	Forêt-Noire	PROPN
 ,	,	PUNCTclause
 brochant	brocher	VERB
 sur	sur	ADP
@@ -7646,11 +7646,11 @@ bien	bien	ADV
 entre	entre	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
-wurtembergeois	wurtembergeois	UNKNOWN
+Wurtembergeois	Wurtembergeois	PROPN
 ,	,	PUNCTclause
-bâlois	bâlois	UNKNOWN
+Bâlois	Bâlois	PROPN
 et	et	CCONJ
-alsaciens	alsacien	UNKNOWN
+Alsaciens	Alsaciens	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
@@ -8011,7 +8011,7 @@ Suisse	Suisse	PROPN
 le	le	DET
 pays	pays	NOUN
 de	de	ADP
-bade	bader	UNKNOWN
+Bade	Bade	PROPN
 de	de	ADP
 l'	le	DET
 Allemagne	Allemagne	PROPN
@@ -8091,15 +8091,15 @@ différents	différent	ADJ
 :	:	PUNCTclause
 que	que	SCONJ
 les	le	DET
-bâlois	bâlois	UNKNOWN
+Bâlois	Bâlois	PROPN
 continuent	continuer	VERB
 à	à	ADP
 rester	rester	VERB
-bâlois	bâlois	UNKNOWN
+Bâlois	Bâlois	PROPN
 d'abord	d'abord	ADV
 ,	,	PUNCTclause
 puis	puis	CCONJ
-suisses	suisse	UNKNOWN
+Suisses	Suisses	PROPN
 ,	,	PUNCTclause
 que	que	SCONJ
 les	le	DET
@@ -8811,7 +8811,7 @@ ceci	ceci	PRON
 —	—	PUNCTclause
 je	je	PRON
 suis	être	AUX
-neuchâtelois	neuchâtelois	UNKNOWN
+Neuchâtelois	Neuchâtelois	PROPN
 ,	,	PUNCTclause
 né	naître	VERB
 dans	dans	ADP
@@ -8876,7 +8876,7 @@ patriotique	patriotique	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
 comme	comme	ADP
-neuchâtelois	neuchâtelois	UNKNOWN
+Neuchâtelois	Neuchâtelois	PROPN
 ,	,	PUNCTclause
 je	je	PRON
 suis	être	AUX
@@ -9072,7 +9072,7 @@ communes	commun	ADJ
 qui	qui	PRON
 sont	être	AUX
 répandues	répandre	VERB
-n'importe	n'importe	PUNCT
+n'importe	n'importe	INTJ
 comment	comment	ADV
 sur	sur	ADP
 toute	tout	ADJ
@@ -9250,14 +9250,14 @@ la	le	DET
 ligue	ligue	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Ein	Ein	NOUN
+Ein	Ein	PROPN
 Volk	Volk	PROPN
 ,	,	PUNCTclause
 ein	ein	NOUN
 Reich	Reich	PROPN
 ,	,	PUNCTclause
 ein	ein	NOUN
-führer	führer	UNKNOWN
+Führer	Führer	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -10082,7 +10082,7 @@ je	je	PRON
 veux	vouloir	VERB
 bien	bien	ADV
 …	…	PUNCTsent
-Hegel	Hegel	NOUN
+Hegel	Hegel	PROPN
 et	et	CCONJ
 Marx	Marx	PROPN
 ont	avoir	AUX

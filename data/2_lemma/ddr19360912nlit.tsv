@@ -52,7 +52,7 @@ par	par	ADP
 son	son	DET
 style	style	NOUN
 .	.	PUNCTsent
-M.	M.	PUNCT
+M.	M.	NOUN
 Wilfred	Wilfred	PROPN
 Monod	Monod	PROPN
 est	être	AUX
@@ -81,7 +81,7 @@ du	du	ADP_DET
 protestantisme	protestantisme	NOUN
 français	français	ADJ
 .	.	PUNCTsent
-Maurras	Maurras	ADJ
+Maurras	Maurras	PROPN
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 il	il	PRON
@@ -614,7 +614,7 @@ l'	le	DET
 amour	amour	NOUN
 ,	,	PUNCTclause
 la	le	DET
-sainteté	sainteté	UNKNOWN
+Sainteté	Sainteté	PROPN
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON
@@ -648,7 +648,7 @@ contre	contre	ADP
 le	le	DET
 problème	problème	NOUN
 du	du	ADP_DET
-mal	mal	UNKNOWN
+Mal	Mal	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 notons	noter	VERB
@@ -681,7 +681,7 @@ libéral	libéral	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 (	(	PUNCTclause
-Calvin	Calvin	NOUN
+Calvin	Calvin	PROPN
 disait	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTclause
@@ -777,7 +777,7 @@ homme	homme	NOUN
 en	en	ADP
 question	question	NOUN
 .	.	PUNCTsent
-M.	M.	PRON
+M.	M.	NOUN
 Monod	Monod	PROPN
 part	partir	VERB
 au contraire de	au contraire de	ADP
@@ -1021,7 +1021,7 @@ que	que	SCONJ
 nous	nous	PRON
 montre	montrer	VERB
 la	le	DET
-nature	nature	UNKNOWN
+Nature	Nature	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1155,12 +1155,12 @@ et	et	CCONJ
 pour	pour	ADP
 vaincre	vaincre	VERB
 ?	?	PUNCTsent
-M.	M.	PUNCT
+M.	M.	NOUN
 Monod	Monod	PROPN
-le	le_PRON	PRON
+le	le	DET
 pense	penser	VERB
 .	.	PUNCTsent
-Jésus-Christ	Jésus-Christ	NOUN
+Jésus-Christ	Jésus-Christ	PROPN
 ,	,	PUNCTclause
 dit	dire	VERB
 il	il	PRON
@@ -1299,7 +1299,7 @@ de	de	ADP
 ces	ce	DET
 débats	débat	NOUN
 .	.	PUNCTsent
-Wilfred	Wilfred	NOUN
+Wilfred	Wilfred	PROPN
 Monod	Monod	X
 nous	nous	PRON
 apparaît	apparaître	VERB
@@ -1460,7 +1460,7 @@ de	de	ADP
 loin	loin	ADV
 .	.	PUNCTsent
 les	le	DET
-soliloques	soliloque	UNKNOWN
+Soliloques	Soliloques	PROPN
 dans	dans	ADP
 la	le	DET
 nuit	nuit	NOUN
@@ -1780,7 +1780,7 @@ les	le	DET
 croyants	croyant	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Emmanuel	Emmanuel	NOUN
+Emmanuel	Emmanuel	PROPN
 !	!	PUNCTsent
 »	»	PUNCTclause
 qui	qui	PRON
@@ -1819,7 +1819,7 @@ en	en	ADP
 l'	le	DET
 espèce	espèce	NOUN
 ?	?	PUNCTsent
-M.	M.	PUNCT
+M.	M.	NOUN
 Monod	Monod	PROPN
 ne	ne	ADV
 saurait	savoir	VERB

@@ -158,7 +158,7 @@ ajusté	ajusté	ADJ
 ↵↵	↵↵	PUNCTstruct
 ha	ha	INTJ
 !	!	PUNCTsent
-Nicolas	Nicolas	NOUN
+Nicolas	Nicolas	PROPN
 Manuel	Manuel	PROPN
 Deutsch	Deutsch	PROPN
 ,	,	PUNCTclause
@@ -249,7 +249,7 @@ dans	dans	ADP
 son	son	DET
 fumier	fumier	NOUN
 !…	!…	PUNCTsent
-O	O	AUX
+O	O	X
 toi	toi	PRON
 mon	mon	DET
 doux	doux	ADJ
@@ -293,7 +293,7 @@ Novare	Novare	PROPN
 ,	,	PUNCTclause
 par-dessus	par-dessus	ADP
 les	le	DET
-alpes	alpe	UNKNOWN
+Alpes	Alpes	PROPN
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
@@ -376,7 +376,7 @@ qui	qui	PRON
 parle	parler	VERB
 en	en	ADP
 ses	son	DET
-tragiques	tragique	UNKNOWN
+Tragiques	Tragiques	PROPN
 de	de	ADP
 une	un	DET
 nuit	nuit	NOUN
@@ -545,7 +545,7 @@ fîmes	faire	VERB
 l'	le	DET
 amour	amour	NOUN
 ?	?	PUNCTsent
-Urs	Urs	DET
+Urs	Urs	PROPN
 Graf	Graf	PROPN
 ,	,	PUNCTclause
 Holbein	Holbein	PROPN
@@ -751,9 +751,9 @@ plate	plat	ADJ
 et	et	CCONJ
 basse	bas	ADJ
 .	.	PUNCTsent
-Quanto	Quanto	NOUN
-bella	bella	NOUN
-giovinezza	giovinezza	NOUN
+Quanto	Quanto	PROPN
+bella	bella	X
+giovinezza	giovinezza	VERB
 Che	Che	PROPN
 si	si	SCONJ
 fugge	fugge	DET
@@ -766,8 +766,8 @@ lieto	lieto	NOUN
 ,	,	PUNCTclause
 sia	sia	DET
 !	!	PUNCTsent
-Di	Di	ADP
-doman	doman	NOUN
+Di	Di	PROPN
+doman	doman	X
 non	non	ADV
 ce	ce	PRON
 è	è	ADP
@@ -996,7 +996,7 @@ qui	qui	PRON
 nous	nous	PRON
 manquent	manquer	VERB
 .	.	PUNCTsent
-Böcklin	Böcklin	NOUN
+Böcklin	Böcklin	PROPN
 manque de	manque de	ADP
 sobriété	sobriété	NOUN
 ,	,	PUNCTclause
@@ -1326,7 +1326,7 @@ bariolent	barioler	VERB
 les	le	DET
 peintres	peintre	NOUN
 de	de	ADP
-alpe	alpe	UNKNOWN
+Alpe	Alpe	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 que	que	PRON
@@ -1458,7 +1458,7 @@ la	le	DET
 défaite	défaite	NOUN
 de	de	ADP
 la	le	DET
-bicoque	bicoque	UNKNOWN
+Bicoque	Bicoque	PROPN
 ,	,	PUNCTclause
 crie	crier	VERB
 son	son	DET
@@ -1527,7 +1527,7 @@ sur	sur	ADP
 ce	ce	DET
 vers	vers	NOUN
 :	:	PUNCTclause
-amen	amen	UNKNOWN
+Amen	Amen	PROPN
 .	.	PUNCTsent
 scellé	sceller	VERB
 avec	avec	ADP
@@ -2122,7 +2122,7 @@ dernière	dernier	ADJ
 fois	fois	NOUN
 à	à	ADP
 la	le	DET
-diète	diète	UNKNOWN
+Diète	Diète	PROPN
 de	de	ADP
 Baden	Baden	PROPN
 .	.	PUNCTsent
@@ -2272,7 +2272,7 @@ homme	homme	NOUN
 devant	devant	ADP
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
-Conrad	Conrad	VERB
+Conrad	Conrad	PROPN
 Witz	Witz	PROPN
 peint	peindre	VERB
 un	un	DET
@@ -2328,7 +2328,7 @@ ceux	ceux	PRON
 qui	qui	PRON
 comptent	compter	VERB
 .	.	PUNCTsent
-Urs	Urs	ADJ
+Urs	Urs	PROPN
 Graf	Graf	PROPN
 dessine	dessiner	VERB
 des	un	DET
@@ -2358,7 +2358,7 @@ Baldung	Baldung	PROPN
 Grien	Grien	PROPN
 ,	,	PUNCTclause
 Hans	Hans	PROPN
-leu	leu	UNKNOWN
+Leu	Leu	PROPN
 ,	,	PUNCTclause
 Hans	Hans	PROPN
 Fries	Fries	PROPN
@@ -2427,7 +2427,7 @@ les	le	DET
 fruits	fruit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-J.	J.	DET
+J.	J.	PROPN
 H.	H.	PROPN
 Füssli	Füssli	PROPN
 ,	,	PUNCTclause
@@ -2464,7 +2464,7 @@ l'	le	DET
 académie	académie	NOUN
 royale	royal	ADJ
 des	un	ADP_DET
-arts	art	UNKNOWN
+Arts	Arts	PROPN
 .	.	PUNCTsent
 les	le	DET
 anglais	anglais	NOUN
@@ -2501,7 +2501,7 @@ de	de	ADP
 Shakespeare	Shakespeare	PROPN
 et	et	CCONJ
 du	du	ADP_DET
-paradis	paradis	UNKNOWN
+Paradis	Paradis	PROPN
 de	de	ADP
 Milton	Milton	PROPN
 (	(	PUNCTclause
@@ -2567,15 +2567,15 @@ surréaliste	surréaliste	NOUN
 suisse	suisse	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Léopold	Léopold	X
+Léopold	Léopold	PROPN
 Robert	Robert	PROPN
 ,	,	PUNCTclause
-neuchâtelois	neuchâtelois	UNKNOWN
+Neuchâtelois	Neuchâtelois	PROPN
 ,	,	PUNCTclause
 peint	peindre	VERB
 de	de	ADP
 belles	beau	ADJ
-siciliennes	sicilien	UNKNOWN
+Siciliennes	Siciliennes	PROPN
 au	au	ADP_DET
 front	front	NOUN
 grec	grec	ADJ
@@ -2618,10 +2618,10 @@ Charlotte	Charlotte	PROPN
 Bonaparte	Bonaparte	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Arnold	Arnold	X
+Arnold	Arnold	PROPN
 Böcklin	Böcklin	PROPN
 ,	,	PUNCTclause
-bâlois	bâlois	UNKNOWN
+Bâlois	Bâlois	PROPN
 ,	,	PUNCTclause
 fait	faire	VERB
 en	en	ADP
@@ -2715,7 +2715,7 @@ poète	poète	NOUN
 français	français	ADJ
 ?	?	PUNCTsent
 «	«	PUNCTclause
-Hugo	Hugo	NOUN
+Hugo	Hugo	PROPN
 ,	,	PUNCTclause
 hélas	hélas	INTJ
 !	!	PUNCTsent
@@ -2752,7 +2752,7 @@ naguère	naguère	ADV
 Cézanne	Cézanne	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-van	van	UNKNOWN
+Van	Van	PROPN
 Gogh	Gogh	PROPN
 .	.	PUNCTsent
 ils	ils	PRON
@@ -2858,7 +2858,7 @@ voyaient	voir	VERB
 nos	nos	DET
 romantiques	romantique	NOUN
 —	—	PUNCTclause
-calame	calame	UNKNOWN
+Calame	Calame	PROPN
 ,	,	PUNCTclause
 Diday	Diday	PROPN
 ,	,	PUNCTclause
@@ -3003,7 +3003,7 @@ mythe	mythe	NOUN
 ↵↵	↵↵	PUNCTstruct
 son	son	DET
 Guillaume	Guillaume	PROPN
-tell	tell	UNKNOWN
+Tell	Tell	PROPN
 trapu	trapu	ADJ
 surgit	surgir	VERB
 de	de	ADP
@@ -3035,7 +3035,7 @@ ce	ce	PRON
 est	être	AUX
 le	le	DET
 vrai	vrai	ADJ
-tell	tell	UNKNOWN
+Tell	Tell	PROPN
 ,	,	PUNCTclause
 archétypique	archétypique	NOUN
 ,	,	PUNCTclause
@@ -3055,7 +3055,7 @@ en	en	ADP
 marchant	marcher	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Paul	Paul	ADJ
+Paul	Paul	PROPN
 Klee	Klee	PROPN
 :	:	PUNCTclause
 à	à	ADP
@@ -3353,7 +3353,7 @@ gauche	gauche	NOUN
 :	:	PUNCTclause
 plus	plus	ADV
 près de	près de	ADP
-tell	tell	UNKNOWN
+Tell	Tell	PROPN
 que	que	SCONJ
 les	le	DET
 conservateurs	conservateur	NOUN

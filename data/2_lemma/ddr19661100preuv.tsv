@@ -6,8 +6,8 @@
 # title = André Breton (novembre 1966)
 
 ↵↵	↵↵	PUNCTstruct
-André	André	ADJ
-breton	breton	UNKNOWN
+André	André	PROPN
+Breton	Breton	PROPN
 (	(	PUNCTclause
 novembre	novembre	NOUN
 1966	1966	NUM
@@ -49,7 +49,7 @@ et	et	CCONJ
 la	le	DET
 présence	présence	NOUN
 de	de	ADP
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 me	me	PRON
 est	être	AUX
 advenue	advenir	VERB
@@ -74,7 +74,7 @@ ne	ne	ADV
 ai	avoir	AUX
 pas	pas	ADV
 connu	connaître	VERB
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 écrivain	écrivain	NOUN
 français	français	ADJ
 qui	qui	PRON
@@ -211,7 +211,7 @@ ces	ce	DET
 paysages	paysage	NOUN
 que	que	SCONJ
 dans	dans	ADP
-arcane	arcane	UNKNOWN
+Arcane	Arcane	PROPN
 17	17	NUM
 ou	ou	CCONJ
 l'	le	DET
@@ -301,7 +301,7 @@ bois	bois	NOUN
 celtique	celtique	ADJ
 ,	,	PUNCTclause
 André	André	PROPN
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ,	,	PUNCTclause
 enterré	enterrer	VERB
 ce	ce	DET
@@ -354,7 +354,7 @@ symbole	symbole	NOUN
 (	(	PUNCTclause
 refusé	refuser	VERB
 mais	mais	CCONJ
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 )	)	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -499,7 +499,7 @@ fils	fils	NOUN
 Pitoëff	Pitoëff	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
 il	il	PRON
@@ -640,7 +640,7 @@ la	le	DET
 psychanalyse	psychanalyse	NOUN
 ,	,	PUNCTclause
 Saint-John	Saint-John	PROPN
-perse	pers	UNKNOWN
+Perse	Perse	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 aussi	aussi	ADV
@@ -730,8 +730,8 @@ l'	le	DET
 		TOKEN
 .	.	PUNCTsent
 —	—	PUNCTclause
-André	André	NOUN
-breton	breton	UNKNOWN
+André	André	PROPN
+Breton	Breton	PROPN
 ,	,	PUNCTclause
 superbement	superbement	ADV
 courtois	courtois	ADJ
@@ -855,7 +855,7 @@ que	que	SCONJ
 il	il	PRON
 appelle	appeler	VERB
 Avida	Avida	PROPN
-dollars	dollar	UNKNOWN
+Dollars	Dollars	PROPN
 ,	,	PUNCTclause
 le	le	DET
 soin	soin	NOUN
@@ -1100,7 +1100,7 @@ jours	jour	NOUN
 ce	ce	PRON
 est	être	AUX
 que	que	ADV
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ,	,	PUNCTclause
 pour	pour	ADP
 toute	tout	ADJ
@@ -1272,7 +1272,7 @@ de	de	ADP
 la	le	DET
 poésie	poésie	NOUN
 selon	selon	ADP
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ,	,	PUNCTclause
 autrement dit	autrement dit	ADV
 ,	,	PUNCTclause
@@ -1400,7 +1400,7 @@ leur	leur	DET
 cœur	cœur	NOUN
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ne	ne	ADV
 les	le_PRON	PRON
 avait	avoir	AUX
@@ -1437,7 +1437,7 @@ que	que	PRON
 avait	avoir	AUX
 reconstitué	reconstituer	VERB
 André	André	PROPN
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 dès	dès	ADP
 son	son	DET
 arrivée	arrivée	NOUN
@@ -1479,8 +1479,8 @@ Duchamp	Duchamp	PROPN
 ,	,	PUNCTclause
 père	père	NOUN
 du	du	ADP_DET
-pop	pop	UNKNOWN
-art	art	UNKNOWN
+Pop	Pop	PROPN
+Art	Art	PROPN
 vingt	vingt	NUM
 ans	an	NOUN
 plus tard	plus tard	ADV
@@ -1571,7 +1571,7 @@ ou	ou	CCONJ
 une	un	DET
 vitrine	vitrine	NOUN
 (	(	PUNCTclause
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ,	,	PUNCTclause
 Seligmann	Seligmann	PROPN
 et	et	CCONJ
@@ -1581,7 +1581,7 @@ celle	celle	PRON
 qui	qui	PRON
 annonçait	annoncer	VERB
 ma	mon	DET
-part	part	UNKNOWN
+Part	Part	PROPN
 du	du	ADP_DET
 diable	diable	NOUN
 )	)	PUNCTclause
@@ -1615,7 +1615,7 @@ studio	studio	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 le	le_PRON	PRON
 plus	plus	ADV
 moderne	moderne	ADJ
@@ -1674,7 +1674,7 @@ lut	lire	VERB
 un	un	DET
 jour	jour	NOUN
 l'	le	DET
-ode	ode	UNKNOWN
+Ode	Ode	PROPN
 à	à	ADP
 Charles	Charles	PROPN
 Fourier	Fourier	PROPN
@@ -1698,7 +1698,7 @@ crayon	crayon	NOUN
 de	de	ADP
 couleur	couleur	NOUN
 .	.	PUNCTsent
-Fourier	Fourier	VERB
+Fourier	Fourier	PROPN
 était	être	AUX
 alors	alors	ADV
 son	son	DET
@@ -1772,7 +1772,7 @@ due	devoir	VERB
 écrira	écrire	VERB
 il	il	PRON
 dans	dans	ADP
-arcane	arcane	UNKNOWN
+Arcane	Arcane	PROPN
 17	17	NUM
 ,	,	PUNCTclause
 deux	deux	NUM
@@ -1824,7 +1824,7 @@ fraîcheur	fraîcheur	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 jamais	jamais	ADV
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ne	ne	ADV
 se	se	PRON
 est	être	AUX
@@ -1960,9 +1960,9 @@ parurent	paraître	VERB
 à	à	ADP
 New York	New York	PROPN
 mes	mon	DET
-personnes	personne	UNKNOWN
+Personnes	Personnes	PROPN
 du	du	ADP_DET
-drame	drame	UNKNOWN
+Drame	Drame	PROPN
 .	.	PUNCTsent
 breton	breton	NOUN
 me	me	PRON
@@ -2197,7 +2197,7 @@ cela	cela	PRON
 peut	pouvoir	VERB
 faire	faire	VERB
 à	à	ADP
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ?	?	PUNCTsent
 à	à	ADP
 chacun	chacun	PRON
@@ -2213,8 +2213,8 @@ son	son	DET
 surréalisme	surréalisme	NOUN
 …	…	PUNCTsent
 »	»	PUNCTclause
-André	André	VERB
-breton	breton	UNKNOWN
+André	André	PROPN
+Breton	Breton	PROPN
 vient	venir	VERB
 très	très	ADV
 en	en	ADP
@@ -2268,7 +2268,7 @@ comptait	compter	VERB
 parfois	parfois	ADV
 aux yeux de	aux yeux de	ADP
 André	André	PROPN
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 un	un	DET
 peu	peu	ADV
 plus	plus	ADV

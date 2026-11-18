@@ -206,22 +206,22 @@ elle	elle	PRON
 ne	ne	ADV
 a	avoir	VERB
 plus	plus	ADV
-d'autre	d'autre	ADP
-garantie	garantie	NOUN
+d'autre	d'autre	PRON
+garantie	garantir	VERB
 humaine	humain	ADJ
 que	que	SCONJ
 son	son	DET
 armée	armée	NOUN
 ,	,	PUNCTclause
 plus	plus	ADV
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 allié	allier	VERB
 que	que	SCONJ
 son	son	DET
 terrain	terrain	NOUN
 ,	,	PUNCTclause
 plus	plus	ADV
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 espoir	espoir	NOUN
 que	que	SCONJ
 son	son	DET
@@ -465,7 +465,7 @@ avions	avion	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
 cet	ce	DET
-alcazar	alcazar	UNKNOWN
+Alcazar	Alcazar	PROPN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -1478,7 +1478,7 @@ puisque	puisque	SCONJ
 elle	elle	PRON
 est	être	AUX
 le	le	DET
-corps	corps	NOUN
+Corps	Corps	PROPN
 même	même	ADV
 du	du	ADP_DET
 Dieu	Dieu	PROPN
@@ -1700,7 +1700,7 @@ cultuelles	cultuel	ADJ
 fixes	fixe	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PRON
+I.	I.	PROPN
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 premier	premier	ADJ
@@ -2052,7 +2052,7 @@ chrétiens	chrétien	ADJ
 parce que	parce que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
-suisses	suisse	UNKNOWN
+Suisses	Suisses	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 nous	nous	PRON
@@ -2060,7 +2060,7 @@ devons	devoir	VERB
 être	être	AUX
 de	de	DET
 bons	bon	ADJ
-suisses	suisse	UNKNOWN
+Suisses	Suisses	PROPN
 parce que	parce que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
@@ -2239,7 +2239,7 @@ sont	être	AUX
 ordonnés	ordonner	VERB
 par	par	ADP
 la	le	DET
-parole	parole	UNKNOWN
+Parole	Parole	PROPN
 et	et	CCONJ
 par	par	ADP
 l'	le	DET
@@ -2281,7 +2281,7 @@ est	être	AUX
 urgent	urgent	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -3564,7 +3564,7 @@ peuvent	pouvoir	VERB
 communier	communier	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -4252,8 +4252,8 @@ principaux	principal	ADJ
 traits	trait	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
-invocation	invocation	NOUN
+I.	I.	PROPN
+Invocation	Invocation	PROPN
 (	(	PUNCTclause
 l'	le	DET
 assemblée	assemblée	NOUN
@@ -4263,7 +4263,7 @@ debout	debout	ADV
 psaume	psaume	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 la	le	DET
 loi	loi	NOUN
@@ -4284,7 +4284,7 @@ chant	chant	NOUN
 spontané	spontané	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
-mon Dieu	mon Dieu	NOUN
+mon Dieu	mon Dieu	INTJ
 ,	,	PUNCTclause
 ta	ton	DET
 loi	loi	NOUN
@@ -4308,7 +4308,7 @@ toi	toi	PRON
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 confession	confession	NOUN
 des	un	ADP_DET
@@ -4321,7 +4321,7 @@ agenouille	agenouiller	VERB
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-IV	IV	NOUN
+IV	IV	NUM
 .	.	PUNCTsent
 kyrie	kyrie	NOUN
 (	(	PUNCTclause
@@ -4341,7 +4341,7 @@ pitié	pitié	NOUN
 de	de	ADP
 nous	nous	PRON
 !	!	PUNCTsent
-Jésus-Christ	Jésus-Christ	ADV
+Jésus-Christ	Jésus-Christ	PROPN
 ,	,	PUNCTclause
 aie	avoir	AUX
 pitié	pitié	NOUN
@@ -4352,8 +4352,8 @@ nous	nous	PRON
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-V.	V.	ADP
-promesses	promesse	NOUN
+V.	V.	PROPN
+Promesses	Promesses	PROPN
 de	de	ADP
 grâce	grâce	NOUN
 et	et	CCONJ
@@ -4388,7 +4388,7 @@ l'	le	DET
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-VI	VI	ADJ
+VI	VI	NUM
 .	.	PUNCTsent
 credo	credo	NOUN
 (	(	PUNCTclause
@@ -4405,7 +4405,7 @@ debout	debout	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-VII	VII	NOUN
+VII	VII	NUM
 .	.	PUNCTsent
 alléluia	alléluia	NOUN
 (	(	PUNCTclause
@@ -4423,7 +4423,7 @@ culte	culte	NOUN
 ,	,	PUNCTclause
 après	après	ADP
 l'	le	DET
-oraison	oraison	UNKNOWN
+Oraison	Oraison	PROPN
 dominicale	dominical	ADJ
 ,	,	PUNCTclause
 chant	chant	NOUN
@@ -5220,7 +5220,7 @@ et	et	CCONJ
 nous	nous	PRON
 ,	,	PUNCTclause
 les	le	DET
-suisses	suisse	UNKNOWN
+Suisses	Suisses	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -5327,13 +5327,13 @@ nos	nos	DET
 relations	relation	NOUN
 avec	avec	ADP
 le	le	DET
-tout-puissant	tout-puissant	UNKNOWN
+Tout-Puissant	Tout-Puissant	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX
 pourtant	pourtant	ADV
 nommé	nommer	VERB
-monarque	monarque	UNKNOWN
+Monarque	Monarque	PROPN
 ,	,	PUNCTclause
 Dieu	Dieu	PROPN
 et	et	CCONJ
@@ -5809,7 +5809,7 @@ notre	notre	DET
 rapprochement	rapprochement	NOUN
 avec	avec	ADP
 d'autres	d'autre	PRON
-églises	église	UNKNOWN
+Églises	Églises	PROPN
 dans	dans	ADP
 le	le	DET
 mouvement	mouvement	NOUN
@@ -5988,7 +5988,7 @@ sont	être	AUX
 les	le	DET
 membres	membre	NOUN
 du	du	ADP_DET
-corps	corps	UNKNOWN
+Corps	Corps	PROPN
 de	de	ADP
 Jésus-Christ	Jésus-Christ	PROPN
 ,	,	PUNCTclause

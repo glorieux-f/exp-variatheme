@@ -267,7 +267,7 @@ la	le	DET
 rue	rue	NOUN
 du	du	ADP_DET
 moulin	moulin	NOUN
-vert	vert	ADJ
+Vert	Vert	PROPN
 pour	pour	ADP
 des	un	DET
 discussions	discussion	NOUN
@@ -315,7 +315,7 @@ Boulgakov	Boulgakov	PROPN
 ,	,	PUNCTclause
 le	le	DET
 pasteur	pasteur	NOUN
-visser	visser	UNKNOWN
+Visser	Visser	PROPN
 't	't	PUNCT
 Hooft	Hooft	PROPN
 …	…	PUNCTsent
@@ -328,7 +328,7 @@ ce	ce	DET
 club	club	NOUN
 du	du	ADP_DET
 moulin	moulin	NOUN
-vert	vert	ADJ
+Vert	Vert	PROPN
 »	»	PUNCTclause
 qui	qui	PRON
 fut	être	AUX
@@ -555,7 +555,7 @@ son	son	DET
 manifeste	manifeste	NOUN
 :	:	PUNCTclause
 Révolution	Révolution	PROPN
-personnaliste	personnaliste	ADJ
+personnaliste	personnaliste	VERB
 et	et	CCONJ
 communautaire	communautaire	ADJ
 .	.	PUNCTsent
@@ -633,7 +633,7 @@ est	être	AUX
 attribué	attribuer	VERB
 le	le	DET
 côté	côté	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 .	.	PUNCTsent
 pour	pour	ADP
 nous	nous	PRON
@@ -652,7 +652,7 @@ des	un	ADP_DET
 citoyens	citoyen	NOUN
 et	et	CCONJ
 rien	rien	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 !	!	PUNCTsent
 or	or	NOUN
 ,	,	PUNCTclause
@@ -1105,7 +1105,7 @@ librement	librement	ADV
 ↵↵	↵↵	PUNCTstruct
 justement	justement	ADV
 ,	,	PUNCTclause
-qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	NOUN
 qui	qui	PRON
 se	se	PRON
 passe	passer	VERB
@@ -1121,7 +1121,7 @@ disions	dire	VERB
 en	en	ADP
 commençant	commençant	NOUN
 …	…	PUNCTsent
-qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	NOUN
 qui	qui	PRON
 fait	faire	VERB
 courir	courir	VERB
@@ -2329,7 +2329,7 @@ ils	ils	PRON
 disent	dire	VERB
 !	!	PUNCTsent
 »	»	PUNCTclause
-Kowarski	Kowarski	X
+Kowarski	Kowarski	PROPN
 me	me	PRON
 dit	dire	VERB
 toujours	toujours	ADV
@@ -2374,7 +2374,7 @@ besoin	besoin	NOUN
 !	!	PUNCTsent
 pas	pas	ADV
 besoin	besoin	NOUN
-d'autant	d'autant	ADP
+d'autant	d'autant	ADV
 en tous cas	en tous cas	ADV
 .	.	PUNCTsent
 il y a	il y a	VERB
@@ -2430,7 +2430,7 @@ actuelle	actuel	ADJ
 de	de	ADP
 énergie	énergie	NOUN
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 et	et	CCONJ
 vivre	vivre	VERB
 aussi	aussi	ADV
@@ -2770,7 +2770,7 @@ des	un	ADP_DET
 et	et	CCONJ
 de	de	ADP
 l'	le	DET
-union	union	NOUN
+Union	Union	PROPN
 soviétique	soviétique	ADJ
 .	.	PUNCTsent
 où	où	PRON
@@ -2851,7 +2851,7 @@ billes	bille	NOUN
 —	—	PUNCTclause
 et	et	CCONJ
 par	par	ADP
-siemens	siemens	UNKNOWN
+Siemens	Siemens	PROPN
 ,	,	PUNCTclause
 multinationale	multinational	ADJ
 allemande	allemand	ADJ
@@ -3361,7 +3361,7 @@ le	le	DET
 désordre	désordre	NOUN
 établi	établir	VERB
 .	.	PUNCTsent
-Mounier	Mounier	NOUN
+Mounier	Mounier	PROPN
 a	avoir	AUX
 dit	dire	VERB
 exactement	exactement	ADV
@@ -3831,7 +3831,7 @@ de	de	ADP
 Estaing	Estaing	PROPN
 ou	ou	CCONJ
 Raymond	Raymond	PROPN
-barre	barre	UNKNOWN
+Barre	Barre	PROPN
 ,	,	PUNCTclause
 pour	pour	ADP
 mettre	mettre	VERB
@@ -3839,14 +3839,14 @@ mettre	mettre	VERB
 la	le	DET
 place	place	NOUN
 Georges	Georges	PROPN
-marchais	marcher	UNKNOWN
+Marchais	Marchais	PROPN
 ,	,	PUNCTclause
 français	français	ADJ
 Mitterrand	Mitterrand	PROPN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 n'importe qui	n'importe qui	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 .	.	PUNCTsent
 car	car	CCONJ
 ceux	ceux	PRON
@@ -4018,9 +4018,9 @@ génération	génération	NOUN
 ne	ne	ADV
 recevra	recevoir	VERB
 pas	pas	ADV
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 oracle	oracle	NOUN
-que	que	ADV
+que	que	SCONJ
 celui	celui	PRON
 de	de	ADP
 Isaïe	Isaïe	PROPN
@@ -4040,7 +4040,7 @@ au	au	ADP_DET
 prophète	prophète	NOUN
 :	:	PUNCTclause
 —	—	PUNCTclause
-sentinelle	sentinelle	UNKNOWN
+Sentinelle	Sentinelle	PROPN
 ,	,	PUNCTclause
 que	que	PRON
 dis	dire	VERB

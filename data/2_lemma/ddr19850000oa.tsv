@@ -17,7 +17,7 @@ anecdotes	anecdote	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Henri	Henri	NOUN
+Henri	Henri	PROPN
 Michaux	Michaux	PROPN
 et	et	CCONJ
 les	le	DET
@@ -26,7 +26,7 @@ idoles	idole	NOUN
 ↵↵	↵↵	PUNCTstruct
 rue	rue	NOUN
 du	du	ADP_DET
-four	four	UNKNOWN
+Four	Four	PROPN
 ,	,	PUNCTclause
 sortant	sortir	VERB
 de	de	ADP
@@ -90,7 +90,7 @@ belle	beau	ADJ
 voiture	voiture	NOUN
 .	.	PUNCTsent
 en	en	ADP
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 ,	,	PUNCTclause
 on	on	PRON
 se	se	PRON
@@ -244,7 +244,7 @@ Paulhan	Paulhan	PROPN
 était	être	AUX
 un	un	DET
 lieu	lieu	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 de	de	ADP
 ma	mon	DET
 mythologie	mythologie	NOUN
@@ -299,7 +299,7 @@ littéraire	littéraire	ADJ
 de	de	ADP
 Gide	Gide	PROPN
 à	à	ADP
-fargue	farguer	UNKNOWN
+Fargue	Fargue	PROPN
 et	et	CCONJ
 à	à	ADP
 Malraux	Malraux	PROPN
@@ -397,7 +397,7 @@ Valéry	Valéry	PROPN
 Proust	Proust	PROPN
 ,	,	PUNCTclause
 Saint-John	Saint-John	PROPN
-perse	pers	UNKNOWN
+Perse	Perse	PROPN
 …	…	PUNCTsent
 )	)	PUNCTclause
 était	être	AUX
@@ -476,7 +476,7 @@ entre	entrer	VERB
 ha	ha	INTJ
 tiens	tien	NOUN
 !	!	PUNCTsent
-Rougemont	Rougemont	NOUN
+Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
 bonjour	bonjour	NOUN
 !	!	PUNCTsent
@@ -542,7 +542,7 @@ son	son	DET
 bureau	bureau	NOUN
 ,	,	PUNCTclause
 le	le	DET
-courrier	courrier	UNKNOWN
+Courrier	Courrier	PROPN
 de	de	ADP
 Paris	Paris	PROPN
 ,	,	PUNCTclause
@@ -844,7 +844,7 @@ octobre	octobre	NOUN
 ↵↵	↵↵	PUNCTstruct
 cher	cher	ADJ
 ami	ami	NOUN
-merci	merci	UNKNOWN
+Merci	Merci	PROPN
 .	.	PUNCTsent
 je	je	PRON
 suis	être	AUX
@@ -938,7 +938,7 @@ jointe	joint	ADJ
 ↵↵	↵↵	PUNCTstruct
 21	21	NUM
 .	.	PUNCTsent
-VIII	VIII	NOUN
+VIII	VIII	NUM
 .	.	PUNCTsent
 1949	1949	NUM
 ↵↵	↵↵	PUNCTstruct
@@ -955,7 +955,7 @@ fait	faire	VERB
 besoin	besoin	NOUN
 du	du	ADP_DET
 Saint-John	Saint-John	PROPN
-perse	pers	UNKNOWN
+Perse	Perse	PROPN
 avant	avant	ADP
 le	le	DET
 10	10	NUM
@@ -1121,7 +1121,7 @@ pied	pied	NOUN
 la	le	DET
 rue	rue	NOUN
 de	de	ADP
-rennes	renne	UNKNOWN
+Rennes	Rennes	PROPN
 ,	,	PUNCTclause
 contournons	contourner	VERB
 la	le	DET
@@ -1240,7 +1240,7 @@ peu de	peu de	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 pas	pas	ADV
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 solution	solution	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -1264,7 +1264,7 @@ répondre	répondre	VERB
 …	…	PUNCTsent
 attendez	attendre	VERB
 …	…	PUNCTsent
-Michaux	Michaux	NOUN
+Michaux	Michaux	PROPN
 est	être	AUX
 très	très	ADV
 mince	mince	ADJ
@@ -1324,7 +1324,7 @@ entrée	entrée	NOUN
 du	du	ADP_DET
 bistrot	bistrot	NOUN
 .	.	PUNCTsent
-Artaud	Artaud	NOUN
+Artaud	Artaud	PROPN
 se	se	PRON
 calme	calmer	VERB
 .	.	PUNCTsent
@@ -1453,8 +1453,8 @@ trop	trop	ADV
 !	!	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-André	André	VERB
-breton	breton	UNKNOWN
+André	André	PROPN
+Breton	Breton	PROPN
 à	à	ADP
 New York	New York	PROPN
 .	.	PUNCTsent
@@ -1624,7 +1624,7 @@ cet	ce	DET
 usage	usage	NOUN
 —	—	PUNCTclause
 seront	être	AUX
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ,	,	PUNCTclause
 Lévi-Strauss	Lévi-Strauss	PROPN
 et	et	CCONJ
@@ -1668,11 +1668,11 @@ Tanguy	Tanguy	PROPN
 ,	,	PUNCTclause
 Matta	Matta	PROPN
 ,	,	PUNCTclause
-aimé	aimer	UNKNOWN
+Aimé	Aimé	PROPN
 Césaire	Césaire	PROPN
 ,	,	PUNCTclause
 Charles	Charles	PROPN
-duits	duit	UNKNOWN
+Duits	Duits	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 surtout	surtout	ADV
@@ -1744,7 +1744,7 @@ agit	agir	VERB
 des	un	DET
 personnes	personne	NOUN
 du	du	ADP_DET
-drame	drame	UNKNOWN
+Drame	Drame	PROPN
 ,	,	PUNCTclause
 que	que	SCONJ
 Schiffrin	Schiffrin	PROPN
@@ -1927,7 +1927,7 @@ suis	suivre	VERB
 h	h	NOUN
 03	03	NUM
 .	.	PUNCTsent
-Duchamp	Duchamp	NOUN
+Duchamp	Duchamp	PROPN
 est	être	AUX
 là	là	ADV
 ,	,	PUNCTclause
@@ -1960,7 +1960,7 @@ assis	asseoir	VERB
 il	il	PRON
 semble	sembler	VERB
 que	que	SCONJ
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 soit	être	AUX
 très	très	ADV
 gêné	gêné	ADJ
@@ -2035,7 +2035,7 @@ vers	vers	ADP
 h	h	NOUN
 15	15	NUM
 arrive	arriver	VERB
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 ,	,	PUNCTclause
 avec	avec	ADP
 un	un	DET
@@ -2125,7 +2125,7 @@ matin	matin	NOUN
 .	.	PUNCTsent
 sur	sur	ADP
 Madison	Madison	PROPN
-avenue	avenue	UNKNOWN
+Avenue	Avenue	PROPN
 déserte	désert	ADJ
 ,	,	PUNCTclause
 je	je	PRON
@@ -2182,7 +2182,7 @@ levé	lever	VERB
 …	…	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-breton	breton	UNKNOWN
+Breton	Breton	PROPN
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON
@@ -2231,7 +2231,7 @@ croisement	croisement	NOUN
 mots	mot	NOUN
 de	de	ADP
 Léon-Paul	Léon-Paul	PROPN
-fargue	farguer	UNKNOWN
+Fargue	Fargue	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 serais	être	AUX
@@ -2278,7 +2278,7 @@ moi	moi	PRON
 laissant	laisser	VERB
 paraître	paraître	VERB
 Léon-Paul	Léon-Paul	PROPN
-fargue	farguer	UNKNOWN
+Fargue	Fargue	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
@@ -2373,7 +2373,7 @@ lui	lui	PRON
 dis	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Léon-Paul	Léon-Paul	INTJ
+Léon-Paul	Léon-Paul	PROPN
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -2399,7 +2399,7 @@ se	se	PRON
 arrête	arrêter	VERB
 .	.	PUNCTsent
 «	«	PUNCTclause
-June	June	NOUN
+June	June	PROPN
 homme	homme	NOUN
 !	!	PUNCTsent
 moi	moi	PRON
@@ -2446,7 +2446,7 @@ ma	mon	DET
 réaction	réaction	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Hein	Hein	NOUN
+Hein	Hein	PROPN
 !	!	PUNCTsent
 comme	comme	ADP
 contrepèterie	contrepèterie	NOUN
@@ -2676,7 +2676,7 @@ nous	nous	PRON
 allons	aller	VERB
 dîner	dîner	VERB
 au	au	ADP_DET
-buffet	buffet	UNKNOWN
+Buffet	Buffet	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause

@@ -23,7 +23,7 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Denis	Denis	DET
+Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
@@ -253,17 +253,17 @@ ce	ce	PRON
 la	le	DET
 formule	formule	NOUN
 des	un	ADP_DET
-latins	latin	UNKNOWN
+Latins	Latins	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Utinam	Utinam	VERB
+Utinam	Utinam	PROPN
 vates	vates	NOUN
-falsus	falsus	ADP
-sim	sim	NOUN
+falsus	falsus	VERB
+sim	sim	ADP
 »	»	PUNCTclause
 ,	,	PUNCTclause
 «	«	PUNCTclause
-plaise	plaire	UNKNOWN
+Plaise	Plaise	PROPN
 au	au	ADP_DET
 ciel	ciel	NOUN
 que	que	PRON
@@ -608,7 +608,7 @@ nous	nous	PRON
 ,	,	PUNCTclause
 sinon	sinon	CCONJ
 qui	qui	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 ?	?	PUNCTsent
 ce	ce	PRON
 est	être	VERB
@@ -687,7 +687,7 @@ homme	homme	NOUN
 se	se	PRON
 demande	demander	VERB
 :	:	PUNCTclause
-qu'est-ce	qu'est-ce	UNKNOWN
+Qu'est-ce	Qu'est-ce	PROPN
 qui	qui	PRON
 va	aller	VERB
 arriver	arriver	VERB
@@ -1443,7 +1443,7 @@ des	un	ADP_DET
 bombes	bombe	NOUN
 et	et	CCONJ
 rien	rien	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 .	.	PUNCTsent
 donc	donc	ADV
 ,	,	PUNCTclause
@@ -2811,7 +2811,7 @@ bien	bien	ADV
 montré	montrer	VERB
 dans	dans	ADP
 le	le	DET
-mal	mal	UNKNOWN
+Mal	Mal	PROPN
 français	français	ADJ
 .	.	PUNCTsent
 sa	son	DET
@@ -3820,7 +3820,7 @@ de	de	ADP
 dimension	dimension	NOUN
 matérielle	matériel	ADJ
 .	.	PUNCTsent
-Aristote	Aristote	NOUN
+Aristote	Aristote	PROPN
 voulait	vouloir	VERB
 que	que	SCONJ
 la	le	DET
@@ -3866,7 +3866,7 @@ et	et	CCONJ
 lui	lui	PRON
 répondre	répondre	VERB
 de	de	ADP
-n'importe	n'importe	NOUN
+n'importe	n'importe	INTJ
 quel	quel	DET
 point	point	NOUN
 .	.	PUNCTsent
@@ -4326,7 +4326,7 @@ on	on	PRON
 entend	entendre	VERB
 parfois	parfois	ADV
 les	le	DET
-suisses	suisse	UNKNOWN
+Suisses	Suisses	PROPN
 se	se	PRON
 plaindre	plaindre	VERB
 justement	justement	ADV
@@ -4600,9 +4600,9 @@ britanniques	britannique	ADJ
 ,	,	PUNCTclause
 allemands	allemand	ADJ
 ,	,	PUNCTclause
-suisses	suisse	UNKNOWN
+Suisses	Suisses	PROPN
 et	et	CCONJ
-français	français	UNKNOWN
+Français	Français	PROPN
 se	se	PRON
 renvoient	renvoyer	VERB
 la	le	DET
@@ -5196,7 +5196,7 @@ venu	venir	VERB
 le	le	DET
 chercher	chercher	VERB
 au	au	ADP_DET
-paradis	paradis	UNKNOWN
+Paradis	Paradis	PROPN
 et	et	CCONJ
 que	que	SCONJ
 il	il	PRON

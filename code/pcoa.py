@@ -2,9 +2,9 @@
 """Principal Coordinates Analysis (PCoA) of a distance matrix.
 
 The script accepts a square TSV or CSV distance matrix with row and column
-labels. It always writes the eigenvalues and PNG/SVG figures for two selected
-axes (1 and 2 by default). Coordinates for all positive axes are written only
-when ``--coordinates`` is requested.
+labels. It always writes PNG/SVG figures named after the input matrix for two selected
+axes (1 and 2 by default). Write eigenvalues with ``--values`` and coordinates
+for all positive axes with ``--coordinates``.
 
 Presentation choices:
 - the figure title defaults to the matrix filename;
@@ -16,6 +16,7 @@ Presentation choices:
 - the number of negative eigenvalues is reported in the console;
 - no colors are imposed: the current matplotlib style is used;
 - SVG text remains editable text;
+- scorer codes use publication labels from scorers.py in figures, when known;
 - ``--include`` and ``--exclude`` filter rows and columns together using shell
   patterns.
 """
@@ -26,6 +27,8 @@ import argparse
 import csv
 from fnmatch import fnmatchcase
 from pathlib import Path
+
+from scorers import scorer_label
 
 import matplotlib
 
@@ -49,9 +52,17 @@ DIRECTIONS = (
 )
 
 
+def display_label(code: str) -> str:
+    """Return the registered scorer label, or the original label if unknown."""
+    try:
+        return scorer_label(code)
+    except ValueError:
+        return code
+
+
 def default_prefix(matrix_path: Path) -> Path:
-    """Return the default output prefix next to the matrix."""
-    return matrix_path.with_name(f"{matrix_path.stem}-pcoa")
+    """Return the input matrix path without its extension."""
+    return matrix_path.with_suffix("")
 
 
 def default_title(matrix_path: Path) -> str:
@@ -96,9 +107,15 @@ def main() -> None:
             raise ValueError(f"--flip {axis}: axis outside 1..{n_axes}")
         coordinates[:, axis - 1] *= -1.0
 
-    prefix = args.output_prefix or default_prefix(args.matrix)
+    # Keep the legacy second positional as a destination prefix, but derive the
+    # output filenames from the matrix rather than that prefix's basename.
+    prefix = (
+        args.output_prefix.parent / args.matrix.stem
+        if args.output_prefix is not None
+        else default_prefix(args.matrix)
+    )
     coordinates_path = Path(f"{prefix}-coordinates.tsv")
-    eigenvalues_path = Path(f"{prefix}-valeurs-propres.tsv")
+    values_path = Path(f"{prefix}-values.tsv")
     png_path = Path(f"{prefix}.png")
     svg_path = Path(f"{prefix}.svg")
 
@@ -107,11 +124,12 @@ def main() -> None:
 
     if args.coordinates:
         write_coordinates(coordinates_path, labels, coordinates, positive)
-    write_eigenvalues(eigenvalues_path, eigenvalues)
+    if args.values:
+        write_values(values_path, eigenvalues)
     plot_pcoa(
         png_path,
         svg_path,
-        labels,
+        [display_label(label) for label in labels],
         coordinates,
         eigenvalues,
         (axis_x, axis_y),
@@ -133,7 +151,8 @@ def main() -> None:
     print(f"Original distances / plane distances correlation: {fit:.3f}")
     if args.coordinates:
         print(f"Coordinates: {coordinates_path}")
-    print(f"Eigenvalues: {eigenvalues_path}")
+    if args.values:
+        print(f"Values: {values_path}")
     print(f"PNG figure: {png_path}")
     print(f"SVG figure: {svg_path}")
 
@@ -174,7 +193,8 @@ def parse_args() -> argparse.Namespace:
         nargs="?",
         type=Path,
         help=(
-            "Output file prefix; default: '<matrix>-pcoa' next to the matrix"
+            "Legacy output prefix; its directory is used, while output filenames "
+            "always use the input matrix name (default: beside input matrix)"
         ),
     )
     parser.add_argument(
@@ -213,14 +233,19 @@ def parse_args() -> argparse.Namespace:
         default=[],
         metavar="PATTERN",
         help=(
-            "Remove rows/columns whose label matches at least one shell pattern. "
-            "Multiple patterns are combined with OR (e.g. --exclude '*α*')."
+            "Remove rows/columns matching any shell pattern (case-insensitive); "
+            "unmatched patterns are ignored (e.g. --exclude 'CF' 'DF' '*α*')."
         ),
+    )
+    parser.add_argument(
+        "--values",
+        action="store_true",
+        help="Write all eigenvalues to '<matrix>-values.tsv' (default: off)",
     )
     parser.add_argument(
         "--coordinates",
         action="store_true",
-        help="Write coordinates for all positive axes to '<prefix>-coordinates.tsv'",
+        help="Write coordinates for all positive axes to '<matrix>-coordinates.tsv'",
     )
     parser.add_argument(
         "--width",
@@ -252,16 +277,19 @@ def filter_distance_matrix(
 ) -> tuple[list[str], np.ndarray]:
     """Filter rows and columns together using label patterns.
 
-    Patterns use fnmatch shell syntax (``*``, ``?``, ``[...]``). ``--include``
-    patterns are combined with OR; without them all objects are included.
-    ``--exclude`` patterns are then applied, also with OR. The original matrix
-    order is preserved.
+    Patterns use case-insensitive fnmatch shell syntax (``*``, ``?``, ``[...]``).
+    ``--include`` patterns are combined with OR; without them all objects are
+    included. ``--exclude`` patterns are then applied, also with OR. Unmatched
+    exclusion patterns are ignored. The original matrix order is preserved.
     """
+    def matches(label: str, pattern: str) -> bool:
+        return fnmatchcase(label.casefold(), pattern.casefold())
+
     if include:
         unmatched_include = [
             pattern
             for pattern in include
-            if not any(fnmatchcase(label, pattern) for label in labels)
+            if not any(matches(label, pattern) for label in labels)
         ]
         if unmatched_include:
             raise ValueError(
@@ -269,26 +297,16 @@ def filter_distance_matrix(
                 + ", ".join(unmatched_include)
             )
         keep = [
-            any(fnmatchcase(label, pattern) for pattern in include)
+            any(matches(label, pattern) for pattern in include)
             for label in labels
         ]
     else:
         keep = [True] * len(labels)
 
     if exclude:
-        unmatched_exclude = [
-            pattern
-            for pattern in exclude
-            if not any(fnmatchcase(label, pattern) for label in labels)
-        ]
-        if unmatched_exclude:
-            raise ValueError(
-                "Unmatched --exclude pattern(s): "
-                + ", ".join(unmatched_exclude)
-            )
         keep = [
             selected
-            and not any(fnmatchcase(label, pattern) for pattern in exclude)
+            and not any(matches(label, pattern) for pattern in exclude)
             for selected, label in zip(keep, labels, strict=True)
         ]
 
@@ -567,7 +585,7 @@ def write_coordinates(
             writer.writerow([label, *(f"{value:.12g}" for value in row)])
 
 
-def write_eigenvalues(path: Path, eigenvalues: np.ndarray) -> None:
+def write_values(path: Path, eigenvalues: np.ndarray) -> None:
     """Write all positive, zero, and negative eigenvalues."""
     path.parent.mkdir(parents=True, exist_ok=True)
     positive_sum = float(eigenvalues[eigenvalues > 0.0].sum())

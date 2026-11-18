@@ -6,8 +6,8 @@
 # title = I. L’unité de culture
 
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
-l'	le	DET
+I.	I.	DET
+l'	le_PRON	PRON
 unité	unité	NOUN
 de	de	ADP
 culture	culture	NOUN
@@ -58,7 +58,7 @@ des	un	ADP_DET
 esprits	esprit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-SchumanPour	SchumanPour	VERB
+SchumanPour	SchumanPour	PROPN
 l'	le	DET
 Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
@@ -221,7 +221,7 @@ vétilleux	vétilleux	ADJ
 censeurs	censeur	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ne	ne	ADV
 se	se	PRON
 lassent	lasser	VERB
@@ -346,7 +346,7 @@ Copenhague	Copenhague	PROPN
 ,	,	PUNCTclause
 Amsterdam	Amsterdam	PROPN
 .	.	PUNCTsent
-Spengler	Spengler	VERB
+Spengler	Spengler	PROPN
 tient	tenir	VERB
 que	que	SCONJ
 l'	le	DET
@@ -374,7 +374,7 @@ l'	le	DET
 Europe	Europe	PROPN
 de	de	ADP
 l'	le	DET
-est	être	UNKNOWN
+Est	Est	PROPN
 .	.	PUNCTsent
 la	le	DET
 naissance	naissance	NOUN
@@ -439,7 +439,7 @@ remonter	remonter	VERB
 sa	son	DET
 naissance	naissance	NOUN
 au	au	ADP_DET
-pacte	pacte	UNKNOWN
+Pacte	Pacte	PROPN
 du	du	ADP_DET
 Grütli	Grütli	PROPN
 ,	,	PUNCTclause
@@ -591,7 +591,7 @@ Europe	Europe	PROPN
 est	être	AUX
 née	naître	VERB
 !	!	PUNCTsent
-Montesquieu	Montesquieu	NOUN
+Montesquieu	Montesquieu	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 Leibniz	Leibniz	PROPN
@@ -1301,7 +1301,7 @@ insulaires	insulaire	ADJ
 et	et	CCONJ
 continentaux	continental	ADJ
 ,	,	PUNCTclause
-suédois	suédois	UNKNOWN
+Suédois	Suédois	PROPN
 et	et	CCONJ
 grecs	grec	NOUN
 (	(	PUNCTclause
@@ -1379,23 +1379,23 @@ et	et	CCONJ
 de	de	ADP
 niveau de vie	niveau de vie	NOUN
 entre	entre	ADP
-bretons	breton	UNKNOWN
+Bretons	Bretons	PROPN
 et	et	CCONJ
-languedociens	languedocien	UNKNOWN
+Languedociens	Languedociens	PROPN
 ,	,	PUNCTclause
-frisons	frison	UNKNOWN
+Frisons	Frisons	PROPN
 et	et	CCONJ
-bavarois	bavarois	UNKNOWN
+Bavarois	Bavarois	PROPN
 ,	,	PUNCTclause
-piémontais	piémontais	UNKNOWN
+Piémontais	Piémontais	PROPN
 et	et	CCONJ
-siciliens	sicilien	UNKNOWN
+Siciliens	Siciliens	PROPN
 ,	,	PUNCTclause
 pâtres	pâtre	NOUN
 catholiques	catholique	ADJ
 de	de	ADP
 l'	le	DET
-appenzell	appenzell	UNKNOWN
+Appenzell	Appenzell	PROPN
 et	et	CCONJ
 banquiers	banquier	NOUN
 protestants	protestant	ADJ
@@ -1529,7 +1529,7 @@ soient	être	AUX
 les	le	DET
 contrastes	contraste	NOUN
 entre	entre	ADP
-suédois	suédois	UNKNOWN
+Suédois	Suédois	PROPN
 et	et	CCONJ
 grecs	grec	NOUN
 ,	,	PUNCTclause
@@ -1644,7 +1644,7 @@ bonne	bon	ADJ
 distance	distance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-vue	vue	NOUN
+Vue	Vue	PROPN
 de	de	ADP
 assez	assez	ADV
 loin	loin	ADV
@@ -1705,7 +1705,7 @@ plaisons	plaire	VERB
 douter	douter	VERB
 ,	,	PUNCTclause
 les	le	DET
-afro-asiatiques	afro-asiatique	UNKNOWN
+Afro-Asiatiques	Afro-Asiatiques	PROPN
 la	le	DET
 confirment	confirmer	VERB
 en	en	ADP
@@ -1734,7 +1734,7 @@ l'	le	DET
 envie	envie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-vue	vu	VERB
+Vue	Vue	PROPN
 de	de	ADP
 trop	trop	ADV
 près	près	ADV
@@ -1847,7 +1847,7 @@ entendre	entendre	VERB
 ,	,	PUNCTclause
 nous	nous	PRON
 autres	autre	PRON
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 de	de	ADP
 différentes	différent	ADJ
 nations	nation	NOUN
@@ -2012,7 +2012,7 @@ irritée	irriter	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 ne	ne	ADV
 serait	être	AUX
 il	il	PRON
@@ -2024,7 +2024,7 @@ qui	qui	PRON
 se	se	PRON
 manifeste	manifester	VERB
 comme	comme	ADP
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 dans	dans	ADP
 la	le	DET
 mesure	mesure	NOUN
@@ -2769,11 +2769,11 @@ cherché	chercher	VERB
 ,	,	PUNCTclause
 nous	nous	PRON
 les	le	DET
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 cherchait	chercher	VERB
 l'	le	DET
 âme	âme	NOUN
@@ -2794,7 +2794,7 @@ pour	pour	ADP
 lui	lui	PRON
 ,	,	PUNCTclause
 le	le	DET
-réel	réel	UNKNOWN
+Réel	Réel	PROPN
 .	.	PUNCTsent
 il	il	PRON
 a	avoir	AUX
@@ -2821,7 +2821,7 @@ yoga	yoga	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
 le	le	DET
@@ -3108,7 +3108,7 @@ l'on	on	PRON
 croit	croire	VERB
 avec	avec	ADP
 les	le	DET
-hindous	hindou	UNKNOWN
+Hindous	Hindous	PROPN
 que	que	PRON
 le	le	DET
 corps	corps	NOUN
@@ -3657,7 +3657,7 @@ du	du	ADP_DET
 dogme	dogme	NOUN
 de	de	ADP
 la	le	DET
-trinité	trinité	UNKNOWN
+Trinité	Trinité	PROPN
 fut	être	AUX
 l'une	l'une	PRON
 des	un	ADP_DET
@@ -3700,7 +3700,7 @@ les	le	DET
 confondre	confondre	VERB
 ?	?	PUNCTsent
 les	le	DET
-latins	latin	UNKNOWN
+Latins	Latins	PROPN
 avaient	avoir	VERB
 le	le	DET
 terme	terme	NOUN
@@ -3772,7 +3772,7 @@ choisirent	choisir	VERB
 le	le	DET
 mot	mot	NOUN
 de	de	ADP
-personne	personne_PRON	UNKNOWN
+Personne	Personne	PROPN
 ,	,	PUNCTclause
 donnant	donner	VERB
 un	un	DET
@@ -4081,7 +4081,7 @@ Jésus-Christ	Jésus-Christ	PROPN
 :	:	PUNCTclause
 «	«	PUNCTclause
 sous	sous	ADP
-ponce	ponce	UNKNOWN
+Ponce	Ponce	PROPN
 Pilate	Pilate	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -4259,7 +4259,7 @@ apporte	apporter	VERB
 sans	sans	ADP
 relâche	relâche	NOUN
 l'	le	DET
-imprévu	imprévu	UNKNOWN
+Imprévu	Imprévu	PROPN
 .	.	PUNCTsent
 l'	le	DET
 aventure	aventure	NOUN
@@ -4332,7 +4332,7 @@ plus	plus	ADV
 —	—	PUNCTclause
 que	que	SCONJ
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 en	en	PRON
@@ -4612,11 +4612,11 @@ sources	source	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Paul	Paul	ADJ
+Paul	Paul	PROPN
 Valéry	Valéry	PROPN
 considérait	considérer	VERB
 comme	comme	ADP
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 tous	tout	ADJ
 les	le	DET
 peuples	peuple	NOUN
@@ -5057,7 +5057,7 @@ appelle	appeler	VERB
 les	le	DET
 tyrans	tyran	NOUN
 .	.	PUNCTsent
-Rome	Rome	NOUN
+Rome	Rome	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 réponse	réponse	NOUN
@@ -5211,7 +5211,7 @@ dogmes	dogme	NOUN
 fondamentaux	fondamental	ADJ
 :	:	PUNCTclause
 la	le	DET
-trinité	trinité	UNKNOWN
+Trinité	Trinité	PROPN
 transporte	transporter	VERB
 en	en	ADP
 Dieu	Dieu	PROPN
@@ -5226,7 +5226,7 @@ divers	divers	NOUN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
 l'	le	DET
-incarnation	incarnation	UNKNOWN
+Incarnation	Incarnation	PROPN
 porte	porter	VERB
 à	à	ADP
 l'	le	DET
@@ -5241,7 +5241,7 @@ impensable	impensable	ADJ
 définition	définition	NOUN
 de	de	ADP
 la	le	DET
-personne	personne_PRON	UNKNOWN
+Personne	Personne	PROPN
 de	de	ADP
 Jésus-Christ	Jésus-Christ	PROPN
 comme	comme	ADP
@@ -5325,7 +5325,7 @@ grand	grand	ADJ
 thème	thème	NOUN
 de	de	ADP
 la	le	DET
-quête	quête	UNKNOWN
+Quête	Quête	PROPN
 aventureuse	aventureux	ADJ
 ,	,	PUNCTclause
 symbole	symbole	NOUN
@@ -5386,7 +5386,7 @@ croit	croire	VERB
 le	le	DET
 sentir	sentir	VERB
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ?	?	PUNCTsent
 et	et	CCONJ
 l'	le	DET
@@ -5731,7 +5731,7 @@ liberté	liberté	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
 le	le	DET
-grec	grec	UNKNOWN
+Grec	Grec	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -5861,7 +5861,7 @@ en	en	ADP
 fait	fait	NOUN
 pour	pour	ADP
 les	le	DET
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 de	de	ADP
 toute	toute	DET
 nation	nation	NOUN
@@ -6108,7 +6108,7 @@ le	le	DET
 dogme	dogme	NOUN
 de	de	ADP
 la	le	DET
-trinité	trinité	UNKNOWN
+Trinité	Trinité	PROPN
 ,	,	PUNCTclause
 hors de	hors de	ADP
 la	le	DET
@@ -6147,7 +6147,7 @@ quotidienne	quotidien	ADJ
 de	de	ADP
 sept-cents-millions	sept-cents-millions	NOUN
 de	de	ADP
-chinois	chinois	UNKNOWN
+Chinois	Chinois	PROPN
 qui	qui	PRON
 se	se	PRON
 croyaient	croire	VERB
@@ -6161,7 +6161,7 @@ croyance	croyance	NOUN
 aucune	aucun	DET
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Athènes	Athènes	ADJ
+Athènes	Athènes	PROPN
 ,	,	PUNCTclause
 Rome	Rome	PROPN
 et	et	CCONJ
@@ -6286,7 +6286,7 @@ Héraclite	Héraclite	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 moyen	moyen	ADJ
 ne	ne	ADV
 existe	exister	VERB
@@ -6301,7 +6301,7 @@ exister	exister	VERB
 .	.	PUNCTsent
 car	car	CCONJ
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 type	type	NOUN
 est	être	AUX
 celui	celui	PRON
@@ -6374,7 +6374,7 @@ blasphème	blasphème	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
-oriental	oriental	UNKNOWN
+Oriental	Oriental	PROPN
 ,	,	PUNCTclause
 je	je	PRON
 pense	penser	VERB
@@ -6383,7 +6383,7 @@ hindous	hindou	NOUN
 plus	plus	ADV
 que	que	SCONJ
 aux	au	ADP_DET
-chinois	chinois	UNKNOWN
+Chinois	Chinois	PROPN
 ,	,	PUNCTclause
 est	être	AUX
 de	de	ADP
@@ -6469,7 +6469,7 @@ innover	innover	VERB
 suggère	suggérer	VERB
 pour	pour	ADP
 l'	le	DET
-oriental	oriental	UNKNOWN
+Oriental	Oriental	PROPN
 une	un	DET
 inconvenance	inconvenance	NOUN
 profonde	profond	ADJ
@@ -6503,7 +6503,7 @@ y	y	PRON
 persévèrent	persévérer	VERB
 ,	,	PUNCTclause
 l'	le	DET
-oriental	oriental	UNKNOWN
+Oriental	Oriental	PROPN
 l'	le_PRON	PRON
 expiera	expier	VERB
 dans	dans	ADP
@@ -6513,7 +6513,7 @@ ultérieures	ultérieur	ADJ
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
 le	le	DET
-soviétique	soviétique	UNKNOWN
+Soviétique	Soviétique	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
 cette	ce	DET
@@ -6793,7 +6793,7 @@ ses	son	DET
 années	année	NOUN
 de	de	ADP
 la	le	DET
-crucifixion	crucifixion	UNKNOWN
+Crucifixion	Crucifixion	PROPN
 ,	,	PUNCTclause
 hors de	hors de	ADP
 un	un	DET
@@ -6849,7 +6849,7 @@ dénote	dénoter	VERB
 et	et	CCONJ
 marque	marquer	VERB
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 plus	plus	ADV
@@ -6918,7 +6918,7 @@ civilisations	civilisation	NOUN
 sacrées	sacré	ADJ
 de	de	ADP
 l'	le	DET
-antiquité	antiquité	UNKNOWN
+Antiquité	Antiquité	PROPN
 ,	,	PUNCTclause
 les	le	DET
 civilisations	civilisation	NOUN
@@ -7203,7 +7203,7 @@ idéaux	idéal	NOUN
 à	à	ADP
 nous	nous	PRON
 autres	autre	PRON
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 la plupart de	la plupart de	DET
@@ -7436,9 +7436,9 @@ le	le	DET
 cathare	cathare	NOUN
 ,	,	PUNCTclause
 pas	pas	ADV
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 aliénation	aliénation	NOUN
-que	que	PRON
+que	que	SCONJ
 la	le	DET
 naissance	naissance	NOUN
 .	.	PUNCTsent
@@ -7538,9 +7538,9 @@ changeant	changer	VERB
 tout	tout	ADV
 —	—	PUNCTclause
 le	le_PRON	PRON
-chemin	chemin	UNKNOWN
+Chemin	Chemin	PROPN
 de	de	ADP
-damas	damas	UNKNOWN
+Damas	Damas	PROPN
 —	—	PUNCTclause
 est	être	AUX
 un	un	DET
@@ -7569,7 +7569,7 @@ monde	monde	NOUN
 christianisé	christianiser	VERB
 .	.	PUNCTsent
 l'	le	DET
-asiatique	asiatique	UNKNOWN
+Asiatique	Asiatique	PROPN
 traditionnel	traditionnel	ADJ
 ,	,	PUNCTclause
 brahmaniste	brahmaniste	ADJ
@@ -7617,7 +7617,7 @@ longtemps	longtemps	ADV
 ceux	ceux	PRON
 que	que	PRON
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 avait	avoir	AUX
 contaminés	contaminer	VERB
 :	:	PUNCTclause
@@ -7633,7 +7633,7 @@ de	de	ADP
 la	le	DET
 côte	côte	NOUN
 du	du	ADP_DET
-malabar	malabar	UNKNOWN
+Malabar	Malabar	PROPN
 ,	,	PUNCTclause
 très	très	ADV
 anciennement	anciennement	ADV
@@ -7664,7 +7664,7 @@ celui	celui	PRON
 de	de	ADP
 une	un	DET
 Alma	Alma	PROPN
-mater	mater	UNKNOWN
+Mater	Mater	PROPN
 tout	tout	ADV
 au moins	au moins	ADV
 )	)	PUNCTclause
@@ -7966,7 +7966,7 @@ cette	ce	DET
 croyance	croyance	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-asiatique	asiatique	UNKNOWN
+Asiatique	Asiatique	PROPN
 ne	ne	ADV
 l'	le_PRON	PRON
 a	avoir	AUX
@@ -8380,7 +8380,7 @@ de	de	ADP
 culture	culture	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 le	le	DET
 non-conformiste	non-conformiste	NOUN
@@ -8451,7 +8451,7 @@ de	de	ADP
 raisonnable	raisonnable	ADJ
 pour	pour	ADP
 l'	le	DET
-asiatique	asiatique	UNKNOWN
+Asiatique	Asiatique	PROPN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 .	.	PUNCTsent
@@ -8552,7 +8552,7 @@ créateur	créateur	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 l'	le	DET
-oriental	oriental	UNKNOWN
+Oriental	Oriental	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 tend	tendre	VERB
@@ -8714,7 +8714,7 @@ l'	le	DET
 humour	humour	NOUN
 .	.	PUNCTsent
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 a	avoir	AUX
 créé	créer	VERB
 l'	le	DET
@@ -8733,11 +8733,11 @@ les	le	DET
 despotismes	despotisme	NOUN
 de	de	ADP
 l'	le	DET
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 ou	ou	CCONJ
 de	de	ADP
 l'	le	DET
-antiquité	antiquité	UNKNOWN
+Antiquité	Antiquité	PROPN
 ,	,	PUNCTclause
 au point de vue	au point de vue	ADV
 de	de	ADP
@@ -8763,7 +8763,7 @@ son	son	DET
 sein	sein	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 leur	leur	PRON
 résiste	résister	VERB
 en	en	ADP
@@ -9391,7 +9391,7 @@ ancêtres	ancêtre	NOUN
 tout	tout	PRON
 étrangère	étranger	ADJ
 aux	au	ADP_DET
-anciens	ancien	UNKNOWN
+Anciens	Anciens	PROPN
 ,	,	PUNCTclause
 comme	comme	ADP
 elle	elle	PRON
@@ -9400,7 +9400,7 @@ reste	rester	VERB
 à	à	ADP
 la plupart	la plupart	PRON
 des	un	ADP_DET
-orientaux	oriental	UNKNOWN
+Orientaux	Orientaux	PROPN
 .	.	PUNCTsent
 survient	survenir	VERB
 alors	alors	ADV
@@ -9429,7 +9429,7 @@ retour	retour	NOUN
 du	du	ADP_DET
 Dieu	Dieu	PROPN
 au	au	ADP_DET
-jugement	jugement	UNKNOWN
+Jugement	Jugement	PROPN
 dernier	dernier	ADJ
 .	.	PUNCTsent
 d'ici	d'ici	ADV
@@ -9787,7 +9787,7 @@ moi	moi	PRON
 dira	dire	VERB
 tout	tout	DET
 véritable	véritable	ADJ
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 —	—	PUNCTclause
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -9866,7 +9866,7 @@ la	le	DET
 culture	culture	NOUN
 commune	commun	ADJ
 des	un	ADP_DET
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 et	et	CCONJ
 les	le	DET
 relations	relation	NOUN
@@ -10009,7 +10009,7 @@ avaient	avoir	AUX
 été	être	AUX
 Athènes	Athènes	PROPN
 et	et	CCONJ
-sparte	sparte	UNKNOWN
+Sparte	Sparte	PROPN
 .	.	PUNCTsent
 cependant	cependant	ADV
 ,	,	PUNCTclause
@@ -10512,7 +10512,7 @@ une	un	DET
 célèbre	célèbre	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-E	E	NOUN
+E	E	X
 mc2	mc2	X
 ↵↵	↵↵	PUNCTstruct
 que	que	SCONJ
@@ -10526,7 +10526,7 @@ comme	comme	ADP
 suit	suivre	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Europe	Europe	DET
+Europe	Europe	PROPN
 cap	cap	NOUN
 de	de	ADP
 l'	le	DET
@@ -10959,7 +10959,7 @@ l'	le	DET
 écosse	écosser	VERB
 ,	,	PUNCTclause
 du	du	ADP_DET
-pays	pays	UNKNOWN
+Pays	Pays	PROPN
 basque	basque	ADJ
 et	et	CCONJ
 du	du	ADP_DET
@@ -10969,7 +10969,7 @@ Galles	Galles	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
-catalogne	catalogne	UNKNOWN
+Catalogne	Catalogne	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -11080,9 +11080,9 @@ qui	qui	PRON
 ne	ne	ADV
 ont	avoir	VERB
 guère	guère	ADV
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 existence	existence	NOUN
-que	que	PRON
+que	que	SCONJ
 administrative	administratif	ADJ
 dans	dans	ADP
 les	le	DET
@@ -11166,7 +11166,7 @@ intéresse	intéresser	VERB
 en	en	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-Nietzsche	Nietzsche	NOUN
+Nietzsche	Nietzsche	PROPN
 maudit	maudire	VERB
 le	le	DET
 «	«	PUNCTclause
@@ -11210,7 +11210,7 @@ pangermanistes	pangermaniste	NOUN
 et	et	CCONJ
 Wagner	Wagner	PROPN
 .	.	PUNCTsent
-Rimbaud	Rimbaud	NOUN
+Rimbaud	Rimbaud	PROPN
 ne	ne	ADV
 veut	vouloir	VERB
 rien	rien	PRON
@@ -11242,7 +11242,7 @@ bouche	bouche	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
 aller	aller	VERB
-n'importe	n'importe	PUNCT
+n'importe	n'importe	INTJ
 où	où	PRON
 ailleurs	ailleurs	ADV
 ,	,	PUNCTclause
@@ -11302,7 +11302,7 @@ les	le	DET
 Déroulède	Déroulède	PROPN
 et	et	CCONJ
 les	le	DET
-détaillé	détailler	UNKNOWN
+Détaillé	Détaillé	PROPN
 ,	,	PUNCTclause
 non	non	ADV
 les	le	DET
@@ -11868,7 +11868,7 @@ Ockeghem	Ockeghem	PROPN
 et	et	CCONJ
 Josquin	Josquin	PROPN
 des	un	ADP_DET
-prés	pré	NOUN
+Prés	Prés	PROPN
 .	.	PUNCTsent
 elle	elle	PRON
 rayonne	rayonner	VERB
@@ -11915,7 +11915,7 @@ Mons	Mons	PROPN
 ,	,	PUNCTclause
 devient	devenir	VERB
 Orlando	Orlando	PROPN
-lasso	lasso	UNKNOWN
+Lasso	Lasso	PROPN
 à	à	ADP
 Rome	Rome	PROPN
 et	et	CCONJ
@@ -11947,8 +11947,8 @@ des	un	ADP_DET
 maîtres	maître	NOUN
 vénitiens	vénitien	NOUN
 .	.	PUNCTsent
-Bach	Bach	VERB
-copie	copie	NOUN
+Bach	Bach	PROPN
+copie	copier	VERB
 avec	avec	ADP
 application	application	NOUN
 des	un	ADP_DET
@@ -11978,7 +11978,7 @@ germaniques	germanique	ADJ
 Hanovre	Hanovre	PROPN
 ,	,	PUNCTclause
 la	le	DET
-saxe	saxe	UNKNOWN
+Saxe	Saxe	PROPN
 ,	,	PUNCTclause
 Vienne	Vienne	PROPN
 ,	,	PUNCTclause
@@ -12089,7 +12089,7 @@ sens	sens	NOUN
 moderne	moderne	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Roland	Roland	ADJ
+Roland	Roland	PROPN
 de	de	ADP
 Lassus	Lassus	PROPN
 ne	ne	ADV
@@ -12192,7 +12192,7 @@ l'	le	DET
 œuvre	œuvre	NOUN
 commune	commun	ADJ
 des	un	ADP_DET
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 ;	;	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -12481,7 +12481,7 @@ la	le	DET
 France	France	PROPN
 du	du	ADP_DET
 grand	grand	ADJ
-siècle	siècle	UNKNOWN
+Siècle	Siècle	PROPN
 qui	qui	PRON
 a	avoir	AUX
 fait	faire	VERB
@@ -12497,7 +12497,7 @@ on	on	PRON
 parle	parler	VERB
 du	du	ADP_DET
 grand	grand	ADJ
-siècle	siècle	UNKNOWN
+Siècle	Siècle	PROPN
 ,	,	PUNCTclause
 pour	pour	ADP
 désigner	désigner	VERB
@@ -12791,13 +12791,13 @@ catholique	catholique	NOUN
 Belloc	Belloc	ADJ
 ,	,	PUNCTclause
 le	le	DET
-gallois	gallois	UNKNOWN
+Gallois	Gallois	PROPN
 non	non	ADV
 conformiste	conformiste	ADJ
 Powys	Powys	PROPN
 ,	,	PUNCTclause
 le	le	DET
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 Hölderlin	Hölderlin	PROPN
 ,	,	PUNCTclause
 l'	le	DET
@@ -13112,10 +13112,10 @@ Sastras	Sastras	PROPN
 ,	,	PUNCTclause
 Vedangas	Vedangas	PROPN
 ,	,	PUNCTclause
-sutras	sutra	UNKNOWN
+Sutras	Sutras	PROPN
 ,	,	PUNCTclause
 textes	texte	NOUN
-sacrés	sacrer	VERB
+sacrés	sacré	ADJ
 et	et	CCONJ
 commentaires	commentaire	NOUN
 —	—	PUNCTclause
@@ -13177,7 +13177,7 @@ nos	nos	DET
 européens	européen	ADJ
 .	.	PUNCTsent
 les	le	DET
-orientaux	oriental	UNKNOWN
+Orientaux	Orientaux	PROPN
 disent	dire	VERB
 :	:	PUNCTclause
 comment	comment	ADV
@@ -13246,7 +13246,7 @@ nous	nous	PRON
 continuons	continuer	VERB
 .	.	PUNCTsent
 —	—	PUNCTclause
-Égypte	Égypte	ADJ
+Égypte	Égypte	PROPN
 ,	,	PUNCTclause
 Mésopotamie	Mésopotamie	PROPN
 ,	,	PUNCTclause
@@ -13260,13 +13260,13 @@ Jérusalem	Jérusalem	PROPN
 ,	,	PUNCTclause
 christianisme	christianisme	NOUN
 ,	,	PUNCTclause
-celtes	celte	UNKNOWN
+Celtes	Celtes	PROPN
 ,	,	PUNCTclause
-germains	germain	UNKNOWN
+Germains	Germains	PROPN
 ,	,	PUNCTclause
-arabes	arabe	UNKNOWN
+Arabes	Arabes	PROPN
 ,	,	PUNCTclause
-slaves	slave	UNKNOWN
+Slaves	Slaves	PROPN
 .	.	PUNCTsent
 nous	nous	PRON
 avons	avoir	AUX
@@ -13409,17 +13409,17 @@ nos	nos	DET
 jours	jour	NOUN
 ,	,	PUNCTclause
 les	le	DET
-mille	mille	UNKNOWN
+Mille	Mille	PROPN
 et	et	CCONJ
 Une	Une	NUM
-nuits	nuit	NOUN
+Nuits	Nuits	PROPN
 et	et	CCONJ
 Calderon	Calderon	PROPN
 dans	dans	ADP
 Hofmannsthal	Hofmannsthal	PROPN
 ,	,	PUNCTclause
 l'	le	DET
-odyssée	odyssée	UNKNOWN
+Odyssée	Odyssée	PROPN
 dans	dans	ADP
 Joyce	Joyce	PROPN
 ;	;	PUNCTclause
@@ -13614,7 +13614,7 @@ ceux	ceux	PRON
 hérités	hérité	VERB
 de	de	ADP
 l'	le	DET
-antiquité	antiquité	UNKNOWN
+Antiquité	Antiquité	PROPN
 ,	,	PUNCTclause
 tels	tel	PRON
 que	que	SCONJ
@@ -14063,7 +14063,7 @@ proportions.	proportions.	PUNCT
 ↵↵	↵↵	PUNCTstruct
 a	avoir	VERB
 )	)	PUNCTclause
-nos	nos	UNKNOWN
+Nos	Nos	PROPN
 langues	langue	NOUN
 littéraires	littéraire	ADJ
 ,	,	PUNCTclause
@@ -14303,7 +14303,7 @@ du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
 .	.	PUNCTsent
-Renan	Renan	NOUN
+Renan	Renan	PROPN
 a	avoir	AUX
 fait	faire	VERB
 justice	justice	NOUN
@@ -16167,9 +16167,9 @@ dirait	dire	VERB
 jamais	jamais	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
-Right	Right	X
+Right	Right	PROPN
 or	or	NOUN
-wrong	wrong	ADJ
+wrong	wrong	X
 ,	,	PUNCTclause
 our	our	CCONJ
 Europe	Europe	PROPN
@@ -16268,7 +16268,7 @@ dans	dans	ADP
 nos	nos	DET
 enfants	enfant	NOUN
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 ,	,	PUNCTclause
 par	par	ADP
 le	le	DET
@@ -16331,9 +16331,9 @@ traditionnelles	traditionnel	ADJ
 régies	régir	VERB
 par	par	ADP
 le	le	DET
-sacré	sacré	UNKNOWN
+Sacré	Sacré	PROPN
 (	(	PUNCTclause
-antiquité	antiquité	UNKNOWN
+Antiquité	Antiquité	PROPN
 ,	,	PUNCTclause
 Asie	Asie	PROPN
 )	)	PUNCTclause
@@ -17246,7 +17246,7 @@ Europe	Europe	PROPN
 le	le	DET
 film	film	NOUN
 Blackboard	Blackboard	PROPN
-jungle	jungle	UNKNOWN
+Jungle	Jungle	PROPN
 :	:	PUNCTclause
 la	le	DET
 description	description	NOUN
@@ -18059,7 +18059,7 @@ ainsi	ainsi	ADV
 les	le	DET
 besoins	besoin	NOUN
 du	du	ADP_DET
-plan	plan	UNKNOWN
+Plan	Plan	PROPN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 les	le	DET
@@ -18564,7 +18564,7 @@ trois	trois	NUM
 régions	région	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 .	.	PUNCTsent
 il	il	PRON
 conviendrait	convenir	VERB
@@ -19485,7 +19485,7 @@ nos	nos	DET
 armes	arme	NOUN
 .	.	PUNCTsent
 les	le	DET
-hindous	hindou	UNKNOWN
+Hindous	Hindous	PROPN
 ,	,	PUNCTclause
 les	le	DET
 chinois	chinois	NOUN
@@ -20342,7 +20342,7 @@ de	de	ADP
 Mozart	Mozart	PROPN
 .	.	PUNCTsent
 les	le	DET
-messes	messe	UNKNOWN
+Messes	Messes	PROPN
 et	et	CCONJ
 les	le	DET
 passions	passion	NOUN
@@ -20507,7 +20507,7 @@ le	le	DET
 sublime	sublime	ADJ
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 pour	pour	ADP
@@ -20515,7 +20515,7 @@ l'	le	DET
 oreille	oreille	NOUN
 de	de	ADP
 un	un	DET
-oriental	oriental	UNKNOWN
+Oriental	Oriental	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -20596,7 +20596,7 @@ jour	jour	NOUN
 «	«	PUNCTsent
 vous	vous	PRON
 autres	autre	PRON
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 ,	,	PUNCTclause
 vous	vous	PRON
 nous	nous	PRON
@@ -20679,7 +20679,7 @@ femme	femme	NOUN
 qui	qui	PRON
 est	être	AUX
 une	un	DET
-hollandaise	hollandais	UNKNOWN
+Hollandaise	Hollandaise	PROPN
 ,	,	PUNCTclause
 donnait	donner	VERB
 des	un	DET
@@ -21258,7 +21258,7 @@ il	il	PRON
 ajoutait	ajouter	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Elam	Elam	DET
+Elam	Elam	PROPN
 ,	,	PUNCTclause
 Ninive	Ninive	PROPN
 ,	,	PUNCTclause
@@ -21301,7 +21301,7 @@ de	de	ADP
 beaux	beau	ADJ
 noms	nom	NOUN
 .	.	PUNCTsent
-Lusitania	Lusitania	DET
+Lusitania	Lusitania	PROPN
 aussi	aussi	ADV
 est	être	AUX
 un	un	DET
@@ -21548,7 +21548,7 @@ Seine	Seine	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
-tamise	tamiser	UNKNOWN
+Tamise	Tamise	PROPN
 ou	ou	CCONJ
 du	du	ADP_DET
 Zuydersee	Zuydersee	PROPN
@@ -21636,7 +21636,7 @@ de	de	ADP
 déclin	déclin	NOUN
 fatal	fatal	ADJ
 .	.	PUNCTsent
-Hegel	Hegel	NOUN
+Hegel	Hegel	PROPN
 pensait	penser	VERB
 d'ailleurs	d'ailleurs	ADV
 que	que	SCONJ
@@ -21801,7 +21801,7 @@ vaste	vaste	ADJ
 érudition	érudition	NOUN
 ,	,	PUNCTclause
 ont	avoir	AUX
-d'autant	d'autant	VERB
+d'autant	d'autant	ADV
 moins	moins	ADV
 de	de	ADP
 peine	peine	NOUN
@@ -22245,7 +22245,7 @@ la	le	DET
 décadence	décadence	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 Spengler	Spengler	PROPN
 ,	,	PUNCTclause
@@ -22393,7 +22393,7 @@ Inde	Inde	PROPN
 védantique	védantique	ADJ
 ou	ou	CCONJ
 des	un	DET
-mayas	maya	UNKNOWN
+Mayas	Mayas	PROPN
 ,	,	PUNCTclause
 fondaient	fonder	VERB
 leur	leur	DET
@@ -22406,7 +22406,7 @@ formateur	formateur	NOUN
 unique	unique	ADJ
 ,	,	PUNCTclause
 le	le	DET
-sacré	sacré	UNKNOWN
+Sacré	Sacré	PROPN
 .	.	PUNCTsent
 les	le	DET
 civilisations	civilisation	NOUN
@@ -22719,9 +22719,9 @@ ses	son	DET
 derniers	dernier	ADJ
 recoins	recoin	NOUN
 .	.	PUNCTsent
-Alexandre	Alexandre	VERB
+Alexandre	Alexandre	PROPN
 le	le	DET
-grand	grand	UNKNOWN
+Grand	Grand	PROPN
 et	et	CCONJ
 les	le	DET
 empereurs	empereur	NOUN
@@ -23143,7 +23143,7 @@ style	style	NOUN
 Bismarck	Bismarck	PROPN
 définit	définir	VERB
 le	le	DET
-bavarois	bavarois	UNKNOWN
+Bavarois	Bavarois	PROPN
 comme	comme	ADP
 «	«	PUNCTclause
 cet	ce	DET
@@ -23151,7 +23151,7 @@ cet	ce	DET
 intermédiaire	intermédiaire	ADJ
 entre	entre	ADP
 l'	le	DET
-autrichien	autrichien	UNKNOWN
+Autrichien	Autrichien	PROPN
 et	et	CCONJ
 l'	le	DET
 homme	homme	NOUN
@@ -23389,7 +23389,7 @@ de	de	ADP
 extinction	extinction	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Valéry	Valéry	PRON
+Valéry	Valéry	PROPN
 nous	nous	PRON
 disait	dire	VERB
 que	que	SCONJ
@@ -23518,7 +23518,7 @@ disparu	disparaître	VERB
 sans	sans	ADP
 nous	nous	PRON
 laisser	laisser	VERB
-d'autre	d'autre	DET
+d'autre	d'autre	PRON
 héritage	héritage	NOUN
 actif	actif	ADJ
 que	que	ADV
@@ -23545,10 +23545,10 @@ près	près	ADV
 encore	encore	ADV
 celles	celle	PRON
 des	un	ADP_DET
-mayas	maya	UNKNOWN
+Mayas	Mayas	PROPN
 et	et	CCONJ
 des	un	ADP_DET
-aztèques	aztèque	UNKNOWN
+Aztèques	Aztèques	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
 les	le	DET
@@ -23674,8 +23674,8 @@ de	de	ADP
 où	où	PRON
 dérivent	dériver	VERB
 l'	le	DET
-habeas	habeas	UNKNOWN
-corpus	corpus	UNKNOWN
+Habeas	Habeas	PROPN
+Corpus	Corpus	PROPN
 et	et	CCONJ
 la	le	DET
 déclaration	déclaration	NOUN
@@ -23729,7 +23729,7 @@ mandarinat	mandarinat	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 le	le	DET
-bushido	bushido	UNKNOWN
+Bushido	Bushido	PROPN
 .	.	PUNCTsent
 on	on	PRON
 peut	pouvoir	VERB
@@ -23743,7 +23743,7 @@ le	le	DET
 constater	constater	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Roger	Roger	VERB
+Roger	Roger	PROPN
 Caillois	Caillois	PROPN
 a	avoir	AUX
 écrit	écrire	VERB
@@ -23864,7 +23864,7 @@ mystiques	mystique	ADJ
 voient	voir	VERB
 leurs	leur	DET
 livres	livre	NOUN
-sacrés	sacrer	VERB
+sacrés	sacré	ADJ
 publiés	publier	VERB
 de	de	ADP
 nos	nos	DET
@@ -24010,7 +24010,7 @@ Crète	Crète	PROPN
 germains	germain	NOUN
 investissant	investir	VERB
 la	le	DET
-gaule	gaule	UNKNOWN
+Gaule	Gaule	PROPN
 et	et	CCONJ
 l'	le	DET
 Ibérie	Ibérie	PROPN
@@ -24028,7 +24028,7 @@ de	de	ADP
 l'	le	DET
 empire	empire	NOUN
 des	un	ADP_DET
-aztèques	aztèque	UNKNOWN
+Aztèques	Aztèques	PROPN
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON
@@ -24142,7 +24142,7 @@ une	un	DET
 autre	autre	ADJ
 civilisation	civilisation	NOUN
 ?	?	PUNCTsent
-Lénine	Lénine	DET
+Lénine	Lénine	PROPN
 disait	dire	VERB
 de	de	ADP
 sa	son	DET
@@ -24182,7 +24182,7 @@ inventé	inventer	VERB
 mais	mais	CCONJ
 bien	bien	ADV
 un	un	DET
-juif	juif	NOUN
+Juif	Juif	PROPN
 allemand	allemand	ADJ
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -24196,13 +24196,13 @@ et	et	CCONJ
 qui	qui	PRON
 rédigeait	rédiger	VERB
 au	au	ADP_DET
-british	british	UNKNOWN
+British	British	PROPN
 Museum	Museum	PROPN
 ,	,	PUNCTclause
 pour	pour	ADP
 le	le	DET
 Herald	Herald	PROPN
-tribune	tribune	UNKNOWN
+Tribune	Tribune	PROPN
 de	de	ADP
 New York	New York	PROPN
 ,	,	PUNCTclause
@@ -24317,7 +24317,7 @@ entreprise	entreprise	NOUN
 de	de	ADP
 Pierre	Pierre	PROPN
 le	le	DET
-grand	grand	UNKNOWN
+Grand	Grand	PROPN
 :	:	PUNCTclause
 il	il	PRON
 a	avoir	VERB
@@ -25361,7 +25361,7 @@ de	de	ADP
 la	le	DET
 jeunesse	jeunesse	NOUN
 de	de	ADP
-pékin	pékin	UNKNOWN
+Pékin	Pékin	PROPN
 ,	,	PUNCTclause
 le	le	DET
 27	27	NUM
@@ -25389,7 +25389,7 @@ population	population	NOUN
 de	de	ADP
 la	le	DET
 commune	commun	NOUN
-spoutnik	spoutnik	UNKNOWN
+Spoutnik	Spoutnik	PROPN
 .	.	PUNCTsent
 un	un	DET
 quart d'heure	quart d'heure	NOUN

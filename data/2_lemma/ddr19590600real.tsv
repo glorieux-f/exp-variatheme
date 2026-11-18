@@ -122,7 +122,7 @@ vocation	vocation	NOUN
 universelle	universel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	NOUN
 en somme	en somme	ADV
 que	que	SCONJ
 la	le	DET
@@ -299,7 +299,7 @@ Dieu	Dieu	PROPN
 unique	unique	ADJ
 de	de	ADP
 la	le	DET
-genèse	genèse	UNKNOWN
+Genèse	Genèse	PROPN
 et	et	CCONJ
 destiné	destiner	VERB
 au	au	ADP_DET
@@ -315,7 +315,7 @@ langues	langue	NOUN
 que	que	PRON
 annonce	annoncer	VERB
 l'	le	DET
-apocalypse	apocalypse	UNKNOWN
+Apocalypse	Apocalypse	PROPN
 .	.	PUNCTsent
 avec	avec	ADP
 cette	ce	DET
@@ -341,7 +341,7 @@ le	le	DET
 cosmopolite	cosmopolite	NOUN
 »	»	PUNCTclause
 du	du	ADP_DET
-portique	portique	UNKNOWN
+Portique	Portique	PROPN
 ,	,	PUNCTclause
 le	le	DET
 «	«	PUNCTclause
@@ -1035,7 +1035,7 @@ l'	le	DET
 histoire	histoire	NOUN
 .	.	PUNCTsent
 qui	qui	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 que	que	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
@@ -1103,7 +1103,7 @@ l'	le	DET
 idée	idée	NOUN
 même	même	ADJ
 de	de	ADP
-laboratoire	laboratoire	UNKNOWN
+Laboratoire	Laboratoire	PROPN
 ,	,	PUNCTclause
 ce	ce	DET
 lieu	lieu	NOUN
@@ -1119,8 +1119,8 @@ que	que	SCONJ
 entoure	entourer	VERB
 le	le	DET
 respect	respect	NOUN
-sacré	sacrer	VERB
-des	un	DET
+sacré	sacré	ADJ
+des	un	ADP_DET
 foules	foule	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1161,12 +1161,12 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Europe	Europe	DET
+Europe	Europe	PROPN
 ,	,	PUNCTclause
 patrie	patrie	NOUN
 de	de	ADP
 la	le	DET
-mémoire	mémoire	UNKNOWN
+Mémoire	Mémoire	PROPN
 et	et	CCONJ
 de	de	ADP
 l'	le	DET
@@ -1191,7 +1191,7 @@ du	du	ADP_DET
 cœur	cœur	NOUN
 humain	humain	ADJ
 .	.	PUNCTsent
-Europe	Europe	PRON
+Europe	Europe	PROPN
 ,	,	PUNCTclause
 donc	donc	ADV
 ,	,	PUNCTclause
@@ -1611,7 +1611,7 @@ forces	force	NOUN
 variées	varié	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-vue	vue	NOUN
+Vue	Vue	PROPN
 de	de	ADP
 l'	le	DET
 extérieur	extérieur	NOUN
@@ -1682,7 +1682,7 @@ confondent	confondre	VERB
 ;	;	PUNCTclause
 et	et	CCONJ
 quant à	quant à	ADP
-asiatiques	asiatique	UNKNOWN
+Asiatiques	Asiatiques	PROPN
 ,	,	PUNCTclause
 ils	ils	PRON
 les	le	DET
@@ -1701,7 +1701,7 @@ américains	américain	ADJ
 sauf	sauf	ADP
 si	si	SCONJ
 ces	ce	DET
-asiatiques	asiatique	UNKNOWN
+Asiatiques	Asiatiques	PROPN
 ont	avoir	AUX
 été	être	AUX
 les	le	DET
@@ -1726,7 +1726,7 @@ me	me	PRON
 rappelle	rappeler	VERB
 ce	ce	DET
 jeune	jeune	ADJ
-oriental	oriental	UNKNOWN
+Oriental	Oriental	PROPN
 qui	qui	PRON
 disait	dire	VERB
 devant	devant	ADP
@@ -1744,13 +1744,13 @@ telle	tel	DET
 raison	raison	NOUN
 précise	préciser	VERB
 les	le	DET
-anglais	anglais	UNKNOWN
+Anglais	Anglais	PROPN
 ,	,	PUNCTclause
 les	le	DET
 français	français	NOUN
 ,	,	PUNCTclause
 les	le	DET
-portugais	portugais	UNKNOWN
+Portugais	Portugais	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 en revanche	en revanche	ADV
@@ -2045,7 +2045,7 @@ infligea	infliger	VERB
 l'	le	DET
 affaire	affaire	NOUN
 de	de	ADP
-suez	suer	UNKNOWN
+Suez	Suez	PROPN
 ,	,	PUNCTclause
 l'	le	DET
 illusion	illusion	NOUN
@@ -2581,7 +2581,7 @@ le	le	DET
 dogme	dogme	NOUN
 :	:	PUNCTclause
 la	le	DET
-trinité	trinité	UNKNOWN
+Trinité	Trinité	PROPN
 est	être	AUX
 animée	animer	VERB
 par	par	ADP
@@ -2741,8 +2741,8 @@ Europe	Europe	PROPN
 et	et	CCONJ
 ne	ne	ADV
 ayant	avoir	VERB
-d'autre	d'autre	ADP
-but	but	NOUN
+d'autre	d'autre	PRON
+but	boire	VERB
 que	que	SCONJ
 de	de	ADP
 entretenir	entretenir	VERB
@@ -3305,7 +3305,7 @@ l'	le	DET
 objectif	objectif	NOUN
 évident	évident	ADJ
 des	un	ADP_DET
-six	six	UNKNOWN
+Six	Six	PROPN
 étant	être	AUX
 de	de	ADP
 déclencher	déclencher	VERB
@@ -3319,7 +3319,7 @@ serait	être	AUX
 manqué	manquer	VERB
 si	si	SCONJ
 les	le	DET
-six	six	UNKNOWN
+Six	Six	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
 maintenant	maintenant	ADV
@@ -3342,7 +3342,7 @@ vouloir	vouloir	VERB
 «	«	PUNCTclause
 réussir	réussir	VERB
 les	le	DET
-six	six	UNKNOWN
+Six	Six	PROPN
 »	»	PUNCTclause
 sans	sans	ADP
 vouloir	vouloir	VERB
@@ -3353,7 +3353,7 @@ nécessairement	nécessairement	ADV
 à	à	ADP
 rater	rater	VERB
 les	le	DET
-six	six	UNKNOWN
+Six	Six	PROPN
 et	et	CCONJ
 à	à	ADP
 agir	agir	VERB
@@ -3386,7 +3386,7 @@ fait	faire	VERB
 la	le	DET
 politique	politique	NOUN
 du	du	ADP_DET
-kremlin	kremlin	UNKNOWN
+Kremlin	Kremlin	PROPN
 ,	,	PUNCTclause
 très	très	ADV
 alertée	alerter	VERB
@@ -3495,7 +3495,7 @@ processus	processus	NOUN
 de	de	ADP
 association	association	NOUN
 des	un	ADP_DET
-six	six	UNKNOWN
+Six	Six	PROPN
 ,	,	PUNCTclause
 étonnamment	étonnamment	ADV
 conforme	conforme	ADJ
@@ -3545,7 +3545,7 @@ existence	existence	NOUN
 encore	encore	ADV
 fragile	fragile	ADJ
 des	un	ADP_DET
-six	six	UNKNOWN
+Six	Six	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -3557,7 +3557,7 @@ intéressés	intéresser	VERB
 à	à	ADP
 devenir	devenir	VERB
 ces	ce	DET
-dix-sept	dix-sept	UNKNOWN
+Dix-Sept	Dix-Sept	PROPN
 que	que	SCONJ
 tout	tout	PRON
 en	en	ADP
@@ -3573,7 +3573,7 @@ tour	tour	NOUN
 pourront	pouvoir	VERB
 appeler	appeler	VERB
 les	le	DET
-six	six	UNKNOWN
+Six	Six	PROPN
 de	de	ADP
 l'	le	DET
 est	est	NOUN
@@ -3617,7 +3617,7 @@ selon	selon	ADP
 la	le	DET
 tradition	tradition	NOUN
 des	un	ADP_DET
-pères	père	UNKNOWN
+Pères	Pères	PROPN
 de	de	ADP
 l'	le	DET
 église	église	NOUN
@@ -3882,7 +3882,7 @@ de	de	ADP
 Montesquieu	Montesquieu	PROPN
 et	et	CCONJ
 de	de	ADP
-gibbon	gibbon	UNKNOWN
+Gibbon	Gibbon	PROPN
 au	au	ADP_DET
 18e	18e	NUM
 ,	,	PUNCTclause
@@ -4004,11 +4004,11 @@ Lascaux	Lascaux	PROPN
 ,	,	PUNCTclause
 celle	celle	PRON
 des	un	ADP_DET
-mayas	maya	UNKNOWN
+Mayas	Mayas	PROPN
 ,	,	PUNCTclause
 celle	celle	PRON
 des	un	ADP_DET
-aztèques	aztèque	UNKNOWN
+Aztèques	Aztèques	PROPN
 ,	,	PUNCTclause
 sauvées	sauver	VERB
 seulement	seulement	ADV
@@ -4018,7 +4018,7 @@ quelques	quelque	DET
 ;	;	PUNCTclause
 celle	celle	PRON
 des	un	ADP_DET
-mongols	mongol	UNKNOWN
+Mongols	Mongols	PROPN
 qui	qui	PRON
 ne	ne	ADV
 laisse	laisser	VERB
@@ -4074,7 +4074,7 @@ le	le	DET
 musée	musée	NOUN
 et	et	CCONJ
 le	le	DET
-laboratoire	laboratoire	UNKNOWN
+Laboratoire	Laboratoire	PROPN
 européens	européen	ADJ
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -4143,8 +4143,8 @@ de	de	ADP
 où	où	PRON
 dérivent	dériver	VERB
 l'	le	DET
-habeas	habeas	UNKNOWN
-corpus	corpus	UNKNOWN
+Habeas	Habeas	PROPN
+Corpus	Corpus	PROPN
 et	et	CCONJ
 la	le	DET
 déclaration	déclaration	NOUN
@@ -4196,7 +4196,7 @@ mandarinat	mandarinat	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 le	le	DET
-bushido	bushido	UNKNOWN
+Bushido	Bushido	PROPN
 (	(	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -4288,7 +4288,7 @@ surplus	surplus	NOUN
 ,	,	PUNCTclause
 entourées	entourer	VERB
 de	de	ADP
-barbares	barbare	UNKNOWN
+Barbares	Barbares	PROPN
 mal	mal	ADV
 connus	connaître	VERB
 .	.	PUNCTsent

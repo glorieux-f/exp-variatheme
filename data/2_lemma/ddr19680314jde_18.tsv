@@ -7,7 +7,7 @@
 # title = III. Post-scriptum 1939, ou Conclusions à n’en plus finir
 
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 post-scriptum	post-scriptum	NOUN
 1939	1939	NUM
@@ -20,7 +20,7 @@ plus	plus	ADV
 finir	finir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Munich	Munich	X
+Munich	Munich	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mon	mon	DET
@@ -58,8 +58,8 @@ novembre	novembre	NOUN
 1938	1938	NUM
 de	de	ADP
 la	le	DET
-nouvelle	nouveau	UNKNOWN
-revue	revue	UNKNOWN
+Nouvelle	Nouvelle	PROPN
+Revue	Revue	PROPN
 française	français	ADJ
 .	.	PUNCTsent
 désireux	désireux	ADJ
@@ -339,7 +339,7 @@ exigea	exiger	VERB
 l'	le	DET
 autonomie	autonomie	NOUN
 des	un	ADP_DET
-sudètes	sudète	UNKNOWN
+Sudètes	Sudètes	PROPN
 au	au	ADP_DET
 nom	nom	NOUN
 du	du	ADP_DET
@@ -664,7 +664,7 @@ et	et	CCONJ
 instinctives	instinctif	ADJ
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 :	:	PUNCTclause
 la	le	DET
 résistance	résistance	NOUN
@@ -711,7 +711,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-Hitler	Hitler	VERB
+Hitler	Hitler	PROPN
 comprit	comprendre	VERB
 que	que	SCONJ
 son	son	DET
@@ -916,7 +916,7 @@ ne	ne	ADV
 sut	savoir	VERB
 opposer	opposer	VERB
 au	au	ADP_DET
-führer	führer	UNKNOWN
+Führer	Führer	PROPN
 l'	le	DET
 idéal	idéal	NOUN
 qui	qui	PRON
@@ -932,7 +932,7 @@ l'	le	DET
 dynamique	dynamique	ADJ
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 :	:	PUNCTclause
 l'	le	DET
 utopie	utopie	NOUN
@@ -1458,7 +1458,7 @@ le	le	DET
 terrorisme	terrorisme	NOUN
 .	.	PUNCTsent
 la	le	DET
-terreur	terreur	NOUN
+Terreur	Terreur	PROPN
 (	(	PUNCTclause
 jacobine	jacobin	ADJ
 ,	,	PUNCTclause
@@ -1554,7 +1554,7 @@ trait	trait	NOUN
 marqué	marquer	VERB
 ,	,	PUNCTclause
 de	de	ADP
-n'importe	n'importe	NOUN
+n'importe	n'importe	INTJ
 quelle	quel	DET
 nature	nature	NOUN
 ,	,	PUNCTclause
@@ -1706,7 +1706,7 @@ considérer	considérer	VERB
 comme	comme	ADP
 l'	le	DET
 adversaire	adversaire	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 .	.	PUNCTsent
 le	le	DET
 sacré	sacré	NOUN
@@ -1752,8 +1752,8 @@ mythe	mythe	NOUN
 que	que	SCONJ
 les	le	DET
 vociférations	vocifération	NOUN
-sacrées	sacrer	VERB
-des	un	DET
+sacrées	sacré	ADJ
+des	un	ADP_DET
 antifascistes	antifasciste	NOUN
 .	.	PUNCTsent
 si	si	SCONJ
@@ -1840,7 +1840,7 @@ même	même	ADJ
 date	date	NOUN
 ,	,	PUNCTclause
 la	le	DET
-dépêche	dépêcher	UNKNOWN
+Dépêche	Dépêche	PROPN
 de	de	ADP
 Toulouse	Toulouse	PROPN
 écrit	écrire	VERB
@@ -1982,7 +1982,7 @@ plus	plus	ADV
 nombreuse	nombreux	ADJ
 de	de	ADP
 l'	le	DET
-internationale	international	UNKNOWN
+Internationale	Internationale	PROPN
 socialiste	socialiste	ADJ
 se	se	PRON
 est	être	AUX
@@ -2037,7 +2037,7 @@ le	le	DET
 totalitarisme	totalitarisme	NOUN
 ne	ne	ADV
 a	avoir	AUX
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 soutien	soutien	NOUN
 que	que	SCONJ
 la	le	DET
@@ -2077,7 +2077,7 @@ premier	premier	ADJ
 congrès	congrès	NOUN
 de	de	ADP
 l'	le	DET
-internationale	international	UNKNOWN
+Internationale	Internationale	PROPN
 reconstituée	reconstituer	VERB
 ,	,	PUNCTclause
 combien	combien	ADV
@@ -2215,7 +2215,7 @@ signé	signer	VERB
 par	par	ADP
 Jeanne-E	Jeanne-E	PROPN
 .	.	PUNCTsent
-Vandervelde	Vandervelde	NOUN
+Vandervelde	Vandervelde	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 passe	passer	VERB
@@ -2592,12 +2592,12 @@ voient	voir	VERB
 encore	encore	ADV
 dans	dans	ADP
 le	le	DET
-führer	führer	UNKNOWN
+Führer	Führer	PROPN
 un	un	DET
 protecteur	protecteur	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 chrétien	chrétien	ADJ
 contre	contre	ADP
 la	le	DET
@@ -2613,7 +2613,7 @@ premier	premier	ADJ
 écrit	écrit	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-R	R	VERB
+R	R	NOUN
 …	…	PUNCTsent
 enrichit	enrichir	VERB
 sans	sans	ADP
@@ -2676,7 +2676,7 @@ intéressant	intéressant	ADJ
 à	à	ADP
 analyser	analyser	VERB
 (	(	PUNCTclause
-prof	prof	UNKNOWN
+Prof	Prof	PROPN
 .	.	PUNCTsent
 Hans	Hans	PROPN
 Jeschke	Jeschke	PROPN
@@ -3889,7 +3889,7 @@ se	se	PRON
 soit	être	AUX
 intitulé	intituler	VERB
 :	:	PUNCTclause
-journée	journée	UNKNOWN
+Journée	Journée	PROPN
 de	de	ADP
 la	le	DET
 liberté	liberté	NOUN
@@ -4266,7 +4266,7 @@ paix	paix	NOUN
 »	»	PUNCTclause
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-bornons	borner	VERB
+Bornons	Bornons	PROPN
 nous	nous	PRON
 à	à	ADP
 remarquer	remarquer	VERB
@@ -4529,7 +4529,7 @@ dissous	dissous	ADJ
 les	le	DET
 liens	lien	NOUN
 «	«	PUNCTclause
-sacrés	sacrer	VERB
+sacrés	sacré	ADJ
 »	»	PUNCTclause
 du	du	ADP_DET
 corps	corps	NOUN
@@ -4678,7 +4678,7 @@ une	un	DET
 religion	religion	NOUN
 .	.	PUNCTsent
 de	de	ADP
-n'importe	n'importe	NOUN
+n'importe	n'importe	INTJ
 quelle	quel	DET
 religion	religion	NOUN
 …	…	PUNCTsent
@@ -4830,7 +4830,7 @@ frisson	frisson	NOUN
 de	de	ADP
 l'	le	DET
 horreur	horreur	NOUN
-sacrée	sacrer	VERB
+sacrée	sacré	ADJ
 ,	,	PUNCTclause
 la	le	DET
 réalité	réalité	NOUN
@@ -5008,9 +5008,9 @@ y	y	PRON
 a	avoir	VERB
 plus	plus	ADV
 ni	ni	CCONJ
-juif	juif	NOUN
+Juif	Juif	PROPN
 ni	ni	CCONJ
-grec	grec	NOUN
+Grec	Grec	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 tu	tu	PRON
@@ -6459,7 +6459,7 @@ après	après	ADP
 avoir	avoir	AUX
 vu	voir	VERB
 le	le	DET
-führer	führer	UNKNOWN
+Führer	Führer	PROPN
 magnifié	magnifier	VERB
 par	par	ADP
 le	le	DET

@@ -12,7 +12,7 @@ quarante	quarante	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PRON
+I.	I.	PROPN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 ai	avoir	AUX
@@ -88,7 +88,7 @@ atelier	atelier	NOUN
 ,	,	PUNCTclause
 près de	près de	ADP
 Greenwich	Greenwich	PROPN
-village	village	UNKNOWN
+Village	Village	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
 haut	haut	NOUN
@@ -232,7 +232,7 @@ passionne	passionner	VERB
 ↵↵	↵↵	PUNCTstruct
 mercredi	mercredi	NOUN
 des	un	ADP_DET
-cendres	cendre	UNKNOWN
+Cendres	Cendres	PROPN
 ,	,	PUNCTclause
 18	18	NUM
 février	février	NOUN
@@ -463,7 +463,7 @@ restaurant	restaurant	NOUN
 ,	,	PUNCTclause
 au bas de	au bas de	ADP
 Madison	Madison	PROPN
-avenue	avenue	UNKNOWN
+Avenue	Avenue	PROPN
 .	.	PUNCTsent
 la	le	DET
 salle	salle	NOUN
@@ -541,8 +541,8 @@ ai	avoir	AUX
 fui	fuir	VERB
 .	.	PUNCTsent
 pas	pas	ADV
-d'autre	d'autre	DET
-restaurant	restaurant	NOUN
+d'autre	d'autre	PRON
+restaurant	restaurer	VERB
 dans	dans	ADP
 ce	ce	DET
 quartier	quartier	NOUN
@@ -650,7 +650,7 @@ février	février	NOUN
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
 Town	Town	PROPN
-hall	hall	UNKNOWN
+Hall	Hall	PROPN
 ,	,	PUNCTclause
 Wanda	Wanda	PROPN
 Landowska	Landowska	PROPN
@@ -975,7 +975,7 @@ puis	puis	CCONJ
 erré	errer	VERB
 sur	sur	ADP
 Fifth	Fifth	PROPN
-avenue	avenue	UNKNOWN
+Avenue	Avenue	PROPN
 dans	dans	ADP
 la	le	DET
 foule	foule	NOUN
@@ -1438,7 +1438,7 @@ heures	heure	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
 .	.	PUNCTsent
-José	José	VERB
+José	José	PROPN
 Bergamin	Bergamin	PROPN
 assure	assurer	VERB
 que	que	SCONJ
@@ -1706,7 +1706,7 @@ le	le	DET
 plus	plus	ADV
 proche	proche	ADJ
 au	au	ADP_DET
-centre	centre	NOUN
+Centre	Centre	PROPN
 européen	européen	ADJ
 de	de	ADP
 la	le	DET
@@ -1784,7 +1784,7 @@ qui	qui	PRON
 se	se	PRON
 ouvrira	ouvrir	VERB
 à	à	ADP
-pâques	pâque	UNKNOWN
+Pâques	Pâques	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
@@ -1865,7 +1865,7 @@ se	se	PRON
 éteignirent	éteindre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 invité	inviter	VERB
@@ -2007,7 +2007,7 @@ exister	exister	VERB
 sinon	sinon	CCONJ
 peut-être	peut-être	ADV
 le	le	DET
-néant	néant	UNKNOWN
+Néant	Néant	PROPN
 qui	qui	PRON
 ,	,	PUNCTclause
 par	par	ADP
@@ -2141,7 +2141,7 @@ des	un	ADP_DET
 procédés	procédé	NOUN
 favoris	favori	ADJ
 du	du	ADP_DET
-malin	malin	UNKNOWN
+Malin	Malin	PROPN
 consiste	consister	VERB
 à	à	ADP
 convaincre	convaincre	VERB
@@ -2191,7 +2191,7 @@ terme	terme	NOUN
 consultez	consulter	VERB
 l'	le	DET
 excellent	excellent	ADJ
-vocabulaire	vocabulaire	UNKNOWN
+Vocabulaire	Vocabulaire	PROPN
 psychanalytique	psychanalytique	ADJ
 de	de	ADP
 J.	J.	PROPN
@@ -2822,7 +2822,7 @@ me	me	PRON
 vois	voir	VERB
 mauvais	mauvais	ADJ
 ,	,	PUNCTclause
-qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	NOUN
 à	à	ADP
 dire	dire	VERB
 ?	?	PUNCTsent
@@ -3597,13 +3597,13 @@ ce	ce	DET
 nombre	nombre	NOUN
 représentant	représenter	VERB
 le	le	DET
-mal	mal	UNKNOWN
+Mal	Mal	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
 le	le	DET
 diable	diable	NOUN
 est	être	AUX
-légion	légion	UNKNOWN
+Légion	Légion	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
 mal	mal	NOUN
@@ -3635,7 +3635,7 @@ par	par	ADP
 les	le	DET
 conséquences	conséquence	NOUN
 de	de	ADP
-n'importe	n'importe	NOUN
+n'importe	n'importe	INTJ
 quel	quel	DET
 geste	geste	NOUN
 ,	,	PUNCTclause
@@ -3946,7 +3946,7 @@ au	au	ADP_DET
 chapitre	chapitre	NOUN
 VIII	VIII	NUM
 .	.	PUNCTsent
-Méphisto	Méphisto	NOUN
+Méphisto	Méphisto	PROPN
 ne	ne	ADV
 peut	pouvoir	VERB
 rien	rien	PRON
@@ -4001,7 +4001,7 @@ marteau	marteau	NOUN
 piqueur	piqueur	NOUN
 et	et	CCONJ
 la	le	DET
-bombe	bombe	UNKNOWN
+Bombe	Bombe	PROPN
 H	H	PROPN
 procèdent	procéder	VERB
 évidemment	évidemment	ADV
@@ -4062,7 +4062,7 @@ culturelle	culturel	ADJ
 ,	,	PUNCTclause
 dépend	dépendre	VERB
 de	de	ADP
-lui	lui	UNKNOWN
+Lui	Lui	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -4291,7 +4291,7 @@ l'	le	DET
 administrateur	administrateur	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
-Cioran	Cioran	NOUN
+Cioran	Cioran	PROPN
 écrit	écrire	VERB
 que	que	SCONJ
 le	le	DET
@@ -4404,7 +4404,7 @@ que	que	PRON
 méritait	mériter	VERB
 déjà	déjà	ADV
 le	le	DET
-sens	sens	NOUN
+Sens	Sens	PROPN
 de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
@@ -4455,8 +4455,8 @@ ne	ne	ADV
 a	avoir	AUX
 rien	rien	PRON
 fait	faire	VERB
-d'autre	d'autre	SCONJ
-que	que	SCONJ
+d'autre	d'autre	PRON
+que	que	PRON
 obéir	obéir	VERB
 aux	au	ADP_DET
 ordres	ordre	NOUN
@@ -4495,7 +4495,7 @@ admette	admettre	VERB
 un	un	DET
 agent	agent	NOUN
 du	du	ADP_DET
-sens	sens	UNKNOWN
+Sens	Sens	PROPN
 de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
@@ -4585,7 +4585,7 @@ que	que	SCONJ
 aux	au	ADP_DET
 ruses	ruse	NOUN
 du	du	ADP_DET
-malin	malin	UNKNOWN
+Malin	Malin	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
 leurs	leur	DET
@@ -4843,7 +4843,7 @@ ans	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 la	le	DET
-bombe	bombe	UNKNOWN
+Bombe	Bombe	PROPN
 pulvérisait	pulvériser	VERB
 Hiroshima	Hiroshima	PROPN
 et	et	CCONJ
@@ -5059,7 +5059,7 @@ apparents	apparent	ADJ
 du	du	ADP_DET
 christianisme	christianisme	NOUN
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 sans	sans	ADP
 parler	parler	VERB
@@ -5428,7 +5428,7 @@ de	de	ADP
 un	un	DET
 demi-siècle	demi-siècle	NOUN
 .	.	PUNCTsent
-Malraux	Malraux	ADJ
+Malraux	Malraux	PROPN
 avait	avoir	AUX
 repris	reprendre	VERB
 le	le	DET
@@ -5706,7 +5706,7 @@ signifiant	signifier	VERB
 en	en	ADP
 hébreu	hébreu	NOUN
 l'	le	DET
-adversaire	adversaire	UNKNOWN
+Adversaire	Adversaire	PROPN
 par excellence	par excellence	ADV
 —	—	PUNCTclause
 ,	,	PUNCTclause
@@ -5844,7 +5844,7 @@ sa	son	DET
 fonction	fonction	NOUN
 spirituelle	spirituel	ADJ
 .	.	PUNCTsent
-Satan	Satan	PRON
+Satan	Satan	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -6015,7 +6015,7 @@ et	et	CCONJ
 ne	ne	ADV
 est	être	AUX
 rien	rien	PRON
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 —	—	PUNCTclause
 le	le	DET
 diable	diable	NOUN
@@ -6132,7 +6132,7 @@ ce	ce	DET
 ravin	ravin	NOUN
 de	de	ADP
 la	le	DET
-géhenne	géhenne	UNKNOWN
+Géhenne	Géhenne	PROPN
 dont	dont	PRON
 nous	nous	PRON
 parlent	parler	VERB
@@ -6153,7 +6153,7 @@ aux portes de	aux portes de	ADP
 Jérusalem	Jérusalem	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Gé-Hinnom	Gé-Hinnom	NOUN
+Gé-Hinnom	Gé-Hinnom	PROPN
 ou	ou	CCONJ
 val	val	NOUN
 de	de	ADP
@@ -6238,7 +6238,7 @@ moyen-âge	moyen-âge	NOUN
 .	.	PUNCTsent
 dans	dans	ADP
 la	le	DET
-géhenne	géhenne	UNKNOWN
+Géhenne	Géhenne	PROPN
 on	on	PRON
 ne	ne	ADV
 brûlait	brûler	VERB
@@ -6413,7 +6413,7 @@ de	de	ADP
 exister	exister	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -6464,13 +6464,13 @@ démystifier	démystifier	VERB
 —	—	PUNCTclause
 ,	,	PUNCTclause
 l'	le	DET
-hypothèse	hypothèse	UNKNOWN
+Hypothèse	Hypothèse	PROPN
 reprend	reprendre	VERB
 consistance	consistance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Henri	Henri	PRON
-matisse	matir	UNKNOWN
+Henri	Henri	PROPN
+Matisse	Matisse	PROPN
 à	à	ADP
 qui	qui	PRON
 l'on	on	PRON
@@ -6947,7 +6947,7 @@ instinct	instinct	NOUN
 vital	vital	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Freud	Freud	NOUN
+Freud	Freud	PROPN
 avait	avoir	AUX
 publié	publier	VERB
 quelques	quelque	DET
@@ -6961,7 +6961,7 @@ son	son	DET
 étude	étude	NOUN
 sur	sur	ADP
 le	le	DET
-malaise	malaise	UNKNOWN
+Malaise	Malaise	PROPN
 de	de	ADP
 la	le	DET
 civilisation	civilisation	NOUN
@@ -7105,8 +7105,8 @@ toutes	tout	ADJ
 choses	chose	NOUN
 tirées	tirer	VERB
 du	du	ADP_DET
-vide	vide	UNKNOWN
-méritent	mériter	UNKNOWN
+Vide	Vide	PROPN
+Méritent	Méritent	PROPN
 de	de	ADP
 être	être	AUX
 détruites	détruire	VERB
@@ -7119,7 +7119,7 @@ vous	vous	PRON
 nommez	nommer	VERB
 péché	pécher	VERB
 —	—	PUNCTclause
-destruction	destruction	UNKNOWN
+Destruction	Destruction	PROPN
 —	—	PUNCTclause
 bref	bref	ADJ
 ,	,	PUNCTclause
@@ -7182,7 +7182,7 @@ analogies	analogie	NOUN
 physiques	physique	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-Freud	Freud	NOUN
+Freud	Freud	PROPN
 ne	ne	ADV
 invoquait	invoquer	VERB
 que	que	ADV
@@ -7195,9 +7195,9 @@ second	second	ADJ
 principe	principe	NOUN
 de	de	ADP
 la	le	DET
-thermodynamique	thermodynamique	UNKNOWN
+Thermodynamique	Thermodynamique	PROPN
 ou	ou	CCONJ
-principe	principe	UNKNOWN
+Principe	Principe	PROPN
 de	de	ADP
 Carnot	Carnot	PROPN
 formule	formuler	VERB
@@ -7262,7 +7262,7 @@ l'	le	DET
 énergie	énergie	NOUN
 calorifique	calorifique	ADJ
 .	.	PUNCTsent
-Eddington	Eddington	NOUN
+Eddington	Eddington	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
 les	le	DET
@@ -7575,12 +7575,12 @@ imperceptiblement	imperceptiblement	ADV
 irrémédiable	irrémédiable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-saint	saint	ADJ
+Saint	Saint	PROPN
 Augustin	Augustin	PROPN
 croyait	croire	VERB
 que	que	SCONJ
 le	le	DET
-mal	mal	UNKNOWN
+Mal	Mal	PROPN
 ne	ne	ADV
 est	être	AUX
 que	que	SCONJ
@@ -7712,7 +7712,7 @@ Néantissant	Néantissant	PROPN
 le	le	DET
 devenir	devenir	NOUN
 du	du	ADP_DET
-rien	rien	UNKNOWN
+Rien	Rien	PROPN
 ,	,	PUNCTclause
 pôle	pôle	NOUN
 de	de	ADP
@@ -8107,7 +8107,7 @@ bien	bien	NOUN
 .	.	PUNCTsent
 pardonner	pardonner	VERB
 .	.	PUNCTsent
-G.	G.	DET
+G.	G.	PROPN
 Papini	Papini	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -8241,7 +8241,7 @@ ce	ce	PRON
 qui	qui	PRON
 choisit	choisir	VERB
 le	le	DET
-néant	néant	UNKNOWN
+Néant	Néant	PROPN
 en	en	ADP
 chacun	chacun	PRON
 de	de	ADP
@@ -8357,7 +8357,7 @@ ce	ce	DET
 que	que	SCONJ
 était	être	AUX
 la	le	DET
-géhenne	géhenne	UNKNOWN
+Géhenne	Géhenne	PROPN
 dont	dont	PRON
 Jésus-Christ	Jésus-Christ	PROPN
 parle	parler	VERB
@@ -8900,14 +8900,14 @@ très	très	ADV
 bien	bien	ADV
 marqué	marquer	VERB
 Georges	Georges	PROPN
-bataille	bataille	UNKNOWN
+Bataille	Bataille	PROPN
 dans	dans	ADP
 son	son	DET
 livre	livre	NOUN
 sur	sur	ADP
 Gilles	Gilles	PROPN
 de	de	ADP
-rais	rai	UNKNOWN
+Rais	Rais	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 grand seigneur	grand seigneur	NOUN
@@ -9370,7 +9370,7 @@ lorsque	lorsque	SCONJ
 elle	elle	PRON
 croqua	croquer	VERB
 la	le	DET
-pomme	pomme	UNKNOWN
+Pomme	Pomme	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -9496,13 +9496,13 @@ les	le	DET
 visions	vision	NOUN
 instantanées	instantané	ADJ
 du	du	ADP_DET
-but	but	UNKNOWN
+But	But	PROPN
 ultime	ultime	ADJ
 ,	,	PUNCTclause
 cause	cause	NOUN
 de	de	ADP
 l'	le	DET
-attrait	attrait	UNKNOWN
+Attrait	Attrait	PROPN
 universel	universel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -9656,7 +9656,7 @@ en	en	ADP
 enfer	enfer	NOUN
 ou	ou	CCONJ
 au	au	ADP_DET
-ciel	ciel	UNKNOWN
+Ciel	Ciel	PROPN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 refoulé	refouler	VERB
@@ -9868,7 +9868,7 @@ incontestable	incontestable	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
-démocratie	démocratie	UNKNOWN
+Démocratie	Démocratie	PROPN
 de	de	ADP
 jouissance	jouissance	NOUN
 que	que	SCONJ
@@ -9998,6 +9998,6 @@ Jésus-Christ	Jésus-Christ	PROPN
 «	«	PUNCTsent
 Dieu	Dieu	PROPN
 est	être	AUX
-amour	amour	UNKNOWN
+amour	amour	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause

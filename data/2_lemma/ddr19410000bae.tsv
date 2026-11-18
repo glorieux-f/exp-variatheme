@@ -6,10 +6,10 @@
 # title = Blind alley of Europe (1941)
 
 ↵↵	↵↵	PUNCTstruct
-Blind	Blind	ADJ
-alley	alley	NOUN
-of	of	ADJ
-Europe	Europe	PROPN
+Blind	Blind	PROPN
+alley	alley	X
+of	of	X
+Europe	Europe	X
 (	(	PUNCTclause
 1941	1941	NUM
 )	)	PUNCTclause
@@ -46,7 +46,7 @@ une	un	DET
 nouvelle	nouveau	ADJ
 phase	phase	NOUN
 du	du	ADP_DET
-blitzkrieg	blitzkrieg	UNKNOWN
+Blitzkrieg	Blitzkrieg	PROPN
 ne	ne	ADV
 vienne	venir	VERB
 absorber	absorber	VERB
@@ -81,7 +81,7 @@ national	national	ADJ
 des	un	ADP_DET
 minorités	minorité	NOUN
 (	(	PUNCTclause
-sudètes	sudète	UNKNOWN
+Sudètes	Sudètes	PROPN
 ,	,	PUNCTclause
 Dantzig	Dantzig	PROPN
 ,	,	PUNCTclause
@@ -634,7 +634,7 @@ a	avoir	AUX
 pourtant	pourtant	ADV
 traversé	traverser	VERB
 l'	le	DET
-océan	océan	UNKNOWN
+Océan	Océan	PROPN
 (	(	PUNCTclause
 et	et	CCONJ
 donc	donc	ADV
@@ -688,7 +688,7 @@ occupés	occuper	VERB
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
 .	.	PUNCTsent
-Hitler	Hitler	VERB
+Hitler	Hitler	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 sa	son	DET
@@ -1174,7 +1174,7 @@ elle	elle	PRON
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
 .	.	PUNCTsent
-Churchill	Churchill	NOUN
+Churchill	Churchill	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -1672,7 +1672,7 @@ des	un	DET
 russes	russe	NOUN
 dans	dans	ADP
 l'	le	DET
-est	être	UNKNOWN
+Est	Est	PROPN
 ,	,	PUNCTclause
 leur	leur	DET
 fait	faire	AUX
@@ -1917,8 +1917,8 @@ ligue	ligue	NOUN
 des	un	ADP_DET
 nations	nation	NOUN
 .	.	PUNCTsent
-Lénine	Lénine	VERB
-leur	leur	DET
+Lénine	Lénine	PROPN
+leur	leur	PRON
 proposait	proposer	VERB
 une	un	DET
 tactique	tactique	NOUN
@@ -2007,7 +2007,7 @@ des	un	ADP_DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Blind	Blind	NOUN
+Blind	Blind	PROPN
 alley	alley	NOUN
 .	.	PUNCTsent
 tout	tout	PRON

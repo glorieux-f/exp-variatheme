@@ -55,9 +55,9 @@ de	de	ADP
 expérience	expérience	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-W.	W.	DET
-MonodLe	MonodLe	PROPN
-problème	problème	UNKNOWN
+W.	W.	VERB
+MonodLe	MonodLe	DET
+problème	problème	NOUN
 du	du	ADP_DET
 bien	bien	NOUN
 ↵↵	↵↵	PUNCTstruct
@@ -167,7 +167,7 @@ ses	son	DET
 yeux	œil	NOUN
 vifs	vif	ADJ
 de	de	ADP
-méditerranéen	méditerranéen	UNKNOWN
+Méditerranéen	Méditerranéen	PROPN
 lui	lui	PRON
 composent	composer	VERB
 un	un	DET
@@ -340,7 +340,7 @@ me	me	PRON
 échappa	échapper	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-Wilfred	Wilfred	NOUN
+Wilfred	Wilfred	PROPN
 Monod	Monod	PROPN
 ,	,	PUNCTclause
 me	me	PRON
@@ -759,7 +759,7 @@ cela	cela	PRON
 moi	moi	PRON
 .	.	PUNCTsent
 —	—	PUNCTclause
-M.	M.	PUNCT
+M.	M.	NOUN
 Monod	Monod	PROPN
 dit	dire	VERB
 même	même	ADV
@@ -1058,7 +1058,7 @@ il	il	PRON
 écrit	écrire	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-poupette	poupette	NOUN
+Poupette	Poupette	PROPN
 (	(	PUNCTclause
 fille	fille	NOUN
 de	de	ADP
@@ -1169,7 +1169,7 @@ Nicodème	Nicodème	PROPN
 —	—	PUNCTclause
 ma	mon	DET
 chère	chère	NOUN
-poupette	poupette	UNKNOWN
+Poupette	Poupette	PROPN
 ,	,	PUNCTclause
 M.	M.	NOUN
 Monod	Monod	PROPN
@@ -1381,7 +1381,7 @@ message	message	NOUN
 existentiel	existentiel	ADJ
 de	de	ADP
 la	le	DET
-parole	parole	UNKNOWN
+Parole	Parole	PROPN
 de	de	ADP
 Dieu	Dieu	PROPN
 !	!	PUNCTsent
@@ -1441,7 +1441,7 @@ sa	son	DET
 thèse	thèse	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Kierkegaard	Kierkegaard	NOUN
+Kierkegaard	Kierkegaard	PROPN
 ,	,	PUNCTclause
 ce	ce	DET
 prince	prince	NOUN
@@ -1657,7 +1657,7 @@ instant	instant	NOUN
 ,	,	PUNCTclause
 grandiloquent	grandiloquent	ADJ
 :	:	PUNCTclause
-poupette	poupette	UNKNOWN
+Poupette	Poupette	PROPN
 avait	avoir	AUX
 les	le	DET
 joues	joue	NOUN
@@ -1713,7 +1713,7 @@ Vinet	Vinet	PROPN
 ,	,	PUNCTclause
 —	—	PUNCTclause
 ces	ce	DET
-helvètes	helvète	UNKNOWN
+Helvètes	Helvètes	PROPN
 —	—	PUNCTclause
 tantôt	tantôt	ADV
 Calvin	Calvin	PROPN
@@ -1844,7 +1844,7 @@ et	et	CCONJ
 lui	lui	PRON
 dit	dire	VERB
 :	:	PUNCTclause
-rabbi	rabbi	UNKNOWN
+Rabbi	Rabbi	PROPN
 ,	,	PUNCTclause
 nous	nous	PRON
 savons	savoir	VERB
@@ -1875,7 +1875,7 @@ est	être	VERB
 avec	avec	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-Jésus-Christ	Jésus-Christ	ADV
+Jésus-Christ	Jésus-Christ	PROPN
 lui	lui	PRON
 répondit	répondre	VERB
 :	:	PUNCTclause
@@ -1931,7 +1931,7 @@ mère	mère	NOUN
 et	et	CCONJ
 naître	naître	VERB
 ?	?	PUNCTsent
-Jésus-Christ	Jésus-Christ	ADV
+Jésus-Christ	Jésus-Christ	PROPN
 répondit	répondre	VERB
 :	:	PUNCTclause
 en vérité	en vérité	ADV
@@ -1975,11 +1975,11 @@ il	il	PRON
 se	se	PRON
 faire	faire	VERB
 ?	?	PUNCTsent
-Jésus-Christ	Jésus-Christ	ADV
+Jésus-Christ	Jésus-Christ	PROPN
 lui	lui	PRON
 répondit	répondre	VERB
 :	:	PUNCTclause
-tu	tu	UNKNOWN
+Tu	Tu	PROPN
 es	être	AUX
 docteur	docteur	NOUN
 de	de	ADP
@@ -2861,7 +2861,7 @@ en	en	ADP
 aller	aller	VERB
 .	.	PUNCTsent
 et	et	CCONJ
-poupette	poupette	UNKNOWN
+Poupette	Poupette	PROPN
 passa	passer	VERB
 les	le	DET
 petits	petit	ADJ
@@ -4095,7 +4095,7 @@ thèses	thèse	NOUN
 imposer	imposer	VERB
 !	!	PUNCTsent
 Nicodème	Nicodème	PROPN
-le	le	DET
+le	le_PRON	PRON
 disait	dire	VERB
 :	:	PUNCTclause
 on	on	PRON
@@ -4415,10 +4415,10 @@ homme	homme	NOUN
 qui	qui	PRON
 nie	nier	VERB
 l'	le	DET
-expérience	expérience	UNKNOWN
+Expérience	Expérience	PROPN
 ,	,	PUNCTclause
 l'	le	DET
-unique	unique	UNKNOWN
+Unique	Unique	PROPN
 —	—	PUNCTclause
 la	le	DET
 seule	seul	ADJ
@@ -4557,7 +4557,7 @@ nous	nous	PRON
 sommes	être	AUX
 tous	tous	PRON
 des	un	ADP_DET
-nicodèmes	nicodème	UNKNOWN
+Nicodèmes	Nicodèmes	PROPN
 !	!	PUNCTsent
 et	et	CCONJ
 jamais	jamais	ADV
@@ -5050,7 +5050,7 @@ chaque fois que	chaque fois que	SCONJ
 nous	nous	PRON
 prenons	prendre	VERB
 la	le	DET
-cène	cène	UNKNOWN
+Cène	Cène	PROPN
 ,	,	PUNCTclause
 communiant	communier	VERB
 ainsi	ainsi	ADV
@@ -5087,7 +5087,7 @@ baptême	baptême	NOUN
 et	et	CCONJ
 de	de	ADP
 la	le	DET
-cène	cène	UNKNOWN
+Cène	Cène	PROPN
 ne	ne	ADV
 ont	avoir	AUX
 aucune	aucun	DET
@@ -5156,7 +5156,7 @@ demeurent	demeurer	VERB
 :	:	PUNCTclause
 par	par	ADP
 le	le	DET
-baptême	baptême	UNKNOWN
+Baptême	Baptême	PROPN
 et	et	CCONJ
 la	le	DET
 communion	communion	NOUN
@@ -5190,7 +5190,7 @@ ce	ce	DET
 baptême	baptême	NOUN
 et	et	CCONJ
 cette	ce	DET
-cène	cène	UNKNOWN
+Cène	Cène	PROPN
 .	.	PUNCTsent
 certes	certes	ADV
 ,	,	PUNCTclause
@@ -5223,11 +5223,11 @@ moins	moins	ADV
 ,	,	PUNCTclause
 comme	comme	SCONJ
 le	le	DET
-baptême	baptême	UNKNOWN
+Baptême	Baptême	PROPN
 et	et	CCONJ
 comme	comme	ADP
 la	le	DET
-cène	cène	UNKNOWN
+Cène	Cène	PROPN
 ,	,	PUNCTclause
 dans la mesure où	dans la mesure où	ADV
 la	le	DET

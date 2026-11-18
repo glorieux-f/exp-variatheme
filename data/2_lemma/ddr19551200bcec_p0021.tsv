@@ -79,13 +79,13 @@ relations	relation	NOUN
 culturelles	culturel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-A.	A.	ADP_DET
+A.	A.	PROPN
 points	point	NOUN
 de	de	ADP
 départ	départ	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
+I.	I.	VERB
 les	le	DET
 17	17	NUM
 propositions	proposition	NOUN
@@ -581,7 +581,7 @@ directes	direct	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 la	le	DET
 première	premier	ADJ
@@ -600,12 +600,12 @@ octobre	octobre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-M.	M.	PUNCT
+M.	M.	NOUN
 Molotov	Molotov	PROPN
 rappelle	rappeler	VERB
 que	que	SCONJ
 le	le	DET
-soviet	soviet	UNKNOWN
+Soviet	Soviet	PROPN
 suprême	suprême	ADJ
 de	de	ADP
 l'	le	DET
@@ -815,7 +815,7 @@ peuples	peuple	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-M.	M.	PUNCT
+M.	M.	NOUN
 Molotov	Molotov	PROPN
 cite	citer	VERB
 à l'appui de	à l'appui de	ADP
@@ -920,7 +920,7 @@ culturels	culturel	ADJ
 et	et	CCONJ
 scientifiques	scientifique	ADJ
 .	.	PUNCTsent
-M.	M.	PUNCT
+M.	M.	NOUN
 Molotov	Molotov	PROPN
 soumet	soumettre	VERB
 alors	alors	ADV
@@ -1062,11 +1062,11 @@ novembre	novembre	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-B.	B.	DET
+B.	B.	PROPN
 résultats	résultat	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
+I.	I.	X
 les	le	DET
 réponses	réponse	NOUN
 soviétiques	soviétique	ADJ
@@ -1179,7 +1179,7 @@ les	le	DET
 dirigeants	dirigeant	NOUN
 de	de	ADP
 l'	le	DET
-union	union	NOUN
+Union	Union	PROPN
 soviétique	soviétique	ADJ
 auraient	avoir	AUX
 essayé	essayer	VERB
@@ -1212,7 +1212,7 @@ cachons	cacher	VERB
 pas	pas	ADV
 que	que	SCONJ
 l'	le	DET
-union	union	NOUN
+Union	Union	PROPN
 soviétique	soviétique	ADJ
 ne	ne	ADV
 accordait	accorder	VERB
@@ -1489,14 +1489,14 @@ de	de	ADP
 touristes	touriste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 les	le	DET
 réactions	réaction	NOUN
 occidentales	occidental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-M.	M.	DET
+M.	M.	NOUN
 Macmillan	Macmillan	PROPN
 (	(	PUNCTclause
 14	14	NUM
@@ -1784,7 +1784,7 @@ insularité	insularité	NOUN
 il y a	il y a	VERB
 chez	chez	ADP
 le	le	DET
-russe	russe	UNKNOWN
+Russe	Russe	PROPN
 moyen	moyen	ADJ
 une	un	PRON
 réelle	réel	ADJ
@@ -1817,7 +1817,7 @@ le	le	DET
 peuple	peuple	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-M.	M.	DET
+M.	M.	NOUN
 Pinay	Pinay	PROPN
 (	(	PUNCTclause
 14	14	NUM
@@ -1955,7 +1955,7 @@ la	le	DET
 propagande	propagande	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-M.	M.	PUNCT
+M.	M.	NOUN
 J.	J.	PROPN
 Foster	Foster	PROPN
 Dulles	Dulles	PROPN
@@ -2116,7 +2116,7 @@ de	de	ADP
 informations	information	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-M.	M.	PUNCT
+M.	M.	NOUN
 Dulles	Dulles	PROPN
 constate	constater	VERB
 alors que	alors que	CCONJ
@@ -2194,7 +2194,7 @@ jugée	juger	VERB
 acceptable	acceptable	ADJ
 par	par	ADP
 l'	le	DET
-union	union	NOUN
+Union	Union	PROPN
 soviétique	soviétique	ADJ
 .	.	PUNCTsent
 celle	celle	PRON
@@ -2269,7 +2269,7 @@ suppression	suppression	NOUN
 de	de	ADP
 la	le	DET
 censure	censure	NOUN
-non	non	UNKNOWN
+Non	Non	PROPN
 2	2	NUM
 .	.	PUNCTsent
 ouverture	ouverture	NOUN
@@ -2277,7 +2277,7 @@ de	de	ADP
 centres	centre	NOUN
 de	de	ADP
 information	information	NOUN
-non	non	UNKNOWN
+Non	Non	PROPN
 (	(	PUNCTclause
 ingérence	ingérence	NOUN
 dans	dans	ADP
@@ -2293,7 +2293,7 @@ dans	dans	ADP
 les	le	DET
 capitales	capital	NOUN
 respectives	respectif	ADJ
-non	non	UNKNOWN
+Non	Non	PROPN
 (	(	PUNCTclause
 implicitement	implicitement	ADV
 )	)	PUNCTclause
@@ -2307,7 +2307,7 @@ journaux	journal	NOUN
 revues	revue	NOUN
 ,	,	PUNCTclause
 livres	livre	NOUN
-non	non	UNKNOWN
+Non	Non	PROPN
 échange	échanger	VERB
 des	un	DET
 mêmes	même	ADJ
@@ -2356,7 +2356,7 @@ brouillage	brouillage	NOUN
 de	de	ADP
 la	le	DET
 radio	radio	NOUN
-non	non	UNKNOWN
+Non	Non	PROPN
 (	(	PUNCTclause
 implicitement	implicitement	ADV
 )	)	PUNCTclause
@@ -2396,12 +2396,12 @@ les	le	DET
 groupes	groupe	NOUN
 officiellement	officiellement	ADV
 organisés	organiser	VERB
-meilleur	meilleur	UNKNOWN
+Meilleur	Meilleur	PROPN
 change	changer	VERB
 pour	pour	ADP
 le	le	DET
 rouble	rouble	NOUN
-non	non	UNKNOWN
+Non	Non	PROPN
 (	(	PUNCTclause
 ingérence	ingérence	NOUN
 dans	dans	ADP
@@ -2421,7 +2421,7 @@ savants	savant	NOUN
 étudiants	étudiant	NOUN
 ,	,	PUNCTclause
 professionnels	professionnel	ADJ
-oui	oui	UNKNOWN
+Oui	Oui	PROPN
 selon	selon	ADP
 cas	cas	NOUN
 de	de	ADP
@@ -2485,5 +2485,5 @@ facilités	facilité	NOUN
 pour	pour	ADP
 trafic	trafic	NOUN
 aérien	aérien	ADJ
-non	non	UNKNOWN
+Non	Non	PROPN
 ↵↵	↵↵	PUNCTstruct

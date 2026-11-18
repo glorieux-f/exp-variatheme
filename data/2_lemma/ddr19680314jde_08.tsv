@@ -7,12 +7,12 @@
 # title = VII. Petit journal de Souabe
 
 ↵↵	↵↵	PUNCTstruct
-VII	VII	NOUN
+VII	VII	NUM
 .	.	PUNCTsent
 petit	petit	ADJ
 journal	journal	NOUN
 de	de	ADP
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
@@ -39,7 +39,7 @@ de	de	ADP
 empressement	empressement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Obermann	Obermann	NOUN
+Obermann	Obermann	PROPN
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
 la	le	DET
@@ -60,7 +60,7 @@ un	un	DET
 vieux	vieux	ADJ
 bourg	bourg	NOUN
 de	de	ADP
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 ,	,	PUNCTclause
 —	—	PUNCTclause
 quelques	quelque	DET
@@ -1155,7 +1155,7 @@ une	un	DET
 grande	grand	ADJ
 paix	paix	NOUN
 .	.	PUNCTsent
-vue	vue	NOUN
+Vue	Vue	PROPN
 de	de	ADP
 la	le	DET
 hauteur	hauteur	NOUN
@@ -1510,7 +1510,7 @@ rêve	rêve	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
 l'	le	DET
-archer	archer	UNKNOWN
+Archer	Archer	PROPN
 vierge	vierge	ADJ
 y	y	PRON
 court	courir	VERB
@@ -2481,7 +2481,7 @@ costume	costume	NOUN
 de	de	ADP
 bain	bain	NOUN
 .	.	PUNCTsent
-Buffon	Buffon	NOUN
+Buffon	Buffon	PROPN
 préférait	préférer	VERB
 les	le	DET
 manchettes	manchette	NOUN
@@ -2627,7 +2627,7 @@ au	au	ADP_DET
 net	net	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Paracelse	Paracelse	NOUN
+Paracelse	Paracelse	PROPN
 se	se	PRON
 occupait	occuper	VERB
 de	de	ADP
@@ -2718,8 +2718,8 @@ symbole	symbole	NOUN
 concret	concret	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce	n'est-ce	PRON
-point	point	ADV
+n'est-ce	n'est-ce	VERB
+point	point	NOUN
 ce	ce	DET
 genre	genre	NOUN
 de	de	ADP
@@ -2734,7 +2734,7 @@ le	le	DET
 plus	plus	ADV
 méprisé	mépriser	VERB
 ?	?	PUNCTsent
-n'est-ce	n'est-ce	DET
+n'est-ce	n'est-ce	VERB
 point	point	NOUN
 à cause de	à cause de	ADP
 ce	ce	PRON
@@ -2811,10 +2811,10 @@ qu'est-ce que	qu'est-ce que	ADV
 l'	le	DET
 homme	homme	NOUN
 ?	?	PUNCTsent
-qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	NOUN
 donc	donc	ADV
-que	que	PRON
-ce	ce	PRON
+que	que	SCONJ
+ce	ce	DET
 paradoxal	paradoxal	ADJ
 mélange	mélange	NOUN
 de	de	ADP
@@ -2824,9 +2824,9 @@ de	de	ADP
 âme	âme	NOUN
 ?	?	PUNCTsent
 —	—	PUNCTclause
-Paracelse	Paracelse	NOUN
+Paracelse	Paracelse	PROPN
 et	et	CCONJ
-Swedenborg	Swedenborg	X
+Swedenborg	Swedenborg	PROPN
 se	se	PRON
 accorderaient	accorder	VERB
 ,	,	PUNCTclause
@@ -3008,7 +3008,7 @@ antigaz	antigaz	ADJ
 ↵↵	↵↵	PUNCTstruct
 ha	ha	INTJ
 !	!	PUNCTsent
-Diogène	Diogène	NOUN
+Diogène	Diogène	PROPN
 ,	,	PUNCTclause
 Diogène	Diogène	PROPN
 !	!	PUNCTsent
@@ -3231,7 +3231,7 @@ expériences	expérience	NOUN
 vécues	vécu	ADJ
 avec	avec	ADP
 l'	le	DET
-ange	ange	UNKNOWN
+Ange	Ange	PROPN
 gardien	gardien	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -3762,7 +3762,7 @@ mots	mot	NOUN
 !	!	PUNCTsent
 )	)	PUNCTclause
 .	.	PUNCTsent
-doux	doux	ADJ
+Doux	Doux	PROPN
 malentendu	malentendu	NOUN
 qui	qui	PRON
 nous	nous	PRON
@@ -4046,11 +4046,11 @@ juin	juin	NOUN
 1929	1929	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Paracelse	Paracelse	NOUN
+Paracelse	Paracelse	PROPN
 et	et	CCONJ
-Swedenborg	Swedenborg	X
+Swedenborg	Swedenborg	PROPN
 :	:	PUNCTclause
-Goethe	Goethe	X
+Goethe	Goethe	PROPN
 me	me	PRON
 y	y	PRON
 ramène	ramener	VERB
@@ -4249,7 +4249,7 @@ que	que	SCONJ
 irais	aller	VERB
 je	je	PRON
 demander	demander	VERB
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 à	à	ADP
 cette	ce	DET
 «	«	PUNCTclause
@@ -4303,7 +4303,7 @@ un	un	DET
 jour	jour	NOUN
 décrire	décrire	VERB
 ma	mon	DET
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 :	:	PUNCTclause
 comme	comme	ADP
 un	un	DET
@@ -4333,7 +4333,7 @@ juin	juin	NOUN
 1929	1929	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Werther	Werther	VERB
+Werther	Werther	PROPN
 .	.	PUNCTsent
 je	je	PRON
 ai	avoir	AUX
@@ -4928,7 +4928,7 @@ du	du	ADP_DET
 grand	grand	ADJ
 duché	duché	NOUN
 de	de	ADP
-bade	bader	UNKNOWN
+Bade	Bade	PROPN
 qui	qui	PRON
 sont	être	AUX
 ce	ce	PRON
@@ -6264,7 +6264,7 @@ rêve	rêve	NOUN
 le	le	DET
 vin	vin	NOUN
 de	de	ADP
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 grise	gris	ADJ
 insensiblement	insensiblement	ADV
 ,	,	PUNCTclause
@@ -6402,9 +6402,9 @@ ce	ce	DET
 soir	soir	NOUN
 dans	dans	ADP
 l'	le	DET
-auberge	auberge	UNKNOWN
+Auberge	Auberge	PROPN
 du	du	ADP_DET
-cerf	cerf	UNKNOWN
+Cerf	Cerf	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
 premier	premier	ADJ
@@ -6582,7 +6582,7 @@ puis	puis	CCONJ
 rester	rester	VERB
 dans	dans	ADP
 cette	ce	DET
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 à	à	ADP
 ne	ne	ADV
 rien	rien	PRON
@@ -6776,7 +6776,7 @@ se	se	PRON
 consume	consumer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-bois	bois	NOUN
+Bois	Bois	PROPN
 du	du	ADP_DET
 lait	lait	NOUN
 ,	,	PUNCTclause
@@ -6835,7 +6835,7 @@ juillet	juillet	NOUN
 ces	ce	DET
 mois	mois	NOUN
 de	de	ADP
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 me	me	PRON
 apparaissent	apparaître	VERB
 de plus en plus	de plus en plus	ADV
@@ -6844,8 +6844,8 @@ une	un	DET
 retraite	retrait	NOUN
 sensuelle	sensuel	ADJ
 .	.	PUNCTsent
-n'est-ce	n'est-ce	DET
-point	point	NOUN
+n'est-ce	n'est-ce	VERB
+point	point	ADV
 de	de	ADP
 cela	cela	PRON
 que	que	SCONJ
@@ -7107,7 +7107,7 @@ les	le	DET
 plateaux	plateau	NOUN
 de	de	ADP
 la	le	DET
-souabe	souabe	UNKNOWN
+Souabe	Souabe	PROPN
 ,	,	PUNCTclause
 vous	vous	PRON
 resterez	rester	VERB
@@ -8419,7 +8419,7 @@ jour	jour	NOUN
 populeux	populeux	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Calw	Calw	VERB
+Calw	Calw	PROPN
 en	en	ADP
 Wurtemberg	Wurtemberg	PROPN
 ,	,	PUNCTclause

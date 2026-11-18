@@ -30,7 +30,7 @@ l'	le	DET
 amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 je	je	PRON
 éprouve	éprouver	VERB
@@ -259,7 +259,7 @@ plus	plus	ADV
 étonnante	étonnant	ADJ
 encore	encore	ADV
 que	que	SCONJ
-n'importe	n'importe	DET
+n'importe	n'importe	INTJ
 quelle	quel	DET
 hypothèse	hypothèse	NOUN
 ,	,	PUNCTclause
@@ -397,7 +397,7 @@ crois	croire	VERB
 vitale	vital	ADJ
 pour	pour	ADP
 l'	le_PRON	PRON
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 moderne	moderne	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -679,7 +679,7 @@ en	en	ADP
 vérités	vérité	NOUN
 théologiques	théologique	ADJ
 .	.	PUNCTsent
-saint	saint	NOUN
+Saint	Saint	PROPN
 Bernard	Bernard	PROPN
 de	de	ADP
 Clairvaux	Clairvaux	PROPN
@@ -870,7 +870,7 @@ la	le	DET
 chasteté	chasteté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-saint	saint	NOUN
+Saint	Saint	PROPN
 Bernard	Bernard	PROPN
 de	de	ADP
 Clairvaux	Clairvaux	PROPN
@@ -950,7 +950,7 @@ Poitiers	Poitiers	PROPN
 —	—	PUNCTclause
 jusque	jusque	ADP
 au	au	ADP_DET
-paraclet	paraclet	UNKNOWN
+Paraclet	Paraclet	PROPN
 de	de	ADP
 Héloïse	Héloïse	PROPN
 .	.	PUNCTsent
@@ -973,7 +973,7 @@ Abélard	Abélard	PROPN
 lui-même	lui-même	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Héloïse	Héloïse	NOUN
+Héloïse	Héloïse	PROPN
 et	et	CCONJ
 Abélard	Abélard	PROPN
 vivent	vivre	VERB
@@ -1181,7 +1181,7 @@ un	un	DET
 culte	culte	NOUN
 de	de	ADP
 la	le	DET
-vierge	vierge	UNKNOWN
+Vierge	Vierge	PROPN
 .	.	PUNCTsent
 Marie	Marie	PROPN
 reçoit	recevoir	VERB
@@ -1201,7 +1201,7 @@ et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 en	en	ADP
-reine	reine	UNKNOWN
+Reine	Reine	PROPN
 désormais	désormais	ADV
 que	que	SCONJ
 l'	le	DET
@@ -1265,11 +1265,11 @@ fête	fête	NOUN
 de	de	ADP
 l'	le	DET
 immaculée	immaculé	NOUN
-conception	conception	UNKNOWN
+Conception	Conception	PROPN
 de	de	ADP
 Notre-Dame	Notre-Dame	PROPN
 .	.	PUNCTsent
-saint	saint	NOUN
+Saint	Saint	PROPN
 Bernard	Bernard	PROPN
 de	de	ADP
 Clairvaux	Clairvaux	PROPN
@@ -1368,7 +1368,7 @@ le	le	DET
 culte	culte	NOUN
 de	de	ADP
 la	le	DET
-vierge	vierge	UNKNOWN
+Vierge	Vierge	PROPN
 répondait	répondre	VERB
 à	à	ADP
 une	un	DET
@@ -1469,10 +1469,10 @@ primitif	primitif	ADJ
 on	on	PRON
 voit	voir	VERB
 la	le	DET
-dame	dame	UNKNOWN
+Dame	Dame	PROPN
 (	(	PUNCTclause
 ou	ou	CCONJ
-reine	reine	UNKNOWN
+Reine	Reine	PROPN
 )	)	PUNCTclause
 prendre	prendre	VERB
 le	le	DET
@@ -1508,7 +1508,7 @@ final	final	ADJ
 et	et	CCONJ
 le	le	DET
 personnage	personnage	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
@@ -1519,12 +1519,12 @@ les	le	DET
 dieux	dieu	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Freud	Freud	NOUN
+Freud	Freud	PROPN
 désigne	désigner	VERB
 du	du	ADP_DET
 nom	nom	NOUN
 de	de	ADP
-œdipe	œdipe	UNKNOWN
+Œdipe	Œdipe	PROPN
 le	le	DET
 complexe	complexe	NOUN
 composé	composer	VERB
@@ -1731,7 +1731,7 @@ le	le	DET
 complexe	complexe	NOUN
 œdipien	œdipien	ADJ
 faiblit	faiblir	VERB
-d'autant	d'autant	PUNCT
+d'autant	d'autant	ADV
 .	.	PUNCTsent
 la	le	DET
 haine	haine	NOUN
@@ -2402,7 +2402,7 @@ de	de	ADP
 un	un	DET
 Rambaut	Rambaut	NOUN
 de	de	ADP
-orange	orange	UNKNOWN
+Orange	Orange	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 chose	chose	NOUN
@@ -2503,9 +2503,9 @@ des	un	ADP_DET
 croyants	croyant	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Citons-là-dessus	Citons-là-dessus	ADV
+Citons-là-dessus	Citons-là-dessus	PROPN
 l'un	l'un	PRON
-des	un	ADP_DET
+des	un	DET
 plus	plus	ADV
 sensibles	sensible	ADJ
 interprètes	interprète	NOUN
@@ -2526,14 +2526,14 @@ du	du	ADP_DET
 Carcassès	Carcassès	PROPN
 ,	,	PUNCTclause
 du	du	ADP_DET
-toulousain	toulousain	UNKNOWN
+Toulousain	Toulousain	PROPN
 ,	,	PUNCTclause
 du	du	ADP_DET
 Foix	Foix	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
-albigeois	albigeois	UNKNOWN
+Albigeois	Albigeois	PROPN
 étaient	être	AUX
 «	«	PUNCTclause
 croyantes	croyant	ADJ
@@ -2954,7 +2954,7 @@ cruels	cruel	ADJ
 tantôt	tantôt	ADV
 des	un	ADP_DET
 rites	rite	NOUN
-sacrés	sacrer	VERB
+sacrés	sacré	ADJ
 ou	ou	CCONJ
 des	un	DET
 gestes	geste	NOUN
@@ -3057,7 +3057,7 @@ dieux	dieu	NOUN
 en premier lieu	en premier lieu	ADV
 Shiva	Shiva	PROPN
 et	et	CCONJ
-bouddha	bouddha	UNKNOWN
+Bouddha	Bouddha	PROPN
 )	)	PUNCTclause
 …	…	PUNCTsent
 est	être	AUX
@@ -3533,7 +3533,7 @@ loi	loi	NOUN
 karmique	karmique	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
-n'importe	n'importe	NOUN
+n'importe	n'importe	INTJ
 quel	quel	DET
 débauché	débauché	NOUN
 .	.	PUNCTsent
@@ -3614,7 +3614,7 @@ même	même	ADJ
 qui	qui	PRON
 ,	,	PUNCTclause
 pour	pour	ADP
-n'importe	n'importe	DET
+n'importe	n'importe	INTJ
 quel	quel	DET
 ascétisme	ascétisme	NOUN
 ,	,	PUNCTclause
@@ -3932,7 +3932,7 @@ la	le	DET
 réalité	réalité	NOUN
 fatale	fatal	ADJ
 du	du	ADP_DET
-karma	karma	UNKNOWN
+Karma	Karma	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 5	5	NUM
@@ -4053,7 +4053,7 @@ rituel	rituel	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 sont	être	AUX
-mesure	mesure	UNKNOWN
+Mesure	Mesure	PROPN
 ,	,	PUNCTclause
 service	service	NOUN
 ,	,	PUNCTclause
@@ -4088,9 +4088,9 @@ Amor	Amor	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voici	voici	ADP
-mesure	mesure	UNKNOWN
+Mesure	Mesure	PROPN
 et	et	CCONJ
-patience	patience	UNKNOWN
+Patience	Patience	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -4102,7 +4102,7 @@ celui	celui	PRON
 qui	qui	PRON
 sait	savoir	VERB
 garder	garder	VERB
-mesure	mesure	UNKNOWN
+Mesure	Mesure	PROPN
 …	…	PUNCTsent
 le	le	DET
 bien-être	bien-être	NOUN
@@ -4112,9 +4112,9 @@ consiste	consister	VERB
 en	en	ADP
 joie	joie	NOUN
 ,	,	PUNCTclause
-patience	patience	UNKNOWN
+Patience	Patience	PROPN
 et	et	CCONJ
-mesure	mesure	UNKNOWN
+Mesure	Mesure	PROPN
 …	…	PUNCTsent
 je	je	PRON
 approuve	approuver	VERB
@@ -4141,7 +4141,7 @@ a	avoir	AUX
 promis	promettre	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-Marcabru	Marcabru	NOUN
+Marcabru	Marcabru	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -4178,7 +4178,7 @@ je	je	PRON
 tende	tendre	VERB
 !	!	PUNCTsent
 (	(	PUNCTclause
-Uc	Uc	NOUN
+Uc	Uc	PROPN
 de	de	ADP
 Saint-Circ	Saint-Circ	PROPN
 .	.	PUNCTsent
@@ -4206,7 +4206,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Arnaut	Arnaut	NOUN
+Arnaut	Arnaut	PROPN
 Daniel	Daniel	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -4273,7 +4273,7 @@ triste	triste	ADJ
 contenance	contenance	NOUN
 !	!	PUNCTsent
 (	(	PUNCTclause
-Marcabru	Marcabru	NOUN
+Marcabru	Marcabru	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -4303,7 +4303,7 @@ la	le	DET
 queue	queue	NOUN
 !	!	PUNCTsent
 (	(	PUNCTclause
-Marcabru	Marcabru	NOUN
+Marcabru	Marcabru	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -4317,7 +4317,7 @@ désir	désir	NOUN
 en	en	ADP
 portant	porter	VERB
 le	le	DET
-désir	désir	UNKNOWN
+Désir	Désir	PROPN
 (	(	PUNCTclause
 courtois	courtois	ADJ
 )	)	PUNCTclause
@@ -4349,7 +4349,7 @@ bien	bien	ADV
 aimer	aimer	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-Arnaut	Arnaut	NOUN
+Arnaut	Arnaut	PROPN
 Daniel	Daniel	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -4489,16 +4489,16 @@ du	du	ADP_DET
 désir	désir	NOUN
 dominé	dominer	VERB
 par	par	ADP
-mesure	mesure	UNKNOWN
+Mesure	Mesure	PROPN
 et	et	CCONJ
-prouesse	prouesse	UNKNOWN
+Prouesse	Prouesse	PROPN
 ,	,	PUNCTclause
 elle	elle	PRON
 est	être	AUX
 aussi	aussi	ADV
 fontaine	fontaine	NOUN
 de	de	ADP
-jouvence	jouvence	UNKNOWN
+Jouvence	Jouvence	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -4755,14 +4755,14 @@ portes	porte	NOUN
 sont	être	AUX
 désir	désir	VERB
 ,	,	PUNCTclause
-prière	prière	UNKNOWN
+Prière	Prière	PROPN
 ,	,	PUNCTclause
-servir	servir	UNKNOWN
+Servir	Servir	PROPN
 ,	,	PUNCTclause
-baiser	baiser	UNKNOWN
+Baiser	Baiser	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-faire	faire	UNKNOWN
+Faire	Faire	PROPN
 ,	,	PUNCTclause
 par	par	ADP
 où	où	PRON
@@ -4787,8 +4787,8 @@ attendre	attendre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 quant à	quant à	ADP
-faux	faux	UNKNOWN
-amour	amour	UNKNOWN
+Faux	Faux	PROPN
+Amour	Amour	PROPN
 ,	,	PUNCTclause
 il	il	PRON
 se	se	PRON
@@ -4842,8 +4842,8 @@ diable	diable	NOUN
 celui	celui	PRON
 qui	qui	PRON
 couve	couver	VERB
-faux	faux	UNKNOWN
-amour	amour	UNKNOWN
+Faux	Faux	PROPN
+Amour	Amour	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 (	(	PUNCTclause
@@ -5358,7 +5358,7 @@ rêver	rêver	VERB
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 Pantcha	Pantcha	PROPN
-tantra	tantra	UNKNOWN
+Tantra	Tantra	PROPN
 ,	,	PUNCTclause
 recueil	recueil	NOUN
 de	de	ADP
@@ -5384,7 +5384,7 @@ Chosroès	Chosroès	PROPN
 ,	,	PUNCTclause
 roi	roi	NOUN
 de	de	ADP
-perse	pers	UNKNOWN
+Perse	Perse	PROPN
 .	.	PUNCTsent
 de	de	ADP
 là	là	ADV
@@ -5421,7 +5421,7 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 la	le	DET
-fontaine	fontaine	UNKNOWN
+Fontaine	Fontaine	PROPN
 le	le	DET
 lira	lire	VERB
 en	en	ADP
@@ -5444,7 +5444,7 @@ arabe	arabe	ADJ
 le	le	DET
 périple	périple	NOUN
 du	du	ADP_DET
-roman	roman	UNKNOWN
+Roman	Roman	PROPN
 de	de	ADP
 Barlaam	Barlaam	PROPN
 et	et	CCONJ
@@ -5567,7 +5567,7 @@ l'	le	DET
 origine	origine	NOUN
 manichéenne	manichéen	ADJ
 du	du	ADP_DET
-roman	roman	UNKNOWN
+Roman	Roman	PROPN
 est	être	AUX
 attestée	attester	VERB
 par	par	ADP
@@ -5609,7 +5609,7 @@ Boddisattva	Boddisattva	PROPN
 »	»	PUNCTclause
 (	(	PUNCTclause
 le	le	DET
-bouddha	bouddha	UNKNOWN
+Bouddha	Bouddha	PROPN
 )	)	PUNCTclause
 en	en	ADP
 «	«	PUNCTclause
@@ -5633,7 +5633,7 @@ Budhâsaf	Budhâsaf	PROPN
 (	(	PUNCTclause
 var	var	NOUN
 .	.	PUNCTsent
-Yudhâsaf	Yudhâsaf	NOUN
+Yudhâsaf	Yudhâsaf	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5645,10 +5645,10 @@ de	de	ADP
 relations	relation	NOUN
 entre	entre	ADP
 l'	le	DET
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 et	et	CCONJ
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 médiéval	médiéval	ADJ
 .	.	PUNCTsent
 je	je	PRON
@@ -5761,7 +5761,7 @@ grands	grand	ADJ
 mystiques	mystique	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 .	.	PUNCTsent
 il	il	PRON
 nous	nous	PRON
@@ -5974,7 +5974,7 @@ l'	le	DET
 ,	,	PUNCTclause
 le	le	DET
 principe	principe	NOUN
-féminin	féminin	UNKNOWN
+Féminin	Féminin	PROPN
 de	de	ADP
 la	le	DET
 çatki	çatki	NOUN
@@ -5991,7 +5991,7 @@ mère	mère	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
-vierge	vierge	UNKNOWN
+Vierge	Vierge	PROPN
 .	.	PUNCTsent
 il	il	PRON
 participe	participer	VERB
@@ -6017,7 +6017,7 @@ le	le	DET
 retour	retour	NOUN
 de	de	ADP
 un	un	DET
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 symbolique	symbolique	ADJ
 .	.	PUNCTsent
 il	il	PRON

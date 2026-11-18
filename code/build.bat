@@ -5,4 +5,4 @@ python .\keywords.py --vocab all --scorer bm25 poissondev poissonidfa0.5 poisson
 python .\keywords-matrix.py ..\results\keywords100\ ..\results\keywords100\matrix.tsv
 python .\pcoa.py ..\results\keywords100\matrix.tsv
 python .\keywords_stats.py  --terms ..\data\3_contingency\ddr- --stopwords .\stopwords.txt --top 100 --stopwords-top 20 -o ..\results\keywords100-stats.tsv  "..\results\keywords100\ddr-keywords100-all-*.txt"
-:: python .\keywords-glob.py ..\data\3_contingency\ddr- "ddr19721100ao*" ..\results\keywords\ --scorer tfidf subtfidfa0.3 poissonidfa0.9  poissonidfa1 poissonidfa1.1  poissonidfa1.5  txm poissondev g2 g2pos --vocab all  
+:: python .\keywords-glob.py ..\data\3_contingency\ddr- "ddr19721100ao*" ..\results\keywords\ --scorer tfidf subtfidfa0.3 poissonidfa0.9  poissonidfa1 poissonidfa1.1  poissonidfa1.5  txm poissondev g2 g2pos --vocab all 

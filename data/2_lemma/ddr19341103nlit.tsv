@@ -73,7 +73,7 @@ le	le_PRON	PRON
 roman	roman	NOUN
 français	français	ADJ
 .	.	PUNCTsent
-Balzac	Balzac	NOUN
+Balzac	Balzac	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -81,7 +81,7 @@ le	le	DET
 roman	roman	NOUN
 social	social	ADJ
 .	.	PUNCTsent
-Balzac	Balzac	NOUN
+Balzac	Balzac	PROPN
 —	—	PUNCTclause
 et	et	CCONJ
 Stendhal	Stendhal	PROPN
@@ -135,13 +135,13 @@ reste	reste	NOUN
 ?	?	PUNCTsent
 —	—	PUNCTclause
 les	le_PRON	PRON
-anglais	anglais	UNKNOWN
+Anglais	Anglais	PROPN
 ,	,	PUNCTclause
 les	le	DET
 allemands	allemand	NOUN
 ,	,	PUNCTclause
 les	le	DET
-scandinaves	scandinave	UNKNOWN
+Scandinaves	Scandinaves	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 le	le	DET
@@ -179,7 +179,7 @@ vois	voir	VERB
 aussi	aussi	ADV
 le	le	DET
 pasteur	pasteur	NOUN
-sterne	sterne	UNKNOWN
+Sterne	Sterne	PROPN
 ,	,	PUNCTclause
 le	le	DET
 Goethe	Goethe	PROPN
@@ -214,7 +214,7 @@ Galsworthy	Galsworthy	PROPN
 Hardy	Hardy	PROPN
 …	…	PUNCTsent
 —	—	PUNCTclause
-Lawrence	Lawrence	NOUN
+Lawrence	Lawrence	PROPN
 ,	,	PUNCTclause
 pendant que	pendant que	SCONJ
 vous	vous	PRON
@@ -222,7 +222,7 @@ y	y	PRON
 êtes	être	VERB
 !	!	PUNCTsent
 —	—	PUNCTclause
-Lawrence	Lawrence	NOUN
+Lawrence	Lawrence	PROPN
 ,	,	PUNCTclause
 parfaitement	parfaitement	ADV
 .	.	PUNCTsent
@@ -313,7 +313,7 @@ dépourvues	dépourvu	ADJ
 de	de	ADP
 apparences	apparence	NOUN
 .	.	PUNCTsent
-n'est-ce	n'est-ce	PRON
+n'est-ce	n'est-ce	VERB
 point	point	ADV
 l'	le	DET
 image	image	NOUN
@@ -623,7 +623,7 @@ encore	encore	ADV
 «	«	PUNCTclause
 l'	le	DET
 insondable	insondable	ADJ
-providence	providence	UNKNOWN
+Providence	Providence	PROPN
 »	»	PUNCTclause
 mise	mettre	VERB
 en	en	ADP
@@ -948,7 +948,7 @@ et	et	CCONJ
 justus	justus	X
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Kierkegaard	Kierkegaard	NOUN
+Kierkegaard	Kierkegaard	PROPN
 nous	nous	PRON
 rappelle	rappeler	VERB
 que	que	SCONJ
@@ -1269,7 +1269,7 @@ ce	ce	DET
 ne	ne	ADV
 rien	rien	PRON
 voir	voir	VERB
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 le	le	DET
 sexe	sexe	NOUN

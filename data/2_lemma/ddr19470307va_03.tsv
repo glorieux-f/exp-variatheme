@@ -6,8 +6,8 @@
 # title = I. Vie politique
 
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PRON
-vie	vie	UNKNOWN
+I.	I.	DET
+vie	vie	NOUN
 politique	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -661,11 +661,11 @@ entre	entre	ADP
 les	le	DET
 rives	rive	NOUN
 du	du	ADP_DET
-pacifique	pacifique	UNKNOWN
+Pacifique	Pacifique	PROPN
 et	et	CCONJ
 de	de	ADP
 l'	le	DET
-atlantique	atlantique	UNKNOWN
+Atlantique	Atlantique	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 encore	encore	ADV
@@ -916,7 +916,7 @@ pays	pays	NOUN
 du	du	ADP_DET
 fond	fond	NOUN
 du	du	ADP_DET
-pacifique	pacifique	UNKNOWN
+Pacifique	Pacifique	PROPN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 de	de	ADP
@@ -1892,7 +1892,7 @@ je	je	PRON
 étais	être	VERB
 à	à	ADP
 Times	Times	PROPN
-square	square	UNKNOWN
+Square	Square	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
 cœur	cœur	NOUN
@@ -2066,7 +2066,7 @@ du	du	ADP_DET
 Times	Times	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-Roosevelt	Roosevelt	VERB
+Roosevelt	Roosevelt	PROPN
 entraîne	entraîner	VERB
 New York	New York	PROPN
 City	City	PROPN
@@ -2198,7 +2198,7 @@ pleine	plein	ADJ
 voix	voix	NOUN
 le	le_PRON	PRON
 Star-Spangled	Star-Spangled	PROPN
-banner	banner	UNKNOWN
+Banner	Banner	PROPN
 avec	avec	ADP
 la	le	DET
 ferveur	ferveur	NOUN
@@ -2357,7 +2357,7 @@ aide	aide	NOUN
 l'	le	DET
 Angleterre	Angleterre	PROPN
 .	.	PUNCTsent
-Willkie	Willkie	NOUN
+Willkie	Willkie	PROPN
 faisait	faire	VERB
 une	un	DET
 déclaration	déclaration	NOUN
@@ -2572,7 +2572,7 @@ explique	expliquer	VERB
 son	son	DET
 tour	tour	NOUN
 .	.	PUNCTsent
-n'importe	n'importe	ADP
+n'importe	n'importe	INTJ
 quel	quel	DET
 citoyen	citoyen	NOUN
 peut	pouvoir	VERB
@@ -2868,7 +2868,7 @@ droit	droit	NOUN
 de	de	ADP
 leur	leur	DET
 poser	poser	VERB
-n'importe	n'importe	PUNCT
+n'importe	n'importe	INTJ
 quelle	quel	DET
 question	question	NOUN
 .	.	PUNCTsent
@@ -3216,7 +3216,7 @@ les	le	DET
 autorités	autorité	NOUN
 ,	,	PUNCTclause
 pas	pas	ADV
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 intermédiaire	intermédiaire	ADJ
 que	que	SCONJ
 l'	le	DET
@@ -3366,7 +3366,7 @@ forte	fort	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
 ici	ici	ADV
-radio	radio	UNKNOWN
+Radio	Radio	PROPN
 municipale	municipal	ADJ
 de	de	ADP
 New York	New York	PROPN
@@ -3859,7 +3859,7 @@ effort	effort	NOUN
 conjugué	conjuguer	VERB
 de	de	ADP
 l'	le	DET
-opinion	opinion	UNKNOWN
+Opinion	Opinion	PROPN
 et	et	CCONJ
 de	de	ADP
 quelques	quelque	DET
@@ -3883,7 +3883,7 @@ précisément	précisément	ADV
 ,	,	PUNCTclause
 comme	comme	SCONJ
 à	à	ADP
-jersey	jersey	UNKNOWN
+Jersey	Jersey	PROPN
 City	City	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3904,7 +3904,7 @@ simplement	simplement	ADV
 boss	boss	X
 ,	,	PUNCTclause
 ou	ou	CCONJ
-patron	patron	UNKNOWN
+Patron	Patron	PROPN
 .	.	PUNCTsent
 je	je	PRON
 craignais	craindre	VERB
@@ -3942,7 +3942,7 @@ la	le	DET
 guerre	guerre	NOUN
 dans	dans	ADP
 le	le	DET
-pacifique	pacifique	UNKNOWN
+Pacifique	Pacifique	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
 occupons	occuper	VERB
@@ -4471,8 +4471,8 @@ naguère	naguère	ADV
 faire	faire	AUX
 comprendre	comprendre	VERB
 .	.	PUNCTsent
-grave	grave	ADJ
-menace	menace	NOUN
+Grave	Grave	PROPN
+menace	menacer	VERB
 pour	pour	ADP
 la	le	DET
 liberté	liberté	NOUN
@@ -5093,7 +5093,7 @@ douze	douze	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 les	le	DET
-chambres	chambre	NOUN
+Chambres	Chambres	PROPN
 ont	avoir	AUX
 nommé	nommer	VERB
 neuf	neuf	NUM
@@ -5146,7 +5146,7 @@ initiés	initier	VERB
 après	après	ADP
 quoi	quoi	PRON
 le	le_PRON	PRON
-sénat	sénat	UNKNOWN
+Sénat	Sénat	PROPN
 fera	faire	VERB
 comparaître	comparaître	VERB
 ,	,	PUNCTclause
@@ -5662,7 +5662,7 @@ ministères	ministère	NOUN
 ;	;	PUNCTclause
 de	de	ADP
 la	le	DET
-finance	finance	UNKNOWN
+Finance	Finance	PROPN
 (	(	PUNCTclause
 bien	bien	ADV
 que	que	SCONJ
@@ -6546,12 +6546,12 @@ naufrage	naufrage	NOUN
 commun	commun	ADJ
 dans	dans	ADP
 le	le	DET
-détroit	détroit	NOUN
+Détroit	Détroit	PROPN
 des	un	ADP_DET
 délais	délai	NOUN
 ou	ou	CCONJ
 la	le	DET
-mer	mer	NOUN
+Mer	Mer	PROPN
 des	un	ADP_DET
 paperasses	paperasse	NOUN
 ,	,	PUNCTclause

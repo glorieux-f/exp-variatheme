@@ -122,7 +122,7 @@ du	du	ADP_DET
 moment	moment	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
+I.	I.	VERB
 les	le	DET
 identités	identité	NOUN
 nationales	national	ADJ
@@ -239,7 +239,7 @@ originalité	originalité	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-B	B	VERB
+B	B	X
 		TOKEN
 D	D	X
 F	F	X
@@ -346,7 +346,7 @@ myopie	myopie	NOUN
 historique	historique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 le	le	DET
 «	«	PUNCTclause
@@ -425,7 +425,7 @@ ou	ou	CCONJ
 les	le	DET
 colombes	colombe	NOUN
 du	du	ADP_DET
-pentagone	pentagone	UNKNOWN
+Pentagone	Pentagone	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 naturellement	naturellement	ADV
@@ -524,7 +524,7 @@ position	position	NOUN
 dominante	dominant	ADJ
 dans	dans	ADP
 les	le	DET
-six	six	UNKNOWN
+Six	Six	PROPN
 et	et	CCONJ
 il	il	PRON
 l'	le_PRON	PRON
@@ -806,7 +806,7 @@ deux	deux	NUM
 autres	autre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 du	du	ADP_DET
 vain	vain	ADJ
@@ -1024,7 +1024,7 @@ encore	encore	ADV
 ,	,	PUNCTclause
 un	un	DET
 «	«	PUNCTclause
-essai	essai	UNKNOWN
+Essai	Essai	PROPN
 de	de	ADP
 déclaration	déclaration	NOUN
 »	»	PUNCTclause
@@ -1038,7 +1038,7 @@ parlement	parlement	NOUN
 européen	européen	ADJ
 cite	citer	VERB
 M.	M.	NOUN
-couve	couver	UNKNOWN
+Couve	Couve	PROPN
 de	de	ADP
 Murville	Murville	PROPN
 comme	comme	SCONJ
@@ -1057,7 +1057,7 @@ réussi	réussir	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-M.	M.	PUNCT
+M.	M.	NOUN
 J.	J.	PROPN
 Vendroux	Vendroux	PROPN
 ,	,	PUNCTclause
@@ -1112,7 +1112,7 @@ il	il	PRON
 déclare	déclarer	VERB
 à	à	ADP
 la	le	DET
-chambre	chambre	NOUN
+Chambre	Chambre	PROPN
 que	que	SCONJ
 il	il	PRON
 se	se	PRON
@@ -1233,7 +1233,7 @@ dans	dans	ADP
 un	un	DET
 volume	volume	NOUN
 intitulé	intituler	VERB
-demain	demain	UNKNOWN
+Demain	Demain	PROPN
 la	le	DET
 paix	paix	NOUN
 par	par	ADP
@@ -1302,7 +1302,7 @@ morte	mourir	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Bruère	Bruère	ADJ
+Bruère	Bruère	PROPN
 était	être	AUX
 le	le	DET
 pseudonyme	pseudonyme	NOUN
@@ -1319,7 +1319,7 @@ se	se	PRON
 fier	fier	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-IV	IV	NOUN
+IV	IV	NUM
 .	.	PUNCTsent
 de	de	ADP
 Gaulle	Gaulle	PROPN
@@ -1463,7 +1463,7 @@ cinq	cinq	NUM
 numéros	numéro	NOUN
 spéciaux	spécial	ADJ
 du	du	ADP_DET
-bulletin	bulletin	UNKNOWN
+Bulletin	Bulletin	PROPN
 du	du	ADP_DET
 		TOKEN
 qui	qui	PRON
@@ -1977,7 +1977,7 @@ de	de	ADP
 Jean	Jean	PROPN
 Mauriac	Mauriac	PROPN
 ,	,	PUNCTclause
-mort	mort	UNKNOWN
+Mort	Mort	PROPN
 du	du	ADP_DET
 général	général	NOUN
 de	de	ADP
@@ -2628,7 +2628,7 @@ ouvertement	ouvertement	ADV
 le	le	DET
 dernier	dernier	ADJ
 grand	grand	ADJ
-dessein	dessein	UNKNOWN
+Dessein	Dessein	PROPN
 du	du	ADP_DET
 général	général	NOUN
 en	en	ADP
@@ -2643,7 +2643,7 @@ et	et	CCONJ
 antieuropéen	antieuropéen	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-V.	V.	ADP
+V.	V.	PROPN
 état	état	ADV
 de	de	ADP
 l'	le	DET
@@ -2699,13 +2699,13 @@ a	avoir	AUX
 divisée	diviser	VERB
 par	par	ADP
 les	le	DET
-alliés	allié	NOUN
+Alliés	Alliés	PROPN
 de	de	ADP
 1945	1945	NUM
 en	en	ADP
 onze	onze	NUM
 «	«	PUNCTclause
-länder	länder	UNKNOWN
+Länder	Länder	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -2775,7 +2775,7 @@ autonomes	autonome	ADJ
 aussitôt	aussitôt	ADV
 réalisées	réaliser	VERB
 :	:	PUNCTclause
-val	val	UNKNOWN
+Val	Val	PROPN
 de	de	ADP
 Aoste	Aoste	PROPN
 ,	,	PUNCTclause
@@ -2818,7 +2818,7 @@ provinces	province	NOUN
 importantes	important	ADJ
 de	de	ADP
 la	le	DET
-péninsule	péninsule	UNKNOWN
+Péninsule	Péninsule	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 donné	donner	VERB
@@ -3012,7 +3012,7 @@ c'est-à-dire	c'est-à-dire	CCONJ
 compétitive	compétitif	ADJ
 avec	avec	ADP
 tel	tel	DET
-land	land	UNKNOWN
+Land	Land	PROPN
 de	de	ADP
 la	le	DET
 		TOKEN
@@ -3047,7 +3047,7 @@ députés	député	NOUN
 autonomistes	autonomiste	NOUN
 à	à	ADP
 la	le	DET
-chambre	chambre	NOUN
+Chambre	Chambre	PROPN
 des	un	ADP_DET
 communes	commun	NOUN
 ,	,	PUNCTclause
@@ -3188,7 +3188,7 @@ les	le	DET
 et	et	CCONJ
 pour	pour	ADP
 les	le	DET
-gallois	gallois	UNKNOWN
+Gallois	Gallois	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 non	non	ADV
@@ -3278,7 +3278,7 @@ au	au	ADP_DET
 gouvernement	gouvernement	NOUN
 de	de	ADP
 la	le	DET
-catalogne	catalogne	UNKNOWN
+Catalogne	Catalogne	PROPN
 ,	,	PUNCTclause
 la	le	DET
 Generalitat	Generalitat	NOUN
@@ -3293,7 +3293,7 @@ la	le	DET
 pré-autonomie	pré-autonomie	NOUN
 »	»	PUNCTclause
 du	du	ADP_DET
-pays	pays	UNKNOWN
+Pays	Pays	PROPN
 basque	basque	ADJ
 (	(	PUNCTclause
 Euskadi	Euskadi	PROPN
@@ -3596,7 +3596,7 @@ Nord	Nord	PROPN
 ;	;	PUNCTclause
 Ardenne-Eifel	Ardenne-Eifel	PROPN
 ;	;	PUNCTclause
-moyenne	moyen	UNKNOWN
+Moyenne	Moyenne	PROPN
 Alsace-Brisgau	Alsace-Brisgau	PROPN
 ;	;	PUNCTclause
 Regio	Regio	PROPN
@@ -3604,7 +3604,7 @@ Basiliensis	Basiliensis	PROPN
 (	(	PUNCTclause
 Bâle	Bâle	PROPN
 ,	,	PUNCTclause
-bade	bader	UNKNOWN
+Bade	Bade	PROPN
 ,	,	PUNCTclause
 Alsace	Alsace	PROPN
 )	)	PUNCTclause
@@ -3637,7 +3637,7 @@ la	le	DET
 Savoie	Savoie	PROPN
 ,	,	PUNCTclause
 le	le	DET
-val	val	UNKNOWN
+Val	Val	PROPN
 de	de	ADP
 Aoste	Aoste	PROPN
 ,	,	PUNCTclause
@@ -3677,7 +3677,7 @@ région	région	NOUN
 le	le	DET
 bassin	bassin	NOUN
 entre	entre	ADP
-alpes	alpe	UNKNOWN
+Alpes	Alpes	PROPN
 et	et	CCONJ
 Jura	Jura	PROPN
 occupé	occuper	VERB
@@ -3730,9 +3730,9 @@ la	le	DET
 région	région	NOUN
 Alpazur	Alpazur	PROPN
 (	(	PUNCTclause
-côte	côte	UNKNOWN
+Côte	Côte	PROPN
 de	de	ADP
-azur	azur	UNKNOWN
+Azur	Azur	PROPN
 ,	,	PUNCTclause
 provinces	province	NOUN
 de	de	ADP
@@ -3789,7 +3789,7 @@ l'	le	DET
 ouest	ouest	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-VI	VI	ADJ
+VI	VI	NUM
 .	.	PUNCTsent
 déclaration	déclaration	NOUN
 de	de	ADP
@@ -4113,7 +4113,7 @@ européen	européen	ADJ
 .	.	PUNCTsent
 une	un	DET
 deuxième	deuxième	ADJ
-chambre	chambre	NOUN
+Chambre	Chambre	PROPN
 européenne	européen	ADJ
 ,	,	PUNCTclause
 à	à	ADP

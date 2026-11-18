@@ -6,7 +6,7 @@
 # title = II. L’union fédérale
 
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 l'	le	DET
 union	union	NOUN
@@ -108,8 +108,8 @@ je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
 pas	pas	ADV
-d'autre	d'autre	ADP
-formule	formule	NOUN
+d'autre	d'autre	PRON
+formule	formuler	VERB
 qui	qui	PRON
 réponde	répondre	VERB
 à	à	ADP
@@ -147,7 +147,7 @@ je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
 pas	pas	ADV
-d'autre	d'autre	DET
+d'autre	d'autre	PRON
 réponse	réponse	NOUN
 imaginable	imaginable	ADJ
 au	au	ADP_DET
@@ -424,7 +424,7 @@ ouvrage	ouvrage	NOUN
 de	de	ADP
 Proudhon	Proudhon	PROPN
 ,	,	PUNCTclause
-du	du	UNKNOWN
+Du	Du	PROPN
 principe	principe	NOUN
 fédératif	fédératif	ADJ
 ,	,	PUNCTclause
@@ -716,7 +716,7 @@ les	le	DET
 Flandres	Flandres	PROPN
 ou	ou	CCONJ
 le	le	DET
-pays	pays	UNKNOWN
+Pays	Pays	PROPN
 basque	basque	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1153,11 +1153,11 @@ en	en	ADP
 crise	crise	NOUN
 permanente	permanent	ADJ
 .	.	PUNCTsent
-Huit-cent-cinquante-cinq	Huit-cent-cinquante-cinq	NUM
-votes	vote	NOUN
+Huit-cent-cinquante-cinq	Huit-cent-cinquante-cinq	PROPN
+votes	voter	VERB
 à	à	ADP
 la	le	DET
-chambre	chambre	NOUN
+Chambre	Chambre	PROPN
 italienne	italien	ADJ
 sur	sur	ADP
 le	le	DET
@@ -1526,7 +1526,7 @@ pour	pour	ADP
 celle	celle	PRON
 de	de	ADP
 l'	le	DET
-est	être	UNKNOWN
+Est	Est	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 au-delà	au-delà	ADV
@@ -1579,7 +1579,7 @@ Nigéria	Nigéria	PROPN
 ou	ou	CCONJ
 de	de	ADP
 la	le	DET
-confédération	confédération	UNKNOWN
+Confédération	Confédération	PROPN
 suisse	suisse	ADJ
 .	.	PUNCTsent
 car	car	CCONJ
@@ -2044,7 +2044,7 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 pas	pas	ADV
-d'autre	d'autre	DET
+d'autre	d'autre	PRON
 solution	solution	NOUN
 à la fois	à la fois	ADV
 désirable	désirable	ADJ
@@ -2086,7 +2086,7 @@ du	du	ADP_DET
 marais	marais	NOUN
 à	à	ADP
 la	le	DET
-montagne	montagne	UNKNOWN
+Montagne	Montagne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
@@ -2468,7 +2468,7 @@ Amérique	Amérique	PROPN
 .	.	PUNCTsent
 si	si	SCONJ
 les	le	DET
-vaudois	vaudois	UNKNOWN
+Vaudois	Vaudois	PROPN
 se	se	PRON
 disent	dire	VERB
 fédéralistes	fédéraliste	ADJ
@@ -2476,7 +2476,7 @@ contre	contre	ADP
 Berne	Berne	PROPN
 ,	,	PUNCTclause
 les	le	DET
-québécois	québécois	UNKNOWN
+Québécois	Québécois	PROPN
 se	se	PRON
 veulent	vouloir	VERB
 antifédéralistes	antifédéralistes	ADJ
@@ -2515,7 +2515,7 @@ lit	lit	NOUN
 on	on	PRON
 dans	dans	ADP
 le	le	DET
-oxford	oxford	UNKNOWN
+Oxford	Oxford	PROPN
 Dictionary	Dictionary	PROPN
 ,	,	PUNCTclause
 en	en	ADP
@@ -2859,7 +2859,7 @@ sont	être	AUX
 le	le	DET
 fait	fait	NOUN
 de	de	ADP
-européens	européen	UNKNOWN
+Européens	Européens	PROPN
 professionnels	professionnel	ADJ
 ou	ou	CCONJ
 de	de	ADP
@@ -3295,7 +3295,7 @@ de	de	ADP
 l'un	l'un	PRON
 et	et	CCONJ
 du	du	ADP_DET
-divers	divers	UNKNOWN
+Divers	Divers	PROPN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 encore	encore	ADV
@@ -3410,7 +3410,7 @@ distinction	distinction	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
 l'	le	DET
@@ -3680,9 +3680,9 @@ et	et	CCONJ
 une	un	DET
 du	du	ADP_DET
 Dieu	Dieu	PROPN
-père	père	UNKNOWN
+Père	Père	PROPN
 ,	,	PUNCTclause
-fils	fils	UNKNOWN
+Fils	Fils	PROPN
 et	et	CCONJ
 Saint-Esprit	Saint-Esprit	PROPN
 ,	,	PUNCTclause
@@ -4143,7 +4143,7 @@ Victor	Victor	PROPN
 Hugo	Hugo	PROPN
 repris	reprendre	VERB
 par	par	ADP
-camus	camus	UNKNOWN
+Camus	Camus	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 distingué	distinguer	VERB
@@ -4479,7 +4479,7 @@ l'	le_PRON	PRON
 même	même	ADV
 de	de	ADP
 l'	le	DET
-universel	universel	UNKNOWN
+Universel	Universel	PROPN
 ,	,	PUNCTclause
 source	source	NOUN
 et	et	CCONJ
@@ -5243,7 +5243,7 @@ un	un	DET
 savoir	savoir	NOUN
 professionnel	professionnel	ADJ
 souvent	souvent	ADV
-d'autant	d'autant	ADP
+d'autant	d'autant	ADV
 plus	plus	ADV
 rentable	rentable	ADJ
 que	que	SCONJ
@@ -5410,7 +5410,7 @@ un	un	DET
 studium	studium	NOUN
 de	de	ADP
 la	le	DET
-sorbonne	sorbonne	UNKNOWN
+Sorbonne	Sorbonne	PROPN
 au	au	ADP_DET
 13e	13e	ADJ
 siècle	siècle	NOUN

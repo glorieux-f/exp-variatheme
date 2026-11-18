@@ -113,7 +113,7 @@ science-fiction	science-fiction	NOUN
 .	.	PUNCTsent
 au	au	ADP_DET
 6e	6e	ADJ
-soir	soir	UNKNOWN
+Soir	Soir	PROPN
 de	de	ADP
 ses	son	DET
 promenades	promenade	NOUN
@@ -172,7 +172,7 @@ mille	mille	NUM
 étoiles	étoile	NOUN
 à la fois	à la fois	ADV
 .	.	PUNCTsent
-Fontenelle	Fontenelle	VERB
+Fontenelle	Fontenelle	PROPN
 en	en	ADP
 doute	doute	NOUN
 .	.	PUNCTsent
@@ -181,14 +181,14 @@ marquise	marquis	NOUN
 réitère	réitérer	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Montesquieu	Montesquieu	NOUN
+Montesquieu	Montesquieu	PROPN
 (	(	PUNCTclause
 1689	1689	NUM
 -1755	-1755	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Charles-Louis	Charles-Louis	DET
+Charles-Louis	Charles-Louis	PROPN
 de	de	ADP
 secondât	seconder	NOUN
 ,	,	PUNCTclause
@@ -261,7 +261,7 @@ dire	dire	VERB
 l'un	l'un	PRON
 de	de	ADP
 ses	son	DET
-persans	persan	UNKNOWN
+Persans	Persans	PROPN
 comment	comment	ADV
 il	il	PRON
 entend	entendre	VERB
@@ -425,7 +425,7 @@ opuscule	opuscule	NOUN
 intitulé	intituler	VERB
 de	de	ADP
 la	le	DET
-paix	paix	UNKNOWN
+Paix	Paix	PROPN
 perpétuelle	perpétuel	ADJ
 ,	,	PUNCTclause
 par	par	ADP
@@ -462,7 +462,7 @@ philosophe	philosophe	ADJ
 —	—	PUNCTclause
 sinon	sinon	CCONJ
 du	du	ADP_DET
-huron	huron	UNKNOWN
+Huron	Huron	PROPN
 ingénu	ingénu	NOUN
 dont	dont	PRON
 il	il	PRON
@@ -486,7 +486,7 @@ de	de	ADP
 un	un	PRON
 de	de	ADP
 ses	son	DET
-dialogues	dialogue	UNKNOWN
+Dialogues	Dialogues	PROPN
 que	que	SCONJ
 il	il	PRON
 désigne	désigner	VERB
@@ -506,7 +506,7 @@ anciens	ancien	NOUN
 et	et	CCONJ
 B.	B.	PROPN
 des	un	ADP_DET
-primitifs	primitif	UNKNOWN
+Primitifs	Primitifs	PROPN
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -661,7 +661,7 @@ dans	dans	ADP
 son	son	DET
 introduction	introduction	NOUN
 au	au	ADP_DET
-siècle	siècle	UNKNOWN
+Siècle	Siècle	PROPN
 de	de	ADP
 Louis	Louis	PROPN
 XIV	XIV	NUM
@@ -757,7 +757,7 @@ système	système	NOUN
 dans	dans	ADP
 une	un	DET
 suite à	suite à	ADP
-contrat	contrat	UNKNOWN
+Contrat	Contrat	PROPN
 social	social	ADJ
 qui	qui	PRON
 a	avoir	AUX
@@ -794,7 +794,7 @@ l'	le	DET
 union	union	NOUN
 européenne	européen	ADJ
 dans	dans	ADP
-extrait	extraire	UNKNOWN
+Extrait	Extrait	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 sur	sur	ADP
@@ -859,7 +859,7 @@ de	de	ADP
 Saint-Pierre	Saint-Pierre	PROPN
 .	.	PUNCTsent
 Rousseau	Rousseau	PROPN
-l'	le	DET
+l'	le_PRON	PRON
 écrivit	écrire	VERB
 le	le	DET
 garda	garder	VERB
@@ -883,7 +883,7 @@ sous	sous	ADP
 le	le	DET
 titre	titre	NOUN
 :	:	PUNCTclause
-extrait	extraire	UNKNOWN
+Extrait	Extrait	PROPN
 du	du	ADP_DET
 projet	projet	NOUN
 de	de	ADP
@@ -1064,13 +1064,13 @@ un	un	DET
 jugement	jugement	NOUN
 sur	sur	ADP
 la	le	DET
-paix	paix	UNKNOWN
+Paix	Paix	PROPN
 perpétuelle	perpétuel	ADJ
 ,	,	PUNCTclause
 écrit	écrire	VERB
 en même temps que	en même temps que	ADP
 l'	le	DET
-extrait	extraire	UNKNOWN
+Extrait	Extrait	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 publié	publier	VERB
@@ -1128,7 +1128,7 @@ la	le	DET
 rédaction	rédaction	NOUN
 de	de	ADP
 l'	le	DET
-extrait	extraire	UNKNOWN
+Extrait	Extrait	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 1771	1771	NUM
@@ -1234,7 +1234,7 @@ partage	partage	NOUN
 et	et	CCONJ
 l'	le	DET
 intitulera	intituler	NOUN
-considération	considération	UNKNOWN
+Considération	Considération	PROPN
 sur	sur	ADP
 le	le	DET
 gouvernement	gouvernement	NOUN
@@ -1506,7 +1506,7 @@ il	il	PRON
 préconisait	préconiser	VERB
 dans	dans	ADP
 le	le	DET
-contrat	contrat	UNKNOWN
+Contrat	Contrat	PROPN
 social	social	ADJ
 pour	pour	ADP
 lier	lier	VERB
@@ -1527,7 +1527,7 @@ voici	voici	ADP
 le	le	DET
 passage	passage	NOUN
 du	du	ADP_DET
-contrat	contrat	UNKNOWN
+Contrat	Contrat	PROPN
 (	(	PUNCTclause
 III	III	NUM
 ,	,	PUNCTclause
@@ -1773,13 +1773,13 @@ la	le	DET
 langue française	langue française	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Anne-Robert-Jacques	Anne-Robert-Jacques	NOUN
+Anne-Robert-Jacques	Anne-Robert-Jacques	PROPN
 Turgot	Turgot	PROPN
 ,	,	PUNCTclause
 baron	baron	NOUN
 de	de	ADP
 l'	le	DET
-aulne	aulne	UNKNOWN
+Aulne	Aulne	PROPN
 (	(	PUNCTclause
 1727	1727	NUM
 -1781	-1781	NUM
@@ -1816,7 +1816,7 @@ en	en	ADP
 prieur	prieur	NOUN
 de	de	ADP
 la	le	DET
-sorbonne	sorbonne	UNKNOWN
+Sorbonne	Sorbonne	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 tout	tout	ADV
@@ -1918,13 +1918,13 @@ et	et	CCONJ
 les	le	DET
 gestes	geste	NOUN
 de	de	ADP
-arlequin	arlequin	UNKNOWN
+Arlequin	Arlequin	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 de	de	ADP
 ses	son	DET
 «	«	PUNCTclause
-dialogues	dialogue	UNKNOWN
+Dialogues	Dialogues	PROPN
 sur	sur	ADP
 les	le	DET
 blés	blé	NOUN
@@ -1976,7 +1976,7 @@ deux	deux	NUM
 fragments	fragment	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Antoine	Antoine	NOUN
+Antoine	Antoine	PROPN
 Rivarol	Rivarol	PROPN
 (	(	PUNCTclause
 1753	1753	NUM

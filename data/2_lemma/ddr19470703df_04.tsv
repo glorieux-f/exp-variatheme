@@ -64,7 +64,7 @@ cette	ce	DET
 série	série	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	PRON
+X.	X.	PROPN
 ,	,	PUNCTclause
 une	un	DET
 célébrité	célébrité	NOUN
@@ -140,7 +140,7 @@ votre	votre	DET
 carrière	carrier	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	PUNCT
+X.	X.	VERB
 asseyez	asseoir	ADV
 vous	vous	PRON
 ,	,	PUNCTclause
@@ -188,7 +188,7 @@ bonne	bon	ADJ
 compagnie	compagnie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	DET
+X.	X.	VERB
 vous	vous	PRON
 publiez	publier	VERB
 donc	donc	ADV
@@ -368,7 +368,7 @@ bénéficier	bénéficier	VERB
 bon gré mal gré	bon gré mal gré	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	PUNCT
+X.	X.	VERB
 ainsi	ainsi	ADV
 vos	vos	DET
 hommes	homme	NOUN
@@ -487,7 +487,7 @@ parfaitement	parfaitement	ADV
 distingué	distinguer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	PUNCT
+X.	X.	PRON
 on	on	PRON
 affirme	affirmer	VERB
 ,	,	PUNCTclause
@@ -672,7 +672,7 @@ de	de	ADP
 affaires	affaire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	PUNCT
+X.	X.	VERB
 en	en	ADP
 un	un	DET
 mot	mot	NOUN
@@ -865,8 +865,8 @@ l'	le	DET
 époque	époque	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	DET
-quelqu'un	quelqu'un	PRON
+X.	X.	VERB
+quelqu'un	quelqu'un	DET
 ,	,	PUNCTclause
 monsieur	monsieur	NOUN
 ,	,	PUNCTclause
@@ -1142,7 +1142,7 @@ héros	héros	NOUN
 inconnu	inconnu	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	PUNCT
+X.	X.	VERB
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
@@ -1294,7 +1294,7 @@ nommerai	nommer	VERB
 plus	plus	ADV
 simplement	simplement	ADV
 le	le	DET
-méconnu	méconnu	UNKNOWN
+Méconnu	Méconnu	PROPN
 ,	,	PUNCTclause
 vous	vous	PRON
 devez	devoir	VERB
@@ -1466,7 +1466,7 @@ serait	être	AUX
 joué	jouer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-X.	X.	PUNCT
+X.	X.	VERB
 mais	mais	CCONJ
 ceux	ceux	PRON
 qui	qui	PRON
@@ -1568,7 +1568,7 @@ ces	ce	DET
 mots	mot	NOUN
 :	:	PUNCTclause
 le	le	DET
-solitaire	solitaire	UNKNOWN
+Solitaire	Solitaire	PROPN
 .	.	PUNCTsent
 cet	ce	DET
 homme	homme	NOUN
@@ -1764,7 +1764,7 @@ et	et	CCONJ
 le	le	DET
 programme	programme	NOUN
 du	du	ADP_DET
-solitaire	solitaire	UNKNOWN
+Solitaire	Solitaire	PROPN
 à	à	ADP
 la	le	DET
 radio	radio	NOUN

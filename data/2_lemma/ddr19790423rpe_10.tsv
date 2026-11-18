@@ -173,7 +173,7 @@ son	son	DET
 originalité	originalité	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B	B	VERB
+B	B	X
 		TOKEN
 D	D	X
 F	F	X
@@ -194,7 +194,7 @@ oui	oui	INTJ
 34	34	NUM
 57	57	NUM
 31	31	NUM
-non	non	UNKNOWN
+Non	Non	PROPN
 48	48	NUM
 31	31	NUM
 58	58	NUM
@@ -235,7 +235,7 @@ sacrifices	sacrifice	NOUN
 personnels	personnel	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-B	B	VERB
+B	B	X
 		TOKEN
 D	D	X
 F	F	X
@@ -414,8 +414,8 @@ I	I	NUM
 155,0	155,0	NUM
 121,2	121,2	NUM
 ↵↵	↵↵	PUNCTstruct
-B	B	NOUN
-L	L	PROPN
+B	B	X
+L	L	X
 		TOKEN
 		TOKEN
 		TOKEN
@@ -579,7 +579,7 @@ en	en	ADP
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Irlande	Irlande	ADJ
+Irlande	Irlande	PROPN
 —	—	PUNCTclause
 7,5	7,5	NUM
 ;	;	PUNCTclause
@@ -597,7 +597,7 @@ Royaume-Uni	Royaume-Uni	PROPN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-Belgique	Belgique	ADJ
+Belgique	Belgique	PROPN
 8,4	8,4	NUM
 ;	;	PUNCTclause
 France	France	PROPN
@@ -633,12 +633,12 @@ a	avoir	AUX
 divisée	diviser	VERB
 par	par	ADP
 les	le	DET
-alliés	allié	NOUN
+Alliés	Alliés	PROPN
 de	de	ADP
 1945	1945	NUM
 en	en	ADP
 onze	onze	NUM
-länder	länder	UNKNOWN
+Länder	Länder	PROPN
 dans	dans	ADP
 l'	le	DET
 intention	intention	NOUN
@@ -707,7 +707,7 @@ autonomes	autonome	ADJ
 aussitôt	aussitôt	ADV
 réalisée	réaliser	VERB
 :	:	PUNCTclause
-val	val	UNKNOWN
+Val	Val	PROPN
 de	de	ADP
 Aoste	Aoste	PROPN
 ,	,	PUNCTclause
@@ -953,7 +953,7 @@ c'est-à-dire	c'est-à-dire	CCONJ
 compétitive	compétitif	ADJ
 avec	avec	ADP
 tel	tel	DET
-land	land	UNKNOWN
+Land	Land	PROPN
 de	de	ADP
 la	le	DET
 		TOKEN
@@ -988,7 +988,7 @@ députés	député	NOUN
 autonomistes	autonomiste	NOUN
 à	à	ADP
 la	le	DET
-chambre	chambre	NOUN
+Chambre	Chambre	PROPN
 des	un	ADP_DET
 communes	commun	NOUN
 ,	,	PUNCTclause
@@ -1128,7 +1128,7 @@ les	le	DET
 et	et	CCONJ
 pour	pour	ADP
 les	le	DET
-gallois	gallois	UNKNOWN
+Gallois	Gallois	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 non	non	ADV
@@ -1218,7 +1218,7 @@ au	au	ADP_DET
 gouvernement	gouvernement	NOUN
 de	de	ADP
 la	le	DET
-catalogne	catalogne	UNKNOWN
+Catalogne	Catalogne	PROPN
 ,	,	PUNCTclause
 la	le	DET
 Generalitat	Generalitat	NOUN
@@ -1233,7 +1233,7 @@ la	le	DET
 pré-autonomie	pré-autonomie	NOUN
 »	»	PUNCTclause
 du	du	ADP_DET
-pays	pays	UNKNOWN
+Pays	Pays	PROPN
 basque	basque	ADJ
 (	(	PUNCTclause
 Euskadi	Euskadi	PROPN
@@ -1536,7 +1536,7 @@ Euregio-Nord	Euregio-Nord	PROPN
 ;	;	PUNCTclause
 Ardenne-Eifel	Ardenne-Eifel	PROPN
 ;	;	PUNCTclause
-moyenne	moyen	UNKNOWN
+Moyenne	Moyenne	PROPN
 Alsace-Brisgau	Alsace-Brisgau	PROPN
 ;	;	PUNCTclause
 Regio	Regio	PROPN
@@ -1544,7 +1544,7 @@ basiliensis	basiliensis	X
 (	(	PUNCTclause
 Bâle	Bâle	PROPN
 ,	,	PUNCTclause
-bade	bader	UNKNOWN
+Bade	Bade	PROPN
 ,	,	PUNCTclause
 Alsace	Alsace	PROPN
 )	)	PUNCTclause
@@ -1577,7 +1577,7 @@ la	le	DET
 Savoie	Savoie	PROPN
 ,	,	PUNCTclause
 le	le	DET
-val	val	UNKNOWN
+Val	Val	PROPN
 de	de	ADP
 Aoste	Aoste	PROPN
 ,	,	PUNCTclause
@@ -1617,7 +1617,7 @@ région	région	NOUN
 le	le	DET
 bassin	bassin	NOUN
 entre	entre	ADP
-alpes	alpe	UNKNOWN
+Alpes	Alpes	PROPN
 et	et	CCONJ
 Jura	Jura	PROPN
 occupé	occuper	VERB

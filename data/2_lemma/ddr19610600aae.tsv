@@ -140,8 +140,8 @@ pour	pour	ADP
 quoi	quoi	PRON
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
-l'	le	DET
+I.	I.	DET
+l'	le_PRON	PRON
 automation	automation	NOUN
 poussée	pousser	VERB
 au	au	ADP_DET
@@ -191,7 +191,7 @@ le	le	DET
 libérer	libérer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Marx	Marx	NOUN
+Marx	Marx	PROPN
 ,	,	PUNCTclause
 en plein	en plein	ADV
 19e	19e	ADJ
@@ -405,7 +405,7 @@ thèses	thèse	NOUN
 érudites	érudit	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 le	le	DET
 produit	produit	NOUN
@@ -476,7 +476,7 @@ de	de	ADP
 30	30	NUM
 h.	h.	PUNCT
 le	le	DET
-russe	russe	UNKNOWN
+Russe	Russe	PROPN
 Sobolev	Sobolev	PROPN
 annonçait	annoncer	VERB
 récemment	récemment	ADV
@@ -539,7 +539,7 @@ aventure	aventure	NOUN
 technique	technique	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -1065,13 +1065,13 @@ formation	formation	NOUN
 professionnelle	professionnel	ADJ
 20	20	NUM
 ans	an	NOUN
-période	période	UNKNOWN
+Période	Période	PROPN
 de	de	ADP
 travail	travail	NOUN
 actif	actif	ADJ
 30	30	NUM
 ans	an	NOUN
-retraite	retrait	UNKNOWN
+Retraite	Retraite	PROPN
 (	(	PUNCTclause
 ou	ou	CCONJ
 période	période	NOUN
@@ -1214,7 +1214,7 @@ l'	le	DET
 existence	existence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 la	le	DET
 technique	technique	NOUN
@@ -1376,7 +1376,7 @@ bas	bas	ADJ
 relativement	relativement	ADV
 à	à	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 l'	le	DET
@@ -1452,7 +1452,7 @@ l'	le	DET
 école	école	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 que	que	SCONJ
@@ -1496,7 +1496,7 @@ progrès	progrès	NOUN
 accomplis	accomplir	VERB
 par	par	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 les	le	DET
 pays	pays	NOUN
@@ -1591,7 +1591,7 @@ dragons	dragon	NOUN
 aux	au	ADP_DET
 yeux	œil	NOUN
 des	un	ADP_DET
-vietnamiens	vietnamien	UNKNOWN
+Vietnamiens	Vietnamiens	PROPN
 par exemple	par exemple	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -1741,7 +1741,7 @@ sera	être	AUX
 perdue	perdre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-IV	IV	NOUN
+IV	IV	NUM
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -1803,7 +1803,7 @@ un	un	DET
 psychologique	psychologique	ADJ
 ,	,	PUNCTclause
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 doit	devoir	VERB
 apprendre	apprendre	VERB
 à	à	ADP

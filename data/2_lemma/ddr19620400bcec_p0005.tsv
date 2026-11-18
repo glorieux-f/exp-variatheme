@@ -20,7 +20,7 @@ avril	avril	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
+I.	I.	VERB
 nécessité	nécessité	NOUN
 du	du	ADP_DET
 dialogue	dialogue	NOUN
@@ -525,7 +525,7 @@ la	le	DET
 civilisation	civilisation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 les	le	DET
 motifs	motif	NOUN
@@ -1505,7 +1505,7 @@ y	y	PRON
 faire	faire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 état	état	NOUN
 présent	présent	ADJ
@@ -1643,7 +1643,7 @@ objet	objet	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-UNESCO	UNESCO	DET
+UNESCO	UNESCO	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
 projet	projet	NOUN
@@ -1651,7 +1651,7 @@ majeur	majeur	ADJ
 »	»	PUNCTclause
 Orient-Occident	Orient-Occident	PROPN
 .	.	PUNCTsent
-plan	plan	NOUN
+Plan	Plan	PROPN
 de	de	ADP
 dix	dix	NUM
 ans	an	NOUN
@@ -1699,7 +1699,7 @@ publications	publication	NOUN
 bibliographies	bibliographie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Asia	Asia	VERB
+Asia	Asia	PROPN
 Foundation	Foundation	PROPN
 ,	,	PUNCTclause
 San	San	PROPN
@@ -1731,9 +1731,9 @@ experts	expert	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Deutsche	Deutsche	ADP
+Deutsche	Deutsche	X
 Stiftung	Stiftung	PROPN
-für	für	ADP
+für	für	X
 Entwicklungsländer	Entwicklungsländer	PROPN
 ,	,	PUNCTclause
 Berlin	Berlin	PROPN
@@ -1826,8 +1826,8 @@ en	en	ADP
 Inde	Inde	PROPN
 :	:	PUNCTclause
 l'	le	DET
-international	international	UNKNOWN
-centre	centre	NOUN
+International	International	PROPN
+Centre	Centre	PROPN
 ,	,	PUNCTclause
 New	New	PROPN
 Dehli	Dehli	PROPN
@@ -1848,7 +1848,7 @@ inspirant	inspirer	VERB
 des	un	ADP_DET
 travaux	travail	NOUN
 du	du	ADP_DET
-centre	centre	NOUN
+Centre	Centre	PROPN
 international	international	ADJ
 de	de	ADP
 Tokyo	Tokyo	PROPN
@@ -1962,10 +1962,10 @@ de	de	ADP
 culture	culture	NOUN
 du	du	ADP_DET
 type	type	NOUN
-british	british	UNKNOWN
+British	British	PROPN
 Council	Council	PROPN
 ,	,	PUNCTclause
-pro	pro	UNKNOWN
+Pro	Pro	PROPN
 Helvetia	Helvetia	PROPN
 ,	,	PUNCTclause
 alliance	alliance	NOUN
@@ -1974,8 +1974,8 @@ française	français	ADJ
 Indian	Indian	PROPN
 Council	Council	PROPN
 for	for	NOUN
-cultural	cultural	UNKNOWN
-relations	relation	UNKNOWN
+Cultural	Cultural	PROPN
+Relations	Relations	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -2040,7 +2040,7 @@ West	West	X
 (	(	PUNCTclause
 prof	prof	NOUN
 .	.	PUNCTsent
-G.	G.	DET
+G.	G.	PROPN
 Tucci	Tucci	PROPN
 ,	,	PUNCTclause
 Rome	Rome	PROPN
@@ -2143,7 +2143,7 @@ des	un	ADP_DET
 revues	revue	NOUN
 publiées	publier	VERB
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 et	et	CCONJ
 consacrées	consacrer	VERB
 à	à	ADP
@@ -2177,7 +2177,7 @@ Paris	Paris	PROPN
 publiées	publier	VERB
 par	par	ADP
 des	un	DET
-africains	africain	UNKNOWN
+Africains	Africains	PROPN
 en	en	ADP
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -2219,7 +2219,7 @@ différente	différent	ADJ
 :	:	PUNCTclause
 numéros	numéro	NOUN
 de	de	ADP
-comprendre	comprendre	UNKNOWN
+Comprendre	Comprendre	PROPN
 (	(	PUNCTclause
 Venise	Venise	PROPN
 )	)	PUNCTclause
@@ -2544,7 +2544,7 @@ organisés	organiser	VERB
 ;	;	PUNCTclause
 citons	citer	VERB
 :	:	PUNCTclause
-manille	manille	UNKNOWN
+Manille	Manille	PROPN
 ,	,	PUNCTclause
 sur	sur	ADP
 le	le	DET
@@ -2639,7 +2639,7 @@ conférences	conférence	NOUN
 sur	sur	ADP
 «	«	PUNCTclause
 l'	le	DET
-avenir	avenir	UNKNOWN
+Avenir	Avenir	PROPN
 de	de	ADP
 la	le	DET
 liberté	liberté	NOUN
@@ -2850,7 +2850,7 @@ entre	entre	ADP
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-IV	IV	NOUN
+IV	IV	NUM
 .	.	PUNCTsent
 Trois	Trois	NUM
 grandes	grand	ADJ
@@ -2904,7 +2904,7 @@ se	se	PRON
 plaindre	plaindre	VERB
 (	(	PUNCTclause
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 du	du	ADP_DET
 moins	moins	ADV
 )	)	PUNCTclause
@@ -3419,7 +3419,7 @@ relations	relation	NOUN
 culturelles	culturel	ADJ
 entre	entre	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 et	et	CCONJ
 les	le	DET
 autres	autre	ADJ
@@ -3534,8 +3534,8 @@ plus	plus	ADV
 clairement	clairement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-V.	V.	ADP
-méthodes	méthode	UNKNOWN
+V.	V.	PROPN
+Méthodes	Méthodes	PROPN
 de	de	ADP
 dialogue	dialogue	NOUN
 .	.	PUNCTsent
@@ -3561,9 +3561,9 @@ est	être	AUX
 et	et	CCONJ
 ouest	ouest	NOUN
 ,	,	PUNCTclause
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 et	et	CCONJ
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 ,	,	PUNCTclause
 sont	être	VERB
 des	un	DET
@@ -3592,7 +3592,7 @@ utilement	utilement	ADV
 le	le	DET
 terme	terme	NOUN
 de	de	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 recouvre	recouvrir	VERB
 quatre	quatre	NUM
 ensembles	ensemble	NOUN
@@ -3664,7 +3664,7 @@ séparée	séparer	VERB
 politiquement	politiquement	ADV
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 elle	elle	PRON
@@ -3835,7 +3835,7 @@ et	et	CCONJ
 ne	ne	ADV
 possède	posséder	VERB
 pas	pas	ADV
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 unité	unité	NOUN
 certaine	certain	ADJ
 ,	,	PUNCTclause
@@ -3857,7 +3857,7 @@ empreintes	empreinte	NOUN
 inégalement	inégalement	ADV
 profondes	profond	ADJ
 le	le	DET
-centre	centre	NOUN
+Centre	Centre	PROPN
 ,	,	PUNCTclause
 le	le	DET
 sud-est	sud-est	NOUN
@@ -4007,7 +4007,7 @@ bien	bien	ADV
 définies	défini	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Amérique	Amérique	ADJ
+Amérique	Amérique	PROPN
 latine	latin	ADJ
 (	(	PUNCTclause
 espagnole	espagnol	ADJ
@@ -4040,7 +4040,7 @@ anglophone	anglophone	ADJ
 )	)	PUNCTclause
 Iran-Pakistan-Afghanistan	Iran-Pakistan-Afghanistan	PROPN
 Inde	Inde	PROPN
-sud-est	sud-est	UNKNOWN
+Sud-Est	Sud-Est	PROPN
 de	de	ADP
 l'	le	DET
 Asie	Asie	PROPN
@@ -4447,7 +4447,7 @@ entendent	entendre	VERB
 lutter	lutter	VERB
 contre	contre	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 réveiller	réveiller	VERB
@@ -4649,7 +4649,7 @@ tâches	tâche	NOUN
 communes	commun	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-VI	VI	ADJ
+VI	VI	NUM
 .	.	PUNCTsent
 vers	vers	ADP
 la	le	DET
@@ -5138,13 +5138,13 @@ de	de	ADP
 études	étude	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-N.B.	N.B.	PUNCT
+N.B.	N.B.	PROPN
 plutôt	plutôt	ADV
 que	que	SCONJ
 de	de	ADP
 rassembler	rassembler	VERB
 au	au	ADP_DET
-centre	centre	NOUN
+Centre	Centre	PROPN
 même	même	ADJ
 des	un	ADP_DET
 archives	archive	NOUN
@@ -5164,7 +5164,7 @@ plus	plus	ADV
 souvent	souvent	ADV
 que	que	SCONJ
 le	le	DET
-centre	centre	NOUN
+Centre	Centre	PROPN
 sache	savoir	VERB
 où	où	PRON
 sont	être	AUX
@@ -5786,7 +5786,7 @@ leurs	leur	DET
 préoccupations	préoccupation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-soulignons	souligner	VERB
+Soulignons	Soulignons	PROPN
 le	le	DET
 fait	fait	NOUN
 que	que	SCONJ
@@ -5968,7 +5968,7 @@ tout	tout	DET
 succès	succès	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Genève	Genève	NOUN
+Genève	Genève	PROPN
 ,	,	PUNCTclause
 août	août	NOUN
 1961	1961	NUM

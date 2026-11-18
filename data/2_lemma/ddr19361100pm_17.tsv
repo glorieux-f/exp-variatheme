@@ -6,7 +6,7 @@
 # title = II. Éléments d’une morale de la pensée
 
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 éléments	élément	NOUN
 de	de	ADP
@@ -39,7 +39,7 @@ un	un	DET
 joug	joug	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nietzsche	Nietzsche	NOUN
+Nietzsche	Nietzsche	PROPN
 ↵↵	↵↵	PUNCTstruct
 de même que	de même que	CCONJ
 toute	toute	DET
@@ -110,8 +110,8 @@ critique	critique	NOUN
 ne	ne	ADV
 avait	avoir	AUX
 pas	pas	ADV
-d'autre	d'autre	DET
-but	but	NOUN
+d'autre	d'autre	PRON
+but	boire	VERB
 ,	,	PUNCTclause
 que	que	PRON
 de	de	ADP
@@ -370,7 +370,7 @@ de	de	ADP
 la	le	DET
 culture	culture	NOUN
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 nous	nous	PRON
 pose	poser	VERB
 pour	pour	ADP
@@ -666,7 +666,7 @@ le	le	DET
 salut	salut	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 comme	comme	ADP
@@ -789,7 +789,7 @@ telle	tel	PRON
 pensée	penser	VERB
 ne	ne	ADV
 ait	avoir	AUX
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 fin	fin	NOUN
 que	que	SCONJ
 de	de	ADP
@@ -1295,7 +1295,7 @@ penseur	penseur	NOUN
 .	.	PUNCTsent
 évolution	évolution	NOUN
 contre	contre	ADP
-personne	personne_PRON	UNKNOWN
+Personne	Personne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
@@ -1504,7 +1504,7 @@ encore	encore	ADV
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Søren	Søren	ADP
+Søren	Søren	PROPN
 Kierkegaard	Kierkegaard	PROPN
 est	être	AUX
 probablement	probablement	ADV
@@ -1586,7 +1586,7 @@ l'	le	DET
 a priori	a priori	ADV
 éthique	éthique	ADJ
 .	.	PUNCTsent
-Kierkegaard	Kierkegaard	NOUN
+Kierkegaard	Kierkegaard	PROPN
 est	être	AUX
 pour	pour	ADP
 notre	notre	DET
@@ -3473,7 +3473,7 @@ peuple	peuple	NOUN
 comme	comme	ADP
 de	de	ADP
 un	un	DET
-messie	messie	UNKNOWN
+Messie	Messie	PROPN
 ;	;	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -3759,7 +3759,7 @@ pensée	pensée	NOUN
 moderne	moderne	ADJ
 .	.	PUNCTsent
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ne	ne	ADV
 pourrait	pouvoir	VERB
 se	se	PRON
@@ -4078,7 +4078,7 @@ isolement	isolement	NOUN
 là	là	ADV
 où	où	PRON
 la	le	DET
-parole	parole	UNKNOWN
+Parole	Parole	PROPN
 prend	prendre	VERB
 un	un	DET
 sens	sens	NOUN
@@ -4927,7 +4927,7 @@ réalité	réalité	NOUN
 totale	total	ADJ
 de	de	ADP
 l'	le	DET
-éden	éden	UNKNOWN
+Éden	Éden	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 lui	lui	PRON
@@ -5620,8 +5620,8 @@ affirment	affirmer	VERB
 son	son	DET
 impuissance	impuissance	NOUN
 ?	?	PUNCTsent
-mens	mentir	VERB
-agitat	agitat	NOUN
+Mens	Mens	PROPN
+agitat	agitat	AUX
 molem	molem	AUX
 dit	dire	VERB
 le	le	DET
@@ -6894,7 +6894,7 @@ homme	homme	NOUN
 ne	ne	ADV
 est	être	AUX
 rien	rien	PRON
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 l'	le	DET
 approfondissement	approfondissement	NOUN
@@ -7040,7 +7040,7 @@ il	il	PRON
 ne	ne	ADV
 est	être	AUX
 rien	rien	PRON
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 un	un	DET
 abandonné	abandonné	ADJ
@@ -7928,7 +7928,7 @@ corrompt	corrompre	VERB
 de	de	ADP
 part	part	NOUN
 et	et	CCONJ
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 les	le	DET
 éléments	élément	NOUN
 que	que	SCONJ
@@ -8482,7 +8482,7 @@ dans	dans	ADP
 généalogie	généalogie	NOUN
 de	de	ADP
 la	le	DET
-morale	morale	UNKNOWN
+Morale	Morale	PROPN
 —	—	PUNCTclause
 étant	être	AUX
 plutôt	plutôt	ADV
@@ -8725,7 +8725,7 @@ l'autre	l'autre	PRON
 les	le	DET
 mots	mot	NOUN
 .	.	PUNCTsent
-bornons	borner	VERB
+Bornons	Bornons	PROPN
 nous	nous	PRON
 à	à	ADP
 cela	cela	PRON
@@ -10427,7 +10427,7 @@ féconds	fécond	ADJ
 de	de	ADP
 avoir	avoir	AUX
 été	être	AUX
-sacrés	sacrer	VERB
+sacrés	sacré	ADJ
 dans	dans	ADP
 un	un	DET
 double	double	NOUN
@@ -11752,7 +11752,7 @@ intact	intact	ADJ
 ne	ne	ADV
 rien	rien	PRON
 écrire	écrire	VERB
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 ce	ce	PRON
 qui	qui	PRON
@@ -11776,7 +11776,7 @@ dirions	dire	VERB
 ne	ne	ADV
 rien	rien	PRON
 écrire	écrire	VERB
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 ce	ce	PRON
 qui	qui	PRON
@@ -11955,7 +11955,7 @@ enfin	enfin	ADV
 celui	celui	PRON
 de	de	ADP
 la	le	DET
-saison	saison	UNKNOWN
+Saison	Saison	PROPN
 ,	,	PUNCTclause
 étreignant	étreindre	VERB
 la	le	DET
@@ -12486,7 +12486,7 @@ et	et	CCONJ
 aussi	aussi	ADV
 tangible	tangible	ADJ
 ?	?	PUNCTsent
-songeons	songer	VERB
+Songeons	Songeons	PROPN
 que	que	SCONJ
 il	il	PRON
 a	avoir	AUX
@@ -12597,7 +12597,7 @@ tradition	tradition	NOUN
 même	même	ADJ
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 ,	,	PUNCTclause
 par	par	ADP
 le	le	DET
@@ -12874,7 +12874,7 @@ le	le	DET
 toi	toi	PRON
 ,	,	PUNCTclause
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 redécouvre	redécouvrir	VERB
 les	le	DET
 éléments	élément	NOUN
@@ -12919,7 +12919,7 @@ individualistes	individualiste	ADJ
 .	.	PUNCTsent
 enfin	enfin	ADV
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 entrevoit	entrevoir	VERB
 pour	pour	ADP
 la première fois	la première fois	ADV
@@ -15538,7 +15538,7 @@ pour	pour	ADP
 agoniser	agoniser	VERB
 sur	sur	ADP
 la	le	DET
-croix	croix	NOUN
+Croix	Croix	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX
@@ -16065,7 +16065,7 @@ ici	ici	ADV
 l'on	on	PRON
 nomme	nommer	VERB
 la	le	DET
-personne	personne_PRON	UNKNOWN
+Personne	Personne	PROPN
 ,	,	PUNCTclause
 celui	celui	PRON
 que	que	PRON
@@ -16082,7 +16082,7 @@ dans	dans	ADP
 chaque	chaque	DET
 homme	homme	NOUN
 le	le	DET
-prochain	prochain	UNKNOWN
+Prochain	Prochain	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -16220,7 +16220,7 @@ de	de	ADP
 liberté	liberté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-sens	sens	NOUN
+Sens	Sens	PROPN
 de	de	ADP
 la	le	DET
 liberté	liberté	NOUN

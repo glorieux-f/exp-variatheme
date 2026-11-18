@@ -12,7 +12,7 @@ III	III	NUM
 post-scriptum	post-scriptum	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PUNCT
+I.	I.	VERB
 une	un	DET
 querelle	querelle	NOUN
 de	de	ADP
@@ -48,7 +48,7 @@ le	le	DET
 futur	futur	ADJ
 prix Nobel	prix Nobel	NOUN
 .	.	PUNCTsent
-André	André	VERB
+André	André	PROPN
 venait	venir	VERB
 de	de	ADP
 avouer	avouer	VERB
@@ -75,7 +75,7 @@ avec	avec	ADP
 une	un	DET
 Ouled-Naïl	Ouled-Naïl	PROPN
 .	.	PUNCTsent
-Charles	Charles	NOUN
+Charles	Charles	PROPN
 Gide	Gide	PROPN
 écrit	écrire	VERB
 le	le	DET
@@ -280,17 +280,17 @@ voilà	voilà	ADP
 assez	assez	ADV
 .	.	PUNCTsent
 «	«	PUNCTclause
-What	What	NOUN
+What	What	PROPN
 is	is	ADJ
-done	done	VERB
+done	done	X
 ,	,	PUNCTclause
-cannot	cannot	NOUN
-be	be	NOUN
-undone	undone	ADP
+cannot	cannot	X
+be	be	X
+undone	undone	X
 »	»	PUNCTclause
 ,	,	PUNCTclause
 dit	dire	VERB
-lady	lady	UNKNOWN
+Lady	Lady	PROPN
 Macbeth	Macbeth	PROPN
 en	en	ADP
 parlant	parler	VERB
@@ -400,7 +400,7 @@ l'	le	DET
 incroyance	incroyance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-André	André	VERB
+André	André	PROPN
 Gide	Gide	PROPN
 jugea	juger	VERB
 la	le	DET
@@ -433,7 +433,7 @@ de	de	ADP
 un	un	DET
 complexe	complexe	NOUN
 de	de	ADP
-œdipe	œdipe	UNKNOWN
+Œdipe	Œdipe	PROPN
 jamais	jamais	ADV
 élucidé	élucider	VERB
 ou	ou	CCONJ
@@ -563,7 +563,7 @@ Dieu	Dieu	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Charles	Charles	NOUN
+Charles	Charles	PROPN
 Gide	Gide	PROPN
 était	être	AUX
 économiste	économiste	NOUN
@@ -592,7 +592,7 @@ l'	le	DET
 ne	ne	ADV
 concerne	concerner	VERB
 rien	rien	PRON
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 les	le	DET
 relations sexuelles	relations sexuelles	NOUN
@@ -728,7 +728,7 @@ fin	fin	NOUN
 spirituelle	spirituel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-André	André	ADJ
+André	André	PROPN
 Gide	Gide	PROPN
 ,	,	PUNCTclause
 connaissant	connaître	VERB
@@ -772,7 +772,7 @@ saint	saint	ADJ
 Paul	Paul	PROPN
 (	(	PUNCTclause
 I	I	NUM
-corinthiens	corinthien	UNKNOWN
+Corinthiens	Corinthiens	PROPN
 6	6	NUM
 ,	,	PUNCTclause
 10	10	NUM
@@ -862,7 +862,7 @@ de	de	ADP
 évangélique	évangélique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 «	«	PUNCTclause
 croissez	croître	VERB
@@ -1021,8 +1021,8 @@ ce	ce	DET
 commandement	commandement	NOUN
 ,	,	PUNCTclause
 les	le	DET
-douze	douze	UNKNOWN
-tribus	tribu	UNKNOWN
+Douze	Douze	PROPN
+Tribus	Tribus	PROPN
 ne	ne	ADV
 étaient	être	AUX
 que	que	SCONJ
@@ -1233,7 +1233,7 @@ dit	dire	VERB
 que	que	SCONJ
 dans	dans	ADP
 une	un	DET
-providence	providence	UNKNOWN
+Providence	Providence	PROPN
 qui	qui	PRON
 se	se	PRON
 manifesterait	manifester	VERB
@@ -1270,7 +1270,7 @@ guerre	guerre	NOUN
 atomique	atomique	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-saint	saint	ADJ
+Saint	Saint	PROPN
 Chrysostome	Chrysostome	PROPN
 écrivait	écrire	VERB
 au	au	ADP_DET
@@ -1374,7 +1374,7 @@ la	le	DET
 terre	terre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 érotisme	érotisme	NOUN
 et	et	CCONJ
@@ -1489,7 +1489,7 @@ une	un	DET
 discipline	discipline	NOUN
 venue	venir	VERB
 de	de	ADP
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 et	et	CCONJ
 qui	qui	PRON
 se	se	PRON
@@ -1657,7 +1657,7 @@ l'	le	DET
 amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 (	(	PUNCTclause
 pages	page	NOUN
 100	100	NUM
@@ -1792,10 +1792,10 @@ plus	plus	ADV
 visiblement	visiblement	ADV
 active	actif	ADJ
 en	en	ADP
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 que	que	SCONJ
 en	en	ADP
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 .	.	PUNCTsent
 le	le	DET
 sentiment	sentiment	NOUN
@@ -1805,7 +1805,7 @@ qui	qui	PRON
 ,	,	PUNCTclause
 pour	pour	ADP
 un	un	DET
-oriental	oriental	UNKNOWN
+Oriental	Oriental	PROPN
 ,	,	PUNCTclause
 peut	pouvoir	VERB
 se	se	PRON
@@ -1828,7 +1828,7 @@ physiologique	physiologique	ADJ
 tandis que	tandis que	SCONJ
 chez	chez	ADP
 l'	le	DET
-occidental	occidental	UNKNOWN
+Occidental	Occidental	PROPN
 il	il	PRON
 est	être	AUX
 masqué	masquer	VERB
@@ -1861,7 +1861,7 @@ suprême	suprême	ADJ
 de	de	ADP
 éteindre	éteindre	VERB
 le	le	DET
-désir	désir	UNKNOWN
+Désir	Désir	PROPN
 ,	,	PUNCTclause
 cause	cause	NOUN
 de	de	ADP
@@ -2124,7 +2124,7 @@ tantrique	tantrique	ADJ
 (	(	PUNCTclause
 union	union	NOUN
 sexuelle	sexuel	ADJ
-sacrée	sacrer	VERB
+sacrée	sacré	ADJ
 )	)	PUNCTclause
 et	et	CCONJ
 la	le	DET
@@ -2602,7 +2602,7 @@ l'	le	DET
 éducation	éducation	NOUN
 ne	ne	ADV
 a	avoir	AUX
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 fin	fin	NOUN
 dernière	dernier	ADJ
 que	que	PRON
@@ -2831,7 +2831,7 @@ les	le	DET
 liaisons	liaison	NOUN
 ,	,	PUNCTclause
 etc.	etc.	NOUN
-non	non	UNKNOWN
+Non	Non	PROPN
 pour	pour	ADP
 l'	le	DET
 amour	amour	NOUN

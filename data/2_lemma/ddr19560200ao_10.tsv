@@ -14,7 +14,7 @@ appendices	appendice	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
 caractère	caractère	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 de	de	ADP
 la	le	DET
 légende	légende	NOUN
@@ -64,7 +64,7 @@ se	se	PRON
 prévaloir	prévaloir	VERB
 du	du	ADP_DET
 caractère	caractère	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 que	que	PRON
 certains	certain	DET
 auteurs	auteur	NOUN
@@ -227,7 +227,7 @@ légende	légende	NOUN
 originelle	originel	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
-Drystan	Drystan	DET
+Drystan	Drystan	PROPN
 ,	,	PUNCTclause
 fils	fils	NOUN
 de	de	ADP
@@ -278,7 +278,7 @@ la	le	DET
 lutte	lutte	NOUN
 entre	entre	ADP
 les	le	DET
-bretons	breton	UNKNOWN
+Bretons	Bretons	PROPN
 armoricains	armoricain	ADJ
 et	et	CCONJ
 les	le	DET
@@ -304,9 +304,9 @@ la	le	DET
 légende	légende	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Cf.	Cf.	DET
-livre	livre	NOUN
-ii	ii	VERB
+Cf.	Cf.	PROPN
+livre	livrer	VERB
+ii	ii	PRON
 ,	,	PUNCTclause
 chapitre	chapitrer	VERB
 11	11	NUM
@@ -328,14 +328,14 @@ Eilhart	Eilhart	PROPN
 l'	le	DET
 auteur	auteur	NOUN
 du	du	ADP_DET
-roman	roman	NOUN
+Roman	Roman	PROPN
 en	en	ADP
 prose	prose	NOUN
 et	et	CCONJ
 celui	celui	PRON
 de	de	ADP
 la	le	DET
-folie	folie	UNKNOWN
+Folie	Folie	PROPN
 Tristan	Tristan	PROPN
 ne	ne	ADV
 étaient	être	AUX
@@ -429,7 +429,7 @@ l'	le	DET
 auteur	auteur	NOUN
 de	de	ADP
 la	le	DET
-folie	folie	UNKNOWN
+Folie	Folie	PROPN
 Tristan	Tristan	PROPN
 étaient	être	AUX
 sans doute	sans doute	ADV
@@ -498,7 +498,7 @@ Gwynfyd	Gwynfyd	PROPN
 .	.	PUNCTsent
 dans	dans	ADP
 la	le	DET
-folie	folie	UNKNOWN
+Folie	Folie	PROPN
 Tristan	Tristan	PROPN
 ,	,	PUNCTclause
 la	le	DET
@@ -596,7 +596,7 @@ amour-passion	amour-passion	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
 chevalerie	chevalerie	NOUN
-sacrée	sacrer	VERB
+sacrée	sacré	ADJ
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 pensée	pensée	NOUN
@@ -727,10 +727,10 @@ au	au	ADP_DET
 baptême	baptême	NOUN
 et	et	CCONJ
 au	au	ADP_DET
-mariage	mariage	UNKNOWN
+Mariage	Mariage	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-J.	J.	DET
+J.	J.	PROPN
 Huizinga	Huizinga	PROPN
 :	:	PUNCTclause
 le	le	DET
@@ -898,7 +898,7 @@ l'	le	DET
 ordre	ordre	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Ibid.	Ibid.	NOUN
+Ibid.	Ibid.	PROPN
 ,	,	PUNCTclause
 p.	p.	PUNCT
 80	80	NUM
@@ -1080,7 +1080,7 @@ forme	forme	NOUN
 à	à	ADP
 celle	celle	PRON
 du	du	ADP_DET
-roman	roman	NOUN
+Roman	Roman	PROPN
 de	de	ADP
 Tristan	Tristan	PROPN
 .	.	PUNCTsent
@@ -2166,7 +2166,7 @@ bien entendu	bien entendu	ADV
 que	que	SCONJ
 je	je	PRON
 appelle	appeler	VERB
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 une	un	DET
 certaine	certain	ADJ
 attitude	attitude	NOUN
@@ -2205,7 +2205,7 @@ ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
 cet	ce	DET
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 se	se	PRON
@@ -2231,7 +2231,7 @@ va	aller	VERB
 tout	tout	ADV
 autrement	autrement	ADV
 des	un	ADP_DET
-indes	inde	UNKNOWN
+Indes	Indes	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -2344,8 +2344,8 @@ on	on	PRON
 dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-It	It	VERB
-is	is	NOUN
+It	It	PROPN
+is	is	ADJ
 romance	romance	NOUN
 »	»	PUNCTclause
 ;	;	PUNCTclause
@@ -2399,7 +2399,7 @@ tout de suite	tout de suite	ADV
 pendant	pendant	ADP
 la	le	DET
 dynastie	dynastie	NOUN
-han	han	UNKNOWN
+Han	Han	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -2463,7 +2463,7 @@ l'	le	DET
 attitude	attitude	NOUN
 de	de	ADP
 l'	le	DET
-européen	européen	UNKNOWN
+Européen	Européen	PROPN
 qui	qui	PRON
 se	se	PRON
 demande	demander	VERB
@@ -2800,7 +2800,7 @@ analogies	analogie	NOUN
 de	de	ADP
 expression	expression	NOUN
 .	.	PUNCTsent
-M.	M.	PUNCT
+M.	M.	NOUN
 Gilson	Gilson	PROPN
 conclut	conclure	VERB
 que	que	SCONJ
@@ -3159,7 +3159,7 @@ des	un	ADP_DET
 savants	savant	NOUN
 modernes	moderne	ADJ
 .	.	PUNCTsent
-Marcabru	Marcabru	NOUN
+Marcabru	Marcabru	PROPN
 ne	ne	ADV
 hésite	hésiter	VERB
 pas	pas	ADV
@@ -3291,7 +3291,7 @@ saint	saint	ADJ
 Jean	Jean	PROPN
 de	de	ADP
 la	le	DET
-croix	croix	NOUN
+Croix	Croix	PROPN
 ,	,	PUNCTclause
 reprendront	reprendre	VERB
 bel	beau	ADJ
@@ -3405,7 +3405,7 @@ uni	uni	ADJ
 (	(	PUNCTclause
 à	à	ADP
 la	le	DET
-béatitude	béatitude	UNKNOWN
+Béatitude	Béatitude	PROPN
 )	)	PUNCTclause
 du fait même que	du fait même que	SCONJ
 on	on	PRON
@@ -3611,7 +3611,7 @@ Thibaut	Thibaut	PROPN
 de	de	ADP
 Champagne	Champagne	PROPN
 :	:	PUNCTclause
-douce	doux	UNKNOWN
+Douce	Douce	PROPN
 dame	dame	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -3715,7 +3715,7 @@ Tristan	Tristan	PROPN
 6	6	NUM
 .	.	PUNCTsent
 —	—	PUNCTclause
-Dante	Dante	NOUN
+Dante	Dante	PROPN
 hérétique	hérétique	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3773,7 +3773,7 @@ suite	suite	NOUN
 ,	,	PUNCTclause
 Péladan	Péladan	PROPN
 .	.	PUNCTsent
-Aroux	Aroux	ADJ
+Aroux	Aroux	PROPN
 expose	exposer	VERB
 le	le	DET
 résultat	résultat	NOUN
@@ -3807,7 +3807,7 @@ de	de	ADP
 l'	le	DET
 ordre	ordre	NOUN
 des	un	ADP_DET
-templiers	templier	UNKNOWN
+Templiers	Templiers	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 encore	encore	ADV
@@ -3846,7 +3846,7 @@ Convito	Convito	PROPN
 et	et	CCONJ
 même	même	ADV
 le	le	DET
-de	de	UNKNOWN
+De	De	PROPN
 vulgari	vulgari	VERB
 eloquentia	eloquentia	DET
 devraient	devoir	VERB
@@ -3871,7 +3871,7 @@ un	un	DET
 titre	titre	NOUN
 significatif	significatif	ADJ
 :	:	PUNCTclause
-clef	clef	UNKNOWN
+Clef	Clef	PROPN
 de	de	ADP
 la	le	DET
 comédie	comédie	NOUN
@@ -3896,7 +3896,7 @@ affilié	affilier	VERB
 l'	le	DET
 ordre	ordre	NOUN
 du	du	ADP_DET
-temple	temple	NOUN
+Temple	Temple	PROPN
 —	—	PUNCTclause
 donnant	donner	VERB
 l'	le	DET
@@ -3964,7 +3964,7 @@ morts	mort	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Albigéisme	Albigéisme	NOUN
+Albigéisme	Albigéisme	PROPN
 ,	,	PUNCTclause
 albigeois	albigeois	NOUN
 »	»	PUNCTclause
@@ -4036,7 +4036,7 @@ matière	matière	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-Lancelot	Lancelot	NOUN
+Lancelot	Lancelot	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 —	—	PUNCTclause
@@ -4147,7 +4147,7 @@ de	de	ADP
 Aroux	Aroux	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-Gaston	Gaston	NOUN
+Gaston	Gaston	PROPN
 Paris	Paris	PROPN
 établissant	établir	VERB
 vers	vers	ADP
@@ -4209,7 +4209,7 @@ conversion	conversion	NOUN
 du	du	ADP_DET
 chrétien	chrétien	NOUN
 .	.	PUNCTsent
-Gottfried	Gottfried	NOUN
+Gottfried	Gottfried	PROPN
 de	de	ADP
 Strasbourg	Strasbourg	PROPN
 peignant	peindre	VERB
@@ -4239,7 +4239,7 @@ alors	alors	ADV
 la	le	DET
 vraie	vrai	ADJ
 Minne	Minne	PROPN
-la	le	UNKNOWN
+La	La	PROPN
 fougueuse	fougueux	ADJ
 déesse	déesse	NOUN
 le	le	DET
@@ -4255,7 +4255,7 @@ lui	lui	PRON
 révéla	révéler	VERB
 la	le	DET
 source	source	NOUN
-des	un	UNKNOWN
+Des	Des	PROPN
 peines	peine	NOUN
 dont	dont	PRON
 il	il	PRON
@@ -4351,7 +4351,7 @@ naturel	naturel	ADJ
 —	—	PUNCTclause
 passion	passion	NOUN
 et	et	CCONJ
-ascèse	ascèse	UNKNOWN
+Ascèse	Ascèse	PROPN
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
 le	le	DET
@@ -4467,7 +4467,7 @@ dans	dans	ADP
 les	le	DET
 routes	route	NOUN
 battues	battre	VERB
-ni	ni	UNKNOWN
+Ni	Ni	PROPN
 autour	autour	ADV
 des	un	ADP_DET
 habitations	habitation	NOUN
@@ -4594,7 +4594,7 @@ en	en	ADP
 Cornouailles	Cornouailles	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-temple	temple	NOUN
+Temple	Temple	PROPN
 ou	ou	CCONJ
 grotte	grotte	NOUN
 de	de	ADP
@@ -4605,15 +4605,15 @@ hérétiques	hérétique	NOUN
 9	9	NUM
 .	.	PUNCTsent
 —	—	PUNCTclause
-saint	saint	NOUN
+Saint	Saint	PROPN
 français	français	ADJ
 de	de	ADP
-assise	asseoir	UNKNOWN
+Assise	Assise	PROPN
 et	et	CCONJ
 les	le	DET
 cathares	cathare	NOUN
 ↵↵	↵↵	PUNCTstruct
-Paul	Paul	ADJ
+Paul	Paul	PROPN
 Sabatier	Sabatier	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -4724,9 +4724,9 @@ Gazzari	Gazzari	PROPN
 en	en	ADP
 Italie	Italie	PROPN
 (	(	PUNCTclause
-bulgares	bulgare	UNKNOWN
+Bulgares	Bulgares	PROPN
 ou	ou	CCONJ
-bougres	bougre	UNKNOWN
+Bougres	Bougres	PROPN
 dans	dans	ADP
 les	le	DET
 pays	pays	NOUN
@@ -4745,7 +4745,7 @@ municipalités	municipalité	NOUN
 le	le	DET
 podestat	podestat	NOUN
 de	de	ADP
-assise	asseoir	UNKNOWN
+Assise	Assise	PROPN
 était	être	AUX
 un	un	DET
 hérétique	hérétique	NOUN
@@ -4881,9 +4881,9 @@ connurent	connaître	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
 Richard	Richard	PROPN
-cœur	cœur	UNKNOWN
+Cœur	Cœur	PROPN
 de	de	ADP
-lion	lion	UNKNOWN
+Lion	Lion	PROPN
 par exemple	par exemple	ADV
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -5102,7 +5102,7 @@ en	en	ADP
 dans	dans	ADP
 tout	tout	DET
 le	le_PRON	PRON
-nord-ouest	nord-ouest	UNKNOWN
+Nord-Ouest	Nord-Ouest	PROPN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -5110,7 +5110,7 @@ Europe	Europe	PROPN
 et	et	CCONJ
 spécialement	spécialement	ADV
 en	en	ADP
-brabant	brabant	UNKNOWN
+Brabant	Brabant	PROPN
 .	.	PUNCTsent
 leur	leur	DET
 mouvement	mouvement	NOUN
@@ -5275,7 +5275,7 @@ l'	le	DET
 âme	âme	NOUN
 de	de	ADP
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 et	et	CCONJ
 fixer	fixer	VERB
 définitivement	définitivement	ADV
@@ -5406,7 +5406,7 @@ les	le	DET
 citations	citation	NOUN
 de	de	ADP
 cet	ce	DET
-appendice	appendice	UNKNOWN
+Appendice	Appendice	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
 «	«	PUNCTclause
@@ -5520,7 +5520,7 @@ selon	selon	ADP
 laquelle	laquelle	PRON
 Jeanne	Jeanne	PROPN
 de	de	ADP
-arc	arc	UNKNOWN
+Arc	Arc	PROPN
 aurait	avoir	AUX
 été	être	AUX
 tertiaire	tertiaire	NOUN
@@ -5536,7 +5536,7 @@ un	un	DET
 document	document	NOUN
 contemporain	contemporain	ADJ
 (	(	PUNCTclause
-chronique	chronique	UNKNOWN
+Chronique	Chronique	PROPN
 de	de	ADP
 Morosini	Morosini	PROPN
 ,	,	PUNCTclause
@@ -5624,7 +5624,7 @@ Pierre	Pierre	PROPN
 Klossowski	Klossowski	PROPN
 :	:	PUNCTclause
 le	le	DET
-mal	mal	UNKNOWN
+Mal	Mal	PROPN
 et	et	CCONJ
 la	le	DET
 négation	négation	NOUN
@@ -5640,9 +5640,9 @@ F.	F.	PROPN
 de	de	ADP
 Sade	Sade	PROPN
 et	et	CCONJ
-temps	temps	UNKNOWN
+Temps	Temps	PROPN
 et	et	CCONJ
-agressivité	agressivité	UNKNOWN
+Agressivité	Agressivité	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
 recherches	recherche	NOUN
@@ -5777,7 +5777,7 @@ tous deux	tous deux	PRON
 à la fois	à la fois	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
-P.	P.	PUNCT
+P.	P.	X
 Klossowski	Klossowski	PROPN
 oppose	opposer	VERB
 cette	ce	DET
@@ -5864,7 +5864,7 @@ sur	sur	ADP
 le	le	DET
 prochain	prochain	ADJ
 .	.	PUNCTsent
-Sade	Sade	PRON
+Sade	Sade	PROPN
 choisit	choisir	VERB
 le	le	DET
 prochain	prochain	ADJ

@@ -21,7 +21,7 @@ Trois	Trois	NUM
 échanges	échange	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-A.	A.	PUNCT
+A.	A.	PROPN
 Votre	Votre	PROPN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -55,7 +55,7 @@ l'	le	DET
 espace	espace	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	DET
+B.	B.	PROPN
 ceux	ceux	PRON
 qui	qui	PRON
 l'	le_PRON	PRON
@@ -68,7 +68,7 @@ elle	elle	PRON
 est	être	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-A.	A.	PUNCT
+A.	A.	PROPN
 l'	le	DET
 Albanie	Albanie	PROPN
 musulmane	musulman	ADJ
@@ -100,7 +100,7 @@ du	du	ADP_DET
 tout	tout	PRON
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	DET
+B.	B.	PROPN
 Hannibal	Hannibal	PROPN
 est	être	AUX
 aux	au	ADP_DET
@@ -125,7 +125,7 @@ vois	voir	VERB
 venir	venir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-A.	A.	PUNCT
+A.	A.	PROPN
 je	je	PRON
 y	y	PRON
 viens	venir	VERB
@@ -156,7 +156,7 @@ l'	le	DET
 homme	homme	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	PRON
+B.	B.	PROPN
 je	je	PRON
 voudrais	vouloir	VERB
 d'abord	d'abord	ADV
@@ -171,7 +171,7 @@ les	le	DET
 étiquettes	étiquette	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-A.	A.	PUNCT
+A.	A.	PROPN
 mais	mais	CCONJ
 je	je	PRON
 ne	ne	ADV
@@ -185,10 +185,10 @@ vous	vous	PRON
 parlez	parler	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	DET
-de	de	UNKNOWN
+B.	B.	PROPN
+de	de	ADP
 celle	celle	PRON
-que	que	PRON
+que	que	SCONJ
 il	il	PRON
 nous	nous	PRON
 faut	falloir	VERB
@@ -265,7 +265,7 @@ laisse	laisser	VERB
 tomber	tomber	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	PUNCT
+B.	B.	PROPN
 comment	comment	ADV
 l'	le_PRON	PRON
 aurait	avoir	AUX
@@ -289,14 +289,14 @@ décidé	décider	VERB
 ,	,	PUNCTclause
 vous	vous	PRON
 les	le_PRON	PRON
-anglais	anglais	UNKNOWN
+Anglais	Anglais	PROPN
 en	en	ADP
 sabotant	saboter	VERB
 Strasbourg	Strasbourg	PROPN
 ,	,	PUNCTclause
 vous	vous	PRON
 les	le_PRON	PRON
-français	français	UNKNOWN
+Français	Français	PROPN
 en	en	ADP
 tuant	tuer	VERB
 la	le	DET
@@ -360,10 +360,10 @@ adresse	adresser	VERB
 à	à	ADP
 tout	tout	DET
 l'	le_PRON	PRON
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	PUNCT
+B.	B.	PROPN
 vous	vous	PRON
 êtes	être	AUX
 seuls	seul	ADJ
@@ -411,8 +411,8 @@ les	le	DET
 consulter	consulter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	DET
-votre	votre	UNKNOWN
+B.	B.	PROPN
+Votre	Votre	PROPN
 belle	beau	ADJ
 souveraineté	souveraineté	NOUN
 ,	,	PUNCTclause
@@ -463,7 +463,7 @@ faites	faire	VERB
 la	le	DET
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-S.	S.	DET
+S.	S.	X
 comment	comment	ADV
 va	aller	VERB
 votre	votre	DET
@@ -473,7 +473,7 @@ cet	ce	DET
 automne	automne	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	PUNCT
+B.	B.	PROPN
 et	et	CCONJ
 vous	vous	PRON
 ?	?	PUNCTsent
@@ -495,7 +495,7 @@ voici	voici	ADP
 les	le	DET
 faits	fait	NOUN
 .	.	PUNCTsent
-Adenauer	Adenauer	VERB
+Adenauer	Adenauer	PROPN
 ,	,	PUNCTclause
 à	à	ADP
 Bruxelles	Bruxelles	PROPN
@@ -551,7 +551,7 @@ l'	le_PRON	PRON
 affrontent	affronter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-S.	S.	NOUN
+S.	S.	PROPN
 mais	mais	CCONJ
 l'	le	DET
 Europe	Europe	PROPN
@@ -566,7 +566,7 @@ lui	lui	PRON
 survit	survivre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	PUNCT
+B.	B.	PROPN
 l'	le	DET
 Europe	Europe	PROPN
 que	que	SCONJ
@@ -652,7 +652,7 @@ une	un	DET
 relève	relève	NOUN
 socialiste	socialiste	ADJ
 .	.	PUNCTsent
-Spaak	Spaak	ADJ
+Spaak	Spaak	PROPN
 en	en	ADP
 Belgique	Belgique	PROPN
 ,	,	PUNCTclause
@@ -664,7 +664,7 @@ marché	marché	NOUN
 commun	commun	ADJ
 ,	,	PUNCTclause
 Guy	Guy	PROPN
-mollet	mollet	UNKNOWN
+Mollet	Mollet	PROPN
 au	au	ADP_DET
 pouvoir	pouvoir	NOUN
 en	en	ADP
@@ -687,7 +687,7 @@ affaire	affaire	NOUN
 Nenni-Saragat	Nenni-Saragat	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-S.	S.	NOUN
+S.	S.	ADJ
 ce	ce	PRON
 est	être	AUX
 donc	donc	ADV
@@ -709,13 +709,13 @@ est	être	AUX
 intéressant	intéressant	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	DET
+B.	B.	PROPN
 plus	plus	ADV
 ou	ou	CCONJ
 moins	moins	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-S.	S.	NOUN
+S.	S.	PROPN
 mais	mais	CCONJ
 qu'est-ce que	qu'est-ce que	ADV
 il	il	PRON
@@ -723,7 +723,7 @@ vous	vous	PRON
 faut	falloir	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	PUNCT
+B.	B.	PROPN
 l'	le	DET
 Europe	Europe	PROPN
 est	être	AUX
@@ -760,7 +760,7 @@ de	de	ADP
 éducation	éducation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-S.	S.	NOUN
+S.	S.	X
 il	il	PRON
 y	y	PRON
 faudra	falloir	VERB
@@ -768,7 +768,7 @@ vingt	vingt	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-B.	B.	DET
+B.	B.	PROPN
 vous	vous	PRON
 voyez	voir	VERB
 donc	donc	ADV
@@ -874,7 +874,7 @@ profité	profiter	VERB
 pour	pour	ADP
 dénoncer	dénoncer	VERB
 l'	le	DET
-occident	occident	UNKNOWN
+Occident	Occident	PROPN
 impérialiste	impérialiste	ADJ
 .	.	PUNCTsent
 visiter	visiter	VERB
@@ -1020,7 +1020,7 @@ est	être	AUX
 vrai	vrai	ADJ
 que	que	SCONJ
 Émile	Émile	PROPN
-roche	roche	UNKNOWN
+Roche	Roche	PROPN
 les	le_PRON	PRON
 a	avoir	AUX
 suivis	suivre	VERB
@@ -1035,11 +1035,11 @@ arrange	arranger	VERB
 rien	rien	PRON
 :	:	PUNCTclause
 le	le	DET
-kremlin	kremlin	UNKNOWN
+Kremlin	Kremlin	PROPN
 a	avoir	AUX
 parlé	parler	VERB
 ;	;	PUNCTclause
-nasser	nasser	UNKNOWN
+Nasser	Nasser	PROPN
 est	être	AUX
 un	un	DET
 dictateur	dictateur	NOUN
@@ -1163,7 +1163,7 @@ du	du	ADP_DET
 massacre	massacre	NOUN
 massif	massif	ADJ
 des	un	ADP_DET
-koulaks	koulak	UNKNOWN
+Koulaks	Koulaks	PROPN
 ,	,	PUNCTclause
 des	un	DET
 Kasaks	Kasaks	PROPN
@@ -1390,7 +1390,7 @@ car	car	CCONJ
 en effet	en effet	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-non-ingérence	non-ingérence	NOUN
+Non-ingérence	Non-ingérence	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
@@ -1399,7 +1399,7 @@ dernier	dernier	ADJ
 ,	,	PUNCTclause
 le	le	DET
 colonel	colonel	NOUN
-nasser	nasser	UNKNOWN
+Nasser	Nasser	PROPN
 condamnait	condamner	VERB
 aux	au	ADP_DET
 travaux	travail	NOUN
@@ -1415,7 +1415,7 @@ préalablement	préalablement	ADV
 interdit	interdire	VERB
 .	.	PUNCTsent
 l'	le	DET
-humanité	humanité	UNKNOWN
+Humanité	Humanité	PROPN
 ne	ne	ADV
 en	en	PRON
 a	avoir	AUX
@@ -1435,7 +1435,7 @@ saisie	saisie	NOUN
 du	du	ADP_DET
 canal	canal	NOUN
 de	de	ADP
-suez	suer	UNKNOWN
+Suez	Suez	PROPN
 .	.	PUNCTsent
 que	que	SCONJ
 importe	importer	VERB
@@ -1457,7 +1457,7 @@ juger	juger	VERB
 le	le	DET
 régime	régime	NOUN
 de	de	ADP
-nasser	nasser	UNKNOWN
+Nasser	Nasser	PROPN
 ?	?	PUNCTsent
 «	«	PUNCTclause
 le	le	DET
@@ -1490,7 +1490,7 @@ il	il	PRON
 dépend	dépendre	VERB
 du	du	ADP_DET
 seul	seul	ADJ
-nasser	nasser	UNKNOWN
+Nasser	Nasser	PROPN
 ,	,	PUNCTclause
 dans la mesure où	dans la mesure où	ADV
 Moscou	Moscou	PROPN
@@ -1690,7 +1690,7 @@ l'	le	DET
 artiste	artiste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Bartók	Bartók	ADP
+Bartók	Bartók	PROPN
 est	être	AUX
 mort	mourir	VERB
 aux	au	ADP_DET
@@ -1719,7 +1719,7 @@ dignité	dignité	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Stravinski	Stravinski	NOUN
+Stravinski	Stravinski	PROPN
 vient	venir	VERB
 de	de	ADP
 écrire	écrire	VERB
@@ -1759,7 +1759,7 @@ néo-classique	néo-classique	ADJ
 :	:	PUNCTclause
 le	le	DET
 Canticum	Canticum	PROPN
-sacrum	sacrum	UNKNOWN
+Sacrum	Sacrum	PROPN
 ,	,	PUNCTclause
 dirigé	diriger	VERB
 par	par	ADP
@@ -1900,7 +1900,7 @@ ce	ce	DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Bartók	Bartók	NOUN
+Bartók	Bartók	PROPN
 ne	ne	ADV
 gagne	gagner	VERB
 pas	pas	ADV

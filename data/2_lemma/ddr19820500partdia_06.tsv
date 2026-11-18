@@ -13,7 +13,7 @@ partie	partie	NOUN
 le	le	DET
 bleu	bleu	NOUN
 du	du	ADP_DET
-ciel	ciel	UNKNOWN
+Ciel	Ciel	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 59	59	NUM
@@ -66,7 +66,7 @@ que	que	SCONJ
 l'	le	DET
 auteur	auteur	NOUN
 des	un	ADP_DET
-proverbes	proverbe	UNKNOWN
+Proverbes	Proverbes	PROPN
 exprime	exprimer	VERB
 le	le	DET
 paradoxe	paradoxe	NOUN
@@ -366,7 +366,7 @@ mais	mais	CCONJ
 les	le	DET
 trois	trois	NUM
 grandes	grand	ADJ
-vertus	vertu	UNKNOWN
+Vertus	Vertus	PROPN
 sauront	savoir	VERB
 nous	nous	PRON
 préserver	préserver	VERB
@@ -513,18 +513,18 @@ hommes	homme	NOUN
 réveillés	réveiller	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Deutschland	Deutschland	DET
-erwache	erwache	NOUN
+Deutschland	Deutschland	PROPN
+erwache	erwache	PROPN
 !	!	PUNCTsent
 —	—	PUNCTclause
-Allemagne	Allemagne	NOUN
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 réveille	réveiller	VERB
 toi	toi	PRON
 !	!	PUNCTsent
 hurlait	hurler	VERB
 le	le	DET
-führer	führer	UNKNOWN
+Führer	Führer	PROPN
 ,	,	PUNCTclause
 au	au	ADP_DET
 moment	moment	NOUN
@@ -570,7 +570,7 @@ au	au	ADP_DET
 vertige	vertige	NOUN
 de	de	ADP
 l'	le	DET
-abîme	abîme	UNKNOWN
+Abîme	Abîme	PROPN
 politique	politique	ADJ
 ou	ou	CCONJ
 moral	moral	ADJ
@@ -665,9 +665,9 @@ le	le	DET
 sait	savoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Somnium	Somnium	NOUN
-narrare	narrare	ADJ
-vigilantis	vigilantis	VERB
+Somnium	Somnium	PROPN
+narrare	narrare	X
+vigilantis	vigilantis	X
 est	être	AUX
 ,	,	PUNCTclause
 disait	dire	VERB
@@ -760,7 +760,7 @@ demain	demain	NOUN
 ↵↵	↵↵	PUNCTstruct
 60	60	NUM
 .	.	PUNCTsent
-saint	saint	NOUN
+Saint	Saint	PROPN
 Michel	Michel	PROPN
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -1061,7 +1061,7 @@ toute	toute	DET
 victoire	victoire	NOUN
 sur	sur	ADP
 le	le	DET
-malin	malin	UNKNOWN
+Malin	Malin	PROPN
 !	!	PUNCTsent
 aux	au	ADP_DET
 grandes	grand	ADJ
@@ -1116,7 +1116,7 @@ rôle	rôle	NOUN
 ironiquement	ironiquement	ADV
 providentiel	providentiel	ADJ
 des	un	ADP_DET
-tyrans	tyran	UNKNOWN
+Tyrans	Tyrans	PROPN
 .	.	PUNCTsent
 écoutez	écouter	VERB
 le	le	DET
@@ -1345,7 +1345,7 @@ tuera	tuer	VERB
 ↵↵	↵↵	PUNCTstruct
 face	face	NOUN
 aux	au	ADP_DET
-tyrans	tyran	UNKNOWN
+Tyrans	Tyrans	PROPN
 tout	tout	PRON
 devient	devenir	VERB
 clair	clair	ADJ
@@ -1506,7 +1506,7 @@ furent	être	AUX
 plus	plus	ADV
 manifestes	manifeste	ADJ
 .	.	PUNCTsent
-Hitler	Hitler	VERB
+Hitler	Hitler	PROPN
 me	me	PRON
 indique	indiquer	VERB
 en	en	ADP
@@ -2185,7 +2185,7 @@ irréductible	irréductible	ADJ
 ce	ce	PRON
 est	être	AUX
 le	le	DET
-saint	saint	UNKNOWN
+Saint	Saint	PROPN
 .	.	PUNCTsent
 seul	seul	ADJ
 un	un	DET
@@ -2330,7 +2330,7 @@ sera	être	AUX
 seule	seul	ADJ
 sanctifiante	sanctifiant	ADJ
 .	.	PUNCTsent
-Baudelaire	Baudelaire	ADJ
+Baudelaire	Baudelaire	PROPN
 disait	dire	VERB
 que	que	SCONJ
 la	le	DET
@@ -2477,7 +2477,7 @@ que	que	SCONJ
 en	en	ADP
 soi-même	soi-même	PRON
 .	.	PUNCTsent
-Diogène	Diogène	NOUN
+Diogène	Diogène	PROPN
 cherchait	chercher	VERB
 un	un	DET
 homme	homme	NOUN
@@ -2554,7 +2554,7 @@ d'ores et déjà	d'ores et déjà	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 les	le	DET
-tyrans	tyran	UNKNOWN
+Tyrans	Tyrans	PROPN
 aussi	aussi	ADV
 ;	;	PUNCTclause
 une	un	DET
@@ -2816,7 +2816,7 @@ affole	affoler	VERB
 plaisir	plaisir	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Nietzsche	Nietzsche	NOUN
+Nietzsche	Nietzsche	PROPN
 a	avoir	AUX
 bien	bien	ADV
 vu	voir	VERB
@@ -3771,7 +3771,7 @@ cela	cela	PRON
 se	se	PRON
 tient	tenir	VERB
 .	.	PUNCTsent
-sens	sens	NOUN
+Sens	Sens	PROPN
 du	du	ADP_DET
 prochain	prochain	ADJ
 ,	,	PUNCTclause
@@ -4627,7 +4627,7 @@ qui	qui	PRON
 ne	ne	ADV
 est	être	AUX
 rien	rien	PRON
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 l'	le	DET
 état	état	NOUN
@@ -4797,7 +4797,7 @@ batte	battre	VERB
 pour	pour	ADP
 eux	eux	PRON
 avec	avec	ADP
-d'autant	d'autant	ADP
+d'autant	d'autant	ADV
 plus	plus	ADV
 de	de	ADP
 passion	passion	NOUN
@@ -5676,7 +5676,7 @@ les	le	DET
 un	un	DET
 ministère	ministère	NOUN
 du	du	ADP_DET
-sens	sens	UNKNOWN
+Sens	Sens	PROPN
 des	un	ADP_DET
 mots	mot	NOUN
 ,	,	PUNCTclause
@@ -5692,7 +5692,7 @@ il	il	PRON
 faut	falloir	VERB
 à	à	ADP
 la	le	DET
-démocratie	démocratie	UNKNOWN
+Démocratie	Démocratie	PROPN
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 après	après	ADP
@@ -5844,7 +5844,7 @@ de	de	ADP
 détruire	détruire	VERB
 la	le	DET
 vraie	vrai	ADJ
-parole	parole	UNKNOWN
+Parole	Parole	PROPN
 !	!	PUNCTsent
 tous	tout	ADJ
 les	le	DET
@@ -6108,7 +6108,7 @@ bien	bien	ADV
 pu	pouvoir	VERB
 crucifier	crucifier	VERB
 la	le	DET
-parole	parole	UNKNOWN
+Parole	Parole	PROPN
 !	!	PUNCTsent
 ils	ils	PRON
 ne	ne	ADV
@@ -6121,7 +6121,7 @@ loin	loin	ADV
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
 voici	voici	ADP
-pâques	pâque	UNKNOWN
+Pâques	Pâques	PROPN
 où	où	PRON
 la	le	DET
 parole	parole	NOUN
@@ -6172,7 +6172,7 @@ parle	parler	VERB
 ↵↵	↵↵	PUNCTstruct
 65	65	NUM
 .	.	PUNCTsent
-vertus	vertu	NOUN
+Vertus	Vertus	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -7385,7 +7385,7 @@ meilleurs	meilleur	ADJ
 ,	,	PUNCTclause
 car	car	CCONJ
 l'	le	DET
-ecclésiaste	ecclésiaste	UNKNOWN
+Ecclésiaste	Ecclésiaste	PROPN
 avait	avoir	AUX
 raison	raison	NOUN
 ,	,	PUNCTclause
@@ -7577,7 +7577,7 @@ fondu	fondre	VERB
 »	»	PUNCTclause
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-O	O	NOUN
+O	O	PROPN
 da	da	X
 quod	quod	X
 jubes	jubes	X
@@ -7590,10 +7590,10 @@ domine	dominer	VERB
 le	le	DET
 bleu	bleu	NOUN
 du	du	ADP_DET
-ciel	ciel	UNKNOWN
+Ciel	Ciel	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-ecce	ecce	NOUN
+Ecce	Ecce	PROPN
 ,	,	PUNCTclause
 fundabo	fundabo	NOUN
 te	te	PRON
@@ -7601,7 +7601,7 @@ in	in	DET
 sapphiris	sapphiris	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Isaïe	Isaïe	ADJ
+Isaïe	Isaïe	PROPN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 oppose	opposer	VERB
@@ -7656,7 +7656,7 @@ de	de	ADP
 guerre	guerre	NOUN
 de	de	ADP
 l'	le	DET
-ange	ange	UNKNOWN
+Ange	Ange	PROPN
 blanc	blanc	ADJ
 ,	,	PUNCTclause
 l'	le	DET
@@ -7702,10 +7702,10 @@ l'	le	DET
 esprit	esprit	NOUN
 ,	,	PUNCTclause
 l'	le	DET
-eau	eau	UNKNOWN
+Eau	Eau	PROPN
 et	et	CCONJ
 le	le	DET
-sang	sang	UNKNOWN
+Sang	Sang	PROPN
 ,	,	PUNCTclause
 «	«	PUNCTclause
 qui	qui	PRON
@@ -7727,19 +7727,19 @@ des	un	ADP_DET
 langues	langue	NOUN
 ,	,	PUNCTclause
 le	le	DET
-sel	sel	UNKNOWN
+Sel	Sel	PROPN
 et	et	CCONJ
 l'	le	DET
-huile	huile	UNKNOWN
+Huile	Huile	PROPN
 .	.	PUNCTsent
 je	je	PRON
 lui	lui	PRON
 oppose	opposer	VERB
 le	le	DET
-pain	pain	UNKNOWN
+Pain	Pain	PROPN
 et	et	CCONJ
 le	le	DET
-vin	vin	UNKNOWN
+Vin	Vin	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -7916,7 +7916,7 @@ les	le	DET
 sophismes	sophisme	NOUN
 de	de	ADP
 l'	le	DET
-abîme	abîme	UNKNOWN
+Abîme	Abîme	PROPN
 comme	comme	ADP
 une	un	DET
 aube	aube	NOUN

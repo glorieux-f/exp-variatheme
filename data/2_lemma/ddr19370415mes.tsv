@@ -192,9 +192,9 @@ ne	ne	ADV
 a	avoir	VERB
 il	il	PRON
 pas	pas	ADV
-d'autre	d'autre	PUNCT
-but	but	NOUN
-que	que	ADV
+d'autre	d'autre	PRON
+but	boire	VERB
+que	que	SCONJ
 de	de	ADP
 décrire	décrire	VERB
 un	un	DET
@@ -228,7 +228,7 @@ septembre	septembre	NOUN
 à	à	ADP
 …	…	PUNCTsent
 (	(	PUNCTclause
-Gard	Gard	NOUN
+Gard	Gard	PROPN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 arrivés	arriver	VERB
@@ -2071,7 +2071,7 @@ pas	pas	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Simard	Simard	PRON
+Simard	Simard	PROPN
 nous	nous	PRON
 a	avoir	AUX
 indiqué	indiquer	VERB
@@ -2192,7 +2192,7 @@ la	le	DET
 propriétaire	propriétaire	NOUN
 ,	,	PUNCTclause
 madame	madame	NOUN
-turc	turc	UNKNOWN
+Turc	Turc	PROPN
 .	.	PUNCTsent
 elle	elle	PRON
 nous	nous	PRON
@@ -2275,7 +2275,7 @@ la	le	DET
 mort	mort	NOUN
 de	de	ADP
 M.	M.	NOUN
-turc	turc	UNKNOWN
+Turc	Turc	PROPN
 .	.	PUNCTsent
 elles	elles	PRON
 ont	avoir	AUX
@@ -2320,7 +2320,7 @@ en	en	PRON
 a	avoir	AUX
 400	400	NUM
 à	à	ADP
-a	avoir	UNKNOWN
+A	A	PROPN
 ?	?	PUNCTsent
 »	»	PUNCTclause
 la	le	DET
@@ -2759,7 +2759,7 @@ de	de	ADP
 société	société	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
-Simard	Simard	NOUN
+Simard	Simard	PROPN
 ,	,	PUNCTclause
 le	le	DET
 jardinier	jardinier	NOUN
@@ -2798,7 +2798,7 @@ par exemple	par exemple	ADV
 les	le	DET
 instituteurs	instituteur	NOUN
 de	de	ADP
-a	avoir	UNKNOWN
+A	A	PROPN
 …	…	PUNCTsent
 ?	?	PUNCTsent
 ils	ils	PRON
@@ -2847,7 +2847,7 @@ on	on	PRON
 voit	voir	AUX
 venir	venir	VERB
 à	à	ADP
-a	avoir	UNKNOWN
+A	A	PROPN
 …	…	PUNCTsent
 pour	pour	ADP
 le	le	DET
@@ -2970,7 +2970,7 @@ communiste	communiste	NOUN
 traitera	traiter	VERB
 les	le	DET
 dames	dame	NOUN
-turc	turc	UNKNOWN
+Turc	Turc	PROPN
 de	de	ADP
 «	«	PUNCTclause
 koulaks	koulak	NOUN
@@ -3140,7 +3140,7 @@ le	le	DET
 plus	plus	ADV
 humain	humain	ADJ
 ?	?	PUNCTsent
-Sera	Sera	PROPN
+sera	être	AUX
 elle	elle	PRON
 fondée	fonder	VERB
 sur	sur	ADP
@@ -4230,7 +4230,7 @@ dans	dans	ADP
 un	un	DET
 ouvrage	ouvrage	NOUN
 sur	sur	ADP
-a	avoir	UNKNOWN
+A	A	PROPN
 …	…	PUNCTsent
 ,	,	PUNCTclause
 dû	devoir	VERB
@@ -4375,7 +4375,7 @@ pays	pays	NOUN
 en	en	ADP
 1935	1935	NUM
 :	:	PUNCTclause
-dix-sept	dix-sept	UNKNOWN
+Dix-sept	Dix-sept	PROPN
 filatures	filature	NOUN
 fermées	fermer	VERB
 .	.	PUNCTsent
@@ -4490,7 +4490,7 @@ capitaliste	capitaliste	NOUN
 est	être	AUX
 clos	clos	ADJ
 .	.	PUNCTsent
-Lyon	Lyon	NOUN
+Lyon	Lyon	PROPN
 a	avoir	AUX
 drainé	drainer	VERB
 toute	tout	ADJ
@@ -4513,7 +4513,7 @@ le	le	DET
 chemin	chemin	NOUN
 de	de	ADP
 l'	le	DET
-orient	orient	UNKNOWN
+Orient	Orient	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 où	où	PRON
@@ -4589,7 +4589,7 @@ muets	muet	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Simart	Simart	NOUN
+Simart	Simart	PROPN
 ,	,	PUNCTclause
 à propos de	à propos de	ADP
 la	le	DET
@@ -5668,7 +5668,7 @@ est	être	AUX
 mis	mettre	VERB
 à	à	ADP
 parler	parler	VERB
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 chose	chose	NOUN
 que	que	PRON
 du	du	DET
@@ -5796,9 +5796,9 @@ ces	ce	DET
 répétitions	répétition	NOUN
 ne	ne	ADV
 ont	avoir	AUX
-d'autre	d'autre	ADV
+d'autre	d'autre	PRON
 but	boire	VERB
-que	que	ADV
+que	que	SCONJ
 de	de	ADP
 laisser	laisser	VERB
 à	à	ADP
@@ -6548,7 +6548,7 @@ où	où	PRON
 il	il	PRON
 habite	habiter	VERB
 .	.	PUNCTsent
-V.	V.	X
+V.	V.	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -7614,10 +7614,10 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 rien	rien	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 et	et	CCONJ
 personne	personne_PRON	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 …	…	PUNCTsent
 ce	ce	PRON
 seraient	être	AUX
@@ -7861,7 +7861,7 @@ ces	ce	DET
 cochons	cochon	NOUN
 !	!	PUNCTsent
 —	—	PUNCTclause
-Simard	Simard	ADV
+Simard	Simard	PROPN
 le	le	DET
 jardinier	jardinier	NOUN
 se	se	PRON
@@ -8524,7 +8524,7 @@ vous	vous	PRON
 diminuent	diminuer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Simard	Simard	PRON
+Simard	Simard	PROPN
 me	me	PRON
 explique	expliquer	VERB
 encore	encore	ADV
@@ -8719,7 +8719,7 @@ est	être	AUX
 de	de	ADP
 Casanova	Casanova	PROPN
 que	que	SCONJ
-ligne	ligne	UNKNOWN
+Ligne	Ligne	PROPN
 écrit	écrire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -8766,7 +8766,7 @@ fétichisme	fétichisme	NOUN
 :	:	PUNCTclause
 le	le	DET
 franc	franc	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 ,	,	PUNCTclause
 les	le	DET
 idées	idée	NOUN
@@ -8809,7 +8809,7 @@ premier	premier	ADJ
 gagnant	gagnant	NOUN
 de	de	ADP
 la	le	DET
-loterie	loterie	UNKNOWN
+Loterie	Loterie	PROPN
 nationale	national	ADJ
 ,	,	PUNCTclause
 se	se	PRON
@@ -8818,7 +8818,7 @@ sur	sur	ADP
 la	le	DET
 tombe	tombe	NOUN
 du	du	ADP_DET
-soldat	soldat	UNKNOWN
+Soldat	Soldat	PROPN
 inconnu	inconnu	ADJ
 .	.	PUNCTsent
 juste	juste	ADV
@@ -8845,7 +8845,7 @@ personne	personne_PRON	PRON
 ne	ne	ADV
 rit	rire	VERB
 .	.	PUNCTsent
-Léon	Léon	DET
+Léon	Léon	PROPN
 Bloy	Bloy	PROPN
 rugit	rugir	VERB
 dans	dans	ADP
@@ -9770,7 +9770,7 @@ désirer	désirer	VERB
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-R.	R.	NOUN
+R.	R.	PROPN
 me	me	PRON
 disait	dire	VERB
 aussi	aussi	ADV
@@ -9830,7 +9830,7 @@ appelle	appeler	VERB
 chômeur	chômeur	NOUN
 ,	,	PUNCTclause
 faute	faute	NOUN
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 terme	terme	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -10412,7 +10412,7 @@ que	que	ADV
 voici	voici	ADP
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Bouillargues	Bouillargues	NOUN
+Bouillargues	Bouillargues	PROPN
 .	.	PUNCTsent
 —	—	PUNCTclause
 les	le_PRON	PRON
@@ -10570,7 +10570,7 @@ liberté	liberté	NOUN
 ,	,	PUNCTclause
 fraternité	fraternité	NOUN
 ,	,	PUNCTclause
-déclaration	déclaration	UNKNOWN
+Déclaration	Déclaration	PROPN
 des	un	ADP_DET
 droits de l'homme	droits de l'homme	NOUN
 !	!	PUNCTsent
@@ -10710,7 +10710,7 @@ insolente	insolent	ADJ
 «	«	PUNCTsent
 place	place	NOUN
 aux	au	ADP_DET
-vieux	vieux	UNKNOWN
+Vieux	Vieux	PROPN
 !	!	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -11087,10 +11087,10 @@ intelligent	intelligent	ADJ
 vous	vous	PRON
 avez	avoir	VERB
 mon	mon	DET
-huma	humer	UNKNOWN
+Huma	Huma	PROPN
 ?	?	PUNCTsent
 —	—	PUNCTclause
-Bou	Bou	NOUN
+Bou	Bou	PROPN
 die	die	VERB
 !	!	PUNCTsent
 je	je	PRON
@@ -11552,7 +11552,7 @@ dernier	dernier	ADJ
 numéro	numéro	NOUN
 de	de	ADP
 l'	le	DET
-huma	humer	UNKNOWN
+Huma	Huma	PROPN
 .	.	PUNCTsent
 de	de	ADP
 la	le	DET
@@ -12770,7 +12770,7 @@ vous	vous	PRON
 .	.	PUNCTsent
 mais	mais	CCONJ
 rien	rien	PRON
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 ne	ne	ADV
 est	être	AUX
 vrai	vrai	ADJ
@@ -12919,7 +12919,7 @@ elle	elle	PRON
 ce	ce	PRON
 est	être	AUX
 madame	madame	NOUN
-bastide	bastide	UNKNOWN
+Bastide	Bastide	PROPN
 ,	,	PUNCTclause
 la	le	DET
 belle-mère	belle-mère	NOUN

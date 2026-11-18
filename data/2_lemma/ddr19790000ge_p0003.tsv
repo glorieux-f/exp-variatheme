@@ -22,9 +22,9 @@ transfrontalière	transfrontalier	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PRON
-émergence	émergence	PRON
-des	un	DET
+I.	I.	DET
+émergence	émergence	NOUN
+des	un	ADP_DET
 régions	région	NOUN
 dans	dans	ADP
 la	le	DET
@@ -50,7 +50,7 @@ au	au	ADP_DET
 problème	problème	NOUN
 régional	régional	ADJ
 :	:	PUNCTclause
-naissance	naissance	UNKNOWN
+Naissance	Naissance	PROPN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -259,7 +259,7 @@ allemande	allemand	ADJ
 constituée	constituer	VERB
 en	en	ADP
 onze	onze	NUM
-länder	länder	UNKNOWN
+Länder	Länder	PROPN
 ,	,	PUNCTclause
 la	le	DET
 Suisse	Suisse	PROPN
@@ -360,7 +360,7 @@ Pyrénées	Pyrénées	PROPN
 enfin	enfin	ADV
 dans	dans	ADP
 le	le	DET
-grand	grand	UNKNOWN
+Grand	Grand	PROPN
 Nord	Nord	PROPN
 scandinave	scandinave	NOUN
 .	.	PUNCTsent
@@ -394,7 +394,7 @@ du	du	ADP_DET
 terme	terme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 une	un	DET
 «	«	PUNCTclause
@@ -924,7 +924,7 @@ de	de	ADP
 développement	développement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 sur	sur	ADP
 un	un	DET
@@ -1014,7 +1014,7 @@ République	République	PROPN
 française	français	ADJ
 et	et	CCONJ
 la	le	DET
-confédération	confédération	UNKNOWN
+Confédération	Confédération	PROPN
 suisse	suisse	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1030,8 +1030,8 @@ unit	unir	VERB
 de	de	ADP
 part	part	NOUN
 et	et	CCONJ
-d'autre	d'autre	ADP
-du	du	DET
+d'autre	d'autre	PRON
+du	du	ADP_DET
 Rhin	Rhin	PROPN
 ,	,	PUNCTclause
 à	à	ADP

@@ -29,7 +29,7 @@ lancé	lancer	VERB
 par	par	ADP
 les	le	DET
 groupes	groupe	NOUN
-esprit	esprit	UNKNOWN
+Esprit	Esprit	PROPN
 et	et	CCONJ
 l'	le	DET
 ordre	ordre	NOUN
@@ -159,7 +159,7 @@ Napoléon	Napoléon	PROPN
 avril	avril	NOUN
 1970	1970	NUM
 ↵↵	↵↵	PUNCTstruct
-qu'est-ce	qu'est-ce	PRON
+qu'est-ce	qu'est-ce	NOUN
 ,	,	PUNCTclause
 en somme	en somme	ADV
 ,	,	PUNCTclause
@@ -202,7 +202,7 @@ aussitôt	aussitôt	ADV
 baptisé	baptiser	VERB
 «	«	PUNCTclause
 sol	sol	NOUN
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 de	de	ADP
 la	le	DET
 patrie	patrie	NOUN
@@ -827,7 +827,7 @@ disparaître	disparaître	VERB
 novembre	novembre	NOUN
 1968	1968	NUM
 ↵↵	↵↵	PUNCTstruct
-Bonaparte	Bonaparte	NOUN
+Bonaparte	Bonaparte	PROPN
 ,	,	PUNCTclause
 après	après	ADP
 se	se	PRON
@@ -910,7 +910,7 @@ ambitions	ambition	NOUN
 de	de	ADP
 Alexandre	Alexandre	PROPN
 le	le	DET
-grand	grand	UNKNOWN
+Grand	Grand	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
 ce	ce	PRON
@@ -1933,20 +1933,20 @@ bien	bien	ADV
 que	que	SCONJ
 chez	chez	ADP
 les	le	DET
-hébreux	hébreu	UNKNOWN
+Hébreux	Hébreux	PROPN
 ,	,	PUNCTclause
 chez	chez	ADP
 les	le	DET
-babyloniens	babylonien	UNKNOWN
+Babyloniens	Babyloniens	PROPN
 ,	,	PUNCTclause
 les	le	DET
 égyptiens	égyptien	NOUN
 ,	,	PUNCTclause
 les	le	DET
-hindous	hindou	UNKNOWN
+Hindous	Hindous	PROPN
 ,	,	PUNCTclause
 les	le	DET
-pygmées	pygmée	UNKNOWN
+Pygmées	Pygmées	PROPN
 de	de	ADP
 Afrique	Afrique	PROPN
 ,	,	PUNCTclause
@@ -1954,7 +1954,7 @@ les	le	DET
 mages	mage	NOUN
 de	de	ADP
 la	le	DET
-perse	pers	UNKNOWN
+Perse	Perse	PROPN
 zoroastrique	zoroastrique	ADJ
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -2171,7 +2171,7 @@ un	un	DET
 discours	discours	NOUN
 à	à	ADP
 la	le	DET
-sorbonne	sorbonne	UNKNOWN
+Sorbonne	Sorbonne	PROPN
 intitulé	intituler	VERB
 qu'est-ce que	qu'est-ce que	ADV
 une	un	DET
@@ -2578,7 +2578,7 @@ siècle	siècle	NOUN
 la	le	DET
 Révolution	Révolution	PROPN
 et	et	CCONJ
-des	un	DET
+des	un	ADP_DET
 guerres	guerre	NOUN
 de	de	ADP
 l'	le	DET
@@ -2890,7 +2890,7 @@ Suisse	Suisse	PROPN
 romande	romand	ADJ
 ,	,	PUNCTclause
 du	du	ADP_DET
-val	val	UNKNOWN
+Val	Val	PROPN
 de	de	ADP
 Aoste	Aoste	PROPN
 .	.	PUNCTsent
@@ -3581,7 +3581,7 @@ France	France	PROPN
 de	de	ADP
 Philippe	Philippe	PROPN
 le	le	DET
-bel	beau	UNKNOWN
+Bel	Bel	PROPN
 :	:	PUNCTclause
 l'	le	DET
 état	état	NOUN
@@ -3906,7 +3906,7 @@ légistes	légiste	NOUN
 de	de	ADP
 Philippe	Philippe	PROPN
 le	le	DET
-bel	beau	UNKNOWN
+Bel	Bel	PROPN
 l'	le_PRON	PRON
 ont	avoir	AUX
 exprimé	exprimer	VERB
@@ -5058,7 +5058,7 @@ ne	ne	ADV
 peut	pouvoir	VERB
 rien	rien	PRON
 imaginer	imaginer	VERB
-d'autre	d'autre	ADP
+d'autre	d'autre	PRON
 que	que	SCONJ
 une	un	DET
 uniformisation	uniformisation	NOUN
@@ -5263,7 +5263,7 @@ encore	encore	ADV
 l'	le	DET
 empire	empire	NOUN
 des	un	ADP_DET
-incas	inca	UNKNOWN
+Incas	Incas	PROPN
 ,	,	PUNCTclause
 l'	le	DET
 empire	empire	NOUN
@@ -5274,7 +5274,7 @@ empire	empire	NOUN
 de	de	ADP
 Alexandre	Alexandre	PROPN
 le	le	DET
-grand	grand	UNKNOWN
+Grand	Grand	PROPN
 ,	,	PUNCTclause
 l'	le	DET
 empire	empire	NOUN
@@ -5358,7 +5358,7 @@ légistes	légiste	NOUN
 de	de	ADP
 Philippe	Philippe	PROPN
 le	le	DET
-bel	beau	UNKNOWN
+Bel	Bel	PROPN
 ,	,	PUNCTclause
 selon	selon	ADP
 lesquels	lesquels	PRON
@@ -5662,7 +5662,7 @@ et	et	CCONJ
 que	que	SCONJ
 ce	ce	PRON
 est	être	AUX
-sacré	sacrer	VERB
+sacré	sacré	ADJ
 (	(	PUNCTclause
 le	le	DET
 principe	principe	NOUN
@@ -5825,7 +5825,7 @@ nous	nous	PRON
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-suez	suer	UNKNOWN
+Suez	Suez	PROPN
 .	.	PUNCTsent
 la	le	DET
 première	premier	ADJ
@@ -5886,7 +5886,7 @@ déclencher	déclencher	VERB
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-suez	suer	UNKNOWN
+Suez	Suez	PROPN
 ,	,	PUNCTclause
 se	se	PRON
 sont	être	AUX

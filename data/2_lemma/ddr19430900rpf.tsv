@@ -11,20 +11,20 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 :	:	PUNCTclause
-fragments	fragment	UNKNOWN
+Fragments	Fragments	PROPN
 de	de	ADP
 un	un	DET
 journal	journal	NOUN
 des	un	ADP_DET
-mauvais	mauvais	UNKNOWN
-temps	temps	UNKNOWN
+Mauvais	Mauvais	PROPN
+Temps	Temps	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
 1943	1943	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-I.	I.	PRON
+I.	I.	PROPN
 —	—	PUNCTclause
 le	le	DET
 bon vieux temps	bon vieux temps	NOUN
@@ -38,7 +38,7 @@ mars	mars	NOUN
 1939	1939	NUM
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-führer	führer	UNKNOWN
+Führer	Führer	PROPN
 a	avoir	AUX
 passé	passer	VERB
 la	le	DET
@@ -61,7 +61,7 @@ vient	venir	VERB
 de	de	ADP
 mourir	mourir	VERB
 .	.	PUNCTsent
-Europe	Europe	VERB
+Europe	Europe	PROPN
 du	du	ADP_DET
 sentiment	sentiment	NOUN
 ,	,	PUNCTclause
@@ -266,7 +266,7 @@ voici	voici	ADP
 que	que	SCONJ
 ce	ce	DET
 temps	temps	NOUN
-perdu	perdre	UNKNOWN
+Perdu	Perdu	PROPN
 ,	,	PUNCTclause
 tout	tout	PRON
 de	de	ADP
@@ -724,7 +724,7 @@ et	et	CCONJ
 bafouée	bafouer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-II	II	PRON
+II	II	NUM
 .	.	PUNCTsent
 —	—	PUNCTclause
 le	le_PRON	PRON
@@ -1041,7 +1041,7 @@ de	de	ADP
 orage	orage	NOUN
 sur	sur	ADP
 la	le	DET
-concorde	concorde	UNKNOWN
+Concorde	Concorde	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
 et	et	CCONJ
@@ -1265,7 +1265,7 @@ de	de	ADP
 catacombes	catacombe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-centre	centre	NOUN
+Centre	Centre	PROPN
 du	du	ADP_DET
 monde	monde	NOUN
 !	!	PUNCTsent
@@ -1326,7 +1326,7 @@ le	le	DET
 Jésus-Christ	Jésus-Christ	PROPN
 reste	rester	VERB
 le	le	DET
-scandale	scandale	UNKNOWN
+Scandale	Scandale	PROPN
 ,	,	PUNCTclause
 l'autre	l'autre	PRON
 ,	,	PUNCTclause
@@ -1416,7 +1416,7 @@ vrai	vrai	ADJ
 combat	combat	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-III	III	PRON
+III	III	NUM
 .	.	PUNCTsent
 —	—	PUNCTclause
 pendant	pendant	ADP
@@ -1522,8 +1522,8 @@ il	il	PRON
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
-d'autre	d'autre	ADP
-issue	issue	NOUN
+d'autre	d'autre	PRON
+issue	issu	ADJ
 que	que	SCONJ
 la	le	DET
 nuit	nuit	NOUN
@@ -1861,7 +1861,7 @@ unique	unique	ADJ
 nécessaire	nécessaire	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-IV	IV	NOUN
+IV	IV	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -1966,7 +1966,7 @@ voyait	voir	VERB
 pas	pas	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-V.	V.	ADP
+V.	V.	X
 —	—	PUNCTclause
 Lisbonne	Lisbonne	PROPN
 .	.	PUNCTsent
@@ -2267,7 +2267,7 @@ de	de	ADP
 grâce	grâce	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-VI	VI	ADJ
+VI	VI	NUM
 .	.	PUNCTsent
 —	—	PUNCTclause
 souvenir	souvenir	NOUN
@@ -2283,7 +2283,7 @@ Amérique	Amérique	PROPN
 novembre	novembre	NOUN
 1940	1940	NUM
 ↵↵	↵↵	PUNCTstruct
-Périgny	Périgny	NOUN
+Périgny	Périgny	PROPN
 …	…	PUNCTsent
 ce	ce	PRON
 était	être	AUX
@@ -2333,7 +2333,7 @@ du	du	ADP_DET
 plateau	plateau	NOUN
 de	de	ADP
 la	le	DET
-brie	brie	UNKNOWN
+Brie	Brie	PROPN
 .	.	PUNCTsent
 je	je	PRON
 montais	monter	VERB
@@ -2595,7 +2595,7 @@ bien	bien	ADV
 arrondies	arrondi	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-Martine	Martine	ADJ
+Martine	Martine	PROPN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 suis	être	AUX
@@ -2813,7 +2813,7 @@ la	le	DET
 France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-VII	VII	NOUN
+VII	VII	NUM
 .	.	PUNCTsent
 —	—	PUNCTclause
 mémoire	mémoire	NOUN

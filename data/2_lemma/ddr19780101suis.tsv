@@ -18,7 +18,7 @@ janvier	janvier	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-Titre-piège	Titre-piège	NOUN
+Titre-piège	Titre-piège	PROPN
 ,	,	PUNCTclause
 bien sûr	bien sûr	ADV
 ,	,	PUNCTclause
@@ -233,7 +233,7 @@ trompeurs	trompeur	ADJ
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
 la	le	DET
-part	part	UNKNOWN
+Part	Part	PROPN
 du	du	ADP_DET
 diable	diable	NOUN
 (	(	PUNCTclause
@@ -382,7 +382,7 @@ Hitler	Hitler	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 personne	personne_PRON	PRON
-d'autre	d'autre	PUNCT
+d'autre	d'autre	PRON
 .	.	PUNCTsent
 mais	mais	CCONJ
 voilà	voilà	ADP
@@ -1106,7 +1106,7 @@ Pluton	Pluton	PROPN
 dieu	dieu	NOUN
 de	de	ADP
 la	le	DET
-richesse	richesse	UNKNOWN
+Richesse	Richesse	PROPN
 et	et	CCONJ
 des	un	ADP_DET
 enfers	enfer	NOUN
@@ -1122,7 +1122,7 @@ dieu	dieu	NOUN
 nous	nous	PRON
 dit	dire	VERB
 la	le	DET
-fable	fable	UNKNOWN
+Fable	Fable	PROPN
 ,	,	PUNCTclause
 était	être	AUX
 si	si	ADV
