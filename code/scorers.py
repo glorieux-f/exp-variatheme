@@ -115,69 +115,6 @@ class Scorer(ABC):
         raise NotImplementedError
 
 
-class AxiomaticF2LOG(Scorer):
-    """Lucene 10.5.2 AxiomaticF2LOG, with its documented parameter s.
-
-    S = tf / (tf + s * (1 + dl / avgdl)) * ln((N + 1) / df)
-
-    tf : term frequency in document
-    df : document frequency of term
-    N : number of documents
-    dl : document length
-    avgdl : average document length
-    s : growth parameter in [0, 1]; Lucene default 0.25
-
-    Matches AxiomaticF2LOG.java's tfln() and idf() with unit query boost.
-    The other Lucene components tf() and ln() are 1; gamma() is 0.
-    Unlike TXM, this formula does not involve a hypergeometric tail.
-    """
-
-    _registrations = (
-        ('f2log', 'Axiomatic F2LOG'),
-        ('f2logs{s}', 'Axiomatic F2LOG(s={s:g})'),
-    )
-
-    def __init__(self, corpus: TermDocCorpus, s: float = 0.25) -> None:
-        if not isfinite(s) or not 0.0 <= s <= 1.0:
-            raise ValueError("s must be finite and in [0, 1] (Lucene Axiomatic)")
-        if corpus.avg_doc_len <= 0.0:
-            raise ValueError("avg_doc_len must be > 0")
-        super().__init__(corpus)
-        self.s = float(s)
-        df = np.asarray(corpus.df, dtype=np.float64)
-        self._idf = np.zeros(df.shape, dtype=np.float64)
-        valid = df > 0.0
-        self._idf[valid] = np.log((corpus.n_docs + 1.0) / df[valid])
-
-    @property
-    def code(self) -> str:
-        return "f2log" if self.s == 0.25 else f"f2logs{self.s:g}"
-
-    @property
-    def name(self) -> str:
-        return f"Lucene Axiomatic F2LOG (s={self.s:g})"
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Compute Lucene's mixed TF/length factor and logarithmic IDF."""
-        observed = np.asarray(tf, dtype=np.float64)
-        scores = np.zeros(observed.shape, dtype=np.float64)
-        positive = observed > 0.0
-        if np.any(positive):
-            norm = self.s * (
-                1.0 + float(self.corpus.doc_len[doc_id]) / self.corpus.avg_doc_len
-            )
-            scores[positive] = (
-                observed[positive] / (observed[positive] + norm)
-                * self._idf[term_ids[positive]]
-            )
-        return scores
-
-
 class BinaryTfIdf(Scorer):
     """Binary term frequency-inverse document frequency (BTF-IDF).
 
@@ -1997,83 +1934,127 @@ class PoissonIDF(PoissonIDFAlpha):
 
 
 class SimpleMaths(Scorer):
-    """Kilgarriff Simple Maths.
+    """Kilgarriff's Simple Maths, following KeynessScorer.SimpleMaths.
 
-    rf_doc = 1_000_000 * tf / dl
-    rf_rest = 1_000_000 * (cf - tf) / (CL - dl)
-    (rf_doc + k) / (rf_rest + k)
+    score = (M * tf / dl + k) / (M * (cf - tf) / (CL - dl) + k)
+    M = 1_000_000
 
-    tf : term frequency in document
-    cf : collection frequency of term
-    dl : document length
-    CL : collection length
-    k : smoothing parameter, per million ("N" in Kilgarriff 2009)
+    At specificity s=0.5, automatic smoothing is
+    k0 = M * pseudo_count / dl + context_rate, with context_rate=M/N
+    unless explicitly specified. For other interior values of s, k varies
+    geometrically from k0 toward K_MAX (s=0) or K_MIN (s=1).
+    Endpoints return raw TF (s=0) or exclusive TF only (s=1).
 
-    k chooses the frequency band of the keywords: small k favours rare
-    terms, large k common ones. Kilgarriff's values (1, 10, 100, 1000) are
-    set for corpus-vs-corpus comparison, where a focus corpus has millions of
-    words. In a document of dl tokens a single occurrence is already
-    1_000_000 / dl per million (about 234 for a 4,276-token chapter), so
-    k = 1 leaves every term absent from the rest at a score proportional to
-    its tf: the ranking degenerates into a list of hapaxes tied at tf = 1.
+    A fixed k is interpreted as k0, not as smoothing constant at every s.
+    Java's pivot count is zero for this term-document application.
 
-    The default is therefore expressed in document units: half an
-    occurrence in a document of average length,
-    k = 500_000 / avg_doc_len. A single occurrence of a term absent from the
-    rest then scores about 3, so terms with repeated evidence rank first.
-    Pass k explicitly to use a fixed per-million value.
-
-    Kilgarriff, A. (2009). "Simple Maths for Keywords." Proceedings of the Corpus Linguistics Conference CL2009, University of Liverpool.
+    Kilgarriff, A. (2009). "Simple Maths for Keywords." CL2009.
     """
 
     _registrations = (
         ('simplemaths', 'SimpleMaths'),
-        ('simplemathsk{k}', 'SimpleMaths({k:g})'),
+        ('simplemathsk{k}', 'SimpleMaths(k={k:g})'),
+        ('simplemathss{s}', 'SimpleMaths(s={s:g})'),
+        ('simplemathsk{k}s{s}', 'SimpleMaths(k={k:g},s={s:g})'),
     )
 
-    def __init__(self, corpus: TermDocCorpus, k: float | None = None) -> None:
-        if k is None:
-            if corpus.avg_doc_len <= 0.0:
-                raise ValueError("avg_doc_len must be > 0 for the default k")
-            k = 500_000.0 / float(corpus.avg_doc_len)
-            self.auto_k = True
-        else:
-            self.auto_k = False
-        if not isfinite(k) or k <= 0.0:
+    K_MAX = 10_000_000.0
+    K_MIN = 0.1
+
+    def __init__(
+        self,
+        corpus: TermDocCorpus,
+        k: float | None = None,
+        s: float = 0.5,
+        pseudo_count: float = 1.0,
+        context_rate: float | None = None,
+    ) -> None:
+        if k is not None and (not isfinite(k) or k <= 0.0):
             raise ValueError("k must be finite and > 0")
+        if not isfinite(s) or not 0.0 <= s <= 1.0:
+            raise ValueError("s must be finite and in [0, 1]")
+        if not isfinite(pseudo_count) or pseudo_count <= 0.0:
+            raise ValueError("pseudo_count must be finite and > 0")
+        if context_rate is not None and (not isfinite(context_rate) or context_rate <= 0.0):
+            raise ValueError("context_rate must be finite and > 0")
+        if corpus.n_docs <= 0 or corpus.collection_len <= 0:
+            raise ValueError("corpus must have positive document and token counts")
         super().__init__(corpus)
         self.k = k
+        self.auto_k = k is None
+        self.s = float(s)
+        self.pseudo_count = float(pseudo_count)
+        self.context_rate = (
+            1_000_000.0 / corpus.n_docs if context_rate is None else float(context_rate)
+        )
 
     @property
     def code(self) -> str:
-        """Return the filename code."""
-        if self.auto_k:
-            return "simplemaths"
-        return f"simplemathsk{self.k:g}"
+        """Return a filename-safe code preserving k0 and specificity."""
+        base = "simplemaths" if self.auto_k else f"simplemathsk{self.k:g}"
+        return base if self.s == 0.5 else f"{base}s{self.s:g}"
 
     @property
     def name(self) -> str:
-        """Return the human-readable scorer name."""
-        return f"Simple Maths (k={self.k:g})"
+        """Return a descriptive scorer name."""
+        k = "auto" if self.auto_k else f"{self.k:g}"
+        return f"Simple Maths (k={k}, s={self.s:g})"
+
+    def _smoothing(self, doc_id: int) -> float:
+        """Calculate the Java smoothing constant for the focus document."""
+        dl = float(self.corpus.doc_len[doc_id])
+        k0 = self.k if not self.auto_k else (
+            1_000_000.0 * self.pseudo_count / dl + self.context_rate
+        )
+        if self.s < 0.5:
+            return k0 * (self.K_MAX / k0) ** (1.0 - 2.0 * self.s)
+        if self.s > 0.5:
+            return k0 * (self.K_MIN / k0) ** (2.0 * self.s - 1.0)
+        return k0
+
+    def _rates(
+        self, doc_id: int, term_ids: IntArray, tf: IntArray
+    ) -> tuple[FloatArray, FloatArray, NDArray[np.bool_]]:
+        """Return focus/background rates and the invalid-cell mask."""
+        observed = np.asarray(tf, dtype=np.float64)
+        collection = np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
+        dl = float(self.corpus.doc_len[doc_id])
+        rest_length = float(self.corpus.collection_len) - dl
+        if dl <= 0.0 or rest_length <= 0.0:
+            return observed, collection, np.ones(observed.shape, dtype=np.bool_)
+        invalid = (
+            (observed <= 0.0)
+            | (collection <= 0.0)
+            | (collection >= self.corpus.collection_len)
+            | (observed > dl)
+            | (observed - collection > 1e-9 * collection)
+            | (collection - observed > rest_length)
+        )
+        return (
+            1_000_000.0 * observed / dl,
+            1_000_000.0 * (collection - observed) / rest_length,
+            invalid,
+        )
 
     def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
+        self, doc_id: int, term_ids: IntArray, tf: IntArray
     ) -> FloatArray:
-        """Score terms with Simple Maths."""
-        focus_tokens = float(self.corpus.doc_len[doc_id])
-        other_tokens = float(self.corpus.collection_len) - focus_tokens
-        if focus_tokens <= 0.0 or other_tokens <= 0.0:
-            return np.zeros(len(tf), dtype=np.float64)
-
-        focus_term = np.asarray(tf, dtype=np.float64)
-        corpus_term = np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
-        other_term = corpus_term - focus_term
-        ppm_focus = focus_term * 1_000_000.0 / focus_tokens + self.k
-        ppm_other = other_term * 1_000_000.0 / other_tokens + self.k
-        return ppm_focus / ppm_other
+        """Score the Java SimpleMaths ratio at the configured specificity."""
+        rf_focus, rf_rest, invalid = self._rates(doc_id, term_ids, tf)
+        if self.s == 0.0:
+            scores = np.asarray(tf, dtype=np.float64).copy()
+        elif self.s == 1.0:
+            observed = np.asarray(tf, dtype=np.float64)
+            collection = np.asarray(self.corpus.cf[term_ids], dtype=np.float64)
+            invalid = invalid | (np.abs(collection - observed) > 1e-9 * collection)
+            scores = observed.copy()
+        elif np.all(invalid):
+            return np.full(np.shape(tf), np.nan, dtype=np.float64)
+        else:
+            k = self._smoothing(doc_id)
+            scores = (rf_focus + k) / (rf_rest + k)
+        scores[invalid] = np.nan
+        return scores
 
 
 class LogSimpleMaths(SimpleMaths):
@@ -2099,7 +2080,8 @@ class LogSimpleMaths(SimpleMaths):
     @property
     def name(self) -> str:
         """Return the human-readable scorer name."""
-        return f"log₂ Simple Maths (k={self.k:g})"
+        k = "auto" if self.auto_k else f"{self.k:g}"
+        return f"log₂ Simple Maths (k={k})"
 
     def score_terms(
         self,
@@ -2112,6 +2094,82 @@ class LogSimpleMaths(SimpleMaths):
         if dl <= 0.0 or dl >= self.corpus.collection_len:
             return np.zeros(len(tf), dtype=np.float64)
         return np.log2(super().score_terms(doc_id, term_ids, tf))
+
+
+class SimpleRidf(SimpleMaths):
+    """Simple Maths with residual-IDF-controlled smoothing (Java SimpleRidf).
+
+    ridf = ln(N * (1 - exp(-cf/N)) / df)
+    weight = max(0, ridf)
+    score = ln(1 + weight * (rf_doc - rf_rest) / (k + weight * rf_rest))
+
+    rf_doc and rf_rest are the unsmoothed SimpleMaths rates per million;
+    k is the same focus-dependent smoothing as in SimpleMaths. Nonpositive
+    RIDF returns zero, without reversing the sign of the local contrast.
+    At s=0 and s=1, the common TF/exclusive-TF endpoints are used.
+
+    Church, K. W. & Gale, W. A. (1995). "Inverse Document Frequency
+    (IDF): A Measure of Deviations from Poisson." VL Corpus Workshop.
+    """
+
+    _registrations = (
+        ('simpleridf', 'SimpleRidf'),
+        ('simpleridfk{k}', 'SimpleRidf(k={k:g})'),
+        ('simpleridfs{s}', 'SimpleRidf(s={s:g})'),
+        ('simpleridfk{k}s{s}', 'SimpleRidf(k={k:g},s={s:g})'),
+    )
+
+    def __init__(
+        self,
+        corpus: TermDocCorpus,
+        k: float | None = None,
+        s: float = 0.5,
+        pseudo_count: float = 1.0,
+        context_rate: float | None = None,
+    ) -> None:
+        super().__init__(corpus, k, s, pseudo_count, context_rate)
+        cf = np.asarray(corpus.cf, dtype=np.float64)
+        df = np.asarray(corpus.df, dtype=np.float64)
+        self._weight = np.full(cf.shape, np.nan, dtype=np.float64)
+        valid = (cf > 0.0) & (cf < corpus.collection_len) & (df > 0.0) & (df <= corpus.n_docs)
+        self._weight[valid] = np.maximum(
+            0.0,
+            np.log(-np.expm1(-cf[valid] / corpus.n_docs) * corpus.n_docs / df[valid]),
+        )
+
+    @property
+    def code(self) -> str:
+        """Return the registered SimpleRidf code."""
+        base = "simpleridf" if self.auto_k else f"simpleridfk{self.k:g}"
+        return base if self.s == 0.5 else f"{base}s{self.s:g}"
+
+    @property
+    def name(self) -> str:
+        """Return a descriptive scorer name."""
+        k = "auto" if self.auto_k else f"{self.k:g}"
+        return f"SimpleRidf (k={k}, s={self.s:g})"
+
+    def score_terms(
+        self, doc_id: int, term_ids: IntArray, tf: IntArray
+    ) -> FloatArray:
+        """Score with the numerically stable Java log1p formulation."""
+        if self.s in (0.0, 1.0):
+            return super().score_terms(doc_id, term_ids, tf)
+        rf_focus, rf_rest, invalid = self._rates(doc_id, term_ids, tf)
+        weight = self._weight[term_ids]
+        invalid = invalid | ~np.isfinite(weight)
+        if np.all(invalid):
+            return np.full(np.shape(tf), np.nan, dtype=np.float64)
+        scores = np.zeros(np.shape(tf), dtype=np.float64)
+        valid = ~invalid & (weight > 0.0)
+        if np.any(valid):
+            w = weight[valid]
+            scores[valid] = np.log1p(
+                w * (rf_focus[valid] - rf_rest[valid])
+                / (self._smoothing(doc_id) + w * rf_rest[valid])
+            )
+        scores[invalid] = np.nan
+        return scores
 
 
 class SubTf(Scorer):
@@ -2509,8 +2567,8 @@ class TScore(Scorer):
         return scores
 
 
-class Txm(Scorer):
-    """Signed TXM/Lafon lexical specificity.
+class Fisher(Scorer):
+    """Signed Fisher test, like TXM/Lafon lexical specificity.
 
     X ~ Hypergeom(CL, cf, dl)
     mode = floor((cf + 1) * (dl + 1) / (CL + 2))
@@ -2524,7 +2582,7 @@ class Txm(Scorer):
     dl : document length
     CL : collection length
 
-    TXM determines over- versus under-representation from the mode of the
+    Fisher determines over- versus under-representation from the mode of the
     hypergeometric distribution, not from its mean. Floating-point log10 scores
     are retained for numerical experiments; display formatting is left to the
     caller.
@@ -2534,7 +2592,7 @@ class Txm(Scorer):
     """
 
     _registrations = (
-        ('txm', 'TXM'),
+        ('fisher', 'Fisher'),
     )
 
     requires_complement = True
@@ -2544,12 +2602,12 @@ class Txm(Scorer):
     @property
     def code(self) -> str:
         """Return the filename code."""
-        return "txm"
+        return "fisher"
 
     @property
     def name(self) -> str:
         """Return the human-readable scorer name."""
-        return "TXM"
+        return "Fisher"
 
     def score_terms(
         self,
@@ -2557,7 +2615,7 @@ class Txm(Scorer):
         term_ids: IntArray,
         tf: IntArray,
     ) -> FloatArray:
-        """Score terms with signed TXM/Lafon hypergeometric specificity."""
+        """Score terms with signed Fisher hypergeometric specificity."""
         observed = np.asarray(tf, dtype=np.int64)
         corpus_term = np.asarray(self.corpus.cf[term_ids], dtype=np.int64)
         part_size = int(self.corpus.doc_len[doc_id])
@@ -2624,40 +2682,6 @@ class Txm(Scorer):
 
         scores[invalid] = np.nan
         return scores
-
-class TxmNegative(Txm):
-    """Negative TXM specificity, ranked from most to least negative.
-
-    Non-negative scores become zero and must be excluded by the caller.
-    Score arrays remain aligned with the input terms. Callers must select
-    scores < 0 and sort ascending when ``ascending`` is true.
-    """
-
-    _registrations = (
-        ('txmneg', 'TXM−'),
-    )
-
-    ascending = True
-
-    @property
-    def code(self) -> str:
-        """Return the filename code."""
-        return "txmneg"
-
-    @property
-    def name(self) -> str:
-        """Return the human-readable scorer name."""
-        return "Negative TXM"
-
-    def score_terms(
-        self,
-        doc_id: int,
-        term_ids: IntArray,
-        tf: IntArray,
-    ) -> FloatArray:
-        """Retain negative TXM scores and map non-negative scores to zero."""
-        return np.maximum(-super().score_terms(doc_id, term_ids, tf), 0.0)
-
 
 class ZScore(Scorer):
     """Hypergeometric z-score for a term in the focus document.
