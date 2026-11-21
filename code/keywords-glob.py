@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 """Rank keywords in a glob-selected document set using existing scorers.
 
-The three aggregation methods share the original corpus statistics:
-
-* pool: score the sum of selected term counts as a virtual document.
-* mean: average scores over selected documents (absent terms contribute 0).
-* centroid: L2-normalize each sparse score vector, then average.
+The selected documents are pooled and scored as one virtual document,
+using the original corpus statistics.
 
 Requires scorers.py in the same directory and its NumPy/SciPy dependencies.
 """
@@ -26,9 +23,9 @@ from scorers import make_scorer
 
 
 DEFAULT_STOPWORDS = Path(__file__).with_name("stopwords.txt")
-DEFAULT_SCORERS = ("tfidf", "subtfidfa0.3", "poissonidfa1", "txm", "poissondev")
+DEFAULT_SCORERS = ("simpleridf", "simplemaths", "fisher", "tfidf")
 VOCABS = ("all", "content", "nostops", "nocaps", "stops", "caps", "stopscaps")
-AGGREGATIONS = ("pool", "mean", "centroid")
+
 
 def read_rows(path: Path, required: set[str]):
     """Yield TSV records with a checked header and physical row number."""
@@ -71,32 +68,31 @@ def load_terms(path: Path):
 
 
 def load_postings(path: Path, selected: list[int], lengths: dict[int, int], terms: dict):
-    """Read only the selected postings, retaining sparse per-document counts."""
-    counts = {doc_id: Counter() for doc_id in selected}
+    """Pool selected postings and validate each selected document length."""
+    totals = {doc_id: 0 for doc_id in selected}
     pooled = Counter()
     for line, row in read_rows(path, {"term_id", "doc_id", "tf"}):
         doc_id = int(row["doc_id"])
-        if doc_id not in counts:
+        if doc_id not in totals:
             continue
         term_id, tf = int(row["term_id"]), int(row["tf"])
         if term_id not in terms or tf <= 0:
             raise ValueError(f"{path}:{line}: invalid term_id/tf")
-        counts[doc_id][term_id] += tf
+        totals[doc_id] += tf
         pooled[term_id] += tf
-    for doc_id, frequencies in counts.items():
-        actual = sum(frequencies.values())
+    for doc_id, actual in totals.items():
         if actual != lengths[doc_id]:
             raise ValueError(
                 f"{path}: document {doc_id}: postings sum {actual} != doc_len {lengths[doc_id]}"
             )
-    return counts, pooled
+    return pooled
 
 
 class Corpus:
     """Original global statistics with one appended, non-member virtual document."""
 
     def __init__(self, lengths: dict[int, int], terms: dict[int, tuple[str, int, int]],
-                 virtual_length: int, postings: dict[int, Counter[int]], pooled: Counter[int]):
+                 virtual_length: int, pooled: Counter[int]):
         self.n_docs = len(lengths)
         self.collection_len = sum(lengths.values())
         self.avg_doc_len = self.collection_len / self.n_docs
@@ -110,14 +106,11 @@ class Corpus:
         for term_id, (_, cf, df) in terms.items():
             self.cf[term_id] = cf
             self.df[term_id] = df
-        self.postings = postings
         self.pooled = pooled
 
     def tf(self, term_id: int, doc_id: int) -> int:
-        """Return term frequency for an original or virtual document."""
-        if doc_id == self.virtual_id:
-            return self.pooled.get(term_id, 0)
-        return self.postings.get(doc_id, {}).get(term_id, 0)
+        """Return pooled term frequency for the virtual document."""
+        return self.pooled.get(term_id, 0) if doc_id == self.virtual_id else 0
 
 
 def normalize_word(word: str) -> str:
@@ -152,57 +145,26 @@ def vocabulary_mask(lemmas: list[str], stopwords: set[str], mode: str) -> np.nda
     }[mode]
 
 
-def scorer_results(corpus: Corpus, postings: dict[int, Counter[int]],
-                   pooled: Counter[int], scorers: list[str], aggregations: list[str],
+def scorer_results(corpus: Corpus, pooled: Counter[int], scorers: list[str],
                    terms: dict[int, tuple[str, int, int]]):
-    """Score candidate terms, returning full sorted rankings for each mode."""
+    """Score the pooled virtual document and sort terms for each scorer."""
     candidate_ids = np.asarray(sorted(pooled), dtype=np.int64)
     candidate_tf = np.asarray([pooled[int(t)] for t in candidate_ids], dtype=np.int64)
     names = [terms[int(t)][0] for t in candidate_ids]
-    positions = {int(term_id): i for i, term_id in enumerate(candidate_ids)}
-    documents = []
-    if "mean" in aggregations or "centroid" in aggregations:
-        for doc_id, counts in postings.items():
-            ids = np.asarray(sorted(counts), dtype=np.int64)
-            tf = np.asarray([counts[int(t)] for t in ids], dtype=np.int64)
-            indices = np.asarray([positions[int(t)] for t in ids], dtype=np.int64)
-            documents.append((doc_id, ids, tf, indices))
-
     results = {}
     for code in scorers:
         scorer = make_scorer(corpus, code)
-        if ("pool" in aggregations and corpus.doc_len[corpus.virtual_id] == corpus.collection_len
+        if (corpus.doc_len[corpus.virtual_id] == corpus.collection_len
                 and scorer.requires_complement):
             raise ValueError(f"Pooled corpus equals the entire corpus: {code} "
                              "requires a non-empty comparison corpus")
-        sums = {}
-        if "pool" in aggregations:
-            sums["pool"] = scorer.score_terms(corpus.virtual_id, candidate_ids, candidate_tf)
-        if "mean" in aggregations or "centroid" in aggregations:
-            mean = np.zeros(len(candidate_ids), dtype=np.float64)
-            centroid = np.zeros(len(candidate_ids), dtype=np.float64)
-            for doc_id, ids, tf, indices in documents:
-                values = scorer.score_terms(doc_id, ids, tf)
-                if not np.all(np.isfinite(values)):
-                    raise ValueError(f"Non-finite {code} score for document ID {doc_id}")
-                if "mean" in aggregations:
-                    mean[indices] += values
-                if "centroid" in aggregations:
-                    norm = float(np.linalg.norm(values))
-                    if norm > 0.0:
-                        centroid[indices] += values / norm
-            if "mean" in aggregations:
-                sums["mean"] = mean / len(postings)
-            if "centroid" in aggregations:
-                sums["centroid"] = centroid / len(postings)
-        for aggregation, values in sums.items():
-            if not np.all(np.isfinite(values)):
-                raise ValueError(f"Non-finite {code} score for {aggregation}")
-            order = sorted(
-                range(len(candidate_ids)),
-                key=lambda i: (-float(values[i]), names[i].casefold(), names[i], int(candidate_ids[i])),
-            )
-            results[(code, aggregation)] = order
+        values = scorer.score_terms(corpus.virtual_id, candidate_ids, candidate_tf)
+        if not np.all(np.isfinite(values)):
+            raise ValueError(f"Non-finite {code} score for pool")
+        results[code] = sorted(
+            range(len(candidate_ids)),
+            key=lambda i: (-float(values[i]), names[i].casefold(), names[i], int(candidate_ids[i])),
+        )
     return names, results
 
 
@@ -224,8 +186,7 @@ def pattern_slug(pattern: str) -> str:
 
 
 def build(table_prefix: Path, pattern: str, output_dir: Path, scorers: list[str],
-          vocabularies: list[str], aggregations: list[str], stopwords_path: Path,
-          top: int) -> Path:
+          vocabularies: list[str], stopwords_path: Path, top: int) -> Path:
     """Generate all requested keyword lists in a single two-line-block file."""
     prefix = table_prefix.name
     if not prefix:
@@ -233,20 +194,20 @@ def build(table_prefix: Path, pattern: str, output_dir: Path, scorers: list[str]
     directory = table_prefix.parent
     lengths, selected = load_documents(directory / f"{prefix}docs.tsv", pattern)
     terms = load_terms(directory / f"{prefix}terms.tsv")
-    postings, pooled = load_postings(
+    pooled = load_postings(
         directory / f"{prefix}postings.tsv", selected, lengths, terms
     )
     stopwords = load_stopwords(stopwords_path)
     virtual_length = sum(lengths[doc_id] for doc_id in selected)
-    corpus = Corpus(lengths, terms, virtual_length, postings, pooled)
+    corpus = Corpus(lengths, terms, virtual_length, pooled)
     if not pooled:
         raise ValueError(f"Selected documents matching {pattern!r} contain no term postings")
 
-    names, rankings = scorer_results(corpus, postings, pooled, scorers, aggregations, terms)
+    names, rankings = scorer_results(corpus, pooled, scorers, terms)
     masks = {mode: vocabulary_mask(names, stopwords, mode) for mode in vocabularies}
     output_dir.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    stem = f"{prefix}{pattern_slug(pattern)}-{timestamp}"
+    stem = f"{prefix}{pattern_slug(pattern)}"
     output = output_dir / f"{stem}.txt"
     suffix = 2
     while output.exists():
@@ -259,17 +220,14 @@ def build(table_prefix: Path, pattern: str, output_dir: Path, scorers: list[str]
                 continue
             mask = masks[mode]
             for code in scorers:
-                for aggregation in AGGREGATIONS:
-                    if aggregation not in aggregations:
-                        continue
-                    ranking = rankings[(code, aggregation)]
-                    ranked = (names[i] for i in ranking if mask[i])
-                    keywords = list(ranked) if top == 0 else list(_first(ranked, top))
-                    if not first:
-                        stream.write("\n")
-                    first = False
-                    stream.write(f"{pattern} – {mode} – {code} – {aggregation}\n")
-                    stream.write(", ".join(keywords) + "\n")
+                ranking = rankings[code]
+                ranked = (names[i] for i in ranking if mask[i])
+                keywords = list(ranked) if top == 0 else list(_first(ranked, top))
+                if not first:
+                    stream.write("\n")
+                first = False
+                stream.write(f"{pattern} – {mode} – {code} – pool\n")
+                stream.write(", ".join(keywords) + "\n")
     print(f"Selected {len(selected)} document(s) matching {pattern!r}")
     print(output)
     return output
@@ -293,8 +251,6 @@ def main() -> None:
                         help="Scorers registered in scorers.py (default: five families; G² variants are opt-in)")
     parser.add_argument("--vocab", nargs="+", choices=VOCABS, default=["all"],
                         help="Vocabulary filters (default: all)")
-    parser.add_argument("--aggreg", nargs="+", choices=AGGREGATIONS,
-                        default=list(AGGREGATIONS), help="Aggregation modes (default: all three)")
     parser.add_argument("--stopwords", type=Path, default=DEFAULT_STOPWORDS,
                         help="Stopword file (default: stopwords.txt beside script)")
     parser.add_argument("--top", type=int, default=100,
@@ -305,8 +261,7 @@ def main() -> None:
     args.scorer = list(dict.fromkeys(code.strip().lower() for code in args.scorer))
     try:
         build(args.table_prefix, args.identifier_glob, args.output_dir, args.scorer,
-              list(dict.fromkeys(args.vocab)), list(dict.fromkeys(args.aggreg)),
-              args.stopwords, args.top)
+              list(dict.fromkeys(args.vocab)), args.stopwords, args.top)
     except (OSError, ValueError, ZeroDivisionError) as error:
         parser.error(str(error))
 
