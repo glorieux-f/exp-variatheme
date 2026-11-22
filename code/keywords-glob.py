@@ -209,10 +209,12 @@ def build(table_prefix: Path, pattern: str, output_dir: Path, scorers: list[str]
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
     stem = f"{prefix}{pattern_slug(pattern)}"
     output = output_dir / f"{stem}.txt"
+    """
     suffix = 2
     while output.exists():
         output = output_dir / f"{stem}-{suffix}.txt"
         suffix += 1
+    """
     with output.open("w", encoding="utf-8", newline="\n") as stream:
         first = True
         for mode in VOCABS:

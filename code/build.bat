@@ -8,5 +8,7 @@ setlocal EnableExtensions EnableDelayedExpansion
 :: python .\pcoa.py ..\results\keywords100\matrix.tsv
 :: python .\keywords_stats.py  --terms ..\data\3_contingency\ddr- --stopwords .\stopwords.txt --top 100 --stopwords-top 20 -o ..\results\keywords100-stats.tsv  "..\results\keywords100\ddr-keywords100-all-*.txt"
 
-:: ddr19770721aena, ddr19721100ao
-python .\keywords-glob.py ..\data\3_contingency\ddr- "ddr19770721aena*" ..\results\keywords\ --scorer simpleridf simplemaths fisher tfidf --vocab all 
+:: Some list of terms by book
+for %%P in (ddr19770721aena ddr19721100ao) do (
+    python .\keywords-glob.py ..\data\3_contingency\ddr- "%%P*" ..\results\keywords\ --scorer simpleridf simplemaths fisher tfidf --vocab nostops
+)
