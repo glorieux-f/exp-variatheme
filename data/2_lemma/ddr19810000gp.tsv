@@ -9,9 +9,9 @@
 préface	préface	NOUN
 Guy	Guy	PROPN
 de	de	ADP
-Pourtalès	Pourtalès	ADP
+Pourtalès	Pourtalès	PROPN
 l'	le	DET
-Européen	Européen	PROPN
+Europe	Europe	PROPN
 (	(	PUNCTclause
 1981	1981	NUM
 )	)	PUNCTclause
@@ -341,11 +341,11 @@ les	le	DET
 huguenots	huguenot	NOUN
 ,	,	PUNCTclause
 les	le	DET
-Suisses	Suisses	PROPN
+Suisse	Suisse	PROPN
 romands	romand	ADJ
 et	et	CCONJ
 les	le	DET
-anglais	anglais	NOUN
+Grande-Bretagne	Grande-Bretagne	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
 je	je	PRON
@@ -514,7 +514,7 @@ ont	avoir	AUX
 successivement	successivement	ADV
 les	le	DET
 Hochberg	Hochberg	PROPN
-allemands	allemand	ADJ
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 les	le	DET
 Orléans-Longueville	Orléans-Longueville	PROPN
@@ -597,7 +597,7 @@ va	aller	VERB
 fonder	fonder	VERB
 la	le	DET
 branche	branche	NOUN
-allemande	allemand	ADJ
+Allemagne	Allemagne	PROPN
 de	de	ADP
 la	le	DET
 famille	famille	NOUN
@@ -627,7 +627,7 @@ en	en	ADP
 fonderont	fonder	VERB
 la	le	DET
 branche	branche	NOUN
-française	français	ADJ
+France	France	PROPN
 et	et	CCONJ
 la	le	DET
 branche	branche	NOUN
@@ -674,7 +674,7 @@ envers	envers	ADP
 le	le	DET
 grand	grand	ADJ
 empereur	empereur	NOUN
-français	français	ADJ
+France	France	PROPN
 et	et	CCONJ
 sa	son	DET
 descendance	descendance	NOUN
@@ -833,7 +833,7 @@ langue	langue	NOUN
 à	à	ADP
 la	le	DET
 culture	culture	NOUN
-française	français	ADJ
+France	France	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 par	par	ADP
@@ -881,11 +881,11 @@ donc	donc	ADV
 fondé	fonder	VERB
 les	le	DET
 branches	branche	NOUN
-suisse	suisse	ADJ
+Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-française	français	ADJ
+France	France	PROPN
 et	et	CCONJ
-allemande	allemand	ADJ
+Allemagne	Allemagne	PROPN
 de	de	ADP
 la	le	DET
 famille	famille	NOUN
@@ -961,7 +961,7 @@ dès	dès	ADP
 1912	1912	NUM
 la	le	DET
 nationalité	nationalité	NOUN
-française	français	ADJ
+France	France	PROPN
 en	en	ADP
 vertu	vertu	NOUN
 des	un	ADP_DET
@@ -992,7 +992,7 @@ une	un	DET
 mission	mission	NOUN
 de	de	ADP
 propagande	propagande	NOUN
-française	français	ADJ
+France	France	PROPN
 auprès	auprès	ADV
 des	un	ADP_DET
 pays	pays	NOUN
@@ -1033,7 +1033,7 @@ cousin	cousin	NOUN
 de	de	ADP
 un	un	DET
 ambassadeur	ambassadeur	NOUN
-allemand	allemand	ADJ
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 pire	pire	ADJ
@@ -1045,7 +1045,7 @@ frère	frère	NOUN
 de	de	ADP
 un	un	DET
 officier	officier	NOUN
-suisse	suisse	ADJ
+Suisse	Suisse	PROPN
 !	!	PUNCTsent
 Clemenceau	Clemenceau	PROPN
 ,	,	PUNCTclause
@@ -1253,7 +1253,7 @@ ayant	avoir	AUX
 recouvré	recouvrer	VERB
 la	le	DET
 nationalité	nationalité	NOUN
-française	français	ADJ
+France	France	PROPN
 deux	deux	NUM
 ans	an	NOUN
 plus	plus	ADV
@@ -1273,7 +1273,7 @@ liaison	liaison	NOUN
 avec	avec	ADP
 l'	le	DET
 armée	armée	NOUN
-anglaise	anglais	ADJ
+Grande-Bretagne	Grande-Bretagne	PROPN
 .	.	PUNCTsent
 il	il	PRON
 est	être	AUX
@@ -1423,7 +1423,7 @@ le	le	DET
 milieu	milieu	NOUN
 social	social	ADJ
 ,	,	PUNCTclause
-anglaise	anglais	ADJ
+Grande-Bretagne	Grande-Bretagne	PROPN
 par	par	ADP
 l'	le	DET
 éducation	éducation	NOUN
@@ -1572,7 +1572,7 @@ rare	rare	ADJ
 dans	dans	ADP
 les	le	DET
 lettres	lettre	NOUN
-françaises	français	ADJ
+France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -1716,9 +1716,9 @@ ajoutons	ajouter	VERB
 à	à	ADP
 tout	tout	PRON
 cela	cela	PRON
-la	le	DET
+la	le_PRON	PRON
 dimension	dimension	NOUN
-anglaise	anglais	ADJ
+Grande-Bretagne	Grande-Bretagne	PROPN
 :	:	PUNCTclause
 les	le	DET
 remarquables	remarquable	ADJ
@@ -1800,7 +1800,8 @@ européen	européen	ADJ
 des	un	ADP_DET
 écrivains	écrivain	NOUN
 de	de	ADP
-langue française	langue française	NOUN
+langue	langue	NOUN
+France	France	PROPN
 dans	dans	ADP
 notre	notre	DET
 siècle	siècle	NOUN

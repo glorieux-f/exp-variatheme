@@ -164,7 +164,7 @@ class BM25(Scorer):
 
     idf = ln(1 + (N - df + 0.5) / (df + 0.5))
     K = k1 * (1 - b + b * dl / avgdl)
-    idf * tf / (tf + K)
+    idf**idf_exp * tf / (tf + K)
 
     tf : term frequency in document
     N : number of documents
@@ -173,6 +173,7 @@ class BM25(Scorer):
     avgdl : average document length
     k1 : BM25 term-frequency saturation parameter
     b : BM25 document-length normalization parameter
+    idf_exp : exponent applied to the BM25 IDF (1.0 for Lucene)
 
     The usual BM25 factor (k1 + 1) is constant for a fixed scorer and is omitted because it does not change within-document term ranking. Raw document lengths are used instead of Lucene's compact norm encoding.
 
@@ -183,6 +184,8 @@ class BM25(Scorer):
     _registrations = (
         ('bm25', 'BM25'),
         ('bm25k{k1}b{b}', 'BM25(k₁={k1:g},b={b:g})'),
+        ('bm25e{idf_exp}', 'BM25(idf_exp={idf_exp:g})'),
+        ('bm25k{k1}b{b}e{idf_exp}', 'BM25(k₁={k1:g},b={b:g},idf_exp={idf_exp:g})'),
     )
 
     def __init__(
@@ -190,36 +193,39 @@ class BM25(Scorer):
         corpus: TermDocCorpus,
         k1: float = 1.2,
         b: float = 0.75,
+        idf_exp: float = 1.0,
     ) -> None:
         if not isfinite(k1) or k1 < 0.0:
             raise ValueError("k1 must be finite and >= 0")
         if not isfinite(b) or not 0.0 <= b <= 1.0:
             raise ValueError("b must be finite and in [0, 1]")
+        if not isfinite(idf_exp) or idf_exp < 0.0:
+            raise ValueError("idf_exp must be finite and >= 0")
         if corpus.avg_doc_len <= 0.0:
             raise ValueError("avg_doc_len must be > 0")
 
         super().__init__(corpus)
         self.k1 = k1
         self.b = b
+        self.idf_exp = idf_exp
 
         df = np.asarray(corpus.df, dtype=np.float64)
         self._idf = np.zeros(df.shape, dtype=np.float64)
         valid = df > 0
         self._idf[valid] = np.log1p(
             (corpus.n_docs - df[valid] + 0.5) / (df[valid] + 0.5)
-        )
+        ) ** idf_exp
 
     @property
     def code(self) -> str:
         """Return the filename code."""
-        if self.k1 == 1.2 and self.b == 0.75:
-            return "bm25"
-        return f"bm25k{self.k1:g}b{self.b:g}"
+        base = "bm25" if self.k1 == 1.2 and self.b == 0.75 else f"bm25k{self.k1:g}b{self.b:g}"
+        return base if self.idf_exp == 1.0 else f"{base}e{self.idf_exp:g}"
 
     @property
     def name(self) -> str:
         """Return the human-readable scorer name."""
-        return f"Lucene BM25 (k1={self.k1:g}, b={self.b:g})"
+        return f"BM25 (k1={self.k1:g}, b={self.b:g}, idf_exp={self.idf_exp:g})"
 
     def score_terms(
         self,

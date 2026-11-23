@@ -1175,9 +1175,9 @@ avons	avoir	AUX
 fait	faire	VERB
 ,	,	PUNCTclause
 nous	nous	PRON
-les	le	DET
+les	le_PRON	PRON
 mauvais	mauvais	ADJ
-européens	européen	NOUN
+Europe	Europe	PROPN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 répandu	répandre	VERB
@@ -1265,7 +1265,7 @@ Pierre	Pierre	PROPN
 Messmer	Messmer	PROPN
 ,	,	PUNCTclause
 premier ministre	Premier ministre	NOUN
-français	français	ADJ
+France	France	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -1324,7 +1324,7 @@ de	de	ADP
 un	un	DET
 «	«	PUNCTclause
 mauvais	mauvais	ADJ
-français	français	NOUN
+France	France	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ce	ce	DET
@@ -1345,7 +1345,7 @@ saurait	savoir	VERB
 être	être	AUX
 que	que	SCONJ
 «	«	PUNCTclause
-française	français	ADJ
+France	France	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 mesurée	mesurer	VERB
@@ -1592,7 +1592,7 @@ humanité	humanité	NOUN
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 ministre	ministre	NOUN
-français	français	ADJ
+France	France	PROPN
 de	de	ADP
 l'	le	DET
 environnement	environnement	NOUN
@@ -2611,7 +2611,9 @@ année	année	NOUN
 le	le	DET
 président	président	NOUN
 des	un	ADP_DET
-USA	USA	PROPN
+États-Unis	États-Unis	PROPN
+de	de	ADP
+États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 ils	ils	PRON
@@ -3526,7 +3528,7 @@ soins	soin	NOUN
 de	de	ADP
 la	le	DET
 Révolution	Révolution	PROPN
-française	français	ADJ
+France	France	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
 leur	leur	DET
@@ -3551,7 +3553,7 @@ les	le	DET
 trois	trois	NUM
 Édouard	Édouard	PROPN
 de	de	ADP
-Angleterre	Angleterre	PROPN
+Grande-Bretagne	Grande-Bretagne	PROPN
 ouvrent	ouvrir	VERB
 la	le	DET
 voie	voie	NOUN
@@ -3668,7 +3670,7 @@ les	le	DET
 cartes	carte	NOUN
 de	de	ADP
 l'	le	DET
-Amérique	Amérique	PROPN
+États-Unis	États-Unis	PROPN
 du	du	ADP_DET
 Nord	Nord	PROPN
 ou	ou	CCONJ
@@ -4120,13 +4122,13 @@ nation	nation	NOUN
 germanique	germanique	ADJ
 ,	,	PUNCTclause
 l'	le	DET
-espagnol	espagnol	NOUN
+Espagne	Espagne	PROPN
 ,	,	PUNCTclause
 le	le	DET
 turc	turc	NOUN
 et	et	CCONJ
 le	le	DET
-russe	russe	NOUN
+Russie	Russie	PROPN
 .	.	PUNCTsent
 au	au	ADP_DET
 17e	17e	ADJ
@@ -4661,7 +4663,7 @@ dit	dire	VERB
 fortement	fortement	ADV
 un	un	DET
 historien	historien	NOUN
-français	français	ADJ
+France	France	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
 l'	le_PRON	PRON
@@ -4750,7 +4752,7 @@ les	le	DET
 divers	divers	ADJ
 idiomes	idiome	NOUN
 non	non	ADV
-français	français	ADJ
+France	France	PROPN
 usités	usité	ADJ
 dans	dans	ADP
 le	le	DET
@@ -4759,10 +4761,10 @@ royaume	royaume	NOUN
 à	à	ADP
 savoir	savoir	VERB
 l'	le	DET
-allemand	allemand	NOUN
+Allemagne	Allemagne	X
 ,	,	PUNCTclause
 l'	le	DET
-italien	italien	NOUN
+Italie	Italie	PROPN
 ,	,	PUNCTclause
 le	le	DET
 catalan	catalan	NOUN
@@ -4818,7 +4820,7 @@ que	que	SCONJ
 l'	le	DET
 emploi	emploi	NOUN
 du	du	ADP_DET
-français	français	NOUN
+France	France	PROPN
 comme	comme	ADP
 langue	langue	NOUN
 administrative	administratif	ADJ
@@ -4918,7 +4920,8 @@ déclare	déclarer	VERB
 que	que	SCONJ
 «	«	PUNCTclause
 la	le	DET
-langue française	langue française	NOUN
+langue	langue	NOUN
+France	France	PROPN
 doit	devoir	VERB
 être	être	AUX
 le	le	DET
@@ -4951,7 +4954,7 @@ ne	ne	ADV
 comprennent	comprendre	VERB
 pas	pas	ADV
 le	le	DET
-français	français	NOUN
+France	France	PROPN
 (	(	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -5007,12 +5010,12 @@ de	de	ADP
 la	le	DET
 République	République	PROPN
 parlent	parler	VERB
-allemand	allemand	ADJ
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 la	le	DET
 contre-révolution	contre-révolution	NOUN
 parle	parler	VERB
-italien	italien	ADJ
+Italie	Italie	PROPN
 et	et	CCONJ
 le	le	DET
 fanatisme	fanatisme	NOUN
@@ -5353,7 +5356,7 @@ que	que	SCONJ
 la	le	DET
 grande	grand	ADJ
 Révolution	Révolution	PROPN
-française	français	ADJ
+France	France	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 bouleversant	bouleverser	VERB
@@ -5732,7 +5735,7 @@ l'	le	DET
 nationale	national	ADJ
 ,	,	PUNCTclause
 puis	puis	CCONJ
-stato-nationale	stato-national	NOUN
+stato-national	stato-national	PRON
 ,	,	PUNCTclause
 deux	deux	NUM
 citations	citation	NOUN
@@ -5833,7 +5836,7 @@ ces	ce	DET
 déclarations	déclaration	NOUN
 ,	,	PUNCTclause
 le	le	DET
-français	français	NOUN
+France	France	PROPN
 moyen	moyen	ADJ
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
@@ -5925,7 +5928,7 @@ ne	ne	ADV
 appartient	appartenir	VERB
 que	que	ADV
 aux	au	ADP_DET
-français	français	NOUN
+France	France	PROPN
 de	de	ADP
 le	le	DET
 faire	faire	AUX
@@ -6051,7 +6054,7 @@ ayant	avoir	AUX
 sauté	sauter	VERB
 ,	,	PUNCTclause
 les	le	DET
-français	français	NOUN
+France	France	PROPN
 se	se	PRON
 retrouvent	retrouver	VERB
 beaucoup	beaucoup	ADV
@@ -6537,7 +6540,7 @@ penser	penser	VERB
 à	à	ADP
 l'	le	DET
 industrie	industrie	NOUN
-anglaise	anglais	ADJ
+Grande-Bretagne	Grande-Bretagne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -7035,7 +7038,7 @@ Cloots	Cloots	PROPN
 ,	,	PUNCTclause
 ce	ce	DET
 baron	baron	NOUN
-hollandais	hollandais	ADJ
+Pays-Bas	Pays-Bas	PROPN
 ,	,	PUNCTclause
 Prussien	Prussien	PROPN
 de	de	ADP
@@ -7459,11 +7462,11 @@ et	et	CCONJ
 au	au	ADP_DET
 Proche-Orient	Proche-Orient	NOUN
 où	où	PRON
-Français	Français	PROPN
+France	France	PROPN
 ,	,	PUNCTclause
-Britanniques	Britanniques	PROPN
+britanniques	britannique	ADJ
 et	et	CCONJ
-allemands	allemand	ADJ
+Allemagne	Allemagne	PROPN
 se	se	PRON
 affrontent	affronter	VERB
 avec	avec	ADP
@@ -7926,7 +7929,7 @@ inverse	inverser	VERB
 dès	dès	ADP
 la	le	DET
 Révolution	Révolution	PROPN
-française	français	ADJ
+France	France	PROPN
 .	.	PUNCTsent
 alors que	alors que	CCONJ
 à	à	ADP
@@ -9662,7 +9665,7 @@ Staline	Staline	PROPN
 un	un	DET
 jeune	jeune	ADJ
 mouvement	mouvement	NOUN
-personnaliste	personnaliste	ADJ
+personnalisme	personnalisme	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 ordre	ordre	NOUN
@@ -9816,7 +9819,7 @@ aux	au	ADP_DET
 de	de	ADP
 toute	toute	DET
 critique	critique	NOUN
-fédéraliste	fédéraliste	ADJ
+fédéralisme	fédéralisme	NOUN
 de	de	ADP
 l'	le	DET
 état-nation	État-nation	NOUN
@@ -9870,7 +9873,7 @@ ma	mon	DET
 Lettre	Lettre	PROPN
 ouverte	ouvrir	VERB
 aux	au	ADP_DET
-européens	européen	NOUN
+Europe	Europe	PROPN
 (	(	PUNCTclause
 1970	1970	NUM
 )	)	PUNCTclause
@@ -10009,7 +10012,7 @@ pour	pour	ADP
 répondre	répondre	VERB
 au	au	ADP_DET
 défi	défi	NOUN
-américain	américain	ADJ
+États-Unis	États-Unis	PROPN
 —	—	PUNCTclause
 cela	cela	PRON
 ne	ne	ADV
@@ -10464,9 +10467,9 @@ est	être	AUX
 pas	pas	ADV
 l'	le	DET
 uranium	uranium	NOUN
-américain	américain	ADJ
+États-Unis	États-Unis	PROPN
 ou	ou	CCONJ
-russe	russe	ADJ
+Russie	Russie	PROPN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 les	le	DET
@@ -10990,7 +10993,7 @@ relevé	relever	VERB
 dans	dans	ADP
 deux	deux	NUM
 journaux	journal	NOUN
-français	français	ADJ
+France	France	PROPN
 ces	ce	DET
 titres	titre	NOUN
 que	que	SCONJ
@@ -11021,7 +11024,7 @@ la	le	DET
 France	France	PROPN
 sans que	sans que	SCONJ
 les	le	DET
-français	français	NOUN
+France	France	PROPN
 en	en	ADP
 souffrent	souffrir	VERB
 ↵↵	↵↵	PUNCTstruct

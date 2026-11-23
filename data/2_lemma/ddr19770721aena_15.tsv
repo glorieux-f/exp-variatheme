@@ -54,9 +54,9 @@ civile	civil	ADJ
 ou	ou	CCONJ
 militaire	militaire	ADJ
 ,	,	PUNCTclause
-fasciste	fasciste	ADJ
+fascisme	fascisme	NOUN
 ou	ou	CCONJ
-communiste	communiste	ADJ
+communisme	communisme	NOUN
 ,	,	PUNCTclause
 dictatoriale	dictatorial	ADJ
 ou	ou	CCONJ
@@ -838,7 +838,7 @@ devise	devise	NOUN
 de	de	ADP
 l'	le	DET
 action	action	NOUN
-française	français	ADJ
+France	France	PROPN
 ,	,	PUNCTclause
 reprise	reprendre	VERB
 aujourd'hui	aujourd'hui	ADV
@@ -1091,10 +1091,10 @@ est	être	AUX
 officiellement	officiellement	ADV
 celui	celui	PRON
 des	un	ADP_DET
-communistes	communiste	NOUN
+communisme	communisme	NOUN
 dits	dire	VERB
 «	«	PUNCTclause
-marxistes	marxiste	ADJ
+Marx	Marx	PROPN
 »	»	PUNCTclause
 et	et	CCONJ
 des	un	ADP_DET
@@ -1355,7 +1355,7 @@ ainsi	ainsi	ADV
 que	que	SCONJ
 la	le	DET
 Révolution	Révolution	PROPN
-française	français	ADJ
+France	France	PROPN
 ,	,	PUNCTclause
 comme	comme	ADP
 l'	le_PRON	PRON
@@ -1538,7 +1538,7 @@ concret	concret	ADJ
 de	de	ADP
 une	un	DET
 révolution	révolution	NOUN
-communiste	communiste	ADJ
+communisme	communisme	NOUN
 ;	;	PUNCTclause
 les	le_PRON	PRON
 remplacer	remplacer	VERB
@@ -1550,7 +1550,7 @@ un	un	DET
 coup	coup	NOUN
 de	de	ADP
 état	état	NOUN
-fasciste	fasciste	ADJ
+fascisme	fascisme	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 il	il	PRON
@@ -1573,7 +1573,7 @@ fonctionnaires	fonctionnaire	NOUN
 de	de	ADP
 un	un	DET
 régime	régime	NOUN
-communiste	communiste	ADJ
+communisme	communisme	NOUN
 se	se	PRON
 déclarent	déclarer	VERB
 maréchaux	maréchal	NOUN
@@ -1706,7 +1706,7 @@ est-ce que	est-ce que	ADV
 font	faire	VERB
 les	le	DET
 partis	parti	NOUN
-communistes	communiste	ADJ
+communisme	communisme	NOUN
 mis	mettre	VERB
 au	au	ADP_DET
 pouvoir	pouvoir	NOUN
@@ -1717,7 +1717,7 @@ européen	européen	ADJ
 par	par	ADP
 l'	le	DET
 armée	armée	NOUN
-russe	russe	ADJ
+Russie	Russie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -1887,7 +1887,7 @@ mini-État-nation	mini-État-nation	NOUN
 .	.	PUNCTsent
 un	un	DET
 vrai	vrai	ADJ
-fédéraliste	fédéraliste	ADJ
+fédéralisme	fédéralisme	NOUN
 veut	vouloir	VERB
 tout	tout	DET
 autre chose	autre chose	NOUN
@@ -1902,7 +1902,7 @@ contraire	contraire	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 loi	loi	NOUN
-française	français	ADJ
+France	France	PROPN
 sur	sur	ADP
 la	le	DET
 régionalisation	régionalisation	NOUN
@@ -2850,7 +2850,7 @@ lancé	lancer	VERB
 par	par	ADP
 un	un	DET
 journal	journal	NOUN
-français	français	ADJ
+France	France	PROPN
 .	.	PUNCTsent
 nous	nous	PRON
 trouverons	trouver	VERB
@@ -2895,7 +2895,7 @@ pas	pas	ADV
 sur	sur	ADP
 le	le	DET
 contrat	contrat	NOUN
-fédéral	fédéral	ADJ
+fédéralisme	fédéralisme	NOUN
 entre	entre	ADP
 égaux	égal	NOUN
 ;	;	PUNCTclause
@@ -2935,7 +2935,7 @@ de	de	ADP
 France	France	PROPN
 et	et	CCONJ
 de	de	ADP
-Angleterre	Angleterre	PROPN
+Grande-Bretagne	Grande-Bretagne	PROPN
 refusaient	refuser	VERB
 déjà	déjà	ADV
 de	de	ADP
@@ -3429,15 +3429,15 @@ années	année	NOUN
 1930	1930	NUM
 par	par	ADP
 les	le	DET
-personnalistes	personnaliste	NOUN
-français	français	ADJ
+personnalisme	personnalisme	NOUN
+France	France	PROPN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 reprises	reprendre	VERB
 par	par	ADP
 la plupart	la plupart	PRON
 des	un	ADP_DET
-fédéralistes	fédéraliste	NOUN
+fédéralisme	fédéralisme	NOUN
 européens	européen	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3731,7 +3731,7 @@ quoi	quoi	PRON
 avec	avec	ADP
 les	le	DET
 Länder	Länder	PROPN
-allemands	allemand	ADJ
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 me	me	PRON
 dit	dire	VERB
@@ -4334,7 +4334,7 @@ de	de	ADP
 où	où	PRON
 la	le	DET
 philosophie	philosophie	NOUN
-allemande	allemand	ADJ
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 de	de	ADP
 où	où	PRON
@@ -5065,7 +5065,7 @@ autonome	autonome	ADJ
 ?	?	PUNCTsent
 et	et	CCONJ
 les	le	DET
-allemands	allemand	NOUN
+Allemagne	Allemagne	PROPN
 de	de	ADP
 l'	le	DET
 ouest	ouest	NOUN
@@ -5077,13 +5077,13 @@ Länder	Länder	PROPN
 ?	?	PUNCTsent
 qu'est-ce que	qu'est-ce que	ADV
 les	le	DET
-Suisses	Suisses	PROPN
-ont	avoir	AUX
+Suisse	Suisse	PROPN
+ont	avoir	VERB
 de	de	ADP
 moins	moins	ADV
 que	que	SCONJ
 les	le	DET
-Belges	Belges	PROPN
+Belgique	Belgique	PROPN
 à	à	ADP
 jouir	jouir	VERB
 de	de	ADP
@@ -6411,7 +6411,7 @@ moins	moins	ADV
 par	par	ADP
 les	le	DET
 clichés	cliché	NOUN
-marxistes	marxiste	ADJ
+Marx	Marx	PROPN
 que	que	PRON
 par	par	ADP
 la	le	DET
@@ -6420,7 +6420,7 @@ de	de	ADP
 ne	ne	ADV
 être	être	AUX
 pas	pas	ADV
-marxiste	marxiste	ADJ
+Marx	Marx	PROPN
 —	—	PUNCTclause
 pas	pas	ADV
 sortable	sortable	ADJ
@@ -6608,7 +6608,7 @@ l'	le	DET
 inflation	inflation	NOUN
 des	un	DET
 pouvoirs	pouvoir	NOUN
-stato-nationaux	stato-national	ADJ
+stato-national	stato-national	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -7647,7 +7647,7 @@ la	le	DET
 ligue	ligue	NOUN
 des	un	ADP_DET
 catholiques	catholique	NOUN
-français	français	ADJ
+France	France	PROPN
 au	au	ADP_DET
 16e	16e	NUM
 siècle	siècle	NOUN
@@ -7679,7 +7679,7 @@ l'	le	DET
 état-nation	État-nation	NOUN
 ,	,	PUNCTclause
 tant	tant	ADV
-communistes	communiste	ADJ
+communisme	communisme	NOUN
 que	que	SCONJ
 nationalistes	nationaliste	ADJ
 .	.	PUNCTsent

@@ -493,7 +493,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 par	par	ADP
 les	le	DET
-espagnols	espagnol	NOUN
+Espagne	Espagne	PROPN
 et	et	CCONJ
 Portugais	Portugais	PROPN
 ,	,	PUNCTclause
@@ -501,13 +501,13 @@ les	le	DET
 Scandinaves	Scandinaves	PROPN
 ,	,	PUNCTclause
 les	le	DET
-anglais	anglais	NOUN
+Grande-Bretagne	Grande-Bretagne	PROPN
 ,	,	PUNCTclause
 les	le	DET
-hollandais	hollandais	NOUN
+Pays-Bas	Pays-Bas	PROPN
 ,	,	PUNCTclause
 les	le	DET
-français	français	NOUN
+France	France	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -1552,7 +1552,7 @@ la	le	DET
 croyance	croyance	NOUN
 chrétienne	chrétien	ADJ
 ,	,	PUNCTclause
-personnaliste	personnaliste	NOUN
+personnalisme	personnalisme	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 la	le	DET
@@ -1576,7 +1576,7 @@ atténue	atténuer	VERB
 ,	,	PUNCTclause
 comme	comme	SCONJ
 en	en	ADP
-Amérique	Amérique	PROPN
+États-Unis	États-Unis	PROPN
 (	(	PUNCTclause
 où	où	PRON
 l'on	on	PRON
@@ -1675,7 +1675,7 @@ capacité	capacité	NOUN
 spécifique	spécifique	ADJ
 de	de	ADP
 l'	le	DET
-Européen	Européen	PROPN
+Europe	Europe	PROPN
 :	:	PUNCTclause
 celle	celle	PRON
 de	de	ADP
@@ -2184,10 +2184,10 @@ offre	offrir	VERB
 plus	plus	ADV
 aux	au	ADP_DET
 empires	empire	NOUN
-américain	américain	ADJ
+États-Unis	États-Unis	PROPN
 et	et	CCONJ
-russe	russe	ADJ
-que	que	PRON
+Russie	Russie	PROPN
+que	que	SCONJ
 un	un	PRON
 de	de	ADP
 ces	ce	DET
@@ -2308,7 +2308,7 @@ matérielle	matériel	ADJ
 rappelons	rappeler	VERB
 que	que	SCONJ
 l'	le	DET
-Amérique	Amérique	PROPN
+États-Unis	États-Unis	PROPN
 consacre	consacrer	VERB
 cette	ce	DET
 année	année	NOUN
@@ -2348,9 +2348,9 @@ a	avoir	AUX
 elle	elle	PRON
 est	être	AUX
 devenue	devenir	VERB
-américaine	américain	ADJ
+États-Unis	États-Unis	PROPN
 et	et	CCONJ
-russe	russe	ADJ
+Russie	Russie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -2537,7 +2537,7 @@ que	que	SCONJ
 dans	dans	ADP
 un	un	DET
 état	état	NOUN
-communiste	communiste	ADJ
+communisme	communisme	NOUN
 la	le	DET
 censure	censure	NOUN
 au	au	ADP_DET
@@ -2630,7 +2630,7 @@ directeur	directeur	NOUN
 de	de	ADP
 l'	le	DET
 institut	institut	NOUN
-français	français	ADJ
+France	France	PROPN
 de	de	ADP
 physique	physique	NOUN
 atomique	atomique	ADJ
@@ -3478,7 +3478,7 @@ ou	ou	CCONJ
 je	je	PRON
 me	me	PRON
 ferais	faire	VERB
-Américain	Américain	PROPN
+États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -3578,7 +3578,7 @@ est	être	AUX
 colonisée	coloniser	VERB
 par	par	ADP
 l'	le	DET
-Amérique	Amérique	PROPN
+États-Unis	États-Unis	PROPN
 —	—	PUNCTclause
 ce	ce	PRON
 que	que	PRON
@@ -4134,9 +4134,9 @@ entre	entre	ADP
 les	le	DET
 deux	deux	NUM
 colosses	colosse	NOUN
-russe	russe	ADJ
+Russie	Russie	PROPN
 et	et	CCONJ
-américain	américain	ADJ
+États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 l'	le	DET
 Europe	Europe	PROPN
@@ -4177,11 +4177,11 @@ redressement	redressement	NOUN
 entre	entre	ADP
 deux-cents-millions	deux-cents-millions	DET
 de	de	ADP
-Russes	Russes	PROPN
+Russie	Russie	PROPN
 et	et	CCONJ
-cent-cinquante-millions	cent-cinquante-millions	DET
+cent-cinquante-millions	cent-cinquante-millions	NOUN
 de	de	ADP
-américains	américain	NOUN
+États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 nous	nous	PRON
 sommes	être	VERB
@@ -4198,7 +4198,7 @@ fer	fer	NOUN
 près de	près de	ADP
 trois-cents-millions	trois-cents-millions	ADV
 de	de	ADP
-Européens	Européens	PROPN
+Europe	Europe	PROPN
 .	.	PUNCTsent
 nous	nous	PRON
 disposons	disposer	VERB
@@ -4266,7 +4266,7 @@ inventé	inventer	VERB
 ,	,	PUNCTclause
 nous	nous	PRON
 les	le	DET
-Européens	Européens	PROPN
+Europe	Europe	PROPN
 ,	,	PUNCTclause
 depuis	depuis	ADP
 cent	cent	NUM
@@ -4287,7 +4287,7 @@ cite	citer	VERB
 pêle-mêle	pêle-mêle	ADV
 :	:	PUNCTclause
 le	le	DET
-marxisme	marxisme	NOUN
+Marx	Marx	PROPN
 et	et	CCONJ
 la	le	DET
 psychanalyse	psychanalyse	NOUN
@@ -4547,7 +4547,7 @@ nos	nos	DET
 dépens	dépens	NOUN
 ?	?	PUNCTsent
 l'	le	DET
-Amérique	Amérique	PROPN
+États-Unis	États-Unis	PROPN
 du	du	ADP_DET
 Nord	Nord	PROPN
 et	et	CCONJ
@@ -4801,7 +4801,7 @@ car	car	CCONJ
 je	je	PRON
 parlais	parler	VERB
 en tant que	en tant que	CCONJ
-européen	européen	ADJ
+Europe	Europe	PROPN
 quand	quand	SCONJ
 je	je	PRON
 disais	dire	VERB
@@ -4813,10 +4813,10 @@ parlent	parler	VERB
 encore	encore	ADV
 comme	comme	ADP
 des	un	DET
-français	français	NOUN
+France	France	PROPN
 ,	,	PUNCTclause
-des	un	DET
-allemands	allemand	NOUN
+des	un	ADP_DET
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 des	un	DET
 Danois	Danois	PROPN
@@ -4896,10 +4896,10 @@ pour que	pour que	SCONJ
 elle	elle	PRON
 rassure	rassurer	VERB
 un	un	DET
-français	français	NOUN
+France	France	PROPN
 ,	,	PUNCTclause
 un	un	DET
-allemand	allemand	NOUN
+Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 un	un	DET
 Danois	Danois	PROPN
@@ -5717,15 +5717,15 @@ capable	capable	ADJ
 de	de	ADP
 traiter	traiter	VERB
 au nom de	au nom de	ADP
-trois-cents-millions	trois-cents-millions	PUNCT
+trois-cents-millions	trois-cents-millions	ADV
 de	de	ADP
-Européens	Européens	PROPN
+Europe	Europe	PROPN
 avec	avec	ADP
 les	le	DET
-russes	russe	NOUN
+Russie	Russie	PROPN
 ou	ou	CCONJ
 les	le	DET
-américains	américain	NOUN
+États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
