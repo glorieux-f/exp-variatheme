@@ -161,7 +161,7 @@ def js(corpus, tid, did, tf):
     total = np.bincount(tid, weights=correction, minlength=len(cf))
     scores = np.zeros(len(cf), dtype=np.float64)
     valid = cf > 0
-    scores[valid] = np.sqrt(cf[valid]) * np.maximum(
+    scores[valid] = np.log(cf[valid]) * np.maximum(
         0.0, np.log(2.0) - 0.5 * total[valid]
     )
     return scores
