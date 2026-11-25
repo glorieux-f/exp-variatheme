@@ -318,6 +318,10 @@ def main():
                         help="kl, js, jslog, or any scorer code supported by scorers.py")
     parser.add_argument("--js-tau", type=float, default=500.0,
                         help="positive CF transition scale for jslog, default 500")
+    parser.add_argument("--fusion", action="store_true",
+                        help="also produce Borda and RRF of jslog and SimpleRidf/tf-l2")
+    parser.add_argument("--rrf-k", type=float, default=60.0,
+                        help="rank-smoothing constant for RRF (default 60)")
     parser.add_argument("--families", action="store_true",
                         help="print one inferred term neighborhood per ranked keyword")
     parser.add_argument("--family-size", type=int, default=5,
@@ -348,6 +352,14 @@ def main():
         parser.error("--js-tau must be positive and finite")
     if args.family_size < 2 or not 0 <= args.family_sim <= 1:
         parser.error("--family-size must be >= 2 and --family-sim must be in [0,1]")
+    if not np.isfinite(args.rrf_k) or args.rrf_k <= 0:
+        parser.error("--rrf-k must be positive and finite")
+    if args.fusion and (args.families or "jslog" not in args.scorers
+                        or "simpleridf" not in args.scorers
+                        or (args.aggregators is not None
+                            and "tf-l2" not in args.aggregators)):
+        parser.error("--fusion requires --scorers jslog simpleridf, "
+                     "SimpleRidf/tf-l2, and no --families")
     if args.family_seeds and not args.families:
         parser.error("--family-seeds requires --families")
     if not np.isfinite(args.power) or args.power < 1.0:
@@ -383,6 +395,7 @@ def main():
         loss = bm25_saturation_loss(corpus, tid, did, tf, args.k1, args.b)
 
     family_profiles = None
+    scores_by_label = {}
     for name in dict.fromkeys(args.scorers):
         if name in ("kl", "js", "jslog"):
             # Corpus-level divergences do not use document-score aggregators.
@@ -409,6 +422,7 @@ def main():
             ) for method in methods]
 
         for label, scores in rankings:
+            scores_by_label[label] = scores
             ranking = ids[np.argsort(-scores[ids], kind="stable")]
             for mode in vocabularies:
                 filtered = ranking[masks[mode][ranking]]
@@ -444,6 +458,42 @@ def main():
                                   lemmas, corpus.cf, corpus.df, scores)
                     print(f"\n{display} top {len(selected)}:", flush=True)
                     print(", ".join(lemmas[term_id] for term_id in selected), flush=True)
+
+
+    if args.fusion:
+        js_label = f"jslog-tau{args.js_tau:g}"
+        simple_label = "simpleridf-tf-l2" if args.aggregators is not None else "simpleridf"
+        first = scores_by_label[js_label]
+        second = scores_by_label[simple_label]
+        for mode in vocabularies:
+            eligible = ids[masks[mode][ids]]
+            n = len(eligible)
+            r1 = np.zeros(len(corpus.cf), dtype=np.int32)
+            r2 = np.zeros(len(corpus.cf), dtype=np.int32)
+            first_order = eligible[np.argsort(-first[eligible], kind="stable")]
+            second_order = eligible[np.argsort(-second[eligible], kind="stable")]
+            r1[first_order] = np.arange(1, n + 1)
+            r2[second_order] = np.arange(1, n + 1)
+            suffix = "" if mode == "all" else f"-{mode}"
+            for method in ("borda", "rrf"):
+                fused = np.zeros(len(corpus.cf), dtype=np.float64)
+                if method == "borda":
+                    fused[eligible] = -(r1[eligible] + r2[eligible])
+                    label = f"borda-{js_label}-simpleridf-tf-l2"
+                else:
+                    fused[eligible] = (1.0 / (args.rrf_k + r1[eligible])
+                                       + 1.0 / (args.rrf_k + r2[eligible]))
+                    label = f"rrf{args.rrf_k:g}-{js_label}-simpleridf-tf-l2"
+                # Tie-break using JS-log rank to preserve the first method's order.
+                ranking = eligible[np.lexsort((r1[eligible], -fused[eligible]))]
+                selected = ranking[:args.top]
+                stem = f"corpus-{label}{suffix}"
+                write_results(args.out / f"{stem}-all.tsv", ranking, lemmas,
+                              corpus.cf, corpus.df, fused)
+                write_results(args.out / f"{stem}-top{args.top}.tsv", selected, lemmas,
+                              corpus.cf, corpus.df, fused)
+                print(f"\n{label} / {mode} top {len(selected)}:", flush=True)
+                print(", ".join(lemmas[term_id] for term_id in selected), flush=True)
 
 
 if __name__ == "__main__":
