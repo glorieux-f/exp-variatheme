@@ -17,7 +17,7 @@ autres	autre	ADJ
 cultures	culture	NOUN
 (	(	PUNCTclause
 juin	juin	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -326,7 +326,7 @@ Italie	Italie	PROPN
 des	un	ADP_DET
 chanteurs	chanteur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -587,11 +587,11 @@ vraiment	vraiment	ADV
 «	«	PUNCTclause
 étrangères	étranger	ADJ
 »	»	PUNCTclause
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 vous	vous	PRON
 commencerez	commencer	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 à	à	ADP
 sentir	sentir	VERB
 «	«	PUNCTclause
@@ -1470,7 +1470,7 @@ tout	tout	ADV
 que	que	SCONJ
 un	un	DET
 petit	petit	NOUN
-5	5	NUM
+5	5	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 du	du	ADP_DET

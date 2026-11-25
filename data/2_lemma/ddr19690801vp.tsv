@@ -17,10 +17,9 @@ pas	pas	ADV
 le	le	DET
 paradis	paradis	NOUN
 (	(	PUNCTclause
-1	1	NUM
-er	er	ADP
+1er	1er	NUMord
 août	août	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -123,7 +122,7 @@ la	le	DET
 chiffre	chiffre	NOUN
 à peu près	à peu près	ADV
 à	à	ADP
-100	100	NUM
+100	100	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 francs	franc	NOUN
@@ -172,7 +171,7 @@ sur	sur	ADP
 la	le	DET
 lune	lune	NOUN
 avant	avant	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -318,7 +317,7 @@ une	un	DET
 partie	partie	NOUN
 de	de	ADP
 ces	ce	DET
-100	100	NUM
+100	100	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 francs	franc	NOUN
@@ -1183,7 +1182,7 @@ chose	chose	NOUN
 quand	quand	SCONJ
 on	on	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 la	le	DET
 toucher	toucher	NOUN
 ,	,	PUNCTclause
@@ -1367,10 +1366,10 @@ est-ce que	est-ce que	ADV
 l'on	on	PRON
 a	avoir	AUX
 dépensé	dépenser	VERB
-100	100	NUM
+100	100	DIGIT
 milliards	milliard	NOUN
 —	—	PUNCTclause
-100	100	NUM
+100	100	DIGIT
 milliards	milliard	NOUN
 ne	ne	ADV
 étant	être	AUX
@@ -2167,7 +2166,7 @@ le	le	DET
 départ	départ	NOUN
 de	de	ADP
 Apollo	Apollo	PROPN
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB

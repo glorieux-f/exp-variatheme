@@ -15,9 +15,9 @@ homme d'État	homme d'État	NOUN
 ↵↵	↵↵	PUNCTstruct
 Princeton	Princeton	PROPN
 ,	,	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 novembre	novembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 notre	notre	DET
@@ -675,7 +675,9 @@ qui	qui	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 dit	dire	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 Truman	Truman	PROPN
 ?	?	PUNCTsent
 l'	le	DET
@@ -945,7 +947,7 @@ la	le	DET
 fonction	fonction	NOUN
 même	même	ADJ
 des	un	ADP_DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 les	le	DET
 disqualifie	disqualifier	VERB
 ,	,	PUNCTclause
@@ -1044,7 +1046,7 @@ de	de	ADP
 haut	haut	NOUN
 avec	avec	ADP
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ

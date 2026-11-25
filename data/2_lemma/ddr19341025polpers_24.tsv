@@ -6,7 +6,7 @@
 # title = 5. La Révolution nécessaire
 
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Révolution	Révolution	PROPN
@@ -20,7 +20,7 @@ Dandieu	Dandieu	PROPN
 (	(	PUNCTclause
 Grasset	Grasset	PROPN
 ,	,	PUNCTclause
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1298,10 +1298,10 @@ pourquoi	pourquoi	ADV
 les	le	DET
 révolutions	révolution	NOUN
 de	de	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 et	et	CCONJ
 de	de	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 aboutissent	aboutir	VERB
 elles	elles	PRON
 à	à	ADP

@@ -69,16 +69,16 @@ mon	mon	DET
 travail	travail	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 West	West	X
-16	16	NUM
+16	16	DIGIT
 th	th	X
 street	street	X
 ,	,	PUNCTclause
 New York	New York	X
 fin	fin	X
 décembre	décembre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ↵↵	↵↵	PUNCTstruct
 trouvé	trouver	VERB
 un	un	DET
@@ -231,7 +231,7 @@ mercredi	mercredi	NOUN
 des	un	ADP_DET
 Cendres	Cendres	PROPN
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 février	février	NOUN
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
@@ -384,7 +384,7 @@ et	et	CCONJ
 cours	cours	NOUN
 dîner	dîner	VERB
 pour	pour	ADP
-50	50	NUM
+50	50	DIGIT
 cents	cents	NUM
 à	à	ADP
 la	le	DET
@@ -393,7 +393,7 @@ du	du	ADP_DET
 coin	coin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-22	22	NUM
+22	22	DIGIT
 février	février	NOUN
 ↵↵	↵↵	PUNCTstruct
 après	après	ADP
@@ -639,7 +639,7 @@ ou	ou	CCONJ
 sortir	sortir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 février	février	NOUN
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -815,8 +815,7 @@ de	de	ADP
 Bach	Bach	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -897,7 +896,7 @@ les	le	DET
 tasses	tasse	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 quand	quand	SCONJ
@@ -950,7 +949,7 @@ verbe	verbe	NOUN
 réfléchi	réfléchir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 donné	donner	VERB
@@ -1064,7 +1063,7 @@ ce	ce	DET
 soir	soir	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 promenade	promenade	NOUN
@@ -1151,7 +1150,7 @@ que	que	SCONJ
 moi	moi	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 réveillé	réveiller	VERB
@@ -1314,7 +1313,7 @@ l'	le	DET
 utile	utile	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 pluie	pluie	NOUN
@@ -1386,7 +1385,7 @@ et	et	CCONJ
 jour	jour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 terminé	terminer	VERB
@@ -1446,7 +1445,7 @@ dans	dans	ADP
 peu	peu	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
@@ -1480,7 +1479,7 @@ sans	sans	ADP
 insister	insister	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-25	25	NUM
+25	25	DIGIT
 mars	mars	NOUN
 ↵↵	↵↵	PUNCTstruct
 écrit	écrire	VERB
@@ -1564,7 +1563,7 @@ vitesse	vitesse	NOUN
 ces	ce	DET
 notes	note	NOUN
 de	de	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 me	me	PRON
@@ -1590,9 +1589,9 @@ de	de	ADP
 Ferney	Ferney	PROPN
 ,	,	PUNCTclause
 le	le	DET
-29	29	NUM
+29	29	DIGIT
 juin	juin	NOUN
-1954	1954	NUM
+1954	1954	DIGIT
 .	.	PUNCTsent
 après	après	ADP
 le	le	DET
@@ -1707,7 +1706,7 @@ sa	son	DET
 mort	mort	NOUN
 prématurée	prématuré	ADJ
 en	en	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 le	le	DET
@@ -1958,7 +1957,7 @@ eu	avoir	VERB
 ,	,	PUNCTclause
 selon	selon	ADP
 le premier	le premier	PRON
-chapitre	chapitrer	VERB
+chapitre	chapitre	NOUN
 de	de	ADP
 ce	ce	DET
 livre	livre	NOUN
@@ -2181,7 +2180,7 @@ vous	vous	PRON
 y	y	PRON
 lirez	lire	VERB
 à la page	à la page	ADJ
-348	348	NUM
+348	348	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Deux	Deux	NUM
@@ -2363,7 +2362,7 @@ dominicain	dominicain	NOUN
 ,	,	PUNCTclause
 chargé	charger	VERB
 dès	dès	ADP
-1528	1528	NUM
+1528	1528	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 «	«	PUNCTclause
@@ -3102,7 +3101,7 @@ est	être	AUX
 seulement	seulement	ADV
 la	le	DET
 condition	condition	NOUN
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 de	de	ADP
 une	un	DET
 ouverture	ouverture	NOUN
@@ -3547,9 +3546,9 @@ divergente	divergent	ADJ
 ou	ou	CCONJ
 antagoniste	antagoniste	ADJ
 de	de	ADP
-1010	1010	NUM
+1010	1010	DIGIT
 _	_	SYM
-1	1	NUM
+1	1	DIGIT
 combinaisons	combinaison	NOUN
 réalisées	réaliser	VERB
 et	et	CCONJ
@@ -4732,7 +4731,7 @@ quand	quand	SCONJ
 je	je	PRON
 écrivais	écrire	VERB
 en	en	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 que	que	SCONJ
 l'	le	DET
 avenir	avenir	NOUN
@@ -4854,7 +4853,7 @@ actuelle	actuel	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-77	77	NUM
+77	77	DIGIT
 )	)	PUNCTclause
 est	être	AUX
 une	un	PRON
@@ -6869,7 +6868,7 @@ années	année	NOUN
 plus	plus	ADV
 tôt	tôt	ADV
 (	(	PUNCTclause
-1930	1930	NUM
+1930	1930	DIGIT
 )	)	PUNCTclause
 son	son	DET
 étude	étude	NOUN
@@ -7180,7 +7179,7 @@ Eddington	Eddington	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 avait	avoir	AUX
 calculé	calculer	VERB
@@ -7339,7 +7338,7 @@ jamais	jamais	ADV
 le	le	DET
 diable	diable	NOUN
 .	.	PUNCTsent
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 en	en	ADP
 brûlant	brûler	VERB
 le	le	DET
@@ -7707,7 +7706,7 @@ proposent	proposer	VERB
 ici	ici	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 définir	définir	VERB
 le	le	DET
@@ -7900,7 +7899,7 @@ les	le	DET
 criminels	criminel	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 consumer	consumer	VERB
 le	le	DET
@@ -8006,7 +8005,7 @@ bien	bien	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 pardonner	pardonner	VERB
 .	.	PUNCTsent
@@ -9143,7 +9142,7 @@ toute	toute	DET
 aliénation	aliénation	NOUN
 sans	sans	ADP
 perdre	perdre	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 mes	mon	DET
 moyens	moyen	NOUN
 de	de	ADP

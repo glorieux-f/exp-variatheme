@@ -1425,7 +1425,7 @@ de	de	ADP
 une	un	DET
 bombe	bombe	NOUN
 de	de	ADP
-1000	1000	NUM
+1000	1000	DIGIT
 kilos	kilo	NOUN
 son	son	DET
 invention	invention	NOUN
@@ -2544,10 +2544,10 @@ un	un	DET
 demi-siècle	demi-siècle	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-25000	25000	NUM
+25000	25000	DIGIT
 habitants	habitant	NOUN
 à	à	ADP
-4	4	NUM
+4	4	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 dans	dans	ADP
@@ -2705,9 +2705,9 @@ dans	dans	ADP
 la	le	DET
 proportion	proportion	NOUN
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 à	à	ADP
-100	100	NUM
+100	100	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 que	que	SCONJ
@@ -4550,7 +4550,7 @@ mot	mot	NOUN
 esprit	esprit	NOUN
 a	avoir	AUX
 déjà	déjà	ADV
-29	29	NUM
+29	29	DIGIT
 sens	sens	NOUN
 différents	différent	ADJ
 dans	dans	ADP
@@ -4587,7 +4587,7 @@ est	être	AUX
 que	que	ADV
 à	à	ADP
 ces	ce	DET
-29	29	NUM
+29	29	DIGIT
 sens	sens	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -4727,7 +4727,7 @@ tout le monde	tout le monde	PRON
 l'	le	DET
 invoque	invoquer	VERB
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ?	?	PUNCTsent
 mais	mais	CCONJ
 pour	pour	ADP
@@ -6392,7 +6392,7 @@ ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 bon	bon	ADJ
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 l'	le	DET
 homme	homme	NOUN
 soit	être	AUX
@@ -6584,7 +6584,7 @@ politiques	politique	ADJ
 .	.	PUNCTsent
 il	il	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 se	se	PRON
 laisser	laisser	VERB
 «	«	PUNCTclause

@@ -61,7 +61,7 @@ questionnaire	questionnaire	NOUN
 soumis	soumettre	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 sentez	sentir	VERB
 vous	vous	PRON
@@ -97,7 +97,7 @@ déjà	déjà	ADV
 préoccupé	préoccuper	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ne	ne	ADV
 pensez	penser	VERB
@@ -168,7 +168,7 @@ ethnographie	ethnographie	NOUN
 ,	,	PUNCTclause
 anthropologie	anthropologie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 de manière à	de manière à	ADP
 éviter	éviter	VERB
@@ -207,7 +207,7 @@ musée	musée	NOUN
 Europe	Europe	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 approuvez	approuver	VERB
 vous	vous	PRON
@@ -285,7 +285,7 @@ le	le	DET
 Conseil	Conseil	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 pensez	penser	VERB
 vous	vous	PRON
@@ -343,7 +343,7 @@ financement	financement	NOUN
 nécessaires	nécessaire	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 vous	vous	PRON
@@ -532,7 +532,7 @@ quelques	quelque	DET
 faits	fait	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1949	1949	NUM
+1949	1949	DIGIT
 :	:	PUNCTclause
 CEC	CEC	PROPN
 ,	,	PUNCTclause
@@ -541,10 +541,10 @@ Genève	Genève	PROPN
 inauguré	inaugurer	VERB
 officiellement	officiellement	ADV
 en	en	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1949	1949	NUM
+1949	1949	DIGIT
 :	:	PUNCTclause
 comité	comité	NOUN
 des	un	ADP_DET
@@ -555,7 +555,7 @@ Conseil de l'Europe	Conseil de l'Europe	PROPN
 ,	,	PUNCTclause
 Strasbourg	Strasbourg	PROPN
 ↵↵	↵↵	PUNCTstruct
-1949	1949	NUM
+1949	1949	DIGIT
 :	:	PUNCTclause
 commission	commission	NOUN
 culturelle	culturel	ADJ
@@ -567,7 +567,7 @@ Conseil de l'Europe	Conseil de l'Europe	PROPN
 ,	,	PUNCTclause
 Strasbourg	Strasbourg	PROPN
 ↵↵	↵↵	PUNCTstruct
-1950	1950	NUM
+1950	1950	DIGIT
 :	:	PUNCTclause
 Campagne	Campagne	PROPN
 Europe	Europe	PROPN
@@ -577,7 +577,7 @@ jeunesse	jeunesse	NOUN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ↵↵	↵↵	PUNCTstruct
-1951	1951	NUM
+1951	1951	DIGIT
 :	:	PUNCTclause
 association	association	NOUN
 des	un	ADP_DET
@@ -588,7 +588,7 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 Genève	Genève	PROPN
 ↵↵	↵↵	PUNCTstruct
-1952	1952	NUM
+1952	1952	DIGIT
 :	:	PUNCTclause
 association	association	NOUN
 des	un	ADP_DET
@@ -598,7 +598,7 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ↵↵	↵↵	PUNCTstruct
-1953	1953	NUM
+1953	1953	DIGIT
 :	:	PUNCTclause
 Journée	Journée	PROPN
 Europe	Europe	PROPN
@@ -607,7 +607,7 @@ des	un	ADP_DET
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ↵↵	↵↵	PUNCTstruct
-1954	1954	NUM
+1954	1954	DIGIT
 :	:	PUNCTclause
 Fondation	Fondation	PROPN
 Europe	Europe	PROPN
@@ -619,7 +619,7 @@ Genève	Genève	PROPN
 puis	puis	CCONJ
 Amsterdam	Amsterdam	PROPN
 ↵↵	↵↵	PUNCTstruct
-1956	1956	NUM
+1956	1956	DIGIT
 :	:	PUNCTclause
 fondation	fondation	NOUN
 pour	pour	ADP
@@ -631,7 +631,7 @@ Paris	Paris	PROPN
 et	et	CCONJ
 Bruxelles	Bruxelles	PROPN
 ↵↵	↵↵	PUNCTstruct
-1956	1956	NUM
+1956	1956	DIGIT
 :	:	PUNCTclause
 Association	Association	PROPN
 Europe	Europe	PROPN
@@ -640,7 +640,7 @@ enseignants	enseignant	NOUN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ↵↵	↵↵	PUNCTstruct
-1958	1958	NUM
+1958	1958	DIGIT
 :	:	PUNCTclause
 Étude	Étude	PROPN
 par	par	ADP
@@ -660,7 +660,7 @@ une	un	DET
 université	université	NOUN
 Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
-1958	1958	NUM
+1958	1958	DIGIT
 :	:	PUNCTclause
 préparation	préparation	NOUN
 de	de	ADP
@@ -681,7 +681,7 @@ affaires	affaire	NOUN
 Paris	Paris	PROPN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1958	1958	NUM
+1958	1958	DIGIT
 :	:	PUNCTclause
 association	association	NOUN
 des	un	ADP_DET
@@ -696,7 +696,7 @@ universitaires	universitaire	ADJ
 ,	,	PUNCTclause
 Luxembourg	Luxembourg	PROPN
 ↵↵	↵↵	PUNCTstruct
-1959	1959	NUM
+1959	1959	DIGIT
 :	:	PUNCTclause
 fonds	fond	NOUN
 culturel	culturel	ADJ
@@ -755,7 +755,7 @@ constate	constater	VERB
 que	que	SCONJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 ces	ce	DET
 efforts	effort	NOUN
@@ -782,7 +782,7 @@ de	de	ADP
 efficacité	efficacité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 il	il	PRON
 est	être	AUX
@@ -841,7 +841,7 @@ solution	solution	NOUN
 proposée	proposé	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 convocation	convocation	NOUN
 de	de	ADP
@@ -865,7 +865,7 @@ indiquées	indiqué	ADJ
 ci-dessus	ci-dessus	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 Chacune	Chacune	PROPN
 exposerait	exposer	VERB
@@ -927,7 +927,7 @@ doubles	double	ADJ
 emplois	emploi	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 sur la base de	sur la base de	ADP
 un	un	DET
@@ -983,7 +983,7 @@ jamais	jamais	ADV
 jusqu'ici	jusqu'ici	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 °	°	SYM
 le	le	DET
 plan	plan	NOUN
@@ -1045,9 +1045,9 @@ tenu	tenir	VERB
 à	à	ADP
 Milan	Milan	PROPN
 du	du	ADP_DET
-11	11	NUM
+11	11	DIGIT
 au	au	ADP_DET
-14	14	NUM
+14	14	DIGIT
 décembre	décembre	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 .	.	PUNCTsent

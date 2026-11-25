@@ -14,9 +14,9 @@ guerre	guerre	NOUN
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-31	31	NUM
+31	31	DIGIT
 janvier	janvier	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -154,10 +154,9 @@ est	être	AUX
 commencée	commencer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	VERB
+1er	1er	NUMord
 février	février	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 trouvé	trouver	VERB
@@ -180,8 +179,7 @@ Place	Place	PROPN
 et	et	CCONJ
 de	de	ADP
 la	le	DET
-51	51	NUM
-e	e	SYM
+51e	51e	NUMord
 rue	rue	NOUN
 .	.	PUNCTsent
 de	de	ADP
@@ -398,7 +396,7 @@ baignoire	baignoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 février	février	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -1617,7 +1615,7 @@ attendait	attendre	VERB
 elle	elle	PRON
 le	le_PRON	PRON
 tenait	tenir	VERB
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 subir	subir	VERB
 en	en	ADP
 souplesse	souplesse	NOUN
@@ -1651,7 +1649,7 @@ coup	coup	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Mars	Mars	PROPN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 in petto	in petto	ADV
@@ -1700,7 +1698,7 @@ chef	chef	NOUN
 militaire	militaire	ADJ
 —	—	PUNCTclause
 des	un	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 eux-mêmes	eux-mêmes	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1905,7 +1903,7 @@ conditions	condition	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Avril	Avril	PROPN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 restrictions	restriction	NOUN
@@ -2065,7 +2063,7 @@ production	production	NOUN
 une	un	DET
 armée	armée	NOUN
 de	de	ADP
-9	9	NUM
+9	9	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -2127,7 +2125,7 @@ et	et	CCONJ
 il	il	PRON
 fut	être	AUX
 aussitôt	aussitôt	ADV
-traité	traiter	VERB
+traité	traité	NOUN
 de	de	ADP
 pitre	pitre	NOUN
 par	par	ADP
@@ -2571,7 +2569,7 @@ spécialisés	spécialisé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mai	mai	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 propagande	propagande	NOUN
@@ -3338,7 +3336,7 @@ ans	an	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 juillet	juillet	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Washington	Washington	PROPN
@@ -3397,7 +3395,7 @@ jugera	juger	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 août	août	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Beekman	Beekman	PROPN
@@ -3563,8 +3561,7 @@ hauts	haut	ADJ
 bâtiments	bâtiment	NOUN
 de	de	ADP
 la	le	DET
-51	51	NUM
-e	e	SYM
+51e	51e	NUMord
 rue	rue	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -4215,7 +4212,7 @@ point	point	ADV
 ,	,	PUNCTclause
 quand	quand	SCONJ
 toutes	toutes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 et	et	CCONJ
 les	le	DET
 souvenirs	souvenir	NOUN

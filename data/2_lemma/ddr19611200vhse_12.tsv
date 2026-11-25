@@ -6,7 +6,7 @@
 # title = 2. Premiers plans d’union
 
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 premiers	premier	ADJ
 plans	plan	NOUN
@@ -16,8 +16,8 @@ union	union	NOUN
 ↵↵	↵↵	PUNCTstruct
 Dante	Dante	PROPN
 (	(	PUNCTclause
-1265	1265	NUM
--1321	-1321	NUM
+1265	1265	DIGIT
+-1321	-1321	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -526,7 +526,7 @@ que	que	SCONJ
 Dante	Dante	PROPN
 écrit	écrire	VERB
 en	en	ADP
-1308	1308	NUM
+1308	1308	DIGIT
 son	son	DET
 De	De	PROPN
 Monarchia	Monarchia	PROPN
@@ -534,7 +534,7 @@ Monarchia	Monarchia	PROPN
 (	(	PUNCTclause
 il	il	PRON
 a	avoir	VERB
-46	46	NUM
+46	46	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -727,7 +727,7 @@ eloquentia	eloquentia	X
 (	(	PUNCTclause
 I	I	NUM
 ,	,	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -736,8 +736,8 @@ Dubois	Dubois	PROPN
 (	(	PUNCTclause
 env	env	NOUN
 .	.	PUNCTsent
-1250	1250	NUM
--1320	-1320	NUM
+1250	1250	DIGIT
+-1320	-1320	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -746,7 +746,7 @@ de	de	ADP
 la	le	DET
 monarchie	monarchie	NOUN
 (	(	PUNCTclause
-1308	1308	NUM
+1308	1308	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 l'	le	DET
@@ -755,7 +755,7 @@ de	de	ADP
 Pierre	Pierre	PROPN
 Dubois	Dubois	PROPN
 (	(	PUNCTclause
-1306	1306	NUM
+1306	1306	DIGIT
 )	)	PUNCTclause
 se	se	PRON
 en	en	ADP
@@ -1762,8 +1762,8 @@ solution	solution	NOUN
 ↵↵	↵↵	PUNCTstruct
 Pétrarque	Pétrarque	PROPN
 (	(	PUNCTclause
-1304	1304	NUM
--1374	-1374	NUM
+1304	1304	DIGIT
+-1374	-1374	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1880,8 +1880,8 @@ premier	premier	ADJ
 Georges	Georges	PROPN
 Podiebrad	Podiebrad	PROPN
 (	(	PUNCTclause
-1420	1420	NUM
--1471	-1471	NUM
+1420	1420	DIGIT
+-1471	-1471	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 pauvre	pauvre	NOUN
@@ -1920,7 +1920,7 @@ roi	roi	NOUN
 de	de	ADP
 bohème	bohème	NOUN
 en	en	ADP
-1458	1458	NUM
+1458	1458	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 se	se	PRON
@@ -2023,7 +2023,7 @@ Salzburg	Salzburg	PROPN
 Antoine	Antoine	PROPN
 déployait	déployer	VERB
 depuis	depuis	ADP
-1456	1456	NUM
+1456	1456	DIGIT
 une	un	DET
 grande	grand	ADJ
 activité	activité	NOUN
@@ -2139,12 +2139,12 @@ pendant	pendant	ADP
 l'	le	DET
 hiver	hiver	NOUN
 de	de	ADP
-1462	1462	NUM
+1462	1462	DIGIT
 à	à	ADP
-1463	1463	NUM
+1463	1463	DIGIT
 .	.	PUNCTsent
 en	en	ADP
-1464	1464	NUM
+1464	1464	DIGIT
 Antoine	Antoine	PROPN
 prend	prendre	VERB
 part	part	NOUN
@@ -2179,7 +2179,7 @@ que	que	SCONJ
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1466	1466	NUM
+1466	1466	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 pape	pape	NOUN
@@ -2205,7 +2205,7 @@ sur	sur	ADP
 le	le	DET
 trône	trône	NOUN
 en	en	ADP
-1471	1471	NUM
+1471	1471	DIGIT
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -2216,7 +2216,7 @@ présenté	présenter	VERB
 Louis	Louis	PROPN
 XI	XI	NUM
 en	en	ADP
-1463	1463	NUM
+1463	1463	DIGIT
 est	être	AUX
 écrit	écrire	VERB
 en	en	ADP
@@ -2760,8 +2760,8 @@ suite	suite	NOUN
 Silvius	Silvius	PROPN
 Piccolomini	Piccolomini	PROPN
 (	(	PUNCTclause
-1405	1405	NUM
--1464	-1464	NUM
+1405	1405	DIGIT
+-1464	-1464	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2887,7 +2887,7 @@ sous le nom de	sous le nom de	ADP
 Pie	Pie	PROPN
 II	II	NUM
 en	en	ADP
-1458	1458	NUM
+1458	1458	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 année	année	NOUN
@@ -3471,7 +3471,7 @@ princes	prince	NOUN
 chrétiens	chrétien	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1464	1464	NUM
+1464	1464	DIGIT
 —	—	PUNCTclause
 l'	le	DET
 année	année	NOUN

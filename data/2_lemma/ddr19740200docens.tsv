@@ -15,7 +15,7 @@ société	société	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
 février	février	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -270,7 +270,7 @@ de	de	ADP
 cela	cela	PRON
 ,	,	PUNCTclause
 en	en	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 pendant	pendant	ADP
 la	le	DET
@@ -717,7 +717,7 @@ prochain	prochain	ADJ
 à	à	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 21e	21e	NUM
@@ -793,9 +793,9 @@ sur	sur	ADP
 quoi	quoi	PRON
 ,	,	PUNCTclause
 le	le	DET
-30	30	NUM
+30	30	DIGIT
 septembre	septembre	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 directeur	directeur	NOUN
@@ -998,7 +998,7 @@ que	que	SCONJ
 voici	voici	ADP
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 il	il	PRON
 serait	être	AUX
@@ -1011,16 +1011,16 @@ notre	notre	DET
 production	production	NOUN
 de	de	ADP
 énergie	énergie	NOUN
-d'ici	d'ici	ADV
-1980	1980	NUM
+d'ici	d'ici	X
+1980	1980	DIGIT
 ;	;	PUNCTclause
 presque	presque	ADV
 impossible	impossible	ADJ
 de	de	ADP
 la	le	DET
 quadrupler	quadrupler	VERB
-d'ici	d'ici	ADV
-1987	1987	NUM
+d'ici	d'ici	PUNCT
+1987	1987	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 totalement	totalement	ADV
@@ -1029,7 +1029,7 @@ de	de	ADP
 la	le	DET
 multiplier	multiplier	VERB
 par	par	ADP
-16384	16384	NUM
+16384	16384	DIGIT
 en	en	ADP
 moins d'une	moins d'une	DET
 siècle	siècle	NOUN
@@ -1058,7 +1058,7 @@ sept	sept	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 si	si	SCONJ
 nous	nous	PRON
@@ -1482,7 +1482,7 @@ démographique	démographique	ADJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 nous	nous	PRON
@@ -1537,19 +1537,19 @@ demi	demi	ADJ
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
-26	26	NUM
+26	26	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2070	2070	NUM
+2070	2070	DIGIT
 ,	,	PUNCTclause
-208	208	NUM
+208	208	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2171	2171	NUM
+2171	2171	DIGIT
 soit	soit	CCONJ
-1400	1400	NUM
+1400	1400	DIGIT
 habitants	habitant	NOUN
 au	au	ADP_DET
 km2	km2	PROPN
@@ -1568,12 +1568,12 @@ terres	terre	NOUN
 émergées	émergé	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 habitants	habitant	NOUN
 au	au	ADP_DET
 m2	m2	NOUN
 en	en	ADP
-2570	2570	NUM
+2570	2570	DIGIT
 ,	,	PUNCTclause
 trente	trente	NUM
 ans	an	NOUN
@@ -1642,7 +1642,7 @@ de	de	ADP
 dans	dans	ADP
 mille	mille	NUM
 ans	an	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	NUM
 ,	,	PUNCTclause
 et	et	CCONJ
 sa	son	DET
@@ -2160,7 +2160,7 @@ des	un	DET
 mégalopoles	mégalopole	NOUN
 infinies	infini	ADJ
 où	où	PRON
-80	80	NUM
+80	80	DIGIT
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -2425,7 +2425,7 @@ promettre	promettre	VERB
 un	un	DET
 revenu	revenu	NOUN
 de	de	ADP
-20000	20000	NUM
+20000	20000	DIGIT
 dollars	dollar	NOUN
 par	par	ADP
 tête	tête	NOUN
@@ -2439,7 +2439,7 @@ milliards	milliard	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 vers	vers	ADP
-2050	2050	NUM
+2050	2050	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 là	là	ADV
@@ -2498,7 +2498,7 @@ célèbre	célèbre	ADJ
 sur	sur	ADP
 l'	le	DET
 An	An	PROPN
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 son	son	DET
 système	système	NOUN
@@ -2584,7 +2584,7 @@ en	en	PRON
 disent	dire	VERB
 .	.	PUNCTsent
 à la page	à la page	ADJ
-54	54	NUM
+54	54	DIGIT
 de	de	ADP
 la	le	DET
 traduction	traduction	NOUN
@@ -2592,7 +2592,7 @@ France	France	PROPN
 de	de	ADP
 l'	le	DET
 An	An	PROPN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 ils	ils	PRON
 donnent	donner	VERB
@@ -2621,7 +2621,7 @@ eût	avoir	VERB
 été	être	AUX
 appliquée	appliquer	VERB
 vers	vers	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 .	.	PUNCTsent
 parmi	parmi	ADP
 les	le	DET
@@ -3057,7 +3057,7 @@ intrigue	intrigue	NOUN
 tout	tout	PRON
 commence	commencer	VERB
 en	en	ADP
-1875	1875	NUM
+1875	1875	DIGIT
 (	(	PUNCTclause
 il y a	il y a	VERB
 donc	donc	ADV
@@ -3083,7 +3083,7 @@ le jour où	le jour où	SCONJ
 un	un	DET
 garçon	garçon	NOUN
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 et	et	CCONJ
 demi	demi	ADJ
@@ -3169,7 +3169,7 @@ tyrannie	tyrannie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-19	19	NUM
+19	19	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -3212,7 +3212,7 @@ militaire	militaire	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 à	à	ADP
-24	24	NUM
+24	24	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -3284,7 +3284,7 @@ au plus	au plus	ADV
 rapide	rapide	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1903	1903	NUM
+1903	1903	DIGIT
 ,	,	PUNCTclause
 Ford	Ford	PROPN
 gagne	gagner	VERB
@@ -3356,7 +3356,7 @@ salubre	salubre	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 en	en	ADP
-1910	1910	NUM
+1910	1910	DIGIT
 ,	,	PUNCTclause
 Ford	Ford	PROPN
 introduisit	introduire	VERB
@@ -3408,24 +3408,24 @@ Hitler	Hitler	PROPN
 !	!	PUNCTsent
 )	)	PUNCTclause
 en	en	ADP
-1908	1908	NUM
+1908	1908	DIGIT
 il	il	PRON
 vend	vendre	VERB
-10000	10000	NUM
+10000	10000	DIGIT
 voitures	voiture	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1910	1910	NUM
+1910	1910	DIGIT
 ,	,	PUNCTclause
-35000	35000	NUM
+35000	35000	DIGIT
 .	.	PUNCTsent
 en	en	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 fabrique	fabriquer	VERB
-7500	7500	NUM
+7500	7500	DIGIT
 voitures	voiture	NOUN
 par	par	ADP
 jour	jour	NOUN
@@ -3472,7 +3472,7 @@ née	naître	VERB
 cette	ce	DET
 industrie	industrie	NOUN
 n°	n°	SYM
-1	1	NUM
+1	1	DIGIT
 ,	,	PUNCTclause
 du	du	ADP_DET
 fantasme	fantasme	NOUN
@@ -3587,7 +3587,7 @@ ne	ne	ADV
 fait	faire	VERB
 que	que	SCONJ
 du	du	DET
-4	4	NUM
+4	4	DIGIT
 km	km	NOUN
 à	à	ADP
 l'	le	DET
@@ -3630,7 +3630,7 @@ bétonne	bétonner	VERB
 les	le	DET
 campagnes	campagne	NOUN
 (	(	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 de	de	ADP
 la	le	DET
 Hollande	Hollande	PROPN
@@ -3674,7 +3674,7 @@ moyen	moyen	ADJ
 qui	qui	PRON
 roule	rouler	VERB
 ses	son	DET
-10000	10000	NUM
+10000	10000	DIGIT
 km	km	NOUN
 par	par	ADP
 an	an	NOUN
@@ -3695,7 +3695,7 @@ impôts	impôt	NOUN
 son	son	DET
 garage	garage	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 tant de	tant de	DET
 journées	journée	NOUN
@@ -3705,13 +3705,13 @@ travail	travail	NOUN
 que	que	SCONJ
 au total	au total	ADV
 ses	son	DET
-10000	10000	NUM
+10000	10000	DIGIT
 km	km	NOUN
 lui	lui	PRON
 auront	avoir	AUX
 pris	prendre	VERB
 environ	environ	ADV
-1700	1700	NUM
+1700	1700	DIGIT
 heures	heure	NOUN
 de	de	ADP
 son	son	DET
@@ -3721,7 +3721,7 @@ et	et	CCONJ
 cela	cela	PRON
 fait	faire	VERB
 du	du	DET
-6	6	NUM
+6	6	DIGIT
 à	à	ADP
 l'	le	DET
 heure	heure	NOUN
@@ -3771,7 +3771,7 @@ Europe	Europe	PROPN
 est	être	AUX
 détenu	détenir	VERB
 à	à	ADP
-80	80	NUM
+80	80	DIGIT
 par	par	ADP
 les	le	DET
 pays	pays	NOUN
@@ -3821,7 +3821,7 @@ bon	bon	ADJ
 an	an	NOUN
 mal	mal	ADV
 an	an	NOUN
-280000	280000	NUM
+280000	280000	DIGIT
 morts	mort	NOUN
 chaque	chaque	DET
 année	année	NOUN
@@ -3831,7 +3831,7 @@ monde	monde	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 plus de	plus de	DET
-8	8	NUM
+8	8	DIGIT
 millions	million	NOUN
 de	de	ADP
 blessés	blessé	NOUN
@@ -3841,6 +3841,8 @@ il y a	il y a	VERB
 plus	plus	ADV
 grave	grave	ADJ
 .	.	PUNCTsent
+B.	B.	PROPN
+de	de	ADP
 Jouvenel	Jouvenel	PROPN
 a	avoir	AUX
 montré	montrer	VERB
@@ -3929,7 +3931,7 @@ milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
 —	—	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 environ	environ	ADV
 —	—	PUNCTclause
 détenus	détenir	VERB
@@ -3990,7 +3992,7 @@ résumons	résumer	VERB
 nous	nous	PRON
 :	:	PUNCTclause
 vers	vers	ADP
-1890	1890	NUM
+1890	1890	DIGIT
 ,	,	PUNCTclause
 personne	personne_PRON	PRON
 ne	ne	ADV
@@ -4239,7 +4241,7 @@ prévu	prévoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1885	1885	NUM
+1885	1885	DIGIT
 ,	,	PUNCTclause
 J.	J.	PROPN
 Burckhardt	Burckhardt	PROPN
@@ -4339,7 +4341,7 @@ les	le	DET
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 »	»	PUNCTclause
 ,	,	PUNCTclause
 à	à	ADP
@@ -5022,7 +5024,7 @@ terre	terre	NOUN
 entière	entier	ADJ
 ;	;	PUNCTclause
 environ	environ	ADV
-150	150	NUM
+150	150	DIGIT
 états-nations	État-nation	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -5240,7 +5242,7 @@ guerre	guerre	NOUN
 de	de	ADP
 Suez	Suez	PROPN
 en	en	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 a	avoir	AUX
 permis	permettre	VERB
 de	de	ADP
@@ -5730,7 +5732,7 @@ les	le	DET
 juristes	juriste	NOUN
 et	et	CCONJ
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -5915,7 +5917,7 @@ territoriales	territorial	ADJ
 ne	ne	ADV
 se	se	PRON
 recouvrent	recouvrir	VERB
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 les	le	DET
 réalités	réalité	NOUN
 fonctionnelles	fonctionnel	ADJ

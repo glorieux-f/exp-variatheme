@@ -20,22 +20,22 @@ et	et	CCONJ
 constitution	constitution	NOUN
 fédérale	fédéral	ADJ
 (	(	PUNCTclause
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 de	de	ADP
 Genève	Genève	PROPN
 a	avoir	AUX
 désigné	désigner	VERB
 en	en	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 une	un	DET
 commission	commission	NOUN
 de	de	ADP
-64	64	NUM
+64	64	DIGIT
 personnes	personne	NOUN
 pour	pour	ADP
 étudier	étudier	VERB
@@ -94,7 +94,7 @@ connaître	connaître	VERB
 les	le	DET
 positions	position	NOUN
 des	un	ADP_DET
-12	12	NUM
+12	12	DIGIT
 membres	membre	NOUN
 quant à	quant à	ADP
 l'	le	DET
@@ -679,7 +679,7 @@ membres	membre	NOUN
 c'est-à-dire	c'est-à-dire	CCONJ
 l'un	l'un	PRON
 des	un	ADP_DET
-5	5	NUM
+5	5	DIGIT
 millions	million	NOUN
 de	de	ADP
 esclaves	esclave	NOUN
@@ -889,7 +889,7 @@ de	de	ADP
 Dieu	Dieu	PROPN
 signifie	signifier	VERB
 reconnaître	reconnaître	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 que	que	SCONJ
 l'	le	DET
 état	état	NOUN
@@ -981,7 +981,7 @@ jeu	jeu	NOUN
 .	.	PUNCTsent
 tous	tout	ADJ
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 défendant	défendre	VERB
 n'importe quelle	n'importe quelle	DET
@@ -1308,7 +1308,7 @@ Pacte	Pacte	PROPN
 ,	,	PUNCTclause
 celui	celui	PRON
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 (	(	PUNCTclause
 repris	reprendre	VERB
 de	de	ADP
@@ -1316,7 +1316,7 @@ un	un	DET
 document	document	NOUN
 secret	secret	ADJ
 de	de	ADP
-1273	1273	NUM
+1273	1273	DIGIT
 )	)	PUNCTclause
 commence	commencer	VERB
 par	par	ADP
@@ -2095,7 +2095,7 @@ Tsebaoth	Tsebaoth	PROPN
 qui	qui	PRON
 apparaît	apparaître	VERB
 près de	près de	ADP
-300	300	NUM
+300	300	DIGIT
 fois	fois	NOUN
 dans	dans	ADP
 l'	le	DET
@@ -2110,9 +2110,9 @@ le	le	DET
 nouveau	nouveau	ADJ
 ,	,	PUNCTclause
 Jacques	Jacques	PROPN
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
-4	4	NUM
+4	4	DIGIT
 )	)	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -2266,7 +2266,7 @@ signataires	signataire	NOUN
 du	du	ADP_DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ouvrait	ouvrir	VERB

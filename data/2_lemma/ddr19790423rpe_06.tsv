@@ -12,7 +12,7 @@ les	le	DET
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 émergence	émergence	NOUN
 du	du	ADP_DET
@@ -137,10 +137,10 @@ empire	empire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
-1792	1792	NUM
+1792	1792	DIGIT
 aux	au	ADP_DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 assiste	assister	VERB
@@ -365,7 +365,7 @@ Bruxelles	Bruxelles	PROPN
 (	(	PUNCTclause
 début	début	NOUN
 de	de	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 le	le	DET
@@ -626,7 +626,7 @@ catholique	catholique	ADJ
 attribué	attribuer	VERB
 »	»	PUNCTclause
 depuis	depuis	ADP
-1814	1814	NUM
+1814	1814	DIGIT
 au	au	ADP_DET
 canton	canton	NOUN
 de	de	ADP
@@ -1076,7 +1076,7 @@ et	et	CCONJ
 la	le	DET
 lombarde	lombard	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 cette	ce	DET
@@ -2261,7 +2261,7 @@ du	du	ADP_DET
 Jura	Jura	PROPN
 :	:	PUNCTclause
 en	en	ADP
-1814	1814	NUM
+1814	1814	DIGIT
 ,	,	PUNCTclause
 ce	ce	DET
 pays	pays	NOUN
@@ -2306,7 +2306,7 @@ réveillé	réveiller	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 et	et	CCONJ
 qui	qui	PRON
 vient	venir	VERB
@@ -2413,7 +2413,7 @@ manqué	manquer	VERB
 Bruxelles	Bruxelles	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 conférence	conférence	NOUN
@@ -2474,7 +2474,7 @@ de	de	ADP
 Bruxelles	Bruxelles	PROPN
 répondra	répondre	VERB
 dès	dès	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 la	le	DET
 «	«	PUNCTclause
 conférence	conférence	NOUN
@@ -2493,7 +2493,7 @@ convoque	convoquer	VERB
 à	à	ADP
 Strasbourg	Strasbourg	PROPN
 en	en	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 une	un	DET
 première	premier	ADJ
 confrontation	confrontation	NOUN
@@ -2765,7 +2765,7 @@ des	un	DET
 naturels	naturel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 crise	crise	NOUN
 de	de	ADP
@@ -3063,24 +3063,24 @@ régions	région	NOUN
 du	du	ADP_DET
 Schleswig-Holstein	Schleswig-Holstein	PROPN
 en	en	ADP
-1866	1866	NUM
+1866	1866	DIGIT
 aux	au	ADP_DET
 Sudètes	Sudètes	PROPN
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 en passant	en passant	ADV
 par	par	ADP
 l'	le	DET
 Alsace-Lorraine	Alsace-Lorraine	PROPN
 en	en	ADP
-1870	1870	NUM
+1870	1870	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 la	le	DET
 Bosnie	Bosnie	PROPN
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 qui	qui	PRON
@@ -3239,7 +3239,7 @@ constater	constater	VERB
 que	que	SCONJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 gouvernements	gouvernement	NOUN
@@ -3339,7 +3339,7 @@ du	du	ADP_DET
 Nord	Nord	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 il	il	PRON
 est	être	AUX
@@ -3710,7 +3710,7 @@ l'	le	DET
 homme	homme	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 état-nation	État-nation	NOUN
@@ -3791,7 +3791,7 @@ but	but	NOUN
 ultime	ultime	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 solutions	solution	NOUN
 Europe	Europe	PROPN
@@ -4334,7 +4334,7 @@ Belgique	Belgique	PROPN
 (	(	PUNCTclause
 voir	voir	VERB
 annexe	annexe	NOUN
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -4407,7 +4407,7 @@ fédéralisme	fédéralisme	NOUN
 (	(	PUNCTclause
 voir	voir	VERB
 annexe	annexe	NOUN
-3	3	NUM
+3	3	DIGIT
 )	)	PUNCTclause
 ;	;	PUNCTclause
 les	le	DET
@@ -4611,7 +4611,7 @@ franco-suisse	franco-suisse	ADJ
 ,	,	PUNCTclause
 nommée	nommer	VERB
 en	en	ADP
-1975	1975	NUM
+1975	1975	DIGIT
 par	par	ADP
 les	le	DET
 gouvernements	gouvernement	NOUN
@@ -4681,7 +4681,7 @@ rejoint	rejoint	ADJ
 avec	avec	ADP
 une	un	DET
 commission	commission	NOUN
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 tripartite	tripartite	ADJ
 .	.	PUNCTsent
 cette	ce	DET
@@ -4722,7 +4722,7 @@ de	de	ADP
 rejet	rejet	NOUN
 par	par	ADP
 nos	nos	DET
-30	30	NUM
+30	30	DIGIT
 pays	pays	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -4759,7 +4759,7 @@ sont	être	AUX
 requises	requis	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 les	le	DET
@@ -4849,7 +4849,7 @@ autorités	autorité	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 les	le	DET
@@ -4952,7 +4952,7 @@ et	et	CCONJ
 scientifiques	scientifique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 une	un	DET
@@ -4975,7 +4975,7 @@ autonomie	autonomie	NOUN
 régionale	régional	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 que	que	PRON
 la	le	DET

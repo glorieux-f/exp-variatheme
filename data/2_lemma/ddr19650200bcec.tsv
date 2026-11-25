@@ -14,7 +14,7 @@ le	le	DET
 monde	monde	NOUN
 (	(	PUNCTclause
 février	février	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -29,7 +29,7 @@ ont	avoir	AUX
 beaucoup	beaucoup	ADV
 évolué	évoluer	VERB
 depuis	depuis	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 dès	dès	ADP
 cette	ce	DET
@@ -119,7 +119,7 @@ Churchill	Churchill	PROPN
 Zurich	Zurich	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 dit	dit	NOUN
@@ -137,14 +137,14 @@ Conseil de l'Europe	Conseil de l'Europe	NOUN
 à	à	ADP
 Strasbourg	Strasbourg	PROPN
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au cours de	au cours de	ADP
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 à	à	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 devant	devant	ADP
 l'	le	DET
@@ -212,7 +212,7 @@ commerciales	commercial	ADJ
 ,	,	PUNCTclause
 professionnelles	professionnel	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 pendant	pendant	ADP
 ce	ce	DET
@@ -742,7 +742,7 @@ et	et	CCONJ
 à	à	ADP
 Paris	Paris	PROPN
 dès	dès	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 faire	faire	VERB
@@ -798,27 +798,27 @@ on	on	PRON
 en	en	PRON
 voulait	vouloir	VERB
 environ	environ	ADV
-150	150	NUM
+150	150	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 en	en	PRON
 a	avoir	AUX
 invité	inviter	VERB
 plus de	plus de	DET
-300	300	NUM
+300	300	DIGIT
 .	.	PUNCTsent
 près de	près de	ADP
-200	200	NUM
+200	200	DIGIT
 ont	avoir	AUX
 accepté	accepter	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 finalement	finalement	ADV
-150	150	NUM
+150	150	DIGIT
 sont	être	AUX
 ici	ici	ADV
 (	(	PUNCTclause
-55	55	NUM
+55	55	DIGIT
 souhaitaient	souhaiter	VERB
 venir	venir	VERB
 ,	,	PUNCTclause
@@ -951,7 +951,7 @@ dernière	dernier	ADJ
 heure	heure	NOUN
 ,	,	PUNCTclause
 plus de	plus de	DET
-800	800	NUM
+800	800	DIGIT
 pages	page	NOUN
 de	de	ADP
 texte	texte	NOUN
@@ -970,7 +970,7 @@ culturelle	culturel	ADJ
 ↵↵	↵↵	PUNCTstruct
 ces	ce	DET
 quelque	quelque	ADV
-50	50	NUM
+50	50	DIGIT
 rapports	rapport	NOUN
 ont	avoir	AUX
 été	être	AUX
@@ -1337,7 +1337,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 est	être	AUX
-traitée	traiter	VERB
+traitée	traité	ADJ
 par	par	ADP
 deux	deux	NUM
 ou	ou	CCONJ
@@ -2466,7 +2466,7 @@ consommation	consommation	NOUN
 se	se	PRON
 en	en	ADP
 trouveraient	trouver	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 radicalement	radicalement	ADV
 faussées	fausser	VERB
 .	.	PUNCTsent
@@ -2486,9 +2486,9 @@ Inde	Inde	PROPN
 védique	védique	ADJ
 ,	,	PUNCTclause
 de	de	ADP
-1500	1500	NUM
+1500	1500	DIGIT
 à	à	ADP
-500	500	NUM
+500	500	DIGIT
 avant	avant	ADP
 notre	notre	DET
 ère	ère	NOUN
@@ -2696,7 +2696,7 @@ faut	falloir	VERB
 bien	bien	ADV
 voir	voir	VERB
 que	que	SCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 on	on	PRON
 se	se	PRON
 attaque	attaquer	VERB

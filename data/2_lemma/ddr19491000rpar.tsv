@@ -12,7 +12,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -149,7 +149,7 @@ ouvrit	ouvrir	VERB
 à	à	ADP
 Strasbourg	Strasbourg	PROPN
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -440,7 +440,7 @@ pays	pays	NOUN
 ,	,	PUNCTclause
 matérialisa	matérialiser	VERB
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
 les	le	DET
 efforts	effort	NOUN
@@ -1137,7 +1137,7 @@ l'	le	DET
 Assemblée	Assemblée	PROPN
 dès	dès	ADP
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 août	août	NOUN
 ,	,	PUNCTclause
 se	se	PRON
@@ -1214,7 +1214,7 @@ sagesse	sagesse	NOUN
 de	de	ADP
 prudence	prudence	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 prodigués	prodiguer	VERB
 (	(	PUNCTclause
@@ -1431,8 +1431,8 @@ le	le	DET
 Conseil	Conseil	PROPN
 existe	exister	VERB
 ,	,	PUNCTclause
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	DET
+point	point	NOUN
 précisément	précisément	ADV
 parce que	parce que	SCONJ
 certains	certain	DET
@@ -2065,7 +2065,7 @@ résultats	résultat	NOUN
 pourront	pouvoir	VERB
 être	être	AUX
 jugés	juger	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 deux	deux	NUM
 ans	an	NOUN
 .	.	PUNCTsent

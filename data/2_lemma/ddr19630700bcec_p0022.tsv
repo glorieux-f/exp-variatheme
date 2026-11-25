@@ -16,7 +16,7 @@ de	de	ADP
 Berre	Berre	PROPN
 (	(	PUNCTclause
 juillet	juillet	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -25,7 +25,7 @@ peut	pouvoir	VERB
 paraître	paraître	VERB
 paradoxal	paradoxal	ADJ
 que	que	SCONJ
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 nous	nous	PRON
 nous	nous	PRON
 efforçons	efforcer	VERB
@@ -580,9 +580,9 @@ est	être	AUX
 vendu	vendre	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
-360	360	NUM
+360	360	DIGIT
 millions	million	NOUN
 de	de	ADP
 livres	livre	NOUN
@@ -636,7 +636,7 @@ loisirs	loisir	NOUN
 .	.	PUNCTsent
 nous	nous	PRON
 arrivons	arriver	VERB
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 la	le	DET
 technique	technique	NOUN
 ,	,	PUNCTclause
@@ -1050,7 +1050,7 @@ de	de	ADP
 toutes	toutes	DET
 sortes	sorte	NOUN
 d'autres	d'autre	PRON
-choses	choser	VERB
+choses	chose	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 ont	avoir	AUX
@@ -1247,8 +1247,7 @@ le	le	DET
 jeune	jeune	ADJ
 soviétique	soviétique	NOUN
 de	de	ADP
-7	7	NUM
-e	e	NOUN
+7e	7e	NUMord
 année	année	NOUN
 qui	qui	PRON
 fait	faire	VERB
@@ -1770,7 +1769,7 @@ Dürer	Dürer	PROPN
 ,	,	PUNCTclause
 Schütz	Schütz	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 je	je	PRON
 ne	ne	ADV
 vais	aller	VERB
@@ -1930,7 +1929,7 @@ réunit	réunir	VERB
 ↵↵	↵↵	PUNCTstruct
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 frontières	frontière	NOUN
 se	se	PRON
@@ -2911,7 +2910,7 @@ de	de	ADP
 fondations	fondation	NOUN
 détiennent	détenir	VERB
 à peu près	à peu près	ADV
-10	10	NUM
+10	10	DIGIT
 de	de	ADP
 la	le	DET
 fortune	fortune	NOUN
@@ -3104,7 +3103,7 @@ existe	exister	VERB
 en	en	ADP
 Europe	Europe	PROPN
 quelques	quelque	DET
-400	400	NUM
+400	400	DIGIT
 fondations	fondation	NOUN
 culturelles	culturel	ADJ
 ,	,	PUNCTclause

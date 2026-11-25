@@ -11,7 +11,7 @@ la	le	DET
 culture	culture	NOUN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -372,18 +372,18 @@ un	un	DET
 roman	roman	NOUN
 historique	historique	ADJ
 en	en	ADP
-3	3	NUM
+3	3	DIGIT
 volumes	volume	NOUN
 sur	sur	ADP
 Paracelse	Paracelse	PROPN
 ,	,	PUNCTclause
 coûtant	coûter	VERB
-25	25	NUM
+25	25	DIGIT
 marks	mark	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
 près de	près de	ADP
-200	200	NUM
+200	200	DIGIT
 francs	franc	NOUN
 ,	,	PUNCTclause
 atteint	atteindre	VERB
@@ -497,9 +497,9 @@ France	France	PROPN
 ,	,	PUNCTclause
 cinq	cinq	NUM
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 conclusion	conclusion	NOUN
 ?	?	PUNCTsent

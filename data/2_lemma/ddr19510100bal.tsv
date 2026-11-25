@@ -20,9 +20,9 @@ notre	notre	DET
 culture	culture	NOUN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 -janvier	-janvier	PUNCT
-1951	1951	NUM
+1951	1951	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -686,7 +686,7 @@ dans	dans	ADP
 nos	nos	DET
 pays	pays	NOUN
 ,	,	PUNCTclause
-14	14	NUM
+14	14	DIGIT
 millions	million	NOUN
 en	en	ADP
 Europe	Europe	PROPN
@@ -842,7 +842,7 @@ la	le	DET
 tâche	tâche	NOUN
 ,	,	PUNCTclause
 honnêtement	honnêtement	ADV
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 cartes	carte	NOUN
 sur	sur	ADP
@@ -1437,7 +1437,7 @@ est	être	AUX
 ,	,	PUNCTclause
 en fin de compte	en fin de compte	ADV
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 sauver	sauver	VERB
 notre	notre	DET
 culture	culture	NOUN
@@ -1548,7 +1548,7 @@ représente	représenter	VERB
 en effet	en effet	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
-5	5	NUM
+5	5	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 du	du	ADP_DET
@@ -1980,7 +1980,7 @@ avec	avec	ADP
 l'	le	DET
 aide	aide	NOUN
 de	de	ADP
-500000	500000	NUM
+500000	500000	DIGIT
 propagandistes	propagandiste	NOUN
 entraînés	entraîner	VERB
 ,	,	PUNCTclause
@@ -1993,7 +1993,7 @@ expositions	exposition	NOUN
 itinérantes	itinérant	ADJ
 et	et	CCONJ
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 millions	million	NOUN
 de	de	ADP
 brochures	brochure	NOUN

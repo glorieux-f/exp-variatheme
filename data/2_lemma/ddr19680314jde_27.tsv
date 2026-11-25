@@ -18,7 +18,7 @@ monde	monde	NOUN
 New York	New York	PROPN
 ,	,	PUNCTclause
 octobre	octobre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
@@ -628,7 +628,7 @@ New Jersey	New Jersey	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 mi-octobre	mi-octobre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
@@ -664,7 +664,7 @@ train	train	NOUN
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -1031,7 +1031,7 @@ Princeton	Princeton	PROPN
 fin	fin	NOUN
 de	de	ADP
 octobre	octobre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -1220,9 +1220,9 @@ ville	ville	NOUN
 ↵↵	↵↵	PUNCTstruct
 Washington	Washington	PROPN
 ,	,	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 octobre	octobre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
@@ -1467,10 +1467,9 @@ portiers	portier	NOUN
 ↵↵	↵↵	PUNCTstruct
 Princeton	Princeton	PROPN
 ,	,	PUNCTclause
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -1711,9 +1710,9 @@ liquidés	liquider	VERB
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Ville	Ville	PROPN
@@ -1836,7 +1835,7 @@ armé	armer	VERB
 diversement	diversement	ADV
 coupés	couper	VERB
 et	et	CCONJ
-étagés	étager	VERB
+étagés	étagé	ADJ
 ,	,	PUNCTclause
 asphalte	asphalte	NOUN
 plane	plan	ADJ
@@ -2046,9 +2045,9 @@ ville	ville	NOUN
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 première	premier	ADJ
@@ -2214,7 +2213,7 @@ l'	le	DET
 de	de	ADP
 New York	New York	PROPN
 par	par	ADP
-247810	247810	NUM
+247810	247810	DIGIT
 voix	voix	NOUN
 de	de	ADP
 majorité	majorité	NOUN
@@ -2352,9 +2351,9 @@ en	en	ADP
 Europe	Europe	PROPN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 religion	religion	NOUN
@@ -2488,9 +2487,9 @@ leur	leur	DET
 foi	foi	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Efficiency	Efficiency	PROPN
@@ -2604,9 +2603,9 @@ un	un	DET
 cent	cent	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 conférences	conférence	NOUN
@@ -2799,9 +2798,9 @@ retour	retour	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 réaction	réaction	NOUN
@@ -2883,9 +2882,9 @@ au	au	ADP_DET
 coupe-papier	coupe-papier	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 trouvé	trouver	VERB
@@ -2960,15 +2959,15 @@ peut	pouvoir	VERB
 se	se	PRON
 amuser	amuser	VERB
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Forest	Forest	PROPN
 Hills	Hills	PROPN
 ,	,	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 notre	notre	DET
@@ -3080,7 +3079,7 @@ en général	en général	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 décembre	décembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 radio	radio	NOUN
@@ -3275,7 +3274,7 @@ laxatif	laxatif	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 décembre	décembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 point	point	ADV
@@ -3473,9 +3472,9 @@ les	le	DET
 restes	reste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 décembre	décembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 désespoir	désespoir	NOUN
@@ -3876,9 +3875,9 @@ les	le	DET
 morts-vivants	morts-vivants	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 décembre	décembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -4027,7 +4026,7 @@ volés	volé	ADJ
 début	début	NOUN
 de	de	ADP
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 éditeurs	éditeur	NOUN
@@ -4373,9 +4372,9 @@ plus	plus	ADV
 adulte	adulte	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -4461,9 +4460,9 @@ leur	leur	DET
 langue	langue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 music-hall	music-hall	NOUN
@@ -4605,9 +4604,9 @@ personnes	personne	NOUN
 cultivées	cultiver	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -4743,9 +4742,9 @@ du	du	ADP_DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-24	24	NUM
+24	24	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -4993,7 +4992,7 @@ en	en	ADP
 fréquentant	fréquenter	VERB
 les	le	DET
 éditeurs	éditeur	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 .	.	PUNCTsent
 atteindre	atteindre	VERB
 le	le	DET
@@ -5333,9 +5332,9 @@ est	être	AUX
 dit	dire	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-25	25	NUM
+25	25	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 5e	5e	ADJ
@@ -5412,9 +5411,9 @@ porter	porter	VERB
 sur	sur	ADP
 les	le	DET
 années	année	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 et	et	CCONJ
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 or	or	NOUN
 le	le	DET
@@ -5559,7 +5558,7 @@ il	il	PRON
 croit	croire	VERB
 condamner	condamner	VERB
 …	…	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 cela	cela	PRON
 ,	,	PUNCTclause
 le	le	DET
@@ -5679,9 +5678,9 @@ manières	manière	NOUN
 polies	poli	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 soirée	soirée	NOUN
@@ -5872,9 +5871,9 @@ pour	pour	ADP
 lui	lui	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 février	février	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -6450,9 +6449,9 @@ des	un	DET
 complexes	complexe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 février	février	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 faisons	faire	VERB
@@ -6645,9 +6644,9 @@ ou	ou	CCONJ
 nulles	nul	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 février	février	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 seul	seul	ADJ
@@ -7072,9 +7071,9 @@ vous	vous	PRON
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 mars	mars	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 (	(	PUNCTclause
 après-midi	après-midi	NOUN
 )	)	PUNCTclause
@@ -7959,9 +7958,9 @@ je	je	PRON
 élaborais	élaborer	VERB
 ,	,	PUNCTclause
 vers	vers	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ou	ou	CCONJ
-1931	1931	NUM
+1931	1931	DIGIT
 je	je	PRON
 crois	croire	VERB
 ,	,	PUNCTclause
@@ -7990,9 +7989,9 @@ Cambridge	Cambridge	PROPN
 Mass.	Mass.	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 avril	avril	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Quinze	Quinze	NUM
@@ -8069,7 +8068,9 @@ questions	question	NOUN
 à	à	ADP
 me	me	PRON
 poser	poser	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 de	de	ADP
 mes	mon	DET
@@ -8533,7 +8534,7 @@ rapidité	rapidité	NOUN
 du	du	ADP_DET
 raisonnement	raisonnement	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 doit	devoir	VERB
 donner	donner	VERB
@@ -8542,7 +8543,7 @@ chiffre	chiffre	NOUN
 total	total	ADJ
 supérieur	supérieur	ADJ
 à	à	ADP
-135	135	NUM
+135	135	DIGIT
 .	.	PUNCTsent
 le	le	DET
 génie	génie	NOUN
@@ -8933,7 +8934,7 @@ police	police	NOUN
 .	.	PUNCTsent
 je	je	PRON
 suis	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 me	me	PRON
 battre	battre	VERB
 pour	pour	ADP
@@ -8981,9 +8982,9 @@ léger	léger	ADJ
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 mai	mai	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 nuit	nuit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -9014,9 +9015,9 @@ pour	pour	ADP
 lui	lui	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 mai	mai	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 orage	orage	NOUN
@@ -9123,9 +9124,9 @@ violente	violent	ADJ
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 mai	mai	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -9287,9 +9288,9 @@ que	que	SCONJ
 l'autre	l'autre	PRON
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 mai	mai	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 terminé	terminer	VERB
@@ -9329,9 +9330,9 @@ connaît	connaître	VERB
 les siens	les siens	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-28	28	NUM
+28	28	DIGIT
 mai	mai	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 prendre	prendre	VERB
@@ -9370,7 +9371,7 @@ davantage	davantage	ADV
 et	et	CCONJ
 cependant	cependant	ADV
 ?	?	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 les mêmes	les mêmes	PRON
 genre	genre	NOUN
 de	de	ADP
@@ -9421,7 +9422,7 @@ de	de	ADP
 Christophe	Christophe	PROPN
 Colomb	Colomb	PROPN
 ;	;	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 enfin	enfin	ADV
 les mêmes	les mêmes	PRON
 genre	genre	NOUN
@@ -9514,9 +9515,9 @@ câble	câble	NOUN
 Buenos Aires	Buenos Aires	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 juillet	juillet	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON

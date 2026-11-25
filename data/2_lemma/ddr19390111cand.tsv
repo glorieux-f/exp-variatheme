@@ -14,9 +14,9 @@ de	de	ADP
 l'	le	DET
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 janvier	janvier	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -103,8 +103,8 @@ ville	ville	NOUN
 de	de	ADP
 Allemagne	Allemagne	PROPN
 en	en	ADP
-1935	1935	NUM
--1936	-1936	NUM
+1935	1935	DIGIT
+-1936	-1936	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 valaient	valoir	VERB
@@ -356,7 +356,7 @@ du	du	ADP_DET
 Führer	Führer	PROPN
 ,	,	PUNCTclause
 en présence de	en présence de	ADP
-40000	40000	NUM
+40000	40000	DIGIT
 personnes	personne	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -809,7 +809,7 @@ est	être	AUX
 le	le	DET
 rêve	rêve	NOUN
 de	de	ADP
-60	60	NUM
+60	60	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -930,7 +930,7 @@ et	et	CCONJ
 des	un	ADP_DET
 classes	classe	NOUN
 avant	avant	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 circonstances	circonstance	NOUN
@@ -944,7 +944,7 @@ traité	traité	NOUN
 de	de	ADP
 Versailles	Versailles	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 mais	mais	CCONJ
 tout	tout	DET
 cela	cela	PRON

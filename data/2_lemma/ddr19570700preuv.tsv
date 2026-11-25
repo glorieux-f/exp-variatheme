@@ -13,7 +13,7 @@ des	un	ADP_DET
 intellectuels	intellectuel	NOUN
 (	(	PUNCTclause
 juillet	juillet	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -255,8 +255,8 @@ conflit	conflit	NOUN
 (	(	PUNCTclause
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
--1945	-1945	NUM
+1939	1939	DIGIT
+-1945	-1945	DIGIT
 )	)	PUNCTclause
 ne	ne	ADV
 a	avoir	AUX

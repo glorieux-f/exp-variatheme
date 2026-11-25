@@ -12,7 +12,7 @@ Rougemont	Rougemont	PROPN
 de	de	ADP
 Saint-Aubin	Saint-Aubin	PROPN
 (	(	PUNCTclause
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -40,13 +40,13 @@ chiffres	chiffre	NOUN
 nous	nous	PRON
 avons	avoir	AUX
 chacun	chacun	PRON
-2	2	NUM
+2	2	DIGIT
 parents	parent	NOUN
 ,	,	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 grands-parents	grands-parents	NOUN
 ,	,	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 arrière-grands-parents	arrière-grands-parents	NOUN
 …	…	PUNCTsent
 à	à	ADP
@@ -56,14 +56,14 @@ génération	génération	NOUN
 ,	,	PUNCTclause
 cela	cela	PRON
 fait	faire	VERB
-64	64	NUM
+64	64	DIGIT
 ancêtres	ancêtre	NOUN
 ;	;	PUNCTclause
 à	à	ADP
 la	le	DET
 10e	10e	ADJ
 ,	,	PUNCTclause
-1024	1024	NUM
+1024	1024	DIGIT
 ;	;	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -97,7 +97,7 @@ petit-fils	petit-fils	NOUN
 en	en	ADP
 arrière-petite-fille	arrière-petite-fille	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 à	à	ADP
 Charlemagne	Charlemagne	PROPN
@@ -128,7 +128,7 @@ trente-troisième	trente-troisième	ADJ
 génération	génération	NOUN
 ,	,	PUNCTclause
 il y a	il y a	VERB
-8,5	8,5	NUM
+8,5	8,5	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 ancêtres	ancêtre	NOUN
@@ -458,7 +458,7 @@ pu	pouvoir	VERB
 nous	nous	PRON
 fournir	fournir	VERB
 plus de	plus de	DET
-2	2	NUM
+2	2	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 ancêtres	ancêtre	NOUN
@@ -636,7 +636,7 @@ la	le	DET
 génération	génération	NOUN
 qui	qui	PRON
 compte	compter	VERB
-32	32	NUM
+32	32	DIGIT
 ancêtres	ancêtre	NOUN
 de	de	ADP
 Henri	Henri	PROPN
@@ -647,15 +647,15 @@ elle	elle	PRON
 se	se	PRON
 compose	composer	VERB
 de	de	ADP
-14	14	NUM
+14	14	DIGIT
 Neuchâtelois	Neuchâtelois	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 genevois	genevois	NOUN
 et	et	CCONJ
 de	de	ADP
-16	16	NUM
+16	16	DIGIT
 étrangers	étranger	NOUN
 .	.	PUNCTsent
 or	or	NOUN
@@ -676,13 +676,13 @@ ici	ici	ADV
 ,	,	PUNCTclause
 anachronique	anachronique	ADJ
 dans	dans	ADP
-14	14	NUM
+14	14	DIGIT
 cas	cas	NOUN
 sur	sur	ADP
-16	16	NUM
+16	16	DIGIT
 ,	,	PUNCTclause
 avant	avant	ADP
-1871	1871	NUM
+1871	1871	DIGIT
 —	—	PUNCTclause
 mais	mais	CCONJ
 par	par	ADP
@@ -1022,7 +1022,7 @@ descends	descendre	VERB
 le	le	DET
 numéro	numéro	NOUN
 I	I	NUM
-33.925	33.925	NUM
+33.925	33.925	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 deux	deux	NUM
@@ -1497,7 +1497,7 @@ Rougemont	Rougemont	PROPN
 la	le	DET
 Chevance	Chevance	PROPN
 »	»	PUNCTclause
-01630	01630	NUM
+01630	01630	DIGIT
 Saint-Genis-Pouilly	Saint-Genis-Pouilly	PROPN
 Janvier	Janvier	PROPN
-1983	1983	NUM
+1983	1983	DIGIT

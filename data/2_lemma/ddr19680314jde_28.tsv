@@ -16,9 +16,9 @@ Argentine	Argentine	PROPN
 l'	le	DET
 Argentina	Argentina	PROPN
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 juillet	juillet	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -309,9 +309,9 @@ couchons	coucher	VERB
 nous	nous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 juillet	juillet	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 mer	mer	NOUN
@@ -361,7 +361,7 @@ détaché	détacher	VERB
 de	de	ADP
 hier	hier	ADV
 ,	,	PUNCTclause
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 l'	le	DET
 accueil	accueil	NOUN
 curieux	curieux	ADJ
@@ -426,9 +426,9 @@ de	de	DET
 destin	destin	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 juillet	juillet	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 mer	mer	NOUN
@@ -763,9 +763,9 @@ ont	avoir	VERB
 rien	rien	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 juillet	juillet	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 mer	mer	NOUN
@@ -786,7 +786,7 @@ de	de	ADP
 une	un	DET
 dîme	dîme	NOUN
 (	(	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 cents	cents	NUM
 )	)	PUNCTclause
 et	et	CCONJ
@@ -813,7 +813,7 @@ joue	jouer	VERB
 par	par	ADP
 quarters	quarters	NOUN
 (	(	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 cents	cents	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -893,9 +893,9 @@ grand	grand	ADJ
 pays	pays	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 août	août	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 mer	mer	NOUN
@@ -1186,7 +1186,7 @@ sera	être	AUX
 l'	le	DET
 estuaire	estuaire	NOUN
 de	de	ADP
-la plata	la plata	NOUN
+la plata	la plata	DET
 ,	,	PUNCTclause
 et	et	CCONJ
 Buenos Aires	Buenos Aires	PROPN
@@ -1217,13 +1217,13 @@ plus	plus	ADV
 modérés	modéré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 août	août	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 estuaire	estuaire	NOUN
 de	de	ADP
-la plata	la plata	NOUN
+la plata	la plata	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -1289,7 +1289,7 @@ Buenos Aires	Buenos Aires	ADJ
 début	début	NOUN
 de	de	ADP
 septembre	septembre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -1382,7 +1382,7 @@ par exemple	par exemple	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 n°	n°	NOUN
-20751	20751	NUM
+20751	20751	DIGIT
 de	de	ADP
 la	le	DET
 plus	plus	ADV
@@ -1396,7 +1396,7 @@ qui	qui	PRON
 se	se	PRON
 étend	étendre	VERB
 sur	sur	ADP
-25	25	NUM
+25	25	DIGIT
 kilomètres	mètre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2278,7 +2278,7 @@ est	être	AUX
 une	un	DET
 ville	ville	NOUN
 de	de	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 presque	presque	ADV
@@ -2390,7 +2390,7 @@ il	il	PRON
 est	être	AUX
 né	naître	VERB
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 nous	nous	PRON
@@ -2931,7 +2931,7 @@ des	un	ADP_DET
 ,	,	PUNCTclause
 la	le	DET
 société	société	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 ne	ne	ADV
 en	en	PRON
 compte	compter	VERB
@@ -3841,9 +3841,9 @@ le	le_PRON	PRON
 quartier	quartier	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 octobre	octobre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mon	mon	DET
@@ -3948,9 +3948,9 @@ de	de	ADP
 Los	Los	PROPN
 Cerillos	Cerillos	PROPN
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 octobre	octobre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -4831,7 +4831,7 @@ dans	dans	ADP
 l'	le	DET
 estuaire	estuaire	NOUN
 de	de	ADP
-la plata	la plata	NOUN
+la plata	la plata	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -5179,7 +5179,7 @@ Buenos Aires	Buenos Aires	PROPN
 fin	fin	NOUN
 de	de	ADP
 octobre	octobre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 notes	note	NOUN
@@ -5189,7 +5189,7 @@ reportage	reportage	NOUN
 éventuel	éventuel	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 féodalité	féodalité	NOUN
@@ -5238,7 +5238,7 @@ se	se	PRON
 révolter	révolter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 des	un	ADP_DET
 trusts	trust	NOUN
@@ -5260,7 +5260,7 @@ grand	grand	ADJ
 commerce	commerce	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 constitution	constitution	NOUN
@@ -5286,7 +5286,7 @@ plus	plus	ADV
 forts	fort	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 vice-président	vice-président	NOUN
@@ -5353,7 +5353,7 @@ les	le	DET
 victimes	victime	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 me	me	PRON
@@ -5388,7 +5388,7 @@ des	un	DET
 mois	mois	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 estime	estimer	VERB
@@ -5440,7 +5440,7 @@ les	le	DET
 libéraux	libéral	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 la	le	DET
 propagande	propagande	NOUN
@@ -5510,7 +5510,7 @@ dans	dans	ADP
 le	le	DET
 Rio	Rio	PROPN
 de	de	ADP
-la plata	la plata	NOUN
+la plata	la plata	PRON
 ne	ne	ADV
 feraient	faire	VERB
 pas	pas	ADV
@@ -5521,7 +5521,7 @@ effet	effet	NOUN
 bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 les	le	DET
 libéraux	libéral	NOUN
@@ -5558,9 +5558,9 @@ en	en	ADP
 France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 novembre	novembre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 rade	rade	NOUN
@@ -5696,9 +5696,9 @@ hiver	hiver	NOUN
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 novembre	novembre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 mer	mer	NOUN
@@ -5725,7 +5725,7 @@ malaise	malaise	NOUN
 en	en	ADP
 août	août	NOUN
 .	.	PUNCTsent
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 le	le	DET
 départ	départ	NOUN
@@ -6028,9 +6028,9 @@ de	de	ADP
 Hollywood	Hollywood	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 novembre	novembre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Premières	Premières	PROPN

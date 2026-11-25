@@ -18,7 +18,7 @@ en	en	ADP
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 on	on	PRON
@@ -578,7 +578,7 @@ traités	traité	NOUN
 suivants	suivant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 premier	premier	ADJ
 traité	traité	NOUN
@@ -805,7 +805,7 @@ nègre	nègre	ADJ
 ,	,	PUNCTclause
 juif	juif	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -2010,7 +2010,7 @@ l'	le	DET
 Atlantique	Atlantique	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 second	second	ADJ
 traité	traité	NOUN
@@ -2286,7 +2286,7 @@ que	que	SCONJ
 il	il	PRON
 en	en	PRON
 remplit	remplir	VERB
-145	145	NUM
+145	145	DIGIT
 pour	pour	ADP
 sa	son	DET
 société	société	NOUN
@@ -2397,7 +2397,7 @@ argent	argent	NOUN
 en général	en général	ADV
 .	.	PUNCTsent
 —	—	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 en	en	ADP
 États-Unis	États-Unis	PROPN
@@ -3722,7 +3722,7 @@ France	France	PROPN
 surtout	surtout	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -3836,7 +3836,7 @@ de	de	ADP
 hospitalité	hospitalité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -4099,7 +4099,7 @@ la	le	DET
 solitude	solitude	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -4218,7 +4218,7 @@ de	de	ADP
 passé	passer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -4517,7 +4517,7 @@ caricatures	caricature	NOUN
 traditionnelles	traditionnel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -4787,7 +4787,7 @@ leur	leur	DET
 sujet	sujet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -4975,7 +4975,7 @@ pas	pas	ADV
 rentables	rentable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -4993,7 +4993,7 @@ pas	pas	ADV
 une	un	DET
 erreur	erreur	NOUN
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 cents	cents	NUM
 dans	dans	ADP
 un	un	DET
@@ -5252,7 +5252,7 @@ Ellis	Ellis	PROPN
 Island	Island	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -5549,7 +5549,7 @@ l'	le	DET
 inverse	inverse	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ils	ils	PRON
@@ -5603,7 +5603,7 @@ lit	lire	VERB
 le	le	DET
 troisième	troisième	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 à	à	ADP
 l'	le	DET
 antiphone	antiphone	NOUN
@@ -5893,7 +5893,7 @@ la	le	DET
 petite	petit	ADJ
 fille	fille	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 ans	an	NOUN
 décroche	décrocher	VERB
 le	le	DET
@@ -5914,9 +5914,9 @@ amie	ami	NOUN
 une	un	DET
 fille	fille	NOUN
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 à	à	ADP
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 occupe	occuper	VERB
 le	le	DET
@@ -5927,7 +5927,7 @@ par	par	ADP
 jour	jour	NOUN
 .	.	PUNCTsent
 à	à	ADP
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -6038,7 +6038,7 @@ de	de	ADP
 ignorer	ignorer	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 vous	vous	PRON
@@ -6596,7 +6596,7 @@ et	et	CCONJ
 respectée	respecter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 on	on	PRON
@@ -6956,7 +6956,7 @@ de	de	ADP
 naissance	naissance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 un	un	DET
@@ -7203,9 +7203,9 @@ est	être	AUX
 ainsi	ainsi	ADV
 que	que	SCONJ
 de	de	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 à	à	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 état	état	NOUN
@@ -7243,8 +7243,8 @@ laquelle	laquelle	PRON
 représentait	représenter	VERB
 environ	environ	ADV
 les	le	DET
-9	9	NUM
-10	10	NUM
+9	9	DIGIT
+10	10	DIGIT
 de	de	ADP
 la	le	DET
 production	production	NOUN
@@ -7577,7 +7577,7 @@ juger	juger	VERB
 plus	plus	ADV
 sagement	sagement	ADV
 en	en	ADP
-24	24	NUM
+24	24	DIGIT
 heures	heure	NOUN
 que	que	SCONJ
 le	le	DET
@@ -7806,7 +7806,7 @@ sommes	être	AUX
 adultes	adulte	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 un	un	DET
@@ -8549,7 +8549,7 @@ en	en	ADP
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 l'	le	DET
@@ -9390,7 +9390,7 @@ Mal	Mal	PROPN
 le	le	DET
 krach	krach	NOUN
 de	de	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 Hitler	Hitler	PROPN
 ,	,	PUNCTclause
@@ -9489,7 +9489,7 @@ la	le	DET
 planète	planète	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 l'	le	DET

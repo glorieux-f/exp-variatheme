@@ -12,11 +12,11 @@ religieuse	religieux	ADJ
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 (	(	PUNCTclause
-1942	1942	NUM
--1945	-1945	NUM
+1942	1942	DIGIT
+-1945	-1945	DIGIT
 )	)	PUNCTclause
 (	(	PUNCTclause
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -118,9 +118,9 @@ passées	passer	VERB
 là-bas	là-bas	ADV
 ,	,	PUNCTclause
 de	de	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 à	à	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -261,7 +261,7 @@ chaque	chaque	DET
 après-midi	après-midi	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-4	4	NUM
+4	4	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -427,9 +427,9 @@ habitants	habitant	NOUN
 vous	vous	PRON
 trouverez	trouver	VERB
 en général	en général	ADV
-4	4	NUM
+4	4	DIGIT
 ou	ou	CCONJ
-5	5	NUM
+5	5	DIGIT
 lieux	lieu	NOUN
 de	de	ADP
 culte	culte	NOUN
@@ -503,7 +503,7 @@ par exemple	par exemple	ADV
 «	«	PUNCTsent
 maison	maison	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 pièces	pièce	NOUN
 ,	,	PUNCTclause
 confort	confort	NOUN
@@ -634,12 +634,12 @@ qui	qui	PRON
 seront	être	AUX
 célébrés	célébrer	VERB
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 h	h	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 h	h	NOUN
 du	du	ADP_DET
 soir	soir	NOUN
@@ -868,7 +868,7 @@ est	être	AUX
 ainsi	ainsi	ADV
 que	que	SCONJ
 les	le	DET
-60	60	NUM
+60	60	DIGIT
 millions	million	NOUN
 de	de	ADP
 protestants	protestant	NOUN
@@ -884,7 +884,7 @@ grandes	grand	ADJ
 dénominations	dénomination	NOUN
 »	»	PUNCTclause
 à côté de	à côté de	ADP
-23	23	NUM
+23	23	DIGIT
 millions	million	NOUN
 de	de	ADP
 catholiques	catholique	NOUN
@@ -1346,7 +1346,7 @@ la	le	DET
 bombe atomique	bombe atomique	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 joué	jouer	VERB

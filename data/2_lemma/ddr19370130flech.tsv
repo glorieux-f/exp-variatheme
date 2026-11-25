@@ -12,9 +12,9 @@ clubs	club	NOUN
 de	de	ADP
 presse	presse	NOUN
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 janvier	janvier	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -236,7 +236,7 @@ publicité	publicité	NOUN
 ,	,	PUNCTclause
 centralisation	centralisation	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 qui	qui	PRON
 ont	avoir	AUX
@@ -678,7 +678,7 @@ en	en	ADP
 trois	trois	NUM
 parties	partie	NOUN
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 une	un	DET
 partie	partie	NOUN
@@ -727,7 +727,7 @@ toute	toute	DET
 garantie	garantie	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 une	un	DET
 partie	partie	NOUN
@@ -821,7 +821,7 @@ de	de	ADP
 journaux	journal	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 une	un	DET
 partie	partie	NOUN
@@ -906,8 +906,8 @@ direction	direction	NOUN
 la	le	DET
 tendance	tendance	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-des	un	ADP_DET
+etc.	etc.	X
+des	un	DET
 journaux	journal	NOUN
 existants	existant	ADJ
 ;	;	PUNCTclause
@@ -948,7 +948,7 @@ de	de	ADP
 la	le	DET
 partie	partie	NOUN
 numéro	numéro	NOUN
-2	2	NUM
+2	2	DIGIT
 du	du	ADP_DET
 bulletin	bulletin	NOUN
 :	:	PUNCTclause

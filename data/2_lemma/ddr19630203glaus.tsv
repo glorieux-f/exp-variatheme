@@ -32,10 +32,10 @@ cela	cela	PRON
 existe	exister	VERB
 …	…	PUNCTsent
 (	(	PUNCTclause
-2	2	NUM
--3	-3	NUM
+2	2	DIGIT
+-3	-3	DIGIT
 février	février	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -524,7 +524,7 @@ donne	donner	VERB
 plus	plus	ADV
 rien	rien	PRON
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 le	le	DET
 signe	signe	NOUN
 que	que	SCONJ

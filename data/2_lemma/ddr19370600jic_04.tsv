@@ -14,9 +14,9 @@ l'	le	DET
 parisien	parisien	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 arrivée	arrivée	NOUN
@@ -287,9 +287,9 @@ de	de	ADP
 Italie	Italie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 porte	porter	VERB
@@ -756,9 +756,9 @@ de	de	ADP
 Kobé	Kobé	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
@@ -909,9 +909,9 @@ de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 toutes	tout	ADJ
@@ -1223,15 +1223,15 @@ rapides	rapide	ADJ
 comme	comme	ADP
 des	un	DET
 «	«	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 soir	soir	NOUN
 du	du	ADP_DET
-14	14	NUM
+14	14	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voici	voici	ADP
@@ -1690,9 +1690,9 @@ après	après	ADP
 les	le	DET
 cortèges	cortège	NOUN
 du	du	ADP_DET
-14	14	NUM
+14	14	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 scepticisme	scepticisme	NOUN
@@ -1917,9 +1917,9 @@ ma	mon	DET
 question	question	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mystifications	mystification	NOUN
@@ -1995,8 +1995,8 @@ culturelles	culturel	ADJ
 et	et	CCONJ
 politiques	politique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-ils	ils	PRON
+etc.	etc.	X
+ils	ils	X
 me	me	PRON
 répondent	répondre	VERB
 que	que	SCONJ
@@ -2205,9 +2205,9 @@ les	le	DET
 décourager	décourager	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -2412,9 +2412,9 @@ comme	comme	ADP
 cela	cela	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-28	28	NUM
+28	28	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -2428,7 +2428,7 @@ du	du	ADP_DET
 métro	métro	NOUN
 ,	,	PUNCTclause
 vers	vers	ADP
-7	7	NUM
+7	7	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 soir	soir	NOUN
@@ -2643,7 +2643,7 @@ voit	voir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 août	août	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -2926,7 +2926,7 @@ retourner	retourner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 août	août	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -3180,7 +3180,7 @@ citadins	citadin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 août	août	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 considération	considération	NOUN
@@ -3265,7 +3265,7 @@ et	et	CCONJ
 de	de	ADP
 lumières	lumière	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 beau	beau	ADJ
 ?	?	PUNCTsent
 pourquoi	pourquoi	ADV
@@ -3477,7 +3477,7 @@ confortable	confortable	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 août	août	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -3581,7 +3581,7 @@ autre	autre	ADJ
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 août	août	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 remercier	remercier	VERB
@@ -3632,7 +3632,7 @@ prose	prose	NOUN
 à	à	ADP
 Thivars	Thivars	PROPN
 ,	,	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 kilomètres	mètre	NOUN
 de	de	ADP
 Chartres	Chartres	PROPN
@@ -3640,11 +3640,11 @@ Chartres	Chartres	PROPN
 ↵↵	↵↵	PUNCTstruct
 petite	petit	ADJ
 fermette	fermette	NOUN
-3	3	NUM
+3	3	DIGIT
 pièces	pièce	NOUN
 meublées	meubler	VERB
 —	—	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 grandes	grand	ADJ
 cours	cours	NOUN
 et	et	CCONJ
@@ -3708,13 +3708,13 @@ moyens	moyen	NOUN
 de	de	ADP
 communication	communication	NOUN
 :	:	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 autobus	autobus	NOUN
 pour	pour	ADP
 venir de	venir de	VERB
 Chartres	Chartres	PROPN
 .	.	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 autobus	autobus	NOUN
 pour	pour	ADP
 retourner	retourner	VERB
@@ -3723,12 +3723,12 @@ Chartres	Chartres	PROPN
 .	.	PUNCTsent
 le	le	DET
 samedi	samedi	NOUN
-3	3	NUM
+3	3	DIGIT
 dans	dans	ADP
 les	le	DET
 deux	deux	NUM
 sens	sens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1933	1933	NUM
--1935	-1935	NUM
+1933	1933	DIGIT
+-1935	-1935	DIGIT

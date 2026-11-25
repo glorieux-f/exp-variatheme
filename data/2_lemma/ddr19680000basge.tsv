@@ -12,7 +12,7 @@ exode	exode	NOUN
 des	un	ADP_DET
 cerveaux	cerveau	NOUN
 (	(	PUNCTclause
-1968	1968	NUM
+1968	1968	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -292,7 +292,7 @@ composition	composition	NOUN
 du	du	ADP_DET
 groupe	groupe	NOUN
 des	un	ADP_DET
-14	14	NUM
+14	14	DIGIT
 Suisse	Suisse	PROPN
 —	—	PUNCTclause
 de	de	ADP
@@ -308,7 +308,7 @@ le	le	DET
 prix Nobel	prix Nobel	NOUN
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1901	1901	NUM
+1901	1901	DIGIT
 ,	,	PUNCTclause
 date	date	NOUN
 où	où	PRON
@@ -317,7 +317,7 @@ fut	être	AUX
 créé	créer	VERB
 .	.	PUNCTsent
 il y a	il y a	VERB
-6	6	NUM
+6	6	DIGIT
 chercheurs	chercheur	NOUN
 nés	naître	VERB
 Suisse	Suisse	PROPN
@@ -328,7 +328,7 @@ sont	être	AUX
 restés	rester	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-5	5	NUM
+5	5	DIGIT
 non	non	ADV
 Suisse	Suisse	PROPN
 de	de	ADP
@@ -564,9 +564,9 @@ devait	devoir	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1250	1250	NUM
+1250	1250	DIGIT
 à	à	ADP
-1260	1260	NUM
+1260	1260	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -1703,7 +1703,7 @@ ne	ne	ADV
 pas	pas	ADV
 parti	partir	VERB
 à	à	ADP
-17	17	NUM
+17	17	DIGIT
 ans	an	NOUN
 pour	pour	ADP
 le	le	DET
@@ -1843,7 +1843,7 @@ San	San	PROPN
 Francisco	Francisco	PROPN
 qui	qui	PRON
 a	avoir	AUX
-2750	2750	NUM
+2750	2750	DIGIT
 mètres	mètre	NOUN
 de	de	ADP
 long	long	ADJ
@@ -2007,7 +2007,7 @@ culture	culture	NOUN
 à	à	ADP
 Lausanne	Lausanne	PROPN
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 avons	avoir	AUX
@@ -2180,7 +2180,7 @@ ne	ne	ADV
 peut	pouvoir	VERB
 pas	pas	ADV
 dire	dire	VERB
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 il	il	PRON
 se	se	PRON
 agit	agir	VERB
@@ -4026,7 +4026,7 @@ l'	le	DET
 de	de	ADP
 Genève	Genève	PROPN
 (	(	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 M.	M.	NOUN
 Lalive	Lalive	PROPN
 ?	?	PUNCTsent

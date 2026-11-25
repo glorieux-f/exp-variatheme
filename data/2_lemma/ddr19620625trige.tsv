@@ -22,16 +22,16 @@ un	un	DET
 témoin	témoin	NOUN
 II	II	NUM
 (	(	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 juin	juin	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mercredi	mercredi	NOUN
-19	19	NUM
+19	19	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 atmosphère	atmosphère	NOUN
 de	de	ADP
@@ -211,9 +211,9 @@ précises	préciser	VERB
 faire	faire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 mon	mon	DET
 colonel	colonel	NOUN
@@ -397,9 +397,9 @@ petite	petit	ADJ
 cérémonie	cérémonie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-22	22	NUM
+22	22	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 céder	céder	VERB
 à	à	ADP
@@ -411,7 +411,7 @@ liberté	liberté	NOUN
 de	de	ADP
 expression	expression	NOUN
 ,	,	PUNCTclause
-n'est-ce	n'est-ce	VERB
+n'est-ce	n'est-ce	PRON
 point	point	ADV
 perdre	perdre	VERB
 ,	,	PUNCTclause
@@ -452,9 +452,9 @@ au	au	ADP_DET
 général	général	NOUN
 Guisan	Guisan	PROPN
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 août	août	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 par	par	ADP
 le	le	DET
 Conseil fédéral	Conseil fédéral	NOUN
@@ -607,7 +607,7 @@ L'Ordre nouveau	L'Ordre nouveau	DET
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 repris	reprendre	VERB
 mon	mon	DET
@@ -888,7 +888,7 @@ texte	texte	NOUN
 va	aller	VERB
 paraître	paraître	VERB
 dans	dans	ADP
-74	74	NUM
+74	74	DIGIT
 journaux	journal	NOUN
 du	du	ADP_DET
 pays	pays	NOUN
@@ -947,9 +947,9 @@ paraît	paraître	VERB
 il	il	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
 ,	,	PUNCTclause
@@ -1310,7 +1310,7 @@ points	point	NOUN
 (	(	PUNCTclause
 point	point	NOUN
 n°	n°	SYM
-1	1	NUM
+1	1	DIGIT
 :	:	PUNCTclause
 renvoi	renvoi	NOUN
 immédiat	immédiat	ADJ
@@ -1463,7 +1463,7 @@ accordée	accorder	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 trop	trop	ADV
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 depuis	depuis	ADP
 l'	le	DET
 affaire	affaire	NOUN
@@ -1558,7 +1558,7 @@ plantées	planter	VERB
 (	(	PUNCTclause
 note	note	NOUN
 de	de	ADP
-1962	1962	NUM
+1962	1962	DIGIT
 :	:	PUNCTclause
 nulle	nul	DET
 trace	trace	NOUN

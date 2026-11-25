@@ -11,9 +11,9 @@ Grandchamp	Grandchamp	PROPN
 des	un	ADP_DET
 Bovet	Bovet	PROPN
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 juin	juin	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -409,7 +409,7 @@ les	le	DET
 Verdan	Verdan	PROPN
 .	.	PUNCTsent
 vers	vers	ADP
-1870	1870	NUM
+1870	1870	DIGIT
 ,	,	PUNCTclause
 Jean-Jacques	Jean-Jacques	PROPN
 Bovet	Bovet	PROPN
@@ -476,7 +476,7 @@ fêtes	fête	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 vers	vers	ADP
-1820	1820	NUM
+1820	1820	DIGIT
 ,	,	PUNCTclause
 sauf	sauf	ADP
 erreur	erreur	NOUN
@@ -861,7 +861,7 @@ indiennes	indien	ADJ
 ,	,	PUNCTclause
 atteint	atteindre	VERB
 quelque	quelque	DET
-150	150	NUM
+150	150	DIGIT
 m	m	NOUN
 de	de	ADP
 longueur	longueur	NOUN
@@ -1379,7 +1379,7 @@ Grandchamp	Grandchamp	PROPN
 fut	être	AUX
 achetée	acheter	VERB
 en	en	ADP
-1856	1856	NUM
+1856	1856	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -1441,13 +1441,13 @@ si	si	SCONJ
 elle	elle	PRON
 était	être	VERB
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
 pensées	penser	VERB
 ,	,	PUNCTclause
-123	123	NUM
+123	123	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
@@ -1560,7 +1560,7 @@ de	de	ADP
 Grandchamp	Grandchamp	PROPN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-350	350	NUM
+350	350	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -1615,7 +1615,7 @@ puis	puis	CCONJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 de	de	ADP
 ce	ce	DET
 siècle	siècle	NOUN
@@ -1691,7 +1691,9 @@ chapelain	chapelain	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 est	être	AUX
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 ces	ce	DET
 «	«	PUNCTclause
 âmes	âme	NOUN
@@ -1801,9 +1803,9 @@ l'	le	DET
 hôpital	hôpital	NOUN
 »	»	PUNCTclause
 ;	;	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 ou	ou	CCONJ
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
@@ -2628,10 +2630,10 @@ bonne conscience	bonne conscience	NOUN
 pensées	penser	VERB
 ,	,	PUNCTclause
 n°	n°	SYM
-105	105	NUM
+105	105	DIGIT
 ,	,	PUNCTclause
 p.	p.	PUNCT
-63	63	NUM
+63	63	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 enfin	enfin	ADV
@@ -2784,7 +2786,7 @@ Pierre	Pierre	PROPN
 Bovet	Bovet	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
-1912	1912	NUM
+1912	1912	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 deviendra	devenir	VERB
@@ -3048,7 +3050,7 @@ dont	dont	PRON
 il	il	PRON
 fonde	fonder	VERB
 à	à	ADP
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 à	à	ADP
 Neuchâtel	Neuchâtel	PROPN
@@ -3085,7 +3087,7 @@ on	on	PRON
 célèbre	célébrer	VERB
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 juin	juin	NOUN
 ,	,	PUNCTclause
 la	le	DET

@@ -13,9 +13,9 @@ nationales	national	ADJ
 en	en	ADP
 Europe	Europe	PROPN
 (	(	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 février	février	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -340,7 +340,7 @@ magiques	magique	ADJ
 ,	,	PUNCTclause
 racistes	raciste	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 si	si	SCONJ
 elle	elle	PRON
@@ -483,9 +483,9 @@ empire	empire	NOUN
 carolingien	carolingien	ADJ
 (	(	PUNCTclause
 de	de	ADP
-800	800	NUM
+800	800	DIGIT
 à	à	ADP
-814	814	NUM
+814	814	DIGIT
 )	)	PUNCTclause
 correspondra	correspondre	VERB
 assez	assez	ADV
@@ -830,7 +830,7 @@ Navarre	Navarre	PROPN
 ,	,	PUNCTclause
 Alsace	Alsace	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
@@ -940,7 +940,7 @@ fin	fin	NOUN
 au	au	ADP_DET
 Saint-Empire	Saint-Empire	PROPN
 en	en	ADP
-1807	1807	NUM
+1807	1807	DIGIT
 que	que	SCONJ
 pour	pour	ADP
 en	en	PRON
@@ -1025,7 +1025,7 @@ de	de	ADP
 la	le	DET
 		TOKEN
 en	en	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 en passant	en passant	ADV
 par	par	ADP
@@ -1280,8 +1280,8 @@ par	par	ADP
 les	le	DET
 traités	traité	NOUN
 de	de	ADP
-1919	1919	NUM
--1920	-1920	NUM
+1919	1919	DIGIT
+-1920	-1920	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON

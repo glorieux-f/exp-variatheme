@@ -20,7 +20,7 @@ Mauvais	Mauvais	PROPN
 Temps	Temps	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -33,9 +33,9 @@ présent	présent	ADJ
 ↵↵	↵↵	PUNCTstruct
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 mars	mars	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 Führer	Führer	PROPN
@@ -307,7 +307,7 @@ ce	ce	DET
 Paris	Paris	PROPN
 de	de	ADP
 mars	mars	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 derniers	dernier	ADJ
@@ -732,9 +732,9 @@ paix	paix	NOUN
 en	en	ADP
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 mai	mai	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ↵↵	↵↵	PUNCTstruct
 combien	combien	ADV
 oseraient	oser	VERB
@@ -947,9 +947,9 @@ jamais	jamais	ADV
 ↵↵	↵↵	PUNCTstruct
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 mai	mai	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ↵↵	↵↵	PUNCTstruct
 4e	4e	ADJ
 changement	changement	NOUN
@@ -1053,9 +1053,9 @@ heure	heure	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 mai	mai	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 grande	grand	ADJ
@@ -1418,9 +1418,9 @@ Flandres	Flandres	PROPN
 en	en	ADP
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-24	24	NUM
+24	24	DIGIT
 mai	mai	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 poste	poste	NOUN
 militaire	militaire	ADJ
@@ -1807,7 +1807,7 @@ ce	ce	PRON
 est	être	AUX
 sérieux	sérieux	ADJ
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ça	ça	PRON
 y	y	PRON
 est	être	VERB
@@ -1888,7 +1888,7 @@ mai	mai	NOUN
 et	et	CCONJ
 de	de	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 entendait	entendre	VERB
@@ -1953,9 +1953,9 @@ V.	V.	X
 Lisbonne	Lisbonne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Blanche	Blanche	PROPN
 et	et	CCONJ
@@ -2262,7 +2262,7 @@ en	en	ADP
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Périgny	Périgny	PROPN
 …	…	PUNCTsent
@@ -2801,7 +2801,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1943	1943	NUM
+1943	1943	DIGIT
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 ne	ne	ADV

@@ -11,11 +11,11 @@ et	et	CCONJ
 démocratie	démocratie	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 en	en	ADP
 quoi	quoi	PRON
@@ -70,7 +70,7 @@ les	le	DET
 au	au	ADP_DET
 Reichstag	Reichstag	NOUN
 du	du	ADP_DET
-29	29	NUM
+29	29	DIGIT
 mars	mars	NOUN
 ne	ne	ADV
 consistaient	consister	VERB
@@ -282,7 +282,7 @@ cortège	cortège	NOUN
 bulletins	bulletin	NOUN
 ouverts	ouvert	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 privant	priver	VERB
 les	le	DET
@@ -415,7 +415,7 @@ essentiellement	essentiellement	ADV
 antiparlementaire	antiparlementaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 plébiscite	plébiscite	NOUN
 et	et	CCONJ
@@ -729,7 +729,7 @@ une	un	DET
 opinion	opinion	NOUN
 quand	quand	SCONJ
 il y a	il y a	VERB
-46	46	NUM
+46	46	DIGIT
 partis	parti	NOUN
 qui	qui	PRON
 sollicitent	solliciter	VERB
@@ -765,7 +765,7 @@ comprendre	comprendre	VERB
 à	à	ADP
 tout	tout	ADJ
 citoyen	citoyen	NOUN
-46	46	NUM
+46	46	DIGIT
 programmes	programme	NOUN
 différents	différent	ADJ
 ,	,	PUNCTclause
@@ -1173,7 +1173,7 @@ le	le	DET
 peuple	peuple	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 nécessité	nécessité	NOUN
 du	du	ADP_DET
@@ -1205,7 +1205,7 @@ deux	deux	NUM
 cas	cas	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 lorsque	lorsque	SCONJ
 il	il	PRON
@@ -1243,7 +1243,7 @@ III	III	NUM
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 lorsque	lorsque	SCONJ
 il	il	PRON
@@ -1290,7 +1290,7 @@ régime	régime	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
 les	le	DET
-3	3	NUM
+3	3	DIGIT
 plébiscites	plébiscite	NOUN
 hitlériens	hitlérien	ADJ
 .	.	PUNCTsent
@@ -1627,7 +1627,7 @@ opinion publique	opinion publique	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 la	le	DET
 France	France	PROPN
@@ -1672,7 +1672,7 @@ fait	faire	VERB
 la	le	DET
 Révolution	Révolution	PROPN
 de	de	ADP
-89	89	NUM
+89	89	DIGIT
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 qui	qui	PRON
@@ -1685,7 +1685,7 @@ réalité	réalité	NOUN
 nationale	national	ADJ
 depuis	depuis	ADP
 bientôt	bientôt	ADV
-150	150	NUM
+150	150	DIGIT
 ans	an	NOUN
 ;	;	PUNCTclause
 pour	pour	ADP
@@ -1732,7 +1732,7 @@ sur	sur	ADP
 cette	ce	DET
 conclusion	conclusion	NOUN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 nous	nous	PRON
 critiquons	critiquer	VERB
 le	le	DET

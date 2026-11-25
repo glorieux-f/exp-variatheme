@@ -11,7 +11,7 @@ dialogue	dialogue	NOUN
 Europe-USA	Europe-USA	PROPN
 (	(	PUNCTclause
 août-septembre	août-septembre	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -129,9 +129,9 @@ exemples	exemple	NOUN
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 du	du	ADP_DET
-19	19	NUM
+19	19	DIGIT
 au	au	ADP_DET
-21	21	NUM
+21	21	DIGIT
 juillet	juillet	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -159,11 +159,10 @@ Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 du	du	ADP_DET
-26	26	NUM
+26	26	DIGIT
 août	août	NOUN
 au	au	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 septembre	septembre	NOUN
 ,	,	PUNCTclause
 en marge	en marge	ADV
@@ -184,10 +183,10 @@ Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 du	du	ADP_DET
-26	26	NUM
+26	26	DIGIT
 août	août	NOUN
 au	au	ADP_DET
-6	6	NUM
+6	6	DIGIT
 septembre	septembre	NOUN
 ,	,	PUNCTclause
 séminaire	séminaire	NOUN

@@ -24,7 +24,7 @@ l'	le	DET
 écrivain	écrivain	NOUN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -102,7 +102,7 @@ terme	terme	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à l'occasion de	à l'occasion de	ADP
@@ -148,7 +148,7 @@ politique	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vers	vers	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
@@ -1218,7 +1218,7 @@ laïque	laïque	ADJ
 ,	,	PUNCTclause
 progressiste	progressiste	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -1711,7 +1711,7 @@ suivante	suivant	ADJ
 et	et	CCONJ
 publié	publier	VERB
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 que	que	PRON
 la	le	DET
@@ -1744,7 +1744,7 @@ chez	chez	ADP
 Sartre	Sartre	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 —	—	PUNCTclause
 au	au	ADP_DET
 service	service	NOUN
@@ -2806,7 +2806,7 @@ dans	dans	ADP
 L'Ordre nouveau	L'Ordre nouveau	DET
 de	de	ADP
 juin	juin	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 dont	dont	PRON
 voici	voici	ADP
@@ -2818,9 +2818,9 @@ chose	chose	NOUN
 étrange	étrange	ADJ
 ,	,	PUNCTclause
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 février	février	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 fut	être	AUX
 une	un	DET
 date	date	NOUN
@@ -3468,7 +3468,7 @@ siècle	siècle	NOUN
 ayant	avoir	AUX
 écrit	écrire	VERB
 p.	p.	PUNCT
-277	277	DET
+277	277	DIGIT
 de	de	ADP
 situations	situation	NOUN
 II	II	NUM
@@ -3489,7 +3489,7 @@ ouvrière	ouvrier	ADJ
 ,	,	PUNCTclause
 écrit	écrire	VERB
 p.	p.	PUNCT
-316	316	NUM
+316	316	DIGIT
 du	du	ADP_DET
 même	même	ADJ
 volume	volume	NOUN
@@ -3533,7 +3533,7 @@ amène	amener	VERB
 signer	signer	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 ,	,	PUNCTclause
 des	un	DET
 manifestes	manifeste	NOUN
@@ -3626,7 +3626,7 @@ commune	commun	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 de	de	ADP
 ce	ce	DET
 siècle	siècle	NOUN
@@ -3637,7 +3637,7 @@ qui	qui	PRON
 allaient	aller	VERB
 devenir	devenir	VERB
 dès	dès	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 non seulement	non seulement	ADV
 les	le	DET
 premiers	premier	ADJ
@@ -3736,7 +3736,7 @@ Lamartine	Lamartine	PROPN
 esquisse	esquisser	VERB
 ,	,	PUNCTclause
 dès	dès	ADP
-1837	1837	NUM
+1837	1837	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 portrait	portrait	NOUN

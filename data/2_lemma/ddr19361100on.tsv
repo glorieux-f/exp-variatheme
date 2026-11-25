@@ -12,7 +12,7 @@ au	au	ADP_DET
 fascisme	fascisme	NOUN
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -70,7 +70,7 @@ Dieu	Dieu	PROPN
 pour	pour	ADP
 tous	tous	PRON
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -188,7 +188,7 @@ droite	droite	NOUN
 ne	ne	ADV
 signifient	signifier	VERB
 plus	plus	ADV
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 ,	,	PUNCTclause
 si tant est que	si tant est que	SCONJ
 ils	ils	PRON
@@ -196,7 +196,7 @@ aient	avoir	AUX
 jamais	jamais	ADV
 signifié	signifier	VERB
 les mêmes	les mêmes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 que	que	SCONJ
 ici	ici	ADV
 .	.	PUNCTsent
@@ -1190,7 +1190,7 @@ dépassement	dépassement	NOUN
 Hegel	Hegel	PROPN
 ,	,	PUNCTclause
 —	—	PUNCTclause
-c'est-à-dire	c'est-à-dire	NOUN
+c'est-à-dire	c'est-à-dire	CCONJ
 en même temps	en même temps	ADV
 la	le	DET
 négation	négation	NOUN
@@ -1264,7 +1264,7 @@ marins	marin	NOUN
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 poste	poste	NOUN
@@ -1472,7 +1472,7 @@ socialistes	socialiste	NOUN
 ,	,	PUNCTclause
 sans	sans	ADP
 étatiser	étatiser	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 les	le	DET
 forces	force	NOUN
 morales	morale	ADJ

@@ -13,7 +13,7 @@ les	le	DET
 libertés	liberté	NOUN
 (	(	PUNCTclause
 mai	mai	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -361,7 +361,7 @@ cité	citer	VERB
 (	(	PUNCTclause
 voir	voir	VERB
 note	note	NOUN
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 indiquons	indiquer	VERB
@@ -674,7 +674,7 @@ de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1793	1793	NUM
+1793	1793	DIGIT
 ,	,	PUNCTclause
 dont	dont	PRON
 l'	le	DET
@@ -739,7 +739,7 @@ ou	ou	CCONJ
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1875	1875	NUM
+1875	1875	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 aboutit	aboutir	VERB
@@ -1126,7 +1126,7 @@ eu	avoir	VERB
 ses	son	DET
 clubs	club	NOUN
 ;	;	PUNCTclause
-1870	1870	NUM
+1870	1870	DIGIT
 a	avoir	AUX
 vu	voir	VERB
 naître	naître	VERB
@@ -1135,7 +1135,7 @@ communes	commun	NOUN
 révolutionnaires	révolutionnaire	ADJ
 ;	;	PUNCTclause
 en	en	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 Soviets	Soviets	PROPN
@@ -1457,7 +1457,7 @@ Pouvoir	Pouvoir	PROPN
 voir	voir	VERB
 le	le	DET
 n°	n°	SYM
-31	31	NUM
+31	31	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 cette	ce	DET
@@ -1509,7 +1509,7 @@ ne	ne	ADV
 seront	être	AUX
 pas	pas	ADV
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
 ce	ce	PRON
@@ -1769,7 +1769,7 @@ analogue	analogue	NOUN
 à	à	ADP
 celui	celui	PRON
 du	du	ADP_DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 actuel	actuel	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -1826,7 +1826,7 @@ pas	pas	ADV
 en effet	en effet	ADV
 que	que	SCONJ
 le	le	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 soit	être	AUX
 le	le	DET
 représentant	représentant	NOUN
@@ -1880,7 +1880,7 @@ des	un	ADP_DET
 pouvoirs	pouvoir	NOUN
 ,	,	PUNCTclause
 le	le	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 manque de	manque de	ADP
 toute	toute	DET
 espèce	espèce	NOUN
@@ -2358,7 +2358,7 @@ des	un	ADP_DET
 choses	chose	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 nous	nous	PRON
@@ -2436,7 +2436,7 @@ pouvoir	pouvoir	NOUN
 voir	voir	VERB
 le	le	DET
 n°	n°	SYM
-31	31	NUM
+31	31	DIGIT
 ,	,	PUNCTclause
 déjà	déjà	ADV
 cité	citer	VERB
@@ -2766,7 +2766,7 @@ plus	plus	ADV
 avant	avant	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 nous	nous	PRON
@@ -3000,7 +3000,7 @@ terminer	terminer	VERB
 ,	,	PUNCTclause
 que	que	SCONJ
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 on	on	PRON
 ne	ne	ADV
 saurait	savoir	VERB

@@ -13,7 +13,7 @@ des	un	ADP_DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -314,9 +314,9 @@ remontent	remonter	VERB
 guère	guère	ADV
 que	que	SCONJ
 à	à	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 et	et	CCONJ
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 le	le	DET
@@ -802,7 +802,7 @@ pris	prendre	VERB
 vers	vers	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -819,7 +819,7 @@ histoire	histoire	NOUN
 contemporaine	contemporain	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 naissance	naissance	NOUN
@@ -830,7 +830,7 @@ union	union	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 processus	processus	NOUN
@@ -838,7 +838,7 @@ de	de	ADP
 décolonisation	décolonisation	NOUN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 adoption	adoption	NOUN
@@ -920,7 +920,7 @@ tint	tenir	VERB
 la	le	DET
 Haye	Haye	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 mouvement	mouvement	NOUN
@@ -942,7 +942,7 @@ la	le	DET
 Ceca	Ceca	PROPN
 .	.	PUNCTsent
 vers	vers	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 apparaissait	apparaître	VERB
@@ -1067,7 +1067,7 @@ prolifération	prolifération	NOUN
 de	de	ADP
 instituts	institut	NOUN
 à partir de	à partir de	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 (	(	PUNCTclause
 au lendemain de	au lendemain de	ADP
 Congrès de La Haye	Congrès de La Haye	PROPN
@@ -1077,9 +1077,9 @@ puis	puis	CCONJ
 un	un	DET
 temps mort	temps mort	NOUN
 de	de	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 à	à	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 (	(	PUNCTclause
 à la suite de	à la suite de	ADP
 rejet	rejet	NOUN
@@ -1113,7 +1113,7 @@ reprise	reprise	NOUN
 très	très	ADV
 marquée	marquer	VERB
 à partir de	à partir de	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 (	(	PUNCTclause
 consécutive	consécutif	ADJ
 à	à	ADP
@@ -1135,9 +1135,9 @@ est	être	AUX
 ainsi	ainsi	ADV
 que	que	SCONJ
 de	de	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 à	à	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 deux	deux	NUM
 douzaines	douzaine	NOUN
@@ -1153,7 +1153,7 @@ au total	au total	ADV
 ,	,	PUNCTclause
 on	on	PRON
 compte	compter	VERB
-37	37	NUM
+37	37	DIGIT
 instituts	institut	NOUN
 de	de	ADP
 études	étude	NOUN
@@ -1166,8 +1166,7 @@ ne	ne	ADV
 occupant	occuper	VERB
 que	que	SCONJ
 le	le	DET
-34	34	NUM
-e	e	SYM
+34e	34e	NUMord
 rang	rang	NOUN
 par ordre de	par ordre de	ADP
 ancienneté	ancienneté	NOUN
@@ -1211,7 +1210,7 @@ ouvert	ouvert	ADJ
 Genève	Genève	PROPN
 dès	dès	ADP
 février	février	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1277,7 +1276,7 @@ sciences	science	NOUN
 ,	,	PUNCTclause
 surtout	surtout	ADV
 à partir de	à partir de	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 y	y	PRON
 tiennent	tenir	VERB
@@ -1340,8 +1339,7 @@ négligées	négligé	ADJ
 pourtant	pourtant	ADV
 ,	,	PUNCTclause
 le	le	DET
-2	2	NUM
-e	e	SYM
+2e	2e	NUMord
 grand	grand	ADJ
 fait	fait	NOUN
 dominant	dominer	VERB
@@ -1386,9 +1384,9 @@ si	si	SCONJ
 rapidement	rapidement	ADV
 effectuée	effectuer	VERB
 de	de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 à	à	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 réduit	réduire	VERB
@@ -1619,10 +1617,10 @@ l'	le_PRON	PRON
 a	avoir	AUX
 vu	voir	VERB
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 des	un	DET
 essences	essence	NOUN
@@ -1664,7 +1662,7 @@ des	un	DET
 mathématiques	mathématique	NOUN
 soviétiques	soviétique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2112,7 +2110,7 @@ se	se	PRON
 est	être	AUX
 dessinée	dessiner	VERB
 au cours de	au cours de	ADP
-15	15	NUM
+15	15	DIGIT
 dernières	dernier	ADJ
 années	année	NOUN
 seulement	seulement	ADV

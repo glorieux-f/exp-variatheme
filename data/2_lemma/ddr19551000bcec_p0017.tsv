@@ -19,13 +19,13 @@ faite	faire	VERB
 !	!	PUNCTsent
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à la fin	à la fin	ADV
 de	de	ADP
-1951	1951	NUM
+1951	1951	DIGIT
 ,	,	PUNCTclause
 répondant	répondre	VERB
 à	à	ADP
@@ -256,9 +256,9 @@ réunie	réunir	VERB
 au	au	ADP_DET
 Centre	Centre	PROPN
 les	le	DET
-8	8	NUM
+8	8	DIGIT
 et	et	CCONJ
-9	9	NUM
+9	9	DIGIT
 octobre	octobre	NOUN
 ,	,	PUNCTclause
 a	avoir	AUX
@@ -456,7 +456,7 @@ projets	projet	NOUN
 pour	pour	ADP
 la	le	DET
 saison	saison	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
 huit	huit	NUM
 des	un	ADP_DET
@@ -573,7 +573,7 @@ chefs	chef	NOUN
 de	de	ADP
 orchestre	orchestre	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 seront	être	VERB
 mises	miser	VERB

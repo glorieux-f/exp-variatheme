@@ -19,7 +19,7 @@ la	le	DET
 fidélité	fidélité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 nécessité	nécessité	NOUN
 de	de	ADP
@@ -847,7 +847,7 @@ une	un	DET
 existence	existence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 critique	critique	NOUN
 du	du	ADP_DET
@@ -1662,10 +1662,10 @@ I	I	NUM
 ,	,	PUNCTclause
 Cor.	Cor.	PROPN
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 ,	,	PUNCTclause
-1	1	NUM
--32	-32	NUM
+1	1	DIGIT
+-32	-32	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1716,7 +1716,7 @@ sa	son	DET
 femme.	femme.	NOUN
 (	(	PUNCTclause
 v.	v.	X
-32	32	X
+32	32	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 tout	tout	PRON
@@ -2041,7 +2041,7 @@ même	même	ADV
 excellent	excellent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 le	le	DET
 mariage	mariage	NOUN
@@ -2633,7 +2633,7 @@ paraît	paraître	VERB
 secondaire	secondaire	ADJ
 ou	ou	CCONJ
 superflue	superflu	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'on	on	PRON
 se	se	PRON
 persuade	persuader	VERB
@@ -3044,7 +3044,7 @@ forcément	forcément	ADV
 inexact	inexact	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 sur	sur	ADP
 la	le	DET
@@ -5286,7 +5286,7 @@ l'on	on	PRON
 assume	assumer	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 Éros	Éros	PROPN
 sauvé	sauver	VERB
@@ -6025,7 +6025,7 @@ femme	femme	NOUN
 I.	I.	PROPN
 Cor.	Cor.	PROPN
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -7126,7 +7126,7 @@ l'	le	DET
 amour	amour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 les	le	DET
 paradoxes	paradoxe	NOUN
@@ -7711,7 +7711,7 @@ Apôtre	Apôtre	PROPN
 (	(	PUNCTclause
 romains	romain	NOUN
 ,	,	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -7923,7 +7923,7 @@ a	avoir	AUX
 bien	bien	ADV
 vu	voir	VERB
 depuis	depuis	ADP
-1915	1915	NUM
+1915	1915	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 cette	ce	DET
@@ -8614,7 +8614,7 @@ intimement	intimement	ADV
 vérifiable	vérifiable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 au-delà de	au-delà de	ADP
 la	le	DET
@@ -8773,7 +8773,7 @@ mais	mais	CCONJ
 après	après	ADP
 tout	tout	ADV
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 encore	encore	ADV
 une	un	DET
 tentation	tentation	NOUN
@@ -9074,7 +9074,7 @@ drame	drame	NOUN
 passionnel	passionnel	ADJ
 (	(	PUNCTclause
 Appendice	Appendice	PROPN
-11	11	NUM
+11	11	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -9326,7 +9326,7 @@ passion	passion	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
 mais	mais	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 nous	nous	PRON
 sommes	être	AUX
 jetés	jeter	VERB
@@ -9581,7 +9581,7 @@ vivre	vivre	VERB
 alors	alors	ADV
 «	«	PUNCTclause
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 »	»	PUNCTclause
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -10235,12 +10235,12 @@ le	le	DET
 monde	monde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 février	février	NOUN
 —	—	PUNCTclause
-21	21	NUM
+21	21	DIGIT
 juin	juin	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 		TOKEN

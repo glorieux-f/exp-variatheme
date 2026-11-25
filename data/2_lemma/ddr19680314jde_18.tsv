@@ -10,7 +10,7 @@
 III	III	NUM
 .	.	PUNCTsent
 post-scriptum	post-scriptum	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ou	ou	CCONJ
 conclusions	conclusion	NOUN
 à	à	ADP
@@ -52,7 +52,7 @@ le	le	DET
 numéro	numéro	NOUN
 de	de	ADP
 novembre	novembre	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 de	de	ADP
 la	le	DET
 nouvelle	nouveau	ADJ
@@ -127,11 +127,11 @@ crise	crise	NOUN
 des	un	ADP_DET
 minorités	minorité	NOUN
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 caractérisez	caractériser	VERB
 l'	le	DET
@@ -141,7 +141,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 les	le_PRON	PRON
@@ -263,7 +263,7 @@ modèle	modèle	NOUN
 France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 sur	sur	ADP
 quoi	quoi	PRON
@@ -349,7 +349,7 @@ nationale	national	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 quelle	quel	DET
 fut	être	AUX
@@ -389,7 +389,7 @@ c'est pourquoi	c'est pourquoi	ADV
 lorsque	lorsque	SCONJ
 en	en	ADP
 septembre	septembre	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 Allemagne	Allemagne	PROPN
@@ -410,7 +410,7 @@ Berchtesgaden	Berchtesgaden	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 pourquoi	pourquoi	ADV
 le	le	DET
@@ -518,7 +518,7 @@ limitée	limité	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 quelle	quel	DET
 fut	être	AUX
@@ -755,7 +755,7 @@ toute	toute	DET
 hégémonie	hégémonie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 à	à	ADP
 qui	qui	PRON
@@ -848,7 +848,7 @@ fut	être	AUX
 perdu	perdre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 conclusion	conclusion	NOUN
 .	.	PUNCTsent
@@ -1615,7 +1615,7 @@ totalitaire	totalitaire	ADJ
 .	.	PUNCTsent
 je	je	PRON
 revendique	revendiquer	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 le	le	DET
 droit	droit	NOUN
 de	de	ADP
@@ -2025,7 +2025,7 @@ nous	nous	PRON
 fûmes	être	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Hambourg	Hambourg	PROPN
@@ -2111,8 +2111,7 @@ ils	ils	PRON
 chantent	chanter	VERB
 ,	,	PUNCTclause
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 mai	mai	NOUN
 ,	,	PUNCTclause
 selon	selon	ADP
@@ -5503,7 +5502,7 @@ meilleure	meilleur	ADJ
 où	où	PRON
 l'on	on	PRON
 soit	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 se	se	PRON
 risquer	risquer	VERB
 soi-même	soi-même	PRON
@@ -6127,7 +6126,7 @@ phrases	phrase	NOUN
 de	de	ADP
 ma	mon	DET
 conclusion	conclusion	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 pouvaient	pouvoir	VERB
 prêter	prêter	VERB
 à	à	ADP

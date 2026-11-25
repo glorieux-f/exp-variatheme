@@ -8,15 +8,15 @@
 ↵↵	↵↵	PUNCTstruct
 compte rendu	compte rendu	NOUN
 Almanach	Almanach	PROPN
-1925	1925	NUM
+1925	1925	DIGIT
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1925	1925	NUM
+1925	1925	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1886	1886	NUM
+1886	1886	DIGIT
 ,	,	PUNCTclause
 lors de	lors de	ADP
 sa	son	DET
@@ -64,8 +64,7 @@ dans	dans	ADP
 l'	le	DET
 Almanach	Almanach	PROPN
 du	du	ADP_DET
-25	25	NUM
-e	e	NOUN
+25e	25e	NUMord
 anniversaire	anniversaire	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -151,9 +150,9 @@ littérature	littérature	NOUN
 de	de	ADP
 avant-garde	avant-garde	NOUN
 entre	entre	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 et	et	CCONJ
-1910	1910	NUM
+1910	1910	DIGIT
 .	.	PUNCTsent
 depuis	depuis	ADV
 ,	,	PUNCTclause

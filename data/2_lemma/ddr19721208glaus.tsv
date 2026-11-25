@@ -13,9 +13,9 @@ dénationaliser	dénationaliser	VERB
 l'	le	DET
 enseignement	enseignement	NOUN
 (	(	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 décembre	décembre	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -209,7 +209,7 @@ cantons	canton	NOUN
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
 en	en	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 je	je	PRON
 parlais	parler	VERB
 de	de	ADP
@@ -233,7 +233,7 @@ jusque	jusque	ADP
 l'	le	DET
 âge	âge	NOUN
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -551,7 +551,7 @@ Europe	Europe	PROPN
 et	et	CCONJ
 au	au	ADP_DET
 monde	monde	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 élèves	élève	NOUN
 sont	être	AUX
@@ -904,9 +904,9 @@ de	de	ADP
 géographie	géographie	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1900	1900	NUM
+1900	1900	DIGIT
 à	à	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 —	—	PUNCTclause
 l'	le	DET
 époque	époque	NOUN
@@ -1467,7 +1467,7 @@ en cachette	en cachette	ADV
 .	.	PUNCTsent
 je	je	PRON
 avais	avoir	VERB
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -1485,7 +1485,7 @@ Benjamin	Benjamin	PROPN
 Constant	Constant	PROPN
 .	.	PUNCTsent
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -2716,7 +2716,7 @@ Europe	Europe	PROPN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 le	le	DET
@@ -2894,7 +2894,7 @@ rigueur	rigueur	NOUN
 et	et	CCONJ
 fantaisie	fantaisie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 il y a	il y a	VERB
 une	un	DET
 phrase	phrase	NOUN

@@ -24,9 +24,9 @@ D.	D.	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 avril	avril	NOUN
-1971	1971	NUM
+1971	1971	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -42,7 +42,7 @@ de	de	ADP
 vous	vous	PRON
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 «	«	PUNCTclause
@@ -113,7 +113,7 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-480	480	NUM
+480	480	DIGIT
 millions	million	NOUN
 de	de	ADP
 Europe	Europe	PROPN
@@ -407,7 +407,7 @@ ou	ou	CCONJ
 même	même	ADJ
 antinomiques	antinomique	ADJ
 .	.	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 le	le	DET
 cas	cas	NOUN
 du	du	ADP_DET
@@ -700,7 +700,7 @@ je	je	PRON
 le	le_PRON	PRON
 disais	dire	VERB
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -1032,7 +1032,7 @@ McLuhan	McLuhan	PROPN
 Toronto	Toronto	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1969	1969	NUM
+1969	1969	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 sais	savoir	VERB
@@ -1059,7 +1059,7 @@ Seignobos	Seignobos	PROPN
 déjà	déjà	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1920	1920	NUM
+1920	1920	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -2455,7 +2455,7 @@ une	un	DET
 éthique	éthique	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1969	1969	NUM
+1969	1969	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -2941,7 +2941,7 @@ de	de	ADP
 l'	le	DET
 inceste	inceste	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 ou	ou	CCONJ
 des	un	DET
@@ -3077,7 +3077,7 @@ jeunes	jeune	ADJ
 gens	gens	NOUN
 fous	fou	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ce	ce	DET
 docteur	docteur	NOUN
 ,	,	PUNCTclause
@@ -3169,8 +3169,8 @@ choses	chose	NOUN
 …	…	PUNCTsent
 »	»	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-si	si	SCONJ
+etc.	etc.	X
+si	si	X
 lutter	lutter	VERB
 contre	contre	ADP
 le	le	DET
@@ -3364,7 +3364,7 @@ est	être	AUX
 l'	le	DET
 âge	âge	NOUN
 (	(	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 )	)	PUNCTclause
 de	de	ADP
@@ -3729,7 +3729,7 @@ totalitarisme	totalitarisme	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -3862,7 +3862,7 @@ posés	poser	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -3994,7 +3994,7 @@ valut	valoir	VERB
 d'ailleurs	d'ailleurs	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 être	être	AUX
@@ -4069,7 +4069,7 @@ Europe	Europe	PROPN
 immigrés	immigré	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 ,	,	PUNCTclause
 quand	quand	SCONJ
 je	je	PRON
@@ -4491,9 +4491,9 @@ Hitler	Hitler	PROPN
 Paris	Paris	PROPN
 ,	,	PUNCTclause
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 écrivais	écrire	VERB
@@ -4703,7 +4703,7 @@ pourrons	pouvoir	VERB
 faire	faire	VERB
 l'	le	DET
 Europe	Europe	PROPN
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 à	à	ADP
 vingt	vingt	NUM
 ans	an	NOUN
@@ -4758,7 +4758,7 @@ est	est	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-480	480	NUM
+480	480	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -4786,12 +4786,12 @@ plaisanterie	plaisanterie	NOUN
 car	car	CCONJ
 en	en	ADP
 additionnant	additionner	VERB
-237	237	NUM
+237	237	DIGIT
 millions	million	NOUN
 de	de	ADP
 Soviétiques	Soviétiques	PROPN
 et	et	CCONJ
-203	203	NUM
+203	203	DIGIT
 millions	million	NOUN
 de	de	ADP
 États-Unis	États-Unis	PROPN
@@ -4847,7 +4847,7 @@ ce	ce	PRON
 est	être	AUX
 surtout	surtout	ADV
 que	que	SCONJ
-120	120	NUM
+120	120	DIGIT
 millions	million	NOUN
 d'entre	d'entre	ADP
 nous	nous	PRON
@@ -4858,7 +4858,7 @@ l'	le	DET
 URSS	URSS	PROPN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
-320	320	NUM
+320	320	DIGIT
 millions	million	NOUN
 sont	être	AUX
 assez	assez	ADV
@@ -5299,7 +5299,7 @@ régnantes	régnant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
@@ -5391,7 +5391,7 @@ le	le	DET
 slogan	slogan	NOUN
 est	être	AUX
 depuis	depuis	ADP
-1925	1925	NUM
+1925	1925	DIGIT
 :	:	PUNCTclause
 nous	nous	PRON
 ferons	faire	VERB
@@ -5447,9 +5447,9 @@ pourquoi	pourquoi	ADV
 selon	selon	ADP
 vous	vous	PRON
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 encore	encore	ADV
-fait	faire	VERB
+fait	fait	NOUN
 ,	,	PUNCTclause
 la	le	DET
 fédération	fédération	NOUN
@@ -5854,7 +5854,7 @@ disait	dire	VERB
 tout	tout	ADV
 récemment	récemment	ADV
 notre	notre	DET
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 quelques	quelque	DET
@@ -6469,7 +6469,7 @@ faite	faire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 mettre	mettre	VERB
 la	le	DET
 charrue	charrue	NOUN

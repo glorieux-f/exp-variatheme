@@ -11,9 +11,9 @@ intérimaire	intérimaire	NOUN
 pour	pour	ADP
 Ecoropa	Ecoropa	PROPN
 (	(	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 juillet	juillet	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -110,7 +110,7 @@ Europe	Europe	PROPN
 du	du	ADP_DET
 Congrès de La Haye	Congrès de La Haye	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 aux	au	ADP_DET
 derniers	dernier	ADJ
@@ -130,7 +130,7 @@ trente	trente	NUM
 ans	an	NOUN
 que	que	SCONJ
 nos	nos	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 la	le	DET
 disent	dire	VERB
 urgente	urgent	ADJ
@@ -167,7 +167,7 @@ planète	planète	NOUN
 en	en	ADP
 un peu	un peu	ADV
 plus de	plus de	DET
-160	160	NUM
+160	160	DIGIT
 «	«	PUNCTclause
 souverainetés	souveraineté	NOUN
 absolues	absolu	ADJ
@@ -1421,7 +1421,9 @@ leur	leur	DET
 envoyant	envoyer	VERB
 des	un	ADP_DET
 directives	directif	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 énergie	énergie	NOUN
 nucléaire	nucléaire	ADJ
@@ -1875,7 +1877,7 @@ Bruxelles	Bruxelles	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 mai	mai	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 sitôt que	sitôt que	SCONJ
 on	on	PRON
@@ -2256,9 +2258,9 @@ Galway	Galway	PROPN
 Bordeaux	Bordeaux	PROPN
 ,	,	PUNCTclause
 entre	entre	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 et	et	CCONJ
-1978	1978	NUM
+1978	1978	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ces	ce	DET
@@ -2381,7 +2383,7 @@ des	un	ADP_DET
 fédéralisme	fédéralisme	NOUN
 véritables	véritable	ADJ
 seraient	être	AUX
-compromis	compromettre	VERB
+compromis	compromis	ADJ
 ,	,	PUNCTclause
 voire	voire	CCONJ
 anéantis	anéantir	VERB
@@ -2629,7 +2631,7 @@ correspondance	correspondance	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 voulons	vouloir	VERB
 nous	nous	PRON
@@ -2642,7 +2644,7 @@ pourquoi	pourquoi	ADV
 Écologie-Régions	Écologie-Régions	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 modifications	modification	NOUN
 éventuelles	éventuel	ADJ
@@ -2651,7 +2653,7 @@ schéma	schéma	NOUN
 proposé	proposer	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 Ecoropa	Ecoropa	PROPN
 comme	comme	ADP
@@ -2662,7 +2664,7 @@ action	action	NOUN
 proposée	proposé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 Ecoropa	Ecoropa	PROPN
 comme	comme	ADP
@@ -2685,7 +2687,7 @@ B	B	X
 ,	,	PUNCTclause
 C.	C.	X
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 Ecoropa	Ecoropa	PROPN
 comme	comme	ADP
@@ -2698,7 +2700,7 @@ des	un	DET
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 ,	,	PUNCTclause

@@ -15,7 +15,7 @@ esprit	esprit	NOUN
 totalitaire	totalitaire	ADJ
 (	(	PUNCTclause
 juillet	juillet	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -251,9 +251,9 @@ en	en	ADP
 Italie	Italie	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-1920	1920	NUM
+1920	1920	DIGIT
 à	à	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 parti	parti	NOUN
@@ -263,7 +263,7 @@ le	le	DET
 plus	plus	ADV
 important	important	ADJ
 :	:	PUNCTclause
-35	35	NUM
+35	35	DIGIT
 des	un	ADP_DET
 électeurs	électeur	NOUN
 .	.	PUNCTsent
@@ -525,9 +525,9 @@ Sarzana	Sarzana	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 juillet	juillet	NOUN
-1921	1921	NUM
+1921	1921	DIGIT
 .	.	PUNCTsent
-500	500	NUM
+500	500	DIGIT
 fascisme	fascisme	NOUN
 avaient	avoir	AUX
 débarqué	débarquer	VERB
@@ -544,10 +544,10 @@ se	se	PRON
 y	y	PRON
 heurtèrent	heurter	VERB
 à	à	ADP
-8	8	NUM
+8	8	DIGIT
 gendarmes	gendarme	NOUN
 et	et	CCONJ
-3	3	NUM
+3	3	DIGIT
 soldats	soldat	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -734,7 +734,7 @@ ne	ne	ADV
 est	être	AUX
 fort	fort	ADV
 que	que	SCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 le	le	DET
 civisme	civisme	NOUN
 est	être	AUX
@@ -921,7 +921,7 @@ de	de	ADP
 conduite	conduite	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 il	il	PRON
 nous	nous	PRON
@@ -984,7 +984,7 @@ nos	nos	DET
 égoïsmes	égoïsme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 il	il	PRON
 nous	nous	PRON
@@ -1626,7 +1626,7 @@ frappante	frappant	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
 un	un	DET
-75	75	NUM
+75	75	DIGIT
 est	être	AUX
 plus	plus	ADV
 puissant	puissant	ADJ
@@ -1654,7 +1654,7 @@ armez	armer	VERB
 donnez	donner	VERB
 moi	moi	PRON
 un	un	DET
-75	75	NUM
+75	75	DIGIT
 ,	,	PUNCTclause
 vous	vous	PRON
 me	me	PRON
@@ -3996,7 +3996,7 @@ Dieu	Dieu	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 nous	nous	PRON
 ordonnerons	ordonner	VERB
 nos	nos	DET

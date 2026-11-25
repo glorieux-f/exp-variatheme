@@ -14,9 +14,9 @@ des	un	ADP_DET
 bombes	bombe	NOUN
 atomiques	atomique	ADJ
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -32,8 +32,7 @@ est	être	AUX
 déclenchée	déclencher	VERB
 depuis	depuis	ADP
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 décembre	décembre	NOUN
 dans	dans	ADP
 toute	toute	DET
@@ -50,7 +49,7 @@ Noël	Noël	PROPN
 nous	nous	PRON
 sommes	être	AUX
 le	le	DET
-13	13	NUM
+13	13	DIGIT
 et	et	CCONJ
 les	le	DET
 rayons	rayon	NOUN
@@ -91,7 +90,7 @@ an	an	NOUN
 de	de	ADP
 grâce	grâce	NOUN
 rationné	rationner	VERB
-1945	1945	NUM
+1945	1945	DIGIT
 se	se	PRON
 termine	terminer	VERB
 en plein	en plein	ADV
@@ -892,7 +891,7 @@ de	de	ADP
 minuit	minuit	NOUN
 ,	,	PUNCTclause
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 décembre	décembre	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -1044,7 +1043,9 @@ moque	moquer	VERB
 des	un	ADP_DET
 clichés	cliché	NOUN
 à la mode	à la mode	ADJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 cette	ce	DET
 invention	invention	NOUN
 «	«	PUNCTclause

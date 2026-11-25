@@ -13,7 +13,7 @@ mes	mon	DET
 :	:	PUNCTclause
 anecdotes	anecdote	NOUN
 (	(	PUNCTclause
-1985	1985	NUM
+1985	1985	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -458,7 +458,7 @@ ainsi	ainsi	ADV
 un	un	DET
 jour	jour	NOUN
 de	de	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 comme	comme	SCONJ
 je	je	PRON
@@ -827,9 +827,9 @@ gardés	garder	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-12	12	NUM
+12	12	DIGIT
 octobre	octobre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 ↵↵	↵↵	PUNCTstruct
 cher	cher	ADJ
 ami	ami	NOUN
@@ -853,7 +853,7 @@ Jean	Jean	PROPN
 P.	P.	PROPN
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 cher	cher	ADJ
@@ -922,11 +922,11 @@ note	note	NOUN
 jointe	joint	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 .	.	PUNCTsent
 VIII	VIII	NUM
 .	.	PUNCTsent
-1949	1949	NUM
+1949	1949	DIGIT
 ↵↵	↵↵	PUNCTstruct
 mon	mon	DET
 cher	cher	ADJ
@@ -942,7 +942,7 @@ Saint-John	Saint-John	PROPN
 Perse	Perse	PROPN
 avant	avant	ADP
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 septembre	septembre	NOUN
 .	.	PUNCTsent
 est	être	AUX
@@ -990,7 +990,7 @@ Strasbourg	Strasbourg	PROPN
 ,	,	PUNCTclause
 à la place de	à la place de	ADP
 ces	ce	DET
-87	87	NUM
+87	87	DIGIT
 parlementaires.	parlementaires.	NOUN
 ↵↵	↵↵	PUNCTstruct
 affectueusement	affectueusement	ADV
@@ -1345,7 +1345,7 @@ de	de	ADP
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 était	être	AUX
@@ -1446,7 +1446,7 @@ produisit	produire	VERB
 New York	New York	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 pour	pour	ADP
@@ -1882,14 +1882,13 @@ bistrot	bistrot	NOUN
 France	France	PROPN
 de	de	ADP
 la	le	DET
-54	54	NUM
-e	e	SYM
-rue	rue	NOUN
+54e	54e	NUMord
+Rue	Rue	PROPN
 ,	,	PUNCTclause
 demain	demain	ADV
 soir	soir	NOUN
 ,	,	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 heures	heure	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1897,9 +1896,9 @@ je	je	PRON
 y	y	PRON
 suis	suivre	VERB
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 h	h	NOUN
-03	03	NUM
+03	03	DIGIT
 .	.	PUNCTsent
 Duchamp	Duchamp	PROPN
 est	être	AUX
@@ -2004,9 +2003,9 @@ propos	propos	NOUN
 légers	léger	ADJ
 .	.	PUNCTsent
 vers	vers	ADP
-20	20	NUM
+20	20	DIGIT
 h	h	NOUN
-15	15	NUM
+15	15	DIGIT
 arrive	arriver	VERB
 Breton	Breton	PROPN
 ,	,	PUNCTclause
@@ -2517,7 +2516,7 @@ que	que	SCONJ
 du	du	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 cher	cher	ADJ

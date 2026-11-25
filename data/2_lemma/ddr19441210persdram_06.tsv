@@ -6,7 +6,7 @@
 # title = 4. Franz Kafka, ou l’aveu de la réalité
 
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 Franz	Franz	PROPN
 Kafka	Kafka	PROPN
@@ -24,7 +24,7 @@ naquit	naître	VERB
 à	à	ADP
 Prague	Prague	PROPN
 en	en	ADP
-1883	1883	NUM
+1883	1883	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 passa	passer	VERB
@@ -115,7 +115,7 @@ mourut	mourir	VERB
 à	à	ADP
 Vienne	Vienne	PROPN
 en	en	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Kafka	Kafka	PROPN
@@ -1114,7 +1114,7 @@ est	être	AUX
 et	et	CCONJ
 en même temps	en même temps	ADV
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 la	le	DET
 révolte	révolte	NOUN
 point	point	ADV
@@ -3190,7 +3190,7 @@ aboutir	aboutir	VERB
 K	K	X
 »	»	PUNCTclause
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 est	être	AUX
 arpenteur	arpenteur	NOUN
@@ -5104,7 +5104,7 @@ si	si	SCONJ
 physiquement	physiquement	ADV
 insupportable	insupportable	ADJ
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 pour	pour	ADP
 exciter	exciter	VERB
 en	en	ADP

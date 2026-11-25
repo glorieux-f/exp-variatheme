@@ -11,10 +11,10 @@ de	de	ADP
 un	un	DET
 retour	retour	NOUN
 (	(	PUNCTclause
-11	11	NUM
--12	-12	NUM
+11	11	DIGIT
+-12	-12	DIGIT
 mai	mai	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -38,7 +38,7 @@ sorte	sorte	NOUN
 de	de	ADP
 réduire	réduire	VERB
 à	à	ADP
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 les	le	DET
 avantages	avantage	NOUN
 que	que	PRON
@@ -230,7 +230,7 @@ montâmes	monter	VERB
 en	en	ADP
 spirale	spirale	NOUN
 à	à	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 mètres	mètre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -345,7 +345,7 @@ en plein	en plein	ADV
 ciel	ciel	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-130	130	NUM
+130	130	DIGIT
 mètres	mètre	NOUN
 à	à	ADP
 la	le	DET
@@ -1059,7 +1059,7 @@ au	au	ADP_DET
 revoir	revoir	VERB
 en	en	ADP
 juin	juin	NOUN
-40	40	NUM
+40	40	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 sonnait	sonner	VERB

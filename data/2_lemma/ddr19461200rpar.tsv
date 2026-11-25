@@ -10,7 +10,7 @@ tableaux	tableau	NOUN
 États-Unis	États-Unis	PROPN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -656,7 +656,7 @@ train	train	NOUN
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -1194,7 +1194,7 @@ armé	armer	VERB
 diversement	diversement	ADV
 coupés	couper	VERB
 et	et	CCONJ
-étagés	étager	VERB
+étagés	étagé	ADJ
 ,	,	PUNCTclause
 asphalte	asphalte	NOUN
 plane	plan	ADJ
@@ -2603,7 +2603,7 @@ point	point	ADV
 ,	,	PUNCTclause
 quand	quand	SCONJ
 toutes	toutes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 et	et	CCONJ
 les	le	DET
 souvenirs	souvenir	NOUN
@@ -4064,7 +4064,7 @@ quittèrent	quitter	VERB
 l'	le	DET
 Allemagne	Allemagne	PROPN
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 ils	ils	PRON
@@ -4430,7 +4430,7 @@ grand	grand	ADJ
 krach	krach	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 tout	tout	PRON
 se	se	PRON
@@ -5678,7 +5678,7 @@ je	je	PRON
 ne	ne	ADV
 le	le_PRON	PRON
 sais	savoir	VERB
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 vous	vous	PRON
 .	.	PUNCTsent
 ils	ils	PRON
@@ -5979,7 +5979,7 @@ de	de	ADP
 la	le	DET
 crise	crise	NOUN
 de	de	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 les	le	DET

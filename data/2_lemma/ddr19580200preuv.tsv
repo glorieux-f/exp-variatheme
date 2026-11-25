@@ -16,7 +16,7 @@ des	un	DET
 faits	fait	NOUN
 (	(	PUNCTclause
 février	février	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -48,7 +48,7 @@ qui	qui	PRON
 a	avoir	AUX
 doublé	doubler	VERB
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 la	le	DET
 trêve	trêve	NOUN
@@ -66,11 +66,11 @@ le	le	DET
 monde	monde	NOUN
 entre	entre	ADP
 le	le	DET
-24	24	NUM
+24	24	DIGIT
 décembre	décembre	NOUN
 et	et	CCONJ
 le	le	DET
-2	2	NUM
+2	2	DIGIT
 janvier	janvier	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -605,10 +605,9 @@ Europe	Europe	PROPN
 est	être	AUX
 né	naître	VERB
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 septembre	septembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 de	de	ADP
 un	un	DET
 discours	discours	NOUN
@@ -730,7 +729,7 @@ fait	fait	NOUN
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 se	se	PRON
 ouvre	ouvrir	VERB
 à	à	ADP
@@ -1071,7 +1070,7 @@ soviétique	soviétique	ADJ
 cet	ce	DET
 appareil	appareil	NOUN
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 mètres	mètre	NOUN
 de	de	ADP
 diamètre	diamètre	NOUN
@@ -1124,7 +1123,7 @@ Russie	Russie	PROPN
 ,	,	PUNCTclause
 une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 or	or	NOUN
 cette	ce	DET
@@ -1163,7 +1162,7 @@ synchrocyclotron	synchrocyclotron	NOUN
 de	de	ADP
 Genève	Genève	PROPN
 a	avoir	AUX
-200	200	NUM
+200	200	DIGIT
 mètres	mètre	NOUN
 de	de	ADP
 diamètre	diamètre	NOUN
@@ -1891,7 +1890,7 @@ guerre	guerre	NOUN
 de	de	ADP
 Algérie	Algérie	PROPN
 coûte	coûter	VERB
-700	700	NUM
+700	700	DIGIT
 milliards	milliard	NOUN
 par	par	ADP
 an	an	NOUN
@@ -1902,7 +1901,7 @@ qui	qui	PRON
 aurait	avoir	AUX
 répondu	répondre	VERB
 :	:	PUNCTclause
-350	350	NUM
+350	350	DIGIT
 seulement	seulement	ADV
 .	.	PUNCTsent
 je	je	PRON
@@ -1923,7 +1922,7 @@ du	du	ADP_DET
 chiffre	chiffre	NOUN
 de	de	ADP
 «	«	PUNCTclause
-800	800	NUM
+800	800	DIGIT
 »	»	PUNCTclause
 milliards	milliard	NOUN
 avancé	avancer	VERB
@@ -1935,7 +1934,7 @@ le	le	DET
 chiffre	chiffre	NOUN
 de	de	ADP
 «	«	PUNCTclause
-150	150	NUM
+150	150	DIGIT
 »	»	PUNCTclause
 milliards	milliard	NOUN
 que	que	PRON
@@ -1952,7 +1951,7 @@ incontestable	incontestable	ADJ
 le	le	DET
 chiffre	chiffre	NOUN
 de	de	ADP
-362	362	NUM
+362	362	DIGIT
 milliards	milliard	NOUN
 cité	citer	VERB
 par	par	ADP

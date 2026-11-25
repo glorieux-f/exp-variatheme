@@ -13,9 +13,9 @@ utopies	utopie	NOUN
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 octobre	octobre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 allons	aller	VERB
@@ -50,7 +50,7 @@ un	un	DET
 B-29	B-29	NUM
 volant	volant	NOUN
 à	à	ADP
-550	550	NUM
+550	550	DIGIT
 km	km	NOUN
 à	à	ADP
 l'	le	DET
@@ -151,7 +151,7 @@ détruit	détruire	VERB
 de	de	ADP
 New York	New York	PROPN
 en	en	ADP
-2	2	NUM
+2	2	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -491,7 +491,7 @@ empire	empire	NOUN
 State	State	PROPN
 qui	qui	PRON
 a	avoir	AUX
-400	400	NUM
+400	400	DIGIT
 mètres	mètre	NOUN
 de	de	ADP
 altitude	altitude	NOUN
@@ -1081,7 +1081,7 @@ Washington	Washington	PROPN
 ,	,	PUNCTclause
 D.C.	D.C.	PROPN
 plus de	plus de	DET
-5000	5000	NUM
+5000	5000	DIGIT
 produits	produit	NOUN
 et	et	CCONJ
 procédés	procédé	NOUN
@@ -1302,7 +1302,7 @@ machines	machine	NOUN
 qui	qui	PRON
 font	faire	VERB
 déjà	déjà	ADV
-1000	1000	NUM
+1000	1000	DIGIT
 kilomètres	mètre	NOUN
 à	à	ADP
 l'	le	DET
@@ -1580,7 +1580,7 @@ les	le	DET
 explosions	explosion	NOUN
 cosmiques	cosmique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 liberté	liberté	NOUN
 à	à	ADP
 vous	vous	PRON

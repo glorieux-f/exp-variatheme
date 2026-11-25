@@ -14,12 +14,12 @@ en	en	ADP
 exil	exil	NOUN
 (	(	PUNCTclause
 mars	mars	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 avant-garde	avant-garde	NOUN
@@ -267,7 +267,7 @@ en	en	ADP
 fréquentant	fréquenter	VERB
 les	le	DET
 éditeurs	éditeur	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 .	.	PUNCTsent
 atteindre	atteindre	VERB
 le	le	DET
@@ -609,9 +609,9 @@ est	être	AUX
 dit	dire	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-25	25	NUM
+25	25	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ↵↵	↵↵	PUNCTstruct
 5e	5e	ADJ
 colonne	colonne	NOUN
@@ -686,9 +686,9 @@ porter	porter	VERB
 sur	sur	ADP
 les	le	DET
 années	année	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 et	et	CCONJ
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 or	or	NOUN
 le	le	DET
@@ -845,7 +845,7 @@ il	il	PRON
 croit	croire	VERB
 condamner	condamner	VERB
 …	…	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 cela	cela	PRON
 ,	,	PUNCTclause
 le	le	DET
@@ -883,9 +883,9 @@ de	de	ADP
 esprit	esprit	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ↵↵	↵↵	PUNCTstruct
 soirée	soirée	NOUN
 ,	,	PUNCTclause
@@ -1078,9 +1078,9 @@ Cambridge	Cambridge	PROPN
 Mass.	Mass.	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 avril	avril	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Quinze	Quinze	NUM
 jours	jour	NOUN
@@ -1158,7 +1158,9 @@ questions	question	NOUN
 à	à	ADP
 me	me	PRON
 poser	poser	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 de	de	ADP
 mes	mon	DET
@@ -1622,7 +1624,7 @@ rapidité	rapidité	NOUN
 du	du	ADP_DET
 raisonnement	raisonnement	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 doit	devoir	VERB
 donner	donner	VERB
@@ -1631,7 +1633,7 @@ chiffre	chiffre	NOUN
 total	total	ADJ
 supérieur	supérieur	ADJ
 à	à	ADP
-135	135	NUM
+135	135	DIGIT
 .	.	PUNCTsent
 le	le	DET
 génie	génie	NOUN
@@ -1792,9 +1794,9 @@ génies	génie	NOUN
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 mai	mai	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ↵↵	↵↵	PUNCTstruct
 recette	recette	NOUN
 pour	pour	ADP
@@ -1956,12 +1958,12 @@ l'autre	l'autre	PRON
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 décembre	décembre	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 IV	IV	NUM
 est	être	AUX
-16	16	NUM
+16	16	DIGIT
 th	th	NOUN
 Street	Street	PROPN
 ↵↵	↵↵	PUNCTstruct
@@ -2103,7 +2105,7 @@ des	un	ADP_DET
 Cendres	Cendres	PROPN
 ,	,	PUNCTclause
 février	février	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
 des	un	DET
@@ -2253,7 +2255,7 @@ je	je	PRON
 cours	cours	NOUN
 dîner	dîner	VERB
 pour	pour	ADP
-50	50	NUM
+50	50	DIGIT
 cents	cents	NUM
 à	à	ADP
 la	le	DET
@@ -2262,9 +2264,9 @@ du	du	ADP_DET
 coin	coin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 mars	mars	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 ou	ou	CCONJ
 écrire	écrire	VERB
@@ -2517,9 +2519,9 @@ ou	ou	CCONJ
 sortir	sortir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 mars	mars	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 pluie	pluie	NOUN
 torrentielle	torrentiel	ADJ
@@ -2592,7 +2594,7 @@ jour	jour	NOUN
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 mars	mars	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 écrit	écrire	VERB
 finis	finir	VERB
@@ -2671,10 +2673,9 @@ de	de	ADP
 vitesse	vitesse	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	VERB
+1er	1er	NUMord
 avril	avril	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
 lettre	lettre	NOUN
@@ -2707,14 +2708,14 @@ sans	sans	ADP
 insister	insister	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 avril	avril	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 West	West	PROPN
 ,	,	PUNCTclause
-52	52	NUM
+52	52	DIGIT
 th	th	X
 street	street	X
 ↵↵	↵↵	PUNCTstruct
@@ -2775,9 +2776,9 @@ mon	mon	DET
 atlantique	atlantique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 avril	avril	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 comme	comme	SCONJ
 on	on	PRON
@@ -2850,9 +2851,9 @@ du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 mai	mai	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
 job	job	NOUN
@@ -3007,7 +3008,7 @@ la	le	DET
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 mai	mai	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 échantillons	échantillon	NOUN
 .	.	PUNCTsent
@@ -3137,9 +3138,9 @@ esprit	esprit	NOUN
 du	du	ADP_DET
 Figaro	Figaro	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-telles	tel	ADJ
-sont	être	VERB
+etc.	etc.	X
+telles	tel	X
+sont	être	AUX
 les	le	DET
 petites	petit	ADJ
 surprises	surprise	NOUN
@@ -3150,7 +3151,7 @@ exil	exil	NOUN
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 juin	juin	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
 journée	journée	NOUN
@@ -3563,7 +3564,7 @@ de	de	ADP
 passer	passer	VERB
 au	au	ADP_DET
 studio	studio	NOUN
-16	16	NUM
+16	16	DIGIT
 pour	pour	ADP
 l'	le	DET
 émission	émission	NOUN
@@ -3839,7 +3840,7 @@ France	France	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 juin	juin	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 guerre	guerre	NOUN
@@ -3908,7 +3909,7 @@ France	France	PROPN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 juillet	juillet	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Saint-John	Saint-John	PROPN
 Perse	Perse	PROPN
@@ -4184,9 +4185,9 @@ Wesport	Wesport	PROPN
 Connecticut	Connecticut	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 août	août	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Huit	Huit	NUM
 jours	jour	NOUN
@@ -4321,9 +4322,9 @@ la	le	DET
 plage	plage	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 août	août	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 peut-être	peut-être	ADV
 que	que	SCONJ
@@ -4449,9 +4450,9 @@ ici	ici	ADV
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 septembre	septembre	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 quoi	quoi	PRON
 de plus	de plus	ADV
@@ -4675,7 +4676,7 @@ Island	Island	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 septembre	septembre	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Bevin	Bevin	PROPN
 House	House	PROPN
@@ -4972,7 +4973,7 @@ penser	penser	VERB
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 octobre	octobre	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 propagande	propagande	NOUN
 et	et	CCONJ
@@ -5741,7 +5742,7 @@ House	House	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 octobre	octobre	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
 cette	ce	DET

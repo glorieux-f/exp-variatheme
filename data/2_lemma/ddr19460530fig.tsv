@@ -13,9 +13,9 @@ du	du	ADP_DET
 problème	problème	NOUN
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 mai	mai	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -29,7 +29,7 @@ craindre	craindre	VERB
 ↵↵	↵↵	PUNCTstruct
 Genève	Genève	PROPN
 ,	,	PUNCTclause
-29	29	NUM
+29	29	DIGIT
 mai	mai	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -378,9 +378,9 @@ en dépit de	en dépit de	ADP
 Grande-Bretagne	Grande-Bretagne	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 à	à	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 ?	?	PUNCTsent
 ne	ne	ADV
 est	être	AUX
@@ -496,7 +496,7 @@ prolétariennes	prolétarien	ADJ
 ce	ce	PRON
 était	être	AUX
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 aujourd'hui	aujourd'hui	ADV
@@ -518,7 +518,7 @@ attire	attirer	VERB
 l'	le	DET
 attention	attention	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
 un	un	DET
@@ -581,7 +581,7 @@ lutte	lutte	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 ses	son	DET
-80	80	NUM
+80	80	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -794,7 +794,7 @@ l'	le	DET
 Union	Union	PROPN
 soviétique	soviétique	ADJ
 :	:	PUNCTclause
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 de	de	ADP
 Allemagne	Allemagne	PROPN
@@ -803,7 +803,7 @@ au plus	au plus	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 touchent	toucher	VERB
-200	200	NUM
+200	200	DIGIT
 millions	million	NOUN
 de	de	ADP
 Russie	Russie	PROPN
@@ -1038,7 +1038,7 @@ illusions	illusion	NOUN
 ,	,	PUNCTclause
 jusque	jusque	ADP
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 au sujet de	au sujet de	ADP
 régime	régime	NOUN
@@ -1641,7 +1641,7 @@ Allemagne	Allemagne	PROPN
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 réside	résider	VERB

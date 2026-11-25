@@ -12,9 +12,9 @@ a	avoir	AUX
 plus de	plus de	DET
 idées	idée	NOUN
 (	(	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -517,7 +517,7 @@ pour	pour	ADP
 mes	mon	DET
 cadets	cadet	NOUN
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 dix	dix	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -602,8 +602,7 @@ restaurant	restaurant	NOUN
 France	France	PROPN
 de	de	ADP
 la	le	DET
-56	56	NUM
-e	e	SYM
+56e	56e	NUMord
 rue	rue	NOUN
 ,	,	PUNCTclause
 à	à	ADP

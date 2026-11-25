@@ -27,13 +27,13 @@ les	le	DET
 autoroutes	autoroute	NOUN
 )	)	PUNCTclause
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 mars	mars	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ne	ne	ADV
@@ -438,7 +438,7 @@ fonctionnaires	fonctionnaire	NOUN
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 gardons	garder	VERB
@@ -701,7 +701,7 @@ en	en	ADP
 énergie	énergie	NOUN
 sera	être	AUX
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 dans	dans	ADP
 dix	dix	NUM
 ans	an	NOUN
@@ -830,7 +830,7 @@ peuple	peuple	NOUN
 Suisse	Suisse	PROPN
 a	avoir	AUX
 fait	faire	VERB
-20	20	NUM
+20	20	DIGIT
 de	de	ADP
 économie	économie	NOUN
 sur	sur	ADP
@@ -843,7 +843,7 @@ ce	ce	PRON
 est	être	AUX
 justement	justement	ADV
 ce	ce	DET
-20	20	NUM
+20	20	DIGIT
 que	que	SCONJ
 on	on	PRON
 nous	nous	PRON
@@ -957,7 +957,7 @@ mal	mal	NOUN
 ?	?	PUNCTsent
 beaucoup	beaucoup	ADV
 d'autres	d'autre	PRON
-choses	choser	VERB
+choses	chose	NOUN
 seraient	être	AUX
 impossibles	impossible	ADJ
 si	si	SCONJ
@@ -1218,7 +1218,7 @@ production	production	NOUN
 de	de	ADP
 automobiles	automobile	NOUN
 —	—	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 par	par	ADP
 an	an	NOUN
@@ -1228,7 +1228,7 @@ aux	au	ADP_DET
 seulement	seulement	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB
@@ -1463,7 +1463,7 @@ ans	an	NOUN
 de	de	ADP
 quoi	quoi	PRON
 combler	combler	VERB
-20	20	NUM
+20	20	DIGIT
 de	de	ADP
 nos	nos	DET
 besoins	besoin	NOUN
@@ -1494,7 +1494,7 @@ période	période	NOUN
 mortelle	mortel	ADJ
 est	être	AUX
 de	de	ADP
-24000	24000	NUM
+24000	24000	DIGIT
 ans	an	NOUN
 !	!	PUNCTsent
 )	)	PUNCTclause

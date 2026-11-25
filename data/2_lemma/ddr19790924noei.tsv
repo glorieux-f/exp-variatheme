@@ -20,9 +20,9 @@ Europe	Europe	PROPN
 du	du	ADP_DET
 Centre	Centre	PROPN
 (	(	PUNCTclause
-24	24	NUM
+24	24	DIGIT
 septembre	septembre	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -468,7 +468,7 @@ doublement	doublement	ADV
 critiquable	critiquable	ADJ
 en	en	ADP
 ceci	ceci	PRON
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 si	si	SCONJ
@@ -515,7 +515,7 @@ ordre	ordre	NOUN
 préalable	préalable	ADJ
 quelconque	quelconque	ADJ
 ?	?	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 la	le	DET
 nouveauté	nouveauté	NOUN
@@ -1753,9 +1753,8 @@ il y a	il y a	VERB
 cent	cent	NUM
 ans	an	NOUN
 aux	au	ADP_DET
-4	4	NUM
-5	5	NUM
-e	e	SYM
+4	4	DIGIT
+5e	5e	NUMord
 agriculteurs	agriculteur	NOUN
 et	et	CCONJ
 villageois	villageois	NOUN
@@ -2417,7 +2416,7 @@ qui	qui	PRON
 a	avoir	AUX
 créé	créer	VERB
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 avec	avec	ADP
 les	le	DET
 pays	pays	NOUN
@@ -2500,7 +2499,7 @@ de	de	ADP
 précision	précision	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 ce	ce	PRON
@@ -2804,7 +2803,7 @@ sans	sans	ADP
 question	question	NOUN
 par	par	ADP
 plus de	plus de	DET
-150	150	NUM
+150	150	DIGIT
 autres	autre	ADJ
 pays	pays	NOUN
 au cours de	au cours de	ADP
@@ -3127,7 +3126,7 @@ occidental	occidental	ADJ
 moderne	moderne	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 une	un	DET
@@ -3369,7 +3368,7 @@ fédéralisme	fédéralisme	NOUN
 Europe	Europe	PROPN
 des	un	ADP_DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 écologistes	écologiste	NOUN
@@ -3378,7 +3377,7 @@ les	le	DET
 régionalistes	régionaliste	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 b	b	NOUN
@@ -3412,7 +3411,7 @@ Philippe	Philippe	PROPN
 le	le	DET
 Bel	Bel	PROPN
 vers	vers	ADP
-1300	1300	NUM
+1300	1300	DIGIT
 ;	;	PUNCTclause
 Espagne	Espagne	PROPN
 ,	,	PUNCTclause
@@ -3436,7 +3435,7 @@ Castille	Castille	PROPN
 ,	,	PUNCTclause
 réunis	réunir	VERB
 en	en	ADP
-1512	1512	NUM
+1512	1512	DIGIT
 ;	;	PUNCTclause
 Grande-Bretagne	Grande-Bretagne	PROPN
 dès	dès	ADP
@@ -3447,7 +3446,7 @@ siècle	siècle	NOUN
 puis	puis	CCONJ
 à partir de	à partir de	ADP
 Hastings	Hastings	PROPN
-1066	1066	NUM
+1066	1066	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 Machiavel	Machiavel	PROPN
@@ -3510,14 +3509,14 @@ en	en	ADP
 États-Unis	États-Unis	PROPN
 du	du	ADP_DET
 Nord	Nord	PROPN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 je	je	PRON
 écris	écrire	VERB
 ceci	ceci	PRON
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Noei	Noei	PROPN
@@ -3668,7 +3667,7 @@ exploitation	exploitation	NOUN
 coloniale	colonial	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 et	et	CCONJ
@@ -3699,7 +3698,7 @@ Herrera	Herrera	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 ces	ce	DET
@@ -3832,9 +3831,9 @@ l'	le	DET
 a	avoir	AUX
 répandu	répandre	VERB
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 à	à	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 sous le nom de	sous le nom de	ADP
 progrès	progrès	NOUN
@@ -4080,7 +4079,7 @@ la	le	DET
 Ceca	Ceca	PROPN
 —	—	PUNCTclause
 tient	tenir	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 les	le	DET
 réalités	réalité	NOUN
 politiques	politique	ADJ
@@ -4189,14 +4188,14 @@ Europe	Europe	PROPN
 la	le	DET
 Révolution française	Révolution française	NOUN
 (	(	PUNCTclause
-1792	1792	NUM
+1792	1792	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 de	de	ADP
 Napoléon	Napoléon	PROPN
 (	(	PUNCTclause
-1805	1805	NUM
--1815	-1815	NUM
+1805	1805	DIGIT
+-1815	-1815	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -4217,7 +4216,7 @@ siècle	siècle	NOUN
 ils	ils	PRON
 sont	être	AUX
 environ	environ	ADV
-160	160	NUM
+160	160	DIGIT
 aujourd'hui	aujourd'hui	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -4335,7 +4334,7 @@ ou	ou	CCONJ
 continental	continental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 les	le	DET
 états-nations	État-nation	NOUN
@@ -4524,7 +4523,7 @@ ne	ne	ADV
 acceptera	accepter	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 ce	ce	PRON
@@ -4535,7 +4534,7 @@ propres	propre	ADJ
 intérêts	intérêt	NOUN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 ce	ce	PRON
@@ -4806,7 +4805,7 @@ tous	tout	ADJ
 les	le	DET
 ministres	ministre	NOUN
 et	et	CCONJ
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 )	)	PUNCTclause
 multiplieront	multiplier	VERB
 nécessairement	nécessairement	ADV
@@ -4949,7 +4948,7 @@ temps	temps	NOUN
 présent	présent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 inversement	inversement	ADV
 ,	,	PUNCTclause
@@ -5114,7 +5113,7 @@ pouvoir d'achat	pouvoir d'achat	NOUN
 ,	,	PUNCTclause
 calories	calorie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 toutes	toutes	PRON
 notions	noter	VERB
@@ -5198,7 +5197,7 @@ Noei	Noei	PROPN
 (	(	PUNCTclause
 voir	voir	VERB
 les	le	DET
-33	33	NUM
+33	33	DIGIT
 thèmes	thème	NOUN
 proposés	proposer	VERB
 par	par	ADP
@@ -5432,7 +5431,7 @@ censée	censé	ADJ
 doubler	doubler	VERB
 tous	tout	ADJ
 les	le	DET
-10	10	NUM
+10	10	DIGIT
 ans	an	NOUN
 selon	selon	ADP
 certaines	certain	DET
@@ -5440,8 +5439,8 @@ projections	projection	NOUN
 des	un	ADP_DET
 années	année	NOUN
 folles	fou	ADJ
-1970	1970	NUM
--1973	-1973	NUM
+1970	1970	DIGIT
+-1973	-1973	DIGIT
 .	.	PUNCTsent
 ils	ils	PRON
 ne	ne	ADV
@@ -5465,7 +5464,7 @@ allègrement	allègrement	ADV
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 .	.	PUNCTsent
 ils	ils	PRON
 ne	ne	ADV
@@ -5817,7 +5816,7 @@ Europe	Europe	PROPN
 même	même	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 nous	nous	PRON
@@ -6013,7 +6012,7 @@ des	un	DET
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 moyens	moyen	NOUN
@@ -6179,7 +6178,7 @@ productivisme	productivisme	NOUN
 machiniste	machiniste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 avènement	avènement	NOUN
@@ -6270,7 +6269,7 @@ domaines	domaine	NOUN
 notamment	notamment	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 L	L	DET
 «	«	PUNCTclause
@@ -6509,7 +6508,7 @@ plus	plus	ADV
 urgents	urgent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 des	un	ADP_DET
 modifications	modification	NOUN
@@ -6688,7 +6687,7 @@ tête	tête	NOUN
 équipements	équipement	NOUN
 ménagers	ménager	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -6789,7 +6788,7 @@ en	en	ADP
 crise	crise	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 son	son	DET
@@ -6800,7 +6799,7 @@ la	le	DET
 World	World	PROPN
 Bank	Bank	PROPN
 (	(	PUNCTclause
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 contre	contre	ADP
@@ -6926,7 +6925,7 @@ telle	tel	PRON
 portée	porter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 parmi	parmi	ADP
@@ -6934,7 +6933,7 @@ les	le	DET
 conditions	condition	NOUN
 préalables	préalable	ADJ
 et	et	CCONJ
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 de	de	ADP
 tout	tout	DET
 établissement	établissement	NOUN
@@ -7110,12 +7109,12 @@ céréales	céréale	NOUN
 de	de	ADP
 quoi	quoi	PRON
 fournir	fournir	VERB
-3000	3000	NUM
+3000	3000	DIGIT
 calories	calorie	NOUN
 par	par	ADP
 jour	jour	NOUN
 aux	au	ADP_DET
-4	4	NUM
+4	4	DIGIT
 milliards	milliard	NOUN
 et	et	CCONJ
 demie	demi	NOUN

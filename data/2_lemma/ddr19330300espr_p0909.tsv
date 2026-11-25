@@ -11,7 +11,7 @@ rompre	rompre	VERB
 ?	?	PUNCTsent
 (	(	PUNCTclause
 mars	mars	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1032,9 +1032,9 @@ se	se	PRON
 en	en	ADP
 réclame	réclamer	VERB
 encore	encore	ADV
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 elle	elle	PRON
-le	le	DET
+le	le_PRON	PRON
 trahit	trahir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1067,7 +1067,7 @@ chrétienté	chrétienté	NOUN
 ayant	avoir	AUX
 touché	toucher	VERB
 ses	son	DET
-30	30	NUM
+30	30	DIGIT
 deniers	denier	NOUN
 ,	,	PUNCTclause
 voudra	vouloir	VERB
@@ -1830,10 +1830,10 @@ nations	nation	NOUN
 Abdias	Abdias	PROPN
 II	II	NUM
 ,	,	PUNCTclause
-3	3	NUM
--4	-4	NOUN
+3	3	DIGIT
+-4	-4	DIGIT
 et	et	CCONJ
-15	15	NUM
+15	15	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2140,7 +2140,7 @@ bolchévisme	bolchévisme	NOUN
 et	et	CCONJ
 l'on	on	PRON
 donnera	donner	VERB
-50000	50000	NUM
+50000	50000	DIGIT
 francs	franc	NOUN
 au mieux	au mieux	ADV
 pensant	penser	VERB
@@ -2230,7 +2230,7 @@ la	le	DET
 sauvegarde	sauvegarde	NOUN
 »	»	PUNCTclause
 :	:	PUNCTclause
-50000	50000	NUM
+50000	50000	DIGIT
 francs	franc	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

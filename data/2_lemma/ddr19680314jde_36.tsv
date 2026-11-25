@@ -14,7 +14,7 @@ retour	retour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 janvier	janvier	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 faut	falloir	VERB
@@ -137,7 +137,7 @@ après	après	ADP
 tout	tout	ADV
 ,	,	PUNCTclause
 il y a	il y a	VERB
-40	40	NUM
+40	40	DIGIT
 millions	million	NOUN
 de	de	ADP
 France	France	PROPN
@@ -1007,7 +1007,7 @@ proteste	protester	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 février	février	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vers	vers	ADP
@@ -1025,7 +1025,7 @@ sorte	sorte	NOUN
 de	de	ADP
 réduire	réduire	VERB
 à	à	ADP
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 les	le	DET
 avantages	avantage	NOUN
 que	que	PRON
@@ -1157,9 +1157,9 @@ ma	mon	DET
 légation	légation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 mars	mars	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 entre	entre	ADP
@@ -1698,13 +1698,12 @@ l'	le_PRON	PRON
 homme	homme	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-75	75	NUM
-e	e	SYM
+75e	75e	NUMord
 rue	rue	NOUN
 ,	,	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 mars	mars	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 sept	sept	NUM
 heures	heure	NOUN
@@ -2081,7 +2080,7 @@ tél	tél	NOUN
 début	début	NOUN
 de	de	ADP
 avril	avril	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -2208,7 +2207,7 @@ montâmes	monter	VERB
 en	en	ADP
 spirale	spirale	NOUN
 à	à	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 mètres	mètre	NOUN
 ,	,	PUNCTclause
 au-dessus de	au-dessus de	ADP
@@ -2330,7 +2329,7 @@ en plein	en plein	ADV
 ciel	ciel	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-150	150	NUM
+150	150	DIGIT
 mètres	mètre	NOUN
 à	à	ADP
 la	le	DET
@@ -2753,9 +2752,9 @@ ils	ils	PRON
 viennent	venir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 avril	avril	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -3039,7 +3038,7 @@ au	au	ADP_DET
 revoir	revoir	VERB
 en	en	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 sonnait	sonner	VERB
@@ -3413,9 +3412,9 @@ de	de	ADP
 anxiété	anxiété	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 avril	avril	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 plus	plus	ADV
@@ -3557,7 +3556,7 @@ parfaits	parfait	ADJ
 dans	dans	ADP
 le	le	DET
 propret-coquet-scolaire	propret-coquet-scolaire	NOUN
-1910	1910	NUM
+1910	1910	DIGIT
 que	que	SCONJ
 l'	le	DET
 imagination	imagination	NOUN
@@ -3863,9 +3862,9 @@ qui	qui	PRON
 comptent	compter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 avril	avril	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN

@@ -14,7 +14,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 août	août	NOUN
-1964	1964	NUM
+1964	1964	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -869,7 +869,7 @@ l'	le	DET
 avion	avion	NOUN
 .	.	PUNCTsent
 avant	avant	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 député	député	NOUN
@@ -977,7 +977,7 @@ les	le	DET
 cantons	canton	NOUN
 Suisse	Suisse	PROPN
 avant	avant	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ;	;	PUNCTclause
 à tout le moins	à tout le moins	ADV
 ne	ne	ADV
@@ -1562,7 +1562,7 @@ histoire	histoire	NOUN
 du	du	ADP_DET
 genre humain	genre humain	NOUN
 (	(	PUNCTclause
-1797	1797	NUM
+1797	1797	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 annonce	annoncer	VERB
@@ -1905,7 +1905,7 @@ de	de	ADP
 états	état	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-1879	1879	NUM
+1879	1879	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 auteur	auteur	NOUN
@@ -1994,7 +1994,7 @@ jour	jour	NOUN
 écrit	écrire	VERB
 il	il	PRON
 en	en	PRON
-1875	1875	NUM
+1875	1875	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 nationalité	nationalité	NOUN
@@ -2074,7 +2074,7 @@ Suisse	Suisse	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 )	)	PUNCTclause
 que	que	SCONJ
 le premier	le premier	PRON
@@ -2105,7 +2105,7 @@ guerre	guerre	NOUN
 Hertenstein	Hertenstein	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 des	un	DET
@@ -2159,7 +2159,7 @@ Montreux	Montreux	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 septembre	septembre	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 date	date	NOUN
 que	que	PRON
@@ -2220,7 +2220,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 la	le	DET
@@ -2371,7 +2371,7 @@ tient	tenir	VERB
 Lausanne	Lausanne	PROPN
 en	en	ADP
 décembre	décembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 cette	ce	DET
@@ -2445,14 +2445,14 @@ cultures	culture	NOUN
 de	de	ADP
 outre-mer	outre-mer	ADV
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 la première	la première	PRON
 chaire	chaire	NOUN
 Europe	Europe	PROPN
 est	être	AUX
 créée	créer	VERB
 en	en	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 par	par	ADP
 l'	le	DET
 université	université	NOUN
@@ -2484,7 +2484,7 @@ tient	tenir	VERB
 Bâle	Bâle	PROPN
 en	en	ADP
 septembre	septembre	NOUN
-1964	1964	NUM
+1964	1964	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 le	le	DET
@@ -2565,7 +2565,7 @@ que	que	SCONJ
 Mazzini	Mazzini	PROPN
 publie	publier	VERB
 en	en	ADP
-1836	1836	NUM
+1836	1836	DIGIT
 le	le	DET
 manifeste	manifeste	NOUN
 et	et	CCONJ
@@ -2612,7 +2612,7 @@ et	et	CCONJ
 que	que	SCONJ
 la même	la même	PRON
 année	année	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 premières	premier	ADJ
@@ -2695,7 +2695,7 @@ seconde	second	ADJ
 guerre mondiale	guerre mondiale	NOUN
 jusque	jusque	ADP
 aux environs de	aux environs de	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 faut	falloir	VERB
@@ -2796,7 +2796,7 @@ micro	micro	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 février	février	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 cours	cours	NOUN
@@ -2822,7 +2822,7 @@ appelait	appeler	VERB
 la	le	DET
 Ceca	Ceca	PROPN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 que	que	SCONJ
@@ -2833,7 +2833,7 @@ ne	ne	ADV
 pas	pas	ADV
 réalisable	réalisable	ADJ
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 que	que	SCONJ
@@ -2999,7 +2999,7 @@ elle	elle	PRON
 relevait	relever	VERB
 en effet	en effet	ADV
 des	un	DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 plutôt	plutôt	ADV
 mal	mal	ADV
@@ -3568,7 +3568,7 @@ l'on	on	PRON
 pourrait	pouvoir	VERB
 ajouter	ajouter	VERB
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 que	que	SCONJ
@@ -3628,7 +3628,7 @@ retour	retour	NOUN
 à l'avenir	à l'avenir	ADV
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 que	que	SCONJ
@@ -3679,7 +3679,7 @@ les	le	DET
 puissances	puissance	NOUN
 garantirent	garantir	VERB
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 a	avoir	AUX
@@ -4105,7 +4105,7 @@ connus	connaître	VERB
 .	.	PUNCTsent
 en	en	ADP
 mai	mai	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
@@ -4113,17 +4113,17 @@ nos	nos	DET
 importations	importation	NOUN
 proviennent	provenir	VERB
 pour	pour	ADP
-65,3	65,3	NUM
+65,3	65,3	DIGIT
 des	un	ADP_DET
 Six	Six	NUM
 ,	,	PUNCTclause
 pour	pour	ADP
-13,4	13,4	NUM
+13,4	13,4	DIGIT
 des	un	ADP_DET
 Sept	Sept	NUM
 ,	,	PUNCTclause
 pour	pour	ADP
-21,3	21,3	NUM
+21,3	21,3	DIGIT
 du reste	du reste	ADV
 du	du	ADP_DET
 monde	monde	NOUN
@@ -4154,7 +4154,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 de	de	ADP
-447	447	NUM
+447	447	DIGIT
 millions	million	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -4164,7 +4164,7 @@ est	être	AUX
 bénéficiaire	bénéficiaire	ADJ
 (	(	PUNCTclause
 de	de	ADP
-51	51	NUM
+51	51	DIGIT
 millions	million	NOUN
 )	)	PUNCTclause
 avec	avec	ADP
@@ -4227,11 +4227,11 @@ de	de	ADP
 quatre-vingt-dix-mille	quatre-vingt-dix-mille	PRON
 personnes	personne	NOUN
 en	en	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 à	à	ADP
 huit-cent-mille	huit-cent-mille	NUM
 en	en	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 .	.	PUNCTsent
 que	que	PRON
 peuvent	pouvoir	VERB
@@ -4389,9 +4389,9 @@ que	que	SCONJ
 le	le	DET
 déclarait	déclarer	VERB
 le	le	DET
-3	3	NUM
+3	3	DIGIT
 mai	mai	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 M.	M.	NOUN
 Homberger	Homberger	PROPN
 ,	,	PUNCTclause
@@ -4548,7 +4548,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 a	avoir	AUX
@@ -4796,7 +4796,7 @@ depuis	depuis	ADV
 longtemps	longtemps	ADV
 .	.	PUNCTsent
 vers	vers	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 les	le	DET
@@ -4817,11 +4817,11 @@ population	population	NOUN
 totale	total	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 peut	pouvoir	VERB
@@ -4946,7 +4946,7 @@ ni	ni	CCONJ
 même	même	ADV
 celle	celle	PRON
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 que	que	SCONJ
 il	il	PRON
 se	se	PRON
@@ -5834,9 +5834,9 @@ de	de	ADP
 ce	ce	DET
 matin	matin	NOUN
 ,	,	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 avril	avril	NOUN
-1964	1964	NUM
+1964	1964	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -5875,7 +5875,7 @@ collège	collège	NOUN
 exécutif	exécutif	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 «	«	PUNCTclause
@@ -5948,7 +5948,7 @@ soucis	souci	NOUN
 »	»	PUNCTclause
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 «	«	PUNCTclause
@@ -6237,7 +6237,7 @@ ses	son	DET
 formules	formule	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 le	le	DET
@@ -6631,7 +6631,7 @@ l'	le	DET
 intérieur	intérieur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 les	le	DET
@@ -6827,7 +6827,7 @@ Europe	Europe	PROPN
 entière	entier	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 le	le	DET
 principe	principe	NOUN
 des	un	ADP_DET
@@ -6842,7 +6842,7 @@ une	un	DET
 puissance	puissance	NOUN
 satanique	satanique	ADJ
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 civilisations	civilisation	NOUN
 opposées	opposé	ADJ
@@ -7087,7 +7087,7 @@ les	le	DET
 organiser	organiser	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 la	le	DET
@@ -7198,7 +7198,7 @@ mais	mais	CCONJ
 dès	dès	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 prend	prendre	VERB
@@ -7429,7 +7429,7 @@ sera	être	AUX
 elle	elle	PRON
 pas	pas	ADV
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 vingt	vingt	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -7579,7 +7579,7 @@ avenir	avenir	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 Dépositaire	Dépositaire	PROPN
@@ -7893,7 +7893,7 @@ se	se	PRON
 réserver	réserver	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 ce	ce	DET
@@ -8261,7 +8261,7 @@ du	du	ADP_DET
 tourisme	tourisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 entre	entre	ADP
@@ -8458,8 +8458,8 @@ que	que	SCONJ
 elle	elle	PRON
 sera	être	AUX
 faite	faire	VERB
-d'ici	d'ici	ADV
-1980	1980	NUM
+d'ici	d'ici	ADP
+1980	1980	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 l'on	on	PRON
@@ -8671,7 +8671,7 @@ dans	dans	ADP
 l'	le	DET
 Europe	Europe	PROPN
 de	de	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -9020,7 +9020,7 @@ serez	être	AUX
 bien	bien	ADV
 reçu	recevoir	VERB
 !	!	PUNCTsent
-etc.	etc.	NOUN
+Etc.	Etc.	NOUN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 ne	ne	ADV

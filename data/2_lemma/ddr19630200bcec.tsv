@@ -13,7 +13,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 février	février	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -31,11 +31,11 @@ qui	qui	PRON
 sera	être	AUX
 publiée	publier	VERB
 en	en	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 ,	,	PUNCTclause
 comporte	comporter	VERB
 environ	environ	ADV
-2000	2000	NUM
+2000	2000	DIGIT
 titres	titre	NOUN
 .	.	PUNCTsent
 on	on	PRON
@@ -318,9 +318,9 @@ de	de	ADP
 la	le	DET
 politique	politique	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 nous	nous	PRON
-avons	avoir	VERB
+avons	avoir	AUX
 pris	prendre	VERB
 pour	pour	ADP
 guide	guide	NOUN
@@ -365,7 +365,7 @@ le	le	DET
 temps	temps	NOUN
 de	de	ADP
 lire	lire	VERB
-2000	2000	NUM
+2000	2000	DIGIT
 volumes	volume	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -507,7 +507,7 @@ et	et	CCONJ
 publiées	publier	VERB
 dès	dès	ADP
 mars	mars	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 brochure	brochure	NOUN
@@ -515,9 +515,9 @@ brochure	brochure	NOUN
 des	un	ADP_DET
 listes	liste	NOUN
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-150	150	NUM
+150	150	DIGIT
 volumes	volume	NOUN
 ,	,	PUNCTclause
 considérés	considérer	VERB
@@ -561,10 +561,10 @@ cette	ce	DET
 année	année	NOUN
 (	(	PUNCTclause
 du	du	ADP_DET
-30	30	NUM
+30	30	DIGIT
 mars	mars	NOUN
 au	au	ADP_DET
-6	6	NUM
+6	6	DIGIT
 avril	avril	NOUN
 )	)	PUNCTclause
 avec	avec	ADP
@@ -862,12 +862,12 @@ Ceca	Ceca	PROPN
 du	du	ADP_DET
 Marché commun	Marché commun	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
 exprimer	exprimer	VERB
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 actions	action	NOUN
 en cours	en cours	ADJ
 son	son	DET
@@ -906,7 +906,7 @@ dépourvus	dépourvoir	VERB
 pour	pour	ADP
 la plupart de	la plupart de	DET
 ce	ce	PRON
-style	styler	VERB
+style	style	NOUN
 de	de	ADP
 pensée	pensée	NOUN
 créatrice	créateur	ADJ
@@ -1239,7 +1239,7 @@ nouveaux	nouveau	ADJ
 attendent	attendre	VERB
 de	de	ADP
 être	être	AUX
-traités	traiter	VERB
+traités	traité	NOUN
 .	.	PUNCTsent
 ils	ils	PRON
 pourraient	pouvoir	VERB

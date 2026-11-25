@@ -9,7 +9,7 @@
 au-delà de	au-delà de	ADP
 nations	nation	NOUN
 (	(	PUNCTclause
-1967	1967	NUM
+1967	1967	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -46,7 +46,7 @@ ouvrit	ouvrir	VERB
 à	à	ADP
 Vienne	Vienne	PROPN
 en	en	ADP
-1927	1927	NUM
+1927	1927	DIGIT
 le premier	le premier	PRON
 congrès	congrès	NOUN
 du	du	ADP_DET
@@ -151,7 +151,7 @@ Monnet	Monnet	PROPN
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 septembre	septembre	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 France	France	PROPN
@@ -189,7 +189,7 @@ dans	dans	ADP
 son	son	DET
 discours	discours	NOUN
 du	du	ADP_DET
-5	5	NUM
+5	5	DIGIT
 septembre	septembre	NOUN
 de	de	ADP
 l'	le	DET
@@ -402,9 +402,9 @@ Lausanne	Lausanne	PROPN
 Bruxelles	Bruxelles	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 à	à	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 proclamant	proclamer	VERB
 la	le	DET
@@ -443,7 +443,7 @@ souverains	souverain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1951	1951	NUM
+1951	1951	DIGIT
 ,	,	PUNCTclause
 avec	avec	ADP
 le	le	DET
@@ -547,8 +547,7 @@ faite	faire	VERB
 »	»	PUNCTclause
 dès	dès	ADP
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 juillet	juillet	NOUN
 de	de	ADP
 l'	le	DET
@@ -1031,7 +1030,7 @@ par	par	ADP
 Churchill	Churchill	PROPN
 en	en	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 autrement dit	autrement dit	ADV
 :	:	PUNCTclause
@@ -1509,12 +1508,12 @@ une	un	DET
 population	population	NOUN
 minimum	minimum	ADJ
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 millions	million	NOUN
 et	et	CCONJ
 maximum	maximum	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
@@ -2150,7 +2149,7 @@ Six	Six	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 dès	dès	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 réunissaient	réunir	VERB
 à	à	ADP
 Bruxelles	Bruxelles	PROPN
@@ -3292,7 +3291,7 @@ beau	beau	ADJ
 matin	matin	NOUN
 …	…	PUNCTsent
 vers	vers	ADP
-1985	1985	NUM
+1985	1985	DIGIT
 .	.	PUNCTsent
 la	le	DET
 région	région	NOUN

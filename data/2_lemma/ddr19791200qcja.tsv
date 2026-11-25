@@ -16,9 +16,9 @@ je	je	PRON
 aime	aimer	VERB
 »	»	PUNCTclause
 (	(	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 octobre	octobre	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -47,8 +47,8 @@ années	année	NOUN
 new-yorkaises	new-yorkais	ADJ
 (	(	PUNCTclause
 fin	fin	NOUN
-1940	1940	NUM
--1947	-1947	NUM
+1940	1940	DIGIT
+-1947	-1947	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 à la fin	à la fin	ADV
@@ -102,7 +102,7 @@ date	date	NOUN
 de	de	ADP
 fin	fin	NOUN
 mai	mai	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -149,7 +149,7 @@ la	le	DET
 nuit	nuit	NOUN
 .	.	PUNCTsent
 à	à	ADP
-2	2	NUM
+2	2	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
@@ -184,9 +184,9 @@ France	France	PROPN
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 …	…	PUNCTsent
@@ -413,9 +413,9 @@ Westport	Westport	PROPN
 Connecticut	Connecticut	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 août	août	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Huit	Huit	NUM
@@ -588,7 +588,7 @@ fait	faire	VERB
 un	un	DET
 film	film	NOUN
 de	de	ADP
-16	16	NUM
+16	16	DIGIT
 mm	mm	NOUN
 de	de	ADP
 une	un	DET
@@ -623,7 +623,7 @@ Island	Island	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 septembre	septembre	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Bevin	Bevin	PROPN
@@ -937,10 +937,9 @@ de	de	ADP
 penser	penser	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	VERB
+1er	1er	NUMord
 février	février	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 trouvé	trouver	VERB
@@ -1127,7 +1126,7 @@ New York	New York	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 février	février	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 depuis que	depuis que	SCONJ
@@ -1389,7 +1388,7 @@ révélées	révéler	VERB
 Joliot-Curie	Joliot-Curie	PROPN
 .	.	PUNCTsent
 dès	dès	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 me	me	PRON
@@ -1492,16 +1491,16 @@ seconde	second	NOUN
 tour	tour	NOUN
 ,	,	PUNCTclause
 vers	vers	ADP
-3	3	NUM
+3	3	DIGIT
 ou	ou	CCONJ
-4	4	NUM
+4	4	DIGIT
 h.	h.	PUNCT
 du	du	ADP_DET
 matin	matin	NOUN
 .	.	PUNCTsent
 depuis	depuis	ADP
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 mars	mars	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1545,7 +1544,7 @@ battre	battre	VERB
 :	:	PUNCTclause
 il	il	PRON
 a	avoir	VERB
-42	42	NUM
+42	42	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -1629,7 +1628,7 @@ passe-droit	passe-droit	NOUN
 en	en	ADP
 date	date	NOUN
 du	du	ADP_DET
-27	27	NUM
+27	27	DIGIT
 mars	mars	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -1692,9 +1691,9 @@ dans	dans	ADP
 la	le	DET
 nuit	nuit	NOUN
 du	du	ADP_DET
-24	24	NUM
+24	24	DIGIT
 au	au	ADP_DET
-25	25	NUM
+25	25	DIGIT
 mars	mars	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -1799,10 +1798,9 @@ choisi	choisir	VERB
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 avril	avril	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Consuelo	Consuelo	X
@@ -1850,7 +1848,7 @@ Beekman	Beekman	PROPN
 Place	Place	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 nous	nous	PRON
 entrons	entrer	VERB
 dans	dans	ADP
@@ -2001,7 +1999,7 @@ août	août	NOUN
 de	de	ADP
 l'	le	DET
 année	année	NOUN
-1944	1944	NUM
+1944	1944	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 disparition	disparition	NOUN

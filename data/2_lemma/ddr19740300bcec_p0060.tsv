@@ -14,7 +14,7 @@ l'	le	DET
 histoire	histoire	NOUN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -199,9 +199,9 @@ Pompidou	Pompidou	PROPN
 Poitiers	Poitiers	PROPN
 ,	,	PUNCTclause
 le	le	DET
-25	25	NUM
+25	25	DIGIT
 janvier	janvier	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 inaugurer	inaugurer	VERB
@@ -546,10 +546,10 @@ me	me	PRON
 ,	,	PUNCTclause
 en	en	ADP
 janvier	janvier	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 ,	,	PUNCTclause
 que	que	PRON
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 la	le	DET
 «	«	PUNCTclause
 réforme	réforme	NOUN
@@ -875,7 +875,7 @@ réalités	réalité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 groupe	groupe	NOUN
@@ -930,8 +930,8 @@ confirmer	confirmer	VERB
 les	le	DET
 événements	événement	NOUN
 de	de	ADP
-1939	1939	NUM
--1945	-1945	NUM
+1939	1939	DIGIT
+-1945	-1945	DIGIT
 .	.	PUNCTsent
 à	à	ADP
 l'	le	DET
@@ -950,7 +950,7 @@ régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 Jouvenel	Jouvenel	PROPN
 publie	publier	VERB
@@ -1078,7 +1078,7 @@ Fawcett	Fawcett	PROPN
 H.	H.	PROPN
 Kahn	Kahn	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 et	et	CCONJ
 des	un	ADP_DET
@@ -1438,9 +1438,9 @@ chapitre	chapitre	NOUN
 III	III	NUM
 (	(	PUNCTclause
 p.	p.	NOUN
-71	71	NUM
+71	71	DIGIT
 à	à	ADP
-74	74	NUM
+74	74	DIGIT
 )	)	PUNCTclause
 du	du	ADP_DET
 dernier	dernier	ADJ
@@ -1458,7 +1458,7 @@ paru	paraître	VERB
 chez	chez	ADP
 Laffont	Laffont	PROPN
 en	en	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Paris	Paris	PROPN
@@ -1943,7 +1943,7 @@ discours	discours	NOUN
 de	de	ADP
 Lyon	Lyon	PROPN
 en	en	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 :	:	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -1993,7 +1993,7 @@ Suisse	Suisse	PROPN
 et	et	CCONJ
 Italie	Italie	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
@@ -2103,7 +2103,7 @@ hypothèse	hypothèse	NOUN
 ,	,	PUNCTclause
 émise	émettre	VERB
 dès	dès	ADP
-1969	1969	NUM
+1969	1969	DIGIT
 ,	,	PUNCTclause
 trouve	trouver	VERB
 dans	dans	ADP

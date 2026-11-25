@@ -20,9 +20,9 @@ Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 décembre	décembre	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -306,10 +306,10 @@ de	de	ADP
 Ferney-Voltaire	Ferney-Voltaire	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 il y a	il y a	VERB
-1050	1050	NUM
+1050	1050	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 six	six	NUM
@@ -319,10 +319,10 @@ treize	treize	NUM
 magasins	magasin	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 ,	,	PUNCTclause
 il y a	il y a	VERB
-6500	6500	NUM
+6500	6500	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 toujours	toujours	ADV
@@ -339,7 +339,7 @@ grandes	grand	ADJ
 surfaces	surface	NOUN
 !	!	PUNCTsent
 en	en	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -347,7 +347,7 @@ y	y	PRON
 a	avoir	VERB
 plus	plus	ADV
 que	que	SCONJ
-5800	5800	NUM
+5800	5800	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 il y a	il y a	VERB
@@ -648,7 +648,7 @@ grande	grand	ADJ
 et	et	CCONJ
 à partir de	à partir de	ADP
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 aux	au	ADP_DET
 multinationales	multinationale	NOUN
 .	.	PUNCTsent
@@ -831,7 +831,7 @@ ses	son	DET
 propositions	proposition	NOUN
 développées	développer	VERB
 en	en	ADP
-160	160	NUM
+160	160	DIGIT
 pages	page	NOUN
 partent	partir	VERB
 de	de	ADP
@@ -1026,7 +1026,7 @@ opéré	opérer	VERB
 un	un	DET
 virage	virage	NOUN
 à	à	ADP
-180	180	NUM
+180	180	DIGIT
 degrés	degré	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ

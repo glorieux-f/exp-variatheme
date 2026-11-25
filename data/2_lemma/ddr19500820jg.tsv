@@ -19,10 +19,10 @@ nom	nom	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-19	19	NUM
--20	-20	NUM
+19	19	DIGIT
+-20	-20	DIGIT
 août	août	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1063,7 +1063,7 @@ je	je	PRON
 ne	ne	ADV
 en	en	PRON
 vois	voir	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 que	que	SCONJ
 un	un	DET
 seul	seul	ADJ

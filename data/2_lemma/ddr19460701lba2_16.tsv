@@ -15,9 +15,9 @@ la	le	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 enfin	enfin	ADV
@@ -681,7 +681,7 @@ se	se	PRON
 tient	tenir	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 sont	être	AUX
@@ -698,7 +698,7 @@ construit	construire	VERB
 la	le	DET
 Bombe	Bombe	PROPN
 .	.	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ces	ce	DET
 savants	savant	NOUN
@@ -715,9 +715,9 @@ de	de	ADP
 parade	parade	NOUN
 imaginable	imaginable	ADJ
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 .	.	PUNCTsent
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 or	or	NOUN
 ,	,	PUNCTclause
@@ -729,7 +729,7 @@ de	de	ADP
 en	en	PRON
 trouver	trouver	VERB
 .	.	PUNCTsent
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 donc	donc	ADV
 les	le	DET
@@ -765,7 +765,7 @@ dans	dans	ADP
 mes	mon	DET
 précédentes	précédent	ADJ
 lettres	lettre	NOUN
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	ADP_DET
 armées	armée	NOUN
 ,	,	PUNCTclause
 des	un	DET

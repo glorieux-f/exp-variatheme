@@ -16,7 +16,7 @@ société	société	NOUN
 moderne	moderne	ADJ
 (	(	PUNCTclause
 février	février	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -128,7 +128,7 @@ est	être	AUX
 la sienne	la sienne	PRON
 depuis	depuis	ADP
 bientôt	bientôt	ADV
-100	100	NUM
+100	100	DIGIT
 ans	an	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -271,7 +271,7 @@ de	de	ADP
 automobiles	automobile	ADJ
 date	date	NOUN
 de	de	ADP
-1899	1899	NUM
+1899	1899	DIGIT
 à	à	ADP
 Detroit	Detroit	PROPN
 :	:	PUNCTclause
@@ -530,23 +530,23 @@ cents	cents	NUM
 voitures	voiture	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1909	1909	NUM
+1909	1909	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 en	en	PRON
 avait	avoir	AUX
 vendu	vendre	VERB
-18000	18000	NUM
+18000	18000	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 million	million	NOUN
 et	et	CCONJ
 en	en	ADP
-1924	1924	NUM
-7000	7000	NUM
+1924	1924	DIGIT
+7000	7000	DIGIT
 par	par	ADP
 jour	jour	NOUN
 .	.	PUNCTsent
@@ -555,7 +555,7 @@ aujourd'hui	aujourd'hui	ADV
 les	le	DET
 États-Unis	États-Unis	PROPN
 produisent	produire	VERB
-12	12	NUM
+12	12	DIGIT
 millions	million	NOUN
 de	de	ADP
 voitures	voiture	NOUN
@@ -600,7 +600,7 @@ se	se	PRON
 approcher	approcher	VERB
 à	à	ADP
 plus de	plus de	DET
-5	5	NUM
+5	5	DIGIT
 miles	mile	NOUN
 de	de	ADP
 chez	chez	ADP
@@ -968,7 +968,7 @@ l'	le	DET
 affiche	affiche	NOUN
 du	du	ADP_DET
 Salon	Salon	PROPN
-78	78	NUM
+78	78	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 la	le	DET
@@ -1494,14 +1494,14 @@ aucune	aucun	DET
 commune	commun	NOUN
 mesure	mesurer	VERB
 :	:	PUNCTclause
-0,5	0,5	NUM
+0,5	0,5	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
 en	en	ADP
 URSS	URSS	PROPN
 ,	,	PUNCTclause
-50	50	NUM
+50	50	DIGIT
 aux	au	ADP_DET
 		TOKEN
 .	.	PUNCTsent
@@ -1517,7 +1517,7 @@ la	le	DET
 liberté	liberté	NOUN
 .	.	PUNCTsent
 le jour où	le jour où	SCONJ
-50	50	NUM
+50	50	DIGIT
 des	un	ADP_DET
 soviétiques	soviétique	NOUN
 pourront	pouvoir	VERB
@@ -1534,7 +1534,7 @@ plus de	plus de	DET
 être	être	AUX
 bloqués	bloquer	VERB
 à	à	ADP
-30	30	NUM
+30	30	DIGIT
 kilomètres	mètre	NOUN
 de	de	ADP
 leur	leur	DET
@@ -2019,7 +2019,7 @@ leurs	leur	DET
 voitures	voiture	NOUN
 rejettent	rejeter	VERB
 le	le	DET
-87	87	NUM
+87	87	DIGIT
 de	de	ADP
 l'	le	DET
 énergie	énergie	NOUN
@@ -2043,7 +2043,7 @@ des	un	ADP_DET
 États-Unis	États-Unis	PROPN
 était	être	AUX
 de	de	ADP
-4	4	NUM
+4	4	DIGIT
 km	km	NOUN
 à	à	ADP
 l'	le	DET
@@ -2690,7 +2690,7 @@ une	un	DET
 de	de	ADP
 midi	midi	NOUN
 à	à	ADP
-14	14	NUM
+14	14	DIGIT
 heures	heure	NOUN
 ne	ne	ADV
 ont	avoir	AUX
@@ -3326,7 +3326,7 @@ Suisse	Suisse	PROPN
 donne	donner	VERB
 raison	raison	NOUN
 le	le	DET
-26	26	NUM
+26	26	DIGIT
 février	février	NOUN
 à	à	ADP
 M.	M.	NOUN
@@ -3713,7 +3713,7 @@ lac	lac	NOUN
 qui	qui	PRON
 fera	faire	VERB
 gagner	gagner	VERB
-3,5	3,5	NUM
+3,5	3,5	DIGIT
 kilomètres	mètre	NOUN
 aux	au	ADP_DET
 automobilistes	automobiliste	NOUN
@@ -3878,7 +3878,7 @@ voiture	voiture	NOUN
 .	.	PUNCTsent
 déjà	déjà	ADV
 en	en	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 rappelez	rappeler	VERB
 vous	vous	PRON
@@ -3895,7 +3895,7 @@ a	avoir	AUX
 introduite	introduire	VERB
 .	.	PUNCTsent
 le	le	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 et	et	CCONJ
 le	le	DET
 conseil municipal	conseil municipal	NOUN
@@ -4053,7 +4053,7 @@ plus	plus	ADV
 personne	personne_PRON	PRON
 ne	ne	ADV
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 abandonner	abandonner	VERB
 son	son	DET
 véhicule	véhicule	NOUN
@@ -4573,7 +4573,7 @@ livre	livre	NOUN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 —	—	PUNCTclause
 les	le	DET
 choses	chose	NOUN
@@ -4585,7 +4585,7 @@ depuis	depuis	ADP
 dit	dit	NOUN
 que	que	SCONJ
 le	le	DET
-40	40	NUM
+40	40	DIGIT
 des	un	DET
 frais	frais	NOUN
 de	de	ADP
@@ -4832,7 +4832,7 @@ l'	le	DET
 industrie	industrie	NOUN
 automobile	automobile	ADJ
 :	:	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 millions	million	NOUN
 de	de	ADP
 emplois	emploi	NOUN
@@ -4965,7 +4965,7 @@ automobiles	automobile	NOUN
 ,	,	PUNCTclause
 cela	cela	PRON
 représente	représenter	VERB
-80000	80000	NUM
+80000	80000	DIGIT
 emplois	emploi	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
@@ -5133,7 +5133,7 @@ par	par	ADP
 le	le	DET
 monde	monde	NOUN
 plus de	plus de	DET
-200000	200000	NUM
+200000	200000	DIGIT
 personnes	personne	NOUN
 qui	qui	PRON
 meurent	mourir	VERB
@@ -5492,7 +5492,7 @@ des	un	ADP_DET
 maladies	maladie	NOUN
 pulmonaires	pulmonaire	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 une	un	DET
 chose	chose	NOUN
 étonne	étonner	VERB
@@ -5644,7 +5644,7 @@ Lausanne	Lausanne	PROPN
 a	avoir	AUX
 calculé	calculer	VERB
 que	que	SCONJ
-900	900	NUM
+900	900	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 hydrocarbures	hydrocarbure	NOUN
@@ -5861,7 +5861,7 @@ vivre	vivre	VERB
 la	le	DET
 douleur	douleur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 donc	donc	ADV
 on	on	PRON
 voit	voir	VERB
@@ -6029,7 +6029,7 @@ tous	tout	ADJ
 .	.	PUNCTsent
 ils	ils	PRON
 paient	payer	VERB
-6	6	NUM
+6	6	DIGIT
 milliards	milliard	NOUN
 pour	pour	ADP
 une	un	DET

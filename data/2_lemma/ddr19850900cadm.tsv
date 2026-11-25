@@ -21,7 +21,7 @@ le	le	DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 (	(	PUNCTclause
 été	été	NOUN
-1985	1985	NUM
+1985	1985	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -70,14 +70,13 @@ se	se	PRON
 agit	agir	VERB
 du	du	ADP_DET
 n°	n°	SYM
-3	3	NUM
+3	3	DIGIT
 de	de	ADP
-1984	1984	NUM
+1984	1984	DIGIT
 consacré	consacrer	VERB
 au	au	ADP_DET
-35	35	NUM
-e	e	NOUN
-anniversaire	anniversaire	ADJ
+35e	35e	NUMord
+anniversaire	anniversaire	NOUN
 du	du	ADP_DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 .	.	PUNCTsent
@@ -111,7 +110,7 @@ Autriche	Autriche	PROPN
 trois	trois	NUM
 ministres	ministre	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 et	et	CCONJ
 des	un	ADP_DET
 affaires	affaire	NOUN
@@ -239,7 +238,7 @@ au	au	ADP_DET
 sommaire	sommaire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 deux	deux	NUM
@@ -343,7 +342,7 @@ ici	ici	ADV
 ,	,	PUNCTclause
 après	après	ADP
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 en plein	en plein	ADV
 conscience	conscience	NOUN
@@ -459,7 +458,7 @@ penseur	penseur	NOUN
 militant	militer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 conception	conception	NOUN
 et	et	CCONJ
@@ -491,11 +490,11 @@ tenir	tenir	VERB
 la	le	DET
 Haye	Haye	PROPN
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 au	au	ADP_DET
-12	12	NUM
+12	12	DIGIT
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 congrès	congrès	NOUN
 dont	dont	PRON
@@ -577,7 +576,7 @@ Europe	Europe	PROPN
 lorsque	lorsque	SCONJ
 en	en	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 trois	trois	NUM
 ans	an	NOUN
@@ -624,7 +623,7 @@ honneur	honneur	NOUN
 de	de	ADP
 Churchill	Churchill	PROPN
 ,	,	PUNCTclause
-800	800	NUM
+800	800	DIGIT
 délégués	délégué	NOUN
 des	un	ADP_DET
 pays	pays	NOUN
@@ -646,7 +645,7 @@ Est	Est	PROPN
 parmi	parmi	ADP
 eux	eux	PRON
 siégeaient	siéger	VERB
-16	16	NUM
+16	16	DIGIT
 anciens	ancien	ADJ
 présidents	président	NOUN
 du	du	ADP_DET
@@ -657,7 +656,7 @@ cinquantaine	cinquantaine	NOUN
 de	de	ADP
 ministres	ministre	NOUN
 ,	,	PUNCTclause
-250	250	NUM
+250	250	DIGIT
 députés	député	NOUN
 aux	au	ADP_DET
 divers	divers	ADJ
@@ -1212,7 +1211,7 @@ notre	notre	DET
 congrès	congrès	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 voulons	vouloir	VERB
@@ -1239,7 +1238,7 @@ des	un	DET
 biens	bien	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 voulons	vouloir	VERB
@@ -1270,7 +1269,7 @@ opposition	opposition	NOUN
 politique	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 voulons	vouloir	VERB
@@ -1291,7 +1290,7 @@ la	le	DET
 charte	charte	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 voulons	vouloir	VERB
@@ -1310,7 +1309,7 @@ nos	nos	DET
 nations	nation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 nous	nous	PRON
@@ -1439,7 +1438,7 @@ eux	eux	PRON
 ,	,	PUNCTclause
 dès	dès	ADP
 janvier	janvier	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 décision	décision	NOUN
@@ -1451,7 +1450,7 @@ projet	projet	NOUN
 ,	,	PUNCTclause
 suivie	suivre	VERB
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 mai	mai	NOUN
 de	de	ADP
 l'	le	DET
@@ -1485,9 +1484,9 @@ Congrès de La Haye	Congrès de La Haye	PROPN
 se	se	PRON
 ouvrit	ouvrir	VERB
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 à	à	ADP
 Strasbourg	Strasbourg	PROPN
 .	.	PUNCTsent
@@ -1634,7 +1633,7 @@ débarquions	débarquer	VERB
 Strasbourg	Strasbourg	PROPN
 en	en	ADP
 août	août	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 la première	la première	PRON
@@ -1693,7 +1692,7 @@ je	je	PRON
 avais	avoir	AUX
 connu	connaître	VERB
 dès	dès	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 ,	,	PUNCTclause
 alors que	alors que	SCONJ
 étudiant	étudier	VERB
@@ -1824,7 +1823,7 @@ prudence	prudence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-300	300	NUM
+300	300	DIGIT
 «	«	PUNCTclause
 jeunes	jeune	ADJ
 Europe	Europe	PROPN
@@ -1937,7 +1936,7 @@ soit	être	AUX
 élue	éluer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 année	année	NOUN
@@ -1953,7 +1952,7 @@ année	année	NOUN
 du	du	ADP_DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 ,	,	PUNCTclause
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 donna	donner	VERB
 lieu	lieu	NOUN
@@ -2102,7 +2101,7 @@ Palais	Palais	PROPN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
-6000	6000	NUM
+6000	6000	DIGIT
 jeunes	jeune	ADJ
 gens	gens	NOUN
 venus	venir	VERB
@@ -2127,12 +2126,12 @@ Paul-Henri	Paul-Henri	PROPN
 Spaak	Spaak	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 avais	avoir	AUX
@@ -2172,7 +2171,7 @@ de	de	ADP
 la première	la première	PRON
 assemblée	assembler	VERB
 de	de	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voici	voici	ADP
@@ -2246,7 +2245,7 @@ ou bien	ou bien	CCONJ
 ne	ne	ADV
 signifie	signifier	VERB
 pas	pas	ADV
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 ….	….	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
@@ -2992,7 +2991,7 @@ je	je	PRON
 ne	ne	ADV
 en	en	PRON
 vois	voir	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 que	que	SCONJ
 un	un	DET
 seul	seul	ADJ
@@ -3315,7 +3314,7 @@ constitution	constitution	NOUN
 fédérale	fédéral	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 nouveau	nouveau	ADJ
@@ -3788,7 +3787,7 @@ de	de	ADP
 Strasbourg	Strasbourg	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-842	842	NUM
+842	842	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 préludé	préluder	VERB
@@ -3803,7 +3802,7 @@ fils	fils	NOUN
 de	de	ADP
 Charlemagne	Charlemagne	PROPN
 .	.	PUNCTsent
-1950	1950	NUM
+1950	1950	DIGIT
 doit	devoir	VERB
 être	être	AUX
 la	le	DET
@@ -3937,7 +3936,7 @@ miennes	mien	PRON
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-1	1	NUM
+1	1	DIGIT
 h	h	NOUN
 Raymond	Raymond	PROPN
 Silva	Silva	PROPN
@@ -4026,7 +4025,7 @@ nous	nous	PRON
 travaillons	travailler	VERB
 jusque	jusque	ADP
 à	à	ADP
-3	3	NUM
+3	3	DIGIT
 h	h	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
@@ -4055,9 +4054,9 @@ vient	venir	VERB
 de	de	ADP
 s'en aller	s'en aller	VERB
 à	à	ADP
-3	3	NUM
+3	3	DIGIT
 h	h	NOUN
-15	15	NUM
+15	15	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 je	je	PRON
@@ -4081,12 +4080,12 @@ dodo	dodo	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-24	24	NUM
+24	24	DIGIT
 août	août	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 h	h	NOUN
 ,	,	PUNCTclause
 Carlo	Carlo	PROPN
@@ -4131,12 +4130,12 @@ meeting	meeting	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-25	25	NUM
+25	25	DIGIT
 août	août	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 h	h	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -4157,7 +4156,7 @@ attaqué	attaquer	VERB
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-15	15	NUM
+15	15	DIGIT
 h	h	NOUN
 ,	,	PUNCTclause
 séance	séance	NOUN
@@ -4169,10 +4168,10 @@ Assemblée	Assemblée	PROPN
 qui	qui	PRON
 vote	voter	VERB
 par	par	ADP
-98	98	NUM
+98	98	DIGIT
 voix	voix	NOUN
 sur	sur	ADP
-98	98	NUM
+98	98	DIGIT
 présents	présent	NOUN
 le	le	DET
 patronage	patronage	NOUN
@@ -4199,7 +4198,7 @@ subventionne	subventionner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-23	23	NUM
+23	23	DIGIT
 h	h	NOUN
 ,	,	PUNCTclause
 Villey	Villey	PROPN
@@ -4212,17 +4211,17 @@ de	de	ADP
 France	France	PROPN
 jusque	jusque	ADP
 à	à	ADP
-1	1	NUM
+1	1	DIGIT
 h	h	NOUN
 a.m.	a.m.	PUNCT
 ↵↵	↵↵	PUNCTstruct
 vendredi	vendredi	NOUN
-25	25	NUM
+25	25	DIGIT
 août	août	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 h	h	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -4252,9 +4251,9 @@ Bâle	Bâle	PROPN
 et	et	CCONJ
 Genève	Genève	PROPN
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 h	h	NOUN
-30	30	NUM
+30	30	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 plus tard	plus tard	ADV
@@ -4288,7 +4287,7 @@ tout	tout	ADV
 simplement	simplement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Conseil	Conseil	PROPN
@@ -4400,7 +4399,7 @@ ce	ce	DET
 mois	mois	NOUN
 de	de	ADP
 novembre	novembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 beaucoup de	beaucoup de	DET
@@ -4662,7 +4661,7 @@ les	le	DET
 risques	risque	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Marche	Marche	PROPN
@@ -4673,7 +4672,7 @@ mais	mais	CCONJ
 l'	le	DET
 odyssée	odyssée	NOUN
 des	un	ADP_DET
-6000	6000	NUM
+6000	6000	DIGIT
 jeunes	jeune	NOUN
 venus	venir	VERB
 de	de	ADP
@@ -4723,7 +4722,7 @@ dans	dans	ADP
 mes	mon	DET
 notes	note	NOUN
 du	du	ADP_DET
-24	24	NUM
+24	24	DIGIT
 août	août	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -4777,7 +4776,7 @@ Dadelsen	Dadelsen	PROPN
 et	et	CCONJ
 moi	moi	PRON
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -4824,12 +4823,12 @@ l'	le	DET
 accueil	accueil	NOUN
 de	de	ADP
 au moins	au moins	ADV
-3000	3000	NUM
+3000	3000	DIGIT
 jeunes	jeune	ADJ
 gens	gens	NOUN
 dès	dès	ADP
 le	le	DET
-27	27	NUM
+27	27	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -5722,7 +5721,7 @@ me	me	PRON
 tromper	tromper	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 initiative	initiative	NOUN
@@ -5889,7 +5888,7 @@ et	et	CCONJ
 par	par	ADP
 l'	le	DET
 article	article	NOUN
-38	38	NUM
+38	38	DIGIT
 du	du	ADP_DET
 traité	traité	NOUN
 instituant	instituer	VERB
@@ -5924,9 +5923,9 @@ terminer	terminer	VERB
 ses	son	DET
 travaux	travail	NOUN
 le	le	DET
-26	26	NUM
+26	26	DIGIT
 février	février	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 que	que	PRON
@@ -5988,14 +5987,14 @@ Dadelsen	Dadelsen	PROPN
 dans	dans	ADP
 le	le	DET
 n°	n°	SYM
-1	1	NUM
+1	1	DIGIT
 du	du	ADP_DET
 Courrier	Courrier	PROPN
 fédéralisme	fédéralisme	NOUN
 daté	dater	VERB
 de	de	ADP
 avril	avril	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
@@ -6099,7 +6098,7 @@ continue	continuer	VERB
 résider	résider	VERB
 dans	dans	ADP
 les	le	DET
-22	22	NUM
+22	22	DIGIT
 cantons	canton	NOUN
 qui	qui	PRON
 la	le_PRON	PRON
@@ -6138,7 +6137,7 @@ légitimité	légitimité	NOUN
 que	que	PRON
 de	de	ADP
 ses	son	DET
-22	22	NUM
+22	22	DIGIT
 mandants	mandant	NOUN
 et	et	CCONJ
 qui	qui	PRON
@@ -6249,14 +6248,14 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 adopta	adopter	VERB
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 mars	mars	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 le	le	DET
 «	«	PUNCTclause
 projet	projet	NOUN
 de	de	ADP
-traité	traiter	VERB
+traité	traité	NOUN
 portant	porter	VERB
 statut	statut	NOUN
 de	de	ADP
@@ -6291,7 +6290,7 @@ ministres	ministre	NOUN
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 de	de	ADP
@@ -6395,7 +6394,7 @@ qui	qui	PRON
 allait	aller	VERB
 devenir	devenir	VERB
 dès	dès	ADP
-1955	1955	NUM
+1955	1955	DIGIT
 les	le	DET
 communautés	communauté	NOUN
 économiques	économique	ADJ
@@ -6439,7 +6438,7 @@ repris	reprendre	VERB
 sa	son	DET
 charge	charge	NOUN
 de	de	ADP
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 de	de	ADP
 Belgique	Belgique	PROPN
 .	.	PUNCTsent
@@ -6502,7 +6501,7 @@ notes	note	NOUN
 de	de	ADP
 journal	journal	NOUN
 de	de	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 :	:	PUNCTclause
 il	il	PRON
 me	me	PRON
@@ -6531,9 +6530,9 @@ en effet	en effet	ADV
 en	en	ADP
 date	date	NOUN
 du	du	ADP_DET
-23	23	NUM
+23	23	DIGIT
 août	août	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 trouve	trouver	VERB
@@ -6626,7 +6625,7 @@ sérieux	sérieux	ADJ
 avertissement	avertissement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 activités	activité	NOUN
 du	du	ADP_DET
@@ -6638,7 +6637,7 @@ la	le	DET
 fin	fin	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 faute de	faute de	ADP
 avoir	avoir	AUX
@@ -6938,7 +6937,7 @@ intérêts	intérêt	NOUN
 et	et	CCONJ
 cela	cela	PRON
 dans	dans	ADP
-10	10	NUM
+10	10	DIGIT
 pays	pays	NOUN
 seulement	seulement	ADV
 ,	,	PUNCTclause
@@ -6948,7 +6947,7 @@ moins de	moins de	DET
 la	le_PRON	PRON
 moitié	moitié	NOUN
 des	un	ADP_DET
-21	21	NUM
+21	21	DIGIT
 qui	qui	PRON
 forment	former	VERB
 l'	le	DET
@@ -6991,14 +6990,14 @@ l'	le	DET
 unité	unité	NOUN
 millénaire	millénaire	ADJ
 des	un	ADP_DET
-21	21	NUM
+21	21	DIGIT
 pays	pays	NOUN
 de	de	ADP
 l'	le	DET
 ouest	ouest	NOUN
 et	et	CCONJ
 des	un	DET
-8	8	NUM
+8	8	DIGIT
 pays	pays	NOUN
 de	de	ADP
 l'	le	DET
@@ -7066,7 +7065,7 @@ pris	prendre	VERB
 force	force	NOUN
 que	que	SCONJ
 à partir de	à partir de	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 là	là	ADV
@@ -7364,7 +7363,7 @@ réunie	réunir	VERB
 Rome	Rome	PROPN
 en	en	ADP
 octobre	octobre	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 .	.	PUNCTsent
 elle	elle	PRON
 siégea	siéger	VERB
@@ -7524,7 +7523,7 @@ Strasbourg	Strasbourg	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 mars	mars	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
 chargés	charger	VERB
 de	de	ADP
@@ -7705,7 +7704,7 @@ stupéfait	stupéfait	ADJ
 de	de	ADP
 lire	lire	VERB
 p.	p.	PUNCT
-47	47	NUM
+47	47	DIGIT
 la	le	DET
 phrase	phrase	NOUN
 suivante	suivant	ADJ
@@ -7923,7 +7922,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 mai	mai	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 ,	,	PUNCTclause
 sur la base de	sur la base de	ADP
 un	un	DET
@@ -7983,7 +7982,7 @@ dans	dans	ADP
 sa	son	DET
 session	session	NOUN
 de	de	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 décidait	décider	VERB
@@ -8064,7 +8063,7 @@ au	au	ADP_DET
 Cdcc	Cdcc	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 de mise	de mise	ADJ
 en	en	ADP
@@ -8086,7 +8085,7 @@ un	un	DET
 projet	projet	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 inviter	inviter	VERB
@@ -8122,7 +8121,7 @@ gouvernementales	gouvernemental	ADJ
 concernées	concerner	VERB
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 recueillir	recueillir	VERB
@@ -8189,7 +8188,7 @@ acceptèrent	accepter	VERB
 finalement	finalement	ADV
 en	en	ADP
 janvier	janvier	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 présentèrent	présenter	VERB
@@ -8343,7 +8342,7 @@ irréprochables	irréprochable	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 on	on	PRON
 chercherait	chercher	VERB
@@ -8430,7 +8429,7 @@ librement	librement	ADV
 accessible	accessible	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 «	«	PUNCTclause
@@ -8900,7 +8899,7 @@ siège	siège	NOUN
 du	du	ADP_DET
 		TOKEN
 en	en	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 l'	le	DET
@@ -8951,7 +8950,7 @@ belgo-hollando-allemandes	belgo-hollando-allemandes	DET
 ou	ou	CCONJ
 austro-italo-slovène	austro-italo-slovène	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 programme	programme	NOUN
@@ -9378,7 +9377,7 @@ Europe	Europe	PROPN
 je	je	PRON
 écrivais	écrire	VERB
 en	en	ADP
-1952	1952	NUM
+1952	1952	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Europe	Europe	PROPN
@@ -9413,7 +9412,7 @@ de	de	ADP
 être	être	AUX
 séduite	séduire	VERB
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 par	par	ADP
 un	un	DET
 Ours	Ours	PROPN
@@ -9657,7 +9656,7 @@ importance	importance	NOUN
 la première	la première	PRON
 comprenant	comprendre	VERB
 les	le	DET
-21	21	NUM
+21	21	DIGIT
 états	état	NOUN
 de	de	ADP
 l'	le	DET
@@ -9665,7 +9664,7 @@ ouest	ouest	NOUN
 ,	,	PUNCTclause
 la	le	DET
 seconde	second	ADJ
-10	10	NUM
+10	10	DIGIT
 d'entre	d'entre	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
@@ -10127,7 +10126,7 @@ Assemblée	Assemblée	PROPN
 ad hoc	ad hoc	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 offre	offrir	VERB
 la	le	DET
@@ -10148,7 +10147,7 @@ de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-1848	1848	NUM
+1848	1848	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 il	il	PRON
@@ -10236,7 +10235,7 @@ le	le	DET
 numéro	numéro	NOUN
 de	de	ADP
 janvier	janvier	NOUN
-1985	1985	NUM
+1985	1985	DIGIT
 du	du	ADP_DET
 forum	forum	NOUN
 du	du	ADP_DET
@@ -10285,7 +10284,7 @@ a	avoir	AUX
 institué	instituer	VERB
 ,	,	PUNCTclause
 fin	fin	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 «	«	PUNCTclause
@@ -10305,7 +10304,7 @@ annexe	annexe	NOUN
 à	à	ADP
 la	le	DET
 recommandation	recommandation	NOUN
-999	999	ADJ
+999	999	DIGIT
 de	de	ADP
 l'	le	DET
 Assemblée	Assemblée	PROPN

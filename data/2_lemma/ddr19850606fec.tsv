@@ -17,9 +17,9 @@ de	de	ADP
 la	le	DET
 culture	culture	NOUN
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 juin	juin	NOUN
-1985	1985	NUM
+1985	1985	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -416,7 +416,7 @@ présidez	présider	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
@@ -477,7 +477,7 @@ soir	soir	NOUN
 même	même	ADV
 de	de	ADP
 mes	mon	DET
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 mon	mon	DET
@@ -499,7 +499,7 @@ an	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 août	août	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 rentrant	rentrer	VERB
 définitivement	définitivement	ADV
@@ -582,7 +582,7 @@ en	en	ADP
 un	un	DET
 an	an	NOUN
 plus de	plus de	DET
-100000	100000	NUM
+100000	100000	DIGIT
 cotisants	cotisant	NOUN
 à	à	ADP
 la	le	DET
@@ -926,12 +926,12 @@ ouvre	ouvrir	VERB
 la	le	DET
 Haye	Haye	PROPN
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -974,7 +974,7 @@ Genève	Genève	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 octobre	octobre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au cours de	au cours de	ADP
@@ -999,7 +999,7 @@ de	de	ADP
 études	étude	NOUN
 Europe	Europe	PROPN
 dans	dans	ADP
-32	32	NUM
+32	32	DIGIT
 universités	université	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -1040,7 +1040,7 @@ vers	vers	ADP
 la	le	DET
 fin	fin	NOUN
 de	de	ADP
-1952	1952	NUM
+1952	1952	DIGIT
 ,	,	PUNCTclause
 malgré	malgré	ADP
 cet	ce	DET
@@ -1229,7 +1229,7 @@ précipiter	précipiter	VERB
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 année	année	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 est	être	AUX
 occupée	occuper	VERB
 par	par	ADP
@@ -1299,11 +1299,11 @@ réunion	réunion	NOUN
 se	se	PRON
 tient	tenir	VERB
 les	le	DET
-14	14	NUM
+14	14	DIGIT
 et	et	CCONJ
-15	15	NUM
+15	15	DIGIT
 novembre	novembre	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 au	au	ADP_DET
 Pavillon	Pavillon	PROPN
 Henry	Henry	PROPN
@@ -1347,7 +1347,7 @@ intellectuels	intellectuel	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 ,	,	PUNCTclause
 deux	deux	NUM
 autres	autre	ADJ
@@ -1368,7 +1368,7 @@ moment	moment	NOUN
 que	que	SCONJ
 tout	tout	PRON
 soit	être	AUX
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 ,	,	PUNCTclause
 comme	comme	SCONJ
 il	il	PRON
@@ -1394,9 +1394,9 @@ deux	deux	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 décembre	décembre	NOUN
-1954	1954	NUM
+1954	1954	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Genève	Genève	PROPN
@@ -1416,9 +1416,9 @@ statuts	statut	NOUN
 .	.	PUNCTsent
 il y a	il y a	VERB
 là	là	ADV
-8	8	NUM
+8	8	DIGIT
 sur	sur	ADP
-12	12	NUM
+12	12	DIGIT
 des	un	ADP_DET
 premiers	premier	ADJ
 membres	membre	NOUN
@@ -1668,7 +1668,7 @@ a	avoir	AUX
 été	être	AUX
 ,	,	PUNCTclause
 dès	dès	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 the	the	X
@@ -1690,7 +1690,7 @@ de	de	ADP
 la	le	DET
 fondation	fondation	NOUN
 en	en	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 se	se	PRON
 rattachent	rattacher	VERB
 étroitement	étroitement	ADV
@@ -1999,7 +1999,7 @@ on	on	PRON
 en	en	PRON
 compte	compter	VERB
 près de	près de	ADP
-70	70	NUM
+70	70	DIGIT
 —	—	PUNCTclause
 qui	qui	PRON
 ,	,	PUNCTclause

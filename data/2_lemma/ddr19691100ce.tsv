@@ -17,7 +17,7 @@ ans	an	NOUN
 après	après	ADP
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -271,7 +271,7 @@ pas	pas	ADV
 beaucoup	beaucoup	ADV
 avancé	avancer	VERB
 depuis	depuis	ADP
-1962	1962	NUM
+1962	1962	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 vous	vous	PRON
@@ -423,7 +423,7 @@ ne	ne	ADV
 a	avoir	VERB
 guère	guère	ADV
 que	que	SCONJ
-170	170	NUM
+170	170	DIGIT
 ans	an	NOUN
 de	de	ADP
 âge	âge	NOUN
@@ -577,7 +577,7 @@ présidé	présider	VERB
 par	par	ADP
 Churchill	Churchill	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1560,17 +1560,17 @@ se	se	PRON
 posent	poser	VERB
 dans	dans	ADP
 les	le	DET
-38000	38000	NUM
+38000	38000	DIGIT
 communes	commun	NOUN
 et	et	CCONJ
 les	le	DET
-92	92	NUM
+92	92	DIGIT
 départements	département	NOUN
 de	de	ADP
 un	un	DET
 pays	pays	NOUN
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1607,7 +1607,7 @@ précisément	précisément	ADV
 petit	petit	ADJ
 pays	pays	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1851,7 +1851,7 @@ ont	avoir	VERB
 pas	pas	ADV
 encore	encore	ADV
 donné	donner	VERB
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 .	.	PUNCTsent
 partout	partout	ADV
 ,	,	PUNCTclause
@@ -1975,7 +1975,7 @@ britannique	britannique	ADJ
 a	avoir	AUX
 annoncé	annoncer	VERB
 que	que	SCONJ
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 trois	trois	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -2060,8 +2060,8 @@ la	le	DET
 guerre	guerre	NOUN
 jusque	jusque	ADP
 en	en	ADP
-1968	1968	NUM
-855	855	NUM
+1968	1968	DIGIT
+855	855	DIGIT
 votes	vote	NOUN
 au	au	ADP_DET
 parlement	parlement	NOUN
@@ -3590,7 +3590,7 @@ un	un	DET
 pays	pays	NOUN
 centralisé	centraliser	VERB
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -3972,7 +3972,7 @@ construction	construction	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 aucun	aucun	PRON
@@ -5031,7 +5031,7 @@ des	un	ADP_DET
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 idée	idée	NOUN
@@ -5051,7 +5051,7 @@ pouvoir	pouvoir	VERB
 proposée	proposer	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 quelles	quel	DET
 seraient	être	AUX
@@ -5072,7 +5072,7 @@ géographique	géographique	ADJ
 linguistique	linguistique	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 frontières	frontière	NOUN
@@ -5089,7 +5089,7 @@ au contraire	au contraire	ADV
 maintenues	maintenir	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 quelle	quel	DET
 conception	conception	NOUN
@@ -5112,7 +5112,7 @@ des	un	ADP_DET
 états	état	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 pourrait	pouvoir	VERB
 on	on	PRON
@@ -5140,7 +5140,7 @@ culturel	culturel	ADJ
 ↵↵	↵↵	PUNCTstruct
 II	II	NUM
 .	.	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 notre	notre	DET
 neutralité	neutralité	NOUN
@@ -5163,7 +5163,7 @@ notre	notre	DET
 neutralité	neutralité	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 puisque	puisque	SCONJ
 il	il	PRON
@@ -5192,7 +5192,7 @@ ces	ce	DET
 tâches	tâche	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 nous	nous	PRON
@@ -5211,7 +5211,7 @@ cette	ce	DET
 révolution	révolution	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON
@@ -5372,7 +5372,7 @@ Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
 IV	IV	NUM
 .	.	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 après	après	ADP
 une	un	DET
@@ -5400,7 +5400,7 @@ quelle	quel	DET
 échéance	échéance	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 quels	quel	DET
 moyens	moyen	NOUN
@@ -5431,7 +5431,7 @@ et	et	CCONJ
 politiques	politique	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 historiens	historien	NOUN
@@ -5477,7 +5477,7 @@ y	y	PRON
 parvenir	parvenir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 solution	solution	NOUN
@@ -5519,7 +5519,7 @@ la	le	DET
 meilleure	meilleur	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 solution	solution	NOUN
@@ -5581,7 +5581,7 @@ questions	question	NOUN
 fondamentales	fondamental	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -5612,7 +5612,7 @@ l'	le	DET
 mondial	mondial	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 concilier	concilier	VERB
@@ -6343,7 +6343,7 @@ régional	régional	ADJ
 il y a	il y a	VERB
 déjà	déjà	ADV
 à peu près	à peu près	ADV
-400	400	NUM
+400	400	DIGIT
 titres	titre	NOUN
 et	et	CCONJ
 des	un	DET
@@ -6655,7 +6655,7 @@ mort	mort	NOUN
 au	au	ADP_DET
 Congrès de La Haye	Congrès de La Haye	PROPN
 de	de	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 bien	bien	ADV
@@ -6762,7 +6762,7 @@ la	le	DET
 tête	tête	NOUN
 ,	,	PUNCTclause
 vers	vers	ADP
-1985	1985	NUM
+1985	1985	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 vous	vous	PRON
@@ -7054,7 +7054,7 @@ on	on	PRON
 peut	pouvoir	VERB
 imaginer	imaginer	VERB
 que	que	SCONJ
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 dix	dix	NUM
 à	à	ADP
 douze	douze	NUM
@@ -8361,7 +8361,7 @@ imposer	imposer	VERB
 tout	tout	DET
 cela	cela	PRON
 les mêmes	les mêmes	PRON
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 que	que	SCONJ
 l'	le	DET
 armée	armée	NOUN
@@ -8631,7 +8631,7 @@ la	le	DET
 confédération	confédération	NOUN
 que	que	PRON
 en	en	PRON
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 là	là	ADV
 est	être	AUX
@@ -9814,10 +9814,10 @@ des	un	DET
 nationalismes	nationalisme	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 alors	alors	ADV
 ,	,	PUNCTclause
@@ -9871,7 +9871,7 @@ donné	donner	VERB
 cela	cela	PRON
 a	avoir	AUX
 donné	donner	VERB
-38	38	NUM
+38	38	DIGIT
 millions	million	NOUN
 de	de	ADP
 morts	mort	NOUN
@@ -9920,10 +9920,10 @@ eu	avoir	VERB
 les	le	DET
 états-nations	État-nation	NOUN
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV

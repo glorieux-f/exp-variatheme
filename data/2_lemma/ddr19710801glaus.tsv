@@ -15,10 +15,10 @@ Europe	Europe	PROPN
 la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-31	31	NUM
+31	31	DIGIT
 juillet-1er	juillet-1er	NOUN
 août	août	NOUN
-1971	1971	NUM
+1971	1971	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -287,7 +287,7 @@ très	très	ADV
 grande	grand	ADJ
 majorité	majorité	NOUN
 —	—	PUNCTclause
-98	98	NUM
+98	98	DIGIT
 exactement	exactement	ADV
 —	—	PUNCTclause
 les	le_PRON	PRON
@@ -337,8 +337,7 @@ nous	nous	PRON
 fêtons	fêter	VERB
 aujourd'hui	aujourd'hui	ADV
 le	le	DET
-680	680	NUM
-e	e	SYM
+680e	680e	NUMord
 anniversaire	anniversaire	NOUN
 de	de	ADP
 la	le	DET
@@ -401,7 +400,7 @@ chez	chez	ADP
 nous	nous	PRON
 que	que	PRON
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -1039,7 +1038,7 @@ Bluntschli	Bluntschli	PROPN
 qui	qui	PRON
 écrivait	écrire	VERB
 en	en	ADP
-1875	1875	NUM
+1875	1875	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 la	le	DET

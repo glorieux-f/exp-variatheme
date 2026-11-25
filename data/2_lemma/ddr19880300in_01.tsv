@@ -100,7 +100,7 @@ Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 Italie	Italie	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 ,	,	PUNCTclause
 la	le	DET
@@ -252,7 +252,7 @@ Rougemont	Rougemont	PROPN
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 si	si	SCONJ
 je	je	PRON
@@ -388,65 +388,65 @@ se	se	PRON
 établissait	établir	VERB
 ,	,	PUNCTclause
 vers	vers	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 suit	suivre	VERB
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 Suisse	Suisse	PROPN
-2,62	2,62	NUM
+2,62	2,62	DIGIT
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 Danemark	Danemark	PROPN
-1,43	1,43	NUM
+1,43	1,43	DIGIT
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 Autriche	Autriche	PROPN
-1,19	1,19	NUM
+1,19	1,19	DIGIT
 ;	;	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 °	°	SYM
 Pays-Bas	Pays-Bas	PROPN
-1,15	1,15	NUM
+1,15	1,15	DIGIT
 ;	;	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 °	°	SYM
 Suède	Suède	PROPN
-1,13	1,13	NUM
+1,13	1,13	DIGIT
 ;	;	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 °	°	SYM
 Allemagne	Allemagne	X
-0,71	0,71	NUM
+0,71	0,71	DIGIT
 ;	;	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 °	°	SYM
 Royaume-Uni	Royaume-Uni	PROPN
-0,67	0,67	NUM
+0,67	0,67	DIGIT
 ;	;	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 °	°	SYM
 		TOKEN
-0,41	0,41	NUM
+0,41	0,41	DIGIT
 ;	;	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 °	°	SYM
 France	France	PROPN
-0,40	0,40	NUM
+0,40	0,40	DIGIT
 ;	;	PUNCTclause
 et	et	CCONJ
 ainsi de suite	ainsi de suite	ADV
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
-19	19	NUM
+19	19	DIGIT
 °	°	SYM
 URSS	URSS	PROPN
-0,03	0,03	NUM
+0,03	0,03	DIGIT
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 curieusement	curieusement	ADV
@@ -534,7 +534,7 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 encore	encore	ADV
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 en	en	ADP
 Suisse	Suisse	PROPN
 que	que	SCONJ
@@ -700,7 +700,7 @@ la	le	DET
 fin	fin	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 était	être	AUX
@@ -814,7 +814,7 @@ ensemble	ensemble	ADV
 ,	,	PUNCTclause
 au cours de	au cours de	ADP
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 texte	texte	NOUN
@@ -1266,7 +1266,7 @@ né	naître	VERB
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 groupe	groupe	NOUN
@@ -1722,7 +1722,7 @@ de	de	ADP
 spécifiquement	spécifiquement	ADV
 révolutionnaire	révolutionnaire	ADJ
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 les	le	DET
 complots	complot	NOUN
 de	de	ADP
@@ -2110,7 +2110,7 @@ grande	grand	ADJ
 explosion	explosion	NOUN
 de	de	ADP
 octobre	octobre	NOUN
-1917	1917	NUM
+1917	1917	DIGIT
 et	et	CCONJ
 toutes	toutes	DET
 celles	celle	PRON
@@ -2585,9 +2585,9 @@ de	de	ADP
 L'Ordre nouveau	L'Ordre nouveau	PROPN
 (	(	PUNCTclause
 mai	mai	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 -septembre	-septembre	PUNCT
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 «	«	PUNCTclause
@@ -2736,7 +2736,7 @@ les	le	DET
 non-conformistes	non-conformiste	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 :	:	PUNCTclause
 sans	sans	ADP
 elle	elle	PRON
@@ -2748,7 +2748,7 @@ jouit	jouir	VERB
 en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 je	je	PRON
 rédige	rédiger	VERB
 ces	ce	DET
@@ -3370,7 +3370,7 @@ moi	moi	PRON
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 p.	p.	PUNCT
-268	268	NUM
+268	268	DIGIT
 )	)	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -3601,7 +3601,7 @@ les	le	DET
 non-conformistes	non-conformiste	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 étaient	être	AUX
 au contraire	au contraire	ADV
 convaincus	convaincre	VERB

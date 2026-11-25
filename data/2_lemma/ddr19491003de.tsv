@@ -20,9 +20,9 @@ Strasbourg	Strasbourg	PROPN
 ?	?	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 octobre	octobre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -49,7 +49,7 @@ sont	être	AUX
 les	le	DET
 suivantes	suivant	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 «	«	PUNCTclause
 êtes	être	AUX
@@ -59,7 +59,7 @@ de	de	ADP
 Strasbourg	Strasbourg	PROPN
 ?	?	PUNCTsent
 »	»	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 «	«	PUNCTclause
 que	que	PRON
@@ -265,7 +265,7 @@ pour	pour	ADP
 de	de	DET
 bon	bon	ADJ
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 puis	puis	CCONJ
@@ -767,7 +767,7 @@ les	le	DET
 cent	cent	NUM
 députés	député	NOUN
 ,	,	PUNCTclause
-101	101	NUM
+101	101	DIGIT
 exactement	exactement	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1012,7 +1012,7 @@ papier	papier	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 le	le	DET
 fruit	fruit	NOUN

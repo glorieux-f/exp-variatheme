@@ -18,11 +18,11 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
-22	22	NUM
+22	22	DIGIT
 au	au	ADP_DET
-26	26	NUM
+26	26	DIGIT
 août	août	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 viens	venir	VERB
@@ -39,7 +39,7 @@ que	que	PRON
 je	je	PRON
 louais	louer	VERB
 depuis	depuis	ADP
-27	27	NUM
+27	27	DIGIT
 ans	an	NOUN
 —	—	PUNCTclause
 ancienne	ancien	ADJ
@@ -63,7 +63,7 @@ même	même	ADJ
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-7	7	NUM
+7	7	DIGIT
 km	km	NOUN
 de	de	ADP
 là	là	ADV
@@ -81,12 +81,12 @@ prêt	prêt	ADJ
 .	.	PUNCTsent
 je	je	PRON
 ai	avoir	AUX
-8200	8200	NUM
+8200	8200	DIGIT
 livres	livre	NOUN
 à	à	ADP
 déballer	déballer	VERB
 ,	,	PUNCTclause
-80	80	NUM
+80	80	DIGIT
 cartons	carton	NOUN
 de	de	ADP
 manuscrits	manuscrit	NOUN
@@ -273,12 +273,12 @@ impensable	impensable	ADJ
 que	que	PRON
 …	…	PUNCTsent
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 bref	bref	ADJ
 ,	,	PUNCTclause
 le	le	DET
-4	4	NUM
+4	4	DIGIT
 septembre	septembre	NOUN
 au	au	ADP_DET
 matin	matin	NOUN
@@ -307,16 +307,16 @@ discours	discours	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
-4	4	NUM
+4	4	DIGIT
 au	au	ADP_DET
-7	7	NUM
+7	7	DIGIT
 septembre	septembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 Alpbach	Alpbach	PROPN
 ,	,	PUNCTclause
 Tyrol	Tyrol	PROPN
 ,	,	PUNCTclause
-1000	1000	NUM
+1000	1000	DIGIT
 m	m	NOUN
 de	de	ADP
 altitude	altitude	NOUN
@@ -375,7 +375,7 @@ la	le	DET
 libération	libération	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 collège	collège	NOUN
@@ -431,7 +431,7 @@ ne	ne	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 que	que	PRON
 de	de	ADP
@@ -519,7 +519,7 @@ ou	ou	CCONJ
 à la mode	à la mode	ADJ
 ,	,	PUNCTclause
 sont	être	AUX
-traités	traiter	VERB
+traités	traité	NOUN
 par	par	ADP
 de	de	DET
 très	très	ADV
@@ -660,7 +660,7 @@ cette	ce	DET
 communauté	communauté	NOUN
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1952	1952	NUM
+1952	1952	DIGIT
 ,	,	PUNCTclause
 très	très	ADV
 conscient	conscient	ADJ
@@ -756,7 +756,7 @@ l'	le	DET
 Europe	Europe	PROPN
 déployés	déployer	VERB
 depuis	depuis	ADP
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 par	par	ADP
 nos	nos	DET
@@ -1168,7 +1168,7 @@ culture	culture	NOUN
 (	(	PUNCTclause
 Lausanne	Lausanne	PROPN
 ,	,	PUNCTclause
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -1236,10 +1236,10 @@ de	de	ADP
 Lausanne	Lausanne	PROPN
 a	avoir	AUX
 voté	voter	VERB
-23	23	NUM
+23	23	DIGIT
 résolutions	résolution	NOUN
 dont	dont	PRON
-21	21	NUM
+21	21	DIGIT
 ont	avoir	AUX
 été	être	AUX
 réalisées	réaliser	VERB
@@ -1269,7 +1269,7 @@ Europe	Europe	PROPN
 à	à	ADP
 Bruges	Bruges	PROPN
 ,	,	PUNCTclause
-37	37	NUM
+37	37	DIGIT
 instituts	institut	NOUN
 universitaires	universitaire	ADJ
 de	de	ADP
@@ -1332,8 +1332,8 @@ Europe	Europe	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1946	1946	NUM
--1950	-1950	NUM
+1946	1946	DIGIT
+-1950	-1950	DIGIT
 :	:	PUNCTclause
 l'	le	DET
 exode	exode	NOUN
@@ -1361,9 +1361,9 @@ recherches	recherche	NOUN
 nucléaires	nucléaire	ADJ
 .	.	PUNCTsent
 le	le	DET
-12	12	NUM
+12	12	DIGIT
 décembre	décembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 sept	sept	NUM
 pays	pays	NOUN
@@ -1376,7 +1376,7 @@ CERN	CERN	NOUN
 qui	qui	PRON
 occupe	occuper	VERB
 aujourd'hui	aujourd'hui	ADV
-4500	4500	NUM
+4500	4500	DIGIT
 personnes	personne	NOUN
 .	.	PUNCTsent
 nos	nos	DET
@@ -1417,7 +1417,7 @@ guerres	guerre	NOUN
 surtout	surtout	ADV
 celle	celle	PRON
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB
@@ -1481,7 +1481,7 @@ faite	faire	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 était	être	AUX
@@ -1691,7 +1691,7 @@ l'	le	DET
 les	le	DET
 langues	langue	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 soient	être	VERB
 enseignées	enseigner	VERB
@@ -1803,7 +1803,7 @@ deux	deux	NUM
 raisons	raison	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 mentalité	mentalité	NOUN
@@ -1904,7 +1904,7 @@ et	et	CCONJ
 politiques	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 culture	culture	NOUN
@@ -1970,9 +1970,9 @@ mouvements	mouvement	NOUN
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 à	à	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 ont	avoir	AUX
@@ -1984,7 +1984,7 @@ fédéralisme	fédéralisme	NOUN
 Europe	Europe	PROPN
 des	un	ADP_DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 semblait	sembler	VERB
 promise	promis	ADJ
@@ -2017,7 +2017,7 @@ guerre	guerre	NOUN
 me	me	PRON
 donnait	donner	VERB
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 la	le	DET
@@ -2162,9 +2162,9 @@ révolte	révolte	NOUN
 estudiantine	estudiantin	ADJ
 des	un	ADP_DET
 années	année	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 à	à	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 Berkeley	Berkeley	PROPN
@@ -2182,14 +2182,14 @@ finalement	finalement	ADV
 Paris	Paris	PROPN
 en	en	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 .	.	PUNCTsent
 or	or	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
 «	«	PUNCTclause
 Mai	Mai	PROPN
-68	68	NUM
+68	68	DIGIT
 »	»	PUNCTclause
 a	avoir	AUX
 ébranlé	ébranler	VERB
@@ -2250,9 +2250,9 @@ enfin	enfin	ADV
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 à	à	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 avec	avec	ADP
 pour	pour	ADP
@@ -2345,7 +2345,7 @@ Dieu	Dieu	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1880	1880	NUM
+1880	1880	DIGIT
 ,	,	PUNCTclause
 Nietzsche	Nietzsche	PROPN
 avait	avoir	AUX
@@ -2376,9 +2376,9 @@ slogan	slogan	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 et	et	CCONJ
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -2687,7 +2687,7 @@ jeunes	jeune	ADJ
 gens	gens	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1967	1967	NUM
+1967	1967	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 «	«	PUNCTclause
@@ -2883,7 +2883,7 @@ se	se	PRON
 est	être	AUX
 déclarée	déclarer	VERB
 dès	dès	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -3029,7 +3029,7 @@ symboliste	symboliste	NOUN
 ,	,	PUNCTclause
 surréaliste	surréaliste	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 aucune	aucun	DET
@@ -3341,7 +3341,7 @@ l'	le	DET
 inverse	inverse	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
@@ -3360,7 +3360,7 @@ sort	sort	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 se	se	PRON
 joue	jouer	VERB
 dans	dans	ADP
@@ -3410,8 +3410,8 @@ point	point	NOUN
 l'	le	DET
 enseignement	enseignement	NOUN
 depuis	depuis	ADP
-1880	1880	NUM
--1885	-1885	NUM
+1880	1880	DIGIT
+-1885	-1885	DIGIT
 (	(	PUNCTclause
 création	création	NOUN
 de	de	ADP
@@ -3472,7 +3472,7 @@ qui	qui	PRON
 est	être	AUX
 le	le	DET
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 l'	le	DET
 enfant	enfant	NOUN
 :	:	PUNCTclause
@@ -3520,7 +3520,7 @@ Europe	Europe	PROPN
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 sciences	science	NOUN
 :	:	PUNCTclause
@@ -3536,7 +3536,7 @@ je	je	PRON
 avais	avoir	AUX
 suggéré	suggérer	VERB
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 un	un	DET
@@ -3585,7 +3585,7 @@ prestige	prestige	NOUN
 national	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -3890,7 +3890,7 @@ et	et	CCONJ
 la	le	DET
 physique	physique	NOUN
 depuis	depuis	ADP
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 ;	;	PUNCTclause
 Otto	Otto	PROPN

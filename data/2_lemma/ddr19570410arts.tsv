@@ -12,9 +12,9 @@ des	un	ADP_DET
 loisirs	loisir	NOUN
 commence	commencer	VERB
 (	(	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 avril	avril	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -147,7 +147,7 @@ mise	mettre	VERB
 à nu	à nu	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-d'ici	d'ici	ADV
+D'ici	D'ici	PROPN
 vingt	vingt	NUM
 ou	ou	CCONJ
 trente	trente	NUM
@@ -173,7 +173,7 @@ de	de	ADP
 la	le	DET
 planète	planète	NOUN
 donne	donner	VERB
-4	4	NUM
+4	4	DIGIT
 heures	heure	NOUN
 de	de	ADP
 travail	travail	NOUN
@@ -338,7 +338,7 @@ beaucoup	beaucoup	ADV
 mieux	mieux	ADV
 ,	,	PUNCTclause
 aux environs de	aux environs de	ADP
-1830	1830	NUM
+1830	1830	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 que	que	PRON
@@ -350,7 +350,7 @@ technique	technique	NOUN
 il	il	PRON
 se	se	PRON
 agit	agir	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 de	de	ADP
 mieux	mieux	ADV
 voir	voir	VERB

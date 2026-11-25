@@ -14,7 +14,7 @@ Destin	Destin	PROPN
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -282,7 +282,7 @@ ville	ville	NOUN
 ,	,	PUNCTclause
 perdue	perdre	VERB
 à	à	ADP
-4000	4000	NUM
+4000	4000	DIGIT
 mètres	mètre	NOUN
 de	de	ADP
 altitude	altitude	NOUN
@@ -1553,8 +1553,8 @@ des	un	ADP_DET
 hommes	homme	NOUN
 ?	?	PUNCTsent
 et	et	CCONJ
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	PRON
+point	poindre	VERB
 là	là	ADV
 le	le	DET
 vrai	vrai	ADJ

@@ -13,7 +13,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 mars	mars	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -274,9 +274,9 @@ pensée	pensée	NOUN
 des	un	ADP_DET
 Europe	Europe	PROPN
 de	de	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 à	à	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 I.	I.	PRON
@@ -343,7 +343,7 @@ militaire	militaire	ADJ
 esprit	esprit	NOUN
 messianique	messianique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ;	;	PUNCTclause
 son	son	DET
@@ -517,9 +517,9 @@ dans	dans	ADP
 son	son	DET
 discours	discours	NOUN
 du	du	ADP_DET
-15	15	NUM
+15	15	DIGIT
 mai	mai	NOUN
-1790	1790	NUM
+1790	1790	DIGIT
 ,	,	PUNCTclause
 Robespierre	Robespierre	PROPN
 a	avoir	AUX
@@ -584,9 +584,9 @@ ans	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 le	le	DET
-9	9	NUM
+9	9	DIGIT
 novembre	novembre	NOUN
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 convention	convention	NOUN
@@ -689,9 +689,9 @@ France	France	PROPN
 avait	avoir	AUX
 publié	publier	VERB
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 décembre	décembre	NOUN
-1791	1791	NUM
+1791	1791	DIGIT
 ,	,	PUNCTclause
 cet	ce	DET
 appel	appel	NOUN
@@ -927,9 +927,9 @@ discours	discours	NOUN
 la	le	DET
 convention	convention	NOUN
 ,	,	PUNCTclause
-26	26	NUM
+26	26	DIGIT
 avril	avril	NOUN
-1793	1793	NUM
+1793	1793	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1039,9 +1039,9 @@ tôt ou tard	tôt ou tard	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-21	21	NUM
+21	21	DIGIT
 avril	avril	NOUN
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 Cloots	Cloots	PROPN
 avait	avoir	AUX
@@ -1498,7 +1498,7 @@ fermé	fermer	VERB
 qui	qui	PRON
 parut	paraître	VERB
 en	en	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -2056,7 +2056,7 @@ diversifier	diversifier	VERB
 leurs	leur	DET
 monnaies	monnaie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ce	ce	PRON
 est	être	VERB
 la	le	DET
@@ -2959,7 +2959,7 @@ pouvait	pouvoir	VERB
 l'	le	DET
 imaginer	imaginer	VERB
 vers	vers	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 :	:	PUNCTclause
 ne	ne	ADV
 fut	être	AUX
@@ -3603,7 +3603,7 @@ le	le	DET
 grand	grand	ADJ
 paradoxe	paradoxe	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -3716,7 +3716,7 @@ ou	ou	CCONJ
 du	du	ADP_DET
 droit	droit	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 jusque	jusque	ADP
 au	au	ADP_DET
 jour	jour	NOUN
@@ -3856,7 +3856,7 @@ de	de	ADP
 la	le	DET
 génération	génération	NOUN
 de	de	ADP
-48	48	NUM
+48	48	DIGIT
 furent	être	AUX
 les	le	DET
 premières	premier	ADJ
@@ -4203,7 +4203,7 @@ devait	devoir	VERB
 nous	nous	PRON
 mener	mener	VERB
 à	à	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Henri	Henri	PROPN
@@ -4564,7 +4564,7 @@ Kossuth	Kossuth	PROPN
 à	à	ADP
 Bruxelles	Bruxelles	PROPN
 en	en	ADP
-1859	1859	NUM
+1859	1859	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -4683,7 +4683,7 @@ dans	dans	ADP
 son	son	DET
 poème	poème	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 intitulé	intituler	VERB
 «	«	PUNCTclause
 Silence	Silence	PROPN
@@ -5062,7 +5062,7 @@ aux	au	ADP_DET
 conspirations	conspiration	NOUN
 républicaines	républicain	ADJ
 de	de	ADP
-1833	1833	NUM
+1833	1833	DIGIT
 ,	,	PUNCTclause
 exilé	exiler	VERB
 à	à	ADP
@@ -5201,7 +5201,7 @@ nationales	national	ADJ
 écrivait	écrire	VERB
 il	il	PRON
 en	en	PRON
-1843	1843	NUM
+1843	1843	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET
@@ -5498,7 +5498,7 @@ neutraliser	neutraliser	VERB
 la	le	DET
 France	France	PROPN
 de	de	ADP
-48	48	NUM
+48	48	DIGIT
 se	se	PRON
 considère	considérer	VERB
 comme	comme	ADP
@@ -5524,9 +5524,9 @@ Révolution	Révolution	PROPN
 ↵↵	↵↵	PUNCTstruct
 Lamartine	Lamartine	PROPN
 ,	,	PUNCTclause
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 tient	tenir	VERB
 à	à	ADP
@@ -5763,7 +5763,7 @@ transfiguration	transfiguration	NOUN
 des	un	ADP_DET
 idéaux	idéal	NOUN
 de	de	ADP
-48	48	NUM
+48	48	DIGIT
 en	en	ADP
 un	un	DET
 européisme	européisme	NOUN
@@ -5909,7 +5909,7 @@ l'	le	DET
 Exposition	Exposition	PROPN
 universelle	universel	ADJ
 de	de	ADP
-1867	1867	NUM
+1867	1867	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	VERB
@@ -6265,7 +6265,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1875	1875	NUM
+1875	1875	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 professeur	professeur	NOUN
@@ -6277,7 +6277,9 @@ Gaspar	Gaspar	PROPN
 Bluntschli	Bluntschli	PROPN
 ,	,	PUNCTclause
 déclare	déclarer	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 son	son	DET
 petit	petit	ADJ
 pays	pays	NOUN
@@ -6413,7 +6415,7 @@ par	par	ADP
 les	le	DET
 prophètes	prophète	NOUN
 de	de	ADP
-48	48	NUM
+48	48	DIGIT
 ,	,	PUNCTclause
 évoque	évoquer	VERB
 l'	le	DET
@@ -6539,7 +6541,7 @@ les	le	DET
 grandes	grand	ADJ
 voix	voix	NOUN
 de	de	ADP
-48	48	NUM
+48	48	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -6800,7 +6802,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1837	1837	NUM
+1837	1837	DIGIT
 ,	,	PUNCTclause
 paraît	paraître	VERB
 le premier	le premier	PRON
@@ -7029,9 +7031,9 @@ intervalles	intervalle	NOUN
 irréguliers	irrégulier	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1876	1876	NUM
+1876	1876	DIGIT
 et	et	CCONJ
-1877	1877	NUM
+1877	1877	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -7683,9 +7685,9 @@ prononcée	prononcer	VERB
 en	en	ADP
 Sorbonne	Sorbonne	PROPN
 le	le	DET
-11	11	NUM
+11	11	DIGIT
 mars	mars	NOUN
-1882	1882	NUM
+1882	1882	DIGIT
 sur	sur	ADP
 le	le	DET
 thème	thème	NOUN
@@ -9501,7 +9503,7 @@ Sorel	Sorel	PROPN
 qui	qui	PRON
 parlait	parler	VERB
 en	en	ADP
-1908	1908	NUM
+1908	1908	DIGIT
 de	de	ADP
 «	«	PUNCTclause
 cette	ce	DET
@@ -9618,13 +9620,13 @@ est	être	AUX
 à	à	ADP
 lui	lui	PRON
 que	que	SCONJ
-1914	1914	NUM
+1914	1914	DIGIT
 donnera	donner	VERB
 raison	raison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
-1914	1914	NUM
+1914	1914	DIGIT
 sonne	sonner	VERB
 le	le	DET
 glas	glas	NOUN

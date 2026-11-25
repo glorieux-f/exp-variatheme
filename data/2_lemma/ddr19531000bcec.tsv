@@ -12,7 +12,7 @@ du	du	ADP_DET
 (	(	PUNCTclause
 juillet	juillet	NOUN
 octobre	octobre	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -55,7 +55,7 @@ chevaliers	chevalier	NOUN
 le	le	DET
 congrès	congrès	NOUN
 de	de	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 avait	avoir	VERB
 pour	pour	ADP
 mission	mission	NOUN
@@ -147,9 +147,9 @@ mouvement	mouvement	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 au	au	ADP_DET
-10	10	NUM
+10	10	DIGIT
 octobre	octobre	NOUN
 ,	,	PUNCTclause
 se	se	PRON
@@ -252,7 +252,7 @@ avoir lieu	avoir lieu	VERB
 Londres	Londres	PROPN
 au début	au début	ADV
 de	de	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 après	après	ADP
@@ -741,9 +741,9 @@ un	un	DET
 signe	signe	NOUN
 heureux	heureux	ADJ
 :	:	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 sur	sur	ADP
-10	10	NUM
+10	10	DIGIT
 des	un	ADP_DET
 membres	membre	NOUN
 du	du	ADP_DET
@@ -962,7 +962,7 @@ le	le_PRON	PRON
 		TOKEN
 a	avoir	AUX
 constitué	constituer	VERB
-7	7	NUM
+7	7	DIGIT
 associations	association	NOUN
 et	et	CCONJ
 communautés	communauté	NOUN
@@ -982,7 +982,7 @@ secrétariat	secrétariat	NOUN
 il	il	PRON
 a	avoir	AUX
 formé	former	VERB
-3	3	NUM
+3	3	DIGIT
 commissions	commission	NOUN
 de	de	ADP
 savants	savant	NOUN
@@ -1002,7 +1002,7 @@ nucléaires	nucléaire	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
 lancé	lancer	VERB
-4	4	NUM
+4	4	DIGIT
 séries	série	NOUN
 de	de	ADP
 publications	publication	NOUN

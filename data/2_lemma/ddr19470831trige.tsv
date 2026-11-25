@@ -16,10 +16,10 @@ Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-30	30	NUM
--31	-31	NUM
+30	30	DIGIT
+-31	-31	DIGIT
 août	août	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -528,7 +528,7 @@ a	avoir	AUX
 été	être	AUX
 créé	créer	VERB
 vers	vers	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 à	à	ADP
 Paris	Paris	PROPN
 ,	,	PUNCTclause
@@ -673,7 +673,7 @@ fait	faire	VERB
 une	un	DET
 philosophie	philosophie	NOUN
 qui	qui	PRON
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 avec	avec	ADP
 les	le	DET
 institutions	institution	NOUN
@@ -783,7 +783,7 @@ cent	cent	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1846	1846	NUM
+1846	1846	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 existait	exister	VERB
@@ -836,7 +836,7 @@ laquelle	laquelle	PRON
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 fut	être	AUX
 proposée	proposer	VERB
 ,	,	PUNCTclause
@@ -847,7 +847,7 @@ et	et	CCONJ
 mise en pratique	mise en pratique	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1846	1846	NUM
+1846	1846	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 était	être	AUX
@@ -881,7 +881,7 @@ dans	dans	ADP
 les	le	DET
 années	année	NOUN
 précédant	précéder	VERB
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 était	être	AUX
 informulé	informulé	ADJ

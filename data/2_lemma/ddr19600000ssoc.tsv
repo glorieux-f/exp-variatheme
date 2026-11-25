@@ -14,7 +14,7 @@ une	un	DET
 civilisation	civilisation	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -137,7 +137,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 Paul	Paul	PROPN
 Valéry	Valéry	PROPN
@@ -372,7 +372,7 @@ pessimisme	pessimisme	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 dès	dès	ADP
-1791	1791	NUM
+1791	1791	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 philosophe	philosophe	NOUN
@@ -681,7 +681,7 @@ l'	le	DET
 examen	examen	NOUN
 comparatif	comparatif	ADJ
 des	un	ADP_DET
-21	21	NUM
+21	21	DIGIT
 civilisations	civilisation	NOUN
 qui	qui	PRON
 ont	avoir	AUX
@@ -1011,7 +1011,7 @@ que	que	SCONJ
 matérielles	matériel	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 assez	assez	ADV
 pour	pour	ADP
 justifier	justifier	VERB
@@ -1102,8 +1102,8 @@ du même coup	du même coup	ADV
 chacun	chacun	PRON
 sait	savoir	VERB
 que	que	SCONJ
-gengis khan	gengis khan	NOUN
-eut	avoir	VERB
+gengis khan	gengis khan	DET
+eut	avoir	AUX
 l'	le	DET
 hégémonie	hégémonie	NOUN
 sans	sans	ADP
@@ -3236,7 +3236,7 @@ ne	ne	ADV
 occupons	occuper	VERB
 guère	guère	ADV
 que	que	SCONJ
-5	5	NUM
+5	5	DIGIT
 de	de	ADP
 sa	son	DET
 surface	surface	NOUN
@@ -4480,7 +4480,7 @@ continents	continent	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
 avant	avant	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 nous	nous	PRON
@@ -5965,7 +5965,7 @@ philosophie	philosophie	NOUN
 des	un	ADP_DET
 lumières	lumière	NOUN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 se	se	PRON
 constituaient	constituer	VERB
 la	le	DET
@@ -7038,7 +7038,7 @@ lettre	lettre	NOUN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1871	1871	NUM
+1871	1871	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -7149,9 +7149,9 @@ de	de	ADP
 Pékin	Pékin	PROPN
 ,	,	PUNCTclause
 le	le	DET
-27	27	NUM
+27	27	DIGIT
 septembre	septembre	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP

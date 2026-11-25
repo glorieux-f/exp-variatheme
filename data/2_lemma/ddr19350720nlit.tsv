@@ -13,9 +13,9 @@ de	de	ADP
 Jean	Jean	PROPN
 Calvin	Calvin	PROPN
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 juillet	juillet	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -145,7 +145,7 @@ un	un	DET
 profil	profil	NOUN
 coupant	couper	VERB
 ?	?	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 assez	assez	ADV
 pour	pour	ADP
 juger	juger	VERB
@@ -256,7 +256,7 @@ de	de	ADP
 ce	ce	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 certaine	certain	ADJ
 renaissance	renaissance	NOUN
 du	du	ADP_DET
@@ -829,7 +829,7 @@ depuis	depuis	ADP
 sa	son	DET
 parution	parution	NOUN
 en	en	ADP
-1550	1550	NUM
+1550	1550	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 originale	original	ADJ
@@ -1230,7 +1230,9 @@ ses	son	DET
 meilleures	meilleur	ADJ
 armes	arme	NOUN
 .	.	PUNCTsent
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 ce	ce	DET
 style	style	NOUN
 ,	,	PUNCTclause

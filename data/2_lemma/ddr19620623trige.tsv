@@ -11,10 +11,10 @@ de	de	ADP
 un	un	DET
 témoin	témoin	NOUN
 (	(	PUNCTclause
-23	23	NUM
--24	-24	X
+23	23	DIGIT
+-24	-24	DIGIT
 juin	juin	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -53,7 +53,7 @@ de	de	ADP
 mai	mai	NOUN
 à	à	ADP
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 insiste	insister	VERB
@@ -247,7 +247,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 l'un	l'un	PRON
 de	de	ADP
@@ -285,7 +285,7 @@ histoire	histoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-11	11	NUM
+11	11	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -351,7 +351,7 @@ une	un	DET
 agression	agression	NOUN
 Allemagne	Allemagne	PROPN
 les	le	DET
-70	70	NUM
+70	70	DIGIT
 chefs	chef	NOUN
 de	de	ADP
 quartier	quartier	NOUN
@@ -479,9 +479,9 @@ l'	le	DET
 époque	époque	NOUN
 .	.	PUNCTsent
 le	le	DET
-3	3	NUM
+3	3	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 pour	pour	ADP
 les	le	DET
 besoins	besoin	NOUN
@@ -784,9 +784,9 @@ dépense	dépense	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-12	12	NUM
+12	12	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 débâcle	débâcle	NOUN
 France	France	PROPN
@@ -843,12 +843,12 @@ corps	corps	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 samedi	samedi	NOUN
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -946,9 +946,9 @@ cela	cela	PRON
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 lundi	lundi	NOUN
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 au	au	ADP_DET
 soir	soir	NOUN
 ↵↵	↵↵	PUNCTstruct
@@ -1436,7 +1436,7 @@ accusé	accuser	VERB
 de	de	ADP
 injures	injure	NOUN
 à	à	ADP
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 étranger	étranger	ADJ
 .	.	PUNCTsent
 vous	vous	PRON
@@ -1488,7 +1488,7 @@ surtout	surtout	ADV
 notre	notre	DET
 projet	projet	NOUN
 du	du	ADP_DET
-6	6	NUM
+6	6	DIGIT
 juin	juin	NOUN
 se	se	PRON
 précise	préciser	VERB
@@ -1500,7 +1500,7 @@ en train de	en train de	ADV
 convoquer	convoquer	VERB
 pour	pour	ADP
 le	le	DET
-22	22	NUM
+22	22	DIGIT
 juin	juin	NOUN
 les	le	DET
 dix	dix	NUM
@@ -1630,9 +1630,9 @@ plus	plus	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mardi	mardi	NOUN
-18	18	NUM
+18	18	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
 sept	sept	NUM

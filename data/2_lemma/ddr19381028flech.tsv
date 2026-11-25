@@ -13,16 +13,16 @@ de	de	ADP
 l'	le	DET
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
-1918	1918	NUM
--1938	-1938	NUM
+1918	1918	DIGIT
+-1938	-1938	DIGIT
 )	)	PUNCTclause
 par	par	ADP
 Albert	Albert	PROPN
 Rivaud	Rivaud	PROPN
 (	(	PUNCTclause
-28	28	NUM
+28	28	DIGIT
 octobre	octobre	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -156,7 +156,7 @@ origines	origine	NOUN
 du	du	ADP_DET
 conflit	conflit	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -205,7 +205,7 @@ du	du	ADP_DET
 coup	coup	NOUN
 de	de	ADP
 juillet	juillet	NOUN
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 mêmes	même	ADJ
 manœuvres	manœuvre	NOUN
@@ -255,7 +255,7 @@ différent	différent	ADJ
 certes	certes	ADV
 .	.	PUNCTsent
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 guerre	guerre	NOUN
@@ -274,7 +274,7 @@ rien	rien	PRON
 obtenu	obtenir	VERB
 .	.	PUNCTsent
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 guerre	guerre	NOUN
@@ -320,7 +320,7 @@ que	que	SCONJ
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ne	ne	ADV
 a	avoir	AUX
 servi	servir	VERB
@@ -480,7 +480,7 @@ ont	avoir	AUX
 doublé	doubler	VERB
 »	»	PUNCTclause
 depuis	depuis	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 quelles	quel	DET
@@ -496,7 +496,7 @@ base	base	NOUN
 ?	?	PUNCTsent
 les	le	DET
 polémiques	polémique	NOUN
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 salaires	salaire	NOUN
 Russie	Russie	PROPN
 nous	nous	PRON
@@ -509,7 +509,7 @@ méfiants	méfiant	NOUN
 de même	de même	ADV
 ,	,	PUNCTclause
 page	page	NOUN
-364	364	NUM
+364	364	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 nous	nous	PRON
@@ -545,13 +545,13 @@ a	avoir	AUX
 été	être	AUX
 réduit	réduire	VERB
 de	de	ADP
-9634	9634	NUM
+9634	9634	DIGIT
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 à	à	ADP
-7204	7204	NUM
+7204	7204	DIGIT
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -565,9 +565,9 @@ sociétés	société	NOUN
 est	être	AUX
 tombé	tomber	VERB
 de	de	ADP
-6632	6632	NUM
+6632	6632	DIGIT
 à	à	ADP
-3863	3863	NUM
+3863	3863	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 interpréter	interpréter	VERB

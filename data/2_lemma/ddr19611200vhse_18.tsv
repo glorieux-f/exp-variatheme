@@ -6,7 +6,7 @@
 # title = 2. L’Europe des lumières
 
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -76,8 +76,8 @@ Bovier	Bovier	PROPN
 de	de	ADP
 Fontenelle	Fontenelle	PROPN
 (	(	PUNCTclause
-1657	1657	NUM
--1757	-1757	NUM
+1657	1657	DIGIT
+-1757	-1757	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 par	par	ADP
@@ -181,8 +181,8 @@ réitère	réitérer	VERB
 ↵↵	↵↵	PUNCTstruct
 Montesquieu	Montesquieu	PROPN
 (	(	PUNCTclause
-1689	1689	NUM
--1755	-1755	NUM
+1689	1689	DIGIT
+-1755	-1755	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -349,8 +349,8 @@ tous	tous	PRON
 ↵↵	↵↵	PUNCTstruct
 Voltaire	Voltaire	PROPN
 (	(	PUNCTclause
-1694	1694	NUM
--1778	-1778	NUM
+1694	1694	DIGIT
+-1778	-1778	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -416,7 +416,7 @@ le second	le second	PRON
 il	il	PRON
 publie	publier	VERB
 en	en	ADP
-1769	1769	NUM
+1769	1769	DIGIT
 un	un	DET
 opuscule	opuscule	NOUN
 intitulé	intituler	VERB
@@ -593,7 +593,7 @@ Newton	Newton	PROPN
 il	il	PRON
 écrit	écrire	VERB
 en	en	ADP
-1767	1767	NUM
+1767	1767	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -651,7 +651,7 @@ nations	nation	NOUN
 il	il	PRON
 écrivait	écrire	VERB
 en	en	ADP
-1752	1752	NUM
+1752	1752	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 son	son	DET
@@ -665,8 +665,8 @@ XIV	XIV	NUM
 ↵↵	↵↵	PUNCTstruct
 Rousseau	Rousseau	PROPN
 (	(	PUNCTclause
-1712	1712	NUM
--1778	-1778	NUM
+1712	1712	DIGIT
+-1778	-1778	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -866,7 +866,7 @@ le	le	DET
 publia	publier	VERB
 que	que	SCONJ
 en	en	ADP
-1761	1761	NUM
+1761	1761	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Amsterdam	Amsterdam	PROPN
@@ -1035,7 +1035,7 @@ un	un	DET
 long	long	ADJ
 résumé	résumé	NOUN
 des	un	ADP_DET
-23	23	NUM
+23	23	DIGIT
 tomes	tome	NOUN
 de	de	ADP
 l'	le	DET
@@ -1121,7 +1121,7 @@ l'	le	DET
 Extrait	Extrait	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1771	1771	NUM
+1771	1771	DIGIT
 ,	,	PUNCTclause
 Rousseau	Rousseau	PROPN
 est	être	AUX
@@ -1207,7 +1207,7 @@ terminera	terminer	VERB
 l'	le	DET
 ouvrage	ouvrage	NOUN
 en	en	ADP
-1773	1773	NUM
+1773	1773	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 année	année	NOUN
@@ -1233,7 +1233,7 @@ sa	son	DET
 réformation	réformation	NOUN
 projetée	projeter	VERB
 en	en	ADP
-1772	1772	NUM
+1772	1772	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 son	son	DET
@@ -1514,7 +1514,7 @@ Contrat	Contrat	PROPN
 (	(	PUNCTclause
 III	III	NUM
 ,	,	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 )	)	PUNCTclause
 auquel	auquel	ADP_PRON
 il	il	PRON
@@ -1539,7 +1539,7 @@ nationale	national	ADJ
 au	au	ADP_DET
 sens	sens	NOUN
 moderne	moderne	ADJ
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 )	)	PUNCTclause
 ,	,	PUNCTclause
 alors	alors	ADV
@@ -1765,8 +1765,8 @@ de	de	ADP
 l'	le	DET
 Aulne	Aulne	PROPN
 (	(	PUNCTclause
-1727	1727	NUM
--1781	-1781	NUM
+1727	1727	DIGIT
+-1781	-1781	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 fut	être	AUX
@@ -1795,7 +1795,7 @@ Louis	Louis	PROPN
 XVI	XVI	NUM
 .	.	PUNCTsent
 en	en	ADP
-1750	1750	NUM
+1750	1750	DIGIT
 ,	,	PUNCTclause
 prieur	prieur	NOUN
 de	de	ADP
@@ -1850,8 +1850,8 @@ abbé	abbé	NOUN
 Ferdinando	Ferdinando	PROPN
 Galiani	Galiani	PROPN
 (	(	PUNCTclause
-1727	1727	NUM
--1787	-1787	NUM
+1727	1727	DIGIT
+-1787	-1787	DIGIT
 )	)	PUNCTclause
 né	naître	VERB
 dans	dans	ADP
@@ -1860,7 +1860,7 @@ Abruzzes	Abruzzes	PROPN
 ,	,	PUNCTclause
 auteur	auteur	NOUN
 à	à	ADP
-22	22	NUM
+22	22	DIGIT
 ans	an	NOUN
 de	de	ADP
 un	un	DET
@@ -1915,7 +1915,7 @@ blés	blé	NOUN
 »	»	PUNCTclause
 publiés	publier	VERB
 en	en	ADP
-1770	1770	NUM
+1770	1770	DIGIT
 ,	,	PUNCTclause
 Voltaire	Voltaire	PROPN
 put	pouvoir	VERB
@@ -1963,8 +1963,8 @@ fragments	fragment	NOUN
 Antoine	Antoine	PROPN
 Rivarol	Rivarol	PROPN
 (	(	PUNCTclause
-1753	1753	NUM
--1801	-1801	NUM
+1753	1753	DIGIT
+-1801	-1801	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 homme	homme	NOUN
@@ -2005,7 +2005,7 @@ académie	académie	NOUN
 de	de	ADP
 Berlin	Berlin	PROPN
 en	en	ADP
-1784	1784	NUM
+1784	1784	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 y	y	PRON
@@ -2053,8 +2053,8 @@ Melchior-Gaspar	Melchior-Gaspar	PROPN
 de	de	ADP
 Jovellanos	Jovellanos	PROPN
 (	(	PUNCTclause
-1744	1744	NUM
--1811	-1811	NUM
+1744	1744	DIGIT
+-1811	-1811	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 homme d'État	homme d'État	NOUN

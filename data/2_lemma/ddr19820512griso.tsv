@@ -11,9 +11,9 @@ réponse	réponse	NOUN
 M.	M.	NOUN
 Grisoni	Grisoni	PROPN
 (	(	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 mai	mai	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -28,7 +28,7 @@ par	par	ADP
 le	le	DET
 matin	matin	NOUN
 du	du	ADP_DET
-19	19	NUM
+19	19	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -42,7 +42,7 @@ points	point	NOUN
 suivants	suivant	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 procès	procès	NOUN
@@ -60,7 +60,7 @@ a	avoir	AUX
 été	être	AUX
 plaidé	plaider	VERB
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 visait	viser	VERB
@@ -95,7 +95,9 @@ le	le	DET
 passage	passage	NOUN
 suivant	suivant	ADJ
 ,	,	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 accueil	accueil	NOUN
 fait	faire	VERB
@@ -108,7 +110,7 @@ au	au	ADP_DET
 pouvoir	pouvoir	NOUN
 en	en	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -256,7 +258,7 @@ mort	mort	NOUN
 nazis	nazi	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 sommé	sommer	VERB
 de	de	ADP
@@ -425,9 +427,9 @@ de	de	ADP
 mes	mon	DET
 articles	article	NOUN
 de	de	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 à	à	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 rétablissant	rétablir	VERB
 le	le	DET
@@ -515,9 +517,9 @@ dénonce	dénoncer	VERB
 que	que	SCONJ
 après	après	ADP
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 saluer	saluer	VERB
@@ -562,7 +564,7 @@ dans	dans	ADP
 le	le	DET
 matin	matin	NOUN
 du	du	ADP_DET
-19	19	NUM
+19	19	DIGIT
 avril	avril	NOUN
 .	.	PUNCTsent
 dans	dans	ADP
@@ -614,7 +616,7 @@ seconde	second	ADJ
 quinzaine	quinzaine	NOUN
 de	de	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 pouvais	pouvoir	VERB
@@ -709,7 +711,7 @@ Paris	Paris	PROPN
 ,	,	PUNCTclause
 paru	paraître	VERB
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 dans	dans	ADP
 la	le	DET
@@ -743,7 +745,7 @@ Reich	Reich	PROPN
 de	de	ADP
 insulte	insulte	NOUN
 à	à	ADP
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -822,7 +824,7 @@ les mêmes	les mêmes	PRON
 jour	jour	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
-73	73	NUM
+73	73	DIGIT
 journaux	journal	NOUN
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
@@ -851,7 +853,7 @@ je	je	PRON
 avais	avoir	AUX
 écrit	écrire	VERB
 depuis	depuis	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 contre	contre	ADP
 le	le	DET
 fascisme	fascisme	NOUN
@@ -884,7 +886,7 @@ je	je	PRON
 avais	avoir	AUX
 dénoncé	dénoncer	VERB
 dès	dès	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 comme	comme	ADP
 le	le	DET
 danger	danger	NOUN
@@ -978,14 +980,14 @@ armes	arme	NOUN
 »	»	PUNCTclause
 putatifs	putatif	ADJ
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 ils	ils	PRON
 entraient	entrer	VERB
 en	en	ADP
 action	action	NOUN
 (	(	PUNCTclause
-1942	1942	NUM
--1943	-1943	NUM
+1942	1942	DIGIT
+-1943	-1943	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 l'on	on	PRON

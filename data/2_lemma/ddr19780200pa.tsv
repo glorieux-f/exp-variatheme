@@ -15,7 +15,7 @@ la	le	DET
 planète	planète	NOUN
 (	(	PUNCTclause
 février	février	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -140,8 +140,8 @@ Paris	Paris	PROPN
 dans	dans	ADP
 ces	ce	DET
 années	année	NOUN
-1930	1930	NUM
--1931	-1931	NUM
+1930	1930	DIGIT
+-1931	-1931	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 un	un	DET
@@ -1019,7 +1019,7 @@ cet	ce	DET
 ,	,	PUNCTclause
 il y a	il y a	VERB
 à peu près	à peu près	ADV
-80000	80000	NUM
+80000	80000	DIGIT
 personnes	personne	NOUN
 pour	pour	ADP
 protester	protester	VERB
@@ -1028,10 +1028,10 @@ Superphénix	Superphénix	PROPN
 ,	,	PUNCTclause
 parmi	parmi	ADP
 eux	eux	PRON
-70000	70000	NUM
+70000	70000	DIGIT
 «	«	PUNCTclause
 moins de	moins de	DET
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -1056,14 +1056,14 @@ après	après	ADP
 une	un	DET
 marche	marche	NOUN
 de	de	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 kilomètres	mètre	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 sont	être	AUX
 retrouvés	retrouver	VERB
 à	à	ADP
-350000	350000	NUM
+350000	350000	DIGIT
 devant	devant	ADP
 Pampelune	Pampelune	PROPN
 .	.	PUNCTsent
@@ -1323,10 +1323,10 @@ va	aller	VERB
 se	se	PRON
 épuiser	épuiser	VERB
 .	.	PUNCTsent
-d'ici	d'ici	ADV
-l'	le	DET
+D'ici	D'ici	DET
+l'	le_PRON	PRON
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 toutes	tout	ADJ
 les	le	DET
 sources	source	NOUN
@@ -1433,7 +1433,7 @@ vous	vous	PRON
 êtes	être	AUX
 fous	fou	NOUN
 !	!	PUNCTsent
-d'ici	d'ici	ADV
+D'ici	D'ici	PROPN
 dix	dix	NUM
 ou	ou	CCONJ
 vingt	vingt	NUM
@@ -2384,7 +2384,7 @@ gaspillage	gaspillage	NOUN
 on	on	PRON
 pourrait	pouvoir	VERB
 économiser	économiser	VERB
-30	30	NUM
+30	30	DIGIT
 de	de	ADP
 la	le	DET
 consommation	consommation	NOUN
@@ -2399,7 +2399,7 @@ aussi	aussi	ADV
 bien	bien	ADV
 .	.	PUNCTsent
 or	or	NOUN
-30	30	NUM
+30	30	DIGIT
 ce	ce	PRON
 est	être	AUX
 plus	plus	ADV
@@ -2773,7 +2773,7 @@ est	être	AUX
 constitué	constituer	VERB
 avec	avec	ADP
 seulement	seulement	ADV
-30	30	NUM
+30	30	DIGIT
 des	un	ADP_DET
 fonds	fond	NOUN
 provenant	provenir	VERB
@@ -2887,7 +2887,7 @@ allons	aller	VERB
 l'	le	DET
 impasse	impasse	NOUN
 .	.	PUNCTsent
-d'ici	d'ici	ADV
+D'ici	D'ici	PROPN
 quelques	quelque	DET
 années	année	NOUN
 .	.	PUNCTsent
@@ -2910,11 +2910,11 @@ ne	ne	ADV
 produiront	produire	VERB
 au mieux	au mieux	ADV
 que	que	ADV
-30	30	NUM
+30	30	DIGIT
 de	de	ADP
 nos	nos	DET
 besoins	besoin	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
@@ -2923,7 +2923,7 @@ or	or	NOUN
 nous	nous	PRON
 dépendons	dépendre	VERB
 à	à	ADP
-80	80	NUM
+80	80	DIGIT
 du	du	ADP_DET
 pétrole	pétrole	NOUN
 .	.	PUNCTsent
@@ -2932,7 +2932,7 @@ donc	donc	ADV
 un	un	DET
 déficit	déficit	NOUN
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 .	.	PUNCTsent
 autrement dit	autrement dit	ADV
 ce	ce	PRON
@@ -2976,7 +2976,7 @@ prendre	prendre	VERB
 le	le	DET
 train	train	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 mais	mais	CCONJ
 évidemment	évidemment	ADV
 il	il	PRON
@@ -3095,7 +3095,7 @@ recherche	recherche	NOUN
 solaire	solaire	ADJ
 équivaut	équivaloir	VERB
 à	à	ADP
-0,5	0,5	NUM
+0,5	0,5	DIGIT
 du	du	ADP_DET
 budget	budget	NOUN
 des	un	ADP_DET
@@ -3120,9 +3120,9 @@ le	le	DET
 soleil	soleil	NOUN
 est	être	VERB
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 et	et	CCONJ
-que	que	SCONJ
+que	que	PRON
 demain	demain	ADV
 vous	vous	PRON
 pourriez	pouvoir	VERB

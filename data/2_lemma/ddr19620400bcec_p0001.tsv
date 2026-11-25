@@ -15,7 +15,7 @@ des	un	ADP_DET
 cultures	culture	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -137,7 +137,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 la	le	DET
@@ -163,7 +163,7 @@ cette	ce	DET
 fin	fin	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 que	que	ADV
 un	un	DET
@@ -184,7 +184,7 @@ l'	le	DET
 Asie	Asie	PROPN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 que	que	SCONJ
 la	le	DET
@@ -198,8 +198,8 @@ unions	union	NOUN
 régionales	régional	ADJ
 sans	sans	ADP
 fomenter	fomenter	VERB
-du même coup	du même coup	ADP
-des	un	DET
+du même coup	du même coup	ADV
+des	un	ADP_DET
 nationalismes	nationalisme	NOUN
 agrandis	agrandir	VERB
 et	et	CCONJ
@@ -304,11 +304,11 @@ réuni	réunir	VERB
 à	à	ADP
 Genève	Genève	PROPN
 du	du	ADP_DET
-15	15	NUM
+15	15	DIGIT
 au	au	ADP_DET
-17	17	NUM
+17	17	DIGIT
 septembre	septembre	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 .	.	PUNCTsent
 sa	son	DET
 préparation	préparation	NOUN

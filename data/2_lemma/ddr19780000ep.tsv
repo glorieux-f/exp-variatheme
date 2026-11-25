@@ -13,7 +13,7 @@ une	un	DET
 culture	culture	NOUN
 commune	commun	ADJ
 (	(	PUNCTclause
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -867,7 +867,7 @@ de	de	ADP
 l'	le	DET
 Asie	Asie	PROPN
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 émergées	émergé	ADJ
@@ -1989,7 +1989,7 @@ oublier	oublier	VERB
 très	très	ADV
 sincèrement	sincèrement	ADV
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 ces	ce	DET
@@ -2017,7 +2017,7 @@ avons	avoir	AUX
 en	en	ADP
 commun	commun	NOUN
 :	:	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 ces	ce	DET
@@ -2290,8 +2290,8 @@ cités	cité	NOUN
 de	de	ADP
 art	art	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-Ni	Ni	PROPN
+etc.	etc.	X
+ni	ni	X
 la	le	DET
 musique	musique	NOUN
 pour	pour	ADP
@@ -2453,8 +2453,8 @@ l'	le	DET
 analyse	analyse	NOUN
 psychologique	psychologique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-Semblablement	Semblablement	PROPN
+etc.	etc.	X
+semblablement	semblablement	X
 ,	,	PUNCTclause
 nos	nos	DET
 arts	art	NOUN
@@ -2479,7 +2479,7 @@ chevalet	chevalet	NOUN
 le	le	DET
 portrait	portrait	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 ignorés	ignorer	VERB
 ou	ou	CCONJ

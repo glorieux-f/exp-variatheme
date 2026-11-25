@@ -12,9 +12,9 @@ certain	certain	ADJ
 front	front	NOUN
 unique	unique	ADJ
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 février	février	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -116,7 +116,7 @@ de	de	ADP
 votre	votre	DET
 article	article	NOUN
 du	du	ADP_DET
-15	15	NUM
+15	15	DIGIT
 janvier	janvier	NOUN
 une	un	DET
 mise en question	mise en question	NOUN
@@ -143,7 +143,7 @@ une	un	DET
 confusion	confusion	NOUN
 propice	propice	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 .	.	PUNCTsent
 ces	ce	DET
@@ -249,7 +249,7 @@ conclusions	conclusion	NOUN
 .	.	PUNCTsent
 		TOKEN
 p.	p.	PUNCT
-838	838	NUM
+838	838	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 bref	bref	ADJ

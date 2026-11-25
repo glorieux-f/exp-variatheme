@@ -16,7 +16,7 @@ de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1061,9 +1061,9 @@ qui	qui	PRON
 serait	être	AUX
 réparti	répartir	VERB
 entre	entre	ADP
-20	20	NUM
+20	20	DIGIT
 ou	ou	CCONJ
-30	30	NUM
+30	30	DIGIT
 personnes	personne	NOUN
 dans	dans	ADP
 une	un	DET
@@ -1077,9 +1077,9 @@ nous	nous	PRON
 nous	nous	PRON
 contenterions	contenter	VERB
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 ou	ou	CCONJ
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 pourquoi	pourquoi	ADV
@@ -1215,13 +1215,13 @@ doit	devoir	VERB
 décerné	décerner	VERB
 en	en	ADP
 mars	mars	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 nous	nous	PRON
 avons	avoir	AUX
 reçu	recevoir	VERB
-370	370	NUM
+370	370	DIGIT
 manuscrits	manuscrit	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -1292,7 +1292,7 @@ tirés	tirer	VERB
 à	à	ADP
 l'	le	DET
 200	200	NUM
-000	000	NUM
+000	000	DIGIT
 exemplaires	exemplaire	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1304,7 +1304,7 @@ centaines	centaine	NOUN
 de	de	ADP
 conférences	conférence	NOUN
 en	en	ADP
-6	6	NUM
+6	6	DIGIT
 langues	langue	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -1652,7 +1652,7 @@ la	le	DET
 coordination	coordination	NOUN
 des	un	ADP_DET
 quelque	quelque	ADV
-18	18	NUM
+18	18	DIGIT
 activités	activité	NOUN
 en cours	en cours	ADJ
 ou	ou	CCONJ
@@ -1739,7 +1739,7 @@ complexe	complexe	ADJ
 du	du	ADP_DET
 		TOKEN
 .	.	PUNCTsent
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 seront	être	AUX
 posées	poser	VERB
 les	le	DET

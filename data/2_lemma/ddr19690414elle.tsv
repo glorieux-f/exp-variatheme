@@ -13,9 +13,9 @@ est	être	AUX
 à	à	ADP
 réinventer	réinventer	VERB
 (	(	PUNCTclause
-14	14	NUM
+14	14	DIGIT
 avril	avril	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -52,7 +52,7 @@ jeunesse	jeunesse	NOUN
 voir	voir	VERB
 elle	elle	PRON
 n°	n°	SYM
-1215	1215	NUM
+1215	1215	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 les	le	DET
@@ -62,12 +62,12 @@ marient	marier	VERB
 en	en	ADP
 moyenne	moyenne	NOUN
 à	à	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 la première fois	la première fois	ADV
 et	et	CCONJ
 à	à	ADP
-41	41	NUM
+41	41	DIGIT
 ans	an	NOUN
 la	le	DET
 deuxième	deuxième	ADJ
@@ -75,19 +75,19 @@ deuxième	deuxième	ADJ
 les	le	DET
 femmes	femme	NOUN
 à	à	ADP
-22	22	NUM
+22	22	DIGIT
 ans	an	NOUN
 et	et	CCONJ
 à	à	ADP
-38	38	NUM
+38	38	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 à	à	ADP
-41	41	NUM
+41	41	DIGIT
 ans	an	NOUN
 et	et	CCONJ
 à	à	ADP
-38	38	NUM
+38	38	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 on	on	PRON
@@ -114,7 +114,7 @@ problèmes	problème	NOUN
 voir	voir	VERB
 elle	elle	PRON
 n°	n°	SYM
-1216	1216	NUM
+1216	1216	DIGIT
 )	)	PUNCTclause
 mais	mais	CCONJ
 on	on	PRON
@@ -219,7 +219,7 @@ les	le_PRON	PRON
 soupçonnait	soupçonner	VERB
 guère	guère	ADV
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 tels	tel	PRON
@@ -448,7 +448,7 @@ le	le	DET
 divorce	divorce	NOUN
 équivaut	équivaloir	VERB
 en	en	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 au	au	ADP_DET
 nombre	nombre	NOUN
 des	un	ADP_DET
@@ -516,11 +516,11 @@ avoir	avoir	AUX
 d'autres	d'autre	PRON
 aspirations	aspiration	NOUN
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 que	que	SCONJ
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 de	de	ADP
@@ -678,7 +678,7 @@ réactions	réaction	NOUN
 des	un	ADP_DET
 enfants	enfant	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
 faut	falloir	VERB
@@ -1232,7 +1232,7 @@ se	se	PRON
 dépêche	dépêcher	VERB
 .	.	PUNCTsent
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -1368,7 +1368,7 @@ réelles	réel	ADJ
 l'	le	DET
 ennemi	ennemi	NOUN
 n°	n°	SYM
-1	1	NUM
+1	1	DIGIT
 du	du	ADP_DET
 mariage	mariage	NOUN
 ,	,	PUNCTclause
@@ -1435,7 +1435,7 @@ se	se	PRON
 arrange	arranger	VERB
 .	.	PUNCTsent
 aussi	aussi	ADV
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 la	le	DET
 morale	morale	NOUN
 sociale	social	ADJ
@@ -1624,8 +1624,8 @@ films	film	NOUN
 ,	,	PUNCTclause
 chansonnettes	chansonnette	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-ce	ce	PRON
+etc.	etc.	X
+ce	ce	DET
 ne	ne	ADV
 est	être	AUX
 donc	donc	ADV
@@ -2262,7 +2262,7 @@ matérielles	matériel	ADJ
 ,	,	PUNCTclause
 professionnelles	professionnel	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 quant à	quant à	ADP
 la	le	DET
 difficulté	difficulté	NOUN
@@ -2328,7 +2328,7 @@ je	je	PRON
 ai	avoir	AUX
 souffert	souffrir	VERB
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 je	je	PRON
 vais	aller	VERB
 faire	faire	AUX
@@ -2993,7 +2993,7 @@ la	le	DET
 sortie	sortie	NOUN
 du	du	ADP_DET
 numéro	numéro	NOUN
-1	1	NUM
+1	1	DIGIT
 ,	,	PUNCTclause
 le premier	le premier	PRON
 numéro	numéro	NOUN
@@ -3353,9 +3353,9 @@ pensions	penser	VERB
 que	que	SCONJ
 nous	nous	PRON
 aurions	avoir	VERB
-20	20	NUM
+20	20	DIGIT
 à	à	ADP
-30	30	NUM
+30	30	DIGIT
 km	km	NOUN
 à	à	ADP
 couvrir	couvrir	VERB
@@ -3366,9 +3366,9 @@ commencions	commencer	VERB
 être	être	AUX
 fatigués	fatiguer	VERB
 au bout de	au bout de	ADP
-10	10	NUM
+10	10	DIGIT
 à	à	ADP
-12	12	NUM
+12	12	DIGIT
 kilomètres	mètre	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -3377,7 +3377,7 @@ nous	nous	PRON
 avons	avoir	AUX
 su	savoir	VERB
 que	que	SCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ce	ce	PRON
 était	être	AUX
 sérieux	sérieux	ADJ
@@ -3390,7 +3390,7 @@ la	le	DET
 marche	marche	NOUN
 finale	final	ADJ
 de	de	ADP
-140	140	NUM
+140	140	DIGIT
 km	km	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -3401,7 +3401,7 @@ aucune	aucun	DET
 fatigue	fatigue	NOUN
 pendant	pendant	ADP
 les	le	DET
-20	20	NUM
+20	20	DIGIT
 premiers	premier	ADJ
 kilomètres	mètre	NOUN
 .	.	PUNCTsent
@@ -3460,7 +3460,7 @@ coup	coup	NOUN
 une	un	DET
 marche	marche	NOUN
 de	de	ADP
-140	140	NUM
+140	140	DIGIT
 km	km	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

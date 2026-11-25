@@ -10,9 +10,9 @@ le	le	DET
 rêve	rêve	NOUN
 États-Unis	États-Unis	PROPN
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 novembre	novembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -998,7 +998,7 @@ absorbés	absorber	VERB
 par	par	ADP
 la	le	DET
 vie quotidienne	vie quotidienne	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 quelques	quelque	DET
 années	année	NOUN
 .	.	PUNCTsent
@@ -1087,7 +1087,7 @@ Cordell	Cordell	PROPN
 Hull	Hull	PROPN
 ,	,	PUNCTclause
 le	le	DET
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 de	de	ADP
 Roosevelt	Roosevelt	PROPN
 ,	,	PUNCTclause
@@ -1413,7 +1413,7 @@ venir	venir	VERB
 direz	dire	VERB
 vous	vous	PRON
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 tout	tout	ADV
 simplement	simplement	ADV
 une	un	DET

@@ -14,7 +14,7 @@ quelques	quelque	DET
 autres	autre	ADJ
 (	(	PUNCTclause
 mai	mai	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -478,7 +478,7 @@ pendant	pendant	ADP
 l'	le	DET
 été	été	NOUN
 de	de	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 six	six	NUM
@@ -509,7 +509,7 @@ journal	journal	NOUN
 France	France	PROPN
 .	.	PUNCTsent
 alors que	alors que	SCONJ
-48	48	NUM
+48	48	DIGIT
 seulement	seulement	ADV
 des	un	ADP_DET
 France	France	PROPN
@@ -521,13 +521,13 @@ leur	leur	DET
 niveau de vie	niveau de vie	NOUN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
-38	38	NUM
+38	38	DIGIT
 se	se	PRON
 en	en	ADP
 plaignent	plaindre	VERB
 et	et	CCONJ
 que	que	SCONJ
-14	14	NUM
+14	14	DIGIT
 ne	ne	ADV
 en	en	PRON
 pensent	penser	VERB
@@ -537,7 +537,7 @@ une	un	DET
 majorité	majorité	NOUN
 écrasante	écrasant	ADJ
 de	de	ADP
-88	88	NUM
+88	88	DIGIT
 des	un	ADP_DET
 Suisse	Suisse	PROPN
 trouvent	trouver	VERB
@@ -586,17 +586,17 @@ très	très	ADV
 heureux	heureux	ADJ
 ?	?	PUNCTsent
 »	»	PUNCTclause
-42	42	NUM
+42	42	DIGIT
 répondent	répondre	VERB
 très	très	ADV
 heureux	heureux	ADJ
 ,	,	PUNCTclause
-51	51	NUM
+51	51	DIGIT
 plutôt	plutôt	ADV
 heureux	heureux	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-6	6	NUM
+6	6	DIGIT
 seulement	seulement	ADV
 pas	pas	ADV
 très	très	ADV
@@ -604,7 +604,7 @@ heureux	heureux	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
 reste	rester	VERB
-1	1	NUM
+1	1	DIGIT
 pour	pour	ADP
 les	le	DET
 désespérés	désespéré	ADJ
@@ -1638,7 +1638,7 @@ et	et	CCONJ
 se	se	PRON
 lever	lever	VERB
 à	à	ADP
-9	9	NUM
+9	9	DIGIT
 heures	heure	NOUN
 ?	?	PUNCTsent
 »	»	PUNCTclause
@@ -2250,7 +2250,7 @@ Sade	Sade	PROPN
 Henry	Henry	PROPN
 Miller	Miller	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 or	or	NOUN
@@ -3067,7 +3067,7 @@ ou	ou	CCONJ
 de	de	ADP
 efficacité	efficacité	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 selon que	selon que	SCONJ
@@ -3727,7 +3727,7 @@ très	très	ADV
 vite	vite	ADV
 ,	,	PUNCTclause
 vers	vers	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 .	.	PUNCTsent
 un	un	DET
 collège	collège	NOUN
@@ -3988,7 +3988,7 @@ devint	devenir	VERB
 cependant	cependant	ADV
 pasteur	pasteur	NOUN
 à	à	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 et	et	CCONJ
 passa	passer	VERB
@@ -5452,7 +5452,7 @@ de	de	ADP
 la	le	DET
 Vierge	Vierge	PROPN
 en	en	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 marque	marquer	VERB
 la	le	DET
 date	date	NOUN

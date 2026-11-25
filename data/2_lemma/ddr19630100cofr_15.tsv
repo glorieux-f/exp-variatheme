@@ -6,7 +6,7 @@
 # title = 14. Sur l’avenir du christianisme
 
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 sur	sur	ADP
 l'	le	DET
@@ -2061,7 +2061,7 @@ récitées	réciter	VERB
 ,	,	PUNCTclause
 exorcisme	exorcisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 favorise	favoriser	VERB
@@ -3017,7 +3017,7 @@ Constantin	Constantin	PROPN
 de	de	ADP
 Milan	Milan	PROPN
 en	en	ADP
-313	313	NUM
+313	313	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 ses	son	DET
@@ -3631,7 +3631,7 @@ pour que	pour que	SCONJ
 cet	ce	DET
 homme	homme	NOUN
 accepte	accepter	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 conception	conception	NOUN
 paulinienne	paulinien	ADJ
@@ -4265,7 +4265,7 @@ dissociations	dissociation	NOUN
 nécessaires	nécessaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 église	église	NOUN
@@ -4593,9 +4593,9 @@ rendre	rendre	VERB
 communicable	communicable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 le	le	DET
 culte	culte	NOUN
 communautaire	communautaire	ADJ
@@ -4834,7 +4834,7 @@ se	se	PRON
 occuper	occuper	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 le	le	DET
 besoin	besoin	NOUN
@@ -4953,7 +4953,9 @@ analogues	analogue	ADJ
 pourraient	pouvoir	VERB
 être	être	AUX
 faites	faire	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 plusieurs	plusieurs	DET
 autres	autre	ADJ
 traits	trait	NOUN

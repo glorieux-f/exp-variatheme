@@ -6,7 +6,7 @@
 # title = 12. Que tout appelle les régions
 
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 tout	tout	PRON
@@ -81,7 +81,7 @@ ne	ne	ADV
 en	en	PRON
 draine	drainer	VERB
 pas	pas	ADV
-80	80	NUM
+80	80	DIGIT
 à	à	ADP
 son	son	DET
 profit	profit	NOUN
@@ -248,7 +248,7 @@ aménagement	aménagement	NOUN
 du	du	ADP_DET
 territoire	territoire	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 chacun	chacun	PRON
 groupant	grouper	VERB
@@ -837,7 +837,7 @@ ses	son	DET
 frontières	frontière	NOUN
 et	et	CCONJ
 toujours	toujours	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 se	se	PRON
 refermer	refermer	VERB
 comme	comme	ADP
@@ -1761,8 +1761,8 @@ crise	crise	NOUN
 du	du	ADP_DET
 pétrole	pétrole	NOUN
 en	en	ADP
-1973	1973	NUM
--1974	-1974	NUM
+1973	1973	DIGIT
+-1974	-1974	DIGIT
 a	avoir	AUX
 beaucoup	beaucoup	ADV
 appris	apprendre	VERB
@@ -1779,7 +1779,7 @@ l'	le	DET
 prélève	prélever	VERB
 jusque	jusque	ADP
 à	à	ADP
-70	70	NUM
+70	70	DIGIT
 du	du	ADP_DET
 prix	prix	NOUN
 de	de	ADP
@@ -2132,7 +2132,7 @@ toujours	toujours	ADV
 plus	plus	ADV
 puissantes	puissant	ADJ
 (	(	PUNCTclause
-10000	10000	NUM
+10000	10000	DIGIT
 		TOKEN
 vers	vers	ADP
 la	le	DET
@@ -2742,7 +2742,7 @@ chantier	chantier	NOUN
 se	se	PRON
 organisent	organiser	VERB
 dès	dès	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 :	:	PUNCTclause
 Suisse	Suisse	PROPN
 et	et	CCONJ
@@ -2857,7 +2857,7 @@ central	central	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 aux	au	ADP_DET
-10000	10000	NUM
+10000	10000	DIGIT
 manifestants	manifestant	NOUN
 qui	qui	PRON
 se	se	PRON
@@ -2874,7 +2874,7 @@ un	un	DET
 dimanche	dimanche	NOUN
 de	de	ADP
 janvier	janvier	NOUN
-1975	1975	NUM
+1975	1975	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -3461,12 +3461,12 @@ de	de	ADP
 Creys-Malville	Creys-Malville	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 km	km	NOUN
 de	de	ADP
 Lyon	Lyon	PROPN
 et	et	CCONJ
-70	70	NUM
+70	70	DIGIT
 km	km	NOUN
 de	de	ADP
 Genève	Genève	PROPN
@@ -4057,7 +4057,7 @@ sait	savoir	VERB
 même	même	ADJ
 nos	nos	DET
 «	«	PUNCTclause
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -4090,11 +4090,11 @@ légitimes	légitime	ADJ
 être	être	AUX
 défendables	défendable	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 jusque	jusque	ADP
 en	en	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 ,	,	PUNCTclause
 il y a	il y a	VERB
 lieu	lieu	NOUN
@@ -4293,7 +4293,7 @@ faire	faire	VERB
 résumé	résumer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 nécessité	nécessité	NOUN
@@ -4352,7 +4352,7 @@ en tant que	en tant que	ADP
 sécurité	sécurité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 régions	région	NOUN
@@ -4390,7 +4390,7 @@ l'	le	DET
 état-nation	État-nation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 région	région	NOUN

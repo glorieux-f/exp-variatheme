@@ -6,7 +6,7 @@
 # title = 1. Les institutions et la vie politique
 
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 institutions	institution	NOUN
@@ -354,7 +354,7 @@ continent	continent	NOUN
 qui	qui	PRON
 existaient	exister	VERB
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ou	ou	CCONJ
 qui	qui	PRON
 se	se	PRON
@@ -574,7 +574,7 @@ d'un seul coup	d'un seul coup	ADV
 pendant	pendant	ADP
 l'	le	DET
 année	année	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 après	après	ADP
 des	un	DET
@@ -1200,10 +1200,10 @@ la	le	DET
 Suisse	Suisse	PROPN
 compte	compter	VERB
 aujourd'hui	aujourd'hui	ADV
-3092	3092	NUM
+3092	3092	DIGIT
 communes	commun	NOUN
 (	(	PUNCTclause
-3200	3200	NUM
+3200	3200	DIGIT
 il y a	il y a	VERB
 cent	cent	NUM
 ans	an	NOUN
@@ -1474,7 +1474,7 @@ prouve	prouver	VERB
 le	le	DET
 pacte	pacte	NOUN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Confédération	Confédération	PROPN
@@ -1702,8 +1702,8 @@ crise	crise	NOUN
 (	(	PUNCTclause
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
--1945	-1945	NUM
+1939	1939	DIGIT
+-1945	-1945	DIGIT
 )	)	PUNCTclause
 où	où	PRON
 l'	le	DET
@@ -1885,9 +1885,9 @@ communes	commun	NOUN
 —	—	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 ou	ou	CCONJ
-12	12	NUM
+12	12	DIGIT
 —	—	PUNCTclause
 et	et	CCONJ
 y	y	PRON
@@ -2006,7 +2006,7 @@ du	du	ADP_DET
 peuple	peuple	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 nous	nous	PRON
 ne	ne	ADV
@@ -2190,7 +2190,7 @@ ne	ne	ADV
 agit	agir	VERB
 plus	plus	ADV
 en	en	ADP
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 en	en	ADP
@@ -2301,9 +2301,9 @@ chiffres	chiffre	NOUN
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 en	en	PRON
-1860	1860	NUM
+1860	1860	DIGIT
 ,	,	PUNCTclause
-66	66	NUM
+66	66	DIGIT
 des	un	ADP_DET
 Suisse	Suisse	PROPN
 vivaient	vivre	VERB
@@ -2314,7 +2314,7 @@ commune	commun	NOUN
 de	de	ADP
 origine	origine	NOUN
 ,	,	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 dans	dans	ADP
 une	un	DET
 autre	autre	ADJ
@@ -2323,7 +2323,7 @@ de	de	ADP
 leur	leur	DET
 canton	canton	NOUN
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 dans	dans	ADP
 d'autres	d'autre	PRON
 cantons	canton	NOUN
@@ -2334,7 +2334,7 @@ ce	ce	PRON
 est	être	AUX
 en	en	ADP
 moyenne	moyenne	NOUN
-33	33	NUM
+33	33	DIGIT
 pour	pour	ADP
 les	le	DET
 trois	trois	NUM
@@ -2843,7 +2843,7 @@ ainsi	ainsi	ADV
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 est	être	AUX
 il	il	PRON
 conclu	conclure	VERB
@@ -3048,7 +3048,7 @@ de	de	ADP
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1530	1530	NUM
+1530	1530	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 demeura	demeurer	VERB
@@ -3351,7 +3351,7 @@ cantonnement	cantonnement	NOUN
 général	général	ADJ
 accompli	accomplir	VERB
 en	en	ADP
-1803	1803	NUM
+1803	1803	DIGIT
 survécurent	survivre	VERB
 à	à	ADP
 la	le	DET
@@ -3421,7 +3421,7 @@ fédéralisme	fédéralisme	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
@@ -3579,7 +3579,7 @@ l'	le	DET
 exécutif	exécutif	NOUN
 généralement	généralement	ADV
 nommé	nommer	VERB
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 ,	,	PUNCTclause
 est	être	AUX
 un	un	DET
@@ -3860,8 +3860,8 @@ l'	le	DET
 énergie	énergie	NOUN
 hydraulique	hydraulique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-le	le	ADP
+etc.	etc.	X
+le	le	DET
 Landamman	Landamman	PROPN
 ,	,	PUNCTclause
 du	du	ADP_DET
@@ -4117,7 +4117,7 @@ fort	fort	ADJ
 :	:	PUNCTclause
 sur	sur	ADP
 les	le	DET
-42000	42000	NUM
+42000	42000	DIGIT
 habitants	habitant	NOUN
 que	que	PRON
 il	il	PRON
@@ -4839,7 +4839,7 @@ par	par	ADP
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 et	et	CCONJ
 ses	son	DET
 révisions	révision	NOUN
@@ -4849,7 +4849,7 @@ successives	successif	ADJ
 la	le	DET
 fédération	fédération	NOUN
 les	le	DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 la	le	DET
 représentation	représentation	NOUN
@@ -5597,7 +5597,7 @@ confession	confession	NOUN
 ,	,	PUNCTclause
 caractère	caractère	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 qui	qui	PRON
 justement	justement	ADV
@@ -6284,7 +6284,7 @@ pourrait	pouvoir	VERB
 utile	utile	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 de	de	ADP
 décrire	décrire	VERB
@@ -6306,7 +6306,7 @@ gouvernement	gouvernement	NOUN
 collégial	collégial	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 de	de	ADP
 marquer	marquer	VERB
@@ -6333,7 +6333,7 @@ si	si	SCONJ
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 mérite	mérite	NOUN
 non seulement	non seulement	ADV
 l'	le	DET
@@ -6382,7 +6382,7 @@ que	que	SCONJ
 les	le	DET
 législateurs	législateur	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 empruntèrent	emprunter	VERB
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
@@ -6593,7 +6593,7 @@ est	être	AUX
 un	un	DET
 député	député	NOUN
 par	par	ADP
-28000	28000	NUM
+28000	28000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 chaque	chaque	DET
@@ -6682,8 +6682,8 @@ sièges	siège	NOUN
 et	et	CCONJ
 les	le	DET
 socialistes	socialiste	NOUN
-1	1	NUM
-20	20	NUM
+1	1	DIGIT
+20	20	DIGIT
 seulement	seulement	ADV
 ,	,	PUNCTclause
 alors que	alors que	SCONJ
@@ -6952,7 +6952,7 @@ membres	membre	NOUN
 dit	dire	VERB
 l'	le	DET
 article	article	NOUN
-95	95	NUM
+95	95	DIGIT
 de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
@@ -7288,11 +7288,11 @@ cantons	canton	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-102	102	NUM
+102	102	DIGIT
 ,	,	PUNCTclause
 par	par	ADP
 .	.	PUNCTsent
-4	4	NUM
+4	4	DIGIT
 de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
@@ -7421,7 +7421,7 @@ ne	ne	ADV
 a	avoir	AUX
 compté	compter	VERB
 que	que	SCONJ
-63	63	NUM
+63	63	DIGIT
 ministres	ministre	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -7586,7 +7586,7 @@ jusque	jusque	ADP
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 ils	ils	PRON
 ne	ne	ADV
@@ -7604,7 +7604,7 @@ Palais	Palais	PROPN
 fédéralisme	fédéralisme	NOUN
 pour	pour	ADP
 plus de	plus de	DET
-3000	3000	NUM
+3000	3000	DIGIT
 km	km	NOUN
 par	par	ADP
 an	an	NOUN
@@ -7856,7 +7856,7 @@ alors que	alors que	SCONJ
 les	le	DET
 catholiques	catholique	NOUN
 forment	former	VERB
-47	47	NUM
+47	47	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -7887,7 +7887,7 @@ est	être	AUX
 plus	plus	ADV
 équitable	équitable	ADJ
 ,	,	PUNCTclause
-75	75	NUM
+75	75	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -8022,7 +8022,7 @@ l'	le	DET
 exécutif	exécutif	NOUN
 que	que	PRON
 en	en	ADP
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 aujourd'hui	aujourd'hui	ADV
@@ -8399,7 +8399,7 @@ pas	pas	ADV
 ,	,	PUNCTclause
 comme	comme	SCONJ
 le	le_PRON	PRON
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	VERB
 France	France	PROPN
 ou	ou	CCONJ
 la	le	DET
@@ -8860,9 +8860,9 @@ un	un	DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 à	à	ADP
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 les	le	DET
 socialistes	socialiste	ADJ
@@ -9030,7 +9030,7 @@ par	par	ADP
 le	le	DET
 gouvernement	gouvernement	NOUN
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 été	être	AUX
@@ -9039,7 +9039,7 @@ autorisé	autoriser	VERB
 se	se	PRON
 reformer	reformer	VERB
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ses	son	DET
 quelques	quelque	DET
@@ -9939,7 +9939,7 @@ en	en	ADP
 est	être	AUX
 faite	faire	VERB
 par	par	ADP
-30000	30000	NUM
+30000	30000	DIGIT
 citoyens	citoyen	NOUN
 actifs	actif	ADJ
 ou	ou	CCONJ
@@ -9949,7 +9949,7 @@ cantons	canton	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-89	89	NUM
+89	89	DIGIT
 )	)	PUNCTclause
 ;	;	PUNCTclause
 et	et	CCONJ
@@ -10016,7 +10016,7 @@ son	son	DET
 efficacité	efficacité	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 deux	deux	NUM
@@ -10026,7 +10026,7 @@ une	un	DET
 loi	loi	NOUN
 relevant	relever	VERB
 de	de	ADP
-7	7	NUM
+7	7	DIGIT
 centimes	centime	NOUN
 le	le	DET
 prix	prix	NOUN
@@ -10095,7 +10095,7 @@ c'est-à-dire	c'est-à-dire	CCONJ
 de	de	ADP
 recueillir	recueillir	VERB
 les	le	DET
-30000	30000	NUM
+30000	30000	DIGIT
 signatures	signature	NOUN
 nécessaires	nécessaire	ADJ
 ,	,	PUNCTclause
@@ -10132,9 +10132,9 @@ aux	au	ADP_DET
 urnes	urne	NOUN
 ,	,	PUNCTclause
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 mars	mars	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 rejette	rejeter	VERB
 la	le	DET
@@ -10174,7 +10174,7 @@ réduit	réduire	VERB
 l'	le	DET
 augmentation	augmentation	NOUN
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 centimes	centime	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -10193,7 +10193,7 @@ accepte	accepter	VERB
 ,	,	PUNCTclause
 sans	sans	ADP
 provoquer	provoquer	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 de	de	ADP
 opposition	opposition	NOUN
 populaire	populaire	ADJ
@@ -10329,7 +10329,7 @@ fédéralisme	fédéralisme	NOUN
 ou	ou	CCONJ
 par	par	ADP
 le	le	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 de	de	ADP
 un	un	DET
 canton	canton	NOUN
@@ -10394,15 +10394,15 @@ constitution	constitution	NOUN
 ,	,	PUNCTclause
 demandées	demander	VERB
 par	par	ADP
-50000	50000	NUM
+50000	50000	DIGIT
 citoyens	citoyen	NOUN
 au moins	au moins	ADV
 .	.	PUNCTsent
 jusque	jusque	ADP
 en	en	ADP
-1962	1962	NUM
+1962	1962	DIGIT
 ,	,	PUNCTclause
-48	48	NUM
+48	48	DIGIT
 ont	avoir	AUX
 été	être	AUX
 soumises	soumettre	VERB
@@ -10410,7 +10410,7 @@ au	au	ADP_DET
 vote	vote	NOUN
 populaire	populaire	ADJ
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 acceptées	accepter	VERB
 .	.	PUNCTsent
 l'	le	DET
@@ -10426,11 +10426,11 @@ présenté	présenter	VERB
 de	de	ADP
 son	son	DET
 côté	côté	NOUN
-12	12	NUM
+12	12	DIGIT
 contre-projets	contre-projet	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-8	8	NUM
+8	8	DIGIT
 ont	avoir	AUX
 été	être	AUX
 acceptés	accepter	VERB
@@ -10593,13 +10593,13 @@ a	avoir	AUX
 été	être	AUX
 votée	voter	VERB
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 à	à	ADP
 une	un	DET
 écrasante	écrasant	ADJ
 majorité	majorité	NOUN
 (	(	PUNCTclause
-80	80	NUM
+80	80	DIGIT
 des	un	ADP_DET
 votants	votant	NOUN
 )	)	PUNCTclause
@@ -11234,7 +11234,7 @@ troupes	troupe	NOUN
 permanentes	permanent	ADJ
 (	(	PUNCTclause
 article	article	NOUN
-13	13	NUM
+13	13	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 il	il	PRON
@@ -11408,7 +11408,7 @@ une	un	DET
 mobilisation	mobilisation	NOUN
 ultrarapide	ultrarapide	ADJ
 :	:	PUNCTclause
-200000	200000	NUM
+200000	200000	DIGIT
 hommes	homme	NOUN
 des	un	DET
 troupes	troupe	NOUN
@@ -11428,7 +11428,7 @@ heures	heure	NOUN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
 les	le	DET
-600000	600000	NUM
+600000	600000	DIGIT
 autres	autre	ADJ
 peuvent	pouvoir	VERB
 être	être	AUX
@@ -11441,7 +11441,7 @@ trois	trois	NUM
 jours	jour	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 critique	critique	NOUN
@@ -11584,7 +11584,7 @@ peuple	peuple	NOUN
 est	être	AUX
 devenue	devenir	VERB
 depuis	depuis	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 l'	le	DET
 agent	agent	NOUN
 principal	principal	ADJ
@@ -12003,7 +12003,7 @@ l'	le	DET
 exposition	exposition	NOUN
 nationale	national	ADJ
 de	de	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -12200,14 +12200,14 @@ en	en	PRON
 usent	user	VERB
 guère	guère	ADV
 :	:	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 seulement	seulement	ADV
 des	un	ADP_DET
 citoyennes	citoyen	NOUN
 inscrites	inscrire	VERB
 (	(	PUNCTclause
 pour	pour	ADP
-52	52	NUM
+52	52	DIGIT
 des	un	DET
 hommes	homme	NOUN
 )	)	PUNCTclause
@@ -12224,7 +12224,7 @@ cela	cela	PRON
 ne	ne	ADV
 signifie	signifier	VERB
 pas	pas	ADV
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 :	:	PUNCTclause
 cette	ce	DET
 première	premier	ADJ
@@ -12243,8 +12243,8 @@ initiée	initier	VERB
 elle	elle	PRON
 faisait	faire	VERB
 en	en	PRON
-classe	classer	VERB
-des	un	DET
+classe	classe	NOUN
+des	un	ADP_DET
 travaux	travail	NOUN
 de	de	ADP
 couture	couture	NOUN
@@ -12329,7 +12329,7 @@ l'autre	l'autre	PRON
 seuls	seul	ADJ
 jusqu'ici	jusqu'ici	ADV
 (	(	PUNCTclause
-1964	1964	NUM
+1964	1964	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 Genève	Genève	PROPN
@@ -12683,7 +12683,7 @@ romanche	romanche	NOUN
 parlé	parler	VERB
 par	par	ADP
 moins de	moins de	DET
-40000	40000	NUM
+40000	40000	DIGIT
 habitants	habitant	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -13061,7 +13061,7 @@ plus ou moins	plus ou moins	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 pendant	pendant	ADP
 la	le	DET
@@ -13193,26 +13193,24 @@ Naefels	Naefels	PROPN
 ,	,	PUNCTclause
 Vaud	Vaud	PROPN
 son	son	DET
-24	24	NUM
+24	24	DIGIT
 janvier	janvier	NOUN
 et	et	CCONJ
 son	son	DET
-14	14	NUM
+14	14	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 Neuchâtel	Neuchâtel	PROPN
 son	son	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 mars	mars	NOUN
 ;	;	PUNCTclause
 toute	tout	ADJ
 la	le	DET
 Suisse	Suisse	PROPN
-a	avoir	AUX
+a	avoir	VERB
 son	son	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
 !	!	PUNCTsent
 et	et	CCONJ
@@ -13255,7 +13253,7 @@ ou	ou	CCONJ
 des	un	DET
 Grisons	Grisons	PROPN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 celui	celui	PRON
 des	un	ADP_DET
 régiments	régiment	NOUN

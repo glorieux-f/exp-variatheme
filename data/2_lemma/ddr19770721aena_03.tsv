@@ -6,7 +6,7 @@
 # title = 2. Le grand litige
 
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 grand	grand	ADJ
@@ -561,7 +561,7 @@ générale	général	ADJ
 situation	situation	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 en	en	ADP
 Europe	Europe	PROPN
 :	:	PUNCTclause
@@ -767,7 +767,7 @@ peuple	peuple	NOUN
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 vote	vote	NOUN
 sans	sans	ADP
@@ -798,12 +798,12 @@ la	le	DET
 fin	fin	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 et	et	CCONJ
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 premières	premier	ADJ
@@ -859,7 +859,7 @@ pour	pour	ADP
 une	un	DET
 centrale	centrale	NOUN
 de	de	ADP
-1200	1200	NUM
+1200	1200	DIGIT
 		TOKEN
 devisée	devisée	VERB
 aujourd'hui	aujourd'hui	ADV
@@ -867,7 +867,7 @@ aujourd'hui	aujourd'hui	ADV
 et	et	CCONJ
 le	le	DET
 double	double	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 que	que	SCONJ
 on	on	PRON
 la	le	DET
@@ -1194,7 +1194,7 @@ de	de	ADP
 électricité	électricité	NOUN
 répond	répondre	VERB
 fin	fin	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 que	que	SCONJ
 cette	ce	DET
 objection	objection	NOUN
@@ -2050,7 +2050,7 @@ accidents	accident	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
 dès	dès	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 «	«	PUNCTclause
 des	un	DET
 calculs	calcul	NOUN
@@ -2060,7 +2060,7 @@ un	un	DET
 réacteur	réacteur	NOUN
 de	de	ADP
 environ	environ	ADV
-150	150	NUM
+150	150	DIGIT
 		TOKEN
 ,	,	PUNCTclause
 situé	situer	VERB
@@ -2076,10 +2076,10 @@ parvenaient	parvenir	VERB
 une	un	DET
 prévision	prévision	NOUN
 de	de	ADP
-3400	3400	NUM
+3400	3400	DIGIT
 morts	mort	NOUN
 et	et	CCONJ
-43000	43000	NUM
+43000	43000	DIGIT
 blessés	blessé	NOUN
 ,	,	PUNCTclause
 avec	avec	ADP
@@ -2089,7 +2089,7 @@ matériels	matériel	ADJ
 se	se	PRON
 élevant	élever	VERB
 à	à	ADP
-7	7	NUM
+7	7	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -2101,7 +2101,7 @@ pour	pour	ADP
 un	un	DET
 réacteur	réacteur	NOUN
 de	de	ADP
-300	300	NUM
+300	300	DIGIT
 		TOKEN
 à	à	ADP
 Lagoona	Lagoona	PROPN
@@ -2134,10 +2134,10 @@ un	un	DET
 tel	tel	PRON
 accident	accident	NOUN
 provoquerait	provoquer	VERB
-133000	133000	NUM
+133000	133000	DIGIT
 morts	mort	NOUN
 et	et	CCONJ
-181000	181000	NUM
+181000	181000	DIGIT
 blessés	blessé	NOUN
 immédiatement	immédiatement	ADV
 ,	,	PUNCTclause
@@ -2155,7 +2155,7 @@ la	le	DET
 vie	vie	NOUN
 )	)	PUNCTclause
 pour	pour	ADP
-245000	245000	NUM
+245000	245000	DIGIT
 personnes	personne	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2201,16 +2201,16 @@ que	que	PRON
 la	le	DET
 loi	loi	NOUN
 du	du	ADP_DET
-30	30	NUM
+30	30	DIGIT
 octobre	octobre	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
 «	«	PUNCTclause
 limite	limite	NOUN
 à	à	ADP
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 de	de	ADP
 francs	franc	NOUN
@@ -2234,7 +2234,7 @@ par	par	ADP
 l'	le	DET
 état	état	NOUN
 jusqu'à concurrence de	jusqu'à concurrence de	ADP
-600	600	NUM
+600	600	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 la	le	DET
@@ -2255,15 +2255,15 @@ que	que	SCONJ
 le	le	DET
 rejet	rejet	NOUN
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 kilos	kilo	NOUN
 de	de	ADP
 plutonium	plutonium	NOUN
 causerait	causer	VERB
 entre	entre	ADP
-44000	44000	NUM
+44000	44000	DIGIT
 et	et	CCONJ
-44	44	NUM
+44	44	DIGIT
 millions	million	NOUN
 de	de	ADP
 morts	mort	NOUN
@@ -2271,7 +2271,7 @@ alors que	alors que	SCONJ
 les	le	DET
 surgénérateurs	surgénérateur	NOUN
 de	de	ADP
-1200	1200	NUM
+1200	1200	DIGIT
 		TOKEN
 auxquels	auxquels	ADP_PRON
 on	on	PRON
@@ -2279,10 +2279,10 @@ songeait	songer	VERB
 en	en	ADP
 contiendraient	contenir	VERB
 plus de	plus de	DET
-4,5	4,5	NUM
+4,5	4,5	DIGIT
 tonnes	tonne	NOUN
 ,	,	PUNCTclause
-800	800	NUM
+800	800	DIGIT
 fois	fois	NOUN
 la	le	DET
 masse	masse	NOUN
@@ -2345,9 +2345,9 @@ des	un	DET
 installations	installation	NOUN
 atomiques	atomique	ADJ
 entre	entre	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 et	et	CCONJ
-1963	1963	NUM
+1963	1963	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 il y a	il y a	VERB
@@ -2412,7 +2412,7 @@ dans	dans	ADP
 la	le	DET
 seule	seul	ADJ
 année	année	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 à	à	ADP
 Lucens	Lucens	PROPN
 (	(	PUNCTclause
@@ -2530,7 +2530,7 @@ agité	agiter	VERB
 .	.	PUNCTsent
 il y a	il y a	VERB
 plus de	plus de	DET
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 de	de	ADP
 litres	litre	NOUN
@@ -2538,7 +2538,7 @@ de	de	ADP
 ces	ce	DET
 liquides	liquide	NOUN
 (	(	PUNCTclause
-1973	1973	NUM
+1973	1973	DIGIT
 )	)	PUNCTclause
 dans	dans	ADP
 les	le	DET
@@ -2591,7 +2591,7 @@ durant	durant	ADP
 des	un	DET
 transports	transport	NOUN
 en	en	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
@@ -2729,7 +2729,7 @@ arrêtons	arrêter	VERB
 nous	nous	PRON
 ici	ici	ADV
 :	:	PUNCTclause
-1973	1973	NUM
+1973	1973	DIGIT
 .	.	PUNCTsent
 en	en	ADP
 ce	ce	DET
@@ -2832,7 +2832,7 @@ de	de	ADP
 la	le	DET
 Hague	Hague	PROPN
 en	en	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 ,	,	PUNCTclause
 manifestations	manifestation	NOUN
 à	à	ADP
@@ -2841,7 +2841,7 @@ Malville	Malville	PROPN
 à	à	ADP
 Brokdorf	Brokdorf	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ne	ne	ADV
 est	être	AUX
@@ -3130,9 +3130,9 @@ l'	le	DET
 Isère	Isère	PROPN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 )	)	PUNCTclause
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 surgénérateur	surgénérateur	NOUN
 prévu	prévoir	VERB
 à	à	ADP
@@ -3200,7 +3200,7 @@ les	le	DET
 autres	autre	ADJ
 (	(	PUNCTclause
 les	le	DET
-4000	4000	NUM
+4000	4000	DIGIT
 savants	savant	NOUN
 groupés	grouper	VERB
 en	en	ADP
@@ -3243,7 +3243,7 @@ déclenche	déclencher	VERB
 au cours de	au cours de	ADP
 l'	le	DET
 automne	automne	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 la	le	DET
 «	«	PUNCTclause
 crise	crise	NOUN
@@ -3584,7 +3584,7 @@ service	service	NOUN
 commandé	commander	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 toutes	tout	ADJ
@@ -3597,7 +3597,7 @@ prises	priser	VERB
 »	»	PUNCTclause
 —	—	PUNCTclause
 en	en	ADP
-1870	1870	NUM
+1870	1870	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 armée	armée	NOUN
@@ -3641,15 +3641,15 @@ victoire	victoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1912	1912	NUM
+1912	1912	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
 nuit	nuit	NOUN
 du	du	ADP_DET
-14	14	NUM
+14	14	DIGIT
 au	au	ADP_DET
-15	15	NUM
+15	15	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -3778,7 +3778,7 @@ pire	pire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
@@ -3837,7 +3837,7 @@ majeur	majeur	ADJ
 dégâts	dégât	NOUN
 estimés	estimer	VERB
 à	à	ADP
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -3898,7 +3898,7 @@ yeux	œil	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 décembre	décembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 .	.	PUNCTsent
 la	le	DET
 presse	presse	NOUN
@@ -3992,7 +3992,7 @@ une	un	DET
 bougie	bougie	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 pas	pas	ADV
@@ -4041,7 +4041,7 @@ public	public	NOUN
 ,	,	PUNCTclause
 affirme	affirmer	VERB
 en	en	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 un	un	DET
 directeur	directeur	NOUN
 au	au	ADP_DET
@@ -4072,17 +4072,16 @@ trente	trente	NUM
 réacteurs	réacteur	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 janvier	janvier	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 au	au	ADP_DET
-31	31	NUM
+31	31	DIGIT
 mai	mai	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 environ	environ	ADV
-850	850	NUM
+850	850	DIGIT
 anomalies	anomalie	NOUN
 de	de	ADP
 fonctionnement	fonctionnement	NOUN
@@ -4188,9 +4187,9 @@ que	que	SCONJ
 une	un	DET
 probabilité	probabilité	NOUN
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 contre	contre	ADP
-100000	100000	NUM
+100000	100000	DIGIT
 signifie	signifier	VERB
 la	le	DET
 sécurité	sécurité	NOUN
@@ -4241,7 +4240,7 @@ temps	temps	NOUN
 du	du	ADP_DET
 nucléaire	nucléaire	ADJ
 (	(	PUNCTclause
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 causant	causer	VERB
@@ -4269,9 +4268,9 @@ des	un	DET
 réacteurs	réacteur	NOUN
 nains	nain	ADJ
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-200	200	NUM
+200	200	DIGIT
 		TOKEN
 seulement	seulement	ADV
 .	.	PUNCTsent
@@ -4285,11 +4284,11 @@ Suisse	Suisse	PROPN
 sont	être	AUX
 en train de	en train de	ADV
 construire	construire	VERB
-16	16	NUM
+16	16	DIGIT
 réacteurs	réacteur	NOUN
 de plus	de plus	ADV
 de	de	ADP
-1000	1000	NUM
+1000	1000	DIGIT
 		TOKEN
 chacun	chacun	PRON
 ,	,	PUNCTclause
@@ -4297,9 +4296,9 @@ dans	dans	ADP
 une	un	DET
 zone	zone	NOUN
 de	de	ADP
-15	15	NUM
+15	15	DIGIT
 à	à	ADP
-65	65	NUM
+65	65	DIGIT
 kilomètres	mètre	NOUN
 de	de	ADP
 rayon	rayon	NOUN
@@ -4316,9 +4315,9 @@ seraient	être	AUX
 à	à	ADP
 multiplier	multiplier	VERB
 par	par	ADP
-5	5	NUM
+5	5	DIGIT
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 pour	pour	ADP
 chacun	chacun	PRON
 de	de	ADP
@@ -4391,7 +4390,7 @@ de	de	ADP
 Hiroshima	Hiroshima	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 le	le	DET
@@ -4459,7 +4458,7 @@ tritium	tritium	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 iode	iode	NOUN
-131	131	NUM
+131	131	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 krypton	krypton	NOUN
@@ -4470,7 +4469,7 @@ radon	radon	NOUN
 de	de	ADP
 strontium	strontium	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 pouvant	pouvoir	VERB
 entraîner	entraîner	VERB
 chaque	chaque	DET
@@ -4490,9 +4489,9 @@ y	y	PRON
 pleinement	pleinement	ADV
 exposée	exposer	VERB
 —	—	PUNCTclause
-12500	12500	NUM
+12500	12500	DIGIT
 à	à	ADP
-25000	25000	NUM
+25000	25000	DIGIT
 morts	mort	NOUN
 par	par	ADP
 maladies	maladie	NOUN
@@ -4804,13 +4803,13 @@ ils	ils	PRON
 mentent	mentir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 la	le	DET
 sécheresse	sécheresse	NOUN
 de	de	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 a	avoir	AUX
 plaidé	plaider	VERB
 pour	pour	ADP
@@ -4907,7 +4906,7 @@ par	par	ADP
 jour	jour	NOUN
 jusque	jusque	ADP
 à	à	ADP
-40000	40000	NUM
+40000	40000	DIGIT
 m3	m3	NOUN
 de	de	ADP
 eau	eau	NOUN
@@ -4936,7 +4935,7 @@ nos	nos	DET
 fleuves	fleuve	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 le	le	DET
@@ -4983,10 +4982,9 @@ brève	bref	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 novembre	novembre	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Genève	Genève	PROPN
@@ -5109,7 +5107,7 @@ jusque	jusque	ADP
 à	à	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -5174,7 +5172,7 @@ dès	dès	ADP
 l'	le	DET
 hiver	hiver	NOUN
 de	de	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 en	en	ADP
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
@@ -5257,7 +5255,7 @@ que	que	SCONJ
 l'	le	DET
 information	information	NOUN
 de	de	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 était	être	AUX
 fausse	faux	ADJ
 ,	,	PUNCTclause
@@ -5274,7 +5272,7 @@ ensuite	ensuite	ADV
 par étapes	par étapes	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1975	1975	NUM
+1975	1975	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -5307,9 +5305,9 @@ années	année	NOUN
 le	le	DET
 monde	monde	NOUN
 du	du	ADP_DET
-18	18	NUM
+18	18	DIGIT
 février	février	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 précise	préciser	VERB
 que	que	SCONJ
 «	«	PUNCTclause
@@ -5349,9 +5347,9 @@ les	le	DET
 dernières	dernier	ADJ
 nouvelles	nouvelle	NOUN
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 mai	mai	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -5480,13 +5478,13 @@ agence	agence	NOUN
 Reuter	Reuter	PROPN
 annonce	annoncer	VERB
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 mai	mai	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-6700	6700	NUM
+6700	6700	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 déchets	déchet	NOUN
@@ -5523,7 +5521,7 @@ nous	nous	PRON
 les	le	DET
 retrouverons	retrouver	VERB
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 quelques	quelque	DET
 années	année	NOUN
 ,	,	PUNCTclause
@@ -5552,7 +5550,7 @@ retraitement	retraitement	NOUN
 où	où	PRON
 ,	,	PUNCTclause
 dès	dès	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 centrales	centrale	NOUN
@@ -5585,7 +5583,7 @@ Hague	Hague	PROPN
 est	être	AUX
 en	en	ADP
 grève	grève	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 je	je	PRON
 écris	écrire	VERB
 .	.	PUNCTsent
@@ -5648,9 +5646,9 @@ ans	an	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 et	et	CCONJ
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 l'	le	DET
@@ -6012,7 +6010,7 @@ bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 jusque	jusque	ADP
 à	à	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 ,	,	PUNCTclause
 leurs	leur	DET
 brochures	brochure	NOUN
@@ -6185,9 +6183,9 @@ estimations	estimation	NOUN
 prospectives	prospectif	ADJ
 des	un	ADP_DET
 années	année	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 à	à	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 étaient	être	AUX
 fausses	faux	ADJ
 .	.	PUNCTsent
@@ -6248,7 +6246,7 @@ susciter	susciter	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -6272,7 +6270,7 @@ kWh	kWh	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -6296,7 +6294,7 @@ nucléaire	nucléaire	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-1973	1973	NUM
+1973	1973	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 enfin	enfin	ADV
@@ -6331,7 +6329,7 @@ cette	ce	DET
 époque	époque	NOUN
 (	(	PUNCTclause
 fin	fin	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 le	le_PRON	PRON
@@ -6360,9 +6358,9 @@ pétrole	pétrole	NOUN
 le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
-24	24	NUM
+24	24	DIGIT
 janvier	janvier	NOUN
-1975	1975	NUM
+1975	1975	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -6539,7 +6537,7 @@ là	là	ADV
 derrière	derrière	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 les	le	DET
@@ -6599,7 +6597,7 @@ diminution	diminution	NOUN
 des	un	ADP_DET
 ressources	ressource	NOUN
 pétrolières	pétrolier	ADJ
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 la	le	DET
 fin	fin	NOUN
 du	du	ADP_DET
@@ -6615,9 +6613,9 @@ une	un	DET
 du	du	ADP_DET
 New Scientist	New Scientist	PROPN
 (	(	PUNCTclause
-19	19	NUM
+19	19	DIGIT
 décembre	décembre	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 de	de	ADP
 où	où	PRON
@@ -6680,7 +6678,7 @@ dix	dix	NUM
 années	année	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 le	le	DET
@@ -6745,7 +6743,7 @@ Kowarski	Kowarski	PROPN
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 les	le	DET
@@ -6848,18 +6846,18 @@ une	un	DET
 population	population	NOUN
 quadruplée	quadruplé	ADJ
 construire	construire	VERB
-3000	3000	NUM
+3000	3000	DIGIT
 groupements	groupement	NOUN
 de	de	ADP
 centrale nucléaire	centrale nucléaire	NOUN
 composés	composer	VERB
 chacun	chacun	PRON
 de	de	ADP
-8	8	NUM
+8	8	DIGIT
 surgénérateurs	surgénérateur	NOUN
 produisant	produire	VERB
 ensemble	ensemble	ADV
-40000	40000	NUM
+40000	40000	DIGIT
 		TOKEN
 …	…	PUNCTsent
 selon	selon	ADP
@@ -6880,7 +6878,7 @@ construire	construire	VERB
 dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
-4	4	NUM
+4	4	DIGIT
 réacteurs	réacteur	NOUN
 par	par	ADP
 semaine	semaine	NOUN
@@ -6894,11 +6892,11 @@ atteindre	atteindre	VERB
 l'	le	DET
 objectif	objectif	NOUN
 de	de	ADP
-24000	24000	NUM
+24000	24000	DIGIT
 réacteurs	réacteur	NOUN
 produisant	produire	VERB
 chacun	chacun	PRON
-5000	5000	NUM
+5000	5000	DIGIT
 		TOKEN
 .	.	PUNCTsent
 si	si	SCONJ
@@ -6925,7 +6923,7 @@ ce	ce	DET
 remplacement	remplacement	NOUN
 coûterait	coûter	VERB
 au moins	au moins	ADV
-2000	2000	NUM
+2000	2000	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -6934,7 +6932,7 @@ an	an	NOUN
 ,	,	PUNCTclause
 «	«	PUNCTclause
 soit	être	AUX
-60	60	NUM
+60	60	DIGIT
 du	du	ADP_DET
 revenu	revenu	NOUN
 mondial	mondial	ADJ
@@ -6957,7 +6955,7 @@ actuels	actuel	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 les	le	DET
@@ -7147,7 +7145,7 @@ aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 budget	budget	NOUN
@@ -7157,7 +7155,7 @@ recherche	recherche	NOUN
 solaire	solaire	ADJ
 équivaut	équivaloir	VERB
 à	à	ADP
-4	4	NUM
+4	4	DIGIT
 de	de	ADP
 celui	celui	PRON
 des	un	ADP_DET
@@ -7165,11 +7163,11 @@ recherches	recherche	NOUN
 nucléaires	nucléaire	ADJ
 ;	;	PUNCTclause
 en	en	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-15	15	NUM
+15	15	DIGIT
 ;	;	PUNCTclause
 en	en	ADP
 Europe	Europe	PROPN
@@ -7197,7 +7195,7 @@ de	de	ADP
 un	un	DET
 réacteur	réacteur	NOUN
 de	de	ADP
-1000	1000	NUM
+1000	1000	DIGIT
 		TOKEN
 exigerait	exiger	VERB
 que	que	SCONJ
@@ -7380,7 +7378,7 @@ demain	demain	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 les	le	DET
@@ -7511,7 +7509,7 @@ la première fois	la première fois	ADV
 la	le	DET
 stabilité	stabilité	NOUN
 de	de	ADP
-19000	19000	NUM
+19000	19000	DIGIT
 emplois	emploi	NOUN
 »	»	PUNCTclause
 dans	dans	ADP
@@ -7549,7 +7547,7 @@ deux	deux	NUM
 Amériques	Amériques	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 le	le	DET
@@ -7627,7 +7625,7 @@ Siemens	Siemens	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 à	à	ADP
-30	30	NUM
+30	30	DIGIT
 seulement	seulement	ADV
 ,	,	PUNCTclause
 par	par	ADP
@@ -7709,7 +7707,7 @@ d'ailleurs	d'ailleurs	ADV
 ne	ne	ADV
 fonctionne	fonctionner	VERB
 plus	plus	ADV
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 je	je	PRON
 écris	écrire	VERB
 .	.	PUNCTsent
@@ -8195,7 +8193,7 @@ l'	le	DET
 électricité	électricité	NOUN
 disponible	disponible	ADJ
 un	un	DET
-20	20	NUM
+20	20	DIGIT
 dont	dont	PRON
 il	il	PRON
 est	être	AUX
@@ -8279,7 +8277,7 @@ consommation	consommation	NOUN
 de	de	ADP
 énergie	énergie	NOUN
 par	par	ADP
-16384	16384	NUM
+16384	16384	DIGIT
 en	en	ADP
 quatre-vingt-dix-huit	quatre-vingt-dix-huit	NUM
 ans	an	NOUN
@@ -8364,7 +8362,7 @@ son	son	NOUN
 ↵↵	↵↵	PUNCTstruct
 au début	au début	ADV
 de	de	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 fus	être	VERB
@@ -8476,7 +8474,7 @@ je	je	PRON
 reconstitue	reconstituer	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 se	se	PRON
@@ -8568,7 +8566,7 @@ est-ce que	est-ce que	ADV
 elles	elles	PRON
 vaudront	valoir	VERB
 les	le	DET
-16	16	NUM
+16	16	DIGIT
 milliards	milliard	NOUN
 déjà	déjà	ADV
 dépensés	dépenser	VERB
@@ -8665,7 +8663,7 @@ trois	trois	NUM
 heures	heure	NOUN
 pour	pour	ADP
 quelque	quelque	DET
-70	70	NUM
+70	70	DIGIT
 		TOKEN
 .	.	PUNCTsent
 pari	pari	NOUN
@@ -8680,7 +8678,7 @@ tiendrais	tenir	VERB
 pas	pas	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 les	le	DET
@@ -8728,7 +8726,7 @@ y	y	PRON
 gagneraient	gagner	VERB
 (	(	PUNCTclause
 outre	outre	ADP
-20	20	NUM
+20	20	DIGIT
 sur	sur	ADP
 le	le	DET
 prix	prix	NOUN
@@ -8785,7 +8783,7 @@ eût	avoir	AUX
 déjà	déjà	ADV
 permis	permettre	VERB
 environ	environ	ADV
-15,8	15,8	NUM
+15,8	15,8	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 économies	économie	NOUN
@@ -8794,7 +8792,7 @@ mes	mon	DET
 premiers	premier	ADJ
 calculs	calcul	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 supprimer	supprimer	VERB
 les	le	DET
@@ -8816,7 +8814,7 @@ demi-heure	demi-heure	NOUN
 de	de	ADP
 gagnée	gagner	VERB
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 transporter	transporter	VERB
 les	le	DET
@@ -8850,7 +8848,7 @@ au moins	au moins	ADV
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 me	me	PRON
@@ -8863,7 +8861,7 @@ de	de	ADP
 Concorde	Concorde	PROPN
 mettrait	mettre	VERB
 au chômage	au chômage	ADJ
-40000	40000	NUM
+40000	40000	DIGIT
 ouvriers	ouvrier	NOUN
 .	.	PUNCTsent
 argument	argument	NOUN
@@ -8877,7 +8875,7 @@ comme	comme	ADP
 le	le	DET
 demandait	demander	VERB
 un	un	DET
-premier ministre	Premier ministre	NOUN
+Premier ministre	Premier ministre	NOUN
 ,	,	PUNCTclause
 supprimer	supprimer	VERB
 toute	toute	DET
@@ -8905,7 +8903,7 @@ chirurgiens	chirurgien	NOUN
 des	un	DET
 assureurs	assureur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 les	le	DET
 États-Unis	États-Unis	PROPN
@@ -9000,7 +8998,7 @@ y	y	PRON
 aller	aller	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 outre	outre	ADP
 le	le	DET
@@ -9093,7 +9091,7 @@ nos	nos	DET
 têtes	tête	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 indépendamment de	indépendamment de	ADP
 ces	ce	DET
@@ -10271,7 +10269,7 @@ enceintes	enceinte	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 ne	ne	ADV

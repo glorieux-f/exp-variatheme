@@ -6,7 +6,7 @@
 # title = "3. Un problème séculaire : la Russie et l’Europe"
 
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 un	un	DET
 problème	problème	NOUN
@@ -444,7 +444,7 @@ plus tard	plus tard	ADV
 cependant	cependant	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1790	1790	NUM
+1790	1790	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -538,7 +538,7 @@ l'	le	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1797	1797	NUM
+1797	1797	DIGIT
 ,	,	PUNCTclause
 Jean	Jean	PROPN
 de	de	ADP
@@ -613,7 +613,7 @@ Metternich	Metternich	PROPN
 ,	,	PUNCTclause
 publie	publier	VERB
 en	en	ADP
-1823	1823	NUM
+1823	1823	DIGIT
 un	un	DET
 «	«	PUNCTclause
 Parallèle	Parallèle	PROPN
@@ -691,7 +691,7 @@ dans	dans	ADP
 ses	son	DET
 cahiers	cahier	NOUN
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 toujours	toujours	ADV
@@ -726,7 +726,7 @@ Carlo	Carlo	PROPN
 Cattaneo	Cattaneo	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 vers	vers	ADP
@@ -756,7 +756,7 @@ Jacob	Jacob	PROPN
 Burckhardt	Burckhardt	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1869	1869	NUM
+1869	1869	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
@@ -798,7 +798,7 @@ Henry	Henry	PROPN
 Adams	Adams	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -835,7 +835,7 @@ en	en	ADP
 États-Unis	États-Unis	PROPN
 publiée	publier	VERB
 en	en	ADP
-1856	1856	NUM
+1856	1856	DIGIT
 par	par	ADP
 le	le	DET
 comte	comte	NOUN
@@ -844,8 +844,8 @@ Clérel	Clérel	PROPN
 de	de	ADP
 Tocqueville	Tocqueville	PROPN
 (	(	PUNCTclause
-1805	1805	NUM
--1859	-1859	NUM
+1805	1805	DIGIT
+-1859	-1859	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1007,7 +1007,7 @@ Lasaulx	Lasaulx	PROPN
 l'	le	DET
 écrit	écrit	NOUN
 en	en	ADP
-1856	1856	NUM
+1856	1856	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -1284,7 +1284,7 @@ von	von	X
 Ranke	Ranke	PROPN
 écrit	écrire	VERB
 en	en	ADP
-1824	1824	NUM
+1824	1824	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 son	son	DET
@@ -1328,7 +1328,7 @@ yeux	œil	NOUN
 gauche	gauche	NOUN
 ,	,	PUNCTclause
 tout	tout	ADV
-1848	1848	NUM
+1848	1848	DIGIT
 se	se	PRON
 dresse	dresser	VERB
 contre	contre	ADP
@@ -1421,7 +1421,7 @@ Russie	Russie	PROPN
 la	le	DET
 Russie	Russie	PROPN
 en	en	ADP
-1839	1839	NUM
+1839	1839	DIGIT
 »	»	PUNCTclause
 ,	,	PUNCTclause
 prédit	prédire	VERB
@@ -1615,8 +1615,8 @@ Karl	Karl	PROPN
 Friedrich	Friedrich	PROPN
 Marx	Marx	PROPN
 (	(	PUNCTclause
-1818	1818	NUM
--1883	-1883	NUM
+1818	1818	DIGIT
+-1883	-1883	DIGIT
 )	)	PUNCTclause
 partagea	partager	VERB
 toute	toute	DET
@@ -1857,7 +1857,7 @@ Europe	Europe	PROPN
 il	il	PRON
 écrivait	écrire	VERB
 en	en	ADP
-1853	1853	NUM
+1853	1853	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -1918,7 +1918,7 @@ un	un	DET
 discours	discours	NOUN
 prononcé	prononcer	VERB
 en	en	ADP
-1867	1867	NUM
+1867	1867	DIGIT
 ,	,	PUNCTclause
 Marx	Marx	PROPN
 précise	préciser	VERB
@@ -1993,7 +1993,7 @@ dans	dans	ADP
 l'un	l'un	PRON
 des	un	ADP_DET
 quelque	quelque	ADV
-500	500	NUM
+500	500	DIGIT
 articles	article	NOUN
 que	que	PRON
 Marx	Marx	PROPN
@@ -2003,9 +2003,9 @@ New York	New York	PROPN
 Herald	Herald	PROPN
 Tribune	Tribune	PROPN
 de	de	ADP
-1851	1851	NUM
+1851	1851	DIGIT
 à	à	ADP
-1861	1861	NUM
+1861	1861	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 trouvons	trouver	VERB
@@ -2015,9 +2015,9 @@ suivantes	suivant	ADJ
 ,	,	PUNCTclause
 parues	paraître	VERB
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 décembre	décembre	NOUN
-1853	1853	NUM
+1853	1853	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Marx	Marx	PROPN
@@ -2046,7 +2046,7 @@ mal	mal	ADV
 aux	au	ADP_DET
 événements	événement	NOUN
 de	de	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 ,	,	PUNCTclause
 est	être	AUX
 loin de	loin de	ADP
@@ -2314,8 +2314,8 @@ convaincu	convaincre	VERB
 Pierre	Pierre	PROPN
 Tchaadaïev	Tchaadaïev	PROPN
 (	(	PUNCTclause
-1790	1790	NUM
--1856	-1856	NUM
+1790	1790	DIGIT
+-1856	-1856	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 ancien	ancien	ADJ
@@ -2336,7 +2336,7 @@ Schelling	Schelling	PROPN
 ,	,	PUNCTclause
 publie	publier	VERB
 en	en	ADP
-1836	1836	NUM
+1836	1836	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -2553,7 +2553,7 @@ dans	dans	ADP
 une	un	DET
 lettre	lettre	NOUN
 de	de	ADP
-1835	1835	NUM
+1835	1835	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 pousse	pousser	VERB
@@ -2603,7 +2603,7 @@ an	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1837	1837	NUM
+1837	1837	DIGIT
 ,	,	PUNCTclause
 paraît	paraître	VERB
 le premier	le premier	PRON
@@ -2954,8 +2954,8 @@ que	que	SCONJ
 Léon	Léon	PROPN
 Tolstoï	Tolstoï	PROPN
 (	(	PUNCTclause
-1828	1828	NUM
--1910	-1910	NUM
+1828	1828	DIGIT
+-1910	-1910	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -3107,8 +3107,8 @@ occidentaliste	occidentaliste	NOUN
 Alexandre	Alexandre	PROPN
 Herzen	Herzen	PROPN
 (	(	PUNCTclause
-1812	1812	NUM
--1870	-1870	NUM
+1812	1812	DIGIT
+-1870	-1870	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 «	«	PUNCTclause
@@ -3224,8 +3224,8 @@ Fiodor	Fiodor	PROPN
 Ivan	Ivan	PROPN
 Tiouttchev	Tiouttchev	PROPN
 (	(	PUNCTclause
-1803	1803	NUM
--1873	-1873	NUM
+1803	1803	DIGIT
+-1873	-1873	DIGIT
 )	)	PUNCTclause
 lorsque	lorsque	SCONJ
 il	il	PRON
@@ -3371,15 +3371,15 @@ Fiodor	Fiodor	PROPN
 Michaïlovitch	Michaïlovitch	PROPN
 Dostoïevski	Dostoïevski	PROPN
 (	(	PUNCTclause
-1821	1821	NUM
--1881	-1881	NUM
+1821	1821	DIGIT
+-1881	-1881	DIGIT
 )	)	PUNCTclause
 se	se	PRON
 mit	mettre	VERB
 à	à	ADP
 publier	publier	VERB
 en	en	ADP
-1876	1876	NUM
+1876	1876	DIGIT
 son	son	DET
 journal	journal	NOUN
 de	de	ADP
@@ -3846,8 +3846,8 @@ démence	démence	NOUN
 Søren	Søren	PROPN
 Kierkegaard	Kierkegaard	PROPN
 (	(	PUNCTclause
-1813	1813	NUM
--1856	-1856	NUM
+1813	1813	DIGIT
+-1856	-1856	DIGIT
 )	)	PUNCTclause
 appartient	appartenir	VERB
 à	à	ADP

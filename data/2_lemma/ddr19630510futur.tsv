@@ -12,9 +12,9 @@ une	un	DET
 Europe	Europe	PROPN
 fédérale	fédéral	ADJ
 (	(	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 mai	mai	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1159,7 +1159,7 @@ tint	tenir	VERB
 à	à	ADP
 Montreux	Montreux	PROPN
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 avais	avoir	AUX
@@ -2649,7 +2649,7 @@ grave	grave	ADJ
 la	le	DET
 guerre civile	guerre civile	NOUN
 de	de	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 opposant	opposant	NOUN
 catholiques	catholique	ADJ
 et	et	CCONJ
@@ -2714,7 +2714,7 @@ résulté	résulter	VERB
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 base	base	NOUN
 de	de	ADP
@@ -2836,7 +2836,9 @@ je	je	PRON
 viens	venir	VERB
 de	de	ADP
 dire	dire	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 impérialisme	impérialisme	NOUN
 ou	ou	CCONJ
@@ -3928,7 +3930,7 @@ annonçait	annoncer	VERB
 la	le	DET
 venue	venue	NOUN
 dès	dès	ADP
-1880	1880	NUM
+1880	1880	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -4661,7 +4663,7 @@ Europe	Europe	PROPN
 la	le	DET
 Haye	Haye	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 ses	son	DET
@@ -4944,7 +4946,7 @@ treize	treize	NUM
 états	état	NOUN
 États-Unis	États-Unis	PROPN
 en	en	ADP
-1783	1783	NUM
+1783	1783	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -4952,7 +4954,7 @@ vingt-deux	vingt-deux	NUM
 cantons	canton	NOUN
 Suisse	Suisse	PROPN
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 ont	avoir	AUX
 compris	comprendre	VERB
@@ -6273,7 +6275,7 @@ administratives	administratif	ADJ
 —	—	PUNCTclause
 mais	mais	CCONJ
 libérant	libérer	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 les	le	DET
 énergies	énergie	NOUN
 individuelles	individuel	ADJ
@@ -6700,8 +6702,8 @@ fatalités	fatalité	NOUN
 »	»	PUNCTclause
 natives	natif	ADJ
 …	…	PUNCTsent
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+N'est-ce	N'est-ce	PROPN
+point	poindre	VERB
 là	là	ADV
 ce	ce	PRON
 que	que	PRON
@@ -7655,8 +7657,8 @@ dans	dans	ADP
 la	le	DET
 période	période	NOUN
 de	de	ADP
-1975	1975	NUM
--1980	-1980	NUM
+1975	1975	DIGIT
+-1980	-1980	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 V.	V.	X
@@ -7738,7 +7740,7 @@ l'	le	DET
 Europe	Europe	PROPN
 vivant	vivre	VERB
 en	en	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tout	tout	PRON
@@ -8223,7 +8225,7 @@ Europe	Europe	PROPN
 ce	ce	DET
 Marché commun	Marché commun	PROPN
 de	de	ADP
-400	400	NUM
+400	400	DIGIT
 millions	million	NOUN
 de	de	ADP
 producteurs	producteur	NOUN
@@ -8621,7 +8623,7 @@ le	le	DET
 demandait	demander	VERB
 Churchill	Churchill	PROPN
 dès	dès	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 au	au	ADP_DET
 congrès	congrès	NOUN
 de	de	ADP
@@ -9103,7 +9105,7 @@ difficiles	difficile	ADJ
 la	le	DET
 fédération	fédération	NOUN
 vers	vers	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 .	.	PUNCTsent
 elle	elle	PRON
 ne	ne	ADV
@@ -9149,7 +9151,7 @@ elle	elle	PRON
 se	se	PRON
 présentait	présenter	VERB
 aux environs de	aux environs de	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 on	on	PRON
@@ -9179,7 +9181,7 @@ fédération	fédération	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 parenthèse	parenthèse	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 a	avoir	VERB
@@ -9274,7 +9276,7 @@ ce	ce	PRON
 est	être	AUX
 une	un	DET
 condition	condition	NOUN
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 ,	,	PUNCTclause
 y	y	PRON
 a	avoir	VERB
@@ -9362,7 +9364,7 @@ attendre	attendre	VERB
 une	un	DET
 nuit	nuit	NOUN
 du	du	ADP_DET
-4	4	NUM
+4	4	DIGIT
 août	août	NOUN
 des	un	ADP_DET
 états	état	NOUN
@@ -9506,7 +9508,7 @@ de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-1848	1848	NUM
+1848	1848	DIGIT
 )	)	PUNCTclause
 semble	sembler	VERB
 avoir	avoir	AUX
@@ -9577,7 +9579,7 @@ Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 les	le_PRON	PRON
@@ -9616,7 +9618,7 @@ fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 article	article	NOUN
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 la	le	DET
@@ -9636,7 +9638,7 @@ fixées	fixer	VERB
 par	par	ADP
 l'	le	DET
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 ,	,	PUNCTclause
 leurs	leur	DET
 constitutions	constitution	NOUN
@@ -9650,7 +9652,7 @@ du	du	ADP_DET
 peuple	peuple	NOUN
 …	…	PUNCTsent
 (	(	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ratifiés	ratifier	VERB
@@ -10148,7 +10150,7 @@ en	en	ADP
 inquiètent	inquiéter	VERB
 ,	,	PUNCTclause
 aux environs de	aux environs de	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -10246,7 +10248,7 @@ les	le	DET
 cantons	canton	NOUN
 Suisse	Suisse	PROPN
 depuis	depuis	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 —	—	PUNCTclause
 d'autant	d'autant	ADV
 mieux	mieux	ADV
@@ -10472,7 +10474,7 @@ l'	le	DET
 Europe	Europe	PROPN
 fédérée	fédérer	VERB
 de	de	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 y	y	PRON
@@ -11079,7 +11081,7 @@ universitaires	universitaire	ADJ
 ,	,	PUNCTclause
 voyages	voyage	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -11680,7 +11682,7 @@ CERN	CERN	NOUN
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
-1959	1959	NUM
+1959	1959	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 l'	le	DET
@@ -11698,7 +11700,7 @@ spatiales	spatial	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
 dès	dès	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 ont	avoir	AUX
@@ -11880,7 +11882,7 @@ Europe	Europe	PROPN
 la	le	DET
 		TOKEN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 enfin	enfin	ADV
@@ -12495,7 +12497,7 @@ et	et	CCONJ
 des	un	DET
 états	état	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 projets	projet	NOUN
@@ -12754,7 +12756,7 @@ dans	dans	ADP
 l'	le	DET
 Europe	Europe	PROPN
 de	de	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -13059,7 +13061,7 @@ nos	nos	DET
 problèmes	problème	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 fédéralisme	fédéralisme	NOUN
@@ -13191,7 +13193,7 @@ solutions	solution	NOUN
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 régime	régime	NOUN
@@ -13258,7 +13260,7 @@ rapide	rapide	ADJ
 d'ailleurs	d'ailleurs	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 catholiques	catholique	NOUN
@@ -13349,7 +13351,7 @@ voire	voire	CCONJ
 totalitaires	totalitaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 application	application	NOUN
@@ -13501,7 +13503,7 @@ régime	régime	NOUN
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 résistance	résistance	NOUN
@@ -13595,7 +13597,7 @@ deux	deux	NUM
 partis	parti	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 à	à	ADP
 «	«	PUNCTclause
@@ -13669,7 +13671,7 @@ type	type	NOUN
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 le	le	DET
 régime	régime	NOUN
@@ -13701,7 +13703,7 @@ sont	être	AUX
 admises	admettre	VERB
 par	par	ADP
 plus de	plus de	DET
-80	80	NUM
+80	80	DIGIT
 des	un	ADP_DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -13729,7 +13731,7 @@ l'	le	DET
 enthousiasme	enthousiasme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 existence	existence	NOUN

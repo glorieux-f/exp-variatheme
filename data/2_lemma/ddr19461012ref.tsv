@@ -13,9 +13,9 @@ des	un	ADP_DET
 de	de	ADP
 New York	New York	PROPN
 (	(	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 octobre	octobre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -453,9 +453,9 @@ aussi	aussi	ADV
 elles	elles	PRON
 comptent	compter	VERB
 chacune	chacune	PRON
-9	9	NUM
+9	9	DIGIT
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 millions	million	NOUN
 de	de	ADP
 membres	membre	NOUN
@@ -914,7 +914,7 @@ me	me	PRON
 avait	avoir	AUX
 pas	pas	ADV
 dit	dire	VERB
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 New York	New York	PROPN
 possède	posséder	VERB
 ,	,	PUNCTclause

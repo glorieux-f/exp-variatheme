@@ -16,9 +16,9 @@ pour	pour	ADP
 la	le	DET
 fédération	fédération	NOUN
 (	(	PUNCTclause
-24	24	NUM
+24	24	DIGIT
 octobre	octobre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -218,7 +218,7 @@ soyons	être	VERB
 en	en	ADP
 Europe	Europe	PROPN
 plus de	plus de	DET
-150000	150000	NUM
+150000	150000	DIGIT
 militants	militant	NOUN
 de	de	ADP
 l'	le	DET
@@ -231,7 +231,7 @@ peuples	peuple	NOUN
 or	or	NOUN
 ,	,	PUNCTclause
 ces	ce	DET
-150000	150000	NUM
+150000	150000	DIGIT
 militants	militant	NOUN
 ont	avoir	AUX
 réussi	réussir	VERB
@@ -290,7 +290,7 @@ parlement	parlement	NOUN
 continental	continental	ADJ
 ,	,	PUNCTclause
 après	après	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 ans	an	NOUN
 de	de	ADP
 divisions	division	NOUN
@@ -305,7 +305,7 @@ pour	pour	ADP
 commencer	commencer	VERB
 et	et	CCONJ
 si	si	SCONJ
-150000	150000	NUM
+150000	150000	DIGIT
 ont	avoir	AUX
 pu	pouvoir	VERB
 faire	faire	VERB
@@ -326,7 +326,7 @@ pas	pas	ADV
 l'	le	DET
 année	année	NOUN
 prochaine	prochain	ADJ
-500000	500000	NUM
+500000	500000	DIGIT
 ou	ou	CCONJ
 un	un	DET
 million	million	NOUN
@@ -422,7 +422,7 @@ difficile	difficile	ADJ
 de	de	ADP
 utiliser	utiliser	VERB
 les	le	DET
-6	6	NUM
+6	6	DIGIT
 minutes	minute	NOUN
 que	que	SCONJ
 le	le	DET
@@ -441,7 +441,7 @@ disposition	disposition	NOUN
 de	de	ADP
 utiliser	utiliser	VERB
 ces	ce	DET
-6	6	NUM
+6	6	DIGIT
 précieuses	précieux	NOUN
 minutes	minute	NOUN
 pour	pour	ADP
@@ -571,7 +571,7 @@ S-T-E-F-F-A-N	S-T-E-F-F-A-N	PROPN
 ,	,	PUNCTclause
 case	case	NOUN
 postale	postal	ADJ
-1833	1833	NUM
+1833	1833	DIGIT
 ,	,	PUNCTclause
 Lausanne	Lausanne	PROPN
 .	.	PUNCTsent
@@ -604,7 +604,7 @@ Steffan	Steffan	PROPN
 ,	,	PUNCTclause
 Case	Case	PROPN
 postale	postal	ADJ
-1833	1833	NUM
+1833	1833	DIGIT
 ,	,	PUNCTclause
 Lausanne	Lausanne	PROPN
 ,	,	PUNCTclause
@@ -938,7 +938,7 @@ liberté	liberté	NOUN
 en	en	ADP
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -1012,7 +1012,7 @@ conseil	conseil	NOUN
 siègent	siéger	VERB
 désormais	désormais	ADV
 les	le	DET
-4	4	NUM
+4	4	DIGIT
 présidents	président	NOUN
 des	un	ADP_DET
 partis	parti	NOUN

@@ -20,9 +20,9 @@ le	le	DET
 France	France	PROPN
 explique	expliquer	VERB
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 avril	avril	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -48,7 +48,7 @@ radio	radio	NOUN
 ,	,	PUNCTclause
 me	me	PRON
 interviewa	interviewer	VERB
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 petit	petit	ADJ
 livre	livre	NOUN
 que	que	PRON
@@ -149,7 +149,7 @@ récidive	récidiver	VERB
 ,	,	PUNCTclause
 à	à	ADP
 propos	propos	NOUN
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 de	de	ADP
 l'	le	DET
 exemple	exemple	NOUN
@@ -453,7 +453,9 @@ de	de	ADP
 la	le	DET
 presse	presse	NOUN
 —	—	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 problème	problème	NOUN
 qui	qui	PRON
@@ -753,7 +755,7 @@ correspondance	correspondance	NOUN
 ,	,	PUNCTclause
 jardin	jardin	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
 le	le	DET
@@ -1010,7 +1012,7 @@ roman-feuilleton	roman-feuilleton	NOUN
 ↵↵	↵↵	PUNCTstruct
 Trois	Trois	NUM
 remarques	remarque	NOUN
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 rubriques	rubrique	NOUN
 régulières	régulier	ADJ
 .	.	PUNCTsent

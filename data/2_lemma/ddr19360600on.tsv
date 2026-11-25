@@ -12,11 +12,11 @@ politique	politique	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
 juin	juin	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 politique	politique	NOUN
@@ -76,7 +76,7 @@ grossier	grossier	ADJ
 bon sens	bon sens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 voyons	voir	VERB
@@ -460,7 +460,7 @@ même	même	ADV
 plus	plus	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 politique	politique	NOUN
@@ -1390,7 +1390,7 @@ honnête	honnête	ADJ
 et	et	CCONJ
 celui	celui	PRON
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 par	par	ADP
 un	un	DET
 homme	homme	NOUN
@@ -1687,7 +1687,7 @@ des	un	DET
 mythes	mythe	NOUN
 bourgeois	bourgeois	ADJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 ne	ne	ADV
 est	être	AUX
@@ -1698,7 +1698,7 @@ négatif	négatif	NOUN
 du	du	ADP_DET
 christianisme	christianisme	NOUN
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -1750,7 +1750,7 @@ physique	physique	ADJ
 autrement	autrement	ADV
 impressionnant	impressionner	VERB
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 correspondent	correspondre	VERB
 ,	,	PUNCTclause
@@ -1891,7 +1891,7 @@ radicalement	radicalement	ADV
 antipolitique	antipolitique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 —	—	PUNCTclause
@@ -1987,7 +1987,7 @@ sentiments	sentiment	NOUN
 incontrôlés	incontrôlé	ADJ
 ,	,	PUNCTclause
 —	—	PUNCTclause
-c'est-à-dire	c'est-à-dire	NOUN
+c'est-à-dire	c'est-à-dire	CCONJ
 que	que	SCONJ
 elle	elle	PRON
 est	être	AUX
@@ -2228,7 +2228,7 @@ commune	commun	NOUN
 mesure	mesurer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 pour	pour	ADP
 nous	nous	PRON
@@ -2812,7 +2812,7 @@ compris	comprendre	VERB
 L'Ordre nouveau	L'Ordre nouveau	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 nous	nous	PRON
@@ -2954,7 +2954,7 @@ je	je	PRON
 demande	demander	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 est	être	AUX
 ce	ce	PRON
@@ -3051,7 +3051,7 @@ pratique	pratique	ADJ
 de	de	ADP
 une	un	DET
 doctrine	doctrine	NOUN
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 justement	justement	ADV
 de	de	ADP
 offrir	offrir	VERB
@@ -3151,7 +3151,7 @@ l'	le	DET
 être	être	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 nous	nous	PRON
 sommes	être	AUX
@@ -3363,7 +3363,7 @@ dans	dans	ADP
 une	un	DET
 usine	usine	NOUN
 pendant	pendant	ADP
-15	15	NUM
+15	15	DIGIT
 jours	jour	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3507,7 +3507,7 @@ et	et	CCONJ
 droite	droite	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 dirons	dire	VERB
@@ -3658,7 +3658,7 @@ l'	le	DET
 esprit	esprit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 les	le	DET
 grandes	grand	ADJ
@@ -3935,7 +3935,7 @@ réponse	réponse	NOUN
 efficace	efficace	ADJ
 ,	,	PUNCTclause
 donneront	donner	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 un	un	DET
 but	but	NOUN
 commun	commun	ADJ

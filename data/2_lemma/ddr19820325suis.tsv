@@ -16,9 +16,9 @@ Europe	Europe	PROPN
 des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 mars	mars	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -45,7 +45,7 @@ personne	personne	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 cette	ce	DET
 idée	idée	NOUN
@@ -582,7 +582,7 @@ a	avoir	AUX
 copié	copier	VERB
 presque	presque	ADV
 par	par	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 je	je	PRON
 l'	le_PRON	PRON
@@ -948,7 +948,7 @@ dangereuse	dangereux	ADJ
 les	le	DET
 fusées	fusée	NOUN
 des	un	ADP_DET
-26	26	NUM
+26	26	DIGIT
 silos	silo	NOUN
 du	du	ADP_DET
 plateau	plateau	NOUN

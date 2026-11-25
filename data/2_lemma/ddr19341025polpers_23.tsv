@@ -6,7 +6,7 @@
 # title = 4. Ni droite ni gauche
 
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 ni	ni	CCONJ
 droite	droite	NOUN
@@ -385,7 +385,7 @@ de	de	ADP
 huit	huit	NUM
 heures	heure	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 qui	qui	PRON
 vient	venir	VERB
@@ -407,7 +407,7 @@ que	que	ADV
 voici	voici	ADP
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 on	on	PRON
@@ -449,7 +449,7 @@ cadre	cadre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 chaque	chaque	DET
@@ -509,7 +509,7 @@ chaque	chaque	DET
 facteur	facteur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 une	un	DET
@@ -548,7 +548,7 @@ soin	soin	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 le	le_PRON	PRON
@@ -945,6 +945,6 @@ classification	classification	NOUN
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause

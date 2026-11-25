@@ -8,7 +8,7 @@
 ↵↵	↵↵	PUNCTstruct
 agora	agora	NOUN
 (	(	PUNCTclause
-1994	1994	NUM
+1994	1994	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -91,7 +91,7 @@ parlé	parler	VERB
 Aristote	Aristote	PROPN
 surtout	surtout	ADV
 a	avoir	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 du	du	ADP_DET
 rôle	rôle	NOUN
 indispensable	indispensable	ADJ
@@ -279,7 +279,7 @@ que	que	SCONJ
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 dit	dire	VERB
 du	du	ADP_DET
@@ -326,7 +326,7 @@ le	le	DET
 col	col	NOUN
 ouvert	ouvrir	VERB
 vers	vers	ADP
-1240	1240	NUM
+1240	1240	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 ont	avoir	AUX
@@ -790,7 +790,7 @@ Paris	Paris	PROPN
 ,	,	PUNCTclause
 Vrin	Vrin	PROPN
 ,	,	PUNCTclause
-1989	1989	NUM
+1989	1989	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Mumford	Mumford	PROPN
@@ -806,7 +806,7 @@ Paris	Paris	PROPN
 ,	,	PUNCTclause
 Seuil	Seuil	PROPN
 ,	,	PUNCTclause
-1964	1964	NUM
+1964	1964	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Platon	Platon	PROPN
@@ -823,6 +823,6 @@ Paris	Paris	PROPN
 la	le	DET
 Pléiade	Pléiade	PROPN
 ,	,	PUNCTclause
-1989	1989	NUM
--1990	-1990	NUM
+1989	1989	DIGIT
+-1990	-1990	DIGIT
 .	.	PUNCTsent

@@ -16,7 +16,7 @@ les	le	DET
 cultures	culture	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -86,7 +86,7 @@ moyens	moyen	NOUN
 de	de	ADP
 transport	transport	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 plus	plus	ADV
@@ -454,7 +454,7 @@ culture	culture	NOUN
 ;	;	PUNCTclause
 recherche scientifique	recherche scientifique	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 créant	créer	VERB
 des	un	DET
@@ -567,7 +567,7 @@ culture	culture	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -672,7 +672,7 @@ l'	le	DET
 évolution	évolution	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -743,7 +743,7 @@ unité	unité	NOUN
 réelle	réel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -779,7 +779,7 @@ philosophique	philosophique	ADJ
 ,	,	PUNCTclause
 biophysique	biophysique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 cette	ce	DET
@@ -903,7 +903,7 @@ Europe	Europe	PROPN
 !	!	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -938,7 +938,7 @@ de	de	ADP
 études	étude	NOUN
 arabes	arabe	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	ADV
 dans	dans	ADP
 nos	nos	DET
 grandes	grand	ADJ
@@ -962,7 +962,7 @@ Chine	Chine	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 au moment de	au moment de	ADP
 entreprendre	entreprendre	VERB
@@ -1610,7 +1610,7 @@ efforts	effort	NOUN
 existants	existant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 a	avoir	AUX
 )	)	PUNCTclause
@@ -1638,7 +1638,7 @@ dix	dix	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 dès	dès	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 promouvoir	promouvoir	VERB
@@ -1743,9 +1743,9 @@ Bruxelles	Bruxelles	PROPN
 Huit	Huit	NUM
 congrès	congrès	NOUN
 de	de	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 à	à	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 publication	publication	NOUN
@@ -1758,7 +1758,7 @@ volumes	volume	NOUN
 a	avoir	AUX
 édité	éditer	VERB
 en	en	ADP
-1955	1955	NUM
+1955	1955	DIGIT
 un	un	DET
 très	très	ADV
 utile	utile	ADJ
@@ -1798,7 +1798,7 @@ Salzbourg	Salzbourg	PROPN
 premier	premier	ADJ
 congrès	congrès	NOUN
 en	en	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1812,7 +1812,7 @@ Centre	Centre	PROPN
 New	New	PROPN
 Dehli	Dehli	PROPN
 ,	,	PUNCTclause
-1958	1958	NUM
+1958	1958	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 entrepris	entreprendre	VERB
@@ -1834,7 +1834,7 @@ de	de	ADP
 Tokyo	Tokyo	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 b	b	NOUN
 )	)	PUNCTclause
 institutions	institution	X
@@ -1861,7 +1861,7 @@ africanistes	africaniste	ADJ
 ,	,	PUNCTclause
 arabisantes	arabisant	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
@@ -1964,7 +1964,7 @@ culturelles	culturel	ADJ
 des	un	DET
 ministères	ministère	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 contribuent	contribuer	VERB
 aux	au	ADP_DET
 échanges	échange	NOUN
@@ -1993,7 +1993,7 @@ culture	culture	NOUN
 nationale	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 publications	publication	NOUN
 .	.	PUNCTsent
@@ -2089,9 +2089,9 @@ pédagogiques	pédagogique	ADJ
 ,	,	PUNCTclause
 économiques	économique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 la plupart	la plupart	PRON
-des	un	DET
+des	un	ADP_DET
 publications	publication	NOUN
 (	(	PUNCTclause
 revues	revue	NOUN
@@ -2246,9 +2246,9 @@ et	et	CCONJ
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 grand	grand	ADJ
@@ -2466,7 +2466,7 @@ présuppositions	présupposition	NOUN
 fondamentales	fondamental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 congrès	congrès	NOUN
 ,	,	PUNCTclause
@@ -2586,7 +2586,7 @@ des	un	DET
 thèmes	thème	NOUN
 définis	défini	ADJ
 ,	,	PUNCTclause
-traités	traiter	VERB
+traités	traité	NOUN
 par	par	ADP
 des	un	DET
 professeurs	professeur	NOUN
@@ -2619,7 +2619,7 @@ liberté	liberté	NOUN
 (	(	PUNCTclause
 Milan	Milan	PROPN
 ,	,	PUNCTclause
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2632,7 +2632,7 @@ liberté	liberté	NOUN
 (	(	PUNCTclause
 Berlin	Berlin	PROPN
 ,	,	PUNCTclause
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 groupant	grouper	VERB
@@ -2687,7 +2687,7 @@ Khartoum	Khartoum	PROPN
 ,	,	PUNCTclause
 Tunis	Tunis	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 qui	qui	PRON
 ont	avoir	AUX
@@ -2729,7 +2729,7 @@ son	son	DET
 congrès	congrès	NOUN
 annuel	annuel	ADJ
 de	de	ADP
-1959	1959	NUM
+1959	1959	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Vienne	Vienne	PROPN
@@ -2765,7 +2765,7 @@ Europe-Afrique	Europe-Afrique	PROPN
 à	à	ADP
 Rome	Rome	PROPN
 en	en	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 prépare	préparer	VERB
@@ -2781,7 +2781,7 @@ une	un	DET
 seconde	second	ADJ
 rencontre	rencontre	NOUN
 pour	pour	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 en	en	ADP
 Afrique	Afrique	PROPN
 .	.	PUNCTsent
@@ -2810,7 +2810,7 @@ religieuses	religieux	ADJ
 ,	,	PUNCTclause
 politiques	politique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 permettent	permettre	VERB
 des	un	DET
 échanges	échange	NOUN
@@ -2944,7 +2944,7 @@ colloques	colloque	NOUN
 ,	,	PUNCTclause
 séminaires	séminaire	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 sont	être	VERB
 si	si	ADV
@@ -3014,7 +3014,7 @@ raisons	raison	NOUN
 principales	principal	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 une	un	DET
 addition	addition	NOUN
@@ -3089,7 +3089,7 @@ de	de	ADP
 la	le	DET
 religion	religion	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 même si	même si	SCONJ
 ils	ils	PRON
@@ -3169,7 +3169,7 @@ région	région	NOUN
 région	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 entre	entre	ADP
 les	le	DET
@@ -3374,7 +3374,7 @@ des	un	ADP_DET
 méthodes	méthode	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 relations	relation	NOUN
@@ -3502,7 +3502,7 @@ de	de	ADP
 dialogue	dialogue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 organiser	organiser	VERB
 le	le	DET
@@ -3669,9 +3669,9 @@ impérialisme	impérialisme	NOUN
 sans	sans	ADP
 mauvaise conscience	mauvaise conscience	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-les	le	DET
-États-Unis	États-Unis	PROPN
+etc.	etc.	X
+les	le	X
+États-Unis	États-Unis	X
 sont	être	AUX
 à la fois	à la fois	ADV
 plus	plus	ADV
@@ -4056,7 +4056,7 @@ se	se	PRON
 instituer	instituer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 présenter	présenter	VERB
@@ -4497,7 +4497,7 @@ du	du	ADP_DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 trouver	trouver	VERB
 ,	,	PUNCTclause
@@ -4892,7 +4892,7 @@ services	service	NOUN
 suivants	suivant	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 documentation	documentation	NOUN
 .	.	PUNCTsent
@@ -4939,7 +4939,7 @@ et	et	CCONJ
 complète	complet	ADJ
 de plus	de plus	ADV
 de	de	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 titres	titre	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -4989,7 +4989,7 @@ de	de	ADP
 ,	,	PUNCTclause
 revues	revue	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 de	de	ADP
 tous	tout	ADJ
 les	le	DET
@@ -5036,7 +5036,7 @@ de	de	ADP
 l'	le	DET
 urbanisme	urbanisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -5206,13 +5206,13 @@ de	de	ADP
 études	étude	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 contribution	contribution	NOUN
 à	à	ADP
@@ -5283,7 +5283,7 @@ religieuses	religieux	ADJ
 des	un	ADP_DET
 arts	art	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -5354,8 +5354,8 @@ industriels	industriel	ADJ
 hommes	homme	NOUN
 politiques	politique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-ils	ils	PRON
+etc.	etc.	X
+ils	ils	X
 combleraient	combler	VERB
 une	un	DET
 des	un	ADP_DET
@@ -5398,7 +5398,7 @@ la	le	DET
 région	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 relais	relais	NOUN
 ,	,	PUNCTclause
@@ -5786,7 +5786,7 @@ documentation	documentation	NOUN
 ,	,	PUNCTclause
 statut	statut	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 fournit	fournir	VERB
 un	un	DET
@@ -5900,5 +5900,5 @@ succès	succès	NOUN
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 août	août	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 .	.	PUNCTsent

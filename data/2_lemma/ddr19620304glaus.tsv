@@ -10,10 +10,10 @@ fédéralisme	fédéralisme	NOUN
 et	et	CCONJ
 culture	culture	NOUN
 (	(	PUNCTclause
-3	3	NUM
--4	-4	X
+3	3	DIGIT
+-4	-4	DIGIT
 mars	mars	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -89,7 +89,7 @@ radio	radio	NOUN
 ,	,	PUNCTclause
 publications	publication	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 et	et	CCONJ
 plutôt	plutôt	ADV
 que	que	SCONJ

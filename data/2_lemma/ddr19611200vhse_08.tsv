@@ -6,7 +6,7 @@
 # title = 6. Le concept géographique
 
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 le	le	DET
 concept	concept	NOUN
@@ -272,7 +272,7 @@ vers	vers	NOUN
 latin	latin	ADJ
 ,	,	PUNCTclause
 vers	vers	ADP
-370	370	NUM
+370	370	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 récit	récit	NOUN
@@ -365,8 +365,8 @@ Milet	Milet	PROPN
 ,	,	PUNCTclause
 né	naître	VERB
 vers	vers	ADP
-540	540	NUM
-av. J.-C.	av. J.-C.	NOUN
+540	540	DIGIT
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 avait	avoir	AUX
 écrit	écrire	VERB
@@ -403,7 +403,7 @@ son	son	DET
 Prométhée	Prométhée	PROPN
 joué	jouer	VERB
 en	en	ADP
-472	472	NUM
+472	472	DIGIT
 ,	,	PUNCTclause
 Eschyle	Eschyle	PROPN
 fait	faire	AUX
@@ -570,7 +570,7 @@ fin	fin	NOUN
 du	du	ADP_DET
 5e	5e	ADJ
 siècle	siècle	NOUN
-av. J.-C.	av. J.-C.	NOUN
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 Hippocrate	Hippocrate	PROPN
 (	(	PUNCTclause
@@ -617,9 +617,9 @@ essentiel	essentiel	ADJ
 de	de	ADP
 Aristote	Aristote	PROPN
 (	(	PUNCTclause
-384	384	NUM
--322	-322	NUM
-av. J.-C.	av. J.-C.	NOUN
+384	384	DIGIT
+-322	-322	DIGIT
+av. J.-C.	av. J.-C.	ADV
 )	)	PUNCTclause
 sur	sur	ADP
 l'	le	DET
@@ -631,7 +631,7 @@ livre	livre	NOUN
 VII	VII	NUM
 ,	,	PUNCTclause
 chapitre	chapitre	NOUN
-6	6	NUM
+6	6	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -671,7 +671,7 @@ Platon	Platon	PROPN
 au	au	ADP_DET
 4e	4e	ADJ
 siècle	siècle	NOUN
-av. J.-C.	av. J.-C.	NOUN
+av. J.-C.	av. J.-C.	ADV
 )	)	PUNCTclause
 et	et	CCONJ
 ancêtre	ancêtre	NOUN
@@ -712,7 +712,7 @@ Hérodote	Hérodote	PROPN
 au	au	ADP_DET
 5e	5e	ADJ
 siècle	siècle	NOUN
-av. J.-C.	av. J.-C.	NOUN
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 définit	définir	VERB
 l'	le	DET
@@ -1086,8 +1086,8 @@ Comedia	Comedia	PROPN
 Giovanni	Giovanni	PROPN
 Boccace	Boccace	PROPN
 (	(	PUNCTclause
-1313	1313	NUM
--1375	-1375	NUM
+1313	1313	DIGIT
+-1375	-1375	DIGIT
 )	)	PUNCTclause
 reprend	reprendre	VERB
 la	le	DET
@@ -1127,7 +1127,7 @@ cosmographie	cosmographie	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1679	1679	NUM
+1679	1679	DIGIT
 ,	,	PUNCTclause
 Robbe	Robbe	PROPN
 ,	,	PUNCTclause
@@ -1187,7 +1187,7 @@ parue	paraître	VERB
 à	à	ADP
 Paris	Paris	PROPN
 en	en	ADP
-1816	1816	NUM
+1816	1816	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ainsi	ainsi	ADV
@@ -1236,7 +1236,7 @@ Orose	Orose	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 «	«	PUNCTclause
-54	54	NUM
+54	54	DIGIT
 nations	nation	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
@@ -1250,7 +1250,7 @@ ne	ne	ADV
 en	en	PRON
 trouve	trouver	VERB
 que	que	SCONJ
-34	34	NUM
+34	34	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 quoique	quoique	SCONJ

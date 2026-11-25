@@ -14,7 +14,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 février	février	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -29,7 +29,7 @@ même	même	ADJ
 bulletin	bulletin	NOUN
 de	de	ADP
 novembre-décembre	novembre-décembre	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 de	de	ADP
@@ -45,7 +45,7 @@ Rome	Rome	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 octobre	octobre	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 par	par	ADP
 le	le	DET
@@ -147,9 +147,9 @@ a	avoir	AUX
 convoqué	convoquer	VERB
 ,	,	PUNCTclause
 du	du	ADP_DET
-16	16	NUM
+16	16	DIGIT
 au	au	ADP_DET
-23	23	NUM
+23	23	DIGIT
 mars	mars	NOUN
 prochains	prochain	ADJ
 ,	,	PUNCTclause
@@ -238,7 +238,7 @@ du	du	ADP_DET
 		TOKEN
 présidera	présider	VERB
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 les	le	DET
@@ -291,13 +291,12 @@ Groth	Groth	PROPN
 et	et	CCONJ
 Kowarski	Kowarski	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 notre	notre	DET
 bulletin	bulletin	NOUN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 juin	juin	NOUN
 ne	ne	ADV
 manquera	manquer	VERB

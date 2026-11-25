@@ -6,7 +6,7 @@
 # title = 7. Synthèses historico-philosophiques (II)
 
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 synthèses	synthèse	NOUN
 historico-philosophiques	historico-philosophiques	NOUN
@@ -22,13 +22,13 @@ von	von	X
 Hardenberg	Hardenberg	PROPN
 )	)	PUNCTclause
 (	(	PUNCTclause
-1772	1772	NUM
--1802	-1802	NUM
+1772	1772	DIGIT
+-1802	-1802	DIGIT
 )	)	PUNCTclause
 avait	avoir	AUX
 écrit	écrire	VERB
 en	en	ADP
-1799	1799	NUM
+1799	1799	DIGIT
 déjà	déjà	ADV
 un	un	DET
 essai	essai	NOUN
@@ -88,7 +88,7 @@ ne	ne	ADV
 parut	paraître	VERB
 que	que	ADV
 en	en	ADP
-1826	1826	NUM
+1826	1826	DIGIT
 ,	,	PUNCTclause
 longtemps	longtemps	ADV
 après	après	ADP
@@ -312,8 +312,8 @@ poète	poète	NOUN
 Josef	Josef	PROPN
 Görres	Görres	PROPN
 (	(	PUNCTclause
-1776	1776	NUM
--1848	-1848	NUM
+1776	1776	DIGIT
+-1848	-1848	DIGIT
 )	)	PUNCTclause
 est	être	AUX
 celui	celui	PRON
@@ -397,7 +397,7 @@ Révolution	Révolution	PROPN
 il	il	PRON
 écrit	écrire	VERB
 en	en	ADP
-1795	1795	NUM
+1795	1795	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET
@@ -438,7 +438,7 @@ les	le	DET
 journées	journée	NOUN
 de	de	ADP
 Brumaire	Brumaire	PROPN
-1799	1799	NUM
+1799	1799	DIGIT
 —	—	PUNCTclause
 Bonaparte	Bonaparte	PROPN
 a	avoir	AUX
@@ -460,7 +460,7 @@ la	le	DET
 Sainte-Alliance	Sainte-Alliance	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 publie	publier	VERB
@@ -493,7 +493,7 @@ des	un	ADP_DET
 germains	germain	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1819	1819	NUM
+1819	1819	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 salue	saluer	VERB
@@ -557,7 +557,7 @@ Asie	Asie	PROPN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1821	1821	NUM
+1821	1821	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET
@@ -670,7 +670,7 @@ Allemagne	Allemagne	PROPN
 enfin	enfin	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1822	1822	NUM
+1822	1822	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET
@@ -738,8 +738,8 @@ Franz	Franz	PROPN
 von	von	X
 Baader	Baader	PROPN
 (	(	PUNCTclause
-1765	1765	NUM
--1841	-1841	NUM
+1765	1765	DIGIT
+-1841	-1841	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 philosophe	philosophe	NOUN
@@ -814,7 +814,7 @@ que	que	SCONJ
 il	il	PRON
 adresse	adresser	VERB
 en	en	ADP
-1814	1814	NUM
+1814	1814	DIGIT
 aux	au	ADP_DET
 empereurs	empereur	NOUN
 de	de	ADP
@@ -928,8 +928,8 @@ Friedrich	Friedrich	PROPN
 von	von	X
 Schlegel	Schlegel	PROPN
 (	(	PUNCTclause
-1772	1772	NUM
--1829	-1829	NUM
+1772	1772	DIGIT
+-1829	-1829	DIGIT
 )	)	PUNCTclause
 publia	publier	VERB
 la première	la première	PRON
@@ -942,9 +942,9 @@ siècle	siècle	NOUN
 Europa	Europa	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-1803	1803	NUM
+1803	1803	DIGIT
 à	à	ADP
-1805	1805	NUM
+1805	1805	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 il	il	PRON
@@ -1064,7 +1064,7 @@ allait	aller	VERB
 devenir	devenir	VERB
 catholique	catholique	ADJ
 en	en	ADP
-1808	1808	NUM
+1808	1808	DIGIT
 )	)	PUNCTclause
 ont	avoir	AUX
 représenté	représenter	VERB
@@ -1283,8 +1283,7 @@ Vorlesungen	Vorlesungen	PROPN
 Karl	Karl	PROPN
 V	V	NUM
 (	(	PUNCTclause
-15	15	NUM
-e	e	NOUN
+15e	15e	NUMord
 leçon	leçon	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -1317,8 +1316,8 @@ Georg	Georg	PROPN
 Friedrich	Friedrich	PROPN
 Hegel	Hegel	PROPN
 (	(	PUNCTclause
-1770	1770	NUM
--1831	-1831	NUM
+1770	1770	DIGIT
+-1831	-1831	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 l'	le	DET
@@ -1543,8 +1542,8 @@ Josef	Josef	PROPN
 von	von	X
 Schelling	Schelling	PROPN
 (	(	PUNCTclause
-1775	1775	NUM
--1854	-1854	NUM
+1775	1775	DIGIT
+-1854	-1854	DIGIT
 )	)	PUNCTclause
 fut	être	AUX
 le	le	DET
@@ -1715,7 +1714,7 @@ Transcendentalen	Transcendentalen	PROPN
 Idealismus	Idealismus	PROPN
 publié	publier	VERB
 en	en	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 ,	,	PUNCTclause
 Schelling	Schelling	PROPN
 défend	défendre	VERB
@@ -1766,7 +1765,7 @@ Providence	Providence	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1806	1806	NUM
+1806	1806	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 écrit	écrire	VERB
@@ -1818,8 +1817,8 @@ peuples	peuple	NOUN
 Auguste	Auguste	PROPN
 Comte	Comte	PROPN
 (	(	PUNCTclause
-1798	1798	NUM
--1857	-1857	NUM
+1798	1798	DIGIT
+-1857	-1857	DIGIT
 )	)	PUNCTclause
 représente	représenter	VERB
 en	en	ADP
@@ -1932,7 +1931,7 @@ d'autres	d'autre	PRON
 tous	tout	ADJ
 auteurs	auteur	NOUN
 de	de	ADP
-traités	traiter	VERB
+traités	traité	NOUN
 sur	sur	ADP
 l'	le	DET
 unité	unité	NOUN

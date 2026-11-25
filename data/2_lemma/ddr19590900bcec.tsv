@@ -9,7 +9,7 @@
 Editeuropa	Editeuropa	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1959	1959	NUM
+1959	1959	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -327,7 +327,7 @@ efficacité	efficacité	NOUN
 de plus	de plus	ADV
 ,	,	PUNCTclause
 tout	tout	PRON
-ouvrage	ouvrager	VERB
+ouvrage	ouvrage	NOUN
 sur	sur	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -592,7 +592,7 @@ association	association	NOUN
 qui	qui	PRON
 groupe	grouper	VERB
 actuellement	actuellement	ADV
-8	8	NUM
+8	8	DIGIT
 éditeurs	éditeur	NOUN
 ,	,	PUNCTclause
 représentant	représenter	VERB
@@ -619,7 +619,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 septembre	septembre	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 ,	,	PUNCTclause
 à l'occasion de	à l'occasion de	ADP
 une	un	DET
@@ -714,7 +714,7 @@ fonctions	fonction	NOUN
 dès	dès	ADP
 l'	le	DET
 automne	automne	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 a	avoir	VERB
@@ -767,15 +767,15 @@ doivent	devoir	VERB
 paraître	paraître	VERB
 au	au	ADP_DET
 printemps	printemps	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 se	se	PRON
 échelonner	échelonner	VERB
 à raison de	à raison de	ADP
-3	3	NUM
+3	3	DIGIT
 ou	ou	CCONJ
-4	4	NUM
+4	4	DIGIT
 par	par	ADP
 an	an	NOUN
 .	.	PUNCTsent
@@ -1127,7 +1127,7 @@ et	et	CCONJ
 susceptibilités	susceptibilité	NOUN
 nationales	national	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 qui	qui	PRON
 feront	faire	VERB
 que	que	SCONJ

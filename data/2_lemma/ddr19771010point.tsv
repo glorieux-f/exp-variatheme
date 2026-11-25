@@ -17,9 +17,9 @@ Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 octobre	octobre	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -68,7 +68,7 @@ raconteront	raconter	VERB
 pas	pas	ADV
 …	…	PUNCTsent
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 quel	quel	ADJ
 est	être	AUX
@@ -105,9 +105,9 @@ il	il	PRON
 arrivera	arriver	VERB
 …	…	PUNCTsent
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
-donc	donc	CCONJ
+donc	donc	ADV
 je	je	PRON
 ne	ne	ADV
 annonce	annoncer	VERB
@@ -545,11 +545,11 @@ croître	croître	VERB
 .	.	PUNCTsent
 est	être	AUX
 ce	ce	DET
-10	10	NUM
+10	10	DIGIT
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 par	par	ADP
 an	an	NOUN
 ?	?	PUNCTsent
@@ -779,7 +779,7 @@ environ	environ	ADV
 autour de	autour de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -891,7 +891,7 @@ prophète	prophète	NOUN
 pour	pour	ADP
 comprendre	comprendre	VERB
 que	que	SCONJ
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 à	à	ADP
 cinq	cinq	NUM
 ou	ou	CCONJ
@@ -1178,7 +1178,7 @@ sans	sans	ADP
 rire	rire	VERB
 que	que	SCONJ
 les	le	DET
-175	175	NUM
+175	175	DIGIT
 états-nations	État-nation	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -2515,7 +2515,7 @@ les	le	DET
 plus	plus	ADV
 optimistes	optimiste	ADJ
 ,	,	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 de plus	de plus	ADV
 de	de	ADP
 électricité	électricité	NOUN
@@ -2530,7 +2530,7 @@ nous	nous	PRON
 pouvons	pouvoir	VERB
 faire	faire	VERB
 déjà	déjà	ADV
-30	30	NUM
+30	30	DIGIT
 de	de	ADP
 économie	économie	NOUN
 tout de suite	tout de suite	ADV
@@ -2542,7 +2542,7 @@ crise	crise	NOUN
 on	on	PRON
 a	avoir	AUX
 fait	faire	AUX
-20	20	NUM
+20	20	DIGIT
 en	en	ADP
 Suisse	Suisse	PROPN
 comme	comme	SCONJ
@@ -2601,7 +2601,7 @@ il	il	PRON
 faudrait	falloir	VERB
 multiplier	multiplier	VERB
 par	par	ADP
-16384	16384	NUM
+16384	16384	DIGIT
 la	le	DET
 production	production	NOUN
 .	.	PUNCTsent
@@ -2982,7 +2982,7 @@ France	France	PROPN
 en	en	ADP
 carrés	carré	NOUN
 de	de	ADP
-18	18	NUM
+18	18	DIGIT
 lieues	lieue	NOUN
 de	de	ADP
 côté	côté	NOUN
@@ -3415,7 +3415,7 @@ si	si	SCONJ
 elle	elle	PRON
 dépassait	dépasser	VERB
 mettons	mettre	VERB
-100000	100000	NUM
+100000	100000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -3476,7 +3476,7 @@ la	le	DET
 population	population	NOUN
 approchait	approcher	VERB
 de	de	ADP
-100000	100000	NUM
+100000	100000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 ils	ils	PRON
@@ -3576,9 +3576,9 @@ sagesse	sagesse	NOUN
 .	.	PUNCTsent
 ils	ils	PRON
 étaient	être	AUX
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-150	150	NUM
+150	150	DIGIT
 pour	pour	ADP
 cultiver	cultiver	VERB
 un	un	DET
@@ -4087,7 +4087,7 @@ moi	moi	PRON
 un	un	DET
 modèle	modèle	NOUN
 assez	assez	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 la	le	DET
 cité	cité	NOUN
 grecque	grec	ADJ
@@ -4412,7 +4412,7 @@ est	être	AUX
 né	naître	VERB
 .	.	PUNCTsent
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 avions	avoir	AUX
@@ -4853,7 +4853,7 @@ crise	crise	NOUN
 du	du	ADP_DET
 pétrole	pétrole	NOUN
 en	en	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX

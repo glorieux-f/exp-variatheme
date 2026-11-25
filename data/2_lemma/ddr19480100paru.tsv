@@ -14,7 +14,7 @@ de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -204,7 +204,7 @@ Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 a	avoir	VERB
-41	41	NUM
+41	41	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 petit	petit	ADJ
@@ -491,7 +491,7 @@ de	de	ADP
 Francfort	Francfort	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 vins	venir	VERB
@@ -646,7 +646,7 @@ forteresse	forteresse	NOUN
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 était	être	AUX
@@ -1308,7 +1308,7 @@ Voltaire	Voltaire	PROPN
 ,	,	PUNCTclause
 Rousseau	Rousseau	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ?	?	PUNCTsent
 et	et	CCONJ
 Calvin	Calvin	PROPN
@@ -1635,9 +1635,9 @@ génération	génération	NOUN
 des	un	ADP_DET
 hommes	homme	NOUN
 de	de	ADP
-40	40	NUM
+40	40	DIGIT
 à	à	ADP
-50	50	NUM
+50	50	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -1705,7 +1705,7 @@ par	par	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 était	être	AUX
 moins	moins	ADV
 profond	profond	ADJ
@@ -1778,7 +1778,7 @@ voix	voix	NOUN
 les	le	DET
 hommes	homme	NOUN
 de	de	ADP
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 comme	comme	SCONJ
 vous	vous	PRON
@@ -1793,7 +1793,7 @@ les	le	DET
 discours	discours	NOUN
 commencés	commencer	VERB
 avant	avant	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 à	à	ADP
 cette	ce	DET
@@ -2695,9 +2695,9 @@ que	que	SCONJ
 il	il	PRON
 écrivit	écrire	VERB
 entre	entre	ADP
-20	20	NUM
+20	20	DIGIT
 et	et	CCONJ
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -2758,7 +2758,7 @@ jamais	jamais	ADV
 fait	faire	VERB
 peur	peur	NOUN
 ,	,	PUNCTclause
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 les	le	DET
 machines	machine	NOUN
 .	.	PUNCTsent

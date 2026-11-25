@@ -10,9 +10,9 @@ ONU	ONU	PROPN
 des	un	ADP_DET
 animaux	animal	NOUN
 (	(	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 décembre	décembre	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -124,7 +124,7 @@ les	le	DET
 campagnes	campagne	NOUN
 toutes	tout	ADJ
 proches	proche	ADJ
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 ,	,	PUNCTclause
 des	un	DET
 petits	petit	ADJ
@@ -854,7 +854,7 @@ animal	animal	ADJ
 est	être	AUX
 le	le	DET
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent

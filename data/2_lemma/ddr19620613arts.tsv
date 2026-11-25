@@ -24,9 +24,9 @@ de	de	ADP
 vivre	vivre	VERB
 ?	?	PUNCTsent
 (	(	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 juin	juin	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -137,14 +137,14 @@ trouve	trouver	VERB
 contenir	contenir	VERB
 à la fois	à la fois	ADV
 le	le	DET
-94	94	NUM
+94	94	DIGIT
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
 actuelle	actuel	ADJ
 et	et	CCONJ
 le	le	DET
-98	98	NUM
+98	98	DIGIT
 de	de	ADP
 la	le	DET
 production	production	NOUN
@@ -178,11 +178,11 @@ ne	ne	ADV
 contient	contenir	VERB
 donc	donc	ADV
 que	que	ADV
-6	6	NUM
+6	6	DIGIT
 des	un	ADP_DET
 habitants	habitant	NOUN
 et	et	CCONJ
-2	2	NUM
+2	2	DIGIT
 de	de	ADP
 la	le	DET
 production	production	NOUN
@@ -271,9 +271,8 @@ pourrait	pouvoir	VERB
 observer	observer	VERB
 pratiquement	pratiquement	ADV
 les	le	DET
-19	19	NUM
-20	20	NUM
-e	e	SYM
+19	19	DIGIT
+20e	20e	NUMord
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -525,7 +524,7 @@ plus	plus	ADV
 longues	long	ADJ
 côtes	côte	NOUN
 (	(	PUNCTclause
-7000	7000	NUM
+7000	7000	DIGIT
 km	km	NOUN
 de plus	de plus	ADV
 que	que	SCONJ
@@ -1726,9 +1725,9 @@ rédige	rédiger	VERB
 seul	seul	ADJ
 ,	,	PUNCTclause
 de	de	ADP
-1704	1704	NUM
+1704	1704	DIGIT
 à	à	ADP
-1713	1713	NUM
+1713	1713	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 ce	ce	PRON
@@ -2561,7 +2560,7 @@ la	le	DET
 discipline	discipline	NOUN
 sociale	social	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 prétend	prétendre	VERB
 se	se	PRON
@@ -3011,9 +3010,9 @@ commune	commun	NOUN
 rurale	rural	ADJ
 moyenne	moyen	ADJ
 de	de	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 à	à	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 habitants	habitant	NOUN
 .	.	PUNCTsent
 l'	le	DET
@@ -4440,7 +4439,7 @@ absurdité	absurdité	NOUN
 de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 la	le	DET
 notion	notion	NOUN
 de	de	ADP

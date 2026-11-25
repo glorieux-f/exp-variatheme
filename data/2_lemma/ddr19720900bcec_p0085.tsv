@@ -14,7 +14,7 @@ régions	région	NOUN
 transfrontalières	transfrontalier	ADJ
 (	(	PUNCTclause
 été	été	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -159,21 +159,21 @@ comme si	comme si	SCONJ
 il y a	il y a	VERB
 ainsi	ainsi	ADV
 Montreux	Montreux	PROPN
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Haye	Haye	PROPN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 Westminster	Westminster	PROPN
 et	et	CCONJ
 Lausanne	Lausanne	PROPN
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 Bruxelles	Bruxelles	PROPN
 et	et	CCONJ
 Rome	Rome	PROPN
-1950	1950	NUM
+1950	1950	DIGIT
 …	…	PUNCTsent
 le	le	DET
 fait	fait	NOUN
@@ -705,7 +705,7 @@ trois	trois	NUM
 points	point	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 définition	définition	NOUN
 de	de	ADP
@@ -956,8 +956,8 @@ sociale	social	ADJ
 ,	,	PUNCTclause
 énergétique	énergétique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-ce	ce	PRON
+etc.	etc.	X
+Ce	Ce	PUNCT
 qui	qui	PRON
 me	me	PRON
 conduit	conduire	VERB
@@ -992,7 +992,7 @@ communes	commun	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 commune	commun	NOUN
@@ -1139,17 +1139,17 @@ base	base	NOUN
 (	(	PUNCTclause
 par exemple	par exemple	ADV
 I.	I.	PROPN
-3.3	3.3	NUM
+3.3	3.3	DIGIT
 ;	;	PUNCTclause
 III	III	NUM
 .	.	PUNCTsent
-6	6	NUM
+6	6	DIGIT
 ;	;	PUNCTclause
 VI	VI	NUM
 .	.	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 et	et	CCONJ
-3	3	NUM
+3	3	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 à	à	ADP
@@ -1250,7 +1250,7 @@ aux	au	ADP_DET
 ministres	ministre	NOUN
 néerlandais	néerlandais	ADJ
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -1293,7 +1293,7 @@ réserve	réserve	NOUN
 la	le	DET
 recommandation	recommandation	NOUN
 n°	n°	SYM
-470	470	NUM
+470	470	DIGIT
 de	de	ADP
 l'	le	DET
 Assemblée	Assemblée	PROPN
@@ -1352,7 +1352,7 @@ au point	au point	ADJ
 C.3	C.3	X
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -1364,16 +1364,16 @@ Orianne	Orianne	PROPN
 ,	,	PUNCTclause
 IV	IV	NUM
 .	.	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 et	et	CCONJ
-3	3	NUM
+3	3	DIGIT
 ;	;	PUNCTclause
 Palmero	Palmero	PROPN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-57	57	NUM
+57	57	DIGIT
 et	et	CCONJ
-64	64	NUM
+64	64	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 la	le	DET
@@ -1382,7 +1382,7 @@ finale	final	ADJ
 (	(	PUNCTclause
 article	article	NOUN
 B.	B.	PROPN
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 demandent	demander	VERB

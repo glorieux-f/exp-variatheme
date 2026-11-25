@@ -12,14 +12,14 @@ l'	le	DET
 Europe	Europe	PROPN
 en	en	ADP
 août	août	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 :	:	PUNCTclause
 lettre	lettre	NOUN
 aux	au	ADP_DET
 Six	Six	PROPN
 (	(	PUNCTclause
 juillet-août	juillet-août	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -446,7 +446,7 @@ trois	trois	NUM
 raisons	raison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 est	être	AUX
@@ -551,7 +551,7 @@ les	le_PRON	PRON
 suivrait	suivre	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 projet	projet	NOUN
@@ -657,7 +657,7 @@ auriez	avoir	AUX
 écarté	écarter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 ses	son	DET
@@ -1041,7 +1041,7 @@ de	de	ADP
 fixer	fixer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB
@@ -1114,7 +1114,7 @@ revivront	revivre	VERB
 ensemble	ensemble	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB
@@ -1182,7 +1182,7 @@ notre	notre	DET
 désunion	désunion	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -1261,12 +1261,12 @@ des	un	ADP_DET
 autonomies	autonomie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 une	un	DET
 fédération	fédération	NOUN
 de	de	ADP
-155	155	NUM
+155	155	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1343,7 +1343,7 @@ son	son	DET
 sein	sein	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 une	un	DET
 telle	tel	PRON
@@ -1369,7 +1369,7 @@ souveraineté	souveraineté	NOUN
 nouvelle	nouveau	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 réelle	réel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1576,7 +1576,7 @@ les	le	DET
 rois-dieux	rois-dieux	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 les	le	DET
 paragraphes	paragraphe	NOUN
@@ -1710,7 +1710,7 @@ indissoluble	indissoluble	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1828,7 +1828,7 @@ plus	plus	ADV
 subtils	subtil	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 pourvu que	pourvu que	SCONJ
 le	le	DET
@@ -2065,7 +2065,7 @@ historique	historique	ADJ
 dès	dès	ADP
 l'	le	DET
 an	an	NOUN
-1204	1204	NUM
+1204	1204	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 l'	le	DET
@@ -2110,7 +2110,7 @@ avant de	avant de	ADP
 se	se	PRON
 éloigner	éloigner	VERB
 :	:	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 millions	million	NOUN
 de	de	ADP
 francs-or	francs-or	NOUN
@@ -2185,7 +2185,7 @@ trois	trois	NUM
 jours	jour	NOUN
 à	à	ADP
 plus de	plus de	DET
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 sans compter	sans compter	ADP

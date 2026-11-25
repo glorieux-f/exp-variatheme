@@ -10,7 +10,7 @@ un	un	DET
 libéral	libéral	NOUN
 engagé	engagé	ADJ
 (	(	PUNCTclause
-1966	1966	NUM
+1966	1966	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -19,7 +19,7 @@ du	du	ADP_DET
 Trocadéro	Trocadéro	PROPN
 (	(	PUNCTclause
 vers	vers	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ?	?	PUNCTsent
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -355,7 +355,7 @@ calviniste	calviniste	ADJ
 New York	New York	PROPN
 ,	,	PUNCTclause
 mars	mars	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 .	.	PUNCTsent
 —	—	PUNCTclause
 soirée	soirée	NOUN
@@ -525,7 +525,7 @@ défendre	défendre	VERB
 les	le	DET
 instituteurs	instituteur	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ?	?	PUNCTsent
 car	car	CCONJ
 ils	ils	PRON
@@ -751,9 +751,9 @@ union	union	NOUN
 Royaumont	Royaumont	PROPN
 ,	,	PUNCTclause
 le	le	DET
-4	4	NUM
+4	4	DIGIT
 avril	avril	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 au terme de	au terme de	ADP
 une	un	DET
@@ -779,7 +779,7 @@ la	le	DET
 Haye	Haye	PROPN
 dès	dès	ADP
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 mai	mai	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -915,7 +915,7 @@ ni	ni	CCONJ
 un	un	DET
 manager	manager	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 mais	mais	CCONJ
 très	très	ADV
@@ -1219,7 +1219,7 @@ culture	culture	NOUN
 (	(	PUNCTclause
 Lausanne	Lausanne	PROPN
 ,	,	PUNCTclause
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 fait	faire	VERB
 le	le	DET
@@ -1690,7 +1690,7 @@ un	un	DET
 libéral	libéral	NOUN
 ,	,	PUNCTclause
 toujours	toujours	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 discuter	discuter	VERB
 avec	avec	ADP
 n'importe qui	n'importe qui	PRON
@@ -2106,7 +2106,7 @@ vraiment	vraiment	ADV
 libéral	libéral	ADJ
 à la fois	à la fois	ADV
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 là	là	ADV
 son	son	DET
 plus	plus	ADV

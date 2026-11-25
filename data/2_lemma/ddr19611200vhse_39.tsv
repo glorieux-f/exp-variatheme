@@ -14,9 +14,9 @@ union	union	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
 de	de	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 à	à	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -81,7 +81,7 @@ titres	titre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 comte	comte	NOUN
@@ -111,7 +111,7 @@ Paneurope	Paneurope	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 paraissait	paraître	VERB
 le	le	DET
 manifeste	manifeste	NOUN
@@ -142,7 +142,7 @@ réunit	réunir	VERB
 à	à	ADP
 Vienne	Vienne	PROPN
 en	en	ADP
-1927	1927	NUM
+1927	1927	DIGIT
 .	.	PUNCTsent
 les	le	DET
 effigies	effigie	NOUN
@@ -176,11 +176,11 @@ Aristide	Aristide	PROPN
 Briand	Briand	PROPN
 ,	,	PUNCTclause
 alors	alors	ADV
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 ,	,	PUNCTclause
 décida	décider	VERB
 en	en	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 de	de	ADP
 soumettre	soumettre	VERB
 à	à	ADP
@@ -197,7 +197,7 @@ président	président	NOUN
 du	du	ADP_DET
 Conseil	Conseil	PROPN
 en	en	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 parlant	parler	VERB
@@ -208,7 +208,7 @@ France	France	PROPN
 il	il	PRON
 prononça	prononcer	VERB
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 septembre	septembre	NOUN
 devant	devant	ADP
 l'	le	DET
@@ -281,10 +281,9 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 daté	dater	VERB
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 mai	mai	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 et	et	CCONJ
 présenté	présenter	VERB
 à	à	ADP
@@ -408,9 +407,9 @@ succès	succès	NOUN
 électoral	électoral	ADJ
 ,	,	PUNCTclause
 le	le	DET
-14	14	NUM
+14	14	DIGIT
 septembre	septembre	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 la	le	DET
 dernière	dernier	ADJ
@@ -436,7 +435,7 @@ folles	fou	ADJ
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 était	être	AUX
 dès lors	dès lors	ADV
 fatale	fatal	ADJ
@@ -480,7 +479,7 @@ de	de	ADP
 union	union	NOUN
 .	.	PUNCTsent
 dès	dès	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 groupe	groupe	NOUN
@@ -531,7 +530,7 @@ Genève	Genève	PROPN
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1944	1944	NUM
+1944	1944	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 représentants	représentant	NOUN
@@ -570,7 +569,7 @@ Montreux	Montreux	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 septembre	septembre	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 leur	leur	DET
 premier	premier	ADJ
@@ -665,9 +664,9 @@ Churchill	Churchill	PROPN
 Zurich	Zurich	PROPN
 ,	,	PUNCTclause
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 septembre	septembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 propose	proposer	VERB
 «	«	PUNCTclause
@@ -744,9 +743,9 @@ réunit	réunir	VERB
 la	le	DET
 Haye	Haye	PROPN
 le	le	DET
-7	7	NUM
+7	7	DIGIT
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 le	le	DET
 document	document	NOUN
@@ -891,7 +890,7 @@ par	par	ADP
 le	le	DET
 Mémorandum	Mémorandum	PROPN
 de	de	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 trouvent	trouver	VERB
 en effet	en effet	ADV
 leur	leur	DET
@@ -946,8 +945,7 @@ plus	plus	ADV
 dans	dans	ADP
 l'	le	DET
 article	article	NOUN
-1	1	NUM
-er	er	VERB
+1er	1er	NUMord
 du	du	ADP_DET
 statut	statut	NOUN
 du	du	ADP_DET
@@ -1013,9 +1011,8 @@ contractantes	contractant	ADJ
 et	et	CCONJ
 l'	le	DET
 article	article	NOUN
-1	1	NUM
-er	er	NOUN
-précise	précis	ADJ
+1er	1er	NUMord
+précise	préciser	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -1030,9 +1027,9 @@ signé	signer	VERB
 à	à	ADP
 Rome	Rome	PROPN
 le	le	DET
-25	25	NUM
+25	25	DIGIT
 mars	mars	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 revient	revenir	VERB
 à	à	ADP
@@ -1050,7 +1047,7 @@ mais	mais	CCONJ
 ce	ce	DET
 comparatif	comparatif	ADJ
 prend	prendre	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 un	un	DET
 sens	sens	NOUN
 concret	concret	ADJ
@@ -1133,9 +1130,9 @@ dans	dans	ADP
 son	son	DET
 discours	discours	NOUN
 du	du	ADP_DET
-31	31	NUM
+31	31	DIGIT
 mai	mai	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 cette	ce	DET
@@ -1195,7 +1192,7 @@ demi	demi	ADJ
 —	—	PUNCTclause
 exactement	exactement	ADV
 depuis	depuis	ADP
-1306	1306	NUM
+1306	1306	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET

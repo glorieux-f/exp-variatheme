@@ -13,10 +13,10 @@ Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-16	16	NUM
--17	-17	NUM
+16	16	DIGIT
+-17	-17	DIGIT
 février	février	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -52,10 +52,10 @@ Gazette	Gazette	PROPN
 de	de	ADP
 Lausanne	Lausanne	PROPN
 des	un	ADP_DET
-2	2	NUM
--3	-3	NUM
+2	2	DIGIT
+-3	-3	DIGIT
 février	février	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 ne	ne	ADV
 est	être	AUX
@@ -128,7 +128,7 @@ tint	tenir	VERB
 Lausanne	Lausanne	PROPN
 en	en	ADP
 décembre	décembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 mon	mon	DET
 ami	ami	NOUN

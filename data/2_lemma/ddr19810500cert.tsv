@@ -14,7 +14,7 @@ notre	notre	DET
 affaire	affaire	NOUN
 (	(	PUNCTclause
 mai	mai	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -366,7 +366,7 @@ baccalauréat	baccalauréat	NOUN
 France	France	PROPN
 de	de	ADP
 juillet	juillet	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -399,7 +399,7 @@ lors de	lors de	ADP
 élections	élection	NOUN
 France	France	PROPN
 de	de	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 par	par	ADP
 les	le	DET
 jeunes	jeune	NOUN
@@ -445,7 +445,9 @@ du	du	ADP_DET
 Nouvel	Nouvel	PROPN
 Observateur	Observateur	PROPN
 ,	,	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 colloque	colloque	NOUN
 animé	animer	VERB
@@ -519,7 +521,7 @@ l'	le	DET
 essence	essence	NOUN
 sera	être	AUX
 à	à	ADP
-15	15	NUM
+15	15	DIGIT
 francs	franc	NOUN
 le	le	DET
 litre	litre	NOUN
@@ -899,7 +901,7 @@ accident	accident	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 dépenses	dépense	NOUN
@@ -908,7 +910,7 @@ mondiales	mondial	ADJ
 ont	avoir	AUX
 été	être	AUX
 de	de	ADP
-500	500	NUM
+500	500	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -943,7 +945,7 @@ ceux	ceux	PRON
 que	que	SCONJ
 je	je	PRON
 avais	avoir	AUX
-traités	traiter	VERB
+traités	traité	NOUN
 dans	dans	ADP
 mon	mon	DET
 livre	livre	NOUN
@@ -1029,7 +1031,7 @@ or	or	NOUN
 les	le	DET
 Russie	Russie	PROPN
 sont	être	AUX
-260	260	NUM
+260	260	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -1041,7 +1043,7 @@ de	de	ADP
 l'	le	DET
 est	est	NOUN
 )	)	PUNCTclause
-520	520	NUM
+520	520	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 l'	le	DET
@@ -1608,14 +1610,14 @@ peur	peur	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-1000	1000	NUM
+1000	1000	DIGIT
 et	et	CCONJ
 notre	notre	DET
 peur	peur	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -1630,7 +1632,7 @@ peur	peur	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-1000	1000	NUM
+1000	1000	DIGIT
 était	être	AUX
 magique	magique	ADJ
 ,	,	PUNCTclause

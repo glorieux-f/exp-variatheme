@@ -11,10 +11,10 @@ testament	testament	NOUN
 de	de	ADP
 Tristan	Tristan	PROPN
 (	(	PUNCTclause
-14	14	NUM
--15	-15	NUM
+14	14	DIGIT
+-15	-15	DIGIT
 novembre	novembre	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -222,7 +222,7 @@ et	et	CCONJ
 joueur	joueur	NOUN
 ,	,	PUNCTclause
 toujours	toujours	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 saisir	saisir	VERB
 ou	ou	CCONJ
 à	à	ADP
@@ -389,7 +389,7 @@ départ	départ	NOUN
 volontaire	volontaire	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 certes	certes	ADV
@@ -405,7 +405,7 @@ et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 mais	mais	CCONJ
@@ -465,7 +465,7 @@ je	je	PRON
 écrivais	écrire	VERB
 cela	cela	PRON
 en	en	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 annonçant	annoncer	VERB
 un	un	DET
@@ -613,7 +613,7 @@ il	il	PRON
 me	me	PRON
 écrivait	écrire	VERB
 en	en	ADP
-1962	1962	NUM
+1962	1962	DIGIT
 à propos de	à propos de	ADP
 mes	mon	DET
 vingt-huit	vingt-huit	NOUN
@@ -759,7 +759,7 @@ fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 merveilleux	merveilleux	ADJ
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 entre	entre	ADP
 le	le	DET
 mythe	mythe	NOUN

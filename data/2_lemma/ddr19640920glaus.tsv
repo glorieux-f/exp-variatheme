@@ -14,10 +14,10 @@ hommes	homme	NOUN
 de	de	ADP
 synthèses	synthèse	NOUN
 (	(	PUNCTclause
-19	19	NUM
--20	-20	NUM
+19	19	DIGIT
+-20	-20	DIGIT
 septembre	septembre	NOUN
-1964	1964	NUM
+1964	1964	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -95,9 +95,8 @@ au	au	ADP_DET
 chapitre	chapitre	NOUN
 7e	7e	ADJ
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
-livre	livrer	VERB
+1er	1er	NUMord
+livre	livre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 traduisons	traduire	VERB
@@ -509,7 +508,7 @@ esprits	esprit	NOUN
 ,	,	PUNCTclause
 publiée	publier	VERB
 vers	vers	ADP
-1920	1920	NUM
+1920	1920	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 les	le	DET
@@ -1991,17 +1990,17 @@ en	en	ADP
 France	France	PROPN
 était	être	AUX
 de	de	ADP
-42000	42000	NUM
+42000	42000	DIGIT
 en	en	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
 de	de	ADP
 environ	environ	ADV
-280000	280000	NUM
+280000	280000	DIGIT
 en	en	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 l'on	on	PRON
@@ -2010,7 +2009,7 @@ que	que	SCONJ
 il	il	PRON
 sera	être	AUX
 de	de	ADP
-500000	500000	NUM
+500000	500000	DIGIT
 dans	dans	ADP
 une	un	DET
 dizaine	dizaine	NOUN
@@ -2065,7 +2064,7 @@ savants	savant	ADJ
 nous	nous	PRON
 affirment	affirmer	VERB
 que	que	SCONJ
-85	85	NUM
+85	85	DIGIT
 des	un	ADP_DET
 scientifiques	scientifique	NOUN
 ayant	avoir	AUX
@@ -2101,9 +2100,9 @@ de	de	ADP
 études	étude	NOUN
 ,	,	PUNCTclause
 il y a	il y a	VERB
-30	30	NUM
+30	30	DIGIT
 à	à	ADP
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 avions	avoir	AUX
@@ -4335,7 +4334,7 @@ jusque	jusque	ADP
 une	un	DET
 moyenne	moyenne	NOUN
 de	de	ADP
-90	90	NUM
+90	90	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 pour que	pour que	SCONJ
@@ -5282,7 +5281,7 @@ puissance	puissance	NOUN
 —	—	PUNCTclause
 et	et	CCONJ
 pas	pas	ADV
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 elle	elle	PRON
 se	se	PRON
 inscrive	inscrire	VERB
@@ -5783,9 +5782,9 @@ un	un	DET
 pays	pays	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-1901	1901	NUM
+1901	1901	DIGIT
 à	à	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 sont	être	AUX
@@ -6252,7 +6251,7 @@ restreints	restreindre	VERB
 ,	,	PUNCTclause
 groupant	grouper	VERB
 au maximum	au maximum	ADV
-20	20	NUM
+20	20	DIGIT
 personnes	personne	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -6408,7 +6407,7 @@ la	le	DET
 commune	commun	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 options	option	NOUN
@@ -6473,7 +6472,7 @@ de	de	ADP
 attention	attention	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 rôle	rôle	NOUN
@@ -6555,7 +6554,7 @@ en	en	ADP
 Occident	Occident	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 au-delà de	au-delà de	ADP
 la	le	DET
@@ -6623,7 +6622,7 @@ aux	au	ADP_DET
 sous-développés	sous-développé	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 possibilités	possibilité	NOUN
 de	de	ADP
@@ -6676,7 +6675,7 @@ les	le	DET
 arts	art	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 Européologie	Européologie	PROPN
 .	.	PUNCTsent
@@ -6710,8 +6709,8 @@ indaméricaines	indaméricaines	ADJ
 ,	,	PUNCTclause
 indonésiennes	indonésien	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-il	il	PRON
+etc.	etc.	X
+il	il	X
 ne	ne	ADV
 existe	exister	VERB
 pas	pas	ADV
@@ -7022,7 +7021,7 @@ théologie	théologie	NOUN
 ainsi	ainsi	ADV
 Descartes	Descartes	PROPN
 dès	dès	ADP
-1625	1625	NUM
+1625	1625	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 Leibniz	Leibniz	PROPN
@@ -7066,7 +7065,7 @@ plus ou moins	plus ou moins	ADV
 bien	bien	ADV
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 date	date	NOUN
 du	du	ADP_DET
@@ -7145,7 +7144,7 @@ Europe	Europe	PROPN
 ce	ce	PRON
 est	être	AUX
 très	très	ADV
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 plus	plus	ADV
 une	un	DET
 culture	culture	NOUN

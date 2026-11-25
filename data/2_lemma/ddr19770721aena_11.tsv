@@ -6,7 +6,7 @@
 # title = 10. Passage de la personne à la cité
 
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 Passage	Passage	PROPN
 de	de	ADP
@@ -697,6 +697,8 @@ service militaire	service militaire	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
+B.	B.	PROPN
+de	de	ADP
 Jouvenel	Jouvenel	PROPN
 ,	,	PUNCTclause
 Du	Du	PROPN
@@ -734,9 +736,9 @@ Europe	Europe	PROPN
 que	que	SCONJ
 aux	au	ADP_DET
 années	année	NOUN
-1875	1875	NUM
+1875	1875	DIGIT
 à	à	ADP
-1885	1885	NUM
+1885	1885	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 après	après	ADP
@@ -2570,7 +2572,7 @@ suprême	suprême	ADJ
 (	(	PUNCTclause
 Politica	Politica	PROPN
 ,	,	PUNCTclause
-48	48	NUM
+48	48	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -2940,7 +2942,7 @@ six	six	NUM
 livres	livre	NOUN
 paru	paraître	VERB
 en	en	ADP
-1576	1576	NUM
+1576	1576	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 fondateur	fondateur	ADJ
@@ -4270,7 +4272,7 @@ voilà	voilà	ADP
 l'	le	DET
 état	état	NOUN
 «	«	PUNCTclause
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 porter	porter	VERB
 »	»	PUNCTclause
 ,	,	PUNCTclause
@@ -4289,7 +4291,7 @@ ayons	avoir	VERB
 à	à	ADP
 nous	nous	PRON
 préoccuper	préoccuper	VERB
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ,	,	PUNCTclause
 par	par	ADP
 les	le	DET
@@ -4713,9 +4715,9 @@ le	le	DET
 risque	risque	NOUN
 de	de	ADP
 manque de	manque de	ADP
-5	5	NUM
+5	5	DIGIT
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 de	de	ADP
 énergie	énergie	NOUN
 électrique	électrique	ADJ
@@ -7234,7 +7236,7 @@ calcule	calculer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 écrivais	écrire	VERB
@@ -7416,7 +7418,7 @@ vue	vue	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 Penser avec les mains	Penser avec les mains	NOUN
@@ -7590,7 +7592,7 @@ occidentale	occidental	ADJ
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 enfin	enfin	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -7671,7 +7673,7 @@ deux	deux	NUM
 précisions	précision	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -7803,7 +7805,7 @@ la	le	DET
 promiscuité	promiscuité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ni	ni	CCONJ
 la	le	DET
@@ -8062,7 +8064,7 @@ le	le	DET
 début	début	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 de	de	ADP
 ce	ce	DET
 siècle	siècle	NOUN
@@ -8118,7 +8120,7 @@ je	je	PRON
 écrivais	écrire	VERB
 pour ma part	pour ma part	ADV
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -8168,7 +8170,7 @@ faire	faire	AUX
 et	et	CCONJ
 alors	alors	ADV
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 vingt	vingt	NUM
 ou	ou	CCONJ
 cent	cent	NUM
@@ -8375,9 +8377,9 @@ université	université	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-11	11	NUM
+11	11	DIGIT
 mars	mars	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 annonce	annoncer	VERB
@@ -8386,7 +8388,7 @@ discours	discours	NOUN
 de	de	ADP
 Hitler	Hitler	PROPN
 pour	pour	ADP
-20	20	NUM
+20	20	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -8398,12 +8400,12 @@ je	je	PRON
 y	y	PRON
 pénètre	pénétrer	VERB
 à	à	ADP
-17	17	NUM
+17	17	DIGIT
 h	h	NOUN
-10	10	NUM
+10	10	DIGIT
 ,	,	PUNCTclause
 les	le	DET
-35000	35000	NUM
+35000	35000	DIGIT
 places	place	NOUN
 assises	assis	ADJ
 sont	être	AUX
@@ -8519,7 +8521,7 @@ place	place	NOUN
 pour	pour	ADP
 respirer	respirer	VERB
 .	.	PUNCTsent
-19	19	NUM
+19	19	DIGIT
 heures	heure	NOUN
 .	.	PUNCTsent
 personne	personne_PRON	PRON
@@ -8531,7 +8533,7 @@ ni	ni	CCONJ
 ne	ne	ADV
 plaisante	plaisant	ADJ
 .	.	PUNCTsent
-20	20	NUM
+20	20	DIGIT
 heures	heure	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -9134,7 +9136,7 @@ trois	trois	NUM
 évidences	évidence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 hommes	homme	NOUN
@@ -9306,7 +9308,7 @@ des	un	ADP_DET
 autres	autre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 société	société	NOUN

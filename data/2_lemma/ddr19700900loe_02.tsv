@@ -62,7 +62,7 @@ SchumanPour	SchumanPour	PROPN
 l'	le	DET
 Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -159,7 +159,9 @@ un	un	NUM
 quart	quart	NOUN
 de	de	ADP
 siècle	siècle	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 union	union	NOUN
 nécessaire	nécessaire	ADJ
@@ -445,7 +447,7 @@ de	de	ADP
 vallées	vallée	NOUN
 »	»	PUNCTclause
 en	en	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 .	.	PUNCTsent
 cette	ce	DET
 alliance	alliance	NOUN
@@ -620,7 +622,7 @@ bataille	bataille	NOUN
 de	de	ADP
 Poitiers	Poitiers	PROPN
 (	(	PUNCTclause
-732	732	NUM
+732	732	DIGIT
 )	)	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -671,7 +673,7 @@ que	que	SCONJ
 à partir de	à partir de	ADP
 l'	le	DET
 an	an	NOUN
-1300	1300	NUM
+1300	1300	DIGIT
 :	:	PUNCTclause
 les	le	DET
 premiers	premier	ADJ
@@ -1306,7 +1308,7 @@ les	le	DET
 formes	forme	NOUN
 politiques	politique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 interdisent	interdire	VERB
@@ -1333,7 +1335,7 @@ union	union	NOUN
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 différences	différence	NOUN
@@ -1400,7 +1402,7 @@ des	un	ADP_DET
 cantons	canton	NOUN
 Suisse	Suisse	PROPN
 —	—	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 cette	ce	DET
 unification	unification	NOUN
 ,	,	PUNCTclause
@@ -1492,7 +1494,7 @@ l'	le	DET
 union	union	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 si	si	SCONJ
 pittoresques	pittoresque	ADJ
@@ -2191,7 +2193,7 @@ la	le	DET
 diversité	diversité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 une	un	DET
 unité	unité	NOUN
@@ -2492,7 +2494,7 @@ la	le	DET
 nôtre	nôtre	PRON
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 options	option	NOUN
@@ -2834,12 +2836,12 @@ conciles	concile	NOUN
 de	de	ADP
 Nicée	Nicée	PROPN
 en	en	ADP
-325	325	NUM
+325	325	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Chalcédoine	Chalcédoine	PROPN
 en	en	ADP
-451	451	NUM
+451	451	DIGIT
 .	.	PUNCTsent
 au cours de	au cours de	ADP
 ces	ce	DET
@@ -3883,7 +3885,7 @@ Brahma	Brahma	PROPN
 ,	,	PUNCTclause
 chacun	chacun	PRON
 valant	valoir	VERB
-4320	4320	NUM
+4320	4320	DIGIT
 millions	million	NOUN
 de	de	ADP
 années	année	NOUN
@@ -3892,7 +3894,7 @@ solaires	solaire	ADJ
 un	un	DET
 Brahma	Brahma	PROPN
 vit	vivre	VERB
-249	249	NUM
+249	249	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 années	année	NOUN
@@ -4516,7 +4518,7 @@ une	un	DET
 aventure	aventure	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 les	le	DET
 «	«	PUNCTclause
@@ -4671,7 +4673,7 @@ et	et	CCONJ
 César	César	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 arc	arc	NOUN
@@ -5924,7 +5926,7 @@ colonialisme	colonialisme	NOUN
 périmé	périmé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 patrie	patrie	NOUN
 de	de	ADP
@@ -6784,7 +6786,7 @@ un	un	DET
 sens	sens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 une	un	DET
 valeur	valeur	NOUN
@@ -7032,7 +7034,7 @@ une	un	DET
 personne	personne	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 nos	nos	DET
 vies	vie	NOUN
 ne	ne	ADV
@@ -7350,7 +7352,7 @@ est	être	AUX
 là	là	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 Révolution	Révolution	PROPN
 et	et	CCONJ
@@ -7551,7 +7553,7 @@ renouvellement	renouvellement	NOUN
 possible	possible	ADJ
 de	de	ADP
 toutes	toutes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 ;	;	PUNCTclause
 et	et	CCONJ
 aussi	aussi	ADV
@@ -8185,7 +8187,7 @@ ces	ce	DET
 pôles	pôle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 originalité	originalité	NOUN
 et	et	CCONJ
@@ -8851,7 +8853,7 @@ propre	propre	ADJ
 individu	individu	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 mesure	mesure	NOUN
 du	du	ADP_DET
@@ -9695,7 +9697,7 @@ aucun	aucun	DET
 sens	sens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 vraie	vrai	ADJ
 nature	nature	NOUN
@@ -10083,7 +10085,7 @@ cultures	culture	NOUN
 nationales	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -10274,7 +10276,7 @@ elle	elle	PRON
 est	être	AUX
 matériellement	matériellement	ADV
 :	:	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 émergées	émergé	ADJ
@@ -10731,7 +10733,7 @@ ils	ils	PRON
 font	faire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 .	.	PUNCTsent
 diversités	diversité	NOUN
 fécondes	fécond	ADJ
@@ -10808,7 +10810,7 @@ de	de	ADP
 l'	le	DET
 Alsace	Alsace	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 or	or_CCONJ	CCONJ
 ,	,	PUNCTclause
 les	le	DET
@@ -11237,7 +11239,7 @@ ruée	ruée	NOUN
 colonialiste	colonialiste	ADJ
 à partir de	à partir de	ADP
 années	année	NOUN
-1880	1880	NUM
+1880	1880	DIGIT
 ,	,	PUNCTclause
 trente-huit-millions	trente-huit-millions	DET
 de	de	ADP
@@ -11346,7 +11348,7 @@ des	un	ADP_DET
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 ne	ne	ADV
@@ -11484,7 +11486,7 @@ culturel	culturel	ADJ
 les	le	DET
 France	France	PROPN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 croyaient	croire	VERB
 défendre	défendre	VERB
 la	le	DET
@@ -12162,7 +12164,7 @@ reste	rester	VERB
 faire	faire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 Vingt	Vingt	NUM
 langues	langue	NOUN
@@ -12410,7 +12412,7 @@ croyances	croyance	NOUN
 du	du	ADP_DET
 milieu	milieu	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ils	ils	PRON
@@ -12533,7 +12535,7 @@ professionnelle	professionnel	ADJ
 ,	,	PUNCTclause
 régionale	régional	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 on	on	PRON
@@ -12683,7 +12685,7 @@ sa	son	DET
 formation	formation	NOUN
 professionnelle	professionnel	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 enseignement	enseignement	NOUN
@@ -13301,7 +13303,7 @@ traité	traité	NOUN
 ,	,	PUNCTclause
 épître	épître	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ;	;	PUNCTclause
 et	et	CCONJ
@@ -13350,7 +13352,7 @@ orchestre	orchestre	NOUN
 le	le	DET
 concert	concert	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 sont	être	VERB
 des	un	DET
@@ -13465,7 +13467,7 @@ contrevenu	contrevenir	VERB
 aux	au	ADP_DET
 lois	loi	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ceux	ceux	PRON
 hérités	hérité	VERB
 du	du	ADP_DET
@@ -13495,7 +13497,7 @@ sacrifice	sacrifice	NOUN
 par	par	ADP
 amour	amour	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ceux	ceux	PRON
 qui	qui	PRON
 viennent	venir	VERB
@@ -13692,7 +13694,7 @@ surréalisme	surréalisme	NOUN
 ,	,	PUNCTclause
 abstraction	abstraction	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -13788,7 +13790,7 @@ Suisse	Suisse	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 la	le	DET
@@ -14061,7 +14063,7 @@ royaume	royaume	NOUN
 des	un	ADP_DET
 Valois	Valois	PROPN
 en	en	ADP
-1539	1539	NUM
+1539	1539	DIGIT
 seulement	seulement	ADV
 ,	,	PUNCTclause
 par	par	ADP
@@ -14524,7 +14526,7 @@ Europe	Europe	PROPN
 fédérée	fédéré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 .	.	PUNCTsent
 pour	pour	ADP
 un	un	DET
@@ -15990,7 +15992,7 @@ leur	leur	DET
 enseigna	enseigner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 éducation	éducation	NOUN
@@ -16854,7 +16856,7 @@ veut	vouloir	VERB
 former	former	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 .	.	PUNCTsent
 parabole	parabole	NOUN
 des	un	ADP_DET
@@ -17432,7 +17434,7 @@ le	le	DET
 garder	garder	VERB
 jusque	jusque	ADP
 à	à	ADP
-18	18	NUM
+18	18	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -17706,17 +17708,17 @@ qui	qui	PRON
 ne	ne	ADV
 occupent	occuper	VERB
 que	que	ADV
-6	6	NUM
+6	6	DIGIT
 des	un	DET
 études	étude	NOUN
 ,	,	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 étant	être	AUX
 consacré	consacrer	VERB
 aux	au	ADP_DET
 sciences	science	NOUN
 et	et	CCONJ
-67	67	NUM
+67	67	DIGIT
 à	à	ADP
 la	le	DET
 spécialisation	spécialisation	NOUN
@@ -18543,7 +18545,7 @@ ailes	aile	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -19625,7 +19627,7 @@ du	du	ADP_DET
 prochain	prochain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -20025,7 +20027,7 @@ moins	moins	ADV
 vain	vain	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-22	22	NUM
+22	22	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Asie	Asie	PROPN
@@ -20061,7 +20063,7 @@ les	le	DET
 passions	passion	NOUN
 réduisent	réduire	VERB
 à	à	ADP
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 toute	tout	ADJ
 tentative	tentative	NOUN
 verbale	verbal	ADJ
@@ -20813,7 +20815,7 @@ grands	grand	ADJ
 penseurs	penseur	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 .	.	PUNCTsent
 les	le	DET
 prophètes	prophète	NOUN
@@ -20927,7 +20929,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 Paul	Paul	PROPN
 Valéry	Valéry	PROPN
@@ -21147,7 +21149,7 @@ pessimisme	pessimisme	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 dès	dès	ADP
-1791	1791	NUM
+1791	1791	DIGIT
 ,	,	PUNCTclause
 Volney	Volney	PROPN
 ,	,	PUNCTclause
@@ -21864,7 +21866,7 @@ soit	être	AUX
 ruinée	ruiner	VERB
 du même coup	du même coup	ADV
 .	.	PUNCTsent
-gengis khan	gengis khan	NOUN
+gengis khan	gengis khan	PRON
 eut	avoir	VERB
 l'	le	DET
 hégémonie	hégémonie	NOUN
@@ -22307,7 +22309,7 @@ l'	le	DET
 uniformité	uniformité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-24	24	NUM
+24	24	DIGIT
 .	.	PUNCTsent
 où	où	PRON
 sont	être	AUX
@@ -22802,7 +22804,7 @@ l'	le	DET
 (	(	PUNCTclause
 dans	dans	ADP
 les mêmes	les mêmes	PRON
-style	styler	VERB
+style	style	NOUN
 ,	,	PUNCTclause
 Bismarck	Bismarck	PROPN
 définit	définir	VERB
@@ -23896,7 +23898,7 @@ et	et	CCONJ
 la	le	DET
 philosophie	philosophie	NOUN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 se	se	PRON
 constituaient	constituer	VERB
 la	le	DET
@@ -24198,7 +24200,7 @@ pas	pas	ADV
 ailleurs	ailleurs	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-25	25	NUM
+25	25	DIGIT
 .	.	PUNCTsent
 le	le	DET
 péril	péril	NOUN
@@ -24887,7 +24889,7 @@ lettre	lettre	NOUN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1871	1871	NUM
+1871	1871	DIGIT
 ,	,	PUNCTclause
 décrit	décrire	VERB
 la	le	DET
@@ -25008,9 +25010,9 @@ de	de	ADP
 Pékin	Pékin	PROPN
 ,	,	PUNCTclause
 le	le	DET
-27	27	NUM
+27	27	DIGIT
 septembre	septembre	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP

@@ -15,7 +15,7 @@ II	II	NUM
 )	)	PUNCTclause
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -707,13 +707,13 @@ de	de	DET
 simples	simple	ADJ
 dates	date	NOUN
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 février	février	NOUN
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 brumaire	brumaire	NOUN
 ou	ou	CCONJ
-2	2	NUM
+2	2	DIGIT
 décembre	décembre	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
@@ -1859,7 +1859,7 @@ je	je	PRON
 écris	écrire	VERB
 ,	,	PUNCTclause
 ce	ce	DET
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
 ,	,	PUNCTclause
 le	le	DET

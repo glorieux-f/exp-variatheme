@@ -61,7 +61,7 @@ avait	avoir	AUX
 eu	avoir	VERB
 ,	,	PUNCTclause
 à	à	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 et	et	CCONJ
 pour	pour	ADP
@@ -79,9 +79,9 @@ Charles	Charles	PROPN
 Gide	Gide	PROPN
 écrit	écrire	VERB
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 janvier	janvier	NOUN
-1895	1895	NUM
+1895	1895	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 tu	tu	PRON
@@ -760,11 +760,11 @@ Paul	Paul	PROPN
 (	(	PUNCTclause
 I	I	NUM
 Corinthiens	Corinthiens	PROPN
-6	6	NUM
+6	6	DIGIT
 ,	,	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 et	et	CCONJ
-11	11	NUM
+11	11	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -1015,7 +1015,7 @@ que	que	SCONJ
 l'on	on	PRON
 estime	estimer	VERB
 à	à	ADP
-30	30	NUM
+30	30	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
@@ -1032,7 +1032,7 @@ ordre de grandeur	ordre de grandeur	NOUN
 comparative	comparatif	ADJ
 .	.	PUNCTsent
 près de	près de	ADP
-3	3	NUM
+3	3	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -1041,12 +1041,12 @@ aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
 ils	ils	PRON
 seront	être	AUX
-6	6	NUM
+6	6	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 ils	ils	PRON
@@ -1073,7 +1073,7 @@ ans	an	NOUN
 ils	ils	PRON
 seraient	être	AUX
 donc	donc	ADV
-700	700	NUM
+700	700	DIGIT
 milliards	milliard	NOUN
 dans	dans	ADP
 trois-cents	trois-cents	NUM
@@ -1090,7 +1090,7 @@ la	le	DET
 terre	terre	NOUN
 étant	être	AUX
 de	de	ADP
-7	7	NUM
+7	7	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 hectares	hectare	NOUN
@@ -1106,7 +1106,7 @@ mètres	mètre	NOUN
 vers	vers	ADP
 l'	le	DET
 an	an	NOUN
-2260	2260	NUM
+2260	2260	DIGIT
 .	.	PUNCTsent
 puis	puis	CCONJ
 un	un	DET
@@ -1114,7 +1114,7 @@ homme	homme	NOUN
 par	par	ADP
 mètres carrés	mètres carrés	NOUN
 vers	vers	ADP
-2400	2400	NUM
+2400	2400	DIGIT
 .	.	PUNCTsent
 moins de	moins de	DET
 cent	cent	NUM
@@ -1622,9 +1622,9 @@ l'	le	DET
 Occident	Occident	PROPN
 (	(	PUNCTclause
 pages	page	NOUN
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-108	108	NUM
+108	108	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 je	je	PRON
@@ -1707,7 +1707,7 @@ pour	pour	ADP
 spirituelles	spirituel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 peur	peur	NOUN
@@ -2004,7 +2004,7 @@ au mieux	au mieux	ADV
 psychologique	psychologique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 il n'en reste pas moins que	il n'en reste pas moins que	ADV
 cette	ce	DET
@@ -2771,8 +2771,8 @@ mariage	mariage	NOUN
 les	le	DET
 liaisons	liaison	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-Non	Non	PROPN
+etc.	etc.	X
+non	non	X
 pour	pour	ADP
 l'	le	DET
 amour	amour	NOUN

@@ -14,7 +14,7 @@ Europe	Europe	PROPN
 neuve	neuf	ADJ
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -125,7 +125,7 @@ qui	qui	PRON
 nous	nous	PRON
 séparent	séparer	VERB
 de	de	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 ,	,	PUNCTclause
 voyons	voir	VERB
 d'abord	d'abord	ADV
@@ -579,7 +579,7 @@ hypothèse	hypothèse	NOUN
 l'	le	DET
 Europe	Europe	PROPN
 de	de	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 est	être	AUX
 redevenue	redevenir	VERB
 à tous égards	à tous égards	ADV
@@ -609,7 +609,7 @@ privilégié	privilégié	ADJ
 qui	qui	PRON
 comprend	comprendre	VERB
 environ	environ	ADV
-95	95	NUM
+95	95	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -724,7 +724,7 @@ entrés	entrer	VERB
 en	en	ADP
 fonction	fonction	NOUN
 dès	dès	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 enfin	enfin	ADV
@@ -768,9 +768,9 @@ copier	copier	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 à	à	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 .	.	PUNCTsent
 le	le	DET
 succès	succès	NOUN
@@ -929,6 +929,8 @@ selon	selon	ADP
 l'	le	DET
 expression	expression	NOUN
 de	de	ADP
+B.	B.	PROPN
+de	de	ADP
 Jouvenel	Jouvenel	PROPN
 .	.	PUNCTsent
 l'	le	DET
@@ -937,14 +939,14 @@ de	de	ADP
 la	le	DET
 population	population	NOUN
 —	—	PUNCTclause
-630	630	NUM
+630	630	DIGIT
 millions	million	NOUN
 sur	sur	ADP
 la même	la même	PRON
 superficie	superficie	NOUN
 que	que	SCONJ
 les	le	DET
-440	440	NUM
+440	440	DIGIT
 millions	million	NOUN
 que	que	SCONJ
 compte	compter	VERB
@@ -1577,9 +1579,9 @@ de	de	ADP
 manifestations	manifestation	NOUN
 sportives	sportif	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-le	le	ADP
-règne	régner	VERB
+etc.	etc.	X
+le	le	DET
+règne	règne	NOUN
 des	un	ADP_DET
 grands	grand	ADJ
 nombres	nombre	NOUN
@@ -1730,9 +1732,9 @@ les	le	DET
 changements	changement	NOUN
 survenus	survenir	VERB
 entre	entre	ADP
-1962	1962	NUM
+1962	1962	DIGIT
 et	et	CCONJ
-1980	1980	NUM
+1980	1980	DIGIT
 sont	être	AUX
 probablement	probablement	ADV
 moins	moins	ADV
@@ -1905,7 +1907,7 @@ amuser	amuser	VERB
 les	le	DET
 lecteurs	lecteur	NOUN
 de	de	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 ,	,	PUNCTclause
 si	si	SCONJ
 ils	ils	PRON

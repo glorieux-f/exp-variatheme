@@ -12,9 +12,9 @@ la	le	DET
 petite	petit	ADJ
 Europe	Europe	PROPN
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 décembre	décembre	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -254,13 +254,13 @@ est	est	NOUN
 du	du	ADP_DET
 rideau	rideau	NOUN
 ,	,	PUNCTclause
-88	88	NUM
+88	88	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 contre	contre	ADP
-332	332	NUM
+332	332	DIGIT
 millions	million	NOUN
 à	à	ADP
 l'	le	DET
@@ -336,7 +336,7 @@ tous	tous	DET
 ensemble	ensemble	NOUN
 un peu	un peu	ADV
 plus de	plus de	DET
-155	155	NUM
+155	155	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -379,7 +379,7 @@ ne	ne	ADV
 en	en	PRON
 a	avoir	VERB
 que	que	ADV
-30	30	NUM
+30	30	DIGIT
 millions	million	NOUN
 de plus	de plus	ADV
 .	.	PUNCTsent

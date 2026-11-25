@@ -16,7 +16,7 @@ par	par	ADP
 Alain	Alain	PROPN
 (	(	PUNCTclause
 avril	avril	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -27,9 +27,9 @@ propos	propos	NOUN
 se	se	PRON
 égrènent	égrener	VERB
 de	de	ADP
-1908	1908	NUM
+1908	1908	DIGIT
 à	à	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 la	le	DET
@@ -105,7 +105,7 @@ l'	le	DET
 autorité	autorité	NOUN
 (	(	PUNCTclause
 p.	p.	PUNCT
-72	72	NUM
+72	72	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 la	le	DET
@@ -133,9 +133,9 @@ le	le	DET
 recueil	recueil	NOUN
 (	(	PUNCTclause
 p.	p.	PUNCT
-23	23	NUM
+23	23	DIGIT
 et	et	CCONJ
-286	286	NUM
+286	286	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 elle	elle	PRON
@@ -635,7 +635,7 @@ du	du	ADP_DET
 catholicisme	catholicisme	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ,	,	PUNCTclause
 vidé	vider	VERB
 de	de	ADP

@@ -14,7 +14,7 @@ paix	paix	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Avril	Avril	PROPN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 armistice	armistice	NOUN
@@ -425,7 +425,7 @@ George	George	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 juin	juin	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -992,7 +992,7 @@ détective	détective	NOUN
 les	le	DET
 Europe	Europe	PROPN
 vus	vu	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 ,	,	PUNCTclause
 au travers de	au travers de	ADP
 questions	question	NOUN
@@ -1358,7 +1358,7 @@ planétaire	planétaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 juillet	juillet	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 antisémitisme	antisémitisme	NOUN
@@ -1407,7 +1407,7 @@ suivie	suivre	VERB
 ,	,	PUNCTclause
 les	le	DET
 gens	gens	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
@@ -1804,7 +1804,7 @@ antisémites	antisémite	ADJ
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 juillet	juillet	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -1950,7 +1950,7 @@ la	le	DET
 guerre	guerre	NOUN
 ou	ou	CCONJ
 depuis	depuis	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 ne	ne	ADV
@@ -2409,10 +2409,9 @@ les	le	DET
 pays	pays	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	VERB
+1er	1er	NUMord
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Cohoes	Cohoes	PROPN
@@ -2844,7 +2843,7 @@ quittèrent	quitter	VERB
 l'	le	DET
 Allemagne	Allemagne	PROPN
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 ils	ils	PRON
@@ -3204,7 +3203,7 @@ grand	grand	ADJ
 krach	krach	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 tout	tout	PRON
 se	se	PRON
@@ -3413,9 +3412,9 @@ de	de	ADP
 imiter	imiter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 nouvelle	nouveau	ADJ
@@ -3508,9 +3507,9 @@ durent	devoir	VERB
 ensuite	ensuite	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -3616,7 +3615,7 @@ est	être	AUX
 la	le	DET
 paix	paix	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 C.	C.	PROPN
@@ -3669,7 +3668,7 @@ New York	New York	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 octobre	octobre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 rentrée	rentrer	VERB
@@ -3763,15 +3762,14 @@ augmenté	augmenter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 novembre	novembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Slums	Slums	PROPN
 .	.	PUNCTsent
 —	—	PUNCTclause
 la	le	DET
-75	75	NUM
-e	e	SYM
+75e	75e	NUMord
 rue	rue	NOUN
 ne	ne	ADV
 a	avoir	VERB
@@ -4559,13 +4557,12 @@ l'	le	DET
 étranger	étranger	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-75	75	NUM
-e	e	SYM
+75e	75e	NUMord
 rue	rue	NOUN
 ,	,	PUNCTclause
 fin	fin	NOUN
 novembre	novembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -4657,7 +4654,7 @@ camionnage	camionnage	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 comme	comme	SCONJ
@@ -4837,7 +4834,7 @@ plus tard	plus tard	ADV
 je	je	PRON
 rappelle	rappeler	VERB
 .	.	PUNCTsent
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -4859,11 +4856,11 @@ de	de	ADP
 messages	message	NOUN
 !	!	PUNCTsent
 le	le	DET
-3	3	NUM
+3	3	DIGIT
 décembre	décembre	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 soir	soir	NOUN
@@ -4894,7 +4891,7 @@ reprises	repris	NOUN
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
-3	3	NUM
+3	3	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
@@ -4923,7 +4920,7 @@ l'	le	DET
 habitude	habitude	NOUN
 .	.	PUNCTsent
 le	le	DET
-4	4	NUM
+4	4	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 jeune	jeune	ADJ
@@ -5073,9 +5070,9 @@ vous	vous	PRON
 attend	attendre	VERB
 tous	tous	PRON
 au	au	ADP_DET
-125	125	NUM
+125	125	DIGIT
 East	East	PROPN
-51	51	NUM
+51	51	DIGIT
 à	à	ADP
 minuit	minuit	NOUN
 ,	,	PUNCTclause
@@ -5123,7 +5120,7 @@ vous	vous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 leur	leur	DET
@@ -5257,8 +5254,7 @@ de	de	ADP
 bruits	bruit	NOUN
 jusque	jusque	ADP
 au	au	ADP_DET
-5	5	NUM
-e	e	NOUN
+5e	5e	NUMord
 étage	étage	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -5300,9 +5296,9 @@ nos	nos	DET
 vices	vice	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 saison	saison	NOUN
@@ -5312,9 +5308,8 @@ Noël	Noël	PROPN
 New York	New York	PROPN
 .	.	PUNCTsent
 —	—	PUNCTclause
-le	le_PRON	PRON
-1	1	NUM
-er	er	VERB
+le	le	DET
+1er	1er	NUMord
 décembre	décembre	NOUN
 au	au	ADP_DET
 matin	matin	NOUN
@@ -5345,7 +5340,7 @@ Noël	Noël	PROPN
 nous	nous	PRON
 sommes	être	AUX
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 et	et	CCONJ
 les	le	DET
 rayons	rayon	NOUN
@@ -5399,7 +5394,7 @@ an	an	NOUN
 de	de	ADP
 grâce	grâce	NOUN
 rationnée	rationner	VERB
-1945	1945	NUM
+1945	1945	DIGIT
 se	se	PRON
 termine	terminer	VERB
 en plein	en plein	ADV
@@ -5564,7 +5559,7 @@ l'	le	DET
 hôtel	hôtel	NOUN
 —	—	PUNCTclause
 à partir de	à partir de	ADP
-20	20	NUM
+20	20	DIGIT
 la	le	DET
 place	place	NOUN
 »	»	PUNCTclause
@@ -5734,7 +5729,7 @@ ne	ne	ADV
 ayant	avoir	AUX
 coûté	coûter	VERB
 que	que	SCONJ
-100	100	NUM
+100	100	DIGIT
 dollars	dollar	NOUN
 de	de	ADP
 location	location	NOUN
@@ -6188,7 +6183,7 @@ de	de	ADP
 minuit	minuit	NOUN
 ,	,	PUNCTclause
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 décembre	décembre	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -6242,7 +6237,7 @@ un	un	DET
 petit	petit	ADJ
 avion	avion	NOUN
 de	de	ADP
-1000	1000	NUM
+1000	1000	DIGIT
 dollars	dollar	NOUN
 .	.	PUNCTsent
 déjà	déjà	ADV
@@ -6345,7 +6340,9 @@ moque	moquer	VERB
 des	un	ADP_DET
 clichés	cliché	NOUN
 à la mode	à la mode	ADJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 cette	ce	DET
 invention	invention	NOUN
 «	«	PUNCTclause
@@ -6608,7 +6605,7 @@ cela	cela	PRON
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET

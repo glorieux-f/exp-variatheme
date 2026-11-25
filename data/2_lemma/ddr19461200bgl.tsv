@@ -11,20 +11,19 @@ noël	noël	NOUN
 New York	New York	PROPN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 décembre	décembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 décembre	décembre	NOUN
 au	au	ADP_DET
 matin	matin	NOUN
@@ -55,7 +54,7 @@ Noël	Noël	PROPN
 nous	nous	PRON
 sommes	être	AUX
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 et	et	CCONJ
 les	le	DET
 rayons	rayon	NOUN
@@ -74,7 +73,7 @@ an	an	NOUN
 de	de	ADP
 grâce	grâce	NOUN
 rationnée	rationner	VERB
-1945	1945	NUM
+1945	1945	DIGIT
 se	se	PRON
 termine	terminer	VERB
 en plein	en plein	ADV
@@ -239,7 +238,7 @@ l'	le	DET
 hôtel	hôtel	NOUN
 —	—	PUNCTclause
 à partir de	à partir de	ADP
-20	20	NUM
+20	20	DIGIT
 la	le	DET
 place	place	NOUN
 »	»	PUNCTclause
@@ -409,7 +408,7 @@ ne	ne	ADV
 ayant	avoir	AUX
 coûté	coûter	VERB
 que	que	SCONJ
-100	100	NUM
+100	100	DIGIT
 dollars	dollar	NOUN
 de	de	ADP
 location	location	NOUN
@@ -894,7 +893,7 @@ de	de	ADP
 minuit	minuit	NOUN
 ,	,	PUNCTclause
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 décembre	décembre	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -948,7 +947,7 @@ un	un	DET
 petit	petit	ADJ
 avion	avion	NOUN
 de	de	ADP
-1000	1000	NUM
+1000	1000	DIGIT
 dollars	dollar	NOUN
 .	.	PUNCTsent
 déjà	déjà	ADV
@@ -1051,7 +1050,9 @@ moque	moquer	VERB
 des	un	ADP_DET
 clichés	cliché	NOUN
 à la mode	à la mode	ADJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 cette	ce	DET
 invention	invention	NOUN
 «	«	PUNCTclause

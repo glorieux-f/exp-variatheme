@@ -16,9 +16,9 @@ et	et	CCONJ
 l'	le	DET
 Occident	Occident	PROPN
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 août	août	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -55,9 +55,9 @@ ma	mon	DET
 jeunesse	jeunesse	NOUN
 ,	,	PUNCTclause
 entre	entre	ADP
-20	20	NUM
+20	20	DIGIT
 et	et	CCONJ
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 :	:	PUNCTclause
 l'	le	DET
@@ -80,9 +80,9 @@ vocation	vocation	NOUN
 .	.	PUNCTsent
 définition	définition	NOUN
 très	très	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 celles	celle	PRON
-que	que	SCONJ
+que	que	PRON
 avaient	avoir	AUX
 adoptées	adopter	VERB
 les	le	DET
@@ -99,7 +99,7 @@ les	le	DET
 non-conformistes	non-conformiste	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -113,7 +113,7 @@ arrivée	arrivée	NOUN
 à	à	ADP
 Paris	Paris	PROPN
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 .	.	PUNCTsent
 ils	ils	PRON
 allaient	aller	VERB
@@ -160,7 +160,7 @@ en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 œuvres	œuvre	NOUN
@@ -184,11 +184,11 @@ de	de	ADP
 la	le	DET
 personne	personne	NOUN
 ,	,	PUNCTclause
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 Penser avec les mains	Penser avec les mains	NOUN
 ,	,	PUNCTclause
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 ont	avoir	AUX
 développé	développer	VERB
@@ -209,7 +209,7 @@ Occident	Occident	PROPN
 ,	,	PUNCTclause
 paru	paraître	VERB
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -439,10 +439,10 @@ doctrines	doctrine	NOUN
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 parce que	parce que	SCONJ
 vous	vous	PRON
 êtes	être	AUX
@@ -461,7 +461,7 @@ arrivé	arriver	VERB
 Paris	Paris	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -486,7 +486,7 @@ ai	avoir	AUX
 été	être	AUX
 mobilisé	mobiliser	VERB
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 officier	officier	NOUN
@@ -561,9 +561,9 @@ de	de	ADP
 un	un	DET
 trait	trait	NOUN
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 sur	sur	ADP
 l'	le	DET
 entrée	entrée	NOUN
@@ -581,7 +581,7 @@ comme	comme	ADP
 «	«	PUNCTclause
 insulte	insulte	NOUN
 à	à	ADP
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 étranger	étranger	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
@@ -645,9 +645,9 @@ article	article	NOUN
 est	être	AUX
 paru	paraître	VERB
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ose	oser	VERB
@@ -1118,12 +1118,12 @@ influencé	influencer	VERB
 plus ou moins	plus ou moins	ADV
 profondément	profondément	ADV
 plusieurs	plusieurs	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 et	et	CCONJ
 leaders	leader	NOUN
 politiques	politique	ADJ
 dès	dès	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 année	année	NOUN
 du	du	ADP_DET
@@ -1372,7 +1372,7 @@ paix	paix	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mai	mai	NOUN
-68	68	NUM
+68	68	DIGIT
 me	me	PRON
 a	avoir	AUX
 fait	faire	VERB
@@ -1390,7 +1390,7 @@ nos	nos	DET
 révoltes	révolte	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 sans	sans	ADP
@@ -1852,7 +1852,7 @@ chaque	chaque	DET
 problème	problème	NOUN
 doit	devoir	VERB
 être	être	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 et	et	CCONJ
 résolu	résoudre	VERB
 à	à	ADP
@@ -2019,7 +2019,7 @@ que	que	SCONJ
 sa	son	DET
 publication	publication	NOUN
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
@@ -2147,7 +2147,7 @@ soient	être	AUX
 encore	encore	ADV
 vivants	vivant	ADJ
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ?	?	PUNCTsent
 les	le	DET
 obstacles	obstacle	NOUN
@@ -2294,7 +2294,7 @@ totalitaires	totalitaire	ADJ
 dès	dès	ADP
 les	le	DET
 années	année	NOUN
-1920	1920	NUM
+1920	1920	DIGIT
 .	.	PUNCTsent
 pour	pour	ADP
 les	le	DET
@@ -2333,7 +2333,7 @@ dès	dès	ADP
 l'	le	DET
 âge	âge	NOUN
 de	de	ADP
-22	22	NUM
+22	22	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 je	je	PRON

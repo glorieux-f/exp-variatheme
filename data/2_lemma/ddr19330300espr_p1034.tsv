@@ -9,7 +9,7 @@
 protestants	protestant	ADJ
 (	(	PUNCTclause
 mars	mars	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -74,7 +74,7 @@ les	le	DET
 adoucissements	adoucissement	NOUN
 dogmatiques	dogmatique	ADJ
 et	et	CCONJ
-compromis	compromettre	VERB
+compromis	compromis	ADJ
 ecclésiastiques	ecclésiastique	ADJ
 ,	,	PUNCTclause
 sans cesse	sans cesse	ADV
@@ -931,7 +931,7 @@ elle	elle	PRON
 se	se	PRON
 est	être	AUX
 arrêtée	arrêter	VERB
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 il	il	PRON
 semblait	sembler	VERB
 que	que	SCONJ
@@ -951,7 +951,7 @@ question	question	NOUN
 des	un	ADP_DET
 salaires	salaire	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 cette	ce	DET
 carence	carence	NOUN
 subite	subit	ADJ

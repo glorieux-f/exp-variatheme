@@ -11,7 +11,7 @@ de	de	ADP
 réforme	réforme	NOUN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -68,7 +68,7 @@ messieurs	monsieur	NOUN
 l'	le	DET
 incident	incident	NOUN
 du	du	ADP_DET
-6	6	NUM
+6	6	DIGIT
 février	février	NOUN
 les	le_PRON	PRON
 a	avoir	AUX
@@ -217,7 +217,7 @@ en	en	PRON
 parlons	parler	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 discours	discours	NOUN
@@ -1001,12 +1001,12 @@ rejoindront	rejoindre	VERB
 peut-être	peut-être	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Plan	Plan	PROPN
 du	du	ADP_DET
-9	9	NUM
+9	9	DIGIT
 juillet	juillet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1331,7 +1331,7 @@ Chambre	Chambre	PROPN
 sera	être	AUX
 composée	composer	VERB
 de	de	ADP
-400	400	NUM
+400	400	DIGIT
 députés	député	NOUN
 (	(	PUNCTclause
 ?	?	PUNCTsent
@@ -1349,7 +1349,7 @@ pour	pour	ADP
 une	un	DET
 durée	durée	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 le	le	DET
@@ -1670,7 +1670,7 @@ le	le	DET
 chapitre	chapitre	NOUN
 sur	sur	ADP
 les	le	DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 sent	sentir	VERB
@@ -1750,9 +1750,9 @@ nos	nos	DET
 doctrines	doctrine	NOUN
 (	(	PUNCTclause
 p.	p.	PUNCT
-42	42	NUM
+42	42	DIGIT
 à	à	ADP
-46	46	NUM
+46	46	DIGIT
 sauf	sauf	ADP
 le	le	DET
 dernier	dernier	ADJ
@@ -1935,7 +1935,7 @@ montre	montrer	VERB
 si	si	SCONJ
 fier	fier	ADJ
 ?	?	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 plutôt	plutôt	ADV
 le	le	DET
 verbiage	verbiage	NOUN
@@ -1999,7 +1999,7 @@ travaux	travail	NOUN
 politiques	politique	ADJ
 …	…	PUNCTsent
 »	»	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 touchant	toucher	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2559,7 +2559,7 @@ défaut	défaut	NOUN
 au	au	ADP_DET
 Plan	Plan	PROPN
 du	du	ADP_DET
-9	9	NUM
+9	9	DIGIT
 juillet	juillet	NOUN
 et	et	CCONJ
 le	le	DET
@@ -2625,7 +2625,7 @@ l'	le	DET
 adoptant	adoptant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 réforme	réforme	NOUN
@@ -2661,7 +2661,7 @@ en effet	en effet	ADV
 du	du	ADP_DET
 Plan	Plan	PROPN
 du	du	ADP_DET
-9	9	NUM
+9	9	DIGIT
 juillet	juillet	NOUN
 .	.	PUNCTsent
 emprunts	emprunt	NOUN
@@ -2800,7 +2800,7 @@ constatations	constatation	NOUN
 optimistes	optimiste	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 la	le	DET
 crise	crise	NOUN
@@ -2835,7 +2835,7 @@ pour	pour	ADP
 nous	nous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 éléments	élément	NOUN

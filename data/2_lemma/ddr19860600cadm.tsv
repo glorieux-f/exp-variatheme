@@ -17,7 +17,7 @@ lui-même	lui-même	PRON
 …	…	PUNCTsent
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1986	1986	NUM
+1986	1986	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -186,11 +186,11 @@ je	je	PRON
 ai	avoir	AUX
 créé	créer	VERB
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 et	et	CCONJ
 inauguré	inaugurer	VERB
 en	en	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 je	je	PRON
@@ -329,8 +329,8 @@ enfance	enfance	NOUN
 lorsque	lorsque	SCONJ
 je	je	PRON
 avais	avoir	AUX
-14	14	NUM
--15	-15	NUM
+14	14	DIGIT
+-15	-15	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -602,7 +602,7 @@ scientifique	scientifique	ADJ
 de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 à	à	ADP
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 trois	trois	NUM
@@ -1003,7 +1003,7 @@ nouvelles	nouveau	ADJ
 ce	ce	PRON
 était	être	AUX
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 jusque	jusque	ADP
@@ -1032,7 +1032,7 @@ France	France	PROPN
 «	«	PUNCTclause
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 »	»	PUNCTclause
 .	.	PUNCTsent
 on	on	PRON
@@ -1905,9 +1905,9 @@ ma	mon	DET
 vie	vie	NOUN
 .	.	PUNCTsent
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 mon	mon	DET
 ordonnance	ordonnance	NOUN
@@ -1978,7 +1978,7 @@ le	le	DET
 lendemain	lendemain	NOUN
 ,	,	PUNCTclause
 dimanche	dimanche	NOUN
-16	16	NUM
+16	16	DIGIT
 juin	juin	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -2536,10 +2536,10 @@ deux	deux	NUM
 enfants	enfant	NOUN
 qui	qui	PRON
 avaient	avoir	VERB
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 et	et	CCONJ
-5	5	NUM
+5	5	DIGIT
 mois	mois	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -2558,7 +2558,7 @@ en	en	ADP
 cargo	cargo	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 il y a	il y a	VERB
 Pearl	Pearl	PROPN
@@ -2608,7 +2608,7 @@ aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 jusque	jusque	ADP
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 donne	donner	VERB
@@ -2694,7 +2694,7 @@ de	de	ADP
 Saint-Exupéry	Saint-Exupéry	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1944	1944	NUM
+1944	1944	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 reçoit	recevoir	VERB
@@ -2808,7 +2808,7 @@ au début	au début	ADV
 de	de	ADP
 l'	le	DET
 année	année	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 il y a	il y a	VERB
 de	de	ADP
@@ -2949,13 +2949,13 @@ jour	jour	NOUN
 même	même	ADV
 de	de	ADP
 mes	mon	DET
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 septembre	septembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 .	.	PUNCTsent
 cela	cela	PRON
 a	avoir	AUX
@@ -3094,7 +3094,7 @@ le	le	DET
 soir	soir	NOUN
 de	de	ADP
 mes	mon	DET
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3306,7 +3306,7 @@ disions	dire	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 à	à	ADP
 trente-neuf	trente-neuf	NUM
 ,	,	PUNCTclause
@@ -3319,7 +3319,7 @@ les	le	DET
 non-conformistes	non-conformiste	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 »	»	PUNCTclause
 .	.	PUNCTsent
 ce	ce	PRON
@@ -4501,7 +4501,7 @@ un	un	DET
 gros	gros	ADJ
 livre	livre	NOUN
 de	de	ADP
-380	380	NUM
+380	380	DIGIT
 pages	page	NOUN
 .	.	PUNCTsent
 vraiment	vraiment	ADV
@@ -4612,7 +4612,7 @@ qui	qui	PRON
 a	avoir	AUX
 paru	paraître	VERB
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 quelques	quelque	DET
 mois	mois	NOUN
@@ -5114,13 +5114,13 @@ quand	quand	SCONJ
 la	le	DET
 communauté	communauté	NOUN
 compte	compter	VERB
-55	55	NUM
+55	55	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 vous	vous	PRON
@@ -5513,7 +5513,7 @@ Europe	Europe	PROPN
 la	le	DET
 Haye	Haye	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 présidé	présider	VERB
 par	par	ADP
@@ -5539,7 +5539,7 @@ fut	être	AUX
 pas	pas	ADV
 présent	présent	ADJ
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 à	à	ADP
 la	le	DET
 Haye.	Haye.	PROPN
@@ -5609,7 +5609,7 @@ tient	tenir	VERB
 à	à	ADP
 Lausanne	Lausanne	PROPN
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 en	en	ADP
 découle	découler	VERB
@@ -5715,7 +5715,7 @@ maintenant	maintenant	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
 a	avoir	AUX
-27	27	NUM
+27	27	DIGIT
 km	km	NOUN
 de	de	ADP
 long	long	ADJ
@@ -5822,7 +5822,7 @@ trente	trente	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 avec	avec	ADP
-40	40	NUM
+40	40	DIGIT
 festivals	festival	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -6625,17 +6625,17 @@ chiffres	chiffre	NOUN
 les	le	DET
 Russie	Russie	PROPN
 sont	être	AUX
-260	260	NUM
+260	260	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 les	le	DET
 États-Unis	États-Unis	PROPN
-230	230	NUM
+230	230	DIGIT
 ,	,	PUNCTclause
 total	total	NOUN
-490	490	NUM
+490	490	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -6668,7 +6668,7 @@ combien	combien	ADV
 ils	ils	PRON
 seraient	être	AUX
 ?	?	PUNCTsent
-535	535	NUM
+535	535	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ

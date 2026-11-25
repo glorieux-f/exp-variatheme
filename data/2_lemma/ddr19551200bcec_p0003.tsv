@@ -19,11 +19,11 @@ débuts	début	NOUN
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 )	)	PUNCTclause
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -32,9 +32,9 @@ ancienne	ancien	ADJ
 Russie	Russie	PROPN
 (	(	PUNCTclause
 de	de	ADP
-862	862	NUM
+862	862	DIGIT
 à	à	ADP
-1700	1700	NUM
+1700	1700	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -243,8 +243,8 @@ l'	le	DET
 occupation	occupation	NOUN
 mongole	mongol	ADJ
 (	(	PUNCTclause
-1224	1224	NUM
--1320	-1320	NUM
+1224	1224	DIGIT
+-1320	-1320	DIGIT
 )	)	PUNCTclause
 ajoutera	ajouter	VERB
 peu de	peu de	DET
@@ -978,7 +978,7 @@ sous le nom de	sous le nom de	ADP
 Catherine	Catherine	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1724	1724	NUM
+1724	1724	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 elle	elle	PRON
@@ -1325,7 +1325,7 @@ ne	ne	ADV
 sait	savoir	VERB
 pas	pas	ADV
 encore	encore	ADV
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 à	à	ADP
 l'	le	DET
 étranger	étranger	NOUN
@@ -2402,7 +2402,7 @@ Wroubel	Wroubel	PROPN
 est	être	AUX
 restée	rester	VERB
 fidèle	fidèle	ADJ
-par certains côtés	par certains côtés	ADP
+par certains côtés	par certains côtés	ADV
 à	à	ADP
 des	un	DET
 sources	source	NOUN
@@ -2841,7 +2841,7 @@ cette	ce	DET
 prise de vue	prise de vue	NOUN
 remonte	remonter	VERB
 à	à	ADP
-1809	1809	NUM
+1809	1809	DIGIT
 .	.	PUNCTsent
 bientôt	bientôt	ADV
 le	le	DET
@@ -2855,8 +2855,8 @@ Europe	Europe	PROPN
 Carlo	Carlo	PROPN
 Rossi	Rossi	PROPN
 (	(	PUNCTclause
-1777	1777	NUM
--1849	-1849	NUM
+1777	1777	DIGIT
+-1849	-1849	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 allait	aller	VERB
@@ -3067,7 +3067,7 @@ Russie	Russie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1836	1836	NUM
+1836	1836	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 ancien	ancien	ADJ
@@ -4117,8 +4117,8 @@ intelligentsia	intelligentsia	NOUN
 Russie	Russie	PROPN
 des	un	ADP_DET
 années	année	NOUN
-1860	1860	NUM
--1870	-1870	NUM
+1860	1860	DIGIT
+-1870	-1870	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 définit	définir	VERB
@@ -4382,7 +4382,7 @@ Tchaktev	Tchaktev	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1870	1870	NUM
+1870	1870	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 par	par	ADP
@@ -4390,7 +4390,7 @@ Plekhanov	Plekhanov	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1880	1880	NUM
+1880	1880	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -4616,8 +4616,8 @@ l'	le	DET
 essor	essor	NOUN
 culturel	culturel	ADJ
 (	(	PUNCTclause
-1880	1880	NUM
--1917	-1917	NUM
+1880	1880	DIGIT
+-1917	-1917	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4693,7 +4693,7 @@ connus	connaître	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1897	1897	NUM
+1897	1897	DIGIT
 ,	,	PUNCTclause
 Diaghilev	Diaghilev	PROPN
 et	et	CCONJ
@@ -4751,9 +4751,9 @@ Bakst	Bakst	PROPN
 ,	,	PUNCTclause
 Golovine	Golovine	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-sont	être	VERB
+sont	être	AUX
 révélés	révéler	VERB
 à	à	ADP
 Paris	Paris	PROPN
@@ -4767,7 +4767,7 @@ de	de	ADP
 Diaghilev	Diaghilev	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1909	1909	NUM
+1909	1909	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 théâtre	théâtre	NOUN
@@ -5173,7 +5173,7 @@ que	que	ADV
 aux	au	ADP_DET
 journées	journée	NOUN
 de	de	ADP
-1905	1905	NUM
+1905	1905	DIGIT
 ou	ou	CCONJ
 à	à	ADP
 Raspoutine	Raspoutine	PROPN
@@ -5226,9 +5226,9 @@ de	de	ADP
 l'	le	DET
 état	état	NOUN
 entre	entre	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 et	et	CCONJ
-1925	1925	NUM
+1925	1925	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 l'	le	DET
@@ -5499,7 +5499,7 @@ voici	voici	ADP
 l'	le	DET
 été	été	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 :	:	PUNCTclause
 il	il	PRON
 surprend	surprendre	VERB

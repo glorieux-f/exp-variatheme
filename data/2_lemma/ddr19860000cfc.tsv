@@ -13,7 +13,7 @@ Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-1986	1986	NUM
+1986	1986	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -21,7 +21,7 @@ vos	vos	DET
 écrits	écrit	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 sont	être	AUX
 une	un	DET
 condamnation	condamnation	NOUN
@@ -207,9 +207,9 @@ agit	agir	VERB
 des	un	ADP_DET
 écrits	écrit	NOUN
 de	de	ADP
-1842	1842	NUM
+1842	1842	DIGIT
 à	à	ADP
-1844	1844	NUM
+1844	1844	DIGIT
 qui	qui	PRON
 sont	être	AUX
 souvent	souvent	ADV
@@ -228,7 +228,7 @@ mais	mais	CCONJ
 au-delà de	au-delà de	ADP
 écrits	écrit	NOUN
 de	de	ADP
-1844	1844	NUM
+1844	1844	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 étions	être	AUX
@@ -302,7 +302,7 @@ plus tard	plus tard	ADV
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 critique	critique	NOUN
@@ -1574,8 +1574,8 @@ la	le	DET
 personne	personne	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-193	193	NUM
--222	-222	NUM
+193	193	DIGIT
+-222	-222	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
@@ -1607,9 +1607,9 @@ tout un chacun	tout un chacun	PRON
 ma	mon	DET
 révolte	révolte	NOUN
 entre	entre	ADP
-19	19	NUM
+19	19	DIGIT
 et	et	CCONJ
-23	23	NUM
+23	23	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 si	si	SCONJ
@@ -1760,17 +1760,17 @@ remonte	remonter	VERB
 remonte	remonter	VERB
 aux	au	ADP_DET
 années	année	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 à	à	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 devais	devoir	VERB
 donc	donc	ADV
 avoir	avoir	VERB
-21	21	NUM
+21	21	DIGIT
 à	à	ADP
-24	24	NUM
+24	24	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -2024,7 +2024,7 @@ responsabilité	responsabilité	NOUN
 .	.	PUNCTsent
 je	je	PRON
 découvrais	découvrir	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 le	le	DET
 principe	principe	NOUN
 des	un	ADP_DET
@@ -2083,7 +2083,7 @@ peu	peu	ADV
 après	après	ADV
 ,	,	PUNCTclause
 vers	vers	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 théologie	théologie	NOUN
@@ -2176,7 +2176,7 @@ personne	personne	NOUN
 remonte	remonter	VERB
 à	à	ADP
 décembre	décembre	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 ?	?	PUNCTsent
 l'	le	DET
 article	article	NOUN
@@ -2197,14 +2197,14 @@ parut	paraître	VERB
 dans	dans	ADP
 le	le	DET
 numéro	numéro	NOUN
-27	27	NUM
+27	27	DIGIT
 de	de	ADP
 la	le	DET
 revue	revue	NOUN
 Esprit	Esprit	PROPN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2770,7 +2770,7 @@ ils	ils	PRON
 les	le_PRON	PRON
 font	faire	VERB
 devant	devant	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 mais	mais	CCONJ
 quelqu'un	quelqu'un	PRON
@@ -3079,8 +3079,8 @@ première	premier	ADJ
 version	version	NOUN
 écrite	écrire	VERB
 en	en	ADP
-1945	1945	NUM
--1946	-1946	NUM
+1945	1945	DIGIT
+-1946	-1946	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 qui	qui	PRON
@@ -3094,7 +3094,7 @@ elle	elle	PRON
 ne	ne	ADV
 a	avoir	VERB
 que	que	ADV
-120	120	NUM
+120	120	DIGIT
 pages	page	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3103,7 +3103,7 @@ je	je	PRON
 ai	avoir	AUX
 accumulé	accumuler	VERB
 au moins	au moins	ADV
-400	400	NUM
+400	400	DIGIT
 pages	page	NOUN
 de	de	ADP
 notes	note	NOUN
@@ -3384,7 +3384,7 @@ je	je	PRON
 sais	savoir	VERB
 comment	comment	ADV
 aller	aller	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 à	à	ADP
 Grasse	Grasse	PROPN
 .	.	PUNCTsent
@@ -4343,7 +4343,7 @@ le	le	DET
 début	début	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 —	—	PUNCTclause
 en	en	ADP
 disant	dire	VERB
@@ -4831,7 +4831,7 @@ mon	mon	DET
 —	—	PUNCTclause
 je	je	PRON
 aurai	avoir	VERB
-78	78	NUM
+78	78	DIGIT
 ans	an	NOUN
 dans	dans	ADP
 un	un	DET
@@ -4864,9 +4864,9 @@ se	se	PRON
 est	être	AUX
 déclarée	déclarer	VERB
 entre	entre	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 et	et	CCONJ
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 quelques-uns	quelques-uns	PRON
 ont	avoir	AUX
@@ -4934,6 +4934,6 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 août	août	NOUN
-1984	1984	NUM
+1984	1984	DIGIT

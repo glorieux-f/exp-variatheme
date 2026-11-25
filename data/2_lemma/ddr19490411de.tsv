@@ -17,9 +17,9 @@ et	et	CCONJ
 l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 avril	avril	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -80,7 +80,7 @@ nous	nous	PRON
 reste	rester	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 de	de	ADP
 échapper	échapper	VERB
@@ -89,7 +89,7 @@ la	le	DET
 guerre	guerre	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 de	de	ADP
 arrêter	arrêter	VERB
@@ -97,7 +97,7 @@ les	le	DET
 Russie	Russie	PROPN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 de	de	ADP
 sauver	sauver	VERB
@@ -120,8 +120,7 @@ je	je	PRON
 parlerai	parler	VERB
 de	de	ADP
 une	un	DET
-4	4	NUM
-e	e	SYM
+4e	4e	NUMord
 raison	raison	NOUN
 non	non	ADV
 moins	moins	ADV
@@ -292,7 +291,7 @@ Allemagne	Allemagne	PROPN
 peut	pouvoir	VERB
 affirmer	affirmer	VERB
 que	que	SCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -481,7 +480,7 @@ nationale-socialiste	nationale-socialiste	ADJ
 ni plus ni moins	ni plus ni moins	ADV
 que	que	SCONJ
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 vous	vous	PRON
@@ -583,7 +582,7 @@ fois	fois	NOUN
 la	le	DET
 majorité	majorité	NOUN
 de	de	ADP
-99,5	99,5	NUM
+99,5	99,5	DIGIT
 des	un	ADP_DET
 voix	voix	NOUN
 .	.	PUNCTsent
@@ -989,7 +988,7 @@ le	le	DET
 peuple	peuple	NOUN
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
-traité	traiter	VERB
+traité	traité	NOUN
 sur	sur	ADP
 pied	pied	NOUN
 de	de	ADP

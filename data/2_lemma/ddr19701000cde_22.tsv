@@ -541,10 +541,10 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 à partir de	à partir de	ADP
-25	25	NUM
+25	25	DIGIT
 États-cantons	États-cantons	NOUN
 souverains	souverain	NOUN
 .	.	PUNCTsent
@@ -1542,7 +1542,7 @@ résultat	résultat	NOUN
 :	:	PUNCTclause
 dépopulation	dépopulation	NOUN
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 par	par	ADP
 année	année	NOUN
 ,	,	PUNCTclause
@@ -1551,24 +1551,24 @@ en	en	ADP
 Belgique	Belgique	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 km	km	NOUN
 ,	,	PUNCTclause
 la	le	DET
 population	population	NOUN
 augmentait	augmenter	VERB
 de	de	ADP
-5,8	5,8	NUM
+5,8	5,8	DIGIT
 et	et	CCONJ
 aux	au	ADP_DET
 Pays-Bas	Pays-Bas	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-100	100	NUM
+100	100	DIGIT
 km	km	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 avec	avec	ADP
 la	le	DET
@@ -1599,9 +1599,9 @@ un	un	DET
 rayon	rayon	NOUN
 approximatif	approximatif	ADJ
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-150	150	NUM
+150	150	DIGIT
 km	km	NOUN
 ,	,	PUNCTclause
 alors que	alors que	SCONJ
@@ -1609,7 +1609,7 @@ Paris	Paris	PROPN
 se	se	PRON
 trouve	trouver	VERB
 à	à	ADP
-216	216	NUM
+216	216	DIGIT
 km	km	NOUN
 .	.	PUNCTsent
 d'autres	d'autre	PRON
@@ -2066,7 +2066,7 @@ encore que	encore que	SCONJ
 zéro	zéro	NOUN
 ,	,	PUNCTclause
 contre	contre	ADP
-25	25	NUM
+25	25	DIGIT
 ,	,	PUNCTclause
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
@@ -2179,7 +2179,7 @@ culturelle	culturel	ADJ
 ,	,	PUNCTclause
 environnement	environnement	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 à défaut de	à défaut de	ADP
 entente	entente	NOUN
 entre	entre	ADP

@@ -10,7 +10,7 @@ la	le	DET
 cité	cité	NOUN
 (	(	PUNCTclause
 avril-mai	avril-mai	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2151,7 +2151,7 @@ est	être	AUX
 fait	faire	VERB
 !	!	PUNCTsent
 depuis	depuis	ADP
-19	19	NUM
+19	19	DIGIT
 siècles	siècle	NOUN
 .	.	PUNCTsent
 la	le	DET
@@ -2763,7 +2763,7 @@ où	où	PRON
 il	il	PRON
 va	aller	VERB
 !	!	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ainsi	ainsi	ADV
 que	que	SCONJ
 courent	courir	VERB
@@ -2872,7 +2872,7 @@ pas	pas	ADV
 ces	ce	DET
 questions	question	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 alors	alors	ADV
 ,	,	PUNCTclause
 justement	justement	ADV
@@ -3083,7 +3083,9 @@ seconde	second	ADJ
 question	question	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 politique	politique	NOUN
 chrétienne	chrétien	ADJ
@@ -4551,7 +4553,7 @@ phrase	phrase	NOUN
 :	:	PUNCTclause
 un	un	DET
 tel	tel	PRON
-compromis	compromettre	VERB
+compromis	compromis	ADJ
 ne	ne	ADV
 est	être	AUX
 possible	possible	ADJ
@@ -5042,7 +5044,7 @@ qui	qui	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 une	un	DET
 utopie	utopie	NOUN
 .	.	PUNCTsent
@@ -7295,7 +7297,7 @@ deux	deux	NUM
 remarques	remarque	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 il	il	PRON
 faut	falloir	VERB
@@ -7322,7 +7324,7 @@ des	un	ADP_DET
 suiveurs	suiveur	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 vous	vous	PRON
 pouvez	pouvoir	VERB
@@ -7451,7 +7453,7 @@ remarquer	remarquer	VERB
 que	que	SCONJ
 certains	certain	DET
 …	…	PUNCTsent
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
@@ -7518,7 +7520,7 @@ pas	pas	ADV
 de	de	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 que	que	SCONJ
 il	il	PRON

@@ -13,9 +13,9 @@ et	et	CCONJ
 la	le	DET
 littérature	littérature	NOUN
 (	(	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 avril	avril	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -61,7 +61,7 @@ sociale-démocrate	sociale-démocrate	PUNCT
 écrit	écrire	VERB
 Lénine	Lénine	PROPN
 en	en	ADP
-1905	1905	NUM
+1905	1905	DIGIT
 déjà	déjà	ADV
 !	!	PUNCTsent
 —	—	PUNCTclause
@@ -162,7 +162,7 @@ de	de	ADP
 pages	page	NOUN
 (	(	PUNCTclause
 sur	sur	ADP
-150	150	NUM
+150	150	DIGIT
 )	)	PUNCTclause
 relatives	relatif	ADJ
 surtout	surtout	ADV
@@ -258,8 +258,7 @@ le	le	DET
 «	«	PUNCTclause
 salut	salut	NOUN
 au	au	ADP_DET
-17	17	NUM
-e	e	NOUN
+17e	17e	NUMord
 »	»	PUNCTclause
 :	:	PUNCTclause
 salut	salut	NOUN
@@ -271,8 +270,7 @@ vous	vous	PRON
 braves	brave	ADJ
 soldats	soldat	NOUN
 du	du	ADP_DET
-17	17	NUM
-e	e	NOUN
+17e	17e	NUMord
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ou	ou	CCONJ
@@ -305,7 +303,7 @@ dans	dans	ADP
 un	un	DET
 article	article	NOUN
 de	de	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 loue	louer	VERB
@@ -455,7 +453,7 @@ sympathique	sympathique	ADJ
 mais	mais	CCONJ
 ,	,	PUNCTclause
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 ton	ton	NOUN

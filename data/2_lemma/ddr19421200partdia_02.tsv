@@ -16,7 +16,7 @@ la	le	DET
 révélation	révélation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le premier	le premier	PRON
 tour	tour	NOUN
@@ -66,7 +66,7 @@ existe	exister	VERB
 pas	pas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 incognito	incognito	X
@@ -389,7 +389,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Ange	Ange	PROPN
@@ -829,7 +829,7 @@ il	il	PRON
 abuse	abuser	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Prince	Prince	PROPN
@@ -1200,7 +1200,7 @@ manquera	manquer	VERB
 pas	pas	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 le	le	DET
 tentateur	tentateur	NOUN
@@ -2062,7 +2062,7 @@ suprême	suprême	ADJ
 utopie	utopie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 accusateur	accusateur	NOUN
@@ -2263,7 +2263,7 @@ le	le	DET
 tribunal	tribunal	NOUN
 céleste	céleste	ADJ
 .	.	PUNCTsent
-non content de	non content de	ADP
+non content de	non content de	ADJ
 nous	nous	PRON
 prendre	prendre	VERB
 à	à	ADP
@@ -2452,7 +2452,7 @@ la	le	DET
 révolte	révolte	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Menteur	Menteur	PROPN
@@ -3026,7 +3026,7 @@ si	si	SCONJ
 la	le	DET
 balance	balance	NOUN
 marque	marquer	VERB
-980	980	NUM
+980	980	DIGIT
 grammes	gramme	NOUN
 ,	,	PUNCTclause
 vous	vous	PRON
@@ -3035,7 +3035,7 @@ dire	dire	VERB
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-1	1	NUM
+1	1	DIGIT
 kg	kg	NOUN
 .	.	PUNCTsent
 votre	votre	DET
@@ -3537,7 +3537,7 @@ aucune	aucun	DET
 vérité	vérité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 légion	légion	NOUN
 .	.	PUNCTsent
@@ -3632,7 +3632,7 @@ finalement	finalement	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 étant	être	AUX
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 ou	ou	CCONJ
 n'importe qui	n'importe qui	PRON
@@ -3669,7 +3669,7 @@ existence	existence	NOUN
 même	même	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 le	le	DET
 sophisme	sophisme	NOUN
@@ -3861,7 +3861,7 @@ de	de	ADP
 Satan	Satan	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 il	il	PRON
 devient	devenir	VERB
 incapable	incapable	ADJ
@@ -4151,7 +4151,7 @@ notre	notre	DET
 approche	approche	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 pour	pour	ADP
 ceux	ceux	PRON
@@ -4173,7 +4173,9 @@ nécessaire	nécessaire	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 une	un	DET
 variation	variation	NOUN
 sur	sur	ADP
@@ -4529,7 +4531,7 @@ bonnes	bon	ADJ
 femmes	femme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 diable	diable	NOUN
 et	et	CCONJ
@@ -5283,7 +5285,7 @@ mais	mais	CCONJ
 malades	malade	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 le	le	DET
 psychanalyste	psychanalyste	NOUN

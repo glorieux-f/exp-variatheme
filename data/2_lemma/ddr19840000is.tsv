@@ -12,7 +12,7 @@ société	société	NOUN
 ,	,	PUNCTclause
 sagesse	sagesse	NOUN
 (	(	PUNCTclause
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -20,7 +20,7 @@ en	en	ADP
 ce	ce	DET
 début	début	NOUN
 de	de	ADP
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 sacrifions	sacrifier	VERB
 au	au	ADP_DET
@@ -106,14 +106,14 @@ apprend	apprendre	VERB
 en effet	en effet	ADV
 ,	,	PUNCTclause
 page	page	NOUN
-223	223	NUM
+223	223	DIGIT
 de	de	ADP
 l'	le	DET
 édition	édition	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
 que	que	SCONJ
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 se	se	PRON
 déroule	dérouler	VERB
 l'	le	DET
@@ -144,7 +144,7 @@ il	il	PRON
 écrit	écrire	VERB
 en	en	ADP
 novembre	novembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 que	que	SCONJ
 «	«	PUNCTclause
 la	le	DET
@@ -193,7 +193,7 @@ Orwell	Orwell	PROPN
 son	son	DET
 livre	livre	NOUN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 se	se	PRON
@@ -224,7 +224,7 @@ Staline	Staline	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 se	se	PRON
 tient	tenir	VERB
 à	à	ADP
@@ -258,20 +258,20 @@ Europe	Europe	PROPN
 dans	dans	ADP
 lequel	lequel	PRON
 les	le	DET
-800	800	NUM
+800	800	DIGIT
 délégués	délégué	NOUN
 —	—	PUNCTclause
 parmi	parmi	ADP
 eux	eux	PRON
-16	16	NUM
+16	16	DIGIT
 anciens	ancien	ADJ
 Premiers	Premiers	PROPN
 ministres	ministre	NOUN
 ,	,	PUNCTclause
-45	45	NUM
+45	45	DIGIT
 ministres	ministre	NOUN
 ,	,	PUNCTclause
-250	250	NUM
+250	250	DIGIT
 députés	député	NOUN
 à	à	ADP
 nos	nos	DET
@@ -351,7 +351,7 @@ suivront	suivre	VERB
 et	et	CCONJ
 cette	ce	DET
 année	année	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 précisément	précisément	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -768,7 +768,7 @@ a	avoir	AUX
 pu	pouvoir	VERB
 connaître	connaître	VERB
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 que	que	SCONJ
 les	le	DET
 balbutiements	balbutiement	NOUN
@@ -928,7 +928,7 @@ devenu	devenir	VERB
 possible	possible	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 par	par	ADP
 l'	le	DET
@@ -1150,7 +1150,7 @@ ne	ne	ADV
 pouvait	pouvoir	VERB
 connaître	connaître	VERB
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 que	que	SCONJ
 la	le	DET
 possibilité	possibilité	NOUN
@@ -1353,7 +1353,7 @@ presse	presse	NOUN
 ,	,	PUNCTclause
 discours	discours	NOUN
 de	de	ADP
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ou	ou	CCONJ
 de	de	ADP
 syndicats	syndicat	NOUN
@@ -1794,9 +1794,9 @@ que	que	SCONJ
 des	un	DET
 gamins	gamin	NOUN
 de	de	ADP
-16	16	NUM
+16	16	DIGIT
 ou	ou	CCONJ
-17	17	NUM
+17	17	DIGIT
 ans	an	NOUN
 ont	avoir	AUX
 «	«	PUNCTclause
@@ -2668,7 +2668,7 @@ New York	New York	PROPN
 )	)	PUNCTclause
 paru	paraître	VERB
 en	en	ADP
-1981	1981	NUM
+1981	1981	DIGIT
 et	et	CCONJ
 traduit	traduire	VERB
 la même	la même	PRON
@@ -2709,13 +2709,13 @@ des	un	ADP_DET
 experts	expert	NOUN
 ,	,	PUNCTclause
 quelque	quelque	DET
-45	45	NUM
+45	45	DIGIT
 millions	million	NOUN
 de	de	ADP
 emplois	emploi	NOUN
 —	—	PUNCTclause
 soit	être	AUX
-45	45	NUM
+45	45	DIGIT
 du	du	ADP_DET
 total	total	NOUN
 ,	,	PUNCTclause
@@ -2729,7 +2729,7 @@ de	de	ADP
 l'	le	DET
 ordre	ordre	NOUN
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 —	—	PUNCTclause
 pourraient	pouvoir	VERB
@@ -2759,7 +2759,7 @@ dès	dès	ADP
 avant	avant	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2804,14 +2804,14 @@ adhérents	adhérent	NOUN
 va	aller	VERB
 décliner	décliner	VERB
 entre	entre	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 et	et	CCONJ
-1990	1990	NUM
+1990	1990	DIGIT
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 million	million	NOUN
 à	à	ADP
-800000	800000	NUM
+800000	800000	DIGIT
 ,	,	PUNCTclause
 bien que	bien que	SCONJ
 l'on	on	PRON
@@ -2822,7 +2822,7 @@ hypothèse	hypothèse	NOUN
 une	un	DET
 croissance	croissance	NOUN
 de	de	ADP
-1,8	1,8	NUM
+1,8	1,8	DIGIT
 des	un	ADP_DET
 ventes	vente	NOUN
 de	de	ADP
@@ -2869,7 +2869,7 @@ sur	sur	ADP
 un	un	DET
 total	total	NOUN
 dépassant	dépasser	VERB
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 de	de	ADP
 emplois	emploi	NOUN
@@ -2879,7 +2879,7 @@ le	le	DET
 secteur	secteur	NOUN
 tertiaire	tertiaire	NOUN
 ,	,	PUNCTclause
-38	38	NUM
+38	38	DIGIT
 millions	million	NOUN
 risquent	risquer	VERB
 de	de	ADP
@@ -2919,9 +2919,9 @@ baisse	baisse	NOUN
 des	un	ADP_DET
 effectifs	effectif	NOUN
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 depuis	depuis	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 faisant	faire	VERB
 de	de	ADP
@@ -2963,7 +2963,7 @@ Minc	Minc	PROPN
 ,	,	PUNCTclause
 établi	établir	VERB
 en	en	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 ,	,	PUNCTclause
 prévoyait	prévoir	VERB
 ,	,	PUNCTclause
@@ -2971,7 +2971,7 @@ sur	sur	ADP
 les	le	DET
 effectifs	effectif	NOUN
 de	de	ADP
-600000	600000	NUM
+600000	600000	DIGIT
 employés	employé	NOUN
 dans	dans	ADP
 les	le	DET
@@ -2983,9 +2983,9 @@ assurances	assurance	NOUN
 une	un	DET
 réduction	réduction	NOUN
 de	de	ADP
-30	30	NUM
+30	30	DIGIT
 en	en	ADP
-1990	1990	NUM
+1990	1990	DIGIT
 .	.	PUNCTsent
 cependant que	cependant que	SCONJ
 deux	deux	NUM
@@ -2995,13 +2995,13 @@ portaient	porter	VERB
 ce	ce	DET
 chiffre	chiffre	NOUN
 à	à	ADP
-31	31	NUM
+31	31	DIGIT
 pour	pour	ADP
 la	le	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
 et	et	CCONJ
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 pour	pour	ADP
 la	le	DET
 République	République	PROPN
@@ -3385,15 +3385,15 @@ leur	leur	DET
 créativité	créativité	NOUN
 diminuait	diminuer	VERB
 de	de	ADP
-30	30	NUM
+30	30	DIGIT
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 pendant	pendant	ADP
 la première	la première	PRON
 heure	heure	NOUN
 et	et	CCONJ
 de	de	ADP
-80	80	NUM
+80	80	DIGIT
 durant	durant	ADP
 la	le	DET
 deuxième	deuxième	ADJ
@@ -3628,7 +3628,7 @@ fin	fin	NOUN
 dès	dès	ADP
 cette	ce	DET
 année	année	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 non seulement	non seulement	ADV
 dans	dans	ADP

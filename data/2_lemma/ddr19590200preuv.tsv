@@ -12,7 +12,7 @@ de	de	ADP
 Tristan	Tristan	PROPN
 (	(	PUNCTclause
 février	février	NOUN
-1959	1959	NUM
+1959	1959	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1252,7 +1252,7 @@ Lolita	Lolita	PROPN
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
-13	13	NUM
+13	13	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 cependant	cependant	ADV
@@ -2058,9 +2058,9 @@ limites	limite	NOUN
 de	de	ADP
 âge	âge	NOUN
 de	de	ADP
-9	9	NUM
+9	9	DIGIT
 et	et	CCONJ
-14	14	NUM
+14	14	DIGIT
 ans	an	NOUN
 apparaissent	apparaître	VERB
 des	un	ADP_DET
@@ -2116,10 +2116,10 @@ nymphets	nymphets	NOUN
 »	»	PUNCTclause
 Lolita	Lolita	PROPN
 ,	,	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 et	et	CCONJ
-7	7	NUM
+7	7	DIGIT
 mois	mois	NOUN
 ,	,	PUNCTclause
 a	avoir	AUX
@@ -2278,7 +2278,7 @@ Humbert	Humbert	PROPN
 tuera	tuer	VERB
 .	.	PUNCTsent
 à	à	ADP
-17	17	NUM
+17	17	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 mariée	marier	VERB
@@ -2744,7 +2744,7 @@ pour	pour	ADP
 Béatrice	Béatrice	PROPN
 âgée	âgé	ADJ
 de	de	ADP
-9	9	NUM
+9	9	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -2755,7 +2755,7 @@ pour	pour	ADP
 Laure	Laure	PROPN
 âgée	âgé	ADJ
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 ;	;	PUNCTclause
 ces	ce	DET
@@ -2799,7 +2799,7 @@ Kuhn	Kuhn	PROPN
 ,	,	PUNCTclause
 morte	mourir	VERB
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -2810,7 +2810,7 @@ qui	qui	PRON
 une	un	DET
 fille	fille	NOUN
 de	de	ADP
-14	14	NUM
+14	14	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3030,14 +3030,14 @@ autorise	autoriser	VERB
 un	un	DET
 homme	homme	NOUN
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 à	à	ADP
 courtiser	courtiser	VERB
 une	un	DET
 fille	fille	NOUN
 de	de	ADP
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -3046,7 +3046,7 @@ pas	pas	ADV
 une	un	DET
 fille	fille	NOUN
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -3064,14 +3064,14 @@ que	que	SCONJ
 il	il	PRON
 conçut	concevoir	VERB
 à	à	ADP
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 pour	pour	ADP
 une	un	DET
 petite	petit	ADJ
 fille	fille	NOUN
 de	de	ADP
-9	9	NUM
+9	9	DIGIT
 ans	an	NOUN
 qui	qui	PRON
 se	se	PRON
@@ -3342,7 +3342,7 @@ pique-nique	pique-nique	NOUN
 quand	quand	SCONJ
 je	je	PRON
 avais	avoir	VERB
-3	3	NUM
+3	3	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -4279,7 +4279,7 @@ monta	monter	VERB
 elle	elle	PRON
 avait	avoir	AUX
 peut-être	peut-être	ADV
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 en compagnie de	en compagnie de	ADP
@@ -5157,7 +5157,7 @@ de	de	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 —	—	PUNCTclause
 connut	connaître	VERB
 peut-être	peut-être	ADV
@@ -8224,9 +8224,9 @@ prix	prix	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 renier	renier	VERB
-ce	ce	DET
+ce	ce	PRON
 qui	qui	PRON
 déplaît	déplaire	VERB
 au	au	ADP_DET
@@ -8303,7 +8303,7 @@ la	le	DET
 faveur	faveur	NOUN
 publique	public	ADJ
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 lui	lui	PRON
 qui	qui	PRON
 trahit	trahir	VERB
@@ -10263,7 +10263,7 @@ interdits	interdire	VERB
 et	et	CCONJ
 tabous	tabou	ADJ
 que	que	PRON
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 ceux	ceux	PRON
 commencent	commencer	VERB
 à	à	ADP
@@ -10308,7 +10308,7 @@ littéraires	littéraire	ADJ
 de	de	ADP
 l'	le	DET
 époque	époque	NOUN
-1900	1900	NUM
+1900	1900	DIGIT
 ,	,	PUNCTclause
 permettent	permettre	VERB
 à	à	ADP

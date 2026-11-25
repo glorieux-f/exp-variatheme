@@ -15,9 +15,9 @@ bon	bon	ADJ
 demi-siècle	demi-siècle	NOUN
 !	!	PUNCTsent
 (	(	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 janvier	janvier	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -50,7 +50,7 @@ je	je	PRON
 suis	être	AUX
 en retard	en retard	ADV
 de	de	ADP
-24	24	NUM
+24	24	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -308,7 +308,7 @@ en	en	ADP
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 quelque	quelque	ADV
-40	40	NUM
+40	40	DIGIT
 millions	million	NOUN
 de	de	ADP
 personnes	personne	NOUN
@@ -323,7 +323,7 @@ militaires	militaire	NOUN
 ,	,	PUNCTclause
 parmi	parmi	ADP
 lesquels	lesquels	PRON
-6	6	NUM
+6	6	DIGIT
 millions	million	NOUN
 de	de	ADP
 juifs	juif	NOUN
@@ -408,7 +408,7 @@ en	en	ADP
 quelques	quelque	DET
 secondes	second	NOUN
 plus de	plus de	DET
-200000	200000	NUM
+200000	200000	DIGIT
 japonais	japonais	NOUN
 qui	qui	PRON
 vaquaient	vaquer	VERB
@@ -539,7 +539,7 @@ de	de	ADP
 circuler	circuler	VERB
 .	.	PUNCTsent
 en	en	ADP
-1905	1905	NUM
+1905	1905	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 pouvait	pouvoir	VERB
@@ -602,7 +602,7 @@ nous	nous	PRON
 avons	avoir	AUX
 progressé	progresser	VERB
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 ans	an	NOUN
 vers	vers	ADP
 la	le	DET
@@ -660,7 +660,7 @@ vient	venir	VERB
 de	de	ADP
 couvrir	couvrir	VERB
 en	en	ADP
-7	7	NUM
+7	7	DIGIT
 heures	heure	NOUN
 la	le	DET
 distance	distance	NOUN
@@ -673,9 +673,9 @@ nos	nos	DET
 capitales	capital	NOUN
 sont	être	AUX
 à	à	ADP
-2	2	NUM
+2	2	DIGIT
 ou	ou	CCONJ
-3	3	NUM
+3	3	DIGIT
 heures	heure	NOUN
 les	le	DET
 unes	un	PRON
@@ -710,7 +710,7 @@ a	avoir	AUX
 progressé	progresser	VERB
 ,	,	PUNCTclause
 depuis	depuis	ADP
-50	50	NUM
+50	50	DIGIT
 ans	an	NOUN
 —	—	PUNCTclause
 dans	dans	ADP
@@ -799,10 +799,10 @@ du	du	ADP_DET
 beurre	beurre	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-10	10	NUM
+10	10	DIGIT
 fois	fois	NOUN
 ,	,	PUNCTclause
-100	100	NUM
+100	100	DIGIT
 fois	fois	NOUN
 plus de	plus de	DET
 l'un	l'un	PRON
@@ -814,7 +814,7 @@ l'autre	l'autre	PRON
 des	un	DET
 hommes	homme	NOUN
 de	de	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 croyaient	croire	VERB
 que	que	SCONJ
 le	le	DET
@@ -1026,7 +1026,7 @@ ne	ne	ADV
 fait	faire	VERB
 rien	rien	PRON
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 deux	deux	NUM
 ans	an	NOUN
 au maximum	au maximum	ADV

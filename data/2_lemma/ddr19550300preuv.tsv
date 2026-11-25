@@ -12,7 +12,7 @@ gauche	gauche	NOUN
 droite	droite	NOUN
 (	(	PUNCTclause
 mars	mars	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -325,7 +325,7 @@ la	le	DET
 esprit	esprit	NOUN
 ,	,	PUNCTclause
 p.	p.	DET
-665	665	NUM
+665	665	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 les	le	DET
@@ -333,7 +333,7 @@ gens	gens	NOUN
 du	du	ADP_DET
 		TOKEN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 avaient	avoir	VERB
 donc	donc	ADV
@@ -408,7 +408,7 @@ nouvelle	nouveau	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-667	667	NUM
+667	667	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ceci	ceci	PRON
@@ -466,7 +466,7 @@ gens	gens	NOUN
 du	du	ADP_DET
 		TOKEN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
 le	le	DET
@@ -541,10 +541,10 @@ de	de	ADP
 gagner	gagner	VERB
 »	»	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 (	(	PUNCTclause
 p.	p.	NOUN
-668	668	NUM
+668	668	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ou	ou	CCONJ
@@ -569,7 +569,7 @@ Allemagne	Allemagne	PROPN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-665	665	NUM
+665	665	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 on	on	PRON
@@ -611,7 +611,7 @@ gens	gens	NOUN
 du	du	ADP_DET
 		TOKEN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 avaient	avoir	VERB
 vu	voir	VERB

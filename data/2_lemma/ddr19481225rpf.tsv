@@ -11,9 +11,9 @@ l'	le	DET
 Europe	Europe	PROPN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 décembre	décembre	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -296,7 +296,7 @@ elles	elles	PRON
 vont	aller	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 différents	différent	ADJ
@@ -311,7 +311,7 @@ colonisés	coloniser	VERB
 les uns après les autres	les uns après les autres	ADV
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 la	le	DET
 question	question	NOUN
@@ -335,7 +335,7 @@ et	et	CCONJ
 URSS	URSS	PROPN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 rien	rien	PRON
 ne	ne	ADV
@@ -474,7 +474,7 @@ fer	fer	NOUN
 est	être	AUX
 de	de	ADP
 environ	environ	ADV
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
@@ -497,7 +497,7 @@ réunis	réunir	VERB
 .	.	PUNCTsent
 si	si	SCONJ
 ces	ce	DET
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -689,7 +689,7 @@ est	être	AUX
 Paul	Paul	PROPN
 Valéry	Valéry	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 bien sûr	bien sûr	ADV
 ;	;	PUNCTclause
 mais	mais	CCONJ
@@ -1643,7 +1643,7 @@ faire	faire	VERB
 l'	le	DET
 Europe	Europe	PROPN
 avec	avec	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 avec	avec	ADP

@@ -6,7 +6,7 @@
 # title = 2. Plans d’union européenne contemporains de la Révolution
 
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 Plans	Plans	PROPN
 de	de	ADP
@@ -132,7 +132,7 @@ armée	armé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1790	1790	NUM
+1790	1790	DIGIT
 ,	,	PUNCTclause
 Camille	Camille	PROPN
 Desmoulins	Desmoulins	PROPN
@@ -287,8 +287,8 @@ organiser	organiser	VERB
 Jeremy	Jeremy	PROPN
 Bentham	Bentham	PROPN
 (	(	PUNCTclause
-1747	1747	NUM
--1832	-1832	NUM
+1747	1747	DIGIT
+-1832	-1832	DIGIT
 )	)	PUNCTclause
 fut	être	AUX
 décrété	décréter	VERB
@@ -337,7 +337,7 @@ Law	Law	X
 ,	,	PUNCTclause
 terminés	terminer	VERB
 en	en	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 publiés	publier	VERB
@@ -346,7 +346,7 @@ après	après	ADP
 sa	son	DET
 mort	mort	NOUN
 en	en	ADP
-1843	1843	NUM
+1843	1843	DIGIT
 .	.	PUNCTsent
 cet	ce	DET
 ouvrage	ouvrage	NOUN
@@ -574,7 +574,7 @@ que	que	SCONJ
 il	il	PRON
 publia	publier	VERB
 en	en	ADP
-1796	1796	NUM
+1796	1796	DIGIT
 :	:	PUNCTclause
 All'Italia	All'Italia	PROPN
 nelle	nelle	PUNCT
@@ -730,7 +730,7 @@ plus	plus	ADV
 célèbre	célèbre	ADJ
 sera	être	AUX
 dès	dès	ADP
-1795	1795	NUM
+1795	1795	DIGIT
 le	le	DET
 plan	plan	NOUN
 de	de	ADP
@@ -758,19 +758,19 @@ temps	temps	NOUN
 Emmanuel	Emmanuel	PROPN
 Kant	Kant	PROPN
 (	(	PUNCTclause
-1724	1724	NUM
--1804	-1804	NUM
+1724	1724	DIGIT
+-1804	-1804	DIGIT
 )	)	PUNCTclause
 était	être	AUX
 âgé	âgé	ADJ
 de	de	ADP
-71	71	NUM
+71	71	DIGIT
 ans	an	NOUN
 lorsque	lorsque	SCONJ
 il	il	PRON
 publia	publier	VERB
 en	en	ADP
-1795	1795	NUM
+1795	1795	DIGIT
 son	son	DET
 traité	traité	NOUN
 Zum	Zum	PROPN
@@ -844,7 +844,7 @@ cite	citer	VERB
 avec	avec	ADP
 éloges	éloge	NOUN
 dès	dès	ADP
-1750	1750	NUM
+1750	1750	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 l'	le	DET
@@ -856,7 +856,7 @@ donné	donner	VERB
 Rousseau	Rousseau	PROPN
 .	.	PUNCTsent
 dès	dès	ADP
-1760	1760	NUM
+1760	1760	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 influence	influence	NOUN
@@ -899,7 +899,7 @@ petit	petit	ADJ
 écrit	écrit	NOUN
 datant	dater	VERB
 de	de	ADP
-1793	1793	NUM
+1793	1793	DIGIT
 :	:	PUNCTclause
 Ueber	Ueber	PROPN
 den	den	ADP
@@ -1041,17 +1041,17 @@ traité	traité	NOUN
 international	international	ADJ
 divisé	diviser	VERB
 en	en	ADP
-6	6	NUM
+6	6	DIGIT
 articles	article	NOUN
 préliminaires	préliminaire	ADJ
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 «	«	PUNCTclause
 articles	article	NOUN
 définitifs	définitif	ADJ
 »	»	PUNCTclause
 et	et	CCONJ
-2	2	NUM
+2	2	DIGIT
 articles	article	NOUN
 additionnels	additionnel	ADJ
 .	.	PUNCTsent
@@ -1135,7 +1135,7 @@ de	de	ADP
 l'	le	DET
 écluse	écluse	NOUN
 en	en	ADP
-1745	1745	NUM
+1745	1745	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 à	à	ADP
@@ -1145,7 +1145,7 @@ publié	publier	VERB
 par	par	ADP
 Rousseau	Rousseau	PROPN
 en	en	ADP
-1762	1762	NUM
+1762	1762	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 quant à	quant à	ADP
@@ -1191,8 +1191,8 @@ Friedrich	Friedrich	PROPN
 von	von	X
 Gentz	Gentz	PROPN
 (	(	PUNCTclause
-1764	1764	NUM
--1832	-1832	NUM
+1764	1764	DIGIT
+-1832	-1832	DIGIT
 )	)	PUNCTclause
 ministre	ministre	NOUN
 du	du	ADP_DET
@@ -1263,7 +1263,7 @@ après	après	ADP
 leur	leur	DET
 publication	publication	NOUN
 en	en	ADP
-1790	1790	NUM
+1790	1790	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 jeta	jeter	VERB
@@ -1362,7 +1362,7 @@ Europe	Europe	PROPN
 finit	finir	VERB
 par écrit	par écrit	ADV
 en	en	ADP
-1814	1814	NUM
+1814	1814	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 ma	mon	DET
@@ -1416,7 +1416,7 @@ dans	dans	ADP
 son	son	DET
 essai	essai	NOUN
 de	de	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 intitulé	intituler	VERB
 Über	Über	PROPN
 den	den	ADP
@@ -1662,7 +1662,7 @@ plus	plus	ADV
 loin	loin	ADV
 ,	,	PUNCTclause
 p.	p.	PUNCT
-189	189	NUM
+189	189	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 reste	rester	VERB
@@ -1818,8 +1818,8 @@ mal	mal	NOUN
 Edmund	Edmund	PROPN
 Burke	Burke	PROPN
 (	(	PUNCTclause
-1729	1729	NUM
--1797	-1797	NUM
+1729	1729	DIGIT
+-1797	-1797	DIGIT
 )	)	PUNCTclause
 que	que	PRON
 l'on	on	PRON
@@ -2032,7 +2032,7 @@ Revolution	Revolution	X
 in	in	X
 France	France	X
 (	(	PUNCTclause
-1790	1790	NUM
+1790	1790	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 il	il	PRON
@@ -2098,7 +2098,7 @@ Directory	Directory	X
 of	of	X
 France	France	X
 (	(	PUNCTclause
-1796	1796	NUM
+1796	1796	DIGIT
 )	)	PUNCTclause
 sa	son	DET
 description	description	NOUN
@@ -2116,7 +2116,7 @@ le	le	DET
 jacobinisme	jacobinisme	NOUN
 l'	le_PRON	PRON
 a	avoir	AUX
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 ou	ou	CCONJ
 détruit	détruire	VERB
 sur	sur	ADP

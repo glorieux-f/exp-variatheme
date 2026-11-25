@@ -12,7 +12,7 @@ régions	région	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
 printemps-été	printemps-été	NOUN
-1975	1975	NUM
+1975	1975	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -148,7 +148,7 @@ Europe	Europe	PROPN
 des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
-1968	1968	NUM
+1968	1968	DIGIT
 )	)	PUNCTclause
 me	me	PRON
 rappelle	rappeler	VERB
@@ -161,7 +161,7 @@ régionalistes	régionaliste	NOUN
 »	»	PUNCTclause
 datent	dater	VERB
 de	de	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 :	:	PUNCTclause
 Paul	Paul	PROPN
 Romus	Romus	PROPN
@@ -185,9 +185,9 @@ de	de	ADP
 l'	le	DET
 Isea	Isea	PROPN
 de	de	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 à	à	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ;	;	PUNCTclause
 et	et	CCONJ
 par	par	ADP
@@ -209,7 +209,7 @@ la	le	DET
 		TOKEN
 ,	,	PUNCTclause
 fin	fin	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 ;	;	PUNCTclause
 tandis que	tandis que	SCONJ
 les	le	DET
@@ -218,13 +218,13 @@ der	der	NOUN
 Regio	Regio	PROPN
 Basiliensis	Basiliensis	PROPN
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 vol.	vol.	PUNCT
 )	)	PUNCTclause
 datent	dater	VERB
 de	de	ADP
-1964	1964	NUM
--1965	-1965	NUM
+1964	1964	DIGIT
+-1965	-1965	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -252,9 +252,9 @@ de	de	ADP
 Genève	Genève	PROPN
 remontent	remonter	VERB
 à	à	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 et	et	CCONJ
-1967	1967	NUM
+1967	1967	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 cela	cela	PRON
@@ -2188,7 +2188,7 @@ la	le	DET
 région	région	NOUN
 lémano-alpine	lémano-alpine	ADJ
 (	(	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 pour le moment	pour le moment	ADV
 ,	,	PUNCTclause
 en	en	ADP
@@ -2578,7 +2578,7 @@ possèdent	posséder	VERB
 de	de	ADP
 quoi	quoi	PRON
 tuer	tuer	VERB
-32000	32000	NUM
+32000	32000	DIGIT
 fois	fois	NOUN
 chaque	chaque	DET
 être humain	être humain	NOUN
@@ -2600,7 +2600,7 @@ en	en	PRON
 est	être	AUX
 que	que	ADV
 à	à	ADP
-29000	29000	NUM
+29000	29000	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 les	le	DET
@@ -2645,7 +2645,7 @@ l'	le	DET
 .	.	PUNCTsent
 ils	ils	PRON
 sont	être	AUX
-150	150	NUM
+150	150	DIGIT
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -2686,7 +2686,7 @@ leur	leur	DET
 monnaie	monnaie	NOUN
 nationale	national	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 avec	avec	ADP
 les	le	DET
@@ -3030,7 +3030,7 @@ pas	pas	ADV
 ils	ils	PRON
 seront	être	AUX
 colonisés	coloniser	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 dix	dix	NUM
 ou	ou	CCONJ
 quinze	quinze	NUM

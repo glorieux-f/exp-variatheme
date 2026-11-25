@@ -3287,7 +3287,7 @@ du	du	ADP_DET
 progrès	progrès	NOUN
 matériel	matériel	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 je	je	PRON
 ne	ne	ADV
 dis	dire	VERB
@@ -3560,7 +3560,7 @@ se	se	PRON
 passe	passer	VERB
 ici	ici	ADV
 ;	;	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 derrière	derrière	ADJ
 ces	ce	DET
 différents	différent	ADJ
@@ -5065,7 +5065,9 @@ une	un	DET
 «	«	PUNCTclause
 réalisation	réalisation	NOUN
 »	»	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 laquelle	laquelle	PRON
 ils	ils	PRON
 nourrissent	nourrir	VERB
@@ -7031,7 +7033,7 @@ nerveux	nerveux	ADJ
 (	(	PUNCTclause
 III	III	NUM
 ,	,	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 quant à	quant à	ADP
@@ -7838,7 +7840,7 @@ acte	acte	NOUN
 ,	,	PUNCTclause
 corps et âme	corps et âme	ADV
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 dès lors	dès lors	ADV
 ,	,	PUNCTclause
 leur	leur	DET
@@ -14168,7 +14170,7 @@ tiers	tiers	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 trouvent	trouver	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 objectivés	objectiver	VERB
 et	et	CCONJ
 prisonniers	prisonnier	NOUN
@@ -14563,7 +14565,7 @@ qui	qui	PRON
 le	le_PRON	PRON
 questionne	questionner	VERB
 .	.	PUNCTsent
-face à face	face à face	NOUN
+face à face	face à face	ADV
 avec	avec	ADP
 le	le	DET
 prochain	prochain	ADJ
@@ -17442,6 +17444,6 @@ vocation	vocation	NOUN
 occidentale	occidental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1933	1933	NUM
--1936	-1936	NUM
+1933	1933	DIGIT
+-1936	-1936	DIGIT
 .	.	PUNCTsent

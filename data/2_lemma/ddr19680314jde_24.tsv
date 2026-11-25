@@ -28,7 +28,7 @@ Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 septembre	septembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -401,7 +401,7 @@ de	de	ADP
 la	le	DET
 paroisse	paroisse	NOUN
 ,	,	PUNCTclause
-1913	1913	NUM
+1913	1913	DIGIT
 .	.	PUNCTsent
 Deux	Deux	NUM
 bons	bon	ADJ
@@ -1285,7 +1285,7 @@ choses	chose	NOUN
 et	et	CCONJ
 l'on	on	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 tout	tout	PRON
 abandonner	abandonner	VERB
 au	au	ADP_DET
@@ -1312,9 +1312,9 @@ instant	instant	NOUN
 parfait	parfait	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 octobre	octobre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
@@ -1379,9 +1379,9 @@ mon	mon	DET
 état	état	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 octobre	octobre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Six	Six	NUM
@@ -1467,9 +1467,9 @@ vient	venir	VERB
 pas	pas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-31	31	NUM
+31	31	DIGIT
 octobre	octobre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -2241,7 +2241,7 @@ Berne	Berne	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 novembre	novembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 au	au	ADP_DET
@@ -3312,9 +3312,9 @@ paix	paix	NOUN
 ↵↵	↵↵	PUNCTstruct
 Berne	Berne	PROPN
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 décembre	décembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 rapport	rapport	NOUN
@@ -3482,7 +3482,7 @@ eux	eux	PRON
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 janvier	janvier	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -3693,9 +3693,9 @@ marche	marche	NOUN
 prolongée	prolonger	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 janvier	janvier	NOUN
-11940	11940	NUM
+11940	11940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 lettres	lettre	NOUN
@@ -3705,14 +3705,13 @@ Saillet	Saillet	PROPN
 ,	,	PUNCTclause
 soldat	soldat	NOUN
 de	de	ADP
-2	2	NUM
-e	e	NOUN
+2e	2e	NUMord
 classe	classe	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 aujourd'hui	aujourd'hui	ADV
 l'	le	DET
@@ -3783,7 +3782,7 @@ vous	vous	PRON
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 Nizan	Nizan	PROPN
 (	(	PUNCTclause
@@ -3909,7 +3908,7 @@ Jean	Jean	PROPN
 Paulhan	Paulhan	PROPN
 (	(	PUNCTclause
 du	du	ADP_DET
-22	22	NUM
+22	22	DIGIT
 janvier	janvier	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
@@ -4030,7 +4029,7 @@ y	y	PRON
 pensons	penser	VERB
 .	.	PUNCTsent
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 ne	ne	ADV
@@ -4060,7 +4059,7 @@ rien	rien	PRON
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 février	février	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 monté	monter	VERB
@@ -4116,9 +4115,9 @@ autre	autre	ADJ
 je	je	PRON
 devais	devoir	VERB
 avoir	avoir	AUX
-13	13	NUM
+13	13	DIGIT
 ou	ou	CCONJ
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 lorsque	lorsque	SCONJ
 je	je	PRON
@@ -4520,7 +4519,7 @@ forts	fort	NOUN
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 février	février	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 terminé	terminer	VERB
@@ -4598,7 +4597,7 @@ Jacob	Jacob	PROPN
 Burckhardt	Burckhardt	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1871	1871	NUM
+1871	1871	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 écrit	écrire	VERB
@@ -4678,7 +4677,7 @@ et	et	CCONJ
 encore	encore	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1889	1889	NUM
+1889	1889	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 les	le	DET
@@ -4850,7 +4849,7 @@ opinion	opinion	NOUN
 début	début	NOUN
 de	de	ADP
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -6945,9 +6944,9 @@ l'	le_PRON	PRON
 imagine	imaginer	VERB
 .	.	PUNCTsent
 le	le	DET
-21	21	NUM
+21	21	DIGIT
 mars	mars	NOUN
-1530	1530	NUM
+1530	1530	DIGIT
 ,	,	PUNCTclause
 Manuel	Manuel	PROPN
 parut	paraître	VERB
@@ -6962,10 +6961,9 @@ de	de	ADP
 Baden	Baden	PROPN
 .	.	PUNCTsent
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 au	au	ADP_DET
-12	12	NUM
+12	12	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -6980,7 +6978,7 @@ de	de	ADP
 Berne	Berne	PROPN
 .	.	PUNCTsent
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 signale	signaler	VERB
@@ -6988,7 +6986,7 @@ son	son	DET
 absence	absence	NOUN
 .	.	PUNCTsent
 le	le	DET
-18	18	NUM
+18	18	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 le	le_PRON	PRON
@@ -7000,7 +6998,7 @@ de	de	ADP
 banneret	banneret	NOUN
 .	.	PUNCTsent
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -7105,9 +7103,9 @@ devant	devant	ADP
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -7181,7 +7179,7 @@ de	de	ADP
 l'	le	DET
 été	été	NOUN
 de	de	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Périgny	Périgny	PROPN
@@ -7688,7 +7686,7 @@ vergers	verger	NOUN
 début	début	NOUN
 de	de	ADP
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -7739,7 +7737,7 @@ Suisse	Suisse	PROPN
 au	au	ADP_DET
 Morgarten	Morgarten	PROPN
 en	en	ADP
-1315	1315	NUM
+1315	1315	DIGIT
 ;	;	PUNCTclause
 et	et	CCONJ
 sur	sur	ADP
@@ -7761,7 +7759,7 @@ histoire	histoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Mars	Mars	PROPN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 entre	entre	ADP
@@ -7901,7 +7899,7 @@ polonaise	polonais	ADJ
 ,	,	PUNCTclause
 en	en	ADP
 mai	mai	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Führer	Führer	PROPN
@@ -8885,7 +8883,7 @@ suffisante	suffisant	ADJ
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -9412,7 +9410,7 @@ scène	scène	NOUN
 se	se	PRON
 passe	passer	VERB
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -9509,7 +9507,7 @@ tous	tout	ADJ
 Berne	Berne	PROPN
 ,	,	PUNCTclause
 avril	avril	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -9606,9 +9604,9 @@ censure	censure	NOUN
 préalable	préalable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 mai	mai	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 nouvelle	nouveau	ADJ
@@ -9684,7 +9682,7 @@ la première	la première	PRON
 heure	heure	NOUN
 ,	,	PUNCTclause
 les	le	DET
-70	70	NUM
+70	70	DIGIT
 chefs	chef	NOUN
 de	de	ADP
 quartier	quartier	NOUN
@@ -9848,9 +9846,9 @@ des	un	DET
 salades	salade	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 mai	mai	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 près de	près de	ADP
 la	le	DET
@@ -9901,9 +9899,9 @@ renvoie	renvoyer	VERB
 Berne	Berne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-24	24	NUM
+24	24	DIGIT
 mai	mai	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 écouté	écouter	VERB
@@ -10227,7 +10225,7 @@ ce	ce	PRON
 est	être	AUX
 sérieux	sérieux	ADJ
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ça	ça	PRON
 y	y	PRON
 est	être	VERB
@@ -10265,9 +10263,9 @@ unique	unique	ADJ
 nécessaire	nécessaire	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
@@ -10562,9 +10560,9 @@ la	le	DET
 dépense	dépense	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 débâcle	débâcle	NOUN
@@ -10612,9 +10610,9 @@ corps	corps	NOUN
 ↵↵	↵↵	PUNCTstruct
 dimanche	dimanche	NOUN
 ,	,	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -10879,7 +10877,7 @@ avait	avoir	AUX
 prophétisé	prophétiser	VERB
 :	:	PUNCTclause
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
 je	je	PRON
 entrerai	entrer	VERB
@@ -11246,9 +11244,9 @@ font	faire	VERB
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 lundi	lundi	NOUN
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 soir	soir	NOUN
 .	.	PUNCTsent
@@ -11711,7 +11709,7 @@ de	de	ADP
 injures	injure	NOUN
 à	à	ADP
 un	un	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 étranger	étranger	ADJ
 .	.	PUNCTsent
 vous	vous	PRON
@@ -11762,7 +11760,7 @@ surtout	surtout	ADV
 notre	notre	DET
 projet	projet	NOUN
 du	du	ADP_DET
-6	6	NUM
+6	6	DIGIT
 juin	juin	NOUN
 se	se	PRON
 précise	préciser	VERB
@@ -11774,7 +11772,7 @@ en train de	en train de	ADV
 convoquer	convoquer	VERB
 pour	pour	ADP
 le	le	DET
-22	22	NUM
+22	22	DIGIT
 juin	juin	NOUN
 les	le	DET
 dix	dix	NUM
@@ -11915,9 +11913,9 @@ peut	pouvoir	VERB
 arriver	arriver	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -12148,9 +12146,9 @@ la	le	DET
 Faucille	Faucille	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 atmosphère	atmosphère	NOUN
@@ -12386,7 +12384,7 @@ dis	dire	VERB
 …	…	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 je	je	PRON
 ai	avoir	AUX
 pleuré	pleurer	VERB
@@ -12395,9 +12393,9 @@ quelle	quel	DET
 délivrance	délivrance	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mon	mon	DET
@@ -12593,7 +12591,7 @@ liberté	liberté	NOUN
 de	de	ADP
 expression	expression	NOUN
 ,	,	PUNCTclause
-n'est-ce	n'est-ce	VERB
+n'est-ce	n'est-ce	PRON
 point	point	ADV
 perdre	perdre	VERB
 ,	,	PUNCTclause
@@ -12648,7 +12646,7 @@ demain	demain	ADV
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 repris	reprendre	VERB
@@ -12986,9 +12984,9 @@ paraît	paraître	VERB
 il	il	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
@@ -13078,7 +13076,7 @@ Suisse	Suisse	PROPN
 début	début	NOUN
 de	de	ADP
 juillet	juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 rencontres	rencontre	NOUN
@@ -13359,7 +13357,7 @@ points	point	NOUN
 (	(	PUNCTclause
 point	point	NOUN
 n°	n°	SYM
-1	1	NUM
+1	1	DIGIT
 :	:	PUNCTclause
 renvoi	renvoi	NOUN
 immédiat	immédiat	ADJ
@@ -13501,7 +13499,7 @@ militaire	militaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 trop	trop	ADV
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 depuis	depuis	ADP
 l'	le	DET
 affaire	affaire	NOUN
@@ -13594,9 +13592,9 @@ ont	avoir	AUX
 plantées	planter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Réunion	Réunion	PROPN
@@ -13614,8 +13612,7 @@ préparer	préparer	VERB
 le	le	DET
 message	message	NOUN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
 du	du	ADP_DET
 général	général	NOUN
@@ -13701,7 +13698,7 @@ pensée	pensée	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mi-juillet	mi-juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -13798,7 +13795,7 @@ sans	sans	ADP
 les	le	DET
 noter	noter	VERB
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 qui	qui	PRON
@@ -13852,7 +13849,7 @@ par exemple	par exemple	ADV
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 juillet	juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -14022,9 +14019,9 @@ notre	notre	DET
 tour	tour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-25	25	NUM
+25	25	DIGIT
 juillet	juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
@@ -14061,10 +14058,9 @@ la	le	DET
 population	population	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	ADP
+1er	1er	NUMord
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -14104,7 +14100,7 @@ pages	page	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mi-août	mi-août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Réunion	Réunion	PROPN

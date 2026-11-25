@@ -18,9 +18,9 @@ sauver	sauver	VERB
 sa	son	DET
 culture	culture	NOUN
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 août	août	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -406,12 +406,12 @@ de	de	ADP
 redressement	redressement	NOUN
 .	.	PUNCTsent
 entre	entre	ADP
-200	200	NUM
+200	200	DIGIT
 millions	million	NOUN
 de	de	ADP
 Russie	Russie	PROPN
 et	et	CCONJ
-150	150	NUM
+150	150	DIGIT
 millions	million	NOUN
 de	de	ADP
 États-Unis	États-Unis	PROPN
@@ -428,7 +428,7 @@ de	de	ADP
 fer	fer	NOUN
 ,	,	PUNCTclause
 près de	près de	ADP
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 de	de	ADP
 Europe	Europe	PROPN

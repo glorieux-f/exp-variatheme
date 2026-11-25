@@ -13,9 +13,9 @@ l'	le	DET
 armée	armée	NOUN
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 mars	mars	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -24,7 +24,7 @@ avant	avant	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 empereur	empereur	NOUN
@@ -50,7 +50,7 @@ soldat	soldat	NOUN
 «	«	PUNCTsent
 vous	vous	PRON
 êtes	être	AUX
-500000	500000	NUM
+500000	500000	DIGIT
 hommes	homme	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -134,7 +134,7 @@ avec	avec	ADP
 une	un	DET
 population	population	NOUN
 de	de	ADP
-4	4	NUM
+4	4	DIGIT
 millions	million	NOUN
 et	et	CCONJ
 demi	demi	ADJ
@@ -147,13 +147,13 @@ a	avoir	VERB
 une	un	DET
 armée	armée	NOUN
 de	de	ADP
-600000	600000	NUM
+600000	600000	DIGIT
 hommes	homme	NOUN
 .	.	PUNCTsent
 un	un	DET
 habitant	habitant	NOUN
 sur	sur	ADP
-7	7	NUM
+7	7	DIGIT
 est	être	AUX
 un	un	DET
 soldat	soldat	NOUN
@@ -166,7 +166,7 @@ aux	au	ADP_DET
 une	un	DET
 armée	armée	NOUN
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -478,9 +478,9 @@ après	après	ADP
 l'	le	DET
 épuration	épuration	NOUN
 du	du	ADP_DET
-30	30	NUM
+30	30	DIGIT
 juin	juin	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 leur	leur	DET
 laissant	laisser	VERB
@@ -599,7 +599,7 @@ tous	tout	ADJ
 les	le	DET
 hommes	homme	NOUN
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 propres	propre	ADJ
@@ -705,7 +705,7 @@ dix	dix	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 ces	ce	DET
-3	3	NUM
+3	3	DIGIT
 mois	mois	NOUN
 sont	être	AUX
 un	un	DET
@@ -898,7 +898,7 @@ de	de	ADP
 une	un	DET
 famille	famille	NOUN
 de	de	ADP
-200	200	NUM
+200	200	DIGIT
 hommes	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -912,7 +912,7 @@ Suisse	Suisse	PROPN
 a	avoir	AUX
 prévu	prévoir	VERB
 dès	dès	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -1170,7 +1170,7 @@ les	le	DET
 rochers	rocher	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 disposition	disposition	NOUN
@@ -1244,7 +1244,7 @@ article	article	NOUN
 fut	être	AUX
 mobilisé	mobiliser	VERB
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 un	un	DET
@@ -1264,7 +1264,7 @@ un	un	DET
 champ	champ	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 pieds	pied	NOUN
 au-dessous	au-dessous	ADV
 ,	,	PUNCTclause
@@ -1289,7 +1289,7 @@ enfants	enfant	NOUN
 .	.	PUNCTsent
 de	de	DET
 telles	tel	PRON
-choses	choser	VERB
+choses	chose	NOUN
 comptent	compter	VERB
 dans	dans	ADP
 la	le	DET
@@ -1360,7 +1360,7 @@ a	avoir	AUX
 été	être	AUX
 mobilisée	mobiliser	VERB
 depuis	depuis	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 et	et	CCONJ
 les	le	DET
 distances	distance	NOUN
@@ -1623,7 +1623,7 @@ fut	être	AUX
 épargnée	épargner	VERB
 au	au	ADP_DET
 printemps	printemps	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 uniquement	uniquement	ADV
 parce que	parce que	SCONJ
 ses	son	DET
@@ -1657,9 +1657,8 @@ Gothard	Gothard	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
-4	4	NUM
-5	5	NUM
-e	e	SYM
+4	4	DIGIT
+5e	5e	NUMord
 du	du	ADP_DET
 trafic	trafic	NOUN
 entre	entre	ADP

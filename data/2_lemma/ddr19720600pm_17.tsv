@@ -1508,7 +1508,7 @@ ne	ne	ADV
 veut	vouloir	VERB
 pas	pas	ADV
 dire	dire	VERB
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 le	le	DET
 contact	contact	NOUN
 professionnel	professionnel	ADJ
@@ -2121,7 +2121,9 @@ pensée	pensée	NOUN
 et	et	CCONJ
 main	main	NOUN
 .	.	PUNCTsent
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 main	main	NOUN
 ,	,	PUNCTclause
@@ -5318,7 +5320,7 @@ répertoires	répertoire	NOUN
 de	de	ADP
 arguments	argument	NOUN
 ,	,	PUNCTclause
-traités	traiter	VERB
+traités	traité	NOUN
 de	de	ADP
 rhétorique	rhétorique	NOUN
 ,	,	PUNCTclause
@@ -6161,7 +6163,7 @@ de	de	ADP
 telles	tel	DET
 gênes	gêne	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 il	il	PRON
 existe	exister	VERB
@@ -6454,7 +6456,7 @@ ne	ne	ADV
 avoir	avoir	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 renoncé	renoncer	VERB
 assez	assez	ADV
@@ -7666,7 +7668,7 @@ agissent	agir	VERB
 ,	,	PUNCTclause
 moi	moi	PRON
 je	je	PRON
-classe	classer	VERB
+classe	classe	NOUN
 ,	,	PUNCTclause
 les	le	DET
 autres	autre	PRON
@@ -9844,7 +9846,7 @@ avec	avec	ADP
 quelque	quelque	DET
 insistance	insistance	NOUN
 depuis	depuis	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 apparaît	apparaître	VERB
@@ -9858,7 +9860,7 @@ reprise	reprendre	VERB
 sans	sans	ADP
 trop de	trop de	DET
 mauvais goût	mauvais goût	NOUN
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 par	par	ADP
 une	un	DET
@@ -10449,7 +10451,7 @@ que	que	PRON
 …	…	PUNCTsent
 »	»	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 posez	poser	VERB
 au	au	ADP_DET
@@ -12400,7 +12402,7 @@ les	le	DET
 bourgeois	bourgeois	NOUN
 de	de	ADP
 toutes	toutes	PRON
-classes	classer	VERB
+classes	classe	NOUN
 se	se	PRON
 sentiront	sentir	VERB
 à l'aise	à l'aise	ADV

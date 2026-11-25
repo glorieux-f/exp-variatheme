@@ -13,7 +13,7 @@ et	et	CCONJ
 les	le	DET
 intellectuels	intellectuel	NOUN
 (	(	PUNCTclause
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -251,7 +251,7 @@ devenue	devenir	VERB
 canton	canton	NOUN
 Suisse	Suisse	PROPN
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 seulement	seulement	ADV
 .	.	PUNCTsent
 entre	entre	ADP
@@ -286,7 +286,7 @@ neuchâteloise	neuchâtelois	ADJ
 ,	,	PUNCTclause
 publiée	publier	VERB
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 le	le	DET
@@ -490,7 +490,7 @@ dès	dès	ADP
 l'	le	DET
 âge	âge	NOUN
 de	de	ADP
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -726,7 +726,7 @@ venu	venir	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -890,9 +890,9 @@ passées	passer	VERB
 là-bas	là-bas	ADV
 ,	,	PUNCTclause
 de	de	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 à	à	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vous	vous	PRON
@@ -955,7 +955,7 @@ Paris	Paris	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 avec	avec	ADP
@@ -1112,7 +1112,7 @@ moi	moi	PRON
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 les	le	DET
@@ -1170,7 +1170,7 @@ les	le	DET
 ,	,	PUNCTclause
 aux	au	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 mouvement	mouvement	NOUN
@@ -1197,7 +1197,7 @@ dans	dans	ADP
 ces	ce	DET
 merveilleuses	merveilleux	ADJ
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 tout	tout	PRON
 était	être	AUX
@@ -1368,7 +1368,7 @@ publié	publier	VERB
 à	à	ADP
 Paris	Paris	PROPN
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -1380,7 +1380,7 @@ la	le	DET
 personne	personne	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 ,	,	PUNCTclause
 Mounier	Mounier	PROPN
 lançait	lancer	VERB
@@ -1701,7 +1701,7 @@ première	premier	ADJ
 fois	fois	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 après	après	ADP
 six	six	NUM
@@ -1854,7 +1854,7 @@ Montreux	Montreux	PROPN
 au début	au début	ADV
 de	de	ADP
 septembre	septembre	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ai	avoir	VERB
@@ -1971,7 +1971,7 @@ lancées	lancer	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 dont	dont	PRON
@@ -2031,7 +2031,7 @@ fédéralisme	fédéralisme	NOUN
 que	que	SCONJ
 je	je	PRON
 étais	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 consacrer	consacrer	VERB
 à	à	ADP
 leur	leur	DET
@@ -2082,7 +2082,7 @@ Haye	Haye	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 présidé	présider	VERB
 par	par	ADP
@@ -2236,12 +2236,12 @@ rassembla	rassembler	VERB
 au début	au début	ADV
 de	de	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 quelque	quelque	DET
-800	800	NUM
+800	800	DIGIT
 délégués	délégué	NOUN
 et	et	CCONJ
-200	200	NUM
+200	200	DIGIT
 journalistes	journaliste	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -2547,7 +2547,7 @@ fédéralisme	fédéralisme	NOUN
 et	et	CCONJ
 réunit	réunir	VERB
 plus de	plus de	DET
-200	200	NUM
+200	200	DIGIT
 participants	participant	NOUN
 ,	,	PUNCTclause
 choisis	choisir	VERB
@@ -2678,7 +2678,7 @@ Sartre	Sartre	PROPN
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
 les	le	DET
-23	23	NUM
+23	23	DIGIT
 résolutions	résolution	NOUN
 qui	qui	PRON
 furent	être	AUX
@@ -2689,7 +2689,7 @@ séance	séance	NOUN
 de	de	ADP
 clôture	clôture	NOUN
 ,	,	PUNCTclause
-21	21	NUM
+21	21	DIGIT
 ont	avoir	AUX
 été	être	AUX
 suivies	suivre	VERB
@@ -2720,7 +2720,7 @@ inauguré	inaugurer	VERB
 au début	au début	ADV
 de	de	ADP
 octobre	octobre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Genève	Genève	PROPN
@@ -2799,7 +2799,7 @@ directeur	directeur	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
 depuis	depuis	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 son	son	DET
@@ -3053,7 +3053,7 @@ qui	qui	PRON
 groupe	grouper	VERB
 aujourd'hui	aujourd'hui	ADV
 les	le	DET
-42	42	NUM
+42	42	DIGIT
 principaux	principal	ADJ
 festivals	festival	NOUN
 du	du	ADP_DET
@@ -3781,9 +3781,9 @@ aux	au	ADP_DET
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 et	et	CCONJ
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 par	par	ADP
 des	un	DET
@@ -3998,9 +3998,9 @@ travaillé	travailler	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 et	et	CCONJ
-1960	1960	NUM
+1960	1960	DIGIT
 font	faire	VERB
 du	du	ADP_DET
 surplace	surplace	NOUN

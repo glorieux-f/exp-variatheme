@@ -800,7 +800,7 @@ la	le	DET
 Révolution	Révolution	PROPN
 ne	ne	ADV
 soient	être	AUX
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 trahis	trahir	VERB
 .	.	PUNCTsent
 le	le	DET
@@ -1029,7 +1029,7 @@ doctrine	doctrine	NOUN
 révolutionnaire	révolutionnaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 la	le	DET
 doctrine	doctrine	NOUN
@@ -1131,7 +1131,7 @@ visée	visée	NOUN
 ferme	ferme	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 la	le	DET
 doctrine	doctrine	NOUN
@@ -1196,7 +1196,7 @@ actes	acte	NOUN
 nécessaires	nécessaire	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 la	le	X
 doctrine	doctrine	NOUN
@@ -1339,7 +1339,7 @@ colères	colère	NOUN
 désordonnées	désordonné	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 °	°	SYM
 «	«	PUNCTclause
 une	un	DET
@@ -1418,7 +1418,7 @@ préalable	préalable	ADJ
 l'	le	DET
 exemple	exemple	NOUN
 du	du	ADP_DET
-6	6	NUM
+6	6	DIGIT
 février	février	NOUN
 illustre	illustrer	VERB
 assez	assez	ADV
@@ -1436,7 +1436,7 @@ de	de	ADP
 la	le	DET
 Concorde	Concorde	PROPN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 gardes	garde	NOUN
 mobiles	mobile	ADJ
@@ -1545,7 +1545,7 @@ tactique	tactique	NOUN
 personnalisme	personnalisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB
@@ -1569,7 +1569,7 @@ inverse	inverse	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ne	ne	ADV
 rien	rien	PRON
@@ -1599,8 +1599,8 @@ propagande	propagande	NOUN
 de	de	ADP
 masses	masse	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-Méfiance	Méfiance	PROPN
+etc.	etc.	X
+méfiance	méfiance	X
 méthodique	méthodique	ADJ
 à l'égard de	à l'égard de	ADP
 toute	toute	DET
@@ -1613,10 +1613,10 @@ un	un	DET
 certain	certain	ADJ
 puritanisme	puritanisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 un	un	DET
 chef	chef	NOUN
@@ -1651,7 +1651,7 @@ morales	morale	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 mieux	mieux	ADV
 vaut	valoir	VERB
@@ -1706,7 +1706,7 @@ masses	masse	NOUN
 !	!	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 ordre	ordre	NOUN
@@ -1787,7 +1787,7 @@ succès	succès	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 les	le	DET
 «	«	PUNCTclause
@@ -1838,7 +1838,7 @@ constructeurs	constructeur	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 ne	ne	ADV

@@ -13,7 +13,7 @@ culturel	culturel	ADJ
 ?	?	PUNCTsent
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -738,7 +738,7 @@ si	si	SCONJ
 il y a	il y a	VERB
 détente	détente	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 aussi	aussi	ADV
 le	le	DET
 ressort	ressort	NOUN
@@ -1289,9 +1289,8 @@ ou	ou	CCONJ
 entre	entre	ADP
 a	avoir	X
 et	et	CCONJ
-1	1	NUM
-22	22	NUM
-e	e	SYM
+1	1	DIGIT
+22e	22e	NUMord
 de	de	ADP
 B.	B.	PROPN
 ↵↵	↵↵	PUNCTstruct

@@ -14,15 +14,15 @@ quand	quand	ADV
 l'	le	DET
 essence	essence	NOUN
 coûtera	coûter	VERB
-25	25	NUM
+25	25	DIGIT
 francs	franc	NOUN
 le	le	DET
 litre	litre	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-22	22	NUM
+22	22	DIGIT
 février	février	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -401,7 +401,7 @@ serve	servir	VERB
 plus	plus	ADV
 à	à	ADP
 rien	rien	PRON
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 dix	dix	NUM
 à	à	ADP
 quarante	quarante	NUM
@@ -417,7 +417,7 @@ quand	quand	SCONJ
 l'	le	DET
 essence	essence	NOUN
 coûtera	coûter	VERB
-25	25	NUM
+25	25	DIGIT
 francs	franc	NOUN
 le	le	DET
 litre	litre	NOUN
@@ -592,7 +592,7 @@ la	le	DET
 disposition	disposition	NOUN
 transitoire	transitoire	ADJ
 .	.	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 en effet	en effet	ADV
 risquer	risquer	VERB
 des	un	DET
@@ -614,10 +614,9 @@ mis	mettre	VERB
 en	en	ADP
 chantier	chantier	NOUN
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 absolument	absolument	ADV
@@ -698,7 +697,7 @@ ses	son	DET
 projets	projet	NOUN
 à partir de	à partir de	ADP
 août	août	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 date	date	NOUN
 du	du	ADP_DET

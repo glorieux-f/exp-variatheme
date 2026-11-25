@@ -16,9 +16,9 @@ Denis	Denis	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 mars	mars	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -88,7 +88,7 @@ Occident	Occident	PROPN
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ce	ce	PRON
@@ -108,7 +108,7 @@ politiques	politique	ADJ
 depuis	depuis	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 quand	quand	SCONJ
 je	je	PRON
@@ -713,7 +713,7 @@ publié	publier	VERB
 Paris	Paris	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 intitulé	intituler	VERB
 :	:	PUNCTclause
@@ -730,7 +730,7 @@ textes	texte	NOUN
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 il y a	il y a	VERB
 un	un	DET
@@ -1301,7 +1301,7 @@ depuis	depuis	ADP
 l'	le	DET
 âge	âge	NOUN
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -1315,11 +1315,11 @@ la	le	DET
 mobilisation	mobilisation	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ;	;	PUNCTclause
 je	je	PRON
 avais	avoir	VERB
-33	33	NUM
+33	33	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 puis	puis	CCONJ
@@ -1360,7 +1360,7 @@ l'	le	DET
 exposition	exposition	NOUN
 nationale	national	ADJ
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 et	et	CCONJ
 qui	qui	PRON
 avait	avoir	AUX
@@ -1400,7 +1400,7 @@ rentré	rentrer	VERB
 définitivement	définitivement	ADV
 que	que	SCONJ
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 .	.	PUNCTsent
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
@@ -1575,7 +1575,7 @@ rentré	rentrer	VERB
 des	un	DET
 États-Unis	États-Unis	PROPN
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 me	me	PRON
@@ -1627,7 +1627,7 @@ fort	fort	ADV
 Paris	Paris	PROPN
 .	.	PUNCTsent
 et	et	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -1667,8 +1667,8 @@ le moins du monde	le moins du monde	ADV
 la	le	DET
 politique	politique	NOUN
 avant	avant	ADP
-1943	1943	NUM
--1944	-1944	NUM
+1943	1943	DIGIT
+-1944	-1944	DIGIT
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -1707,9 +1707,9 @@ voir	voir	VERB
 à	à	ADP
 New York	New York	PROPN
 en	en	ADP
-1944	1944	NUM
+1944	1944	DIGIT
 ou	ou	CCONJ
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 premier	premier	ADJ
 journaliste	journaliste	NOUN
@@ -2142,7 +2142,7 @@ ai	avoir	AUX
 compté	compter	VERB
 :	:	PUNCTclause
 il y a	il y a	VERB
-54	54	NUM
+54	54	DIGIT
 types	type	NOUN
 de	de	ADP
 combinaisons	combinaison	NOUN
@@ -2294,7 +2294,7 @@ de	de	ADP
 Ferney	Ferney	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -2397,7 +2397,7 @@ la	le	DET
 Haye	Haye	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 la	le	DET
@@ -2430,15 +2430,15 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 il y a	il y a	VERB
-800	800	NUM
+800	800	DIGIT
 personnes	personne	NOUN
 ,	,	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 présidents	président	NOUN
 du	du	ADP_DET
 conseil	conseil	NOUN
 ,	,	PUNCTclause
-300	300	NUM
+300	300	DIGIT
 députés	député	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -3384,7 +3384,7 @@ Genève	Genève	PROPN
 une	un	DET
 région	région	NOUN
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 km	km	NOUN
 de	de	ADP
 rayon	rayon	NOUN
@@ -3542,7 +3542,7 @@ de	de	ADP
 état civil	état civil	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 une	un	DET
 utopie	utopie	NOUN
 ?	?	PUNCTsent
@@ -3719,7 +3719,7 @@ qui	qui	PRON
 ,	,	PUNCTclause
 jusque	jusque	ADP
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 été	être	AUX
@@ -3912,7 +3912,7 @@ de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 fais	faire	VERB
@@ -4374,7 +4374,7 @@ cette	ce	DET
 observation	observation	NOUN
 bien	bien	ADV
 avant	avant	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 :	:	PUNCTclause
 il y a	il y a	VERB
 des	un	DET
@@ -4587,7 +4587,7 @@ agit	agir	VERB
 pas	pas	ADV
 de	de	ADP
 uniformiser	uniformiser	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 et	et	CCONJ
 de	de	ADP
 voir	voir	VERB

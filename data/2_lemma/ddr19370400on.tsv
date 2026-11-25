@@ -12,7 +12,7 @@ la	le	DET
 non-intervention	non-intervention	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -570,10 +570,10 @@ novembre	novembre	NOUN
 et	et	CCONJ
 décembre	décembre	NOUN
 ,	,	PUNCTclause
-14000	14000	NUM
+14000	14000	DIGIT
 France	France	PROPN
 ,	,	PUNCTclause
-8000	8000	NUM
+8000	8000	DIGIT
 étrangers	étranger	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -583,10 +583,9 @@ par	par	ADP
 la	le	DET
 non-intervention	non-intervention	NOUN
 au	au	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 janvier	janvier	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 :	:	PUNCTclause
 la	le	DET
 guerre	guerre	NOUN
@@ -707,18 +706,18 @@ en	en	ADP
 janvier	janvier	NOUN
 ,	,	PUNCTclause
 plus de	plus de	DET
-1000	1000	NUM
+1000	1000	DIGIT
 France	France	PROPN
 et	et	CCONJ
-1200	1200	NUM
+1200	1200	DIGIT
 étrangers	étranger	NOUN
 ;	;	PUNCTclause
 en	en	ADP
 février	février	NOUN
-500	500	NUM
+500	500	DIGIT
 France	France	PROPN
 et	et	CCONJ
-1000	1000	NUM
+1000	1000	DIGIT
 étrangers	étranger	NOUN
 .	.	PUNCTsent
 le	le	DET

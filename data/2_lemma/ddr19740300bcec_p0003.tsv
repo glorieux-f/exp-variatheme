@@ -14,7 +14,7 @@ des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -109,7 +109,7 @@ ont	avoir	AUX
 plus de	plus de	DET
 excuse	excuse	NOUN
 en	en	ADP
-1971	1971	NUM
+1971	1971	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 ce	ce	PRON
@@ -194,13 +194,12 @@ qui	qui	PRON
 viennent	venir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 motif	motif	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
 en	en	PRON
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 tout le monde	tout le monde	PRON
 voyait	voir	VERB
@@ -276,8 +275,7 @@ négatif	négatif	ADJ
 en quelque sorte	en quelque sorte	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
-e	e	NOUN
+2e	2e	NUMord
 motif	motif	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
@@ -289,7 +287,7 @@ Europe	Europe	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 pour	pour	ADP
 relever	relever	VERB
 ses	son	DET
@@ -378,12 +376,11 @@ ceux	ceux	PRON
 de	de	ADP
 la	le	DET
 		TOKEN
-d'ici	d'ici	ADV
-1980	1980	NUM
+d'ici	d'ici	NOUN
+1980	1980	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
-e	e	NOUN
+3e	3e	NUMord
 motif	motif	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
@@ -614,10 +611,10 @@ développés	développé	ADJ
 la	le	DET
 Suisse	Suisse	PROPN
 avait	avoir	AUX
-1700000	1700000	NUM
+1700000	1700000	DIGIT
 habitants	habitant	NOUN
 en	en	ADP
-1817	1817	NUM
+1817	1817	DIGIT
 .	.	PUNCTsent
 elle	elle	PRON
 ne	ne	ADV
@@ -625,7 +622,7 @@ a	avoir	AUX
 doublé	doubler	VERB
 que	que	SCONJ
 en	en	ADP
-1902	1902	NUM
+1902	1902	DIGIT
 (	(	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 en	en	ADP
@@ -639,7 +636,7 @@ aura	avoir	VERB
 doublé	doubler	VERB
 encore	encore	ADV
 vers	vers	ADP
-1987	1987	NUM
+1987	1987	DIGIT
 en	en	ADP
 quatre-vingt-cinq	quatre-vingt-cinq	NUM
 ans	an	NOUN
@@ -671,15 +668,15 @@ si	si	SCONJ
 cela	cela	PRON
 continue	continuer	VERB
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
-8000	8000	NUM
+8000	8000	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2350	2350	NUM
+2350	2350	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 trois	trois	NUM
@@ -687,7 +684,7 @@ hommes	homme	NOUN
 au	au	ADP_DET
 mètres carrés	mètres carrés	NOUN
 vers	vers	ADP
-2500	2500	NUM
+2500	2500	DIGIT
 .	.	PUNCTsent
 Vingt	Vingt	NUM
 ans	an	NOUN
@@ -963,7 +960,7 @@ la	le	DET
 pollution	pollution	NOUN
 ,	,	PUNCTclause
 par	par	ADP
-200	200	NUM
+200	200	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 qui	qui	PRON
@@ -1267,7 +1264,7 @@ au	au	ADP_DET
 congrès	congrès	NOUN
 États-Unis	États-Unis	PROPN
 dès	dès	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 (	(	PUNCTclause
 rapport	rapport	NOUN
 du	du	ADP_DET
@@ -1288,9 +1285,9 @@ une	un	DET
 réduction	réduction	NOUN
 allant	aller	VERB
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 à	à	ADP
-75	75	NUM
+75	75	DIGIT
 selon que	selon que	SCONJ
 il	il	PRON
 se	se	PRON
@@ -1341,7 +1338,7 @@ les	le	DET
 barricades	barricade	NOUN
 de	de	ADP
 Mai	Mai	PROPN
-68	68	NUM
+68	68	DIGIT
 ont	avoir	AUX
 été	être	AUX
 comme	comme	ADP
@@ -1515,7 +1512,7 @@ air	air	NOUN
 des	un	ADP_DET
 villes	ville	NOUN
 en	en	ADP
-1975	1975	NUM
+1975	1975	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -1592,7 +1589,7 @@ et	et	CCONJ
 voilà	voilà	ADP
 bien	bien	ADV
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 un	un	DET
 motif	motif	NOUN
@@ -1609,7 +1606,7 @@ une	un	DET
 puissante	puissant	ADJ
 fédération	fédération	NOUN
 les	le	DET
-480	480	NUM
+480	480	DIGIT
 millions	million	NOUN
 de	de	ADP
 Europe	Europe	PROPN
@@ -1618,7 +1615,7 @@ vivent	vivre	VERB
 aujourd'hui	aujourd'hui	ADV
 divisés	diviser	VERB
 en	en	ADP
-25	25	NUM
+25	25	DIGIT
 nations	nation	NOUN
 à peu près	à peu près	ADV
 souveraines	souverain	ADJ
@@ -1632,8 +1629,7 @@ impuissantes	impuissant	ADJ
 au total	au total	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
-e	e	NOUN
+4e	4e	NUMord
 motif	motif	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
@@ -1715,7 +1711,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 :	:	PUNCTclause
 —	—	PUNCTclause
 que	que	SCONJ
@@ -1953,7 +1949,7 @@ lui	lui	PRON
 qui	qui	PRON
 se	se	PRON
 voie	voir	VERB
-traité	traiter	VERB
+traité	traité	NOUN
 de	de	ADP
 «	«	PUNCTclause
 fauteur	fauteur	NOUN
@@ -2249,8 +2245,8 @@ réduit	réduire	VERB
 parfois	parfois	ADV
 à	à	ADP
 rogner	rogner	VERB
-1	1	NUM
-2	2	NUM
+1	1	DIGIT
+2	2	DIGIT
 sur	sur	ADP
 les	le	DET
 droits	droit	NOUN
@@ -2349,7 +2345,7 @@ Marché commun	Marché commun	PROPN
 ont	avoir	AUX
 prouvé	prouver	VERB
 que	que	SCONJ
-65	65	NUM
+65	65	DIGIT
 des	un	ADP_DET
 Europe	Europe	PROPN
 dans	dans	ADP
@@ -2363,22 +2359,22 @@ et	et	CCONJ
 que	que	SCONJ
 de	de	ADP
 ces	ce	DET
-65	65	NUM
+65	65	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 trois-quarts	trois-quarts	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
-75	75	NUM
+75	75	DIGIT
 exactement	exactement	ADV
 ,	,	PUNCTclause
 sont	être	AUX
 des	un	DET
 jeunes	jeune	NOUN
 de	de	ADP
-18	18	NUM
+18	18	DIGIT
 à	à	ADP
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
@@ -2486,7 +2482,7 @@ que	que	SCONJ
 le	le	DET
 définissait	définir	VERB
 dès	dès	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 le	le	DET
 groupe	groupe	NOUN
 personnalisme	personnalisme	NOUN
@@ -2607,7 +2603,7 @@ Europe	Europe	PROPN
 la	le	DET
 Haye	Haye	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 avons	avoir	AUX
@@ -2807,7 +2803,7 @@ quand	quand	SCONJ
 les	le	DET
 ministres	ministre	NOUN
 et	et	CCONJ
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 des	un	ADP_DET
 «	«	PUNCTclause
 puissances	puissance	NOUN
@@ -3482,7 +3478,7 @@ l'	le	DET
 du	du	ADP_DET
 continent	continent	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 d'autre part	d'autre part	ADV
 ,	,	PUNCTclause
@@ -3989,7 +3985,7 @@ exemple	exemple	NOUN
 la	le	DET
 Catalogne	Catalogne	PROPN
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -3998,7 +3994,7 @@ l'	le	DET
 Espagne	Espagne	PROPN
 )	)	PUNCTclause
 fournit	fournir	VERB
-50	50	NUM
+50	50	DIGIT
 des	un	ADP_DET
 impôts	impôt	NOUN
 de	de	ADP
@@ -4010,7 +4006,7 @@ ne	ne	ADV
 reçoit	recevoir	VERB
 en retour	en retour	ADV
 que	que	ADV
-12	12	NUM
+12	12	DIGIT
 de	de	ADP
 subventions	subvention	NOUN
 de	de	ADP
@@ -4084,7 +4080,7 @@ régionales	régional	ADJ
 au sein de	au sein de	ADP
 Marché commun	Marché commun	PROPN
 (	(	PUNCTclause
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 ont	avoir	AUX
@@ -4203,9 +4199,9 @@ Maastricht	Maastricht	PROPN
 —	—	PUNCTclause
 Liège	Liège	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 désormais	désormais	VERB
 le	le	DET
 problème	problème	NOUN
@@ -4299,7 +4295,7 @@ fédérée	fédérer	VERB
 sur la base de	sur la base de	ADP
 régions	région	NOUN
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 dix	dix	NUM
 à	à	ADP
 quinze	quinze	NUM
@@ -4352,7 +4348,7 @@ construction	construction	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 Faire	Faire	PROPN
 une	un	DET
@@ -4482,7 +4478,7 @@ posés	posé	ADJ
 —	—	PUNCTclause
 les	le_PRON	PRON
 quelque	quelque	DET
-20000	20000	NUM
+20000	20000	DIGIT
 travailleurs	travailleur	NOUN
 France	France	PROPN
 qui	qui	PRON
@@ -4517,7 +4513,7 @@ région	région	NOUN
 sociale	social	ADJ
 de	de	ADP
 environ	environ	ADV
-40	40	NUM
+40	40	DIGIT
 km	km	NOUN
 de	de	ADP
 rayon	rayon	NOUN
@@ -4734,7 +4730,7 @@ autogestion	autogestion	NOUN
 locale	local	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 si	si	SCONJ
 l'on	on	PRON
@@ -4757,9 +4753,9 @@ Lille	Lille	PROPN
 de	de	ADP
 Trieste	Trieste	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 quelques	quelque	DET
 modèles	modèle	NOUN
@@ -5897,7 +5893,7 @@ et	et	CCONJ
 leurs	leur	DET
 administrateurs	administrateur	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 une	un	DET
 entreprise	entreprise	NOUN
 de	de	ADP
@@ -6286,8 +6282,8 @@ jeune	jeune	ADJ
 pouvoir	pouvoir	VERB
 régional	régional	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-le	le	ADP
+etc.	etc.	X
+le	le	DET
 seul	seul	ADJ
 pouvoir	pouvoir	NOUN
 qui	qui	PRON

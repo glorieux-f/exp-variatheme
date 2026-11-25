@@ -10,9 +10,9 @@ la	le	DET
 route	route	NOUN
 États-Unis	États-Unis	PROPN
 (	(	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 février	février	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -149,7 +149,7 @@ de	de	ADP
 la	le	DET
 crise	crise	NOUN
 de	de	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 les	le	DET
@@ -403,9 +403,9 @@ gauche	gauche	NOUN
 droite	droite	NOUN
 ,	,	PUNCTclause
 entre	entre	ADP
-100	100	NUM
+100	100	DIGIT
 et	et	CCONJ
-130	130	NUM
+130	130	DIGIT
 à	à	ADP
 l'	le	DET
 heure	heure	NOUN
@@ -606,7 +606,7 @@ cabines	cabine	NOUN
 de	de	ADP
 touristes	touriste	NOUN
 à	à	ADP
-100	100	NUM
+100	100	DIGIT
 yards	yard	NOUN
 …	…	PUNCTsent
 ferry-boat	ferry-boat	NOUN
@@ -672,7 +672,7 @@ vitesse	vitesse	NOUN
 cinquante	cinquante	NUM
 miles	mile	NOUN
 …	…	PUNCTsent
-500	500	NUM
+500	500	DIGIT
 dollars	dollar	NOUN
 de	de	ADP
 amende	amende	NOUN
@@ -719,7 +719,7 @@ nous	nous	PRON
 aurons	avoir	AUX
 couvert	couvrir	VERB
 les	le	DET
-400	400	NUM
+400	400	DIGIT
 kilomètres	mètre	NOUN
 qui	qui	PRON
 séparent	séparer	VERB

@@ -12,9 +12,9 @@ de	de	ADP
 la	le	DET
 liberté	liberté	NOUN
 (	(	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 septembre	septembre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -55,7 +55,7 @@ ne	ne	ADV
 pas	pas	ADV
 notre	notre	DET
 but	but	NOUN
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 .	.	PUNCTsent
 nous	nous	PRON
 l'	le_PRON	PRON
@@ -1102,7 +1102,7 @@ on	on	PRON
 ne	ne	ADV
 pense	penser	VERB
 pas	pas	ADV
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 je	je	PRON
 préconise	préconiser	VERB
 je	je	PRON

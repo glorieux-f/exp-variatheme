@@ -6,7 +6,7 @@
 # title = 1. Le silence de Goethe
 
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 silence	silence	NOUN
@@ -321,7 +321,7 @@ fut	être	AUX
 que	que	SCONJ
 entre	entre	ADP
 autres	autre	PRON
-choses	choser	VERB
+choses	chose	NOUN
 un	un	DET
 écrivain	écrivain	NOUN
 .	.	PUNCTsent
@@ -1657,8 +1657,8 @@ une	un	DET
 interminable	interminable	ADJ
 patience	patience	NOUN
 .	.	PUNCTsent
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+N'est-ce	N'est-ce	PROPN
+point	poindre	VERB
 ce	ce	DET
 tréfonds	tréfonds	NOUN
 dont	dont	PRON
@@ -2277,8 +2277,8 @@ angoissé	angoisser	VERB
 l'	le	DET
 enfant	enfant	NOUN
 :	:	PUNCTclause
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	DET
+point	point	NOUN
 pour	pour	ADP
 se	se	PRON
 défendre	défendre	VERB
@@ -2504,7 +2504,7 @@ sévère	sévère	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 gagner	gagner	VERB
-40000	40000	NUM
+40000	40000	DIGIT
 francs	franc	NOUN
 .	.	PUNCTsent
 mourir	mourir	VERB
@@ -3451,7 +3451,7 @@ du	du	ADP_DET
 jeune	jeune	ADJ
 ministre	ministre	NOUN
 de	de	ADP
-32	32	NUM
+32	32	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 adonné	adonner	VERB
@@ -4749,7 +4749,7 @@ ce	ce	DET
 jour	jour	NOUN
 de	de	ADP
 février	février	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 ce	ce	DET

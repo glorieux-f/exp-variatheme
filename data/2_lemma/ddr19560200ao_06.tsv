@@ -81,7 +81,7 @@ divine	divin	ADJ
 ↵↵	↵↵	PUNCTstruct
 Boehme	Boehme	PROPN
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 une	un	DET
@@ -745,7 +745,7 @@ décrire	décrire	VERB
 maintenant	maintenant	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 deux	deux	NUM
@@ -769,9 +769,9 @@ Rose	Rose	PROPN
 entre	entre	ADP
 les	le	DET
 années	année	NOUN
-1237	1237	NUM
+1237	1237	DIGIT
 et	et	CCONJ
-1280	1280	NUM
+1280	1280	DIGIT
 environ	environ	ADV
 .	.	PUNCTsent
 il y a	il y a	VERB
@@ -1629,7 +1629,7 @@ pratiquement	pratiquement	ADV
 est	être	AUX
 elle	elle	PRON
 bien	bien	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 une	un	DET
 vision	vision	NOUN
 chrétienne	chrétien	ADJ
@@ -1645,7 +1645,7 @@ revenir	revenir	VERB
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 Sicile	Sicile	PROPN
 ,	,	PUNCTclause
@@ -1660,7 +1660,7 @@ alentour	alentour	ADV
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-1200	1200	NUM
+1200	1200	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 solide	solide	NOUN
@@ -3101,7 +3101,7 @@ Dieu	Dieu	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 Pétrarque	Pétrarque	PROPN
 ,	,	PUNCTclause
@@ -3132,7 +3132,7 @@ convient	convenir	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 sur	sur	ADP
@@ -4096,7 +4096,7 @@ il y a	il y a	VERB
 surtout	surtout	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1348	1348	NUM
+1348	1348	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 grande	grand	ADJ
@@ -4493,7 +4493,7 @@ sera	être	AUX
 l'autre	l'autre	PRON
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 un	un	DET
 idéal	idéal	NOUN
@@ -5204,7 +5204,7 @@ tout comme	tout comme	SCONJ
 l'autre	l'autre	PRON
 ,	,	PUNCTclause
 mais	mais	CCONJ
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 du	du	ADP_DET
 côté	côté	NOUN
 animal	animal	ADJ
@@ -5450,7 +5450,7 @@ saint	saint	NOUN
 patronage	patronage	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 suite	suite	NOUN
 de	de	ADP
@@ -5708,7 +5708,7 @@ intention	intention	NOUN
 primitive	primitif	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1554	1554	NUM
+1554	1554	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 Espagne	Espagne	PROPN
@@ -5925,7 +5925,7 @@ Sancho	Sancho	PROPN
 Pança	Pança	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 Roméo	Roméo	PROPN
 et	et	CCONJ
@@ -7046,8 +7046,8 @@ Milton	Milton	PROPN
 la	le	DET
 réforme	réforme	NOUN
 :	:	PUNCTclause
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	DET
+point	point	NOUN
 la même	la même	PRON
 et	et	CCONJ
 unique	unique	ADJ
@@ -7307,7 +7307,7 @@ sectes	secte	NOUN
 néo-manichéennes	néo-manichéennes	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Astrée	Astrée	PROPN
@@ -7421,7 +7421,7 @@ Marie	Marie	PROPN
 de	de	ADP
 Médicis	Médicis	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 sujet	sujet	NOUN
@@ -8165,7 +8165,7 @@ coquette	coquet	NOUN
 le	le	DET
 hardi	hardi	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 donne	donner	VERB
 à	à	ADP
@@ -8391,8 +8391,8 @@ des	un	ADP_DET
 sources	source	NOUN
 profondes	profond	ADJ
 ?	?	PUNCTsent
-n'est-ce	n'est-ce	VERB
-point	point	NOUN
+n'est-ce	n'est-ce	PRON
+point	point	ADV
 pour	pour	ADP
 cette	ce	DET
 cause	cause	NOUN
@@ -8558,7 +8558,7 @@ en faveur de	en faveur de	ADP
 monde	monde	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 Corneille	Corneille	PROPN
 ,	,	PUNCTclause
@@ -9847,7 +9847,7 @@ l'	le	DET
 aveu	aveu	NOUN
 est	être	AUX
 complet	complet	ADJ
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 dans	dans	ADP
@@ -10072,7 +10072,7 @@ l'	le	DET
 aimer	aimer	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 Racine	Racine	PROPN
 ,	,	PUNCTclause
@@ -10875,7 +10875,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 Phèdre	Phèdre	PROPN
 ,	,	PUNCTclause
@@ -12125,7 +12125,7 @@ jour	jour	NOUN
 intolérable	intolérable	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 éclipse	éclipse	NOUN
 du	du	ADP_DET
@@ -13443,7 +13443,7 @@ idéalisme	idéalisme	NOUN
 à rebours	à rebours	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 .	.	PUNCTsent
 Don Juan	Don Juan	PROPN
 et	et	CCONJ
@@ -13753,7 +13753,7 @@ sur	sur	ADP
 ses	son	DET
 ergots	ergot	NOUN
 ,	,	PUNCTclause
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 bondir	bondir	VERB
 quand	quand	SCONJ
 par hasard	par hasard	ADV
@@ -14984,7 +14984,7 @@ des	un	ADP_DET
 troubadours	troubadour	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 la	le	DET
 nouvelle	nouveau	ADJ
@@ -15474,7 +15474,7 @@ visible	visible	ADJ
 que	que	SCONJ
 Rousseau	Rousseau	PROPN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 Pétrarque	Pétrarque	PROPN
 à la fin	à la fin	ADV
 de	de	ADP
@@ -16122,7 +16122,7 @@ liens	lien	NOUN
 terrestres	terrestre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 le	le	DET
 romantisme	romantisme	NOUN
@@ -17491,7 +17491,7 @@ de	de	ADP
 printemps	printemps	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 .	.	PUNCTsent
 intériorisation	intériorisation	NOUN
 du	du	ADP_DET
@@ -18701,7 +18701,7 @@ vie	vie	NOUN
 sociale	social	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 .	.	PUNCTsent
 Stendhal	Stendhal	PROPN
 ,	,	PUNCTclause
@@ -19776,8 +19776,8 @@ cachent	cacher	VERB
 .	.	PUNCTsent
 de plus	de plus	ADV
 ,	,	PUNCTclause
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	PRON
+point	poindre	VERB
 là	là	ADV
 le	le	DET
 type	type	NOUN
@@ -20040,7 +20040,7 @@ ces	ce	DET
 anecdotes	anecdote	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 .	.	PUNCTsent
 Wagner	Wagner	PROPN
 ,	,	PUNCTclause
@@ -21876,7 +21876,7 @@ ses	son	DET
 fantômes	fantôme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 .	.	PUNCTsent
 vulgarisation	vulgarisation	NOUN
 du	du	ADP_DET
@@ -23529,7 +23529,7 @@ de	de	ADP
 idéalité	idéalité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 instinct	instinct	NOUN
@@ -23845,7 +23845,7 @@ belle	beau	ADJ
 brute	brute	NOUN
 déchaînée	déchaîner	VERB
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 l'un	l'un	PRON
 de	de	ADP
@@ -24626,7 +24626,7 @@ la	le	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 .	.	PUNCTsent
 la	le	DET
 passion	passion	NOUN
@@ -25268,7 +25268,7 @@ pas	pas	ADV
 dès	dès	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 le	le	DET

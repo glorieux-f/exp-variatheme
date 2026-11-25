@@ -12,9 +12,9 @@ la	le	DET
 liberté	liberté	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 mars	mars	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -374,7 +374,7 @@ appelle	appeler	VERB
 sa	son	DET
 liberté	liberté	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 mais	mais	CCONJ
 ils	ils	PRON
@@ -614,8 +614,8 @@ dire	dire	VERB
 ou	ou	CCONJ
 pour	pour	ADP
 dire	dire	VERB
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 ce	ce	PRON
 que	que	PRON
 elle	elle	PRON

@@ -13,10 +13,9 @@ voulons	vouloir	VERB
 nous	nous	PRON
 ?	?	PUNCTsent
 (	(	PUNCTclause
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 février	février	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -139,7 +138,7 @@ de	de	ADP
 défense	défense	NOUN
 nationale	national	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 autant de	autant de	DET
 mythes	mythe	NOUN
@@ -492,7 +491,7 @@ savez	savoir	VERB
 d'ailleurs	d'ailleurs	ADV
 que	que	SCONJ
 en	en	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -617,7 +616,7 @@ la	le	DET
 personne	personne	NOUN
 paru	paraître	VERB
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 je	je	PRON
@@ -663,7 +662,7 @@ je	je	PRON
 ai	avoir	AUX
 contribué	contribuer	VERB
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
@@ -798,7 +797,7 @@ avais	avoir	AUX
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 sur	sur	ADP
 les	le	DET
 mythes	mythe	NOUN
@@ -1466,14 +1465,14 @@ un	un	DET
 texte	texte	NOUN
 écrit	écrire	VERB
 dès	dès	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 contre	contre	ADP
 Ford	Ford	PROPN
 ;	;	PUNCTclause
 je	je	PRON
 avais	avoir	AUX
 alors	alors	ADV
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1498,7 +1497,7 @@ des	un	ADP_DET
 réserves	réserve	NOUN
 de	de	ADP
 pétrole	pétrole	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 à	à	ADP
 trente	trente	NUM
 ans	an	NOUN
@@ -1665,7 +1664,7 @@ cela	cela	PRON
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 gouvernement	gouvernement	NOUN
@@ -1817,9 +1816,8 @@ parfois	parfois	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
-5	5	NUM
-e	e	X
-avenue	avenue	X
+5e	5e	NUMord
+avenue	avenue	NOUN
 ,	,	PUNCTclause
 Breton	Breton	PROPN
 me	me	PRON
@@ -2308,7 +2306,7 @@ de	de	ADP
 contestation	contestation	NOUN
 depuis	depuis	ADP
 Mai	Mai	PROPN
-68	68	NUM
+68	68	DIGIT
 ne	ne	ADV
 ont	avoir	VERB
 elles	elles	PRON
@@ -2321,7 +2319,7 @@ réaction	réaction	NOUN
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 sont	être	AUX
@@ -2394,7 +2392,7 @@ la même	la même	PRON
 chose	chose	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 de	de	ADP
 la même	la même	PRON
 manière	manière	NOUN
@@ -2589,7 +2587,7 @@ technologie	technologie	NOUN
 douce	doux	ADJ
 …	…	PUNCTsent
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
 quarante	quarante	NUM

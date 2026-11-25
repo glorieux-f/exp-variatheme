@@ -21,7 +21,7 @@ dialogue	dialogue	NOUN
 Occident-Orient	Occident-Orient	ADJ
 (	(	PUNCTclause
 avril	avril	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -36,7 +36,7 @@ Occident	Occident	PROPN
 découvre	découvrir	VERB
 le	le	DET
 zen	zen	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 couvents	couvent	NOUN
 zen	zen	ADJ
@@ -231,7 +231,7 @@ avec	avec	ADP
 passion	passion	NOUN
 dans	dans	ADP
 le	le	DET
-tiers monde	Tiers Monde	NOUN
+Tiers Monde	Tiers Monde	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -286,7 +286,7 @@ découvrons	découvrir	VERB
 leurs	leur	DET
 secrets	secret	NOUN
 spirituels	spirituel	ADJ
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 leur	leur	DET
 misère	misère	NOUN
 ,	,	PUNCTclause
@@ -653,9 +653,9 @@ Dieu	Dieu	PROPN
 (	(	PUNCTclause
 colossiens	colossien	NOUN
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1291,7 +1291,7 @@ des	un	DET
 mystiques	mystique	NOUN
 soufis	soufi	ADJ
 ,	,	PUNCTclause
-proche de	proche de	ADP
+proche de	proche de	ADJ
 l'	le	DET
 Inde	Inde	PROPN
 mais	mais	CCONJ
@@ -1354,7 +1354,7 @@ islam	islam	NOUN
 ,	,	PUNCTclause
 écrit	écrire	VERB
 en	en	ADP
-1165	1165	NUM
+1165	1165	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTclause
 …	…	PUNCTsent
@@ -3542,8 +3542,8 @@ de	de	ADP
 la	le	DET
 secte	secte	NOUN
 (	(	PUNCTclause
-638	638	NUM
--713	-713	NUM
+638	638	DIGIT
+-713	-713	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -5596,8 +5596,8 @@ verset	verset	NOUN
 du	du	ADP_DET
 Coran	Coran	PROPN
 (	(	PUNCTclause
-24	24	NUM
--41	-41	NUM
+24	24	DIGIT
+-41	-41	DIGIT
 )	)	PUNCTclause
 qui	qui	PRON
 pose	poser	VERB
@@ -6608,7 +6608,7 @@ pont	pont	NOUN
 Chinvat	Chinvat	PROPN
 ?	?	PUNCTsent
 et	et	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 pour	pour	ADP
 avoir	avoir	AUX
 désiré	désirer	VERB
@@ -6856,7 +6856,7 @@ les	le	DET
 bouddhistes	bouddhiste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 se	se	PRON
 trouvent	trouver	VERB
 évacués	évacuer	VERB
@@ -8151,7 +8151,7 @@ voudrait	vouloir	VERB
 déconcertantes	déconcertant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 précaution	précaution	NOUN
 de	de	ADP
@@ -8410,7 +8410,7 @@ suprême	suprême	ADJ
 (	(	PUNCTclause
 III	III	NUM
 ,	,	PUNCTclause
-19	19	NUM
+19	19	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 notre	notre	DET
@@ -8447,7 +8447,7 @@ dangers	danger	NOUN
 (	(	PUNCTclause
 III	III	NUM
 ,	,	PUNCTclause
-35	35	NUM
+35	35	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -8674,7 +8674,7 @@ elles	elles	PRON
 ne	ne	ADV
 se	se	PRON
 contredisent	contredire	VERB
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 les	le	DET
 énoncés	énoncé	NOUN
 spirituels	spirituel	ADJ
@@ -8695,7 +8695,7 @@ la	le	DET
 conscience	conscience	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 mise en question	mise en question	NOUN
 par	par	ADP
@@ -8841,7 +8841,7 @@ expérience	expérience	NOUN
 ce	ce	PRON
 est	être	AUX
 seulement	seulement	ADV
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 que	que	SCONJ
 nos	nos	DET
 questions	question	NOUN
@@ -8945,8 +8945,8 @@ ou	ou	CCONJ
 peut	pouvoir	VERB
 devenir	devenir	VERB
 .	.	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
-l'	le_PRON	PRON
+n'est-ce pas	n'est-ce pas	INTJ
+l'	le	DET
 aider	aider	VERB
 à	à	ADP
 réfléchir	réfléchir	VERB
@@ -10607,7 +10607,7 @@ Dieu	Dieu	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
 romains	romain	NOUN
-8	8	NUM
+8	8	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 et	et	CCONJ

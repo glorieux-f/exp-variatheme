@@ -65,7 +65,7 @@ Luc	Luc	PROPN
 ,	,	PUNCTclause
 III	III	NUM
 ,	,	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -83,7 +83,7 @@ Luc	Luc	PROPN
 ,	,	PUNCTclause
 X	X	NOUN
 ,	,	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -143,11 +143,11 @@ Jean	Jean	PROPN
 ,	,	PUNCTclause
 XV	XV	NUM
 ,	,	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 ,	,	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -191,7 +191,7 @@ Jean	Jean	PROPN
 ,	,	PUNCTclause
 XV	XV	NUM
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -223,7 +223,7 @@ Jean	Jean	PROPN
 ,	,	PUNCTclause
 XII	XII	NUM
 ,	,	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -276,7 +276,7 @@ Jean	Jean	PROPN
 ,	,	PUNCTclause
 XIII	XIII	NUM
 ,	,	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -292,10 +292,10 @@ de	de	ADP
 Jean	Jean	PROPN
 I	I	NUM
 ,	,	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 ,	,	PUNCTclause
-7	7	NUM
--21	-21	X
+7	7	DIGIT
+-21	-21	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 bien-aimés	bien-aimé	NOUN
@@ -476,8 +476,8 @@ Jean	Jean	PROPN
 ,	,	PUNCTclause
 XIII	XIII	NUM
 ,	,	PUNCTclause
-34	34	NUM
--35	-35	NUM
+34	34	DIGIT
+-35	-35	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -570,8 +570,8 @@ Matt.	Matt.	PROPN
 ,	,	PUNCTclause
 XXII	XXII	NUM
 ,	,	PUNCTclause
-35	35	NUM
--40	-40	NUM
+35	35	DIGIT
+-40	-40	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -622,8 +622,8 @@ Luc	Luc	PROPN
 ,	,	PUNCTclause
 X	X	NOUN
 ,	,	PUNCTclause
-29	29	NUM
--37	-37	X
+29	29	DIGIT
+-37	-37	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -689,7 +689,7 @@ Matt.	Matt.	PROPN
 ,	,	PUNCTclause
 V	V	NUM
 ,	,	PUNCTclause
-43	43	NUM
+43	43	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -731,7 +731,7 @@ Matt.	Matt.	PROPN
 ,	,	PUNCTclause
 V	V	NUM
 ,	,	PUNCTclause
-46	46	NUM
+46	46	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -764,7 +764,7 @@ Matt.	Matt.	NOUN
 ,	,	PUNCTclause
 X	X	NUM
 ,	,	PUNCTclause
-37	37	NUM
+37	37	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -820,8 +820,8 @@ Matt.	Matt.	PROPN
 ,	,	PUNCTclause
 XII	XII	NUM
 ,	,	PUNCTclause
-46	46	NUM
--50	-50	NUM
+46	46	DIGIT
+-50	-50	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -871,7 +871,7 @@ Luc	Luc	PROPN
 ,	,	PUNCTclause
 XIV	XIV	NUM
 ,	,	PUNCTclause
-26	26	NUM
+26	26	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -991,8 +991,8 @@ Matt.	Matt.	PROPN
 ,	,	PUNCTclause
 XIX	XIX	NUM
 ,	,	PUNCTclause
-3	3	NUM
--6	-6	NUM
+3	3	DIGIT
+-6	-6	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1040,7 +1040,7 @@ Matt.	Matt.	X
 ,	,	PUNCTclause
 V	V	X
 ,	,	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1173,8 +1173,8 @@ Jean	Jean	PROPN
 ,	,	PUNCTclause
 VIII	VIII	NUM
 ,	,	PUNCTclause
-3	3	NUM
--11	-11	NUM
+3	3	DIGIT
+-11	-11	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1240,7 +1240,7 @@ Matt.	Matt.	PROPN
 ,	,	PUNCTclause
 V	V	NUM
 ,	,	PUNCTclause
-31	31	NUM
+31	31	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1348,8 +1348,8 @@ Luc	Luc	PROPN
 ,	,	PUNCTclause
 XX	XX	NUM
 ,	,	PUNCTclause
-34	34	NUM
--36	-36	NUM
+34	34	DIGIT
+-36	-36	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1458,8 +1458,8 @@ Matt.	Matt.	PROPN
 ,	,	PUNCTclause
 XIX	XIX	NUM
 ,	,	PUNCTclause
-10	10	NUM
--12	-12	X
+10	10	DIGIT
+-12	-12	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1588,8 +1588,8 @@ Luc	Luc	PROPN
 ,	,	PUNCTclause
 VII	VII	NUM
 ,	,	PUNCTclause
-36	36	NUM
--50	-50	X
+36	36	DIGIT
+-50	-50	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1750,7 +1750,7 @@ Jean	Jean	PROPN
 ,	,	PUNCTclause
 IV	IV	NUM
 ,	,	PUNCTclause
-24	24	NUM
+24	24	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1794,11 +1794,11 @@ divin	divin	ADJ
 (	(	PUNCTclause
 aux	au	ADP_DET
 chapitres	chapitre	NOUN
-14	14	NUM
+14	14	DIGIT
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 et	et	CCONJ
-17	17	NUM
+17	17	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -1824,7 +1824,7 @@ quelques	quelque	DET
 observations	observation	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 tous	tout	ADJ
 les	le	DET
@@ -1890,7 +1890,7 @@ nous	nous	PRON
 vivons	vivre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 Jésus-Christ	Jésus-Christ	PROPN
 ne	ne	ADV
@@ -1933,7 +1933,7 @@ Dieu	Dieu	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 le	le	DET
 passage	passage	NOUN
@@ -1967,7 +1967,7 @@ fit	faire	AUX
 Origène	Origène	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 Jésus-Christ	Jésus-Christ	PROPN
 donne	donner	VERB
@@ -2036,7 +2036,7 @@ Satan	Satan	PROPN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 Saint	Saint	PROPN
 Paul	Paul	PROPN
@@ -2075,7 +2075,7 @@ saint	saint	NOUN
 Paul	Paul	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 le	le	DET
 péché	péché	NOUN
@@ -2144,7 +2144,7 @@ en	en	ADP
 Occident	Occident	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 en	en	ADP
 regard	regard	NOUN

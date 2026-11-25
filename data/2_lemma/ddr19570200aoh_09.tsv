@@ -62,7 +62,7 @@ sans	sans	ADP
 pilote	pilote	NOUN
 ,	,	PUNCTclause
 réussie	réussir	VERB
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
@@ -705,7 +705,7 @@ tisser	tisser	VERB
 leurs	leur	DET
 vêtements	vêtement	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -1002,7 +1002,7 @@ des	un	ADP_DET
 machines	machine	NOUN
 .	.	PUNCTsent
 vers	vers	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 ,	,	PUNCTclause
 tout	tout	PRON
 va	aller	VERB
@@ -2631,9 +2631,9 @@ tous	tout	ADJ
 les	le	DET
 trains	train	NOUN
 de	de	ADP
-1830	1830	NUM
+1830	1830	DIGIT
 à	à	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 ont	avoir	AUX
 sans doute	sans doute	ADV
 transporté	transporter	VERB
@@ -3847,7 +3847,7 @@ significatif	significatif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1835	1835	NUM
+1835	1835	DIGIT
 ,	,	PUNCTclause
 Andrew	Andrew	PROPN
 Ure	Ure	PROPN
@@ -3889,7 +3889,7 @@ romain	romain	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
 dès	dès	ADP
-1846	1846	NUM
+1846	1846	DIGIT
 ,	,	PUNCTclause
 Michelet	Michelet	PROPN
 annonce	annoncer	VERB
@@ -4604,7 +4604,7 @@ de	de	ADP
 distinguer	distinguer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 l'	le	DET
 idée	idée	NOUN
@@ -4668,7 +4668,7 @@ l'un et l'autre	l'un et l'autre	PRON
 unilatéraux	unilatéral	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 l'	le	DET
 idée	idée	NOUN
@@ -6452,13 +6452,13 @@ Europe	Europe	PROPN
 a	avoir	AUX
 passé	passer	VERB
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 en	en	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 à	à	ADP
-15	15	NUM
+15	15	DIGIT
 en	en	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 dit	dire	VERB
@@ -6470,15 +6470,15 @@ précise	préciser	VERB
 que	que	SCONJ
 il	il	PRON
 est	être	AUX
-10	10	NUM
+10	10	DIGIT
 fois	fois	NOUN
 plus	plus	ADV
 élevé	élevé	ADJ
 en	en	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 que	que	SCONJ
 en	en	ADP
-1880	1880	NUM
+1880	1880	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ces	ce	DET
@@ -6530,9 +6530,9 @@ dit	dire	VERB
 que	que	SCONJ
 nous	nous	PRON
 vivons	vivre	VERB
-10	10	NUM
+10	10	DIGIT
 ou	ou	CCONJ
-15	15	NUM
+15	15	DIGIT
 fois	fois	NOUN
 mieux	mieux	ADV
 que	que	SCONJ
@@ -6550,9 +6550,9 @@ très	très	ADV
 net	net	ADJ
 :	:	PUNCTclause
 de	de	ADP
-1890	1890	NUM
+1890	1890	DIGIT
 à	à	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 semaine	semaine	NOUN
@@ -6564,10 +6564,10 @@ textile	textile	NOUN
 a	avoir	AUX
 passé	passer	VERB
 de	de	ADP
-65	65	NUM
+65	65	DIGIT
 heures	heure	NOUN
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -6579,10 +6579,10 @@ pour	pour	ADP
 les	le	DET
 cheminots	cheminot	NOUN
 de	de	ADP
-3900	3900	NUM
+3900	3900	DIGIT
 heures	heure	NOUN
 à	à	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
@@ -6784,7 +6784,7 @@ qui	qui	PRON
 se	se	PRON
 augmente	augmenter	VERB
 de	de	ADP
-70000	70000	NUM
+70000	70000	DIGIT
 âmes	âme	NOUN
 par	par	ADP
 jour	jour	NOUN
@@ -6880,10 +6880,10 @@ l'	le	DET
 échelle	échelle	NOUN
 mondiale	mondial	ADJ
 .	.	PUNCTsent
-d'ici	d'ici	ADV
-20	20	NUM
+D'ici	D'ici	PROPN
+20	20	DIGIT
 ou	ou	CCONJ
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 selon	selon	ADP
@@ -6907,7 +6907,7 @@ la	le	DET
 planète	planète	NOUN
 ,	,	PUNCTclause
 donne	donner	VERB
-4	4	NUM
+4	4	DIGIT
 heures	heure	NOUN
 de	de	ADP
 travail	travail	NOUN
@@ -7073,7 +7073,7 @@ beaucoup	beaucoup	ADV
 mieux	mieux	ADV
 ,	,	PUNCTclause
 aux environs de	aux environs de	ADP
-1830	1830	NUM
+1830	1830	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 que	que	PRON
@@ -7085,7 +7085,7 @@ technique	technique	NOUN
 il	il	PRON
 se	se	PRON
 agit	agir	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 de	de	ADP
 mieux	mieux	ADV
 voir	voir	VERB

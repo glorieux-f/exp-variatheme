@@ -143,7 +143,7 @@ de	de	ADP
 la	le	DET
 Crise	Crise	PROPN
 de	de	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 les	le	DET
@@ -155,8 +155,7 @@ bureaux	bureau	NOUN
 se	se	PRON
 vident	vider	VERB
 au-dessus de	au-dessus de	ADP
-50	50	NUM
-e	e	SYM
+50e	50e	NUMord
 étage	étage	NOUN
 ,	,	PUNCTclause
 pour peu que	pour peu que	SCONJ
@@ -396,9 +395,9 @@ gauche	gauche	NOUN
 droite	droite	NOUN
 ,	,	PUNCTclause
 entre	entre	ADP
-100	100	NUM
+100	100	DIGIT
 et	et	CCONJ
-130	130	NUM
+130	130	DIGIT
 à	à	ADP
 l'	le	DET
 heure	heure	NOUN
@@ -598,7 +597,7 @@ cabines	cabine	NOUN
 de	de	ADP
 touristes	touriste	NOUN
 à	à	ADP
-100	100	NUM
+100	100	DIGIT
 yards	yard	NOUN
 …	…	PUNCTsent
 ferry-boat	ferry-boat	NOUN
@@ -664,7 +663,7 @@ vitesse	vitesse	NOUN
 cinquante	cinquante	NUM
 miles	mile	NOUN
 …	…	PUNCTsent
-500	500	NUM
+500	500	DIGIT
 dollars	dollar	NOUN
 de	de	ADP
 amende	amende	NOUN
@@ -711,7 +710,7 @@ nous	nous	PRON
 aurons	avoir	AUX
 couvert	couvrir	VERB
 les	le	DET
-400	400	NUM
+400	400	DIGIT
 kilomètres	mètre	NOUN
 qui	qui	PRON
 séparent	séparer	VERB

@@ -6,15 +6,15 @@
 # title = 1931-1937 ou les années tournantes (années 1970)
 
 ↵↵	↵↵	PUNCTstruct
-1931	1931	NUM
--1937	-1937	NUM
+1931	1931	DIGIT
+-1937	-1937	DIGIT
 ou	ou	CCONJ
 les	le	DET
 années	année	NOUN
 tournantes	tournant	ADJ
 (	(	PUNCTclause
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -34,7 +34,7 @@ appelaient	appeler	VERB
 déjà	déjà	ADV
 au cours de	au cours de	ADP
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 !	!	PUNCTsent
 —	—	PUNCTclause
 résulte	résulter	VERB
@@ -105,7 +105,7 @@ ou	ou	CCONJ
 renouvelés	renouveler	VERB
 et	et	CCONJ
 multipliant	multiplier	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 les	le	DET
 causes	cause	NOUN
 de	de	ADP
@@ -122,7 +122,7 @@ occidental	occidental	ADJ
 qui	qui	PRON
 éclate	éclater	VERB
 en	en	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 avec	avec	ADP
 le	le	DET
 krach	krach	NOUN
@@ -317,9 +317,9 @@ sépare	séparer	VERB
 l'	le	DET
 armistice	armistice	NOUN
 du	du	ADP_DET
-11	11	NUM
+11	11	DIGIT
 novembre	novembre	NOUN
-1919	1919	NUM
+1919	1919	DIGIT
 et	et	CCONJ
 les	le	DET
 déclarations	déclaration	NOUN
@@ -329,7 +329,7 @@ du	du	ADP_DET
 début	début	NOUN
 de	de	ADP
 septembre	septembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -342,9 +342,9 @@ est	être	AUX
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 à	à	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 que	que	SCONJ
 ces	ce	DET
 courants	courant	NOUN
@@ -415,7 +415,7 @@ présentaient	présenter	VERB
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 de	de	ADP
@@ -451,7 +451,7 @@ siècle	siècle	NOUN
 est	être	AUX
 né	naître	VERB
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 des	un	DET
 œuvres	œuvre	NOUN
@@ -907,7 +907,7 @@ l'	le	DET
 état	état	NOUN
 formé	former	VERB
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 sous	sous	ADP
 l'	le	DET
 hégémonie	hégémonie	NOUN
@@ -1053,7 +1053,7 @@ de	de	ADP
 banlieue	banlieue	NOUN
 »	»	PUNCTclause
 de	de	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 avaient	avoir	AUX
 été	être	AUX
 fondés	fonder	VERB
@@ -1111,7 +1111,7 @@ au lendemain de	au lendemain de	ADP
 l'	le	DET
 armistice	armistice	NOUN
 de	de	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -1236,7 +1236,7 @@ les	le	DET
 Alliés	Alliés	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 délimiter	délimiter	VERB
@@ -1480,7 +1480,7 @@ la	le	DET
 victoire	victoire	NOUN
 franco-anglaise	franco-anglais	ADJ
 de	de	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 ,	,	PUNCTclause
 financée	financer	VERB
 et	et	CCONJ
@@ -1538,7 +1538,7 @@ paix	paix	NOUN
 durable	durable	ADJ
 .	.	PUNCTsent
 dès	dès	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 imposture	imposture	NOUN
@@ -1654,7 +1654,7 @@ vainqueurs	vainqueur	NOUN
 démocrates	démocrate	NOUN
 »	»	PUNCTclause
 de	de	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 est	être	AUX
@@ -1742,7 +1742,7 @@ grande	grand	ADJ
 échelle	échelle	NOUN
 ,	,	PUNCTclause
 dès	dès	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
@@ -1961,9 +1961,9 @@ jeudi	jeudi	NOUN
 noir	noir	ADJ
 »	»	PUNCTclause
 du	du	ADP_DET
-24	24	NUM
+24	24	DIGIT
 octobre	octobre	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 fut	être	AUX
 une	un	DET
@@ -2022,7 +2022,7 @@ se	se	PRON
 effondrèrent	effondrer	VERB
 les uns après les autres	les uns après les autres	ADV
 dès	dès	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 :	:	PUNCTclause
 au	au	ADP_DET
 mois	mois	NOUN
@@ -2085,7 +2085,7 @@ dépendent	dépendre	VERB
 financièrement	financièrement	ADV
 .	.	PUNCTsent
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -2205,22 +2205,22 @@ au-dessous de	au-dessous de	ADP
 son	son	DET
 niveau	niveau	NOUN
 de	de	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
-33	33	NUM
+33	33	DIGIT
 en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-50	50	NUM
+50	50	DIGIT
 aux	au	ADP_DET
 		TOKEN
 .	.	PUNCTsent
 on	on	PRON
 recense	recenser	VERB
 près de	près de	ADP
-10	10	NUM
+10	10	DIGIT
 millions	million	NOUN
 de	de	ADP
 chômeurs	chômeur	NOUN
@@ -2228,14 +2228,14 @@ dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 millions	million	NOUN
 en	en	ADP
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
@@ -2349,7 +2349,7 @@ on	on	PRON
 assiste	assister	VERB
 au cours de	au cours de	ADP
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 à	à	ADP
 la	le	DET
 débâcle	débâcle	NOUN
@@ -2428,7 +2428,7 @@ souverains	souverain	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 en	en	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
 Aristide	Aristide	PROPN
 Briand	Briand	PROPN
@@ -2543,7 +2543,7 @@ des	un	ADP_DET
 ,	,	PUNCTclause
 parvenues	parvenir	VERB
 en	en	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 étaient	être	AUX
 très	très	ADV
@@ -2672,13 +2672,13 @@ par	par	ADP
 la	le	DET
 SDN	SDN	NOUN
 dès	dès	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 se	se	PRON
 réunit	réunir	VERB
 à	à	ADP
 Genève	Genève	PROPN
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 .	.	PUNCTsent
 le	le	DET
 représentant	représentant	NOUN
@@ -2785,7 +2785,7 @@ offensée	offenser	VERB
 le	le	DET
 Japon	Japon	PROPN
 dès	dès	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 Allemagne	Allemagne	PROPN
@@ -2797,7 +2797,7 @@ l'	le	DET
 Italie	Italie	PROPN
 fascisme	fascisme	NOUN
 en	en	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 .	.	PUNCTsent
 tous	tous	PRON
 en	en	ADP
@@ -2825,9 +2825,9 @@ une	un	DET
 année	année	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 à	à	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -2926,7 +2926,7 @@ ceux	ceux	PRON
 de	de	ADP
 Stresa	Stresa	PROPN
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 entre	entre	ADP
 France	France	PROPN
 ,	,	PUNCTclause
@@ -2941,7 +2941,7 @@ traités	traité	NOUN
 déchirés	déchirer	VERB
 ,	,	PUNCTclause
 dès	dès	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 mesures	mesure	NOUN
@@ -2999,11 +2999,11 @@ conférences	conférence	NOUN
 mondiales	mondial	ADJ
 de	de	ADP
 Lausanne	Lausanne	PROPN
-1932	1932	NUM
+1932	1932	DIGIT
 et	et	CCONJ
 de	de	ADP
 Londres	Londres	PROPN
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -3015,9 +3015,9 @@ vraiment	vraiment	ADV
 réussie	réussir	VERB
 des	un	ADP_DET
 années	année	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 à	à	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 est	être	AUX
 celle	celle	PRON
 des	un	ADP_DET
@@ -3046,7 +3046,7 @@ acier	acier	NOUN
 »	»	PUNCTclause
 conclu	conclure	VERB
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 entre	entre	ADP
 Hitler	Hitler	PROPN
 et	et	CCONJ
@@ -3087,7 +3087,7 @@ par	par	ADP
 Hitler	Hitler	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -3147,7 +3147,7 @@ Hitler	Hitler	PROPN
 suivis	suivre	VERB
 (	(	PUNCTclause
 dès	dès	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 )	)	PUNCTclause
 par	par	ADP
 Franco	Franco	PROPN
@@ -3277,8 +3277,8 @@ radicale	radical	ADJ
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
--18	-18	NUM
+1914	1914	DIGIT
+-18	-18	DIGIT
 a	avoir	AUX
 fait	faire	VERB
 deux	deux	NUM
@@ -3361,9 +3361,9 @@ impressionnants	impressionnant	ADJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 à	à	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 .	.	PUNCTsent
 les	le	DET
 uns	un	PRON
@@ -3543,8 +3543,8 @@ guerre mondiale	guerre mondiale	NOUN
 sont	être	AUX
 nouées	nouer	VERB
 dès	dès	ADP
-1936	1936	NUM
--1937	-1937	NUM
+1936	1936	DIGIT
+-1937	-1937	DIGIT
 ,	,	PUNCTclause
 années	année	NOUN
 où	où	PRON
@@ -4120,7 +4120,7 @@ le	le	DET
 deuxième	deuxième	ADJ
 commence	commencer	VERB
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 ces	ce	DET
 plans	plan	NOUN
@@ -4190,7 +4190,7 @@ un	un	DET
 journal	journal	NOUN
 moscovite	moscovite	ADJ
 de	de	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 le	le	DET
@@ -4257,7 +4257,7 @@ stakhanovistes	stakhanoviste	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 dès	dès	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 sont	être	AUX
@@ -4413,7 +4413,7 @@ laissent	laisser	VERB
 deviner	deviner	VERB
 .	.	PUNCTsent
 si	si	SCONJ
-1931	1931	NUM
+1931	1931	DIGIT
 voit	voir	VERB
 se	se	PRON
 ouvrir	ouvrir	VERB
@@ -4425,7 +4425,7 @@ métro	métro	NOUN
 de	de	ADP
 Moscou	Moscou	PROPN
 ,	,	PUNCTclause
-1932	1932	NUM
+1932	1932	DIGIT
 connaît	connaître	VERB
 le	le	DET
 processus	processus	NOUN
@@ -4463,7 +4463,7 @@ auteurs	auteur	NOUN
 sérieux	sérieux	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 activité	activité	NOUN
@@ -4501,7 +4501,7 @@ purges	purge	NOUN
 sont	être	AUX
 inaugurées	inaugurer	VERB
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 vont	aller	VERB
@@ -4516,9 +4516,9 @@ Moscou	Moscou	PROPN
 »	»	PUNCTclause
 des	un	ADP_DET
 années	année	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 et	et	CCONJ
-1937	1937	NUM
+1937	1937	DIGIT
 :	:	PUNCTclause
 tous	tous	PRON
 les	le	DET
@@ -4707,7 +4707,7 @@ les	le	DET
 Russies	Russies	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 sont	être	AUX
@@ -4754,7 +4754,7 @@ de	de	ADP
 la	le	DET
 guerre	guerre	NOUN
 en	en	ADP
-1913	1913	NUM
+1913	1913	DIGIT
 (	(	PUNCTclause
 il	il	PRON
 la	le_PRON	PRON
@@ -4793,7 +4793,7 @@ sur	sur	ADP
 Rome	Rome	PROPN
 »	»	PUNCTclause
 en	en	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 parvient	parvenir	VERB
@@ -5122,7 +5122,7 @@ de	de	ADP
 la	le	DET
 Lybie	Lybie	PROPN
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 si	si	SCONJ
@@ -5171,7 +5171,7 @@ accords	accord	NOUN
 de	de	ADP
 Stresa	Stresa	PROPN
 (	(	PUNCTclause
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 avec	avec	ADP
 la	le	DET
@@ -5187,7 +5187,7 @@ assurer	assurer	VERB
 de	de	ADP
 leur	leur	DET
 tolérance	tolérance	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 l'on	on	PRON
 se	se	PRON
 dispose	disposer	VERB
@@ -5246,7 +5246,7 @@ de	de	ADP
 acier	acier	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
-1936	1936	NUM
+1936	1936	DIGIT
 )	)	PUNCTclause
 avec	avec	ADP
 cet	ce	DET
@@ -5391,9 +5391,9 @@ complot	complot	NOUN
 mégalomane	mégalomane	ADJ
 .	.	PUNCTsent
 de	de	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 à	à	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 ,	,	PUNCTclause
 tout	tout	PRON
 est	être	AUX
@@ -5408,9 +5408,9 @@ aura	avoir	VERB
 plus	plus	ADV
 —	—	PUNCTclause
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 et	et	CCONJ
-1939	1939	NUM
+1939	1939	DIGIT
 —	—	PUNCTclause
 que	que	SCONJ
 à	à	ADP
@@ -5435,7 +5435,7 @@ film	film	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 à peine	à peine	ADV
 Hitler	Hitler	PROPN
@@ -5485,7 +5485,7 @@ industrie	industrie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-1934	1934	NUM
+1934	1934	DIGIT
 .	.	PUNCTsent
 élimination	élimination	NOUN
 des	un	ADP_DET
@@ -5524,7 +5524,7 @@ Duce	Duce	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-1935	1935	NUM
+1935	1935	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Sarre	Sarre	PROPN
@@ -5559,7 +5559,7 @@ antisémitisme	antisémitisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Rhénanie	Rhénanie	PROPN
@@ -5590,7 +5590,7 @@ Japon	Japon	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-1937	1937	NUM
+1937	1937	DIGIT
 .	.	PUNCTsent
 expansion	expansion	NOUN
 économique	économique	ADJ
@@ -5648,7 +5648,7 @@ me	me	PRON
 avait	avoir	AUX
 dit	dire	VERB
 dès	dès	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 un	un	DET
 chef	chef	NOUN
 nazi	nazi	ADJ
@@ -5720,7 +5720,7 @@ majorités	majorité	NOUN
 qui	qui	PRON
 frôlaient	frôler	VERB
 le	le	DET
-100	100	NUM
+100	100	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 qui	qui	PRON
@@ -5750,7 +5750,7 @@ une	un	DET
 foule	foule	NOUN
 de plus	de plus	ADV
 de	de	ADP
-40000	40000	NUM
+40000	40000	DIGIT
 hommes	homme	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -5775,9 +5775,9 @@ mon	mon	DET
 journal	journal	NOUN
 ,	,	PUNCTclause
 le	le	DET
-11	11	NUM
+11	11	DIGIT
 mars	mars	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -5901,7 +5901,7 @@ l'	le	DET
 Europe	Europe	PROPN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 :	:	PUNCTclause
 du côté de	du côté de	ADP
 démocraties	démocratie	NOUN
@@ -6034,8 +6034,8 @@ de	de	ADP
 sa	son	DET
 puissance	puissance	NOUN
 vers	vers	ADP
-1935	1935	NUM
--1937	-1937	NUM
+1935	1935	DIGIT
+-1937	-1937	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 présentait	présenter	VERB
@@ -6284,7 +6284,7 @@ en	en	ADP
 Espagne	Espagne	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 général	général	NOUN
@@ -6318,7 +6318,7 @@ la	le	DET
 monarchie	monarchie	NOUN
 que	que	PRON
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 tandis que	tandis que	SCONJ
@@ -6440,7 +6440,7 @@ de	de	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -6472,9 +6472,9 @@ les	le	DET
 		TOKEN
 opèrent	opérer	VERB
 de	de	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 à	à	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 un	un	DET
 redressement	redressement	NOUN
 encore	encore	ADV
@@ -6510,7 +6510,7 @@ politique	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 États-Unis	États-Unis	PROPN
@@ -6531,7 +6531,7 @@ l'	le	DET
 année	année	NOUN
 suivante	suivant	ADJ
 —	—	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 de	de	ADP
 chômeurs	chômeur	NOUN
@@ -6697,7 +6697,7 @@ de	de	ADP
 toutes	tout	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 cette	ce	DET
 même	même	ADJ
@@ -6710,7 +6710,7 @@ au	au	ADP_DET
 niveau	niveau	NOUN
 économique	économique	ADJ
 de	de	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 .	.	PUNCTsent
 leur	leur	DET
 ascension	ascension	NOUN
@@ -6756,7 +6756,7 @@ France	France	PROPN
 durant	durant	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 subit	subir	VERB
 les	le	DET
@@ -6834,7 +6834,7 @@ aux	au	ADP_DET
 ↵↵	↵↵	PUNCTstruct
 alors que	alors que	SCONJ
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 suite à	suite à	ADP
 krach	krach	NOUN
@@ -6844,14 +6844,14 @@ wall street	wall street	NOUN
 la	le	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
 a	avoir	AUX
-3	3	NUM
+3	3	DIGIT
 millions	million	NOUN
 de	de	ADP
 chômeurs	chômeur	NOUN
 et	et	CCONJ
 l'	le	DET
 Allemagne	Allemagne	PROPN
-6	6	NUM
+6	6	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 on	on	PRON
@@ -6859,13 +6859,13 @@ ne	ne	ADV
 en	en	PRON
 compte	compter	VERB
 que	que	SCONJ
-780000	780000	NUM
+780000	780000	DIGIT
 en	en	ADP
 France	France	PROPN
 .	.	PUNCTsent
 alors que	alors que	SCONJ
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 Hitler	Hitler	PROPN
 prend	prendre	VERB
@@ -6982,12 +6982,12 @@ droite	droite	NOUN
 dominera	dominer	VERB
 jusque	jusque	ADP
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 gauche	gauche	NOUN
 dès	dès	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ni l'une ni l'autre	ni l'une ni l'autre	PRON
@@ -7048,9 +7048,9 @@ de	de	ADP
 communauté	communauté	NOUN
 .	.	PUNCTsent
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 février	février	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 Croix	Croix	PROPN
@@ -7095,7 +7095,7 @@ parlement	parlement	NOUN
 qui	qui	PRON
 est	être	AUX
 à	à	ADP
-200	200	NUM
+200	200	DIGIT
 mètres	mètre	NOUN
 .	.	PUNCTsent
 ce	ce	DET
@@ -7141,7 +7141,7 @@ accède	accéder	VERB
 au	au	ADP_DET
 pouvoir	pouvoir	NOUN
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 Léon	Léon	PROPN
 Blum	Blum	PROPN
@@ -7220,7 +7220,7 @@ universités	université	NOUN
 la	le	DET
 semaine	semaine	NOUN
 de	de	ADP
-48	48	NUM
+48	48	DIGIT
 heures	heure	NOUN
 ;	;	PUNCTclause
 et	et	CCONJ
@@ -7301,7 +7301,7 @@ pour	pour	ADP
 les	le	DET
 canons	canon	NOUN
 .	.	PUNCTsent
-1935	1935	NUM
+1935	1935	DIGIT
 peut	pouvoir	VERB
 être	être	AUX
 considérée	considérer	VERB
@@ -7513,9 +7513,9 @@ définis	définir	VERB
 entre	entre	ADP
 les	le	DET
 années	année	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 et	et	CCONJ
-1935	1935	NUM
+1935	1935	DIGIT
 :	:	PUNCTclause
 celui	celui	PRON
 des	un	ADP_DET
@@ -8011,7 +8011,7 @@ de	de	ADP
 conscience	conscience	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -8080,7 +8080,7 @@ né	naître	VERB
 à	à	ADP
 Paris	Paris	PROPN
 vers	vers	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 ,	,	PUNCTclause
 rapidement	rapidement	ADV
 répandu	répandre	VERB
@@ -8189,9 +8189,9 @@ par	par	ADP
 ses	son	DET
 leaders	leader	NOUN
 de	de	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 à	à	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 que	que	PRON
 par	par	ADP

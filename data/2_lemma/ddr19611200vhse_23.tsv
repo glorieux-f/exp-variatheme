@@ -6,7 +6,7 @@
 # title = 3. Synthèses historico-philosophiques (I)
 
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 synthèses	synthèse	NOUN
 historico-philosophiques	historico-philosophiques	X
@@ -216,8 +216,8 @@ Friedrich	Friedrich	PROPN
 von	von	X
 Schiller	Schiller	PROPN
 (	(	PUNCTclause
-1759	1759	NUM
--1805	-1805	NUM
+1759	1759	DIGIT
+-1805	-1805	DIGIT
 )	)	PUNCTclause
 lorsque	lorsque	SCONJ
 il	il	PRON
@@ -232,7 +232,7 @@ Trente	Trente	PROPN
 Ans	Ans	PROPN
 (	(	PUNCTclause
 dès	dès	ADP
-1790	1790	NUM
+1790	1790	DIGIT
 )	)	PUNCTclause
 vient	venir	VERB
 enfin	enfin	ADV
@@ -614,9 +614,9 @@ lettre	lettre	NOUN
 Goethe	Goethe	PROPN
 ,	,	PUNCTclause
 le	le	DET
-26	26	NUM
+26	26	DIGIT
 janvier	janvier	NOUN
-1798	1798	NUM
+1798	1798	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -632,8 +632,8 @@ Johann	Johann	PROPN
 Gottlieb	Gottlieb	PROPN
 Fichte	Fichte	PROPN
 (	(	PUNCTclause
-1762	1762	NUM
--1814	-1814	NUM
+1762	1762	DIGIT
+-1814	-1814	DIGIT
 )	)	PUNCTclause
 peut	pouvoir	VERB
 être	être	AUX
@@ -676,7 +676,7 @@ que	que	SCONJ
 il	il	PRON
 défend	défendre	VERB
 dès	dès	ADP
-1793	1793	NUM
+1793	1793	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -705,7 +705,7 @@ Völker-	Völker-	PROPN
 und	und	X
 Weltbürgerrechts	Weltbürgerrechts	PROPN
 ,	,	PUNCTclause
-1796	1796	NUM
+1796	1796	DIGIT
 .	.	PUNCTsent
 la	le	DET
 raison	raison	NOUN
@@ -1012,7 +1012,7 @@ fermé	fermer	VERB
 )	)	PUNCTclause
 publié	publier	VERB
 en	en	ADP
-1800	1800	NUM
+1800	1800	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 faut	falloir	VERB
@@ -1092,7 +1092,7 @@ diversifier	diversifier	VERB
 leurs	leur	DET
 monnaies	monnaie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ce	ce	PRON
 est	être	VERB
 la	le	DET
@@ -1223,7 +1223,7 @@ aux	au	ADP_DET
 réalités	réalité	NOUN
 historiques	historique	ADJ
 des	un	ADP_DET
-150	150	NUM
+150	150	DIGIT
 ans	an	NOUN
 qui	qui	PRON
 allaient	aller	VERB
@@ -1293,8 +1293,8 @@ des	un	ADP_DET
 gegenwärtigen	gegenwärtigen	NOUN
 Zeitalters	Zeitalters	PROPN
 (	(	PUNCTclause
-1804	1804	NUM
--1805	-1805	NUM
+1804	1804	DIGIT
+-1805	-1805	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1411,8 +1411,8 @@ Gottfried	Gottfried	PROPN
 von	von	X
 Herder	Herder	PROPN
 (	(	PUNCTclause
-1744	1744	NUM
--1803	-1803	NUM
+1744	1744	DIGIT
+-1803	-1803	DIGIT
 )	)	PUNCTclause
 ouvre	ouvrir	VERB
 en	en	ADP
@@ -1663,7 +1663,7 @@ de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
 (	(	PUNCTclause
-1784	1784	NUM
+1784	1784	DIGIT
 )	)	PUNCTclause
 il	il	PRON
 annonçait	annoncer	VERB
@@ -1781,8 +1781,8 @@ Johannes	Johannes	PROPN
 von	von	X
 Müller	Müller	PROPN
 (	(	PUNCTclause
-1752	1752	NUM
--1809	-1809	NUM
+1752	1752	DIGIT
+-1809	-1809	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 historien	historien	NOUN
@@ -1808,7 +1808,7 @@ histoire	histoire	NOUN
 du	du	ADP_DET
 genre humain	genre humain	NOUN
 (	(	PUNCTclause
-1797	1797	NUM
+1797	1797	DIGIT
 )	)	PUNCTclause
 dont	dont	PRON
 le	le	DET

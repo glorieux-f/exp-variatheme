@@ -20,7 +20,7 @@ des	un	ADP_DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 mai	mai	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -38,7 +38,7 @@ sur	sur	ADP
 notre	notre	DET
 globe	globe	NOUN
 :	:	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 et	et	CCONJ
@@ -131,7 +131,7 @@ premières	premier	ADJ
 ,	,	PUNCTclause
 population	population	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 soit	soit	CCONJ
 m	m	NOUN
 )	)	PUNCTclause
@@ -340,7 +340,7 @@ dirai	dire	VERB
 trois	trois	NUM
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 ne	ne	ADV
@@ -372,7 +372,7 @@ les	le	DET
 informer	informer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 ne	ne	ADV
@@ -427,7 +427,7 @@ du	du	ADP_DET
 nationalisme	nationalisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 principaux	principal	ADJ
@@ -941,7 +941,7 @@ séminaires	séminaire	NOUN
 de	de	ADP
 études	étude	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 au	au	ADP_DET
 cours	cours	NOUN
@@ -1301,7 +1301,7 @@ l'	le	DET
 affaire	affaire	NOUN
 des	un	ADP_DET
 public	public	NOUN
-relations	relater	VERB
+relations	relation	NOUN
 de	de	ADP
 chaque	chaque	DET
 organisme	organisme	NOUN
@@ -1679,7 +1679,7 @@ reine	reine	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 avant	avant	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 perdant	perdre	VERB
@@ -1746,7 +1746,7 @@ sont	être	AUX
 dressés	dresser	VERB
 de toutes parts	de toutes parts	ADV
 depuis	depuis	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ;	;	PUNCTclause
 mais	mais	CCONJ
 se	se	PRON
@@ -1981,7 +1981,7 @@ fait	fait	NOUN
 que	que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
-340	340	NUM
+340	340	DIGIT
 millions	million	NOUN
 à	à	ADP
 l'	le	DET

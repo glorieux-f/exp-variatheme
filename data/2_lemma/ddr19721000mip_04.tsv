@@ -7,7 +7,7 @@
 # title = 3. Anatomie du monstre
 
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 anatomie	anatomie	NOUN
 du	du	ADP_DET
@@ -152,7 +152,7 @@ point	point	ADV
 l'	le	DET
 équité	équité	NOUN
 .	.	PUNCTsent
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 vous	vous	PRON
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -303,7 +303,7 @@ réalisations	réalisation	NOUN
 pratiques	pratique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 a.	a.	PUNCT
 le	le	DET
@@ -340,19 +340,19 @@ qualités	qualité	NOUN
 propres	propre	ADJ
 .	.	PUNCTsent
 de	de	ADP
-8	8	NUM
+8	8	DIGIT
 à	à	ADP
-9	9	NUM
+9	9	DIGIT
 arithmétique	arithmétique	NOUN
 ;	;	PUNCTclause
 de	de	ADP
-9	9	NUM
+9	9	DIGIT
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 composition	composition	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-ces	ce	DET
+etc.	etc.	X
+ces	ce	X
 disciplines	discipline	NOUN
 se	se	PRON
 succèdent	succéder	VERB
@@ -704,7 +704,7 @@ meurent	mourir	VERB
 pas	pas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 b.	b.	DET
 les	le	NOUN
@@ -989,7 +989,7 @@ aussi	aussi	ADV
 élémentaires	élémentaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 c.	c.	NOUN
 l'	le	DET
@@ -1044,7 +1044,7 @@ instant	instant	NOUN
 être	être	AUX
 en	en	ADP
 mesure	mesure	NOUN
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 de	de	ADP
 ingurgiter	ingurgiter	VERB
@@ -1054,7 +1054,7 @@ quantité de	quantité de	DET
 matière	matière	NOUN
 »	»	PUNCTclause
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 de	de	ADP
 en	en	ADP
@@ -1237,7 +1237,7 @@ des	un	DET
 médiocres	médiocre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 d.	d.	PUNCT
 le	le	DET
@@ -1495,7 +1495,7 @@ de	de	ADP
 calligraphie	calligraphie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 e.	e.	PUNCT
 la	le	DET
@@ -1557,12 +1557,12 @@ enfants	enfant	NOUN
 immobiles	immobile	ADJ
 et	et	CCONJ
 muets	muet	NOUN
-6	6	NUM
+6	6	DIGIT
 heures	heure	NOUN
 par	par	ADP
 jour	jour	NOUN
 durant	durant	ADP
-8	8	NUM
+8	8	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -1743,7 +1743,7 @@ patrie	patrie	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 f.	f.	PUNCT
 la	le	DET
@@ -1881,7 +1881,7 @@ dès	dès	ADP
 l'	le	DET
 âge	âge	NOUN
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 favorise	favoriser	VERB
@@ -2133,7 +2133,7 @@ plus	plus	ADV
 vulgaires	vulgaire	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 g.	g.	DET
 l'	le_PRON	PRON
@@ -2326,7 +2326,7 @@ Neige	Neige	PROPN
 ,	,	PUNCTclause
 Victoria	Victoria	PROPN
 ,	,	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 écrit	écrire	VERB
@@ -2349,16 +2349,16 @@ manteau	manteau	NOUN
 »	»	PUNCTclause
 elle	elle	PRON
 aura	avoir	VERB
-10	10	NUM
+10	10	DIGIT
 sur	sur	ADP
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 on	on	PRON
 donnera	donner	VERB
-3	3	NUM
+3	3	DIGIT
 sur	sur	ADP
-10	10	NUM
+10	10	DIGIT
 à	à	ADP
 Sylvie	Sylvie	PROPN
 pour	pour	ADP
@@ -2722,7 +2722,7 @@ ont	avoir	AUX
 subies	subir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 h.	h.	DET
 Le	Le	PROPN

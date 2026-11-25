@@ -11,7 +11,7 @@ le	le	DET
 Style	Style	PROPN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -132,7 +132,7 @@ Irène	Irène	PROPN
 (	(	PUNCTclause
 Grasset	Grasset	PROPN
 ,	,	PUNCTclause
-1924	1924	NUM
+1924	1924	DIGIT
 …	…	PUNCTsent
 …	…	PUNCTsent
 y compris	y compris	ADP
@@ -152,9 +152,9 @@ Nouvelles	Nouvelles	PROPN
 littéraires	littéraire	ADJ
 ,	,	PUNCTclause
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 janvier	janvier	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 information	information	NOUN
@@ -202,7 +202,7 @@ Berthelot	Berthelot	PROPN
 ,	,	PUNCTclause
 secrétaire général	secrétaire général	NOUN
 du	du	ADP_DET
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 ;	;	PUNCTclause
 et	et	CCONJ
 pour	pour	ADP

@@ -10,9 +10,9 @@ les	le	DET
 quatre	quatre	NUM
 amours	amour	NOUN
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 mai	mai	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -397,7 +397,7 @@ grâce	grâce	NOUN
 elle	elle	PRON
 seule	seul	ADJ
 crée	créer	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 couleur	couleur	NOUN
 ,	,	PUNCTclause
@@ -850,7 +850,7 @@ ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 loin	loin	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 ou	ou	CCONJ
 de	de	ADP
 à présent	à présent	ADV
@@ -1709,7 +1709,7 @@ elle	elle	PRON
 est	être	AUX
 connaissance	connaissance	NOUN
 active	actif	ADJ
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 reconnaissance	reconnaissance	NOUN
 .	.	PUNCTsent
 elle	elle	PRON
@@ -2394,9 +2394,9 @@ veut	vouloir	VERB
 Chandogya	Chandogya	PROPN
 upanishad	upanishad	X
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 ,	,	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -3195,7 +3195,7 @@ forme	forme	NOUN
 indique	indiquer	VERB
 le	le	DET
 nombre	nombre	NOUN
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 elle	elle	PRON
@@ -3329,7 +3329,7 @@ forme	forme	NOUN
 indique	indiquer	VERB
 le	le	DET
 nombre	nombre	NOUN
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 elle	elle	PRON
@@ -3473,7 +3473,7 @@ forme	forme	NOUN
 indique	indiquer	VERB
 le	le	DET
 nombre	nombre	NOUN
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 elle	elle	PRON
@@ -3650,7 +3650,7 @@ forme	forme	NOUN
 indique	indiquer	VERB
 le	le	DET
 nombre	nombre	NOUN
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 elle	elle	PRON

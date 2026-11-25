@@ -6,7 +6,7 @@
 # title = 5. Les grands desseins du xviie siècle
 
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 les	le	DET
 grands	grand	ADJ
@@ -248,20 +248,20 @@ chronologie	chronologie	NOUN
 :	:	PUNCTclause
 Crucé	Crucé	PROPN
 ,	,	PUNCTclause
-1623	1623	NUM
+1623	1623	DIGIT
 ;	;	PUNCTclause
 Sully	Sully	PROPN
 ,	,	PUNCTclause
-1638	1638	NUM
+1638	1638	DIGIT
 ;	;	PUNCTclause
 Comenius	Comenius	PROPN
 ,	,	PUNCTclause
-1645	1645	NUM
+1645	1645	DIGIT
 ;	;	PUNCTclause
 William	William	PROPN
 Penn	Penn	PROPN
 ,	,	PUNCTclause
-1692	1692	NUM
+1692	1692	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -311,7 +311,7 @@ siècle	siècle	NOUN
 et	et	CCONJ
 mourut	mourir	VERB
 en	en	ADP
-1648	1648	NUM
+1648	1648	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 fut	être	AUX
@@ -384,7 +384,7 @@ parut	paraître	VERB
 à	à	ADP
 Paris	Paris	PROPN
 en	en	ADP
-1623	1623	NUM
+1623	1623	DIGIT
 :	:	PUNCTclause
 le	le	DET
 nouveau	nouveau	ADJ
@@ -409,7 +409,7 @@ liberté	liberté	NOUN
 du	du	ADP_DET
 commerce	commerce	NOUN
 par	par	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 aux	au	ADP_DET
 monarques	monarque	NOUN
@@ -421,7 +421,7 @@ ce	ce	DET
 temps	temps	NOUN
 .	.	PUNCTsent
 ses	son	DET
-249	249	NUM
+249	249	DIGIT
 grandes	grand	ADJ
 pages	page	NOUN
 ne	ne	ADV
@@ -1102,7 +1102,7 @@ premières	premier	ADJ
 parties	partie	NOUN
 datées	dater	VERB
 de	de	ADP
-1638	1638	NUM
+1638	1638	DIGIT
 et	et	CCONJ
 qui	qui	PRON
 ne	ne	ADV
@@ -1121,7 +1121,7 @@ partie	partie	NOUN
 ,	,	PUNCTclause
 publiée	publier	VERB
 en	en	ADP
-1662	1662	NUM
+1662	1662	DIGIT
 avec	avec	ADP
 les	le	DET
 deux	deux	NUM
@@ -1147,7 +1147,7 @@ au	au	ADP_DET
 grand	grand	ADJ
 public	public	NOUN
 de	de	ADP
-1745	1745	NUM
+1745	1745	DIGIT
 une	un	DET
 œuvre	œuvre	NOUN
 fortement	fortement	ADV
@@ -1212,7 +1212,7 @@ dictées	dicter	VERB
 ,	,	PUNCTclause
 bilans	bilan	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 les	le	DET
 secrétaires	secrétaire	NOUN
 racontent	raconter	VERB
@@ -1476,13 +1476,13 @@ né	naître	VERB
 en	en	ADP
 Moravie	Moravie	PROPN
 en	en	ADP
-1592	1592	NUM
+1592	1592	DIGIT
 ,	,	PUNCTclause
 mort	mourir	VERB
 en	en	ADP
 Hollande	Hollande	PROPN
 en	en	ADP
-1670	1670	NUM
+1670	1670	DIGIT
 ,	,	PUNCTclause
 est	être	AUX
 de	de	ADP
@@ -1582,7 +1582,7 @@ Comenius	Comenius	PROPN
 à	à	ADP
 Elbing	Elbing	PROPN
 en	en	ADP
-1645	1645	NUM
+1645	1645	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -1591,7 +1591,7 @@ fut	être	AUX
 publiée	publier	VERB
 que	que	SCONJ
 en	en	ADP
-1666	1666	NUM
+1666	1666	DIGIT
 ,	,	PUNCTclause
 devait	devoir	VERB
 être	être	AUX
@@ -1913,7 +1913,7 @@ cela	cela	PRON
 se	se	PRON
 passait	passer	VERB
 en	en	ADP
-1681	1681	NUM
+1681	1681	DIGIT
 ,	,	PUNCTclause
 Louis	Louis	PROPN
 XIV	XIV	NUM
@@ -1926,7 +1926,7 @@ Penn	Penn	PROPN
 étant	être	AUX
 âgé	âgé	ADJ
 de	de	ADP
-37	37	NUM
+37	37	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -1969,9 +1969,9 @@ de	de	ADP
 gouverneur	gouverneur	NOUN
 —	—	PUNCTclause
 de	de	ADP
-1692	1692	NUM
+1692	1692	DIGIT
 à	à	ADP
-1694	1694	NUM
+1694	1694	DIGIT
 —	—	PUNCTclause
 que	que	SCONJ
 il	il	PRON
@@ -2000,7 +2000,7 @@ regagna	regagner	VERB
 l'	le	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
 en	en	ADP
-1701	1701	NUM
+1701	1701	DIGIT
 ,	,	PUNCTclause
 laissant	laisser	VERB
 à	à	ADP
@@ -2015,7 +2015,7 @@ son	son	DET
 et	et	CCONJ
 mourut	mourir	VERB
 en	en	ADP
-1718	1718	NUM
+1718	1718	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
@@ -2049,7 +2049,7 @@ la	le	DET
 grande	grand	ADJ
 alliance	alliance	NOUN
 de	de	ADP
-1689	1689	NUM
+1689	1689	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 la	le	DET
@@ -2305,7 +2305,7 @@ publié	publier	VERB
 pour	pour	ADP
 la première fois	la première fois	ADV
 en	en	ADP
-1712	1712	NUM
+1712	1712	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 il	il	PRON
@@ -2399,8 +2399,8 @@ Castel	Castel	PROPN
 de	de	ADP
 Saint-Pierre	Saint-Pierre	PROPN
 (	(	PUNCTclause
-1658	1658	NUM
--1743	-1743	NUM
+1658	1658	DIGIT
+-1743	-1743	DIGIT
 )	)	PUNCTclause
 naquit	naître	VERB
 dans	dans	ADP
@@ -2460,7 +2460,7 @@ l'	le	DET
 académie	académie	NOUN
 France	France	PROPN
 en	en	ADP
-1695	1695	NUM
+1695	1695	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 venait	venir	VERB
@@ -2497,7 +2497,7 @@ paix	paix	NOUN
 de	de	ADP
 Utrecht	Utrecht	PROPN
 (	(	PUNCTclause
-1712	1712	NUM
+1712	1712	DIGIT
 )	)	PUNCTclause
 il	il	PRON
 put	pouvoir	VERB
@@ -2518,7 +2518,7 @@ de	de	ADP
 l'	le	DET
 académie	académie	NOUN
 en	en	ADP
-1716	1716	NUM
+1716	1716	DIGIT
 pour	pour	ADP
 avoir	avoir	AUX
 critiqué	critiquer	VERB
@@ -2647,7 +2647,7 @@ de	de	ADP
 auteur	auteur	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1712	1712	NUM
+1712	1712	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 année	année	NOUN
@@ -2659,7 +2659,7 @@ une	un	DET
 version	version	NOUN
 amplifiée	amplifier	VERB
 en	en	ADP
-2	2	NUM
+2	2	DIGIT
 volumes	volume	NOUN
 ,	,	PUNCTclause
 auxquels	auxquels	ADP_PRON
@@ -2669,7 +2669,7 @@ ajoute	ajouter	VERB
 un	un	DET
 troisième	troisième	ADJ
 en	en	ADP
-1717	1717	NUM
+1717	1717	DIGIT
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -2677,7 +2677,7 @@ un	un	DET
 Abrégé	Abrégé	PROPN
 ,	,	PUNCTclause
 signé	signer	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 dédié	dédier	VERB
@@ -2690,7 +2690,7 @@ publié	publier	VERB
 à	à	ADP
 Rotterdam	Rotterdam	PROPN
 en	en	ADP
-1729	1729	NUM
+1729	1729	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 ces	ce	DET
@@ -2757,7 +2757,7 @@ principaux	principal	ADJ
 du	du	ADP_DET
 projet	projet	NOUN
 de	de	ADP
-1713	1713	NUM
+1713	1713	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 rapportons	rapporter	VERB
@@ -2782,8 +2782,8 @@ Normandie	Normandie	PROPN
 durant	durant	ADP
 l'	le	DET
 hiver	hiver	NOUN
-1706	1706	NUM
--1707	-1707	NUM
+1706	1706	DIGIT
+-1707	-1707	DIGIT
 ,	,	PUNCTclause
 sa	son	DET
 voiture	voiture	NOUN
@@ -2892,7 +2892,7 @@ fallut	falloir	VERB
 attendre	attendre	VERB
 jusque	jusque	ADP
 à	à	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 pour que	pour que	SCONJ
 un	un	DET

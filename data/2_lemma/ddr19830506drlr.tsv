@@ -16,16 +16,16 @@ libertés	liberté	NOUN
 sans	sans	ADP
 responsabilités	responsabilité	NOUN
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 mai	mai	NOUN
-1983	1983	NUM
+1983	1983	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1983	1983	NUM
+1983	1983	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -141,7 +141,7 @@ Marc	Marc	PROPN
 et	et	CCONJ
 moi-même	moi-même	PRON
 de	de	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 jusque	jusque	ADP
 à	à	ADP
 la	le	DET
@@ -861,7 +861,7 @@ l'	le	DET
 union	union	NOUN
 des	un	ADP_DET
 quelque	quelque	DET
-29	29	NUM
+29	29	DIGIT
 états-nations	État-nation	NOUN
 entre	entre	ADP
 lesquels	lesquels	PRON
@@ -970,7 +970,7 @@ les	le	DET
 discours	discours	NOUN
 de	de	ADP
 nos	nos	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1407,7 +1407,7 @@ mouvement	mouvement	NOUN
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 relativement	relativement	ADV
@@ -2543,7 +2543,7 @@ menacé	menacer	VERB
 de	de	ADP
 eutrophisation	eutrophisation	NOUN
 irréversible	irréversible	ADJ
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 quelques	quelque	DET
 années	année	NOUN
 ,	,	PUNCTclause
@@ -2841,9 +2841,9 @@ selon	selon	ADP
 lui	lui	PRON
 ,	,	PUNCTclause
 «	«	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 heures	heure	NOUN
@@ -2905,7 +2905,7 @@ et	et	CCONJ
 qui	qui	PRON
 traversent	traverser	VERB
 ensuite	ensuite	ADV
-42	42	NUM
+42	42	DIGIT
 feux	feu	NOUN
 rouges	rouge	ADJ
 pour	pour	ADP
@@ -2925,7 +2925,7 @@ le	le	DET
 lugubre	lugubre	ADJ
 isolement	isolement	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 Deux	Deux	NUM
 jours	jour	NOUN
 par	par	ADP
@@ -2946,9 +2946,9 @@ sociale	social	ADJ
 le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
-14	14	NUM
+14	14	DIGIT
 avril	avril	NOUN
-1983	1983	NUM
+1983	1983	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 or	or_CCONJ	CCONJ
@@ -3160,12 +3160,12 @@ autonomes	autonome	ADJ
 et	et	CCONJ
 semi-autonomes	semi-autonomes	ADJ
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 à	à	ADP
 statut	statut	NOUN
 spécial	spécial	ADJ
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 à	à	ADP
 statut	statut	NOUN
 ordinaire	ordinaire	ADJ
@@ -3181,7 +3181,7 @@ de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	AUX
@@ -3189,7 +3189,7 @@ fallu	falloir	VERB
 attendre	attendre	VERB
 jusque	jusque	ADP
 en	en	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 :	:	PUNCTclause
 on	on	PRON
 avait	avoir	VERB
@@ -3267,7 +3267,7 @@ jaloux	jaloux	ADJ
 :	:	PUNCTclause
 l'	le	DET
 article	article	NOUN
-5	5	NUM
+5	5	DIGIT
 de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
@@ -3444,7 +3444,7 @@ Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
 au total	au total	ADV
 ,	,	PUNCTclause
-45	45	NUM
+45	45	DIGIT
 régions	région	NOUN
 transfrontalières	transfrontalier	ADJ
 de	de	ADP
@@ -3572,7 +3572,7 @@ pays	pays	NOUN
 Pays-Bas	Pays-Bas	PROPN
 .	.	PUNCTsent
 les	le	DET
-13	13	NUM
+13	13	DIGIT
 provinces	province	NOUN
 traditionnelles	traditionnel	ADJ
 se	se	PRON
@@ -3739,7 +3739,7 @@ des	un	ADP_DET
 jacobins	jacobin	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 gouvernement	gouvernement	NOUN
@@ -3791,7 +3791,7 @@ siècle	siècle	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 en	en	ADP
-1981	1981	NUM
+1981	1981	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 gouvernement	gouvernement	NOUN

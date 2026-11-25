@@ -13,7 +13,7 @@ et	et	CCONJ
 de	de	ADP
 Nicolas de Flue	Nicolas de Flue	PROPN
 (	(	PUNCTclause
-1971	1971	NUM
+1971	1971	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -100,9 +100,9 @@ Honegger	Honegger	PROPN
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 mercredi	mercredi	NOUN
-28	28	NUM
+28	28	DIGIT
 septembre	septembre	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 au milieu de	au milieu de	ADP
 l'	le	DET
@@ -379,12 +379,12 @@ vu	voir	VERB
 les	le	DET
 plans	plan	NOUN
 :	:	PUNCTclause
-35	35	NUM
+35	35	DIGIT
 m	m	NOUN
 de	de	ADP
 large	large	NOUN
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 de	de	ADP
 profondeur	profondeur	NOUN
 ,	,	PUNCTclause
@@ -409,7 +409,7 @@ devant	devant	ADP
 une	un	DET
 salle	salle	NOUN
 de	de	ADP
-6000	6000	NUM
+6000	6000	DIGIT
 places	place	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -855,7 +855,7 @@ en plein	en plein	ADV
 gloire	gloire	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-46	46	NUM
+46	46	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -949,7 +949,7 @@ fanfare	fanfare	NOUN
 la	le	DET
 Chaux-de-Fonds	Chaux-de-Fonds	ADJ
 ,	,	PUNCTclause
-400	400	NUM
+400	400	DIGIT
 figurants	figurant	NOUN
 fournis	fournir	VERB
 par	par	ADP
@@ -1180,13 +1180,11 @@ téléphone	téléphone	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 au	au	ADP_DET
-5	5	NUM
-e	e	NOUN
-vers	vers	ADP
+5e	5e	NUMord
+vers	vers	NOUN
 ,	,	PUNCTclause
-3	3	NUM
-e	e	NOUN
-reprise	reprendre	VERB
+3e	3e	NUMord
+reprise	reprise	NOUN
 du	du	ADP_DET
 Choral	Choral	PROPN
 I	I	NUM
@@ -1318,7 +1316,7 @@ un	un	DET
 soir	soir	NOUN
 de	de	ADP
 août	août	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -1764,7 +1762,7 @@ oratorio	oratorio	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 à	à	ADP
 son	son	DET
 exécution	exécution	NOUN
@@ -1834,7 +1832,7 @@ au	au	ADP_DET
 Havre	Havre	PROPN
 :	:	PUNCTclause
 à	à	ADP
-13	13	NUM
+13	13	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -1846,7 +1844,7 @@ le	le	DET
 Calvaire	Calvaire	PROPN
 ;	;	PUNCTclause
 à	à	ADP
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -1916,12 +1914,12 @@ cantique	cantique	NOUN
 pour	pour	ADP
 Pâques	Pâques	PROPN
 dès	dès	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 psaumes	psaume	NOUN
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Symphonie	Symphonie	PROPN

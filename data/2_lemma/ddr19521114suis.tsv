@@ -19,9 +19,9 @@ de	de	ADP
 Rougemont	Rougemont	PROPN
 réagit	réagir	VERB
 (	(	PUNCTclause
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -270,7 +270,7 @@ est	être	AUX
 faite	faire	VERB
 depuis que	depuis que	SCONJ
 le	le	DET
-13	13	NUM
+13	13	DIGIT
 septembre	septembre	NOUN
 la	le	DET
 haute	haut	ADJ
@@ -377,9 +377,9 @@ le	le	DET
 discours	discours	NOUN
 prononcé	prononcer	VERB
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 octobre	octobre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 par	par	ADP
 l'	le	DET
 administrateur	administrateur	NOUN
@@ -419,7 +419,7 @@ projet	projet	NOUN
 de	de	ADP
 Briand	Briand	PROPN
 de	de	ADP
-1923	1923	NUM
+1923	1923	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 ce	ce	PRON
@@ -455,7 +455,7 @@ tenu	tenir	VERB
 la	le	DET
 Haye	Haye	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 préparé	préparer	VERB
 par	par	ADP
@@ -464,7 +464,7 @@ conférence	conférence	NOUN
 de	de	ADP
 Montreux	Montreux	PROPN
 de	de	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 .	.	PUNCTsent
 avant que	avant que	SCONJ
 l'	le	DET
@@ -505,7 +505,7 @@ de	de	ADP
 Londres	Londres	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 ainsi	ainsi	ADV
 donc	donc	ADV
@@ -556,7 +556,7 @@ attendu	attendre	VERB
 les	le	DET
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 la	le	DET
 mise en place	mise en place	NOUN
 de	de	ADP
@@ -671,7 +671,7 @@ rideau	rideau	NOUN
 nous	nous	PRON
 sommes	être	AUX
 quelque	quelque	ADV
-320	320	NUM
+320	320	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
@@ -690,7 +690,7 @@ soit	soit	CCONJ
 .	.	PUNCTsent
 mais	mais	CCONJ
 ces	ce	DET
-320	320	NUM
+320	320	DIGIT
 millions	million	NOUN
 avec	avec	ADP
 lesquels	lesquels	PRON
@@ -897,7 +897,7 @@ pays	pays	NOUN
 firent	faire	AUX
 alliance	alliance	NOUN
 en	en	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 non plus	non plus	ADV
@@ -959,7 +959,7 @@ a	avoir	AUX
 été	être	AUX
 installée	installer	VERB
 le	le	DET
-13	13	NUM
+13	13	DIGIT
 septembre	septembre	NOUN
 passé	passer	VERB
 .	.	PUNCTsent
@@ -1096,7 +1096,7 @@ an	an	NOUN
 dernier	dernier	ADJ
 que	que	SCONJ
 le	le	DET
-40	40	NUM
+40	40	DIGIT
 du	du	ADP_DET
 volume	volume	NOUN
 de	de	ADP
@@ -1134,7 +1134,7 @@ notre	notre	DET
 point de vue	point de vue	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
-40	40	NUM
+40	40	DIGIT
 est	être	VERB
 il	il	PRON
 vraiment	vraiment	ADV
@@ -1188,7 +1188,7 @@ pays	pays	NOUN
 asiatiques	asiatique	ADJ
 ,	,	PUNCTclause
 le	le	DET
-60	60	NUM
+60	60	DIGIT
 restant	restant	NOUN
 de	de	ADP
 notre	notre	DET
@@ -1953,7 +1953,7 @@ il	il	PRON
 ne	ne	ADV
 faut	falloir	VERB
 pas	pas	ADV
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 elle	elle	PRON
 nous	nous	PRON
 empêche	empêcher	VERB

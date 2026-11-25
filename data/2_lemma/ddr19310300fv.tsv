@@ -9,7 +9,7 @@
 sécularisme	sécularisme	NOUN
 (	(	PUNCTclause
 mars	mars	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -660,7 +660,7 @@ aujourd'hui	aujourd'hui	ADV
 (	(	PUNCTclause
 Freud	Freud	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1400,7 +1400,7 @@ que	que	SCONJ
 un	un	DET
 homme	homme	NOUN
 de	de	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 a	avoir	AUX
 dépassé	dépasser	VERB
 ce	ce	DET
@@ -1461,7 +1461,7 @@ dans	dans	ADP
 son	son	DET
 numéro	numéro	NOUN
 du	du	ADP_DET
-15	15	NUM
+15	15	DIGIT
 février	février	NOUN
 .	.	PUNCTsent
 M.	M.	NOUN
@@ -1590,7 +1590,7 @@ veut	vouloir	VERB
 l'	le	DET
 esprit	esprit	NOUN
 de	de	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ;	;	PUNCTclause
 et	et	CCONJ
 nous	nous	PRON
@@ -1632,7 +1632,7 @@ l'	le	DET
 esprit	esprit	NOUN
 —	—	PUNCTclause
 et	et	CCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 nous	nous	PRON
 avons	avoir	AUX
 affaire	affaire	NOUN
@@ -1829,7 +1829,7 @@ tête	tête	NOUN
 un	un	DET
 homme	homme	NOUN
 de	de	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ;	;	PUNCTclause
 et	et	CCONJ
 en même temps	en même temps	ADV
@@ -2164,7 +2164,7 @@ Malraux	Malraux	PROPN
 ,	,	PUNCTclause
 Nizan	Nizan	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 ne	ne	ADV
 laisse	laisser	VERB

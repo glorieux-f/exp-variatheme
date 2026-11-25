@@ -333,7 +333,7 @@ qui	qui	PRON
 suit	suivre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 état	état	NOUN
 économique	économique	ADJ
@@ -370,7 +370,7 @@ des	un	ADP_DET
 ,	,	PUNCTclause
 achevée	achever	VERB
 en	en	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 permis	permettre	VERB
@@ -596,7 +596,7 @@ fois	fois	NOUN
 et	et	CCONJ
 rebues	rebu	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -990,7 +990,7 @@ augmente	augmenter	VERB
 et	et	CCONJ
 permet	permettre	VERB
 au	au	ADP_DET
-premier ministre	Premier ministre	NOUN
+Premier ministre	Premier ministre	NOUN
 de	de	ADP
 parler	parler	VERB
 de	de	ADP
@@ -1399,7 +1399,7 @@ devient	devenir	VERB
 dès	dès	ADP
 l'	le	DET
 automne	automne	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 :	:	PUNCTclause
 il	il	PRON
 suffirait	suffire	VERB
@@ -1709,7 +1709,7 @@ de	de	ADP
 cap	cap	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 crise	crise	NOUN
@@ -1800,14 +1800,14 @@ grand	grand	ADJ
 essor	essor	NOUN
 à partir de	à partir de	ADP
 années	année	NOUN
-1880	1880	NUM
+1880	1880	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 se	se	PRON
 terminer	terminer	VERB
 pratiquement	pratiquement	ADV
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 avec	avec	ADP
 l'	le	DET
 invasion	invasion	NOUN
@@ -1827,7 +1827,7 @@ achevée	achever	VERB
 pour l'essentiel	pour l'essentiel	ADV
 autour de	autour de	ADP
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 en ce qui concerne	en ce qui concerne	ADP
 la	le	DET
@@ -1853,8 +1853,8 @@ Mozambique	Mozambique	PROPN
 ,	,	PUNCTclause
 Angola	Angola	PROPN
 ,	,	PUNCTclause
-1975	1975	NUM
--1976	-1976	NUM
+1975	1975	DIGIT
+-1976	-1976	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ayant	avoir	AUX
@@ -2004,8 +2004,8 @@ sont	être	AUX
 les	le	DET
 événements	événement	NOUN
 de	de	ADP
-1973	1973	NUM
--1975	-1975	NUM
+1973	1973	DIGIT
+-1975	-1975	DIGIT
 qui	qui	PRON
 ont	avoir	AUX
 déclaré	déclarer	VERB
@@ -2121,7 +2121,7 @@ radioactifs	radioactif	ADJ
 à	à	ADP
 refroidir	refroidir	VERB
 pendant	pendant	ADP
-100000	100000	NUM
+100000	100000	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 ou bien	ou bien	CCONJ
@@ -2512,9 +2512,9 @@ la	le	DET
 		TOKEN
 :	:	PUNCTclause
 de	de	ADP
-7	7	NUM
+7	7	DIGIT
 à	à	ADP
-8	8	NUM
+8	8	DIGIT
 par	par	ADP
 an	an	NOUN
 ,	,	PUNCTclause
@@ -2527,21 +2527,21 @@ pointes	pointe	NOUN
 pour	pour	ADP
 certains	certain	DET
 de	de	ADP
-13,7	13,7	NUM
+13,7	13,7	DIGIT
 ,	,	PUNCTclause
 voire	voire	CCONJ
 de	de	ADP
-15,9	15,9	NUM
+15,9	15,9	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 des	un	DET
 minima	minima	NOUN
 de	de	ADP
-3,1	3,1	NUM
+3,1	3,1	DIGIT
 ,	,	PUNCTclause
 voire	voire	CCONJ
 de	de	ADP
-2,1	2,1	NUM
+2,1	2,1	DIGIT
 pour	pour	ADP
 d'autres	d'autre	PRON
 .	.	PUNCTsent
@@ -2555,7 +2555,7 @@ suffiront	suffire	VERB
 ici	ici	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-6,1	6,1	NUM
+6,1	6,1	DIGIT
 millions	million	NOUN
 de	de	ADP
 demandes	demande	NOUN
@@ -2568,13 +2568,13 @@ les	le	DET
 Neuf	Neuf	PROPN
 à la fin	à la fin	ADV
 de	de	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 ,	,	PUNCTclause
 contre	contre	ADP
-2,65	2,65	NUM
+2,65	2,65	DIGIT
 millions	million	NOUN
 en	en	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -2714,7 +2714,7 @@ permettre	permettre	VERB
 une	un	DET
 réduction	réduction	NOUN
 de	de	ADP
-70	70	NUM
+70	70	DIGIT
 de	de	ADP
 l'	le	DET
 emploi	emploi	NOUN
@@ -2738,9 +2738,9 @@ grave	grave	ADJ
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 de	de	ADP
-1952	1952	NUM
+1952	1952	DIGIT
 à	à	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 nombre	nombre	NOUN
@@ -2757,7 +2757,7 @@ se	se	PRON
 est	être	AUX
 accru	accroître	VERB
 de	de	ADP
-150	150	NUM
+150	150	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 celui	celui	PRON
@@ -2766,9 +2766,9 @@ ouvriers	ouvrier	NOUN
 a	avoir	AUX
 diminué	diminuer	VERB
 de	de	ADP
-28	28	NUM
+28	28	DIGIT
 à	à	ADP
-6	6	NUM
+6	6	DIGIT
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -2811,7 +2811,7 @@ dans	dans	ADP
 les	le	DET
 postes	poste	NOUN
 ,	,	PUNCTclause
-150000	150000	NUM
+150000	150000	DIGIT
 emplois	emploi	NOUN
 sont	être	AUX
 mis	mettre	VERB
@@ -2846,7 +2846,7 @@ chaque	chaque	DET
 nouvelle	nouveau	ADJ
 centrale nucléaire	centrale nucléaire	NOUN
 produisant	produire	VERB
-1000	1000	NUM
+1000	1000	DIGIT
 		TOKEN
 rendrait	rendre	VERB
 possible	possible	ADJ
@@ -2862,7 +2862,7 @@ de	de	ADP
 un	un	DET
 minimum	minimum	NOUN
 de	de	ADP
-4000	4000	NUM
+4000	4000	DIGIT
 emplois	emploi	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -3502,7 +3502,7 @@ progrès	progrès	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 solutions	solution	NOUN
 possibles	possible	ADJ
@@ -3689,7 +3689,7 @@ illimitée	illimité	ADJ
 et	et	CCONJ
 dans	dans	ADP
 les mêmes	les mêmes	PRON
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 national	national	ADJ
 où	où	PRON
 ces	ce	DET
@@ -4453,7 +4453,7 @@ décisif	décisif	ADJ
 pour	pour	ADP
 la	le	DET
 survie	survie	NOUN
-à terme	à terme	ADP
+à terme	à terme	ADV
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -4578,7 +4578,7 @@ conséquences	conséquence	NOUN
 immédiates	immédiat	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 pas	pas	ADV
 de	de	ADP
@@ -4645,7 +4645,7 @@ la	le	DET
 terre	terre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 pas	pas	ADV
 de	de	ADP
@@ -4987,7 +4987,7 @@ pourraient	pouvoir	VERB
 être	être	AUX
 accomplies	accomplir	VERB
 par	par	ADP
-15	15	NUM
+15	15	DIGIT
 des	un	ADP_DET
 forces	force	NOUN
 de	de	ADP
@@ -5060,7 +5060,7 @@ monde	monde	NOUN
 se	se	PRON
 accroît	accroître	VERB
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 par	par	ADP
 minute	minute	NOUN
 .	.	PUNCTsent
@@ -5612,7 +5612,7 @@ la	le	DET
 production	production	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
-350	350	NUM
+350	350	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN

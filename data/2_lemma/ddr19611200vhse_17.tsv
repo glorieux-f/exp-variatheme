@@ -6,7 +6,7 @@
 # title = 1. Perspectives élargies
 
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 perspectives	perspective	NOUN
 élargies	élargir	VERB
@@ -20,8 +20,8 @@ Wilhelm	Wilhelm	PROPN
 von	von	X
 Leibniz	Leibniz	PROPN
 (	(	PUNCTclause
-1646	1646	NUM
--1716	-1716	NUM
+1646	1646	DIGIT
+-1716	-1716	DIGIT
 )	)	PUNCTclause
 fut	être	AUX
 mathématicien	mathématicien	NOUN
@@ -334,7 +334,7 @@ Europe	Europe	PROPN
 que	que	SCONJ
 il	il	PRON
 a	avoir	AUX
-traités	traiter	VERB
+traités	traité	NOUN
 dans	dans	ADP
 sa	son	DET
 correspondance	correspondance	NOUN
@@ -354,7 +354,7 @@ monde	monde	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1670	1670	NUM
+1670	1670	DIGIT
 ,	,	PUNCTclause
 déjà	déjà	ADV
 ,	,	PUNCTclause
@@ -455,7 +455,7 @@ entre-temps	entre-temps	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1676	1676	NUM
+1676	1676	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 paix	paix	NOUN
@@ -592,7 +592,9 @@ Leibniz	Leibniz	PROPN
 commente	commenter	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 abbé	abbé	NOUN
 de	de	ADP
@@ -619,7 +621,7 @@ l'	le	DET
 abbé	abbé	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1715	1715	NUM
+1715	1715	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Leibniz	Leibniz	PROPN
@@ -823,16 +825,16 @@ Miguel	Miguel	PROPN
 de	de	ADP
 Cervantès	Cervantès	PROPN
 (	(	PUNCTclause
-1547	1547	NUM
--1616	-1616	NUM
+1547	1547	DIGIT
+-1616	-1616	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Balthazar	Balthazar	PROPN
 Gracian	Gracian	PROPN
 (	(	PUNCTclause
-1601	1601	NUM
--1658	-1658	NUM
+1601	1601	DIGIT
+-1658	-1658	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 célèbre	célèbre	ADJ
@@ -849,7 +851,7 @@ cour	cour	NOUN
 Montesquieu	Montesquieu	PROPN
 (	(	PUNCTclause
 vers	vers	ADP
-1730	1730	NUM
+1730	1730	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -857,8 +859,8 @@ Carl	Carl	PROPN
 von	von	X
 Linné	Linné	PROPN
 (	(	PUNCTclause
-1707	1707	NUM
--1778	-1778	NUM
+1707	1707	DIGIT
+-1778	-1778	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 le	le	DET
@@ -888,7 +890,7 @@ Moreri	Moreri	PROPN
 ,	,	PUNCTclause
 publié	publier	VERB
 en	en	ADP
-1674	1674	NUM
+1674	1674	DIGIT
 ,	,	PUNCTclause
 donne	donner	VERB
 une	un	DET
@@ -1174,7 +1176,7 @@ et	et	CCONJ
 son	son	DET
 espoir	espoir	NOUN
 du	du	ADP_DET
-grands dieux	grands dieux	NOUN
+grands dieux	grands dieux	INTJ
 ,	,	PUNCTclause
 Montesquieu	Montesquieu	PROPN
 et	et	CCONJ
@@ -1246,12 +1248,12 @@ naquit	naître	VERB
 à	à	ADP
 Naples	Naples	PROPN
 en	en	ADP
-1668	1668	NUM
+1668	1668	DIGIT
 et	et	CCONJ
 y	y	PRON
 mourut	mourir	VERB
 en	en	ADP
-1744	1744	NUM
+1744	1744	DIGIT
 .	.	PUNCTsent
 esprit	esprit	NOUN
 sublime	sublime	ADJ

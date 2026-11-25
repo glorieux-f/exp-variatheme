@@ -16,8 +16,8 @@ objectifs	objectif	NOUN
 du	du	ADP_DET
 		TOKEN
 (	(	PUNCTclause
-1959	1959	NUM
--1960	-1960	NUM
+1959	1959	DIGIT
+-1960	-1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -75,7 +75,7 @@ légitimes	légitime	ADJ
 ce	ce	PRON
 sera	être	AUX
 définir	définir	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 raison d'être	raison d'être	NOUN
 de	de	ADP
@@ -419,7 +419,7 @@ propagandes	propagande	NOUN
 de	de	ADP
 guerre	guerre	NOUN
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -554,7 +554,7 @@ qui	qui	PRON
 représente	représenter	VERB
 à peine	à peine	ADV
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 du	du	ADP_DET
@@ -649,7 +649,7 @@ Europe	Europe	PROPN
 ce	ce	PRON
 est	être	AUX
 très	très	ADV
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 plus	plus	ADV
 une	un	DET
 culture	culture	NOUN
@@ -1001,7 +1001,7 @@ service	service	NOUN
 conscients	conscient	NOUN
 de	de	ADP
 servir	servir	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 cause	cause	NOUN
 de	de	ADP
@@ -1736,7 +1736,7 @@ Cinq	Cinq	NUM
 ans	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
-1955	1955	NUM
+1955	1955	DIGIT
 :	:	PUNCTclause
 l'	le	DET
 idée	idée	NOUN
@@ -1870,9 +1870,9 @@ impose	imposer	VERB
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 années	année	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 à	à	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 voient	voir	VERB
 donc	donc	ADV
 apparaître	apparaître	VERB
@@ -2002,7 +2002,7 @@ la	le	DET
 culture	culture	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 faut	falloir	VERB
 il	il	PRON
@@ -2051,7 +2051,7 @@ insistance	insistance	NOUN
 croissante	croissant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 regroupement	regroupement	NOUN
 des	un	ADP_DET
@@ -2229,7 +2229,7 @@ les	le	DET
 faits	fait	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 recherches	recherche	NOUN
 à	à	ADP
@@ -2479,7 +2479,7 @@ maintenant	maintenant	ADV
 promouvoir	promouvoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 relations	relation	NOUN
 culturelles	culturel	ADJ

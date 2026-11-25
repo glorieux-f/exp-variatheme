@@ -11,7 +11,7 @@ alley	alley	X
 of	of	X
 Europe	Europe	X
 (	(	PUNCTclause
-1941	1941	NUM
+1941	1941	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -85,7 +85,7 @@ Sudètes	Sudètes	PROPN
 ,	,	PUNCTclause
 Dantzig	Dantzig	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 et	et	CCONJ
 le	le	DET
@@ -106,7 +106,7 @@ blé	blé	NOUN
 ,	,	PUNCTclause
 colonies	colonie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 la	le	DET
@@ -678,7 +678,7 @@ ou	ou	CCONJ
 occupés	occuper	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 Hitler	Hitler	PROPN
 .	.	PUNCTsent
@@ -948,7 +948,7 @@ avait	avoir	AUX
 prophétisé	prophétiser	VERB
 :	:	PUNCTclause
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
 je	je	PRON
 entrerai	entrer	VERB
@@ -960,7 +960,7 @@ y	y	PRON
 est	être	AUX
 entré	entrer	VERB
 le	le	DET
-14	14	NUM
+14	14	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ce	ce	PRON
@@ -1159,7 +1159,7 @@ navigue	naviguer	VERB
 elle	elle	PRON
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 Churchill	Churchill	PROPN
 .	.	PUNCTsent
@@ -1443,7 +1443,7 @@ l	l	DET
 ordre	ordre	NOUN
 »	»	PUNCTclause
 de	de	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 ils	ils	PRON
@@ -1473,7 +1473,7 @@ augmenté	augmenter	VERB
 chez	chez	ADP
 vous	vous	PRON
 de	de	ADP
-42	42	NUM
+42	42	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
@@ -1542,7 +1542,7 @@ paix	paix	NOUN
 réelle	réel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 peuples	peuple	NOUN
@@ -1882,7 +1882,7 @@ du	du	ADP_DET
 futur	futur	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 peuples	peuple	NOUN
@@ -1914,7 +1914,7 @@ politique	politique	ADJ
 internationale	international	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV

@@ -15,9 +15,9 @@ et	et	CCONJ
 sa	son	DET
 réalité	réalité	NOUN
 (	(	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 août	août	NOUN
-1954	1954	NUM
+1954	1954	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -109,7 +109,7 @@ lire	lire	VERB
 ce	ce	DET
 texte	texte	NOUN
 de	de	ADP
-96	96	NUM
+96	96	DIGIT
 pages	page	NOUN
 ,	,	PUNCTclause
 plus	plus	ADV
@@ -233,7 +233,7 @@ rédigé	rédiger	VERB
 ,	,	PUNCTclause
 au début	au début	ADV
 de	de	ADP
-1952	1952	NUM
+1952	1952	DIGIT
 ?	?	PUNCTsent
 en présence de	en présence de	ADP
 l'	le	DET
@@ -242,7 +242,7 @@ URSS	URSS	PROPN
 disposant	disposer	VERB
 de plus	de plus	ADV
 de	de	ADP
-200	200	NUM
+200	200	DIGIT
 divisions	division	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -539,14 +539,14 @@ traité	traité	NOUN
 fut	être	AUX
 signé	signer	VERB
 le	le	DET
-27	27	NUM
+27	27	DIGIT
 mai	mai	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 par	par	ADP
 les	le	DET
 ministres	ministre	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 des	un	ADP_DET
 six	six	NUM
 pays	pays	NOUN
@@ -672,7 +672,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
-132	132	NUM
+132	132	DIGIT
 articles	article	NOUN
 du	du	ADP_DET
 traité	traité	NOUN
@@ -887,7 +887,7 @@ uniforme	uniforme	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
 mais	mais	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 déjà	déjà	ADV
 le	le	DET
 cas	cas	NOUN
@@ -1020,7 +1020,7 @@ comme	comme	SCONJ
 un	un	DET
 commissariat	commissariat	NOUN
 de	de	ADP
-9	9	NUM
+9	9	DIGIT
 membres	membre	NOUN
 ,	,	PUNCTclause
 sorte	sorte	NOUN
@@ -1349,7 +1349,7 @@ prévu	prévoir	VERB
 par	par	ADP
 les	le	DET
 articles	article	NOUN
-10	10	NUM
+10	10	DIGIT
 et	et	CCONJ
 suivants	suivant	ADJ
 ,	,	PUNCTclause
@@ -1535,7 +1535,7 @@ traité	traité	NOUN
 si	si	SCONJ
 vraiment	vraiment	ADV
 ce	ce	PRON
-traité	traiter	VERB
+traité	traité	NOUN
 signifie	signifier	VERB
 la	le	DET
 disparition	disparition	NOUN

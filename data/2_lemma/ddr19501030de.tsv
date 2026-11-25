@@ -18,9 +18,9 @@ Suisse	Suisse	PROPN
 I	I	NUM
 )	)	PUNCTclause
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 octobre	octobre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -167,7 +167,7 @@ Russie	Russie	PROPN
 ne	ne	ADV
 y	y	PRON
 croient	croire	VERB
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 ils	ils	PRON
 ne	ne	ADV
 croient	croire	VERB
@@ -522,7 +522,7 @@ il y a	il y a	VERB
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 .	.	PUNCTsent
 ce	ce	DET
 pacte	pacte	NOUN
@@ -621,7 +621,7 @@ des	un	ADP_DET
 confédérés	confédéré	NOUN
 apparaît	apparaître	VERB
 vers	vers	ADP
-1648	1648	NUM
+1648	1648	DIGIT
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 la	le	DET
@@ -686,7 +686,7 @@ ne	ne	ADV
 est	être	AUX
 que	que	ADV
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 que	que	SCONJ
 la	le	DET
 neutralité	neutralité	NOUN
@@ -751,7 +751,7 @@ entière	entier	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 retrouve	retrouver	VERB
@@ -825,7 +825,7 @@ mais	mais	CCONJ
 déjà	déjà	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 question	question	NOUN
@@ -915,7 +915,7 @@ Italie	Italie	PROPN
 ,	,	PUNCTclause
 comme	comme	ADP
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ;	;	PUNCTclause
 ni	ni	CCONJ
 même	même	ADV
@@ -926,9 +926,9 @@ d'autres	d'autre	PRON
 Europe	Europe	PROPN
 comme	comme	SCONJ
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 à	à	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 ne	ne	ADV

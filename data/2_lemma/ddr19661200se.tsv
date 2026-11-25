@@ -11,9 +11,9 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 (	(	PUNCTclause
-1966	1966	NUM
+1966	1966	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -79,7 +79,7 @@ la	le	DET
 région	région	NOUN
 Europe	Europe	PROPN
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 :	:	PUNCTclause
 elle	elle	PRON
 ne	ne	ADV
@@ -217,7 +217,7 @@ vivement	vivement	ADV
 que	que	SCONJ
 jamais	jamais	ADV
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 d'une part	d'une part	ADV
@@ -258,10 +258,9 @@ de	de	ADP
 exister	exister	VERB
 dès	dès	ADP
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 juillet	juillet	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 .	.	PUNCTsent
 la	le	DET
 question	question	NOUN
@@ -279,7 +278,7 @@ union	union	NOUN
 politique	politique	ADJ
 ,	,	PUNCTclause
 redevenait	redevenir	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 très	très	ADV
 actuelle	actuel	ADJ
 .	.	PUNCTsent
@@ -505,7 +504,7 @@ que	que	SCONJ
 trop	trop	ADV
 vrai	vrai	ADJ
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 l'	le_PRON	PRON
@@ -556,7 +555,7 @@ est	être	AUX
 fait	faire	AUX
 sentir	sentir	VERB
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 ne	ne	ADV
 se	se	PRON
 est	être	AUX
@@ -696,10 +695,10 @@ une	un	DET
 brûlante	brûlant	ADJ
 actualité	actualité	NOUN
 au cours de	au cours de	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 sauver	sauver	VERB
 l'	le	DET
@@ -1046,7 +1045,7 @@ leur	leur	DET
 nation	nation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 renouer	renouer	VERB
 avec	avec	ADP
@@ -1070,7 +1069,7 @@ Haye	Haye	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 fédéralisme	fédéralisme	NOUN
@@ -1226,7 +1225,7 @@ pourtant	pourtant	ADV
 ,	,	PUNCTclause
 l'	le	DET
 année	année	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 a	avoir	AUX
 vu	voir	VERB
 se	se	PRON
@@ -1509,7 +1508,7 @@ elle	elle	PRON
 existe	exister	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 éviter	éviter	VERB
 la	le	DET
@@ -1727,7 +1726,7 @@ on	on	PRON
 aura	avoir	AUX
 vu	voir	VERB
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 des	un	ADP_DET
 organes	organe	NOUN
 aussi	aussi	ADV
@@ -1827,7 +1826,7 @@ subvention	subvention	NOUN
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 Europe	Europe	PROPN
 de	de	ADP
@@ -1871,7 +1870,7 @@ sur	sur	ADP
 pieds	pied	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 combler	combler	VERB
 le	le	DET
@@ -1900,7 +1899,7 @@ ne	ne	ADV
 fournissent	fournir	VERB
 guère	guère	ADV
 plus de	plus de	DET
-5	5	NUM
+5	5	DIGIT
 de	de	ADP
 la	le	DET
 production	production	NOUN
@@ -1934,14 +1933,14 @@ de	de	ADP
 l'	le	DET
 industrie	industrie	NOUN
 :	:	PUNCTclause
-33	33	NUM
+33	33	DIGIT
 du	du	ADP_DET
 marché	marché	NOUN
 de	de	ADP
 l'	le	DET
 automobile	automobile	NOUN
 ,	,	PUNCTclause
-40	40	NUM
+40	40	DIGIT
 du	du	ADP_DET
 pétrole	pétrole	NOUN
 en	en	ADP
@@ -1950,7 +1949,7 @@ et	et	CCONJ
 en	en	ADP
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
-75	75	NUM
+75	75	DIGIT
 des	un	ADP_DET
 machines	machine	NOUN
 électriques	électrique	ADJ
@@ -2175,7 +2174,7 @@ Wilson	Wilson	PROPN
 a	avoir	AUX
 proposé	proposer	VERB
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 la	le	DET
 création	création	NOUN
 de	de	ADP
@@ -2223,7 +2222,7 @@ pas	pas	ADV
 encore	encore	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 aider	aider	VERB
 le	le	DET
@@ -2366,7 +2365,7 @@ durant	durant	ADP
 toute	tout	ADJ
 l'	le	DET
 année	année	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 appauvrissement	appauvrissement	NOUN
@@ -2472,10 +2471,10 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 qui	qui	PRON
 ont	avoir	AUX
 jeté	jeter	VERB
@@ -2625,7 +2624,7 @@ Ouest	Ouest	PROPN
 additionnés	additionner	VERB
 .	.	PUNCTsent
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 Marché commun	Marché commun	PROPN
@@ -2766,7 +2765,7 @@ qui	qui	PRON
 est	être	AUX
 apparue	apparaître	VERB
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -3043,7 +3042,7 @@ Europe	Europe	PROPN
 politique	politique	ADJ
 »	»	PUNCTclause
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 a	avoir	AUX
@@ -3099,12 +3098,12 @@ a	avoir	AUX
 marqué	marquer	VERB
 l'	le	DET
 année	année	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 .	.	PUNCTsent
 les	le	DET
 déclarations	déclaration	NOUN
 du	du	ADP_DET
-premier ministre	Premier ministre	NOUN
+Premier ministre	Premier ministre	NOUN
 et	et	CCONJ
 ses	son	DET
 premiers	premier	ADJ
@@ -3306,7 +3305,7 @@ a	avoir	AUX
 marqué	marquer	VERB
 l'	le	DET
 année	année	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 .	.	PUNCTsent
 personne	personne_PRON	PRON
 ne	ne	ADV

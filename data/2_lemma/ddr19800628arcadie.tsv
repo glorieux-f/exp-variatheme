@@ -12,9 +12,9 @@ et	et	CCONJ
 l'	le	DET
 environnement	environnement	NOUN
 (	(	PUNCTclause
-28	28	NUM
+28	28	DIGIT
 juin	juin	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -41,9 +41,9 @@ tenu	tenir	VERB
 son	son	DET
 assemblée générale	assemblée générale	NOUN
 le	le	DET
-28	28	NUM
+28	28	DIGIT
 juin	juin	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 à	à	ADP
 Lausanne	Lausanne	PROPN
 ;	;	PUNCTclause
@@ -381,7 +381,7 @@ universel	universel	ADJ
 par	par	ADP
 satellites	satellite	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 cette	ce	DET
 civilisation	civilisation	NOUN
@@ -439,9 +439,9 @@ vingtaine	vingtaine	NOUN
 de	de	ADP
 mégalopoles	mégalopole	NOUN
 de	de	ADP
-4	4	NUM
+4	4	DIGIT
 à	à	ADP
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -510,7 +510,7 @@ ont	avoir	AUX
 été	être	AUX
 épuisés	épuiser	VERB
 en	en	ADP
-80	80	NUM
+80	80	DIGIT
 ans	an	NOUN
 par	par	ADP
 seulement	seulement	ADV
@@ -546,7 +546,7 @@ qui	qui	PRON
 ont	avoir	AUX
 fait	faire	VERB
 environ	environ	ADV
-40	40	NUM
+40	40	DIGIT
 millions	million	NOUN
 de	de	ADP
 morts	mort	NOUN
@@ -572,14 +572,14 @@ ne	ne	ADV
 tuèrent	tuer	VERB
 guère	guère	ADV
 plus de	plus de	DET
-2000	2000	NUM
+2000	2000	DIGIT
 hommes	homme	NOUN
 pour	pour	ADP
 la première	la première	PRON
 ,	,	PUNCTclause
 ni	ni	CCONJ
 plus de	plus de	DET
-80000	80000	NUM
+80000	80000	DIGIT
 pour	pour	ADP
 la	le	DET
 dernière	dernier	ADJ
@@ -629,7 +629,7 @@ la	le	DET
 lune	lune	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-80	80	NUM
+80	80	DIGIT
 millions	million	NOUN
 de	de	ADP
 le	le	DET
@@ -674,7 +674,7 @@ ne	ne	ADV
 saurait	savoir	VERB
 tromper	tromper	VERB
 :	:	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 millions	million	NOUN
 de	de	ADP
 enfants	enfant	NOUN
@@ -682,7 +682,7 @@ morts	mort	ADJ
 de	de	ADP
 faim	faim	NOUN
 en	en	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 .	.	PUNCTsent
 progrès	progrès	NOUN
 .	.	PUNCTsent
@@ -715,11 +715,11 @@ ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
 dépassé	dépasser	VERB
-400	400	NUM
+400	400	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 en	en	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -758,7 +758,7 @@ je	je	PRON
 sais	savoir	VERB
 bien que	bien que	SCONJ
 nos	nos	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 hommes	homme	NOUN
 politiques	politique	ADJ
@@ -935,7 +935,7 @@ des	un	DET
 centaines	centaine	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 cancer	cancer	NOUN
@@ -951,9 +951,9 @@ reconnu	reconnaître	VERB
 comme	comme	ADP
 résultant	résulter	VERB
 pour	pour	ADP
-60	60	NUM
+60	60	DIGIT
 à	à	ADP
-90	90	NUM
+90	90	DIGIT
 de	de	ADP
 notre	notre	DET
 environnement	environnement	NOUN
@@ -996,7 +996,7 @@ toutes	tout	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 perte	perte	NOUN
@@ -1093,7 +1093,7 @@ notre	notre	DET
 génération	génération	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 pénurie	pénurie	NOUN
@@ -1220,7 +1220,7 @@ la	le	DET
 mer	mer	NOUN
 du	du	ADP_DET
 Nord	Nord	PROPN
-60000	60000	NUM
+60000	60000	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 déchets	déchet	NOUN
@@ -1228,7 +1228,7 @@ par	par	ADP
 jour	jour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 les	le	DET
 produits	produit	NOUN
@@ -1271,7 +1271,7 @@ mortalité	mortalité	NOUN
 infantile	infantile	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 extinction	extinction	NOUN
@@ -1301,7 +1301,7 @@ hannetons	hanneton	NOUN
 ,	,	PUNCTclause
 papillons	papillon	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 la	le	DET
 péninsule	péninsule	NOUN
 Ibérique	Ibérique	PROPN
@@ -1336,15 +1336,15 @@ de	de	ADP
 extinction	extinction	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 les	le	DET
 mégalopoles	mégalopole	NOUN
 invivables	invivable	ADJ
 de	de	ADP
-4	4	NUM
+4	4	DIGIT
 à	à	ADP
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1380,7 +1380,7 @@ embouteillages	embouteillage	NOUN
 publicités	publicité	NOUN
 lumineuses	lumineux	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1720,7 +1720,7 @@ de	de	ADP
 littoraux	littoral	NOUN
 déjà	déjà	ADV
 fortement	fortement	ADV
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 sont	être	AUX
 tels	tel	PRON
 que	que	SCONJ
@@ -2025,7 +2025,7 @@ pour	pour	ADP
 réalisables	réalisable	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 commission	commission	NOUN
@@ -2124,10 +2124,10 @@ la	le	DET
 faune	faune	NOUN
 marine	marin	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 lutte	lutte	NOUN
@@ -2172,7 +2172,7 @@ monde	monde	NOUN
 occidental	occidental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 protection	protection	NOUN
@@ -2197,7 +2197,7 @@ engrais	engrais	NOUN
 azotés	azoté	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 contrôle	contrôle	NOUN
@@ -2218,9 +2218,9 @@ des	un	ADP_DET
 produits	produit	NOUN
 alimentaires	alimentaire	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 abandon	abandon	NOUN
@@ -2296,7 +2296,7 @@ assurer	assurer	VERB
 cette	ce	DET
 gestion	gestion	NOUN
 pendant	pendant	ADP
-240000	240000	NUM
+240000	240000	DIGIT
 ans	an	NOUN
 :	:	PUNCTclause
 aucune	aucun	DET
@@ -2306,11 +2306,11 @@ ne	ne	ADV
 a	avoir	AUX
 duré	durer	VERB
 plus de	plus de	DET
-4000	4000	NUM
+4000	4000	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 arrêt	arrêt	NOUN
@@ -2355,7 +2355,7 @@ les	le	DET
 humains	humain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 le	le	DET
 sauvetage	sauvetage	NOUN
@@ -2373,9 +2373,9 @@ tigres	tigre	NOUN
 ,	,	PUNCTclause
 ocelots	ocelot	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 menacés	menacer	VERB
 de	de	ADP
@@ -2386,7 +2386,7 @@ jamais	jamais	ADV
 irréparable	irréparable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 arrêt	arrêt	NOUN
@@ -2395,7 +2395,7 @@ bétonnage	bétonnage	NOUN
 des	un	ADP_DET
 campagnes	campagne	NOUN
 :	:	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 du	du	ADP_DET
 sol	sol	NOUN
 des	un	ADP_DET
@@ -2407,7 +2407,7 @@ bétonné	bétonner	VERB
 et	et	CCONJ
 ce	ce	PRON
 sera	être	AUX
-25	25	NUM
+25	25	DIGIT
 avant	avant	ADP
 la	le	DET
 fin	fin	NOUN
@@ -2574,7 +2574,7 @@ et	et	CCONJ
 des	un	ADP_DET
 monuments	monument	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 b	b	NOUN
 )	)	PUNCTclause
@@ -2924,8 +2924,8 @@ IV	IV	NUM
 un	un	DET
 dernier	dernier	ADJ
 mot	mot	NOUN
-au sujet de	au sujet de	ADP
-Léman	Léman	NOUN
+au sujet de	au sujet de	PUNCT
+Léman	Léman	X
 ,	,	PUNCTclause
 héros	héros	NOUN
 si	si	SCONJ

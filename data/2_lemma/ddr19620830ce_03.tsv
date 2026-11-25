@@ -423,9 +423,9 @@ dernière	dernier	ADJ
 guerre	guerre	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1944	1944	NUM
+1944	1944	DIGIT
 et	et	CCONJ
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 des	un	DET
 géographes	géographe	NOUN
@@ -477,10 +477,10 @@ Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 publiés	publier	VERB
 dès	dès	ADP
-1906	1906	NUM
+1906	1906	DIGIT
 et	et	CCONJ
 en	en	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 voici	voici	ADP
@@ -520,14 +520,14 @@ trouve	trouver	VERB
 contenir	contenir	VERB
 à la fois	à la fois	ADV
 le	le	DET
-94	94	NUM
+94	94	DIGIT
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
 actuelle	actuel	ADJ
 et	et	CCONJ
 le	le	DET
-98	98	NUM
+98	98	DIGIT
 de	de	ADP
 la	le	DET
 production	production	NOUN
@@ -561,11 +561,11 @@ ne	ne	ADV
 contient	contenir	VERB
 donc	donc	ADV
 que	que	ADV
-6	6	NUM
+6	6	DIGIT
 des	un	ADP_DET
 habitants	habitant	NOUN
 et	et	CCONJ
-2	2	NUM
+2	2	DIGIT
 de	de	ADP
 la	le	DET
 production	production	NOUN
@@ -679,8 +679,8 @@ pourrait	pouvoir	VERB
 observer	observer	VERB
 pratiquement	pratiquement	ADV
 les	le	DET
-19	19	NUM
-20	20	NUM
+19	19	DIGIT
+20	20	DIGIT
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -1233,9 +1233,9 @@ sol	sol	NOUN
 première	premier	ADJ
 étape	étape	NOUN
 de	de	ADP
-200000	200000	NUM
+200000	200000	DIGIT
 à	à	ADP
-100000	100000	NUM
+100000	100000	DIGIT
 m	m	NOUN
 de	de	ADP
 altitude	altitude	NOUN
@@ -1390,7 +1390,7 @@ plus	plus	ADV
 longues	long	ADJ
 côtes	côte	NOUN
 (	(	PUNCTclause
-7000	7000	NUM
+7000	7000	DIGIT
 km	km	NOUN
 de plus	de plus	ADV
 que	que	SCONJ
@@ -1482,7 +1482,7 @@ prises	priser	VERB
 une	un	DET
 altitude	altitude	NOUN
 de	de	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 m	m	NOUN
 au-dessus de	au-dessus de	ADP
 Middle West	Middle West	PROPN
@@ -2936,9 +2936,9 @@ rédige	rédiger	VERB
 seul	seul	ADJ
 ,	,	PUNCTclause
 de	de	ADP
-1704	1704	NUM
+1704	1704	DIGIT
 à	à	ADP
-1713	1713	NUM
+1713	1713	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 ce	ce	PRON
@@ -3912,7 +3912,7 @@ la	le	DET
 discipline	discipline	NOUN
 sociale	social	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 prétend	prétendre	VERB
 se	se	PRON
@@ -4386,9 +4386,9 @@ rurale	rural	ADJ
 moyenne	moyen	ADJ
 ,	,	PUNCTclause
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 à	à	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 habitants	habitant	NOUN
 .	.	PUNCTsent
 l'	le	DET
@@ -5474,7 +5474,7 @@ Europe	Europe	PROPN
 ce	ce	PRON
 est	être	AUX
 très	très	ADV
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 plus	plus	ADV
 une	un	DET
 culture	culture	NOUN
@@ -6451,7 +6451,7 @@ absurdité	absurdité	NOUN
 de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 la	le	DET
 notion	notion	NOUN
 de	de	ADP

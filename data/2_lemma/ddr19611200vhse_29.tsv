@@ -6,7 +6,7 @@
 # title = "2. Un idéal de compensation : les États-Unis d’Europe"
 
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 un	un	DET
 idéal	idéal	NOUN
@@ -50,7 +50,7 @@ banquets	banquet	NOUN
 qui	qui	PRON
 préluda	préluder	VERB
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 à	à	ADP
 la	le	DET
 révolution	révolution	NOUN
@@ -66,9 +66,9 @@ du	du	ADP_DET
 moniteur	moniteur	NOUN
 daté	dater	VERB
 du	du	ADP_DET
-26	26	NUM
+26	26	DIGIT
 février	février	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 ?	?	PUNCTsent
 les	le	DET
 historiens	historien	NOUN
@@ -276,8 +276,8 @@ autrement	autrement	ADV
 Carlo	Carlo	PROPN
 Cattaneo	Cattaneo	PROPN
 (	(	PUNCTclause
-1801	1801	NUM
--1869	-1869	NUM
+1801	1801	DIGIT
+-1869	-1869	DIGIT
 )	)	PUNCTclause
 philosophe	philosophe	NOUN
 ,	,	PUNCTclause
@@ -299,7 +299,7 @@ insurgés	insurgé	NOUN
 milanais	milanais	ADJ
 de	de	ADP
 mars	mars	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 a	avoir	AUX
@@ -545,8 +545,8 @@ Cattaneo	Cattaneo	PROPN
 Giuseppe	Giuseppe	PROPN
 Mazzini	Mazzini	PROPN
 (	(	PUNCTclause
-1807	1807	NUM
--1872	-1872	NUM
+1807	1807	DIGIT
+-1872	-1872	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 le	le	DET
@@ -737,7 +737,7 @@ le	le	DET
 fait	fait	NOUN
 rencontrer	rencontrer	VERB
 en	en	ADP
-1871	1871	NUM
+1871	1871	DIGIT
 au	au	ADP_DET
 sommet	sommet	NOUN
 du	du	ADP_DET
@@ -927,7 +927,7 @@ ce	ce	PRON
 document	document	NOUN
 date	dater	VERB
 de	de	ADP
-1834	1834	NUM
+1834	1834	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 porte	porter	VERB
@@ -1048,7 +1048,7 @@ tout	tout	PRON
 l'	le	DET
 espoir	espoir	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 est	est	NOUN
 dans	dans	ADP
 ce	ce	DET
@@ -1114,7 +1114,7 @@ idéaux	idéal	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1850	1850	NUM
+1850	1850	DIGIT
 ,	,	PUNCTclause
 réfugié	réfugier	VERB
 à	à	ADP
@@ -1277,7 +1277,7 @@ congrès	congrès	NOUN
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1867	1867	NUM
+1867	1867	DIGIT
 ;	;	PUNCTclause
 et	et	CCONJ
 enfin	enfin	ADV
@@ -1301,8 +1301,8 @@ acclamations	acclamation	NOUN
 Victor	Victor	PROPN
 Hugo	Hugo	PROPN
 (	(	PUNCTclause
-1802	1802	NUM
--1885	-1885	NUM
+1802	1802	DIGIT
+-1885	-1885	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 ce	ce	DET
@@ -1329,9 +1329,9 @@ dans	dans	ADP
 son	son	DET
 discours	discours	NOUN
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 juillet	juillet	NOUN
-1851	1851	NUM
+1851	1851	DIGIT
 à	à	ADP
 l'	le	DET
 Assemblée	Assemblée	PROPN
@@ -1373,9 +1373,9 @@ procès-verbal	procès-verbal	NOUN
 mais	mais	CCONJ
 déjà	déjà	ADV
 le	le	DET
-21	21	NUM
+21	21	DIGIT
 août	août	NOUN
-1849	1849	NUM
+1849	1849	DIGIT
 ,	,	PUNCTclause
 Hugo	Hugo	PROPN
 ,	,	PUNCTclause
@@ -1450,7 +1450,7 @@ unie	unir	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1872	1872	NUM
+1872	1872	DIGIT
 ,	,	PUNCTclause
 Hugo	Hugo	PROPN
 ne	ne	ADV
@@ -1490,7 +1490,7 @@ Europe	Europe	PROPN
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1870	1870	NUM
+1870	1870	DIGIT
 a	avoir	AUX
 remis	remettre	VERB
 la	le	DET
@@ -1615,8 +1615,8 @@ avenir	avenir	NOUN
 Pierre-Joseph	Pierre-Joseph	PROPN
 Proudhon	Proudhon	PROPN
 (	(	PUNCTclause
-1809	1809	NUM
--1865	-1865	NUM
+1809	1809	DIGIT
+-1865	-1865	DIGIT
 )	)	PUNCTclause
 a	avoir	AUX
 pu	pouvoir	VERB
@@ -1663,7 +1663,7 @@ l'	le	DET
 avantage	avantage	NOUN
 de	de	ADP
 avoir	avoir	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 le	le	DET
 sujet	sujet	NOUN
 de	de	ADP
@@ -1992,7 +1992,7 @@ citer	citer	VERB
 ici	ici	ADV
 :	:	PUNCTclause
 en	en	ADP
-1878	1878	NUM
+1878	1878	DIGIT
 celui	celui	PRON
 du	du	ADP_DET
 Suisse	Suisse	PROPN
@@ -2010,7 +2010,7 @@ de	de	ADP
 Europe	Europe	PROPN
 et	et	CCONJ
 en	en	ADP
-1879	1879	NUM
+1879	1879	DIGIT
 celui	celui	PRON
 de	de	ADP
 l'	le	DET
@@ -2091,8 +2091,8 @@ Johann	Johann	PROPN
 Caspar	Caspar	PROPN
 Bluntschli	Bluntschli	PROPN
 (	(	PUNCTclause
-1808	1808	NUM
--1881	-1881	NUM
+1808	1808	DIGIT
+-1881	-1881	DIGIT
 )	)	PUNCTclause
 avait	avoir	AUX
 été	être	AUX
@@ -2175,7 +2175,7 @@ tout	tout	DET
 l'	le	DET
 élan	élan	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 concevoir	concevoir	VERB
@@ -2292,7 +2292,7 @@ par	par	ADP
 les	le	DET
 prophètes	prophète	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 évoque	évoquer	VERB
 l'	le	DET
@@ -2437,8 +2437,8 @@ helvétique	helvétique	ADJ
 Constantin	Constantin	PROPN
 Frantz	Frantz	PROPN
 (	(	PUNCTclause
-1817	1817	NUM
--1891	-1891	NUM
+1817	1817	DIGIT
+-1891	-1891	DIGIT
 )	)	PUNCTclause
 philosophe	philosophe	NOUN
 politique	politique	ADJ

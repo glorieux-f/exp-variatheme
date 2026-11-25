@@ -12,7 +12,7 @@ des	un	ADP_DET
 officiers	officier	NOUN
 en	en	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 :	:	PUNCTclause
 journal	journal	NOUN
 de	de	ADP
@@ -20,15 +20,15 @@ un	un	DET
 témoin	témoin	NOUN
 III	III	NUM
 (	(	PUNCTclause
-26	26	NUM
+26	26	DIGIT
 juin	juin	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Réunion	Réunion	PROPN
 avec	avec	ADP
@@ -44,8 +44,7 @@ préparer	préparer	VERB
 le	le	DET
 message	message	NOUN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
 du	du	ADP_DET
 général	général	NOUN
@@ -132,7 +131,7 @@ pensée	pensée	NOUN
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 juillet	juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 rédige	rédiger	VERB
@@ -301,9 +300,9 @@ notre	notre	DET
 tour	tour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-25	25	NUM
+25	25	DIGIT
 juillet	juillet	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
 a	avoir	AUX
@@ -339,10 +338,9 @@ la	le	DET
 population	population	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	ADP
+1er	1er	NUMord
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 section	section	NOUN
@@ -379,7 +377,7 @@ pages	page	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mi-août	mi-août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Réunion	Réunion	PROPN
 du	du	ADP_DET
@@ -509,7 +507,7 @@ marchait	marcher	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 à	à	ADP
-6	6	NUM
+6	6	DIGIT
 heures	heure	NOUN
 ce	ce	DET
 matin	matin	NOUN
@@ -636,7 +634,7 @@ persona grata	persona grata	ADJ
 pourtant	pourtant	ADV
 ,	,	PUNCTclause
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 juillet	juillet	NOUN
 ,	,	PUNCTclause
 Pro	Pro	PROPN
@@ -666,7 +664,7 @@ quatre	quatre	NUM
 sujets	sujet	NOUN
 suivants	suivant	ADJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 les	le	DET
 causes	cause	NOUN
@@ -675,7 +673,7 @@ du	du	ADP_DET
 drame	drame	NOUN
 Europe	Europe	PROPN
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 la	le	DET
 mission	mission	NOUN
@@ -684,12 +682,12 @@ de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 )	)	PUNCTclause
 le	le	DET
 fédéralisme	fédéralisme	NOUN
 ;	;	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 )	)	PUNCTclause
 le	le	DET
 théâtre	théâtre	NOUN
@@ -699,7 +697,7 @@ Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-27	27	NUM
+27	27	DIGIT
 juillet	juillet	NOUN
 ,	,	PUNCTclause
 une	un	DET
@@ -753,9 +751,9 @@ indiqués	indiquer	VERB
 sous	sous	ADP
 les	le	DET
 chiffres	chiffre	NOUN
-1	1	NUM
+1	1	DIGIT
 à	à	ADP
-3	3	NUM
+3	3	DIGIT
 devraient	devoir	VERB
 ,	,	PUNCTclause
 par conséquent	par conséquent	ADV
@@ -1082,7 +1080,7 @@ mois	mois	NOUN
 de	de	ADP
 août	août	NOUN
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 estimais	estimer	VERB
@@ -1286,11 +1284,11 @@ les mêmes	les mêmes	PRON
 sens	sentir	VERB
 .	.	PUNCTsent
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 août	août	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-7	7	NUM
+7	7	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
@@ -1369,7 +1367,7 @@ des	un	ADP_DET
 Alliés	Alliés	PROPN
 en	en	ADP
 mai	mai	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 le	le	DET
@@ -1396,7 +1394,7 @@ relèverai	relever	VERB
 maintenant	maintenant	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 «	«	PUNCTclause
@@ -1557,7 +1555,7 @@ sa	son	DET
 table	table	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 est	être	AUX
@@ -1607,7 +1605,7 @@ ligue	ligue	NOUN
 civile	civil	ADJ
 de	de	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 avec	avec	ADP
 ce	ce	DET
 que	que	SCONJ
@@ -1663,7 +1661,7 @@ durant	durant	ADP
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 l'un	l'un	PRON
 de	de	ADP
@@ -1750,10 +1748,10 @@ crise	crise	NOUN
 de	de	ADP
 l'	le	DET
 été	été	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 absence	absence	NOUN
@@ -1825,7 +1823,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 fut	être	AUX

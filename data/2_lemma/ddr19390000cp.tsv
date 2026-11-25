@@ -12,7 +12,7 @@ la	le	DET
 réforme	réforme	NOUN
 (	(	PUNCTclause
 août	août	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1495,7 +1495,7 @@ enveniment	envenimer	VERB
 en	en	ADP
 l'	le	DET
 année	année	NOUN
-1486	1486	NUM
+1486	1486	DIGIT
 ,	,	PUNCTclause
 quinze	quinze	NUM
 assemblées	assemblée	NOUN
@@ -2534,7 +2534,7 @@ les	le	DET
 mœurs	mœurs	NOUN
 ecclésiastiques	ecclésiastique	ADJ
 sont	être	AUX
-choses	choser	VERB
+choses	chose	NOUN
 si	si	SCONJ
 courantes	courant	ADJ
 au	au	ADP_DET
@@ -3583,7 +3583,7 @@ trois	trois	NUM
 rubriques	rubrique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 chroniques	chronique	ADJ
 .	.	PUNCTsent
@@ -3649,7 +3649,7 @@ un	un	DET
 ouvrage	ouvrage	NOUN
 daté	dater	VERB
 de	de	ADP
-1522	1522	NUM
+1522	1522	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 nous	nous	PRON
@@ -3665,7 +3665,7 @@ réforme	réforme	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 en	en	ADP
-1529	1529	NUM
+1529	1529	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 protestant	protestant	ADJ
@@ -3693,7 +3693,7 @@ il	il	PRON
 est	être	AUX
 suivi	suivre	VERB
 en	en	ADP
-1546	1546	NUM
+1546	1546	DIGIT
 par	par	ADP
 Stumpff	Stumpff	PROPN
 ,	,	PUNCTclause
@@ -3701,7 +3701,7 @@ protestant	protestant	ADJ
 zurichois	zurichois	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1556	1556	NUM
+1556	1556	DIGIT
 ,	,	PUNCTclause
 Matthias	Matthias	PROPN
 Flacius	Flacius	PROPN
@@ -3760,7 +3760,7 @@ ses	son	DET
 erreurs	erreur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 sermons	sermon	NOUN
 et	et	CCONJ
@@ -3770,7 +3770,7 @@ réformateurs	réformateur	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
 en	en	PRON
-1523	1523	NUM
+1523	1523	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 Zwingli	Zwingli	PROPN
@@ -3794,7 +3794,7 @@ bergers	berger	NOUN
 .	.	PUNCTsent
 puis	puis	CCONJ
 en	en	ADP
-1524	1524	NUM
+1524	1524	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 rappelle	rappeler	VERB
@@ -3877,9 +3877,9 @@ leur	leur	DET
 religion	religion	NOUN
 .	.	PUNCTsent
 de	de	ADP
-1526	1526	NUM
+1526	1526	DIGIT
 à	à	ADP
-1574	1574	NUM
+1574	1574	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 trouvons	trouver	VERB
@@ -3893,7 +3893,7 @@ dans	dans	ADP
 les	le	DET
 sermons	sermon	NOUN
 et	et	CCONJ
-traités	traiter	VERB
+traités	traité	NOUN
 de	de	ADP
 Bullinger	Bullinger	PROPN
 (	(	PUNCTclause
@@ -3938,7 +3938,7 @@ Coire	Coire	PROPN
 ajoutons	ajouter	VERB
 que	que	SCONJ
 en	en	ADP
-1585	1585	NUM
+1585	1585	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 délégation	délégation	NOUN
@@ -3990,9 +3990,9 @@ des	un	DET
 protestants	protestant	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1531	1531	NUM
+1531	1531	DIGIT
 et	et	CCONJ
-1546	1546	NUM
+1546	1546	DIGIT
 ,	,	PUNCTclause
 bien	bien	ADV
 avant de	avant de	ADP
@@ -4009,10 +4009,10 @@ les	le	DET
 catholiques	catholique	NOUN
 ,	,	PUNCTclause
 à partir de	à partir de	ADP
-1569	1569	NUM
+1569	1569	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 satires	satire	NOUN
 et	et	CCONJ
@@ -4029,7 +4029,7 @@ satire	satire	NOUN
 catholique	catholique	ADJ
 date	dater	VERB
 de	de	ADP
-1522	1522	NUM
+1522	1522	DIGIT
 .	.	PUNCTsent
 chose	chose	NOUN
 curieuse	curieux	ADJ
@@ -4130,7 +4130,7 @@ ne	ne	ADV
 point	point	ADV
 innover	innover	VERB
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 par contre	par contre	ADV
 ,	,	PUNCTclause
@@ -4138,7 +4138,7 @@ un	un	DET
 Narrenspiel	Narrenspiel	PROPN
 zwinglien	zwinglien	ADJ
 de	de	ADP
-1526	1526	NUM
+1526	1526	DIGIT
 et	et	CCONJ
 une	un	DET
 satire	satire	NOUN
@@ -4150,7 +4150,7 @@ de	de	ADP
 Jakob	Jakob	PROPN
 Ruf	Ruf	PROPN
 (	(	PUNCTclause
-1538	1538	NUM
+1538	1538	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 exploitent	exploiter	VERB
@@ -4192,7 +4192,7 @@ Autriche	Autriche	PROPN
 fit	faire	AUX
 rechercher	rechercher	VERB
 en	en	ADP
-1570	1570	NUM
+1570	1570	DIGIT
 dans	dans	ADP
 toutes	tout	ADJ
 les	le	DET
@@ -4248,7 +4248,7 @@ jouer	jouer	VERB
 Bâle	Bâle	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1550	1550	NUM
+1550	1550	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 protestant	protestant	ADJ
@@ -4329,7 +4329,7 @@ il y a	il y a	VERB
 selon	selon	ADP
 Dürrer	Dürrer	PROPN
 ,	,	PUNCTclause
-149	149	NUM
+149	149	DIGIT
 rôles	rôle	NOUN
 parlants	parlant	ADJ
 ,	,	PUNCTclause
@@ -4349,7 +4349,7 @@ ne	ne	ADV
 est	être	AUX
 que	que	ADV
 en	en	ADP
-1586	1586	NUM
+1586	1586	DIGIT
 que	que	SCONJ
 les	le	DET
 catholiques	catholique	NOUN
@@ -4517,7 +4517,7 @@ parole	parole	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 à partir de	à partir de	ADP
-1536	1536	NUM
+1536	1536	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 catholiques	catholique	NOUN

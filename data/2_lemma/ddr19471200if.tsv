@@ -10,7 +10,7 @@ idées	idée	NOUN
 France	France	PROPN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -859,7 +859,7 @@ tout	tout	DET
 ne	ne	ADV
 représente	représenter	VERB
 que	que	ADV
-40	40	NUM
+40	40	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1093,8 +1093,8 @@ pensée	pensée	NOUN
 autrui	autrui	PRON
 sans	sans	ADP
 livrer	livrer	VERB
-du même coup	du même coup	ADP
-des	un	DET
+du même coup	du même coup	ADV
+des	un	ADP_DET
 aveux	aveu	NOUN
 importuns	importun	ADJ
 .	.	PUNCTsent

@@ -14,7 +14,7 @@ Jean	Jean	PROPN
 Giono	Giono	PROPN
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -33,7 +33,7 @@ entreprises	entreprise	NOUN
 de	de	ADP
 démoralisation	démoralisation	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 parce que	parce que	SCONJ
 ils	ils	PRON
@@ -59,7 +59,7 @@ la	le	DET
 chose	chose	NOUN
 littéraire	littéraire	ADJ
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 parce que	parce que	SCONJ
 ils	ils	PRON
@@ -90,7 +90,7 @@ littérature	littérature	NOUN
 de	de	ADP
 Prisunic	Prisunic	PROPN
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 parce que	parce que	SCONJ
 ils	ils	PRON
@@ -187,7 +187,7 @@ a	avoir	AUX
 publié	publier	VERB
 ,	,	PUNCTclause
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 août	août	NOUN
 ,	,	PUNCTclause
 une	un	DET
@@ -1039,7 +1039,7 @@ occuper	occuper	VERB
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 kilomètres	mètre	NOUN
 de	de	ADP
 mon	mon	DET
@@ -1278,7 +1278,7 @@ des	un	DET
 livres	livre	NOUN
 gais	gai	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ce	ce	PRON
 est	être	VERB
 ,	,	PUNCTclause

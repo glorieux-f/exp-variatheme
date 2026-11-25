@@ -48,7 +48,7 @@ me	me	PRON
 chargé	charger	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 composer	composer	VERB
@@ -376,7 +376,9 @@ que	que	PRON
 Ramuz	Ramuz	PROPN
 me	me	PRON
 écrivait	écrire	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 dont	dont	PRON
@@ -1124,7 +1126,7 @@ nous	nous	PRON
 devons	devoir	VERB
 être	être	AUX
 au maximum	au maximum	ADV
-200	200	NUM
+200	200	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -1133,13 +1135,13 @@ les	le	DET
 doivent	devoir	VERB
 être	être	AUX
 au moins	au moins	ADV
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 et	et	CCONJ
 les	le	DET
 Russie	Russie	PROPN
 plus de	plus de	DET
-400	400	NUM
+400	400	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 un	un	DET
@@ -1171,7 +1173,7 @@ rideau	rideau	NOUN
 de	de	ADP
 fer	fer	NOUN
 ,	,	PUNCTclause
-340	340	NUM
+340	340	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 si	si	SCONJ
@@ -1186,7 +1188,7 @@ ferait	faire	VERB
 un	un	DET
 total	total	NOUN
 de	de	ADP
-440	440	NUM
+440	440	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1225,7 +1227,7 @@ provisoirement	provisoirement	ADV
 ce	ce	DET
 chiffre	chiffre	NOUN
 de	de	ADP
-340	340	NUM
+340	340	DIGIT
 millions	million	NOUN
 équivaut	équivaloir	VERB
 presque	presque	ADV
@@ -1571,7 +1573,7 @@ de	de	ADP
 organisation	organisation	NOUN
 sociale	social	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 jeu	jeu	NOUN
@@ -3517,7 +3519,7 @@ de	de	ADP
 l'	le	DET
 état	état	NOUN
 depuis	depuis	ADP
-1539	1539	NUM
+1539	1539	DIGIT
 seulement	seulement	ADV
 ,	,	PUNCTclause
 par	par	ADP
@@ -3525,8 +3527,7 @@ un	un	DET
 décret	décret	NOUN
 de	de	ADP
 français	français	NOUN
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 ;	;	PUNCTclause
 mais	mais	CCONJ
 on	on	PRON
@@ -6157,7 +6158,7 @@ ces	ce	DET
 jours	jour	NOUN
 équivalant	équivaloir	VERB
 à	à	ADP
-4320	4320	NUM
+4320	4320	DIGIT
 millions	million	NOUN
 de	de	ADP
 années	année	NOUN
@@ -6167,7 +6168,7 @@ or	or	NOUN
 un	un	DET
 Brahma	Brahma	PROPN
 vit	vivre	VERB
-249	249	NUM
+249	249	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 années	année	NOUN

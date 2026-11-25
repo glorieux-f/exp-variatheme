@@ -6,7 +6,7 @@
 # title = 1979 (Iran, Three Mile Island, Cambodge…) (2 janvier 1980)
 
 ↵↵	↵↵	PUNCTstruct
-1979	1979	NUM
+1979	1979	DIGIT
 (	(	PUNCTclause
 Iran	Iran	PROPN
 ,	,	PUNCTclause
@@ -18,9 +18,9 @@ Cambodge	Cambodge	PROPN
 …	…	PUNCTsent
 )	)	PUNCTclause
 (	(	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 janvier	janvier	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -574,7 +574,7 @@ qui	qui	PRON
 eut	avoir	AUX
 pu	pouvoir	VERB
 faire	faire	VERB
-100000	100000	NUM
+100000	100000	DIGIT
 morts	mort	NOUN
 mais	mais	CCONJ
 ne	ne	ADV
@@ -711,7 +711,7 @@ de	de	ADP
 foules	foule	NOUN
 fanatisées	fanatiser	VERB
 »	»	PUNCTclause
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 défilés	défiler	VERB
 monstres	monstre	ADJ
 dans	dans	ADP
@@ -897,7 +897,7 @@ par	par	ADP
 les	le	DET
 intellectuels	intellectuel	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 événements	événement	NOUN
@@ -974,7 +974,7 @@ empereur	empereur	NOUN
 sitôt que	sitôt que	SCONJ
 il	il	PRON
 a	avoir	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 avec	avec	ADP
 le	le	DET
 «	«	PUNCTclause
@@ -1097,7 +1097,7 @@ se	se	PRON
 passe	passer	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1158,7 +1158,7 @@ tout	tout	PRON
 cela	cela	PRON
 :	:	PUNCTclause
 les	le	DET
-22	22	NUM
+22	22	DIGIT
 démocraties	démocratie	NOUN
 que	que	SCONJ
 compte	compter	VERB

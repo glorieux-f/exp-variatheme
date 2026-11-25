@@ -13,7 +13,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -63,7 +63,7 @@ mois	mois	NOUN
 de	de	ADP
 juillet	juillet	NOUN
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 ne	ne	ADV
@@ -1612,7 +1612,7 @@ il	il	PRON
 faut	falloir	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 elles	elles	PRON
@@ -1631,7 +1631,7 @@ l'	le	DET
 église	église	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 elles	elles	PRON
@@ -1648,7 +1648,7 @@ missionnaire	missionnaire	ADJ
 pays	pays	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 que	que	SCONJ
 elles	elles	PRON
@@ -1892,7 +1892,7 @@ deux	deux	NUM
 formules	formule	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 le	le	DET
 service	service	NOUN
@@ -1937,7 +1937,7 @@ ordre	ordre	NOUN
 politique	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 le	le	DET
 service	service	NOUN
@@ -3672,7 +3672,7 @@ dire	dire	VERB
 .	.	PUNCTsent
 je	je	PRON
 suis	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 les	le	DET
 écouter	écouter	VERB
 avec	avec	ADP

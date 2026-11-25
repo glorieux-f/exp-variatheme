@@ -6,7 +6,7 @@
 # title = 4. Un « Essai sur l’avenir » en 1948
 
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 un	un	DET
 «	«	PUNCTclause
@@ -16,7 +16,7 @@ l'	le	DET
 avenir	avenir	NOUN
 »	»	PUNCTclause
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au lendemain de	au lendemain de	ADP
@@ -82,7 +82,7 @@ Callenbach	Callenbach	PROPN
 ,	,	PUNCTclause
 Nijkerk	Nijkerk	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 parabole	parabole	NOUN
@@ -465,7 +465,7 @@ les	le	DET
 explosions	explosion	NOUN
 cosmiques	cosmique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 liberté	liberté	NOUN
 à	à	ADP
 vous	vous	PRON
@@ -825,7 +825,7 @@ organisé	organisé	ADJ
 et	et	CCONJ
 le	le	DET
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 son	son	DET
 succès	succès	NOUN
 que	que	PRON
@@ -993,7 +993,7 @@ trois	trois	NUM
 exemples	exemple	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 science	science	NOUN
@@ -1002,7 +1002,7 @@ toujours	toujours	ADV
 raison	raison	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 bonheur	bonheur	NOUN
@@ -1016,7 +1016,7 @@ objets	objet	NOUN
 neufs	neuf	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 aller	aller	VERB
 plus	plus	ADV
@@ -1443,7 +1443,7 @@ guère	guère	ADV
 moins de	moins de	DET
 temps	temps	NOUN
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 que	que	SCONJ
 à l'époque	à l'époque	ADV
 de	de	ADP
@@ -1468,7 +1468,7 @@ devises	devise	NOUN
 ,	,	PUNCTclause
 affidavits	affidavit	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 la	le	DET
 passion	passion	NOUN
@@ -1848,7 +1848,7 @@ dès lors	dès lors	ADV
 imaginables	imaginable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 poursuivons	poursuivre	VERB
@@ -2049,7 +2049,7 @@ civilisation	civilisation	NOUN
 imprévisible	imprévisible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 répondons	répondre	VERB
@@ -2607,7 +2607,7 @@ aventure	aventure	NOUN
 spirituelle	spirituel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 anesthésie	anesthésie	NOUN
@@ -2704,7 +2704,7 @@ et	et	CCONJ
 mondiale	mondial	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 l'	le	DET

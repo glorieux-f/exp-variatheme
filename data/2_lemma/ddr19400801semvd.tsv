@@ -12,10 +12,9 @@ de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-1	1	NUM
-er	er	ADP
+1er	1er	NUMord
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -144,8 +143,7 @@ voici	voici	ADP
 le	le	DET
 message	message	NOUN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
 de	de	ADP
 cette	ce	DET
@@ -350,7 +348,7 @@ division	division	NOUN
 cuirassée	cuirassé	ADJ
 »	»	PUNCTclause
 de	de	ADP
-8000	8000	NUM
+8000	8000	DIGIT
 cavaliers	cavalier	NOUN
 réputés	réputer	VERB
 invincibles	invincible	ADJ
@@ -396,7 +394,7 @@ a	avoir	AUX
 succombé	succomber	VERB
 :	:	PUNCTclause
 en	en	ADP
-1798	1798	NUM
+1798	1798	DIGIT
 .	.	PUNCTsent
 les	le	DET
 causes	cause	NOUN
@@ -518,7 +516,7 @@ sage	sage	ADJ
 Napoléon	Napoléon	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1802	1802	NUM
+1802	1802	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 l'	le	DET

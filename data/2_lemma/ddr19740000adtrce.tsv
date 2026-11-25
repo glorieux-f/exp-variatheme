@@ -14,9 +14,9 @@ des	un	ADP_DET
 valeurs	valeur	NOUN
 Europe	Europe	X
 (	(	PUNCTclause
-19	19	NUM
+19	19	DIGIT
 septembre	septembre	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1301,8 +1301,8 @@ reste	rester	VERB
 je	je	PRON
 l'	le	DET
 intitulerais	intituler	NOUN
-pour ma part	pour ma part	ADP
-rapport	rapport	NOUN
+pour ma part	pour ma part	ADV
+rapport	rapport	VERB
 sur	sur	ADP
 la	le	DET
 dégradation	dégradation	NOUN
@@ -1367,7 +1367,7 @@ droit	droit	ADJ
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 décrirait	décrire	VERB
@@ -1588,7 +1588,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 :	:	PUNCTclause
 que	que	PRON
 faisons	faire	VERB
@@ -1819,7 +1819,7 @@ il	il	PRON
 se	se	PRON
 voie	voir	VERB
 pour autant	pour autant	ADV
-traité	traiter	VERB
+traité	traité	NOUN
 de	de	ADP
 «	«	PUNCTclause
 fauteur	fauteur	NOUN
@@ -2083,7 +2083,7 @@ ce	ce	DET
 que	que	SCONJ
 l'on	on	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 sacrifier	sacrifier	VERB
 et	et	CCONJ
 quelles	quel	DET
@@ -2308,7 +2308,7 @@ une	un	DET
 production	production	NOUN
 multipliée	multiplier	VERB
 par	par	ADP
-16384	16384	NUM
+16384	16384	DIGIT
 en	en	ADP
 un peu	un peu	ADV
 moins d'une	moins d'une	DET
@@ -2320,7 +2320,7 @@ pure	pur	ADJ
 et	et	CCONJ
 cela	cela	PRON
 grâce à	grâce à	ADP
-24000	24000	NUM
+24000	24000	DIGIT
 centrale nucléaire	centrale nucléaire	NOUN
 nécessaires	nécessaire	ADJ
 à la fin	à la fin	ADV
@@ -2661,12 +2661,12 @@ conciles	concile	NOUN
 de	de	ADP
 Nicée	Nicée	PROPN
 en	en	ADP
-325	325	NUM
+325	325	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Chalcédoine	Chalcédoine	PROPN
 en	en	ADP
-451	451	NUM
+451	451	DIGIT
 ,	,	PUNCTclause
 époque	époque	NOUN
 où	où	PRON
@@ -5354,7 +5354,7 @@ chose	chose	NOUN
 qui	qui	PRON
 se	se	PRON
 lamente	lamenter	VERB
-12	12	NUM
+12	12	DIGIT
 heures	heure	NOUN
 par	par	ADP
 jour	jour	NOUN
@@ -5480,7 +5480,7 @@ pas	pas	ADV
 en	en	ADP
 contradiction	contradiction	NOUN
 —	—	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 l'	le	DET
 église	église	NOUN
 et	et	CCONJ

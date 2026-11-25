@@ -15,7 +15,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -900,7 +900,7 @@ nombre de	nombre de	DET
 thèmes	thème	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 il	il	PRON
 ne	ne	ADV
@@ -986,7 +986,7 @@ bref	bref	ADJ
 délai	délai	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 il	il	PRON
 ne	ne	ADV
@@ -1109,7 +1109,7 @@ réalité	réalité	NOUN
 quotidienne	quotidien	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 il	il	PRON
 ne	ne	ADV
@@ -1726,9 +1726,9 @@ de	de	ADP
 petits	petit	ADJ
 plans	plan	NOUN
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 ou	ou	CCONJ
-6	6	NUM
+6	6	DIGIT
 pages	page	NOUN
 ,	,	PUNCTclause
 englobant	englober	VERB
@@ -1792,9 +1792,9 @@ nous	nous	PRON
 avons	avoir	AUX
 pu	pouvoir	VERB
 mettre en circulation	mettre en circulation	VERB
-22	22	NUM
+22	22	DIGIT
 ou	ou	CCONJ
-23	23	NUM
+23	23	DIGIT
 de	de	ADP
 ces	ce	DET
 plans	plan	NOUN
@@ -2103,7 +2103,7 @@ groupent	grouper	VERB
 ,	,	PUNCTclause
 à l'heure actuelle	à l'heure actuelle	ADV
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 des	un	ADP_DET
 plus	plus	ADV
 grands	grand	ADJ

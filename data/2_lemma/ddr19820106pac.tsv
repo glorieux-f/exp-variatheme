@@ -8,9 +8,9 @@
 ↵↵	↵↵	PUNCTstruct
 pacifisme	pacifisme	NOUN
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 janvier	janvier	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -26,7 +26,7 @@ Hughes	Hughes	PROPN
 Sélection	Sélection	PROPN
 ,	,	PUNCTclause
 janvier	janvier	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -213,7 +213,7 @@ que	que	SCONJ
 face	face	NOUN
 aux	au	ADP_DET
 		TOKEN
-20	20	NUM
+20	20	DIGIT
 et	et	CCONJ
 aux	au	ADP_DET
 milliers	millier	NOUN
@@ -303,9 +303,9 @@ France	France	PROPN
 ces	ce	DET
 histoires	histoire	NOUN
 de	de	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 contre	contre	ADP
-7000	7000	NUM
+7000	7000	DIGIT
 missiles	missile	NOUN
 (	(	PUNCTclause
 que	que	PRON
@@ -320,7 +320,7 @@ l'	le	DET
 sont	être	AUX
 aberrantes	aberrant	ADJ
 :	:	PUNCTclause
-50	50	NUM
+50	50	DIGIT
 missiles	missile	NOUN
 de	de	ADP
 la	le	DET
@@ -355,7 +355,7 @@ guerre	guerre	NOUN
 possible	possible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 réalités	réalité	NOUN
 politiques	politique	ADJ
@@ -614,8 +614,8 @@ Azerbaïdjan	Azerbaïdjan	PROPN
 ,	,	PUNCTclause
 Tadjikistan	Tadjikistan	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-Afghanistan	Afghanistan	PROPN
+etc.	etc.	X
+Afghanistan	Afghanistan	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -658,7 +658,7 @@ l'	le	DET
 mondiale	mondial	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 réalités	réalité	NOUN
 économiques	économique	ADJ
@@ -717,7 +717,7 @@ stratégiques	stratégique	ADJ
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 réalités	réalité	NOUN
 militaires	militaire	ADJ
@@ -795,7 +795,7 @@ portant	porter	VERB
 les	le	DET
 Russie	Russie	PROPN
 en	en	ADP
-48	48	NUM
+48	48	DIGIT
 heures	heure	NOUN
 sur	sur	ADP
 le	le	DET
@@ -815,7 +815,7 @@ réaction	réaction	NOUN
 États-Unis	États-Unis	PROPN
 possible	possible	ADJ
 avant	avant	ADP
-48	48	NUM
+48	48	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 donc	donc	ADV
@@ -872,7 +872,7 @@ de	de	ADP
 répondre	répondre	VERB
 par	par	ADP
 		TOKEN
-20	20	NUM
+20	20	DIGIT
 .	.	PUNCTsent
 destruction	destruction	NOUN
 totale	total	ADJ
@@ -884,7 +884,7 @@ l'	le	DET
 ouest	ouest	NOUN
 par	par	ADP
 		TOKEN
-20	20	NUM
+20	20	DIGIT
 ,	,	PUNCTclause
 destruction	destruction	NOUN
 de	de	ADP
@@ -922,7 +922,7 @@ détruite	détruire	VERB
 par	par	ADP
 les	le	DET
 		TOKEN
-20	20	NUM
+20	20	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 les	le	DET
@@ -1279,7 +1279,7 @@ victoire	victoire	NOUN
 le	le	DET
 pacifisme	pacifisme	NOUN
 en	en	ADP
-1982	1982	NUM
+1982	1982	DIGIT
 consiste	consister	VERB
 donc	donc	ADV
 pour	pour	ADP

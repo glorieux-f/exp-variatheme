@@ -15,7 +15,7 @@ de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
 hiver	hiver	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -79,10 +79,9 @@ se	se	PRON
 est	être	AUX
 effectuée	effectuer	VERB
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 juillet	juillet	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -267,9 +266,9 @@ de	de	ADP
 Grande-Bretagne	Grande-Bretagne	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 à	à	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
@@ -1039,7 +1038,7 @@ annonce	annoncer	VERB
 le	le	DET
 Figaro	Figaro	PROPN
 du	du	ADP_DET
-6	6	NUM
+6	6	DIGIT
 novembre	novembre	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -1492,7 +1491,7 @@ habitants	habitant	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-35	35	NUM
+35	35	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1813,7 +1812,7 @@ propos	propos	NOUN
 de	de	ADP
 l'	le	DET
 ancien	ancien	ADJ
-premier ministre	Premier ministre	NOUN
+Premier ministre	Premier ministre	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -2408,7 +2407,7 @@ monde	monde	NOUN
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 même	même	ADV
@@ -2436,7 +2435,7 @@ France	France	PROPN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 importe	importer	VERB
 véritablement	véritablement	ADV
 :	:	PUNCTclause
@@ -2802,7 +2801,7 @@ la	le	DET
 force	force	NOUN
 ,	,	PUNCTclause
 dès	dès	ADP
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 unité	unité	NOUN
@@ -2892,7 +2891,7 @@ ses	son	DET
 provinces	province	NOUN
 ,	,	PUNCTclause
 dès	dès	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -3012,7 +3011,7 @@ Occitanie	Occitanie	PROPN
 la	le	DET
 Provence	Provence	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 Debré	Debré	PROPN
 et	et	CCONJ
@@ -3066,14 +3065,14 @@ changent	changer	VERB
 tout	tout	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 traité	traité	NOUN
 de	de	ADP
 Union	Union	PROPN
 de	de	ADP
-1532	1532	NUM
+1532	1532	DIGIT
 entre	entre	ADP
 le	le	DET
 Duché	Duché	PROPN
@@ -3121,15 +3120,15 @@ fédéralisme	fédéralisme	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 lors de	lors de	ADP
 la	le	DET
 nuit	nuit	NOUN
 du	du	ADP_DET
-4	4	NUM
+4	4	DIGIT
 août	août	NOUN
-1789	1789	NUM
+1789	1789	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 députés	député	NOUN

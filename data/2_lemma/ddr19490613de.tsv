@@ -12,16 +12,16 @@ Europe	Europe	PROPN
 !	!	PUNCTsent
 —	—	PUNCTclause
 Suisse	Suisse	PROPN
-1848	1848	NUM
+1848	1848	DIGIT
 -Europe	-Europe	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 (	(	PUNCTclause
 II	II	NUM
 )	)	PUNCTclause
 (	(	PUNCTclause
-13	13	NUM
+13	13	DIGIT
 juin	juin	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -45,7 +45,7 @@ temps	temps	NOUN
 ,	,	PUNCTclause
 divisée	diviser	VERB
 en	en	ADP
-24	24	NUM
+24	24	DIGIT
 nations	nation	NOUN
 ,	,	PUNCTclause
 avec	avec	ADP
@@ -53,12 +53,12 @@ la	le	DET
 Suisse	Suisse	PROPN
 de	de	ADP
 il y a	il y a	VERB
-100	100	NUM
+100	100	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 divisée	diviser	VERB
 en	en	ADP
-22	22	NUM
+22	22	DIGIT
 petits	petit	ADJ
 états	état	NOUN
 souverains	souverain	NOUN
@@ -130,7 +130,7 @@ avons	avoir	AUX
 vu	voir	VERB
 que	que	SCONJ
 nos	nos	DET
-22	22	NUM
+22	22	DIGIT
 cantons	canton	NOUN
 ,	,	PUNCTclause
 tout	tout	PRON
@@ -143,7 +143,7 @@ le	le_PRON	PRON
 sont	être	AUX
 aujourd'hui	aujourd'hui	ADV
 nos	nos	DET
-24	24	NUM
+24	24	DIGIT
 nations	nation	NOUN
 ,	,	PUNCTclause
 se	se	PRON
@@ -214,7 +214,7 @@ nous	nous	PRON
 avons	avoir	AUX
 en	en	ADP
 Europe	Europe	PROPN
-24	24	NUM
+24	24	DIGIT
 monnaies	monnaie	NOUN
 différentes	différent	ADJ
 ,	,	PUNCTclause
@@ -330,9 +330,9 @@ cantons	canton	NOUN
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 il y a	il y a	VERB
-110	110	NUM
+110	110	DIGIT
 ou	ou	CCONJ
-120	120	NUM
+120	120	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 connaissaient	connaître	VERB
@@ -365,17 +365,17 @@ se	se	PRON
 heurtait	heurter	VERB
 tous	tout	ADJ
 les	le	DET
-30	30	NUM
+30	30	DIGIT
 kilomètres	mètre	NOUN
 .	.	PUNCTsent
 on	on	PRON
 comptait	compter	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 plus de	plus de	DET
-400	400	NUM
+400	400	DIGIT
 taxes	taxe	NOUN
 sur	sur	ADP
 le	le	DET
@@ -491,7 +491,7 @@ de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 avant	avant	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 et	et	CCONJ
 l'	le	DET
 état	état	NOUN
@@ -800,7 +800,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 était	être	AUX
@@ -811,7 +811,7 @@ que	que	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 était	être	AUX

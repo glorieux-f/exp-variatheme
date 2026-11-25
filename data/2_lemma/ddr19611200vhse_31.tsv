@@ -6,7 +6,7 @@
 # title = 4. De l’historisme au pessimisme
 
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 l'	le	DET
@@ -49,8 +49,8 @@ Léopold	Léopold	PROPN
 von	von	X
 Ranke	Ranke	PROPN
 (	(	PUNCTclause
-1795	1795	NUM
--1886	-1886	NUM
+1795	1795	DIGIT
+-1886	-1886	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 un	un	DET
@@ -484,8 +484,8 @@ humanité	humanité	NOUN
 Ernest	Ernest	PROPN
 Renan	Renan	PROPN
 (	(	PUNCTclause
-1823	1823	NUM
--1892	-1892	NUM
+1823	1823	DIGIT
+-1892	-1892	DIGIT
 )	)	PUNCTclause
 lui	lui	PRON
 aussi	aussi	ADV
@@ -572,7 +572,7 @@ est	être	AUX
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1870	1870	NUM
+1870	1870	DIGIT
 ,	,	PUNCTclause
 illustrant	illustrer	VERB
 les	le	DET
@@ -787,9 +787,9 @@ texte	texte	NOUN
 ,	,	PUNCTclause
 datée	dater	VERB
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 mai	mai	NOUN
-1887	1887	NUM
+1887	1887	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 réitère	réitérer	VERB
@@ -934,8 +934,8 @@ bâlois	bâlois	ADJ
 Jakob	Jakob	PROPN
 Burckhardt	Burckhardt	PROPN
 (	(	PUNCTclause
-1818	1818	NUM
--1897	-1897	NUM
+1818	1818	DIGIT
+-1897	-1897	DIGIT
 )	)	PUNCTclause
 a	avoir	AUX
 incarné	incarner	VERB
@@ -1374,8 +1374,8 @@ confirmé	confirmer	VERB
 Friedrich	Friedrich	PROPN
 Nietzsche	Nietzsche	PROPN
 (	(	PUNCTclause
-1844	1844	NUM
--1900	-1900	NUM
+1844	1844	DIGIT
+-1900	-1900	DIGIT
 )	)	PUNCTclause
 couronne	couronner	VERB
 son	son	DET
@@ -1621,9 +1621,9 @@ entends	entendre	VERB
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 aphorismes	aphorisme	NOUN
-242	242	NUM
+242	242	DIGIT
 et	et	CCONJ
-243	243	NUM
+243	243	DIGIT
 de	de	ADP
 Par-delà	Par-delà	PROPN
 le	le	DET
@@ -1957,7 +1957,7 @@ notes	note	NOUN
 inédites	inédit	ADJ
 des	un	ADP_DET
 années	année	NOUN
-1880	1880	NUM
+1880	1880	DIGIT
 ,	,	PUNCTclause
 sont	être	AUX
 clairement	clairement	ADV
@@ -2040,9 +2040,9 @@ que	que	SCONJ
 il	il	PRON
 publia	publier	VERB
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 décembre	décembre	NOUN
-1899	1899	NUM
+1899	1899	DIGIT
 dans	dans	ADP
 le	le	DET
 Svenska	Svenska	PROPN
@@ -2067,7 +2067,7 @@ se	se	PRON
 arrête	arrêter	VERB
 pas	pas	ADV
 à	à	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 :	:	PUNCTclause
 car	car	CCONJ
 ce	ce	PRON
@@ -2106,8 +2106,8 @@ fut	être	AUX
 Georges	Georges	PROPN
 Sorel	Sorel	PROPN
 (	(	PUNCTclause
-1857	1857	NUM
--1922	-1922	NUM
+1857	1857	DIGIT
+-1922	-1922	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ses	son	DET
@@ -2262,13 +2262,13 @@ est	être	AUX
 à	à	ADP
 lui	lui	PRON
 que	que	SCONJ
-1914	1914	NUM
+1914	1914	DIGIT
 donna	donner	VERB
 raison	raison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
-1914	1914	NUM
+1914	1914	DIGIT
 sonna	sonner	VERB
 le	le	DET
 glas	glas	NOUN
@@ -2312,7 +2312,7 @@ guerre	guerre	NOUN
 .	.	PUNCTsent
 car	car	CCONJ
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 ainsi	ainsi	ADV
 que	que	SCONJ
@@ -2384,7 +2384,7 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 publié	publier	VERB
 en	en	ADP
-1915	1915	NUM
+1915	1915	DIGIT
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
@@ -2453,7 +2453,7 @@ qui	qui	PRON
 ,	,	PUNCTclause
 dès	dès	ADP
 septembre	septembre	NOUN
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 publiant	publier	VERB

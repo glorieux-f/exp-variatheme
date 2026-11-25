@@ -17,9 +17,9 @@ de	de	ADP
 un	un	DET
 hérétique	hérétique	NOUN
 (	(	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 octobre	octobre	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -151,7 +151,7 @@ moi-même	moi-même	PRON
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 combien	combien	ADV
 me	me	PRON
@@ -218,12 +218,12 @@ Nouvel	Nouvel	PROPN
 Observateur	Observateur	PROPN
 ,	,	PUNCTclause
 n°	n°	SYM
-669	669	NUM
+669	669	DIGIT
 ,	,	PUNCTclause
 du	du	ADP_DET
-5	5	NUM
+5	5	DIGIT
 septembre	septembre	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 ..	..	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -332,7 +332,7 @@ experts	expert	NOUN
 du	du	ADP_DET
 Club de Rome	Club de Rome	NOUN
 :	:	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 les	le	DET
 hommes	homme	NOUN
 persévéreront	persévérer	VERB
@@ -422,7 +422,7 @@ formulés	formuler	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 pour	pour	ADP
@@ -456,7 +456,7 @@ qui	qui	PRON
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 pouvait	pouvoir	VERB
 passer	passer	VERB
@@ -1208,9 +1208,9 @@ l'	le	DET
 ce	ce	PRON
 est	être	AUX
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 avril	avril	NOUN
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 les	le	DET
@@ -2210,7 +2210,7 @@ de	de	ADP
 Sartre	Sartre	PROPN
 :	:	PUNCTclause
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 à l'époque	à l'époque	ADV
 où	où	PRON
@@ -2535,7 +2535,7 @@ poujadisme	poujadisme	NOUN
 instinctif	instinctif	ADJ
 .	.	PUNCTsent
 depuis	depuis	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 sait	savoir	VERB
@@ -2675,7 +2675,7 @@ tenez	tenir	VERB
 ,	,	PUNCTclause
 en	en	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 ça	ça	PRON
 me	me	PRON
@@ -2738,9 +2738,9 @@ le premier	le premier	PRON
 numéro	numéro	NOUN
 paraît	paraître	VERB
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 Hitler	Hitler	PROPN
 prend	prendre	VERB
 le	le	DET
@@ -2766,7 +2766,7 @@ Gramsci	Gramsci	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1920	1920	NUM
+1920	1920	DIGIT
 ,	,	PUNCTclause
 avait	avoir	AUX
 intitulé	intituler	VERB
@@ -2859,7 +2859,7 @@ tyrannie	tyrannie	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 notre	notre	DET
 grand	grand	ADJ
@@ -2886,7 +2886,7 @@ lieu	lieu	NOUN
 comme	comme	ADP
 celle	celle	PRON
 de	de	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 Russie	Russie	PROPN
@@ -3004,7 +3004,7 @@ contexte	contexte	NOUN
 ainsi	ainsi	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 vousUn	vousUn	PRON
 point d'interrogation	point d'interrogation	NOUN
@@ -3298,7 +3298,7 @@ oubliez	oublier	VERB
 pas	pas	ADV
 que	que	SCONJ
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ce	ce	PRON
 était	être	AUX
 un	un	DET
@@ -3534,7 +3534,7 @@ il	il	PRON
 que	que	SCONJ
 ,	,	PUNCTclause
 dès	dès	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 avait	avoir	AUX
@@ -4042,7 +4042,7 @@ où	où	PRON
 la	le	DET
 crise	crise	NOUN
 de	de	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 aboutit	aboutir	VERB
@@ -4498,7 +4498,7 @@ laquelle	laquelle	PRON
 il	il	PRON
 détruit	détruire	VERB
 Iseut	Iseut	PROPN
-sans pour autant	sans pour autant	ADP
+sans pour autant	sans pour autant	ADV
 se	se	PRON
 sentir	sentir	VERB
 coupable	coupable	ADJ

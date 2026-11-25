@@ -12,7 +12,7 @@ de	de	ADP
 synthèse	synthèse	NOUN
 (	(	PUNCTclause
 mai	mai	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -451,7 +451,7 @@ Trois	Trois	NUM
 exemples	exemple	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 pour	pour	ADP
 bien	bien	ADV
@@ -480,7 +480,7 @@ une	une	NUM
 génération	génération	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Marché commun	Marché commun	PROPN
@@ -532,7 +532,7 @@ l'	le	DET
 Est	Est	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 revendication	revendication	NOUN
@@ -1681,7 +1681,7 @@ trouvera	trouver	VERB
 ci-après	ci-après	ADV
 (	(	PUNCTclause
 page	page	NOUN
-41	41	NUM
+41	41	DIGIT
 )	)	PUNCTclause
 le	le	DET
 tableau	tableau	NOUN
@@ -1715,7 +1715,7 @@ ce	ce	DET
 schéma	schéma	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 tous	tous	PRON
 veulent	vouloir	VERB
@@ -1727,7 +1727,7 @@ suffrage	suffrage	NOUN
 universel	universel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 tous	tous	PRON
 veulent	vouloir	VERB
@@ -2298,7 +2298,7 @@ mais	mais	CCONJ
 tout	tout	PRON
 peut	pouvoir	VERB
 être	être	AUX
-compromis	compromettre	VERB
+compromis	compromis	ADJ
 par	par	ADP
 l'	le	DET
 échec	échec	NOUN

@@ -16,9 +16,9 @@ suites	suite	NOUN
 de	de	ADP
 Strasbourg	Strasbourg	PROPN
 (	(	PUNCTclause
-28	28	NUM
+28	28	DIGIT
 novembre	novembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -314,7 +314,7 @@ l'	le	DET
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 était	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 soutenir	soutenir	VERB
 l'	le	DET
 admission	admission	NOUN
@@ -551,7 +551,7 @@ du	du	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
@@ -735,7 +735,7 @@ soit	être	AUX
 refusées	refuser	VERB
 par	par	ADP
 les	le	DET
-13	13	NUM
+13	13	DIGIT
 ministres	ministre	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
@@ -859,7 +859,7 @@ par	par	ADP
 les	le	DET
 vetos	veto	NOUN
 des	un	ADP_DET
-13	13	NUM
+13	13	DIGIT
 ministres	ministre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1101,9 +1101,9 @@ en	en	ADP
 décembre	décembre	NOUN
 —	—	PUNCTclause
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 au	au	ADP_DET
-12	12	NUM
+12	12	DIGIT
 décembre	décembre	NOUN
 exactement	exactement	ADV
 —	—	PUNCTclause

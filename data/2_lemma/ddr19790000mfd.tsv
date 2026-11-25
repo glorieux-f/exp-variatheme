@@ -18,7 +18,7 @@ un	un	DET
 fédéralisme	fédéralisme	NOUN
 libertaire	libertaire	ADJ
 (	(	PUNCTclause
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -156,7 +156,7 @@ Europe	Europe	PROPN
 du	du	ADP_DET
 Congrès de La Haye	Congrès de La Haye	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 aux	au	ADP_DET
 derniers	dernier	ADJ
@@ -176,7 +176,7 @@ trente	trente	NUM
 ans	an	NOUN
 que	que	SCONJ
 nos	nos	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 la	le	DET
 disent	dire	VERB
 urgente	urgent	ADJ
@@ -1511,7 +1511,9 @@ leur	leur	DET
 envoyant	envoyer	VERB
 des	un	ADP_DET
 directives	directif	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 énergie	énergie	NOUN
 nucléaire	nucléaire	ADJ
@@ -1922,5 +1924,5 @@ conduisait	conduire	VERB
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 )	)	PUNCTclause

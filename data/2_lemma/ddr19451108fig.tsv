@@ -12,9 +12,9 @@ et	et	CCONJ
 le	le	DET
 général	général	NOUN
 (	(	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 novembre	novembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -784,7 +784,7 @@ des	un	ADP_DET
 États-Unis	États-Unis	PROPN
 puisse	pouvoir	VERB
 tuer	tuer	VERB
-40	40	NUM
+40	40	DIGIT
 millions	million	NOUN
 de	de	ADP
 États-Unis	États-Unis	PROPN
@@ -893,7 +893,7 @@ plusieurs	plusieurs	DET
 jours	jour	NOUN
 .	.	PUNCTsent
 or	or	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 ces	ce	DET
 troupes	troupe	NOUN
 partiront	partir	VERB

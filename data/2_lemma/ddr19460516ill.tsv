@@ -21,9 +21,9 @@ Europe	Europe	PROPN
 en	en	ADP
 États-Unis	États-Unis	PROPN
 (	(	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 mai	mai	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1020,7 +1020,7 @@ de	de	ADP
 la	le	DET
 bombe atomique	bombe atomique	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 Moscou	Moscou	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1157,9 +1157,9 @@ ou	ou	CCONJ
 après	après	ADV
 .	.	PUNCTsent
 entre	entre	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 et	et	CCONJ
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 États-Unis	États-Unis	PROPN

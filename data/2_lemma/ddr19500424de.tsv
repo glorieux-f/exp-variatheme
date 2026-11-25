@@ -15,9 +15,9 @@ l'	le	DET
 union	union	NOUN
 atlantique	atlantique	ADJ
 (	(	PUNCTclause
-24	24	NUM
+24	24	DIGIT
 avril	avril	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -337,7 +337,7 @@ deux	deux	NUM
 remarques	remarque	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ne	ne	ADV
@@ -361,7 +361,7 @@ la	le	DET
 réaliser	réaliser	VERB
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ne	ne	ADV
@@ -626,19 +626,19 @@ ils	ils	PRON
 ont	avoir	AUX
 trop	trop	ADV
 d'autres	d'autre	PRON
-choses	choser	VERB
+choses	chose	NOUN
 à	à	ADP
 faire	faire	VERB
 …	…	PUNCTsent
 je	je	PRON
 suis	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 les	le	DET
 plaindre	plaindre	VERB
 ;	;	PUNCTclause
 je	je	PRON
 suis	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 saluer	saluer	VERB
 la	le	DET
 sincérité	sincérité	NOUN

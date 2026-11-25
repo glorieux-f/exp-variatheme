@@ -17,9 +17,9 @@ apporter	apporter	VERB
 l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
-19	19	NUM
+19	19	DIGIT
 mars	mars	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -800,7 +800,7 @@ Suisse	Suisse	PROPN
 alémanique	alémanique	ADJ
 est	être	AUX
 très	très	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 un	un	DET
 écrivain	écrivain	NOUN
 France	France	PROPN
@@ -1085,7 +1085,7 @@ de	de	ADP
 une	un	DET
 confédération	confédération	NOUN
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 depuis lors	depuis lors	ADV
@@ -2356,5 +2356,5 @@ chargés	charger	VERB
 notamment	notamment	ADV
 de	de	ADP
 nos	nos	DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 .	.	PUNCTsent

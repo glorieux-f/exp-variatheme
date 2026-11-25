@@ -17,11 +17,11 @@ champs	champ	NOUN
 …	…	PUNCTsent
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 belles-lettres	belles-lettres	NOUN
 ,	,	PUNCTclause
@@ -33,7 +33,7 @@ des	un	ADP_DET
 champs	champ	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 essence	essence	NOUN
@@ -54,7 +54,7 @@ les	le	DET
 réputations	réputation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 belles-lettres	belles-lettres	NOUN
 ne	ne	ADV
@@ -72,7 +72,7 @@ et	et	CCONJ
 légitime	légitime	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 suis	être	AUX
@@ -97,7 +97,7 @@ je	je	PRON
 ne	ne	ADV
 puis	puis	CCONJ
 dire	dire	VERB
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 de plus	de plus	ADV
 .	.	PUNCTsent
 on	on	PRON
@@ -128,7 +128,7 @@ des	un	DET
 cris	cri	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 avec	avec	ADP
 toutes	toutes	DET
@@ -226,7 +226,7 @@ mauvais	mauvais	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 peu de	peu de	DET
 choses	chose	NOUN
@@ -276,8 +276,8 @@ qui	qui	PRON
 importe	importer	VERB
 d'abord	d'abord	ADV
 ,	,	PUNCTclause
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	DET
+point	point	NOUN
 de	de	ADP
 se	se	PRON
 livrer	livrer	VERB
@@ -287,7 +287,7 @@ et	et	CCONJ
 simplement	simplement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 secret	secret	NOUN

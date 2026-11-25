@@ -18,9 +18,9 @@ l'	le	DET
 Europe	Europe	PROPN
 fédérée	fédérer	VERB
 (	(	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 mai	mai	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -333,14 +333,14 @@ rideau	rideau	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 sommes	être	AUX
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 du	du	ADP_DET
 côté	côté	NOUN
 Est	Est	PROPN
 ,	,	PUNCTclause
-105	105	NUM
+105	105	DIGIT
 millions	million	NOUN
 seulement	seulement	ADV
 ,	,	PUNCTclause
@@ -925,7 +925,7 @@ prévisions	prévision	NOUN
 du	du	ADP_DET
 temps	temps	NOUN
 depuis	depuis	ADP
-15	15	NUM
+15	15	DIGIT
 jours	jour	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ

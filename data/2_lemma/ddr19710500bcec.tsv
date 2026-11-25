@@ -11,7 +11,7 @@ la	le	DET
 politique	politique	NOUN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1971	1971	NUM
+1971	1971	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -19,9 +19,9 @@ dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 du	du	ADP_DET
-16	16	NUM
+16	16	DIGIT
 juin	juin	NOUN
-1971	1971	NUM
+1971	1971	DIGIT
 ,	,	PUNCTclause
 à propos de	à propos de	ADP
 élections	élection	NOUN
@@ -255,7 +255,7 @@ discours	discours	NOUN
 ordonné	ordonner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 état-nation	État-nation	NOUN
@@ -280,7 +280,7 @@ vœux	vœu	NOUN
 du	du	ADP_DET
 Marx	Marx	PROPN
 d'après	d'après	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 ce	ce	DET
 «	«	PUNCTclause
@@ -520,7 +520,7 @@ ou	ou	CCONJ
 régionaux	régional	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 idéologies	idéologie	NOUN
@@ -828,7 +828,7 @@ non	non	ADV
 talents	talent	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 ni	ni	CCONJ
 l'	le	DET
@@ -985,7 +985,7 @@ tel	tel	DET
 Guillaume Tell	Guillaume Tell	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 seul	seul	ADJ
@@ -1171,7 +1171,7 @@ les	le	DET
 émigrants	émigrant	NOUN
 virtuels	virtuel	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 l'	le	DET
@@ -1199,7 +1199,7 @@ pas	pas	ADV
 saine	sain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 véritable	véritable	ADJ
@@ -1209,7 +1209,7 @@ siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -1225,7 +1225,7 @@ Lausanne	Lausanne	PROPN
 je	je	PRON
 entre	entrer	VERB
 à	à	ADP
-2	2	NUM
+2	2	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
@@ -1364,7 +1364,7 @@ l'	le_PRON	PRON
 avais	avoir	AUX
 écrit	écrire	VERB
 dès	dès	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 et	et	CCONJ
 le	le	DET
 redis	redire	VERB
@@ -1374,7 +1374,7 @@ fédéralisme	fédéralisme	NOUN
 de	de	ADP
 Montreux	Montreux	PROPN
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -1571,7 +1571,7 @@ sont	être	AUX
 subordonnées	subordonner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 analyse	analyse	NOUN
 de	de	ADP
@@ -2019,7 +2019,7 @@ ont	avoir	AUX
 parlé	parler	VERB
 à partir de	à partir de	ADP
 Mai	Mai	PROPN
-68	68	NUM
+68	68	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -2452,7 +2452,7 @@ l'	le	DET
 automation	automation	NOUN
 doit	devoir	VERB
 supprimer	supprimer	VERB
-à terme	à terme	ADP
+à terme	à terme	ADV
 la	le	DET
 condition	condition	NOUN
 prolétarienne	prolétarien	ADJ
@@ -2523,7 +2523,7 @@ sondages	sondage	NOUN
 montrent	montrer	VERB
 en effet	en effet	ADV
 que	que	SCONJ
-65	65	NUM
+65	65	DIGIT
 des	un	ADP_DET
 personnes	personne	NOUN
 interrogées	interroger	VERB
@@ -2548,12 +2548,12 @@ que	que	SCONJ
 les	le	DET
 jeunes	jeune	NOUN
 de	de	ADP
-18	18	NUM
+18	18	DIGIT
 à	à	ADP
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 constituent	constituer	VERB
-75	75	NUM
+75	75	DIGIT
 de	de	ADP
 cette	ce	DET
 majorité.	majorité.	NOUN
@@ -3158,7 +3158,7 @@ par définition	par définition	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 Robert	Robert	PROPN
 Aron	Aron	PROPN
@@ -3495,7 +3495,7 @@ relisez	relire	VERB
 Marx	Marx	PROPN
 :	:	PUNCTclause
 de	de	ADP
-1844	1844	NUM
+1844	1844	DIGIT
 à la fin	à la fin	ADV
 ,	,	PUNCTclause
 il	il	PRON
@@ -3528,7 +3528,7 @@ production	production	NOUN
 ou	ou	CCONJ
 infrastructure	infrastructure	NOUN
 ,	,	PUNCTclause
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 se	se	PRON
 rend	rendre	VERB
 maître	maître	NOUN
@@ -4454,9 +4454,9 @@ une	un	DET
 catastrophe	catastrophe	NOUN
 générale	général	ADJ
 entre	entre	ADP
-2020	2020	NUM
+2020	2020	DIGIT
 et	et	CCONJ
-2060	2060	NUM
+2060	2060	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 que	que	PRON
@@ -4595,9 +4595,9 @@ réduction	réduction	NOUN
 simultanée	simultané	ADJ
 ,	,	PUNCTclause
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 à	à	ADP
-75	75	NUM
+75	75	DIGIT
 selon	selon	ADP
 les	le	DET
 cas	cas	NOUN
@@ -4828,7 +4828,7 @@ Remarques	Remarques	PROPN
 critiques	critiquer	VERB
 …	…	PUNCTsent
 ,	,	PUNCTclause
-1844	1844	NUM
+1844	1844	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -4901,7 +4901,7 @@ sur	sur	ADP
 la	le	DET
 nation	nation	NOUN
 ,	,	PUNCTclause
-1931	1931	NUM
+1931	1931	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -4958,8 +4958,8 @@ Rougemont	Rougemont	PROPN
 ,	,	PUNCTclause
 Penser avec les mains	Penser avec les mains	NOUN
 ,	,	PUNCTclause
-1933	1933	NUM
--1936	-1936	NUM
+1933	1933	DIGIT
+-1936	-1936	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -5041,7 +5041,7 @@ ouverte	ouvrir	VERB
 aux	au	ADP_DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-1970	1970	NUM
+1970	1970	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voilà	voilà	ADP
@@ -5116,7 +5116,7 @@ affrontait	affronter	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 les	le	DET
 nazis	nazi	NOUN
@@ -5226,5 +5226,5 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 janvier	janvier	NOUN
-1971	1971	NUM
+1971	1971	DIGIT
 .	.	PUNCTsent

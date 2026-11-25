@@ -13,7 +13,7 @@ Europe	Europe	PROPN
 fédérée	fédérer	VERB
 ?	?	PUNCTsent
 (	(	PUNCTclause
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -184,7 +184,7 @@ est	être	AUX
 donc	donc	ADV
 se	se	PRON
 autodéterminer	autodéterminer	VERB
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'on	on	PRON
 agit	agir	VERB
 en	en	ADP
@@ -413,7 +413,7 @@ de	de	ADP
 la	le	DET
 recherche	recherche	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -552,7 +552,7 @@ de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 ne	ne	ADV
 le	le_PRON	PRON
 sont	être	AUX
@@ -1509,7 +1509,7 @@ cela	cela	PRON
 que	que	SCONJ
 «	«	PUNCTclause
 depuis	depuis	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 spéculation	spéculation	NOUN
@@ -1694,7 +1694,7 @@ antinomies	antinomie	NOUN
 réelles	réel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 antinomie	antinomie	NOUN
 entre	entre	ADP
@@ -2063,7 +2063,7 @@ corpuscules	corpuscule	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 rétroaction	rétroaction	NOUN
 de	de	ADP
@@ -2165,14 +2165,14 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 (	(	PUNCTclause
 «	«	PUNCTclause
-2500000	2500000	NUM
+2500000	2500000	DIGIT
 hommes	homme	NOUN
 au	au	ADP_DET
 km2	km2	NOUN
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2400	2400	NUM
+2400	2400	DIGIT
 »	»	PUNCTclause
 selon	selon	ADP
 le	le	DET
@@ -2180,7 +2180,7 @@ rapport	rapport	NOUN
 Nixon	Nixon	PROPN
 paru	paraître	VERB
 fin	fin	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 exercent	exercer	VERB
@@ -2376,7 +2376,7 @@ son	son	DET
 propre	propre	ADJ
 effet	effet	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 en fin de compte	en fin de compte	ADV
 un	un	DET
 cas particulier	cas particulier	NOUN
@@ -2432,13 +2432,13 @@ est	être	AUX
 une	un	DET
 des	un	ADP_DET
 conditions	condition	NOUN
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 de	de	ADP
 cette	ce	DET
 participation	participation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 rôle	rôle	NOUN
 de	de	ADP
@@ -2606,7 +2606,7 @@ et	et	CCONJ
 le	le	DET
 futurologue	futurologue	NOUN
 de	de	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 cherchant	chercher	VERB
 les	le	DET
 moyens	moyen	NOUN
@@ -2620,13 +2620,13 @@ dans	dans	ADP
 les	le	DET
 capitales	capital	NOUN
 de	de	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 ou	ou	CCONJ
 le	le	DET
 futurologue	futurologue	NOUN
 de	de	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 cherchant	chercher	VERB
 à	à	ADP
 empêcher	empêcher	VERB
@@ -2644,7 +2644,7 @@ mégalopolis	mégalopolis	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 sont	être	AUX
@@ -2669,7 +2669,7 @@ Marx	Marx	PROPN
 des	un	ADP_DET
 manuscrits	manuscrit	NOUN
 de	de	ADP
-1844	1844	NUM
+1844	1844	DIGIT
 ou	ou	CCONJ
 du	du	ADP_DET
 Freud	Freud	PROPN
@@ -2690,7 +2690,7 @@ renaissance	renaissance	NOUN
 vers	vers	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 des	un	ADP_DET
 grandes	grand	ADJ
 religions	religion	NOUN
@@ -2722,9 +2722,9 @@ des	un	ADP_DET
 sociologues	sociologue	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1919	1919	NUM
+1919	1919	DIGIT
 à	à	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ont	avoir	AUX
 oblitéré	oblitérer	VERB
 dans	dans	ADP
@@ -2889,7 +2889,7 @@ et	et	CCONJ
 leurs	leur	DET
 colonies	colonie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 détient	détenir	VERB
 sûrement	sûrement	ADV
@@ -2912,14 +2912,14 @@ pourrait	pouvoir	VERB
 chiffrer	chiffrer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 ceux	ceux	PRON
 qui	qui	PRON
 prévoient	prévoir	VERB
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ne	ne	ADV
 sont	être	VERB
 pas	pas	ADV
@@ -2978,7 +2978,7 @@ là-bas	là-bas	ADV
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 refuserais	refuser	VERB
@@ -3172,7 +3172,7 @@ l'	le	DET
 avenir	avenir	NOUN
 modifié	modifier	VERB
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 et	et	CCONJ
 tout	tout	ADJ
@@ -3380,9 +3380,9 @@ du	du	ADP_DET
 mot	mot	NOUN
 lui-même	lui-même	PRON
 ;	;	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 quelle	quel	DET
 Europe	Europe	PROPN
@@ -3431,7 +3431,7 @@ situations	situation	NOUN
 de	de	ADP
 départ	départ	NOUN
 en	en	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 sont	être	AUX
 différentes	différent	ADJ
 ,	,	PUNCTclause
@@ -3532,7 +3532,7 @@ et	et	CCONJ
 sa	son	DET
 valeur	valeur	NOUN
 que	que	SCONJ
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 il y a	il y a	VERB
 dans	dans	ADP
 le	le	DET
@@ -3620,7 +3620,7 @@ changements	changement	NOUN
 possibles	possible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 à	à	ADP
 l'	le	DET
@@ -3837,7 +3837,7 @@ la	le	DET
 planète	planète	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 vie	vie	NOUN
 personnelle	personnel	ADJ
@@ -4011,7 +4011,7 @@ civique	civique	ADJ
 à l'avenir	à l'avenir	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 agrément	agrément	NOUN
 du	du	ADP_DET
@@ -4037,10 +4037,10 @@ que	que	SCONJ
 l'on	on	PRON
 vive	vivre	VERB
 en	en	ADP
-1768	1768	NUM
+1768	1768	DIGIT
 ou	ou	CCONJ
 en	en	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 pièce	pièce	NOUN
@@ -4097,9 +4097,9 @@ de	de	ADP
 la	le	DET
 Maison-Blanche	Maison-Blanche	PROPN
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 février	février	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -4255,7 +4255,7 @@ le	le	DET
 régime	régime	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 spécificité	spécificité	NOUN
 du	du	ADP_DET
@@ -4423,29 +4423,29 @@ tableau	tableau	NOUN
 suivant	suivant	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1860	1860	NUM
-1968	1968	NUM
+1860	1860	DIGIT
+1968	1968	DIGIT
 Genevois	Genevois	PROPN
-49,4	49,4	NUM
-28,9	28,9	NUM
+49,4	49,4	DIGIT
+28,9	28,9	DIGIT
 confédérés	confédérer	VERB
-15,9	15,9	NUM
-39,7	39,7	NUM
+15,9	15,9	DIGIT
+39,7	39,7	DIGIT
 étrangers	étranger	NOUN
-34,7	34,7	NUM
-31,4	31,4	NUM
+34,7	34,7	DIGIT
+31,4	31,4	DIGIT
 protestants	protestant	NOUN
-50,8	50,8	NUM
-39	39	NUM
+50,8	50,8	DIGIT
+39	39	DIGIT
 Catholiques	Catholiques	PROPN
-48,3	48,3	NUM
-50,6	50,6	NUM
+48,3	48,3	DIGIT
+50,6	50,6	DIGIT
 autres	autre	ADJ
 et	et	CCONJ
 sans	sans	ADP
 religions	religion	NOUN
-0,9	0,9	NUM
-10,4	10,4	NUM
+0,9	0,9	DIGIT
+10,4	10,4	DIGIT
 ↵↵	↵↵	PUNCTstruct
 cependant	cependant	ADV
 ,	,	PUNCTclause
@@ -4846,7 +4846,7 @@ des	un	ADP_DET
 citoyens	citoyen	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 dimensions	dimension	NOUN
@@ -4868,7 +4868,7 @@ la	le	DET
 mégalopolis	mégalopolis	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 dimensions	dimension	NOUN
@@ -4931,11 +4931,11 @@ voulait	vouloir	VERB
 une	un	DET
 ville	ville	NOUN
 de	de	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 citoyens	citoyen	NOUN
 (	(	PUNCTclause
 plus ou moins	plus ou moins	ADV
-50000	50000	NUM
+50000	50000	DIGIT
 habitants	habitant	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -5355,7 +5355,7 @@ toute	toute	DET
 participation	participation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 niveaux	niveau	NOUN
@@ -5546,7 +5546,7 @@ culturel	culturel	ADJ
 ,	,	PUNCTclause
 idéologique	idéologique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 et	et	CCONJ
 la	le	DET
@@ -5692,7 +5692,7 @@ centralisation	centralisation	NOUN
 totalitaire	totalitaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 information	information	NOUN
@@ -6505,7 +6505,7 @@ Europe	Europe	PROPN
 autour de	autour de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 est	être	AUX
 restée	rester	VERB
@@ -6561,7 +6561,7 @@ le	le	DET
 Bel	Bel	PROPN
 ,	,	PUNCTclause
 vers	vers	ADP
-1300	1300	NUM
+1300	1300	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 en	en	ADP
@@ -6645,12 +6645,12 @@ dont	dont	PRON
 sera	être	AUX
 menacé	menacer	VERB
 après	après	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 un	un	DET
 homme	homme	NOUN
 né	naître	VERB
 avant	avant	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -6658,7 +6658,7 @@ persistance	persistance	NOUN
 des	un	ADP_DET
 états-nations	État-nation	NOUN
 en	en	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 impliquerait	impliquer	VERB
 la	le	DET
 mort	mort	NOUN
@@ -6881,7 +6881,7 @@ l'on	on	PRON
 peut	pouvoir	VERB
 avancer	avancer	VERB
 que	que	SCONJ
-1984	1984	NUM
+1984	1984	DIGIT
 serait	être	AUX
 le	le	DET
 résultat	résultat	NOUN
@@ -7292,7 +7292,7 @@ de	de	ADP
 composer	composer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -7558,7 +7558,7 @@ de	de	ADP
 implications	implication	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 dimensions	dimension	NOUN
 des	un	ADP_DET
@@ -7737,9 +7737,9 @@ social	social	ADJ
 ,	,	PUNCTclause
 III	III	NUM
 ,	,	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 à	à	ADP
-3	3	NUM
+3	3	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -7856,7 +7856,7 @@ limites	limite	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 répartition	répartition	NOUN
 de	de	ADP
@@ -8035,7 +8035,7 @@ manière	manière	NOUN
 adéquate	adéquat	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 formules	formule	NOUN
 communautaires	communautaire	ADJ
@@ -8154,9 +8154,9 @@ catastrophique	catastrophique	ADJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 et	et	CCONJ
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 les	le	DET
@@ -8188,9 +8188,9 @@ villes	ville	NOUN
 neuves	neuf	ADJ
 )	)	PUNCTclause
 de	de	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 à	à	ADP
-50000	50000	NUM
+50000	50000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 dotés	doter	VERB
@@ -8269,7 +8269,7 @@ théorie	théorie	NOUN
 dès	dès	ADP
 les	le	DET
 années	année	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 la	le	DET
@@ -8277,7 +8277,7 @@ société	société	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ne	ne	ADV
 en	en	PRON
 sera	être	AUX
@@ -8328,9 +8328,9 @@ actuelle	actuel	ADJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 et	et	CCONJ
-1980	1980	NUM
+1980	1980	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 b	b	NOUN
@@ -8492,15 +8492,15 @@ niveaux	niveau	NOUN
 de	de	ADP
 décision	décision	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 commune	commun	NOUN
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 région	région	NOUN
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 fédération	fédération	NOUN
 —	—	PUNCTclause
@@ -8511,7 +8511,7 @@ de	de	ADP
 information	information	NOUN
 suivants	suivant	ADJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 école	école	NOUN
 publique	public	ADJ
@@ -8520,13 +8520,13 @@ presse	presse	NOUN
 ,	,	PUNCTclause
 radio	radio	NOUN
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 université	université	NOUN
 et	et	CCONJ
 		TOKEN
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 banques	banque	NOUN
 de	de	ADP
@@ -8541,7 +8541,7 @@ la	le	DET
 documentation	documentation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 puissance	puissance	NOUN
 ou	ou	CCONJ
@@ -8767,7 +8767,7 @@ le	le	DET
 ressort	ressort	NOUN
 du	du	ADP_DET
 jeu	jeu	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 son	son	DET
 but	but	NOUN
 ,	,	PUNCTclause
@@ -9073,7 +9073,7 @@ toutes	tout	ADJ
 nécessaires	nécessaire	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 information	information	NOUN
 des	un	ADP_DET
@@ -9092,10 +9092,10 @@ banques	banque	NOUN
 de	de	ADP
 informations	information	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 discussion	discussion	NOUN
 publique	public	ADJ
@@ -9103,7 +9103,7 @@ des	un	ADP_DET
 lois	loi	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 unités	unité	NOUN
 de	de	ADP
@@ -9122,11 +9122,11 @@ entreprises	entreprise	NOUN
 ,	,	PUNCTclause
 régions	région	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 action	action	NOUN
 :	:	PUNCTclause
@@ -9155,7 +9155,7 @@ les	le	DET
 contrôler	contrôler	VERB
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 présence	présence	NOUN
 personnelle	personnel	ADJ
@@ -9167,13 +9167,13 @@ débats	débat	NOUN
 assemblées	assemblée	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 objectifs	objectif	NOUN
 communs	commun	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 liberté	liberté	NOUN
 de	de	ADP
@@ -9212,7 +9212,7 @@ monde	monde	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 et	et	CCONJ
 les	le	DET
 difficultés	difficulté	NOUN
@@ -9235,7 +9235,7 @@ moyens	moyen	NOUN
 techniques	technique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 information	information	NOUN
@@ -9594,7 +9594,7 @@ dé-conditionnement	dé-conditionnement	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 discussion	discussion	NOUN
@@ -9709,7 +9709,7 @@ disponibles	disponible	ADJ
 subitement	subitement	ADV
 ,	,	PUNCTclause
 à partir de	à partir de	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 grâce à	grâce à	ADP
@@ -10021,7 +10021,7 @@ déjà	déjà	ADV
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 formule	formule	NOUN
@@ -10121,22 +10121,22 @@ uns	un	PRON
 des	un	ADP_DET
 autres	autre	PRON
 par	par	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 ou	ou	CCONJ
-300	300	NUM
+300	300	DIGIT
 ou	ou	CCONJ
-3	3	NUM
+3	3	DIGIT
 kilomètres	mètre	NOUN
 et	et	CCONJ
 non	non	ADV
 par	par	ADP
-30	30	NUM
+30	30	DIGIT
 ,	,	PUNCTclause
 ou	ou	CCONJ
-3	3	NUM
+3	3	DIGIT
 ,	,	PUNCTclause
 ou	ou	CCONJ
-0,3	0,3	NUM
+0,3	0,3	DIGIT
 mètre	mètre	NOUN
 .	.	PUNCTsent
 on	on	PRON
@@ -10239,7 +10239,7 @@ scène	scène	NOUN
 civique	civique	ADJ
 et	et	CCONJ
 politique	politique	ADJ
-d'ici	d'ici	ADV
+d'ici	d'ici	X
 deux	deux	NUM
 ou	ou	CCONJ
 trois	trois	NUM
@@ -10390,7 +10390,7 @@ l'	le	DET
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 unités	unité	NOUN
@@ -10537,10 +10537,10 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 il y a	il y a	VERB
 peu de	peu de	DET
@@ -10780,7 +10780,7 @@ fédération	fédération	NOUN
 continentale	continental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 action	action	NOUN
@@ -10857,7 +10857,7 @@ matches	match	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 il y a	il y a	VERB
 beaucoup	beaucoup	ADV
@@ -11111,7 +11111,7 @@ ordre	ordre	NOUN
 automatisé	automatisé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 présence	présence	NOUN
@@ -11262,7 +11262,7 @@ moins	moins	ADV
 présents	présent	ADJ
 »	»	PUNCTclause
 à	à	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 kilomètres	mètre	NOUN
 en	en	ADP
 vidéophone	vidéophone	NOUN
@@ -11540,7 +11540,7 @@ et	et	CCONJ
 ceux	ceux	PRON
 qui	qui	PRON
 seront	être	AUX
-traités	traiter	VERB
+traités	traité	NOUN
 comme	comme	SCONJ
 étant	être	AUX
 à toutes fins utiles	à toutes fins utiles	ADV
@@ -11687,7 +11687,7 @@ global	global	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 objectifs	objectif	NOUN
 communs	commun	ADJ
@@ -11893,7 +11893,7 @@ possible	possible	ADJ
 aux environs de	aux environs de	ADP
 l'	le_PRON	PRON
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 (	(	PUNCTclause
 si	si	SCONJ
 ce	ce	PRON
@@ -11930,7 +11930,7 @@ correspondre	correspondre	VERB
 essentiellement	essentiellement	ADV
 aux	au	ADP_DET
 «	«	PUNCTclause
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 »	»	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -12016,7 +12016,7 @@ efficiente	efficient	ADJ
 ou	ou	CCONJ
 équilibrante	équilibrant	ADJ
 ?	?	PUNCTsent
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 options	option	NOUN
@@ -12290,7 +12290,7 @@ majeurs	majeur	ADJ
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -12530,7 +12530,7 @@ renverse	renverser	VERB
 pas	pas	ADV
 la	le	DET
 vapeur	vapeur	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP_DET
 à	à	ADP
 dix	dix	NUM
 ans	an	NOUN
@@ -12677,7 +12677,7 @@ de	de	ADP
 civisme	civisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 la	le	DET
 liberté	liberté	NOUN
@@ -12860,10 +12860,10 @@ est	être	AUX
 clair	clair	ADJ
 que	que	SCONJ
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
-l'	le	DET
+d'ici	d'ici	DET
+l'	le_PRON	PRON
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 bien	bien	ADV
 d'autres	d'autre	PRON

@@ -13,7 +13,7 @@ union	union	NOUN
 fédérale	fédéral	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 .	.	PUNCTsent
 traduire	traduire	VERB
 l'	le	DET
@@ -395,7 +395,7 @@ quelque	quelque	DET
 orthodoxie	orthodoxie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 .	.	PUNCTsent
 fédéralisme	fédéralisme	NOUN
 et	et	CCONJ
@@ -406,7 +406,7 @@ histoire	histoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1863	1863	NUM
+1863	1863	DIGIT
 paraissait	paraître	VERB
 le	le	DET
 dernier	dernier	ADJ
@@ -1141,7 +1141,7 @@ et	et	CCONJ
 régionales	régional	ADJ
 de	de	ADP
 juin	juin	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 .	.	PUNCTsent
 risque	risque	NOUN
 de	de	ADP
@@ -1427,7 +1427,7 @@ fédératifs	fédératif	ADJ
 mais	mais	CCONJ
 ils	ils	PRON
 regroupent	regrouper	VERB
-40	40	NUM
+40	40	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -1838,7 +1838,7 @@ pires	pire	ADJ
 malentendus	malentendu	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-28	28	NUM
+28	28	DIGIT
 .	.	PUNCTsent
 malentendus	malentendu	NOUN
 tragiques	tragique	ADJ
@@ -2380,7 +2380,7 @@ fédéralisme	fédéralisme	NOUN
 externe	externe	ADJ
 comme	comme	ADP
 visant	viser	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 à	à	ADP
 l'	le	DET
 intégration	intégration	NOUN
@@ -2479,7 +2479,7 @@ mon	mon	DET
 Littré	Littré	PROPN
 date	dater	VERB
 de	de	ADP
-1865	1865	NUM
+1865	1865	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTclause
 fédéralisme	fédéralisme	NOUN
@@ -2953,7 +2953,7 @@ du	du	ADP_DET
 mot	mot	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-29	29	NUM
+29	29	DIGIT
 .	.	PUNCTsent
 Deux	Deux	NUM
 en	en	ADP
@@ -3213,7 +3213,9 @@ les	le	DET
 ioniens	ionien	ADJ
 aux	au	ADP_DET
 éléates	éléates	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 antinomie	antinomie	NOUN
 fondamentale	fondamental	ADJ
@@ -3927,7 +3929,7 @@ ondes	onde	NOUN
 …	…	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-30	30	NUM
+30	30	DIGIT
 .	.	PUNCTsent
 solitaire	solitaire	ADJ
 et	et	CCONJ
@@ -4160,7 +4162,7 @@ quelques	quelque	DET
 exemples	exemple	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 problème	problème	NOUN
@@ -4194,7 +4196,7 @@ la	le	DET
 culture générale	culture générale	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 problèmes	problème	NOUN
@@ -4243,7 +4245,7 @@ les	le	DET
 autres	autre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 la	le	DET
@@ -4346,7 +4348,7 @@ en	en	ADP
 association	association	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -4410,7 +4412,7 @@ toute	toute	DET
 communauté	communauté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-31	31	NUM
+31	31	DIGIT
 .	.	PUNCTsent
 principes	principe	NOUN
 de	de	ADP
@@ -4867,7 +4869,7 @@ interdépendance	interdépendance	NOUN
 générale	général	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-32	32	NUM
+32	32	DIGIT
 .	.	PUNCTsent
 les	le	DET
 unités	unité	NOUN
@@ -5353,7 +5355,7 @@ de	de	ADP
 Caen	Caen	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 aussi	aussi	ADV
@@ -5376,7 +5378,7 @@ recteurs	recteur	NOUN
 Göttingen	Göttingen	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -5445,7 +5447,7 @@ la	le	DET
 défense	défense	NOUN
 ,	,	PUNCTclause
 les	le	DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 et	et	CCONJ
 la	le	DET
 politique	politique	NOUN
@@ -5597,7 +5599,7 @@ donner	donner	VERB
 allégeance	allégeance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-33	33	NUM
+33	33	DIGIT
 .	.	PUNCTsent
 le	le	DET
 fédéralisme	fédéralisme	NOUN

@@ -6,7 +6,7 @@
 # title = 1. La religion de la croissance
 
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 religion	religion	NOUN
@@ -168,22 +168,22 @@ deux	deux	NUM
 cents	cents	NUM
 ans	an	NOUN
 dès	dès	ADP
-1650	1650	NUM
+1650	1650	DIGIT
 ,	,	PUNCTclause
 quatre-vingts	quatre-vingts	NUM
 ans	an	NOUN
 dès	dès	ADP
-1850	1850	NUM
+1850	1850	DIGIT
 ,	,	PUNCTclause
 quarante-cinq	quarante-cinq	NUM
 ans	an	NOUN
 dès	dès	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 trente-cinq	trente-cinq	NUM
 ans	an	NOUN
 dès	dès	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 —	—	PUNCTclause
 voici	voici	ADP
 le	le	DET
@@ -196,28 +196,28 @@ peut	pouvoir	VERB
 dresser	dresser	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2000	2000	NUM
-24	24	NUM
+2000	2000	DIGIT
+24	24	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2070	2070	NUM
-192	192	NUM
+2070	2070	DIGIT
+192	192	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2175	2175	NUM
-450000	450000	NUM
+2175	2175	DIGIT
+450000	450000	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2575	2575	NUM
+2575	2575	DIGIT
 ↵↵	↵↵	PUNCTstruct
 peu	peu	ADV
 après	après	ADP
 l'	le	DET
 an	an	NOUN
-2600	2600	NUM
+2600	2600	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 humains	humain	NOUN
@@ -237,7 +237,7 @@ calculs	calcul	NOUN
 on	on	PRON
 pourra	pouvoir	VERB
 nourrir	nourrir	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 me	me	PRON
 affirme	affirmer	VERB
@@ -393,7 +393,7 @@ terre	terre	NOUN
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
 les mêmes	les mêmes	PRON
-style	styler	VERB
+style	style	NOUN
 de	de	ADP
 simulation	simulation	NOUN
 logique	logique	ADJ
@@ -436,7 +436,7 @@ de	de	ADP
 dans	dans	ADP
 mille	mille	NUM
 ans	an	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	NUM
 ,	,	PUNCTclause
 et	et	CCONJ
 sa	son	DET
@@ -766,7 +766,7 @@ nous	nous	PRON
 alerter	alerter	VERB
 quant à	quant à	ADP
 d'autres	d'autre	PRON
-choses	choser	VERB
+choses	chose	NOUN
 qui	qui	PRON
 ,	,	PUNCTclause
 elles	elles	PRON
@@ -797,7 +797,7 @@ la	le	DET
 proportion	proportion	NOUN
 des	un	ADP_DET
 moins de	moins de	DET
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 dans	dans	ADP
 les	le	DET
@@ -823,7 +823,7 @@ faire	faire	VERB
 ils	ils	PRON
 forment	former	VERB
 près de	près de	ADP
-45	45	NUM
+45	45	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -849,7 +849,7 @@ ne	ne	ADV
 empêchera	empêcher	VERB
 ces	ce	DET
 moins de	moins de	DET
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 de	de	ADP
 procréer	procréer	VERB
@@ -866,7 +866,7 @@ humanité	humanité	NOUN
 se	se	PRON
 accroît	accroître	VERB
 de	de	ADP
-70	70	NUM
+70	70	DIGIT
 millions	million	NOUN
 par	par	ADP
 an	an	NOUN
@@ -947,7 +947,7 @@ doublé	doubler	VERB
 vers	vers	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 non	non	ADV
 par	par	ADP
@@ -971,7 +971,7 @@ dans	dans	ADP
 son	son	DET
 rapport	rapport	NOUN
 de	de	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 Conseil	Conseil	PROPN
@@ -1003,7 +1003,7 @@ enfants	enfant	NOUN
 par	par	ADP
 couple	couple	NOUN
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 la	le	DET
 fin	fin	NOUN
 du	du	ADP_DET
@@ -1033,10 +1033,10 @@ globe	globe	NOUN
 ne	ne	ADV
 dépasserait	dépasser	VERB
 pas	pas	ADV
-5,8	5,8	NUM
+5,8	5,8	DIGIT
 milliards	milliard	NOUN
 en	en	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 si	si	SCONJ
@@ -1071,7 +1071,7 @@ bien	bien	ADV
 avant	avant	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 monde	monde	NOUN
@@ -1087,11 +1087,11 @@ mondiale	mondial	ADJ
 pourrait	pouvoir	VERB
 se	se	PRON
 stabiliser	stabiliser	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 un	un	DET
 siècle	siècle	NOUN
 à	à	ADP
-16	16	NUM
+16	16	DIGIT
 milliards	milliard	NOUN
 environ	environ	ADV
 ,	,	PUNCTclause
@@ -1132,7 +1132,7 @@ aurait	avoir	AUX
 à peine	à peine	ADV
 progressé	progresser	VERB
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 reste	reste	NOUN
@@ -1143,7 +1143,7 @@ plus	plus	ADV
 le	le	DET
 Japon	Japon	PROPN
 de	de	ADP
-40	40	NUM
+40	40	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 le	le	DET
@@ -1202,7 +1202,7 @@ de	de	ADP
 accusé	accuser	VERB
 (	(	PUNCTclause
 avec	avec	ADP
-6	6	NUM
+6	6	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -1211,7 +1211,7 @@ mondiale	mondial	ADJ
 les	le	DET
 		TOKEN
 détiennent	détenir	VERB
-40	40	NUM
+40	40	DIGIT
 des	un	ADP_DET
 ressources	ressource	NOUN
 énergétiques	énergétique	ADJ
@@ -1343,7 +1343,7 @@ progressive	progressif	ADJ
 troisième	troisième	ADJ
 enfant	enfant	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
 ces	ce	DET
@@ -1501,7 +1501,7 @@ France	France	PROPN
 interdisant	interdire	VERB
 jusque	jusque	ADP
 en	en	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 toute	toute	DET
 propagande	propagande	NOUN
 et	et	CCONJ
@@ -1528,7 +1528,7 @@ et	et	CCONJ
 de même	de même	ADV
 climat	climat	NOUN
 ,	,	PUNCTclause
-26	26	NUM
+26	26	DIGIT
 environ	environ	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -1553,18 +1553,18 @@ de	de	ADP
 reproduction	reproduction	NOUN
 est	être	AUX
 de	de	ADP
-1,7	1,7	NUM
+1,7	1,7	DIGIT
 à	à	ADP
-1,9	1,9	NUM
+1,9	1,9	DIGIT
 dans	dans	ADP
 les	le	DET
 villes	ville	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 de	de	ADP
-3,4	3,4	NUM
+3,4	3,4	DIGIT
 à	à	ADP
-3,56	3,56	NUM
+3,56	3,56	DIGIT
 dans	dans	ADP
 les	le	DET
 régions	région	NOUN
@@ -1819,7 +1819,7 @@ une	un	DET
 nécessité	nécessité	NOUN
 mathématique	mathématique	ADJ
 ,	,	PUNCTclause
-58	58	NUM
+58	58	DIGIT
 millions	million	NOUN
 de	de	ADP
 France	France	PROPN
@@ -1830,7 +1830,7 @@ villes	ville	NOUN
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -2021,13 +2021,13 @@ cinquièmes	cinquième	NOUN
 vers	vers	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 tôt	tôt	ADV
 après	après	ADV
 ,	,	PUNCTclause
 vers	vers	ADP
-2050	2050	NUM
+2050	2050	DIGIT
 ,	,	PUNCTclause
 tous	tout	ADJ
 les	le	DET
@@ -2361,7 +2361,7 @@ Doxiadis	Doxiadis	PROPN
 annonçaient	annoncer	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1969	1969	NUM
+1969	1969	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 construction	construction	NOUN
@@ -2640,9 +2640,9 @@ ces	ce	DET
 villes	ville	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
-35	35	NUM
+35	35	DIGIT
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -2710,7 +2710,7 @@ la	le	DET
 technologie	technologie	NOUN
 :	:	PUNCTclause
 en	en	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 la première fois	la première fois	ADV
@@ -2909,7 +2909,7 @@ maire	maire	NOUN
 de	de	ADP
 New York	New York	PROPN
 dès	dès	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 que	que	SCONJ
 sa	son	DET
 cité	cité	NOUN
@@ -3352,9 +3352,9 @@ région	région	NOUN
 parisienne	parisien	ADJ
 ?	?	PUNCTsent
 les	le	DET
-12	12	NUM
+12	12	DIGIT
 ou	ou	CCONJ
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -3535,12 +3535,12 @@ deux	deux	NUM
 chambres	chambre	NOUN
 ;	;	PUNCTclause
 au lieu de	au lieu de	ADP
-20	20	NUM
+20	20	DIGIT
 mairies	mairie	NOUN
 de	de	ADP
 quartier	quartier	NOUN
 ,	,	PUNCTclause
-22	22	NUM
+22	22	DIGIT
 cantons	canton	NOUN
 souverains	souverain	ADJ
 ayant	avoir	AUX
@@ -3562,7 +3562,7 @@ la	le	DET
 base	base	NOUN
 ,	,	PUNCTclause
 plus de	plus de	DET
-3000	3000	NUM
+3000	3000	DIGIT
 communes	commun	NOUN
 avec	avec	ADP
 leur	leur	DET
@@ -3746,7 +3746,7 @@ aux	au	ADP_DET
 la	le	DET
 délinquance	délinquance	NOUN
 atteint	atteindre	VERB
-2	2	NUM
+2	2	DIGIT
 ;	;	PUNCTclause
 pour	pour	ADP
 huit	huit	NUM
@@ -3754,13 +3754,13 @@ huit	huit	NUM
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-8	8	NUM
+8	8	DIGIT
 ;	;	PUNCTclause
 pour	pour	ADP
 seize	seize	NUM
 étages	étage	NOUN
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 la	le	DET
 délinquance	délinquance	NOUN
@@ -3814,7 +3814,7 @@ seront	être	AUX
 négatifs	négatif	ADJ
 .	.	PUNCTsent
 au-delà de	au-delà de	ADP
-300000	300000	NUM
+300000	300000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 une	un	DET
@@ -3854,7 +3854,7 @@ que	que	SCONJ
 une	un	DET
 ville	ville	NOUN
 de	de	ADP
-100000	100000	NUM
+100000	100000	DIGIT
 habitants	habitant	NOUN
 en	en	ADP
 Suisse	Suisse	PROPN
@@ -4850,7 +4850,7 @@ et	et	CCONJ
 l'	le	DET
 épuisement	épuisement	NOUN
 ,	,	PUNCTclause
-à terme	à terme	ADP
+à terme	à terme	ADV
 prévisible	prévisible	ADJ
 ,	,	PUNCTclause
 des	un	ADP_DET
@@ -5135,7 +5135,7 @@ aliments	aliment	NOUN
 de	de	ADP
 vêtements	vêtement	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 …	…	PUNCTsent
 chaque	chaque	DET
@@ -5895,38 +5895,38 @@ reste	rester	VERB
 du	du	ADP_DET
 fer	fer	NOUN
 pour	pour	ADP
-64	64	NUM
+64	64	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-173	173	NUM
+173	173	DIGIT
 ,	,	PUNCTclause
 ou	ou	CCONJ
-380	380	NUM
+380	380	DIGIT
 ;	;	PUNCTclause
 de	de	ADP
 l'	le	DET
 or	or	NOUN
 pour	pour	ADP
-9	9	NUM
+9	9	DIGIT
 ou	ou	CCONJ
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
 zinc	zinc	NOUN
 pour	pour	ADP
-11	11	NUM
+11	11	DIGIT
 ou	ou	CCONJ
-50	50	NUM
+50	50	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 du	du	DET
 cuivre	cuivre	NOUN
 pour	pour	ADP
-21	21	NUM
+21	21	DIGIT
 ou	ou	CCONJ
-48	48	NUM
+48	48	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -5934,9 +5934,9 @@ de	de	ADP
 l'	le	DET
 aluminium	aluminium	NOUN
 pour	pour	ADP
-31	31	NUM
+31	31	DIGIT
 ou	ou	CCONJ
-160	160	NUM
+160	160	DIGIT
 ans	an	NOUN
 ;	;	PUNCTclause
 que	que	SCONJ
@@ -6058,7 +6058,7 @@ ans	an	NOUN
 les	le	DET
 besoins	besoin	NOUN
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -6649,7 +6649,7 @@ eau	eau	NOUN
 qui	qui	PRON
 est	être	AUX
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 et	et	CCONJ
 «	«	PUNCTclause
 la	le	DET
@@ -6914,7 +6914,7 @@ retient	retenir	VERB
 ,	,	PUNCTclause
 en effet	en effet	ADV
 ,	,	PUNCTclause
-110	110	NUM
+110	110	DIGIT
 millions	million	NOUN
 de	de	ADP
 tonnes	tonne	NOUN
@@ -7228,7 +7228,7 @@ nos	nos	DET
 déchets	déchet	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-100000	100000	NUM
+100000	100000	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 		TOKEN
@@ -7305,7 +7305,7 @@ l'	le	DET
 des	un	ADP_DET
 océans	océan	NOUN
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -7395,10 +7395,10 @@ survenant	survenir	VERB
 un	un	DET
 pétrolier	pétrolier	NOUN
 de	de	ADP
-500000	500000	NUM
+500000	500000	DIGIT
 ou	ou	CCONJ
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 million	million	NOUN
 de	de	ADP
 tonnes	tonne	NOUN
@@ -7425,7 +7425,7 @@ ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
 mieux	mieux	ADV
-traitées	traiter	VERB
+traitées	traité	ADJ
 .	.	PUNCTsent
 grands	grand	ADJ
 lacs	lac	NOUN
@@ -8461,7 +8461,7 @@ la	le	DET
 peau	peau	NOUN
 …	…	PUNCTsent
 les	le	DET
-100	100	NUM
+100	100	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 		TOKEN
@@ -8610,7 +8610,7 @@ car	car	CCONJ
 il	il	PRON
 occupe	occuper	VERB
 à peu près	à peu près	ADV
-68	68	NUM
+68	68	DIGIT
 de	de	ADP
 la	le	DET
 surface	surface	NOUN
@@ -8658,7 +8658,7 @@ envisageaient	envisager	VERB
 pour	pour	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 d'autre part	d'autre part	ADV
 ,	,	PUNCTclause
@@ -8759,7 +8759,7 @@ homme	homme	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 :	:	PUNCTclause
 sans	sans	ADP
 eau	eau	NOUN
@@ -8789,7 +8789,7 @@ promis	promettre	VERB
 dès	dès	ADP
 les	le	DET
 années	année	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -9896,7 +9896,7 @@ l'	le	DET
 eau	eau	NOUN
 à	à	ADP
 plus de	plus de	DET
-35	35	NUM
+35	35	DIGIT
 °.	°.	PUNCT
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -11027,7 +11027,7 @@ de	de	ADP
 «	«	PUNCTclause
 l'	le	DET
 information	information	NOUN
-traitée	traiter	VERB
+traitée	traité	ADJ
 »	»	PUNCTclause
 ce	ce	PRON
 qui	qui	PRON
@@ -11652,8 +11652,8 @@ dans	dans	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-14	14	NUM
--18	-18	NUM
+14	14	DIGIT
+-18	-18	DIGIT
 ;	;	PUNCTclause
 radar	radar	NOUN
 ,	,	PUNCTclause
@@ -11671,8 +11671,8 @@ dans	dans	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
--1945	-1945	NUM
+1939	1939	DIGIT
+-1945	-1945	DIGIT
 ;	;	PUNCTclause
 expériences	expérience	NOUN
 B	B	X
@@ -12012,7 +12012,7 @@ avoir	avoir	AUX
 consisté	consister	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 le	le	DET
@@ -12059,9 +12059,9 @@ tissus	tissu	NOUN
 par	par	ADP
 plastique	plastique	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 la	le	DET
@@ -12142,7 +12142,7 @@ de	de	ADP
 ,	,	PUNCTclause
 télécommunications	télécommunication	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 parce que	parce que	SCONJ
@@ -13865,7 +13865,7 @@ inanimée	inanimé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 l'	le	DET
 homme	homme	NOUN
 lui-même	lui-même	PRON
@@ -14000,7 +14000,7 @@ plutonium	plutonium	NOUN
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 quoi	quoi	PRON
@@ -14562,12 +14562,12 @@ de	de	ADP
 fils	fils	NOUN
 suggère	suggérer	VERB
 que	que	SCONJ
-2	2	NUM
+2	2	DIGIT
 et	et	CCONJ
-2	2	NUM
+2	2	DIGIT
 pourraient	pouvoir	VERB
 faire	faire	AUX
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 ne	ne	ADV
@@ -15095,7 +15095,7 @@ sens	sens	NOUN
 premier	premier	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 comme	comme	ADP
 ennemis	ennemi	NOUN
 de	de	ADP
@@ -15942,9 +15942,9 @@ apparaît	apparaître	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1920	1920	NUM
+1920	1920	DIGIT
 et	et	CCONJ
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ce	ce	PRON
@@ -16721,7 +16721,7 @@ aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 de	de	ADP
 au moins	au moins	ADV
-10	10	NUM
+10	10	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -16770,7 +16770,7 @@ la	le	DET
 nation	nation	NOUN
 »	»	PUNCTclause
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 selon	selon	ADP
@@ -17132,7 +17132,7 @@ et	et	CCONJ
 les	le	DET
 armées	armée	NOUN
 de	de	ADP
-175	175	NUM
+175	175	DIGIT
 états-nations	État-nation	NOUN
 pour que	pour que	SCONJ
 aucun	aucun	PRON

@@ -13,11 +13,11 @@ une	un	DET
 littérature	littérature	NOUN
 (	(	PUNCTclause
 mai	mai	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 mise en garde	mise en garde	NOUN
 préalable	préalable	ADJ
@@ -100,7 +100,7 @@ objet	objet	NOUN
 est	être	AUX
 un	un	DET
 phénomène	phénomène	NOUN
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 Europe	Europe	PROPN
 et	et	CCONJ
@@ -108,7 +108,7 @@ non	non	ADV
 pas	pas	ADV
 national	national	ADJ
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 littéraire	littéraire	NOUN
 et	et	CCONJ
@@ -256,7 +256,7 @@ l'	le	DET
 enseignant	enseignant	NOUN
 publié	publier	VERB
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 par	par	ADP
 notre	notre	DET
 CEC	CEC	NOUN
@@ -332,7 +332,7 @@ croyances	croyance	NOUN
 du	du	ADP_DET
 milieu	milieu	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ils	ils	PRON
@@ -455,7 +455,7 @@ professionnelle	professionnel	ADJ
 ,	,	PUNCTclause
 régionale	régional	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 on	on	PRON
@@ -592,7 +592,7 @@ sa	son	DET
 formation	formation	NOUN
 professionnelle	professionnel	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 que	que	SCONJ
 ceci	ceci	PRON
@@ -680,7 +680,7 @@ cadre	cadre	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 thèse	thèse	NOUN
 proposée	proposer	VERB
@@ -848,7 +848,7 @@ avenir	avenir	NOUN
 commun	commun	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 éléments	élément	NOUN
 de	de	ADP
@@ -1395,7 +1395,7 @@ traité	traité	NOUN
 ,	,	PUNCTclause
 épître	épître	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 et	et	CCONJ
 enfin	enfin	ADV
@@ -1444,7 +1444,7 @@ orchestre	orchestre	NOUN
 le	le	DET
 concert	concert	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 sont	être	VERB
 des	un	DET
@@ -1559,7 +1559,7 @@ contrevenu	contrevenir	VERB
 aux	au	ADP_DET
 lois	loi	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ceux	ceux	PRON
 hérités	hérité	VERB
 du	du	ADP_DET
@@ -1589,7 +1589,7 @@ sacrifice	sacrifice	NOUN
 par	par	ADP
 amour	amour	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ceux	ceux	PRON
 qui	qui	PRON
 viennent	venir	VERB
@@ -1757,7 +1757,7 @@ surréalisme	surréalisme	NOUN
 ,	,	PUNCTclause
 abstraction	abstraction	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -1852,7 +1852,7 @@ Suisse	Suisse	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 la	le	DET
@@ -2068,7 +2068,7 @@ Europa	Europa	X
 ,	,	PUNCTclause
 Milan	Milan	PROPN
 ,	,	PUNCTclause
-1966	1966	NUM
+1966	1966	DIGIT
 )	)	PUNCTclause
 y	y	PRON
 voit	voir	VERB
@@ -2117,7 +2117,7 @@ royaume	royaume	NOUN
 des	un	ADP_DET
 Capétiens	Capétiens	PROPN
 en	en	ADP
-1539	1539	NUM
+1539	1539	DIGIT
 seulement	seulement	ADV
 ,	,	PUNCTclause
 par	par	ADP
@@ -2464,7 +2464,7 @@ quelque	quelque	DET
 super-État	super-État	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 fédérer	fédérer	VERB
 ne	ne	ADV

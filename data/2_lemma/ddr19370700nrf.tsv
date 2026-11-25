@@ -19,7 +19,7 @@ journal	journal	NOUN
 )	)	PUNCTclause
 (	(	PUNCTclause
 juillet	juillet	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -885,7 +885,7 @@ de	de	ADP
 laurier	laurier	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 novembre	novembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	DET
@@ -1033,7 +1033,7 @@ calculs	calcul	NOUN
 sont	être	AUX
 justes	juste	ADJ
 :	:	PUNCTclause
-900	900	NUM
+900	900	DIGIT
 francs	franc	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -1049,9 +1049,9 @@ venir	venir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
-10	10	NUM
+10	10	DIGIT
 au	au	ADP_DET
-17	17	NUM
+17	17	DIGIT
 novembre	novembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
@@ -1717,7 +1717,7 @@ plus	plus	ADV
 authentique	authentique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 novembre	novembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 premiers	premier	ADJ
@@ -2295,7 +2295,7 @@ une	un	DET
 épicière	épicier	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 novembre	novembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -2423,7 +2423,7 @@ je	je	PRON
 ai	avoir	VERB
 à	à	ADP
 payer	payer	VERB
-72	72	NUM
+72	72	DIGIT
 francs	franc	NOUN
 pour	pour	ADP
 un	un	DET
@@ -2543,7 +2543,7 @@ la	le	DET
 somme	somme	NOUN
 de	de	ADP
 francs	franc	NOUN
-67,25	67,25	NUM
+67,25	67,25	DIGIT
 ,	,	PUNCTclause
 restant	rester	VERB
 due	devoir	VERB
@@ -2696,7 +2696,7 @@ dédommagement	dédommagement	NOUN
 .	.	PUNCTsent
 salaire	salaire	NOUN
 :	:	PUNCTclause
-280	280	NUM
+280	280	DIGIT
 francs	franc	NOUN
 par	par	ADP
 mois	mois	NOUN
@@ -2746,8 +2746,7 @@ années	année	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 décembre	décembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 dépenses	dépense	NOUN
@@ -2764,7 +2763,7 @@ manger	manger	VERB
 et	et	CCONJ
 boire	boire	VERB
 ,	,	PUNCTclause
-480	480	NUM
+480	480	DIGIT
 francs	franc	NOUN
 ;	;	PUNCTclause
 (	(	PUNCTclause
@@ -2780,7 +2779,7 @@ Paris	Paris	PROPN
 .	.	PUNCTsent
 recettes	recette	NOUN
 :	:	PUNCTclause
-80	80	NUM
+80	80	DIGIT
 francs	franc	NOUN
 pour	pour	ADP
 quelques	quelque	DET
@@ -2793,7 +2792,7 @@ revue	revue	NOUN
 reste	rester	VERB
 :	:	PUNCTclause
 environ	environ	ADV
-200	200	NUM
+200	200	DIGIT
 francs	franc	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2957,7 +2956,7 @@ en	en	ADP
 dépend	dépendre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 décembre	décembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 questions	question	NOUN
@@ -3438,7 +3437,7 @@ devant	devant	ADP
 Tamatave	Tamatave	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1886	1886	NUM
+1886	1886	DIGIT
 .	.	PUNCTsent
 »	»	PUNCTclause
 )	)	PUNCTclause
@@ -3610,7 +3609,7 @@ ces	ce	DET
 gens	gens	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 décembre	décembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 ils	ils	PRON
@@ -4044,7 +4043,7 @@ ses	son	DET
 preuves	preuve	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 décembre	décembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 déjeuné	déjeuner	VERB
@@ -4095,7 +4094,7 @@ de	de	ADP
 base	base	NOUN
 est	être	AUX
 de	de	ADP
-10000	10000	NUM
+10000	10000	DIGIT
 francs	franc	NOUN
 ,	,	PUNCTclause
 madame	madame	NOUN
@@ -4724,7 +4723,7 @@ vrais	vrai	ADJ
 loisirs	loisir	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 janvier	janvier	NOUN
 (	(	PUNCTclause
 écrit	écrire	VERB
@@ -4966,7 +4965,7 @@ mais	mais	CCONJ
 soi-même	soi-même	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-28	28	NUM
+28	28	DIGIT
 février	février	NOUN
 ↵↵	↵↵	PUNCTstruct
 gens	gens	NOUN
@@ -5094,7 +5093,7 @@ ces	ce	DET
 vies	vie	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 avril	avril	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -5425,7 +5424,7 @@ attente	attente	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 avril	avril	NOUN
 ↵↵	↵↵	PUNCTstruct
 recette	recette	NOUN
@@ -5495,7 +5494,7 @@ complet	complet	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 avril	avril	NOUN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -5595,7 +5594,7 @@ vanité	vanité	NOUN
 !	!	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 avril	avril	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -5670,7 +5669,7 @@ je	je	PRON
 ?	?	PUNCTsent
 non seulement	non seulement	ADV
 ceux	ceux	PRON
-d'ici	d'ici	ADV
+d'ici	d'ici	PRON
 ne	ne	ADV
 comprendraient	comprendre	VERB
 rien	rien	PRON
@@ -5699,7 +5698,7 @@ technique	technique	NOUN
 des	un	ADP_DET
 idées	idée	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 mais	mais	CCONJ
 encore	encore	ADV
@@ -5820,9 +5819,9 @@ a	avoir	AUX
 emporté	emporter	VERB
 hier	hier	ADV
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 quel	quel	ADJ
-sens	sentir	VERB
+sens	sens	NOUN
 concret	concret	ADJ
 cela	cela	PRON
 peut	pouvoir	VERB
@@ -6295,7 +6294,7 @@ compassé	compassé	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 avril	avril	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -6506,7 +6505,7 @@ vignes	vigne	NOUN
 sablonneuses	sablonneux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 mai	mai	NOUN
 ↵↵	↵↵	PUNCTstruct
 pendant	pendant	ADP
@@ -6973,7 +6972,7 @@ répulsion	répulsion	NOUN
 ,	,	PUNCTclause
 pitié	pitié	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 en somme	en somme	ADV
 ,	,	PUNCTclause
 tout	tout	PRON
@@ -7201,7 +7200,7 @@ tout	tout	ADJ
 obscure	obscur	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-24	24	NUM
+24	24	DIGIT
 mai	mai	NOUN
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
@@ -7535,7 +7534,7 @@ il	il	PRON
 me	me	PRON
 reste	rester	VERB
 environ	environ	ADV
-300	300	NUM
+300	300	DIGIT
 francs	franc	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -7552,7 +7551,7 @@ rentrées	rentrer	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 juin	juin	NOUN
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
@@ -7614,7 +7613,7 @@ néant	néant	NOUN
 .	.	PUNCTsent
 reste	rester	VERB
 :	:	PUNCTclause
-90	90	NUM
+90	90	DIGIT
 francs	franc	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -7920,7 +7919,7 @@ des	un	ADP_DET
 homéopathes	homéopathe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 juin	juin	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -8283,7 +8282,7 @@ l'	le	DET
 argent	argent	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 juin	juin	NOUN
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -8433,7 +8432,7 @@ questions	question	NOUN
 utiles	utile	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 juillet	juillet	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -8514,7 +8513,7 @@ départ	départ	NOUN
 est	être	AUX
 fixé	fixer	VERB
 au	au	ADP_DET
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 va	aller	VERB
@@ -8548,7 +8547,7 @@ la première fois	la première fois	ADV
 mesquines	mesquin	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
 ↵↵	↵↵	PUNCTstruct
 tout	tout	PRON

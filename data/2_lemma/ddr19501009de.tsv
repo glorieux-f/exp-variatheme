@@ -14,9 +14,9 @@ Europe	Europe	PROPN
 le	le_PRON	PRON
 CEC	CEC	PROPN
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 octobre	octobre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -60,7 +60,7 @@ de	de	ADP
 rencontrer	rencontrer	VERB
 les	le	DET
 quelque	quelque	ADV
-25	25	NUM
+25	25	DIGIT
 membres	membre	NOUN
 du	du	ADP_DET
 conseil	conseil	NOUN
@@ -307,7 +307,7 @@ la	le	DET
 prospérité	prospérité	NOUN
 des	un	ADP_DET
 hommes	homme	NOUN
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 non	non	ADV
 pour	pour	ADP
@@ -378,7 +378,7 @@ nécessité	nécessité	NOUN
 il y a	il y a	VERB
 déjà	déjà	ADV
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 surtout	surtout	ADV
 à	à	ADP
@@ -524,10 +524,10 @@ est	être	AUX
 au	au	ADP_DET
 matériel	matériel	NOUN
 comme	comme	ADP
-3	3	NUM
+3	3	DIGIT
 est	est	NOUN
 à	à	ADP
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 tout le monde	tout le monde	PRON
 applaudit	applaudir	VERB
@@ -664,7 +664,7 @@ avec	avec	ADP
 l'	le	DET
 aide	aide	NOUN
 de	de	ADP
-500000	500000	NUM
+500000	500000	DIGIT
 propagandistes	propagandiste	NOUN
 entraînés	entraîner	VERB
 ,	,	PUNCTclause
@@ -673,7 +673,7 @@ de	de	ADP
 films	film	NOUN
 et	et	CCONJ
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 millions	million	NOUN
 de	de	ADP
 brochures	brochure	NOUN
@@ -1019,7 +1019,7 @@ Suisse	Suisse	PROPN
 veut	vouloir	VERB
 en	en	ADP
 acheter	acheter	VERB
-500	500	NUM
+500	500	DIGIT
 …	…	PUNCTsent
 de plus	de plus	ADV
 nous	nous	PRON

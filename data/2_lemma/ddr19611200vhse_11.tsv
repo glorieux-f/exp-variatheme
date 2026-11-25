@@ -6,7 +6,7 @@
 # title = 1. Sur plusieurs siècles de silence « européen »
 
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 sur	sur	ADP
 plusieurs	plusieurs	DET
@@ -372,7 +372,7 @@ que	que	SCONJ
 l'	le	DET
 empereur	empereur	NOUN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 le	le	DET
 pape	pape	NOUN
 ,	,	PUNCTclause
@@ -827,7 +827,7 @@ de	de	ADP
 Anagni	Anagni	PROPN
 date	dater	VERB
 de	de	ADP
-1303	1303	NUM
+1303	1303	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 jusqu'ici	jusqu'ici	ADV

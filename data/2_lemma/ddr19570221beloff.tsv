@@ -17,9 +17,9 @@ par	par	ADP
 Max	Max	PROPN
 Beloff	Beloff	PROPN
 (	(	PUNCTclause
-21	21	NUM
+21	21	DIGIT
 février	février	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1445,7 +1445,7 @@ Europe	Europe	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 suffit	suffire	VERB
@@ -1652,7 +1652,7 @@ ignorer	ignorer	VERB
 Bandung	Bandung	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ai	avoir	AUX
@@ -1780,7 +1780,7 @@ et	et	CCONJ
 les	le	DET
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
 même	même	ADJ
@@ -1858,7 +1858,7 @@ intellectuelle	intellectuel	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 argument	argument	NOUN
@@ -1979,7 +1979,7 @@ les	le	DET
 formes	forme	NOUN
 politiques	politique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 interdisent	interdire	VERB
@@ -2006,7 +2006,7 @@ union	union	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-1	1	NUM
+1	1	DIGIT
 °.	°.	PUNCT
 les	le	DET
 différences	différence	NOUN
@@ -2074,7 +2074,7 @@ cantons	canton	NOUN
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 —	—	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 cette	ce	DET
 unification	unification	NOUN
 ,	,	PUNCTclause
@@ -2159,7 +2159,7 @@ l'	le	DET
 union	union	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 si	si	SCONJ
 pittoresques	pittoresque	ADJ
@@ -2252,7 +2252,7 @@ l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 quantité de	quantité de	DET
 publicistes	publiciste	NOUN
@@ -2669,7 +2669,7 @@ par	par	ADP
 trois	trois	NUM
 cantons	canton	NOUN
 en	en	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 .	.	PUNCTsent
 cette	ce	DET
 alliance	alliance	NOUN
@@ -2798,9 +2798,11 @@ conscience	conscience	NOUN
 commune	commun	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 naissance	naissance	NOUN
 de	de	ADP
@@ -3025,7 +3027,7 @@ bataille	bataille	NOUN
 de	de	ADP
 Poitiers	Poitiers	PROPN
 (	(	PUNCTclause
-732	732	NUM
+732	732	DIGIT
 )	)	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -3090,7 +3092,7 @@ que	que	PRON
 à partir de	à partir de	ADP
 l'	le	DET
 an	an	NOUN
-1300	1300	NUM
+1300	1300	DIGIT
 :	:	PUNCTclause
 les	le	DET
 premiers	premier	ADJ
@@ -3292,7 +3294,7 @@ par	par	ADP
 Valéry	Valéry	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 les	le	DET
@@ -3480,9 +3482,9 @@ que	que	SCONJ
 notre	notre	DET
 découpage	découpage	NOUN
 en	en	ADP
-26	26	NUM
+26	26	DIGIT
 ou	ou	CCONJ
-27	27	NUM
+27	27	DIGIT
 états-nations	État-nation	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -4087,7 +4089,7 @@ d'autres	d'autre	PRON
 efforts	effort	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 nous	nous	PRON
 débouchons	déboucher	VERB
@@ -4463,7 +4465,7 @@ historique	historique	ADJ
 dès	dès	ADP
 l'	le	DET
 an	an	NOUN
-1204	1204	NUM
+1204	1204	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 l'	le	DET
@@ -4508,7 +4510,7 @@ avant de	avant de	ADP
 se	se	PRON
 éloigner	éloigner	VERB
 :	:	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 millions	million	NOUN
 de	de	ADP
 francs-or	francs-or	NOUN
@@ -4583,7 +4585,7 @@ trois	trois	NUM
 jours	jour	NOUN
 à	à	ADP
 plus de	plus de	DET
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 sans compter	sans compter	ADP

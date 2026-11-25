@@ -20,11 +20,11 @@ culture	culture	NOUN
 Lausanne	Lausanne	PROPN
 ,	,	PUNCTclause
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 au	au	ADP_DET
-12	12	NUM
+12	12	DIGIT
 décembre	décembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -475,7 +475,7 @@ pas	pas	ADV
 été	être	AUX
 réédités	rééditer	VERB
 depuis	depuis	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 très	très	ADV
@@ -773,7 +773,7 @@ lettres	lettre	NOUN
 varie	varier	VERB
 entre	entre	ADP
 et	et	CCONJ
-1	1	NUM
+1	1	DIGIT
 ,	,	PUNCTclause
 selon	selon	ADP
 les	le	DET
@@ -895,7 +895,7 @@ se	se	PRON
 montant	monter	VERB
 à	à	ADP
 plus de	plus de	DET
-7	7	NUM
+7	7	DIGIT
 millions	million	NOUN
 de	de	ADP
 couronnes	couronne	NOUN
@@ -904,7 +904,7 @@ il	il	PRON
 perçoit	percevoir	VERB
 d'autre part	d'autre part	ADV
 près de	près de	ADP
-34	34	NUM
+34	34	DIGIT
 millions	million	NOUN
 de	de	ADP
 couronnes	couronne	NOUN
@@ -2424,7 +2424,7 @@ que	que	ADV
 un	un	DET
 service	service	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 comme	comme	SCONJ
 dans	dans	ADP
@@ -3353,7 +3353,7 @@ Occident	Occident	PROPN
 ce	ce	PRON
 est	être	AUX
 peut-être	peut-être	ADV
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 les	le	DET
 pouvoirs	pouvoir	NOUN
 ne	ne	ADV
@@ -4514,7 +4514,7 @@ nous	nous	PRON
 devons	devoir	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 abandonner	abandonner	VERB
 ,	,	PUNCTclause
@@ -4533,7 +4533,7 @@ des	un	ADP_DET
 »	»	PUNCTclause
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 exiger	exiger	VERB
 la	le	DET
@@ -4785,7 +4785,7 @@ avant	avant	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 elle	elle	PRON
@@ -5166,7 +5166,7 @@ le	le	DET
 Congrès de La Haye	Congrès de La Haye	PROPN
 (	(	PUNCTclause
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 )	)	PUNCTclause
 le	le	DET
 mouvement	mouvement	NOUN
@@ -5197,7 +5197,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 février	février	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 mouvement	mouvement	NOUN
@@ -5520,7 +5520,7 @@ centres	centre	NOUN
 de	de	ADP
 recherche scientifique	recherche scientifique	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 elles	elles	PRON
@@ -7131,7 +7131,7 @@ la	le	DET
 séance	séance	NOUN
 inaugurale	inaugural	ADJ
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 décembre	décembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent

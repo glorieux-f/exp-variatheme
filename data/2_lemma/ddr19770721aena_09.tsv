@@ -6,7 +6,7 @@
 # title = "8. Deuxième histoire de fous : Hitler"
 
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 deuxième	deuxième	ADJ
 histoire	histoire	NOUN
@@ -311,7 +311,7 @@ exemples	exemple	NOUN
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 mars	mars	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 au lendemain de	au lendemain de	ADP
 une	un	DET
@@ -382,9 +382,9 @@ exactement	exactement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 mars	mars	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 osais	oser	VERB
@@ -408,7 +408,7 @@ ce	ce	DET
 Paris	Paris	PROPN
 de	de	ADP
 mars	mars	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 derniers	dernier	ADJ
@@ -420,9 +420,9 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 écrivais	écrire	VERB
@@ -438,7 +438,7 @@ avait	avoir	AUX
 prophétisé	prophétiser	VERB
 :	:	PUNCTclause
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
 je	je	PRON
 entrerai	entrer	VERB
@@ -554,7 +554,7 @@ publiais	publier	VERB
 à	à	ADP
 New York	New York	PROPN
 en	en	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 trois	trois	NUM
 ans	an	NOUN
@@ -656,7 +656,7 @@ lui	lui	PRON
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 juillet	juillet	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 au plus	au plus	ADV
 fort	fort	ADV
@@ -933,7 +933,7 @@ pittoresque	pittoresque	ADJ
 comme	comme	ADP
 Attila	Attila	PROPN
 ou	ou	CCONJ
-gengis khan	gengis khan	NOUN
+gengis khan	gengis khan	DET
 ,	,	PUNCTclause
 mais	mais	CCONJ
 un	un	DET
@@ -1809,7 +1809,7 @@ Mein	Mein	PROPN
 Kampf	Kampf	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
-1923	1923	NUM
+1923	1923	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 décrit	décrire	VERB
@@ -1970,7 +1970,7 @@ il	il	PRON
 annonce	annoncer	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 un	un	DET
@@ -2084,7 +2084,7 @@ de	de	ADP
 chômeurs	chômeur	NOUN
 Allemagne	Allemagne	PROPN
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 à	à	ADP
@@ -2332,7 +2332,7 @@ entends	entendre	VERB
 et	et	CCONJ
 subis	subir	VERB
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 écris	écrire	VERB
@@ -2433,7 +2433,7 @@ avant	avant	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 majorité	majorité	NOUN
@@ -3385,7 +3385,7 @@ beaucoup de	beaucoup de	DET
 gens	gens	NOUN
 savaient	savoir	VERB
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 —	—	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -4598,9 +4598,9 @@ proches	proche	ADJ
 (	(	PUNCTclause
 Apoc	Apoc	PROPN
 .	.	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -4759,9 +4759,9 @@ frappe	frapper	VERB
 (	(	PUNCTclause
 Apoc	Apoc	PROPN
 .	.	PUNCTsent
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
-20	20	NUM
+20	20	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -5671,7 +5671,7 @@ gangstérisme	gangstérisme	NOUN
 .	.	PUNCTsent
 sur	sur	ADP
 les	le	DET
-175	175	NUM
+175	175	DIGIT
 états-nations	État-nation	NOUN
 qui	qui	PRON
 se	se	PRON

@@ -17,7 +17,7 @@ en	en	ADP
 chômage	chômage	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -42,7 +42,7 @@ hommes	homme	NOUN
 que	que	SCONJ
 ils	ils	PRON
 sont	être	AUX
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 »	»	PUNCTclause
 ,	,	PUNCTclause
 se	se	PRON
@@ -54,9 +54,9 @@ sur	sur	ADP
 la	le	DET
 mort	mort	NOUN
 ,	,	PUNCTclause
-22	22	NUM
+22	22	DIGIT
 mars	mars	NOUN
-1662	1662	NUM
+1662	1662	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 que	que	SCONJ
@@ -87,7 +87,7 @@ l'	le	DET
 homme	homme	NOUN
 en général	en général	ADV
 est	être	AUX
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 ,	,	PUNCTclause
 ne	ne	ADV
 est	être	AUX
@@ -375,7 +375,7 @@ le second	le second	PRON
 si	si	ADV
 pauvre	pauvre	ADJ
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 il	il	PRON
 écrivit	écrire	VERB
 ses	son	DET
@@ -1112,7 +1112,7 @@ livres	livre	NOUN
 la	le	DET
 gare	gare	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 le	le	DET
@@ -1355,7 +1355,7 @@ qui	qui	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 .	.	PUNCTsent
 et	et	CCONJ
 déjà	déjà	ADV

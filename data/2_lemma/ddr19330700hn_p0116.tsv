@@ -10,7 +10,7 @@ poésie	poésie	NOUN
 dialectique	dialectique	ADJ
 (	(	PUNCTclause
 juillet	juillet	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -92,7 +92,7 @@ poésie	poésie	NOUN
 car	car	CCONJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 toute	toute	ADV
 la	le	DET
@@ -256,7 +256,7 @@ de	de	ADP
 Polyeucte	Polyeucte	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 la	le	DET
 vision	vision	NOUN
@@ -332,7 +332,7 @@ haute	haut	ADJ
 poésie	poésie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 enfin	enfin	ADV
 toute	tout	ADJ
@@ -443,8 +443,8 @@ de	de	ADP
 John	John	PROPN
 Donne	Donne	PROPN
 (	(	PUNCTclause
-1573	1573	NUM
--1661	-1661	NUM
+1573	1573	DIGIT
+-1661	-1661	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 le	le	DET
@@ -481,10 +481,9 @@ nouvelle	nouveau	ADJ
 Revue	Revue	PROPN
 France	France	PROPN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 avril	avril	NOUN
-1923	1923	NUM
+1923	1923	DIGIT
 (	(	PUNCTclause
 trad.	trad.	PUNCT
 Jean	Jean	PROPN
@@ -518,7 +517,7 @@ done	done	X
 »	»	PUNCTclause
 (	(	PUNCTclause
 vers	vers	ADP
-5	5	NUM
+5	5	DIGIT
 )	)	PUNCTclause
 peut	pouvoir	VERB
 signifier	signifier	VERB

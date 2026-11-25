@@ -13,7 +13,7 @@ des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -145,10 +145,10 @@ lesquels	lesquels	PRON
 la	le	DET
 Bavière	Bavière	PROPN
 ,	,	PUNCTclause
-71000	71000	NUM
+71000	71000	DIGIT
 km2	km2	NOUN
 et	et	CCONJ
-12	12	NUM
+12	12	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -156,11 +156,11 @@ habitants	habitant	NOUN
 ou	ou	CCONJ
 Hambourg	Hambourg	PROPN
 ,	,	PUNCTclause
-747	747	NUM
+747	747	DIGIT
 km2	km2	NOUN
 et	et	CCONJ
 moins de	moins de	DET
-2	2	NUM
+2	2	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -526,7 +526,7 @@ de	de	ADP
 puissance	puissance	NOUN
 de	de	ADP
 un	un	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 un	un	DET
@@ -1086,5 +1086,5 @@ l'	le	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 juin	juin	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 .	.	PUNCTsent

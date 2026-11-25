@@ -10,7 +10,7 @@ suite	suite	NOUN
 des	un	DET
 méfaits	méfait	NOUN
 (	(	PUNCTclause
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -421,9 +421,9 @@ la	le	DET
 production	production	NOUN
 .	.	PUNCTsent
 le	le	DET
-28	28	NUM
+28	28	DIGIT
 mars	mars	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 élève	élève	NOUN
@@ -519,7 +519,7 @@ petit	petit	ADJ
 livre	livre	NOUN
 publié	publier	VERB
 en	en	ADP
-1971	1971	NUM
+1971	1971	DIGIT
 par	par	ADP
 un	un	DET
 instituteur	instituteur	NOUN
@@ -536,7 +536,7 @@ de	de	ADP
 mon	mon	DET
 pamphlet	pamphlet	NOUN
 de	de	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 toutes	tout	ADJ
@@ -671,7 +671,7 @@ qui	qui	PRON
 a	avoir	AUX
 porté	porter	VERB
 sur	sur	ADP
-7000	7000	NUM
+7000	7000	DIGIT
 élèves	élève	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -951,7 +951,7 @@ instruction	instruction	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-51	51	NUM
+51	51	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 elle	elle	PRON
@@ -1008,7 +1008,7 @@ l'	le	DET
 .	.	PUNCTsent
 (	(	PUNCTclause
 p.	p.	NOUN
-27	27	NUM
+27	27	DIGIT
 )	)	PUNCTclause
 l'	le	DET
 école	école	NOUN
@@ -1021,7 +1021,7 @@ l'	le	DET
 État-nation.	État-nation.	PROPN
 (	(	PUNCTclause
 p.	p.	NOUN
-27	27	NUM
+27	27	DIGIT
 )	)	PUNCTclause
 elle	elle	PRON
 doit	devoir	VERB
@@ -1049,7 +1049,7 @@ croissance	croissance	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
 p.	p.	PUNCT
-115	115	NUM
+115	115	DIGIT
 )	)	PUNCTclause
 à	à	ADP
 cette	ce	DET
@@ -1088,7 +1088,7 @@ industrielle	industriel	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
 p.	p.	PUNCT
-114	114	NUM
+114	114	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -1139,7 +1139,7 @@ scolarisées.	scolarisées.	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-13	13	NUM
+13	13	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -1197,7 +1197,7 @@ des	un	DET
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-56	56	NUM
+56	56	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Ivan	Ivan	PROPN
@@ -1221,7 +1221,7 @@ déscolarisée.	déscolarisée.	DET
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-9	9	NUM
+9	9	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -1243,7 +1243,7 @@ l'	le	DET
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-27	27	NUM
+27	27	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -1292,7 +1292,7 @@ autrui	autrui	PRON
 .	.	PUNCTsent
 (	(	PUNCTclause
 p.	p.	PUNCT
-122	122	NUM
+122	122	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -2281,16 +2281,16 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 peu	peu	ADV
 après	après	ADP
-1880	1880	NUM
+1880	1880	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 deux	deux	NUM
 guerre mondiale	guerre mondiale	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
-1939	1939	NUM
+1939	1939	DIGIT
 sont	être	AUX
 les	le	DET
 résultantes	résultante	NOUN
@@ -2464,7 +2464,7 @@ sociale	social	ADJ
 ,	,	PUNCTclause
 énergétique	énergétique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 en	en	ADP
 devenant	devenir	VERB
 responsabilité	responsabilité	NOUN
@@ -2946,7 +2946,7 @@ je	je	PRON
 alors	alors	ADV
 âgé	âgé	ADJ
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -3233,8 +3233,8 @@ deux	deux	NUM
 ou	ou	CCONJ
 trois	trois	NUM
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-que	que	PRON
+etc.	etc.	X
+que	que	SCONJ
 on	on	PRON
 le	le_PRON	PRON
 laisse	laisser	VERB
@@ -3711,7 +3711,7 @@ que	que	SCONJ
 je	je	PRON
 appelais	appeler	VERB
 en	en	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 «	«	PUNCTclause
 démocratie	démocratie	NOUN
 »	»	PUNCTclause
@@ -3857,7 +3857,7 @@ que	que	SCONJ
 elle	elle	PRON
 plébiscite	plébisciter	VERB
 à	à	ADP
-99	99	NUM
+99	99	DIGIT
 des	un	ADP_DET
 voix	voix	NOUN
 ;	;	PUNCTclause
@@ -3966,7 +3966,7 @@ Conseil de l'Europe	Conseil de l'Europe	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 juillet	juillet	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 ,	,	PUNCTclause
 demande	demander	VERB
 deux	deux	NUM
@@ -4183,7 +4183,7 @@ arrivés	arriver	VERB
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 en	en	ADP
-1680	1680	NUM
+1680	1680	DIGIT
 ,	,	PUNCTclause
 refusèrent	refuser	VERB
 de	de	ADP
@@ -4489,6 +4489,6 @@ sublimes	sublime	ADJ
 Ferney	Ferney	PROPN
 ,	,	PUNCTclause
 juillet	juillet	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

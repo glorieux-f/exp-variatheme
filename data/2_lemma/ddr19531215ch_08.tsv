@@ -268,7 +268,7 @@ romanche	romanche	NOUN
 parlé	parler	VERB
 par	par	ADP
 moins de	moins de	DET
-40000	40000	NUM
+40000	40000	DIGIT
 habitants	habitant	NOUN
 )	)	PUNCTclause
 mais	mais	CCONJ
@@ -635,7 +635,7 @@ plus ou moins	plus ou moins	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 pendant	pendant	ADP
 la	le	DET
@@ -767,26 +767,24 @@ Näfels	Näfels	PROPN
 ,	,	PUNCTclause
 Vaud	Vaud	PROPN
 son	son	DET
-24	24	NUM
+24	24	DIGIT
 janvier	janvier	NOUN
 et	et	CCONJ
 son	son	DET
-14	14	NUM
+14	14	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 Neuchâtel	Neuchâtel	PROPN
 son	son	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 mars	mars	NOUN
 ;	;	PUNCTclause
 toute	tout	ADJ
 la	le	DET
 Suisse	Suisse	PROPN
-a	avoir	AUX
+a	avoir	VERB
 son	son	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
 !	!	PUNCTsent
 et	et	CCONJ
@@ -829,7 +827,7 @@ ou	ou	CCONJ
 des	un	DET
 Grisons	Grisons	PROPN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 celui	celui	PRON
 des	un	ADP_DET
 régiments	régiment	NOUN
@@ -1384,7 +1382,7 @@ adressé	adresser	VERB
 aux	au	ADP_DET
 Chambres	Chambres	PROPN
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 par	par	ADP
 le	le	DET
 Conseil fédéral	Conseil fédéral	NOUN
@@ -1706,7 +1704,7 @@ aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 grosso modo	grosso modo	ADV
 après	après	ADP
-1300	1300	NUM
+1300	1300	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -1744,7 +1742,7 @@ Aar	Aar	PROPN
 et	et	CCONJ
 Rhin	Rhin	PROPN
 vivent	vivre	VERB
-3	3	NUM
+3	3	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1754,7 +1752,7 @@ Aar	Aar	PROPN
 et	et	CCONJ
 Jura	Jura	PROPN
 ,	,	PUNCTclause
-900000	900000	NUM
+900000	900000	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -1845,7 +1843,7 @@ les	le	DET
 écoles	école	NOUN
 ,	,	PUNCTclause
 à partir de	à partir de	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 manière	manière	NOUN
@@ -2084,7 +2082,7 @@ Allemagne	Allemagne	PROPN
 indéterminé	indéterminé	ADJ
 ,	,	PUNCTclause
 toujours	toujours	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 suivre	suivre	VERB
 un	un	DET
 führer	führer	NOUN
@@ -2251,8 +2249,8 @@ pendant	pendant	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-14	14	NUM
--18	-18	NUM
+14	14	DIGIT
+-18	-18	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Suisse	Suisse	PROPN
@@ -2321,7 +2319,7 @@ de	de	ADP
 leurs	leur	DET
 bases	base	NOUN
 depuis	depuis	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 ils	ils	PRON
 se	se	PRON
@@ -2915,7 +2913,7 @@ rattachés	rattacher	VERB
 la	le	DET
 confédération	confédération	NOUN
 en	en	ADP
-1803	1803	NUM
+1803	1803	DIGIT
 seulement	seulement	ADV
 ,	,	PUNCTclause
 après	après	ADP
@@ -3018,7 +3016,7 @@ pas	pas	ADV
 seulement	seulement	ADV
 utilisé	utiliser	VERB
 par	par	ADP
-146000	146000	NUM
+146000	146000	DIGIT
 tessinois	tessinois	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -3047,7 +3045,7 @@ progressé	progresser	VERB
 très	très	ADV
 rapidement	rapidement	ADV
 depuis	depuis	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -3146,7 +3144,7 @@ message	message	NOUN
 du	du	ADP_DET
 Conseil fédéral	Conseil fédéral	NOUN
 de	de	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 l'	le	DET
 exprime	exprimer	VERB
 avec	avec	ADP
@@ -3987,7 +3985,7 @@ pour	pour	ADP
 la	le	DET
 sauvegarde	sauvegarde	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 du	du	ADP_DET
 lien	lien	NOUN
@@ -4019,7 +4017,7 @@ de	de	ADP
 Westphalie	Westphalie	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1648	1648	NUM
+1648	1648	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 est	être	AUX
@@ -4048,7 +4046,7 @@ et	et	CCONJ
 les	le	DET
 traités	traité	NOUN
 de	de	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 le	le_PRON	PRON
@@ -4172,22 +4170,22 @@ traités	traité	NOUN
 de	de	ADP
 Westphalie	Westphalie	PROPN
 en	en	ADP
-1648	1648	NUM
+1648	1648	DIGIT
 ,	,	PUNCTclause
-traités	traiter	VERB
+traités	traité	NOUN
 de	de	ADP
 Paris	Paris	PROPN
 et	et	CCONJ
 de	de	ADP
 Vienne	Vienne	PROPN
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 déclaration	déclaration	NOUN
 de	de	ADP
 Londres	Londres	PROPN
 en	en	ADP
-1920	1920	NUM
+1920	1920	DIGIT
 ,	,	PUNCTclause
 lors de	lors de	ADP
 l'	le	DET
@@ -4378,7 +4376,7 @@ signées	signer	VERB
 par	par	ADP
 l'	le	DET
 actuel	actuel	ADJ
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 Suisse	Suisse	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -4743,7 +4741,7 @@ la	le	DET
 famine	famine	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 œuvre	œuvre	NOUN
@@ -4769,7 +4767,7 @@ est	être	AUX
 vue	vu	VERB
 dotée	doter	VERB
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 de	de	ADP
 francs	franc	NOUN
@@ -4779,7 +4777,7 @@ Chambres	Chambres	PROPN
 fédérales	fédéral	ADJ
 ,	,	PUNCTclause
 soit	être	AUX
-1	1	NUM
+1	1	DIGIT
 du	du	ADP_DET
 revenu	revenu	NOUN
 national	national	ADJ
@@ -4790,7 +4788,7 @@ sont	être	AUX
 venus	venir	VERB
 se	se	PRON
 ajouter	ajouter	VERB
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 collectés	collecter	VERB
 dans	dans	ADP
@@ -4803,9 +4801,9 @@ les	le	DET
 cantons	canton	NOUN
 .	.	PUNCTsent
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 à	à	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 agence	agence	NOUN
@@ -4833,7 +4831,7 @@ a	avoir	AUX
 compté	compter	VERB
 jusque	jusque	ADP
 à	à	ADP
-3400	3400	NUM
+3400	3400	DIGIT
 collaborateurs	collaborateur	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -4843,7 +4841,7 @@ bénévoles	bénévole	ADJ
 ,	,	PUNCTclause
 assistés	assister	VERB
 par	par	ADP
-25	25	NUM
+25	25	DIGIT
 sections	section	NOUN
 auxiliaires	auxiliaire	ADJ
 dispersées	disperser	VERB
@@ -4860,7 +4858,7 @@ et	et	CCONJ
 leurs	leur	DET
 familles	famille	NOUN
 près de	près de	ADP
-120	120	NUM
+120	120	DIGIT
 millions	million	NOUN
 de	de	ADP
 messages	message	NOUN
@@ -4870,15 +4868,15 @@ en même temps	en même temps	ADV
 le	le	DET
 Cicr	Cicr	PROPN
 entretenait	entretenir	VERB
-31	31	NUM
+31	31	DIGIT
 délégations	délégation	NOUN
 permanentes	permanent	ADJ
 en	en	ADP
-60	60	NUM
+60	60	DIGIT
 pays	pays	NOUN
 ,	,	PUNCTclause
 visitant	visiter	VERB
-3000	3000	NUM
+3000	3000	DIGIT
 camps	camp	NOUN
 militaires	militaire	ADJ
 et	et	CCONJ
@@ -4910,7 +4908,7 @@ Genevois	Genevois	PROPN
 Henry	Henry	PROPN
 Dunant	Dunant	PROPN
 en	en	ADP
-1863	1863	NUM
+1863	1863	DIGIT
 ,	,	PUNCTclause
 ait	avoir	AUX
 adopté	adopter	VERB
@@ -5056,9 +5054,9 @@ cette	ce	DET
 époque	époque	NOUN
 (	(	PUNCTclause
 de	de	ADP
-1864	1864	NUM
+1864	1864	DIGIT
 à	à	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 )	)	PUNCTclause
 offrir	offrir	VERB
 des	un	DET
@@ -5071,7 +5069,7 @@ organismes	organisme	NOUN
 naissants	naissant	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 Genève	Genève	PROPN
 fut	être	AUX
@@ -5180,8 +5178,8 @@ pendant	pendant	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
--1945	-1945	NUM
+1939	1939	DIGIT
+-1945	-1945	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 gouvernement	gouvernement	NOUN
@@ -5192,7 +5190,7 @@ défendre	défendre	VERB
 les	le	DET
 intérêts	intérêt	NOUN
 de	de	ADP
-43	43	NUM
+43	43	DIGIT
 états	état	NOUN
 belligérants	belligérant	ADJ
 sur	sur	ADP
@@ -5288,13 +5286,13 @@ pour	pour	ADP
 la	le	DET
 seule	seul	ADJ
 année	année	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 a	avoir	AUX
 compté	compter	VERB
 que	que	SCONJ
-127	127	NUM
+127	127	DIGIT
 institutions	institution	NOUN
 ,	,	PUNCTclause
 commissions	commission	NOUN
@@ -5545,7 +5543,7 @@ Suisse	Suisse	PROPN
 est	être	AUX
 actuellement	actuellement	ADV
 de	de	ADP
-55	55	NUM
+55	55	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 point	point	NOUN
@@ -5835,7 +5833,7 @@ une	un	DET
 méfiance	méfiance	NOUN
 ,	,	PUNCTclause
 raisonnée	raisonner	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 à l'égard de	à l'égard de	ADP
 tentatives	tentative	NOUN
@@ -5940,10 +5938,10 @@ cependant	cependant	ADV
 acquise	acquérir	VERB
 que	que	ADV
 par	par	ADP
-415000	415000	NUM
+415000	415000	DIGIT
 voix	voix	NOUN
 contre	contre	ADP
-323000	323000	NUM
+323000	323000	DIGIT
 ,	,	PUNCTclause
 dix	dix	NUM
 cantons	canton	NOUN
@@ -6008,7 +6006,7 @@ tels ou tels	tels ou tels	DET
 état	état	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 reprit	reprendre	VERB
@@ -6637,7 +6635,7 @@ ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 que	que	ADV
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 l'	le	DET
 ensemble	ensemble	NOUN
 du	du	ADP_DET

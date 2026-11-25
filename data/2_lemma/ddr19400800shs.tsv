@@ -12,7 +12,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -142,7 +142,7 @@ en	en	ADP
 exemple	exemple	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 clarifions	clarifier	VERB
 notre	notre	DET
@@ -325,7 +325,7 @@ politiques	politique	ADJ
 parlementaires	parlementaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ni	ni	CCONJ
 gauche	gauche	NOUN
@@ -768,7 +768,7 @@ la	le	DET
 Diète	Diète	PROPN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 suite	suite	NOUN
 du	du	ADP_DET
@@ -891,7 +891,7 @@ se	se	PRON
 croire	croire	VERB
 libertaires	libertaire	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 seuls	seul	ADJ
 nos	nos	DET
 staliniens	stalinien	ADJ
@@ -942,7 +942,7 @@ gogos	gogo	NOUN
 enragés	enragé	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 paresse	paresse	NOUN
 de	de	ADP
@@ -1182,7 +1182,7 @@ de	de	ADP
 rien	rien	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 notre	notre	DET
 matérialisme	matérialisme	NOUN
@@ -1374,7 +1374,7 @@ bain	bain	NOUN
 ,	,	PUNCTclause
 l'une	l'une	PRON
 coûtant	coûter	VERB
-300	300	NUM
+300	300	DIGIT
 francs	franc	NOUN
 de plus	de plus	ADV
 que	que	SCONJ
@@ -1400,7 +1400,7 @@ recevaient	recevoir	VERB
 elle	elle	PRON
 leur	leur	PRON
 coûtait	coûter	VERB
-10	10	NUM
+10	10	DIGIT
 francs	franc	NOUN
 par	par	ADP
 an	an	NOUN
@@ -1498,7 +1498,7 @@ la	le	DET
 pente	pente	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 Cultures	Cultures	PROPN
 .	.	PUNCTsent
@@ -1574,7 +1574,7 @@ meilleurs	meilleur	ADJ
 écrivains	écrivain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 tolérance	tolérance	NOUN
 .	.	PUNCTsent
@@ -1746,7 +1746,7 @@ oublient	oublier	VERB
 pas	pas	ADV
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 intolérance	intolérance	NOUN
 .	.	PUNCTsent
@@ -1858,7 +1858,7 @@ au-dehors	au-dehors	ADV
 …	…	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 notre	notre	DET
 naïveté	naïveté	NOUN
@@ -1939,7 +1939,7 @@ de	de	ADP
 un	un	DET
 bandit	bandit	NOUN
 tout	tout	ADJ
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 l'	le	DET
 assommer	assommer	VERB
 .	.	PUNCTsent
@@ -2070,7 +2070,7 @@ déjà	déjà	ADV
 compromise	compromettre	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 poésie	poésie	NOUN
 et	et	CCONJ
@@ -2155,7 +2155,7 @@ la	le	DET
 mentir	mentir	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 neutralité	neutralité	NOUN
 .	.	PUNCTsent
@@ -2163,8 +2163,8 @@ neutralité	neutralité	NOUN
 pendant	pendant	ADP
 l'	le	DET
 hiver	hiver	NOUN
-1939	1939	NUM
--1940	-1940	NUM
+1939	1939	DIGIT
+-1940	-1940	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 avons	avoir	AUX
@@ -2181,7 +2181,7 @@ sibyllin	sibyllin	ADJ
 température	température	NOUN
 maximum	maximum	ADJ
 :	:	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 °.	°.	PUNCT
 »	»	PUNCTclause
 il	il	PRON
@@ -2472,7 +2472,7 @@ grosse	gros	ADJ
 sottise	sottise	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 neutralité	neutralité	NOUN
 «	«	PUNCTclause
@@ -2635,10 +2635,10 @@ certain	certain	ADJ
 moment	moment	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1648	1648	NUM
+1648	1648	DIGIT
 ou	ou	CCONJ
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 par exemple	par exemple	ADV
 .	.	PUNCTsent
 tout	tout	ADJ
@@ -2685,7 +2685,7 @@ un	un	DET
 décret	décret	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 .	.	PUNCTsent
 neutralité	neutralité	NOUN
 perpétuelle	perpétuel	ADJ
@@ -2922,7 +2922,7 @@ les	le	DET
 faits	fait	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 neutralité	neutralité	NOUN
 «	«	PUNCTclause
@@ -2931,7 +2931,7 @@ morale	morale	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
 les	le_PRON	PRON
-traités	traiter	VERB
+traités	traité	NOUN
 nous	nous	PRON
 reconnaissent	reconnaître	VERB
 une	un	DET
@@ -3246,7 +3246,7 @@ esclavage	esclavage	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 diplomatie	diplomatie	NOUN
 .	.	PUNCTsent

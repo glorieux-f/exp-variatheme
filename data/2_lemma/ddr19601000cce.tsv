@@ -19,7 +19,7 @@ la	le	DET
 fondation	fondation	NOUN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -66,9 +66,9 @@ Saint-Germain-en-Laye	Saint-Germain-en-Laye	PROPN
 ce	ce	PRON
 était	être	AUX
 le	le	DET
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 .	.	PUNCTsent
 une	un	DET
 quinzaine	quinzaine	NOUN
@@ -390,9 +390,9 @@ institution	institution	NOUN
 projetée	projeter	VERB
 .	.	PUNCTsent
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 décembre	décembre	NOUN
-1954	1954	NUM
+1954	1954	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 CEC	CEC	PROPN
@@ -471,9 +471,9 @@ des	un	ADP_DET
 gouverneurs	gouverneur	NOUN
 ,	,	PUNCTclause
 le	le	DET
-11	11	NUM
+11	11	DIGIT
 mai	mai	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Genève	Genève	PROPN
@@ -694,7 +694,7 @@ devait	devoir	VERB
 être	être	AUX
 confiée	confier	VERB
 dès	dès	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 au	au	ADP_DET
 		TOKEN
 )	)	PUNCTclause
@@ -776,9 +776,9 @@ gouverneurs	gouverneur	NOUN
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 mars	mars	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 fut	être	AUX
@@ -868,9 +868,8 @@ mise	mise	NOUN
 à	à	ADP
 feu	feu	NOUN
 du	du	ADP_DET
-2	2	NUM
-e	e	NOUN
-étage	étager	VERB
+2e	2e	NUMord
+étage	étage	NOUN
 de	de	ADP
 une	un	DET
 fusée	fusée	NOUN
@@ -929,13 +928,13 @@ tint	tenir	VERB
 à	à	ADP
 Amsterdam	Amsterdam	PROPN
 en	en	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 le second	le second	PRON
 à	à	ADP
 Milan	Milan	PROPN
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 et	et	CCONJ
 le	le	DET
 troisième	troisième	ADJ
@@ -943,7 +942,7 @@ troisième	troisième	ADJ
 Vienne	Vienne	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1959	1959	NUM
+1959	1959	DIGIT
 .	.	PUNCTsent
 un	un	DET
 séminaire	séminaire	NOUN
@@ -979,7 +978,7 @@ de	de	ADP
 Copenhague	Copenhague	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 .	.	PUNCTsent
 la	le	DET
 table ronde	table ronde	NOUN
@@ -1002,7 +1001,7 @@ culturelles	culturel	ADJ
 existantes	existant	ADJ
 .	.	PUNCTsent
 dès	dès	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 compte	compter	VERB
@@ -1051,8 +1050,7 @@ mettre	mettre	VERB
 feu	feu	NOUN
 »	»	PUNCTclause
 le	le	DET
-3	3	NUM
-e	e	SYM
+3e	3e	NUMord
 et	et	CCONJ
 dernier	dernier	ADJ
 étage	étage	NOUN
@@ -1133,7 +1131,7 @@ atteint	atteindre	VERB
 ainsi	ainsi	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 but	but	NOUN

@@ -14,19 +14,19 @@ jeu	jeu	NOUN
 qui	qui	PRON
 dure	durer	VERB
 depuis	depuis	ADP
-50	50	NUM
+50	50	DIGIT
 ans	an	NOUN
 (	(	PUNCTclause
-7	7	NUM
--8	-8	AUX
+7	7	DIGIT
+-8	-8	DIGIT
 septembre	septembre	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 Denis	Denis	PROPN
 de	de	ADP
@@ -69,7 +69,7 @@ la première fois	la première fois	ADV
 à	à	ADP
 New York	New York	PROPN
 en	en	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 l'	le	DET
@@ -605,8 +605,8 @@ inaugurale	inaugural	ADJ
 de	de	ADP
 l'	le	DET
 année	année	NOUN
-1973	1973	NUM
--1974	-1974	NUM
+1973	1973	DIGIT
+-1974	-1974	DIGIT
 à	à	ADP
 l'	le	DET
 institut	institut	NOUN
@@ -718,7 +718,7 @@ après	après	ADP
 vingt	vingt	NUM
 minutes	minute	NOUN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 je	je	PRON
 lis	lire	VERB
 dans	dans	ADP
@@ -986,7 +986,7 @@ est	être	AUX
 à	à	ADP
 Barbara	Barbara	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 y	y	PRON
@@ -1056,7 +1056,7 @@ banquet	banquet	NOUN
 consacré	consacrer	VERB
 au	au	ADP_DET
 nombre	nombre	NOUN
-21	21	NUM
+21	21	DIGIT
 —	—	PUNCTclause
 nombre	nombre	NOUN
 sacré	sacré	ADJ
@@ -1080,7 +1080,7 @@ vie	vie	NOUN
 nous	nous	PRON
 avions	avoir	AUX
 lancé	lancer	VERB
-21	21	NUM
+21	21	DIGIT
 invitations	invitation	NOUN
 à	à	ADP
 dîner	dîner	VERB
@@ -1113,7 +1113,7 @@ chapitre	chapitre	NOUN
 consacré	consacrer	VERB
 au	au	ADP_DET
 nombre	nombre	NOUN
-21	21	NUM
+21	21	DIGIT
 par	par	ADP
 l'	le	DET
 occultiste	occultiste	NOUN
@@ -1315,7 +1315,7 @@ aperçut	apercevoir	VERB
 que	que	SCONJ
 il	il	PRON
 restait	rester	VERB
-21	21	NUM
+21	21	DIGIT
 personnes	personne	NOUN
 dans	dans	ADP
 la	le	DET
@@ -1333,7 +1333,7 @@ l'	le	DET
 autel	autel	NOUN
 du	du	ADP_DET
 nombre	nombre	NOUN
-21	21	NUM
+21	21	DIGIT
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 une	un	DET

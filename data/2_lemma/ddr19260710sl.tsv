@@ -14,9 +14,9 @@ Henry	Henry	PROPN
 de	de	ADP
 Montherlant	Montherlant	PROPN
 (	(	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1926	1926	NUM
+1926	1926	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -241,7 +241,7 @@ ouvrages	ouvrage	NOUN
 de	de	ADP
 Montherlant	Montherlant	PROPN
 .	.	PUNCTsent
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 on	on	PRON
 le	le_PRON	PRON
@@ -287,7 +287,7 @@ vie	vie	NOUN
 animale	animal	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 justement	justement	ADV
 parce que	parce que	SCONJ
 il	il	PRON
@@ -482,7 +482,7 @@ que	que	SCONJ
 sent	sentir	VERB
 la	le	DET
 bête	bête	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 elle	elle	PRON
 .	.	PUNCTsent
 et	et	CCONJ
@@ -1156,7 +1156,7 @@ politiques	politique	ADJ
 ,	,	PUNCTclause
 sociaux	social	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -1327,7 +1327,7 @@ un	un	DET
 de	de	ADP
 grandeur	grandeur	NOUN
 .	.	PUNCTsent
-n'est-ce	n'est-ce	VERB
+N'est-ce	N'est-ce	PROPN
 point	point	ADV
 une	un	DET
 solution	solution	NOUN

@@ -14,17 +14,17 @@ de	de	ADP
 la	le	DET
 télévision	télévision	NOUN
 (	(	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 novembre	novembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Genève	Genève	PROPN
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 novembre	novembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 monsieur	monsieur	NOUN
@@ -32,7 +32,7 @@ le	le	DET
 directeur	directeur	NOUN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 tout le monde	tout le monde	PRON
 parle	parler	VERB
 de	de	ADP
@@ -126,7 +126,7 @@ un	un	DET
 lignage	lignage	NOUN
 standard	standard	ADJ
 de	de	ADP
-405	405	NUM
+405	405	DIGIT
 ;	;	PUNCTclause
 la	le	DET
 France	France	PROPN
@@ -134,7 +134,7 @@ France	France	PROPN
 un	un	DET
 lignage	lignage	NOUN
 de	de	ADP
-819	819	NUM
+819	819	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 la plupart	la plupart	PRON
@@ -149,7 +149,7 @@ URSS	URSS	PROPN
 un	un	DET
 lignage	lignage	NOUN
 de	de	ADP
-625	625	NUM
+625	625	DIGIT
 .	.	PUNCTsent
 lorsque	lorsque	SCONJ
 les	le	DET
@@ -250,4 +250,4 @@ monsieur	monsieur	NOUN
 le	le	DET
 directeur	directeur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X

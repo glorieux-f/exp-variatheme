@@ -24,7 +24,7 @@ Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 septembre	septembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -397,7 +397,7 @@ de	de	ADP
 la	le	DET
 paroisse	paroisse	NOUN
 ,	,	PUNCTclause
-1913	1913	NUM
+1913	1913	DIGIT
 .	.	PUNCTsent
 Deux	Deux	NUM
 bons	bon	ADJ
@@ -1281,7 +1281,7 @@ choses	chose	NOUN
 et	et	CCONJ
 l'on	on	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 tout	tout	PRON
 abandonner	abandonner	VERB
 au	au	ADP_DET
@@ -1308,9 +1308,9 @@ instant	instant	NOUN
 parfait	parfait	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 octobre	octobre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
@@ -1375,9 +1375,9 @@ mon	mon	DET
 état	état	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 octobre	octobre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Six	Six	NUM
@@ -1463,9 +1463,9 @@ vient	venir	VERB
 pas	pas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-31	31	NUM
+31	31	DIGIT
 octobre	octobre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -2235,7 +2235,7 @@ Berne	Berne	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 novembre	novembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 au	au	ADP_DET
@@ -3305,7 +3305,7 @@ paix	paix	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 janvier	janvier	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -3363,7 +3363,9 @@ frappé	frapper	VERB
 de	de	ADP
 constater	constater	VERB
 que	que	SCONJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
@@ -3387,7 +3389,7 @@ viennent	venir	VERB
 à	à	ADP
 louer	louer	VERB
 les mêmes	les mêmes	PRON
-traits	traire	VERB
+traits	trait	NOUN
 .	.	PUNCTsent
 je	je	PRON
 me	me	PRON
@@ -3568,7 +3570,7 @@ prolongée	prolonger	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 février	février	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 monté	monter	VERB
@@ -4028,7 +4030,7 @@ forts	fort	NOUN
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 février	février	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 terminé	terminer	VERB
@@ -4106,7 +4108,7 @@ Jacob	Jacob	PROPN
 Burckhardt	Burckhardt	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1871	1871	NUM
+1871	1871	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 écrit	écrire	VERB
@@ -4186,7 +4188,7 @@ et	et	CCONJ
 encore	encore	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1889	1889	NUM
+1889	1889	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 les	le	DET
@@ -4360,7 +4362,7 @@ opinion	opinion	NOUN
 début	début	NOUN
 de	de	ADP
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -6456,9 +6458,9 @@ l'	le_PRON	PRON
 imagine	imaginer	VERB
 .	.	PUNCTsent
 le	le	DET
-21	21	NUM
+21	21	DIGIT
 mars	mars	NOUN
-1530	1530	NUM
+1530	1530	DIGIT
 ,	,	PUNCTclause
 Manuel	Manuel	PROPN
 parut	paraître	VERB
@@ -6473,10 +6475,9 @@ de	de	ADP
 Baden	Baden	PROPN
 .	.	PUNCTsent
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 au	au	ADP_DET
-12	12	NUM
+12	12	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -6491,7 +6492,7 @@ de	de	ADP
 Berne	Berne	PROPN
 .	.	PUNCTsent
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -6500,7 +6501,7 @@ comme	comme	ADP
 absent	absent	NOUN
 .	.	PUNCTsent
 le	le	DET
-18	18	NUM
+18	18	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 le	le_PRON	PRON
@@ -6512,7 +6513,7 @@ de	de	ADP
 banneret	banneret	NOUN
 .	.	PUNCTsent
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -6616,9 +6617,9 @@ devant	devant	ADP
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -6693,7 +6694,7 @@ de	de	ADP
 l'	le	DET
 été	été	NOUN
 de	de	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Périgny	Périgny	PROPN
@@ -7197,7 +7198,7 @@ vergers	verger	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Mars	Mars	PROPN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 entre	entre	ADP
@@ -7280,8 +7281,7 @@ murmurait	murmurer	VERB
 en passant	en passant	ADV
 devant	devant	ADP
 le	le	DET
-5	5	NUM
-e	e	SYM
+5e	5e	NUMord
 étage	étage	NOUN
 l'	le	DET
 homme	homme	NOUN
@@ -7289,8 +7289,7 @@ qui	qui	PRON
 était	être	AUX
 tombé	tomber	VERB
 du	du	ADP_DET
-10	10	NUM
-e	e	NOUN
+10e	10e	NUMord
 )	)	PUNCTclause
 .	.	PUNCTsent
 de nouveau	de nouveau	ADV

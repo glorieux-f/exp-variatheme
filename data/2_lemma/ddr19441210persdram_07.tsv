@@ -6,7 +6,7 @@
 # title = 5. Luther et la liberté de la personne
 
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 Luther	Luther	PROPN
 et	et	CCONJ
@@ -431,7 +431,7 @@ tout	tout	ADV
 Dieu	Dieu	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-traité	traiter	VERB
+traité	traité	NOUN
 du	du	ADP_DET
 serf	serf	NOUN
 arbitre	arbitrer	VERB
@@ -445,7 +445,7 @@ on	on	PRON
 lui	lui	PRON
 faisait	faire	VERB
 en	en	ADP
-1537	1537	NUM
+1537	1537	DIGIT
 de	de	ADP
 éditer	éditer	VERB
 ses	son	DET
@@ -515,7 +515,7 @@ dogmatique	dogmatique	ADJ
 mais	mais	CCONJ
 nous	nous	PRON
 touchons	toucher	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 au	au	ADP_DET
 centre	centre	NOUN
 du	du	ADP_DET
@@ -641,7 +641,7 @@ arbitrio	arbitrio	X
 ,	,	PUNCTclause
 écrit	écrire	VERB
 en	en	ADP
-1525	1525	NUM
+1525	1525	DIGIT
 pour	pour	ADP
 réfuter	réfuter	VERB
 la	le	DET
@@ -922,7 +922,7 @@ ne	ne	ADV
 y	y	PRON
 sont	être	AUX
 pas	pas	ADV
-traités	traiter	VERB
+traités	traité	ADJ
 en	en	ADP
 forme	forme	NOUN
 ,	,	PUNCTclause
@@ -3343,8 +3343,8 @@ Phil	Phil	PROPN
 .	.	PUNCTsent
 II	II	NUM
 ,	,	PUNCTclause
-12	12	NUM
--13	-13	NUM
+12	12	DIGIT
+-13	-13	DIGIT
 )	)	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -3764,7 +3764,7 @@ ce	ce	DET
 désespoir	désespoir	NOUN
 et	et	CCONJ
 combien	combien	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 la	le	DET
 grâce	grâce	NOUN
 »	»	PUNCTclause

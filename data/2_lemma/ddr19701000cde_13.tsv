@@ -96,7 +96,7 @@ en	en	ADP
 classe	classe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 déséquilibres	déséquilibre	NOUN
@@ -165,7 +165,7 @@ fins	fin	NOUN
 prévues	prévoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 une	un	DET
 série	série	NOUN
@@ -211,7 +211,7 @@ où	où	PRON
 pollution	pollution	NOUN
 de	de	ADP
 près de	près de	ADP
-100	100	NUM
+100	100	DIGIT
 kilomètres	mètre	NOUN
 de	de	ADP
 côtes	côte	NOUN
@@ -283,7 +283,7 @@ en	en	ADP
 décollant	décoller	VERB
 autant	autant	ADV
 que	que	SCONJ
-10000	10000	NUM
+10000	10000	DIGIT
 voitures	voiture	NOUN
 .	.	PUNCTsent
 Onze	Onze	NUM
@@ -302,7 +302,7 @@ aviation	aviation	NOUN
 le	le	DET
 bruit	bruit	NOUN
 atteint	atteindre	VERB
-100	100	NUM
+100	100	DIGIT
 décibels	décibel	NOUN
 dans	dans	ADP
 les	le	DET
@@ -312,14 +312,14 @@ fenêtres	fenêtre	NOUN
 fermées	fermé	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-114	114	NUM
+114	114	DIGIT
 décibels	décibel	NOUN
 fenêtres	fenêtre	NOUN
 ouvertes	ouvert	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
 à partir de	à partir de	ADP
-85	85	NUM
+85	85	DIGIT
 décibels	décibel	NOUN
 ,	,	PUNCTclause
 troubles	trouble	NOUN
@@ -330,7 +330,7 @@ enfants	enfant	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 serait	être	AUX
@@ -428,7 +428,7 @@ six	six	NUM
 premiers	premier	ADJ
 mois	mois	NOUN
 de	de	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 :	:	PUNCTclause
 avalanches	avalanche	NOUN
 dans	dans	ADP
@@ -664,7 +664,7 @@ et	et	CCONJ
 naturels	naturel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 l'	le	DET
@@ -911,7 +911,7 @@ barrage	barrage	NOUN
 .	.	PUNCTsent
 celui	celui	PRON
 retient	retenir	VERB
-110	110	NUM
+110	110	DIGIT
 millions	million	NOUN
 de	de	ADP
 tonnes	tonne	NOUN
@@ -1041,7 +1041,7 @@ disparaître	disparaître	VERB
 définitivement	définitivement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 écologie	écologie	NOUN
@@ -1129,7 +1129,7 @@ habitat	habitat	NOUN
 loisirs	loisir	NOUN
 créateurs	créateur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1200,7 +1200,7 @@ de	de	ADP
 pin	pin	NOUN
 brunissent	brunir	VERB
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 km	km	NOUN
 à la ronde	à la ronde	ADV
 et	et	CCONJ
@@ -1265,7 +1265,7 @@ fumée	fumée	NOUN
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 janvier	janvier	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -1329,7 +1329,7 @@ haute	haut	ADJ
 vallée	vallée	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 retrouve	retrouver	VERB
@@ -1357,7 +1357,7 @@ villes	ville	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
 avril	avril	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 intitulée	intituler	VERB
 «	«	PUNCTclause
@@ -1515,9 +1515,9 @@ du	du	ADP_DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 ,	,	PUNCTclause
 le	le	DET
-12	12	NUM
+12	12	DIGIT
 février	février	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 insiste	insister	VERB
 sur	sur	ADP
@@ -1685,7 +1685,7 @@ la	le	DET
 montagne	montagne	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ne	ne	ADV

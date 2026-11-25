@@ -11,10 +11,9 @@ sur	sur	ADP
 le	le	DET
 national-socialisme	national-socialisme	NOUN
 (	(	PUNCTclause
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 juin	juin	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -31,9 +30,9 @@ journal	journal	NOUN
 »	»	PUNCTclause
 tenu	tenir	VERB
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 et	et	CCONJ
-1936	1936	NUM
+1936	1936	DIGIT
 par	par	ADP
 l'	le	DET
 auteur	auteur	NOUN
@@ -1031,7 +1030,7 @@ industriel	industriel	NOUN
 .	.	PUNCTsent
 —	—	PUNCTclause
 avant	avant	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 sa	son	DET
 vie	vie	NOUN
@@ -1459,7 +1458,7 @@ avez	avoir	AUX
 vous	vous	PRON
 ?	?	PUNCTsent
 —	—	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -1481,7 +1480,7 @@ plus de	plus de	DET
 vingt	vingt	NUM
 ans	an	NOUN
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ne	ne	ADV
 comprendront	comprendre	VERB
 jamais	jamais	ADV
@@ -1550,7 +1549,7 @@ détesté	détester	VERB
 (	(	PUNCTclause
 note	note	NOUN
 de	de	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 :	:	PUNCTclause
 cet	ce	DET
 étudiant	étudiant	NOUN
@@ -1612,7 +1611,7 @@ ma	mon	DET
 fille	fille	NOUN
 aînée	aîné	NOUN
 a	avoir	VERB
-18	18	NUM
+18	18	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 elle	elle	PRON
@@ -1694,7 +1693,7 @@ délicates	délicat	ADJ
 enfants	enfant	NOUN
 naturels	naturel	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 vous	vous	PRON
 me	me	PRON
@@ -1739,7 +1738,7 @@ fils	fils	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 a	avoir	VERB
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -1955,7 +1954,7 @@ les	le	DET
 nazis	nazi	NOUN
 ,	,	PUNCTclause
 avant	avant	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 quand	quand	SCONJ
 il	il	PRON
@@ -2018,7 +2017,7 @@ lutte	lutte	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	VERB
-50	50	NUM
+50	50	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 se	se	PRON
@@ -2423,7 +2422,7 @@ coup	coup	NOUN
 de	de	ADP
 audace	audace	NOUN
 du	du	ADP_DET
-7	7	NUM
+7	7	DIGIT
 mars	mars	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -2502,9 +2501,9 @@ reprends	reprendre	VERB
 mes	mon	DET
 notes	note	NOUN
 du	du	ADP_DET
-11	11	NUM
+11	11	DIGIT
 mars	mars	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
@@ -2605,7 +2604,7 @@ portes	porte	NOUN
 se	se	PRON
 ouvrent	ouvrir	VERB
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 heures	heure	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2617,7 +2616,7 @@ est	être	AUX
 annoncé	annoncer	VERB
 que	que	SCONJ
 pour	pour	ADP
-9	9	NUM
+9	9	DIGIT
 heures	heure	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2660,7 +2659,7 @@ viendra	venir	VERB
 au	au	ADP_DET
 balcon	balcon	NOUN
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 heures	heure	NOUN
 .	.	PUNCTsent
 d'ici là	d'ici là	ADV
@@ -2704,9 +2703,9 @@ les	le	DET
 portes	porte	NOUN
 que	que	ADV
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 heures	heure	NOUN
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 comment	comment	ADV
 fait	faire	VERB
@@ -2716,7 +2715,7 @@ occuper	occuper	VERB
 en	en	ADP
 dix	dix	NUM
 minutes	minute	NOUN
-30000	30000	NUM
+30000	30000	DIGIT
 places	place	NOUN
 assises	assis	ADJ
 ?	?	PUNCTsent
@@ -2825,7 +2824,7 @@ parti	parti	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
 les	le	DET
-45	45	NUM
+45	45	DIGIT
 salles	salle	NOUN
 de	de	ADP
 la	le	DET
@@ -2851,7 +2850,7 @@ dans	dans	ADP
 cette	ce	DET
 cité	cité	NOUN
 de	de	ADP
-700000	700000	NUM
+700000	700000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3383,7 +3382,7 @@ et	et	CCONJ
 des	un	ADP_DET
 classes	classe	NOUN
 avant	avant	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 circonstances	circonstance	NOUN
@@ -3609,7 +3608,7 @@ les mêmes	les mêmes	PRON
 théoriciens	théoricien	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 vous	vous	PRON
 démontraient	démontrer	VERB
@@ -4045,7 +4044,7 @@ de	de	ADP
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 une	un	DET
 lettre	lettre	NOUN
@@ -4373,14 +4372,14 @@ millions	million	NOUN
 de	de	ADP
 chômeurs	chômeur	NOUN
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
 on	on	PRON
 manque de	manque de	ADP
 main-d'œuvre	main-d'œuvre	NOUN
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 .	.	PUNCTsent
 la	le	DET
 dignité	dignité	NOUN

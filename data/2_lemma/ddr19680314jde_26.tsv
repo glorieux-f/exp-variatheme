@@ -23,9 +23,9 @@ Estoril	Estoril	PROPN
 Portugal	Portugal	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-28	28	NUM
+28	28	DIGIT
 août	août	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -46,7 +46,7 @@ l'	le	DET
 an	an	NOUN
 de	de	ADP
 grâce	grâce	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 an	an	NOUN
@@ -323,7 +323,7 @@ déchus	déchu	ADJ
 ,	,	PUNCTclause
 des	un	DET
 journalistes	journaliste	NOUN
-compromis	compromettre	VERB
+compromis	compromis	ADJ
 ,	,	PUNCTclause
 des	un	DET
 ingénieurs	ingénieur	NOUN
@@ -1029,7 +1029,7 @@ victoire	victoire	NOUN
 (	(	PUNCTclause
 celle	celle	PRON
 de	de	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -1561,7 +1561,7 @@ fils	fils	NOUN
 ,	,	PUNCTclause
 âgé	âgé	ADJ
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 me	me	PRON
@@ -1690,7 +1690,7 @@ penseront	penser	VERB
 les	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 quelques	quelque	DET
 années	année	NOUN
 ,	,	PUNCTclause
@@ -2804,9 +2804,9 @@ mer	mer	NOUN
 ↵↵	↵↵	PUNCTstruct
 Lisbonne	Lisbonne	PROPN
 ,	,	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Blanche	Blanche	PROPN
@@ -3099,9 +3099,9 @@ grâce	grâce	NOUN
 l'	le	DET
 Exeter	Exeter	PROPN
 ,	,	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -3429,11 +3429,11 @@ bien	bien	ADV
 lui-même	lui-même	PRON
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
-21	21	NUM
+21	21	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 à bord	à bord	ADV
@@ -3460,7 +3460,7 @@ un	un	DET
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
@@ -3555,7 +3555,7 @@ impose	imposer	VERB
 alors	alors	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 France	France	PROPN
 .	.	PUNCTsent
@@ -3603,7 +3603,7 @@ longtemps	longtemps	ADV
 royaume	royaume	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 guerre	guerre	NOUN
 .	.	PUNCTsent
@@ -3633,7 +3633,7 @@ route	route	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 mon	mon	DET
 avenir	avenir	NOUN
@@ -3852,11 +3852,11 @@ mer	mer	NOUN
 ,	,	PUNCTclause
 nuit	nuit	NOUN
 du	du	ADP_DET
-14	14	NUM
+14	14	DIGIT
 au	au	ADP_DET
-15	15	NUM
+15	15	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -4135,9 +4135,9 @@ même	même	ADJ
 peuple	peuple	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 chaque	chaque	DET
@@ -4411,9 +4411,9 @@ fût	être	AUX
 définitive	définitif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 comment	comment	ADV
@@ -4505,9 +4505,9 @@ victoire	victoire	NOUN
 Grande-Bretagne	Grande-Bretagne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -4603,9 +4603,9 @@ mon	mon	DET
 approbation	approbation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 rade	rade	NOUN
@@ -4848,7 +4848,7 @@ New York	New York	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ces	ce	DET

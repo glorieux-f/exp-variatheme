@@ -729,7 +729,7 @@ lui	lui	PRON
 donne	donner	VERB
 Condorcet	Condorcet	PROPN
 dès	dès	ADP
-1793	1793	NUM
+1793	1793	DIGIT
 .	.	PUNCTsent
 les	le	DET
 deux	deux	NUM
@@ -773,7 +773,7 @@ de	de	ADP
 Sorel	Sorel	PROPN
 datent	dater	VERB
 de	de	ADP
-1905	1905	NUM
+1905	1905	DIGIT
 —	—	PUNCTclause
 on	on	PRON
 observe	observer	VERB
@@ -2066,7 +2066,9 @@ devenir	devenir	VERB
 une	un	DET
 personne	personne	NOUN
 que	que	PRON
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 existence	existence	NOUN
 de	de	ADP
@@ -2321,7 +2323,7 @@ fut	être	AUX
 rétabli	rétablir	VERB
 que	que	SCONJ
 en	en	ADP
-1452	1452	NUM
+1452	1452	DIGIT
 par	par	ADP
 une	un	DET
 bulle	bulle	NOUN
@@ -2378,7 +2380,7 @@ l'	le	DET
 époque	époque	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1537	1537	NUM
+1537	1537	DIGIT
 enfin	enfin	ADV
 ,	,	PUNCTclause
 Paul	Paul	PROPN
@@ -2801,7 +2803,7 @@ collectiviste	collectiviste	ADJ
 et	et	CCONJ
 la	le	DET
 praxis	praxis	NOUN
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 la	le	DET
 theoria	theoria	NOUN
 des	un	ADP_DET
@@ -2946,7 +2948,7 @@ de	de	ADP
 progressisme	progressisme	NOUN
 »	»	PUNCTclause
 depuis	depuis	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 est	être	AUX
 donc	donc	ADV
 à	à	ADP

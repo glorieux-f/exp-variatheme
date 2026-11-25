@@ -14,9 +14,9 @@ la	le	DET
 littérature	littérature	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 octobre	octobre	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -648,7 +648,7 @@ l'	le	DET
 Europe	Europe	PROPN
 fédérée	fédérer	VERB
 dès	dès	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 fondation	fondation	NOUN
 et	et	CCONJ
@@ -865,9 +865,9 @@ se	se	PRON
 est	être	AUX
 joué	jouer	VERB
 entre	entre	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 et	et	CCONJ
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -972,9 +972,9 @@ dire	dire	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 à	à	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 durant	durant	ADP
 cette	ce	DET
@@ -1337,7 +1337,7 @@ fus	être	VERB
 étroitement	étroitement	ADV
 associé	associer	VERB
 dès	dès	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 jusque	jusque	ADP
 à	à	ADP
 la	le	DET
@@ -1402,7 +1402,7 @@ que	que	SCONJ
 je	je	PRON
 envoyai	envoyer	VERB
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
 à	à	ADP
 la	le	DET
@@ -1422,7 +1422,7 @@ Paris	Paris	PROPN
 qui	qui	PRON
 parut	paraître	VERB
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 ,	,	PUNCTclause
 lendemain	lendemain	NOUN
@@ -1474,7 +1474,7 @@ pour	pour	ADP
 «	«	PUNCTclause
 insultes	insulte	NOUN
 à	à	ADP
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 étranger	étranger	ADJ
 risquant	risquer	VERB
 de mise	de mise	ADJ
@@ -1666,7 +1666,7 @@ dit	dire	VERB
 que	que	SCONJ
 je	je	PRON
 étais	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 donner	donner	VERB
 à	à	ADP
 leur	leur	DET
@@ -1687,7 +1687,7 @@ littéraire	littéraire	ADJ
 ce	ce	PRON
 était	être	AUX
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 y	y	PRON
@@ -2048,7 +2048,7 @@ dérivée	dériver	VERB
 de	de	ADP
 Proudhon	Proudhon	PROPN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 de	de	ADP
 une	un	DET

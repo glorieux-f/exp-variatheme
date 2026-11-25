@@ -16,7 +16,7 @@ des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -27,7 +27,7 @@ courantes	courant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 date	date	NOUN
 du	du	ADP_DET
@@ -535,12 +535,12 @@ mois	mois	NOUN
 exactement	exactement	ADV
 ,	,	PUNCTclause
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
 au	au	ADP_DET
-16	16	NUM
+16	16	DIGIT
 novembre	novembre	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -764,9 +764,9 @@ Paris	Paris	PROPN
 ,	,	PUNCTclause
 avec	avec	ADP
 ses	son	DET
-9	9	NUM
+9	9	DIGIT
 ou	ou	CCONJ
-10	10	NUM
+10	10	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -782,7 +782,7 @@ qui	qui	PRON
 ne	ne	ADV
 a	avoir	VERB
 que	que	ADV
-0,7	0,7	NUM
+0,7	0,7	DIGIT
 million	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1058,7 +1058,7 @@ défense	défense	NOUN
 ,	,	PUNCTclause
 tourisme	tourisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 doit	devoir	VERB
 dépendre	dépendre	VERB
@@ -1584,7 +1584,7 @@ en tant que	en tant que	ADP
 État-nation	État-nation	PROPN
 réduit	réduire	VERB
 —	—	PUNCTclause
-c'est-à-dire	c'est-à-dire	NOUN
+c'est-à-dire	c'est-à-dire	CCONJ
 gouvernée	gouverner	VERB
 par	par	ADP
 un	un	DET
@@ -2075,7 +2075,7 @@ faut	falloir	VERB
 apprendre	apprendre	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 à	à	ADP
 déterminer	déterminer	VERB
@@ -2111,7 +2111,7 @@ les	le	DET
 constituer	constituer	VERB
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 à	à	ADP
 chercher	chercher	VERB
@@ -2140,7 +2140,7 @@ mondial	mondial	ADJ
 )	)	PUNCTclause
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 à	à	ADP
 admettre	admettre	VERB
@@ -2877,7 +2877,7 @@ plus	plus	ADV
 loin	loin	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 pouvoirs	pouvoir	NOUN
@@ -2914,7 +2914,7 @@ et	et	CCONJ
 culturelles	culturel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 modules	module	NOUN

@@ -63,7 +63,7 @@ moyen	moyen	ADJ
 oublie	oublier	VERB
 seulement	seulement	ADV
 que	que	SCONJ
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 cela	cela	PRON
 se	se	PRON
@@ -257,7 +257,7 @@ cependant	cependant	ADV
 lorsque	lorsque	SCONJ
 ,	,	PUNCTclause
 en	en	ADP
-1308	1308	NUM
+1308	1308	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 avocat	avocat	NOUN
@@ -379,7 +379,7 @@ pour le moins	pour le moins	ADV
 aussi	aussi	ADV
 convaincants	convaincant	ADJ
 que	que	SCONJ
-1291	1291	NUM
+1291	1291	DIGIT
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
@@ -753,7 +753,7 @@ unité	unité	NOUN
 territoriale	territorial	ADJ
 .	.	PUNCTsent
 aux	au	ADP_DET
-110000	110000	NUM
+110000	110000	DIGIT
 rescapés	rescapé	NOUN
 de	de	ADP
 Bibracte	Bibracte	PROPN
@@ -1352,7 +1352,7 @@ meurt	mourir	VERB
 sans	sans	ADP
 enfants	enfant	NOUN
 en	en	ADP
-1218	1218	NUM
+1218	1218	DIGIT
 .	.	PUNCTsent
 jamais	jamais	ADV
 la	le	DET
@@ -1361,7 +1361,7 @@ ne	ne	ADV
 avait	avoir	AUX
 été	être	AUX
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 se	se	PRON
 unifier	unifier	VERB
 sous	sous	ADP
@@ -1467,7 +1467,7 @@ va	aller	VERB
 séparer	séparer	VERB
 une fois de plus	une fois de plus	ADV
 —	—	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 pour	pour	ADP
 longtemps	longtemps	ADV
 —	—	PUNCTclause
@@ -1523,7 +1523,7 @@ se	se	PRON
 manifester	manifester	VERB
 .	.	PUNCTsent
 vers	vers	ADP
-1025	1025	NUM
+1025	1025	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 construit	construire	VERB
@@ -1586,7 +1586,7 @@ qui	qui	PRON
 est	être	AUX
 né	naître	VERB
 en	en	ADP
-1218	1218	NUM
+1218	1218	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 année	année	NOUN
@@ -1617,7 +1617,7 @@ se	se	PRON
 elle	elle	PRON
 aussi	aussi	ADV
 en	en	ADP
-1263	1263	NUM
+1263	1263	DIGIT
 .	.	PUNCTsent
 est	être	AUX
 ce	ce	DET
@@ -1716,7 +1716,7 @@ de	de	ADP
 Bâle	Bâle	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1273	1273	NUM
+1273	1273	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 ce	ce	PRON
@@ -1879,7 +1879,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
 vers	vers	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 ,	,	PUNCTclause
 au cours de	au cours de	ADP
 une	un	DET
@@ -2097,7 +2097,7 @@ et	et	CCONJ
 de	de	ADP
 Nidwald	Nidwald	PROPN
 aux environs de	aux environs de	ADP
-1300	1300	NUM
+1300	1300	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	DET
@@ -3321,7 +3321,7 @@ Uri	Uri	PROPN
 dès	dès	ADP
 l'	le	DET
 an	an	NOUN
-1231	1231	NUM
+1231	1231	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 immédiateté	immédiateté	NOUN
@@ -3365,7 +3365,7 @@ couronne	couronne	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1240	1240	NUM
+1240	1240	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 commune	commun	NOUN
@@ -3445,7 +3445,7 @@ une	un	DET
 alliance	alliance	NOUN
 militaire	militaire	ADJ
 en	en	ADP
-1273	1273	NUM
+1273	1273	DIGIT
 ,	,	PUNCTclause
 au moment de	au moment de	ADP
 l'	le	DET
@@ -3542,9 +3542,9 @@ de	de	ADP
 Frédéric	Frédéric	PROPN
 (	(	PUNCTclause
 de	de	ADP
-1250	1250	NUM
+1250	1250	DIGIT
 à	à	ADP
-1273	1273	NUM
+1273	1273	DIGIT
 )	)	PUNCTclause
 a	avoir	AUX
 laissé	laisser	VERB
@@ -3644,8 +3644,7 @@ année	année	NOUN
 au	au	ADP_DET
 soir	soir	NOUN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
 ,	,	PUNCTclause
 la	le	DET

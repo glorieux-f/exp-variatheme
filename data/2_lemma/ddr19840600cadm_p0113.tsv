@@ -16,7 +16,7 @@ des	un	ADP_DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -33,7 +33,7 @@ national	national	ADJ
 d'abord	d'abord	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 cas	cas	NOUN
@@ -155,7 +155,7 @@ cantonale	cantonal	ADJ
 le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 février	février	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -235,7 +235,7 @@ le	le	DET
 monde	monde	NOUN
 précisait	préciser	VERB
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 mai	mai	NOUN
 en	en	ADP
 toute	toute	DET
@@ -289,7 +289,7 @@ au-dessus de	au-dessus de	ADP
 la	le	DET
 barre	barre	NOUN
 des	un	ADP_DET
-50	50	NUM
+50	50	DIGIT
 ?	?	PUNCTsent
 —	—	PUNCTclause
 la	le	DET
@@ -522,7 +522,7 @@ identité	identité	NOUN
 le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 mai	mai	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -588,13 +588,13 @@ possible	possible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-21	21	NUM
+21	21	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 un	un	DET
 débat	débat	NOUN
 de	de	ADP
-80	80	NUM
+80	80	DIGIT
 minutes	minute	NOUN
 marquant	marquer	VERB
 l'	le	DET
@@ -751,7 +751,7 @@ laquelle	laquelle	PRON
 allait	aller	VERB
 ,	,	PUNCTclause
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 ,	,	PUNCTclause
 «	«	PUNCTclause
@@ -759,7 +759,7 @@ passer	passer	VERB
 la	le	DET
 barre	barre	NOUN
 des	un	ADP_DET
-50	50	NUM
+50	50	DIGIT
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -809,7 +809,7 @@ ne	ne	ADV
 se	se	PRON
 est	être	AUX
 dit	dire	VERB
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 consentir	consentir	VERB
 à	à	ADP
 l'	le	DET
@@ -827,7 +827,7 @@ politiciens	politicien	NOUN
 chevronnés	chevronner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 cas	cas	NOUN
@@ -854,7 +854,7 @@ a	avoir	AUX
 confirmé	confirmer	VERB
 ,	,	PUNCTclause
 le	le	DET
-21	21	NUM
+21	21	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -866,7 +866,7 @@ considèrent	considérer	VERB
 la	le	DET
 consultation	consultation	NOUN
 du	du	ADP_DET
-14	14	NUM
+14	14	DIGIT
 juin	juin	NOUN
 comme	comme	ADP
 un	un	DET
@@ -902,9 +902,9 @@ Royaume-Uni	Royaume-Uni	PROPN
 le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
-23	23	NUM
+23	23	DIGIT
 mai	mai	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -934,7 +934,7 @@ pour	pour	ADP
 un	un	DET
 total	total	NOUN
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 livres	livre	NOUN
@@ -977,7 +977,7 @@ pas	pas	ADV
 sa	son	DET
 ristourne	ristourne	NOUN
 pour	pour	ADP
-1983	1983	NUM
+1983	1983	DIGIT
 »	»	PUNCTclause
 .	.	PUNCTsent
 et	et	CCONJ
@@ -1078,7 +1078,7 @@ la	le	DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 le	le	DET
 cas	cas	NOUN
@@ -1101,9 +1101,9 @@ Corriere	Corriere	PROPN
 della	della	X
 Sera	Sera	PROPN
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 mai	mai	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 intitulé	intituler	VERB
 «	«	PUNCTclause
@@ -1256,7 +1256,7 @@ Neue	Neue	PROPN
 Zürcher	Zürcher	PROPN
 Zeitung	Zeitung	PROPN
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 mai	mai	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -1264,7 +1264,7 @@ l'	le	DET
 enjeu	enjeu	NOUN
 réel	réel	ADJ
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 est	être	AUX
 de	de	ADP
@@ -1369,7 +1369,7 @@ offraient	offrir	VERB
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 cas	cas	NOUN
@@ -1430,7 +1430,7 @@ enjeu	enjeu	NOUN
 des	un	ADP_DET
 élections	élection	NOUN
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 .	.	PUNCTsent
 cas	cas	NOUN
@@ -1560,7 +1560,7 @@ préparation	préparation	NOUN
 des	un	ADP_DET
 élections	élection	NOUN
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 ,	,	PUNCTclause
 se	se	PRON
@@ -1682,7 +1682,7 @@ candidats	candidat	NOUN
 l'	le	DET
 élection	élection	NOUN
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -1930,10 +1930,10 @@ faire	faire	AUX
 le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
-4	4	NUM
--5	-5	AUX
+4	4	DIGIT
+-5	-5	DIGIT
 mars	mars	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -2255,9 +2255,9 @@ selon	selon	ADP
 le	le	DET
 monde	monde	NOUN
 du	du	ADP_DET
-7	7	NUM
+7	7	DIGIT
 mars	mars	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 «	«	PUNCTclause
@@ -2634,7 +2634,7 @@ une	un	DET
 garantie	garantie	NOUN
 remboursable	remboursable	ADJ
 de	de	ADP
-4,6	4,6	NUM
+4,6	4,6	DIGIT
 millions	million	NOUN
 de	de	ADP
 francs	franc	NOUN
@@ -2792,7 +2792,7 @@ listes	liste	NOUN
 .	.	PUNCTsent
 ainsi	ainsi	ADV
 Europe	Europe	PROPN
-2000	2000	NUM
+2000	2000	DIGIT
 (	(	PUNCTclause
 régions	région	NOUN
 Bretagne	Bretagne	PROPN
@@ -3038,7 +3038,7 @@ que	que	SCONJ
 l'	le	DET
 enjeu	enjeu	NOUN
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
 est	être	AUX
 le	le	DET
@@ -3178,16 +3178,16 @@ Kirkpatrick	Kirkpatrick	PROPN
 interviewée	interviewer	VERB
 pour	pour	ADP
 Antenne	Antenne	PROPN
-2	2	NUM
+2	2	DIGIT
 par	par	ADP
 deux	deux	NUM
 journalistes	journaliste	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 avril	avril	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 confirmé	confirmer	VERB
@@ -3256,9 +3256,9 @@ la	le	DET
 revue	revue	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-1	1	NUM
-2	2	NUM
-1984	1984	NUM
+1	1	DIGIT
+2	2	DIGIT
+1984	1984	DIGIT
 )	)	PUNCTclause
 au lendemain de	au lendemain de	ADP
 l'	le	DET
@@ -3409,9 +3409,9 @@ de	de	ADP
 son	son	DET
 numéro	numéro	NOUN
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 bref	bref	INTJ
@@ -3435,9 +3435,9 @@ Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 jeudi	jeudi	NOUN
-16	16	NUM
+16	16	DIGIT
 février	février	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 sa	son	DET
 majesté	majesté	NOUN

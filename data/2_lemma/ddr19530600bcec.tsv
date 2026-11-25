@@ -12,10 +12,10 @@ l'	le	DET
 Europe	Europe	PROPN
 en	en	ADP
 juin	juin	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 (	(	PUNCTclause
 mai-juin	mai-juin	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -579,7 +579,7 @@ que	que	SCONJ
 la	le	DET
 somme	somme	NOUN
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 nations	nation	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -747,7 +747,7 @@ ce	ce	DET
 mois	mois	NOUN
 de	de	ADP
 juin	juin	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -1067,7 +1067,7 @@ avec	avec	ADP
 une	un	DET
 Italie	Italie	PROPN
 dont	dont	PRON
-42	42	NUM
+42	42	DIGIT
 des	un	ADP_DET
 électeurs	électeur	NOUN
 votent	voter	VERB
@@ -1153,7 +1153,7 @@ population	population	NOUN
 ,	,	PUNCTclause
 encombrée	encombrer	VERB
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 millions	million	NOUN
 de	de	ADP
 réfugiés	réfugié	NOUN
@@ -1697,7 +1697,7 @@ est	être	AUX
 vu	voir	VERB
 plus	plus	ADV
 gravement	gravement	ADV
-compromis	compromettre	VERB
+compromis	compromis	ADJ
 .	.	PUNCTsent
 pour	pour	ADP
 la première fois	la première fois	ADV

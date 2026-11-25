@@ -14,11 +14,11 @@ fédéralisme	fédéralisme	NOUN
 la	le	DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-1959	1959	NUM
+1959	1959	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 du	du	ADP_DET
 pacte	pacte	NOUN
@@ -116,13 +116,13 @@ est	être	AUX
 produit	produire	VERB
 entre	entre	ADP
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
 et	et	CCONJ
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 novembre	novembre	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 raccourci	raccourcir	VERB
@@ -149,10 +149,9 @@ donnent	donner	VERB
 la	le	DET
 date	date	NOUN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
-1291	1291	NUM
+1291	1291	DIGIT
 comme	comme	ADP
 celle	celle	PRON
 de	de	ADP
@@ -315,7 +314,7 @@ impériale	impérial	ADJ
 et	et	CCONJ
 cela	cela	PRON
 dès	dès	ADP
-1231	1231	NUM
+1231	1231	DIGIT
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 peu de	peu de	DET
@@ -405,7 +404,7 @@ du	du	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 août	août	NOUN
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 —	—	PUNCTclause
 «	«	PUNCTclause
@@ -667,7 +666,7 @@ Directoire	Directoire	PROPN
 France	France	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1798	1798	NUM
+1798	1798	DIGIT
 ,	,	PUNCTclause
 tenta	tenter	VERB
 de	de	ADP
@@ -702,7 +701,7 @@ patriciats	patriciat	NOUN
 dépossédés	déposséder	VERB
 .	.	PUNCTsent
 dès	dès	ADP
-1802	1802	NUM
+1802	1802	DIGIT
 ,	,	PUNCTclause
 Napoléon	Napoléon	PROPN
 écrivait	écrire	VERB
@@ -848,7 +847,7 @@ l'	le	DET
 empereur	empereur	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 nouveau	nouveau	ADJ
@@ -980,7 +979,7 @@ formule	formule	NOUN
 du	du	ADP_DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 bien que	bien que	SCONJ
 élargie	élargir	VERB
@@ -1222,15 +1221,15 @@ et	et	CCONJ
 durable	durable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 crise	crise	NOUN
 du	du	ADP_DET
 Pacte	Pacte	PROPN
 fédéralisme	fédéralisme	NOUN
 (	(	PUNCTclause
-1815	1815	NUM
--1848	-1848	NUM
+1815	1815	DIGIT
+-1848	-1848	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1241,7 +1240,7 @@ par	par	ADP
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 devait	devoir	VERB
 se	se	PRON
 prolonger	prolonger	VERB
@@ -1263,7 +1262,7 @@ très	très	ADV
 subitement	subitement	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 que	que	PRON
 au lendemain de	au lendemain de	ADP
@@ -1311,7 +1310,7 @@ sous	sous	ADP
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 à	à	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -1335,27 +1334,27 @@ comptait	compter	VERB
 alors	alors	ADV
 en	en	ADP
 Suisse	Suisse	PROPN
-11	11	NUM
+11	11	DIGIT
 mesures	mesure	NOUN
 de	de	ADP
 pieds	pied	NOUN
 ,	,	PUNCTclause
-60	60	NUM
+60	60	DIGIT
 espèces	espèce	NOUN
 de	de	ADP
 armes	arme	NOUN
 ,	,	PUNCTclause
-87	87	NUM
+87	87	DIGIT
 mesures	mesure	NOUN
 de	de	ADP
 grain	grain	NOUN
 ,	,	PUNCTclause
-81	81	NUM
+81	81	DIGIT
 pour	pour	ADP
 les	le	DET
 liquides	liquide	NOUN
 et	et	CCONJ
-50	50	NUM
+50	50	DIGIT
 poids	poids	NOUN
 différents	différent	ADJ
 .	.	PUNCTsent
@@ -1473,7 +1472,7 @@ ne	ne	ADV
 comptait	compter	VERB
 pas	pas	ADV
 moins de	moins de	DET
-400	400	NUM
+400	400	DIGIT
 taxes	taxe	NOUN
 et	et	CCONJ
 droits	droit	NOUN
@@ -1682,7 +1681,7 @@ comme	comme	ADP
 l'	le	DET
 écrivait	écrire	VERB
 dès	dès	ADP
-1829	1829	NUM
+1829	1829	DIGIT
 le	le	DET
 vieil	vieux	ADJ
 historien	historien	NOUN
@@ -1717,7 +1716,7 @@ entière	entier	ADJ
 la	le	DET
 Diète	Diète	PROPN
 représentant	représenter	VERB
-25	25	NUM
+25	25	DIGIT
 états	état	NOUN
 souverains	souverain	NOUN
 ,	,	PUNCTclause
@@ -2015,7 +2014,7 @@ qui	qui	PRON
 se	se	PRON
 prononça	prononcer	VERB
 dès	dès	ADP
-1830	1830	NUM
+1830	1830	DIGIT
 .	.	PUNCTsent
 influencée	influencer	VERB
 par	par	ADP
@@ -2083,7 +2082,7 @@ Suisse	Suisse	PROPN
 unie	unir	VERB
 .	.	PUNCTsent
 en	en	ADP
-1832	1832	NUM
+1832	1832	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Diète	Diète	PROPN
@@ -2111,7 +2110,7 @@ fédéralisme	fédéralisme	NOUN
 une	un	DET
 commission	commission	NOUN
 de	de	ADP
-15	15	NUM
+15	15	DIGIT
 membres	membre	NOUN
 fut	être	AUX
 chargée	charger	VERB
@@ -2196,7 +2195,7 @@ par	par	ADP
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 créait	créer	VERB
 «	«	PUNCTclause
 une	un	DET
@@ -2660,7 +2659,7 @@ Diète	Diète	PROPN
 l'	le	DET
 enterra	enterrer	VERB
 en	en	ADP
-1833	1833	NUM
+1833	1833	DIGIT
 ,	,	PUNCTclause
 après	après	ADP
 l'	le	DET
@@ -2732,7 +2731,7 @@ pouvait	pouvoir	VERB
 se	se	PRON
 écrier	écrier	VERB
 en	en	ADP
-1832	1832	NUM
+1832	1832	DIGIT
 au	au	ADP_DET
 parlement	parlement	NOUN
 de	de	ADP
@@ -2939,7 +2938,7 @@ garanti	garantir	VERB
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Sonderbund	Sonderbund	PROPN
@@ -3000,7 +2999,7 @@ des	un	ADP_DET
 jésuites	jésuite	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 guerre civile	guerre civile	NOUN
@@ -3152,7 +3151,7 @@ imminence	imminence	NOUN
 des	un	ADP_DET
 révolutions	révolution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 fut	être	AUX
 un	un	DET
 facteur	facteur	NOUN
@@ -3185,7 +3184,7 @@ et	et	CCONJ
 humanité	humanité	NOUN
 .	.	PUNCTsent
 en	en	ADP
-26	26	NUM
+26	26	DIGIT
 jours	jour	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -3288,7 +3287,7 @@ nationalistes	nationaliste	NOUN
 cantonaux	cantonal	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 la	le	DET
@@ -3300,10 +3299,10 @@ l'	le	DET
 état	état	NOUN
 fédératif	fédératif	ADJ
 (	(	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 février-17	février-17	NOUN
 novembre	novembre	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3324,7 +3323,7 @@ long	long	ADJ
 de	de	ADP
 l'	le	DET
 année	année	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 Suisse	Suisse	PROPN
@@ -3384,9 +3383,9 @@ réunit	réunir	VERB
 pour	pour	ADP
 la première fois	la première fois	ADV
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 la	le	DET
 majorité	majorité	NOUN
@@ -3498,7 +3497,7 @@ sept	sept	NUM
 semaines	semaine	NOUN
 ,	,	PUNCTclause
 au cours de	au cours de	ADP
-31	31	NUM
+31	31	DIGIT
 séances	séance	NOUN
 plénières	plénier	ADJ
 ,	,	PUNCTclause
@@ -3507,7 +3506,7 @@ ils	ils	PRON
 un	un	DET
 projet	projet	NOUN
 de	de	ADP
-17	17	NUM
+17	17	DIGIT
 articles	article	NOUN
 .	.	PUNCTsent
 nombre de	nombre de	DET
@@ -3518,7 +3517,7 @@ inspiraient	inspirer	VERB
 du	du	ADP_DET
 projet	projet	NOUN
 de	de	ADP
-1832	1832	NUM
+1832	1832	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 les	le	DET
@@ -3536,7 +3535,7 @@ groupe	groupe	NOUN
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -3583,7 +3582,7 @@ six	six	NUM
 semaines	semaine	NOUN
 .	.	PUNCTsent
 le	le	DET
-27	27	NUM
+27	27	DIGIT
 juin	juin	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -3607,8 +3606,7 @@ devait	devoir	VERB
 avoir lieu	avoir lieu	VERB
 avant	avant	ADP
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 septembre	septembre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3639,7 +3637,7 @@ de	de	ADP
 août	août	NOUN
 .	.	PUNCTsent
 le	le	DET
-4	4	NUM
+4	4	DIGIT
 septembre	septembre	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -3654,19 +3652,19 @@ prendre connaissance	prendre connaissance	VERB
 des	un	DET
 résultats	résultat	NOUN
 :	:	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 cantons	canton	NOUN
 et	et	CCONJ
 demi	demi	ADJ
 contre	contre	ADP
-6	6	X
+6	6	DIGIT
 et	et	CCONJ
 demi	demi	ADJ
 et	et	CCONJ
-170000	170000	NUM
+170000	170000	DIGIT
 électeurs	électeur	NOUN
 contre	contre	ADP
-72000	72000	NUM
+72000	72000	DIGIT
 (	(	PUNCTclause
 environ	environ	ADV
 )	)	PUNCTclause
@@ -3675,7 +3673,7 @@ la	le	DET
 constitution	constitution	NOUN
 .	.	PUNCTsent
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -3695,7 +3693,7 @@ fédérale	fédéral	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 elles	elles	PRON
@@ -3774,7 +3772,7 @@ d'autre part	d'autre part	ADV
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ne	ne	ADV
 mérite	mériter	VERB
 pas	pas	ADV
@@ -3834,7 +3832,7 @@ les	le	DET
 attributs	attribut	NOUN
 de	de	ADP
 un	un	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 à	à	ADP
 sept	sept	NUM
 têtes	tête	NOUN
@@ -3930,7 +3928,7 @@ articles	article	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 article	article	NOUN
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 peuples	peuple	NOUN
@@ -3959,7 +3957,7 @@ Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 les	le	DET
 cantons	canton	NOUN
@@ -3998,7 +3996,7 @@ fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 article	article	NOUN
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 confédération	confédération	NOUN
@@ -4017,7 +4015,7 @@ fixées	fixer	VERB
 à	à	ADP
 l'	le	DET
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 ,	,	PUNCTclause
 leur	leur	DET
 constitution	constitution	NOUN
@@ -4030,7 +4028,7 @@ droits	droit	NOUN
 du	du	ADP_DET
 peuple	peuple	NOUN
 (	(	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4159,7 +4157,7 @@ l'	le	DET
 des	un	ADP_DET
 constituants	constituant	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 une	un	DET
 quarantaine	quarantaine	NOUN
@@ -4180,7 +4178,7 @@ centralisatrice	centralisateur	ADJ
 )	)	PUNCTclause
 opérée	opérer	VERB
 en	en	ADP
-1874	1874	NUM
+1874	1874	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 en	en	PRON
@@ -4199,7 +4197,7 @@ spécifiquement	spécifiquement	ADV
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 une	un	DET
 expérience-témoin	expérience-témoin	NOUN
@@ -4211,7 +4209,7 @@ de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 est	être	AUX
 saluée	saluer	VERB
 par	par	ADP
@@ -4332,7 +4330,7 @@ que	que	SCONJ
 ce	ce	DET
 processus-éclair	processus-éclair	NOUN
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 mois	mois	NOUN
 en tout	en tout	ADV
 !	!	PUNCTsent
@@ -4413,7 +4411,7 @@ par	par	ADP
 le	le	DET
 mouvement	mouvement	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 constitution	constitution	NOUN
@@ -4783,7 +4781,7 @@ que	que	SCONJ
 la	le	DET
 Suisse	Suisse	PROPN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ses	son	DET
 états	état	NOUN
@@ -4870,7 +4868,7 @@ déjà	déjà	ADV
 le	le	DET
 pacte	pacte	NOUN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 dernier	dernier	ADJ
 reflet	reflet	NOUN
@@ -4967,7 +4965,7 @@ au	au	ADP_DET
 mouvement	mouvement	NOUN
 général	général	ADJ
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 partout	partout	ADV
 ailleurs	ailleurs	ADV
@@ -5009,7 +5007,7 @@ Suisse	Suisse	PROPN
 les	le	DET
 radicaux	radical	ADJ
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 voulaient	vouloir	VERB
 une	un	DET
 vraie	vrai	ADJ
@@ -5246,7 +5244,7 @@ aperçu	aperçu	NOUN
 la	le	DET
 Suisse	Suisse	PROPN
 compte	compter	VERB
-25	25	NUM
+25	25	DIGIT
 cantons	canton	NOUN
 !	!	PUNCTsent
 les	le	DET
@@ -5277,11 +5275,11 @@ Bibliographie	Bibliographie	PROPN
 der	der	NOUN
 Schweizergeschichte	Schweizergeschichte	PROPN
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 vol.	vol.	PUNCT
 ,	,	PUNCTclause
 Bâle	Bâle	PROPN
-1915	1915	NUM
+1915	1915	DIGIT
 ;	;	PUNCTclause
 Karl	Karl	PROPN
 Dändliker	Dändliker	PROPN
@@ -5291,8 +5289,8 @@ der	der	NOUN
 Schweiz	Schweiz	PROPN
 ,	,	PUNCTclause
 Zurich	Zurich	PROPN
-1900	1900	NUM
--1909	-1909	AUX
+1900	1900	DIGIT
+-1909	-1909	DIGIT
 ;	;	PUNCTclause
 Johannes	Johannes	PROPN
 Dierauer	Dierauer	PROPN
@@ -5303,8 +5301,8 @@ Schweizerischen	Schweizerischen	PROPN
 Eidgenossenschaft	Eidgenossenschaft	PROPN
 ,	,	PUNCTclause
 Gotha	Gotha	PROPN
-1907	1907	NUM
--1913	-1913	NUM
+1907	1907	DIGIT
+-1913	-1913	DIGIT
 ;	;	PUNCTclause
 Ernest	Ernest	PROPN
 Gagliardi	Gagliardi	PROPN
@@ -5320,7 +5318,7 @@ zur	zur	ADP
 Gegenwart	Gegenwart	PROPN
 ,	,	PUNCTclause
 Zurich	Zurich	PROPN
-1920	1920	NUM
+1920	1920	DIGIT
 ;	;	PUNCTclause
 Werner	Werner	PROPN
 Oechsli	Oechsli	PROPN
@@ -5330,7 +5328,7 @@ zur	zur	NOUN
 Schweizergeschichte	Schweizergeschichte	PROPN
 ,	,	PUNCTclause
 Zurich	Zurich	PROPN
-1918	1918	NUM
+1918	1918	DIGIT
 ;	;	PUNCTclause
 Hans	Hans	PROPN
 Nabholz	Nabholz	PROPN
@@ -5340,7 +5338,7 @@ der	der	NOUN
 Schweiz	Schweiz	PROPN
 ,	,	PUNCTclause
 Zurich	Zurich	PROPN
-1937	1937	NUM
+1937	1937	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
@@ -5367,9 +5365,9 @@ Geschichtsfreund	Geschichtsfreund	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 t.	t.	NOUN
-74	74	NUM
+74	74	DIGIT
 ,	,	PUNCTclause
-1924	1924	NUM
+1924	1924	DIGIT
 ;	;	PUNCTclause
 id.	id.	PUNCT
 ,	,	PUNCTclause
@@ -5377,7 +5375,7 @@ Die	Die	PROPN
 Urschweizer	Urschweizer	PROPN
 ,	,	PUNCTclause
 Zurich	Zurich	PROPN
-1927	1927	NUM
+1927	1927	DIGIT
 ;	;	PUNCTclause
 id.	id.	PUNCT
 ,	,	PUNCTclause
@@ -5394,18 +5392,18 @@ Suisse	Suisse	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 n.	n.	DET
-1	1	NUM
+1	1	DIGIT
 et	et	CCONJ
-2	2	NUM
+2	2	DIGIT
 ,	,	PUNCTclause
-1924	1924	NUM
+1924	1924	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 :	:	PUNCTclause
 F.	F.	PROPN
 Fleiner	Fleiner	PROPN
@@ -5415,7 +5413,7 @@ Bundesstaatsrecht	Bundesstaatsrecht	PROPN
 ,	,	PUNCTclause
 Tubingue	Tubingue	PROPN
 ,	,	PUNCTclause
-1922	1922	NUM
+1922	1922	DIGIT
 ;	;	PUNCTclause
 William	William	PROPN
 E.	E.	PROPN
@@ -5425,11 +5423,11 @@ la	le	DET
 constitution	constitution	NOUN
 fédérale	fédéral	ADJ
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 Neuchâtel	Neuchâtel	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 (	(	PUNCTclause
 ouvrage	ouvrage	NOUN
 de	de	ADP
@@ -5473,7 +5471,7 @@ Schweiz	Schweiz	PROPN
 ,	,	PUNCTclause
 Zurich	Zurich	PROPN
 ,	,	PUNCTclause
-1916	1916	NUM
+1916	1916	DIGIT
 ;	;	PUNCTclause
 William	William	PROPN
 Martin	Martin	PROPN
@@ -5484,7 +5482,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
-1930	1930	NUM
+1930	1930	DIGIT
 ;	;	PUNCTclause
 Reynold	Reynold	PROPN
 ,	,	PUNCTclause
@@ -5495,7 +5493,7 @@ Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 Neuchâtel	Neuchâtel	PROPN
 ,	,	PUNCTclause
-1938	1938	NUM
+1938	1938	DIGIT
 ;	;	PUNCTclause
 Denis	Denis	PROPN
 de	de	ADP
@@ -5507,7 +5505,7 @@ helvétique	helvétique	ADJ
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-1953	1953	NUM
+1953	1953	DIGIT
 ;	;	PUNCTclause
 André	André	PROPN
 Siegfried	Siegfried	PROPN
@@ -5520,7 +5518,7 @@ témoin	témoin	NOUN
 ,	,	PUNCTclause
 Neuchâtel	Neuchâtel	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 ;	;	PUNCTclause
 E.	E.	PROPN
 Hughes	Hughes	PROPN
@@ -5533,5 +5531,5 @@ Switzerland	Switzerland	X
 ,	,	PUNCTclause
 Oxford	Oxford	PROPN
 ,	,	PUNCTclause
-1954	1954	NUM
+1954	1954	DIGIT
 .	.	PUNCTsent

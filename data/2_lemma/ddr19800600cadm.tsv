@@ -13,11 +13,11 @@ technique	technique	NOUN
 État-nation	État-nation	PROPN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 essaierai	essayer	VERB
@@ -91,7 +91,7 @@ un	un	DET
 lieu	lieu	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 production	production	NOUN
@@ -372,7 +372,7 @@ ou	ou	CCONJ
 attaché	attacher	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 de fait	de fait	ADJ
 ,	,	PUNCTclause
@@ -412,8 +412,8 @@ Sohrawardi	Sohrawardi	PROPN
 de	de	ADP
 Alep	Alep	PROPN
 (	(	PUNCTclause
-1155	1155	NUM
--1191	-1191	NUM
+1155	1155	DIGIT
+-1191	-1191	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ce	ce	PRON
@@ -744,7 +744,7 @@ y	y	PRON
 substitue	substituer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 passage	passage	NOUN
@@ -1044,7 +1044,7 @@ ces	ce	DET
 techniques	technique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 parle	parler	VERB
@@ -1403,7 +1403,7 @@ contre	contre	ADP
 ses	son	DET
 limites	limite	NOUN
 que	que	PRON
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 l'	le	DET
 action	action	NOUN
 de	de	ADP
@@ -1447,7 +1447,7 @@ des	un	ADP_DET
 catastrophes	catastrophe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 cette	ce	DET
 même	même	ADJ
@@ -1560,7 +1560,7 @@ républicains	républicain	NOUN
 cela	cela	PRON
 commence	commencer	VERB
 en	en	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 avec	avec	ADP
 le	le	DET
 discours	discours	NOUN
@@ -1734,9 +1734,9 @@ chimique	chimique	ADJ
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 avril	avril	NOUN
-1792	1792	NUM
+1792	1792	DIGIT
 la	le	DET
 convention	convention	NOUN
 déclare	déclarer	VERB
@@ -1816,7 +1816,7 @@ Centre	Centre	PROPN
 .	.	PUNCTsent
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
-160	160	NUM
+160	160	DIGIT
 états-nations	État-nation	NOUN
 qui	qui	PRON
 l'	le_PRON	PRON
@@ -2253,7 +2253,7 @@ de	de	ADP
 espérer	espérer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 mon	mon	DET
 propos	propos	NOUN
@@ -2436,7 +2436,7 @@ terme	terme	NOUN
 ,	,	PUNCTclause
 est	être	AUX
 projection	projection	NOUN
-à terme	à terme	ADP
+à terme	à terme	ADV
 indéfini	indéfini	ADJ
 de	de	ADP
 nos	nos	DET
@@ -2457,7 +2457,7 @@ nouvelle	nouveau	ADJ
 Jérusalem	Jérusalem	PROPN
 (	(	PUNCTclause
 Apoc.	Apoc.	PROPN
-chapitre	chapitrer	VERB
+chapitre	chapitre	NOUN
 III	III	NUM
 et	et	CCONJ
 XXII	XXII	NUM

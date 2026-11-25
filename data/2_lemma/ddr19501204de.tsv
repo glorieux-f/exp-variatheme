@@ -17,9 +17,9 @@ la	le	DET
 construction	construction	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 décembre	décembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -192,7 +192,7 @@ a	avoir	AUX
 refusé	refuser	VERB
 ,	,	PUNCTclause
 le	le	DET
-4	4	NUM
+4	4	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 toutes	tout	ADJ
@@ -212,7 +212,7 @@ revenue	revenir	VERB
 la	le	DET
 charge	charge	NOUN
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 jours	jour	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
@@ -274,7 +274,7 @@ députés	député	NOUN
 seulement	seulement	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
-125	125	NUM
+125	125	DIGIT
 ,	,	PUNCTclause
 avaient	avoir	AUX
 voté	voter	VERB
@@ -294,7 +294,7 @@ groupe	groupe	NOUN
 a	avoir	AUX
 passé	passer	VERB
 à	à	ADP
-37	37	NUM
+37	37	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 bien que	bien que	SCONJ
@@ -417,10 +417,10 @@ est	être	AUX
 enfin	enfin	ADV
 prononcée	prononcer	VERB
 par	par	ADP
-83	83	NUM
+83	83	DIGIT
 voix	voix	NOUN
 contre	contre	ADP
-7	7	NUM
+7	7	DIGIT
 en faveur de	en faveur de	ADP
 une	un	DET
 armée	armée	NOUN
@@ -480,7 +480,7 @@ nos	nos	DET
 congrès	congrès	NOUN
 fédéralisme	fédéralisme	NOUN
 depuis	depuis	ADP
-3	3	NUM
+3	3	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -697,7 +697,7 @@ allons	aller	VERB
 y	y	PRON
 prudemment	prudemment	ADV
 ,	,	PUNCTclause
-étage	étager	VERB
+étage	étage	NOUN
 par	par	ADP
 étage	étage	NOUN
 ,	,	PUNCTclause
@@ -812,7 +812,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 les	le	DET
 travaillistes	travailliste	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 se	se	PRON
 sont	être	AUX

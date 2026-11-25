@@ -22,7 +22,7 @@ moyen-âge	moyen-âge	NOUN
 nos	nos	DET
 jours	jour	NOUN
 (	(	PUNCTclause
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -470,7 +470,7 @@ physique	physique	ADJ
 qui	qui	PRON
 est	être	AUX
 à peine	à peine	ADV
-4	4	NUM
+4	4	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 émergées	émergé	ADJ
@@ -616,9 +616,9 @@ dessine	dessiner	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 à	à	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 va	aller	VERB
 donc	donc	ADV
 aux	au	ADP_DET
@@ -627,9 +627,9 @@ unités	unité	NOUN
 politiques	politique	ADJ
 ,	,	PUNCTclause
 de	de	ADP
-200	200	NUM
+200	200	DIGIT
 à	à	ADP
-600	600	NUM
+600	600	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -658,9 +658,9 @@ désormais	désormais	ADV
 c'est-à-dire	c'est-à-dire	CCONJ
 comptant	compter	VERB
 de	de	ADP
-3	3	NUM
+3	3	DIGIT
 à	à	ADP
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -922,7 +922,7 @@ au	au	ADP_DET
 Congrès de La Haye	Congrès de La Haye	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 une	un	DET
@@ -1094,13 +1094,13 @@ domaine	domaine	NOUN
 ,	,	PUNCTclause
 Ceca	Ceca	PROPN
 dès	dès	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 Marché commun	Marché commun	PROPN
 et	et	CCONJ
 Euratom	Euratom	PROPN
 dès	dès	ADP
-1959	1959	NUM
+1959	1959	DIGIT
 .	.	PUNCTsent
 les	le	DET
 états	état	NOUN
@@ -1844,7 +1844,7 @@ lui-même	lui-même	PRON
 conférence de presse	conférence de presse	NOUN
 de	de	ADP
 mai	mai	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -1944,7 +1944,7 @@ de	de	ADP
 union	union	NOUN
 apparus	apparaître	VERB
 depuis	depuis	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -2411,7 +2411,7 @@ ordre	ordre	NOUN
 la	le	DET
 déclaration	déclaration	NOUN
 des	un	ADP_DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 des	un	ADP_DET
 Six	Six	PROPN
 ,	,	PUNCTclause
@@ -2419,9 +2419,9 @@ faite	faire	VERB
 à	à	ADP
 Bonn	Bonn	PROPN
 le	le	DET
-18	18	NUM
+18	18	DIGIT
 juillet	juillet	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 parle	parler	VERB
 ,	,	PUNCTclause
@@ -3002,8 +3002,8 @@ Marché commun	Marché commun	PROPN
 l'	le	DET
 Aele	Aele	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-il	il	PRON
+etc.	etc.	X
+il	il	X
 étudiera	étudier	VERB
 donc	donc	ADV
 des	un	DET
@@ -3566,13 +3566,12 @@ Littré	Littré	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
 sa	son	DET
-1	1	NUM
-re	re	NOUN
+1re	1re	NUMord
 édition	édition	NOUN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1863	1863	NUM
+1863	1863	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 fédéralisme	fédéralisme	NOUN
@@ -3655,9 +3654,9 @@ cite	citer	VERB
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1792	1792	NUM
+1792	1792	DIGIT
 et	et	CCONJ
-1793	1793	NUM
+1793	1793	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 accusa	accuser	VERB
@@ -3849,7 +3848,7 @@ d'emblée	d'emblée	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
-85	85	NUM
+85	85	DIGIT
 articles	article	NOUN
 écrits	écrire	VERB
 par	par	ADP
@@ -3866,7 +3865,7 @@ fédérale	fédéral	ADJ
 États-Unis	États-Unis	PROPN
 rédigée	rédiger	VERB
 en	en	ADP
-1787	1787	NUM
+1787	1787	DIGIT
 ,	,	PUNCTclause
 composent	composer	VERB
 l'	le	DET
@@ -3883,7 +3882,7 @@ France	France	PROPN
 a	avoir	AUX
 paru	paraître	VERB
 en	en	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 en	en	ADP
@@ -3904,7 +3903,7 @@ fédératif	fédératif	ADJ
 qui	qui	PRON
 ,	,	PUNCTclause
 en	en	ADP
-1863	1863	NUM
+1863	1863	DIGIT
 (	(	PUNCTclause
 l'	le	DET
 année	année	NOUN
@@ -3949,7 +3948,7 @@ lui	lui	PRON
 qui	qui	PRON
 publie	publier	VERB
 en	en	ADP
-1879	1879	NUM
+1879	1879	DIGIT
 Der	Der	PROPN
 Föderalismus	Föderalismus	PROPN
 .	.	PUNCTsent
@@ -3968,7 +3967,7 @@ le	le	DET
 Fur	Fur	PROPN
 publie	publier	VERB
 en	en	ADP
-1896	1896	NUM
+1896	1896	DIGIT
 son	son	DET
 ouvrage	ouvrage	NOUN
 intitulé	intituler	VERB
@@ -4012,7 +4011,7 @@ I	I	NUM
 ,	,	PUNCTclause
 paru	paraître	VERB
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 généralise	généraliser	VERB
 la	le	DET
@@ -4040,9 +4039,9 @@ de	de	ADP
 L'Ordre nouveau	L'Ordre nouveau	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 à	à	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 avec	avec	ADP
 Arnaud	Arnaud	PROPN
@@ -4087,7 +4086,7 @@ groupe	groupe	NOUN
 ,	,	PUNCTclause
 dispersé	disperser	VERB
 dès	dès	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 retrouvent	retrouver	VERB
@@ -4108,7 +4107,7 @@ congrès	congrès	NOUN
 de	de	ADP
 Montreux	Montreux	PROPN
 (	(	PUNCTclause
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 suivi	suivre	VERB
 par	par	ADP
@@ -4123,7 +4122,7 @@ la	le	DET
 Haye	Haye	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 où	où	PRON
@@ -4469,7 +4468,7 @@ Coudenhove-Kalergi	Coudenhove-Kalergi	PROPN
 ,	,	PUNCTclause
 publié	publier	VERB
 en	en	ADP
-1923	1923	NUM
+1923	1923	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 a	avoir	AUX
@@ -4621,7 +4620,7 @@ Monarchia	Monarchia	PROPN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1308	1308	NUM
+1308	1308	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -4641,7 +4640,7 @@ Sancte	Sancte	PROPN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1306	1306	NUM
+1306	1306	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -4668,7 +4667,7 @@ Dante	Dante	PROPN
 écrit	écrire	VERB
 son	son	DET
 traité	traité	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 le	le	DET
 Saint-Empire	Saint-Empire	PROPN
 ,	,	PUNCTclause
@@ -4697,7 +4696,7 @@ son	son	DET
 plan	plan	NOUN
 de	de	ADP
 union	union	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 la première	la première	PRON
 nation	nation	NOUN
 se	se	PRON
@@ -5213,7 +5212,7 @@ Briand	Briand	PROPN
 la	le	DET
 SDN	SDN	NOUN
 en	en	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 galerie	galerie	NOUN

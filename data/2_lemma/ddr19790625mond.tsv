@@ -15,10 +15,10 @@ Europe	Europe	PROPN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 (	(	PUNCTclause
-24	24	NUM
--25	-25	NUM
+24	24	DIGIT
+-25	-25	DIGIT
 juin	juin	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -328,7 +328,7 @@ mutuelle	mutuel	ADJ
 ,	,	PUNCTclause
 juré	jurer	VERB
 en	en	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 statué	statuer	VERB
@@ -458,7 +458,7 @@ civiles	civil	ADJ
 ,	,	PUNCTclause
 jusque	jusque	ADP
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -535,7 +535,7 @@ liens	lien	NOUN
 séculaires	séculaire	ADJ
 que	que	SCONJ
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 au lendemain de	au lendemain de	ADP
 une	un	DET
@@ -635,7 +635,7 @@ Suisse	Suisse	PROPN
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 article	article	NOUN
-2	2	NUM
+2	2	DIGIT
 définit	définir	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -676,7 +676,7 @@ commune	commun	ADJ
 »	»	PUNCTclause
 l'	le	DET
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 précise	préciser	VERB
 que	que	SCONJ
 «	«	PUNCTclause
@@ -721,7 +721,7 @@ moyennant	moyenner	VERB
 quoi	quoi	PRON
 l'	le_PRON	PRON
 article	article	NOUN
-5	5	NUM
+5	5	DIGIT
 —	—	PUNCTclause
 que	que	SCONJ
 je	je	PRON
@@ -754,7 +754,7 @@ définies	définir	VERB
 par	par	ADP
 l'	le	DET
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 ,	,	PUNCTclause
 leurs	leur	DET
 constitutions	constitution	NOUN
@@ -801,7 +801,7 @@ définies	définir	VERB
 par	par	ADP
 l'	le	DET
 article	article	NOUN
-8	8	NUM
+8	8	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 la	le	DET
@@ -1375,7 +1375,7 @@ Europe	Europe	PROPN
 actuelle	actuel	ADJ
 ne	ne	ADV
 soient	être	AUX
-traitées	traiter	VERB
+traitées	traité	ADJ
 comme	comme	ADP
 le	le	DET
 furent	être	AUX

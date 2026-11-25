@@ -11,7 +11,7 @@ des	un	ADP_DET
 catastrophes	catastrophe	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -64,7 +64,7 @@ de	de	ADP
 manger	manger	VERB
 trop	trop	ADV
 .	.	PUNCTsent
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 notre	notre	DET
 faute	faute	NOUN
@@ -1034,7 +1034,7 @@ se	se	PRON
 assurer	assurer	VERB
 la	le	DET
 retraite	retrait	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 le	le	DET
 job	job	NOUN
 )	)	PUNCTclause
@@ -1693,7 +1693,7 @@ mouvements	mouvement	NOUN
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 aux	au	ADP_DET
@@ -1843,7 +1843,7 @@ se	se	PRON
 recompose	recomposer	VERB
 sur la base de	sur la base de	ADP
 quelque	quelque	DET
-140	140	NUM
+140	140	DIGIT
 régions	région	NOUN
 autonomes	autonome	ADJ
 ,	,	PUNCTclause
@@ -1910,7 +1910,7 @@ de	de	ADP
 ampleur	ampleur	NOUN
 limitée	limiter	VERB
 à	à	ADP
-50000	50000	NUM
+50000	50000	DIGIT
 habitants	habitant	NOUN
 ;	;	PUNCTclause
 enfin	enfin	ADV
@@ -2290,9 +2290,9 @@ l'	le	DET
 après-midi	après-midi	NOUN
 lumineux	lumineux	ADJ
 du	du	ADP_DET
-24	24	NUM
+24	24	DIGIT
 août	août	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 donnais	donner	VERB
@@ -2504,7 +2504,7 @@ la	le	DET
 tête	tête	NOUN
 de	de	ADP
 un	un	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ou	ou	CCONJ
 autrement	autrement	ADV
 ce	ce	PRON
@@ -2617,8 +2617,8 @@ cinq	cinq	NUM
 siècles	siècle	NOUN
 exactement	exactement	ADV
 (	(	PUNCTclause
-1300	1300	NUM
--1800	-1800	NUM
+1300	1300	DIGIT
+-1800	-1800	DIGIT
 )	)	PUNCTclause
 pour	pour	ADP
 préparer	préparer	VERB
@@ -3938,7 +3938,7 @@ propres	propre	ADJ
 erreurs	erreur	NOUN
 et	et	CCONJ
 menaçant	menacer	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 nature	nature	NOUN
 ;	;	PUNCTclause

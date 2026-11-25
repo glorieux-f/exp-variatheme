@@ -14,7 +14,7 @@ des	un	ADP_DET
 France	France	PROPN
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -385,7 +385,7 @@ décrivant	décrire	VERB
 la	le	DET
 manifestation	manifestation	NOUN
 du	du	ADP_DET
-4	4	NUM
+4	4	DIGIT
 septembre	septembre	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -566,7 +566,7 @@ une	un	DET
 part	part	NOUN
 de	de	ADP
 ce	ce	DET
-20	20	NUM
+20	20	DIGIT
 dont	dont	PRON
 on	on	PRON
 ne	ne	ADV
@@ -1049,7 +1049,7 @@ qui	qui	PRON
 demandent	demander	VERB
 pourquoi	pourquoi	ADV
 sont	être	AUX
-traités	traiter	VERB
+traités	traité	ADJ
 de	de	ADP
 fascisme	fascisme	NOUN
 .	.	PUNCTsent
@@ -1072,7 +1072,7 @@ un	un	DET
 seul	seul	ADJ
 homme	homme	NOUN
 au lieu de	au lieu de	ADP
-596	596	NUM
+596	596	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 peut	pouvoir	VERB
@@ -1239,7 +1239,7 @@ plans	plan	NOUN
 de	de	ADP
 production	production	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 les	le	DET
 grands	grand	ADJ
 critères	critère	NOUN
@@ -1398,7 +1398,7 @@ une	un	DET
 égale	égal	ADJ
 maturité	maturité	NOUN
 depuis	depuis	ADP
-150	150	NUM
+150	150	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -1416,11 +1416,11 @@ et	et	CCONJ
 le	le	DET
 plébiscite	plébiscite	NOUN
 de	de	ADP
-1852	1852	NUM
+1852	1852	DIGIT
 dans	dans	ADP
 celui	celui	PRON
 de	de	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 ?	?	PUNCTsent
 sûrement	sûrement	ADV
 non	non	ADV
@@ -1457,14 +1457,14 @@ France	France	PROPN
 réelle	réel	ADJ
 ,	,	PUNCTclause
 depuis	depuis	ADP
-150	150	NUM
+150	150	DIGIT
 ans	an	NOUN
 :	:	PUNCTclause
 celle	celle	PRON
 de	de	ADP
 Napoléon	Napoléon	PROPN
 en	en	ADP
-1808	1808	NUM
+1808	1808	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -1507,7 +1507,7 @@ de	de	ADP
 Vichy	Vichy	PROPN
 ,	,	PUNCTclause
 des	un	DET
-26	26	NUM
+26	26	DIGIT
 ministères	ministère	NOUN
 de	de	ADP
 la	le	DET
@@ -2272,7 +2272,7 @@ dire	dire	VERB
 «	«	PUNCTclause
 adulte	adulte	NOUN
 »	»	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP

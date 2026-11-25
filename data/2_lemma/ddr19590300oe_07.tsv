@@ -106,7 +106,7 @@ ailleurs	ailleurs	ADV
 encore	encore	ADV
 (	(	PUNCTclause
 p.	p.	PUNCT
-38	38	NUM
+38	38	DIGIT
 ,	,	PUNCTclause
 op. cit.	op. cit.	NOUN
 )	)	PUNCTclause
@@ -569,7 +569,7 @@ vers	vers	NOUN
 latin	latin	ADJ
 ,	,	PUNCTclause
 vers	vers	ADP
-370	370	NUM
+370	370	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 récit	récit	NOUN
@@ -805,7 +805,7 @@ Milet	Milet	PROPN
 ,	,	PUNCTclause
 né	naître	VERB
 vers	vers	ADP
-540	540	NUM
+540	540	DIGIT
 avant	avant	ADP
 J.-C	J.-C	PROPN
 ,	,	PUNCTclause
@@ -1069,7 +1069,7 @@ fin	fin	NOUN
 du	du	ADP_DET
 5e	5e	ADJ
 siècle	siècle	NOUN
-av. J.-C.	av. J.-C.	NOUN
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 Hippocrate	Hippocrate	PROPN
 ,	,	PUNCTclause
@@ -1104,7 +1104,7 @@ l'	le	DET
 Europe	Europe	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-18	18	NUM
+18	18	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 vais	aller	VERB
@@ -1427,7 +1427,7 @@ de	de	ADP
 esprit	esprit	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 donc	donc	ADV
@@ -2006,7 +2006,7 @@ l'	le	DET
 Asie	Asie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 .	.	PUNCTsent
 …	…	PUNCTsent
 ce	ce	PRON
@@ -2328,9 +2328,9 @@ essentiel	essentiel	ADJ
 de	de	ADP
 Aristote	Aristote	PROPN
 (	(	PUNCTclause
-384	384	NUM
--322	-322	NUM
-av. J.-C.	av. J.-C.	NOUN
+384	384	DIGIT
+-322	-322	DIGIT
+av. J.-C.	av. J.-C.	ADV
 )	)	PUNCTclause
 sur	sur	ADP
 l'	le	DET
@@ -2342,7 +2342,7 @@ livre	livre	NOUN
 IV	IV	NUM
 ,	,	PUNCTclause
 chapitre	chapitre	NOUN
-6	6	NUM
+6	6	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -2540,7 +2540,7 @@ Platon	Platon	PROPN
 au	au	ADP_DET
 4e	4e	ADJ
 siècle	siècle	NOUN
-av. J.-C.	av. J.-C.	NOUN
+av. J.-C.	av. J.-C.	ADV
 )	)	PUNCTclause
 et	et	CCONJ
 ancêtre	ancêtre	NOUN
@@ -2603,7 +2603,7 @@ Hérodote	Hérodote	PROPN
 au	au	ADP_DET
 5e	5e	ADJ
 siècle	siècle	NOUN
-av. J.-C.	av. J.-C.	NOUN
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 définit	définir	VERB
 l'	le	DET
@@ -3700,7 +3700,7 @@ Sébastian	Sébastian	PROPN
 Münster	Münster	PROPN
 écrit	écrire	VERB
 en	en	ADP
-1567	1567	NUM
+1567	1567	DIGIT
 dans	dans	ADP
 sa	son	DET
 cosmographie	cosmographie	NOUN
@@ -3854,7 +3854,7 @@ montagnes	montagne	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1679	1679	NUM
+1679	1679	DIGIT
 ,	,	PUNCTclause
 Robbe	Robbe	PROPN
 ,	,	PUNCTclause
@@ -4048,7 +4048,7 @@ Moreri	Moreri	PROPN
 ,	,	PUNCTclause
 édité	éditer	VERB
 en	en	ADP
-1759	1759	NUM
+1759	1759	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 quoique	quoique	SCONJ
@@ -4153,7 +4153,7 @@ parue	paraître	VERB
 à	à	ADP
 Paris	Paris	PROPN
 en	en	ADP
-1816	1816	NUM
+1816	1816	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
@@ -4319,7 +4319,7 @@ Orose	Orose	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 «	«	PUNCTclause
-54	54	NUM
+54	54	DIGIT
 nations	nation	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
@@ -4333,7 +4333,7 @@ ne	ne	ADV
 en	en	PRON
 trouve	trouver	VERB
 que	que	SCONJ
-34	34	NUM
+34	34	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 quoique	quoique	SCONJ

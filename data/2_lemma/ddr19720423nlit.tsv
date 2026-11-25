@@ -16,10 +16,10 @@ l'	le	DET
 union	union	NOUN
 politique	politique	ADJ
 (	(	PUNCTclause
-17	17	NUM
--23	-23	NUM
+17	17	DIGIT
+-23	-23	DIGIT
 avril	avril	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -673,7 +673,7 @@ la	le	DET
 Sorbonne	Sorbonne	PROPN
 ,	,	PUNCTclause
 vers	vers	ADP
-1270	1270	NUM
+1270	1270	DIGIT
 —	—	PUNCTclause
 comme	comme	ADP
 me	me	PRON
@@ -853,7 +853,7 @@ seule	seul	ADJ
 langue	langue	NOUN
 officielle	officiel	ADJ
 dès	dès	ADP
-1539	1539	NUM
+1539	1539	DIGIT
 par	par	ADP
 l'	le	DET
 édit	édit	NOUN
@@ -1882,7 +1882,7 @@ l'	le	DET
 esprit	esprit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 chacun	chacun	PRON
 de	de	ADP
@@ -1984,8 +1984,8 @@ leur	leur	DET
 propre	propre	ADJ
 nation	nation	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-ce	ce	PRON
+etc.	etc.	PUNCT
+ce	ce	DET
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
@@ -2021,7 +2021,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 la	le	DET
 création	création	NOUN

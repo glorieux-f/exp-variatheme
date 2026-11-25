@@ -15,9 +15,9 @@ faisons	faire	VERB
 le	le	DET
 point	point	NOUN
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 juillet	juillet	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -271,7 +271,7 @@ un	un	DET
 mois	mois	NOUN
 ,	,	PUNCTclause
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 août	août	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -641,7 +641,7 @@ M.	M.	NOUN
 Robert	Robert	PROPN
 Schuman	Schuman	PROPN
 ,	,	PUNCTclause
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 est	être	AUX
@@ -757,7 +757,7 @@ qui	qui	PRON
 compte	compter	VERB
 déjà	déjà	ADV
 plus de	plus de	DET
-150	150	NUM
+150	150	DIGIT
 députés	député	NOUN
 .	.	PUNCTsent
 parmi	parmi	ADP
@@ -834,8 +834,7 @@ hommes	homme	NOUN
 qui	qui	PRON
 furent	être	AUX
 au	au	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 rang	rang	NOUN
 de	de	ADP
 la	le	DET
@@ -850,7 +849,7 @@ Italie	Italie	PROPN
 qui	qui	PRON
 a	avoir	AUX
 fait	faire	VERB
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 de	de	ADP
 prison	prison	NOUN
@@ -877,7 +876,7 @@ qui	qui	PRON
 a	avoir	AUX
 passé	passer	VERB
 près de	près de	ADP
-8	8	NUM
+8	8	DIGIT
 ans	an	NOUN
 à	à	ADP
 Buchenwald	Buchenwald	PROPN

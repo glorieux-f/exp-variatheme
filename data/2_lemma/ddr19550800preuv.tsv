@@ -20,7 +20,7 @@ la	le	DET
 matière	matière	NOUN
 (	(	PUNCTclause
 août	août	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1506,9 +1506,9 @@ la	le	DET
 chair	chair	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
-c'est-à-dire	c'est-à-dire	NOUN
+c'est-à-dire	c'est-à-dire	CCONJ
 aux	au	ADP_DET
-futurs	futur	NOUN
+futurs	futur	ADJ
 objets	objet	NOUN
 de	de	ADP
 nos	nos	DET
@@ -1985,7 +1985,7 @@ individu	individu	NOUN
 et	et	CCONJ
 société	société	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
@@ -3664,7 +3664,7 @@ réel	réel	ADJ
 ce	ce	PRON
 qui	qui	PRON
 ne	ne	ADV
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 pas	pas	ADV
 avec	avec	ADP
 les	le	DET
@@ -4055,7 +4055,7 @@ ainsi	ainsi	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 le	le	DET
 christianisme	christianisme	NOUN
 a	avoir	AUX
@@ -4773,7 +4773,7 @@ la	le	DET
 percée	percée	NOUN
 commença	commencer	VERB
 vers	vers	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 .	.	PUNCTsent
 un	un	DET
 demi-siècle	demi-siècle	NOUN
@@ -5396,7 +5396,7 @@ ne	ne	ADV
 ce	ce	PRON
 pas	pas	ADV
 admettre	admettre	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 que	que	SCONJ
 il y a	il y a	VERB
 aussi	aussi	ADV

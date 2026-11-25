@@ -505,7 +505,7 @@ prend	prendre	VERB
 sa	son	DET
 source	source	NOUN
 à	à	ADP
-80	80	NUM
+80	80	DIGIT
 km	km	NOUN
 plus	plus	ADV
 à	à	ADP
@@ -621,10 +621,9 @@ la	le	DET
 confédération	confédération	NOUN
 helvétique	helvétique	ADJ
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
-1291	1291	NUM
+1291	1291	DIGIT
 .	.	PUNCTsent
 ce	ce	DET
 jour	jour	NOUN
@@ -1131,7 +1130,7 @@ l'	le	DET
 an	an	NOUN
 du	du	ADP_DET
 Dieu	Dieu	PROPN
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 commencement	commencement	NOUN
@@ -1279,7 +1278,7 @@ c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 Pacte	Pacte	PROPN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 est	être	AUX
 resté	rester	VERB
 le	le	DET
@@ -1645,7 +1644,7 @@ en	en	ADP
 avouerie	avouerie	NOUN
 impériale	impérial	ADJ
 (	(	PUNCTclause
-1231	1231	NUM
+1231	1231	DIGIT
 )	)	PUNCTclause
 tandis que	tandis que	SCONJ
 son	son	DET
@@ -1925,7 +1924,7 @@ fut	être	AUX
 le	le	DET
 pacte	pacte	NOUN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 (	(	PUNCTclause
 conclu	conclure	VERB
 au lendemain de	au lendemain de	ADP
@@ -2521,7 +2520,7 @@ au	au	ADP_DET
 sud-est	sud-est	NOUN
 .	.	PUNCTsent
 vers	vers	ADP
-1500	1500	NUM
+1500	1500	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Confédération	Confédération	PROPN
@@ -2580,10 +2579,10 @@ des	un	ADP_DET
 états	état	NOUN
 fédérés	fédéré	ADJ
 à	à	ADP
-22	22	NUM
+22	22	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 seulement	seulement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2765,7 +2764,7 @@ le	le	DET
 principal	principal	ADJ
 et	et	CCONJ
 le premier	le premier	PRON
-chapitre	chapitrer	VERB
+chapitre	chapitre	NOUN
 de	de	ADP
 toutes	tout	ADJ
 les	le	DET
@@ -3830,9 +3829,9 @@ Morgarten	Morgarten	PROPN
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1315	1315	NUM
+1315	1315	DIGIT
 ,	,	PUNCTclause
-600	600	NUM
+600	600	DIGIT
 Suisse	Suisse	PROPN
 exterminent	exterminer	VERB
 une	un	DET
@@ -3841,7 +3840,7 @@ Panzer	Panzer	PROPN
 division	division	NOUN
 »	»	PUNCTclause
 de	de	ADP
-11000	11000	NUM
+11000	11000	DIGIT
 chevaliers	chevalier	NOUN
 lourdement	lourdement	ADV
 armés	armer	VERB
@@ -4495,7 +4494,7 @@ Nicolas de Flue	Nicolas de Flue	PROPN
 (	(	PUNCTclause
 canonisé	canoniser	VERB
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 représente	représenter	VERB
 la	le	DET
@@ -4828,7 +4827,7 @@ bataille	bataille	NOUN
 de	de	ADP
 Novare	Novare	PROPN
 (	(	PUNCTclause
-1509	1509	NUM
+1509	1509	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 le	le	DET
@@ -4844,7 +4843,7 @@ mais	mais	CCONJ
 Marignan	Marignan	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1515	1515	NUM
+1515	1515	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 Suisse	Suisse	PROPN
@@ -5171,7 +5170,7 @@ locales	local	ADJ
 il	il	PRON
 devint	devenir	VERB
 à partir de	à partir de	ADP
-1528	1528	NUM
+1528	1528	DIGIT
 le	le	DET
 chef	chef	NOUN
 politique	politique	ADJ
@@ -5207,7 +5206,7 @@ Colloque	Colloque	PROPN
 de	de	ADP
 Marburg	Marburg	PROPN
 en	en	ADP
-1529	1529	NUM
+1529	1529	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -5442,7 +5441,7 @@ congrès	congrès	NOUN
 de	de	ADP
 Münster	Münster	PROPN
 en	en	ADP
-1648	1648	NUM
+1648	1648	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 obtint	obtenir	VERB
@@ -6590,9 +6589,9 @@ l'	le	DET
 populaire	populaire	ADJ
 ,	,	PUNCTclause
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 se	se	PRON
@@ -6775,7 +6774,7 @@ de	de	ADP
 ajouter	ajouter	VERB
 que	que	SCONJ
 les	le	DET
-700	700	NUM
+700	700	DIGIT
 généraux	général	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -6984,7 +6983,7 @@ de	de	ADP
 la	le	DET
 Bérézina	Bérézina	PROPN
 en	en	ADP
-1813	1813	NUM
+1813	1813	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 l'	le	DET
@@ -7175,7 +7174,7 @@ convoqués	convoquer	VERB
 à	à	ADP
 Paris	Paris	PROPN
 en	en	ADP
-1802	1802	NUM
+1802	1802	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 conquérant	conquérant	NOUN
@@ -7236,7 +7235,7 @@ il	il	PRON
 ajoutait	ajouter	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1803	1803	NUM
+1803	1803	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -7315,9 +7314,9 @@ incorporer	incorporer	VERB
 les	le	DET
 traités	traité	NOUN
 de	de	ADP
-1814	1814	NUM
+1814	1814	DIGIT
 et	et	CCONJ
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 en effet	en effet	ADV
 ,	,	PUNCTclause
@@ -7384,9 +7383,9 @@ de	de	ADP
 cette	ce	DET
 déclaration	déclaration	NOUN
 du	du	ADP_DET
-20	20	NUM
+20	20	DIGIT
 novembre	novembre	NOUN
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 Guglielmo	Guglielmo	PROPN
 Ferrero	Ferrero	PROPN
@@ -7445,7 +7444,7 @@ conservateur	conservateur	ADJ
 des	un	DET
 principes	principe	NOUN
 de	de	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 du	du	ADP_DET
@@ -7550,9 +7549,9 @@ des	un	ADP_DET
 personnes	personne	NOUN
 .	.	PUNCTsent
 de	de	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 à	à	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Suisse	Suisse	PROPN
@@ -7605,7 +7604,7 @@ aggrava	aggraver	VERB
 soudain	soudain	ADJ
 lorsque	lorsque	SCONJ
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 les	le	DET
 cantons	canton	NOUN
 catholiques	catholique	ADJ
@@ -7763,7 +7762,7 @@ cantons	canton	NOUN
 la	le	DET
 diète	diète	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 se	se	PRON
 montra	montrer	VERB
 fort	fort	ADV
@@ -7858,7 +7857,7 @@ fut	être	AUX
 guère	guère	ADV
 que	que	SCONJ
 à partir de	à partir de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 que	que	SCONJ
 la	le	DET
 Suisse	Suisse	PROPN
@@ -7925,13 +7924,13 @@ exceptionnelle	exceptionnel	ADJ
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 fut	être	AUX
 adaptée	adapter	VERB
 sans	sans	ADP
 difficultés	difficulté	NOUN
 en	en	ADP
-1874	1874	NUM
+1874	1874	DIGIT
 aux	au	ADP_DET
 nécessités	nécessité	NOUN
 nouvelles	nouveau	ADJ
@@ -8044,9 +8043,9 @@ bourgeoise	bourgeois	ADJ
 qui	qui	PRON
 va	aller	VERB
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 à	à	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 permit	permettre	VERB
 à	à	ADP
 la	le	DET
@@ -8173,8 +8172,8 @@ pendant	pendant	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
--1918	-1918	NUM
+1914	1914	DIGIT
+-1918	-1918	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 après	après	ADP
@@ -8646,7 +8645,7 @@ de	de	ADP
 Londres	Londres	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1920	1920	NUM
+1920	1920	DIGIT
 ,	,	PUNCTclause
 lui	lui	PRON
 reconnut	reconnaître	VERB
@@ -8706,9 +8705,9 @@ guerre mondiale	guerre mondiale	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 à	à	ADP
-1944	1944	NUM
+1944	1944	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Suisse	Suisse	PROPN
@@ -8740,7 +8739,7 @@ la	le	DET
 France	France	PROPN
 en	en	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ;	;	PUNCTclause
 unique	unique	ADJ
 démocratie	démocratie	NOUN
@@ -8883,7 +8882,7 @@ intacte	intact	ADJ
 du	du	ADP_DET
 continent	continent	NOUN
 (	(	PUNCTclause
-600000	600000	NUM
+600000	600000	DIGIT
 hommes	homme	NOUN
 )	)	PUNCTclause
 veillaient	veiller	VERB
@@ -8991,7 +8990,7 @@ du	du	ADP_DET
 peuple	peuple	NOUN
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'on	on	PRON
 peut	pouvoir	VERB
 considérer	considérer	VERB

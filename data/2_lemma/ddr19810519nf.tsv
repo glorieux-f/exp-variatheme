@@ -16,9 +16,9 @@ tous	tous	PRON
 sont	être	AUX
 unis	unir	VERB
 (	(	PUNCTclause
-19	19	NUM
+19	19	DIGIT
 mai	mai	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -99,9 +99,9 @@ Honegger	Honegger	PROPN
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 mercredi	mercredi	NOUN
-28	28	NUM
+28	28	DIGIT
 septembre	septembre	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 au milieu de	au milieu de	ADP
 l'	le	DET
@@ -329,12 +329,12 @@ vu	voir	VERB
 les	le	DET
 plans	plan	NOUN
 :	:	PUNCTclause
-36	36	NUM
+36	36	DIGIT
 m	m	NOUN
 de	de	ADP
 large	large	NOUN
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 m	m	NOUN
 de	de	ADP
 profondeur	profondeur	NOUN
@@ -360,7 +360,7 @@ devant	devant	ADP
 une	un	DET
 salle	salle	NOUN
 de	de	ADP
-6000	6000	NUM
+6000	6000	DIGIT
 places	place	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -792,7 +792,7 @@ en plein	en plein	ADV
 gloire	gloire	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-46	46	NUM
+46	46	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -884,7 +884,7 @@ fanfare	fanfare	NOUN
 la	le	DET
 Chaux-de-Fonds	Chaux-de-Fonds	ADJ
 ,	,	PUNCTclause
-400	400	NUM
+400	400	DIGIT
 figurants	figurant	NOUN
 fournis	fournir	VERB
 par	par	ADP
@@ -958,8 +958,7 @@ je	je	PRON
 écris	écrire	VERB
 d'abord	d'abord	ADV
 le	le	DET
-2	2	NUM
-e	e	SYM
+2e	2e	NUMord
 acte	acte	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -969,13 +968,12 @@ envoie	envoyer	VERB
 ,	,	PUNCTclause
 puis	puis	CCONJ
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 ,	,	PUNCTclause
 puis	puis	CCONJ
 le	le	DET
-3	3	NUM
-e.	e.	PUNCT
+3e	3e	NUMord
+.	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
 ou	ou	CCONJ
@@ -1129,9 +1127,8 @@ téléphone	téléphone	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 au	au	ADP_DET
-5	5	NUM
-e	e	NOUN
-vers	vers	ADP
+5e	5e	NUMord
+vers	vers	NOUN
 de	de	ADP
 la	le	DET
 troisième	troisième	ADJ
@@ -1269,7 +1266,7 @@ dernier	dernier	ADJ
 soir	soir	NOUN
 de	de	ADP
 août	août	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -1543,7 +1540,7 @@ oratorio	oratorio	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 à	à	ADP
 son	son	DET
 exécution	exécution	NOUN
@@ -1835,11 +1832,10 @@ jouée	jouer	VERB
 à	à	ADP
 Neuchâtel	Neuchâtel	PROPN
 en	en	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 pour	pour	ADP
 le	le	DET
-650	650	NUM
-e	e	SYM
+650e	650e	NUMord
 anniversaire	anniversaire	NOUN
 du	du	ADP_DET
 pacte	pacte	NOUN
@@ -1975,8 +1971,7 @@ et	et	CCONJ
 Fribourg	Fribourg	PROPN
 célébraient	célébrer	VERB
 le	le	DET
-500	500	NUM
-e	e	SYM
+500e	500e	NUMord
 anniversaire	anniversaire	NOUN
 de	de	ADP
 leur	leur	DET

@@ -22,9 +22,9 @@ réforme	réforme	NOUN
 des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 août	août	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -137,7 +137,7 @@ déclarée	déclarer	VERB
 que	que	SCONJ
 en	en	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 explosion	explosion	NOUN
@@ -551,7 +551,7 @@ décentralisation	décentralisation	NOUN
 par exemple	par exemple	ADV
 .	.	PUNCTsent
 dès	dès	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 notre	notre	DET
 groupe	groupe	NOUN
@@ -975,7 +975,7 @@ actuellement	actuellement	ADV
 ,	,	PUNCTclause
 celui	celui	PRON
 récupère	récupérer	VERB
-81	81	NUM
+81	81	DIGIT
 du	du	ADP_DET
 produit	produit	NOUN
 de	de	ADP
@@ -985,7 +985,7 @@ et	et	CCONJ
 les	le	DET
 collectivités	collectivité	NOUN
 locales	local	ADJ
-19	19	NUM
+19	19	DIGIT
 seulement	seulement	ADV
 .	.	PUNCTsent
 en	en	ADP
@@ -1740,7 +1740,9 @@ se	se	PRON
 montre	montrer	VERB
 résolument	résolument	ADV
 optimiste	optimiste	ADJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 réforme	réforme	NOUN
 régionale	régional	ADJ
@@ -1932,7 +1934,9 @@ et	et	CCONJ
 il	il	PRON
 emploie	employer	VERB
 ,	,	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 réforme	réforme	NOUN
 régionale	régional	ADJ

@@ -11,7 +11,7 @@ attitude	attitude	NOUN
 fédéralisme	fédéralisme	NOUN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1113,7 +1113,7 @@ constitution	constitution	NOUN
 commune	commun	ADJ
 que	que	SCONJ
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 au terme de	au terme de	ADP
 une	un	DET
@@ -1167,7 +1167,7 @@ laquelle	laquelle	PRON
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 fut	être	AUX
 proposée	proposer	VERB
 ,	,	PUNCTclause
@@ -1178,7 +1178,7 @@ et	et	CCONJ
 mise en pratique	mise en pratique	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1846	1846	NUM
+1846	1846	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 était	être	AUX
@@ -1940,7 +1940,7 @@ entends	entendre	VERB
 ceux	ceux	PRON
 de	de	ADP
 avant	avant	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 est	être	AUX
@@ -2089,7 +2089,7 @@ une	un	DET
 guerre civile	guerre civile	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 ait	avoir	AUX
@@ -2130,7 +2130,7 @@ sujet	sujet	NOUN
 .	.	PUNCTsent
 jusque	jusque	ADP
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 allait	aller	VERB
@@ -2410,8 +2410,8 @@ depuis	depuis	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
--1918	-1918	NUM
+1914	1914	DIGIT
+-1918	-1918	DIGIT
 .	.	PUNCTsent
 la	le	DET
 SDN	SDN	NOUN
@@ -2692,7 +2692,7 @@ grave	grave	ADJ
 la	le	DET
 guerre civile	guerre civile	NOUN
 de	de	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 opposant	opposant	NOUN
 catholiques	catholique	ADJ
 et	et	CCONJ
@@ -2731,7 +2731,7 @@ résulté	résulter	VERB
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 véritable	véritable	ADJ
 base	base	NOUN
@@ -2858,7 +2858,9 @@ je	je	PRON
 viens	venir	VERB
 de	de	ADP
 dire	dire	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 impérialisme	impérialisme	NOUN
 ou	ou	CCONJ
@@ -3710,7 +3712,7 @@ annonçait	annoncer	VERB
 la	le	DET
 venue	venue	NOUN
 dès	dès	ADP
-1880	1880	NUM
+1880	1880	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -4463,7 +4465,7 @@ assemblée	assemblée	NOUN
 des	un	ADP_DET
 gouverneurs	gouverneur	NOUN
 des	un	ADP_DET
-48	48	NUM
+48	48	DIGIT
 états	état	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -4473,7 +4475,7 @@ par	par	ADP
 les	le	DET
 délégués	délégué	NOUN
 des	un	ADP_DET
-22	22	NUM
+22	22	DIGIT
 cantons	canton	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
@@ -4557,7 +4559,7 @@ des	un	ADP_DET
 cantons	canton	NOUN
 Suisse	Suisse	PROPN
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 la	le	DET
 nécessité	nécessité	NOUN
@@ -5418,7 +5420,7 @@ et	et	CCONJ
 ferme	ferme	ADJ
 que	que	SCONJ
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV

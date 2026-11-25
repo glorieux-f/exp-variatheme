@@ -15,9 +15,9 @@ plus	plus	ADV
 grandes	grand	ADJ
 !	!	PUNCTsent
 (	(	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 juillet	juillet	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -334,9 +334,9 @@ coûté	coûter	VERB
 l'	le	DET
 humanité	humanité	NOUN
 en	en	ADP
-1981	1981	NUM
+1981	1981	DIGIT
 ,	,	PUNCTclause
-600	600	NUM
+600	600	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -1097,7 +1097,7 @@ si	si	SCONJ
 cette	ce	DET
 défense	défense	NOUN
 ,	,	PUNCTclause
-proche de	proche de	ADP
+proche de	proche de	ADJ
 la	le	DET
 guérilla	guérilla	NOUN
 ,	,	PUNCTclause
@@ -1373,7 +1373,7 @@ premiers	premier	ADJ
 ↵↵	↵↵	PUNCTstruct
 seriez	être	AUX
 vous	vous	PRON
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 le	le	DET
 dire	dire	NOUN
 pour	pour	ADP
@@ -1575,9 +1575,9 @@ Proverbes	Proverbes	PROPN
 (	(	PUNCTclause
 Prov	Prov	PROPN
 .	.	PUNCTsent
-26	26	NUM
-4	4	NUM
--5	-5	NUM
+26	26	DIGIT
+4	4	DIGIT
+-5	-5	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent

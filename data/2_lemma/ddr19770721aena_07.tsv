@@ -6,7 +6,7 @@
 # title = 6. L’avenir sensible au cœur
 
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 avenir	avenir	NOUN
@@ -654,7 +654,7 @@ et	et	CCONJ
 de	de	ADP
 régler	régler	VERB
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 degrés	degré	NOUN
 nos	nos	DET
 thermostats	thermostat	NOUN
@@ -780,16 +780,16 @@ superflu	superflu	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 produire	produire	VERB
-16	16	NUM
+16	16	DIGIT
 fois	fois	NOUN
 plus de	plus de	DET
 électricité	électricité	NOUN
 vers	vers	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
-32	32	NUM
+32	32	DIGIT
 fois	fois	NOUN
 plus	plus	ADV
 dans	dans	ADP
@@ -797,7 +797,7 @@ trente-cinq	trente-cinq	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-16384	16384	NUM
+16384	16384	DIGIT
 fois	fois	NOUN
 plus	plus	ADV
 dans	dans	ADP
@@ -838,7 +838,7 @@ qui	qui	PRON
 se	se	PRON
 passera	passer	VERB
 en	en	ADP
-2025	2025	NUM
+2025	2025	DIGIT
 (	(	PUNCTclause
 comme	comme	ADP
 le	le	DET
@@ -2308,10 +2308,10 @@ Kahn	Kahn	PROPN
 annonçant	annoncer	VERB
 que	que	SCONJ
 en	en	ADP
-2050	2050	NUM
+2050	2050	DIGIT
 ,	,	PUNCTclause
 les	le	DET
-20	20	NUM
+20	20	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -2326,7 +2326,7 @@ de	de	ADP
 un	un	DET
 revenu	revenu	NOUN
 de	de	ADP
-20000	20000	NUM
+20000	20000	DIGIT
 dollars	dollar	NOUN
 par	par	ADP
 tête	tête	NOUN
@@ -2735,7 +2735,9 @@ comme	comme	SCONJ
 on	on	PRON
 le	le_PRON	PRON
 verra	voir	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
 de	de	ADP
@@ -2769,7 +2771,7 @@ au cours de	au cours de	ADP
 une	un	DET
 conférence	conférence	NOUN
 en	en	ADP
-1971	1971	NUM
+1971	1971	DIGIT
 ,	,	PUNCTclause
 présentant	présenter	VERB
 les	le	DET
@@ -2869,7 +2871,7 @@ peut	pouvoir	VERB
 conduire	conduire	VERB
 un	un	DET
 Boeing	Boeing	PROPN
-747	747	NUM
+747	747	DIGIT
 en	en	ADP
 faisant	faire	VERB
 confiance	confiance	NOUN
@@ -3180,7 +3182,7 @@ napoléonien	napoléonien	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 lis	lire	VERB
@@ -3529,7 +3531,7 @@ suffira	suffire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à la page	à la page	ADJ
-54	54	NUM
+54	54	DIGIT
 de	de	ADP
 l'	le	DET
 ouvrage	ouvrage	NOUN
@@ -3541,7 +3543,7 @@ célèbre	célèbre	ADJ
 ,	,	PUNCTclause
 l'	le	DET
 An	An	PROPN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 Herman	Herman	PROPN
 Kahn	Kahn	PROPN
@@ -4014,7 +4016,7 @@ Burckhardt	Burckhardt	PROPN
 qui	qui	PRON
 datent	dater	VERB
 de	de	ADP
-1887	1887	NUM
+1887	1887	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 le	le	DET
@@ -4024,7 +4026,7 @@ est	être	AUX
 là	là	ADV
 ,	,	PUNCTclause
 dès	dès	ADP
-1856	1856	NUM
+1856	1856	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
@@ -5913,7 +5915,7 @@ crise	crise	NOUN
 de	de	ADP
 l'	le	DET
 automne	automne	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 pouvait	pouvoir	VERB
 être	être	AUX
 prévue	prévoir	VERB

@@ -10,7 +10,7 @@ prototype	prototype	NOUN
 T.E.L.	T.E.L.	PROPN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1941,7 +1941,7 @@ l'	le	DET
 du	du	ADP_DET
 héros	héros	NOUN
 de	de	ADP
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 à la fin	à la fin	ADV
@@ -2311,7 +2311,7 @@ l'	le	DET
 adolescence	adolescence	NOUN
 :	:	PUNCTclause
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 les	le	DET
 voilà	voilà	ADP
@@ -2344,7 +2344,7 @@ de	de	ADP
 manœuvrer	manœuvrer	VERB
 en cachette	en cachette	ADV
 à	à	ADP
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -3217,7 +3217,7 @@ fauché	faucher	VERB
 écrit	écrire	VERB
 Lawrence	Lawrence	PROPN
 en	en	ADP
-1923	1923	NUM
+1923	1923	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 argent	argent	NOUN
@@ -4078,9 +4078,9 @@ Lionel	Lionel	PROPN
 Curtis	Curtis	PROPN
 ,	,	PUNCTclause
 le	le	DET
-30	30	NUM
+30	30	DIGIT
 mai	mai	NOUN
-1923	1923	NUM
+1923	1923	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -4156,9 +4156,9 @@ de	de	ADP
 me	me	PRON
 en	en	ADP
 aller	aller	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 ma	mon	DET
 volonté	volonté	NOUN
 de	de	ADP
@@ -4351,7 +4351,7 @@ en partie	en partie	ADV
 son	son	DET
 œuvre	œuvre	NOUN
 en	en	ADP
-1921	1921	NUM
+1921	1921	DIGIT
 )	)	PUNCTclause
 pèse	peser	VERB
 à	à	ADP
@@ -5012,7 +5012,7 @@ les nôtres	les nôtres	PRON
 peut	pouvoir	VERB
 se	se	PRON
 permettre	permettre	VERB
-1	1	NUM
+1	1	DIGIT
 de	de	ADP
 monistes	moniste	NOUN
 ou	ou	CCONJ

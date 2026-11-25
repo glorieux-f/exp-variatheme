@@ -15,9 +15,9 @@ le	le	DET
 monde	monde	NOUN
 civilisé	civiliser	VERB
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 juin	juin	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -244,7 +244,7 @@ trois	trois	NUM
 exemples	exemple	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -264,7 +264,7 @@ la	le	DET
 découvrir	découvrir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -291,7 +291,7 @@ de	de	ADP
 outre-mer	outre-mer	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -533,7 +533,7 @@ Hippocrate	Hippocrate	PROPN
 au	au	ADP_DET
 5e	5e	ADJ
 siècle	siècle	NOUN
-av. J.-C.	av. J.-C.	NOUN
+av. J.-C.	av. J.-C.	ADV
 explique	expliquer	VERB
 la	le	DET
 supériorité	supériorité	NOUN
@@ -639,7 +639,7 @@ publiée	publier	VERB
 à	à	ADP
 Paris	Paris	PROPN
 en	en	ADP
-1816	1816	NUM
+1816	1816	DIGIT
 ,	,	PUNCTclause
 reconnaît	reconnaître	VERB
 que	que	SCONJ
@@ -931,9 +931,9 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 entre	entre	ADP
-500	500	NUM
+500	500	DIGIT
 et	et	CCONJ
-600	600	NUM
+600	600	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -941,14 +941,14 @@ habitants	habitant	NOUN
 soit	soit	ADV
 ensemble	ensemble	ADV
 à peu près	à peu près	ADV
-60	60	NUM
+60	60	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
 du	du	ADP_DET
 globe	globe	NOUN
 sur	sur	ADP
-15	15	NUM
+15	15	DIGIT
 de	de	ADP
 sa	son	DET
 superficie	superficie	NOUN
@@ -1008,9 +1008,9 @@ entreprenants	entreprenant	ADJ
 ainsi	ainsi	ADV
 ,	,	PUNCTclause
 de	de	ADP
-1328	1328	NUM
+1328	1328	DIGIT
 à	à	ADP
-1700	1700	NUM
+1700	1700	DIGIT
 ,	,	PUNCTclause
 selon	selon	ADP
 Charles	Charles	PROPN
@@ -1133,7 +1133,7 @@ de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
 vers	vers	ADP
-1850	1850	NUM
+1850	1850	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -1157,7 +1157,7 @@ du	du	ADP_DET
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 selon	selon	ADP
 les	le	DET
@@ -1956,7 +1956,7 @@ de	de	ADP
 Tyr	Tyr	PROPN
 par	par	ADP
 le	le	DET
-grands dieux	grands dieux	NOUN
+grands dieux	grands dieux	INTJ
 des	un	ADP_DET
 grecs	grec	NOUN
 ,	,	PUNCTclause
@@ -2156,7 +2156,7 @@ du	du	ADP_DET
 pays	pays	NOUN
 le	le	DET
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 ce	ce	PRON
 rivage	rivage	NOUN
 phénicien	phénicien	ADJ
@@ -3673,7 +3673,7 @@ turcs	turc	NOUN
 qui	qui	PRON
 occupe	occuper	VERB
 moins de	moins de	DET
-5	5	NUM
+5	5	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 du	du	ADP_DET
@@ -3895,9 +3895,9 @@ Afrique	Afrique	PROPN
 noire	noir	ADJ
 à partir de	à partir de	ADP
 années	année	NOUN
-1880	1880	NUM
+1880	1880	DIGIT
 à	à	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au début	au début	ADV
@@ -4016,7 +4016,7 @@ toute	tout	ADJ
 l'	le	DET
 Afrique	Afrique	PROPN
 vers	vers	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET

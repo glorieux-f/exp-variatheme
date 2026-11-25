@@ -6,7 +6,7 @@
 # title = 3. Le Mythe de Japhet
 
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 le	le	DET
 Mythe	Mythe	PROPN
@@ -169,8 +169,8 @@ selon	selon	ADP
 saint	saint	NOUN
 Jérôme	Jérôme	PROPN
 (	(	PUNCTclause
-346	346	NUM
--420	-420	NUM
+346	346	DIGIT
+-420	-420	DIGIT
 )	)	PUNCTclause
 dans	dans	ADP
 son	son	DET
@@ -187,7 +187,7 @@ Ambroise	Ambroise	PROPN
 (	(	PUNCTclause
 né	naître	VERB
 en	en	ADP
-340	340	NUM
+340	340	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 les	le	DET
@@ -244,9 +244,9 @@ fonde	fonder	VERB
 sur	sur	ADP
 les	le	DET
 chapitres	chapitre	NOUN
-9	9	NUM
+9	9	DIGIT
 et	et	CCONJ
-10	10	NUM
+10	10	DIGIT
 de	de	ADP
 la	le	DET
 Genèse	Genèse	PROPN
@@ -281,7 +281,7 @@ ils	ils	PRON
 ne	ne	ADV
 furent	être	AUX
 pas	pas	ADV
-traités	traiter	VERB
+traités	traité	ADJ
 également	également	ADV
 ,	,	PUNCTclause
 car	car	CCONJ
@@ -400,9 +400,9 @@ Augustin	Augustin	PROPN
 voit	voir	VERB
 dans	dans	ADP
 Genèse	Genèse	PROPN
-9	9	NUM
+9	9	DIGIT
 ,	,	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 une	un	DET
 prophétie	prophétie	NOUN
 ,	,	PUNCTclause
@@ -466,7 +466,7 @@ souligné	souligner	VERB
 dans	dans	ADP
 le	le	DET
 verset	verset	NOUN
-27	27	NUM
+27	27	DIGIT
 cité	cité	NOUN
 :	:	PUNCTclause
 dilatet	dilatet	NOUN
@@ -582,9 +582,9 @@ Japhet	Japhet	PROPN
 et	et	CCONJ
 à	à	ADP
 ses	son	DET
-23	23	NUM
+23	23	DIGIT
 ou	ou	CCONJ
-26	26	NUM
+26	26	DIGIT
 fils	fils	NOUN
 et	et	CCONJ
 petits-fils	petit-fils	NOUN

@@ -6,7 +6,7 @@
 # title = 2. Sécularisme
 
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 sécularisme	sécularisme	NOUN
 .	.	PUNCTsent
@@ -700,7 +700,7 @@ comme	comme	ADP
 sacrés	sacré	ADJ
 .	.	PUNCTsent
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 démocratique	démocratique	ADJ
 ne	ne	ADV
 sont	être	AUX
@@ -805,7 +805,7 @@ les	le	DET
 figuiers	figuier	NOUN
 stériles	stérile	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ce	ce	DET
@@ -2686,7 +2686,9 @@ critiques	critique	NOUN
 du	du	ADP_DET
 même	même	ADJ
 genre	genre	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un grand nombre de	un grand nombre de	DET
 notions	notion	NOUN
 chrétiennes	chrétien	ADJ
@@ -3532,7 +3534,7 @@ un	un	DET
 petit	petit	ADJ
 garçon	garçon	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 ans	an	NOUN
 disait	dire	VERB
 à	à	ADP
@@ -3791,7 +3793,7 @@ guerre	guerre	NOUN
 ,	,	PUNCTclause
 inauguration	inauguration	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 se	se	PRON
 appliquent	appliquer	VERB

@@ -12,7 +12,7 @@ la	le	DET
 jeunesse	jeunesse	NOUN
 (	(	PUNCTclause
 mai	mai	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -119,7 +119,7 @@ vraiment	vraiment	ADV
 aux	au	ADP_DET
 romantiques	romantique	NOUN
 de	de	ADP
-1830	1830	NUM
+1830	1830	DIGIT
 que	que	SCONJ
 ces	ce	DET
 reproches	reproche	NOUN
@@ -193,11 +193,10 @@ tu	tu	PRON
 seras	être	AUX
 au bout de	au bout de	ADP
 la	le	DET
-20	20	NUM
-e	e	SYM
+20e	20e	NUMord
 ligne	ligne	NOUN
 de	de	ADP
-200	200	NUM
+200	200	DIGIT
 mètres	mètre	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -395,7 +394,7 @@ liberté	liberté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 alors	alors	ADV
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 merci	merci	INTJ
 du	du	ADP_DET

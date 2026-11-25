@@ -10,9 +10,9 @@ paralysie	paralysie	NOUN
 des	un	ADP_DET
 homme d'État	homme d'État	NOUN
 (	(	PUNCTclause
-21	21	NUM
+21	21	DIGIT
 mai	mai	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -690,7 +690,9 @@ qui	qui	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 dit	dire	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 Truman	Truman	PROPN
 ?	?	PUNCTsent
 l'	le	DET
@@ -967,7 +969,7 @@ fonction	fonction	NOUN
 même	même	ADJ
 de	de	ADP
 ces	ce	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 les	le	DET
 disqualifie	disqualifier	VERB
 ,	,	PUNCTclause
@@ -1068,7 +1070,7 @@ de	de	ADP
 haut	haut	NOUN
 avec	avec	ADP
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 peut-être	peut-être	ADV

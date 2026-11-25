@@ -15,9 +15,9 @@ un	un	DET
 tiers-ordre	tiers-ordre	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 janvier	janvier	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -158,7 +158,7 @@ Villey	Villey	PROPN
 doit	devoir	VERB
 avoir	avoir	VERB
 aujourd'hui	aujourd'hui	ADV
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 tout au plus	tout au plus	ADV
 .	.	PUNCTsent
@@ -182,7 +182,7 @@ revue	revue	NOUN
 Esprit	Esprit	PROPN
 ,	,	PUNCTclause
 vers	vers	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 je	je	PRON
 pense	penser	VERB
 .	.	PUNCTsent
@@ -262,9 +262,9 @@ professeur	professeur	NOUN
 et	et	CCONJ
 père	père	NOUN
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 ou	ou	CCONJ
-6	6	NUM
+6	6	DIGIT
 enfants	enfant	NOUN
 .	.	PUNCTsent
 écoutez	écouter	VERB
@@ -572,10 +572,9 @@ se	se	PRON
 lieront	lier	VERB
 jusque	jusque	ADP
 au	au	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 janvier	janvier	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 par	par	ADP
 une	un	DET
 promesse	promesse	NOUN

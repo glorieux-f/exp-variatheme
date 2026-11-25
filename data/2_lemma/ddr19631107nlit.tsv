@@ -16,15 +16,15 @@ de	de	ADP
 Rougemont	Rougemont	PROPN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 novembre	novembre	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 né	naître	VERB
 en	en	ADP
-1906	1906	NUM
+1906	1906	DIGIT
 à	à	ADP
 Neuchâtel	Neuchâtel	PROPN
 ,	,	PUNCTclause
@@ -226,7 +226,7 @@ anecdotes	anecdote	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 Denis	Denis	PROPN
 de	de	ADP
@@ -448,7 +448,7 @@ homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -561,7 +561,7 @@ Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 paru	paraître	VERB
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 eus	avoir	VERB
@@ -622,7 +622,7 @@ droit	droit	NOUN
 de	de	ADP
 outrager	outrager	VERB
 un	un	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 étranger	étranger	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -752,9 +752,8 @@ une	un	DET
 librairie	librairie	NOUN
 de	de	ADP
 la	le	DET
-5	5	NUM
-e	e	X
-avenue	avenue	X
+5e	5e	NUMord
+avenue	avenue	NOUN
 pour	pour	ADP
 l'	le	DET
 exposition	exposition	NOUN
@@ -772,7 +771,7 @@ rentré	rentrer	VERB
 en	en	ADP
 Europe	Europe	PROPN
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 Denis	Denis	PROPN
 de	de	ADP
@@ -825,7 +824,7 @@ dirigea	diriger	VERB
 à	à	ADP
 Genève	Genève	PROPN
 à partir de	à partir de	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 le	le	DET
@@ -860,9 +859,9 @@ comité	comité	NOUN
 exécutif	exécutif	ADJ
 ,	,	PUNCTclause
 de	de	ADP
-1951	1951	NUM
+1951	1951	DIGIT
 à	à	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 .	.	PUNCTsent
 ,	,	PUNCTclause
 son	son	DET
@@ -1040,7 +1039,7 @@ commun	commun	ADJ
 nous	nous	PRON
 serions	être	AUX
 ainsi	ainsi	ADV
-350	350	NUM
+350	350	DIGIT
 millions	million	NOUN
 de	de	ADP
 Europe	Europe	PROPN
@@ -1081,9 +1080,9 @@ un	un	DET
 enfin	enfin	ADV
 ,	,	PUNCTclause
 le	le	DET
-28	28	NUM
+28	28	DIGIT
 octobre	octobre	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 Denis	Denis	PROPN
 de	de	ADP

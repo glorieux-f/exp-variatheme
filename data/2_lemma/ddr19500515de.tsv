@@ -15,9 +15,9 @@ lenteurs	lenteur	NOUN
 et	et	CCONJ
 progrès	progrès	NOUN
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 mai	mai	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -48,9 +48,9 @@ deux	deux	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 le	le	DET
-7	7	NUM
+7	7	DIGIT
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 ouvrait	ouvrir	VERB
@@ -76,9 +76,9 @@ an	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 mai	mai	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 statuts	statut	NOUN
@@ -89,7 +89,7 @@ signés	signer	VERB
 à	à	ADP
 Londres	Londres	PROPN
 par	par	ADP
-10	10	NUM
+10	10	DIGIT
 états	état	NOUN
 .	.	PUNCTsent
 cette	ce	DET
@@ -97,7 +97,7 @@ année	année	NOUN
 enfin	enfin	ADV
 ,	,	PUNCTclause
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 voici	voici	ADP
@@ -512,7 +512,7 @@ puisque	puisque	SCONJ
 ce	ce	PRON
 est	être	AUX
 un	un	DET
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 qui	qui	PRON
 la	le_PRON	PRON
 propose	proposer	VERB
@@ -893,7 +893,7 @@ de	de	ADP
 habitude	habitude	NOUN
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ils	ils	PRON
 devront	devoir	VERB
 se	se	PRON

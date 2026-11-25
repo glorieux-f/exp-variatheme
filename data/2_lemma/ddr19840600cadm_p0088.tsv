@@ -20,11 +20,11 @@ des	un	ADP_DET
 concepts	concept	NOUN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 quand	quand	SCONJ
 natio	natio	NOUN
@@ -57,7 +57,7 @@ Nation	Nation	PROPN
 the	the	X
 nation	nation	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 vient	venir	VERB
 du	du	ADP_DET
 latin	latin	NOUN
@@ -166,7 +166,7 @@ natio	natio	NOUN
 Bologne	Bologne	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1158	1158	NUM
+1158	1158	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 constitution	constitution	NOUN
@@ -552,7 +552,7 @@ napolitain	napolitain	ADJ
 ,	,	PUNCTclause
 sicilien	sicilien	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
@@ -582,7 +582,7 @@ se	se	PRON
 développent	développer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 des	un	ADP_DET
 royaumes	royaume	NOUN
@@ -632,7 +632,7 @@ quatorze	quatorze	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 en	en	ADP
-792	792	NUM
+792	792	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -679,7 +679,7 @@ et	et	CCONJ
 demi	demi	ADJ
 plus tard	plus tard	ADV
 (	(	PUNCTclause
-962	962	NUM
+962	962	DIGIT
 )	)	PUNCTclause
 à	à	ADP
 restaurer	restaurer	VERB
@@ -893,7 +893,7 @@ Monarchia	Monarchia	PROPN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1308	1308	NUM
+1308	1308	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 se	se	PRON
@@ -1120,7 +1120,7 @@ Arthaud	Arthaud	PROPN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-1966	1966	NUM
+1966	1966	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 M.	M.	NOUN
@@ -1174,7 +1174,7 @@ je	je	PRON
 ai	avoir	AUX
 lu	lire	VERB
 les	le	DET
-708	708	NUM
+708	708	DIGIT
 pages	page	NOUN
 de	de	ADP
 ce	ce	DET
@@ -1260,9 +1260,9 @@ armées	armée	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
 entre	entre	ADP
-1600	1600	NUM
+1600	1600	DIGIT
 et	et	CCONJ
-1760	1760	NUM
+1760	1760	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 état	état	NOUN
@@ -1276,11 +1276,11 @@ une	un	DET
 proportion	proportion	NOUN
 variable	variable	ADJ
 de	de	ADP
-200	200	NUM
+200	200	DIGIT
 ,	,	PUNCTclause
-500	500	NUM
+500	500	DIGIT
 ,	,	PUNCTclause
-1000	1000	NUM
+1000	1000	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 là	là	ADV
@@ -1320,9 +1320,9 @@ armée	armée	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 entre	entre	ADP
-1600	1600	NUM
+1600	1600	DIGIT
 et	et	CCONJ
-1760	1760	NUM
+1760	1760	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 armées	armée	NOUN
@@ -1383,7 +1383,7 @@ technique	technique	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-60	60	NUM
+60	60	DIGIT
 de	de	ADP
 op. cit.	op. cit.	NOUN
 )	)	PUNCTclause
@@ -1458,7 +1458,7 @@ des	un	ADP_DET
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-68	68	NUM
+68	68	DIGIT
 )	)	PUNCTclause
 «	«	PUNCTclause
 or	or_CCONJ	CCONJ
@@ -1474,7 +1474,7 @@ nations	nation	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-69	69	NUM
+69	69	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -1519,7 +1519,7 @@ de	de	ADP
 cette	ce	DET
 ascension	ascension	NOUN
 :	:	PUNCTclause
-1757	1757	NUM
+1757	1757	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -1546,7 +1546,7 @@ singulier	singulier	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-69	69	NUM
+69	69	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1609,7 +1609,7 @@ République	République	PROPN
 dès	dès	ADP
 l'	le	DET
 année	année	NOUN
-1576	1576	NUM
+1576	1576	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
@@ -1656,7 +1656,7 @@ organisée	organisé	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-480	480	NUM
+480	480	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -1866,7 +1866,7 @@ Mesnard	Mesnard	X
 op. cit.	op. cit.	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-490	490	NUM
+490	490	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2217,7 +2217,7 @@ sans	sans	ADP
 limites	limite	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 confusion	confusion	NOUN
 générale	général	ADJ
@@ -2325,7 +2325,7 @@ en	en	ADP
 l'	le	DET
 espace	espace	NOUN
 de	de	ADP
-8	8	NUM
+8	8	DIGIT
 lignes	ligne	NOUN
 peuple	peuple	NOUN
 liberté	liberté	NOUN
@@ -2625,7 +2625,7 @@ cela	cela	PRON
 dans	dans	ADP
 Littré	Littré	PROPN
 (	(	PUNCTclause
-1865	1865	NUM
+1865	1865	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -2673,7 +2673,7 @@ la	le	DET
 Révolution française	Révolution française	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 naissance	naissance	NOUN
 de	de	ADP
@@ -2814,7 +2814,7 @@ destitue	destituer	VERB
 le	le	DET
 roi	roi	NOUN
 en	en	ADP
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 proclame	proclamer	VERB
@@ -2833,16 +2833,16 @@ voix	voix	NOUN
 de	de	ADP
 majorité	majorité	NOUN
 sur	sur	ADP
-721	721	NUM
+721	721	DIGIT
 votants	votant	NOUN
 (	(	PUNCTclause
 soit	soit	CCONJ
-366	366	NUM
+366	366	DIGIT
 pour	pour	ADP
 la	le	DET
 mort	mort	NOUN
 ,	,	PUNCTclause
-360	360	NUM
+360	360	DIGIT
 pour	pour	ADP
 d'autres	d'autre	PRON
 mesures	mesurer	VERB
@@ -2930,7 +2930,7 @@ peu	peu	ADV
 après	après	ADV
 (	(	PUNCTclause
 avril	avril	NOUN
-1793	1793	NUM
+1793	1793	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 la	le	DET
@@ -2957,7 +2957,7 @@ il	il	PRON
 exercera	exercer	VERB
 jusque	jusque	ADP
 en	en	ADP
-1795	1795	NUM
+1795	1795	DIGIT
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -2970,7 +2970,7 @@ de	de	ADP
 un	un	DET
 directoire	directoire	NOUN
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 membres	membre	NOUN
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -2981,12 +2981,12 @@ tour	tour	NOUN
 sera	être	AUX
 remplacé	remplacer	VERB
 en	en	ADP
-1799	1799	NUM
+1799	1799	DIGIT
 par	par	ADP
 un	un	DET
 consulat	consulat	NOUN
 de	de	ADP
-3	3	NUM
+3	3	DIGIT
 membres	membre	NOUN
 dont	dont	PRON
 le premier	le premier	PRON
@@ -3020,7 +3020,7 @@ sera	être	AUX
 empereur	empereur	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1804	1804	NUM
+1804	1804	DIGIT
 ,	,	PUNCTclause
 sous le nom de	sous le nom de	ADP
 Napoléon	Napoléon	PROPN
@@ -3105,7 +3105,7 @@ se	se	PRON
 double	doubler	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1793	1793	NUM
+1793	1793	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -3116,7 +3116,7 @@ indivisible	indivisible	ADJ
 qui	qui	PRON
 se	se	PRON
 manifeste	manifester	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 vers	vers	ADP
 l'	le	DET
 intérieur	intérieur	NOUN
@@ -3245,7 +3245,7 @@ conseil	conseil	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1793	1793	NUM
+1793	1793	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 état	état	NOUN
@@ -3259,7 +3259,7 @@ de	de	ADP
 salut	salut	NOUN
 public	public	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 jusque	jusque	ADP
 aux	au	ADP_DET
 conseils	conseil	NOUN
@@ -3349,7 +3349,7 @@ Chaunu	Chaunu	PROPN
 op. cit.	op. cit.	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-57	57	NUM
+57	57	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -3480,7 +3480,7 @@ siècle	siècle	NOUN
 ,	,	PUNCTclause
 bourgeois	bourgeois	NOUN
 dès	dès	ADP
-1793	1793	NUM
+1793	1793	DIGIT
 ,	,	PUNCTclause
 ou	ou	CCONJ
 prétendument	prétendument	ADV
@@ -3492,7 +3492,7 @@ la	le	DET
 Révolution	Révolution	PROPN
 de	de	ADP
 octobre	octobre	NOUN
-1917	1917	NUM
+1917	1917	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 état	état	NOUN
@@ -3583,7 +3583,7 @@ guerre	guerre	NOUN
 des	un	ADP_DET
 bolchéviques	bolchévique	NOUN
 en	en	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 :	:	PUNCTclause
 les	le	DET
 soviets	soviet	NOUN
@@ -3972,7 +3972,7 @@ bien	bien	ADV
 toléré	tolérer	VERB
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 né	naître	VERB
 de	de	ADP
@@ -4057,9 +4057,9 @@ philosophie	philosophie	NOUN
 des	un	ADP_DET
 Rechtes	Rechtes	PROPN
 ,	,	PUNCTclause
-1808	1808	NUM
+1808	1808	DIGIT
 ,	,	PUNCTclause
-324	324	NUM
+324	324	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4113,7 +4113,7 @@ de	de	ADP
 la	le	DET
 Révolution	Révolution	PROPN
 (	(	PUNCTclause
-1796	1796	NUM
+1796	1796	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4199,7 +4199,7 @@ en permanence	en permanence	ADV
 qui	qui	PRON
 sera	être	AUX
 dès	dès	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 la	le	DET
 formule	formule	NOUN
 des	un	ADP_DET
@@ -4841,7 +4841,7 @@ et	et	CCONJ
 biologiques	biologique	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 programmation	programmation	NOUN
 de	de	ADP
@@ -5036,8 +5036,8 @@ simultanément	simultanément	ADV
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1872	1872	NUM
--1885	-1885	NUM
+1872	1872	DIGIT
+-1885	-1885	DIGIT
 ,	,	PUNCTclause
 années	année	NOUN
 qui	qui	PRON
@@ -5180,15 +5180,15 @@ latine	latin	ADJ
 on	on	PRON
 a	avoir	AUX
 compté	compter	VERB
-135	135	NUM
+135	135	DIGIT
 «	«	PUNCTclause
 guerres	guerre	NOUN
 limitées	limité	ADJ
 »	»	PUNCTclause
 de	de	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 à	à	ADP
-1983	1983	NUM
+1983	1983	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5360,7 +5360,7 @@ du	du	ADP_DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 où	où	PRON
 nous	nous	PRON
@@ -5438,7 +5438,7 @@ monde	monde	NOUN
 l'	le_PRON	PRON
 équivalent	équivaloir	VERB
 de	de	ADP
-4	4	NUM
+4	4	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 		TOKEN
@@ -5449,7 +5449,7 @@ il	il	PRON
 semblait	sembler	VERB
 ,	,	PUNCTclause
 vers	vers	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 les	le	DET
@@ -5461,13 +5461,13 @@ les	le	DET
 hommes	homme	NOUN
 existants	existant	ADJ
 environ	environ	ADV
-32000	32000	NUM
+32000	32000	DIGIT
 fois	fois	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 URSS	URSS	PROPN
 seulement	seulement	ADV
-29000	29000	NUM
+29000	29000	DIGIT
 fois	fois	NOUN
 :	:	PUNCTclause
 ce	ce	DET
@@ -5878,7 +5878,7 @@ in	in	X
 favilla	favilla	X
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 où	où	PRON
 le	le	DET
@@ -6191,7 +6191,7 @@ de	de	ADP
 Lewis	Lewis	PROPN
 Mumford	Mumford	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 Alexandre	Alexandre	PROPN
 Marc	Marc	PROPN
@@ -6258,7 +6258,7 @@ ouverte	ouvrir	VERB
 aux	au	ADP_DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 je	je	PRON
@@ -6507,7 +6507,7 @@ Europe	Europe	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 en	en	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ajoutais	ajouter	VERB
@@ -6546,7 +6546,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 en	en	ADP
-30	30	NUM
+30	30	DIGIT
 états-nations	État-nation	NOUN
 souverains	souverain	NOUN
 qui	qui	PRON
@@ -6884,7 +6884,7 @@ sa	son	DET
 perte	perte	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 où	où	PRON
 la	le	DET
@@ -6941,7 +6941,7 @@ souveraineté	souveraineté	NOUN
 (	(	PUNCTclause
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -6992,7 +6992,7 @@ idée.	idée.	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-216	216	NUM
+216	216	DIGIT
 )	)	PUNCTclause
 «	«	PUNCTclause
 quand	quand	SCONJ
@@ -7087,7 +7087,7 @@ Traicté	Traicté	VERB
 des	un	DET
 Seigneuries	Seigneuries	PROPN
 ,	,	PUNCTclause
-1609	1609	NUM
+1609	1609	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 le	le	DET
@@ -7182,7 +7182,7 @@ peuple	peuple	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-235	235	NUM
+235	235	DIGIT
 )	)	PUNCTclause
 car	car	CCONJ
 «	«	PUNCTclause
@@ -7202,7 +7202,7 @@ lui-même.	lui-même.	X
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-234	234	NUM
+234	234	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 survient	survenir	VERB
@@ -7295,7 +7295,7 @@ guise	guise	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-237	237	NUM
+237	237	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Jean	Jean	PROPN
@@ -7308,7 +7308,7 @@ dans	dans	ADP
 sa	son	DET
 Respublique	Respublique	NOUN
 (	(	PUNCTclause
-1576	1576	NUM
+1576	1576	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 la	le	DET
@@ -7455,7 +7455,7 @@ a	avoir	AUX
 vu	voir	VERB
 (	(	PUNCTclause
 chapitre	chapitre	NOUN
-8	8	NUM
+8	8	DIGIT
 )	)	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -7511,7 +7511,7 @@ et	et	CCONJ
 humaine	humain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 obstacle	obstacle	NOUN
@@ -7726,11 +7726,11 @@ le	le_PRON	PRON
 fait	faire	AUX
 voir	voir	VERB
 en	en	ADP
-1984	1984	NUM
+1984	1984	DIGIT
 mieux	mieux	ADV
 encore que	encore que	SCONJ
 en	en	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 à l'occasion de	à l'occasion de	ADP
 élections	élection	NOUN
@@ -7767,9 +7767,9 @@ car	car	CCONJ
 le	le	DET
 monde	monde	NOUN
 du	du	ADP_DET
-30	30	NUM
+30	30	DIGIT
 avril	avril	NOUN
-1984	1984	NUM
+1984	1984	DIGIT
 me	me	PRON
 apprend	apprendre	VERB
 que	que	SCONJ
@@ -8061,9 +8061,9 @@ discours	discours	NOUN
 de	de	ADP
 Bourges	Bourges	PROPN
 ,	,	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 mai	mai	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 les mêmes	les mêmes	PRON
@@ -8099,7 +8099,7 @@ de	de	ADP
 la	le	DET
 France	France	PROPN
 ,	,	PUNCTclause
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 il	il	PRON
@@ -8272,7 +8272,7 @@ ses	son	DET
 fluctuations	fluctuation	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 idolâtrie	idolâtrie	NOUN
@@ -8454,7 +8454,7 @@ avait	avoir	AUX
 créée	créer	VERB
 .	.	PUNCTsent
 ce	ce	PRON
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 était	être	AUX
 psychologiquement	psychologiquement	ADV
 possible	possible	ADJ
@@ -8645,7 +8645,7 @@ ainsi	ainsi	ADV
 la	le	DET
 calamité	calamité	NOUN
 (	(	PUNCTclause
-sans cela	sans cela	CCONJ
+sans cela	sans cela	ADV
 inévitable	inévitable	ADJ
 )	)	PUNCTclause
 de	de	ADP
@@ -8657,8 +8657,8 @@ conflit	conflit	NOUN
 fatal.	fatal.	PUNCT
 (	(	PUNCTclause
 p.	p.	PUNCT
-349	349	NUM
--350	-350	NUM
+349	349	DIGIT
+-350	-350	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 puis	puis	CCONJ
@@ -8697,7 +8697,7 @@ Europe	Europe	PROPN
 la	le	DET
 Haye	Haye	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 notamment	notamment	ADV
 la	le	DET
@@ -9267,7 +9267,7 @@ humanité	humanité	NOUN
 ↵↵	↵↵	PUNCTstruct
 nota bene	nota bene	ADV
 .	.	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 les	le	DET
@@ -9378,7 +9378,7 @@ pays	pays	NOUN
 considérés	considérer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON

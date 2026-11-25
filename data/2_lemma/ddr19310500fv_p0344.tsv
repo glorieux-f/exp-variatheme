@@ -7,7 +7,9 @@
 
 ↵↵	↵↵	PUNCTstruct
 compte rendu	compte rendu	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 grand	grand	ADJ
 roman	roman	NOUN
@@ -20,7 +22,7 @@ Maurice	Maurice	PROPN
 Baring	Baring	PROPN
 (	(	PUNCTclause
 mai	mai	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -87,7 +89,7 @@ long	long	ADJ
 il	il	PRON
 compte	compter	VERB
 plus de	plus de	DET
-600	600	NUM
+600	600	DIGIT
 pages	page	NOUN
 dans	dans	ADP
 l'	le	DET
@@ -154,8 +156,8 @@ deux	deux	NUM
 dates	date	NOUN
 limitent	limiter	VERB
 :	:	PUNCTclause
-1851	1851	NUM
--1914	-1914	NUM
+1851	1851	DIGIT
+-1914	-1914	DIGIT
 .	.	PUNCTsent
 ainsi	ainsi	ADV
 met	mettre	VERB
@@ -1400,7 +1402,7 @@ veille	veille	NOUN
 de	de	ADP
 la	le	DET
 chandeleur	chandeleur	NOUN
-1909	1909	NUM
+1909	1909	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 fus	être	VERB

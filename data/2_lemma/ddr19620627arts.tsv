@@ -18,9 +18,9 @@ ignore	ignorer	VERB
 encore	encore	ADV
 )	)	PUNCTclause
 (	(	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 juin	juin	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -165,7 +165,7 @@ avons	avoir	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 Sainte-Beuve	Sainte-Beuve	PROPN
 résume	résumer	VERB
@@ -402,7 +402,7 @@ de	de	ADP
 fer	fer	NOUN
 en	en	ADP
 compte	compte	NOUN
-335	335	NUM
+335	335	DIGIT
 millions	million	NOUN
 ;	;	PUNCTclause
 les	le	DET
@@ -415,11 +415,11 @@ soumis	soumettre	VERB
 l'	le	DET
 URSS	URSS	PROPN
 ,	,	PUNCTclause
-95	95	NUM
+95	95	DIGIT
 millions	million	NOUN
 ;	;	PUNCTclause
 total	total	NOUN
-430	430	NUM
+430	430	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 tandis que	tandis que	SCONJ
@@ -431,7 +431,7 @@ grands	grand	ADJ
 ensemble	ensemble	ADV
 font	faire	VERB
 à peine	à peine	ADV
-400	400	NUM
+400	400	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -649,7 +649,7 @@ pour	pour	ADP
 les	le	DET
 sciences	science	NOUN
 de	de	ADP
-1901	1901	NUM
+1901	1901	DIGIT
 —	—	PUNCTclause
 date	dater	VERB
 la	le	DET
@@ -658,26 +658,26 @@ du	du	ADP_DET
 prix	prix	NOUN
 —	—	PUNCTclause
 à	à	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 :	:	PUNCTclause
 Russie	Russie	PROPN
 et	et	CCONJ
 démocratie	démocratie	NOUN
 populaire	populaire	ADJ
 :	:	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 lauréats	lauréat	NOUN
 .	.	PUNCTsent
 États-Unis	États-Unis	PROPN
 :	:	PUNCTclause
-61	61	NUM
+61	61	DIGIT
 .	.	PUNCTsent
 Europe	Europe	PROPN
 de	de	ADP
 l'	le	DET
 ouest	ouest	NOUN
 :	:	PUNCTclause
-142	142	NUM
+142	142	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -719,12 +719,12 @@ de	de	ADP
 une	un	DET
 nation	nation	NOUN
 de	de	ADP
-335	335	NUM
+335	335	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 voire	voire	CCONJ
 de	de	ADP
-430	430	NUM
+430	430	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -748,10 +748,10 @@ un	un	DET
 petit	petit	ADJ
 état	état	NOUN
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 ou	ou	CCONJ
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 qui	qui	PRON
 ne	ne	ADV
@@ -1075,7 +1075,7 @@ soviétique	soviétique	ADJ
 un	un	DET
 mélange	mélange	NOUN
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 de	de	ADP
 tradition	tradition	NOUN
 proprement	proprement	ADV
@@ -1121,7 +1121,7 @@ pouvoir	pouvoir	NOUN
 quoi	quoi	PRON
 se	se	PRON
 ajoutent	ajouter	VERB
-50	50	NUM
+50	50	DIGIT
 de	de	ADP
 Marx	Marx	PROPN
 plus ou moins	plus ou moins	ADV
@@ -1605,7 +1605,7 @@ actif	actif	ADJ
 du	du	ADP_DET
 mot	mot	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 —	—	PUNCTclause
 de	de	ADP
 assumer	assumer	VERB
@@ -1799,7 +1799,7 @@ nos	nos	DET
 exportations	exportation	NOUN
 représentent	représenter	VERB
 à peu près	à peu près	ADV
-40	40	NUM
+40	40	DIGIT
 de	de	ADP
 notre	notre	DET
 commerce	commerce	NOUN
@@ -1820,7 +1820,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 que	que	PRON
 pour	pour	ADP
-5	5	NUM
+5	5	DIGIT
 au maximum	au maximum	ADV
 de	de	ADP
 leur	leur	DET

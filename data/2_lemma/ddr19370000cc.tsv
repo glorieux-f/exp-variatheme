@@ -15,7 +15,7 @@ l'	le	DET
 homme	homme	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -557,7 +557,7 @@ expropriation	expropriation	NOUN
 des	un	ADP_DET
 patrons	patron	NOUN
 en	en	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 la	le	DET
@@ -567,7 +567,7 @@ la	le	DET
 propriété	propriété	NOUN
 privée	privé	ADJ
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ;	;	PUNCTclause
 la	le	DET
 suppression	suppression	NOUN
@@ -1327,8 +1327,7 @@ préconisent	préconiser	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
-2	2	NUM
-e	e	NOUN
+2e	2e	NUMord
 thèse	thèse	NOUN
 de	de	ADP
 Marx	Marx	PROPN
@@ -1370,9 +1369,9 @@ lettre	lettre	NOUN
 aux	au	ADP_DET
 romains	romain	NOUN
 (	(	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -2288,7 +2287,7 @@ moi	moi	PRON
 écrit	écrire	VERB
 il	il	PRON
 en	en	PRON
-1890	1890	NUM
+1890	1890	DIGIT
 —	—	PUNCTclause
 nous	nous	PRON
 sommes	être	AUX
@@ -2614,7 +2613,7 @@ vient	venir	VERB
 lui	lui	PRON
 expliquer	expliquer	VERB
 en	en	ADP
-15	15	NUM
+15	15	DIGIT
 volumes	volume	NOUN
 —	—	PUNCTclause
 dont	dont	PRON
@@ -2792,10 +2791,10 @@ mère	mère	NOUN
 du	du	ADP_DET
 bonheur	bonheur	NOUN
 .	.	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 là	là	ADV
-ce	ce	DET
-que	que	SCONJ
+ce	ce	PRON
+que	que	PRON
 voulait	vouloir	VERB
 Marx	Marx	PROPN
 ?	?	PUNCTsent
@@ -3407,7 +3406,7 @@ adresse	adresser	VERB
 ,	,	PUNCTclause
 il	il	PRON
 reconnaît	reconnaître	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 l'	le	DET
 origine	origine	NOUN
 et	et	CCONJ
@@ -3436,7 +3435,7 @@ mais	mais	CCONJ
 il	il	PRON
 se	se	PRON
 connaît	connaître	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 responsabilité	responsabilité	NOUN
 à	à	ADP
 l'	le	DET
@@ -4746,7 +4745,7 @@ cela	cela	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 le	le	DET
 christianisme	christianisme	NOUN
 ,	,	PUNCTclause
@@ -5529,7 +5528,7 @@ avec	avec	ADP
 urgence	urgence	NOUN
 ,	,	PUNCTclause
 aux environs de	aux environs de	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 réunir	réunir	VERB
@@ -5594,7 +5593,7 @@ politique	politique	ADJ
 ,	,	PUNCTclause
 historique	historique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 et	et	CCONJ
 je	je	PRON
 ne	ne	ADV
@@ -6530,10 +6529,10 @@ humanité	humanité	NOUN
 (	(	PUNCTclause
 comme	comme	ADP
 en	en	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 et	et	CCONJ
 en	en	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 il	il	PRON

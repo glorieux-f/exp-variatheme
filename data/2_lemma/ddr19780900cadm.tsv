@@ -14,7 +14,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 été	été	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -127,7 +127,7 @@ lire	lire	VERB
 dès	dès	ADP
 la	le	DET
 p.	p.	NOUN
-3	3	NUM
+3	3	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 je	je	PRON
@@ -168,7 +168,7 @@ puis	puis	CCONJ
 Strasbourg	Strasbourg	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 je	je	PRON
 crois	croire	VERB
 .	.	PUNCTsent
@@ -684,7 +684,7 @@ de	de	ADP
 la	le	DET
 révolution	révolution	NOUN
 de	de	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 a	avoir	AUX
@@ -928,7 +928,7 @@ objections	objection	NOUN
 des	un	DET
 compléments	complément	NOUN
 .	.	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 un	un	DET
@@ -1167,7 +1167,9 @@ le	le	DET
 pessimisme	pessimisme	NOUN
 des	un	ADP_DET
 sages	sage	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 et	et	CCONJ
@@ -1220,7 +1222,7 @@ l'	le	DET
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 un	un	DET
 autre	autre	ADJ
@@ -1616,7 +1618,7 @@ violent	violent	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-80	80	NUM
+80	80	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 bien au contraire	bien au contraire	ADV
@@ -1892,7 +1894,7 @@ de	de	ADP
 naguère	naguère	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 en vérité	en vérité	ADV
 ,	,	PUNCTclause
@@ -2309,7 +2311,7 @@ l'	le	DET
 état-nation	État-nation	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 sur	sur	ADP
 le	le	DET
@@ -2517,7 +2519,7 @@ civilisations	civilisation	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-147	147	NUM
+147	147	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2543,7 +2545,7 @@ la	le	DET
 malice	malice	NOUN
 de	de	ADP
 citer	citer	VERB
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 colonialisme	colonialisme	NOUN
 tant	tant	ADV
 décrié	décrier	VERB
@@ -2603,9 +2605,11 @@ peut	pouvoir	VERB
 écrire	écrire	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 expansion	expansion	NOUN
 États-Unis	États-Unis	PROPN
@@ -2872,7 +2876,7 @@ planète	planète	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 reste	rester	VERB
 alors	alors	ADV

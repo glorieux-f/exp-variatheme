@@ -6,7 +6,7 @@
 # title = 4. Pendant ce temps, l’Amérique du Nord…
 
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 pendant	pendant	ADP
 ce	ce	DET
@@ -66,8 +66,8 @@ est-ce que	est-ce que	ADV
 Benjamin	Benjamin	PROPN
 Franklin	Franklin	PROPN
 (	(	PUNCTclause
-1706	1706	NUM
--1790	-1790	NUM
+1706	1706	DIGIT
+-1790	-1790	DIGIT
 )	)	PUNCTclause
 a	avoir	AUX
 bien	bien	ADV
@@ -309,7 +309,7 @@ est	être	AUX
 un	un	DET
 recueil	recueil	NOUN
 de	de	ADP
-85	85	NUM
+85	85	DIGIT
 articles	article	NOUN
 de	de	ADP
 journaux	journal	NOUN
@@ -324,9 +324,9 @@ la	le	DET
 convention	convention	NOUN
 Fédérale	Fédérale	PROPN
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 septembre	septembre	NOUN
-1787	1787	NUM
+1787	1787	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 plaidoyer	plaidoyer	NOUN

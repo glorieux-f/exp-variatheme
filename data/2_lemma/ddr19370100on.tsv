@@ -12,7 +12,7 @@ mal	mal	NOUN
 capitaliste	capitaliste	ADJ
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -267,7 +267,7 @@ par	par	ADP
 l'	le	DET
 usage	usage	NOUN
 du	du	ADP_DET
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 intérêt	intérêt	NOUN
 que	que	SCONJ
 le	le	DET
@@ -450,9 +450,9 @@ est	être	AUX
 en effet	en effet	ADV
 ,	,	PUNCTclause
 de	de	ADP
-40	40	NUM
+40	40	DIGIT
 à	à	ADP
-48	48	NUM
+48	48	DIGIT
 (	(	PUNCTclause
 quarante-huit	quarante-huit	NUM
 )	)	PUNCTclause
@@ -2408,7 +2408,7 @@ qui	qui	PRON
 à	à	ADP
 Douai	Douai	PROPN
 en	en	ADP
-1245	1245	NUM
+1245	1245	DIGIT
 ,	,	PUNCTclause
 sous le nom de	sous le nom de	ADP
 takehen	takehen	NOUN
@@ -2876,7 +2876,7 @@ la	le	DET
 grande	grand	ADJ
 jacquerie	jacquerie	NOUN
 de	de	ADP
-1357	1357	NUM
+1357	1357	DIGIT
 ,	,	PUNCTclause
 par contre	par contre	ADV
 ,	,	PUNCTclause
@@ -3028,7 +3028,7 @@ se	se	PRON
 constituèrent	constituer	VERB
 en	en	ADP
 une	un	PRON
-classe	classer	VERB
+classe	classe	NOUN
 toujours	toujours	ADV
 plus	plus	ADV
 jalousement	jalousement	ADV
@@ -3209,7 +3209,7 @@ bon marché	bon marché	ADJ
 ,	,	PUNCTclause
 futanies	futanies	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 qui	qui	PRON
 ,	,	PUNCTclause
@@ -3642,7 +3642,7 @@ financier	financier	NOUN
 ,	,	PUNCTclause
 maltôtier	maltôtier	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 résultats	résultat	NOUN
@@ -4300,7 +4300,7 @@ est	être	AUX
 une	un	DET
 traite	traite	NOUN
 de	de	ADP
-10000	10000	NUM
+10000	10000	DIGIT
 francs	franc	NOUN
 impayée	impayé	ADJ
 par	par	ADP
@@ -4317,7 +4317,7 @@ de	de	ADP
 l'	le	DET
 expédition	expédition	NOUN
 de	de	ADP
-1895	1895	NUM
+1895	1895	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 l'	le	DET
@@ -4386,8 +4386,8 @@ totalitaire	totalitaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vers	vers	ADP
-1912	1912	NUM
--1913	-1913	NUM
+1912	1912	DIGIT
+-1913	-1913	DIGIT
 ,	,	PUNCTclause
 l'on	on	PRON
 assiste	assister	VERB
@@ -4443,7 +4443,7 @@ est	être	AUX
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 cet	ce	DET
 inévitable	inévitable	ADJ

@@ -6,7 +6,7 @@
 # title = 3. La clé du système ou l’État-nation
 
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 clé	clé	NOUN
@@ -1247,7 +1247,7 @@ protégées	protéger	VERB
 Pierre	Pierre	PROPN
 Messmer	Messmer	PROPN
 ,	,	PUNCTclause
-premier ministre	Premier ministre	NOUN
+Premier ministre	Premier ministre	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -1675,7 +1675,7 @@ de	de	ADP
 gestion	gestion	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 France	France	PROPN
@@ -2107,7 +2107,7 @@ de	de	ADP
 la	le	DET
 criminalité	criminalité	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 faudrait	falloir	VERB
 il	il	PRON
@@ -4419,9 +4419,9 @@ survient	survenir	VERB
 la	le	DET
 nuit	nuit	NOUN
 du	du	ADP_DET
-4	4	NUM
+4	4	DIGIT
 août	août	NOUN
-1789	1789	NUM
+1789	1789	DIGIT
 et	et	CCONJ
 l'	le	DET
 abandon	abandon	NOUN
@@ -4648,15 +4648,15 @@ deux	deux	NUM
 dates	date	NOUN
 précises	précis	ADJ
 :	:	PUNCTclause
-1790	1790	NUM
+1790	1790	DIGIT
 et	et	CCONJ
-1794	1794	NUM
+1794	1794	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-14	14	NUM
+14	14	DIGIT
 janvier	janvier	NOUN
-1790	1790	NUM
+1790	1790	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 Assemblée	Assemblée	PROPN
@@ -4987,9 +4987,9 @@ et	et	CCONJ
 même	même	ADJ
 mouvement	mouvement	NOUN
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 avril	avril	NOUN
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 les	le	DET
@@ -5254,9 +5254,9 @@ de	de	ADP
 la	le	DET
 guerre	guerre	NOUN
 (	(	PUNCTclause
-1903	1903	NUM
+1903	1903	DIGIT
 et	et	CCONJ
-1929	1929	NUM
+1929	1929	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 tient	tenir	VERB
@@ -5936,7 +5936,7 @@ expressions	expression	NOUN
 résumons	résumer	VERB
 :	:	PUNCTclause
 dès	dès	ADP
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 tous	tous	PRON
 les	le	DET
@@ -6106,7 +6106,7 @@ l'	le	DET
 état	état	NOUN
 .	.	PUNCTsent
 dès	dès	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 abbé	abbé	NOUN
@@ -6327,7 +6327,7 @@ en permanence	en permanence	ADV
 qui	qui	PRON
 sera	être	AUX
 dès	dès	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 la	le	DET
 formule	formule	NOUN
 des	un	ADP_DET
@@ -7270,8 +7270,8 @@ simultanément	simultanément	ADV
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1872	1872	NUM
--1885	-1885	NUM
+1872	1872	DIGIT
+-1885	-1885	DIGIT
 ,	,	PUNCTclause
 années	année	NOUN
 qui	qui	PRON
@@ -7630,7 +7630,7 @@ mais	mais	CCONJ
 se	se	PRON
 en	en	ADP
 étant	être	AUX
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 rendu	rendre	VERB
 tributaire	tributaire	ADJ
 pour	pour	ADP
@@ -8035,13 +8035,13 @@ les	le	DET
 hommes	homme	NOUN
 existants	existant	ADJ
 environ	environ	ADV
-32000	32000	NUM
+32000	32000	DIGIT
 fois	fois	NOUN
 ;	;	PUNCTclause
 l'	le	DET
 URSS	URSS	PROPN
 seulement	seulement	ADV
-29000	29000	NUM
+29000	29000	DIGIT
 .	.	PUNCTsent
 tout	tout	PRON
 va	aller	VERB
@@ -9152,7 +9152,7 @@ de	de	ADP
 une	un	DET
 manière	manière	NOUN
 efficace	efficace	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 je	je	PRON
 suscite	susciter	VERB
 un	un	DET
@@ -9651,9 +9651,9 @@ dans	dans	ADP
 L'Ordre nouveau	L'Ordre nouveau	DET
 ,	,	PUNCTclause
 n°	n°	SYM
-15	15	NUM
+15	15	DIGIT
 ,	,	PUNCTclause
-1934	1934	NUM
+1934	1934	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -9696,7 +9696,7 @@ de	de	ADP
 Lewis	Lewis	PROPN
 Mumford	Mumford	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 (	(	PUNCTclause
 Alexandre	Alexandre	PROPN
 Marc	Marc	PROPN
@@ -9722,7 +9722,7 @@ ouverte	ouvrir	VERB
 aux	au	ADP_DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 je	je	PRON
@@ -10018,7 +10018,7 @@ pétrole	pétrole	NOUN
 à	à	ADP
 l'	le	DET
 automne	automne	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tous	tout	ADJ
@@ -10043,10 +10043,10 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 dépend	dépendre	VERB
 à	à	ADP
-80	80	NUM
+80	80	DIGIT
 (	(	PUNCTclause
 		TOKEN
-30	30	NUM
+30	30	DIGIT
 )	)	PUNCTclause
 du	du	ADP_DET
 monde	monde	NOUN
@@ -10149,7 +10149,7 @@ crise	crise	NOUN
 de	de	ADP
 l'	le	DET
 automne	automne	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 a	avoir	AUX
 non seulement	non seulement	ADV
 surpris	surprendre	VERB
@@ -10421,7 +10421,7 @@ leur	leur	PRON
 ↵↵	↵↵	PUNCTstruct
 comédie	comédie	NOUN
 des	un	ADP_DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tel	tel	PRON
@@ -10449,7 +10449,7 @@ Super-Grands	Super-Grands	ADJ
 quand	quand	SCONJ
 leurs	leur	DET
 deux	deux	NUM
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ont	avoir	AUX
 une	un	DET
 rencontre	rencontre	NOUN
@@ -10718,7 +10718,7 @@ absolue	absolu	ADJ
 ils	ils	PRON
 y	y	PRON
 perdraient	perdre	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 le	le	DET
 pouvoir	pouvoir	NOUN
 (	(	PUNCTclause
@@ -10819,7 +10819,7 @@ même	même	ADJ
 matin	matin	NOUN
 de	de	ADP
 avril	avril	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 avais	avoir	AUX

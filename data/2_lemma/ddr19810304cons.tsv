@@ -15,9 +15,9 @@ danger	danger	NOUN
 de	de	ADP
 guerre	guerre	NOUN
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 mars	mars	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -93,7 +93,7 @@ eue	avoir	VERB
 avec	avec	ADP
 Einstein	Einstein	PROPN
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 à	à	ADP
 Princeton	Princeton	PROPN
 où	où	PRON
@@ -191,7 +191,7 @@ de	de	ADP
 Creys-Malville	Creys-Malville	PROPN
 qui	qui	PRON
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 peut	pouvoir	VERB
 éclater	éclater	VERB
@@ -279,14 +279,14 @@ d'autres	d'autre	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 états	état	NOUN
 ont	avoir	AUX
 dépensé	dépenser	VERB
 plus de	plus de	DET
-500	500	NUM
+500	500	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -543,7 +543,7 @@ latin	latin	ADJ
 qui	qui	PRON
 affirme	affirmer	VERB
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 que	que	SCONJ
 préparer	préparer	VERB
@@ -1437,7 +1437,7 @@ leurs	leur	DET
 abris	abri	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 tout de suite	tout de suite	ADV
 après	après	ADP
@@ -1478,7 +1478,7 @@ ascenseurs	ascenseur	NOUN
 au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
@@ -1748,7 +1748,7 @@ Buis	Buis	PROPN
 ce	ce	PRON
 qui	qui	PRON
 paralyserait	paralyser	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 notre	notre	DET
 pays	pays	NOUN
 .	.	PUNCTsent
@@ -1878,7 +1878,7 @@ que	que	PRON
 me	me	PRON
 enseignait	enseigner	VERB
 en	en	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 lors de	lors de	ADP
@@ -1913,7 +1913,7 @@ voix	voix	NOUN
 contre	contre	ADP
 Guisan	Guisan	PROPN
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 il	il	PRON
@@ -2092,7 +2092,7 @@ compris	comprendre	VERB
 ,	,	PUNCTclause
 représente	représenter	VERB
 au total	au total	ADV
-520	520	NUM
+520	520	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -2105,7 +2105,7 @@ eux	eux	PRON
 ne	ne	ADV
 sont	être	AUX
 que	que	ADV
-260	260	ADJ
+260	260	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 donc	donc	ADV
@@ -2145,7 +2145,7 @@ Iraniens	Iraniens	PROPN
 ,	,	PUNCTclause
 turcs	turc	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 avant	avant	ADP
 même	même	ADV
@@ -2201,7 +2201,7 @@ trouveraient	trouver	VERB
 terriblement	terriblement	ADV
 dilués	diluer	VERB
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
@@ -2295,7 +2295,7 @@ seraient	être	AUX
 à	à	ADP
 un	un	DET
 contre	contre	NOUN
-150	150	NUM
+150	150	DIGIT
 ,	,	PUNCTclause
 noyés	noyer	VERB
 dans	dans	ADP
@@ -2644,7 +2644,7 @@ notre	notre	DET
 défense	défense	NOUN
 nationale	national	ADJ
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 que	que	SCONJ
 de	de	ADP
@@ -3032,7 +3032,7 @@ fait	faire	VERB
 rêver	rêver	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 finalement	finalement	ADV
 utopique	utopique	ADJ
 ?	?	PUNCTsent

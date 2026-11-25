@@ -23,11 +23,11 @@ musique	musique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
-20	20	NUM
+20	20	DIGIT
 au	au	ADP_DET
-24	24	NUM
+24	24	DIGIT
 octobre	octobre	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 ↵↵	↵↵	PUNCTstruct
 chaque	chaque	DET
 année	année	NOUN
@@ -243,10 +243,9 @@ je	je	PRON
 crois	croire	VERB
 ,	,	PUNCTclause
 la	le	DET
-23	23	NUM
-e	e	NOUN
+23e	23e	NUMord
 session	session	NOUN
-que	que	SCONJ
+que	que	PRON
 je	je	PRON
 préside	présider	VERB
 ,	,	PUNCTclause

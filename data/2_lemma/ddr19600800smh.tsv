@@ -17,7 +17,7 @@ autres	autre	ADJ
 cultures	culture	NOUN
 (	(	PUNCTclause
 août	août	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -354,7 +354,7 @@ Italie	Italie	PROPN
 des	un	ADP_DET
 chanteurs	chanteur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -639,11 +639,11 @@ vraiment	vraiment	ADV
 «	«	PUNCTclause
 étrangère	étranger	ADJ
 »	»	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 vous	vous	PRON
 commencerez	commencer	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 à	à	ADP
 sentir	sentir	VERB
 cette	ce	DET
@@ -659,7 +659,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 poussons	pousser	VERB
 plus	plus	ADV
@@ -973,7 +973,7 @@ leurs	leur	DET
 sujets	sujet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 esquissons	esquisser	ADP
 cette	ce	DET
@@ -1689,7 +1689,7 @@ tout	tout	ADV
 que	que	SCONJ
 un	un	DET
 petit	petit	NOUN
-5	5	NUM
+5	5	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 du	du	ADP_DET
@@ -1795,7 +1795,7 @@ du	du	ADP_DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 en dépit de	en dépit de	ADP
 ce	ce	DET
@@ -5104,7 +5104,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 avait	avoir	VERB
 un	un	DET

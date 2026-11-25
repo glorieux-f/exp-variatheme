@@ -15,7 +15,7 @@ et	et	CCONJ
 Hamlet	Hamlet	PROPN
 (	(	PUNCTclause
 février	février	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -58,7 +58,7 @@ alternative	alternative	NOUN
 ,	,	PUNCTclause
 parut	paraître	VERB
 en	en	ADP
-1843	1843	NUM
+1843	1843	DIGIT
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 il	il	PRON
@@ -112,7 +112,7 @@ et	et	CCONJ
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 en	en	ADP
-1854	1854	NUM
+1854	1854	DIGIT
 il	il	PRON
 attaqua	attaquer	VERB
 de front	de front	ADV
@@ -189,7 +189,7 @@ semaines	semaine	NOUN
 ,	,	PUNCTclause
 âgé	âgé	ADJ
 de	de	ADP
-42	42	NUM
+42	42	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2193,7 +2193,7 @@ Régine	Régine	PROPN
 jeune	jeune	ADJ
 fille	fille	NOUN
 de	de	ADP
-17	17	NUM
+17	17	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3884,7 +3884,9 @@ note	note	NOUN
 de	de	ADP
 Kierkegaard	Kierkegaard	PROPN
 lui-même	lui-même	PRON
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 Hamlet	Hamlet	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -6235,7 +6237,7 @@ ce	ce	PRON
 est	être	AUX
 être	être	AUX
 toujours	toujours	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 affronter	affronter	VERB
 l'	le	DET
 invraisemblable	invraisemblable	ADJ

@@ -10,7 +10,7 @@
 Europe	Europe	PROPN
 (	(	PUNCTclause
 février	février	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -18,9 +18,9 @@ communiqué	communiquer	VERB
 de	de	ADP
 presse	presse	NOUN
 du	du	ADP_DET
-4	4	NUM
+4	4	DIGIT
 juin	juin	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 un	un	DET
 don	don	NOUN
 de	de	ADP
@@ -39,7 +39,7 @@ recevoir	recevoir	VERB
 une	un	DET
 subvention	subvention	NOUN
 de	de	ADP
-40000	40000	NUM
+40000	40000	DIGIT
 de	de	ADP
 la	le	DET
 fondation	fondation	NOUN
@@ -65,7 +65,7 @@ depuis	depuis	ADP
 le	le	DET
 début	début	NOUN
 de	de	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ces	ce	DET
@@ -195,7 +195,7 @@ domaine	domaine	NOUN
 ,	,	PUNCTclause
 remontent	remonter	VERB
 à	à	ADP
-1951	1951	NUM
+1951	1951	DIGIT
 :	:	PUNCTclause
 convocation	convocation	NOUN
 de	de	ADP
@@ -209,7 +209,7 @@ examiner	examiner	VERB
 avec	avec	ADP
 eux	eux	PRON
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 possibilités	possibilité	NOUN
@@ -234,7 +234,7 @@ l'	le	DET
 éducation	éducation	NOUN
 scolaire	scolaire	ADJ
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 possibilités	possibilité	NOUN
@@ -304,10 +304,10 @@ de	de	ADP
 Genève	Genève	PROPN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 et	et	CCONJ
 mai	mai	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 finit	finir	VERB
@@ -386,11 +386,11 @@ période	période	NOUN
 allant	aller	VERB
 de	de	ADP
 fin	fin	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 jusque	jusque	ADP
 en	en	ADP
 avril	avril	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 —	—	PUNCTclause
 devait	devoir	VERB
 permettre	permettre	VERB
@@ -501,7 +501,7 @@ lancées	lancer	VERB
 dès	dès	ADP
 l'	le	DET
 automne	automne	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 .	.	PUNCTsent
 d'autres	d'autre	PRON
 vont	aller	VERB
@@ -509,14 +509,14 @@ se	se	PRON
 y	y	PRON
 ajouter	ajouter	VERB
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 .	.	PUNCTsent
 la plupart	la plupart	PRON
 se	se	PRON
 poursuivront	poursuivre	VERB
 jusque	jusque	ADP
 en	en	ADP
-1959	1959	NUM
+1959	1959	DIGIT
 ,	,	PUNCTclause
 grâce à	grâce à	ADP
 une	un	DET
@@ -596,7 +596,7 @@ volume	volume	NOUN
 paraître	paraître	VERB
 en	en	ADP
 automne	automne	NOUN
-1959	1959	NUM
+1959	1959	DIGIT
 rassemblera	rassembler	VERB
 les	le	DET
 monographies	monographie	NOUN
@@ -684,9 +684,9 @@ sur	sur	ADP
 des	un	DET
 élèves	élève	NOUN
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 à	à	ADP
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -853,7 +853,7 @@ la	le	DET
 rentrée	rentrée	NOUN
 de	de	ADP
 automne	automne	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Haute-Provence	Haute-Provence	PROPN
@@ -1213,7 +1213,7 @@ de	de	ADP
 rédaction	rédaction	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 action	action	NOUN
@@ -1267,7 +1267,7 @@ autonomie	autonomie	NOUN
 ,	,	PUNCTclause
 étudier	étudier	VERB
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 effets	effet	NOUN
@@ -1277,7 +1277,7 @@ régime	régime	NOUN
 de	de	ADP
 autonomie	autonomie	NOUN
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 rapports	rapport	NOUN
@@ -1311,10 +1311,10 @@ de	de	ADP
 deux-cents	deux-cents	DET
 personnes	personne	NOUN
 (	(	PUNCTclause
-9	9	NUM
--11	-11	NUM
+9	9	DIGIT
+-11	-11	DIGIT
 août	août	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 intitulé	intituler	VERB
@@ -1438,7 +1438,7 @@ Europe	Europe	PROPN
 se	se	PRON
 exercera	exercer	VERB
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 par le moyen de	par le moyen de	ADP
 cours	cours	NOUN
 et	et	CCONJ
@@ -1493,7 +1493,7 @@ dans	dans	ADP
 une	un	DET
 ville	ville	NOUN
 de	de	ADP
-30000	30000	NUM
+30000	30000	DIGIT
 habitants	habitant	NOUN
 de	de	ADP
 économie	économie	NOUN
@@ -1686,11 +1686,11 @@ expériences-pilotes	expériences-pilotes	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
-23	23	NUM
+23	23	DIGIT
 au	au	ADP_DET
-27	27	NUM
+27	27	DIGIT
 septembre	septembre	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 ce	ce	DET
 stage	stage	NOUN
@@ -1774,7 +1774,7 @@ jour	jour	NOUN
 a	avoir	AUX
 permis	permettre	VERB
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 de	de	ADP
 informer	informer	VERB
@@ -1816,7 +1816,7 @@ films	film	NOUN
 documentaires	documentaire	ADJ
 )	)	PUNCTclause
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 de	de	ADP
 confronter	confronter	VERB
@@ -1929,7 +1929,7 @@ pourra	pouvoir	VERB
 jugée	juger	VERB
 que	que	SCONJ
 en	en	ADP
-1959	1959	NUM
+1959	1959	DIGIT
 ,	,	PUNCTclause
 au moment de	au moment de	ADP
 rédiger	rédiger	VERB
@@ -2003,7 +2003,7 @@ une	un	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 avril-mai	avril-mai	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 l'	le	DET
@@ -2013,7 +2013,7 @@ l'	le	DET
 école	école	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ils	ils	PRON
@@ -2030,7 +2030,7 @@ nos	nos	DET
 expériences-pilotes	expériences-pilotes	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 premières	premier	ADJ
@@ -2120,7 +2120,7 @@ séries	série	NOUN
 de	de	ADP
 diapositives	diapositive	NOUN
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 ,	,	PUNCTclause
 selon	selon	ADP
 les	le	DET

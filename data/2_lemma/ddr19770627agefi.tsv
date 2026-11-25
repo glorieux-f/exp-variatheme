@@ -13,9 +13,9 @@ de	de	ADP
 une	un	DET
 région	région	NOUN
 (	(	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 juin	juin	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -81,7 +81,7 @@ les	le	DET
 membres	membre	NOUN
 de	de	ADP
 un	un	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 qui	qui	PRON
 se	se	PRON
 appuie	appuyer	VERB
@@ -110,7 +110,7 @@ se	se	PRON
 ,	,	PUNCTclause
 succéderont	succéder	VERB
 dès	dès	ADP
-1707	1707	NUM
+1707	1707	DIGIT
 les	le	DET
 rois	roi	NOUN
 de	de	ADP
@@ -123,7 +123,7 @@ de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 jusque	jusque	ADP
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
@@ -168,7 +168,7 @@ est	être	AUX
 l'	le	DET
 escalade	escalade	NOUN
 de	de	ADP
-1602	1602	NUM
+1602	1602	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 les	le	DET
@@ -180,7 +180,7 @@ venus	venir	VERB
 son	son	DET
 secours	secours	NOUN
 en	en	ADP
-1535	1535	NUM
+1535	1535	DIGIT
 ,	,	PUNCTclause
 ont	avoir	AUX
 annexé	annexer	VERB
@@ -380,7 +380,7 @@ charte	charte	NOUN
 de	de	ADP
 franchises	franchise	NOUN
 ,	,	PUNCTclause
-1214	1214	NUM
+1214	1214	DIGIT
 ,	,	PUNCTclause
 était	être	AUX
 copiée	copier	VERB
@@ -649,12 +649,12 @@ très	très	ADV
 exactement	exactement	ADV
 :	:	PUNCTclause
 du	du	DET
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
 au	au	ADP_DET
-16	16	NUM
+16	16	DIGIT
 novembre	novembre	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -668,7 +668,7 @@ Suisse	Suisse	PROPN
 fédérale	fédéral	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 (	(	PUNCTclause
 phénomène	phénomène	NOUN
 proprement	proprement	ADV
@@ -748,7 +748,7 @@ la	le	DET
 convergence	convergence	NOUN
 décisive	décisif	ADJ
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 «	«	PUNCTclause
@@ -1266,7 +1266,7 @@ doctrines	doctrine	NOUN
 structuralistes	structuraliste	ADJ
 des	un	ADP_DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 et	et	CCONJ
 de	de	DET
 nombreuses	nombreux	ADJ
@@ -1826,7 +1826,7 @@ au	au	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
 pour	pour	ADP
-1200000	1200000	NUM
+1200000	1200000	DIGIT
 habitants	habitant	NOUN
 —	—	PUNCTclause
 qui	qui	PRON
@@ -1909,11 +1909,11 @@ leur	leur	DET
 rattachement	rattachement	NOUN
 tardif	tardif	ADJ
 (	(	PUNCTclause
-1814	1814	NUM
+1814	1814	DIGIT
 ,	,	PUNCTclause
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
-1848	1848	NUM
+1848	1848	DIGIT
 )	)	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -2217,12 +2217,12 @@ fut	être	AUX
 question	question	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1814	1814	NUM
--1815	-1815	NUM
+1814	1814	DIGIT
+-1815	-1815	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 en	en	ADP
-1861	1861	NUM
+1861	1861	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 rattacher	rattacher	VERB
@@ -2258,10 +2258,10 @@ confessionnels	confessionnel	ADJ
 les	le	DET
 guerre mondiale	guerre mondiale	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ont	avoir	AUX
 eu	avoir	VERB
 pour	pour	ADP
@@ -2659,7 +2659,7 @@ usines	usine	NOUN
 de	de	ADP
 Genève	Genève	PROPN
 quelque	quelque	DET
-23000	23000	NUM
+23000	23000	DIGIT
 travailleurs	travailleur	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -2680,7 +2680,7 @@ main-d'œuvre	main-d'œuvre	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 environ	environ	ADV
-40	40	NUM
+40	40	DIGIT
 km	km	NOUN
 de	de	ADP
 rayon	rayon	NOUN
@@ -2736,7 +2736,7 @@ franco-suisse	franco-suisse	ADJ
 ,	,	PUNCTclause
 créée	créer	VERB
 en	en	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 étudie	étudier	VERB
 les	le	DET
@@ -2953,7 +2953,7 @@ Bade	Bade	PROPN
 au	au	ADP_DET
 nord	nord	NOUN
 ;	;	PUNCTclause
-80	80	NUM
+80	80	DIGIT
 de	de	ADP
 la	le	DET
 production	production	NOUN
@@ -3158,9 +3158,9 @@ et	et	CCONJ
 de	de	ADP
 Vienne	Vienne	PROPN
 (	(	PUNCTclause
-1814	1814	NUM
+1814	1814	DIGIT
 et	et	CCONJ
-1815	1815	NUM
+1815	1815	DIGIT
 )	)	PUNCTclause
 avait	avoir	AUX
 publié	publier	VERB

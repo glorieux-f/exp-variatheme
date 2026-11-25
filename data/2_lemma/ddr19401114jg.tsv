@@ -11,15 +11,15 @@ de	de	ADP
 élection	élection	NOUN
 présidentielle	présidentiel	ADJ
 (	(	PUNCTclause
-14	14	X
+14	14	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 New York	New York	PROPN
 ,	,	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 octobre	octobre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -29,7 +29,7 @@ campagne	campagne	NOUN
 qui	qui	PRON
 prendra	prendre	VERB
 fin	fin	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 cet	ce	DET
 article	article	NOUN
 atteindra	atteindre	VERB
@@ -346,9 +346,9 @@ donnaient	donner	VERB
 Roosevelt	Roosevelt	PROPN
 gagnant	gagner	VERB
 par	par	ADP
-2	2	NUM
+2	2	DIGIT
 à	à	ADP
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
@@ -364,13 +364,13 @@ les	le	DET
 journaux	journal	NOUN
 parlent	parler	VERB
 de	de	ADP
-48	48	NUM
+48	48	DIGIT
 des	un	ADP_DET
 voix	voix	NOUN
 à	à	ADP
 Willkie	Willkie	PROPN
 contre	contre	ADP
-50	50	NUM
+50	50	DIGIT
 à	à	ADP
 Roosevelt	Roosevelt	PROPN
 ,	,	PUNCTclause
@@ -397,7 +397,7 @@ dire	dire	NOUN
 avec	avec	ADP
 certitude	certitude	NOUN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 on	on	PRON
 ne	ne	ADV
 saurait	savoir	VERB
@@ -1029,7 +1029,7 @@ de	de	ADP
 la	le	DET
 décision	décision	NOUN
 du	du	ADP_DET
-5	5	NUM
+5	5	DIGIT
 novembre	novembre	NOUN
 .	.	PUNCTsent
 ce	ce	DET
@@ -1137,7 +1137,7 @@ quoi que	quoi que	SCONJ
 il	il	PRON
 arrive	arriver	VERB
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 l'	le	DET

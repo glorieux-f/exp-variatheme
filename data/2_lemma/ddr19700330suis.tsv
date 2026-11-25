@@ -18,9 +18,9 @@ D.	D.	PROPN
 de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 mars	mars	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -32,7 +32,9 @@ nous	nous	PRON
 écrit	écrire	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 brève	bref	ADJ
 interview	interview	NOUN
@@ -48,7 +50,7 @@ dans	dans	ADP
 votre	votre	DET
 numéro	numéro	NOUN
 du	du	ADP_DET
-24	24	NUM
+24	24	DIGIT
 mars	mars	NOUN
 ,	,	PUNCTclause
 permettez	permettre	VERB

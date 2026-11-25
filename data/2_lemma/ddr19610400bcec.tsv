@@ -14,8 +14,8 @@ l'	le	DET
 enseignement	enseignement	NOUN
 civique	civique	ADJ
 (	(	PUNCTclause
-1960	1960	NUM
--1961	-1961	NUM
+1960	1960	DIGIT
+-1961	-1961	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -522,7 +522,7 @@ par	par	ADP
 la	le	DET
 Révolution	Révolution	PROPN
 de	de	ADP
-1789	1789	NUM
+1789	1789	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -1017,7 +1017,7 @@ rapides	rapide	ADJ
 exemples	exemple	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 dans	dans	ADP
 tous	tout	ADJ
@@ -1142,7 +1142,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 dans	dans	ADP
 presque	presque	ADV
@@ -1423,7 +1423,7 @@ publié	publier	VERB
 à	à	ADP
 New York	New York	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 :	:	PUNCTclause
 We	We	PROPN
 ,	,	PUNCTclause
@@ -1481,7 +1481,7 @@ chacun	chacun	PRON
 puis	puis	CCONJ
 se	se	PRON
 arrêtent	arrêter	VERB
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 problèmes	problème	NOUN
 concrets	concret	ADJ
@@ -1548,7 +1548,7 @@ jury	jury	NOUN
 son	son	DET
 député	député	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 je	je	PRON
 insiste	insister	VERB
 :	:	PUNCTclause
@@ -1611,7 +1611,7 @@ populaire	populaire	ADJ
 au début	au début	ADV
 du	du	ADP_DET
 chapitre	chapitre	NOUN
-3	3	NUM
+3	3	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 comment	comment	ADV
@@ -1684,7 +1684,7 @@ agit	agir	VERB
 de	de	ADP
 tenir compte	tenir compte	VERB
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 en somme	en somme	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1806,7 +1806,7 @@ aux	au	ADP_DET
 programmes	programme	NOUN
 existants	existant	ADJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 réalités	réalité	NOUN
@@ -1838,7 +1838,7 @@ et	et	CCONJ
 voter	voter	VERB
 intelligemment	intelligemment	ADV
 ?	?	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 faits	fait	NOUN
@@ -1882,7 +1882,7 @@ de	de	ADP
 conceptions	conception	NOUN
 morales	morale	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ces	ce	DET
@@ -2432,16 +2432,15 @@ ainsi	ainsi	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 la	le	DET
-9	9	NUM
-e	e	NOUN
+9e	9e	NUMord
 classe	classe	NOUN
 (	(	PUNCTclause
-16	16	NUM
--17	-17	NUM
+16	16	DIGIT
+-17	-17	DIGIT
 ans	an	NOUN
 )	)	PUNCTclause
 sur	sur	ADP
-15	15	NUM
+15	15	DIGIT
 heures	heure	NOUN
 de	de	ADP
 leçons	leçon	NOUN
@@ -2449,7 +2448,7 @@ de	de	ADP
 instruction	instruction	NOUN
 civique	civique	ADJ
 ,	,	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 sont	être	AUX
 consacrées	consacrer	VERB
 aux	au	ADP_DET
@@ -2461,14 +2460,14 @@ notre	notre	DET
 état	état	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 aux	au	ADP_DET
 «	«	PUNCTclause
 organes	organe	NOUN
 publics	public	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 à	à	ADP
 «	«	PUNCTclause
 l'	le	DET
@@ -2479,7 +2478,7 @@ du	du	ADP_DET
 peuple	peuple	NOUN
 »	»	PUNCTclause
 et	et	CCONJ
-1	1	NUM
+1	1	DIGIT
 à	à	ADP
 la	le	DET
 «	«	PUNCTclause
@@ -2506,11 +2505,11 @@ parti	parti	NOUN
 .	.	PUNCTsent
 en	en	ADP
 classe	classe	NOUN
-10	10	NUM
+10	10	DIGIT
 et	et	CCONJ
 dernière	dernier	ADJ
 :	:	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 heures	heure	NOUN
 sur	sur	ADP
 le	le	DET
@@ -2523,7 +2522,7 @@ est	être	AUX
 vainqueur	vainqueur	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 heures	heure	NOUN
 sur	sur	ADP
 «	«	PUNCTclause

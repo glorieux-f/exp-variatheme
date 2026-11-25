@@ -46,7 +46,7 @@ radio	radio	NOUN
 ,	,	PUNCTclause
 me	me	PRON
 interviewa	interviewer	VERB
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 petit	petit	ADJ
 livre	livre	NOUN
 que	que	PRON
@@ -147,7 +147,7 @@ je	je	PRON
 récidive	récidiver	VERB
 à	à	ADP
 propos	propos	NOUN
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 de	de	ADP
 l'	le	DET
 exemple	exemple	NOUN
@@ -507,7 +507,9 @@ de	de	ADP
 la	le	DET
 presse	presse	NOUN
 —	—	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 problème	problème	NOUN
 qui	qui	PRON
@@ -696,7 +698,7 @@ ou	ou	CCONJ
 presque	presque	ADV
 .	.	PUNCTsent
 sur	sur	ADP
-32	32	NUM
+32	32	DIGIT
 pages	page	NOUN
 de	de	ADP
 leur	leur	DET
@@ -806,7 +808,7 @@ correspondances	correspondance	NOUN
 ,	,	PUNCTclause
 jardins	jardin	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 qui	qui	PRON
@@ -904,7 +906,7 @@ fois	fois	NOUN
 plus	plus	ADV
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-32	32	NUM
+32	32	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 d'ailleurs	d'ailleurs	ADV
@@ -935,7 +937,7 @@ si	si	SCONJ
 il	il	PRON
 existe	exister	VERB
 réellement	réellement	ADV
-32	32	NUM
+32	32	DIGIT
 point de vue	point de vue	NOUN
 possibles	possible	ADJ
 sur	sur	ADP
@@ -1029,7 +1031,7 @@ sait	savoir	VERB
 rien	rien	PRON
 .	.	PUNCTsent
 au lieu de	au lieu de	ADP
-32	32	NUM
+32	32	DIGIT
 journaux	journal	NOUN
 de	de	ADP
 deux	deux	NUM
@@ -1420,7 +1422,7 @@ bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 Trois	Trois	NUM
 remarques	remarque	NOUN
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 rubriques	rubrique	NOUN
 régulières	régulier	ADJ
 .	.	PUNCTsent
@@ -2367,7 +2369,7 @@ pour	pour	ADP
 mes	mon	DET
 cadets	cadet	NOUN
 ,	,	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 dix	dix	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -2453,8 +2455,7 @@ restaurant	restaurant	NOUN
 France	France	PROPN
 de	de	ADP
 la	le	DET
-55	55	PROPN
-e	e	SYM
+55e	55e	NUMord
 rue	rue	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -3847,10 +3848,10 @@ car	car	CCONJ
 on	on	PRON
 passe	passer	VERB
 de	de	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 lecteurs	lecteur	NOUN
 à	à	ADP
-300000	300000	NUM
+300000	300000	DIGIT
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 que	que	SCONJ
@@ -4764,8 +4765,8 @@ best-seller	best-seller	NOUN
 prenons	prendre	VERB
 la	le	DET
 saison	saison	NOUN
-1944	1944	NUM
--1945	-1945	NUM
+1944	1944	DIGIT
+-1945	-1945	DIGIT
 .	.	PUNCTsent
 Trois	Trois	NUM
 livres	livre	NOUN
@@ -5050,9 +5051,9 @@ grands	grand	ADJ
 best-sellers	best-seller	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-300	300	NUM
+300	300	DIGIT
 à	à	ADP
-800000	800000	NUM
+800000	800000	DIGIT
 exemplaires	exemplaire	NOUN
 au	au	ADP_DET
 départ	départ	NOUN
@@ -8556,9 +8557,9 @@ aussi	aussi	ADV
 elles	elles	PRON
 comptent	compter	VERB
 chacune	chacune	PRON
-9	9	NUM
+9	9	DIGIT
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 millions	million	NOUN
 de	de	ADP
 membres	membre	NOUN
@@ -9006,7 +9007,7 @@ me	me	PRON
 avait	avoir	AUX
 pas	pas	ADV
 dit	dire	VERB
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 New York	New York	PROPN
 possède	posséder	VERB
 ,	,	PUNCTclause
@@ -10113,7 +10114,7 @@ votre	votre	DET
 radio	radio	NOUN
 :	:	PUNCTclause
 à	à	ADP
-14	14	NUM
+14	14	DIGIT
 h.	h.	PUNCT
 chaque	chaque	DET
 jour	jour	NOUN
@@ -10901,7 +10902,7 @@ de	de	ADP
 ouvrir	ouvrir	VERB
 au	au	ADP_DET
 chapitre	chapitre	NOUN
-13	13	NUM
+13	13	DIGIT
 de	de	ADP
 la première	la première	PRON
 épître	épître	VERB
@@ -12074,7 +12075,7 @@ de	de	ADP
 parler	parler	VERB
 en général	en général	ADV
 de	de	ADP
-65	65	NUM
+65	65	DIGIT
 millions	million	NOUN
 de	de	ADP
 chrétiens	chrétien	NOUN
@@ -12090,7 +12091,7 @@ une	un	DET
 paroisse	paroisse	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-40	40	NUM
+40	40	DIGIT
 millions	million	NOUN
 de	de	ADP
 protestants	protestant	NOUN

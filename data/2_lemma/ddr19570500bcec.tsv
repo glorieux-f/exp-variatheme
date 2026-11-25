@@ -20,7 +20,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 mai	mai	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -153,11 +153,11 @@ musicaux	musical	ADJ
 en effet	en effet	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
-80	80	NUM
+80	80	DIGIT
 questionnaires	questionnaire	NOUN
 envoyés	envoyer	VERB
 ,	,	PUNCTclause
-43	43	NUM
+43	43	DIGIT
 nous	nous	PRON
 sont	être	AUX
 revenus	revenir	VERB
@@ -192,7 +192,7 @@ des	un	ADP_DET
 dates	date	NOUN
 limites	limite	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 on	on	PRON
@@ -502,7 +502,7 @@ de plus en plus	de plus en plus	ADV
 aux	au	ADP_DET
 festivals	festival	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 parfois	parfois	ADV
@@ -1745,7 +1745,7 @@ encore	encore	ADV
 un peu	un peu	ADV
 jeune	jeune	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 l'	le	DET
 association	association	NOUN
 ne	ne	ADV
@@ -2329,9 +2329,9 @@ Franco	Franco	PROPN
 (	(	PUNCTclause
 voir	voir	VERB
 p.	p.	PUNCT
-36	36	NUM
+36	36	DIGIT
 et	et	CCONJ
-37	37	NUM
+37	37	DIGIT
 )	)	PUNCTclause
 méritent	mériter	VERB
 de	de	ADP

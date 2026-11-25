@@ -13,7 +13,7 @@ de	de	ADP
 l'	le	DET
 échec	échec	NOUN
 (	(	PUNCTclause
-1964	1964	NUM
+1964	1964	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -381,11 +381,11 @@ classe	classe	NOUN
 ,	,	PUNCTclause
 annonçait	annoncer	VERB
 :	:	PUNCTclause
-04.00	04.00	NUM
+04.00	04.00	DIGIT
 :	:	PUNCTclause
 diane	diane	NOUN
 .	.	PUNCTsent
-05.00	05.00	NUM
+05.00	05.00	DIGIT
 :	:	PUNCTclause
 départ	départ	NOUN
 pour	pour	ADP
@@ -394,7 +394,7 @@ marche	marcher	VERB
 de	de	ADP
 entraînement	entraînement	NOUN
 ,	,	PUNCTclause
-50	50	NUM
+50	50	DIGIT
 kilomètres	mètre	NOUN
 .	.	PUNCTsent
 tenue	tenir	VERB
@@ -410,7 +410,7 @@ deuxième	deuxième	ADJ
 marche	marche	NOUN
 fut	être	AUX
 de	de	ADP
-70	70	NUM
+70	70	DIGIT
 kilomètres	mètre	NOUN
 ,	,	PUNCTclause
 une	un	DET
@@ -432,7 +432,7 @@ course	course	NOUN
 »	»	PUNCTclause
 finale	finale	NOUN
 :	:	PUNCTclause
-150	150	NUM
+150	150	DIGIT
 kilomètres	mètre	NOUN
 par-dessus	par-dessus	ADP
 les	le	DET
@@ -792,7 +792,7 @@ la première	la première	PRON
 étape	étape	NOUN
 serait	être	AUX
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 kilomètres	mètre	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1418,7 +1418,7 @@ couvrir	couvrir	VERB
 une	un	DET
 étape	étape	NOUN
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 kilomètres	mètre	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -2040,8 +2040,8 @@ allégée	alléger	VERB
 réduite	réduire	VERB
 à	à	ADP
 si	si	SCONJ
-peu de chose	peu de chose	NOUN
-tout	tout	ADJ
+peu de chose	peu de chose	PRON
+tout	tout	PRON
 au bas	au bas	ADV
 du	du	ADP_DET
 spectacle	spectacle	NOUN
@@ -3017,7 +3017,7 @@ que	que	SCONJ
 pour	pour	ADP
 y	y	PRON
 renoncer	renoncer	VERB
-dans le moment où	dans le moment où	ADP
+dans le moment où	dans le moment où	SCONJ
 l'	le	DET
 élan	élan	NOUN
 se	se	PRON

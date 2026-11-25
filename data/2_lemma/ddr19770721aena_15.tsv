@@ -6,7 +6,7 @@
 # title = 14. L’autogestion politique
 
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 autogestion	autogestion	NOUN
@@ -647,7 +647,7 @@ idéal	idéal	NOUN
 de	de	ADP
 tous	tout	ADJ
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 que	que	SCONJ
@@ -1145,7 +1145,7 @@ croissante	croissant	ADJ
 du	du	ADP_DET
 		TOKEN
 (	(	PUNCTclause
-40	40	NUM
+40	40	DIGIT
 en	en	ADP
 France	France	PROPN
 !	!	PUNCTsent
@@ -1632,7 +1632,7 @@ universel	universel	ADJ
 mais	mais	CCONJ
 bref	bref	ADJ
 .	.	PUNCTsent
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -1787,7 +1787,7 @@ formule	formule	NOUN
 régionale	régional	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 la	le	DET
@@ -2723,12 +2723,12 @@ qui	qui	PRON
 étaient	être	AUX
 dix-neuf	dix-neuf	NUM
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 et	et	CCONJ
 sont	être	AUX
 vingt-neuf	vingt-neuf	NUM
 en	en	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 .	.	PUNCTsent
 quant à	quant à	ADP
 moyen-âge	moyen-âge	NOUN
@@ -2968,7 +2968,7 @@ de	de	ADP
 inventer	inventer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 trop	trop	ADV
@@ -3388,7 +3388,7 @@ initiées	initier	VERB
 dès	dès	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 par	par	ADP
 les	le	DET
 personnalisme	personnalisme	NOUN
@@ -3576,7 +3576,7 @@ du	du	ADP_DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 la	le	DET
@@ -3706,7 +3706,7 @@ lesquels	lesquels	PRON
 la	le	DET
 Bavière	Bavière	PROPN
 ,	,	PUNCTclause
-71000	71000	NUM
+71000	71000	DIGIT
 km2	km2	NOUN
 et	et	CCONJ
 douze	douze	NUM
@@ -3717,7 +3717,7 @@ habitants	habitant	NOUN
 ou	ou	CCONJ
 Hambourg	Hambourg	PROPN
 ,	,	PUNCTclause
-747	747	NUM
+747	747	DIGIT
 km2	km2	NOUN
 et	et	CCONJ
 moins de	moins de	DET
@@ -4097,7 +4097,7 @@ de	de	ADP
 puissance	puissance	NOUN
 de	de	ADP
 un	un	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 un	un	DET
@@ -4294,7 +4294,7 @@ de	de	ADP
 où	où	PRON
 Marx	Marx	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 et	et	CCONJ
 les	le	DET
 cours	cours	NOUN
@@ -4803,7 +4803,7 @@ l'	le	DET
 état	état	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 détruire	détruire	VERB
 de	de	DET
@@ -5344,7 +5344,7 @@ utopiste	utopiste	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 où	où	PRON
 sera	être	AUX
@@ -5875,7 +5875,7 @@ Valéry	Valéry	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -5990,7 +5990,7 @@ peuple	peuple	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 dépasser	dépasser	VERB
 ce	ce	DET
@@ -6149,7 +6149,7 @@ vous	vous	PRON
 coucher	coucher	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 la	le	DET
@@ -6205,7 +6205,7 @@ jeunesse	jeunesse	NOUN
 durant	durant	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ne	ne	ADV
@@ -6697,7 +6697,7 @@ ses	son	DET
 effets	effet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 utopie	utopie	NOUN
@@ -7198,7 +7198,7 @@ poser	poser	VERB
 si	si	SCONJ
 l'on	on	PRON
 admet	admettre	VERB
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 chaque	chaque	DET
@@ -7208,7 +7208,7 @@ sa	son	DET
 propre	propre	ADJ
 région	région	NOUN
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 les	le	DET
@@ -7234,7 +7234,7 @@ de	de	ADP
 variation	variation	NOUN
 ;	;	PUNCTclause
 cependant que	cependant que	SCONJ
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 l'	le	DET
 activité	activité	NOUN
@@ -7417,7 +7417,7 @@ de	de	ADP
 hygiène	hygiène	NOUN
 publique	public	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 certaines	certain	DET
 communes	commun	NOUN
@@ -7696,7 +7696,7 @@ régional	régional	ADJ
 du	du	ADP_DET
 peuple	peuple	NOUN
 et	et	CCONJ
-proche de	proche de	ADP
+proche de	proche de	ADJ
 lui	lui	PRON
 ,	,	PUNCTclause
 à tous égards	à tous égards	ADV

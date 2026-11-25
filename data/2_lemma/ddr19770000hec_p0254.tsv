@@ -9,8 +9,8 @@
 Robert	Robert	PROPN
 Schuman	Schuman	PROPN
 (	(	PUNCTclause
-1886	1886	NUM
--1963	-1963	NUM
+1886	1886	DIGIT
+-1963	-1963	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 l'	le	DET
@@ -19,7 +19,7 @@ de	de	ADP
 la	le	DET
 frontière	frontière	NOUN
 (	(	PUNCTclause
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -155,9 +155,9 @@ au	au	ADP_DET
 Luxembourg	Luxembourg	PROPN
 ,	,	PUNCTclause
 le	le	DET
-29	29	NUM
+29	29	DIGIT
 juin	juin	NOUN
-1886	1886	NUM
+1886	1886	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 parents	parent	NOUN
@@ -197,7 +197,7 @@ frontière	frontière	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -411,7 +411,7 @@ porter	porter	VERB
 la	le	DET
 députation	députation	NOUN
 dès	dès	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 par	par	ADP
 sens	sens	NOUN
@@ -461,7 +461,7 @@ jusque	jusque	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 constamment	constamment	ADV
 réélu	réélire	VERB
@@ -489,7 +489,7 @@ si	si	SCONJ
 il	il	PRON
 adhère	adhérer	VERB
 en	en	ADP
-1931	1931	NUM
+1931	1931	DIGIT
 au	au	ADP_DET
 jeune	jeune	ADJ
 parti	parti	NOUN
@@ -506,7 +506,7 @@ la	le	DET
 libération	libération	NOUN
 —	—	PUNCTclause
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 surtout	surtout	ADV
 parce que	parce que	SCONJ
 ce	ce	PRON
@@ -569,7 +569,7 @@ il	il	PRON
 se	se	PRON
 évade	évader	VERB
 en	en	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 .	.	PUNCTsent
 les	le	DET
 nazis	nazi	NOUN
@@ -632,30 +632,30 @@ de	de	ADP
 la	le	DET
 Moselle	Moselle	PROPN
 dès	dès	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 trois fois	trois fois	ADV
 ministre des Finances	ministre des Finances	NOUN
 (	(	PUNCTclause
 de	de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 à	à	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 (	(	PUNCTclause
 de	de	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 à	à	ADP
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 garde	garde	NOUN
 des	un	ADP_DET
 Sceaux	Sceaux	PROPN
 en	en	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 deux fois	deux fois	ADV
@@ -664,9 +664,9 @@ du	du	ADP_DET
 Conseil	Conseil	PROPN
 (	(	PUNCTclause
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 et	et	CCONJ
-1948	1948	NUM
+1948	1948	DIGIT
 )	)	PUNCTclause
 —	—	PUNCTclause
 telles	tel	DET
@@ -713,7 +713,7 @@ un	un	DET
 jour	jour	NOUN
 de	de	ADP
 mai	mai	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 l'	le	DET
@@ -833,9 +833,9 @@ attitude	attitude	NOUN
 de	de	ADP
 Schuman	Schuman	PROPN
 lors de	lors de	ADP
-9	9	NUM
+9	9	DIGIT
 mai	mai	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 aux	au	ADP_DET
 motivations	motivation	NOUN
 mêmes	même	ADJ
@@ -955,9 +955,9 @@ la	le	DET
 date	date	NOUN
 inaugurale	inaugural	ADJ
 du	du	ADP_DET
-9	9	NUM
+9	9	DIGIT
 mai	mai	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 montre	montrer	VERB
 une fois de plus	une fois de plus	ADV
@@ -1032,9 +1032,9 @@ attribuer	attribuer	VERB
 la	le	DET
 Déclaration	Déclaration	PROPN
 du	du	ADP_DET
-9	9	NUM
+9	9	DIGIT
 mai	mai	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 ?	?	PUNCTsent
 le	le	DET
 plan	plan	NOUN
@@ -1291,7 +1291,7 @@ présenté	présenter	VERB
 la	le	DET
 SDN	SDN	NOUN
 en	en	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 Robert	Robert	PROPN
 Schuman	Schuman	PROPN
@@ -1893,7 +1893,7 @@ dit	dire	VERB
 un	un	DET
 jour	jour	NOUN
 de	de	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET

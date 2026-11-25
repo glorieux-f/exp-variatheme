@@ -7,14 +7,14 @@
 
 ↵↵	↵↵	PUNCTstruct
 compte rendu	compte rendu	NOUN
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	ADP_DET
 journal	journal	NOUN
 de	de	ADP
 André	André	PROPN
 Gide	Gide	PROPN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -489,7 +489,7 @@ la	le	DET
 Marche	Marche	PROPN
 turque	turc	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 malgré	malgré	ADP
@@ -527,7 +527,7 @@ valeur	valeur	NOUN
 de	de	ADP
 un	un	DET
 tel	tel	PRON
-ouvrage	ouvrager	VERB
+ouvrage	ouvrage	NOUN
 restera	rester	VERB
 de	de	ADP
 ordre	ordre	NOUN
@@ -551,7 +551,7 @@ Gide	Gide	PROPN
 note	noter	VERB
 lui-même	lui-même	PRON
 dès	dès	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 si	si	SCONJ
@@ -1528,9 +1528,9 @@ note	note	NOUN
 dramatique	dramatique	ADJ
 datée	dater	VERB
 du	du	ADP_DET
-5	5	NUM
+5	5	DIGIT
 janvier	janvier	NOUN
-1902	1902	NUM
+1902	1902	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 mais	mais	CCONJ

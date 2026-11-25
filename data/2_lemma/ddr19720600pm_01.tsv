@@ -7,7 +7,7 @@
 
 ↵↵	↵↵	PUNCTstruct
 préface	préface	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 I.	I.	PRON
@@ -85,9 +85,9 @@ Allemagne	Allemagne	PROPN
 .	.	PUNCTsent
 je	je	PRON
 avais	avoir	AUX
-27	27	NUM
+27	27	DIGIT
 et	et	CCONJ
-29	29	NUM
+29	29	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -216,7 +216,7 @@ ce	ce	DET
 livre	livre	NOUN
 paru	paraître	VERB
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voici	voici	ADP
@@ -248,7 +248,7 @@ aux	au	ADP_DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-203	203	NUM
+203	203	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -313,7 +313,7 @@ personne	personne	NOUN
 Penser avec les mains	Penser avec les mains	NOUN
 ,	,	PUNCTclause
 p.	p.	DET
-250	250	NUM
+250	250	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 situer	situer	VERB
@@ -412,12 +412,12 @@ et	et	CCONJ
 culturelles	culturel	ADJ
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 et	et	CCONJ
 celles	celle	PRON
 des	un	ADP_DET
 années	année	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 de	de	ADP
 ce	ce	PRON
 siècle	siècle	NOUN
@@ -958,7 +958,7 @@ contestataire	contestataire	NOUN
 à tel point que	à tel point que	SCONJ
 en	en	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 a	avoir	AUX
@@ -1014,7 +1014,7 @@ mieux	mieux	ADV
 vus	vu	VERB
 que	que	SCONJ
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ?	?	PUNCTsent
 ont	avoir	AUX
 ils	ils	PRON
@@ -1170,7 +1170,7 @@ mes	mon	DET
 chapitres	chapitre	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 plus	plus	ADV
@@ -1492,7 +1492,7 @@ et	et	CCONJ
 nationalitaires	nationalitaires	ADJ
 »	»	PUNCTclause
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ne	ne	ADV
 ont	avoir	VERB
 abouti	aboutir	VERB
@@ -1563,7 +1563,7 @@ la	le	DET
 révolution	révolution	NOUN
 nationale-socialiste	nationale-socialiste	ADJ
 ;	;	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 tantôt	tantôt	ADV
 ,	,	PUNCTclause
@@ -1575,7 +1575,7 @@ de	de	ADP
 la	le	DET
 révolution	révolution	NOUN
 (	(	PUNCTclause
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 Hitler	Hitler	PROPN
 ,	,	PUNCTclause
@@ -1605,9 +1605,9 @@ de	de	ADP
 la	le	DET
 révolution	révolution	NOUN
 (	(	PUNCTclause
-1793	1793	NUM
+1793	1793	DIGIT
 ,	,	PUNCTclause
-1917	1917	NUM
+1917	1917	DIGIT
 )	)	PUNCTclause
 qui	qui	PRON
 installe	installer	VERB
@@ -2155,14 +2155,14 @@ appelions	appeler	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 engagement	engagement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1935	1935	NUM
+1935	1935	DIGIT
 apparaît	apparaître	VERB
 dans	dans	ADP
 la	le	DET
@@ -2198,7 +2198,7 @@ personne	personne	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
 le premier	le premier	PRON
-chapitre	chapitrer	VERB
+chapitre	chapitre	NOUN
 est	être	AUX
 intitulé	intituler	VERB
 «	«	PUNCTclause
@@ -2268,9 +2268,9 @@ L'Ordre nouveau	L'Ordre nouveau	NOUN
 (	(	PUNCTclause
 numéro	numéro	NOUN
 du	du	ADP_DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 un	un	DET
 article	article	NOUN
@@ -3152,5 +3152,5 @@ R.	R.	PROPN
 Ferney	Ferney	PROPN
 ,	,	PUNCTclause
 printemps	printemps	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 .	.	PUNCTsent

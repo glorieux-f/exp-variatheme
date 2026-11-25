@@ -13,7 +13,7 @@ vide	vide	ADJ
 ?	?	PUNCTsent
 (	(	PUNCTclause
 juillet	juillet	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -259,12 +259,12 @@ de	de	ADP
 nos	nos	DET
 journées	journée	NOUN
 en	en	ADP
-8	8	NUM
+8	8	DIGIT
 heures	heure	NOUN
 de	de	ADP
 travail	travail	NOUN
 et	et	CCONJ
-8	8	NUM
+8	8	DIGIT
 heures	heure	NOUN
 de	de	ADP
 loisir	loisir	NOUN
@@ -943,7 +943,7 @@ dans	dans	ADP
 l'	le	DET
 encyclopédie	encyclopédie	NOUN
 de	de	ADP
-1765	1765	NUM
+1765	1765	DIGIT
 ,	,	PUNCTclause
 vous	vous	PRON
 trouverez	trouver	VERB
@@ -1181,7 +1181,7 @@ de	de	ADP
 leur	leur	DET
 puissance	puissance	NOUN
 ,	,	PUNCTclause
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 elle	elle	PRON
 décrète	décréter	VERB
 «	«	PUNCTclause
@@ -1534,7 +1534,7 @@ pas	pas	ADV
 sans	sans	ADP
 douleur	douleur	NOUN
 ,	,	PUNCTclause
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 sans	sans	ADP
 volupté	volupté	NOUN
 .	.	PUNCTsent
@@ -1721,7 +1721,7 @@ donc	donc	ADV
 encore	encore	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 si	si	SCONJ
@@ -1748,7 +1748,7 @@ dit	dire	VERB
 primauté	primauté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 dans	dans	ADP
@@ -1795,7 +1795,7 @@ tôt ou tard	tôt ou tard	ADV
 conjointe	conjoint	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 que	que	SCONJ
 si l'on veut	si l'on veut	ADV

@@ -12,9 +12,9 @@ de	de	ADP
 la	le	DET
 décadence	décadence	NOUN
 (	(	PUNCTclause
-24	24	NUM
+24	24	DIGIT
 septembre	septembre	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -123,7 +123,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 Paul	Paul	PROPN
 Valéry	Valéry	PROPN
@@ -344,7 +344,7 @@ pessimisme	pessimisme	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 dès	dès	ADP
-1971	1971	NUM
+1971	1971	DIGIT
 ,	,	PUNCTclause
 Volney	Volney	PROPN
 ,	,	PUNCTclause
@@ -1998,7 +1998,7 @@ l'	le	DET
 (	(	PUNCTclause
 dans	dans	ADP
 les mêmes	les mêmes	PRON
-style	styler	VERB
+style	style	NOUN
 ,	,	PUNCTclause
 Bismarck	Bismarck	PROPN
 définit	définir	VERB
@@ -3092,7 +3092,7 @@ et	et	CCONJ
 la	le	DET
 philosophie	philosophie	NOUN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 se	se	PRON
 constituaient	constituer	VERB
 la	le	DET

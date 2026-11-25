@@ -12,7 +12,7 @@ du	du	ADP_DET
 Centre	Centre	PROPN
 (	(	PUNCTclause
 février	février	NOUN
-1958	1958	NUM
+1958	1958	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -43,9 +43,9 @@ sous	sous	ADP
 cette	ce	DET
 forme	forme	NOUN
 de	de	ADP
-1952	1952	NUM
+1952	1952	DIGIT
 à	à	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
 à raison de	à raison de	ADP
 six	six	NUM
@@ -55,7 +55,7 @@ an	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-1955	1955	NUM
+1955	1955	DIGIT
 cependant	cependant	ADV
 ,	,	PUNCTclause
 des	un	DET
@@ -153,26 +153,26 @@ a	avoir	AUX
 modifiée	modifier	VERB
 à partir de	à partir de	ADP
 décembre	décembre	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 .	.	PUNCTsent
 au lieu de	au lieu de	ADP
-10	10	NUM
+10	10	DIGIT
 numéros	numéro	NOUN
 de	de	ADP
-24	24	NUM
+24	24	DIGIT
 pages	page	NOUN
 tirés	tirer	VERB
 à	à	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 exemplaires	exemplaire	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 sont	être	AUX
 désormais	désormais	ADV
-6	6	NUM
+6	6	DIGIT
 numéros	numéro	NOUN
 de	de	ADP
-64	64	NUM
+64	64	DIGIT
 pages	page	NOUN
 en	en	ADP
 moyenne	moyenne	NOUN
@@ -189,7 +189,7 @@ tirage	tirage	NOUN
 initial	initial	ADJ
 moyen	moyen	ADJ
 de	de	ADP
-10000	10000	NUM
+10000	10000	DIGIT
 exemplaires	exemplaire	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -230,7 +230,7 @@ est	être	AUX
 ainsi	ainsi	ADV
 que	que	SCONJ
 en	en	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ont	avoir	AUX
 paru	paraître	VERB
 :	:	PUNCTclause
@@ -374,14 +374,14 @@ dont	dont	PRON
 le	le	DET
 tirage	tirage	NOUN
 atteignait	atteindre	VERB
-75000	75000	NUM
+75000	75000	DIGIT
 exemplaires	exemplaire	NOUN
 en	en	ADP
 cinq	cinq	NUM
 langues	langue	NOUN
 à la fin	à la fin	ADV
 de	de	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 a	avoir	AUX
 exercé	exercer	VERB
@@ -486,7 +486,7 @@ opportunité	opportunité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 programme	programme	NOUN
@@ -649,15 +649,15 @@ ce	ce	DET
 thème	thème	NOUN
 ,	,	PUNCTclause
 les	le	DET
-21	21	NUM
+21	21	DIGIT
 et	et	CCONJ
-22	22	NUM
+22	22	DIGIT
 novembre	novembre	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 (	(	PUNCTclause
 voir	voir	VERB
 p.	p.	PUNCT
-22	22	NUM
+22	22	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -739,7 +739,7 @@ internationale	international	ADJ
 .	.	PUNCTsent
 bilinguisme	bilinguisme	NOUN
 ?	?	PUNCTsent
-etc.	etc.	NOUN
+Etc.	Etc.	NOUN
 ↵↵	↵↵	PUNCTstruct
 Plans	Plans	PROPN
 de	de	ADP
@@ -748,7 +748,7 @@ causeries	causerie	NOUN
 nouvelle	nouveau	ADJ
 série	série	NOUN
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 plans	plan	NOUN
 de	de	ADP
 causeries	causerie	NOUN
@@ -787,8 +787,7 @@ inspirant	inspirer	VERB
 des	un	ADP_DET
 travaux	travail	NOUN
 du	du	ADP_DET
-2	2	NUM
-e	e	NOUN
+2e	2e	NUMord
 séminaire	séminaire	NOUN
 sur	sur	ADP
 l'	le	DET
@@ -843,4 +842,4 @@ problème	problème	NOUN
 des	un	ADP_DET
 hiérarchies	hiérarchie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X

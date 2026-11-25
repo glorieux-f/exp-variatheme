@@ -16,7 +16,7 @@ aventure	aventure	NOUN
 occidentale	occidental	ADJ
 (	(	PUNCTclause
 mars	mars	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -300,7 +300,7 @@ l'	le	DET
 histoire	histoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Occident	Occident	PROPN
@@ -356,15 +356,15 @@ avait	avoir	AUX
 été	être	AUX
 créé	créer	VERB
 en	en	ADP
-4004	4004	NUM
-av. J.-C.	av. J.-C.	NOUN
+4004	4004	DIGIT
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 le	le	DET
-23	23	NUM
+23	23	DIGIT
 octobre	octobre	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-9	9	NUM
+9	9	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
@@ -376,7 +376,7 @@ Oxford	Oxford	PROPN
 tenaient	tenir	VERB
 pour	pour	ADP
 le	le	DET
-23	23	NUM
+23	23	DIGIT
 mars	mars	NOUN
 ,	,	PUNCTclause
 même	même	ADV
@@ -455,7 +455,7 @@ représentants	représentant	NOUN
 cependant	cependant	ADV
 ,	,	PUNCTclause
 vers	vers	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 nul	nul	PRON
 ne	ne	ADV
@@ -671,17 +671,17 @@ minuit	minuit	NOUN
 précise	précis	ADJ
 ,	,	PUNCTclause
 le	le	DET
-18	18	NUM
+18	18	DIGIT
 février	février	NOUN
-3102	3102	NUM
-av. J.-C.	av. J.-C.	NOUN
+3102	3102	DIGIT
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 doit	devoir	VERB
 se	se	PRON
 terminer	terminer	VERB
 dans	dans	ADP
-426941	426941	NUM
+426941	426941	DIGIT
 ans	an	NOUN
 par	par	ADP
 la	le	DET
@@ -838,7 +838,7 @@ ce	ce	DET
 chapitre	chapitre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 Co-naissance	Co-naissance	PROPN
 de	de	ADP
@@ -1209,7 +1209,7 @@ mais	mais	CCONJ
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 que	que	SCONJ
 les	le	DET
 hommes	homme	NOUN
@@ -1504,7 +1504,7 @@ les	le	DET
 confessions	confession	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 du	du	ADP_DET
 Mythe	Mythe	PROPN
@@ -2753,7 +2753,7 @@ précisant	préciser	VERB
 mais	mais	CCONJ
 dans	dans	ADP
 les mêmes	les mêmes	PRON
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 indiscuté	indiscuté	ADJ
 (	(	PUNCTclause
 de	de	ADP
@@ -3002,7 +3002,7 @@ encore	encore	ADV
 neuf	neuf	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 être	être	AUX
 ou	ou	CCONJ
@@ -3738,7 +3738,7 @@ transcendance	transcendance	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 nous	nous	PRON
 enferme	enfermer	VERB
 et	et	CCONJ
@@ -3981,7 +3981,7 @@ mais	mais	CCONJ
 normale	normal	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 le	le_PRON	PRON
 refus	refus	NOUN
@@ -4558,7 +4558,7 @@ mouvements	mouvement	NOUN
 de	de	ADP
 masse	masse	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 échappent	échapper	VERB
 à	à	ADP
@@ -5246,11 +5246,11 @@ les	le	DET
 prêtres	prêtre	NOUN
 emplumés	emplumé	ADJ
 du	du	ADP_DET
-grands dieux	grands dieux	NOUN
+grands dieux	grands dieux	INTJ
 Huitzilopochtli	Huitzilopochtli	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 dilemme	dilemme	NOUN
 .	.	PUNCTsent

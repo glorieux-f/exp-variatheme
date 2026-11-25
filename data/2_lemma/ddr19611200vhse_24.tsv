@@ -6,7 +6,7 @@
 # title = 4. Napoléon et l’Europe
 
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 Napoléon	Napoléon	PROPN
 et	et	CCONJ
@@ -144,7 +144,7 @@ des	un	ADP_DET
 états	état	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 sous	sous	ADP
 l'	le	DET
 égide	égide	NOUN
@@ -166,7 +166,7 @@ Europe	Europe	PROPN
 par	par	ADP
 Echassériaux	Echassériaux	PROPN
 (	(	PUNCTclause
-1802	1802	NUM
+1802	1802	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 Die	Die	PROPN
@@ -176,9 +176,9 @@ par	par	ADP
 Niklas	Niklas	PROPN
 Vogt	Vogt	PROPN
 (	(	PUNCTclause
-1802	1802	NUM
+1802	1802	DIGIT
 et	et	CCONJ
-1808	1808	NUM
+1808	1808	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 de	de	ADP
@@ -217,7 +217,7 @@ perpétuelle	perpétuel	ADJ
 par	par	ADP
 Gondon	Gondon	PROPN
 (	(	PUNCTclause
-1807	1807	NUM
+1807	1807	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 Das	Das	PROPN
@@ -230,8 +230,8 @@ Christian	Christian	PROPN
 Friedrich	Friedrich	PROPN
 Krause	Krause	PROPN
 (	(	PUNCTclause
-1807	1807	NUM
--1811	-1811	NUM
+1807	1807	DIGIT
+-1811	-1811	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -291,8 +291,8 @@ Paul	Paul	PROPN
 Friedrich	Friedrich	PROPN
 Richter	Richter	PROPN
 ,	,	PUNCTclause
-1763	1763	NUM
--1825	-1825	NUM
+1763	1763	DIGIT
+-1825	-1825	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 cet	ce	DET

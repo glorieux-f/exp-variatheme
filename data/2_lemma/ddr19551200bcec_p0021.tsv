@@ -16,7 +16,7 @@ Genève	Genève	PROPN
 ?	?	PUNCTsent
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -62,13 +62,13 @@ conférence	conférence	NOUN
 des	un	ADP_DET
 ministres	ministre	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 octobre	octobre	NOUN
 et	et	CCONJ
 novembre	novembre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 ,	,	PUNCTclause
 sur	sur	ADP
 le	le	DET
@@ -85,7 +85,7 @@ point de départ	point de départ	NOUN
 ↵↵	↵↵	PUNCTstruct
 I.	I.	VERB
 les	le	DET
-17	17	NUM
+17	17	DIGIT
 propositions	proposition	NOUN
 occidentales	occidental	ADJ
 .	.	PUNCTsent
@@ -112,9 +112,9 @@ délégation	délégation	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 octobre	octobre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -203,7 +203,7 @@ propositions	proposition	NOUN
 suivantes	suivant	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 …	…	PUNCTsent
@@ -216,7 +216,7 @@ supprimée	supprimer	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 …	…	PUNCTsent
@@ -249,7 +249,7 @@ accès	accès	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 publication	publication	NOUN
 et	et	CCONJ
@@ -276,7 +276,7 @@ ou	ou	CCONJ
 Russie	Russie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 favoriser	favoriser	VERB
@@ -296,7 +296,7 @@ bibliothèques	bibliothèque	NOUN
 universités	université	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 leur	leur	DET
@@ -315,7 +315,7 @@ les	le	DET
 pays	pays	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 échange	échange	NOUN
 accru	accroître	VERB
@@ -326,7 +326,7 @@ officielles	officiel	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 les	le	DET
@@ -369,7 +369,7 @@ conditions	condition	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 des	un	DET
@@ -379,7 +379,7 @@ expositions	exposition	NOUN
 …	…	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 le	le	DET
@@ -399,7 +399,7 @@ supprimé	supprimer	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 …	…	PUNCTsent
@@ -437,7 +437,7 @@ sous réserve de	sous réserve de	ADP
 réciprocité	réciprocité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 mesures	mesure	NOUN
 immédiates	immédiat	ADJ
@@ -460,7 +460,7 @@ l'	le	DET
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 développer	développer	VERB
 le	le	DET
@@ -481,7 +481,7 @@ raisonnables	raisonnable	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 …	…	PUNCTsent
@@ -505,7 +505,7 @@ technique	technique	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 .	.	PUNCTsent
 participation	participation	NOUN
 «	«	PUNCTclause
@@ -519,7 +519,7 @@ internationaux	international	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 instituer	instituer	VERB
@@ -541,7 +541,7 @@ pays	pays	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 envisager	envisager	VERB
 des	un	DET
@@ -552,7 +552,7 @@ de	de	ADP
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-16	16	NUM
+16	16	DIGIT
 .	.	PUNCTsent
 accroître	accroître	VERB
 ,	,	PUNCTclause
@@ -568,7 +568,7 @@ diplomates	diplomate	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 établissement	établissement	NOUN
@@ -591,9 +591,9 @@ la	le	DET
 proposition	proposition	NOUN
 soviétique	soviétique	ADJ
 (	(	PUNCTclause
-31	31	NUM
+31	31	DIGIT
 octobre	octobre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -610,9 +610,9 @@ URSS	URSS	PROPN
 a	avoir	AUX
 décidé	décider	VERB
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 août	août	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 que	que	SCONJ
 «	«	PUNCTclause
 l'	le	DET
@@ -971,7 +971,7 @@ UNESCO	UNESCO	PROPN
 du	du	ADP_DET
 BIT	BIT	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ;	;	PUNCTclause
 de	de	ADP
 échanger	échanger	VERB
@@ -1037,7 +1037,7 @@ de	de	ADP
 experts	expert	NOUN
 discute	discuter	VERB
 sur la base de	sur la base de	ADP
-17	17	NUM
+17	17	DIGIT
 points	point	NOUN
 occidentaux	occidental	ADJ
 et	et	CCONJ
@@ -1047,7 +1047,7 @@ soviétique	soviétique	ADJ
 ,	,	PUNCTclause
 jusque	jusque	ADP
 au	au	ADP_DET
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -1063,7 +1063,7 @@ soviétiques	soviétique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 M.	M.	PROPN
@@ -1101,7 +1101,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 des	un	DET
-17	17	NUM
+17	17	DIGIT
 points	point	NOUN
 )	)	PUNCTclause
 …	…	PUNCTsent
@@ -1381,7 +1381,7 @@ l'	le	DET
 des	un	ADP_DET
 publications	publication	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 on	on	PRON
 pourrait	pouvoir	VERB
 refléter	refléter	VERB
@@ -1479,17 +1479,17 @@ occidentales	occidental	ADJ
 M.	M.	NOUN
 Macmillan	Macmillan	PROPN
 (	(	PUNCTclause
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
-17	17	NUM
+17	17	DIGIT
 points	point	NOUN
 proposés	proposer	VERB
 le	le	DET
-31	31	NUM
+31	31	DIGIT
 octobre	octobre	NOUN
 …	…	PUNCTsent
 visaient	viser	VERB
@@ -1619,7 +1619,7 @@ soviétique	soviétique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 novembre	novembre	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
@@ -1798,7 +1798,7 @@ peuple	peuple	NOUN
 M.	M.	NOUN
 Pinay	Pinay	PROPN
 (	(	PUNCTclause
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
@@ -1934,7 +1934,7 @@ J.	J.	PROPN
 Foster	Foster	PROPN
 Dulles	Dulles	PROPN
 (	(	PUNCTclause
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
@@ -2056,7 +2056,7 @@ ailleurs	ailleurs	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 novembre	novembre	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
@@ -2096,7 +2096,7 @@ constate	constater	VERB
 alors que	alors que	SCONJ
 sur	sur	ADP
 les	le	DET
-17	17	NUM
+17	17	DIGIT
 points	point	NOUN
 proposés	proposer	VERB
 par	par	ADP
@@ -2137,7 +2137,7 @@ rejetés	rejeter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 novembre	novembre	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
@@ -2229,21 +2229,21 @@ récapitulatif	récapitulatif	ADJ
 propositions	proposition	NOUN
 occidentales	occidental	ADJ
 du	du	ADP_DET
-31	31	NUM
+31	31	DIGIT
 octobre	octobre	NOUN
 réponses	réponse	NOUN
 soviétiques	soviétique	ADJ
 du	du	ADP_DET
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 suppression	suppression	NOUN
 de	de	ADP
 la	le	DET
 censure	censure	NOUN
 Non	Non	PROPN
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ouverture	ouverture	NOUN
 de	de	ADP
@@ -2257,7 +2257,7 @@ dans	dans	ADP
 affaires	affaire	NOUN
 intérieures	intérieur	ADJ
 )	)	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 publication	publication	NOUN
 de	de	ADP
@@ -2270,7 +2270,7 @@ Non	Non	PROPN
 (	(	PUNCTclause
 implicitement	implicitement	ADV
 )	)	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 vente	vente	NOUN
 liberté	liberté	NOUN
@@ -2288,7 +2288,7 @@ oui	oui	INTJ
 en principe	en principe	ADV
 selon	selon	ADP
 accords	accord	NOUN
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 échange	échange	NOUN
 de	de	ADP
@@ -2304,7 +2304,7 @@ et	et	CCONJ
 accords	accord	NOUN
 entre	entre	ADP
 états	état	NOUN
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 échange	échange	NOUN
 de	de	ADP
@@ -2312,7 +2312,7 @@ films	film	NOUN
 oui	oui	INTJ
 mêmes	même	ADJ
 réserves	réserve	NOUN
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 échange	échange	NOUN
 de	de	ADP
@@ -2320,7 +2320,7 @@ expositions	exposition	NOUN
 oui	oui	INTJ
 mêmes	même	ADJ
 réserves	réserve	NOUN
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 cesser	cesser	VERB
 le	le	DET
@@ -2332,7 +2332,7 @@ Non	Non	PROPN
 (	(	PUNCTclause
 implicitement	implicitement	ADV
 )	)	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 échange	échanger	VERB
 de	de	ADP
@@ -2341,7 +2341,7 @@ radio	radio	NOUN
 oui	oui	INTJ
 avec	avec	ADP
 réserves	réserve	NOUN
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 facilités	faciliter	VERB
 pour	pour	ADP
@@ -2356,7 +2356,7 @@ réponse	réponse	NOUN
 non	non	ADV
 implicite	implicite	ADJ
 )	)	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 facilités	faciliter	VERB
 pour	pour	ADP
@@ -2381,7 +2381,7 @@ les	le	DET
 affaires	affaire	NOUN
 intérieures	intérieur	ADJ
 )	)	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 facilités	faciliter	VERB
 pour	pour	ADP
@@ -2398,7 +2398,7 @@ selon	selon	ADP
 cas	cas	NOUN
 de	de	ADP
 espèce	espèce	NOUN
-13	13	NUM
+13	13	DIGIT
 .	.	PUNCTsent
 organisation	organisation	NOUN
 de	de	ADP
@@ -2408,7 +2408,7 @@ savants	savant	NOUN
 ,	,	PUNCTclause
 étudiants	étudiant	NOUN
 oui	oui	INTJ
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 échanges	échange	NOUN
 de	de	ADP
@@ -2422,7 +2422,7 @@ sportifs	sportif	ADJ
 et	et	CCONJ
 culturels	culturel	ADJ
 oui	oui	INTJ
-15	15	NUM
+15	15	DIGIT
 .	.	PUNCTsent
 échanges	échange	NOUN
 de	de	ADP
@@ -2430,7 +2430,7 @@ de	de	ADP
 oui	oui	INTJ
 avec	avec	ADP
 réserves	réserve	NOUN
-16	16	NUM
+16	16	DIGIT
 .	.	PUNCTsent
 liberté	liberté	NOUN
 déplacements	déplacement	NOUN
@@ -2449,7 +2449,7 @@ négociations	négociation	NOUN
 directes	direct	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 .	.	PUNCTsent
 échanges	échange	NOUN
 de	de	ADP

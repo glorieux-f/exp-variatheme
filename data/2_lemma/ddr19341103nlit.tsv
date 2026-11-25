@@ -7,16 +7,18 @@
 
 ↵↵	↵↵	PUNCTstruct
 compte rendu	compte rendu	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 roman	roman	NOUN
 :	:	PUNCTclause
 Sara	Sara	PROPN
 Alelia	Alelia	PROPN
 (	(	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 novembre	novembre	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -312,7 +314,7 @@ dépourvues	dépourvu	ADJ
 de	de	ADP
 apparences	apparence	NOUN
 .	.	PUNCTsent
-n'est-ce	n'est-ce	VERB
+N'est-ce	N'est-ce	PROPN
 point	point	ADV
 l'	le	DET
 image	image	NOUN
@@ -421,7 +423,7 @@ paradoxe	paradoxe	NOUN
 vous	vous	PRON
 ne	ne	ADV
 ignorez	ignorer	VERB
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 moi	moi	PRON
 que	que	SCONJ
 la plupart	la plupart	PRON

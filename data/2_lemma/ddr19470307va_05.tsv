@@ -141,7 +141,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 avril	avril	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 exprime	exprimer	VERB
 avec	avec	ADP
@@ -604,9 +604,9 @@ de	de	ADP
 la	le	DET
 vie	vie	NOUN
 :	:	PUNCTclause
-n'est-ce	n'est-ce	VERB
+n'est-ce	n'est-ce	X
 point	point	ADV
-écrit	écrire	VERB
+écrit	écrit	NOUN
 dans	dans	ADP
 sa	son	DET
 constitution	constitution	NOUN
@@ -1471,10 +1471,10 @@ mari	mari	NOUN
 moins	moins	ADV
 galant	galant	ADJ
 que	que	SCONJ
-stylé	styler	VERB
+stylé	stylé	ADJ
 ,	,	PUNCTclause
 toujours	toujours	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 subir	subir	VERB
 ses	son	DET
 impérieux	impérieux	ADJ
@@ -1839,7 +1839,7 @@ votre	votre	DET
 Mom	Mom	PROPN
 aimante	aimant	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 elle	elle	PRON
 est	être	AUX
@@ -3194,7 +3194,7 @@ ses	son	DET
 fiançailles	fiançailles	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-19	19	NUM
+19	19	DIGIT
 ans	an	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -3346,7 +3346,7 @@ conjoint	conjoint	NOUN
 coûte	coûter	VERB
 à	à	ADP
 l'autre	l'autre	PRON
-1000	1000	NUM
+1000	1000	DIGIT
 dollars	dollar	NOUN
 ,	,	PUNCTclause
 prix	prix	NOUN

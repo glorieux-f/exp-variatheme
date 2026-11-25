@@ -13,7 +13,7 @@ de	de	ADP
 rien	rien	PRON
 (	(	PUNCTclause
 février	février	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -24,9 +24,9 @@ N.	N.	PROPN
 Y.	Y.	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -480,7 +480,7 @@ passe	passer	VERB
 l'	le	DET
 été	été	NOUN
 près	près	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 avec	avec	ADP
 deux	deux	NUM
 jeunes	jeune	NOUN
@@ -1106,7 +1106,7 @@ est	être	AUX
 la	le	DET
 famille	famille	NOUN
 …	…	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ?	?	PUNCTsent
 les	le	DET
 enfants	enfant	NOUN
@@ -1330,7 +1330,7 @@ propre	propre	ADJ
 père	père	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2245,7 +2245,7 @@ ma	mon	DET
 valise	valise	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 août	août	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2769,7 +2769,7 @@ elles	elles	PRON
 durent	devoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 août	août	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3398,9 +3398,9 @@ serait	être	AUX
 il	il	PRON
 pas	pas	ADV
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 Léonard	Léonard	PROPN
-que	que	SCONJ
+que	que	PRON
 ne	ne	ADV
 en	en	PRON
 sont	être	AUX

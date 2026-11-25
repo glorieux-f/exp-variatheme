@@ -19,9 +19,9 @@ suis	être	AUX
 personne	personne	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -200,7 +200,9 @@ nécessaire	nécessaire	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 un	un	DET
 camouflage	camouflage	NOUN
 très	très	ADV

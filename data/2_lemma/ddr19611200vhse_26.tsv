@@ -6,7 +6,7 @@
 # title = 6. Goethe
 
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 Goethe	Goethe	PROPN
 .	.	PUNCTsent
@@ -16,8 +16,8 @@ Wolfgang	Wolfgang	PROPN
 von	von	X
 Goethe	Goethe	PROPN
 (	(	PUNCTclause
-1749	1749	NUM
--1832	-1832	NUM
+1749	1749	DIGIT
+-1832	-1832	DIGIT
 )	)	PUNCTclause
 est	être	AUX
 inclassable	inclassable	ADJ
@@ -32,7 +32,7 @@ chapitre	chapitre	NOUN
 .	.	PUNCTsent
 dans	dans	ADP
 les	le	DET
-143	143	NUM
+143	143	DIGIT
 volumes	volume	NOUN
 in	in	ADJ
 octavo	octavo	ADV

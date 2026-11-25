@@ -19,9 +19,9 @@ et	et	CCONJ
 l'	le	DET
 URSS	URSS	PROPN
 (	(	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 novembre	novembre	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -174,7 +174,7 @@ est	être	AUX
 le	le	DET
 suivant	suivant	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 «	«	PUNCTclause
 Henry	Henry	PROPN
@@ -198,7 +198,7 @@ son	son	DET
 pays	pays	NOUN
 »	»	PUNCTclause
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 Truman	Truman	PROPN
 veut	vouloir	VERB
@@ -208,7 +208,7 @@ Europe	Europe	PROPN
 au	au	ADP_DET
 dollar	dollar	NOUN
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 donc	donc	ADV
 Truman	Truman	PROPN
@@ -547,7 +547,7 @@ ce	ce	DET
 reproche	reproche	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 éditeurs	éditeur	NOUN
@@ -571,7 +571,7 @@ ordres	ordre	NOUN
 de	de	ADP
 Staline	Staline	PROPN
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 éditeurs	éditeur	NOUN
@@ -599,7 +599,7 @@ ne	ne	ADV
 rapporte	rapporter	VERB
 rien	rien	PRON
 ;	;	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 or	or_CCONJ	CCONJ
 les	le	DET
@@ -629,7 +629,7 @@ million	million	NOUN
 et	et	CCONJ
 plus	plus	ADV
 ;	;	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 °	°	SYM
 les	le	DET
 droits	droit	NOUN
@@ -655,7 +655,7 @@ vente	vente	NOUN
 en	en	ADP
 États-Unis	États-Unis	PROPN
 ;	;	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 °	°	SYM
 les	le	DET
 œuvres	œuvre	NOUN
@@ -676,9 +676,9 @@ best-sellers	best-seller	NOUN
 ,	,	PUNCTclause
 tirent	tirer	VERB
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 ou	ou	CCONJ
-20000	20000	NUM
+20000	20000	DIGIT
 exemplaires	exemplaire	NOUN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
@@ -714,7 +714,7 @@ noms	nom	NOUN
 ,	,	PUNCTclause
 tirent	tirer	VERB
 à	à	ADP
-800000	800000	NUM
+800000	800000	DIGIT
 avant	avant	ADP
 la	le	DET
 mise	mise	NOUN
@@ -729,7 +729,7 @@ se	se	PRON
 y	y	PRON
 intéresse	intéresser	VERB
 ;	;	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 °	°	SYM
 le	le	DET
 succès	succès	NOUN
@@ -1805,10 +1805,10 @@ je	je	PRON
 veux	vouloir	VERB
 parler	parler	VERB
 de	de	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 et	et	CCONJ
 de	de	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 alors	alors	ADV

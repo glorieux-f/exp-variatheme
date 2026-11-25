@@ -16,10 +16,9 @@ jeunes	jeune	ADJ
 pourquoi	pourquoi	ADV
 ?	?	PUNCTsent
 (	(	PUNCTclause
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 décembre	décembre	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -223,7 +222,7 @@ l'	le	DET
 histoire	histoire	NOUN
 du	du	ADP_DET
 chapitre	chapitre	NOUN
-3	3	NUM
+3	3	DIGIT
 de	de	ADP
 la	le	DET
 Genèse	Genèse	PROPN
@@ -481,11 +480,11 @@ ange	ange	NOUN
 »	»	PUNCTclause
 :	:	PUNCTclause
 Apoc.	Apoc.	PROPN
-chapitre	chapitrer	VERB
-21	21	NUM
+chapitre	chapitre	NOUN
+21	21	DIGIT
 ,	,	PUNCTclause
 v.	v.	X
-17	17	ADV
+17	17	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 il	il	PRON
@@ -600,10 +599,10 @@ de	de	ADP
 Isaïe	Isaïe	PROPN
 (	(	PUNCTclause
 chapitre	chapitre	NOUN
-21	21	NUM
+21	21	DIGIT
 ,	,	PUNCTclause
 v.	v.	X
-12	12	ADV
+12	12	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -880,7 +879,7 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 je	je	PRON
 ai	avoir	AUX
 écrit	écrire	VERB
@@ -931,7 +930,7 @@ industrielle	industriel	ADJ
 ne	ne	ADV
 avait	avoir	VERB
 que	que	ADV
-29	29	NUM
+29	29	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 déjà	déjà	ADV
@@ -1016,7 +1015,7 @@ un	un	DET
 monde	monde	NOUN
 fini	fini	ADJ
 —	—	PUNCTclause
-44	44	NUM
+44	44	DIGIT
 ans	an	NOUN
 avant	avant	ADP
 le	le	DET
@@ -1287,7 +1286,7 @@ nos	nos	DET
 recherches	recherche	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -1388,8 +1387,8 @@ sous	sous	ADP
 les	le	DET
 yeux	œil	NOUN
 en	en	ADP
-1931	1931	NUM
--1932	-1932	NUM
+1931	1931	DIGIT
+-1932	-1932	DIGIT
 était	être	AUX
 l'	le	DET
 état	état	NOUN
@@ -1605,7 +1604,7 @@ l'	le	DET
 de	de	ADP
 officiers	officier	NOUN
 en	en	ADP
-1928	1928	NUM
+1928	1928	DIGIT
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
@@ -1660,9 +1659,9 @@ en	en	ADP
 États-Unis	États-Unis	PROPN
 (	(	PUNCTclause
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 à	à	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 que	que	PRON
 je	je	PRON
@@ -1787,7 +1786,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 danger	danger	NOUN
@@ -1954,7 +1953,7 @@ l'	le	DET
 Iran	Iran	PROPN
 ,	,	PUNCTclause
 pour	pour	ADP
-40	40	NUM
+40	40	DIGIT
 dans	dans	ADP
 la	le	DET
 société	société	NOUN
@@ -2460,10 +2459,10 @@ siècle	siècle	NOUN
 voyez	voir	VERB
 Matt	Matt	PROPN
 .	.	PUNCTsent
-4	4	NUM
+4	4	DIGIT
 et	et	CCONJ
 Luc	Luc	PROPN
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 on	on	PRON
@@ -2571,7 +2570,7 @@ dans	dans	ADP
 une	un	DET
 ville	ville	NOUN
 de	de	ADP
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN

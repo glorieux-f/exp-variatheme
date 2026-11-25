@@ -11,7 +11,7 @@ maximes	maxime	NOUN
 de	de	ADP
 prospective	prospective	NOUN
 (	(	PUNCTclause
-1981	1981	NUM
+1981	1981	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1215,11 +1215,11 @@ auteur	auteur	NOUN
 de	de	ADP
 l'	le	DET
 An	An	PROPN
-2440	2440	NUM
+2440	2440	DIGIT
 (	(	PUNCTclause
 publié	publier	VERB
 en	en	ADP
-1770	1770	NUM
+1770	1770	DIGIT
 )	)	PUNCTclause
 est	être	AUX
 le	le	DET
@@ -1448,9 +1448,9 @@ l'	le	DET
 antimilitarisme	antimilitarisme	NOUN
 .	.	PUNCTsent
 de	de	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 à	à	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 automation	automation	NOUN
@@ -1480,10 +1480,10 @@ début	début	NOUN
 on	on	PRON
 prévoit	prévoir	VERB
 que	que	SCONJ
-d'ici	d'ici	ADV
-l'	le	DET
+d'ici	d'ici	DET
+l'	le_PRON	PRON
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 chez	chez	ADP
 les	le	DET
@@ -1551,7 +1551,7 @@ quand	quand	SCONJ
 je	je	PRON
 observais	observer	VERB
 dès	dès	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 que	que	SCONJ
 l'	le	DET
 essor	essor	NOUN
@@ -1573,7 +1573,7 @@ quand	quand	SCONJ
 je	je	PRON
 demandais	demander	VERB
 en	en	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 ce	ce	DET
 que	que	SCONJ
 vont	aller	VERB
@@ -1630,7 +1630,7 @@ Attali	Attali	PROPN
 il	il	PRON
 emploie	employer	VERB
 actuellement	actuellement	ADV
-50	50	NUM
+50	50	DIGIT
 de	de	ADP
 salariés	salarié	NOUN
 de plus	de plus	ADV
@@ -1683,7 +1683,7 @@ comme	comme	ADP
 nous	nous	PRON
 disions	dire	VERB
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 résolu	résoudre	VERB
 dans	dans	ADP
@@ -1737,7 +1737,7 @@ seul	seul	ADJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 poser question	poser question	VERB
@@ -1933,7 +1933,7 @@ des	un	DET
 millions	million	NOUN
 par	par	ADP
 an	an	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 réussit	réussir	VERB
 .	.	PUNCTsent
@@ -2095,7 +2095,7 @@ arrivants	arrivant	NOUN
 ,	,	PUNCTclause
 les	le	DET
 moins de	moins de	DET
-18	18	NUM
+18	18	DIGIT
 ans	an	NOUN
 de	de	ADP
 alors	alors	ADV
@@ -2257,7 +2257,7 @@ cela	cela	PRON
 signifiait	signifier	VERB
 :	:	PUNCTclause
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 l'	le	DET

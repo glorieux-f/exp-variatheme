@@ -10,7 +10,7 @@ nouveau	nouveau	ADJ
 départ	départ	NOUN
 (	(	PUNCTclause
 printemps	printemps	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -166,7 +166,7 @@ a	avoir	AUX
 commencé	commencer	VERB
 en	en	ADP
 hiver	hiver	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 avec	avec	ADP
 «	«	PUNCTclause
 Naissance	Naissance	PROPN
@@ -190,7 +190,7 @@ II	II	NUM
 »	»	PUNCTclause
 (	(	PUNCTclause
 hiver	hiver	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 «	«	PUNCTclause
@@ -202,7 +202,7 @@ III	III	NUM
 »	»	PUNCTclause
 (	(	PUNCTclause
 été	été	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -289,9 +289,9 @@ paraîtront	paraître	VERB
 sous forme de	sous forme de	ADP
 volumes	volume	NOUN
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-250	250	NUM
+250	250	DIGIT
 pages	page	NOUN
 des	un	ADP_DET
 cahiers	cahier	NOUN
@@ -331,7 +331,7 @@ ou	ou	CCONJ
 de droit	de droit	ADJ
 administratif	administratif	ADJ
 ,	,	PUNCTclause
-traités	traiter	VERB
+traités	traité	NOUN
 dans	dans	ADP
 les	le	DET
 cours	cours	NOUN
@@ -363,9 +363,9 @@ retenus	retenir	VERB
 pour	pour	ADP
 paraître	paraître	VERB
 en	en	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 et	et	CCONJ
-1975	1975	NUM
+1975	1975	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Henri	Henri	PROPN
@@ -442,7 +442,7 @@ la	le	DET
 rentrée	rentrée	NOUN
 de	de	ADP
 octobre	octobre	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 de	de	ADP
 une	un	DET
 série	série	NOUN
@@ -481,7 +481,7 @@ de	de	ADP
 de	de	ADP
 écologie	écologie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 par	par	ADP
 Sabine	Sabine	PROPN

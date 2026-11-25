@@ -10,7 +10,7 @@ contre	contre	ADP
 Nietzsche	Nietzsche	PROPN
 (	(	PUNCTclause
 avril-mai	avril-mai	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -194,7 +194,7 @@ erreurs	erreur	NOUN
 du	du	ADP_DET
 temps	temps	NOUN
 à	à	ADP
-180	180	NUM
+180	180	DIGIT
 degrés	degré	NOUN
 ,	,	PUNCTclause
 juste	juste	ADV
@@ -894,8 +894,8 @@ aux	au	ADP_DET
 sadducéens	sadducéen	NOUN
 ,	,	PUNCTclause
 Luc	Luc	PROPN
-20	20	NUM
-33	33	NUM
+20	20	DIGIT
+33	33	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 Nietzsche	Nietzsche	PROPN
@@ -1036,9 +1036,9 @@ la	le	DET
 seule	seul	ADJ
 angoisse	angoisse	NOUN
 .	.	PUNCTsent
-etc.	etc.	NOUN
+Etc.	Etc.	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 Nietzsche	Nietzsche	PROPN
@@ -1774,7 +1774,7 @@ que	que	SCONJ
 un	un	DET
 style	style	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 là	là	ADV
 le	le	DET
 dernier	dernier	ADJ

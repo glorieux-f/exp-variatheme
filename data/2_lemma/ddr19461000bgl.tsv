@@ -10,7 +10,7 @@ Beekman	Beekman	PROPN
 Place	Place	PROPN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -102,8 +102,7 @@ hauts	haut	ADJ
 bâtiments	bâtiment	NOUN
 de	de	ADP
 la	le	DET
-51	51	NUM
-e	e	SYM
+51e	51e	NUMord
 rue	rue	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -762,7 +761,7 @@ point	point	ADV
 ,	,	PUNCTclause
 quand	quand	SCONJ
 toutes	toutes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 et	et	CCONJ
 les	le	DET
 souvenirs	souvenir	NOUN

@@ -21,7 +21,7 @@ en	en	ADP
 peu de	peu de	DET
 mois	mois	NOUN
 à	à	ADP
-32	32	NUM
+32	32	DIGIT
 ans	an	NOUN
 ne	ne	ADV
 a	avoir	AUX
@@ -135,7 +135,7 @@ et	et	CCONJ
 difficilement	difficilement	ADV
 comparables	comparable	ADJ
 .	.	PUNCTsent
-traité	traiter	VERB
+traité	traité	NOUN
 tour à tour	tour à tour	ADV
 de	de	ADP
 «	«	PUNCTclause
@@ -770,7 +770,7 @@ avec	avec	ADP
 la	le	DET
 publication	publication	NOUN
 en	en	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 de	de	ADP
 la	le	DET
 Croisade	Croisade	PROPN
@@ -1241,7 +1241,7 @@ publication	publication	NOUN
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 reçois	recevoir	VERB
@@ -1287,7 +1287,7 @@ lettre	lettre	NOUN
 sans	sans	ADP
 date	date	NOUN
 de	de	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 me	me	PRON
@@ -1369,9 +1369,9 @@ le	le	DET
 livre	livre	NOUN
 paru	paraître	VERB
 ,	,	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 mars	mars	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 nouvelle	nouveau	ADJ
 lettre	lettre	NOUN
@@ -1464,7 +1464,7 @@ un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 le	le	DET
-12	12	NUM
+12	12	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -1556,7 +1556,7 @@ danois	danois	ADJ
 ,	,	PUNCTclause
 Grande-Bretagne	Grande-Bretagne	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 qui	qui	PRON
 ne	ne	ADV
 doive	devoir	VERB
@@ -1706,7 +1706,7 @@ bel et bien	bel et bien	ADV
 paru	paraître	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1943	1943	NUM
+1943	1943	DIGIT
 ,	,	PUNCTclause
 que	que	SCONJ
 il	il	PRON
@@ -2203,7 +2203,7 @@ complet	complet	ADJ
 …	…	PUNCTsent
 (	(	PUNCTclause
 p.	p.	PUNCT
-89	89	NUM
+89	89	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 l'	le	DET
@@ -2229,7 +2229,7 @@ son	son	DET
 …	…	PUNCTsent
 (	(	PUNCTclause
 p.	p.	PUNCT
-192	192	NUM
+192	192	DIGIT
 )	)	PUNCTclause
 d'autre part	d'autre part	ADV
 ,	,	PUNCTclause
@@ -2287,7 +2287,7 @@ plus ou moins	plus ou moins	ADV
 magiques	magique	ADJ
 (	(	PUNCTclause
 p.	p.	PUNCT
-253	253	NUM
+253	253	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 quoi	quoi	PRON
@@ -2637,7 +2637,7 @@ dans	dans	ADP
 l'	le	DET
 édition	édition	NOUN
 de	de	ADP
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 me	me	PRON
@@ -2657,7 +2657,7 @@ historiques	historique	ADJ
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 querelle	querelle	NOUN
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	ADP_DET
 rapports	rapport	NOUN
 entre	entre	ADP
 cathares	cathare	NOUN
@@ -2956,7 +2956,7 @@ mon	mon	DET
 livre	livre	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 professeurs	professeur	NOUN
@@ -2996,7 +2996,9 @@ non	non	ADV
 ,	,	PUNCTclause
 à ce moment-là	à ce moment-là	ADV
 ,	,	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 amour	amour	NOUN
 courtois	courtois	ADJ
@@ -3256,7 +3258,7 @@ du	du	ADP_DET
 Midi	Midi	PROPN
 ,	,	PUNCTclause
 aux environs de	aux environs de	ADP
-1165	1165	NUM
+1165	1165	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 poésie	poésie	NOUN
@@ -3345,7 +3347,7 @@ marchands	marchand	NOUN
 du	du	ADP_DET
 Midi	Midi	PROPN
 vers	vers	ADP
-1165	1165	NUM
+1165	1165	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -3534,15 +3536,15 @@ pas	pas	ADV
 tant	tant	ADV
 :	:	PUNCTclause
 dès	dès	ADP
-1017	1017	NUM
+1017	1017	DIGIT
 à	à	ADP
 Orléans	Orléans	PROPN
 ,	,	PUNCTclause
-1020	1020	NUM
+1020	1020	DIGIT
 à	à	ADP
 Tours	Tours	PROPN
 ,	,	PUNCTclause
-1025	1025	NUM
+1025	1025	DIGIT
 à	à	ADP
 Arras	Arras	PROPN
 ,	,	PUNCTclause
@@ -3560,7 +3562,7 @@ ans	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1119	1119	NUM
+1119	1119	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 excommunie	excommunier	VERB
@@ -3571,7 +3573,7 @@ descendants	descendant	NOUN
 multipliés	multiplier	VERB
 .	.	PUNCTsent
 dès	dès	ADP
-1145	1145	NUM
+1145	1145	DIGIT
 ,	,	PUNCTclause
 saint	saint	NOUN
 Bernard	Bernard	PROPN
@@ -3710,7 +3712,7 @@ de	de	ADP
 amour	amour	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-227	227	NUM
+227	227	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3728,7 +3730,7 @@ Toulouse	Toulouse	PROPN
 ait	avoir	AUX
 écrit	écrire	VERB
 en	en	ADP
-1177	1177	NUM
+1177	1177	DIGIT
 au	au	ADP_DET
 chapitre	chapitre	NOUN
 général	général	ADJ
@@ -3995,7 +3997,7 @@ indications	indication	NOUN
 biographiques	biographique	ADJ
 sur	sur	ADP
 les	le	DET
-43	43	NUM
+43	43	DIGIT
 auteurs	auteur	NOUN
 que	que	SCONJ
 il	il	PRON
@@ -4038,24 +4040,24 @@ décompte	décompte	NOUN
 ↵↵	↵↵	PUNCTstruct
 origine	origine	NOUN
 inconnue	inconnu	ADJ
-4	4	NUM
+4	4	DIGIT
 jongleurs	jongleur	NOUN
-3	3	NUM
+3	3	DIGIT
 «	«	PUNCTclause
 Origine	Origine	PROPN
 très	très	ADV
 modeste	modeste	ADJ
 »	»	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 bourgeois	bourgeois	NOUN
-6	6	NUM
+6	6	DIGIT
 clercs	clerc	NOUN
-5	5	NUM
+5	5	DIGIT
 chevaliers	chevalier	NOUN
 et	et	CCONJ
 hauts	haut	ADJ
 barons	baron	NOUN
-22	22	NUM
+22	22	DIGIT
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 veux	vouloir	VERB
@@ -4098,7 +4100,7 @@ Nelli	Nelli	PROPN
 a	avoir	AUX
 choisi	choisir	VERB
 ces	ce	DET
-43	43	NUM
+43	43	DIGIT
 là	là	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -4235,7 +4237,7 @@ revue	revue	NOUN
 Archeologica	Archeologica	PROPN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 il	il	PRON
@@ -5099,7 +5101,7 @@ dévote	dévot	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-139	139	NUM
+139	139	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 et	et	CCONJ
@@ -5616,7 +5618,7 @@ nom	nom	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-54	54	NUM
+54	54	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 d'autant plus	d'autant plus	ADV
@@ -5854,7 +5856,7 @@ du	du	ADP_DET
 Saint-Esprit	Saint-Esprit	PROPN
 (	(	PUNCTclause
 p.	p.	PUNCT
-164	164	NUM
+164	164	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 son	son	DET
@@ -6209,7 +6211,7 @@ de	de	ADP
 cette	ce	DET
 évolution	évolution	NOUN
 à	à	ADP
-180	180	NUM
+180	180	DIGIT
 °	°	SYM
 du	du	ADP_DET
 remarquable	remarquable	ADJ
@@ -6238,7 +6240,9 @@ de	de	ADP
 mon	mon	DET
 livre	livre	NOUN
 .	.	PUNCTsent
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 Quête	Quête	PROPN
 du	du	ADP_DET
@@ -6357,7 +6361,7 @@ mithriaque	mithriaque	ADJ
 hermétique	hermétique	ADJ
 et	et	CCONJ
 en même temps	en même temps	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 la	le	DET
 mystique	mystique	ADJ
 islamique	islamique	ADJ
@@ -6526,7 +6530,7 @@ tableau	tableau	NOUN
 op. cit.	op. cit.	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-152	152	NUM
+152	152	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -6743,9 +6747,9 @@ intitulé	intituler	VERB
 les	le	DET
 Troubadours	Troubadours	PROPN
 (	(	PUNCTclause
-1961	1961	NUM
+1961	1961	DIGIT
 et	et	CCONJ
-1971	1971	NUM
+1971	1971	DIGIT
 )	)	PUNCTclause
 l'	le	DET
 argument	argument	NOUN
@@ -6766,7 +6770,7 @@ la	le	DET
 revue	revue	NOUN
 Esprit	Esprit	PROPN
 dès	dès	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -6947,9 +6951,9 @@ brosse	brosser	VERB
 lui-même	lui-même	PRON
 (	(	PUNCTclause
 p.	p.	PUNCT
-21	21	NUM
+21	21	DIGIT
 à	à	ADP
-44	44	NUM
+44	44	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 «	«	PUNCTclause
@@ -7155,7 +7159,7 @@ l'	le	DET
 des	un	ADP_DET
 troubadours	troubadour	NOUN
 (	(	PUNCTclause
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 que	que	PRON
 l'on	on	PRON
@@ -7171,7 +7175,7 @@ authentique	authentique	ADJ
 je	je	PRON
 cite	citer	VERB
 p.	p.	PUNCT
-52	52	NUM
+52	52	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -7244,7 +7248,7 @@ soif	soif	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-73	73	NUM
+73	73	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 il n'en reste pas moins que	il n'en reste pas moins que	ADV
@@ -7265,7 +7269,7 @@ occitane	occitan	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-251	251	NUM
+251	251	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -7300,7 +7304,7 @@ Fin'Amors	Fin'Amors	PROPN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-242	242	NUM
+242	242	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -7333,7 +7337,7 @@ aller	aller	VERB
 à	à	ADP
 Dieu	Dieu	PROPN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 un	un	DET
 thème	thème	NOUN
 commun	commun	ADJ
@@ -7522,7 +7526,7 @@ lui-même	lui-même	PRON
 indique	indiquer	VERB
 (	(	PUNCTclause
 p.	p.	PUNCT
-41	41	NUM
+41	41	DIGIT
 et	et	CCONJ
 suivantes	suivant	ADJ
 )	)	PUNCTclause
@@ -8843,7 +8847,7 @@ cathares	cathare	NOUN
 op. cit.	op. cit.	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-144	144	NUM
+144	144	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 René	René	PROPN
@@ -8896,7 +8900,7 @@ des	un	ADP_DET
 troubadours	troubadour	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-228	228	NUM
+228	228	DIGIT
 )	)	PUNCTclause
 ;	;	PUNCTclause
 mais	mais	CCONJ
@@ -8911,7 +8915,7 @@ moins	moins	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
 en	en	ADP
-1250	1250	NUM
+1250	1250	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 catharisme	catharisme	NOUN
@@ -8948,7 +8952,7 @@ lui	lui	PRON
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-236	236	NUM
+236	236	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -9066,7 +9070,7 @@ croyantes	croyant	ADJ
 op. cit.	op. cit.	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-229	229	NUM
+229	229	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -9108,8 +9112,8 @@ Mir	Mir	PROPN
 Bernat	Bernat	PROPN
 (	(	PUNCTclause
 p.	p.	PUNCT
-232	232	NUM
--233	-233	NUM
+232	232	DIGIT
+-233	-233	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 (	(	PUNCTclause
@@ -9149,7 +9153,7 @@ hérétique	hérétique	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-234	234	NUM
+234	234	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -9260,7 +9264,7 @@ dans	dans	ADP
 E.	E.	PROPN
 T.	T.	PROPN
 p.	p.	PUNCT
-223	223	NUM
+223	223	DIGIT
 ,	,	PUNCTclause
 note	note	NOUN
 )	)	PUNCTclause
@@ -9393,7 +9397,7 @@ voir	voir	VERB
 plus	plus	ADV
 haut	haut	ADV
 p.	p.	PUNCT
-102	102	NUM
+102	102	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 la	le	DET
@@ -9426,7 +9430,7 @@ catharisme	catharisme	NOUN
 il	il	PRON
 écrit	écrire	VERB
 en	en	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 nous	nous	PRON
@@ -9498,7 +9502,7 @@ E.	E.	PROPN
 T.	T.	PROPN
 ,	,	PUNCTclause
 p.	p.	DET
-237	237	NUM
+237	237	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -9655,7 +9659,7 @@ les	le	DET
 albigeois	albigeois	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-60	60	NUM
+60	60	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -9686,7 +9690,7 @@ de	de	ADP
 amour	amour	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-220	220	NUM
+220	220	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 il	il	PRON
@@ -9731,8 +9735,8 @@ E.	E.	PROPN
 T.	T.	PROPN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-228	228	NUM
--229	-229	NUM
+228	228	DIGIT
+-229	-229	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 bien	bien	ADV
@@ -9787,7 +9791,7 @@ Davenson	Davenson	PROPN
 R.	R.	PROPN
 Pernoud	Pernoud	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 toutefois	toutefois	ADV
 ,	,	PUNCTclause
 René	René	PROPN
@@ -9939,8 +9943,8 @@ E.	E.	PROPN
 T.	T.	PROPN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-234	234	NUM
--235	-235	NUM
+234	234	DIGIT
+-235	-235	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -10378,7 +10382,7 @@ obsédante	obsédant	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-142	142	NUM
+142	142	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 je	je	PRON
@@ -10544,9 +10548,9 @@ je	je	PRON
 ai	avoir	AUX
 parlé	parler	VERB
 p.	p.	PUNCT
-127	127	NUM
+127	127	DIGIT
 à	à	ADP
-136	136	NUM
+136	136	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 la	le	DET
@@ -10632,7 +10636,7 @@ détraquée	détraquer	VERB
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-149	149	NUM
+149	149	DIGIT
 )	)	PUNCTclause
 dans	dans	ADP
 les mêmes	les mêmes	PRON
@@ -10648,8 +10652,8 @@ troubadours	troubadour	NOUN
 comme	comme	ADP
 Cercamon	Cercamon	PROPN
 (	(	PUNCTclause
-1135	1135	NUM
--1145	-1145	NUM
+1135	1135	DIGIT
+-1145	-1145	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 rien	rien	PRON
@@ -11131,7 +11135,7 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 expressément	expressément	ADV
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 l'	le	DET
 épreuve	épreuve	NOUN
@@ -11164,9 +11168,9 @@ voir	voir	VERB
 plus	plus	ADV
 haut	haut	ADV
 p.	p.	PUNCT
-87	87	NUM
+87	87	DIGIT
 à	à	ADP
-89	89	NUM
+89	89	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -11402,12 +11406,14 @@ Cf.	Cf.	PROPN
 supra	supra	ADV
 ,	,	PUNCTclause
 p.	p.	DET
-254	254	NUM
+254	254	DIGIT
 ,	,	PUNCTclause
-255	255	NUM
+255	255	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 asag	asag	NOUN
 considéré	considérer	VERB
@@ -11516,7 +11522,7 @@ des	un	ADP_DET
 troubadours	troubadour	NOUN
 ,	,	PUNCTclause
 p.	p.	DET
-272	272	NUM
+272	272	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 (	(	PUNCTclause
@@ -11567,7 +11573,7 @@ joy	joy	NOUN
 courtois	courtois	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 ce	ce	PRON
 est	être	AUX
@@ -11708,7 +11714,7 @@ admets	admettre	VERB
 entièrement	entièrement	ADV
 sur	sur	ADP
 ce	ce	PRON
-chapitre	chapitrer	VERB
+chapitre	chapitre	NOUN
 les	le	DET
 conclusions	conclusion	NOUN
 de	de	ADP
@@ -11738,7 +11744,7 @@ produit	produire	VERB
 en effet	en effet	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 l'	le	DET
 asag	asag	NOUN
@@ -11764,9 +11770,9 @@ les	le	DET
 invente	inventer	VERB
 »	»	PUNCTclause
 entre	entre	ADP
-1110	1110	NUM
+1110	1110	DIGIT
 et	et	CCONJ
-1120	1120	NUM
+1120	1120	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 il	il	PRON
@@ -11815,7 +11821,7 @@ Poitiers	Poitiers	PROPN
 Romania	Romania	PROPN
 ,	,	PUNCTclause
 avril	avril	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 Reto	Reto	PROPN
@@ -12345,7 +12351,7 @@ dit	dire	VERB
 la	le	DET
 chronique	chronique	NOUN
 vers	vers	ADP
-1050	1050	NUM
+1050	1050	DIGIT
 —	—	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -12873,7 +12879,7 @@ débauche	débauche	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-152	152	NUM
+152	152	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 principal	principal	ADJ
@@ -12888,7 +12894,7 @@ croise	croiser	VERB
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1101	1101	NUM
+1101	1101	DIGIT
 ,	,	PUNCTclause
 subit	subir	VERB
 une	un	DET
@@ -12921,7 +12927,7 @@ Poitiers	Poitiers	PROPN
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1102	1102	NUM
+1102	1102	DIGIT
 .	.	PUNCTsent
 entre-temps	entre-temps	ADV
 ,	,	PUNCTclause
@@ -12948,7 +12954,7 @@ Arbrissel	Arbrissel	PROPN
 ?	?	PUNCTsent
 né	naître	VERB
 vers	vers	ADP
-1050	1050	NUM
+1050	1050	DIGIT
 à	à	ADP
 l'	le	DET
 Arbressec	Arbressec	PROPN
@@ -13322,7 +13328,7 @@ de	de	ADP
 ermites	ermite	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1101	1101	NUM
+1101	1101	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 décide	décider	VERB
@@ -13619,7 +13625,7 @@ plus	plus	ADV
 beau	beau	ADJ
 ;	;	PUNCTclause
 en	en	ADP
-1112	1112	NUM
+1112	1112	DIGIT
 ,	,	PUNCTclause
 Ermengarde	Ermengarde	PROPN
 de	de	ADP
@@ -13633,7 +13639,7 @@ IX	IX	NUM
 ,	,	PUNCTclause
 puis	puis	CCONJ
 en	en	ADP
-1115	1115	NUM
+1115	1115	DIGIT
 Philippa	Philippa	PROPN
 de	de	ADP
 Toulouse	Toulouse	PROPN
@@ -13764,7 +13770,7 @@ E.	E.	PROPN
 T.	T.	PROPN
 ,	,	PUNCTclause
 p.	p.	PUNCT
-100	100	NUM
+100	100	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 à	à	ADP
@@ -13890,7 +13896,7 @@ voisinage	voisinage	NOUN
 immédiat	immédiat	ADJ
 (	(	PUNCTclause
 p.	p.	PUNCT
-207	207	NUM
+207	207	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -14415,9 +14421,9 @@ séculaire	séculaire	ADJ
 vient	venir	VERB
 culminer	culminer	VERB
 entre	entre	ADP
-1100	1100	NUM
+1100	1100	DIGIT
 et	et	CCONJ
-1150	1150	NUM
+1150	1150	DIGIT
 dans	dans	ADP
 le	le	DET
 prestigieux	prestigieux	ADJ
@@ -15153,7 +15159,7 @@ on	on	PRON
 sait	savoir	VERB
 que	que	SCONJ
 en	en	ADP
-1019	1019	NUM
+1019	1019	DIGIT
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
@@ -15396,7 +15402,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1028	1028	NUM
+1028	1028	DIGIT
 ,	,	PUNCTclause
 Guillaume	Guillaume	PROPN
 V	V	NUM
@@ -15428,7 +15434,7 @@ manichéens	manichéen	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 en	en	ADP
-1114	1114	NUM
+1114	1114	DIGIT
 ,	,	PUNCTclause
 Robert	Robert	PROPN
 de	de	ADP
@@ -15441,7 +15447,7 @@ hérétiques	hérétique	NOUN
 Agen	Agen	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1134	1134	NUM
+1134	1134	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 hérétique	hérétique	NOUN
@@ -16150,7 +16156,7 @@ Guillaume	Guillaume	PROPN
 IX	IX	NUM
 (	(	PUNCTclause
 environ	environ	ADV
-1110	1110	NUM
+1110	1110	DIGIT
 )	)	PUNCTclause
 ;	;	PUNCTclause
 elles	elles	PRON
@@ -16266,7 +16272,7 @@ Abélard	Abélard	PROPN
 (	(	PUNCTclause
 mort	mourir	VERB
 en	en	ADP
-1142	1142	NUM
+1142	1142	DIGIT
 )	)	PUNCTclause
 précédera	précéder	VERB
 de peu	de peu	ADV
@@ -16279,7 +16285,7 @@ contre	contre	ADP
 le	le	DET
 catharisme	catharisme	NOUN
 (	(	PUNCTclause
-1145	1145	NUM
+1145	1145	DIGIT
 )	)	PUNCTclause
 cette	ce	DET
 hérésie	hérésie	NOUN
@@ -16406,7 +16412,7 @@ je	je	PRON
 ne	ne	ADV
 faisais	faire	VERB
 pas	pas	ADV
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 dans	dans	ADP
 ma	mon	DET
 première	premier	ADJ
@@ -18180,7 +18186,7 @@ mon	mon	DET
 livre	livre	NOUN
 en	en	ADP
 juin	juin	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 Sartre	Sartre	PROPN
 annonce	annoncer	VERB
@@ -18958,7 +18964,7 @@ de	de	ADP
 l'	le	DET
 inceste	inceste	NOUN
 (	(	PUNCTclause
-1905	1905	NUM
+1905	1905	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 Durkheim	Durkheim	PROPN
@@ -19031,7 +19037,7 @@ développés	développé	ADJ
 par exemple	par exemple	ADV
 au	au	ADP_DET
 chapitre	chapitre	NOUN
-12	12	NUM
+12	12	DIGIT
 du	du	ADP_DET
 livre	livre	NOUN
 II	II	NUM
@@ -19317,9 +19323,9 @@ Tristan	Tristan	PROPN
 ,	,	PUNCTclause
 âgé	âgé	ADJ
 de	de	ADP
-14	14	NUM
+14	14	DIGIT
 ou	ou	CCONJ
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 séjourner	séjourner	VERB
@@ -20997,7 +21003,7 @@ voir	voir	VERB
 plus	plus	ADV
 haut	haut	ADJ
 page	page	NOUN
-29	29	NUM
+29	29	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 et	et	CCONJ
@@ -21071,7 +21077,7 @@ leur	leur	DET
 bouche	bouche	NOUN
 (	(	PUNCTclause
 p.	p.	NOUN
-40	40	NUM
+40	40	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -21478,7 +21484,7 @@ blessure	blessure	NOUN
 empoisonnée	empoisonner	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 elle	elle	PRON
 ne	ne	ADV
 le	le_PRON	PRON
@@ -22081,7 +22087,7 @@ moraliste	moraliste	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 je	je	PRON
 ai	avoir	AUX
 cherché	chercher	VERB
@@ -22600,7 +22606,7 @@ est	être	AUX
 simplement	simplement	ADV
 la	le	DET
 condition	condition	NOUN
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 de	de	ADP
 toute	toute	DET
 œuvres d'art	œuvres d'art	NOUN

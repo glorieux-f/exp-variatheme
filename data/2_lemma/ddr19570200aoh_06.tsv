@@ -69,15 +69,15 @@ avait	avoir	AUX
 été	être	AUX
 créé	créer	VERB
 en	en	ADP
-4004	4004	NUM
-av. J.-C.	av. J.-C.	NOUN
+4004	4004	DIGIT
+av. J.-C.	av. J.-C.	ADV
 ,	,	PUNCTclause
 le	le	DET
-23	23	NUM
+23	23	DIGIT
 octobre	octobre	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-9	9	NUM
+9	9	DIGIT
 heures	heure	NOUN
 du	du	ADP_DET
 matin	matin	NOUN
@@ -89,7 +89,7 @@ Oxford	Oxford	PROPN
 tenaient	tenir	VERB
 pour	pour	ADP
 le	le	DET
-23	23	NUM
+23	23	DIGIT
 mars	mars	NOUN
 ,	,	PUNCTclause
 même	même	ADV
@@ -168,7 +168,7 @@ représentants	représentant	NOUN
 cependant	cependant	ADV
 ,	,	PUNCTclause
 vers	vers	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 nul	nul	PRON
 ne	ne	ADV
@@ -197,7 +197,7 @@ mieux	mieux	ADV
 ce	ce	PRON
 est	être	AUX
 au moins	au moins	ADV
-600000	600000	NUM
+600000	600000	DIGIT
 que	que	SCONJ
 il	il	PRON
 conviendrait	convenir	VERB
@@ -276,7 +276,7 @@ un	un	DET
 Brahma	Brahma	PROPN
 est	être	AUX
 de	de	ADP
-108	108	NUM
+108	108	DIGIT
 «	«	PUNCTclause
 années	année	NOUN
 »	»	PUNCTclause
@@ -292,7 +292,7 @@ un	un	DET
 Kalpa	Kalpa	PROPN
 .	.	PUNCTsent
 après	après	ADP
-249	249	NUM
+249	249	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 années	année	NOUN
@@ -343,7 +343,7 @@ en	en	ADP
 mille	mille	NUM
 éons	éon	NOUN
 de	de	ADP
-4320000	4320000	NUM
+4320000	4320000	DIGIT
 ans	an	NOUN
 chacun	chacun	PRON
 ,	,	PUNCTclause
@@ -382,16 +382,16 @@ minuit	minuit	NOUN
 précise	précis	ADJ
 ,	,	PUNCTclause
 le	le	DET
-18	18	NUM
+18	18	DIGIT
 février	février	NOUN
-3102	3102	NUM
-av. J.-C.	av. J.-C.	NOUN
+3102	3102	DIGIT
+av. J.-C.	av. J.-C.	ADV
 et	et	CCONJ
 doit	devoir	VERB
 se	se	PRON
 terminer	terminer	VERB
 dans	dans	ADP
-426943	426943	NUM
+426943	426943	DIGIT
 ans	an	NOUN
 par	par	ADP
 la	le	DET
@@ -681,7 +681,7 @@ de	de	ADP
 l'	le	DET
 ordre	ordre	NOUN
 de	de	ADP
-300	300	NUM
+300	300	DIGIT
 milliards	milliard	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
@@ -921,7 +921,7 @@ mais	mais	CCONJ
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 que	que	SCONJ
 les	le	DET
 hommes	homme	NOUN
@@ -2470,7 +2470,7 @@ précisant	préciser	VERB
 mais	mais	CCONJ
 dans	dans	ADP
 les mêmes	les mêmes	PRON
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 indiscuté	indiscuté	ADJ
 (	(	PUNCTclause
 de	de	ADP
@@ -2749,12 +2749,12 @@ a	avoir	AUX
 pas	pas	ADV
 derrière	derrière	ADP
 elle	elle	PRON
-6000	6000	NUM
+6000	6000	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 probablement	probablement	ADV
-600000	600000	NUM
+600000	600000	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 que	que	SCONJ
@@ -3450,7 +3450,7 @@ transcendance	transcendance	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 nous	nous	PRON
 enferme	enfermer	VERB
 et	et	CCONJ
@@ -4265,7 +4265,7 @@ mouvements	mouvement	NOUN
 de	de	ADP
 masse	masse	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 échappent	échapper	VERB
 à	à	ADP
@@ -4955,7 +4955,7 @@ les	le	DET
 prêtres	prêtre	NOUN
 emplumés	emplumé	ADJ
 du	du	ADP_DET
-grands dieux	grands dieux	NOUN
+grands dieux	grands dieux	INTJ
 Huitzilopochtli	Huitzilopochtli	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

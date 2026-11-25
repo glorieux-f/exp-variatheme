@@ -17,11 +17,11 @@ ville	ville	NOUN
 future	futur	ADJ
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 origine	origine	NOUN
 et	et	CCONJ
@@ -43,7 +43,7 @@ ne	ne	ADV
 a	avoir	VERB
 guère	guère	ADV
 plus de	plus de	DET
-9000	9000	NUM
+9000	9000	DIGIT
 ans	an	NOUN
 de	de	ADP
 âge	âge	NOUN
@@ -265,7 +265,7 @@ ange	ange	NOUN
 (	(	PUNCTclause
 Apoc	Apoc	PROPN
 —	—	PUNCTclause
-21,17	21,17	NUM
+21,17	21,17	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ce	ce	PRON
@@ -351,7 +351,7 @@ la	le	DET
 communauté	communauté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 pourquoi	pourquoi	ADV
 des	un	ADP_DET
@@ -507,13 +507,13 @@ cité	cité	NOUN
 idéale	idéal	ADJ
 devrait	devoir	VERB
 compter	compter	VERB
-5040	5040	NUM
+5040	5040	DIGIT
 citoyens	citoyen	NOUN
 liberté	liberté	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 environ	environ	ADV
-50000	50000	NUM
+50000	50000	DIGIT
 habitants	habitant	NOUN
 (	(	PUNCTclause
 avec	avec	ADP
@@ -671,13 +671,13 @@ des	un	DET
 villes	ville	NOUN
 de plus	de plus	ADV
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 crise	crise	NOUN
 et	et	CCONJ
@@ -763,7 +763,7 @@ quelques	quelque	DET
 symptômes	symptôme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 mégalopoles	mégalopole	NOUN
@@ -790,7 +790,7 @@ faillite	faillite	NOUN
 (	(	PUNCTclause
 New York	New York	PROPN
 dès	dès	ADP
-1976	1976	NUM
+1976	1976	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 aussi	aussi	ADV
@@ -803,11 +803,11 @@ France	France	PROPN
 et	et	CCONJ
 Londres	Londres	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 grandes	grand	ADJ
@@ -842,32 +842,32 @@ décroissants	décroissant	ADJ
 une	un	DET
 amélioration	amélioration	NOUN
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 coûte	coûter	VERB
 x	x	NUM
 ;	;	PUNCTclause
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 ,	,	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 x	x	NOUN
 ;	;	PUNCTclause
 de	de	ADP
-3	3	NUM
+3	3	DIGIT
 ,	,	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 x	x	NOUN
 ;	;	PUNCTclause
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 ,	,	PUNCTclause
-1024	1024	NUM
+1024	1024	DIGIT
 x	x	SYM
 …	…	PUNCTsent
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 elles	elles	PRON
 sont	être	AUX
@@ -888,12 +888,12 @@ que	que	SCONJ
 une	un	DET
 tour	tour	NOUN
 de	de	ADP
-40	40	NUM
+40	40	DIGIT
 étages	étage	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 elles	elles	PRON
 sont	être	AUX
@@ -912,7 +912,7 @@ eau	eau	NOUN
 bruit	bruit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 parce que	parce que	SCONJ
 les	le	DET
@@ -973,7 +973,7 @@ constructions	construction	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 pour	pour	ADP
 toutes	tout	ADJ
@@ -1035,9 +1035,9 @@ l'	le	DET
 égoïsme	égoïsme	NOUN
 hargneux	hargneux	ADJ
 .	.	PUNCTsent
-etc.	etc.	NOUN
+Etc.	Etc.	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 ne	ne	ADV
@@ -1057,7 +1057,7 @@ il	il	PRON
 aller	aller	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 option	option	NOUN
@@ -1201,7 +1201,7 @@ ranimer	ranimer	VERB
 civiquement	civiquement	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 ville	ville	NOUN
@@ -1257,7 +1257,7 @@ servir	servir	VERB
 pratiquement	pratiquement	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 les	le	DET
@@ -1485,7 +1485,7 @@ canadiens	canadien	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 réduire	réduire	VERB
 les	le	DET
@@ -1562,7 +1562,7 @@ ou	ou	CCONJ
 techniques	technique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 les	le	DET
@@ -1577,9 +1577,9 @@ de	de	DET
 nouvelles	nouveau	ADJ
 villes	ville	NOUN
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 à	à	ADP
-100000	100000	NUM
+100000	100000	DIGIT
 habitants	habitant	NOUN
 selon	selon	ADP
 le	le	DET
@@ -1609,7 +1609,7 @@ Inde	Inde	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 diminuer	diminuer	VERB
 le	le	DET
@@ -1655,9 +1655,9 @@ air	air	NOUN
 ,	,	PUNCTclause
 ascenseurs	ascenseur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 multiplier	multiplier	VERB
 les	le	DET
@@ -1674,7 +1674,7 @@ aux	au	ADP_DET
 autos	auto	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 poser	poser	VERB
 comme	comme	ADP

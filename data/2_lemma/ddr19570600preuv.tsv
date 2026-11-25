@@ -12,7 +12,7 @@ deux	deux	NUM
 politiques	politique	ADJ
 (	(	PUNCTclause
 juin	juin	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -47,7 +47,7 @@ publie	publier	VERB
 dans	dans	ADP
 la même	la même	PRON
 revue	revoir	VERB
-119	119	NUM
+119	119	DIGIT
 pages	page	NOUN
 pour	pour	ADP
 démontrer	démontrer	VERB
@@ -654,7 +654,7 @@ tandis que	tandis que	SCONJ
 la	le	DET
 malveillance	malveillance	NOUN
 ,	,	PUNCTclause
-proche de	proche de	ADP
+proche de	proche de	ADJ
 la	le	DET
 mauvaise foi	mauvaise foi	NOUN
 ,	,	PUNCTclause
@@ -705,8 +705,8 @@ parisienne	parisien	ADJ
 dissidences	dissidence	NOUN
 philosophiques	philosophique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-que	que	PRON
+etc.	etc.	X
+que	que	ADV
 reste	rester	VERB
 il	il	PRON
 ?	?	PUNCTsent
@@ -1282,8 +1282,7 @@ nôtres	nôtre	PRON
 en effet	en effet	ADV
 ,	,	PUNCTclause
 le	le	DET
-2	2	NUM
-e	e	NOUN
+2e	2e	NUMord
 congrès	congrès	NOUN
 de	de	ADP
 l'	le	DET
@@ -1291,7 +1290,7 @@ Internationale	Internationale	PROPN
 communisme	communisme	NOUN
 déclarait	déclarer	VERB
 en	en	ADP
-1920	1920	NUM
+1920	1920	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 le	le	DET
@@ -1993,7 +1992,7 @@ faire	faire	AUX
 observer	observer	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 ce	ce	PRON
@@ -2018,7 +2017,7 @@ libertés	liberté	NOUN
 politiques	politique	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 la	le	DET

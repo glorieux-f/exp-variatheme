@@ -13,11 +13,11 @@ une	un	DET
 du	du	ADP_DET
 fédéralisme	fédéralisme	NOUN
 (	(	PUNCTclause
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'un	l'un	PRON
 des	un	ADP_DET
@@ -164,7 +164,7 @@ trois	trois	NUM
 degrés	degré	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 mis	mettre	VERB
 au	au	ADP_DET
@@ -254,7 +254,7 @@ une	un	DET
 éthique	éthique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 qu'est-ce que	qu'est-ce que	ADV
 l'	le	DET
@@ -368,7 +368,7 @@ vertus	vertu	NOUN
 civiques	civique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 fédéralisme	fédéralisme	NOUN
@@ -1072,7 +1072,7 @@ sentier	sentier	NOUN
 Ps.	Ps.	NOUN
 Cxix	Cxix	PROPN
 ,	,	PUNCTclause
-105	105	NUM
+105	105	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1254,7 +1254,7 @@ pas	pas	ADV
 de	de	ADP
 compromis	compromis	NOUN
 !	!	PUNCTsent
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 mène	mener	VERB
 à	à	ADP
@@ -1405,7 +1405,7 @@ véritable	véritable	ADJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 ,	,	PUNCTclause
 va	aller	VERB
 consister	consister	VERB
@@ -1650,9 +1650,9 @@ voir	voir	VERB
 les	le	DET
 frontières	frontière	NOUN
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 ou	ou	CCONJ
-300	300	NUM
+300	300	DIGIT
 km	km	NOUN
 tracées	tracer	VERB
 à	à	ADP
@@ -1704,14 +1704,14 @@ celui	celui	PRON
 de	de	ADP
 Utrecht	Utrecht	PROPN
 (	(	PUNCTclause
-1715	1715	NUM
+1715	1715	DIGIT
 )	)	PUNCTclause
 à	à	ADP
 celui	celui	PRON
 de	de	ADP
 Helsinki	Helsinki	PROPN
 (	(	PUNCTclause
-1976	1976	NUM
+1976	1976	DIGIT
 )	)	PUNCTclause
 décident	décider	VERB
 emphatiquement	emphatiquement	ADV
@@ -2440,7 +2440,7 @@ l'	le_PRON	PRON
 a	avoir	AUX
 montré	montrer	VERB
 Mai	Mai	PROPN
-68	68	NUM
+68	68	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au début	au début	ADV

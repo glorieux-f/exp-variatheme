@@ -11,9 +11,9 @@ au	au	ADP_DET
 peuple	peuple	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 mai	mai	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -438,7 +438,7 @@ aura	avoir	VERB
 plus de	plus de	DET
 pétrole	pétrole	NOUN
 nulle part	nulle part	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	SCONJ
 dix	dix	NUM
 ans	an	NOUN
 .	.	PUNCTsent
@@ -537,7 +537,7 @@ le	le	DET
 tiers-monde	tiers-monde	NOUN
 augmente	augmenter	VERB
 de	de	ADP
-3	3	NUM
+3	3	DIGIT
 par	par	ADP
 an	an	NOUN
 .	.	PUNCTsent
@@ -1439,9 +1439,9 @@ le	le	DET
 cancer	cancer	NOUN
 causé	causer	VERB
 à	à	ADP
-60	60	NUM
+60	60	DIGIT
 ou	ou	CCONJ
-90	90	NUM
+90	90	DIGIT
 par	par	ADP
 notre	notre	DET
 environnement	environnement	NOUN
@@ -1673,7 +1673,7 @@ de	de	ADP
 Bruxelles	Bruxelles	PROPN
 ,	,	PUNCTclause
 vers	vers	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -1685,7 +1685,7 @@ dont	dont	PRON
 seul	seul	ADJ
 parmi	parmi	ADP
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 de	de	ADP
@@ -2167,7 +2167,7 @@ les	le	DET
 vues	vue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 à	à	ADP
 elle	elle	PRON
 que	que	PRON
@@ -2256,5 +2256,5 @@ la	le	DET
 Paix	Paix	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-1878	1878	NUM
+1878	1878	DIGIT
 )	)	PUNCTclause

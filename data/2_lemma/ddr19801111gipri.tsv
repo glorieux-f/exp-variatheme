@@ -33,9 +33,9 @@ du	du	ADP_DET
 Gipri	Gipri	PROPN
 )	)	PUNCTclause
 (	(	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 novembre	novembre	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -156,7 +156,7 @@ tyrans	tyran	NOUN
 la	le	DET
 convention	convention	NOUN
 de	de	ADP
-1792	1792	NUM
+1792	1792	DIGIT
 déclare	déclarer	VERB
 la	le	DET
 guerre	guerre	NOUN
@@ -191,7 +191,7 @@ contre	contre	ADP
 le	le	DET
 capitalisme	capitalisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ces	ce	DET
 enjeux	enjeu	NOUN
 étant	être	AUX
@@ -232,9 +232,9 @@ de	de	ADP
 la	le	DET
 Bombe	Bombe	PROPN
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Hiroshima	Hiroshima	PROPN
@@ -533,7 +533,7 @@ plus	plus	ADV
 puissantes	puissant	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
-100000	100000	NUM
+100000	100000	DIGIT
 fois	fois	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -578,7 +578,7 @@ vu	voir	VERB
 ce	ce	PRON
 était	être	AUX
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 à	à	ADP
 Princeton	Princeton	PROPN
 )	)	PUNCTclause
@@ -783,9 +783,9 @@ radicalement	radicalement	ADV
 ↵↵	↵↵	PUNCTstruct
 avant	avant	ADP
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 face à	face à	ADP
 la	le	DET
@@ -846,9 +846,9 @@ pour ainsi dire	pour ainsi dire	ADV
 ↵↵	↵↵	PUNCTstruct
 avant	avant	ADP
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 pensait	penser	VERB
@@ -883,7 +883,7 @@ dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 du	du	ADP_DET
-28	28	NUM
+28	28	DIGIT
 octobre	octobre	NOUN
 un	un	DET
 article	article	NOUN
@@ -968,9 +968,9 @@ inhabitable	inhabitable	ADJ
 ↵↵	↵↵	PUNCTstruct
 avant	avant	ADP
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 ou bien	ou bien	CCONJ
 on	on	PRON
@@ -1021,9 +1021,9 @@ point	point	ADV
 ↵↵	↵↵	PUNCTstruct
 depuis	depuis	ADP
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 cette	ce	DET
 opposition	opposition	NOUN
@@ -1054,9 +1054,9 @@ que	que	SCONJ
 en	en	ADP
 publie	publier	VERB
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 avril	avril	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 général	général	NOUN
@@ -1125,13 +1125,13 @@ facteur	facteur	NOUN
 armement	armement	NOUN
 entre	entre	ADP
 pour	pour	ADP
-99	99	NUM
+99	99	DIGIT
 et	et	CCONJ
 les	le	DET
 autres	autre	PRON
 facteurs	facteur	NOUN
 pour	pour	ADP
-1	1	NUM
+1	1	DIGIT
 dans	dans	ADP
 la	le	DET
 victoire	victoire	NOUN
@@ -1594,7 +1594,7 @@ a	avoir	AUX
 pris	prendre	VERB
 fin	fin	NOUN
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
 à	à	ADP
 Hiroshima	Hiroshima	PROPN
@@ -1654,7 +1654,7 @@ musées	musée	NOUN
 ,	,	PUNCTclause
 depuis	depuis	ADP
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 août	août	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2109,7 +2109,7 @@ est	être	AUX
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 et	et	CCONJ
 voici	voici	ADP
 que	que	SCONJ
@@ -2451,7 +2451,7 @@ consacre	consacrer	VERB
 un	un	DET
 10e	10e	ADJ
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 de	de	ADP
 ses	son	DET
 défenses	défense	NOUN
@@ -2480,7 +2480,7 @@ dépenses	dépense	NOUN
 militaires	militaire	ADJ
 dépasse	dépasser	VERB
 déjà	déjà	ADV
-500	500	NUM
+500	500	DIGIT
 millions	million	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -2490,13 +2490,12 @@ se	se	PRON
 dit	dire	VERB
 que	que	SCONJ
 un	un	DET
-10	10	NUM
-e	e	NOUN
+10e	10e	NUMord
 de	de	ADP
-1	1	NUM
+1	1	DIGIT
 ,	,	PUNCTclause
 soit	être	AUX
-1	1	NUM
+1	1	DIGIT
 millième	millième	NOUN
 ferait	faire	VERB
 encore	encore	ADV

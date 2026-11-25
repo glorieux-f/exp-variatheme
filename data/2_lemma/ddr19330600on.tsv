@@ -12,7 +12,7 @@ légion	légion	NOUN
 soviétique	soviétique	ADJ
 (	(	PUNCTclause
 juin	juin	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -194,7 +194,7 @@ en	en	ADP
 France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 Raisons	Raisons	PROPN
 sentimentales	sentimental	ADJ
@@ -553,9 +553,9 @@ sympathie	sympathie	NOUN
 .	.	PUNCTsent
 les	le	DET
 classes	classe	NOUN
-18	18	NUM
+18	18	DIGIT
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 ,	,	PUNCTclause
 en particulier	en particulier	ADV
 ,	,	PUNCTclause
@@ -653,7 +653,7 @@ aimer	aimer	VERB
 sont	être	AUX
 toujours	toujours	ADV
 ceux	ceux	PRON
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP_DET
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -819,7 +819,7 @@ des	un	ADP_DET
 cœurs	cœur	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 raisons	raison	NOUN
 philosophiques	philosophique	ADJ
@@ -1158,7 +1158,7 @@ sa	son	DET
 révolution	révolution	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 Raisons	Raisons	PROPN
 mystiques	mystique	ADJ

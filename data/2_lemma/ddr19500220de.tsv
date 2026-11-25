@@ -15,9 +15,9 @@ la	le	DET
 guerre	guerre	NOUN
 impossible	impossible	ADJ
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 février	février	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -801,7 +801,7 @@ l'	le	DET
 armistice	armistice	NOUN
 ,	,	PUNCTclause
 quelque	quelque	ADV
-20	20	NUM
+20	20	DIGIT
 millions	million	NOUN
 de	de	ADP
 Allemagne	Allemagne	PROPN
@@ -809,7 +809,7 @@ qui	qui	PRON
 venaient	venir	VERB
 de	de	ADP
 subir	subir	VERB
-12	12	NUM
+12	12	DIGIT
 ans	an	NOUN
 de	de	ADP
 régime	régime	NOUN
@@ -841,7 +841,7 @@ autant de	autant de	DET
 nazis	nazi	NOUN
 que	que	SCONJ
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -893,19 +893,19 @@ un	un	DET
 sens	sens	NOUN
 ?	?	PUNCTsent
 au lieu de	au lieu de	ADP
-20	20	NUM
+20	20	DIGIT
 millions	million	NOUN
 de	de	ADP
 endoctrinés	endoctriner	VERB
 ,	,	PUNCTclause
 les	le	DET
 États-Unis	États-Unis	PROPN
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 auraient	avoir	VERB
 sur	sur	ADP
 les	le	DET
 bras	bras	NOUN
-200	200	NUM
+200	200	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN
@@ -921,10 +921,10 @@ le	le	DET
 régime	régime	NOUN
 depuis	depuis	ADP
 plus de	plus de	DET
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
-200	200	NUM
+200	200	DIGIT
 millions	million	NOUN
 qui	qui	PRON
 ne	ne	ADV
@@ -1039,7 +1039,7 @@ militairement	militairement	ADV
 .	.	PUNCTsent
 ni l'un ni l'autre	ni l'un ni l'autre	PRON
 des	un	ADP_DET
-2	2	NUM
+2	2	DIGIT
 blocs	bloc	NOUN
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -1133,7 +1133,7 @@ total	total	ADJ
 ,	,	PUNCTclause
 fatal	fatal	ADJ
 et	et	CCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 irrémédiable	irrémédiable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1191,7 +1191,7 @@ quoi	quoi	PRON
 faire	faire	VERB
 réfléchir	réfléchir	VERB
 les	le	DET
-2	2	NUM
+2	2	DIGIT
 blocs	bloc	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

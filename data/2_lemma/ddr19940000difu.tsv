@@ -8,7 +8,7 @@
 ↵↵	↵↵	PUNCTstruct
 URSS	URSS	PROPN
 (	(	PUNCTclause
-1994	1994	NUM
+1994	1994	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -40,7 +40,7 @@ différentes	différent	ADJ
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 improvisée	improviser	VERB
@@ -265,7 +265,7 @@ Moscou	Moscou	PROPN
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 elle	elle	PRON
@@ -285,7 +285,7 @@ URSS	URSS	PROPN
 ,	,	PUNCTclause
 proclamée	proclamer	VERB
 en	en	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 .	.	PUNCTsent
 elle	elle	PRON
 définit	définir	VERB
@@ -350,20 +350,20 @@ Géorgie	Géorgie	PROPN
 .	.	PUNCTsent
 elle	elle	PRON
 comptera	compter	VERB
-6	6	NUM
+6	6	DIGIT
 républiques	république	NOUN
 en	en	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 ,	,	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 en	en	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 ,	,	PUNCTclause
-12	12	NUM
+12	12	DIGIT
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 et	et	CCONJ
-15	15	NUM
+15	15	DIGIT
 ensuite	ensuite	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -429,7 +429,7 @@ exécutif	exécutif	ADJ
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 cette	ce	DET
@@ -455,7 +455,7 @@ par	par	ADP
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 intitulée	intituler	VERB
 loi	loi	DET
@@ -497,7 +497,7 @@ au	au	ADP_DET
 long	long	ADJ
 de	de	ADP
 ses	son	DET
-146	146	NUM
+146	146	DIGIT
 articles	article	NOUN
 .	.	PUNCTsent
 dans	dans	ADP
@@ -637,9 +637,9 @@ prolétariat	prolétariat	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-1	1	NUM
+1	1	DIGIT
 et	et	CCONJ
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 «	«	PUNCTclause
@@ -666,7 +666,7 @@ travailleurs	travailleur	NOUN
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 article	article	NOUN
-6	6	NUM
+6	6	DIGIT
 énumère	énumérer	VERB
 la	le	DET
 propriété	propriété	NOUN
@@ -686,7 +686,7 @@ cependant	cependant	ADV
 ,	,	PUNCTclause
 l'	le	DET
 article	article	NOUN
-7	7	NUM
+7	7	DIGIT
 prévoit	prévoir	VERB
 que	que	SCONJ
 «	«	PUNCTclause
@@ -735,7 +735,7 @@ agricole	agricole	ADJ
 selon	selon	ADP
 l'	le	DET
 article	article	NOUN
-10	10	NUM
+10	10	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 le	le	DET
@@ -785,7 +785,7 @@ loi	loi	NOUN
 »	»	PUNCTclause
 l'	le	DET
 article	article	NOUN
-11	11	NUM
+11	11	DIGIT
 déclare	déclarer	VERB
 que	que	SCONJ
 «	«	PUNCTclause
@@ -886,9 +886,9 @@ plus	plus	ADV
 loin	loin	ADV
 (	(	PUNCTclause
 article	article	NOUN
-46	46	NUM
+46	46	DIGIT
 et	et	CCONJ
-141	141	NUM
+141	141	DIGIT
 )	)	PUNCTclause
 que	que	PRON
 ,	,	PUNCTclause
@@ -927,7 +927,7 @@ soviétiques	soviétique	ADJ
 socialistes	socialiste	ADJ
 (	(	PUNCTclause
 article	article	NOUN
-13	13	NUM
+13	13	DIGIT
 )	)	PUNCTclause
 comme	comme	ADP
 «	«	PUNCTclause
@@ -953,7 +953,7 @@ suit	suivre	VERB
 l'	le	DET
 énumération	énumération	NOUN
 des	un	ADP_DET
-11	11	NUM
+11	11	DIGIT
 républiques	république	NOUN
 qui	qui	PRON
 constituaient	constituer	VERB
@@ -968,9 +968,9 @@ quoi	quoi	PRON
 se	se	PRON
 ajouteront	ajouter	VERB
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 et	et	CCONJ
-1941	1941	NUM
+1941	1941	DIGIT
 les	le	DET
 provinces	province	NOUN
 occupées	occuper	VERB
@@ -987,7 +987,7 @@ baltes	balte	ADJ
 (	(	PUNCTclause
 indépendants	indépendant	ADJ
 depuis	depuis	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 la	le	DET
@@ -1001,9 +1001,9 @@ Roumanie	Roumanie	PROPN
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 article	article	NOUN
-22	22	NUM
+22	22	DIGIT
 à	à	ADP
-29	29	NUM
+29	29	DIGIT
 détaillent	détailler	VERB
 les	le	DET
 subdivisions	subdivision	NOUN
@@ -1049,7 +1049,7 @@ Union	Union	PROPN
 selon	selon	ADP
 l'	le	DET
 article	article	NOUN
-14	14	NUM
+14	14	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 compétences	compétence	NOUN
@@ -1150,7 +1150,7 @@ spéciale	spécial	ADJ
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 article	article	NOUN
-17	17	NUM
+17	17	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 chaque	chaque	DET
@@ -1170,7 +1170,7 @@ URSS	URSS	PROPN
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 article	article	NOUN
-20	20	NUM
+20	20	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 en cas de	en cas de	ADP
@@ -1236,7 +1236,7 @@ fédéralisme	fédéralisme	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 article	article	NOUN
-20	20	NUM
+20	20	DIGIT
 annule	annuler	VERB
 sans	sans	ADP
 recours	recours	NOUN
@@ -1246,7 +1246,7 @@ réelle	réel	ADJ
 de	de	ADP
 l'	le	DET
 article	article	NOUN
-17	17	NUM
+17	17	DIGIT
 ,	,	PUNCTclause
 lequel	lequel	PRON
 soulignons	souligner	VERB
@@ -1286,7 +1286,7 @@ URSS	URSS	PROPN
 selon	selon	ADP
 l'	le	DET
 article	article	NOUN
-31	31	NUM
+31	31	DIGIT
 ,	,	PUNCTclause
 «	«	PUNCTclause
 le	le	DET
@@ -1306,7 +1306,7 @@ Union	Union	PROPN
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-14	14	NUM
+14	14	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -1380,7 +1380,7 @@ législatif	législatif	ADJ
 selon	selon	ADP
 l'	le	DET
 article	article	NOUN
-32	32	NUM
+32	32	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 compose	composer	VERB
@@ -1424,7 +1424,7 @@ nouveau	nouveau	ADJ
 à	à	ADP
 l'	le	DET
 article	article	NOUN
-48	48	NUM
+48	48	DIGIT
 apparaît	apparaître	VERB
 le	le	DET
 présidium	présidium	NOUN
@@ -1449,7 +1449,7 @@ Soviet	Soviet	PROPN
 suprême	suprême	ADJ
 ,	,	PUNCTclause
 ses	son	DET
-15	15	NUM
+15	15	DIGIT
 vice-présidents	vice-président	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -1462,7 +1462,7 @@ secrétaire	secrétaire	NOUN
 du	du	ADP_DET
 présidium	présidium	NOUN
 et	et	CCONJ
-24	24	NUM
+24	24	DIGIT
 membres	membre	NOUN
 du	du	ADP_DET
 Présidium	Présidium	PROPN
@@ -1472,7 +1472,7 @@ Présidium	Présidium	PROPN
 selon	selon	ADP
 l'	le	DET
 article	article	NOUN
-49	49	NUM
+49	49	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 présidium	présidium	VERB
@@ -1618,7 +1618,7 @@ URSS	URSS	PROPN
 .	.	PUNCTsent
 l'	le	DET
 article	article	NOUN
-64	64	NUM
+64	64	DIGIT
 porte	porter	VERB
 que	que	SCONJ
 «	«	PUNCTclause
@@ -1675,7 +1675,7 @@ qui	qui	PRON
 exerce	exercer	VERB
 (	(	PUNCTclause
 article	article	NOUN
-77	77	NUM
+77	77	DIGIT
 )	)	PUNCTclause
 toutes	tout	ADJ
 les	le	DET
@@ -1687,9 +1687,9 @@ Union	Union	PROPN
 (	(	PUNCTclause
 défense	défense	NOUN
 ,	,	PUNCTclause
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 les	le	DET
@@ -1760,7 +1760,7 @@ hameaux	hameau	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-94	94	NUM
+94	94	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1854,9 +1854,9 @@ droits	droit	NOUN
 suivants	suivant	ADJ
 (	(	PUNCTclause
 article	article	NOUN
-118	118	NUM
+118	118	DIGIT
 à	à	ADP
-126	126	NUM
+126	126	DIGIT
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1902,7 +1902,7 @@ réduction	réduction	NOUN
 du	du	ADP_DET
 travail	travail	NOUN
 à	à	ADP
-7	7	NUM
+7	7	DIGIT
 h	h	NOUN
 par	par	ADP
 jour	jour	NOUN
@@ -2132,7 +2132,7 @@ sports	sport	NOUN
 ,	,	PUNCTclause
 culture	culture	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 est	être	AUX
 également	également	ADV
@@ -2211,7 +2211,7 @@ de	de	ADP
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-126	126	NUM
+126	126	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 il	il	PRON
@@ -2331,7 +2331,7 @@ secret	secret	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-134	134	NUM
+134	134	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2339,7 +2339,7 @@ cependant	cependant	ADV
 ,	,	PUNCTclause
 l'	le	DET
 article	article	NOUN
-141	141	NUM
+141	141	DIGIT
 précise	préciser	VERB
 que	que	SCONJ
 «	«	PUNCTclause
@@ -2392,7 +2392,7 @@ voir	voir	VERB
 supra	supra	ADV
 ,	,	PUNCTclause
 article	article	NOUN
-126	126	NUM
+126	126	DIGIT
 )	)	PUNCTclause
 à	à	ADP
 subordonner	subordonner	VERB
@@ -2428,13 +2428,13 @@ de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 ,	,	PUNCTclause
 dite	dire	VERB
 «	«	PUNCTclause
@@ -2487,7 +2487,7 @@ les	le	DET
 textes	texte	NOUN
 constitutionnels	constitutionnel	ADJ
 de	de	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 mieux	mieux	ADV
 compatibles	compatible	ADJ
 avec	avec	ADP
@@ -2558,7 +2558,7 @@ nouvelle	nouveau	ADJ
 loi	loi	NOUN
 fondamentale	fondamental	ADJ
 ,	,	PUNCTclause
-750000	750000	NUM
+750000	750000	DIGIT
 propositions	proposition	NOUN
 de	de	ADP
 rectifications	rectification	NOUN
@@ -2569,7 +2569,7 @@ envoyées	envoyer	VERB
 la	le	DET
 presse	presse	NOUN
 ,	,	PUNCTclause
-650000	650000	NUM
+650000	650000	DIGIT
 meetings	meeting	NOUN
 de	de	ADP
 entreprises	entreprise	NOUN
@@ -2590,7 +2590,7 @@ quant à	quant à	ADP
 il	il	PRON
 a	avoir	AUX
 organisé	organiser	VERB
-180000	180000	NUM
+180000	180000	DIGIT
 meetings	meeting	NOUN
 de	de	ADP
 ses	son	DET
@@ -2662,9 +2662,9 @@ texte	texte	NOUN
 ,	,	PUNCTclause
 publié	publier	VERB
 le	le	DET
-4	4	NUM
+4	4	DIGIT
 juin	juin	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 par	par	ADP
 la	le	DET
 presse	presse	NOUN
@@ -2710,7 +2710,7 @@ prolétariat	prolétariat	NOUN
 .	.	PUNCTsent
 l'	le	DET
 article	article	NOUN
-1	1	NUM
+1	1	DIGIT
 proclame	proclamer	VERB
 que	que	SCONJ
 «	«	PUNCTclause
@@ -2757,9 +2757,9 @@ donnait	donner	VERB
 la	le	DET
 Pravda	Pravda	PROPN
 (	(	PUNCTclause
-26	26	NUM
+26	26	DIGIT
 mai	mai	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 l'	le	DET
@@ -2795,7 +2795,7 @@ exprime	exprimer	VERB
 dans	dans	ADP
 l'	le	DET
 article	article	NOUN
-3	3	NUM
+3	3	DIGIT
 qui	qui	PRON
 introduit	introduire	VERB
 «	«	PUNCTclause
@@ -2919,7 +2919,7 @@ le	le	DET
 confirme	confirmer	VERB
 l'	le	DET
 article	article	NOUN
-6	6	NUM
+6	6	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTclause
 le	le	DET
@@ -2985,7 +2985,7 @@ posée	poser	VERB
 par	par	ADP
 l'	le	DET
 article	article	NOUN
-39	39	NUM
+39	39	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 l'	le	DET
@@ -3045,7 +3045,7 @@ libertés	liberté	NOUN
 déjà	déjà	ADV
 définis	définir	VERB
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 ainsi	ainsi	ADV
 que	que	SCONJ
@@ -3054,7 +3054,7 @@ droit	droit	NOUN
 nouveau	nouveau	ADJ
 introduit	introduire	VERB
 en	en	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 de	de	ADP
 «	«	PUNCTclause
 faire	faire	VERB
@@ -3079,7 +3079,7 @@ insuffisances	insuffisance	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-49	49	NUM
+49	49	DIGIT
 )	)	PUNCTclause
 ou	ou	CCONJ
 de	de	ADP
@@ -3182,7 +3182,7 @@ Sijtholf	Sijtholf	PROPN
 et	et	CCONJ
 Nordhoff	Nordhoff	PROPN
 ,	,	PUNCTclause
-1979	1979	NUM
+1979	1979	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Hazard	Hazard	PROPN
@@ -3203,11 +3203,11 @@ Law	Law	PROPN
 Review	Review	PROPN
 Association	Association	PROPN
 ,	,	PUNCTclause
-1984	1984	NUM
+1984	1984	DIGIT
 ,	,	PUNCTclause
 p.	p.	PUNCT
-1182	1182	NUM
--1194	-1194	NUM
+1182	1182	DIGIT
+-1194	-1194	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Kiricenko	Kiricenko	PROPN
@@ -3231,7 +3231,7 @@ Moskva	Moskva	PROPN
 Juridiceskaja	Juridiceskaja	PROPN
 literatura	literatura	VERB
 ,	,	PUNCTclause
-1987	1987	NUM
+1987	1987	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Kis	Kis	PROPN
@@ -3252,7 +3252,7 @@ de	de	ADP
 l'	le	DET
 université	université	NOUN
 ,	,	PUNCTclause
-1973	1973	NUM
+1973	1973	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Lesage	Lesage	DET
@@ -3270,7 +3270,7 @@ la	le	DET
 documentation	documentation	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
-1990	1990	NUM
+1990	1990	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Maurach	Maurach	PROPN
@@ -3284,5 +3284,5 @@ München	München	PROPN
 ,	,	PUNCTclause
 Isar	Isar	PROPN
 ,	,	PUNCTclause
-1955	1955	NUM
+1955	1955	DIGIT
 .	.	PUNCTsent

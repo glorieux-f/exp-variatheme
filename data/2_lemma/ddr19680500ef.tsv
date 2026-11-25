@@ -20,11 +20,11 @@ Europe	Europe	PROPN
 ?	?	PUNCTsent
 (	(	PUNCTclause
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 il y a	il y a	VERB
 vingt	vingt	NUM
@@ -158,13 +158,13 @@ dans	dans	ADP
 la	le	DET
 nuit	nuit	NOUN
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 h	h	NOUN
-30	30	NUM
+30	30	DIGIT
 du	du	ADP_DET
 matin	matin	NOUN
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
@@ -414,7 +414,7 @@ celui	celui	PRON
 décida	décider	VERB
 ,	,	PUNCTclause
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -457,7 +457,7 @@ qui	qui	PRON
 me	me	PRON
 écrivait	écrire	VERB
 le	le	DET
-29	29	NUM
+29	29	DIGIT
 mars	mars	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -687,7 +687,7 @@ Europe	Europe	PROPN
 or	or	NOUN
 ,	,	PUNCTclause
 le	le	DET
-11	11	NUM
+11	11	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -946,7 +946,7 @@ mais	mais	CCONJ
 la	le	DET
 campagne	campagne	NOUN
 populaire	populaire	ADJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 se	se	PRON
 trouvait	trouver	VERB
 annulée	annuler	VERB
@@ -1014,7 +1014,7 @@ l'on	on	PRON
 sait	savoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 ne	ne	ADV
 vous	vous	PRON
@@ -1025,7 +1025,7 @@ paradoxal	paradoxal	ADJ
 que	que	SCONJ
 en	en	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 alors que	alors que	SCONJ
 ne	ne	ADV
@@ -1102,7 +1102,7 @@ eût	avoir	AUX
 fallu	falloir	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 lancer	lancer	VERB
 une	un	DET
@@ -1131,7 +1131,7 @@ l'	le	DET
 )	)	PUNCTclause
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 fonder	fonder	VERB
 la	le	DET
@@ -1168,7 +1168,7 @@ régions	région	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 certains	certain	PRON
 «	«	PUNCTclause
@@ -1274,7 +1274,7 @@ depuis que	depuis que	SCONJ
 Churchill	Churchill	PROPN
 (	(	PUNCTclause
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 à	à	ADP
 Zurich	Zurich	PROPN
 )	)	PUNCTclause
@@ -1399,7 +1399,7 @@ de	de	ADP
 la	le	DET
 main-d'œuvre	main-d'œuvre	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 mais	mais	CCONJ
 ils	ils	PRON
 ne	ne	ADV
@@ -1562,7 +1562,7 @@ toute	toute	DET
 union	union	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 mouvement	mouvement	NOUN
@@ -1781,14 +1781,14 @@ comme	comme	ADP
 intangibles	intangible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 par rapport à	par rapport à	ADP
 vos	vos	DET
 espérances	espérance	NOUN
 de	de	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 comment	comment	ADV
 jugez	juger	VERB

@@ -21,9 +21,9 @@ mission	mission	NOUN
 spéciale	spécial	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 mars	mars	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -812,7 +812,7 @@ combat	combat	NOUN
 et	et	CCONJ
 de	de	ADP
 être	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 leur	leur	DET
 porter	porter	VERB
 main-forte	main-forte	NOUN
@@ -1128,7 +1128,7 @@ immédiat	immédiat	ADJ
 .	.	PUNCTsent
 nul	nul	PRON
 besoin	besoin	NOUN
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 de	de	ADP
 attendre	attendre	VERB

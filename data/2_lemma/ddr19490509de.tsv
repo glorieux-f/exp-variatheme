@@ -16,9 +16,9 @@ Statut	Statut	PROPN
 du	du	ADP_DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 mai	mai	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -105,7 +105,7 @@ enregistré	enregistrer	VERB
 à	à	ADP
 Londres	Londres	PROPN
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 mai	mai	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -254,7 +254,7 @@ par	par	ADP
 les	le	DET
 ministres	ministre	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 de	de	ADP
 dix	dix	NUM
 pays	pays	NOUN
@@ -414,7 +414,7 @@ Conseil	Conseil	PROPN
 des	un	ADP_DET
 ministres	ministre	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 d'autre part	d'autre part	ADV
@@ -715,7 +715,7 @@ vaste	vaste	ADJ
 Assemblée	Assemblée	PROPN
 ,	,	PUNCTclause
 comprenant	comprendre	VERB
-300	300	NUM
+300	300	DIGIT
 députés	député	NOUN
 :	:	PUNCTclause
 on	on	PRON
@@ -726,7 +726,7 @@ difficulté	difficulté	NOUN
 un	un	DET
 parlement	parlement	NOUN
 de	de	ADP
-87	87	NUM
+87	87	DIGIT
 membres	membre	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1000,7 +1000,7 @@ du	du	ADP_DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 valables	valable	ADJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 jusque	jusque	ADP
 à	à	ADP
 l'	le	DET

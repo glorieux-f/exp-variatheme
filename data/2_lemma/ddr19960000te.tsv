@@ -18,7 +18,7 @@ faux	faux	NOUN
 prophète	prophète	NOUN
 (	(	PUNCTclause
 automne	automne	NOUN
-1996	1996	NUM
+1996	1996	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -250,8 +250,8 @@ nous	nous	PRON
 —	—	PUNCTclause
 et	et	CCONJ
 déjà	déjà	ADV
-3	3	NUM
-5	5	NUM
+3	3	DIGIT
+5	5	DIGIT
 des	un	ADP_DET
 hommes	homme	NOUN
 habitent	habiter	VERB
@@ -741,7 +741,7 @@ méchant	méchant	ADJ
 je	je	PRON
 fais	faire	VERB
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 je	je	PRON
 vais	aller	VERB
@@ -1476,9 +1476,8 @@ plancton	plancton	NOUN
 ,	,	PUNCTclause
 lequel	lequel	PRON
 fabrique	fabriquer	VERB
-4	4	NUM
-5	5	NUM
-e	e	SYM
+4	4	DIGIT
+5e	5e	NUMord
 de	de	ADP
 l'	le	DET
 oxygène	oxygène	NOUN
@@ -1624,7 +1623,7 @@ et	et	CCONJ
 l'	le	DET
 Occident	Occident	PROPN
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 vous	vous	PRON
 avanciez	avancer	VERB
@@ -2648,9 +2647,9 @@ le	le	DET
 soleil	soleil	NOUN
 est	être	VERB
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 et	et	CCONJ
-que	que	SCONJ
+que	que	PRON
 demain	demain	ADV
 vous	vous	PRON
 pourrez	pouvoir	VERB
@@ -2836,12 +2835,12 @@ quand	quand	SCONJ
 l'	le	DET
 essence	essence	NOUN
 coûtera	coûter	VERB
-50	50	NUM
+50	50	DIGIT
 francs	franc	NOUN
 le	le_PRON	PRON
 litre	litre	NOUN
-d'ici	d'ici	ADV
-1990	1990	NUM
+d'ici	d'ici	ADP
+1990	1990	DIGIT
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 comme	comme	SCONJ

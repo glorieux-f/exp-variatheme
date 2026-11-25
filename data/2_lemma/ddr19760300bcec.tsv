@@ -16,8 +16,8 @@ relations	relation	NOUN
 Europe-Monde	Europe-Monde	PROPN
 (	(	PUNCTclause
 hiver	hiver	NOUN
-1975	1975	NUM
--1976	-1976	NUM
+1975	1975	DIGIT
+-1976	-1976	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -348,7 +348,7 @@ Kandinsky	Kandinsky	PROPN
 ,	,	PUNCTclause
 Mandelstam	Mandelstam	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 la	le	DET
 Querelle	Querelle	PROPN
@@ -470,9 +470,11 @@ viennent	venir	VERB
 ces	ce	DET
 erreurs	erreur	NOUN
 radicales	radical	ADJ
-que	que	SCONJ
+que	que	PRON
 commettent	commettre	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 leur	leur	DET
 propre	propre	ADJ
 culture	culture	NOUN
@@ -541,7 +543,7 @@ et	et	CCONJ
 quart-monde	quart-monde	NOUN
 )	)	PUNCTclause
 est	être	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 de	de	ADP
 ordinaire	ordinaire	NOUN
 en	en	ADP
@@ -718,7 +720,7 @@ tous	tout	ADJ
 temps	temps	NOUN
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 de	de	ADP
 la	le	DET
@@ -747,7 +749,7 @@ du	du	ADP_DET
 tiers-monde	tiers-monde	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 des	un	ADP_DET
 modalités	modalité	NOUN
@@ -1380,7 +1382,7 @@ communisme	communisme	NOUN
 ,	,	PUNCTclause
 maoïste	maoïste	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 d'autre part	d'autre part	ADV
 .	.	PUNCTsent
@@ -2075,7 +2077,7 @@ puis	puis	CCONJ
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1920	1920	NUM
+1920	1920	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -2132,7 +2134,7 @@ revivalists	revivalists	NOUN
 »	»	PUNCTclause
 des	un	ADP_DET
 années	année	NOUN
-1830	1830	NUM
+1830	1830	DIGIT
 utilisèrent	utiliser	VERB
 pour	pour	ADP
 tant de	tant de	DET
@@ -2841,7 +2843,7 @@ les	le	DET
 passions	passion	NOUN
 réduisent	réduire	VERB
 à	à	ADP
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 toute	tout	ADJ
 tentative	tentative	NOUN
 verbale	verbal	ADJ
@@ -3593,9 +3595,9 @@ celle	celle	PRON
 de	de	ADP
 Confucius	Confucius	PROPN
 (	(	PUNCTclause
-551	551	NUM
--479	-479	NUM
-av. J.-C.	av. J.-C.	NOUN
+551	551	DIGIT
+-479	-479	DIGIT
+av. J.-C.	av. J.-C.	ADV
 )	)	PUNCTclause
 ,	,	PUNCTclause
 aujourd'hui	aujourd'hui	ADV
@@ -4062,17 +4064,16 @@ Europe	Europe	PROPN
 ONU	ONU	PROPN
 comptent	compter	VERB
 aujourd'hui	aujourd'hui	ADV
-153	153	NUM
+153	153	DIGIT
 états-nations	État-nation	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
 les	le	DET
-4	4	NUM
-5	5	NUM
-e	e	SYM
+4	4	DIGIT
+5e	5e	NUMord
 ont	avoir	AUX
 moins de	moins de	DET
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 de	de	ADP
 âge	âge	NOUN
@@ -4269,7 +4270,7 @@ prétentions	prétention	NOUN
 stato-national	stato-national	ADJ
 qui	qui	PRON
 oblige	obliger	VERB
-150	150	NUM
+150	150	DIGIT
 nations	nation	NOUN
 à	à	ADP
 se	se	PRON
@@ -4329,7 +4330,7 @@ humanité	humanité	NOUN
 se	se	PRON
 voit	voir	VERB
 menacée	menacer	VERB
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 par	par	ADP
@@ -4344,7 +4345,7 @@ pauvres	pauvre	ADJ
 du	du	ADP_DET
 tiers-monde	tiers-monde	NOUN
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 par	par	ADP
@@ -4352,7 +4353,7 @@ des	un	DET
 famines	famine	NOUN
 continentales	continental	ADJ
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 par	par	ADP
@@ -4362,7 +4363,7 @@ des	un	ADP_DET
 océans	océan	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-4	4	NUM
+4	4	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 par	par	ADP
@@ -4762,9 +4763,9 @@ chimique	chimique	ADJ
 des	un	ADP_DET
 aliments	aliment	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4782,7 +4783,7 @@ ethno-culturelles	ethno-culturelles	NOUN
 ,	,	PUNCTclause
 énergétiques	énergétique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 nécessairement	nécessairement	ADV
 transfrontalières	transfrontalier	ADJ
@@ -4796,7 +4797,7 @@ cas	cas	NOUN
 pourrait	pouvoir	VERB
 seule	seul	ADJ
 permettre	permettre	VERB
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 un	un	DET
@@ -4810,7 +4811,7 @@ nationale	national	ADJ
 illimitée	illimité	ADJ
 ;	;	PUNCTclause
 —	—	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 une	un	DET
@@ -4842,7 +4843,7 @@ délinquance	délinquance	NOUN
 générale	général	ADJ
 ;	;	PUNCTclause
 —	—	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 la	le	DET

@@ -18,9 +18,9 @@ Suisse	Suisse	PROPN
 II	II	NUM
 )	)	PUNCTclause
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 novembre	novembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -127,14 +127,14 @@ les mêmes	les mêmes	PRON
 aujourd'hui	aujourd'hui	ADV
 que	que	PRON
 il y a	il y a	VERB
-150	150	NUM
+150	150	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 même	même	ADV
 que	que	SCONJ
 il y a	il y a	VERB
-10	10	NUM
+10	10	DIGIT
 ans	an	NOUN
 ?	?	PUNCTsent
 je	je	PRON
@@ -150,7 +150,7 @@ auteurs	auteur	NOUN
 des	un	ADP_DET
 traités	traité	NOUN
 de	de	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 entendaient	entendre	VERB
 par	par	ADP
 l'	le	DET
@@ -533,7 +533,7 @@ soit	être	AUX
 matériellement	matériellement	ADV
 et	et	CCONJ
 moralement	moralement	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 se	se	PRON
 défendre	défendre	VERB
 en cas de	en cas de	ADP
@@ -952,7 +952,7 @@ comme	comme	ADP
 la	le	DET
 France	France	PROPN
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 derrière	derrière	ADP
 la	le	DET
 ligne	ligne	NOUN

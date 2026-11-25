@@ -15,7 +15,7 @@ artistique	artistique	ADJ
 )	)	PUNCTclause
 (	(	PUNCTclause
 mai	mai	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -84,7 +84,7 @@ aussi	aussi	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 les mêmes	les mêmes	PRON
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -942,7 +942,7 @@ que	que	SCONJ
 il	il	PRON
 était	être	AUX
 liberté	liberté	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 il	il	PRON
 a	avoir	AUX
 signé	signer	VERB
@@ -2799,9 +2799,9 @@ de	de	ADP
 statues	statue	NOUN
 crétoises	crétois	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-Jamais	Jamais	PROPN
-un	un	DET
+etc.	etc.	X
+jamais	jamais	X
+un	un	NUM
 siècle	siècle	NOUN
 ne	ne	ADV
 avait	avoir	AUX
@@ -3043,7 +3043,7 @@ culturel	culturel	ADJ
 les	le	DET
 France	France	PROPN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 croyaient	croire	VERB
 défendre	défendre	VERB
 la	le	DET
@@ -3896,9 +3896,9 @@ un	un	DET
 nouveau	nouveau	ADJ
 départ	départ	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ce	ce	PRON
-est	être	VERB
+est	être	AUX
 l'	le	DET
 équivalent	équivalent	NOUN
 de	de	ADP

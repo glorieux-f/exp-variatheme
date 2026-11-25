@@ -20,9 +20,9 @@ la	le	DET
 presse	presse	NOUN
 en particulier	en particulier	ADV
 (	(	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 décembre	décembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -362,7 +362,7 @@ grande	grand	ADJ
 manifestation	manifestation	NOUN
 faite	faire	VERB
 par	par	ADP
-6000	6000	NUM
+6000	6000	DIGIT
 jeunes	jeune	ADJ
 gens	gens	NOUN
 devant	devant	ADP
@@ -432,8 +432,8 @@ cachet	cachet	NOUN
 —	—	PUNCTclause
 me	me	PRON
 a	avoir	AUX
-traité	traiter	VERB
-cette fois-là	cette fois ci	ADV
+traité	traité	NOUN
+cette fois-là	cette fois-là	ADV
 de	de	ADP
 enragé	enrager	VERB
 ,	,	PUNCTclause
@@ -571,9 +571,9 @@ il	il	PRON
 a	avoir	AUX
 publiés	publier	VERB
 du	du	ADP_DET
-15	15	NUM
+15	15	DIGIT
 au	au	ADP_DET
-26	26	NUM
+26	26	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
@@ -743,9 +743,9 @@ elle	elle	PRON
 délibérait	délibérer	VERB
 ,	,	PUNCTclause
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 au	au	ADP_DET
-24	24	NUM
+24	24	DIGIT
 novembre	novembre	NOUN
 .	.	PUNCTsent
 tels	tel	PRON

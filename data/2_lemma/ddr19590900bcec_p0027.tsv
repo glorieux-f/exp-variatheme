@@ -17,11 +17,11 @@ di	di	X
 un'idea	un'idea	X
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1959	1959	NUM
+1959	1959	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1003	1003	NUM
+1003	1003	DIGIT
 pages	page	NOUN
 (	(	PUNCTclause
 «	«	PUNCTclause
@@ -32,11 +32,11 @@ tre	tre	NUM
 !	!	PUNCTsent
 )	)	PUNCTclause
 en	en	ADP
-2	2	NUM
+2	2	DIGIT
 volumes	volume	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-280	280	NUM
+280	280	DIGIT
 pages	page	NOUN
 de	de	ADP
 notes	note	NOUN
@@ -51,7 +51,7 @@ chapitres	chapitre	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 près de	près de	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 noms	nom	NOUN
 cités	citer	VERB
 ,	,	PUNCTclause
@@ -66,9 +66,9 @@ Voltaire	Voltaire	PROPN
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
-36	36	NUM
+36	36	DIGIT
 ou	ou	CCONJ
-40	40	NUM
+40	40	DIGIT
 fois	fois	NOUN
 !	!	PUNCTsent
 nous	nous	PRON
@@ -128,7 +128,7 @@ notre	notre	DET
 union	union	NOUN
 ,	,	PUNCTclause
 à travers	à travers	ADP
-27	27	NUM
+27	27	DIGIT
 siècles	siècle	NOUN
 de	de	ADP
 pensée	pensée	NOUN
@@ -749,7 +749,7 @@ un	un	DET
 auteur	auteur	NOUN
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 de telle sorte que	de telle sorte que	SCONJ
 il	il	PRON
@@ -794,9 +794,9 @@ F.	F.	PROPN
 von	von	X
 Unruh	Unruh	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 et	et	CCONJ
@@ -913,9 +913,9 @@ Goethe	Goethe	PROPN
 ,	,	PUNCTclause
 Leibniz	Leibniz	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ne	ne	ADV
 sont	être	AUX

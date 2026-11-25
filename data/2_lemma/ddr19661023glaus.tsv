@@ -14,10 +14,10 @@ précision	précision	NOUN
 des	un	ADP_DET
 sentiments	sentiment	NOUN
 (	(	PUNCTclause
-22	22	NUM
--23	-23	NUM
+22	22	DIGIT
+-23	-23	DIGIT
 octobre	octobre	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -599,7 +599,7 @@ l'	le	DET
 armée	armée	NOUN
 Suisse	Suisse	PROPN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 sans	sans	ADP
 transition	transition	NOUN
@@ -961,7 +961,7 @@ dès	dès	ADP
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 notre	notre	DET
 cycliste	cycliste	NOUN
@@ -977,7 +977,7 @@ président	président	NOUN
 du	du	ADP_DET
 Cicr	Cicr	PROPN
 (	(	PUNCTclause
-69	69	NUM
+69	69	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 veston	veston	NOUN
@@ -1066,7 +1066,7 @@ où	où	PRON
 l'	le	DET
 agence	agence	NOUN
 recevra	recevoir	VERB
-40000	40000	NUM
+40000	40000	DIGIT
 documents	document	NOUN
 !	!	PUNCTsent
 )	)	PUNCTclause
@@ -1497,7 +1497,7 @@ Jacques	Jacques	PROPN
 ,	,	PUNCTclause
 âgé	âgé	ADJ
 de	de	ADP
-13	13	NUM
+13	13	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 à	à	ADP

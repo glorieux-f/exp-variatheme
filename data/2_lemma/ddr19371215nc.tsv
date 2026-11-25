@@ -13,9 +13,9 @@ le	le	DET
 3e	3e	ADJ
 Reich	Reich	PROPN
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 décembre	décembre	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -55,7 +55,7 @@ le	le	DET
 catalogue	catalogue	NOUN
 comporte	comporter	VERB
 environ	environ	ADV
-80	80	NUM
+80	80	DIGIT
 titres	titre	NOUN
 (	(	PUNCTclause
 publications	publication	NOUN
@@ -145,8 +145,7 @@ des	un	ADP_DET
 chefs	chef	NOUN
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
-22	22	NUM
-e	e	SYM
+22e	22e	NUMord
 mille	mille	NUM
 )	)	PUNCTclause
 ;	;	PUNCTclause
@@ -158,8 +157,7 @@ la	le	DET
 mère	mère	NOUN
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
-80	80	NUM
-e	e	SYM
+80e	80e	NUMord
 mille	mille	NUM
 )	)	PUNCTclause
 ;	;	PUNCTclause
@@ -188,8 +186,7 @@ l'	le	DET
 âme	âme	NOUN
 nordique	nordique	ADJ
 (	(	PUNCTclause
-30	30	NUM
-e	e	SYM
+30e	30e	NUMord
 mille	mille	NUM
 )	)	PUNCTclause
 ;	;	PUNCTclause
@@ -197,8 +194,7 @@ Race	Race	PROPN
 et	et	CCONJ
 âme	âme	NOUN
 (	(	PUNCTclause
-43	43	NUM
-e	e	SYM
+43e	43e	NUMord
 mille	mille	NUM
 )	)	PUNCTclause
 ;	;	PUNCTclause
@@ -212,15 +208,14 @@ peuple	peuple	NOUN
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
 en	en	ADP
-8	8	NUM
+8	8	DIGIT
 volumes	volume	NOUN
 de	de	ADP
 titres	titre	NOUN
 divers	divers	ADJ
 .	.	PUNCTsent
 —	—	PUNCTclause
-99	99	NUM
-e	e	SYM
+99e	99e	NUMord
 mille	mille	NUM
 en	en	ADP
 moyenne	moyenne	NOUN
@@ -373,7 +368,7 @@ ce	ce	DET
 sujet	sujet	NOUN
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 ajoute	ajouter	VERB
@@ -803,7 +798,7 @@ nordique	nordique	ADJ
 reviennent	revenir	VERB
 donc	donc	ADV
 dans	dans	ADP
-13	13	NUM
+13	13	DIGIT
 titres	titre	NOUN
 .	.	PUNCTsent
 et	et	CCONJ

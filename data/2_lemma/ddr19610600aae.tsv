@@ -16,7 +16,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 juin	juin	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -415,9 +415,9 @@ le	le	DET
 loisir	loisir	NOUN
 .	.	PUNCTsent
 de	de	ADP
-1890	1890	NUM
+1890	1890	DIGIT
 à	à	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 semaine	semaine	NOUN
@@ -426,10 +426,10 @@ travail	travail	NOUN
 a	avoir	AUX
 passé	passer	VERB
 de	de	ADP
-65	65	NUM
+65	65	DIGIT
 heures	heure	NOUN
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 heures	heure	NOUN
 dans	dans	ADP
 le	le	DET
@@ -440,10 +440,10 @@ année	année	NOUN
 de	de	ADP
 travail	travail	NOUN
 de	de	ADP
-5900	5900	NUM
+5900	5900	DIGIT
 heures	heure	NOUN
 à	à	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 heures	heure	NOUN
 dans	dans	ADP
 les	le	DET
@@ -469,7 +469,7 @@ de	de	ADP
 la	le	DET
 semaine	semaine	NOUN
 de	de	ADP
-30	30	NUM
+30	30	DIGIT
 h.	h.	PUNCT
 le	le	DET
 Russie	Russie	PROPN
@@ -479,7 +479,7 @@ récemment	récemment	ADV
 la	le	DET
 journée	journée	NOUN
 de	de	ADP
-3	3	NUM
+3	3	DIGIT
 h.	h.	PUNCT
 )	)	PUNCTclause
 le	le	DET
@@ -717,7 +717,7 @@ deux	deux	NUM
 choses	chose	NOUN
 l'une	l'une	PRON
 .	.	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 si	si	SCONJ
 l'on	on	PRON
@@ -867,7 +867,7 @@ la	le	DET
 technique	technique	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 si	si	SCONJ
 l'on	on	PRON
@@ -964,7 +964,7 @@ de	de	ADP
 ce	ce	PRON
 siècle	siècle	NOUN
 :	:	PUNCTclause
-80	80	NUM
+80	80	DIGIT
 ans	an	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -988,7 +988,7 @@ et	et	CCONJ
 de	de	ADP
 instruction	instruction	NOUN
 :	:	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 vie	vie	NOUN
@@ -996,7 +996,7 @@ de	de	ADP
 travail	travail	NOUN
 continu	continu	ADJ
 :	:	PUNCTclause
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1041,7 +1041,7 @@ une	un	DET
 longévité	longévité	NOUN
 moyenne	moyen	ADJ
 de	de	ADP
-80	80	NUM
+80	80	DIGIT
 ans	an	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1052,13 +1052,13 @@ et	et	CCONJ
 de	de	ADP
 formation	formation	NOUN
 professionnelle	professionnel	ADJ
-20	20	NUM
+20	20	DIGIT
 ans	an	NOUN
 Période	Période	PROPN
 de	de	ADP
 travail	travail	NOUN
 actif	actif	ADJ
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 Retraite	Retraite	PROPN
 (	(	PUNCTclause
@@ -1072,7 +1072,7 @@ de	de	ADP
 activité	activité	NOUN
 différente	différent	ADJ
 )	)	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 ans	an	NOUN
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -1248,7 +1248,7 @@ constatations	constatation	NOUN
 préalables	préalable	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 en	en	ADP
 Europe	Europe	PROPN
@@ -1347,7 +1347,7 @@ la	le	DET
 contemplation	contemplation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 en	en	ADP
 Afrique	Afrique	PROPN
@@ -1476,7 +1476,7 @@ ces	ce	DET
 pays	pays	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 grâce à	grâce à	ADP
 progrès	progrès	NOUN
@@ -1583,7 +1583,7 @@ par exemple	par exemple	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 les	le	DET
 peuples	peuple	NOUN

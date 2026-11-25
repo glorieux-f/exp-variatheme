@@ -24,7 +24,7 @@ monde	monde	NOUN
 )	)	PUNCTclause
 (	(	PUNCTclause
 mars	mars	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -316,7 +316,7 @@ que	que	PRON
 elle	elle	PRON
 paraît	paraître	VERB
 .	.	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ainsi	ainsi	ADV
 que	que	SCONJ
 meurt	mourir	VERB
@@ -442,7 +442,7 @@ on	on	PRON
 les	le_PRON	PRON
 isoler	isoler	VERB
 sans	sans	ADP
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 les	le_PRON	PRON
 séparer	séparer	VERB
 de	de	ADP
@@ -1088,7 +1088,7 @@ voir	voir	VERB
 ce	ce	PRON
 est	être	AUX
 juger	juger	VERB
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 former	former	VERB
 :	:	PUNCTclause
 —	—	PUNCTclause
@@ -1239,7 +1239,7 @@ lumière	lumière	NOUN
 (	(	PUNCTclause
 Éph	Éph	PROPN
 .	.	PUNCTsent
-5.8	5.8	NUM
+5.8	5.8	DIGIT
 )	)	PUNCTclause
 ou	ou	CCONJ
 encore	encore	ADV
@@ -1256,7 +1256,7 @@ jour	jour	NOUN
 I	I	NUM
 Thess	Thess	PROPN
 .	.	PUNCTsent
-5.8	5.8	NUM
+5.8	5.8	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 rien	rien	PRON
@@ -1324,7 +1324,7 @@ logique	logique	NOUN
 ,	,	PUNCTclause
 obscurantisme	obscurantisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 pour	pour	ADP
@@ -1397,9 +1397,9 @@ elle	elle	PRON
 (	(	PUNCTclause
 Matt	Matt	PROPN
 .	.	PUNCTsent
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
-28	28	NUM
+28	28	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
@@ -1428,7 +1428,7 @@ est	être	AUX
 (	(	PUNCTclause
 I.	I.	PROPN
 Jean	Jean	PROPN
-3.2	3.2	NUM
+3.2	3.2	DIGIT
 )	)	PUNCTclause
 «	«	PUNCTclause
 l'	le	DET
@@ -1454,7 +1454,7 @@ créé	créer	VERB
 (	(	PUNCTclause
 col	col	NOUN
 .	.	PUNCTsent
-3.10	3.10	NUM
+3.10	3.10	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
@@ -1505,7 +1505,7 @@ esprit	esprit	NOUN
 II	II	NUM
 Cor	Cor	PROPN
 .	.	PUNCTsent
-3.18	3.18	NUM
+3.18	3.18	DIGIT
 )	)	PUNCTclause
 —	—	PUNCTclause
 «	«	PUNCTclause
@@ -1526,7 +1526,7 @@ mais	mais	CCONJ
 alors	alors	ADV
 nous	nous	PRON
 verrons	voir	VERB
-face à face	face à face	NOUN
+face à face	face à face	ADV
 ;	;	PUNCTclause
 aujourd'hui	aujourd'hui	ADV
 je	je	PRON
@@ -1548,7 +1548,7 @@ connu	connaître	VERB
 I	I	NUM
 Cor	Cor	PROPN
 .	.	PUNCTsent
-13.12	13.12	NUM
+13.12	13.12	DIGIT
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -1747,7 +1747,7 @@ sont	être	AUX
 II	II	NUM
 Cor	Cor	PROPN
 .	.	PUNCTsent
-4.18	4.18	NUM
+4.18	4.18	DIGIT
 )	)	PUNCTclause
 or	or_CCONJ	CCONJ
 nous	nous	PRON
@@ -2662,7 +2662,7 @@ foi	foi	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 connaître	connaître	VERB
 dans	dans	ADP
@@ -3745,7 +3745,7 @@ par	par	ADP
 les	le	DET
 formes	forme	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ouvrir	ouvrir	VERB
 les	le	DET
 portes	porte	NOUN
@@ -4940,7 +4940,7 @@ surent	savoir	VERB
 voir	voir	VERB
 en	en	ADP
 toutes	toutes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 «	«	PUNCTclause
 le	le	DET
 charme	charme	NOUN
@@ -5062,7 +5062,7 @@ musique	musique	NOUN
 )	)	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-198	198	NUM
+198	198	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

@@ -12,7 +12,7 @@ l'	le	DET
 environnement	environnement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 souci	souci	NOUN
@@ -262,9 +262,9 @@ de	de	ADP
 la	le	DET
 biosphère	biosphère	NOUN
 pendant	pendant	ADP
-200000	200000	NUM
+200000	200000	DIGIT
 à	à	ADP
-240000	240000	NUM
+240000	240000	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 période	période	NOUN
@@ -338,12 +338,12 @@ forêts	forêt	NOUN
 déjà	déjà	ADV
 détruites	détruire	VERB
 à	à	ADP
-40	40	NUM
+40	40	DIGIT
 dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 depuis	depuis	ADP
-1882	1882	NUM
+1882	1882	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -579,9 +579,9 @@ l'	le	DET
 environnement	environnement	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 à	à	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 ,	,	PUNCTclause
 dénoncent	dénoncer	VERB
 au	au	ADP_DET
@@ -605,7 +605,7 @@ l'	le	DET
 humanité	humanité	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 altération	altération	NOUN
@@ -644,9 +644,9 @@ de	de	ADP
 ozone	ozone	NOUN
 stratosphérique	stratosphérique	ADJ
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 à	à	ADP
-50	50	NUM
+50	50	DIGIT
 km	km	NOUN
 au-dessus de	au-dessus de	ADP
 la	le	DET
@@ -697,15 +697,15 @@ des	un	ADP_DET
 aérosols	aérosol	NOUN
 de	de	ADP
 au moins	au moins	ADV
-1	1	NUM
+1	1	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 le	le	DET
 sera	être	AUX
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 en	en	ADP
-2050	2050	NUM
+2050	2050	DIGIT
 si	si	SCONJ
 l'on	on	PRON
 continue	continuer	VERB
@@ -724,9 +724,9 @@ elle	elle	PRON
 pourrait	pouvoir	VERB
 détruire	détruire	VERB
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 à	à	ADP
-70	70	NUM
+70	70	DIGIT
 l'	le	DET
 écran	écran	NOUN
 vital	vital	ADJ
@@ -749,9 +749,9 @@ de	de	ADP
 un	un	DET
 surgénérateur	surgénérateur	NOUN
 contenant	contenir	VERB
-4	4	NUM
+4	4	DIGIT
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 plutonium	plutonium	NOUN
@@ -813,7 +813,7 @@ résulte	résulter	VERB
 en effet	en effet	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 les	le	DET
@@ -858,7 +858,7 @@ contaminés	contaminer	VERB
 ,	,	PUNCTclause
 qui	qui	PRON
 nourrissent	nourrir	VERB
-45	45	NUM
+45	45	DIGIT
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -901,10 +901,10 @@ vaines	vain	ADJ
 et	et	CCONJ
 meurtrières	meurtrier	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	ADV
 par suite	par suite	ADV
@@ -1008,9 +1008,9 @@ de	de	ADP
 ozone	ozone	NOUN
 persisteront	persister	VERB
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 à	à	ADP
-200	200	NUM
+200	200	DIGIT
 ans	an	NOUN
 après que	après que	SCONJ
 l'	le	DET
@@ -1022,7 +1022,7 @@ les	le	DET
 causer	causer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 cancer	cancer	NOUN
@@ -1038,9 +1038,9 @@ reconnu	reconnaître	VERB
 comme	comme	ADP
 résultant	résulter	VERB
 à	à	ADP
-60	60	NUM
+60	60	DIGIT
 à	à	ADP
-90	90	NUM
+90	90	DIGIT
 de	de	ADP
 notre	notre	DET
 environnement	environnement	NOUN
@@ -1083,7 +1083,7 @@ toutes	tout	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 perte	perte	NOUN
@@ -1178,7 +1178,7 @@ notre	notre	DET
 génération	génération	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 abattage	abattage	NOUN
@@ -1316,7 +1316,7 @@ rapport	rapport	NOUN
 des	un	ADP_DET
 ONU	ONU	PROPN
 pour	pour	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 paraissent	paraître	VERB
 reliés	relier	VERB
 entre	entre	ADP
@@ -1441,7 +1441,7 @@ l'	le	DET
 Europe	Europe	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 pénurie	pénurie	NOUN
@@ -1571,7 +1571,7 @@ la	le	DET
 mer	mer	NOUN
 du	du	ADP_DET
 Nord	Nord	PROPN
-60000	60000	NUM
+60000	60000	DIGIT
 tonnes	tonne	NOUN
 de	de	ADP
 déchets	déchet	NOUN
@@ -1579,7 +1579,7 @@ par	par	ADP
 jour	jour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 les	le	DET
 produits	produit	NOUN
@@ -1622,7 +1622,7 @@ mortalité	mortalité	NOUN
 infantile	infantile	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 extinction	extinction	NOUN
@@ -1652,7 +1652,7 @@ hannetons	hanneton	NOUN
 ,	,	PUNCTclause
 papillons	papillon	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 la	le	DET
 péninsule	péninsule	NOUN
 Ibérique	Ibérique	PROPN
@@ -1685,15 +1685,15 @@ de	de	ADP
 extinction	extinction	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 les	le	DET
 mégalopoles	mégalopole	NOUN
 invivables	invivable	ADJ
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 à	à	ADP
-13	13	NUM
+13	13	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1729,11 +1729,11 @@ embouteillages	embouteillage	NOUN
 publicités	publicité	NOUN
 lumineuses	lumineux	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 nature	nature	NOUN
 des	un	ADP_DET
@@ -2071,7 +2071,7 @@ de	de	ADP
 littoraux	littoral	NOUN
 déjà	déjà	ADV
 fortement	fortement	ADV
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 sont	être	AUX
 tels	tel	PRON
 que	que	SCONJ
@@ -2391,7 +2391,7 @@ est	être	AUX
 sans issue	sans issue	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 solutions	solution	NOUN
 Europe	Europe	PROPN
@@ -2481,7 +2481,7 @@ et	et	CCONJ
 réalisables	réalisable	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 commission	commission	NOUN
@@ -2580,10 +2580,10 @@ la	le	DET
 faune	faune	NOUN
 marine	marin	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 lutte	lutte	NOUN
@@ -2625,7 +2625,7 @@ villes	ville	NOUN
 portuaires	portuaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 protection	protection	NOUN
@@ -2650,7 +2650,7 @@ engrais	engrais	NOUN
 azotés	azoté	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 le	le	DET
 contrôle	contrôle	NOUN
@@ -2671,9 +2671,9 @@ des	un	ADP_DET
 produits	produit	NOUN
 alimentaires	alimentaire	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 abandon	abandon	NOUN
@@ -2749,7 +2749,7 @@ assurer	assurer	VERB
 cette	ce	DET
 gestion	gestion	NOUN
 pendant	pendant	ADP
-240000	240000	NUM
+240000	240000	DIGIT
 ans	an	NOUN
 :	:	PUNCTclause
 aucune	aucun	DET
@@ -2759,11 +2759,11 @@ ne	ne	ADV
 a	avoir	AUX
 duré	durer	VERB
 plus de	plus de	DET
-4000	4000	NUM
+4000	4000	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 arrêt	arrêt	NOUN
@@ -2801,7 +2801,7 @@ les	le	DET
 humains	humain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 le	le	DET
 sauvetage	sauvetage	NOUN
@@ -2819,9 +2819,9 @@ tigres	tigre	NOUN
 ,	,	PUNCTclause
 ocelots	ocelot	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 menacées	menacer	VERB
 de	de	ADP
@@ -2832,7 +2832,7 @@ jamais	jamais	ADV
 irréparable	irréparable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 arrêt	arrêt	NOUN
@@ -2841,7 +2841,7 @@ bétonnage	bétonnage	NOUN
 des	un	ADP_DET
 campagnes	campagne	NOUN
 :	:	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 du	du	ADP_DET
 sol	sol	NOUN
 des	un	ADP_DET
@@ -2853,7 +2853,7 @@ bétonné	bétonner	VERB
 et	et	CCONJ
 ce	ce	PRON
 sera	être	AUX
-25	25	NUM
+25	25	DIGIT
 avant	avant	ADP
 la	le	DET
 fin	fin	NOUN
@@ -2908,7 +2908,7 @@ fédérale	fédéral	ADJ
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 adoption	adoption	NOUN
@@ -2935,7 +2935,7 @@ mégalopoles	mégalopole	NOUN
 Villes	Villes	PROPN
 nouvelles	nouveau	ADJ
 de	de	ADP
-50000	50000	NUM
+50000	50000	DIGIT
 habitants	habitant	NOUN
 préconisées	préconiser	VERB
 par	par	ADP
@@ -2968,7 +2968,7 @@ gratuits	gratuit	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 étude	étude	NOUN
@@ -3264,7 +3264,7 @@ et	et	CCONJ
 des	un	ADP_DET
 monuments	monument	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 b	b	NOUN
 )	)	PUNCTclause

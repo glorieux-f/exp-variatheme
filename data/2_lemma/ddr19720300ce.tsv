@@ -11,7 +11,7 @@ sort	sort	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 se	se	PRON
 joue	jouer	VERB
 dans	dans	ADP
@@ -19,7 +19,7 @@ nos	nos	DET
 écoles	école	NOUN
 (	(	PUNCTclause
 mars	mars	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -42,7 +42,7 @@ Churchill	Churchill	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 paraissait	paraître	VERB
@@ -156,7 +156,7 @@ tout à fait	tout à fait	ADV
 différente	différent	ADJ
 ,	,	PUNCTclause
 définie	définir	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 en termes de	en termes de	ADP
 avenir	avenir	NOUN
 :	:	PUNCTclause
@@ -164,7 +164,7 @@ savoir	savoir	VERB
 si	si	SCONJ
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -226,7 +226,7 @@ sort	sort	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 se	se	PRON
 joue	jouer	VERB
 maintenant	maintenant	ADV
@@ -286,7 +286,7 @@ paysage	paysage	NOUN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 .	.	PUNCTsent
 non seulement	non seulement	ADV
 parce que	parce que	SCONJ
@@ -386,7 +386,7 @@ décisifs	décisif	ADJ
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 cela	cela	PRON
@@ -433,7 +433,7 @@ Europe	Europe	PROPN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 sera	être	AUX
 gérée	gérer	VERB
 soit	soit	CCONJ
@@ -604,7 +604,7 @@ pays	pays	NOUN
 vers	vers	ADP
 les	le	DET
 années	année	NOUN
-1880	1880	NUM
+1880	1880	DIGIT
 ,	,	PUNCTclause
 prépare	préparer	VERB
 des	un	ADP_DET
@@ -801,7 +801,7 @@ continent	continent	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 condition	condition	NOUN
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
@@ -814,7 +814,7 @@ Europe	Europe	PROPN
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 soit	être	AUX
 gérée	gérer	VERB
 par	par	ADP
@@ -974,7 +974,7 @@ unie	unir	VERB
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 si	si	SCONJ
 l'on	on	PRON
 ne	ne	ADV
@@ -1014,7 +1014,7 @@ qui	qui	PRON
 ont	avoir	AUX
 formé	former	VERB
 nos	nos	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'un	l'un	PRON
@@ -1137,9 +1137,9 @@ de	de	ADP
 géographie	géographie	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1900	1900	NUM
+1900	1900	DIGIT
 à	à	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 définissaient	définir	VERB
 précisément	précisément	ADV
@@ -1158,7 +1158,7 @@ Oural	Oural	PROPN
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 se	se	PRON
 joue	jouer	VERB
 aujourd'hui	aujourd'hui	ADV
@@ -1223,7 +1223,7 @@ nous	nous	PRON
 nous	nous	PRON
 posions	poser	VERB
 dès	dès	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 la	le	DET
 question	question	NOUN
 suivante	suivant	ADJ
@@ -1297,7 +1297,7 @@ dès	dès	ADP
 le	le	DET
 printemps	printemps	NOUN
 de	de	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 arrêtions	arrêter	VERB
@@ -1762,25 +1762,25 @@ chiffres	chiffre	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-33	33	NUM
+33	33	DIGIT
 stages	stage	NOUN
 de	de	ADP
 formation	formation	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
-15	15	NUM
+15	15	DIGIT
 pays	pays	NOUN
 ,	,	PUNCTclause
 ont	avoir	AUX
 réuni	réunir	VERB
 jusqu'ici	jusqu'ici	ADV
 environ	environ	ADV
-1500	1500	NUM
+1500	1500	DIGIT
 enseignants	enseignant	NOUN
 du	du	ADP_DET
 secondaire	secondaire	ADJ
 et	et	CCONJ
-200	200	NUM
+200	200	DIGIT
 directeurs	directeur	NOUN
 de	de	ADP
 lycées	lycée	NOUN
@@ -1791,7 +1791,7 @@ normales	normal	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 numéros	numéro	NOUN
 de	de	ADP
 la	le	DET
@@ -1807,7 +1807,7 @@ prenant	prendre	VERB
 la	le	DET
 suite	suite	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 bulletins	bulletin	NOUN
 du	du	ADP_DET
 CEC	CEC	PROPN
@@ -1817,7 +1817,7 @@ une	un	DET
 Grande-Bretagne	Grande-Bretagne	PROPN
 paraît	paraître	VERB
 depuis	depuis	ADP
-1971	1971	NUM
+1971	1971	DIGIT
 .	.	PUNCTsent
 des	un	ADP_DET
 éditions	édition	NOUN
@@ -1863,7 +1863,7 @@ de	de	ADP
 Bruxelles	Bruxelles	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 des	un	DET
 sessions	session	NOUN
@@ -1897,7 +1897,7 @@ de	de	ADP
 Malahide	Malahide	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1965	1965	NUM
+1965	1965	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 programme	programme	NOUN
@@ -1921,7 +1921,7 @@ de	de	ADP
 Bruges	Bruges	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1968	1968	NUM
+1968	1968	DIGIT
 ,	,	PUNCTclause
 sur	sur	ADP
 les	le	DET

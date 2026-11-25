@@ -13,7 +13,7 @@ le	le	DET
 dialogue	dialogue	NOUN
 (	(	PUNCTclause
 février	février	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -34,13 +34,15 @@ on	on	PRON
 assez	assez	ADV
 brusques	brusque	ADJ
 .	.	PUNCTsent
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 notre	notre	DET
 numéro	numéro	NOUN
 spécial	spécial	ADJ
 de	de	ADP
 décembre	décembre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 ,	,	PUNCTclause
 elles	elles	PRON
 ne	ne	ADV
@@ -160,9 +162,9 @@ soviétique	soviétique	ADJ
 (	(	PUNCTclause
 France-Soir	France-Soir	X
 ,	,	PUNCTclause
-19	19	NUM
+19	19	DIGIT
 janvier	janvier	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 selon	selon	ADP
@@ -324,9 +326,9 @@ Gazette	Gazette	PROPN
 de	de	ADP
 Lausanne	Lausanne	PROPN
 du	du	ADP_DET
-25	25	NUM
+25	25	DIGIT
 décembre	décembre	NOUN
-1955	1955	NUM
+1955	1955	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 pourrait	pouvoir	VERB
@@ -341,9 +343,9 @@ les	le	DET
 jeunes	jeune	ADJ
 Russie	Russie	PROPN
 de	de	ADP
-4	4	NUM
+4	4	DIGIT
 à	à	ADP
-18	18	NUM
+18	18	DIGIT
 ans	an	NOUN
 qui	qui	PRON
 exposent	exposer	VERB
@@ -508,7 +510,7 @@ censure	censure	NOUN
 elle	elle	PRON
 tire	tirer	VERB
 à	à	ADP
-50000	50000	NUM
+50000	50000	DIGIT
 exemplaires	exemplaire	NOUN
 distribués	distribuer	VERB
 au	au	ADP_DET
@@ -520,7 +522,7 @@ officiels	officiel	ADJ
 Russie	Russie	PROPN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
-1000	1000	NUM
+1000	1000	DIGIT
 exemplaires	exemplaire	NOUN
 sont	être	AUX
 confiés	confier	VERB
@@ -546,9 +548,9 @@ les	le	DET
 communisme	communisme	NOUN
 représentent	représenter	VERB
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 à	à	ADP
-35	35	NUM
+35	35	DIGIT
 du	du	ADP_DET
 corps	corps	NOUN
 électoral	électoral	ADJ

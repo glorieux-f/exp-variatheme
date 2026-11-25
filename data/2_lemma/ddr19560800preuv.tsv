@@ -13,7 +13,7 @@ du	du	ADP_DET
 Kremlin	Kremlin	PROPN
 (	(	PUNCTclause
 août	août	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -540,7 +540,7 @@ passe	passer	VERB
 pas	pas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 circonstances	circonstance	NOUN
@@ -576,7 +576,7 @@ son	son	DET
 rapport	rapport	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 K.	K.	PRON
 limite	limiter	VERB
@@ -591,7 +591,7 @@ se	se	PRON
 est	être	AUX
 passé	passer	VERB
 depuis	depuis	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 seulement	seulement	ADV
@@ -626,11 +626,11 @@ Allemagne	Allemagne	PROPN
 »	»	PUNCTclause
 après	après	ADP
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 juillet	juillet	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 pour	pour	ADP
 illustrer	illustrer	VERB
@@ -725,7 +725,7 @@ régime	régime	NOUN
 collégial	collégial	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 K.	K.	PROPN
 décrit	décrire	VERB
@@ -765,7 +765,7 @@ plus	plus	ADV
 spectaculaires	spectaculaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 K.	K.	PRON
 ne	ne	ADV
@@ -803,7 +803,7 @@ State	State	PROPN
 Department	Department	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 K.	K.	PROPN
 promet	promettre	VERB
@@ -851,7 +851,7 @@ de	de	ADP
 opposition	opposition	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 K.	K.	PROPN
 demande	demander	VERB
@@ -889,7 +889,7 @@ Est	Est	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 K.	K.	PROPN
 dénonce	dénoncer	VERB
@@ -915,7 +915,7 @@ place	place	NOUN
 rouge	rouge	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 K.	K.	PROPN
 justifie	justifier	VERB
@@ -985,7 +985,7 @@ K.	K.	PROPN
 ne	ne	ADV
 risque	risquer	VERB
 plus	plus	ADV
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 à	à	ADP
 exiger	exiger	VERB
 «	«	PUNCTclause
@@ -999,7 +999,7 @@ rigoureusement	rigoureusement	ADV
 conditionnés	conditionner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -1047,7 +1047,7 @@ un	un	DET
 commentaire	commentaire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	ADP_DET
 culte	culte	NOUN
 de	de	ADP
 la	le	DET
@@ -1363,7 +1363,9 @@ rapport	rapport	NOUN
 de	de	ADP
 K.	K.	PROPN
 ↵↵	↵↵	PUNCTstruct
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 folie	folie	NOUN
 de	de	ADP
@@ -3137,7 +3139,7 @@ industrie	industrie	NOUN
 Russie	Russie	PROPN
 jusque	jusque	ADP
 vers	vers	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 —	—	PUNCTclause
 comme	comme	ADP
 on	on	PRON
@@ -3528,7 +3530,7 @@ historique	historique	ADJ
 du	du	ADP_DET
 		TOKEN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 soyons	être	VERB
 sérieux	sérieux	ADJ
@@ -4723,7 +4725,7 @@ de	de	ADP
 tous	tout	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 Staline	Staline	PROPN
@@ -4764,7 +4766,7 @@ chefs	chef	NOUN
 totalitaires	totalitaire	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 la	le	DET
@@ -4810,7 +4812,7 @@ grâce à	grâce à	ADP
 marxisme-léninisme	marxisme-léninisme	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 Staline	Staline	PROPN
@@ -4852,7 +4854,7 @@ sa	son	DET
 guise	guise	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 la	le	DET
@@ -4897,7 +4899,7 @@ faire	faire	AUX
 Hitler	Hitler	PROPN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 les	le	DET
@@ -4909,7 +4911,7 @@ Kostov	Kostov	PROPN
 ,	,	PUNCTclause
 Slanski	Slanski	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 menés	mener	VERB
 au nom de	au nom de	ADP
@@ -5005,7 +5007,7 @@ en	en	ADP
 URSS	URSS	PROPN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 les	le	DET
@@ -5043,7 +5045,7 @@ du	du	ADP_DET
 parti	parti	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 la	le	DET
@@ -5085,7 +5087,7 @@ progrès	progrès	NOUN
 économique	économique	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 le	le	DET
@@ -5156,7 +5158,7 @@ des	un	ADP_DET
 tanks	tank	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 les	le	DET
@@ -5184,7 +5186,7 @@ la	le	DET
 servilité	servilité	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 enfin	enfin	ADV
@@ -5258,7 +5260,7 @@ favoriser	favoriser	VERB
 le	le	DET
 fascisme	fascisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ce	ce	PRON
 était	être	AUX
 conforme	conforme	ADJ
@@ -5322,8 +5324,8 @@ de	de	ADP
 …	…	PUNCTsent
 »	»	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-rien	rien	PRON
+etc.	etc.	X
+rien	rien	X
 ni	ni	CCONJ
 personne	personne_PRON	PRON
 ne	ne	ADV
@@ -5367,7 +5369,7 @@ par	par	ADP
 les	le	DET
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ;	;	PUNCTclause
 ni	ni	CCONJ
 à	à	ADP
@@ -5411,9 +5413,9 @@ suites	suite	NOUN
 sur	sur	ADP
 les	le	DET
 points	point	NOUN
-1	1	NUM
+1	1	DIGIT
 à	à	ADP
-8	8	NUM
+8	8	DIGIT
 de	de	ADP
 ma	mon	DET
 liste	liste	NOUN
@@ -5434,7 +5436,7 @@ anticommunistes	anticommuniste	NOUN
 sur	sur	ADP
 le	le	DET
 point	point	NOUN
-9	9	NUM
+9	9	DIGIT
 ,	,	PUNCTclause
 voir	voir	VERB
 les	le	DET
@@ -5582,7 +5584,7 @@ expression	expression	NOUN
 ↵↵	↵↵	PUNCTstruct
 quant à	quant à	ADP
 point	point	NOUN
-10	10	NUM
+10	10	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 résume	résumer	VERB
@@ -6903,7 +6905,7 @@ de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 se	se	PRON
 tenaient	tenir	VERB
@@ -9441,7 +9443,7 @@ je	je	PRON
 (	(	PUNCTclause
 fin	fin	NOUN
 juin	juin	NOUN
-1956	1956	NUM
+1956	1956	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 que	que	SCONJ

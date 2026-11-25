@@ -15,7 +15,7 @@ par	par	ADP
 Kagawa	Kagawa	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -157,7 +157,7 @@ au	au	ADP_DET
 monde	monde	NOUN
 ,	,	PUNCTclause
 de plus	de plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 sa	son	DET
 grandeur	grandeur	NOUN
 .	.	PUNCTsent
@@ -744,7 +744,7 @@ ce	ce	DET
 récit	récit	NOUN
 prend	prendre	VERB
 fin	fin	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 Kagawa	Kagawa	PROPN
 débouche	déboucher	VERB
 dans	dans	ADP
@@ -1436,8 +1436,10 @@ avec	avec	ADP
 des	un	DET
 étudiants	étudiant	NOUN
 chrétiens	chrétien	ADJ
-au sujet de	au sujet de	ADP
-un	un	PRON
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
+un	un	DET
 de	de	ADP
 leurs	leur	DET
 camarades	camarade	NOUN
@@ -2329,7 +2331,7 @@ enfin	enfin	ADV
 ,	,	PUNCTclause
 brusquement	brusquement	ADV
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 il	il	PRON
 avait	avoir	AUX
 décidé	décider	VERB
@@ -2373,7 +2375,7 @@ la	le	DET
 vie	vie	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 pour	pour	ADP
 se	se	PRON
 donner	donner	VERB
@@ -3590,7 +3592,7 @@ voici	voici	ADP
 que	que	PRON
 ,	,	PUNCTclause
 le	le	DET
-14	14	NUM
+14	14	DIGIT
 février	février	NOUN
 ,	,	PUNCTclause
 il	il	PRON

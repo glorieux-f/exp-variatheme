@@ -16,9 +16,9 @@ atmosphère	atmosphère	NOUN
 de	de	ADP
 Strasbourg	Strasbourg	PROPN
 (	(	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 septembre	septembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -113,14 +113,14 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 il	il	PRON
 réunit	réunir	VERB
-15	15	NUM
+15	15	DIGIT
 états	état	NOUN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 sur	sur	ADP
 les	le	DET
-19	19	NUM
+19	19	DIGIT
 situés	situer	VERB
 à	à	ADP
 l'	le	DET
@@ -192,7 +192,7 @@ par	par	ADP
 les	le	DET
 ministres	ministre	NOUN
 des	un	ADP_DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 des	un	ADP_DET
 états	état	NOUN
 membres	membre	NOUN
@@ -203,7 +203,7 @@ une	un	DET
 Assemblée	Assemblée	PROPN
 consultative	consultatif	ADJ
 de	de	ADP
-125	125	NUM
+125	125	DIGIT
 députés	député	NOUN
 ,	,	PUNCTclause
 élus	élire	VERB
@@ -884,8 +884,7 @@ jouait	jouer	VERB
 un	un	DET
 match	match	NOUN
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 mars	mars	NOUN
 encore	encore	ADV
 .	.	PUNCTsent

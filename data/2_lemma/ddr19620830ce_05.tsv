@@ -337,9 +337,9 @@ premières	premier	ADJ
 vers	vers	ADP
 l'	le	DET
 union	union	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 à	à	ADP
-1962	1962	NUM
+1962	1962	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 tout	tout	PRON
@@ -353,7 +353,7 @@ processus	processus	NOUN
 se	se	PRON
 achèveront	achever	VERB
 simultanément	simultanément	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 quelques	quelque	DET
 années	année	NOUN
 ,	,	PUNCTclause
@@ -570,7 +570,7 @@ conclu	conclure	VERB
 les	le	DET
 traités	traité	NOUN
 de	de	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 ceci	ceci	PRON
@@ -3125,7 +3125,7 @@ avons	avoir	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 Sainte-Beuve	Sainte-Beuve	PROPN
 résume	résumer	VERB
@@ -3290,7 +3290,7 @@ celui	celui	PRON
 de	de	ADP
 gauche	gauche	NOUN
 a	avoir	AUX
-18	18	NUM
+18	18	DIGIT
 carrés	carré	NOUN
 de	de	ADP
 hauteur	hauteur	NOUN
@@ -3298,14 +3298,14 @@ hauteur	hauteur	NOUN
 celui	celui	PRON
 de	de	ADP
 droite	droite	NOUN
-22	22	NUM
+22	22	DIGIT
 carrés	carré	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 celui	celui	PRON
 du	du	ADP_DET
 milieu	milieu	NOUN
-43	43	NUM
+43	43	DIGIT
 carrés	carré	NOUN
 :	:	PUNCTclause
 il	il	PRON
@@ -3360,7 +3360,7 @@ rideau	rideau	NOUN
 de	de	ADP
 fer	fer	NOUN
 compte	compter	VERB
-330	330	NUM
+330	330	DIGIT
 millions	million	NOUN
 ;	;	PUNCTclause
 les	le	DET
@@ -3373,11 +3373,11 @@ soumis	soumettre	VERB
 l'	le	DET
 URSS	URSS	PROPN
 ,	,	PUNCTclause
-95	95	NUM
+95	95	DIGIT
 millions	million	NOUN
 ;	;	PUNCTclause
 total	total	NOUN
-425	425	NUM
+425	425	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 tandis que	tandis que	SCONJ
@@ -3387,7 +3387,7 @@ grands	grand	ADJ
 ensemble	ensemble	NOUN
 font	faire	VERB
 à peine	à peine	ADV
-400	400	NUM
+400	400	DIGIT
 millions	million	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3631,7 +3631,7 @@ les	le	DET
 sciences	science	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-1901	1901	NUM
+1901	1901	DIGIT
 —	—	PUNCTclause
 date	date	NOUN
 de	de	ADP
@@ -3641,31 +3641,31 @@ du	du	ADP_DET
 prix	prix	NOUN
 —	—	PUNCTclause
 à	à	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 :	:	PUNCTclause
 Russie	Russie	PROPN
 et	et	CCONJ
 démocraties	démocratie	NOUN
 populaires	populaire	ADJ
 :	:	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 lauréats	lauréat	NOUN
 .	.	PUNCTsent
 États-Unis	États-Unis	PROPN
 :	:	PUNCTclause
-52	52	NUM
+52	52	DIGIT
 .	.	PUNCTsent
 Europe	Europe	PROPN
 de	de	ADP
 l'	le	DET
 ouest	ouest	NOUN
 :	:	PUNCTclause
-147	147	NUM
+147	147	DIGIT
 .	.	PUNCTsent
 autres	autre	ADJ
 pays	pays	NOUN
 :	:	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -3707,12 +3707,12 @@ de	de	ADP
 une	un	DET
 nation	nation	NOUN
 de	de	ADP
-335	335	NUM
+335	335	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 voire	voire	CCONJ
 de	de	ADP
-430	430	NUM
+430	430	DIGIT
 millions	million	NOUN
 (	(	PUNCTclause
 en	en	ADP
@@ -3734,13 +3734,13 @@ un	un	DET
 petit	petit	ADJ
 état	état	NOUN
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 ou	ou	CCONJ
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -4064,7 +4064,7 @@ soviétique	soviétique	ADJ
 un	un	DET
 mélange	mélange	NOUN
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 de	de	ADP
 traditions	tradition	NOUN
 proprement	proprement	ADV
@@ -4118,7 +4118,7 @@ pouvoir	pouvoir	NOUN
 quoi	quoi	PRON
 se	se	PRON
 ajoute	ajouter	VERB
-50	50	NUM
+50	50	DIGIT
 du	du	ADP_DET
 Marx	Marx	PROPN
 plus ou moins	plus ou moins	ADV
@@ -4600,7 +4600,7 @@ actif	actif	ADJ
 du	du	ADP_DET
 mot	mot	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 —	—	PUNCTclause
 de	de	ADP
 assumer	assumer	VERB
@@ -4684,7 +4684,7 @@ brièvement	brièvement	ADV
 je	je	PRON
 vais	aller	VERB
 résumer	résumer	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 substance	substance	NOUN
 de	de	ADP
@@ -4822,7 +4822,7 @@ nos	nos	DET
 exportations	exportation	NOUN
 représentent	représenter	VERB
 à peu près	à peu près	ADV
-40	40	NUM
+40	40	DIGIT
 de	de	ADP
 notre	notre	DET
 commerce	commerce	NOUN
@@ -4843,7 +4843,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 que	que	PRON
 pour	pour	ADP
-5	5	NUM
+5	5	DIGIT
 au maximum	au maximum	ADV
 de	de	ADP
 leur	leur	DET

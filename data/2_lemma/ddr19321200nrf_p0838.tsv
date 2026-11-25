@@ -13,7 +13,7 @@ ou	ou	CCONJ
 tuer	tuer	VERB
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -193,7 +193,7 @@ pour	pour	ADP
 la	le	DET
 jeunesse	jeunesse	NOUN
 de	de	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 conflit	conflit	NOUN
@@ -517,7 +517,7 @@ voici	voici	ADP
 le	le	DET
 Plan	Plan	PROPN
 ,	,	PUNCTclause
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 reprendre	reprendre	VERB
 l'	le	DET
 entreprise	entreprise	NOUN
@@ -1256,7 +1256,7 @@ réussir	réussir	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce	n'est-ce	VERB
+N'est-ce	N'est-ce	PROPN
 donc	donc	ADV
 plus	plus	ADV
 ,	,	PUNCTclause
@@ -1491,7 +1491,7 @@ indiquerai	indiquer	VERB
 trois	trois	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 —	—	PUNCTclause
 la	le	DET
@@ -1719,10 +1719,9 @@ acte	acte	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
-e	e	NOUN
+2e	2e	NUMord
 —	—	PUNCTclause
-le	le	NOUN
+le	le	DET
 matérialisme	matérialisme	NOUN
 décrit	décrire	VERB
 un	un	DET
@@ -1849,8 +1848,7 @@ la	le	DET
 révolution	révolution	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
-e	e	NOUN
+3e	3e	NUMord
 —	—	PUNCTclause
 la	le	DET
 conception	conception	NOUN
@@ -2074,7 +2072,7 @@ compte	compter	VERB
 cette	ce	DET
 époque	époque	NOUN
 moins de	moins de	DET
-3	3	NUM
+3	3	DIGIT
 millions	million	NOUN
 de	de	ADP
 ouvriers	ouvrier	NOUN
@@ -2082,7 +2080,7 @@ sur	sur	ADP
 une	un	DET
 population	population	NOUN
 de	de	ADP
-160	160	NUM
+160	160	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2099,12 +2097,12 @@ brimée	brimer	VERB
 .	.	PUNCTsent
 en	en	ADP
 février	février	NOUN
-1917	1917	NUM
+1917	1917	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 bolchévistes	bolchéviste	NOUN
 sont	être	AUX
-200	200	NUM
+200	200	DIGIT
 .	.	PUNCTsent
 en	en	ADP
 octobre	octobre	NOUN
@@ -2120,7 +2118,7 @@ les	le_PRON	PRON
 Russies	Russies	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 le	le	DET
 parti	parti	NOUN
 compte	compter	VERB
@@ -2299,7 +2297,7 @@ est	être	AUX
 la	le	DET
 révolte	révolte	NOUN
 de	de	ADP
-89	89	NUM
+89	89	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 ce	ce	PRON
@@ -2564,7 +2562,7 @@ nationalisme	nationalisme	NOUN
 ,	,	PUNCTclause
 SDN	SDN	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ,	,	PUNCTclause
 condamnation	condamnation	NOUN

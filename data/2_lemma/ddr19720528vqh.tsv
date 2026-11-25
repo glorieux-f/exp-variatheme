@@ -13,10 +13,10 @@ l'	le	DET
 espace	espace	NOUN
 …	…	PUNCTsent
 (	(	PUNCTclause
-27	27	NUM
--28	-28	NUM
+27	27	DIGIT
+-28	-28	DIGIT
 mai	mai	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -215,7 +215,7 @@ ramassés	ramasser	VERB
 ces	ce	DET
 villes	ville	NOUN
 bien	bien	ADV
-étagées	étager	VERB
+étagées	étagé	ADJ
 ou	ou	CCONJ
 rayonnantes	rayonnant	ADJ
 ,	,	PUNCTclause

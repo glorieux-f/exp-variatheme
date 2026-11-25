@@ -14,7 +14,7 @@ beau	beau	ADJ
 prétexte	prétexte	NOUN
 (	(	PUNCTclause
 avril	avril	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -70,7 +70,7 @@ notes	note	NOUN
 écrites	écrire	VERB
 en	en	ADP
 décembre	décembre	NOUN
-1925	1925	NUM
+1925	1925	DIGIT
 ,	,	PUNCTclause
 au sortir de	au sortir de	ADP
 une	un	DET
@@ -1204,7 +1204,7 @@ II	II	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 novembre	novembre	NOUN
-1926	1926	NUM
+1926	1926	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -1227,7 +1227,7 @@ le	le	DET
 thermomètre	thermomètre	NOUN
 eût	avoir	AUX
 indiqué	indiquer	VERB
-39	39	NUM
+39	39	DIGIT
 °	°	SYM
 selon	selon	ADP
 toute	tout	ADJ
@@ -1387,7 +1387,7 @@ triple-sec	triple-sec	PROPN
 au lieu de	au lieu de	ADP
 cynisme	cynisme	NOUN
 verbeux	verbeux	ADJ
-1830	1830	NUM
+1830	1830	DIGIT
 ,	,	PUNCTclause
 une	un	DET
 théorie	théorie	NOUN
@@ -1490,7 +1490,7 @@ une	un	DET
 belle	beau	ADJ
 phrase	phrase	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ?	?	PUNCTsent
 je	je	PRON
 ne	ne	ADV
@@ -1545,7 +1545,7 @@ amuser	amuser	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 février	février	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 relu	relire	VERB
@@ -1792,10 +1792,9 @@ plus	plus	ADV
 haute	haut	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
-er	er	VERB
+1er	1er	NUMord
 mai	mai	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mieux	mieux	ADV
@@ -2022,12 +2021,12 @@ toutes	tout	ADJ
 —	—	PUNCTclause
 de	de	ADP
 novembre	novembre	NOUN
-1926	1926	NUM
+1926	1926	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 mai	mai	NOUN
-1927	1927	NUM
+1927	1927	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -2308,7 +2307,7 @@ que	que	SCONJ
 l'	le	DET
 artiste	artiste	NOUN
 serait	être	AUX
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 si	si	SCONJ
 il	il	PRON
 ne	ne	ADV
@@ -2829,7 +2828,7 @@ Schiller	Schiller	PROPN
 ,	,	PUNCTclause
 Voltaire	Voltaire	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 tout	tout	ADJ
@@ -2915,7 +2914,7 @@ ont	avoir	AUX
 fait	faire	VERB
 ,	,	PUNCTclause
 il y a	il y a	VERB
-10	10	NUM
+10	10	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 une	un	DET
@@ -3320,9 +3319,9 @@ et	et	CCONJ
 la	le	DET
 sénilité	sénilité	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
 certes	certes	ADV
@@ -3588,7 +3587,7 @@ fait	faire	VERB
 ça	ça	PRON
 plus ou moins	plus ou moins	ADV
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ

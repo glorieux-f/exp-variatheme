@@ -13,9 +13,9 @@ facteur	facteur	NOUN
 de	de	ADP
 paix	paix	NOUN
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 mars	mars	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1367,8 +1367,8 @@ de	de	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-14	14	NUM
--18	-18	NUM
+14	14	DIGIT
+-18	-18	DIGIT
 voit	voir	VERB
 intervenir	intervenir	VERB
 un	un	DET
@@ -2897,7 +2897,7 @@ demande	demande	NOUN
 aura	avoir	VERB
 au moins	au moins	ADV
 doublé	doubler	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 vingt	vingt	NUM
 ans	an	NOUN
 .	.	PUNCTsent
@@ -3171,7 +3171,7 @@ explosion	explosion	NOUN
 des	un	ADP_DET
 nationalismes	nationalisme	NOUN
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 qui	qui	PRON
 a	avoir	AUX
 déclenché	déclencher	VERB
@@ -3221,7 +3221,7 @@ son	son	DET
 fils	fils	NOUN
 aviateur	aviateur	NOUN
 en	en	ADP
-1915	1915	NUM
+1915	1915	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 mais	mais	CCONJ
@@ -3262,7 +3262,7 @@ brevets	brevet	NOUN
 étaient	être	AUX
 déposés	déposer	VERB
 dès	dès	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 par	par	ADP
 l'	le	DET
 équipe	équipe	NOUN
@@ -3301,9 +3301,9 @@ fin	fin	NOUN
 cette	ce	DET
 guerre	guerre	NOUN
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 août	août	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Hiroshima	Hiroshima	PROPN
@@ -4700,7 +4700,7 @@ Ford	Ford	PROPN
 le	le_PRON	PRON
 réalise	réaliser	VERB
 en	en	ADP
-1893	1893	NUM
+1893	1893	DIGIT
 ,	,	PUNCTclause
 quelques	quelque	DET
 années	année	NOUN

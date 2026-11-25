@@ -14,9 +14,9 @@ de	de	ADP
 notre	notre	DET
 siècle	siècle	NOUN
 (	(	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 février	février	NOUN
-1983	1983	NUM
+1983	1983	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -35,7 +35,7 @@ République	République	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 avril	avril	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 contre	contre	ADP
 l'	le	DET
@@ -71,7 +71,7 @@ législatives	législatif	ADJ
 de	de	ADP
 juillet	juillet	NOUN
 amènent	amener	VERB
-230	230	NUM
+230	230	DIGIT
 députés	député	NOUN
 nazis	nazi	ADJ
 au	au	ADP_DET
@@ -87,7 +87,7 @@ tomber	tomber	VERB
 ce	ce	DET
 nombre	nombre	NOUN
 à	à	ADP
-196	196	NUM
+196	196	DIGIT
 ,	,	PUNCTclause
 Hitler	Hitler	PROPN
 ayant	avoir	AUX
@@ -172,9 +172,9 @@ moment	moment	NOUN
 enfin	enfin	ADV
 ,	,	PUNCTclause
 le	le	DET
-30	30	NUM
+30	30	DIGIT
 janvier	janvier	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 contre	contre	ADP
 toute	toute	DET
@@ -250,7 +250,7 @@ siècle	siècle	NOUN
 la	le	DET
 défaite	défaite	NOUN
 de	de	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 avait	avoir	AUX
 précipité	précipiter	VERB
 l'	le	DET
@@ -286,7 +286,7 @@ l'	le	DET
 des	un	DET
 billets	billet	NOUN
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -331,7 +331,7 @@ social-démocratie	social-démocratie	NOUN
 ,	,	PUNCTclause
 ennemi	ennemi	NOUN
 n°	n°	SYM
-1	1	NUM
+1	1	DIGIT
 ;	;	PUNCTclause
 la	le	DET
 peur	peur	NOUN
@@ -684,7 +684,7 @@ carnaval	carnaval	NOUN
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 mars	mars	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 au lendemain de	au lendemain de	ADP
 une	un	DET
@@ -755,9 +755,9 @@ exactement	exactement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-20	20	NUM
+20	20	DIGIT
 mars	mars	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 osais	oser	VERB
@@ -797,9 +797,9 @@ plus tard	plus tard	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 écrivais	écrire	VERB
@@ -816,7 +816,7 @@ prophétisé	prophétiser	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 juin	juin	NOUN
 je	je	PRON
 entrerai	entrer	VERB
@@ -934,7 +934,7 @@ publiai	publier	VERB
 à	à	ADP
 New York	New York	PROPN
 en	en	ADP
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 trois	trois	NUM
 ans	an	NOUN
@@ -1038,7 +1038,7 @@ lui	lui	PRON
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 juin	juin	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 au plus	au plus	ADV
 fort	fort	ADV
@@ -1309,7 +1309,7 @@ pittoresque	pittoresque	ADJ
 comme	comme	ADP
 Attila	Attila	PROPN
 ou	ou	CCONJ
-gengis khan	gengis khan	NOUN
+gengis khan	gengis khan	DET
 ,	,	PUNCTclause
 mais	mais	CCONJ
 un	un	DET
@@ -2214,7 +2214,7 @@ Mein	Mein	PROPN
 Kampf	Kampf	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
-1923	1923	NUM
+1923	1923	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 décrit	décrire	VERB
@@ -2607,7 +2607,7 @@ entends	entendre	VERB
 et	et	CCONJ
 subis	subir	VERB
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 écris	écrire	VERB
@@ -2701,7 +2701,7 @@ avant	avant	ADP
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 majorité	majorité	NOUN
@@ -2972,7 +2972,7 @@ de	de	ADP
 Baal	Baal	PROPN
 .	.	PUNCTsent
 d'autres	d'autre	PRON
-traits	traire	VERB
+traits	trait	NOUN
 y	y	PRON
 apparaissent	apparaître	VERB
 :	:	PUNCTclause

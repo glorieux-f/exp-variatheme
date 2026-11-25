@@ -12,13 +12,13 @@ Europe	Europe	PROPN
 !	!	PUNCTsent
 —	—	PUNCTclause
 Suisse	Suisse	PROPN
-1848	1848	NUM
+1848	1848	DIGIT
 -Europe	-Europe	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 mai	mai	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -203,7 +203,7 @@ on	on	PRON
 a	avoir	AUX
 pris	prendre	VERB
 plus de	plus de	DET
-500	500	NUM
+500	500	DIGIT
 ans	an	NOUN
 pour	pour	ADP
 se	se	PRON
@@ -272,7 +272,7 @@ fédération	fédération	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 il y a	il y a	VERB
-101	101	NUM
+101	101	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
@@ -294,7 +294,7 @@ ne	ne	ADV
 le	le_PRON	PRON
 sont	être	AUX
 les	le	DET
-24	24	NUM
+24	24	DIGIT
 états	état	NOUN
 qui	qui	PRON
 composent	composer	VERB
@@ -308,7 +308,7 @@ et	et	CCONJ
 pourtant	pourtant	ADV
 ,	,	PUNCTclause
 nos	nos	DET
-22	22	NUM
+22	22	DIGIT
 cantons	canton	NOUN
 se	se	PRON
 fédérèrent	fédérer	VERB
@@ -412,7 +412,7 @@ se	se	PRON
 étaient	être	AUX
 affrontés	affronter	VERB
 dans	dans	ADP
-5	5	NUM
+5	5	DIGIT
 guerres	guerre	NOUN
 au moins	au moins	ADV
 ,	,	PUNCTclause
@@ -783,7 +783,7 @@ il	il	PRON
 nos	nos	DET
 cantons	canton	NOUN
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -858,7 +858,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 ,	,	PUNCTclause
 nos	nos	DET
 cantons	canton	NOUN
@@ -1054,7 +1054,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 jusque	jusque	ADP
 en	en	ADP
-1847	1847	NUM
+1847	1847	DIGIT
 se	se	PRON
 trouvaient	trouver	VERB
 correspondre	correspondre	VERB

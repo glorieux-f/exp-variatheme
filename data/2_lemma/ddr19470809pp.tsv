@@ -40,9 +40,9 @@ secret	secret	NOUN
 …	…	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 août	août	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -156,7 +156,7 @@ que	que	SCONJ
 partit	partir	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 fameuse	fameux	ADJ
@@ -420,7 +420,7 @@ en	en	PRON
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 depuis	depuis	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 .	.	PUNCTsent
 mais	mais	CCONJ
 je	je	PRON
@@ -431,7 +431,7 @@ une	un	DET
 première	premier	ADJ
 fois	fois	NOUN
 en	en	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 parler	parler	VERB
@@ -499,7 +499,7 @@ ans	an	NOUN
 la	le	DET
 crise	crise	NOUN
 de	de	ADP
-1929	1929	NUM
+1929	1929	DIGIT
 et	et	CCONJ
 la	le	DET
 guerre	guerre	NOUN
@@ -661,7 +661,7 @@ pas	pas	ADV
 proposé	proposer	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 livrer	livrer	VERB
@@ -877,12 +877,12 @@ peut	pouvoir	VERB
 avoir	avoir	VERB
 la	le	DET
 bombe	bombe	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 deux	deux	NUM
 ans	an	NOUN
 au moins	au moins	ADV
 .	.	PUNCTsent
-d'ici	d'ici	ADV
+D'ici	D'ici	PROPN
 dix	dix	NUM
 ans	an	NOUN
 au plus	au plus	ADV
@@ -1004,7 +1004,9 @@ ils	ils	PRON
 redoutent	redouter	VERB
 des	un	DET
 fuites	fuite	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 leurs	leur	DET
 préparatifs	préparatif	NOUN
 militaires	militaire	ADJ
@@ -1015,7 +1017,9 @@ proprement dits	proprement dits	ADV
 oui	oui	INTJ
 …	…	PUNCTsent
 et	et	CCONJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 n'importe quoi	n'importe quoi	PRON
 qui	qui	PRON
 se	se	PRON

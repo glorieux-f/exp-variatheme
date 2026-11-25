@@ -12,7 +12,7 @@ de	de	ADP
 Law	Law	PROPN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -51,14 +51,14 @@ une	un	DET
 armée	armée	NOUN
 qui	qui	PRON
 coûte	coûter	VERB
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 par	par	ADP
 an	an	NOUN
 ;	;	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-2	2	NUM
+2	2	DIGIT
 milliards	milliard	NOUN
 pour	pour	ADP
 vingt	vingt	NUM
@@ -86,13 +86,13 @@ en outre	en outre	ADV
 nous	nous	PRON
 met	mettre	VERB
 en arrière de	en arrière de	ADP
-1	1	NUM
+1	1	DIGIT
 milliard	milliard	NOUN
 au moins	au moins	ADV
 .	.	PUNCTsent
 voilà	voilà	ADP
 donc	donc	ADV
-3	3	NUM
+3	3	DIGIT
 milliards	milliard	NOUN
 que	que	SCONJ
 il	il	PRON
@@ -127,7 +127,7 @@ peut	pouvoir	VERB
 espérer	espérer	VERB
 de	de	ADP
 détruire	détruire	VERB
-150000	150000	NUM
+150000	150000	DIGIT
 ennemis	ennemi	NOUN
 par	par	ADP
 le	le	DET
@@ -161,7 +161,7 @@ soldat	soldat	NOUN
 Allemagne	Allemagne	PROPN
 nous	nous	PRON
 coûte	coûter	VERB
-20000	20000	NUM
+20000	20000	DIGIT
 livres	livre	NOUN
 ,	,	PUNCTclause
 sans compter	sans compter	ADP
@@ -221,7 +221,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 estimait	estimer	VERB
 un	un	DET
 homme	homme	NOUN
-480	480	NUM
+480	480	DIGIT
 livre sterling	livre sterling	NOUN
 .	.	PUNCTsent
 ce	ce	PRON

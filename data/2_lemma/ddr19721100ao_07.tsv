@@ -14,7 +14,7 @@ et	et	CCONJ
 guerre	guerre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 parallélisme	parallélisme	NOUN
 des	un	ADP_DET
@@ -426,7 +426,7 @@ de	de	ADP
 l'autre	l'autre	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 langage	langage	NOUN
 guerrier	guerrier	NOUN
@@ -854,7 +854,7 @@ de	de	ADP
 sa	son	DET
 vaillance	vaillance	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 tout	tout	ADJ
 ceci	ceci	PRON
 pour	pour	ADP
@@ -1265,7 +1265,7 @@ la	le	DET
 chevalerie	chevalerie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 la	le	DET
 chevalerie	chevalerie	NOUN
@@ -1693,7 +1693,7 @@ courtois	courtois	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
 en	en	ADP
-1415	1415	NUM
+1415	1415	DIGIT
 ,	,	PUNCTclause
 Henri	Henri	PROPN
 V	V	X
@@ -2374,7 +2374,7 @@ balance	balance	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 les	le	DET
 tournois	tournoi	NOUN
@@ -3214,7 +3214,7 @@ propos	propos	NOUN
 du	du	ADP_DET
 tournoi	tournoi	NOUN
 de	de	ADP
-1389	1389	NUM
+1389	1389	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 religieux	religieux	NOUN
@@ -3334,7 +3334,7 @@ cependant	cependant	ADV
 vers	vers	ADP
 l'	le	DET
 an	an	NOUN
-1400	1400	NUM
+1400	1400	DIGIT
 encore	encore	ADV
 ,	,	PUNCTclause
 les	le	DET
@@ -3459,7 +3459,7 @@ artillerie	artillerie	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
 et	et	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 une	un	DET
 ironie	ironie	NOUN
 du	du	ADP_DET
@@ -3654,7 +3654,7 @@ ou	ou	CCONJ
 inversement	inversement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 condottieri	condottiere	NOUN
 et	et	CCONJ
@@ -3680,7 +3680,7 @@ l'	le_PRON	PRON
 vers	vers	ADP
 l'	le	DET
 année	année	NOUN
-1490	1490	NUM
+1490	1490	DIGIT
 .	.	PUNCTsent
 une	un	DET
 paix	paix	NOUN
@@ -4764,12 +4764,12 @@ campagne	campagne	NOUN
 ,	,	PUNCTclause
 sur	sur	ADP
 les	le	DET
-3000	3000	NUM
+3000	3000	DIGIT
 hommes	homme	NOUN
 engagés	engager	VERB
 ,	,	PUNCTclause
 plus de	plus de	DET
-100	100	NUM
+100	100	DIGIT
 furent	être	AUX
 tués	tuer	VERB
 :	:	PUNCTclause
@@ -4808,7 +4808,7 @@ les	le	DET
 dévastations	dévastation	NOUN
 France	France	PROPN
 furent	être	AUX
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 en comparaison de	en comparaison de	ADP
 celles	celle	PRON
 commises	commettre	VERB
@@ -4921,7 +4921,7 @@ ni	ni	CCONJ
 pitié	pitié	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 la	le	DET
 guerre	guerre	NOUN
@@ -5678,7 +5678,9 @@ gendre	gendre	NOUN
 et	et	CCONJ
 de	de	ADP
 beau-père	beau-père	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 dot	dot	NOUN
 promise	promis	ADJ
@@ -5734,7 +5736,7 @@ auréole	auréole	NOUN
 dramatique	dramatique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 la	le	DET
 guerre	guerre	NOUN
@@ -6137,14 +6139,14 @@ une	un	DET
 armée	armée	NOUN
 qui	qui	PRON
 coûte	coûter	VERB
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 par	par	ADP
 an	an	NOUN
 ;	;	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-2	2	NUM
+2	2	DIGIT
 milliards	milliard	NOUN
 pour	pour	ADP
 vingt	vingt	NUM
@@ -6171,13 +6173,13 @@ en outre	en outre	ADV
 nous	nous	PRON
 met	mettre	VERB
 en arrière de	en arrière de	ADP
-1	1	NUM
+1	1	DIGIT
 milliard	milliard	NOUN
 au moins	au moins	ADV
 .	.	PUNCTsent
 voilà	voilà	ADP
 donc	donc	ADV
-3	3	NUM
+3	3	DIGIT
 milliards	milliard	NOUN
 qui	qui	PRON
 nous	nous	PRON
@@ -6211,7 +6213,7 @@ peut	pouvoir	VERB
 espérer	espérer	VERB
 de	de	ADP
 détruire	détruire	VERB
-150000	150000	NUM
+150000	150000	DIGIT
 ennemis	ennemi	NOUN
 par	par	ADP
 le	le	DET
@@ -6245,7 +6247,7 @@ soldat	soldat	NOUN
 Allemagne	Allemagne	PROPN
 nous	nous	PRON
 coûte	coûter	VERB
-20000	20000	NUM
+20000	20000	DIGIT
 livres	livre	NOUN
 sans compter	sans compter	ADP
 la	le	DET
@@ -6304,7 +6306,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 estimait	estimer	VERB
 un	un	DET
 homme	homme	NOUN
-480	480	NUM
+480	480	DIGIT
 livre sterling	livre sterling	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
@@ -6617,7 +6619,7 @@ le	le	DET
 champ de bataille	champ de bataille	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 la	le	DET
 guerre	guerre	NOUN
@@ -7655,7 +7657,7 @@ guerre	guerre	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 la	le	DET
 guerre	guerre	NOUN
@@ -7853,9 +7855,9 @@ période	période	NOUN
 qui	qui	PRON
 va	aller	VERB
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 à	à	ADP
-1870	1870	NUM
+1870	1870	DIGIT
 .	.	PUNCTsent
 après	après	ADP
 quoi	quoi	PRON
@@ -7937,25 +7939,25 @@ peuples	peuple	NOUN
 :	:	PUNCTclause
 France	France	PROPN
 de	de	ADP
-1792	1792	NUM
--1793	-1793	NUM
+1792	1792	DIGIT
+-1793	-1793	DIGIT
 ,	,	PUNCTclause
 Espagne	Espagne	PROPN
 de	de	ADP
-1804	1804	NUM
--1814	-1814	NUM
+1804	1804	DIGIT
+-1814	-1814	DIGIT
 ,	,	PUNCTclause
 Russie	Russie	PROPN
 de	de	ADP
-1812	1812	NUM
+1812	1812	DIGIT
 ,	,	PUNCTclause
 Allemagne	Allemagne	PROPN
 de	de	ADP
-1813	1813	NUM
+1813	1813	DIGIT
 ,	,	PUNCTclause
 Europe	Europe	PROPN
 de	de	ADP
-1814	1814	NUM
+1814	1814	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 comporta	comporter	VERB
@@ -7984,7 +7986,7 @@ Moscou	Moscou	PROPN
 ,	,	PUNCTclause
 Leipzig	Leipzig	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 elle	elle	PRON
 fut	être	AUX
 nationale	national	ADJ
@@ -8009,9 +8011,9 @@ et	et	CCONJ
 des	un	ADP_DET
 prussiens	prussien	NOUN
 de	de	ADP
-1866	1866	NUM
+1866	1866	DIGIT
 ,	,	PUNCTclause
-1870	1870	NUM
+1870	1870	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 sera	être	AUX
@@ -8042,7 +8044,7 @@ la	le_PRON	PRON
 voyons	voir	VERB
 maintenant	maintenant	ADV
 (	(	PUNCTclause
-1903	1903	NUM
+1903	1903	DIGIT
 )	)	PUNCTclause
 encore	encore	ADV
 nationale	national	ADJ
@@ -8542,7 +8544,7 @@ passion	passion	NOUN
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 fut	être	AUX
 l'un	l'un	PRON
 des	un	ADP_DET
@@ -8557,7 +8559,7 @@ du	du	ADP_DET
 mythe	mythe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 la	le	DET
 guerre	guerre	NOUN
@@ -9034,7 +9036,7 @@ jours	jour	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 depuis	depuis	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 l'on	on	PRON
 assiste	assister	VERB
@@ -9212,9 +9214,9 @@ est	être	AUX
 déçu	décevoir	VERB
 .	.	PUNCTsent
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 à	à	ADP
-1918	1918	NUM
+1918	1918	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 explosion	explosion	NOUN
@@ -9385,7 +9387,7 @@ la	le	DET
 lutte	lutte	NOUN
 .	.	PUNCTsent
 à partir de	à partir de	ADP
-1920	1920	NUM
+1920	1920	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV
@@ -9564,7 +9566,7 @@ castration	castration	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 la	le	DET
 passion	passion	NOUN
@@ -9923,7 +9925,7 @@ l'	le_PRON	PRON
 a	avoir	AUX
 pratiquée	pratiquer	VERB
 depuis	depuis	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 ne	ne	ADV
 est	être	VERB
 que	que	ADV
@@ -10148,9 +10150,9 @@ la	le	DET
 nation	nation	NOUN
 .	.	PUNCTsent
 de	de	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 à	à	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 état-nation	État-nation	NOUN
@@ -10445,7 +10447,7 @@ homme	homme	NOUN
 je	je	PRON
 écrivais	écrire	VERB
 en	en	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 le	le	DET

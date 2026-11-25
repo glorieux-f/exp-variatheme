@@ -12,7 +12,7 @@ la	le	DET
 personne	personne	NOUN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -986,8 +986,8 @@ tiers	tiers	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 trouvent	trouver	VERB
-du même coup	du même coup	ADP
-objectivés	objectivé	NOUN
+du même coup	du même coup	ADV
+objectivés	objectiver	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 prisonniers	prisonnier	NOUN
@@ -1404,7 +1404,7 @@ une	un	DET
 présence	présence	NOUN
 extérieure	extérieur	ADJ
 .	.	PUNCTsent
-face à face	face à face	NOUN
+face à face	face à face	ADV
 avec	avec	ADP
 le	le	DET
 prochain	prochain	ADJ
@@ -1778,7 +1778,7 @@ troubler	troubler	VERB
 ma	mon	DET
 quiétude	quiétude	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 en définitive	en définitive	ADV
 ,	,	PUNCTclause
@@ -1863,7 +1863,7 @@ ce	ce	DET
 ma	mon	DET
 mort	mort	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 pour	pour	ADP
 cette	ce	DET
 seule	seul	ADJ

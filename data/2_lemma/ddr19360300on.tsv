@@ -15,7 +15,7 @@ des	un	ADP_DET
 navets	navet	NOUN
 (	(	PUNCTclause
 mars	mars	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -414,7 +414,7 @@ se	se	PRON
 vendre	vendre	VERB
 à	à	ADP
 plus de	plus de	DET
-2000	2000	NUM
+2000	2000	DIGIT
 exemplaires	exemplaire	NOUN
 :	:	PUNCTclause
 or	or	NOUN
@@ -453,7 +453,7 @@ de	de	ADP
 se	se	PRON
 vendre	vendre	VERB
 à	à	ADP
-3000	3000	NUM
+3000	3000	DIGIT
 exemplaires	exemplaire	NOUN
 au moins	au moins	ADV
 .	.	PUNCTsent
@@ -906,7 +906,7 @@ les	le	DET
 ?	?	PUNCTsent
 jusque	jusque	ADP
 en	en	PRON
-1930	1930	NUM
+1930	1930	DIGIT
 environ	environ	ADV
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
@@ -1151,7 +1151,7 @@ les	le	DET
 éditeurs	éditeur	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 lois	loi	NOUN
@@ -1204,7 +1204,7 @@ la	le	DET
 maison	maison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 le	le	DET
 déluge	déluge	NOUN
@@ -1295,7 +1295,7 @@ la	le	DET
 pensée	pensée	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 obligé	obliger	VERB
 de	de	ADP
@@ -1359,9 +1359,9 @@ habituel	habituel	ADJ
 aux	au	ADP_DET
 commissionnaires	commissionnaire	NOUN
 (	(	PUNCTclause
-40	40	NUM
+40	40	DIGIT
 ou	ou	CCONJ
-45	45	NUM
+45	45	DIGIT
 ,	,	PUNCTclause
 suivant	suivant	ADP
 les	le	DET
@@ -1410,9 +1410,9 @@ autorisé	autoriser	VERB
 à	à	ADP
 faire	faire	VERB
 diffuser	diffuser	VERB
-1000	1000	NUM
+1000	1000	DIGIT
 ou	ou	CCONJ
-10000	10000	NUM
+10000	10000	DIGIT
 exemplaires	exemplaire	NOUN
 de	de	ADP
 un	un	DET
@@ -1453,7 +1453,7 @@ livre	livre	NOUN
 est	être	AUX
 de	de	ADP
 environ	environ	ADV
-300	300	NUM
+300	300	DIGIT
 gr.	gr.	NOUN
 on	on	PRON
 voit	voir	VERB
@@ -1831,7 +1831,7 @@ iront	aller	VERB
 pas	pas	ADV
 au pire	au pire	ADV
 :	:	PUNCTclause
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 quelques	quelque	DET
 années	année	NOUN
 ,	,	PUNCTclause
@@ -1972,7 +1972,7 @@ ce	ce	DET
 domaine	domaine	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 les	le	DET
 institutions	institution	NOUN
@@ -2009,7 +2009,7 @@ l'	le	DET
 édition	édition	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 le	le	DET
 gigantisme	gigantisme	NOUN

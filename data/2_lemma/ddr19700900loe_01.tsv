@@ -18,9 +18,9 @@ Ain	Ain	PROPN
 France	France	PROPN
 ,	,	PUNCTclause
 le	le	DET
-21	21	NUM
+21	21	DIGIT
 février	février	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 albanaises	albanais	ADJ
@@ -396,7 +396,7 @@ Suisse	Suisse	PROPN
 des	un	DET
 albanais	albanais	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -936,7 +936,7 @@ les	le	DET
 comptaient	compter	VERB
 un peu	un peu	ADV
 plus de	plus de	DET
-200	200	NUM
+200	200	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -945,7 +945,7 @@ l'	le	DET
 URSS	URSS	PROPN
 un peu	un peu	ADV
 plus de	plus de	DET
-230	230	NUM
+230	230	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -954,16 +954,16 @@ trente	trente	NUM
 pays	pays	NOUN
 Europe	Europe	PROPN
 additionnés	additionner	VERB
-480	480	NUM
+480	480	DIGIT
 millions	million	NOUN
 (	(	PUNCTclause
 dont	dont	PRON
-360	360	NUM
+360	360	DIGIT
 à	à	ADP
 l'	le	DET
 ouest	ouest	NOUN
 ,	,	PUNCTclause
-120	120	NUM
+120	120	DIGIT
 à	à	ADP
 l'	le	DET
 est	est	NOUN
@@ -1158,7 +1158,7 @@ de	de	ADP
 une	un	DET
 nation	nation	NOUN
 de	de	ADP
-500	500	NUM
+500	500	DIGIT
 millions	million	NOUN
 en devenir	en devenir	ADJ
 ,	,	PUNCTclause
@@ -1320,7 +1320,7 @@ disait	dire	VERB
 Bertrand	Bertrand	PROPN
 Russell	Russell	PROPN
 en	en	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -1357,7 +1357,7 @@ entendre	entendre	VERB
 cela	cela	PRON
 commence	commencer	VERB
 en	en	ADP
-1308	1308	NUM
+1308	1308	DIGIT
 ,	,	PUNCTclause
 quand	quand	SCONJ
 Pierre	Pierre	PROPN
@@ -1517,7 +1517,7 @@ moine	moine	NOUN
 parisien	parisien	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1623	1623	NUM
+1623	1623	DIGIT
 ;	;	PUNCTclause
 le	le	DET
 «	«	PUNCTclause
@@ -1536,7 +1536,7 @@ Henri	Henri	PROPN
 IV	IV	NUM
 ,	,	PUNCTclause
 en	en	ADP
-1638	1638	NUM
+1638	1638	DIGIT
 ;	;	PUNCTclause
 le	le	DET
 réveil	réveil	NOUN
@@ -1552,7 +1552,7 @@ l'	le	DET
 morave	morave	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1645	1645	NUM
+1645	1645	DIGIT
 ;	;	PUNCTclause
 l'	le	DET
 Essai	Essai	PROPN
@@ -1580,7 +1580,7 @@ grand	grand	ADJ
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1692	1692	NUM
+1692	1692	DIGIT
 ;	;	PUNCTclause
 à	à	ADP
 quoi	quoi	PRON
@@ -1599,14 +1599,14 @@ abbé	abbé	NOUN
 de	de	ADP
 Saint-Pierre	Saint-Pierre	PROPN
 en	en	ADP
-1712	1712	NUM
+1712	1712	DIGIT
 et	et	CCONJ
 celui	celui	PRON
 de	de	ADP
 Emmanuel	Emmanuel	PROPN
 Kant	Kant	PROPN
 en	en	ADP
-1795	1795	NUM
+1795	1795	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 chacun	chacun	PRON
@@ -1706,7 +1706,7 @@ de	de	ADP
 Saint-Simon	Saint-Simon	PROPN
 publie	publier	VERB
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 un	un	DET
 plan	plan	NOUN
 que	que	SCONJ
@@ -2013,7 +2013,7 @@ que	que	PRON
 Coudenhove-Kalergi	Coudenhove-Kalergi	PROPN
 ,	,	PUNCTclause
 dès	dès	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 ,	,	PUNCTclause
 suscitera	susciter	VERB
 le	le	DET
@@ -2049,7 +2049,7 @@ la	le	DET
 SDN	SDN	NOUN
 en	en	ADP
 septembre	septembre	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 :	:	PUNCTclause
 la	le	DET
 SDN	SDN	NOUN
@@ -2082,7 +2082,7 @@ le	le	DET
 début	début	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 des	un	DET
 mouvements	mouvement	NOUN
@@ -2295,7 +2295,7 @@ des	un	ADP_DET
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
 printemps	printemps	NOUN
-1944	1944	NUM
+1944	1944	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 réunissent	réunir	VERB
@@ -2312,16 +2312,16 @@ quatre	quatre	NUM
 reprises	repris	NOUN
 ,	,	PUNCTclause
 les	le	DET
-31	31	NUM
+31	31	DIGIT
 mars	mars	NOUN
 ,	,	PUNCTclause
-29	29	NUM
+29	29	DIGIT
 avril	avril	NOUN
 ,	,	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 mai	mai	NOUN
 et	et	CCONJ
-7	7	NUM
+7	7	DIGIT
 juillet	juillet	NOUN
 ,	,	PUNCTclause
 des	un	DET
@@ -2594,7 +2594,7 @@ Montreux	Montreux	PROPN
 à	à	ADP
 l'	le	DET
 automne	automne	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 décident	décider	VERB
 de	de	ADP
@@ -2714,7 +2714,7 @@ au	au	ADP_DET
 mois	mois	NOUN
 de	de	ADP
 mai	mai	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tout	tout	PRON
@@ -3049,7 +3049,7 @@ se	se	PRON
 ajouter	ajouter	VERB
 ,	,	PUNCTclause
 dès	dès	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 ,	,	PUNCTclause
 l'	le	DET
 Euratom	Euratom	PROPN
@@ -3083,7 +3083,7 @@ crée	créer	VERB
 à	à	ADP
 Genève	Genève	PROPN
 dès	dès	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
 on	on	PRON
@@ -3893,11 +3893,11 @@ l'	le	DET
 armée	armée	NOUN
 rouge	rouge	ADJ
 :	:	PUNCTclause
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
-1956	1956	NUM
+1956	1956	DIGIT
 ,	,	PUNCTclause
-1968	1968	NUM
+1968	1968	DIGIT
 .	.	PUNCTsent
 la	le	DET
 stabilisation	stabilisation	NOUN
@@ -3974,7 +3974,7 @@ au début	au début	ADV
 de	de	ADP
 l'	le	DET
 été	été	NOUN
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 le	le	DET
@@ -4046,7 +4046,7 @@ réalités	réalité	NOUN
 ne	ne	ADV
 peut	pouvoir	VERB
 être	être	AUX
-traitée	traiter	VERB
+traitée	traité	ADJ
 sensément	sensément	ADV
 dans	dans	ADP
 un	un	DET

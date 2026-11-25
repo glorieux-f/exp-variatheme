@@ -17,7 +17,7 @@ liste	liste	NOUN
 Candide	Candide	PROPN
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -27,7 +27,7 @@ numéro	numéro	NOUN
 exceptionnel	exceptionnel	ADJ
 »	»	PUNCTclause
 du	du	ADP_DET
-8	8	NUM
+8	8	DIGIT
 septembre	septembre	NOUN
 de	de	ADP
 Candide	Candide	PROPN
@@ -167,7 +167,7 @@ surpasse	surpasser	VERB
 mais	mais	CCONJ
 il y a	il y a	VERB
 mis	mettre	VERB
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 —	—	PUNCTclause
 les	le	DET
@@ -210,7 +210,7 @@ sommes	être	AUX
 nous	nous	PRON
 encore	encore	ADV
 en	en	ADP
-1916	1916	NUM
+1916	1916	DIGIT
 ?	?	PUNCTsent
 se	se	PRON
 agit	agir	VERB
@@ -362,8 +362,7 @@ toute	toute	DET
 efficacité	efficacité	NOUN
 dès	dès	ADP
 la	le	DET
-2	2	NUM
-e	e	NOUN
+2e	2e	NUMord
 page	page	NOUN
 .	.	PUNCTsent
 il	il	PRON

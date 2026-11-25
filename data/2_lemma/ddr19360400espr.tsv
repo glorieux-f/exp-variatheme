@@ -8,12 +8,12 @@
 ↵↵	↵↵	PUNCTstruct
 Francfort	Francfort	PROPN
 ,	,	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 mars	mars	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 (	(	PUNCTclause
 avril	avril	NOUN
-1936	1936	NUM
+1936	1936	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -73,7 +73,7 @@ fait	faire	VERB
 la	le	DET
 Révolution	Révolution	PROPN
 de	de	ADP
-89	89	NUM
+89	89	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -343,7 +343,7 @@ dans	dans	ADP
 une	un	DET
 halle	halle	NOUN
 de	de	ADP
-30000	30000	NUM
+30000	30000	DIGIT
 places	place	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -404,7 +404,7 @@ matin	matin	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-45	45	NUM
+45	45	DIGIT
 salles	salle	NOUN
 où	où	PRON
 les	le	DET
@@ -749,7 +749,7 @@ la	le	DET
 clameur	clameur	NOUN
 instantanée	instantané	ADJ
 de	de	ADP
-30000	30000	NUM
+30000	30000	DIGIT
 hommes	homme	NOUN
 dressés	dresser	VERB
 de	de	ADP
@@ -832,7 +832,7 @@ de	de	ADP
 irrationalisme	irrationalisme	NOUN
 germanique	germanique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 et	et	CCONJ
 représentent	représenter	VERB
@@ -932,7 +932,7 @@ de	de	ADP
 combat	combat	NOUN
 ,	,	PUNCTclause
 avant	avant	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 ne	ne	ADV

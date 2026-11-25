@@ -17,9 +17,9 @@ chez	chez	ADP
 les	le	DET
 étudiants	étudiant	NOUN
 (	(	PUNCTclause
-16	16	NUM
+16	16	DIGIT
 janvier	janvier	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -201,7 +201,7 @@ réponses	réponse	NOUN
 ,	,	PUNCTclause
 recueillies	recueillir	VERB
 auprès de	auprès de	ADP
-700	700	NUM
+700	700	DIGIT
 étudiants	étudiant	NOUN
 environ	environ	ADV
 ,	,	PUNCTclause
@@ -801,7 +801,7 @@ se	se	PRON
 contenter	contenter	VERB
 de	de	ADP
 renvoyer	renvoyer	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 à	à	ADP
 une	un	DET
 lecture	lecture	NOUN
@@ -853,10 +853,10 @@ une	un	DET
 longue	long	ADJ
 conférence	conférence	NOUN
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 jours	jour	NOUN
 et	et	CCONJ
-4	4	NUM
+4	4	DIGIT
 nuits	nuit	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -939,7 +939,7 @@ le	le	DET
 groupe	groupe	NOUN
 le	le	DET
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 l'	le	DET
 Union	Union	PROPN
 Europe	Europe	PROPN

@@ -12,11 +12,11 @@ Europe	Europe	PROPN
 !	!	PUNCTsent
 —	—	PUNCTclause
 bilan	bilan	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 (	(	PUNCTclause
-26	26	NUM
+26	26	DIGIT
 décembre	décembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -244,7 +244,7 @@ puis	puis	CCONJ
 soudain	soudain	ADJ
 ,	,	PUNCTclause
 le	le	DET
-28	28	NUM
+28	28	DIGIT
 janvier	janvier	NOUN
 ,	,	PUNCTclause
 Bevin	Bevin	PROPN
@@ -263,13 +263,13 @@ principe	principe	NOUN
 acquis	acquérir	VERB
 .	.	PUNCTsent
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 mai	mai	NOUN
 ,	,	PUNCTclause
 les	le	DET
 ambassadeurs	ambassadeur	NOUN
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 nations	nation	NOUN
 signaient	signer	VERB
 à	à	ADP
@@ -281,7 +281,7 @@ du	du	ADP_DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 .	.	PUNCTsent
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
 se	se	PRON
 ouvrait	ouvrir	VERB
@@ -310,7 +310,7 @@ qui	qui	PRON
 furent	être	AUX
 transmises	transmettre	VERB
 aux	au	ADP_DET
-13	13	NUM
+13	13	DIGIT
 états	état	NOUN
 formant	former	VERB
 le	le	DET
@@ -796,7 +796,7 @@ penser	penser	VERB
 le	le	DET
 bilan	bilan	NOUN
 de	de	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX

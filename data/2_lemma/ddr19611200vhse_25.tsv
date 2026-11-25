@@ -6,7 +6,7 @@
 # title = 5. L’Europe des adversaires de l’empereur
 
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -122,9 +122,9 @@ de	de	ADP
 la	le	DET
 séance	séance	NOUN
 du	du	ADP_DET
-5	5	NUM
+5	5	DIGIT
 février	février	NOUN
-1814	1814	NUM
+1814	1814	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 congrès	congrès	NOUN
@@ -138,10 +138,9 @@ traité	traité	NOUN
 de	de	ADP
 Chaumont	Chaumont	PROPN
 ,	,	PUNCTclause
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 mars	mars	NOUN
-1814	1814	NUM
+1814	1814	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 extrait	extraire	VERB
@@ -151,9 +150,9 @@ Déclaration	Déclaration	PROPN
 de	de	ADP
 Vichy	Vichy	PROPN
 ,	,	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 mars	mars	NOUN
-1814	1814	NUM
+1814	1814	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 extrait	extraire	VERB
@@ -169,9 +168,9 @@ de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-1814	1814	NUM
+1814	1814	DIGIT
 et	et	CCONJ
-1815	1815	NUM
+1815	1815	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -360,7 +359,7 @@ influence	influence	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 est	être	AUX
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 Napoléon	Napoléon	PROPN
 vient	venir	VERB
 de	de	ADP
@@ -373,8 +372,8 @@ que	que	SCONJ
 Benjamin	Benjamin	PROPN
 Constant	Constant	PROPN
 (	(	PUNCTclause
-1767	1767	NUM
--1830	-1830	NUM
+1767	1767	DIGIT
+-1830	-1830	DIGIT
 )	)	PUNCTclause
 publie	publier	VERB
 son	son	DET
@@ -590,8 +589,8 @@ Henri	Henri	PROPN
 de	de	ADP
 Saint-Simon-Sandricourt	Saint-Simon-Sandricourt	PROPN
 (	(	PUNCTclause
-1760	1760	NUM
--1825	-1825	NUM
+1760	1760	DIGIT
+-1825	-1825	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 ancien	ancien	ADJ
@@ -742,7 +741,7 @@ deux	deux	NUM
 qualités	qualité	NOUN
 majeures	majeur	ADJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 il	il	PRON
 rompt	rompre	VERB
@@ -790,7 +789,7 @@ que	que	PRON
 ils	ils	PRON
 représenteront	représenter	VERB
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 il	il	PRON
 place	placer	VERB
@@ -860,8 +859,8 @@ Joseph	Joseph	PROPN
 de	de	ADP
 Maistre	Maistre	PROPN
 (	(	PUNCTclause
-1754	1754	NUM
--1821	-1821	NUM
+1754	1754	DIGIT
+-1821	-1821	DIGIT
 )	)	PUNCTclause
 né	naître	VERB
 en	en	ADP
@@ -1029,9 +1028,9 @@ il	il	PRON
 en effet	en effet	ADV
 ,	,	PUNCTclause
 le	le	DET
-9	9	NUM
+9	9	DIGIT
 août	août	NOUN
-1819	1819	NUM
+1819	1819	DIGIT
 (	(	PUNCTclause
 lettre	lettre	NOUN
 au	au	ADP_DET
@@ -1246,8 +1245,8 @@ baronne	baron	NOUN
 de	de	ADP
 Staël-Holstein	Staël-Holstein	PROPN
 (	(	PUNCTclause
-1766	1766	NUM
--1817	-1817	NUM
+1766	1766	DIGIT
+-1817	-1817	DIGIT
 )	)	PUNCTclause
 est	être	AUX
 aux	au	ADP_DET

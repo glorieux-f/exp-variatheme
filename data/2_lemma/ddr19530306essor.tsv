@@ -12,9 +12,9 @@ Europe	Europe	PROPN
 et	et	CCONJ
 neutralité	neutralité	NOUN
 (	(	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 mars	mars	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -32,7 +32,7 @@ deux	deux	NUM
 phrases	phrase	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 une	un	DET
 discussion	discussion	NOUN
@@ -55,7 +55,7 @@ l'	le	DET
 éviter	éviter	VERB
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 neutralité	neutralité	NOUN
@@ -492,7 +492,7 @@ réunir	réunir	VERB
 chez	chez	ADP
 nous	nous	PRON
 que	que	PRON
-2,5	2,5	NUM
+2,5	2,5	DIGIT
 des	un	ADP_DET
 voix	voix	NOUN
 électorales	électoral	ADJ
@@ -516,7 +516,7 @@ fonctionnaires	fonctionnaire	NOUN
 actions	action	NOUN
 légales	légal	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 si	si	SCONJ
@@ -884,7 +884,7 @@ mesurer	mesurer	VERB
 quotidiennement	quotidiennement	ADV
 ,	,	PUNCTclause
 depuis	depuis	ADP
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -971,10 +971,9 @@ dans	dans	ADP
 son	son	DET
 discours	discours	NOUN
 du	du	ADP_DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 août	août	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 à	à	ADP
 Genève	Genève	PROPN
 (	(	PUNCTclause
@@ -1000,7 +999,7 @@ Conseil fédéral	Conseil fédéral	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 le	le	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 de	de	ADP
 Genève	Genève	PROPN
 ,	,	PUNCTclause
@@ -1299,7 +1298,7 @@ ne	ne	ADV
 sont	être	AUX
 que	que	ADV
 de	de	ADP
-40	40	NUM
+40	40	DIGIT
 avec	avec	ADP
 les	le	DET
 six	six	NUM
@@ -1319,7 +1318,7 @@ négligeable	négligeable	ADJ
 ce	ce	DET
 client	client	NOUN
 n°	n°	SYM
-1	1	NUM
+1	1	DIGIT
 !	!	PUNCTsent
 )	)	PUNCTclause
 les	le	DET
@@ -1335,7 +1334,7 @@ qui	qui	PRON
 souriaient	sourire	VERB
 ,	,	PUNCTclause
 il y a	il y a	VERB
-2	2	NUM
+2	2	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 quand	quand	ADV
@@ -1403,7 +1402,7 @@ les	le	DET
 pour	pour	ADP
 proclamer	proclamer	VERB
 depuis	depuis	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 la	le	DET
 nécessité	nécessité	NOUN
 de	de	ADP
@@ -1451,7 +1450,7 @@ rappellent	rappeler	VERB
 l'	le	DET
 existence	existence	NOUN
 de	de	ADP
-15	15	NUM
+15	15	DIGIT
 divisions	division	NOUN
 Suisse	Suisse	PROPN
 (	(	PUNCTclause

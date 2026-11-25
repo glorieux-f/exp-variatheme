@@ -11,7 +11,7 @@ des	un	DET
 revues	revue	NOUN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -56,7 +56,7 @@ nom	nom	NOUN
 paraît	paraître	VERB
 souvent	souvent	ADV
 bien	bien	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 la	le	DET
 véritable	véritable	ADJ
 extrême	extrême	ADJ
@@ -373,9 +373,9 @@ le	le	DET
 fédéralisme	fédéralisme	NOUN
 (	(	PUNCTclause
 n°	n°	SYM
-2	2	NUM
+2	2	DIGIT
 ,	,	PUNCTclause
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 —	—	PUNCTclause
@@ -783,7 +783,7 @@ main	main	NOUN
 pour	pour	ADP
 la première fois	la première fois	ADV
 en	en	ADP
-1888	1888	NUM
+1888	1888	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX

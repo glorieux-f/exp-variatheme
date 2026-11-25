@@ -7,9 +7,9 @@
 
 ↵↵	↵↵	PUNCTstruct
 Suisse	Suisse	PROPN
-1975	1975	NUM
+1975	1975	DIGIT
 (	(	PUNCTclause
-1975	1975	NUM
+1975	1975	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -205,9 +205,9 @@ Suisse	Suisse	PROPN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 à	à	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 de	de	ADP
 ce	ce	DET
 siècle	siècle	NOUN
@@ -233,7 +233,7 @@ la	le	DET
 politique	politique	NOUN
 Suisse	Suisse	PROPN
 dès	dès	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 :	:	PUNCTclause
 neutralité	neutralité	NOUN
 et	et	CCONJ
@@ -303,7 +303,7 @@ traité	traité	NOUN
 de	de	ADP
 Vienne	Vienne	PROPN
 (	(	PUNCTclause
-1815	1815	NUM
+1815	1815	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -450,7 +450,7 @@ Genève	Genève	PROPN
 au début	au début	ADV
 de	de	ADP
 septembre	septembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 philosophe	philosophe	NOUN
@@ -843,7 +843,7 @@ dès	dès	ADP
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 neutralité	neutralité	NOUN
@@ -1501,7 +1501,7 @@ politique	politique	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1629,9 +1629,9 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 à	à	ADP
-1975	1975	NUM
+1975	1975	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 explique	expliquer	VERB
@@ -1693,7 +1693,7 @@ coopération	coopération	NOUN
 économique	économique	ADJ
 )	)	PUNCTclause
 dès	dès	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 puis	puis	CCONJ
 à	à	ADP
@@ -1730,11 +1730,11 @@ de	de	ADP
 la	le	DET
 santé	santé	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 dès	dès	ADP
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 Suisse	Suisse	PROPN
@@ -1745,7 +1745,7 @@ du	du	ADP_DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 signe	signer	VERB
@@ -1793,7 +1793,7 @@ scientifiques	scientifique	NOUN
 ,	,	PUNCTclause
 écologiques	écologique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 que	que	SCONJ
 les	le	DET
 réalités	réalité	NOUN
@@ -2050,7 +2050,7 @@ l'	le	DET
 fédéralisme	fédéralisme	NOUN
 institué	instituer	VERB
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
@@ -2097,8 +2097,8 @@ assumer	assumer	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1970	1970	NUM
--1980	-1980	NUM
+1970	1970	DIGIT
+-1980	-1980	DIGIT
 sont	être	AUX
 presque	presque	ADV
 toutes	tout	ADJ

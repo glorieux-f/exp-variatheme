@@ -26,17 +26,17 @@ siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
-18	18	NUM
+18	18	DIGIT
 au	au	ADP_DET
-22	22	NUM
+22	22	DIGIT
 septembre	septembre	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 avais	avoir	AUX
@@ -220,7 +220,7 @@ sessions	session	NOUN
 ↵↵	↵↵	PUNCTstruct
 au début	au début	ADV
 de	de	ADP
-1974	1974	NUM
+1974	1974	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 marquer	marquer	VERB
@@ -283,7 +283,7 @@ la	le	DET
 session	session	NOUN
 —	—	PUNCTclause
 unique	unique	ADJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 —	—	PUNCTclause
 se	se	PRON
 ouvrit	ouvrir	VERB
@@ -299,7 +299,7 @@ droits de l'homme	droits de l'homme	NOUN
 Strasbourg	Strasbourg	PROPN
 ,	,	PUNCTclause
 le	le	DET
-19	19	NUM
+19	19	DIGIT
 septembre	septembre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -425,7 +425,7 @@ l'	le_PRON	PRON
 avons	avoir	AUX
 fait	faire	VERB
 le	le	DET
-5	5	NUM
+5	5	DIGIT
 mai	mai	NOUN
 —	—	PUNCTclause
 un	un	DET
@@ -736,7 +736,7 @@ tenue	tenir	VERB
 à	à	ADP
 Rome	Rome	PROPN
 en	en	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 se	se	PRON
 était	être	AUX
@@ -1963,8 +1963,8 @@ reste	rester	VERB
 je	je	PRON
 l'	le_PRON	PRON
 intitulerais	intituler	VERB
-pour ma part	pour ma part	ADP
-rapport	rapport	NOUN
+pour ma part	pour ma part	ADV
+rapport	rapport	VERB
 sur	sur	ADP
 la	le	DET
 dégradation	dégradation	NOUN
@@ -2023,7 +2023,7 @@ conduit	conduire	VERB
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 décrirait	décrire	VERB
@@ -2338,7 +2338,7 @@ ce	ce	DET
 que	que	SCONJ
 l'on	on	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 sacrifier	sacrifier	VERB
 et	et	CCONJ
 quelles	quel	DET
@@ -2562,7 +2562,7 @@ une	un	DET
 production	production	NOUN
 multipliée	multiplier	VERB
 par	par	ADP
-16384	16384	NUM
+16384	16384	DIGIT
 en	en	ADP
 un peu	un peu	ADV
 moins d'une	moins d'une	DET
@@ -2574,7 +2574,7 @@ pure	pur	ADJ
 et	et	CCONJ
 cela	cela	PRON
 grâce à	grâce à	ADP
-24000	24000	NUM
+24000	24000	DIGIT
 centrale nucléaire	centrale nucléaire	NOUN
 «	«	PUNCTclause
 nécessaires	nécessaire	ADJ
@@ -2918,11 +2918,11 @@ conciles	concile	NOUN
 de	de	ADP
 Nicée	Nicée	PROPN
 en	en	ADP
-325	325	NUM
+325	325	DIGIT
 à	à	ADP
 Chalcédoine	Chalcédoine	PROPN
 en	en	ADP
-451	451	NUM
+451	451	DIGIT
 ,	,	PUNCTclause
 époque	époque	NOUN
 où	où	PRON
@@ -5683,7 +5683,7 @@ sont	être	AUX
 pas	pas	ADV
 en	en	ADP
 contradiction	contradiction	NOUN
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 l'	le	DET
 église	église	NOUN
 et	et	CCONJ
@@ -6652,7 +6652,7 @@ la	le	DET
 nature	nature	NOUN
 »	»	PUNCTclause
 en	en	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 ;	;	PUNCTclause
 il	il	PRON
@@ -7100,10 +7100,10 @@ le	le_PRON	PRON
 placer	placer	VERB
 .	.	PUNCTsent
 du	du	ADP_DET
-22	22	NUM
+22	22	DIGIT
 septembre	septembre	NOUN
 au	au	ADP_DET
-5	5	NUM
+5	5	DIGIT
 octobre	octobre	NOUN
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -7200,7 +7200,7 @@ je	je	PRON
 lis	lire	VERB
 ,	,	PUNCTclause
 p.	p.	PUNCT
-145	145	NUM
+145	145	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 la	le	DET
@@ -7356,7 +7356,7 @@ moi	moi	PRON
 .	.	PUNCTsent
 je	je	PRON
 écris	écrire	VERB
-16	16	NUM
+16	16	DIGIT
 pages	page	NOUN
 ,	,	PUNCTclause
 je	je	PRON

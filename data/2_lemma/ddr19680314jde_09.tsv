@@ -10,7 +10,7 @@
 sur	sur	ADP
 l'	le	DET
 automne	automne	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ou	ou	CCONJ
 la	le	DET
 naissance	naissance	NOUN
@@ -126,7 +126,7 @@ une	un	DET
 fente	fente	NOUN
 exacte	exact	ADJ
 :	:	PUNCTclause
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 pour	pour	ADP
 l'	le	DET
 oreille	oreille	NOUN
@@ -964,7 +964,7 @@ produit	produire	VERB
 ,	,	PUNCTclause
 de	de	ADP
 assez	assez	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 ce	ce	PRON
 que	que	PRON
 on	on	PRON
@@ -1253,7 +1253,7 @@ de	de	ADP
 banlieue	banlieue	NOUN
 neuve	neuf	ADJ
 .	.	PUNCTsent
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 le	le	DET
 sort	sort	NOUN
 veut	vouloir	VERB
@@ -1323,7 +1323,7 @@ Goethe	Goethe	PROPN
 ,	,	PUNCTclause
 fin	fin	NOUN
 février	février	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 pour	pour	ADP
 le	le	DET
@@ -1597,7 +1597,7 @@ ce	ce	DET
 jour	jour	NOUN
 de	de	ADP
 février	février	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 ce	ce	DET
@@ -1940,7 +1940,7 @@ personnalisme	personnalisme	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 militant	militer	VERB
@@ -2005,7 +2005,7 @@ tu	tu	PRON
 toi	toi	PRON
 ?	?	PUNCTsent
 —	—	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -2200,7 +2200,7 @@ démarre	démarrer	VERB
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 juin	juin	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 publie	publier	VERB
@@ -2341,7 +2341,7 @@ de	de	ADP
 un	un	DET
 homme	homme	NOUN
 de	de	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 et	et	CCONJ
 qui	qui	PRON
 veut	vouloir	VERB
@@ -3624,7 +3624,7 @@ pages	page	NOUN
 ,	,	PUNCTclause
 corrections	correction	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 sur	sur	ADP
 un	un	DET
 tout	tout	ADV
@@ -4164,7 +4164,7 @@ Paulhan	Paulhan	PROPN
 de	de	ADP
 retour	retour	NOUN
 le	le	DET
-6	6	NUM
+6	6	DIGIT
 octobre	octobre	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -4174,8 +4174,7 @@ devant	devant	ADP
 être	être	AUX
 remis	remettre	VERB
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 novembre	novembre	NOUN
 en principe	en principe	ADV
 ,	,	PUNCTclause
@@ -4241,10 +4240,9 @@ collectives	collectif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 décembre	décembre	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 Cahier	Cahier	PROPN
@@ -4344,7 +4342,7 @@ pour	pour	ADP
 la	le	DET
 jeunesse	jeunesse	NOUN
 de	de	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 conflit	conflit	NOUN
@@ -4668,7 +4666,7 @@ voici	voici	ADP
 le	le	DET
 Plan	Plan	PROPN
 ,	,	PUNCTclause
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 reprendre	reprendre	VERB
 l'	le	DET
 entreprise	entreprise	NOUN
@@ -5365,7 +5363,7 @@ réussir	réussir	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce	n'est-ce	VERB
+N'est-ce	N'est-ce	PROPN
 donc	donc	ADV
 plus	plus	ADV
 que	que	SCONJ
@@ -5594,7 +5592,7 @@ indiquerai	indiquer	VERB
 trois	trois	NUM
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 la	le	DET
 seule	seul	ADJ
@@ -5817,7 +5815,7 @@ acte	acte	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 le	le	DET
 matérialisme	matérialisme	NOUN
@@ -5946,7 +5944,7 @@ la	le	DET
 révolution	révolution	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	PUNCT
 la	le	DET
 conception	conception	NOUN
@@ -6143,7 +6141,7 @@ compte	compter	VERB
 cette	ce	DET
 époque	époque	NOUN
 moins de	moins de	DET
-3	3	NUM
+3	3	DIGIT
 millions	million	NOUN
 de	de	ADP
 ouvriers	ouvrier	NOUN
@@ -6151,7 +6149,7 @@ sur	sur	ADP
 une	un	DET
 population	population	NOUN
 de	de	ADP
-160	160	NUM
+160	160	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -6168,12 +6166,12 @@ brimée	brimer	VERB
 .	.	PUNCTsent
 en	en	ADP
 février	février	NOUN
-1917	1917	NUM
+1917	1917	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 bolchevistes	bolcheviste	NOUN
 sont	être	AUX
-200	200	NUM
+200	200	DIGIT
 .	.	PUNCTsent
 en	en	ADP
 octobre	octobre	NOUN
@@ -6189,7 +6187,7 @@ les	le_PRON	PRON
 Russies	Russies	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 parti	parti	NOUN
@@ -6364,7 +6362,7 @@ est	être	AUX
 la	le	DET
 révolte	révolte	NOUN
 de	de	ADP
-89	89	NUM
+89	89	DIGIT
 dans	dans	ADP
 ce	ce	DET
 que	que	SCONJ
@@ -7250,7 +7248,7 @@ page	page	NOUN
 datée	dater	VERB
 de	de	ADP
 février	février	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 je	je	PRON
@@ -7568,7 +7566,7 @@ très	très	ADV
 complètement	complètement	ADV
 .	.	PUNCTsent
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 novembre	novembre	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -7617,9 +7615,9 @@ unique	unique	ADJ
 (	(	PUNCTclause
 Europe	Europe	PROPN
 du	du	ADP_DET
-15	15	NUM
+15	15	DIGIT
 janvier	janvier	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 il	il	PRON
@@ -7652,7 +7650,7 @@ une	un	DET
 confusion	confusion	NOUN
 propice	propice	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 bref	bref	INTJ
 ,	,	PUNCTclause
@@ -7825,7 +7823,7 @@ me	me	PRON
 adressait	adresser	VERB
 Paulhan	Paulhan	PROPN
 le	le	DET
-9	9	NUM
+9	9	DIGIT
 décembre	décembre	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -7915,7 +7913,7 @@ de	de	ADP
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Paris	Paris	PROPN
@@ -8145,7 +8143,7 @@ du	du	ADP_DET
 stalinisme	stalinisme	NOUN
 insultent	insulter	VERB
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 en	en	ADP
 annonçant	annoncer	VERB
 que	que	SCONJ
@@ -8268,7 +8266,7 @@ qui	qui	PRON
 doit	devoir	VERB
 dater	dater	VERB
 de	de	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON
@@ -8304,7 +8302,7 @@ de	de	ADP
 la	le	DET
 Résistance	Résistance	PROPN
 (	(	PUNCTclause
-1944	1944	NUM
+1944	1944	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 du	du	ADP_DET
@@ -8313,7 +8311,7 @@ fédéralisme	fédéralisme	NOUN
 de	de	ADP
 Montreux	Montreux	PROPN
 (	(	PUNCTclause
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 du	du	ADP_DET
@@ -8325,15 +8323,15 @@ Europe	Europe	PROPN
 la	le	DET
 Haye	Haye	PROPN
 (	(	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 voici	voici	ADP
 les	le	DET
 articles	article	NOUN
-9	9	NUM
+9	9	DIGIT
 à	à	ADP
-13	13	NUM
+13	13	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTclause
 ix	ix	NOUN
@@ -8464,7 +8462,7 @@ voir	voir	VERB
 aussi	aussi	ADV
 le	le	DET
 n°	n°	SYM
-15	15	NUM
+15	15	DIGIT
 de	de	ADP
 L'Ordre nouveau	L'Ordre nouveau	DET
 intitulé	intitulé	NOUN
@@ -8479,7 +8477,7 @@ fédéralisme	fédéralisme	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 comme	comme	SCONJ
@@ -8526,7 +8524,7 @@ Jacques	Jacques	PROPN
 Lefrancq	Lefrancq	PROPN
 ,	,	PUNCTclause
 vers	vers	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 Oser	Oser	PROPN
@@ -8536,7 +8534,7 @@ recueil	recueil	NOUN
 posthume	posthume	ADJ
 publie	publier	VERB
 en	en	ADP
-1967	1967	NUM
+1967	1967	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -8555,7 +8553,7 @@ mouvements	mouvement	NOUN
 fédéralisme	fédéralisme	NOUN
 Europe	Europe	PROPN
 à partir de	à partir de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 ceux	ceux	PRON
 des	un	ADP_DET
@@ -8668,14 +8666,14 @@ surréalisme	surréalisme	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1920	1920	NUM
+1920	1920	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 personnalisme	personnalisme	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 le premier	le premier	PRON
 a	avoir	AUX
@@ -8832,7 +8830,7 @@ Desjardins	Desjardins	PROPN
 organisa	organiser	VERB
 en	en	ADP
 février	février	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 rue	rue	NOUN
 Visconti	Visconti	PROPN
@@ -8943,7 +8941,7 @@ circonstances	circonstance	NOUN
 de	de	ADP
 l'	le	DET
 automne	automne	NOUN
-1932	1932	NUM
+1932	1932	DIGIT
 réponde	répondre	VERB
 à	à	ADP
 la	le	DET
@@ -9106,7 +9104,7 @@ Gurvitch	Gurvitch	PROPN
 J.	J.	PROPN
 Wahl	Wahl	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 qui	qui	PRON
 publiait	publier	VERB
@@ -9292,7 +9290,7 @@ bilan	bilan	NOUN
 de	de	ADP
 l'	le	DET
 été	été	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 une	un	DET
 petite	petit	ADJ

@@ -18,7 +18,7 @@ séparés	séparer	VERB
 !	!	PUNCTsent
 (	(	PUNCTclause
 avril-mai	avril-mai	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -729,11 +729,11 @@ va	aller	VERB
 diminuer	diminuer	VERB
 très	très	ADV
 rapidement	rapidement	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 à	à	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 par rapport à	par rapport à	ADP
 populations	population	NOUN
 des	un	ADP_DET
@@ -747,9 +747,9 @@ croissance	croissance	NOUN
 démographique	démographique	ADJ
 oscille	osciller	VERB
 entre	entre	ADP
-3	3	NUM
+3	3	DIGIT
 et	et	CCONJ
-3,5	3,5	NUM
+3,5	3,5	DIGIT
 .	.	PUNCTsent
 un	un	DET
 taux	taux	NOUN
@@ -767,7 +767,7 @@ Europe	Europe	PROPN
 ce	ce	PRON
 est	être	AUX
 plus de	plus de	DET
-400	400	NUM
+400	400	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -860,7 +860,7 @@ famine	famine	NOUN
 à partir de	à partir de	ADP
 l'	le	DET
 année	année	NOUN
-1980	1980	NUM
+1980	1980	DIGIT
 ,	,	PUNCTclause
 autrement dit	autrement dit	ADV
 dès maintenant	dès maintenant	ADV
@@ -1151,7 +1151,7 @@ ouest	ouest	NOUN
 ce	ce	PRON
 est	être	AUX
 plus de	plus de	DET
-400	400	NUM
+400	400	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1163,11 +1163,11 @@ ne	ne	ADV
 en	en	PRON
 comptent	compter	VERB
 que	que	ADV
-220	220	NUM
+220	220	DIGIT
 et	et	CCONJ
 la	le	DET
 Russie	Russie	PROPN
-250	250	NUM
+250	250	DIGIT
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 alors	alors	ADV
@@ -2237,7 +2237,7 @@ mais	mais	CCONJ
 la	le	DET
 région	région	NOUN
 ?	?	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 contradictoire	contradictoire	ADJ
 de	de	ADP
 vouloir	vouloir	VERB

@@ -11,10 +11,10 @@ sur	sur	ADP
 Bernard	Bernard	PROPN
 Barbey	Barbey	PROPN
 (	(	PUNCTclause
-7	7	NUM
--8	-8	AUX
+7	7	DIGIT
+-8	-8	DIGIT
 février	février	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -407,7 +407,7 @@ l'	le	DET
 armée	armée	NOUN
 France	France	PROPN
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 ce	ce	DET
 ne	ne	ADV
@@ -489,7 +489,7 @@ l'on	on	PRON
 sentait	sentir	VERB
 si	si	ADV
 naturellement	naturellement	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 se	se	PRON
 oublier	oublier	VERB
 lui-même	lui-même	PRON

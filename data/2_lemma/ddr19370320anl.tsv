@@ -11,9 +11,9 @@ une	un	DET
 littérature	littérature	NOUN
 personnalisme	personnalisme	NOUN
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 mars	mars	NOUN
-1937	1937	NUM
+1937	1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -60,7 +60,7 @@ nos	nos	DET
 gloires	gloire	NOUN
 y	y	PRON
 sont	être	AUX
-traitées	traiter	VERB
+traitées	traité	ADJ
 cavalièrement	cavalièrement	ADV
 (	(	PUNCTclause
 Maurois-Mauriac	Maurois-Mauriac	PROPN
@@ -155,9 +155,9 @@ revenaient	revenir	VERB
 du	du	ADP_DET
 front	front	NOUN
 —	—	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 à	à	ADP
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 —	—	PUNCTclause
 connut	connaître	VERB
@@ -258,7 +258,7 @@ jusque	jusque	ADP
 la	le	DET
 crise	crise	NOUN
 de	de	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 nous	nous	PRON
@@ -645,7 +645,7 @@ meublera	meubler	VERB
 la	le	DET
 génération	génération	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON

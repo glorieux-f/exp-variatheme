@@ -405,7 +405,7 @@ et	et	CCONJ
 plus	plus	ADV
 précisément	précisément	ADV
 depuis	depuis	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 face	face	NOUN
@@ -766,7 +766,7 @@ eux	eux	PRON
 aussi	aussi	ADV
 par	par	ADP
 d'autres	d'autre	PRON
-traités	traiter	VERB
+traités	traité	ADJ
 plus	plus	ADV
 anciens	ancien	ADJ
 ,	,	PUNCTclause
@@ -1174,7 +1174,7 @@ fait	faire	VERB
 serment	serment	NOUN
 ,	,	PUNCTclause
 le	le	DET
-2	2	NUM
+2	2	DIGIT
 septembre	septembre	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -1443,7 +1443,7 @@ neutralité	neutralité	NOUN
 solennellement	solennellement	ADV
 garantie	garantir	VERB
 depuis	depuis	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 par	par	ADP
 toutes	toutes	DET
 les	le_PRON	PRON
@@ -1453,7 +1453,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 voilà	voilà	ADP
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 trois	trois	NUM
 belles	beau	ADJ
@@ -1494,7 +1494,7 @@ en	en	ADP
 ce	ce	DET
 début	début	NOUN
 de	de	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 convient	convenir	VERB
@@ -2469,7 +2469,7 @@ nous	nous	PRON
 ,	,	PUNCTclause
 avant	avant	ADP
 toute	toute	DET
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 comme	comme	ADP
 un	un	DET
@@ -3216,7 +3216,7 @@ ce	ce	DET
 mois	mois	NOUN
 de	de	ADP
 janvier	janvier	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 sont	être	AUX
 avant	avant	ADP
@@ -4653,7 +4653,7 @@ on	on	PRON
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 les	le_PRON	PRON
-traités	traiter	VERB
+traités	traité	NOUN
 nous	nous	PRON
 y	y	PRON
 forcent	forcer	VERB
@@ -4851,8 +4851,8 @@ qui	qui	PRON
 put	pouvoir	VERB
 jouer un rôle	jouer un rôle	VERB
 en	en	ADP
-1914	1914	NUM
--1918	-1918	NUM
+1914	1914	DIGIT
+-1918	-1918	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 crois	croire	VERB
@@ -5278,9 +5278,9 @@ de	de	ADP
 la	le	DET
 déclaration	déclaration	NOUN
 du	du	ADP_DET
-20	20	NUM
+20	20	DIGIT
 mars	mars	NOUN
-1815	1815	NUM
+1815	1815	DIGIT
 reconnaissent	reconnaître	VERB
 authentiquement	authentiquement	ADV
 par	par	ADP
@@ -5870,7 +5870,7 @@ est	être	AUX
 pas	pas	ADV
 sans	sans	ADP
 raison	raison	NOUN
-non plus que	non plus que	ADP
+non plus que	non plus que	CCONJ
 je	je	PRON
 ai	avoir	AUX
 voulu	vouloir	VERB
@@ -6789,7 +6789,7 @@ des	un	DET
 chrétiens	chrétien	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 travaillons	travailler	VERB
 tout	tout	PRON
@@ -6850,7 +6850,7 @@ combat	combat	NOUN
 et	et	CCONJ
 de	de	ADP
 être	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 leur	leur	DET
 porter	porter	VERB
 main-forte	main-forte	NOUN
@@ -7372,7 +7372,7 @@ immédiat	immédiat	ADJ
 nul	nul	ADJ
 besoin	besoin	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 de	de	ADP
 attendre	attendre	VERB

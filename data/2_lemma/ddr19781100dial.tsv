@@ -14,7 +14,7 @@ de	de	ADP
 Rougemont	Rougemont	PROPN
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1978	1978	NUM
+1978	1978	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -174,7 +174,7 @@ métiers	métier	NOUN
 l'	le	DET
 Ofiamt	Ofiamt	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 partis	parti	NOUN
@@ -751,9 +751,9 @@ l'	le	DET
 Isère	Isère	PROPN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 )	)	PUNCTclause
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 surgénérateur	surgénérateur	NOUN
 prévu	prévoir	VERB
 à	à	ADP
@@ -810,7 +810,7 @@ les	le	DET
 autres	autre	ADJ
 (	(	PUNCTclause
 les	le	DET
-4000	4000	NUM
+4000	4000	DIGIT
 savants	savant	NOUN
 groupés	grouper	VERB
 en	en	ADP
@@ -938,8 +938,8 @@ le	le	DET
 Jura	Jura	PROPN
 bernois	bernois	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-il	il	PRON
+etc.	etc.	X
+il	il	X
 est	être	AUX
 certes	certes	ADV
 très	très	ADV
@@ -1037,7 +1037,7 @@ où	où	PRON
 une	un	DET
 loi	loi	NOUN
 de	de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 interdit	interdire	VERB
 l'	le	DET
 enseignement	enseignement	NOUN
@@ -1485,7 +1485,7 @@ est	être	AUX
 l'	le	DET
 addition	addition	NOUN
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 cultures	culture	NOUN
 nationales	national	ADJ
 ,	,	PUNCTclause

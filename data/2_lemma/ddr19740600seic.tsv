@@ -13,7 +13,7 @@ des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
 juin-juillet	juin-juillet	NOUN
-1974	1974	NUM
+1974	1974	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -312,7 +312,7 @@ Suisse	Suisse	PROPN
 et	et	CCONJ
 France	France	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 toutes	tout	ADJ
 ces	ce	DET
@@ -344,8 +344,8 @@ côté	côté	NOUN
 le	le	DET
 Marché commun	Marché commun	PROPN
 en	en	ADP
-1960	1960	NUM
--1961	-1961	NUM
+1960	1960	DIGIT
+-1961	-1961	DIGIT
 a	avoir	AUX
 commencé	commencer	VERB
 à	à	ADP
@@ -371,7 +371,7 @@ pour	pour	ADP
 la	le	DET
 France	France	PROPN
 ,	,	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 grandes	grand	ADJ
 régions	région	NOUN
 .	.	PUNCTsent
@@ -380,7 +380,7 @@ or	or	NOUN
 ,	,	PUNCTclause
 sur	sur	ADP
 les	le	DET
-9	9	NUM
+9	9	DIGIT
 ,	,	PUNCTclause
 deux	deux	NUM
 seulement	seulement	ADV
@@ -1087,12 +1087,12 @@ que	que	SCONJ
 faire	faire	VERB
 en	en	ADP
 Europe	Europe	PROPN
-300	300	NUM
+300	300	DIGIT
 mini	mini	NOUN
 États-nations	États-nations	PROPN
 ,	,	PUNCTclause
 au lieu de	au lieu de	ADP
-25	25	NUM
+25	25	DIGIT
 états-nations	État-nation	NOUN
 serait	être	AUX
 aggraver	aggraver	VERB
@@ -1412,7 +1412,7 @@ amicale	amical	ADJ
 .	.	PUNCTsent
 or	or	NOUN
 depuis	depuis	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -2006,14 +2006,14 @@ absolue	absolu	ADJ
 être	être	AUX
 stoppées	stopper	VERB
 à	à	ADP
-1	1	NUM
+1	1	DIGIT
 h	h	NOUN
 de	de	ADP
 leur	leur	DET
 victoire	victoire	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-1	1	NUM
+1	1	DIGIT
 h	h	NOUN
 du	du	ADP_DET
 Caire	Caire	PROPN
@@ -2501,11 +2501,11 @@ décréter	décréter	VERB
 :	:	PUNCTclause
 on	on	PRON
 fera	faire	VERB
-21	21	NUM
+21	21	DIGIT
 régions	région	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-9	9	NUM
+9	9	DIGIT
 comme	comme	ADP
 le	le	DET
 proposait	proposer	VERB
@@ -2625,19 +2625,19 @@ Bavière	Bavière	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 a	avoir	AUX
-12	12	NUM
+12	12	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 et	et	CCONJ
-71000	71000	NUM
+71000	71000	DIGIT
 km2	km2	PROPN
 ,	,	PUNCTclause
 la	le	DET
 Rhénanie-Westphalie	Rhénanie-Westphalie	PROPN
 qui	qui	PRON
 a	avoir	AUX
-19	19	NUM
+19	19	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -2658,7 +2658,7 @@ demi-million	demi-million	DET
 de	de	ADP
 habitants	habitant	NOUN
 et	et	CCONJ
-740	740	NUM
+740	740	DIGIT
 km2	km2	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4102,7 +4102,7 @@ une	un	DET
 chose	chose	NOUN
 qui	qui	PRON
 ne	ne	ADV
-cadre	cadrer	VERB
+cadre	cadre	NOUN
 absolument	absolument	ADV
 pas	pas	ADV
 avec	avec	ADP
@@ -4295,7 +4295,7 @@ dans	dans	ADP
 le	le	DET
 Nord	Nord	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 vous	vous	PRON
 avez	avoir	VERB
 des	un	DET
@@ -4528,7 +4528,7 @@ de	de	ADP
 un	un	DET
 texte	texte	NOUN
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 pages	page	NOUN
 dactylographiées	dactylographier	VERB
 du	du	ADP_DET
@@ -4900,10 +4900,10 @@ humain	humain	ADJ
 passerait	passer	VERB
 ainsi	ainsi	ADV
 de	de	ADP
-30	30	NUM
+30	30	DIGIT
 cm	cm	NOUN
 à	à	ADP
-1,75	1,75	NUM
+1,75	1,75	DIGIT
 m	m	NOUN
 en	en	ADP
 vingt	vingt	NUM
@@ -4914,10 +4914,10 @@ atteindrait	atteindre	VERB
 une	un	DET
 hauteur	hauteur	NOUN
 de	de	ADP
-2000	2000	NUM
+2000	2000	DIGIT
 m	m	NOUN
 vers	vers	ADP
-40	40	NUM
+40	40	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -4985,7 +4985,7 @@ vite	vite	ADV
 que	que	SCONJ
 elles	elles	PRON
 parviendraient	parvenir	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
@@ -5195,7 +5195,7 @@ faut	falloir	VERB
 la	le	DET
 multiplier	multiplier	VERB
 par	par	ADP
-16384	16384	NUM
+16384	16384	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 qui	qui	PRON
@@ -6366,10 +6366,10 @@ Genevois	Genevois	PROPN
 ,	,	PUNCTclause
 je	je	PRON
 crois	croire	VERB
-27	27	NUM
+27	27	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
-44	44	NUM
+44	44	DIGIT
 de	de	ADP
 Confédérés	Confédérés	PROPN
 ,	,	PUNCTclause
@@ -6435,7 +6435,7 @@ Genève	Genève	PROPN
 qui	qui	PRON
 votaient	voter	VERB
 à	à	ADP
-80	80	NUM
+80	80	DIGIT
 chez	chez	ADP
 eux	eux	PRON
 dans	dans	ADP
@@ -6447,9 +6447,9 @@ une	un	DET
 génération	génération	NOUN
 votent	voter	VERB
 à	à	ADP
-20	20	NUM
+20	20	DIGIT
 à	à	ADP
-25	25	NUM
+25	25	DIGIT
 comme	comme	ADP
 les	le	DET
 Genevois	Genevois	PROPN
@@ -6458,7 +6458,7 @@ ont	avoir	AUX
 toujours	toujours	ADV
 fait	faire	VERB
 depuis	depuis	ADP
-1830	1830	NUM
+1830	1830	DIGIT
 .	.	PUNCTsent
 ceci	ceci	PRON
 pour	pour	ADP
@@ -6746,14 +6746,14 @@ la	le	DET
 population	population	NOUN
 approcherait	approcher	VERB
 des	un	ADP_DET
-100000	100000	NUM
+100000	100000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 une	un	DET
 partie	partie	NOUN
 émigrerait	émigrer	VERB
 (	(	PUNCTclause
-10000	10000	NUM
+10000	10000	DIGIT
 personnes	personne	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -6779,7 +6779,7 @@ ne	ne	ADV
 a	avoir	AUX
 jamais	jamais	ADV
 dépassé	dépasser	VERB
-100000	100000	NUM
+100000	100000	DIGIT
 habitants	habitant	NOUN
 —	—	PUNCTclause
 ce	ce	PRON
@@ -6827,7 +6827,7 @@ comme	comme	ADP
 Antioche	Antioche	PROPN
 où	où	PRON
 il y a	il y a	VERB
-25	25	NUM
+25	25	DIGIT
 km	km	NOUN
 de	de	ADP
 rues	rue	NOUN
@@ -7561,7 +7561,7 @@ ville	ville	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-50000	50000	NUM
+50000	50000	DIGIT
 habitants	habitant	NOUN
 .	.	PUNCTsent
 dès que	dès que	SCONJ
@@ -7593,14 +7593,14 @@ cependant	cependant	ADV
 une	un	DET
 question	question	NOUN
 :	:	PUNCTclause
-50000	50000	NUM
+50000	50000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 cela	cela	PRON
 doit	devoir	VERB
 faire	faire	VERB
 à peu près	à peu près	ADV
-15000	15000	NUM
+15000	15000	DIGIT
 employés	employé	NOUN
 .	.	PUNCTsent
 cela	cela	PRON
@@ -7954,7 +7954,7 @@ que	que	SCONJ
 une	un	DET
 augmentation	augmentation	NOUN
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 du	du	ADP_DET
 salaire	salaire	NOUN
 .	.	PUNCTsent
@@ -8179,7 +8179,7 @@ ressources	ressource	NOUN
 financières	financier	ADJ
 propres	propre	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

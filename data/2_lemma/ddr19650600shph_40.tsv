@@ -21,7 +21,7 @@ seconde	second	ADJ
 guerre mondiale	guerre mondiale	NOUN
 jusque	jusque	ADP
 aux environs de	aux environs de	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 faut	falloir	VERB
@@ -122,7 +122,7 @@ micro	micro	NOUN
 ,	,	PUNCTclause
 en	en	ADP
 février	février	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 au	au	ADP_DET
 cours	cours	NOUN
@@ -148,7 +148,7 @@ appelait	appeler	VERB
 la	le	DET
 Ceca	Ceca	PROPN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 ce	ce	DET
@@ -159,7 +159,7 @@ pas	pas	ADV
 réalisable	réalisable	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 il	il	PRON
@@ -326,7 +326,7 @@ elle	elle	PRON
 relevait	relever	VERB
 en effet	en effet	ADV
 des	un	DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 ,	,	PUNCTclause
 plutôt	plutôt	ADV
 mal	mal	ADV
@@ -575,7 +575,7 @@ distingue	distinguer	VERB
 encore	encore	ADV
 parmi	parmi	ADP
 les	le	DET
-127	127	NUM
+127	127	DIGIT
 nations	nation	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
@@ -777,7 +777,7 @@ politique	politique	NOUN
 étrangère	étranger	ADJ
 ,	,	PUNCTclause
 dès	dès	ADP
-1945	1945	NUM
+1945	1945	DIGIT
 ,	,	PUNCTclause
 M.	M.	NOUN
 Max	Max	PROPN
@@ -909,7 +909,7 @@ contre	contre	ADP
 elle	elle	PRON
 ,	,	PUNCTclause
 —	—	PUNCTclause
-c'est-à-dire	c'est-à-dire	NOUN
+c'est-à-dire	c'est-à-dire	CCONJ
 contre	contre	ADP
 son	son	DET
 essence	essence	NOUN
@@ -942,7 +942,7 @@ l'on	on	PRON
 pourrait	pouvoir	VERB
 ajouter	ajouter	VERB
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 si	si	SCONJ
@@ -1000,7 +1000,7 @@ leur	leur	DET
 retour	retour	NOUN
 à l'avenir	à l'avenir	ADV
 ;	;	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 la	le	DET
@@ -1050,7 +1050,7 @@ les	le	DET
 puissances	puissance	NOUN
 garantirent	garantir	VERB
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 a	avoir	AUX
@@ -1484,7 +1484,7 @@ connus	connaître	VERB
 .	.	PUNCTsent
 en	en	ADP
 mai	mai	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
@@ -1492,17 +1492,17 @@ nos	nos	DET
 importations	importation	NOUN
 provenaient	provenir	VERB
 pour	pour	ADP
-65,3	65,3	NUM
+65,3	65,3	DIGIT
 des	un	ADP_DET
 Six	Six	NUM
 ,	,	PUNCTclause
 pour	pour	ADP
-13,4	13,4	NUM
+13,4	13,4	DIGIT
 des	un	ADP_DET
 Sept	Sept	NUM
 ,	,	PUNCTclause
 pour	pour	ADP
-21,3	21,3	NUM
+21,3	21,3	DIGIT
 du reste	du reste	ADV
 du	du	ADP_DET
 monde	monde	NOUN
@@ -1511,8 +1511,8 @@ de	de	ADP
 nos	nos	DET
 exportations	exportation	NOUN
 ,	,	PUNCTclause
-2	2	NUM
-3	3	NUM
+2	2	DIGIT
+3	3	DIGIT
 allaient	aller	VERB
 à	à	ADP
 l'	le	DET
@@ -1535,7 +1535,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 de	de	ADP
-447	447	NUM
+447	447	DIGIT
 millions	million	NOUN
 )	)	PUNCTclause
 tandis que	tandis que	SCONJ
@@ -1544,7 +1544,7 @@ elle	elle	PRON
 bénéficitaire	bénéficitaire	ADJ
 (	(	PUNCTclause
 de	de	ADP
-51	51	NUM
+51	51	DIGIT
 millions	million	NOUN
 )	)	PUNCTclause
 avec	avec	ADP
@@ -1605,14 +1605,14 @@ a	avoir	AUX
 dû	devoir	VERB
 passer	passer	VERB
 de	de	ADP
-90000	90000	NUM
+90000	90000	DIGIT
 personnes	personne	NOUN
 en	en	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 à	à	ADP
-800000	800000	NUM
+800000	800000	DIGIT
 en	en	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 .	.	PUNCTsent
 que	que	PRON
 peuvent	pouvoir	VERB
@@ -1769,9 +1769,9 @@ que	que	SCONJ
 le	le	DET
 déclarait	déclarer	VERB
 le	le	DET
-3	3	NUM
+3	3	DIGIT
 mai	mai	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 M.	M.	NOUN
 Homberger	Homberger	PROPN
 ,	,	PUNCTclause
@@ -1926,7 +1926,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 a	avoir	AUX
@@ -2163,7 +2163,7 @@ depuis	depuis	ADV
 longtemps	longtemps	ADV
 .	.	PUNCTsent
 vers	vers	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 déjà	déjà	ADV
 ,	,	PUNCTclause
 les	le	DET
@@ -2184,11 +2184,11 @@ population	population	NOUN
 totale	total	ADJ
 .	.	PUNCTsent
 en	en	ADP
-1969	1969	NUM
+1969	1969	DIGIT
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 on	on	PRON
 peut	pouvoir	VERB
@@ -2314,7 +2314,7 @@ ni	ni	CCONJ
 même	même	ADV
 celle	celle	PRON
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 que	que	SCONJ
 il	il	PRON
 se	se	PRON

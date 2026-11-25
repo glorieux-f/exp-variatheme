@@ -8,7 +8,7 @@
 ↵↵	↵↵	PUNCTstruct
 Calvin	Calvin	PROPN
 (	(	PUNCTclause
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -16,9 +16,9 @@ Jean	Jean	PROPN
 Calvin	Calvin	PROPN
 naît	naître	VERB
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1509	1509	NUM
+1509	1509	DIGIT
 à	à	ADP
 Noyon	Noyon	PROPN
 ,	,	PUNCTclause
@@ -59,7 +59,7 @@ père	père	NOUN
 meurt	mourir	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1531	1531	NUM
+1531	1531	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 réalise	réaliser	VERB
@@ -110,7 +110,7 @@ que	que	SCONJ
 il	il	PRON
 publie	publier	VERB
 en	en	ADP
-1536	1536	NUM
+1536	1536	DIGIT
 .	.	PUNCTsent
 après	après	ADP
 un	un	DET
@@ -139,7 +139,7 @@ par	par	ADP
 les	le	DET
 magistrats	magistrat	NOUN
 en	en	ADP
-1538	1538	NUM
+1538	1538	DIGIT
 ,	,	PUNCTclause
 Calvin	Calvin	PROPN
 se	se	PRON
@@ -157,7 +157,7 @@ rappelé	rappeler	VERB
 à	à	ADP
 Genève	Genève	PROPN
 en	en	ADP
-1540	1540	NUM
+1540	1540	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 y	y	PRON
@@ -170,9 +170,9 @@ mort	mort	NOUN
 qui	qui	PRON
 survient	survenir	VERB
 le	le	DET
-27	27	NUM
+27	27	DIGIT
 mai	mai	NOUN
-1564	1564	NUM
+1564	1564	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 œuvres	œuvre	NOUN
@@ -181,25 +181,25 @@ Christianae	Christianae	PROPN
 religionis	religionis	VERB
 institutio	institutio	NOUN
 (	(	PUNCTclause
-1536	1536	NUM
+1536	1536	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 traduction	traduction	NOUN
 France	France	PROPN
 en	en	ADP
-1541	1541	NUM
+1541	1541	DIGIT
 et	et	CCONJ
-1559	1559	NUM
+1559	1559	DIGIT
 .	.	PUNCTsent
 (	(	PUNCTclause
 œuvres	œuvre	NOUN
 complètes	complet	ADJ
 en	en	ADP
-59	59	NUM
+59	59	DIGIT
 vol.	vol.	PUNCT
 ,	,	PUNCTclause
-1863	1863	NUM
--1900	-1900	NUM
+1863	1863	DIGIT
+-1900	-1900	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -972,7 +972,7 @@ aventure	aventure	NOUN
 se	se	PRON
 noue	nouer	VERB
 en	en	ADP
-1535	1535	NUM
+1535	1535	DIGIT
 ,	,	PUNCTclause
 année	année	NOUN
 cruciale	crucial	ADJ
@@ -2560,7 +2560,7 @@ liberté	liberté	NOUN
 oui	oui	INTJ
 certes	certes	ADV
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 par	par	ADP
 la	le	DET
 seule	seul	ADJ

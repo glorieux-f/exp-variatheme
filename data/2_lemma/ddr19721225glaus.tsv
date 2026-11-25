@@ -9,11 +9,11 @@
 merveilleux	merveilleux	ADJ
 Lavaux	Lavaux	PROPN
 (	(	PUNCTclause
-23	23	NUM
--24	-24	AUX
--25	-25	AUX
+23	23	DIGIT
+-24	-24	DIGIT
+-25	-25	DIGIT
 décembre	décembre	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -182,7 +182,9 @@ pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 de	de	ADP
 énumérer	énumérer	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 Lavaux	Lavaux	PROPN
 quelques	quelque	DET
 faits	fait	NOUN
@@ -584,7 +586,7 @@ ici	ici	ADV
 Lavaux	Lavaux	PROPN
 appartient	appartenir	VERB
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 »	»	PUNCTclause
 ,	,	PUNCTclause
 à	à	ADP
@@ -933,5 +935,5 @@ l'	le	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 juillet	juillet	NOUN
-1972	1972	NUM
+1972	1972	DIGIT
 .	.	PUNCTsent

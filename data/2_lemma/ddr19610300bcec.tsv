@@ -18,8 +18,8 @@ l'	le	DET
 éducation	éducation	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-1960	1960	NUM
--1961	-1961	NUM
+1960	1960	DIGIT
+-1961	-1961	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -171,7 +171,7 @@ d'abord	d'abord	ADV
 ses	son	DET
 dépens	dépens	NOUN
 !	!	PUNCTsent
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 elle	elle	PRON
 dépasse	dépasser	VERB
 ses	son	DET
@@ -182,7 +182,7 @@ regroupe	regrouper	VERB
 ses	son	DET
 forces	force	NOUN
 ;	;	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 jeunes	jeune	ADJ
 nationalismes	nationalisme	NOUN
@@ -467,7 +467,7 @@ pratiques	pratique	ADJ
 surmonter	surmonter	VERB
 d'abord	d'abord	ADV
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 —	—	PUNCTclause
 saurons	savoir	VERB
 nous	nous	PRON
@@ -797,7 +797,7 @@ ou	ou	CCONJ
 mythiques	mythique	ADJ
 ,	,	PUNCTclause
 —	—	PUNCTclause
-c'est-à-dire	c'est-à-dire	NOUN
+c'est-à-dire	c'est-à-dire	CCONJ
 psychiques	psychique	ADJ
 ou	ou	CCONJ
 psychologiques	psychologique	ADJ
@@ -1955,9 +1955,9 @@ prenant	prendre	VERB
 l'	le	DET
 enfant	enfant	NOUN
 dès	dès	ADP
-3	3	NUM
+3	3	DIGIT
 ou	ou	CCONJ
-4	4	NUM
+4	4	DIGIT
 ans	an	NOUN
 (	(	PUNCTclause
 nursery	nursery	NOUN
@@ -1968,7 +1968,7 @@ schools	schools	NOUN
 ou	ou	CCONJ
 au plus tard	au plus tard	ADV
 dès	dès	ADP
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 (	(	PUNCTclause
 Kindergarten	Kindergarten	PROPN
@@ -1979,7 +1979,7 @@ le	le	DET
 garder	garder	VERB
 jusque	jusque	ADP
 à	à	ADP
-18	18	NUM
+18	18	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2179,7 +2179,7 @@ entrer	entrer	VERB
 dans	dans	ADP
 un	un	DET
 des	un	ADP_DET
-800	800	NUM
+800	800	DIGIT
 instituts	institut	NOUN
 techniques	technique	ADJ
 existant	exister	VERB
@@ -2187,7 +2187,7 @@ en	en	ADP
 URSS	URSS	PROPN
 (	(	PUNCTclause
 pour	pour	ADP
-33	33	NUM
+33	33	DIGIT
 universités	université	NOUN
 seulement	seulement	ADV
 )	)	PUNCTclause
@@ -2206,14 +2206,14 @@ qui	qui	PRON
 se	se	PRON
 subdivisent	subdiviser	VERB
 en	en	ADP
-24	24	NUM
+24	24	DIGIT
 sous-branches	sous-branches	NOUN
 ,	,	PUNCTclause
 comprenant	comprendre	VERB
-295	295	NUM
+295	295	DIGIT
 spécialités	spécialité	NOUN
 et	et	CCONJ
-510	510	NUM
+510	510	DIGIT
 sous-spécialisations	sous-spécialisations	NOUN
 .	.	PUNCTsent
 le	le	DET
@@ -2278,17 +2278,17 @@ qui	qui	PRON
 ne	ne	ADV
 occupent	occuper	VERB
 que	que	ADV
-6	6	NUM
+6	6	DIGIT
 des	un	DET
 études	étude	NOUN
 ,	,	PUNCTclause
-27	27	NUM
+27	27	DIGIT
 étant	être	AUX
 consacré	consacrer	VERB
 aux	au	ADP_DET
 sciences	science	NOUN
 et	et	CCONJ
-67	67	NUM
+67	67	DIGIT
 à	à	ADP
 la	le	DET
 spécialisation	spécialisation	NOUN
@@ -2343,7 +2343,7 @@ doctorat	doctorat	NOUN
 .	.	PUNCTsent
 au cours de	au cours de	ADP
 dernières	dernier	ADJ
-25	25	NUM
+25	25	DIGIT
 années	année	NOUN
 ,	,	PUNCTclause
 trois	trois	NUM
@@ -3582,7 +3582,7 @@ tenue	tenue	NOUN
 des	un	ADP_DET
 cahiers	cahier	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ?	?	PUNCTsent
 faut	falloir	VERB
 il	il	PRON
@@ -3944,7 +3944,7 @@ en	en	ADP
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 la	le	DET
 discipline	discipline	NOUN
@@ -4115,7 +4115,7 @@ raffine	raffiner	VERB
 »	»	PUNCTclause
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 la plupart	la plupart	PRON
 des	un	ADP_DET

@@ -9,9 +9,9 @@
 conférence de presse	conférence de presse	NOUN
 Ecoropa	Ecoropa	PROPN
 (	(	PUNCTclause
-7	7	NUM
+7	7	DIGIT
 mai	mai	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -308,12 +308,12 @@ le	le_PRON	PRON
 savons	savoir	VERB
 tous	tout	ADJ
 :	:	PUNCTclause
-d'ici	d'ici	ADV
-20	20	NUM
+d'ici	d'ici	DET
+20	20	DIGIT
 ,	,	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 ,	,	PUNCTclause
-50	50	NUM
+50	50	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -356,11 +356,11 @@ nous	nous	PRON
 ce	ce	PRON
 est	être	AUX
 dans	dans	ADP
-3	3	NUM
+3	3	DIGIT
 ans	an	NOUN
 ou	ou	CCONJ
 dans	dans	ADP
-5	5	NUM
+5	5	DIGIT
 ans	an	NOUN
 seulement	seulement	ADV
 que	que	PRON
@@ -624,7 +624,7 @@ modèle	modèle	NOUN
 napoléonien	napoléonien	ADJ
 par	par	ADP
 environ	environ	ADV
-160	160	NUM
+160	160	DIGIT
 états-nations	État-nation	NOUN
 souverains	souverain	ADJ
 dans	dans	ADP
@@ -667,7 +667,7 @@ armés	armer	VERB
 de	de	ADP
 la	le	DET
 Bombe	Bombe	PROPN
-d'ici	d'ici	ADV
+d'ici	d'ici	PROPN
 quelques	quelque	DET
 années	année	NOUN
 .	.	PUNCTsent
@@ -1216,7 +1216,7 @@ longtemps	longtemps	ADV
 ,	,	PUNCTclause
 on	on	PRON
 a	avoir	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 les	le	DET
 régionalistes	régionaliste	NOUN
 de	de	ADP
@@ -1366,7 +1366,7 @@ a	avoir	AUX
 mis	mettre	VERB
 en vigueur	en vigueur	ADV
 en	en	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 sa	son	DET
 constitution	constitution	NOUN
 prévoyant	prévoir	VERB

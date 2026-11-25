@@ -16,7 +16,7 @@ trois	trois	NUM
 réponses	réponse	NOUN
 (	(	PUNCTclause
 mai-juillet	mai-juillet	NOUN
-1954	1954	NUM
+1954	1954	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -462,9 +462,8 @@ ne	ne	ADV
 consacrent	consacrer	VERB
 que	que	ADV
 à peine	à peine	ADV
-1	1	NUM
-1000	1000	NUM
-e	e	NOUN
+1	1	DIGIT
+1000e	1000e	NUMord
 de	de	ADP
 leur	leur	DET
 budget	budget	NOUN
@@ -937,7 +936,7 @@ de	de	ADP
 problèmes	problème	NOUN
 soulevés	soulever	VERB
 ou	ou	CCONJ
-traités	traiter	VERB
+traités	traité	NOUN
 par	par	ADP
 le	le	DET
 Centre	Centre	PROPN

@@ -13,7 +13,7 @@ quelle	quel	DET
 Europe	Europe	PROPN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-1983	1983	NUM
+1983	1983	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -132,7 +132,7 @@ comparables	comparable	ADJ
 car	car	CCONJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 la	le	DET
 Suisse	Suisse	PROPN
@@ -150,7 +150,7 @@ l'	le	DET
 Suisse	Suisse	PROPN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 la	le	DET
 CEE	CEE	PROPN
@@ -271,7 +271,7 @@ cas	cas	NOUN
 celui	celui	PRON
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 quelle	quel	DET
 Suisse	Suisse	PROPN
@@ -510,7 +510,7 @@ pour	pour	ADP
 la première fois	la première fois	ADV
 en	en	ADP
 juin	juin	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 dont	dont	PRON
 les	le	DET
@@ -521,7 +521,7 @@ bornent	borner	VERB
 ceci	ceci	PRON
 :	:	PUNCTclause
 contrôler	contrôler	VERB
-13	13	NUM
+13	13	DIGIT
 du	du	ADP_DET
 budget	budget	NOUN
 de	de	ADP
@@ -598,7 +598,7 @@ loin	loin	ADV
 à la fois	à la fois	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Suisse	Suisse	PROPN
@@ -648,7 +648,7 @@ trois	trois	NUM
 vérités	vérité	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Suisse	Suisse	PROPN
@@ -665,7 +665,7 @@ unit	unir	VERB
 pas	pas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 Europe	Europe	PROPN
@@ -691,7 +691,7 @@ sauvegarder	sauvegarder	VERB
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 toute	toute	DET
 formule	formule	NOUN
@@ -766,7 +766,7 @@ trouvent	trouver	VERB
 dans	dans	ADP
 l'	le	DET
 article	article	NOUN
-5	5	NUM
+5	5	DIGIT
 de	de	ADP
 la	le	DET
 constitution	constitution	NOUN
@@ -806,11 +806,11 @@ ou	ou	CCONJ
 communauté	communauté	NOUN
 (	(	PUNCTclause
 à	à	ADP
-9	9	NUM
+9	9	DIGIT
 ,	,	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 ou	ou	CCONJ
-12	12	NUM
+12	12	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -822,7 +822,7 @@ ou	ou	CCONJ
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 (	(	PUNCTclause
 à	à	ADP
-21	21	NUM
+21	21	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -940,7 +940,7 @@ de	de	ADP
 l'	le	DET
 état-nation	État-nation	NOUN
 en	en	ADP
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 il y a	il y a	VERB
 bientôt	bientôt	ADV
@@ -962,7 +962,7 @@ identité	identité	NOUN
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 Europe	Europe	PROPN
 de	de	ADP
@@ -1465,7 +1465,7 @@ deux	deux	NUM
 possibilités	possibilité	NOUN
 théoriques	théorique	ADJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 celle	celle	PRON
 de	de	ADP
@@ -1478,7 +1478,7 @@ le	le	DET
 modèle	modèle	NOUN
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 celle	celle	PRON
 de	de	ADP
@@ -1504,7 +1504,7 @@ des	un	ADP_DET
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 état	état	NOUN
 fédéralisme	fédéralisme	NOUN
@@ -1644,7 +1644,7 @@ les	le	DET
 trois	trois	NUM
 suivantes	suivant	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 la	le	DET
 neutralité	neutralité	NOUN
@@ -1713,7 +1713,7 @@ purement	purement	ADV
 défensive	défensif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 le	le	DET
 fédéralisme	fédéralisme	NOUN
@@ -1949,7 +1949,7 @@ la	le_PRON	PRON
 constituent	constituer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 la	le	DET
 volonté	volonté	NOUN
@@ -2051,14 +2051,14 @@ Europe	Europe	PROPN
 du seul fait que	du seul fait que	SCONJ
 ceux	ceux	PRON
 sont	être	AUX
-127	127	NUM
+127	127	DIGIT
 au	au	ADP_DET
 km2	km2	NOUN
 mais	mais	CCONJ
 les	le	DET
 Soviétiques	Soviétiques	PROPN
 seulement	seulement	ADV
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 or	or	NOUN
 les	le	DET
@@ -2217,7 +2217,7 @@ trop	trop	ADV
 petite	petit	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 mais	mais	CCONJ
 dans	dans	ADP
 ma	mon	DET
@@ -2256,7 +2256,7 @@ avait	avoir	AUX
 conçue	concevoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 quelle	quel	DET
@@ -2422,7 +2422,7 @@ que	que	SCONJ
 Bordeaux	Bordeaux	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1978	1978	NUM
+1978	1978	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 a	avoir	AUX
@@ -2454,7 +2454,7 @@ je	je	PRON
 avais	avoir	AUX
 proposés	proposer	VERB
 dès	dès	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 dans	dans	ADP
 mes	mon	DET
 articles	article	NOUN
@@ -2671,7 +2671,7 @@ des	un	ADP_DET
 régions	région	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 possibilités	possibilité	NOUN
 ?	?	PUNCTsent

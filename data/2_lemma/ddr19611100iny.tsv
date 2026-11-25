@@ -11,7 +11,7 @@ de	de	ADP
 New York	New York	PROPN
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -132,7 +132,7 @@ bateau	bateau	NOUN
 ,	,	PUNCTclause
 fin	fin	NOUN
 septembre	septembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -266,7 +266,7 @@ New York	New York	PROPN
 alpestre	alpestre	ADJ
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -873,9 +873,9 @@ II	II	NUM
 Ville	Ville	PROPN
 pure	pur	ADJ
 (	(	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -995,7 +995,7 @@ armé	armer	VERB
 diversement	diversement	ADV
 coupés	couper	VERB
 et	et	CCONJ
-étagés	étager	VERB
+étagés	étagé	ADJ
 ,	,	PUNCTclause
 asphalte	asphalte	NOUN
 plane	plan	ADJ
@@ -1211,7 +1211,7 @@ la	le	DET
 nuit	nuit	NOUN
 (	(	PUNCTclause
 août	août	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1305,8 +1305,7 @@ hauts	haut	ADJ
 bâtiments	bâtiment	NOUN
 de	de	ADP
 la	le	DET
-51	51	NUM
-e	e	SYM
+51e	51e	NUMord
 rue	rue	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -1957,7 +1956,7 @@ point	point	ADV
 ,	,	PUNCTclause
 quand	quand	SCONJ
 toutes	toutes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 et	et	CCONJ
 les	le	DET
 souvenirs	souvenir	NOUN
@@ -2202,7 +2201,7 @@ Corbusier	Corbusier	PROPN
 (	(	PUNCTclause
 note	note	NOUN
 de	de	ADP
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2254,7 +2253,7 @@ visite	visite	NOUN
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 crois	croire	VERB
@@ -2424,7 +2423,7 @@ de	de	ADP
 New York	New York	PROPN
 (	(	PUNCTclause
 novembre	novembre	NOUN
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

@@ -16,7 +16,7 @@ mass	mass	NOUN
 médias	média	NOUN
 (	(	PUNCTclause
 mai	mai	NOUN
-1959	1959	NUM
+1959	1959	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1215,7 +1215,7 @@ créé	créer	VERB
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 se	se	PRON
@@ -1226,7 +1226,7 @@ en	en	ADP
 Europe	Europe	PROPN
 que	que	SCONJ
 à partir de	à partir de	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -1296,9 +1296,9 @@ nouveau	nouveau	ADJ
 on	on	PRON
 a	avoir	AUX
 vendu	vendre	VERB
-4	4	NUM
+4	4	DIGIT
 à	à	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 exemplaires	exemplaire	NOUN
 des	un	ADP_DET
 madrigaux	madrigal	NOUN
@@ -1401,18 +1401,18 @@ a	avoir	AUX
 produit	produire	VERB
 en	en	ADP
 France	France	PROPN
-12	12	NUM
+12	12	DIGIT
 millions	million	NOUN
 de	de	ADP
 microsillons	microsillon	NOUN
 en	en	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
-35	35	NUM
+35	35	DIGIT
 millions	million	NOUN
 en	en	ADP
-1957	1957	NUM
+1957	1957	DIGIT
 .	.	PUNCTsent
 il	il	PRON
 est	être	AUX
@@ -1642,7 +1642,7 @@ vous	vous	PRON
 aurez	avoir	VERB
 la première	la première	PRON
 année	année	NOUN
-500	500	NUM
+500	500	DIGIT
 abonnés	abonné	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -1653,7 +1653,7 @@ en	en	PRON
 aurez	avoir	VERB
 plus	plus	ADV
 que	que	SCONJ
-200	200	NUM
+200	200	DIGIT
 et	et	CCONJ
 la	le	DET
 troisième	troisième	ADJ
@@ -1667,7 +1667,7 @@ cette	ce	DET
 Guilde	Guilde	PROPN
 compte	compter	VERB
 aujourd'hui	aujourd'hui	ADV
-90000	90000	NUM
+90000	90000	DIGIT
 membres	membre	NOUN
 ,	,	PUNCTclause
 lecteurs	lecteur	NOUN
@@ -1732,16 +1732,16 @@ Suisse romande	Suisse romande	PROPN
 (	(	PUNCTclause
 qui	qui	PRON
 compte	compter	VERB
-1	1	NUM
+1	1	DIGIT
 million	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 )	)	PUNCTclause
 pas	pas	ADV
 plus de	plus de	DET
-5	5	NUM
+5	5	DIGIT
 à	à	ADP
-6000	6000	NUM
+6000	6000	DIGIT
 lecteurs	lecteur	NOUN
 potentiels	potentiel	ADJ
 .	.	PUNCTsent
@@ -1807,7 +1807,7 @@ France	France	PROPN
 ,	,	PUNCTclause
 totalisant	totaliser	VERB
 près de	près de	ADP
-400000	400000	NUM
+400000	400000	DIGIT
 adhérents	adhérent	NOUN
 ;	;	PUNCTclause
 trois	trois	NUM
@@ -1822,7 +1822,7 @@ réunit	réunir	VERB
 à	à	ADP
 elle	elle	PRON
 seule	seul	ADJ
-350000	350000	NUM
+350000	350000	DIGIT
 adhérents	adhérent	ADJ
 —	—	PUNCTclause
 ,	,	PUNCTclause
@@ -1849,7 +1849,7 @@ ont	avoir	AUX
 fait	faire	VERB
 surgir	surgir	VERB
 plus de	plus de	DET
-2	2	NUM
+2	2	DIGIT
 millions	million	NOUN
 de	de	ADP
 lecteurs	lecteur	NOUN
@@ -1919,16 +1919,16 @@ ouest	ouest	NOUN
 on	on	PRON
 a	avoir	AUX
 publié	publier	VERB
-80	80	NUM
+80	80	DIGIT
 millions	million	NOUN
 de	de	ADP
 volumes	volume	NOUN
 vendus	vendre	VERB
 à	à	ADP
-1	1	NUM
+1	1	DIGIT
 mark	mark	NOUN
 ou	ou	CCONJ
-1,50	1,50	NUM
+1,50	1,50	DIGIT
 mark	mark	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
@@ -1943,31 +1943,31 @@ de	de	ADP
 la	le	DET
 série	série	NOUN
 ?	?	PUNCTsent
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 Thomas	Thomas	PROPN
 Mann	Mann	PROPN
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 Thornton	Thornton	PROPN
 Wilder	Wilder	PROPN
 ,	,	PUNCTclause
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 Albert	Albert	PROPN
 Schweitzer	Schweitzer	PROPN
 ,	,	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 Kafka	Kafka	PROPN
 ,	,	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 Albert	Albert	PROPN
 Camus	Camus	PROPN
 ,	,	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 Pearl	Pearl	PROPN
 Buck	Buck	PROPN

@@ -14,7 +14,7 @@ Europe	Europe	PROPN
 occidentale	occidental	ADJ
 (	(	PUNCTclause
 avril	avril	NOUN
-1971	1971	NUM
+1971	1971	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -287,7 +287,7 @@ Genève	Genève	PROPN
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1944	1944	NUM
+1944	1944	DIGIT
 ,	,	PUNCTclause
 ce	ce	DET
 texte	texte	NOUN
@@ -356,7 +356,7 @@ demain	demain	NOUN
 la	le	DET
 Baconnière	Baconnière	NOUN
 ,	,	PUNCTclause
-1945	1945	NUM
+1945	1945	DIGIT
 )	)	PUNCTclause
 prolonge	prolonger	VERB
 la	le	DET
@@ -367,7 +367,7 @@ mouvement	mouvement	NOUN
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 esprit	esprit	NOUN
 de	de	ADP
@@ -386,7 +386,7 @@ Dandieu	Dandieu	PROPN
 (	(	PUNCTclause
 mort	mort	NOUN
 en	en	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 Robert	Robert	PROPN
@@ -396,7 +396,7 @@ Alexandre	Alexandre	PROPN
 Marc	Marc	PROPN
 .	.	PUNCTsent
 dès	dès	ADP
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 Gabriel	Gabriel	PROPN
 Marcel	Marcel	PROPN
@@ -1270,7 +1270,7 @@ régionales	régional	ADJ
 au sein de	au sein de	ADP
 Marché commun	Marché commun	PROPN
 (	(	PUNCTclause
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 ont	avoir	AUX
@@ -1382,8 +1382,8 @@ Hainaut	Hainaut	PROPN
 triangle	triangle	NOUN
 Aix-la-Chapelle-Maestricht-Liège	Aix-la-Chapelle-Maestricht-Liège	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-désormais	désormais	ADJ
+etc.	etc.	X
+désormais	désormais	X
 ,	,	PUNCTclause
 le	le	DET
 problème	problème	NOUN
@@ -1505,7 +1505,7 @@ nouveaux	nouveau	ADJ
 problèmes	problème	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 créer	créer	VERB
 des	un	DET
@@ -1541,7 +1541,7 @@ recherches	recherche	NOUN
 la	le	DET
 défense	défense	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 et	et	CCONJ
 les	le	DET
 charger	charger	VERB
@@ -1583,7 +1583,7 @@ régions	région	NOUN
 variables	variable	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 par	par	ADP
 les	le	DET
@@ -1620,7 +1620,7 @@ capitale	capital	NOUN
 nationale	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 éduquer	éduquer	VERB
 les	le	DET

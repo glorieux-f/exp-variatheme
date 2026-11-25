@@ -12,9 +12,9 @@ dictature	dictature	NOUN
 mondiale	mondial	ADJ
 ?	?	PUNCTsent
 (	(	PUNCTclause
-9	9	NUM
+9	9	DIGIT
 avril	avril	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -43,12 +43,12 @@ cette	ce	DET
 ligue	ligue	NOUN
 compte	compter	VERB
 déjà	déjà	ADV
-18000	18000	NUM
+18000	18000	DIGIT
 membres	membre	NOUN
 actifs	actif	ADJ
 et	et	CCONJ
 plus de	plus de	DET
-70000	70000	NUM
+70000	70000	DIGIT
 sympathisants	sympathisant	NOUN
 .	.	PUNCTsent
 plusieurs	plusieurs	DET
@@ -487,7 +487,7 @@ des	un	ADP_DET
 ,	,	PUNCTclause
 a	avoir	AUX
 donné	donner	VERB
-67	67	X
+67	67	DIGIT
 de	de	ADP
 réponses	réponse	NOUN
 favorables	favorable	ADJ
@@ -1056,7 +1056,7 @@ idéologie	idéologie	NOUN
 la	le	DET
 plus	plus	ADV
 répandue	répandu	ADJ
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 il	il	PRON
 se	se	PRON
 formerait	former	VERB

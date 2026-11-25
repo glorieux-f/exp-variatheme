@@ -17,10 +17,10 @@ pas	pas	ADV
 mortelle	mortel	ADJ
 !	!	PUNCTsent
 (	(	PUNCTclause
-30	30	NUM
--31	-31	NUM
+30	30	DIGIT
+-31	-31	DIGIT
 août	août	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -48,7 +48,7 @@ au cours de	au cours de	ADP
 émeutes	émeute	NOUN
 de	de	ADP
 mai	mai	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -1129,7 +1129,7 @@ apporterait	apporter	VERB
 un	un	DET
 L'Ordre nouveau	L'Ordre nouveau	NOUN
 ,	,	PUNCTclause
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 prendre	prendre	VERB
 la	le	DET
 relève	relève	NOUN
@@ -1169,7 +1169,7 @@ napoléonienne	napoléonien	ADJ
 les	le	DET
 révolutions	révolution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ont	avoir	AUX
 été	être	AUX
 écrasées	écraser	VERB
@@ -1185,7 +1185,7 @@ nationalistes	nationaliste	NOUN
 la	le	DET
 guerre	guerre	NOUN
 de	de	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -1461,7 +1461,7 @@ je	je	PRON
 ai	avoir	AUX
 écrit	écrire	VERB
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 sur	sur	ADP
 la	le	DET
 bombe atomique	bombe atomique	NOUN
@@ -1855,7 +1855,7 @@ nous	nous	PRON
 a	avoir	AUX
 révélé	révéler	VERB
 dès	dès	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 le	le	DET
 style	style	NOUN
 et	et	CCONJ

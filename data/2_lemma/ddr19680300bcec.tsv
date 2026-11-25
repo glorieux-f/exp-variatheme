@@ -13,8 +13,8 @@ des	un	ADP_DET
 régions	région	NOUN
 (	(	PUNCTclause
 hiver	hiver	NOUN
-1967	1967	NUM
--1968	-1968	NUM
+1967	1967	DIGIT
+-1968	-1968	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -127,9 +127,9 @@ Europe	Europe	PROPN
 Zurich	Zurich	PROPN
 ,	,	PUNCTclause
 le	le	DET
-16	16	NUM
+16	16	DIGIT
 septembre	septembre	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 :	:	PUNCTclause
 avec	avec	ADP
 une	un	DET
@@ -2585,7 +2585,7 @@ demain	demain	ADV
 ,	,	PUNCTclause
 écrivait	écrire	VERB
 dès	dès	ADP
-1954	1954	NUM
+1954	1954	DIGIT
 Jean	Jean	PROPN
 Monnet	Monnet	PROPN
 (	(	PUNCTclause
@@ -3008,7 +3008,7 @@ que	que	SCONJ
 ont	avoir	AUX
 adopté	adopter	VERB
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 nos	nos	DET
 vingt-cinq	vingt-cinq	NUM
 petits	petit	ADJ
@@ -3031,7 +3031,7 @@ depuis	depuis	ADP
 le	le	DET
 Congrès de La Haye	Congrès de La Haye	PROPN
 ,	,	PUNCTclause
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 ont	avoir	AUX
@@ -3186,7 +3186,7 @@ Internationale	Internationale	PROPN
 Genève	Genève	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1867	1867	NUM
+1867	1867	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 avait	avoir	AUX
@@ -3499,7 +3499,7 @@ par	par	ADP
 Churchill	Churchill	PROPN
 en	en	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 autrement dit	autrement dit	ADV
@@ -4946,7 +4946,7 @@ Six	Six	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 dès	dès	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 réunissaient	réunir	VERB
 à	à	ADP
 Bruxelles	Bruxelles	PROPN
@@ -5523,7 +5523,7 @@ deux	deux	NUM
 choses	chose	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 De	De	PROPN
 Gaulle	Gaulle	PROPN
@@ -5658,7 +5658,7 @@ grands	grand	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 derrière	derrière	ADV
 l'	le	DET
@@ -5707,7 +5707,7 @@ cru	croire	VERB
 devoir	devoir	VERB
 convoquer	convoquer	VERB
 en	en	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 le	le	DET
 très	très	ADV
 important	important	ADJ
@@ -6068,7 +6068,7 @@ sera	être	AUX
 faite	faire	VERB
 .	.	PUNCTsent
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 fédération	fédération	NOUN
 de	de	ADP
@@ -6219,7 +6219,7 @@ beau	beau	ADJ
 matin	matin	NOUN
 …	…	PUNCTsent
 vers	vers	ADP
-1985	1985	NUM
+1985	1985	DIGIT
 .	.	PUNCTsent
 la	le	DET
 région	région	NOUN
@@ -8123,7 +8123,7 @@ les	le	DET
 économies	économie	NOUN
 régionales	régional	ADJ
 de	de	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 )	)	PUNCTclause
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -8175,7 +8175,7 @@ Bretagne	Bretagne	PROPN
 ,	,	PUNCTclause
 Nord	Nord	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 fait	faire	VERB
 apparaître	apparaître	VERB
@@ -8847,7 +8847,7 @@ les	le	DET
 allergies	allergie	NOUN
 de	de	ADP
 tels ou tels	tels ou tels	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 contre	contre	ADP
@@ -9189,7 +9189,7 @@ de	de	ADP
 produits	produit	NOUN
 cartésiens	cartésien	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 or	or	NOUN

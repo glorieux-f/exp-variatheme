@@ -12,7 +12,7 @@ du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
 (	(	PUNCTclause
-1975	1975	NUM
+1975	1975	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -101,12 +101,12 @@ la	le	DET
 confédération	confédération	NOUN
 fabriquée	fabriquer	VERB
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 par	par	ADP
 la	le	DET
 réunion	réunion	NOUN
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 petits	petit	ADJ
 états	état	NOUN
 souverains	souverain	NOUN
@@ -117,7 +117,7 @@ de	de	ADP
 une	un	DET
 fédération	fédération	NOUN
 des	un	ADP_DET
-27	27	NUM
+27	27	DIGIT
 états	état	NOUN
 souverains	souverain	ADJ
 du	du	ADP_DET
@@ -201,7 +201,7 @@ cantons	canton	NOUN
 il	il	PRON
 en	en	PRON
 faudrait	falloir	VERB
-25	25	NUM
+25	25	DIGIT
 ,	,	PUNCTclause
 comme	comme	ADP
 l'	le	DET
@@ -593,7 +593,7 @@ ce	ce	PRON
 est	être	AUX
 surtout	surtout	ADV
 à partir de	à partir de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 que	que	SCONJ
 le	le	DET
 fédéralisme	fédéralisme	NOUN
@@ -709,7 +709,7 @@ esprit	esprit	NOUN
 des	un	ADP_DET
 communes	commun	NOUN
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 ce	ce	DET
 grand	grand	ADJ
 mouvement	mouvement	NOUN
@@ -819,7 +819,7 @@ pour	pour	ADP
 les	le	DET
 erreurs	erreur	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 ils	ils	PRON
 se	se	PRON

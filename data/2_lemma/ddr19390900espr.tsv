@@ -14,7 +14,7 @@ l'	le	DET
 Occident	Occident	PROPN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1531,7 +1531,7 @@ cosmos	cosmos	NOUN
 (	(	PUNCTclause
 voir	voir	VERB
 romains	romain	NOUN
-8	8	NUM
+8	8	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1793,10 +1793,10 @@ ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 vrai	vrai	ADJ
-non plus que	non plus que	ADP
-tout	tout	DET
-l'	le_PRON	PRON
-humain	humain	ADJ
+non plus que	non plus que	CCONJ
+tout	tout	ADV
+l'	le	DET
+humain	humain	NOUN
 soit	être	AUX
 humain	humain	ADJ
 .	.	PUNCTsent
@@ -2062,7 +2062,7 @@ de	de	ADP
 la	le	DET
 sorte	sorte	NOUN
 —	—	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 assez	assez	ADV
 clair	clair	ADJ
 dans	dans	ADP
@@ -2422,7 +2422,7 @@ tristesse	tristesse	NOUN
 de	de	ADP
 l'	le	DET
 historien	historien	NOUN
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ?	?	PUNCTsent
 et	et	CCONJ
 ce	ce	PRON

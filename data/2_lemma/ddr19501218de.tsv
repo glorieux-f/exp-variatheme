@@ -15,9 +15,9 @@ Europe	Europe	PROPN
 l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 décembre	décembre	NOUN
-1950	1950	NUM
+1950	1950	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -128,7 +128,7 @@ portée	portée	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-12	12	NUM
+12	12	DIGIT
 décembre	décembre	NOUN
 ,	,	PUNCTclause
 au	au	ADP_DET
@@ -555,7 +555,7 @@ de	de	ADP
 physique	physique	NOUN
 nucléaire	nucléaire	ADJ
 environ	environ	ADV
-5	5	NUM
+5	5	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -566,14 +566,14 @@ ne	ne	ADV
 y	y	PRON
 consacrait	consacrer	VERB
 que	que	ADV
-5	5	NUM
+5	5	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 francs	franc	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
 donc	donc	ADV
-380	380	NUM
+380	380	DIGIT
 fois	fois	NOUN
 moins	moins	ADV
 .	.	PUNCTsent
@@ -634,7 +634,7 @@ Europe	Europe	PROPN
 divisée	diviser	VERB
 en	en	ADP
 quelque	quelque	DET
-20	20	NUM
+20	20	DIGIT
 pays	pays	NOUN
 ,	,	PUNCTclause
 tous	tout	ADJ
@@ -888,7 +888,7 @@ par	par	ADP
 notre	notre	DET
 réunion	réunion	NOUN
 du	du	ADP_DET
-12	12	NUM
+12	12	DIGIT
 décembre	décembre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -929,7 +929,7 @@ de	de	ADP
 une	un	DET
 puissance	puissance	NOUN
 de	de	ADP
-6	6	NUM
+6	6	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 volts	volt	NOUN

@@ -14,9 +14,9 @@ des	un	ADP_DET
 régions	région	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-30	30	NUM
+30	30	DIGIT
 novembre	novembre	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -72,7 +72,7 @@ continent	continent	NOUN
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
 août	août	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 est	être	AUX
@@ -122,7 +122,7 @@ Europe	Europe	PROPN
 à partir de	à partir de	ADP
 Congrès de La Haye	Congrès de La Haye	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 me	me	PRON
@@ -190,7 +190,7 @@ civilisation	civilisation	NOUN
 est	être	AUX
 la	le	DET
 condition	condition	NOUN
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 de	de	ADP
 une	un	DET
 union	union	NOUN
@@ -751,7 +751,7 @@ organisation	organisation	NOUN
 mondiale	mondial	ADJ
 .	.	PUNCTsent
 sans doute	sans doute	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 dix	dix	NUM
 ou	ou	CCONJ
 quinze	quinze	NUM

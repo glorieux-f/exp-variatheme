@@ -11,9 +11,9 @@ contre	contre	ADP
 l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
-17	17	NUM
+17	17	DIGIT
 janvier	janvier	NOUN
-1962	1962	NUM
+1962	1962	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -108,7 +108,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 après	après	ADP
 l'	le	DET
 avoir	avoir	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 par	par	ADP
 le	le	DET
 mépris	mépris	NOUN
@@ -308,12 +308,12 @@ une	un	DET
 expansion	expansion	NOUN
 globale	global	ADJ
 de	de	ADP
-50	50	NUM
+50	50	DIGIT
 pour	pour	ADP
 l'	le	DET
 ensemble	ensemble	NOUN
 atlantique	atlantique	ADJ
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 dix	dix	NUM
 ans	an	NOUN
 …	…	PUNCTsent
@@ -623,7 +623,7 @@ on	on	PRON
 le	le_PRON	PRON
 précise	préciser	VERB
 à la page	à la page	ADJ
-17	17	NUM
+17	17	DIGIT
 .	.	PUNCTsent
 au pire	au pire	ADV
 ,	,	PUNCTclause
@@ -797,7 +797,7 @@ quatre-vingts	quatre-vingts	NUM
 ans	an	NOUN
 —	—	PUNCTclause
 de	de	ADP
-1882	1882	NUM
+1882	1882	DIGIT
 à	à	ADP
 nos	nos	DET
 jours	jour	NOUN
@@ -1085,7 +1085,7 @@ civilisation	civilisation	NOUN
 Europe	Europe	PROPN
 remontent	remonter	VERB
 à	à	ADP
-1729	1729	NUM
+1729	1729	DIGIT
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 le	le	DET
@@ -1162,7 +1162,7 @@ diplomatique	diplomatique	ADJ
 réglementaire	réglementaire	ADJ
 ,	,	PUNCTclause
 par	par	ADP
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 (	(	PUNCTclause
@@ -1226,7 +1226,7 @@ les	le	DET
 Popos	Popos	PROPN
 .	.	PUNCTsent
 en	en	ADP
-1884	1884	NUM
+1884	1884	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 dictionnaire	dictionnaire	NOUN
@@ -1303,13 +1303,13 @@ Dahomey	Dahomey	PROPN
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
-1	1	NUM
+1	1	DIGIT
 million	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-20000	20000	NUM
+20000	20000	DIGIT
 à peine	à peine	ADV
 sont	être	AUX
 liberté	liberté	NOUN
@@ -1334,13 +1334,13 @@ heureux	heureux	ADJ
 pays	pays	NOUN
 date	dater	VERB
 de	de	ADP
-1892	1892	NUM
+1892	1892	DIGIT
 .	.	PUNCTsent
 elle	elle	PRON
 se	se	PRON
 termine	terminer	VERB
 en	en	ADP
-1960	1960	NUM
+1960	1960	DIGIT
 par	par	ADP
 la	le	DET
 création	création	NOUN
@@ -1352,7 +1352,7 @@ et	et	CCONJ
 démocratique	démocratique	ADJ
 de plus	de plus	ADV
 de	de	ADP
-2	2	NUM
+2	2	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -1369,7 +1369,7 @@ pompe	pompe	NOUN
 l'	le	DET
 Élysée	Élysée	PROPN
 en	en	ADP
-1961	1961	NUM
+1961	1961	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -1863,7 +1863,7 @@ y	y	PRON
 croire	croire	VERB
 :	:	PUNCTclause
 p.	p.	PUNCT
-23	23	NUM
+23	23	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 d'ailleurs	d'ailleurs	ADV
@@ -2168,7 +2168,7 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 publié	publier	VERB
 en	en	ADP
-1950	1950	NUM
+1950	1950	DIGIT
 chez	chez	ADP
 Nagel	Nagel	PROPN
 .	.	PUNCTsent
@@ -2317,7 +2317,7 @@ que	que	ADV
 nos	nos	DET
 principes	principe	NOUN
 ,	,	PUNCTclause
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 ou	ou	CCONJ
 trahis	trahir	VERB
 par	par	ADP
@@ -2464,7 +2464,7 @@ et	et	CCONJ
 les	le	DET
 autres	autre	ADJ
 ,	,	PUNCTclause
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 elles	elles	PRON
 se	se	PRON
 tournent	tourner	VERB

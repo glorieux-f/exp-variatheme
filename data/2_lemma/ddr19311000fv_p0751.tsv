@@ -11,7 +11,7 @@ protestantisme	protestantisme	NOUN
 jugé	juger	VERB
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1931	1931	NUM
+1931	1931	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -642,7 +642,7 @@ ensemble	ensemble	NOUN
 dès	dès	ADP
 l'	le	DET
 année	année	NOUN
-1886	1886	NUM
+1886	1886	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 il	il	PRON
@@ -711,7 +711,9 @@ tristesse	tristesse	NOUN
 que	que	SCONJ
 Frommel	Frommel	PROPN
 exprime	exprimer	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 Mon	Mon	PROPN
 Frère	Frère	PROPN
 Yves	Yves	PROPN

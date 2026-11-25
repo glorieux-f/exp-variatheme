@@ -1183,7 +1183,7 @@ absorbés	absorber	VERB
 par	par	ADP
 la	le	DET
 vie quotidienne	vie quotidienne	NOUN
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 quelques	quelque	DET
 années	année	NOUN
 .	.	PUNCTsent
@@ -1274,7 +1274,7 @@ Cordell	Cordell	PROPN
 Hull	Hull	PROPN
 ,	,	PUNCTclause
 le	le	DET
-ministre des affaires étrangères	Ministre des Affaires étrangères	NOUN
+Ministre des Affaires étrangères	Ministre des Affaires étrangères	NOUN
 de	de	ADP
 Roosevelt	Roosevelt	PROPN
 ,	,	PUNCTclause
@@ -1598,7 +1598,7 @@ venir	venir	VERB
 direz	dire	VERB
 vous	vous	PRON
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 tout	tout	ADV
 simplement	simplement	ADV
 une	un	DET
@@ -1853,7 +1853,7 @@ démocratie	démocratie	NOUN
 écrit	écrire	VERB
 en	en	ADP
 novembre	novembre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1876,7 +1876,7 @@ l'	le	DET
 présidentielle	présidentiel	ADJ
 .	.	PUNCTsent
 à	à	ADP
-9	9	NUM
+9	9	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -1884,7 +1884,7 @@ nous	nous	PRON
 deux-cent-mille	deux-cent-mille	PUNCT
 ,	,	PUNCTclause
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -1929,7 +1929,7 @@ la	le	DET
 journée	journée	NOUN
 .	.	PUNCTsent
 à	à	ADP
-9	9	NUM
+9	9	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 Willkie	Willkie	PROPN
@@ -1950,7 +1950,7 @@ au nom de	au nom de	ADP
 candidats	candidat	NOUN
 .	.	PUNCTsent
 à	à	ADP
-10	10	NUM
+10	10	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -2016,7 +2016,7 @@ et	et	CCONJ
 rouges	rouge	NOUN
 .	.	PUNCTsent
 à	à	ADP
-11	11	NUM
+11	11	DIGIT
 heures	heure	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -2037,7 +2037,7 @@ entraîne	entraîner	VERB
 New York	New York	PROPN
 City	City	PROPN
 par	par	ADP
-270000	270000	NUM
+270000	270000	DIGIT
 voix	voix	NOUN
 de	de	ADP
 majorité	majorité	NOUN
@@ -4999,7 +4999,7 @@ transports	transport	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
-75	75	NUM
+75	75	DIGIT
 bureaux	bureau	NOUN
 différents	différent	ADJ
 donnent	donner	VERB
@@ -5317,7 +5317,7 @@ circonstances	circonstance	NOUN
 me	me	PRON
 obligent	obliger	VERB
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 mais	mais	CCONJ
 je	je	PRON
 serai	être	AUX
@@ -7085,7 +7085,7 @@ de	de	ADP
 notre	notre	DET
 état	état	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 comme	comme	SCONJ
 lorsque	lorsque	SCONJ
@@ -7568,7 +7568,7 @@ impérialisme	impérialisme	NOUN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 entends	entendre	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	DET
 nos	nos	DET
 méfiants	méfiant	NOUN
 à	à	ADP
@@ -7626,7 +7626,7 @@ dollar	dollar	NOUN
 sera	être	AUX
 roi	roi	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 toutes	tout	ADJ
 ces	ce	DET
@@ -8085,10 +8085,10 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 comme	comme	ADP
 en	en	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 et	et	CCONJ
 en	en	ADP
-1943	1943	NUM
+1943	1943	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 l'	le_PRON	PRON
@@ -8168,7 +8168,7 @@ de toutes pièces	de toutes pièces	ADV
 une	un	DET
 armée	armée	NOUN
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 millions	million	NOUN
 de	de	ADP
 hommes	homme	NOUN

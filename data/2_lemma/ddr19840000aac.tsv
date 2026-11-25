@@ -15,7 +15,7 @@ affaire	affaire	NOUN
 :	:	PUNCTclause
 conclusions	conclusion	NOUN
 (	(	PUNCTclause
-1984	1984	NUM
+1984	1984	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -479,7 +479,7 @@ Suisse	Suisse	PROPN
 mais	mais	CCONJ
 dès	dès	ADP
 octobre	octobre	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 fus	être	AUX
@@ -590,7 +590,7 @@ Europe	Europe	PROPN
 au	au	ADP_DET
 printemps	printemps	NOUN
 de	de	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 invité	inviter	VERB
 par	par	ADP
@@ -709,7 +709,7 @@ rentré	rentrer	VERB
 définitivement	définitivement	ADV
 en	en	ADP
 août	août	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 je	je	PRON
@@ -803,8 +803,8 @@ l'	le	DET
 écrivain	écrivain	NOUN
 ,	,	PUNCTclause
 dès	dès	ADP
-1932	1932	NUM
--1933	-1933	NUM
+1932	1932	DIGIT
+-1933	-1933	DIGIT
 (	(	PUNCTclause
 quand	quand	SCONJ
 Sartre	Sartre	PROPN
@@ -838,7 +838,7 @@ amis	ami	NOUN
 «	«	PUNCTsent
 je	je	PRON
 suis	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 donner	donner	VERB
 deux	deux	NUM
 ans	an	NOUN
@@ -891,9 +891,9 @@ seule	seul	ADJ
 activité	activité	NOUN
 .	.	PUNCTsent
 de	de	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 à	à	ADP
-1979	1979	NUM
+1979	1979	DIGIT
 ,	,	PUNCTclause
 sur	sur	ADP
 une	un	DET
@@ -966,7 +966,7 @@ Europe	Europe	PROPN
 la	le	DET
 Haye	Haye	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 et	et	CCONJ
 la	le	DET
 conférence	conférence	NOUN
@@ -977,7 +977,7 @@ culture	culture	NOUN
 à	à	ADP
 Lausanne	Lausanne	PROPN
 en	en	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	AUX
@@ -1000,7 +1000,7 @@ ai	avoir	AUX
 son	son	DET
 directeur-fondateur	directeur-fondateur	NOUN
 à partir de	à partir de	ADP
-1949	1949	NUM
+1949	1949	DIGIT
 .	.	PUNCTsent
 tout	tout	PRON
 a	avoir	AUX
@@ -1104,7 +1104,7 @@ et	et	CCONJ
 qui	qui	PRON
 dépend	dépendre	VERB
 de	de	ADP
-12	12	NUM
+12	12	DIGIT
 gouvernements	gouvernement	NOUN
 Europe	Europe	PROPN
 ;	;	PUNCTclause
@@ -1138,7 +1138,7 @@ par exemple	par exemple	ADV
 qui	qui	PRON
 réunit	réunir	VERB
 actuellement	actuellement	ADV
-40	40	NUM
+40	40	DIGIT
 festivals	festival	NOUN
 de	de	ADP
 musique	musique	NOUN
@@ -1147,7 +1147,7 @@ ou	ou	CCONJ
 celle	celle	PRON
 qui	qui	PRON
 rassemble	rassembler	VERB
-32	32	NUM
+32	32	DIGIT
 instituts	institut	NOUN
 de	de	ADP
 études	étude	NOUN
@@ -1219,7 +1219,7 @@ ne	ne	ADV
 avaient	avoir	AUX
 au fond	au fond	ADV
 plus	plus	ADV
-grand-chose	grand-chose	NOUN
+grand-chose	grand-chose	PRON
 à	à	ADP
 se	se	PRON
 mettre	mettre	VERB
@@ -1307,7 +1307,7 @@ seulement	seulement	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
 les	le	DET
-23	23	NUM
+23	23	DIGIT
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -1368,7 +1368,7 @@ une	un	DET
 assemblée	assemblée	NOUN
 qui	qui	PRON
 contrôle	contrôler	VERB
-13	13	NUM
+13	13	DIGIT
 seulement	seulement	ADV
 du	du	ADP_DET
 budget	budget	NOUN
@@ -1377,10 +1377,10 @@ la	le	DET
 commission	commission	NOUN
 économique	économique	ADJ
 de	de	ADP
-10	10	NUM
+10	10	DIGIT
 états	état	NOUN
 sur	sur	ADP
-23	23	NUM
+23	23	DIGIT
 .	.	PUNCTsent
 évidemment	évidemment	ADV
 ,	,	PUNCTclause
@@ -1510,7 +1510,7 @@ future	futur	ADJ
 puisque	puisque	SCONJ
 il	il	PRON
 compte	compter	VERB
-22	22	NUM
+22	22	DIGIT
 pays	pays	NOUN
 de	de	ADP
 l'	le	DET
@@ -1714,7 +1714,7 @@ colloques	colloque	NOUN
 à	à	ADP
 Genève	Genève	PROPN
 dès	dès	ADP
-1962	1962	NUM
+1962	1962	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 cette	ce	DET
@@ -1882,7 +1882,7 @@ un	un	DET
 soir	soir	NOUN
 donc	donc	ADV
 en	en	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 ,	,	PUNCTclause
 chez	chez	ADP
 lui	lui	PRON
@@ -1956,7 +1956,7 @@ interactions	interaction	NOUN
 en	en	ADP
 système	système	NOUN
 de	de	ADP
-5	5	NUM
+5	5	DIGIT
 paramètres	paramètre	NOUN
 :	:	PUNCTclause
 population	population	NOUN
@@ -2014,7 +2014,7 @@ an	an	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 en	en	ADP
-1971	1971	NUM
+1971	1971	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 fameux	fameux	ADJ
@@ -2103,7 +2103,7 @@ l'	le_PRON	PRON
 ai	avoir	AUX
 commencé	commencer	VERB
 en	en	ADP
-1973	1973	NUM
+1973	1973	DIGIT
 ;	;	PUNCTclause
 je	je	PRON
 en	en	PRON
@@ -2140,7 +2140,7 @@ danger	danger	NOUN
 que	que	SCONJ
 représentaient	représenter	VERB
 les	le	DET
-16	16	NUM
+16	16	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
@@ -2243,9 +2243,9 @@ moi	moi	PRON
 Ferney	Ferney	PROPN
 ,	,	PUNCTclause
 le	le	DET
-22	22	NUM
+22	22	DIGIT
 août	août	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 .	.	PUNCTsent
 le	le	DET
 film	film	NOUN
@@ -2602,7 +2602,7 @@ ou	ou	CCONJ
 deux-cents	deux-cents	ADP
 ans	an	NOUN
 (	(	PUNCTclause
-1789	1789	NUM
+1789	1789	DIGIT
 !	!	PUNCTsent
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -2743,7 +2743,7 @@ vu	voir	VERB
 ce	ce	PRON
 était	être	AUX
 en	en	ADP
-1947	1947	NUM
+1947	1947	DIGIT
 (	(	PUNCTclause
 au moment de	au moment de	ADP
 notre	notre	DET
@@ -2752,7 +2752,7 @@ conversation	conversation	NOUN
 l'	le	DET
 humanité	humanité	NOUN
 comptait	compter	VERB
-3,5	3,5	NUM
+3,5	3,5	DIGIT
 milliards	milliard	NOUN
 de	de	ADP
 humains	humain	NOUN
@@ -2786,7 +2786,7 @@ mes	mon	DET
 calculs	calcul	NOUN
 ,	,	PUNCTclause
 environ	environ	ADV
-20	20	NUM
+20	20	DIGIT
 millions	million	NOUN
 de	de	ADP
 gens	gens	NOUN
@@ -3546,7 +3546,7 @@ de	de	ADP
 la	le	DET
 Révolution	Révolution	PROPN
 de	de	ADP
-1917	1917	NUM
+1917	1917	DIGIT
 ont	avoir	AUX
 très	très	ADV
 vite	vite	ADV
@@ -4310,7 +4310,7 @@ le	le	DET
 chemin	chemin	NOUN
 se	se	PRON
 fait	faire	AUX
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'on	on	PRON
 y	y	PRON
 marche	marcher	VERB
@@ -4369,7 +4369,7 @@ discussions	discussion	NOUN
 je	je	PRON
 en	en	PRON
 tire	tirer	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 trois	trois	NUM
 directions	direction	NOUN
 de	de	ADP
@@ -4451,7 +4451,7 @@ canton	canton	NOUN
 Suisse	Suisse	PROPN
 que	que	PRON
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -5965,7 +5965,7 @@ latin	latin	NOUN
 du	du	ADP_DET
 pacte	pacte	NOUN
 de	de	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX
@@ -6008,9 +6008,9 @@ impression	impression	NOUN
 quand	quand	SCONJ
 je	je	PRON
 avais	avoir	AUX
-15	15	NUM
+15	15	DIGIT
 ou	ou	CCONJ
-16	16	NUM
+16	16	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 a	avoir	AUX
@@ -6162,7 +6162,7 @@ lancé	lancer	VERB
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 sous le nom de	sous le nom de	ADP
 mouvement	mouvement	NOUN
@@ -6855,7 +6855,7 @@ parlé	parler	VERB
 de	de	ADP
 l'	le	DET
 an	an	NOUN
-900	900	NUM
+900	900	DIGIT
 jusque	jusque	ADP
 aux	au	ADP_DET
 débuts	début	NOUN
@@ -7039,7 +7039,7 @@ est	est	NOUN
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-89	89	NUM
+89	89	DIGIT
 ans	an	NOUN
 .	.	PUNCTsent
 il y en a	il y en a	VERB
@@ -7113,7 +7113,7 @@ et	et	CCONJ
 conquêtes	conquête	NOUN
 jusque	jusque	ADP
 en	en	ADP
-1861	1861	NUM
+1861	1861	DIGIT
 .	.	PUNCTsent
 elle	elle	PRON
 a	avoir	AUX

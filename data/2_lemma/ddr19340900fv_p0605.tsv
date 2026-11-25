@@ -11,7 +11,7 @@ de	de	ADP
 Kierkegaard	Kierkegaard	PROPN
 (	(	PUNCTclause
 août	août	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -564,7 +564,7 @@ de	de	ADP
 ce	ce	DET
 héros	héros	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 des	un	DET
 valeurs	valeur	NOUN
@@ -800,7 +800,7 @@ Copenhague	Copenhague	PROPN
 en	en	ADP
 l'	le	DET
 année	année	NOUN
-1855	1855	NUM
+1855	1855	DIGIT
 .	.	PUNCTsent
 depuis lors	depuis lors	ADV
 ,	,	PUNCTclause
@@ -2309,8 +2309,8 @@ est	être	AUX
 vrai	vrai	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	DET
+point	point	NOUN
 justement	justement	ADV
 pour	pour	ADP
 ces	ce	DET
@@ -2548,7 +2548,7 @@ de	de	ADP
 l'	le	DET
 esprit	esprit	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 ce	ce	PRON
 que	que	PRON
@@ -2560,7 +2560,7 @@ est	être	AUX
 ce	ce	DET
 possible	possible	ADJ
 ?	?	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 puis	puis	CCONJ
 je	je	PRON
@@ -2577,13 +2577,13 @@ de	de	ADP
 l'	le	DET
 esprit	esprit	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 est	être	AUX
 ce	ce	DET
 réel	réel	ADJ
 ?	?	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 Mon	Mon	PROPN
 voisin	voisin	ADJ

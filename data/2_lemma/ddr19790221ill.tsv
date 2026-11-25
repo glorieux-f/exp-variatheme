@@ -13,9 +13,9 @@ renverse	renverser	VERB
 l'	le	DET
 Iran	Iran	PROPN
 (	(	PUNCTclause
-21	21	NUM
+21	21	DIGIT
 février	février	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -183,7 +183,7 @@ autocoloniser	autocoloniser	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1925	1925	NUM
+1925	1925	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 général	général	NOUN
@@ -214,7 +214,7 @@ fils	fils	NOUN
 lui	lui	PRON
 succède	succéder	VERB
 en	en	ADP
-1941	1941	NUM
+1941	1941	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 la	le	DET
@@ -694,7 +694,7 @@ et	et	CCONJ
 par	par	ADP
 lui	lui	PRON
 aux	au	ADP_DET
-11	11	NUM
+11	11	DIGIT
 imams	imam	NOUN
 ou	ou	CCONJ
 chefs	chef	NOUN
@@ -777,8 +777,7 @@ chef	chef	NOUN
 actuel	actuel	ADJ
 ,	,	PUNCTclause
 en tant que	en tant que	ADP
-49	49	NUM
-e	e	SYM
+49e	49e	NUMord
 imam	imam	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -791,7 +790,7 @@ prophète	prophète	NOUN
 il	il	PRON
 compte	compter	VERB
 environ	environ	ADV
-12	12	NUM
+12	12	DIGIT
 millions	million	NOUN
 de	de	ADP
 fidèles	fidèle	ADJ
@@ -1047,7 +1046,7 @@ contrats	contrat	NOUN
 fabuleux	fabuleux	ADJ
 avec	avec	ADP
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1123,7 +1122,9 @@ très	très	ADV
 graves	grave	ADJ
 affrontements	affrontement	NOUN
 ,	,	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 domination	domination	NOUN
 sur	sur	ADP

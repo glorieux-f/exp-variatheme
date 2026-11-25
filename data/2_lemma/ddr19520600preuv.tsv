@@ -17,7 +17,7 @@ l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
 juin	juin	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1174,7 +1174,7 @@ une	un	DET
 personne	personne	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 nos	nos	DET
 vies	vie	NOUN
 ne	ne	ADV
@@ -1702,7 +1702,7 @@ renouvellement	renouvellement	NOUN
 possible	possible	ADJ
 de	de	ADP
 toutes	toutes	PRON
-choses	choser	VERB
+choses	chose	NOUN
 ;	;	PUNCTclause
 et	et	CCONJ
 aussi	aussi	ADV
@@ -3774,7 +3774,7 @@ les	le	DET
 bombardiers	bombardier	NOUN
 géants	géant	ADJ
 .	.	PUNCTsent
-etc.	etc.	NOUN
+Etc.	Etc.	NOUN
 qui	qui	PRON
 peut	pouvoir	VERB
 savoir	savoir	VERB
@@ -4173,9 +4173,9 @@ ne	ne	ADV
 représente	représenter	VERB
 en fait	en fait	ADV
 que	que	SCONJ
-4	4	NUM
+4	4	DIGIT
 à	à	ADP
-5	5	NUM
+5	5	DIGIT
 des	un	ADP_DET
 terres	terre	NOUN
 du	du	ADP_DET
@@ -4943,7 +4943,7 @@ culture	culture	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-peu de chose	peu de chose	NOUN
+peu de chose	peu de chose	PRON
 pour	pour	ADP
 arrêter	arrêter	VERB
 le	le	DET

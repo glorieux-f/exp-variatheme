@@ -188,9 +188,9 @@ contre	contre	ADP
 Schwyz	Schwyz	PROPN
 ,	,	PUNCTclause
 le	le	DET
-15	15	NUM
+15	15	DIGIT
 novembre	novembre	NOUN
-1315	1315	NUM
+1315	1315	DIGIT
 .	.	PUNCTsent
 une	un	DET
 colonne	colonne	NOUN
@@ -588,7 +588,7 @@ ainsi	ainsi	ADV
 rejeté	rejeter	VERB
 (	(	PUNCTclause
 dès	dès	ADP
-1499	1499	NUM
+1499	1499	DIGIT
 )	)	PUNCTclause
 leurs	leur	DET
 obligations	obligation	NOUN
@@ -699,7 +699,7 @@ au	au	ADP_DET
 sud	sud	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1512	1512	NUM
+1512	1512	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 confédérés	confédéré	NOUN
@@ -758,7 +758,7 @@ des	un	ADP_DET
 alpes	alpe	NOUN
 .	.	PUNCTsent
 en	en	ADP
-1513	1513	NUM
+1513	1513	DIGIT
 ,	,	PUNCTclause
 ils	ils	PRON
 remportent	remporter	VERB
@@ -981,10 +981,10 @@ fin	fin	NOUN
 de	de	ADP
 après-midi	après-midi	NOUN
 du	du	ADP_DET
-13	13	NUM
+13	13	DIGIT
 septembre	septembre	NOUN
 de	de	ADP
-1515	1515	NUM
+1515	1515	DIGIT
 ,	,	PUNCTclause
 la	le	DET
 «	«	PUNCTclause
@@ -1138,7 +1138,7 @@ Marignan	Marignan	PROPN
 à	à	ADP
 Fribourg	Fribourg	PROPN
 en	en	ADP
-1516	1516	NUM
+1516	1516	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 ligues	ligue	NOUN
@@ -1174,7 +1174,7 @@ Italie	Italie	PROPN
 .	.	PUNCTsent
 ils	ils	PRON
 reçoivent	recevoir	VERB
-400000	400000	NUM
+400000	400000	DIGIT
 couronnes	couronne	NOUN
 en	en	ADP
 rachat	rachat	NOUN
@@ -1184,7 +1184,7 @@ de	de	ADP
 Dijon	Dijon	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-300000	300000	NUM
+300000	300000	DIGIT
 couronnes	couronne	NOUN
 de	de	ADP
 indemnité	indemnité	NOUN
@@ -2102,7 +2102,7 @@ retraite	retrait	NOUN
 de	de	ADP
 Meaux	Meaux	PROPN
 (	(	PUNCTclause
-1567	1567	NUM
+1567	1567	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2162,9 +2162,9 @@ l'	le	DET
 populaire	populaire	ADJ
 ,	,	PUNCTclause
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
-1792	1792	NUM
+1792	1792	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 se	se	PRON
@@ -2471,7 +2471,7 @@ de même	de même	ADV
 Ivry	Ivry	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1590	1590	NUM
+1590	1590	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 corps	corps	NOUN
@@ -2504,7 +2504,7 @@ ligue	ligue	NOUN
 mais	mais	CCONJ
 déjà	déjà	ADV
 en	en	ADP
-1709	1709	NUM
+1709	1709	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Malplaquet	Malplaquet	PROPN
@@ -2564,7 +2564,7 @@ Frédéric	Frédéric	PROPN
 II	II	NUM
 .	.	PUNCTsent
 en	en	ADP
-1704	1704	NUM
+1704	1704	DIGIT
 ,	,	PUNCTclause
 sur	sur	ADP
 la	le	DET
@@ -2582,7 +2582,7 @@ enrôler	enrôler	VERB
 pour	pour	ADP
 la	le	DET
 France	France	PROPN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 le	le	DET
 général	général	NOUN
 de	de	ADP
@@ -3034,9 +3034,9 @@ cela	cela	PRON
 se	se	PRON
 passait	passer	VERB
 le	le	DET
-26	26	NUM
+26	26	DIGIT
 novembre	novembre	NOUN
-1812	1812	NUM
+1812	1812	DIGIT
 .	.	PUNCTsent
 Treize	Treize	NUM
 mois	mois	NOUN
@@ -3068,7 +3068,7 @@ confédération	confédération	NOUN
 restaurée	restaurer	VERB
 .	.	PUNCTsent
 en	en	ADP
-1815	1815	NUM
+1815	1815	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 régiments	régiment	NOUN
@@ -3093,7 +3093,7 @@ vrai	vrai	ADJ
 que	que	SCONJ
 ,	,	PUNCTclause
 dès	dès	ADP
-1816	1816	NUM
+1816	1816	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 cantons	canton	NOUN
@@ -3127,7 +3127,7 @@ des	un	DET
 effectifs	effectif	NOUN
 égaux	égal	ADJ
 à	à	ADP
-2	2	NUM
+2	2	DIGIT
 de	de	ADP
 sa	son	DET
 population	population	NOUN
@@ -3173,7 +3173,7 @@ confessionnelle	confessionnel	ADJ
 du	du	ADP_DET
 Sonderbund	Sonderbund	PROPN
 (	(	PUNCTclause
-1847	1847	NUM
+1847	1847	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 gagnée	gagner	VERB
@@ -3199,7 +3199,7 @@ proclamé	proclamer	VERB
 la	le	DET
 constitution	constitution	NOUN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 ses	son	DET
@@ -3222,7 +3222,7 @@ militaires	militaire	ADJ
 »	»	PUNCTclause
 (	(	PUNCTclause
 article	article	NOUN
-11	11	NUM
+11	11	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 à	à	ADP
@@ -3387,7 +3387,7 @@ séparées	séparé	ADJ
 la	le	DET
 Suisse	Suisse	PROPN
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 se	se	PRON
 donnait	donner	VERB
 aussi	aussi	ADV
@@ -3481,7 +3481,7 @@ de	de	ADP
 la	le	DET
 défaite	défaite	NOUN
 de	de	ADP
-1515	1515	NUM
+1515	1515	DIGIT
 .	.	PUNCTsent
 aussi	aussi	ADV
 l'	le	DET
@@ -3626,7 +3626,7 @@ ou	ou	CCONJ
 étrangère	étranger	ADJ
 ,	,	PUNCTclause
 depuis	depuis	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au lieu de	au lieu de	ADP
@@ -3753,7 +3753,7 @@ l'	le	DET
 armée	armée	NOUN
 Bourbaki	Bourbaki	PROPN
 en	en	ADP
-1871	1871	NUM
+1871	1871	DIGIT
 ,	,	PUNCTclause
 du	du	ADP_DET
 4e	4e	ADJ
@@ -3765,7 +3765,7 @@ une	un	DET
 division	division	NOUN
 polonaise	polonais	ADJ
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP

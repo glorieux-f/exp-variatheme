@@ -258,9 +258,9 @@ première	premier	ADJ
 habitude	habitude	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-22	22	NUM
+22	22	DIGIT
 avril	avril	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mes	mon	DET
@@ -474,7 +474,7 @@ parapet	parapet	NOUN
 ,	,	PUNCTclause
 tout	tout	PRON
 près	près	ADV
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 .	.	PUNCTsent
 vont	aller	VERB
 elles	elles	PRON
@@ -589,9 +589,9 @@ vraiment	vraiment	ADV
 mal	mal	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-24	24	NUM
+24	24	DIGIT
 avril	avril	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -830,7 +830,7 @@ un	un	DET
 blond	blond	NOUN
 géant	géant	ADJ
 de	de	ADP
-25	25	NUM
+25	25	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1008,9 +1008,9 @@ trop	trop	ADV
 tôt	tôt	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-28	28	NUM
+28	28	DIGIT
 avril	avril	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ils	ils	PRON
@@ -1182,9 +1182,9 @@ mais	mais	CCONJ
 non	non	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 mai	mai	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -1679,9 +1679,9 @@ mémoire	mémoire	NOUN
 bienheureuse	bienheureux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 mai	mai	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 rentré	rentrer	VERB
@@ -1706,9 +1706,9 @@ travail	travail	NOUN
 lire	lire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 mai	mai	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 matinées	matinée	NOUN
@@ -1722,7 +1722,7 @@ je	je	PRON
 me	me	PRON
 lève	lever	VERB
 à	à	ADP
-7	7	NUM
+7	7	DIGIT
 h	h	NOUN
 ,	,	PUNCTclause
 rassemble	rassembler	VERB
@@ -2314,9 +2314,9 @@ nommer	nommer	VERB
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-22	22	NUM
+22	22	DIGIT
 mai	mai	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
@@ -2419,7 +2419,7 @@ fourmis	fourmi	NOUN
 rouges	rouge	ADJ
 .	.	PUNCTsent
 dès	dès	ADP
-9	9	NUM
+9	9	DIGIT
 heures	heure	NOUN
 je	je	PRON
 ai	avoir	AUX
@@ -2666,8 +2666,8 @@ symbole	symbole	NOUN
 concret	concret	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'est-ce	n'est-ce	VERB
-point	point	NOUN
+N'est-ce	N'est-ce	PROPN
+point	point	ADV
 ce	ce	DET
 genre	genre	NOUN
 de	de	ADP
@@ -2682,8 +2682,8 @@ le	le	DET
 plus	plus	ADV
 méprisé	mépriser	VERB
 ?	?	PUNCTsent
-n'est-ce	n'est-ce	VERB
-point	point	NOUN
+N'est-ce	N'est-ce	PROPN
+point	point	ADV
 à cause de	à cause de	ADP
 ce	ce	PRON
 mépris	méprendre	VERB
@@ -2985,9 +2985,9 @@ ces	ce	DET
 arbres	arbre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 mai	mai	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 curieux	curieux	ADJ
@@ -3103,9 +3103,9 @@ concrètes	concret	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-31	31	NUM
+31	31	DIGIT
 mai	mai	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 personne	personne_PRON	PRON
@@ -3208,11 +3208,11 @@ dérouler	dérouler	VERB
 dans le cadre de	dans le cadre de	ADP
 Jésus-Sirach	Jésus-Sirach	PROPN
 ,	,	PUNCTclause
-38	38	NUM
+38	38	DIGIT
 ,	,	PUNCTclause
 verset	verset	NOUN
-16	16	NUM
--24	-24	NUM
+16	16	DIGIT
+-24	-24	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 on	on	PRON
@@ -3467,9 +3467,9 @@ du	du	ADP_DET
 !	!	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tennis	tennis	NOUN
@@ -3557,7 +3557,7 @@ du	du	ADP_DET
 vestiaire	vestiaire	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 les	le	DET
 France	France	PROPN
@@ -3764,9 +3764,9 @@ de	de	ADP
 entrer	entrer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
@@ -3973,9 +3973,9 @@ si	si	ADV
 réconfortante	réconfortant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Paracelse	Paracelse	PROPN
@@ -4259,9 +4259,9 @@ son	son	DET
 objet	objet	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Werther	Werther	PROPN
@@ -4307,9 +4307,9 @@ nous	nous	PRON
 sommes	être	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -4727,7 +4727,7 @@ Tannenbourg	Tannenbourg	PROPN
 ,	,	PUNCTclause
 drame	drame	NOUN
 en	en	ADP
-15	15	NUM
+15	15	DIGIT
 tableaux	tableau	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -4984,9 +4984,9 @@ mal	mal	ADV
 clos	clos	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
@@ -5060,9 +5060,9 @@ de	de	ADP
 résister	résister	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-22	22	NUM
+22	22	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 rencontre	rencontrer	VERB
@@ -5463,9 +5463,9 @@ corridor	corridor	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-30	30	NUM
+30	30	DIGIT
 juin	juin	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 hier	hier	ADV
@@ -6022,7 +6022,7 @@ approcher	approcher	VERB
 début	début	NOUN
 de	de	ADP
 juillet	juillet	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
@@ -6526,9 +6526,9 @@ le	le	DET
 temps	temps	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 juillet	juillet	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -6738,9 +6738,9 @@ ils	ils	PRON
 ont	avoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 juillet	juillet	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ces	ce	DET
@@ -6755,7 +6755,7 @@ une	un	DET
 retraite	retrait	NOUN
 sensuelle	sensuel	ADJ
 .	.	PUNCTsent
-n'est-ce	n'est-ce	VERB
+N'est-ce	N'est-ce	PROPN
 point	point	ADV
 de	de	ADP
 cela	cela	PRON
@@ -7103,7 +7103,7 @@ captivent	captiver	VERB
 ↵↵	↵↵	PUNCTstruct
 fin	fin	NOUN
 juillet	juillet	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vraiment	vraiment	ADV
@@ -7299,9 +7299,9 @@ l'	le	DET
 humain	humain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 août	août	NOUN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -7577,7 +7577,7 @@ nouvel	nouveau	ADJ
 arrêt	arrêt	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ce	ce	PRON
 est	être	AUX
 une	un	DET
@@ -8321,9 +8321,9 @@ populeux	populeux	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Avril-août	Avril-août	PROPN
-1929	1929	NUM
+1929	1929	DIGIT
 .	.	PUNCTsent
 repris	reprendre	VERB
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 .	.	PUNCTsent

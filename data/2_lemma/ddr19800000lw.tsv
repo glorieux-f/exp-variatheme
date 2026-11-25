@@ -15,7 +15,7 @@ sociale	social	ADJ
 du	du	ADP_DET
 scientifique	scientifique	NOUN
 (	(	PUNCTclause
-1980	1980	NUM
+1980	1980	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -117,7 +117,7 @@ Paris	Paris	PROPN
 ,	,	PUNCTclause
 en	en	ADP
 septembre	septembre	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
@@ -160,7 +160,7 @@ ce	ce	DET
 début	début	NOUN
 de	de	ADP
 septembre	septembre	NOUN
-1973	1973	NUM
+1973	1973	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 annonçais	annoncer	VERB
@@ -255,7 +255,7 @@ annoncées	annoncer	VERB
 par	par	ADP
 Carter	Carter	PROPN
 en	en	ADP
-1977	1977	NUM
+1977	1977	DIGIT
 ;	;	PUNCTclause
 bien entendu	bien entendu	ADV
 …	…	PUNCTsent
@@ -344,7 +344,7 @@ l'	le	DET
 Express	Express	PROPN
 l'	le	DET
 interroge	interroger	VERB
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	ADP_DET
 prix	prix	NOUN
 de	de	ADP
 revient	revenir	VERB
@@ -385,7 +385,7 @@ auquel	auquel	ADP_PRON
 un	un	DET
 être humain	être humain	NOUN
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 vendre	vendre	VERB
 ou	ou	CCONJ
 à	à	ADP
@@ -465,7 +465,7 @@ prix	prix	NOUN
 qui	qui	PRON
 frôlent	frôler	VERB
 les	le	DET
-100	100	NUM
+100	100	DIGIT
 dollars	dollar	NOUN
 au	au	ADP_DET
 kilowatt	watt	NOUN
@@ -526,15 +526,15 @@ on	on	PRON
 en	en	PRON
 fera	faire	VERB
 en	en	ADP
-1980	1980	NUM
+1980	1980	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
-1985	1985	NUM
+1985	1985	DIGIT
 ,	,	PUNCTclause
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-2000	2000	NUM
+2000	2000	DIGIT
 ?	?	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -728,7 +728,7 @@ table ronde	table ronde	NOUN
 du	du	ADP_DET
 Conseil de l'Europe	Conseil de l'Europe	PROPN
 en	en	ADP
-1965	1965	NUM
+1965	1965	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Strasbourg	Strasbourg	PROPN
@@ -809,7 +809,9 @@ symboliquement	symboliquement	ADV
 —	—	PUNCTclause
 ses	son	DET
 déclarations	déclaration	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 Hermann	Hermann	PROPN
 Kahn	Kahn	PROPN
 ,	,	PUNCTclause
@@ -909,7 +911,7 @@ que	que	SCONJ
 il	il	PRON
 tenait	tenir	VERB
 en	en	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 (	(	PUNCTclause
 dans	dans	ADP
 cette	ce	DET
@@ -948,7 +950,7 @@ mais	mais	CCONJ
 que	que	SCONJ
 à partir de	à partir de	ADP
 environ	environ	ADV
-1967	1967	NUM
+1967	1967	DIGIT
 une	un	DET
 hostilité	hostilité	NOUN
 ,	,	PUNCTclause
@@ -1191,7 +1193,7 @@ le	le	DET
 mois	mois	NOUN
 de	de	ADP
 août	août	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 se	se	PRON
@@ -1388,7 +1390,7 @@ il y a	il y a	VERB
 l'	le	DET
 affrontement	affrontement	NOUN
 du	du	ADP_DET
-31	31	NUM
+31	31	DIGIT
 juillet	juillet	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -1490,7 +1492,7 @@ présentée	présenter	VERB
 la	le	DET
 presse	presse	NOUN
 le	le	DET
-3	3	NUM
+3	3	DIGIT
 octobre	octobre	NOUN
 .	.	PUNCTsent
 bien que	bien que	SCONJ
@@ -1642,7 +1644,7 @@ les	le	DET
 nations	nation	NOUN
 occidentales	occidental	ADJ
 aux environs de	aux environs de	ADP
-1970	1970	NUM
+1970	1970	DIGIT
 .	.	PUNCTsent
 ces	ce	DET
 années	année	NOUN
@@ -1942,11 +1944,11 @@ notamment	notamment	ADV
 aux	au	ADP_DET
 confrontations	confrontation	NOUN
 des	un	ADP_DET
-30	30	NUM
+30	30	DIGIT
 et	et	CCONJ
-31	31	NUM
+31	31	DIGIT
 juillet	juillet	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -2208,7 +2210,7 @@ ses	son	DET
 soins	soin	NOUN
 en	en	ADP
 février	février	NOUN
-1979	1979	NUM
+1979	1979	DIGIT
 .	.	PUNCTsent
 Lew	Lew	PROPN
 Kowarski	Kowarski	PROPN

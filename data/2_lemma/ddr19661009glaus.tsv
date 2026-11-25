@@ -11,10 +11,10 @@ Breton	Breton	PROPN
 à	à	ADP
 New York	New York	PROPN
 (	(	PUNCTclause
-8	8	NUM
--9	-9	AUX
+8	8	DIGIT
+-9	-9	DIGIT
 octobre	octobre	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -90,7 +90,7 @@ un	un	DET
 mythe	mythe	NOUN
 pour	pour	ADP
 devenir	devenir	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 mon	mon	DET
 ami	ami	NOUN
 ,	,	PUNCTclause
@@ -109,9 +109,9 @@ village	village	NOUN
 New York	New York	PROPN
 .	.	PUNCTsent
 (	(	PUNCTclause
-20	20	NUM
+20	20	DIGIT
 juin	juin	NOUN
-1942	1942	NUM
+1942	1942	DIGIT
 ,	,	PUNCTclause
 selon	selon	ADP
 le	le	DET
@@ -906,7 +906,7 @@ fut	être	AUX
 dédiée	dédier	VERB
 au	au	ADP_DET
 nombre	nombre	NOUN
-21	21	NUM
+21	21	DIGIT
 )	)	PUNCTclause
 ou	ou	CCONJ
 une	un	DET
@@ -1119,7 +1119,7 @@ due	devoir	VERB
 il	il	PRON
 dans	dans	ADP
 Arcane	Arcane	PROPN
-17	17	NUM
+17	17	DIGIT
 ,	,	PUNCTclause
 deux	deux	NUM
 ans	an	NOUN

@@ -12,8 +12,8 @@ dans	dans	ADP
 la	le	DET
 cité	cité	NOUN
 (	(	PUNCTclause
-1971	1971	NUM
--1972	-1972	NUM
+1971	1971	DIGIT
+-1972	-1972	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -621,8 +621,8 @@ un	un	DET
 juste	juste	ADJ
 retour	retour	NOUN
 ,	,	PUNCTclause
-n'est-ce	n'est-ce	VERB
-point	point	ADV
+n'est-ce	n'est-ce	DET
+point	point	NOUN
 aux	au	ADP_DET
 scientifiques	scientifique	NOUN
 ,	,	PUNCTclause
@@ -648,7 +648,7 @@ restaurer	restaurer	VERB
 ce	ce	DET
 qui	qui	PRON
 fut	être	AUX
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 par	par	ADP
 le	le	DET
 génie	génie	NOUN
@@ -674,7 +674,7 @@ prospectives	prospective	NOUN
 unanimes	unanime	ADJ
 en	en	ADP
 sauvant	sauver	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 la	le	DET
 nature	nature	NOUN
 ?	?	PUNCTsent
@@ -1465,7 +1465,7 @@ les	le_PRON	PRON
 assume	assumer	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 il	il	PRON
 se	se	PRON
 verra	voir	VERB

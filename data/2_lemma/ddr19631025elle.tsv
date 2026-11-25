@@ -26,9 +26,9 @@ le	le	DET
 couple	couple	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 octobre	octobre	NOUN
-1963	1963	NUM
+1963	1963	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -42,11 +42,11 @@ marié	marier	VERB
 en	en	ADP
 France	France	PROPN
 (	(	PUNCTclause
-90	90	NUM
+90	90	DIGIT
 des	un	ADP_DET
 hommes	homme	NOUN
 et	et	CCONJ
-91,5	91,5	NUM
+91,5	91,5	DIGIT
 des	un	DET
 femmes	femme	NOUN
 )	)	PUNCTclause
@@ -58,7 +58,7 @@ a	avoir	VERB
 autant	autant	ADV
 divorcé	divorcer	VERB
 (	(	PUNCTclause
-10	10	NUM
+10	10	DIGIT
 des	un	ADP_DET
 couples	couple	NOUN
 )	)	PUNCTclause

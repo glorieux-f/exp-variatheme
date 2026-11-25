@@ -12,12 +12,12 @@ du	du	ADP_DET
 fédéralisme	fédéralisme	NOUN
 (	(	PUNCTclause
 septembre	septembre	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-1863	1863	NUM
+1863	1863	DIGIT
 paraissait	paraître	VERB
 le	le	DET
 dernier	dernier	ADJ
@@ -755,7 +755,7 @@ en	en	ADP
 crise	crise	NOUN
 permanente	permanent	ADJ
 .	.	PUNCTsent
-855	855	NUM
+855	855	DIGIT
 votes	vote	NOUN
 en	en	ADP
 quelques	quelque	DET
@@ -1057,7 +1057,7 @@ fédératifs	fédératif	ADJ
 mais	mais	CCONJ
 ils	ils	PRON
 regroupent	regrouper	VERB
-40	40	NUM
+40	40	DIGIT
 de	de	ADP
 la	le	DET
 population	population	NOUN
@@ -1564,7 +1564,7 @@ qui	qui	PRON
 l'	le_PRON	PRON
 illustrent	illustrer	VERB
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 «	«	PUNCTclause
 le	le	DET
@@ -1589,7 +1589,7 @@ Chateaubriand	Chateaubriand	PROPN
 ,	,	PUNCTclause
 gouvernement	gouvernement	NOUN
 .	.	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 «	«	PUNCTclause
 pendant	pendant	ADP
@@ -1667,7 +1667,7 @@ mon	mon	DET
 Littré	Littré	PROPN
 date	dater	VERB
 de	de	ADP
-1865	1865	NUM
+1865	1865	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTclause
 fédéralisme	fédéralisme	NOUN
@@ -2386,7 +2386,9 @@ les	le	DET
 éléates	éléates	NOUN
 aux	au	ADP_DET
 ioniens	ionien	ADJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 l'	le	DET
 antinomie	antinomie	NOUN
 fondamentale	fondamental	ADJ
@@ -3314,7 +3316,7 @@ autonomie	autonomie	NOUN
 quelques	quelque	DET
 exemples	exemple	NOUN
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 le	le	DET
 problème	problème	NOUN
@@ -3348,7 +3350,7 @@ la	le	DET
 culture générale	culture générale	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 problèmes	problème	NOUN
@@ -3396,7 +3398,7 @@ les	le	DET
 autres	autre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 au niveau de	au niveau de	ADP
 la	le	DET
@@ -3499,7 +3501,7 @@ en	en	ADP
 association	association	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -4132,9 +4134,9 @@ unités	unité	NOUN
 de	de	ADP
 habitation	habitation	NOUN
 de	de	ADP
-5000	5000	NUM
+5000	5000	DIGIT
 à	à	ADP
-25000	25000	NUM
+25000	25000	DIGIT
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 dotées	doter	VERB
@@ -4435,7 +4437,7 @@ de	de	ADP
 Caen	Caen	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1966	1966	NUM
+1966	1966	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 aussi	aussi	ADV
@@ -4450,7 +4452,7 @@ aux	au	ADP_DET
 recteurs	recteur	NOUN
 Europe	Europe	PROPN
 en	en	ADP
-1964	1964	NUM
+1964	1964	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -4529,7 +4531,7 @@ la	le	DET
 défense	défense	NOUN
 ,	,	PUNCTclause
 les	le	DET
-affaires étrangères	Affaires étrangères	NOUN
+Affaires étrangères	Affaires étrangères	NOUN
 et	et	CCONJ
 la	le	DET
 politique	politique	NOUN

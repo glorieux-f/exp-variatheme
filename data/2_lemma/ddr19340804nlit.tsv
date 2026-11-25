@@ -13,9 +13,9 @@ groupes	groupe	NOUN
 —	—	PUNCTclause
 Kagawa	Kagawa	PROPN
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 août	août	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -568,8 +568,8 @@ optimistes	optimiste	NOUN
 ,	,	PUNCTclause
 scientifiques	scientifique	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-il	il	PRON
+etc.	etc.	X
+il	il	X
 voit	voir	VERB
 la	le	DET
 réalité	réalité	NOUN
@@ -1486,7 +1486,7 @@ du	du	ADP_DET
 quartier	quartier	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-non content de	non content de	ADP
+non content de	non content de	ADJ
 y	y	PRON
 vivre	vivre	VERB
 dans	dans	ADP
@@ -1642,7 +1642,7 @@ dont	dont	PRON
 le	le	DET
 tirage	tirage	NOUN
 atteint	atteindre	VERB
-250000	250000	NUM
+250000	250000	DIGIT
 exemplaires	exemplaire	NOUN
 .	.	PUNCTsent
 son	son	DET
@@ -1692,7 +1692,7 @@ une	un	DET
 première	premier	ADJ
 grève	grève	NOUN
 de	de	ADP
-30000	30000	NUM
+30000	30000	DIGIT
 dockers	docker	NOUN
 et	et	CCONJ
 rédige	rédiger	VERB
@@ -1943,7 +1943,7 @@ communisme	communisme	NOUN
 de	de	ADP
 Kobé	Kobé	PROPN
 en	en	ADP
-1925	1925	NUM
+1925	1925	DIGIT
 .	.	PUNCTsent
 et	et	CCONJ
 quelques	quelque	DET

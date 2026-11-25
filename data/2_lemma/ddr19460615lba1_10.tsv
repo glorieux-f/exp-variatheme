@@ -16,9 +16,9 @@ homme d'État	homme d'État	NOUN
 Washington	Washington	PROPN
 ,	,	PUNCTclause
 le	le	DET
-10	10	NUM
+10	10	DIGIT
 novembre	novembre	NOUN
-1945	1945	NUM
+1945	1945	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 notre	notre	DET
@@ -680,7 +680,9 @@ qui	qui	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 dit	dire	VERB
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 Truman	Truman	PROPN
 ?	?	PUNCTsent
 l'	le	DET
@@ -774,7 +776,7 @@ par	par	ADP
 les	le	DET
 gouverneurs	gouverneur	NOUN
 des	un	ADP_DET
-48	48	NUM
+48	48	DIGIT
 états	état	NOUN
 de	de	ADP
 l'	le	DET
@@ -935,7 +937,7 @@ fonction	fonction	NOUN
 même	même	ADJ
 de	de	ADP
 ces	ce	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 les	le	DET
 disqualifie	disqualifier	VERB
 ,	,	PUNCTclause
@@ -1034,7 +1036,7 @@ de	de	ADP
 haut	haut	NOUN
 avec	avec	ADP
 les	le	DET
-chefs d'État	chef d'État	NOUN
+chefs d'État	chefs d'État	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ

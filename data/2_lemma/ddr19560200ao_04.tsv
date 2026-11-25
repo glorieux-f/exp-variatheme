@@ -17,7 +17,7 @@ du	du	ADP_DET
 mythe	mythe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 L	L	DET
 «	«	PUNCTclause
@@ -260,7 +260,7 @@ retarder	retarder	VERB
 le	le	DET
 plaisir	plaisir	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 la	le	DET
 ruse	ruse	NOUN
 la	le	DET
@@ -824,7 +824,7 @@ cette	ce	DET
 déviation	déviation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 Éros	Éros	PROPN
 ,	,	PUNCTclause
@@ -2835,7 +2835,7 @@ doivent	devoir	VERB
 retenus	retenir	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 le	le	DET
 dogme	dogme	NOUN
@@ -3035,7 +3035,7 @@ trop	trop	ADV
 humains	humain	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 il	il	PRON
 est	être	AUX
@@ -3389,7 +3389,7 @@ un	un	DET
 mythe	mythe	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 Agapè	Agapè	PROPN
 ou	ou	CCONJ
@@ -4390,9 +4390,9 @@ son	son	DET
 (	(	PUNCTclause
 Éph.	Éph.	PROPN
 ,	,	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 ,	,	PUNCTclause
-25	25	NUM
+25	25	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 peut	pouvoir	VERB
@@ -4537,7 +4537,7 @@ salut	salut	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 orient	orient	NOUN
 et	et	CCONJ
@@ -5590,7 +5590,7 @@ du	du	ADP_DET
 mythe	mythe	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 contrecoup	contrecoup	NOUN
 du	du	ADP_DET
@@ -5889,7 +5889,7 @@ barbare	barbare	ADJ
 .	.	PUNCTsent
 il	il	PRON
 était	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 accueillir	accueillir	VERB
 ,	,	PUNCTclause
 sous le couvert de	sous le couvert de	ADP
@@ -6505,7 +6505,7 @@ de	de	ADP
 la	le	DET
 beauté	beauté	NOUN
 ,	,	PUNCTclause
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 le	le	DET
 souvenir	souvenir	NOUN
 de	de	ADP
@@ -6656,7 +6656,7 @@ amour	amour	NOUN
 courtois	courtois	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 amour	amour	NOUN
@@ -6735,7 +6735,7 @@ flamande	flamand	ADJ
 ,	,	PUNCTclause
 Grande-Bretagne	Grande-Bretagne	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 était	être	AUX
 au préalable	au préalable	ADV
@@ -8358,7 +8358,7 @@ livres	livre	NOUN
 de	de	ADP
 culte	culte	NOUN
 et	et	CCONJ
-traités	traiter	VERB
+traités	traité	NOUN
 de	de	ADP
 doctrine	doctrine	NOUN
 de	de	ADP
@@ -8399,7 +8399,7 @@ la	le	DET
 publication	publication	NOUN
 ,	,	PUNCTclause
 en	en	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 un	un	DET
@@ -9888,7 +9888,7 @@ livre	livre	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 hérésie	hérésie	NOUN
 et	et	CCONJ
@@ -10305,7 +10305,7 @@ Languedoc	Languedoc	PROPN
 ,	,	PUNCTclause
 écrit	écrire	VERB
 en	en	ADP
-1177	1177	NUM
+1177	1177	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 l'	le	DET
@@ -10690,7 +10690,7 @@ dirigea	diriger	VERB
 en	en	ADP
 personne	personne	NOUN
 dès	dès	ADP
-1193	1193	NUM
+1193	1193	DIGIT
 (	(	PUNCTclause
 notre	notre	DET
 poème	poème	NOUN
@@ -10700,7 +10700,7 @@ daté	dater	VERB
 des	un	ADP_DET
 environs	environ	NOUN
 de	de	ADP
-1190	1190	NUM
+1190	1190	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -11407,7 +11407,7 @@ où	où	PRON
 ils	ils	PRON
 viennent	venir	VERB
 .	.	PUNCTsent
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 ,	,	PUNCTclause
 sauf	sauf	ADP
 la	le	DET
@@ -12630,7 +12630,7 @@ au-dessus de	au-dessus de	ADP
 ciel	ciel	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-n'est-ce	n'est-ce	VERB
+n'est-ce	n'est-ce	PRON
 point	point	ADV
 déjà	déjà	ADV
 la	le	DET
@@ -12673,7 +12673,7 @@ de	de	ADP
 Chartres	Chartres	PROPN
 (	(	PUNCTclause
 vers	vers	ADP
-1150	1150	NUM
+1150	1150	DIGIT
 !	!	PUNCTsent
 )	)	PUNCTclause
 «	«	PUNCTclause
@@ -13529,7 +13529,7 @@ lyrisme	lyrisme	NOUN
 courtois	courtois	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-8	8	NUM
+8	8	DIGIT
 .	.	PUNCTsent
 objections	objection	NOUN
 .	.	PUNCTsent
@@ -13618,7 +13618,7 @@ me	me	PRON
 dira	dire	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 la	le	DET
@@ -13654,7 +13654,7 @@ lyrisme	lyrisme	NOUN
 courtois	courtois	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 les	le	DET
@@ -13680,7 +13680,7 @@ ils	ils	PRON
 parlaient	parler	VERB
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 que	que	SCONJ
 au contraire	au contraire	ADV
@@ -13703,7 +13703,7 @@ désir	désir	NOUN
 sexuel	sexuel	ADJ
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 °	°	SYM
 que	que	SCONJ
 on	on	PRON
@@ -13751,7 +13751,7 @@ ces	ce	DET
 critiques	critique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 religion	religion	NOUN
 mal	mal	ADV
@@ -13871,7 +13871,7 @@ haut	haut	ADJ
 (	(	PUNCTclause
 II	II	NUM
 ,	,	PUNCTclause
-2	2	NUM
+2	2	DIGIT
 )	)	PUNCTclause
 sur	sur	ADP
 la	le	DET
@@ -14189,7 +14189,7 @@ Pétrarque	Pétrarque	PROPN
 »	»	PUNCTclause
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 les	le	DET
 troubadours	troubadour	NOUN
@@ -14806,7 +14806,7 @@ vérité	vérité	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-199	199	NUM
+199	199	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ce	ce	PRON
@@ -15212,7 +15212,7 @@ op. cit.	op. cit.	NOUN
 II	II	NUM
 ,	,	PUNCTclause
 p.	p.	DET
-16	16	NUM
+16	16	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -15640,7 +15640,7 @@ l'	le	DET
 origine	origine	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 amour	amour	NOUN
@@ -16073,7 +16073,9 @@ je	je	PRON
 suis	être	AUX
 en	en	ADP
 doute	doute	NOUN
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 une	un	DET
 chose	chose	NOUN
 et	et	CCONJ
@@ -16903,7 +16905,7 @@ qui	qui	PRON
 se	se	PRON
 exprime	exprimer	VERB
 ainsi	ainsi	ADV
-au sujet de	au sujet de	ADP
+au sujet de	au sujet de	PUNCT
 cathares	cathare	NOUN
 de	de	ADP
 Italie	Italie	PROPN
@@ -17331,7 +17333,7 @@ un	un	DET
 seul	seul	ADJ
 auteur	auteur	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 mais	mais	CCONJ
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
@@ -17434,7 +17436,7 @@ suffit	suffire	VERB
 démontrer	démontrer	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 le	le	DET
@@ -17524,7 +17526,7 @@ idéaliste-anarchisante	idéaliste-anarchisante	ADJ
 )	)	PUNCTclause
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 que	que	SCONJ
 les	le	DET
@@ -17545,7 +17547,7 @@ du	du	ADP_DET
 freudisme	freudisme	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 °	°	SYM
 que	que	SCONJ
 au contraire	au contraire	ADV
@@ -17565,7 +17567,7 @@ les	le	DET
 psychanalystes	psychanalyste	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 °	°	SYM
 que	que	ADV
 enfin	enfin	ADV
@@ -17904,7 +17906,7 @@ que	que	SCONJ
 l'	le	DET
 objection	objection	NOUN
 n°	n°	SYM
-4	4	NUM
+4	4	DIGIT
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -17937,7 +17939,7 @@ nouveau	nouveau	ADJ
 chapitre	chapitre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 .	.	PUNCTsent
 les	le	DET
 mystiques	mystique	NOUN
@@ -18188,7 +18190,7 @@ Sohrawardi	Sohrawardi	PROPN
 (	(	PUNCTclause
 mort	mourir	VERB
 en	en	ADP
-1191	1191	NUM
+1191	1191	DIGIT
 )	)	PUNCTclause
 voyait	voir	VERB
 dans	dans	ADP
@@ -18445,7 +18447,7 @@ l'	le	DET
 orthodoxie	orthodoxie	NOUN
 musulmane	musulman	ADJ
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 la	le	DET
 catholique	catholique	ADJ
 ,	,	PUNCTclause
@@ -19790,7 +19792,7 @@ cortezia	cortezia	NOUN
 Renan	Renan	PROPN
 écrit	écrire	VERB
 en	en	ADP
-1863	1863	NUM
+1863	1863	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 un	un	DET
@@ -20241,7 +20243,7 @@ l'	le	DET
 amour-passion	amour-passion	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 .	.	PUNCTsent
 Vue	Vue	PROPN
 de	de	ADP
@@ -20713,7 +20715,7 @@ est	être	AUX
 vrai	vrai	ADJ
 !	!	PUNCTsent
 »	»	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Révolution	Révolution	PROPN
@@ -21484,7 +21486,7 @@ Marie	Marie	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 en	en	ADP
-1140	1140	NUM
+1140	1140	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Lyon	Lyon	PROPN
@@ -21741,7 +21743,7 @@ personnage	personnage	NOUN
 sacré	sacré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 œdipe	œdipe	NOUN
 et	et	CCONJ
@@ -22093,7 +22095,7 @@ consolant	consoler	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 une	un	DET
 illustration	illustration	NOUN
@@ -23200,7 +23202,7 @@ l'	le	DET
 espace	espace	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 une	un	DET
 technique	technique	NOUN
@@ -24024,7 +24026,7 @@ ils	ils	PRON
 dormiront	dormir	VERB
 enlacés	enlacer	VERB
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 tous	tout	ADJ
 ces	ce	DET
 préliminaires	préliminaire	NOUN
@@ -24172,7 +24174,7 @@ du	du	ADP_DET
 Karma	Karma	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 la	le	DET
 joie	joie	NOUN
@@ -24263,7 +24265,7 @@ Aquitaine	Aquitaine	PROPN
 qui	qui	PRON
 mourut	mourir	VERB
 en	en	ADP
-1127	1127	NUM
+1127	1127	DIGIT
 .	.	PUNCTsent
 dès	dès	ADP
 le	le	DET
@@ -24757,9 +24759,9 @@ génération	génération	NOUN
 des	un	ADP_DET
 troubadours	troubadour	NOUN
 (	(	PUNCTclause
-1120	1120	NUM
+1120	1120	DIGIT
 à	à	ADP
-1180	1180	NUM
+1180	1180	DIGIT
 environ	environ	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -25420,7 +25422,7 @@ fantasmagorie	fantasmagorie	NOUN
 sentimentale	sentimental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 excuse	excuser	VERB
 aux	au	ADP_DET
@@ -25601,7 +25603,7 @@ latin	latin	NOUN
 en	en	ADP
 Espagne	Espagne	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 au	au	ADP_DET
 17e	17e	ADJ
 siècle	siècle	NOUN
@@ -25731,7 +25733,7 @@ catholiques	catholique	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 plus	plus	ADV
-proche de	proche de	ADP
+proche de	proche de	ADJ
 l'	le	DET
 original	original	NOUN
 .	.	PUNCTsent
@@ -25876,7 +25878,7 @@ et	et	CCONJ
 improbable	improbable	ADJ
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 en lieu et place de	en lieu et place de	ADP
 conclusions	conclusion	NOUN
@@ -26260,7 +26262,7 @@ perpétuellement	perpétuellement	ADV
 nouvelle	nouveau	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-11	11	NUM
+11	11	DIGIT
 .	.	PUNCTsent
 de	de	ADP
 l'	le	DET
@@ -26462,7 +26464,7 @@ puis	puis	CCONJ
 en	en	ADP
 l'	le	DET
 an	an	NOUN
-1154	1154	NUM
+1154	1154	DIGIT
 ,	,	PUNCTclause
 Henri	Henri	PROPN
 II	II	NUM
@@ -27245,7 +27247,7 @@ Lancelot	Lancelot	PROPN
 qui	qui	PRON
 date	dater	VERB
 de	de	ADP
-1225	1225	NUM
+1225	1225	DIGIT
 environ	environ	ADV
 )	)	PUNCTclause
 le	le	DET
@@ -27513,7 +27515,7 @@ de	de	ADP
 fraîcheur	fraîcheur	NOUN
 primitive	primitif	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 «	«	PUNCTclause
 poèmes	poème	NOUN
 incohérents	incohérent	ADJ
@@ -27698,7 +27700,7 @@ erreurs	erreur	NOUN
 .	.	PUNCTsent
 ils	ils	PRON
 ont	avoir	AUX
-traité	traiter	VERB
+traité	traité	NOUN
 un	un	DET
 thème	thème	NOUN
 nouveau	nouveau	ADJ
@@ -28006,7 +28008,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-12	12	NUM
+12	12	DIGIT
 .	.	PUNCTsent
 des	un	ADP_DET
 mythes	mythe	NOUN
@@ -28800,7 +28802,7 @@ surenchère	surenchère	NOUN
 II	II	NUM
 ,	,	PUNCTclause
 p.	p.	DET
-234	234	NUM
+234	234	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -28993,7 +28995,7 @@ Hubert	Hubert	PROPN
 II	II	NUM
 ,	,	PUNCTclause
 p.	p.	DET
-336	336	NUM
+336	336	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -29757,7 +29759,7 @@ une	un	DET
 œuvre	œuvre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-13	13	NUM
+13	13	DIGIT
 .	.	PUNCTsent
 du	du	ADP_DET
 roman	roman	NOUN
@@ -30259,7 +30261,7 @@ nous	nous	PRON
 en	en	PRON
 reste	rester	VERB
 près de	près de	ADP
-19000	19000	NUM
+19000	19000	DIGIT
 vers	vers	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -31775,7 +31777,7 @@ un	un	DET
 Bédier	Bédier	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 .	.	PUNCTsent
 Premières	Premières	PROPN
 conclusions	conclusion	NOUN
@@ -31989,7 +31991,7 @@ pourra	pouvoir	VERB
 déduire	déduire	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 que	que	SCONJ
 la	le	DET
@@ -32031,7 +32033,7 @@ la	le	DET
 clef	clef	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 que	que	ADV
 à	à	ADP
@@ -32187,7 +32189,7 @@ militaires	militaire	ADJ
 ,	,	PUNCTclause
 jusque	jusque	ADP
 vers	vers	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 ont	avoir	AUX
 gardé	garder	VERB

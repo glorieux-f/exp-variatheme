@@ -15,8 +15,8 @@ l'	le	DET
 art	art	NOUN
 romanesque	romanesque	ADJ
 (	(	PUNCTclause
-1944	1944	NUM
--1945	-1945	NUM
+1944	1944	DIGIT
+-1945	-1945	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1847,7 +1847,7 @@ révèlent	révéler	VERB
 ruineuses	ruineux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 —	—	PUNCTclause
@@ -2425,7 +2425,7 @@ vérifiable	vérifiable	ADJ
 en soi	en soi	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 )	)	PUNCTclause
 —	—	PUNCTclause
@@ -3338,8 +3338,8 @@ silencieux	silencieux	ADJ
 et	et	CCONJ
 astucieux	astucieux	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-la	le	DET
+etc.	etc.	X
+la	le	X
 situation	situation	NOUN
 ,	,	PUNCTclause
 donnée	donner	VERB

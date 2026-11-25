@@ -11,7 +11,7 @@ Virginie	Virginie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 septembre	septembre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -101,7 +101,9 @@ plus	plus	ADV
 se	se	PRON
 exprimer	exprimer	VERB
 librement	librement	ADV
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 liberté	liberté	NOUN
 ,	,	PUNCTclause
@@ -152,9 +154,9 @@ Spring	Spring	PROPN
 Virginie	Virginie	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -514,9 +516,9 @@ vrais	vrai	ADJ
 ducs	duc	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vis-à-vis de	vis-à-vis de	ADP
@@ -767,9 +769,9 @@ plus	plus	ADV
 concrètes	concret	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 coups d'œil	coups d'œil	NOUN
@@ -822,7 +824,7 @@ remis	remettre	VERB
 l'	le	DET
 état	état	NOUN
 en	en	ADP
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ils	ils	PRON
@@ -1024,9 +1026,9 @@ un	un	DET
 imbécile	imbécile	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 argent	argent	NOUN
@@ -1281,9 +1283,9 @@ vos	vos	DET
 guerres	guerre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-21	21	NUM
+21	21	DIGIT
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
@@ -1368,9 +1370,9 @@ en	en	ADP
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -1381,7 +1383,7 @@ Mary	Mary	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 a	avoir	VERB
-9	9	NUM
+9	9	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 croit	croire	VERB
@@ -1448,7 +1450,7 @@ vierge	vierge	ADJ
 fin	fin	NOUN
 de	de	ADP
 octobre	octobre	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 souvenir	souvenir	NOUN
@@ -2493,7 +2495,7 @@ je	je	PRON
 ne	ne	ADV
 le	le_PRON	PRON
 sais	savoir	VERB
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 vous	vous	PRON
 .	.	PUNCTsent
 ils	ils	PRON
@@ -2661,7 +2663,7 @@ New York	New York	PROPN
 fin	fin	NOUN
 de	de	ADP
 année	année	NOUN
-1943	1943	NUM
+1943	1943	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 note	noter	VERB
@@ -3117,7 +3119,7 @@ savait	savoir	VERB
 ,	,	PUNCTclause
 ou	ou	CCONJ
 même	même	ADV
-à l'encontre	à l'encontre	ADP
+à l'encontre	à l'encontre	ADV
 parfois	parfois	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -3175,7 +3177,7 @@ morts	mort	ADJ
 ne	ne	ADV
 en	en	ADP
 savaient	savoir	VERB
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 nous	nous	PRON
 .	.	PUNCTsent
 les	le	DET
@@ -3283,7 +3285,7 @@ par hasard	par hasard	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 janvier	janvier	NOUN
-1944	1944	NUM
+1944	1944	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
@@ -4127,9 +4129,9 @@ ce	ce	DET
 regard	regard	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1944	1944	NUM
+1944	1944	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -4165,13 +4167,13 @@ Waldorf	Waldorf	PROPN
 Astoria	Astoria	PROPN
 le	le	DET
 lundi	lundi	NOUN
-10	10	NUM
+10	10	DIGIT
 juillet	juillet	NOUN
-1944	1944	NUM
+1944	1944	DIGIT
 ,	,	PUNCTclause
-6	6	NUM
+6	6	DIGIT
 à	à	ADP
-8	8	NUM
+8	8	DIGIT
 heures	heure	NOUN
 .	.	PUNCTsent
 Salle	Salle	PROPN
@@ -4311,9 +4313,9 @@ du	du	ADP_DET
 roi	roi	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 décembre	décembre	NOUN
-1944	1944	NUM
+1944	1944	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 prévisions	prévision	NOUN
@@ -4336,10 +4338,10 @@ je	je	PRON
 ai	avoir	AUX
 répondu	répondre	VERB
 :	:	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 mois	mois	NOUN
 et	et	CCONJ
-3	3	NUM
+3	3	DIGIT
 semaines	semaine	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -4347,13 +4349,13 @@ trois	trois	NUM
 autres	autre	ADJ
 joueurs	joueur	NOUN
 :	:	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 mois	mois	NOUN
 ,	,	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 an	an	NOUN
 ,	,	PUNCTclause
-18	18	NUM
+18	18	DIGIT
 mois	mois	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

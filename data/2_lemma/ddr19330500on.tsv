@@ -12,7 +12,7 @@ chômage	chômage	NOUN
 ?	?	PUNCTsent
 (	(	PUNCTclause
 mai	mai	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -140,7 +140,7 @@ loisir	loisir	NOUN
 on	on	PRON
 sait	savoir	VERB
 en	en	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 à	à	ADP
 quel	quel	DET
 morne	morne	ADJ
@@ -714,9 +714,9 @@ productivité	productivité	NOUN
 par	par	ADP
 homme	homme	NOUN
 de	de	ADP
-1899	1899	NUM
+1899	1899	DIGIT
 à	à	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 nous	nous	PRON
 voyons	voir	VERB
@@ -738,15 +738,15 @@ les	le	DET
 de	de	ADP
 l'	le	DET
 index	index	NOUN
-100	100	NUM
+100	100	DIGIT
 en	en	ADP
-1899	1899	NUM
+1899	1899	DIGIT
 à	à	ADP
 l'	le	DET
 index	index	NOUN
-104	104	NUM
+104	104	DIGIT
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 .	.	PUNCTsent
 durant	durant	ADP
 toute	tout	ADJ
@@ -832,7 +832,7 @@ que	que	SCONJ
 réservait	réserver	VERB
 l'	le	DET
 année	année	NOUN
-1921	1921	NUM
+1921	1921	DIGIT
 .	.	PUNCTsent
 reprenons	reprendre	VERB
 notre	notre	DET
@@ -841,7 +841,7 @@ de	de	ADP
 productivité	productivité	NOUN
 .	.	PUNCTsent
 à partir de	à partir de	ADP
-1921	1921	NUM
+1921	1921	DIGIT
 ,	,	PUNCTclause
 et	et	CCONJ
 sans que	sans que	SCONJ
@@ -876,13 +876,13 @@ index	index	NOUN
 général	général	ADJ
 passe	passer	VERB
 de	de	ADP
-104	104	NUM
+104	104	DIGIT
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 à	à	ADP
-125	125	NUM
+125	125	DIGIT
 en	en	ADP
-1923	1923	NUM
+1923	1923	DIGIT
 .	.	PUNCTsent
 si	si	SCONJ
 l'on	on	PRON
@@ -917,7 +917,7 @@ période	période	NOUN
 précédente	précédent	ADJ
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-1914	1914	NUM
+1914	1914	DIGIT
 ,	,	PUNCTclause
 on	on	PRON
 passe	passer	VERB
@@ -927,22 +927,22 @@ la	le	DET
 métallurgie	métallurgie	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 en	en	ADP
-1914	1914	NUM
+1914	1914	DIGIT
 à	à	ADP
-159	159	NUM
+159	159	DIGIT
 en	en	ADP
-1925	1925	NUM
+1925	1925	DIGIT
 ;	;	PUNCTclause
 pour	pour	ADP
 le	le	DET
 pétrole	pétrole	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-183	183	NUM
+183	183	DIGIT
 ;	;	PUNCTclause
 enfin	enfin	ADV
 pour	pour	ADP
@@ -950,9 +950,9 @@ le	le	DET
 caoutchouc	caoutchouc	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-100	100	NUM
+100	100	DIGIT
 à	à	ADP
-311	311	NUM
+311	311	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -1057,15 +1057,15 @@ manifeste	manifester	VERB
 dès	dès	ADP
 l'	le	DET
 année	année	NOUN
-1923	1923	NUM
+1923	1923	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
 neutralisé	neutraliser	VERB
 jusque	jusque	ADP
 vers	vers	ADP
-1929	1929	NUM
--1930	-1930	NUM
+1929	1929	DIGIT
+-1930	-1930	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -1103,7 +1103,7 @@ que	que	SCONJ
 le	le	DET
 saut	saut	NOUN
 de	de	ADP
-1921	1921	NUM
+1921	1921	DIGIT
 déploie	déployer	VERB
 tout	tout	ADV
 son	son	DET
@@ -1461,8 +1461,8 @@ rend	rendre	VERB
 les	le_PRON	PRON
 voilà	voilà	ADP
 tous	tout	ADJ
-bouche bée	bouche bée	NOUN
-devant	devant	ADP
+bouche bée	bouche bée	ADV
+devant	devoir	VERB
 la	le	DET
 plus	plus	ADV
 inhumaine	inhumain	ADJ

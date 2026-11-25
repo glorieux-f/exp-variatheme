@@ -12,7 +12,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 (	(	PUNCTclause
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -137,7 +137,7 @@ dans	dans	ADP
 son	son	DET
 expression	expression	NOUN
 certains	certain	ADJ
-traits	traire	VERB
+traits	trait	NOUN
 accusés	accuser	VERB
 et	et	CCONJ
 tendus	tendre	VERB
@@ -2396,7 +2396,7 @@ depuis	depuis	ADP
 l'	le	DET
 automne	automne	NOUN
 de	de	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 avant	avant	ADP
@@ -3844,7 +3844,7 @@ devant	devant	ADP
 un	un	DET
 héritage	héritage	NOUN
 si	si	ADV
-compromis	compromettre	VERB
+compromis	compromis	ADJ
 ,	,	PUNCTclause
 sont	être	AUX
 elles	elles	PRON
@@ -4451,7 +4451,7 @@ planète	planète	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 en	en	ADP
-1946	1946	NUM
+1946	1946	DIGIT
 ,	,	PUNCTclause
 elle	elle	PRON
 se	se	PRON
@@ -4461,7 +4461,7 @@ affrontée	affronter	VERB
 deux	deux	NUM
 empires	empire	NOUN
 .	.	PUNCTsent
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 elle	elle	PRON
 ressent	ressentir	VERB
 son	son	DET
@@ -6844,7 +6844,7 @@ groupes	groupe	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 se	se	PRON
 ouvrir	ouvrir	VERB
 à	à	ADP
@@ -7231,7 +7231,9 @@ une	un	DET
 croyance	croyance	NOUN
 toute	tout	ADJ
 mystique	mystique	ADJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 vocation	vocation	NOUN
 .	.	PUNCTsent
@@ -7577,9 +7579,9 @@ impunément	impunément	ADV
 multiplier	multiplier	VERB
 n'importe quoi	n'importe quoi	PRON
 par	par	ADP
-10	10	NUM
+10	10	DIGIT
 ou	ou	CCONJ
-100	100	NUM
+100	100	DIGIT
 .	.	PUNCTsent
 vous	vous	PRON
 oubliez	oublier	VERB
@@ -7596,7 +7598,7 @@ par exemple	par exemple	ADV
 vous	vous	PRON
 multipliez	multiplier	VERB
 par	par	ADP
-10	10	NUM
+10	10	DIGIT
 toutes	tout	ADJ
 les	le	DET
 dimensions	dimension	NOUN
@@ -7698,7 +7700,7 @@ l'	le	DET
 .	.	PUNCTsent
 celle	celle	PRON
 de	de	ADP
-1930	1930	NUM
+1930	1930	DIGIT
 eut	avoir	VERB
 pour	pour	ADP
 effet	effet	NOUN

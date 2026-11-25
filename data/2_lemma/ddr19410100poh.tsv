@@ -14,7 +14,7 @@ l'	le	DET
 hitlérisme	hitlérisme	NOUN
 (	(	PUNCTclause
 janvier	janvier	NOUN
-1941	1941	NUM
+1941	1941	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -227,7 +227,7 @@ deux	deux	NUM
 faits	fait	NOUN
 suivants	suivant	ADJ
 :	:	PUNCTclause
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 l'	le	DET
 hitlérisme	hitlérisme	NOUN
@@ -255,7 +255,7 @@ la	le	DET
 société	société	NOUN
 moderne	moderne	ADJ
 .	.	PUNCTsent
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 l'	le	DET
 hitlérisme	hitlérisme	NOUN
@@ -818,7 +818,7 @@ Iseult	Iseult	PROPN
 ce	ce	PRON
 est	être	AUX
 analyser	analyser	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 certains	certain	DET
 aspects	aspect	NOUN
 de	de	ADP
@@ -1294,7 +1294,7 @@ le	le	DET
 roi	roi	NOUN
 Marc	Marc	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 .	.	PUNCTsent
 l'	le	DET
@@ -3021,7 +3021,7 @@ de	de	ADP
 tous	tout	ADJ
 .	.	PUNCTsent
 dès	dès	ADP
-1924	1924	NUM
+1924	1924	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 donna	donner	VERB
@@ -3064,7 +3064,9 @@ avons	avoir	AUX
 dit	dire	VERB
 plus	plus	ADV
 haut	haut	ADJ
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 passion	passion	NOUN
 .	.	PUNCTsent
@@ -4844,7 +4846,7 @@ Sarrois	Sarrois	PROPN
 ont	avoir	AUX
 préféré	préférer	VERB
 en	en	PRON
-1935	1935	NUM
+1935	1935	DIGIT
 à	à	ADP
 une	un	DET
 écrasante	écrasant	ADJ
@@ -5420,7 +5422,7 @@ deux	deux	NUM
 façons	façon	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 Weltanschauung	Weltanschauung	PROPN
@@ -5495,7 +5497,7 @@ liberté	liberté	NOUN
 »	»	PUNCTclause
 traduisons	traduire	VERB
 de nouveau	de nouveau	ADV
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 en	en	ADP
 termes	terme	NOUN
 démocratiques	démocratique	ADJ
@@ -5585,7 +5587,7 @@ le	le	DET
 Führer	Führer	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 la	le	DET
@@ -6278,7 +6280,7 @@ ou	ou	CCONJ
 la	le	DET
 Realpolitik	Realpolitik	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 répondrai	répondre	VERB
@@ -6401,9 +6403,9 @@ proclamait	proclamer	VERB
 Dantzig	Dantzig	PROPN
 ,	,	PUNCTclause
 le	le	DET
-18	18	NUM
+18	18	DIGIT
 juin	juin	NOUN
-1939	1939	NUM
+1939	1939	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 notre	notre	DET
@@ -6634,7 +6636,7 @@ raisons	raison	NOUN
 principales	principal	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 la	le	DET
 propagande	propagande	NOUN
@@ -6658,7 +6660,7 @@ spartiate	spartiate	ADJ
 ,	,	PUNCTclause
 tyrannique	tyrannique	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 alors que	alors que	SCONJ
 les	le	DET
 démocraties	démocratie	NOUN
@@ -6673,7 +6675,7 @@ prospères	prospère	ADJ
 ,	,	PUNCTclause
 libérales	libéral	ADJ
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 bien	bien	ADV
 ,	,	PUNCTclause
 chacun	chacun	PRON
@@ -6736,7 +6738,7 @@ vie	vie	NOUN
 moderne	moderne	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 propagande	propagande	NOUN

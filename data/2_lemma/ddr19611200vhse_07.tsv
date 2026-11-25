@@ -6,7 +6,7 @@
 # title = 5. Les étymologies
 
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 les	le	DET
 étymologies	étymologie	NOUN
@@ -307,7 +307,7 @@ et	et	CCONJ
 moderne	moderne	ADJ
 publié	publier	VERB
 en	en	ADP
-1829	1829	NUM
+1829	1829	DIGIT
 ,	,	PUNCTclause
 Lapie	Lapie	PROPN
 père	père	NOUN
@@ -399,7 +399,7 @@ Nicolas	Nicolas	PROPN
 Jorga	Jorga	PROPN
 écrivait	écrire	VERB
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 du point de vue	du point de vue	ADV
@@ -768,10 +768,9 @@ provoqué	provoquer	VERB
 le	le	DET
 Déluge	Déluge	PROPN
 au	au	ADP_DET
-3	3	NUM
-e	e	NOUN
-millénaire	millénaire	ADJ
-av. J.-C.	av. J.-C.	NOUN
+3e	3e	NUMord
+millénaire	millénaire	NOUN
+av. J.-C.	av. J.-C.	ADV
 ;	;	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -789,8 +788,8 @@ Crète	Crète	PROPN
 en	en	ADP
 Palestine	Palestine	PROPN
 vers	vers	ADP
-1200	1200	NUM
-av. J.-C.	av. J.-C.	NOUN
+1200	1200	DIGIT
+av. J.-C.	av. J.-C.	ADV
 (	(	PUNCTclause
 Ishtar	Ishtar	PROPN
 Esther	Esther	PROPN

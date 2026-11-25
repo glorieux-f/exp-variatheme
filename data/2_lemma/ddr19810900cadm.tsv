@@ -13,7 +13,7 @@ de	de	ADP
 près	près	ADV
 (	(	PUNCTclause
 été	été	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -387,7 +387,7 @@ les	le	DET
 premiers	premier	ADJ
 ,	,	PUNCTclause
 au	au	ADP_DET
-face à face	face à face	NOUN
+face à face	face à face	ADV
 ,	,	PUNCTclause
 quand	quand	SCONJ
 il	il	PRON
@@ -685,13 +685,13 @@ réprouvés	réprouver	VERB
 celle	celle	PRON
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 »	»	PUNCTclause
 (	(	PUNCTclause
 op. cit.	op. cit.	NOUN
 ,	,	PUNCTclause
 p.	p.	DET
-17	17	NUM
+17	17	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 B.-H.	B.-H.	PROPN
@@ -730,7 +730,7 @@ et	et	CCONJ
 leurs	leur	DET
 chapeaux	chapeau	NOUN
 melons	melon	NOUN
-1	1	NUM
+1	1	DIGIT
 )	)	PUNCTclause
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -752,10 +752,10 @@ du	du	ADP_DET
 Siècle	Siècle	PROPN
 ,	,	PUNCTclause
 n°	n°	SYM
-2	2	NUM
+2	2	DIGIT
 ,	,	PUNCTclause
 mai	mai	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 .	.	PUNCTsent
 suivent	suivre	VERB
 douze	douze	NUM
@@ -793,11 +793,11 @@ Mounier	Mounier	PROPN
 Jean	Jean	PROPN
 Giraudoux	Giraudoux	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 à	à	ADP
 la	le	DET
 p.	p.	NOUN
-30	30	NUM
+30	30	DIGIT
 ,	,	PUNCTclause
 nouvelle	nouveau	ADJ
 citation	citation	NOUN
@@ -818,10 +818,10 @@ du	du	ADP_DET
 Siècle	Siècle	PROPN
 ,	,	PUNCTclause
 n°	n°	SYM
-2	2	NUM
+2	2	DIGIT
 ,	,	PUNCTclause
 mai	mai	NOUN
-1933	1933	NUM
+1933	1933	DIGIT
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 souvenez	souvenir	VERB
@@ -1237,11 +1237,11 @@ cite	citer	VERB
 le	le	DET
 fameux	fameux	ADJ
 numéro	numéro	NOUN
-6	6	NUM
+6	6	DIGIT
 de	de	ADP
 esprit	esprit	X
 (	(	PUNCTclause
-1933	1933	NUM
+1933	1933	DIGIT
 )	)	PUNCTclause
 intitulé	intituler	VERB
 «	«	PUNCTclause
@@ -1329,7 +1329,7 @@ citons	citer	VERB
 Lévy	Lévy	PROPN
 ,	,	PUNCTclause
 p.	p.	DET
-19	19	NUM
+19	19	DIGIT
 de	de	ADP
 son	son	DET
 travail	travail	NOUN
@@ -1565,7 +1565,7 @@ renvoi	renvoi	NOUN
 à	à	ADP
 la	le	DET
 note	note	NOUN
-7	7	NUM
+7	7	DIGIT
 ,	,	PUNCTclause
 où	où	PRON
 l'on	on	PRON
@@ -1641,7 +1641,7 @@ au profit de	au profit de	ADP
 un	un	DET
 conformisme	conformisme	NOUN
 traditionaliste	traditionaliste	ADJ
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 avec	avec	ADP
 une	un	DET
 conception	conception	NOUN
@@ -1699,7 +1699,7 @@ cité	citer	VERB
 entre	entre	ADP
 guillemets	guillemet	NOUN
 p.	p.	PUNCT
-19	19	NUM
+19	19	DIGIT
 .	.	PUNCTsent
 au surplus	au surplus	ADV
 ,	,	PUNCTclause
@@ -1827,13 +1827,13 @@ morte	mourir	VERB
 impossible	impossible	ADJ
 à	à	ADP
 ressusciter	ressusciter	VERB
-12	12	NUM
+12	12	DIGIT
 )	)	PUNCTclause
 »	»	PUNCTclause
 (	(	PUNCTclause
 p.	p.	PUNCT
-20	20	NUM
--21	-21	NUM
+20	20	DIGIT
+-21	-21	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1848,7 +1848,7 @@ Penser avec les mains	Penser avec les mains	NOUN
 ,	,	PUNCTclause
 paru	paraître	VERB
 en	en	ADP
-1936	1936	NUM
+1936	1936	DIGIT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 cité	citer	VERB
@@ -1856,7 +1856,7 @@ dans	dans	ADP
 sa	son	DET
 réédition	réédition	NOUN
 de	de	ADP
-1972	1972	NUM
+1972	1972	DIGIT
 .	.	PUNCTsent
 que	que	SCONJ
 on	on	PRON
@@ -1864,7 +1864,7 @@ se	se	PRON
 reporte	reporter	VERB
 à la page	à la page	ADJ
 indiquée	indiquer	VERB
-140	140	NUM
+140	140	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 viens	venir	VERB
@@ -2099,9 +2099,9 @@ devoir	devoir	VERB
 préciser	préciser	VERB
 (	(	PUNCTclause
 note	noter	VERB
-12	12	NUM
+12	12	DIGIT
 p.	p.	PUNCT
-249	249	NUM
+249	249	DIGIT
 )	)	PUNCTclause
 que	que	SCONJ
 «	«	PUNCTclause
@@ -2208,7 +2208,7 @@ les	le	DET
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ne	ne	ADV
 ont	avoir	AUX
 fait	faire	VERB
@@ -2274,7 +2274,7 @@ souvent	souvent	ADV
 dans	dans	ADP
 les	le	DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 :	:	PUNCTclause
 «	«	PUNCTsent
 ce	ce	PRON
@@ -2453,7 +2453,7 @@ petites	petit	ADJ
 revues	revue	NOUN
 publiées	publier	VERB
 entre	entre	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 et	et	CCONJ
 la	le	DET
 guerre	guerre	NOUN
@@ -2505,7 +2505,7 @@ loin	loin	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 page	page	NOUN
-35	35	NUM
+35	35	DIGIT
 ,	,	PUNCTclause
 Lévy	Lévy	PROPN
 citant	citer	VERB
@@ -2513,7 +2513,7 @@ de nouveau	de nouveau	ADV
 Penser avec les mains	Penser avec les mains	NOUN
 (	(	PUNCTclause
 p.	p.	PUNCT
-127	127	NUM
+127	127	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 me	me	PRON
@@ -2600,7 +2600,7 @@ d'abord	d'abord	ADV
 des	un	ADP_DET
 révolutions	révolution	NOUN
 avortées	avorter	VERB
-58	58	NUM
+58	58	DIGIT
 )	)	PUNCTclause
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -2819,7 +2819,7 @@ sont	être	AUX
 concentrées	concentrer	VERB
 dans	dans	ADP
 le premier	le premier	PRON
-chapitre	chapitrer	VERB
+chapitre	chapitre	NOUN
 .	.	PUNCTsent
 la	le	DET
 dernière	dernier	ADJ
@@ -2946,7 +2946,7 @@ imposée	imposer	VERB
 l'	le	DET
 homme	homme	NOUN
 »	»	PUNCTclause
-55	55	PROPN
+55	55	DIGIT
 )	)	PUNCTclause
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2973,7 +2973,7 @@ cité	citer	VERB
 L'Ordre nouveau	L'Ordre nouveau	NOUN
 ,	,	PUNCTclause
 n°	n°	SYM
-3	3	NUM
+3	3	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -3331,7 +3331,7 @@ de	de	ADP
 la	le	DET
 personne	personne	NOUN
 (	(	PUNCTclause
-1934	1934	NUM
+1934	1934	DIGIT
 )	)	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -3339,7 +3339,7 @@ Part	Part	PROPN
 du	du	ADP_DET
 diable	diable	NOUN
 (	(	PUNCTclause
-1942	1942	NUM
+1942	1942	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 en passant	en passant	ADV
@@ -3349,7 +3349,7 @@ journal	journal	NOUN
 de	de	ADP
 Allemagne	Allemagne	PROPN
 (	(	PUNCTclause
-1938	1938	NUM
+1938	1938	DIGIT
 )	)	PUNCTclause
 entièrement	entièrement	ADV
 consacré	consacrer	VERB
@@ -3408,9 +3408,9 @@ cessé	cesser	VERB
 de	de	ADP
 publier	publier	VERB
 de	de	ADP
-1933	1933	NUM
+1933	1933	DIGIT
 à	à	ADP
-1939	1939	NUM
+1939	1939	DIGIT
 ,	,	PUNCTclause
 tels	tel	PRON
 que	que	SCONJ
@@ -3502,7 +3502,7 @@ conférences	conférence	NOUN
 à	à	ADP
 Leyden	Leyden	PROPN
 en	en	ADP
-1948	1948	NUM
+1948	1948	DIGIT
 .	.	PUNCTsent
 je	je	PRON
 suis	être	AUX
@@ -3617,11 +3617,11 @@ dans	dans	ADP
 l'	le	DET
 Express	Express	PROPN
 n°	n°	SYM
-1546	1546	NUM
+1546	1546	DIGIT
 du	du	ADP_DET
-13	13	NUM
+13	13	DIGIT
 février	février	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 ,	,	PUNCTclause
 Raymond	Raymond	PROPN
 Aron	Aron	PROPN
@@ -3644,7 +3644,7 @@ les	le	DET
 idéologies	idéologie	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 ,	,	PUNCTclause
 de	de	ADP
 type	type	NOUN
@@ -3971,7 +3971,7 @@ Victor	Victor	PROPN
 Considérant	Considérant	PROPN
 ,	,	PUNCTclause
 vers	vers	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 par opposition à	par opposition à	ADP
 «	«	PUNCTclause
@@ -4127,7 +4127,7 @@ nationale	national	ADJ
 »	»	PUNCTclause
 de	de	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 ,	,	PUNCTclause
 comment	comment	ADV
 se	se	PRON
@@ -4225,7 +4225,7 @@ Suisse	Suisse	PROPN
 organisant	organiser	VERB
 en	en	ADP
 juin	juin	NOUN
-1940	1940	NUM
+1940	1940	DIGIT
 le premier	le premier	PRON
 mouvement	mouvement	NOUN
 de	de	ADP
@@ -4465,7 +4465,7 @@ tiré	tirer	VERB
 ce	ce	DET
 numéro	numéro	NOUN
 à	à	ADP
-649950	649950	NUM
+649950	649950	DIGIT
 exemplaires	exemplaire	NOUN
 .	.	PUNCTsent
 avec	avec	ADP
@@ -4667,7 +4667,7 @@ en	en	ADP
 plaidant	plaider	VERB
 l'	le	DET
 irresponsabilité	irresponsabilité	NOUN
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 ils	ils	PRON
 écrivaient	écrire	VERB
 .	.	PUNCTsent
@@ -4712,7 +4712,7 @@ de	de	ADP
 personnalisme	personnalisme	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 »	»	PUNCTclause
 retenues	retenir	VERB
 par	par	ADP
@@ -4864,7 +4864,7 @@ Chine	Chine	PROPN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 à la page	à la page	ADJ
-32	32	NUM
+32	32	DIGIT
 de	de	ADP
 son	son	DET
 livre	livre	NOUN
@@ -4958,10 +4958,10 @@ renvoie	renvoyer	VERB
 Esprit	Esprit	PROPN
 ,	,	PUNCTclause
 janvier	janvier	NOUN
-1934	1934	NUM
+1934	1934	DIGIT
 ,	,	PUNCTclause
 p.	p.	DET
-533	533	NUM
+533	533	DIGIT
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -5227,9 +5227,9 @@ la	le	DET
 Quinzaine	Quinzaine	PROPN
 littéraire	littéraire	ADJ
 du	du	ADP_DET
-16	16	NUM
+16	16	DIGIT
 mars	mars	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 ,	,	PUNCTclause
 Louis	Louis	PROPN
 Seguin	Seguin	PROPN
@@ -5319,7 +5319,7 @@ peu	peu	ADV
 l'	le	DET
 article	article	NOUN
 de	de	ADP
-1934	1934	NUM
+1934	1934	DIGIT
 où	où	PRON
 Mounier	Mounier	PROPN
 avoue	avouer	VERB
@@ -5474,7 +5474,7 @@ destinés	destiner	VERB
 à	à	ADP
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 démontrer	démontrer	VERB
 notre	notre	DET
@@ -5507,7 +5507,7 @@ jeunesses	jeunesse	NOUN
 Allemagne	Allemagne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 illustrer	illustrer	VERB
 la	le	DET
@@ -5576,7 +5576,7 @@ publiée	publier	VERB
 dans	dans	ADP
 le	le	DET
 n°	n°	NOUN
-5	5	NUM
+5	5	DIGIT
 de	de	ADP
 Esprit	Esprit	PROPN
 .	.	PUNCTsent
@@ -5799,7 +5799,7 @@ les	le	DET
 idéologues	idéologue	NOUN
 des	un	ADP_DET
 années	année	NOUN
-1930	1930	NUM
+1930	1930	DIGIT
 »	»	PUNCTclause
 dénoncés	dénoncer	VERB
 aujourd'hui	aujourd'hui	ADV
@@ -6211,7 +6211,7 @@ Europe	Europe	PROPN
 Francfort	Francfort	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1932	1932	NUM
+1932	1932	DIGIT
 .	.	PUNCTsent
 nos	nos	DET
 liens	lien	NOUN
@@ -6400,15 +6400,14 @@ communauté	communauté	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
-1	1	NUM
-er	er	NOUN
+1er	1er	NUMord
 novembre	novembre	NOUN
-1938	1938	NUM
+1938	1938	DIGIT
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
 numéro	numéro	NOUN
-74	74	NUM
+74	74	DIGIT
 de	de	ADP
 Esprit	Esprit	PROPN
 ,	,	PUNCTclause
@@ -6703,10 +6702,12 @@ il	il	PRON
 me	me	PRON
 adressait	adresser	VERB
 le	le	DET
-7	7	NUM
+7	7	DIGIT
 novembre	novembre	NOUN
-1938	1938	NUM
-au sujet de	au sujet de	ADP
+1938	1938	DIGIT
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 mon	mon	DET
 journal	journal	NOUN
 de	de	ADP

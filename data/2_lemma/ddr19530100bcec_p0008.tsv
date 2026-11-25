@@ -16,9 +16,9 @@ et	et	CCONJ
 exécutants	exécutant	NOUN
 (	(	PUNCTclause
 décembre	décembre	NOUN
-1952	1952	NUM
+1952	1952	DIGIT
 -janvier	-janvier	PUNCT
-1953	1953	NUM
+1953	1953	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -339,7 +339,7 @@ aura	avoir	VERB
 lieu	lieu	NOUN
 au	au	ADP_DET
 printemps	printemps	NOUN
-1954	1954	NUM
+1954	1954	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Rome	Rome	PROPN
@@ -351,7 +351,7 @@ les	le	DET
 suivants	suivant	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 donner	donner	VERB
 l'	le	DET
@@ -391,7 +391,7 @@ musique	musique	NOUN
 contemporaine	contemporain	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 enrichir	enrichir	VERB
 le	le	DET
@@ -412,7 +412,7 @@ nouvelles	nouveau	ADJ
 œuvres	œuvre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 créer	créer	VERB
 un	un	DET
@@ -452,9 +452,9 @@ CEC	CEC	PROPN
 invitera	inviter	VERB
 à	à	ADP
 Rome	Rome	PROPN
-75	75	NUM
+75	75	DIGIT
 à	à	ADP
-100	100	NUM
+100	100	DIGIT
 personnes	personne	NOUN
 (	(	PUNCTclause
 compositeurs	compositeur	NOUN
@@ -476,8 +476,8 @@ de	de	ADP
 pour	pour	ADP
 participer	participer	VERB
 pendant	pendant	ADP
-8	8	NUM
--10	-10	NUM
+8	8	DIGIT
+-10	-10	DIGIT
 jours	jour	NOUN
 à	à	ADP
 un	un	DET
@@ -735,7 +735,7 @@ de	de	ADP
 la	le	DET
 musique	musique	NOUN
 au cours de	au cours de	ADP
-25	25	NUM
+25	25	DIGIT
 dernières	dernier	ADJ
 années	année	NOUN
 .	.	PUNCTsent
@@ -841,7 +841,7 @@ auront	avoir	AUX
 été	être	AUX
 commandées	commander	VERB
 à	à	ADP
-12	12	NUM
+12	12	DIGIT
 jeunes	jeune	NOUN
 compositeurs	compositeur	NOUN
 .	.	PUNCTsent
@@ -885,9 +885,9 @@ au	au	ADP_DET
 		TOKEN
 ,	,	PUNCTclause
 le	le	DET
-13	13	NUM
+13	13	DIGIT
 janvier	janvier	NOUN
-1953	1953	NUM
+1953	1953	DIGIT
 ,	,	PUNCTclause
 sous	sous	ADP
 la	le	DET
@@ -993,11 +993,11 @@ de	de	ADP
 musique	musique	NOUN
 :	:	PUNCTclause
 du	du	DET
-5	5	NUM
+5	5	DIGIT
 au	au	ADP_DET
-11	11	NUM
+11	11	DIGIT
 avril	avril	NOUN
-1954	1954	NUM
+1954	1954	DIGIT
 ,	,	PUNCTclause
 à	à	ADP
 Rome	Rome	PROPN
@@ -1011,7 +1011,7 @@ au	au	ADP_DET
 choix	choix	NOUN
 préliminaire	préliminaire	ADJ
 des	un	ADP_DET
-12	12	NUM
+12	12	DIGIT
 compositeurs	compositeur	NOUN
 auxquels	auxquels	ADP_PRON
 des	un	DET
@@ -1066,7 +1066,7 @@ envoyées	envoyer	VERB
 à	à	ADP
 chacun	chacun	PRON
 des	un	ADP_DET
-12	12	NUM
+12	12	DIGIT
 compositeurs	compositeur	NOUN
 retenus	retenir	VERB
 .	.	PUNCTsent
@@ -1122,18 +1122,18 @@ chaque	chaque	DET
 séance	séance	NOUN
 fera	faire	VERB
 préparer	préparer	VERB
-2	2	NUM
+2	2	DIGIT
 ou	ou	CCONJ
-3	3	NUM
+3	3	DIGIT
 communications	communication	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 se	se	PRON
 entendra	entendre	VERB
 avec	avec	ADP
-2	2	NUM
+2	2	DIGIT
 ou	ou	CCONJ
-3	3	NUM
+3	3	DIGIT
 autres	autre	ADJ
 participants	participant	NOUN
 du	du	ADP_DET
@@ -1192,7 +1192,7 @@ et	et	CCONJ
 le	le	DET
 style	style	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 ainsi	ainsi	ADV
 que	que	SCONJ
@@ -1263,14 +1263,14 @@ définitive	définitif	ADJ
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 musique	musique	NOUN
 et	et	CCONJ
 politique	politique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 la	le	DET
 fonction	fonction	NOUN
@@ -1282,7 +1282,7 @@ ses	son	DET
 organes	organe	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 technique	technique	NOUN
 ,	,	PUNCTclause
@@ -1291,7 +1291,7 @@ style	style	NOUN
 esthétique	esthétique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 l'	le	DET
 influence	influence	NOUN
@@ -1307,7 +1307,7 @@ langage	langage	NOUN
 musical	musical	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 qu'est-ce que	qu'est-ce que	ADV
 un	un	DET

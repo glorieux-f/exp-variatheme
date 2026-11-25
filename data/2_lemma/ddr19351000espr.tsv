@@ -17,7 +17,7 @@ palais	palais	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 octobre	octobre	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -27,7 +27,7 @@ belle	beau	ADJ
 matinée	matinée	NOUN
 de	de	ADP
 mars	mars	NOUN
-1935	1935	NUM
+1935	1935	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 journal	journal	NOUN
@@ -118,7 +118,7 @@ palais	palais	NOUN
 l'	le	DET
 exposition	exposition	NOUN
 de	de	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 doit	devoir	VERB
 lui	lui	PRON
 en	en	PRON
@@ -145,12 +145,12 @@ renseignement	renseignement	NOUN
 l'	le	DET
 exposition	exposition	NOUN
 de	de	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 exposition	exposition	NOUN
 de	de	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 en	en	ADP
 est	est	NOUN
 au	au	ADP_DET
@@ -385,7 +385,7 @@ les	le	DET
 palais	palais	NOUN
 prévus	prévoir	VERB
 pour	pour	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 ,	,	PUNCTclause
 il	il	PRON
 y	y	PRON
@@ -782,7 +782,7 @@ des	un	ADP_DET
 chercheurs	chercheur	NOUN
 ,	,	PUNCTclause
 toujours	toujours	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 accueillir	accueillir	VERB
 les	le	DET
 savants	savant	NOUN
@@ -1194,7 +1194,7 @@ il	il	PRON
 faut	falloir	VERB
 un	un	DET
 endroit	endroit	NOUN
-etc.	etc.	NOUN
+etc.	etc.	X
 »	»	PUNCTclause
 mais	mais	CCONJ
 ,	,	PUNCTclause
@@ -1546,7 +1546,7 @@ ils	ils	PRON
 sont	être	AUX
 encore	encore	ADV
 peu	peu	ADV
-compromis	compromettre	VERB
+compromis	compromis	NOUN
 dans	dans	ADP
 l'	le	DET
 univers	univers	NOUN
@@ -2308,7 +2308,7 @@ su	savoir	VERB
 .	.	PUNCTsent
 je	je	PRON
 serais	être	AUX
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 l'	le	DET
 accorder	accorder	VERB
 .	.	PUNCTsent
@@ -2986,7 +2986,7 @@ plus	plus	ADV
 tôt	tôt	ADV
 ,	,	PUNCTclause
 en	en	PRON
-1637	1637	NUM
+1637	1637	DIGIT
 exactement	exactement	ADV
 ,	,	PUNCTclause
 publiait	publier	VERB
@@ -4776,7 +4776,9 @@ faites	faire	VERB
 mille	mille	NUM
 fois	fois	NOUN
 —	—	PUNCTclause
-au sujet de	au sujet de	ADP
+au	au	ADP_DET
+sujet	sujet	NOUN
+de	de	ADP
 la	le	DET
 sociologie	sociologie	NOUN
 ou	ou	CCONJ
@@ -6944,7 +6946,7 @@ genre	genre	NOUN
 vous	vous	PRON
 serez	être	AUX
 payé	payer	VERB
-200	200	NUM
+200	200	DIGIT
 francs	franc	NOUN
 la	le	DET
 colonne	colonne	NOUN
@@ -7520,7 +7522,7 @@ radicale	radical	ADJ
 je	je	PRON
 crois	croire	VERB
 apercevoir	apercevoir	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	PUNCT
 une	un	DET
 possibilité	possibilité	NOUN
 de	de	ADP
@@ -7553,7 +7555,7 @@ de	de	ADP
 l'	le	DET
 exposition	exposition	NOUN
 de	de	ADP
-1937	1937	NUM
+1937	1937	DIGIT
 ,	,	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 vu	voir	VERB
@@ -7594,7 +7596,7 @@ prononcé	prononcer	VERB
 par	par	ADP
 Descartes	Descartes	PROPN
 en	en	ADP
-1637	1637	NUM
+1637	1637	DIGIT
 —	—	PUNCTclause
 aggravé	aggraver	VERB
 par	par	ADP
@@ -7628,7 +7630,7 @@ krach	krach	NOUN
 de	de	ADP
 wall street	wall street	NOUN
 (	(	PUNCTclause
-1930	1930	NUM
+1930	1930	DIGIT
 )	)	PUNCTclause
 et	et	CCONJ
 nommée	nommer	VERB

@@ -21,9 +21,9 @@ nous	nous	PRON
 dit	dire	VERB
 …	…	PUNCTsent
 (	(	PUNCTclause
-4	4	NUM
+4	4	DIGIT
 mai	mai	NOUN
-1946	1946	NUM
+1946	1946	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -454,7 +454,7 @@ Rouen	Rouen	PROPN
 la	le	DET
 sorbonne	sorbonne	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 étaient	être	AUX
 charmants	charmant	ADJ
 .	.	PUNCTsent
@@ -542,9 +542,9 @@ fallait	falloir	VERB
 faire	faire	VERB
 chaque	chaque	DET
 jour	jour	NOUN
-20	20	NUM
+20	20	DIGIT
 à	à	ADP
-30	30	NUM
+30	30	DIGIT
 pages	page	NOUN
 ,	,	PUNCTclause
 soit	soit	CCONJ
@@ -638,7 +638,7 @@ l'	le	DET
 États-Unis	États-Unis	PROPN
 ;	;	PUNCTclause
 et	et	CCONJ
-18	18	NUM
+18	18	DIGIT
 lettres	lettre	NOUN
 sur	sur	ADP
 la	le	DET
@@ -799,7 +799,7 @@ tout compte fait	tout compte fait	ADV
 ,	,	PUNCTclause
 je	je	PRON
 aurai	avoir	AUX
-18	18	NUM
+18	18	DIGIT
 publications	publication	NOUN
 cette	ce	DET
 année	année	NOUN

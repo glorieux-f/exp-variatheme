@@ -13,9 +13,9 @@ gens	gens	NOUN
 en	en	ADP
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
-15	15	NUM
+15	15	DIGIT
 mai	mai	NOUN
-1947	1947	NUM
+1947	1947	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -383,7 +383,7 @@ canton	canton	NOUN
 de	de	ADP
 un	un	DET
 des	un	ADP_DET
-22	22	NUM
+22	22	DIGIT
 petits	petit	ADJ
 états	état	NOUN
 qui	qui	PRON
@@ -2003,7 +2003,7 @@ immatérielle	immatériel	ADJ
 des	un	ADP_DET
 vignobles	vignoble	NOUN
 doucement	doucement	ADV
-étagés	étager	VERB
+étagés	étagé	ADJ
 ,	,	PUNCTclause
 en bas	en bas	ADV
 de	de	ADP
@@ -2315,7 +2315,7 @@ Calvin	Calvin	PROPN
 je	je	PRON
 les	le_PRON	PRON
 trouve	trouver	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 spirituels	spirituel	ADJ
 ,	,	PUNCTclause
 cultivés	cultiver	VERB
@@ -2645,7 +2645,7 @@ l'	le	DET
 empoigna	empoigner	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ne	ne	ADV
 parvint	parvenir	VERB
 pas	pas	ADV

@@ -11,8 +11,8 @@ Acte	Acte	PROPN
 comme	comme	ADP
 point de départ	point de départ	NOUN
 (	(	PUNCTclause
-1936	1936	NUM
--1937	-1937	NUM
+1936	1936	DIGIT
+-1937	-1937	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -90,7 +90,7 @@ dans	dans	ADP
 le	le	DET
 pragmatisme	pragmatisme	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 ,	,	PUNCTclause
 un	un	DET
 ensemble	ensemble	NOUN
@@ -1439,7 +1439,7 @@ constater	constater	VERB
 que	que	SCONJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 si	si	SCONJ
 on	on	PRON
@@ -1456,7 +1456,7 @@ part	partir	VERB
 pas du tout	pas du tout	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	SYM
 si	si	SCONJ
 on	on	PRON
@@ -3244,7 +3244,7 @@ pour	pour	ADP
 le	le	DET
 savant	savant	NOUN
 seulement	seulement	ADV
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 il	il	PRON
 crée	créer	VERB
 ;	;	PUNCTclause

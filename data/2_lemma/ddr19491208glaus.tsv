@@ -13,9 +13,9 @@ encore	encore	ADV
 un	un	DET
 espoir	espoir	NOUN
 (	(	PUNCTclause
-8	8	NUM
+8	8	DIGIT
 décembre	décembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -520,7 +520,7 @@ fer	fer	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 sommes	être	AUX
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 :	:	PUNCTclause
 ce	ce	PRON
@@ -542,7 +542,7 @@ satellites	satellite	NOUN
 .	.	PUNCTsent
 sur	sur	ADP
 ces	ce	DET
-300	300	NUM
+300	300	DIGIT
 millions	million	NOUN
 ,	,	PUNCTclause
 dix	dix	NUM
@@ -554,7 +554,7 @@ communisme	communisme	NOUN
 mais	mais	CCONJ
 sur	sur	ADP
 les	le	DET
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 de	de	ADP
 satellites	satellite	NOUN
@@ -588,7 +588,7 @@ ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
 été	être	AUX
-traitée	traiter	VERB
+traitée	traité	ADJ
 mieux	mieux	ADV
 que	que	SCONJ
 elle	elle	PRON
@@ -940,7 +940,7 @@ ne	ne	ADV
 y	y	PRON
 croyez	croire	VERB
 sans doute	sans doute	ADV
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 moi	moi	PRON
 .	.	PUNCTsent
 et	et	CCONJ

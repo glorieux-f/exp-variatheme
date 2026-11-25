@@ -11,7 +11,7 @@ communautés	communauté	NOUN
 communes	commun	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 sources	source	NOUN
@@ -22,9 +22,9 @@ de	de	ADP
 commune	commun	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 février	février	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 commune	commun	NOUN
@@ -147,7 +147,7 @@ personnalisme	personnalisme	NOUN
 ,	,	PUNCTclause
 étant	être	AUX
 réalisé	réaliser	VERB
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 les	le	DET
 libertés	liberté	NOUN
 et	et	CCONJ
@@ -275,9 +275,9 @@ de	de	ADP
 souveraineté	souveraineté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 janvier	janvier	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
 des	un	ADP_DET
@@ -461,9 +461,9 @@ la	le	DET
 cité	cité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 janvier	janvier	NOUN
-1977	1977	NUM
+1977	1977	DIGIT
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 esprit	esprit	NOUN
@@ -602,7 +602,7 @@ démocratique	démocratique	ADJ
 l'	le	DET
 est	être	AUX
 seulement	seulement	ADV
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ,	,	PUNCTclause
 étant	être	AUX
 une	un	DET
@@ -622,9 +622,9 @@ leur	leur	DET
 participation	participation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 février	février	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
 toute	tout	ADJ
@@ -708,9 +708,9 @@ du	du	ADP_DET
 pavé	pavé	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 janvier	janvier	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
 moyen-âge	moyen-âge	NOUN
@@ -949,9 +949,9 @@ les	le	DET
 municipalités	municipalité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-25	25	NUM
+25	25	DIGIT
 octobre	octobre	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 ↵↵	↵↵	PUNCTstruct
 puisque	puisque	SCONJ
 elle	elle	PRON
@@ -1010,7 +1010,7 @@ hommes	homme	NOUN
 véritables	véritable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 communes	commun	NOUN
 ,	,	PUNCTclause
@@ -1019,9 +1019,9 @@ communautés	communauté	NOUN
 universités	université	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 février	février	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Deux	Deux	NUM
 types	type	NOUN
@@ -1285,7 +1285,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 en	en	ADP
-1291	1291	NUM
+1291	1291	DIGIT
 ,	,	PUNCTclause
 ne	ne	ADV
 a	avoir	AUX
@@ -1356,9 +1356,9 @@ de	de	ADP
 supérieures	supérieur	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 décembre	décembre	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 naissance	naissance	NOUN
@@ -1478,9 +1478,9 @@ même	même	ADV
 locales	local	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 janvier	janvier	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 universités	université	NOUN
@@ -1616,9 +1616,9 @@ leur	leur	DET
 étage	étage	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-9	9	NUM
+9	9	DIGIT
 décembre	décembre	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 parle	parler	VERB
@@ -1779,9 +1779,9 @@ petites	petit	ADJ
 universités	université	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 janvier	janvier	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
 l'	le	DET
@@ -1978,7 +1978,7 @@ la	le	DET
 participation	participation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 .	.	PUNCTsent
 démocratie	démocratie	NOUN
 et	et	CCONJ
@@ -1986,9 +1986,9 @@ petites	petit	ADJ
 communautés	communauté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 juin	juin	NOUN
-1966	1966	NUM
+1966	1966	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 Révolution française	Révolution française	NOUN
@@ -2091,9 +2091,9 @@ de	de	ADP
 habitants	habitant	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 juin	juin	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Rousseau	Rousseau	PROPN
 vient	venir	VERB
@@ -2221,9 +2221,9 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 novembre	novembre	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Rousseau	Rousseau	PROPN
 parle	parler	VERB
@@ -2370,9 +2370,9 @@ volonté	volonté	NOUN
 générale	général	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
 se	se	PRON
@@ -2438,9 +2438,9 @@ communautés	communauté	NOUN
 natives	natif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 homme	homme	NOUN
@@ -2584,9 +2584,9 @@ des	un	ADP_DET
 gens	gens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 décembre	décembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
 toutes	tout	ADJ
@@ -2670,7 +2670,7 @@ exactement	exactement	ADV
 cela	cela	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-4	4	NUM
+4	4	DIGIT
 .	.	PUNCTsent
 civisme	civisme	NOUN
 et	et	CCONJ
@@ -2680,9 +2680,9 @@ la	le	DET
 cité	cité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 décembre	décembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
 la	le	DET
@@ -2737,11 +2737,11 @@ leur	leur	DET
 responsabilité	responsabilité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 janvier	janvier	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 dans	dans	ADP
 la	le	DET
@@ -2771,7 +2771,7 @@ et	et	CCONJ
 responsabilité	responsabilité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 .	.	PUNCTsent
 puis	puis	CCONJ
 vient	venir	VERB
@@ -2915,8 +2915,8 @@ quartier	quartier	NOUN
 des	un	ADP_DET
 commerçants	commerçant	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
-Spécialisation	Spécialisation	PROPN
+etc.	etc.	X
+spécialisation	spécialisation	X
 et	et	CCONJ
 manque de	manque de	ADP
 intérêt	intérêt	NOUN
@@ -3007,9 +3007,9 @@ soi	soi	PRON
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 novembre	novembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 hommes	homme	NOUN
@@ -3141,7 +3141,7 @@ la	le	DET
 		TOKEN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-20	20	NUM
+20	20	DIGIT
 janvier1967	janvier1967	NUM
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -3237,7 +3237,7 @@ participation	participation	NOUN
 civique	civique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-5	5	NUM
+5	5	DIGIT
 .	.	PUNCTsent
 dimension	dimension	NOUN
 politique	politique	ADJ
@@ -3245,9 +3245,9 @@ et	et	CCONJ
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 février	février	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 Megalopolis	Megalopolis	PROPN
 est	être	AUX
@@ -3363,9 +3363,9 @@ la	le	DET
 commune	commun	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-15	15	NUM
+15	15	DIGIT
 novembre	novembre	NOUN
-1968	1968	NUM
+1968	1968	DIGIT
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
 la première	la première	PRON
@@ -3453,9 +3453,9 @@ sera	être	AUX
 liberté	liberté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 novembre	novembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 ↵↵	↵↵	PUNCTstruct
 de même que	de même que	SCONJ
 on	on	PRON
@@ -3634,9 +3634,9 @@ là	là	ADV
 seulement	seulement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 novembre	novembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
 près de	près de	ADP
@@ -3774,9 +3774,9 @@ trop	trop	ADV
 grande	grand	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-29	29	NUM
+29	29	DIGIT
 octobre	octobre	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 santé	santé	NOUN
@@ -3824,9 +3824,9 @@ décision	décision	NOUN
 d'autre part	d'autre part	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 janvier	janvier	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 ne	ne	ADV
@@ -3949,9 +3949,9 @@ devoirs	devoir	NOUN
 civiques	civique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	NUM
+26	26	DIGIT
 novembre	novembre	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
 le	le	DET
@@ -4063,7 +4063,7 @@ du	du	ADP_DET
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-6	6	NUM
+6	6	DIGIT
 .	.	PUNCTsent
 croissance	croissance	NOUN
 des	un	ADP_DET
@@ -4073,9 +4073,9 @@ participation	participation	NOUN
 civique	civique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-27	27	NUM
+27	27	DIGIT
 janvier	janvier	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 banlieue	banlieue	NOUN
@@ -4333,9 +4333,9 @@ un	un	DET
 jardinet	jardinet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-23	23	NUM
+23	23	DIGIT
 janvier	janvier	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ↵↵	↵↵	PUNCTstruct
 autour de	autour de	ADP
 la	le	DET
@@ -4547,9 +4547,9 @@ est	être	AUX
 non	non	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-26	26	ADJ
+26	26	DIGIT
 novembre	novembre	NOUN
-1965	1965	NUM
+1965	1965	DIGIT
 ↵↵	↵↵	PUNCTstruct
 toutes	tout	ADJ
 les	le	DET
@@ -4985,9 +4985,9 @@ existence	existence	NOUN
 politique	politique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-19	19	NUM
+19	19	DIGIT
 février	février	NOUN
-1976	1976	NUM
+1976	1976	DIGIT
 ↵↵	↵↵	PUNCTstruct
 quand	quand	SCONJ
 une	un	DET
@@ -5154,9 +5154,9 @@ la	le	DET
 ville	ville	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-10	10	NUM
+10	10	DIGIT
 février	février	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 qui	qui	PRON
@@ -5229,7 +5229,7 @@ les	le	DET
 auteurs	auteur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-7	7	NUM
+7	7	DIGIT
 .	.	PUNCTsent
 cités	cité	NOUN
 ,	,	PUNCTclause
@@ -5238,9 +5238,9 @@ régions	région	NOUN
 fédération	fédération	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-14	14	NUM
+14	14	DIGIT
 novembre	novembre	NOUN
-1969	1969	NUM
+1969	1969	DIGIT
 ↵↵	↵↵	PUNCTstruct
 à partir de	à partir de	ADP
 7e	7e	ADJ
@@ -5356,9 +5356,9 @@ pour	pour	ADP
 tous	tous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 ne	ne	ADV
@@ -5682,9 +5682,9 @@ petites	petit	ADJ
 communes	commun	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-3	3	NUM
+3	3	DIGIT
 février	février	NOUN
-1967	1967	NUM
+1967	1967	DIGIT
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 variations	variation	NOUN
@@ -5774,9 +5774,9 @@ de moins en moins	de moins en moins	ADV
 efficace	efficace	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-24	24	NUM
+24	24	DIGIT
 avril	avril	NOUN
-1970	1970	NUM
+1970	1970	DIGIT
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 réponse	réponse	NOUN

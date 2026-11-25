@@ -18,9 +18,9 @@ de	de	ADP
 la	le	DET
 culture	culture	NOUN
 (	(	PUNCTclause
-5	5	NUM
+5	5	DIGIT
 décembre	décembre	NOUN
-1949	1949	NUM
+1949	1949	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -79,7 +79,7 @@ décidé	décider	VERB
 de	de	ADP
 agir	agir	VERB
 dans	dans	ADP
-4	4	NUM
+4	4	DIGIT
 domaines	domaine	NOUN
 différents	différent	ADJ
 .	.	PUNCTsent
@@ -173,7 +173,7 @@ donner	donner	VERB
 aux	au	ADP_DET
 intellectuels	intellectuel	NOUN
 de	de	ADP
-20	20	NUM
+20	20	DIGIT
 pays	pays	NOUN
 le	le	DET
 signal	signal	NOUN
@@ -484,7 +484,7 @@ la	le	DET
 condition	condition	NOUN
 première	premier	ADJ
 ,	,	PUNCTclause
-sine qua non	sine qua non	ADV
+sine qua non	sine qua non	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 toute	tout	ADJ
@@ -975,7 +975,7 @@ congrès	congrès	NOUN
 jeudi	jeudi	NOUN
 ,	,	PUNCTclause
 le	le	DET
-8	8	NUM
+8	8	DIGIT
 décembre	décembre	NOUN
 au	au	ADP_DET
 théâtre	théâtre	NOUN
@@ -986,7 +986,7 @@ mais	mais	CCONJ
 il y a	il y a	VERB
 surtout	surtout	ADV
 pendant	pendant	ADP
-5	5	NUM
+5	5	DIGIT
 jours	jour	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -994,7 +994,7 @@ travail	travail	NOUN
 en	en	ADP
 commun	commun	ADJ
 de	de	ADP
-200	200	NUM
+200	200	DIGIT
 hommes	homme	NOUN
 de	de	ADP
 science	science	NOUN
@@ -1031,7 +1031,7 @@ oreille	oreille	NOUN
 ,	,	PUNCTclause
 seront	être	AUX
 forcés	forcer	VERB
-cette fois-là	cette fois ci	ADV
+cette fois-là	cette fois-là	ADV
 de	de	ADP
 écouter	écouter	VERB
 et	et	CCONJ

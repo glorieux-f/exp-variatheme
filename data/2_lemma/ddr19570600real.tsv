@@ -12,7 +12,7 @@ du	du	ADP_DET
 pessimisme	pessimisme	NOUN
 (	(	PUNCTclause
 juin	juin	NOUN
-1957	1957	NUM
+1957	1957	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -25,7 +25,7 @@ histoire	histoire	NOUN
 ,	,	PUNCTclause
 argument	argument	NOUN
 numéro	numéro	NOUN
-1	1	NUM
+1	1	DIGIT
 de	de	ADP
 la	le	DET
 séduction	séduction	NOUN
@@ -38,7 +38,7 @@ une fois pour toutes	une fois pour toutes	ADV
 le	le	DET
 cap	cap	NOUN
 sur	sur	ADP
-1984	1984	NUM
+1984	1984	DIGIT
 et	et	CCONJ
 sa	son	DET
 fourmilière	fourmilière	NOUN
@@ -61,7 +61,7 @@ la	le	DET
 Marseillaise	Marseillaise	PROPN
 ,	,	PUNCTclause
 en direction de	en direction de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -87,7 +87,7 @@ utopie	utopie	NOUN
 de	de	ADP
 George	George	PROPN
 Orwell	Orwell	PROPN
-1984	1984	NUM
+1984	1984	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
@@ -688,13 +688,13 @@ des	un	ADP_DET
 conventions	convention	NOUN
 ;	;	PUNCTclause
 mais	mais	CCONJ
-n'est-ce pas	n'est-ce pas	ADV
+n'est-ce pas	n'est-ce pas	INTJ
 lui	lui	PRON
 qui	qui	PRON
 ouvrit	ouvrir	VERB
 ,	,	PUNCTclause
 en	en	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 le	le	DET
 grand	grand	ADJ
@@ -861,7 +861,7 @@ moderne	moderne	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à partir de	à partir de	ADP
-1919	1919	NUM
+1919	1919	DIGIT
 ,	,	PUNCTclause
 les	le	DET
 influences	influence	NOUN
@@ -1811,7 +1811,7 @@ seule	seul	ADJ
 par	par	ADP
 Freud	Freud	PROPN
 autour de	autour de	ADP
-1900	1900	NUM
+1900	1900	DIGIT
 )	)	PUNCTclause
 comme	comme	ADP
 un	un	DET
@@ -3011,7 +3011,7 @@ commencent	commencer	VERB
 le	le	DET
 savoir	savoir	NOUN
 .	.	PUNCTsent
-330	330	NUM
+330	330	DIGIT
 millions	million	NOUN
 de	de	ADP
 habitants	habitant	NOUN
@@ -3024,7 +3024,7 @@ de	de	ADP
 fer	fer	NOUN
 ,	,	PUNCTclause
 plus	plus	ADV
-100	100	NUM
+100	100	DIGIT
 millions	million	NOUN
 récupérés	récupérer	VERB
 à	à	ADP

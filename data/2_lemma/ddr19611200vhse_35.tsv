@@ -6,7 +6,7 @@
 # title = 1. Les sources vives
 
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 .	.	PUNCTsent
 les	le	DET
 sources	source	NOUN
@@ -108,7 +108,7 @@ le	le	DET
 choix	choix	NOUN
 proposé	proposer	VERB
 dès	dès	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 par	par	ADP
 Paul	Paul	PROPN
 Valéry	Valéry	PROPN
@@ -670,7 +670,7 @@ Orphées	Orphées	PROPN
 de	de	ADP
 Cocteau	Cocteau	PROPN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 )	)	PUNCTclause
 ;	;	PUNCTclause
 reprise	reprendre	VERB
@@ -759,7 +759,7 @@ ce	ce	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 le	le	DET
-Pr	Pr	NOUN
+Pr	Pr	PROPN
 Bruno	Bruno	PROPN
 Snell	Snell	PROPN
 ,	,	PUNCTclause
@@ -945,8 +945,8 @@ de	de	ADP
 Simone	Simone	PROPN
 Weil	Weil	PROPN
 (	(	PUNCTclause
-1909	1909	NUM
--1943	-1943	NUM
+1909	1909	DIGIT
+-1943	-1943	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1207,8 +1207,8 @@ Allemagne	Allemagne	PROPN
 Reinhold	Reinhold	PROPN
 Schneider	Schneider	PROPN
 (	(	PUNCTclause
-1887	1887	NUM
--1959	-1959	NUM
+1887	1887	DIGIT
+-1959	-1959	DIGIT
 )	)	PUNCTclause
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1253,7 +1253,7 @@ dans	dans	ADP
 son	son	DET
 discours	discours	NOUN
 de	de	ADP
-1922	1922	NUM
+1922	1922	DIGIT
 .	.	PUNCTsent
 ce	ce	DET
 France	France	PROPN
@@ -1518,7 +1518,7 @@ héritage	héritage	NOUN
 germanique	germanique	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-1	1	NUM
+1	1	DIGIT
 °	°	SYM
 fin	fin	NOUN
 de	de	ADP
@@ -1618,7 +1618,7 @@ Charlemagne	Charlemagne	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-2	2	NUM
+2	2	DIGIT
 °	°	PUNCT
 le	le	DET
 germanisme	germanisme	NOUN
@@ -1694,8 +1694,8 @@ de	de	ADP
 l'	le	DET
 entre-deux-guerres	entre-deux-guerres	NOUN
 (	(	PUNCTclause
-1919	1919	NUM
--1939	-1939	NUM
+1919	1919	DIGIT
+-1939	-1939	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 l'une	l'une	PRON
@@ -2353,7 +2353,7 @@ la	le	DET
 communauté	communauté	NOUN
 unique	unique	ADJ
 de	de	ADP
-60.000	60.000	NUM
+60.000	60.000	DIGIT
 âmes	âme	NOUN
 que	que	ADV
 un	un	DET
@@ -2471,7 +2471,7 @@ synode	synode	NOUN
 de	de	ADP
 Toulouse	Toulouse	PROPN
 en	en	ADP
-1229	1229	NUM
+1229	1229	DIGIT
 ,	,	PUNCTclause
 rappelle	rappeler	VERB
 F.	F.	PROPN
@@ -2492,7 +2492,7 @@ par	par	ADP
 Paul	Paul	PROPN
 IV	IV	NUM
 en	en	ADP
-1559	1559	NUM
+1559	1559	DIGIT
 .	.	PUNCTsent
 «	«	PUNCTclause
 Charles-Quint	Charles-Quint	PROPN

@@ -11,7 +11,7 @@ esprit	esprit	NOUN
 romand	romand	ADJ
 (	(	PUNCTclause
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -70,7 +70,7 @@ convergé	converger	VERB
 en	en	ADP
 l'	le	DET
 année	année	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 lors de	lors de	ADP
 la	le	DET
 création	création	NOUN
@@ -178,7 +178,7 @@ familles	famille	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 un	un	DET
-conseil d'état	Conseil d'État	NOUN
+Conseil d'État	Conseil d'État	NOUN
 qui	qui	PRON
 se	se	PRON
 appuie	appuyer	VERB
@@ -209,7 +209,7 @@ Nemours	Nemours	PROPN
 ,	,	PUNCTclause
 succéderont	succéder	VERB
 dès	dès	ADP
-1707	1707	NUM
+1707	1707	DIGIT
 les	le	DET
 rois	roi	NOUN
 de	de	ADP
@@ -222,7 +222,7 @@ de	de	ADP
 Neuchâtel	Neuchâtel	PROPN
 jusque	jusque	ADP
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au	au	ADP_DET
@@ -262,7 +262,7 @@ la	le	DET
 célèbre	célèbre	ADJ
 escalade	escalade	NOUN
 de	de	ADP
-1602	1602	NUM
+1602	1602	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 les	le	DET
@@ -274,7 +274,7 @@ venus	venir	VERB
 son	son	DET
 secours	secours	NOUN
 en	en	ADP
-1535	1535	NUM
+1535	1535	DIGIT
 ,	,	PUNCTclause
 ont	avoir	AUX
 annexé	annexer	VERB
@@ -698,12 +698,12 @@ très	très	ADV
 exactement	exactement	ADV
 —	—	PUNCTclause
 du	du	ADP_DET
-17	17	NUM
+17	17	DIGIT
 février	février	NOUN
 au	au	ADP_DET
-16	16	NUM
+16	16	DIGIT
 novembre	novembre	NOUN
-1848	1848	NUM
+1848	1848	DIGIT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -717,7 +717,7 @@ Suisse	Suisse	PROPN
 fédérale	fédéral	ADJ
 ,	,	PUNCTclause
 en	en	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 (	(	PUNCTclause
 phénomène	phénomène	NOUN
 proprement	proprement	ADV
@@ -782,7 +782,7 @@ la	le	DET
 convergence	convergence	NOUN
 décisive	décisif	ADJ
 de	de	ADP
-1848	1848	NUM
+1848	1848	DIGIT
 ,	,	PUNCTclause
 un	un	DET
 «	«	PUNCTclause
@@ -1244,7 +1244,7 @@ doctrines	doctrine	NOUN
 structuralistes	structuraliste	ADJ
 des	un	ADP_DET
 années	année	NOUN
-1960	1960	NUM
+1960	1960	DIGIT
 et	et	CCONJ
 de	de	DET
 nombreuses	nombreux	ADJ

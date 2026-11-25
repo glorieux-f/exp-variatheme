@@ -17,9 +17,9 @@ particules	particule	NOUN
 du	du	ADP_DET
 CERN	CERN	PROPN
 (	(	PUNCTclause
-11	11	NUM
+11	11	DIGIT
 février	février	NOUN
-1982	1982	NUM
+1982	1982	DIGIT
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -473,7 +473,7 @@ que	que	SCONJ
 je	je	PRON
 habite	habiter	VERB
 depuis	depuis	ADP
-35	35	NUM
+35	35	DIGIT
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -864,7 +864,7 @@ même	même	ADJ
 type	type	NOUN
 dans	dans	ADP
 les	le	DET
-12	12	NUM
+12	12	DIGIT
 pays	pays	NOUN
 membres	membre	NOUN
 (	(	PUNCTclause
@@ -961,7 +961,7 @@ prise	prise	NOUN
 en principe	en principe	ADV
 par	par	ADP
 les	le	DET
-12	12	NUM
+12	12	DIGIT
 gouvernements	gouvernement	NOUN
 membres	membre	NOUN
 du	du	ADP_DET
@@ -1021,7 +1021,7 @@ le	le	DET
 		TOKEN
 sera	être	AUX
 prise	prendre	VERB
-d'ici	d'ici	ADV
+d'ici	d'ici	ADP
 quelques	quelque	DET
 mois	mois	NOUN
 .	.	PUNCTsent
@@ -1242,7 +1242,7 @@ nous	nous	PRON
 disaient	dire	VERB
 en	en	ADP
 juin	juin	NOUN
-1981	1981	NUM
+1981	1981	DIGIT
 que	que	SCONJ
 le	le	DET
 tracé	tracé	NOUN
@@ -2329,7 +2329,7 @@ toutes	tout	ADJ
 les	le	DET
 chances	chance	NOUN
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois-là	ADV
 ,	,	PUNCTclause
 de	de	ADP
 être	être	AUX
@@ -2725,7 +2725,7 @@ de	de	ADP
 cela	cela	PRON
 —	—	PUNCTclause
 en	en	ADP
-1958	1958	NUM
+1958	1958	DIGIT
 —	—	PUNCTclause
 à	à	ADP
 une	un	DET
@@ -2798,7 +2798,7 @@ anthropologie	anthropologie	NOUN
 ,	,	PUNCTclause
 ethnographie	ethnographie	NOUN
 ,	,	PUNCTclause
-etc.	etc.	NOUN
+etc.	etc.	X
 les	le	DET
 fonctions	fonction	NOUN
 du	du	ADP_DET
