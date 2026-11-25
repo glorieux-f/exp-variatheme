@@ -65,7 +65,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 un	un	DET
 pays	pays	NOUN
 que	que	ADV
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 croit	croire	VERB
 connaître	connaître	VERB
 même	même	ADV
@@ -76,7 +76,7 @@ jamais	jamais	ADV
 été	être	AUX
 ,	,	PUNCTclause
 car	car	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 que	que	SCONJ
 il	il	PRON
@@ -170,7 +170,7 @@ pourtant	pourtant	ADV
 la	le	DET
 Suisse	Suisse	PROPN
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 que	que	SCONJ
 on	on	PRON
@@ -459,7 +459,7 @@ ce	ce	DET
 continent	continent	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-il n'empêche que	il n'empêche que	ADP
+il n'empêche que	il n'empêche que	ADV
 à	à	ADP
 Paris	Paris	PROPN
 ,	,	PUNCTclause
@@ -472,14 +472,14 @@ Berlin	Berlin	PROPN
 on	on	PRON
 se	se	PRON
 moque	moquer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 des	un	DET
 Suisse	Suisse	PROPN
 et	et	CCONJ
 on	on	PRON
 les	le_PRON	PRON
 jalouse	jaloux	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ,	,	PUNCTclause
 comme si	comme si	SCONJ
 chaque	chaque	DET
@@ -570,10 +570,10 @@ une	un	DET
 Europe	Europe	PROPN
 fédérée	fédéré	ADJ
 qui	qui	PRON
-par malheur	par malheur	PUNCT
+par malheur	par malheur	ADV
 ne	ne	ADV
 existe	exister	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 dans	dans	ADP
 l'	le	DET
 espoir	espoir	NOUN
@@ -738,8 +738,8 @@ applicables	applicable	ADJ
 ailleurs	ailleurs	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	DET
-secret	secret	NOUN
+le premier	le premier	PRON
+secret	secret	ADJ
 des	un	ADP_DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
@@ -896,7 +896,7 @@ le	le	DET
 contrôle	contrôle	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 grand	grand	ADJ
 empereur	empereur	NOUN
@@ -935,7 +935,7 @@ alliance	alliance	NOUN
 —	—	PUNCTclause
 un	un	DET
 traité	traité	NOUN
-en due forme	en due forme	ADP
+en due forme	en due forme	ADV
 qui	qui	PRON
 ne	ne	ADV
 fut	être	AUX
@@ -957,7 +957,7 @@ se	se	PRON
 agrégèrent	agréger	VERB
 au cours de	au cours de	ADP
 siècles	siècle	NOUN
-quantité de	quantité de	PUNCT
+quantité de	quantité de	DET
 petites	petit	ADJ
 communautés	communauté	NOUN
 formées	former	VERB
@@ -1174,7 +1174,7 @@ fait	fait	NOUN
 de	de	ADP
 les	le	DET
 gober	gober	VERB
-l'un après l'autre	l'un après l'autre	PUNCT
+l'un après l'autre	l'un après l'autre	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ainsi	ainsi	ADV
@@ -1460,7 +1460,7 @@ obligations	obligation	NOUN
 militaires	militaire	ADJ
 ,	,	PUNCTclause
 habitant	habitant	NOUN
-au surplus	au surplus	PUNCT
+au surplus	au surplus	ADV
 près de	près de	ADP
 Genève	Genève	PROPN
 ,	,	PUNCTclause
@@ -1524,7 +1524,7 @@ nationalismes	nationalisme	NOUN
 qui	qui	PRON
 ont	avoir	AUX
 risqué	risquer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -1737,7 +1737,7 @@ crois	croire	VERB
 avoir	avoir	AUX
 plus	plus	ADV
 que	que	SCONJ
-à moitié	à moitié	DET
+à moitié	à moitié	ADV
 répondu	répondre	VERB
 à	à	ADP
 la	le	DET
@@ -1806,7 +1806,7 @@ grands	grand	ADJ
 ,	,	PUNCTclause
 bref	bref	ADJ
 ,	,	PUNCTclause
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 semblables	semblable	ADJ
 par	par	ADP
 leur	leur	DET
@@ -1884,7 +1884,7 @@ vos	vos	DET
 aimables	aimable	ADJ
 cantons	canton	NOUN
 ?	?	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -1971,7 +1971,7 @@ tant de	tant de	DET
 ,	,	PUNCTclause
 pourrait	pouvoir	VERB
 rendre	rendre	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 services	service	NOUN
 dans	dans	ADP
 le	le	DET
@@ -2017,7 +2017,7 @@ or	or	NOUN
 cette	ce	DET
 fonction	fonction	NOUN
 reste	rester	VERB
-la même	la même	ADV
+la même	la même	PRON
 que	que	SCONJ
 il	il	PRON
 se	se	PRON

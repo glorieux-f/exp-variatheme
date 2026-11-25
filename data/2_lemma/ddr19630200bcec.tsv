@@ -201,11 +201,11 @@ ils	ils	PRON
 sont	être	AUX
 fréquents	fréquent	ADJ
 ,	,	PUNCTclause
-depuis que	depuis que	DET
-le	le_PRON	PRON
+depuis que	depuis que	SCONJ
+le	le	DET
 sujet	sujet	NOUN
 est	être	AUX
-à la mode	à la mode	DET
+à la mode	à la mode	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -673,7 +673,7 @@ remarques	remarque	NOUN
 fondamentales	fondamental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-trop de	trop de	ADP
+trop de	trop de	DET
 livres	livre	NOUN
 sur	sur	ADP
 l'	le	DET
@@ -707,7 +707,7 @@ autres	autre	PRON
 .	.	PUNCTsent
 chaque	chaque	DET
 auteur	auteur	NOUN
-pour sa part	pour sa part	ADP
+pour sa part	pour sa part	ADV
 et	et	CCONJ
 à	à	ADP
 son	son	DET
@@ -730,7 +730,7 @@ des	un	DET
 siècles	siècle	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 chacun	chacun	PRON
 brûle	brûler	VERB
@@ -782,14 +782,14 @@ Europe	Europe	PROPN
 je	je	PRON
 en	en	ADP
 doute	doute	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 .	.	PUNCTsent
 (	(	PUNCTclause
 mais	mais	CCONJ
 il y a	il y a	VERB
 bien	bien	ADV
 d'autres	d'autre	PRON
-raison d'être	raison d'être	PUNCT
+raison d'être	raison d'être	NOUN
 optimiste	optimiste	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -804,7 +804,7 @@ ouvrages	ouvrage	NOUN
 ils	ils	PRON
 sont	être	AUX
 écrits	écrire	VERB
-à la hâte	à la hâte	DET
+à la hâte	à la hâte	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 «	«	PUNCTclause
@@ -870,7 +870,7 @@ de	de	ADP
 exprimer	exprimer	VERB
 au sujet de	au sujet de	ADP
 actions	action	NOUN
-en cours	en cours	ADP
+en cours	en cours	ADJ
 son	son	DET
 appréciation	appréciation	NOUN
 personnelle	personnel	ADJ
@@ -1014,7 +1014,7 @@ d'abord	d'abord	ADV
 si	si	SCONJ
 ce	ce	PRON
 était	être	AUX
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 ,	,	PUNCTclause
 si	si	SCONJ
 cela	cela	PRON
@@ -1098,7 +1098,7 @@ mesure	mesurer	VERB
 aussi	aussi	ADV
 au	au	ADP_DET
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 ceux	ceux	PRON
 qui	qui	PRON
 se	se	PRON
@@ -1138,11 +1138,11 @@ se	se	PRON
 féliciter	féliciter	VERB
 de	de	ADP
 voir	voir	VERB
-autant de	autant de	PUNCT
+autant de	autant de	DET
 esprits	esprit	NOUN
 préoccupés	préoccuper	VERB
-de mise	de mise	ADP
-en	en	PRON
+de mise	de mise	ADJ
+en	en	ADP
 ordre	ordre	NOUN
 leurs	leur	DET
 idées	idée	NOUN
@@ -1181,12 +1181,12 @@ difficiles	difficile	ADJ
 .	.	PUNCTsent
 trop de	trop de	DET
 ouvrages	ouvrage	NOUN
-de seconde main	de seconde main	PUNCT
+de seconde main	de seconde main	ADJ
 sur	sur	ADP
 l'	le	DET
 Europe	Europe	PROPN
 risquent	risquer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 du	du	ADP_DET
 tort	tort	NOUN
 à	à	ADP
@@ -1326,7 +1326,7 @@ de	de	ADP
 éviter	éviter	VERB
 désormais	désormais	ADV
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 fut	être	AUX
 de	de	ADP
 limiter	limiter	VERB
@@ -1644,7 +1644,7 @@ possibles	possible	ADJ
 ,	,	PUNCTclause
 les	le	DET
 projets	projet	NOUN
-en cours	en cours	PUNCT
+en cours	en cours	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 ceux	ceux	PRON

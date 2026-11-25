@@ -47,7 +47,7 @@ le	le	DET
 plus	plus	ADV
 souvent	souvent	ADV
 cité	citer	VERB
-à ce sujet	à ce sujet	DET
+à ce sujet	à ce sujet	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ailleurs	ailleurs	ADV
@@ -88,7 +88,7 @@ Reynold	Reynold	PROPN
 et	et	CCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 termes	terme	NOUN
 ,	,	PUNCTclause
 Élisée	Élisée	PROPN
@@ -163,7 +163,7 @@ la	le	DET
 Méditerranée	Méditerranée	PROPN
 ,	,	PUNCTclause
 puis	puis	CCONJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 Colonnes	Colonnes	PROPN
 de	de	ADP
 Hercule	Hercule	PROPN
@@ -335,7 +335,7 @@ mnémotechnie	mnémotechnie	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 aurait	avoir	AUX
-le premier	le premier	ADP
+le premier	le premier	PRON
 nommé	nommer	VERB
 les	le	DET
 parties	partie	NOUN
@@ -431,7 +431,7 @@ pense	penser	VERB
 de même	de même	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 ,	,	PUNCTclause
 tous	tous	PRON
 les	le	DET
@@ -442,7 +442,7 @@ jusque	jusque	ADP
 Strabon	Strabon	PROPN
 nous	nous	PRON
 donnent	donner	VERB
-la même	la même	DET
+la même	la même	PRON
 définition	définition	NOUN
 :	:	PUNCTclause
 l'	le	DET
@@ -492,7 +492,7 @@ rappeler	rappeler	VERB
 que	que	SCONJ
 Socrate	Socrate	PROPN
 fut	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 philosophe	philosophe	NOUN
 à	à	ADP
 dire	dire	VERB
@@ -600,8 +600,8 @@ fait	faire	VERB
 au	au	ADP_DET
 chapitre	chapitre	NOUN
 V	V	NUM
-le premier	le premier	DET
-parallèle	parallèle	NOUN
+le premier	le premier	PRON
+parallèle	parallèle	ADJ
 (	(	PUNCTclause
 ou	ou	CCONJ
 contraste	contraste	NOUN
@@ -976,7 +976,7 @@ un	un	DET
 très	très	ADV
 vaste	vaste	ADJ
 continent	continent	NOUN
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 les	le	DET
 premières	premier	ADJ
 îles	île	NOUN

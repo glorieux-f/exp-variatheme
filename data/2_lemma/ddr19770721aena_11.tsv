@@ -36,7 +36,7 @@ humaine	humain	ADJ
 organisée	organiser	VERB
 —	—	PUNCTclause
 telle	tel	PRON
-du moins	du moins	ADP_DET
+du moins	du moins	ADV
 que	que	SCONJ
 un	un	DET
 occidental	occidental	ADJ
@@ -218,7 +218,7 @@ du	du	ADP_DET
 même	même	ADJ
 texte	texte	NOUN
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 heure	heure	NOUN
 .	.	PUNCTsent
 elles	elles	PRON
@@ -482,7 +482,7 @@ puissent	pouvoir	VERB
 être	être	AUX
 jamais	jamais	ADV
 mis	mettre	VERB
-en question	en question	SYM
+en question	en question	ADJ
 —	—	PUNCTclause
 comme	comme	ADP
 les	le	DET
@@ -526,7 +526,7 @@ voilà	voilà	ADP
 qui	qui	PRON
 est	être	AUX
 dire	dire	VERB
-en clair	en clair	NOUN
+en clair	en clair	ADV
 que	que	SCONJ
 ce	ce	DET
 gouvernement	gouvernement	NOUN
@@ -722,7 +722,7 @@ universelle	universel	ADJ
 et	et	CCONJ
 obligatoire	obligatoire	ADJ
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 l'	le	DET
 école primaire	école primaire	NOUN
 ,	,	PUNCTclause
@@ -936,14 +936,14 @@ prévoir	prévoir	VERB
 et	et	CCONJ
 de	de	ADP
 orienter	orienter	VERB
-en conséquence	en conséquence	DET
+en conséquence	en conséquence	ADV
 .	.	PUNCTsent
 le	le	DET
 problème	problème	NOUN
 désormais	désormais	ADV
 ne	ne	ADV
 est	être	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 forcer	forcer	VERB
 les	le	DET
 individus	individu	NOUN
@@ -973,7 +973,7 @@ citoyens	citoyen	NOUN
 ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 violer	violer	VERB
 mais	mais	CCONJ
 de	de	ADP
@@ -1168,7 +1168,7 @@ appareil	appareil	NOUN
 de	de	ADP
 pilotage	pilotage	NOUN
 ,	,	PUNCTclause
-en partie	en partie	ADP
+en partie	en partie	ADV
 automatisé	automatiser	VERB
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -1217,14 +1217,14 @@ impénitent	impénitent	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	NOUN
+du moins	du moins	ADV
 de	de	ADP
 l'	le	DET
 idée	idée	NOUN
 que	que	SCONJ
 elle	elle	PRON
 se	se	PRON
-en fait	en fait	VERB
+en fait	en fait	ADV
 et	et	CCONJ
 me	me	PRON
 attribue	attribuer	VERB
@@ -1233,7 +1233,7 @@ toutes	toutes	DET
 fins	fin	NOUN
 polémiques	polémique	ADJ
 :	:	PUNCTclause
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 que	que	SCONJ
 je	je	PRON
 tiendrais	tenir	VERB
@@ -1242,7 +1242,7 @@ homme	homme	NOUN
 pour	pour	ADP
 bon	bon	ADJ
 ,	,	PUNCTclause
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 pour	pour	ADP
 meilleur	meilleur	ADJ
 que	que	SCONJ
@@ -1355,7 +1355,7 @@ pour	pour	ADP
 effet	effet	NOUN
 de	de	ADP
 pousser	pousser	VERB
-moins de	moins de	PUNCT
+moins de	moins de	DET
 gens	gens	NOUN
 au	au	ADP_DET
 crime	crime	NOUN
@@ -1367,7 +1367,7 @@ les	le	DET
 structures	structure	NOUN
 actuelles	actuel	ADJ
 ,	,	PUNCTclause
-moins de	moins de	PRON
+moins de	moins de	DET
 policiers	policier	NOUN
 aux	au	ADP_DET
 violences	violence	NOUN
@@ -1375,7 +1375,7 @@ que	que	PRON
 l'on	on	PRON
 sait	savoir	VERB
 ,	,	PUNCTclause
-moins de	moins de	PRON
+moins de	moins de	DET
 sensibles	sensible	ADJ
 à	à	ADP
 la	le	DET
@@ -1386,8 +1386,8 @@ suicide	suicide	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 par suite	par suite	ADV
-moins de	moins de	PUNCT
-politiciens	politicien	ADJ
+moins de	moins de	DET
+politiciens	politicien	NOUN
 à	à	ADP
 faire	faire	VERB
 en sorte que	en sorte que	SCONJ
@@ -1489,7 +1489,7 @@ réciproquement	réciproquement	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vu	voir	VERB
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 de	de	ADP
 son	son	DET
 évolution	évolution	NOUN
@@ -1741,7 +1741,7 @@ forces	force	NOUN
 une	un	DET
 fascination	fascination	NOUN
 collective	collectif	ADJ
-par le moyen de	par le moyen de	PUNCT
+par le moyen de	par le moyen de	ADP
 mythes	mythe	NOUN
 nationaux	national	ADJ
 ,	,	PUNCTclause
@@ -1889,7 +1889,7 @@ préexiste	préexister	VERB
 à	à	ADP
 l'	le	DET
 individu	individu	NOUN
-en ce sens	en ce sens	PUNCT
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 chacun	chacun	PRON
 naît	naître	VERB
@@ -2014,7 +2014,7 @@ que	que	SCONJ
 l'	le	DET
 écrivait	écrire	VERB
 Althusius	Althusius	PROPN
-au début	au début	PUNCT
+au début	au début	ADV
 du	du	ADP_DET
 17e	17e	ADJ
 siècle	siècle	NOUN
@@ -2139,7 +2139,7 @@ pour	pour	ADP
 Althusius	Althusius	PROPN
 ,	,	PUNCTclause
 «	«	PUNCTclause
-la première	la première	DET
+la première	la première	PRON
 société	société	NOUN
 est	être	AUX
 dans	dans	ADP
@@ -2681,7 +2681,7 @@ sénateurs	sénateur	NOUN
 nos	nos	DET
 conseillers	conseiller	NOUN
 chargés	charger	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 respecter	respecter	VERB
 la	le	DET
 constitution	constitution	NOUN
@@ -2868,7 +2868,7 @@ Althusius	Althusius	PROPN
 je	je	PRON
 ne	ne	ADV
 connais	connaître	VERB
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 moderne	moderne	ADJ
 ,	,	PUNCTclause
 de	de	ADP
@@ -3013,7 +3013,7 @@ sujets	sujet	NOUN
 de	de	ADP
 «	«	PUNCTclause
 connaître	connaître	VERB
-en dernier ressort	en dernier ressort	PUNCT
+en dernier ressort	en dernier ressort	ADV
 des	un	DET
 jugements	jugement	NOUN
 de	de	ADP
@@ -3241,7 +3241,7 @@ celui	celui	PRON
 qui	qui	PRON
 ne	ne	ADV
 connaît	connaître	VERB
-au-dessus de	au-dessus de	ADP_DET
+au-dessus de	au-dessus de	ADP
 lui	lui	PRON
 que	que	SCONJ
 la	le	DET
@@ -3413,7 +3413,7 @@ pouvoir	pouvoir	NOUN
 (	(	PUNCTclause
 …	…	PUNCTsent
 )	)	PUNCTclause
-au profit de	au profit de	ADP_DET
+au profit de	au profit de	ADP
 groupe	groupe	NOUN
 qui	qui	PRON
 est	être	AUX
@@ -3430,7 +3430,7 @@ l'	le	DET
 ce	ce	PRON
 est	être	AUX
 savoir	savoir	VERB
-au profit de	au profit de	PUNCT
+au profit de	au profit de	ADP
 qui	qui	PRON
 travaille	travailler	VERB
 l'	le	DET
@@ -3608,7 +3608,7 @@ l'	le	DET
 état	état	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 les	le	DET
 analyses	analyse	NOUN
@@ -3637,7 +3637,7 @@ appareil	appareil	NOUN
 elles	elles	PRON
 le	le	DET
 confondent	confondre	VERB
-au surplus	au surplus	PUNCT
+au surplus	au surplus	ADV
 avec	avec	ADP
 la	le	DET
 notion	notion	NOUN
@@ -3874,7 +3874,7 @@ en	en	ADP
 ceci	ceci	PRON
 que	que	SCONJ
 incapables	incapable	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 face à	face à	ADP
 la	le	DET
 nécessité	nécessité	NOUN
@@ -3938,7 +3938,7 @@ ou	ou	CCONJ
 le	le	DET
 peuple	peuple	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 se	se	PRON
 est	être	AUX
@@ -4046,7 +4046,7 @@ pouvoir	pouvoir	NOUN
 ,	,	PUNCTclause
 «	«	PUNCTclause
 ou	ou	CCONJ
-quelque chose d'autre	quelque chose d'autre	ADP
+quelque chose d'autre	quelque chose d'autre	PRON
 »	»	PUNCTclause
 ?	?	PUNCTsent
 ils	ils	PRON
@@ -4136,7 +4136,7 @@ politiciens	politicien	NOUN
 qui	qui	PRON
 ,	,	PUNCTclause
 sous	sous	ADP
-n'importe quelle	n'importe quelle	NOUN
+n'importe quelle	n'importe quelle	DET
 latitude	latitude	NOUN
 ou	ou	CCONJ
 longitude	longitude	NOUN
@@ -4218,7 +4218,7 @@ tâche	tâche	NOUN
 (	(	PUNCTclause
 aux	au	ADP_DET
 données	donnée	NOUN
-quelque peu	quelque peu	PUNCT
+quelque peu	quelque peu	ADV
 contradictoires	contradictoire	ADJ
 )	)	PUNCTclause
 un	un	DET
@@ -4314,7 +4314,7 @@ communautés	communauté	NOUN
 autonomes	autonome	ADJ
 ,	,	PUNCTclause
 menace	menace	NOUN
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 nos	nos	DET
 vies	vie	NOUN
 individuelles	individuel	ADJ
@@ -4332,7 +4332,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 ,	,	PUNCTclause
-au fait	au fait	ADP_DET
+au fait	au fait	ADV
 et	et	CCONJ
 au	au	ADP_DET
 prendre	prendre	VERB
@@ -4471,7 +4471,7 @@ l'	le	DET
 état	état	NOUN
 est	être	AUX
 «	«	PUNCTclause
-quelque chose d'autre	quelque chose d'autre	SYM
+quelque chose d'autre	quelque chose d'autre	PRON
 »	»	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -4491,7 +4491,7 @@ polices	police	NOUN
 ,	,	PUNCTclause
 fonctionnant	fonctionner	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 quels	quel	DET
 que	que	SCONJ
@@ -4630,7 +4630,7 @@ civiques	civique	ADJ
 et	et	CCONJ
 cela	cela	PRON
 durera	durer	VERB
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 l'	le	DET
 homme	homme	NOUN
 occidental	occidental	ADJ
@@ -4709,7 +4709,7 @@ entre	entre	ADP
 les	le	DET
 centrale nucléaire	centrale nucléaire	NOUN
 ruineuses	ruineux	ADJ
-à tous égards	à tous égards	PUNCT
+à tous égards	à tous égards	ADV
 et	et	CCONJ
 le	le	DET
 risque	risque	NOUN
@@ -5184,7 +5184,7 @@ roi	roi	NOUN
 le	le	DET
 président	président	NOUN
 ou	ou	CCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 secrétaire	secrétaire	NOUN
 du	du	ADP_DET
 parti	parti	NOUN
@@ -5477,7 +5477,7 @@ compris	comprendre	VERB
 depuis	depuis	ADP
 longtemps	longtemps	ADV
 que	que	SCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ce	ce	PRON
 est	être	AUX
 nous	nous	PRON
@@ -5783,7 +5783,7 @@ devait	devoir	VERB
 se	se	PRON
 substituer	substituer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 mouvement	mouvement	NOUN
 l'	le	DET
 état-nation	État-nation	NOUN
@@ -5812,7 +5812,7 @@ tradition	tradition	NOUN
 jacobine	jacobin	ADJ
 —	—	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	NOUN
+du moins	du moins	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 qui	qui	PRON
@@ -5936,9 +5936,9 @@ lequel	lequel	PRON
 français	français	ADJ
 1er	1er	NUM
 ,	,	PUNCTclause
-au début	au début	NOUN
+au début	au début	ADV
 du	du	ADP_DET
-16e	16e	ADJ
+16e	16e	NUM
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 transférait	transférer	VERB
@@ -6209,7 +6209,7 @@ donne	donner	VERB
 à	à	ADP
 choisir	choisir	VERB
 —	—	PUNCTclause
-en résumé	en résumé	NOUN
+en résumé	en résumé	ADV
 —	—	PUNCTclause
 entre	entre	ADP
 la	le	DET
@@ -6559,7 +6559,7 @@ demeurer	demeurer	VERB
 soumis	soumettre	VERB
 au	au	ADP_DET
 contrôle	contrôle	NOUN
-en tout	en tout	ADP_DET
+en tout	en tout	ADV
 temps	temps	NOUN
 de	de	ADP
 la	le	DET
@@ -6631,7 +6631,7 @@ distribution	distribution	NOUN
 des	un	ADP_DET
 aliments	aliment	NOUN
 ,	,	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 celle	celle	PRON
 des	un	ADP_DET
 matières	matière	NOUN
@@ -6717,8 +6717,8 @@ opter	opter	VERB
 de	de	ADP
 décider	décider	VERB
 si	si	SCONJ
-tels ou tels	tels ou tels	ADJ
-moyen	moyen	ADJ
+tels ou tels	tels ou tels	DET
+moyen	moyen	NOUN
 convient	convenir	VERB
 aux	au	ADP_DET
 fins	fin	NOUN
@@ -6738,7 +6738,7 @@ au	au	ADP_DET
 pouvoir	pouvoir	NOUN
 politique	politique	ADJ
 ,	,	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 —	—	PUNCTclause
 selon	selon	ADP
 les	le	DET
@@ -6899,7 +6899,7 @@ se	se	PRON
 est	être	AUX
 trouvée	trouver	VERB
 convenir	convenir	VERB
-au mieux	au mieux	PUNCT
+au mieux	au mieux	ADV
 à	à	ADP
 la	le	DET
 société	société	NOUN
@@ -6909,7 +6909,7 @@ prenait	prendre	VERB
 son	son	DET
 essor	essor	NOUN
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 .	.	PUNCTsent
 ses	son	DET
@@ -7027,7 +7027,7 @@ structure	structure	NOUN
 dynamique	dynamique	ADJ
 de	de	ADP
 institutions	institution	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 utopie	utopie	NOUN
@@ -7520,7 +7520,7 @@ personne	personne	NOUN
 je	je	PRON
 oserai	oser	VERB
 dire	dire	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 la	le	DET
 conquête	conquête	NOUN
 de	de	ADP
@@ -7567,7 +7567,7 @@ la	le	DET
 société	société	NOUN
 ,	,	PUNCTclause
 préfigurent	préfigurer	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 la	le	DET
 conquête	conquête	NOUN
 et	et	CCONJ
@@ -7764,7 +7764,7 @@ anarchique	anarchique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 nous	nous	PRON
 ne	ne	ADV
 accédons	accéder	VERB
@@ -7881,7 +7881,7 @@ collectivités	collectivité	NOUN
 fabriquées	fabriquer	VERB
 .	.	PUNCTsent
 et	et	CCONJ
-à l'inverse	à l'inverse	DET
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 sans	sans	ADP
 vraie	vrai	ADJ
@@ -8122,7 +8122,7 @@ avenir	avenir	NOUN
 .	.	PUNCTsent
 je	je	PRON
 écrivais	écrire	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 en	en	ADP
 1935	1935	NUM
 :	:	PUNCTclause
@@ -8276,7 +8276,7 @@ leurs	leur	DET
 cérémonies	cérémonie	NOUN
 ,	,	PUNCTclause
 vibrer	vibrer	VERB
-à l'unisson	à l'unisson	ADP
+à l'unisson	à l'unisson	ADV
 de	de	ADP
 leur	leur	DET
 panique	panique	NOUN
@@ -8339,12 +8339,12 @@ ou	ou	CCONJ
 jalousie	jalousie	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-par nature	par nature	PUNCT
+par nature	par nature	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -8724,7 +8724,7 @@ battements	battement	NOUN
 sourds	sourd	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
-pas à pas	pas à pas	PUNCT
+pas à pas	pas à pas	ADV
 il	il	PRON
 se	se	PRON
 avance	avancer	VERB
@@ -8960,7 +8960,7 @@ me	me	PRON
 repousse	repousser	VERB
 avec	avec	ADP
 bien	bien	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 puissance	puissance	NOUN
 même	même	ADJ
 physique	physique	ADJ
@@ -9099,9 +9099,9 @@ les miens	les miens	PRON
 ,	,	PUNCTclause
 ceux	ceux	PRON
 de	de	ADP
-ma foi	ma foi	NOUN
+ma foi	ma foi	INTJ
 ,	,	PUNCTclause
-comme	comme	ADP
+comme	comme	SCONJ
 avec	avec	ADP
 les	le	DET
 victimes	victime	NOUN
@@ -9550,7 +9550,7 @@ entre	entre	ADP
 les	le	DET
 brutalités	brutalité	NOUN
 policières	policier	ADJ
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 efficaces	efficace	ADJ
 et	et	CCONJ
 une	un	DET
@@ -9659,7 +9659,7 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 plus	plus	ADV
-rien que	rien que	DET
+rien que	rien que	ADV
 dépressions	dépression	NOUN
 individuelles	individuel	ADJ
 et	et	CCONJ
@@ -9678,7 +9678,7 @@ dans	dans	ADP
 l'	le	DET
 ascenseur	ascenseur	NOUN
 tombé	tomber	VERB
-en panne	en panne	PUNCT
+en panne	en panne	ADJ
 entre	entre	ADP
 deux	deux	NUM
 étages	étage	NOUN
@@ -9712,8 +9712,8 @@ fascisme	fascisme	NOUN
 ou	ou	CCONJ
 communisme	communisme	NOUN
 ,	,	PUNCTclause
-selon que	selon que	DET
-le	le_PRON	PRON
+selon que	selon que	SCONJ
+le	le	DET
 régime	régime	NOUN
 précédent	précédent	ADJ
 se	se	PRON

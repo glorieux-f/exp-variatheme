@@ -10,8 +10,8 @@ IV	IV	NUM
 .	.	PUNCTsent
 Berlin	Berlin	PROPN
 :	:	PUNCTclause
-le second	le second	DET
-rapport	rapport	NOUN
+le second	le second	PRON
+rapport	rapport	VERB
 au	au	ADP_DET
 club	club	NOUN
 de	de	ADP
@@ -154,7 +154,7 @@ orienter	orienter	VERB
 dans	dans	ADP
 les	le	DET
 débats	débat	NOUN
-en cours	en cours	PUNCT
+en cours	en cours	ADJ
 (	(	PUNCTclause
 réduits	réduire	VERB
 ,	,	PUNCTclause
@@ -176,8 +176,8 @@ dialoguer	dialoguer	VERB
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	DET
-rapport	rapport	NOUN
+le premier	le premier	PRON
+rapport	rapport	VERB
 au	au	ADP_DET
 club	club	NOUN
 de	de	ADP
@@ -294,8 +294,8 @@ démographie	démographie	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le second	le second	DET
-rapport	rapport	NOUN
+le second	le second	PRON
+rapport	rapport	VERB
 au	au	ADP_DET
 club	club	NOUN
 de	de	ADP
@@ -389,7 +389,7 @@ aussi	aussi	ADV
 mal	mal	ADV
 vus	vu	VERB
 naguère	naguère	ADV
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 les	le	DET
 «	«	PUNCTclause
 valeurs	valeur	NOUN
@@ -461,7 +461,7 @@ humain	humain	ADJ
 il y a	il y a	VERB
 de	de	ADP
 cela	cela	PRON
-tout juste	tout juste	ADP
+tout juste	tout juste	ADV
 180	180	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -546,7 +546,7 @@ possibilités	possibilité	NOUN
 ou	ou	CCONJ
 écologiques	écologique	ADJ
 de	de	ADP
-n'importe quels	n'importe quels	ADJ
+n'importe quels	n'importe quels	DET
 peuple	peuple	NOUN
 considéré	considérer	VERB
 .	.	PUNCTsent
@@ -563,7 +563,7 @@ dépend	dépendre	VERB
 de	de	ADP
 quatre	quatre	NUM
 émirs	émir	NOUN
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 divin	divin	ADJ
 pour	pour	ADP
 son	son	DET
@@ -571,7 +571,7 @@ pétrole	pétrole	NOUN
 et	et	CCONJ
 doit	devoir	VERB
 voter	voter	VERB
-en conséquence	en conséquence	PUNCT
+en conséquence	en conséquence	ADV
 à	à	ADP
 l'	le	DET
 		TOKEN
@@ -666,7 +666,7 @@ est-ce que	est-ce que	ADV
 je	je	PRON
 vais	aller	VERB
 tenter	tenter	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 voir	voir	VERB
 dans	dans	ADP
 le	le	DET
@@ -784,7 +784,7 @@ ne	ne	ADV
 se	se	PRON
 avoue	avouer	VERB
 que	que	ADV
-sous le nom de	sous le nom de	DET
+sous le nom de	sous le nom de	ADP
 «	«	PUNCTclause
 prestige	prestige	NOUN
 national	national	ADJ
@@ -1013,7 +1013,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 rapport	rapport	NOUN
 du	du	ADP_DET
 club	club	NOUN
@@ -1201,7 +1201,7 @@ brillante	brillant	ADJ
 gestion	gestion	NOUN
 !	!	PUNCTsent
 mais	mais	CCONJ
-au fait	au fait	PUNCT
+au fait	au fait	ADV
 :	:	PUNCTclause
 qui	qui	PRON
 était	être	AUX
@@ -1622,7 +1622,7 @@ théorie	théorie	NOUN
 mais	mais	CCONJ
 quasi	quasi	ADV
 démentielle	démentiel	ADJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 .	.	PUNCTsent
 elle	elle	PRON
 suppose	supposer	VERB
@@ -1637,8 +1637,8 @@ tel	tel	DET
 état	état	NOUN
 ,	,	PUNCTclause
 établies	établir	VERB
-au hasard	au hasard	PUNCT
-des	un	DET
+au hasard	au hasard	ADV
+des	un	ADP_DET
 guerres	guerre	NOUN
 et	et	CCONJ
 des	un	DET
@@ -1880,7 +1880,7 @@ l'	le	DET
 il	il	PRON
 faut	falloir	VERB
 inventer	inventer	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -2005,7 +2005,7 @@ le	le	DET
 jargon	jargon	NOUN
 technique	technique	ADJ
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 pour	pour	ADP
 les	le	DET
 principes	principe	NOUN
@@ -2013,7 +2013,7 @@ fondamentaux	fondamental	ADJ
 :	:	PUNCTclause
 toute	toute	DET
 remise	remise	NOUN
-en question	en question	PUNCT
+en question	en question	ADJ
 de	de	ADP
 la	le	DET
 formule	formule	NOUN
@@ -2069,7 +2069,7 @@ des	un	ADP_DET
 intérêts	intérêt	NOUN
 des	un	ADP_DET
 partis	parti	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 tels	tel	DET
 ,	,	PUNCTclause
 des	un	ADP_DET
@@ -2210,7 +2210,7 @@ paraît	paraître	VERB
 capable	capable	ADJ
 de	de	ADP
 produire	produire	VERB
-à court terme	à court terme	ADP
+à court terme	à court terme	ADV
 un	un	DET
 changement	changement	NOUN
 drastique	drastique	ADJ
@@ -2306,9 +2306,9 @@ du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
 serait	être	AUX
-sans tarder	sans tarder	ADP
-mise	mise	NOUN
-à nu	à nu	PUNCT
+sans tarder	sans tarder	ADV
+mise	mettre	VERB
+à nu	à nu	ADJ
 .	.	PUNCTsent
 seul	seul	ADJ
 ,	,	PUNCTclause
@@ -2342,7 +2342,7 @@ nationale	national	ADJ
 se	se	PRON
 trouve	trouver	VERB
 capable	capable	ADJ
-de fait	de fait	ADP
+de fait	de fait	ADJ
 passer	passer	VERB
 certaines	certain	DET
 mesures	mesure	NOUN
@@ -2574,8 +2574,8 @@ par	par	ADP
 l'	le	DET
 école	école	NOUN
 ,	,	PUNCTclause
-de mise	de mise	ADP
-en question	en question	NOUN
+de mise	de mise	ADJ
+en question	en question	ADJ
 leur	leur	DET
 formule	formule	NOUN
 :	:	PUNCTclause
@@ -2900,7 +2900,7 @@ l'	le	DET
 ,	,	PUNCTclause
 qui	qui	PRON
 conduit	conduire	VERB
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 penseurs	penseur	NOUN
 contemporains	contemporain	ADJ
 à	à	ADP
@@ -3028,7 +3028,7 @@ hommes	homme	NOUN
 et	et	CCONJ
 des	un	DET
 femmes	femme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 citoyens	citoyen	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3244,7 +3244,7 @@ et	et	CCONJ
 régional	régional	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 prévaloir	prévaloir	VERB
 l'	le	DET
 intérêt général	intérêt général	NOUN
@@ -3293,7 +3293,7 @@ de	de	ADP
 décision	décision	NOUN
 ,	,	PUNCTclause
 impliquent	impliquer	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 notre	notre	DET
 responsabilité	responsabilité	NOUN
 pour	pour	ADP
@@ -3638,7 +3638,7 @@ mondial	mondial	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV
@@ -3897,7 +3897,7 @@ eux	eux	PRON
 il	il	PRON
 ne	ne	ADV
 est	être	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 espace	espace	NOUN
 libre	libre	ADJ
 .	.	PUNCTsent
@@ -3970,8 +3970,8 @@ crise	crise	NOUN
 se	se	PRON
 déclare	déclarer	VERB
 ,	,	PUNCTclause
-à savoir	à savoir	ADP
-sur le plan de	sur le plan de	DET
+à savoir	à savoir	ADV
+sur le plan de	sur le plan de	ADP
 vraies	vrai	ADJ
 causes	cause	NOUN
 de	de	ADP
@@ -4123,7 +4123,7 @@ pourraient	pouvoir	VERB
 participer	participer	VERB
 .	.	PUNCTsent
 situation	situation	NOUN
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 comparable	comparable	ADJ
 à	à	ADP
 celle	celle	PRON
@@ -4711,7 +4711,7 @@ dont	dont	PRON
 les	le	DET
 aires	aire	NOUN
 ,	,	PUNCTclause
-par nature	par nature	NOUN
+par nature	par nature	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 coïncident	coïncider	VERB
@@ -4721,7 +4721,7 @@ ne	ne	ADV
 se	se	PRON
 recouvrent	recouvrir	VERB
 que	que	ADV
-en partie	en partie	DET
+en partie	en partie	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 de plus	de plus	ADV
@@ -4982,7 +4982,7 @@ leur	leur	PRON
 était	être	AUX
 livré	livrer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 paquet	paquet	NOUN
 que	que	SCONJ
 la	le	DET
@@ -5135,7 +5135,7 @@ et	et	CCONJ
 la	le	DET
 rendre	rendre	VERB
 opérationnelle	opérationnel	ADJ
-en temps utile	en temps utile	NOUN
+en temps utile	en temps utile	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 aura	avoir	AUX
@@ -5278,7 +5278,7 @@ je	je	PRON
 lui	lui	PRON
 rappellerai	rappeler	VERB
 ,	,	PUNCTclause
-en privé	en privé	DET
+en privé	en privé	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 les	le	DET

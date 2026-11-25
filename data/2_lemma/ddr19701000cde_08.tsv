@@ -106,7 +106,7 @@ Nabokov	Nabokov	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 président	président	NOUN
 du	du	ADP_DET
 congrès	congrès	NOUN
@@ -140,7 +140,7 @@ le	le	DET
 goût	goût	NOUN
 de	de	ADP
 «	«	PUNCTclause
-se rendre compte	se rendre compte	NOUN
+se rendre compte	se rendre compte	VERB
 »	»	PUNCTclause
 est	être	AUX
 l'un	l'un	PRON
@@ -225,7 +225,7 @@ cette	ce	DET
 prise de conscience	prise de conscience	NOUN
 du	du	ADP_DET
 siècle	siècle	NOUN
-en marche	en marche	ADP
+en marche	en marche	ADJ
 revêt	revêtir	VERB
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -738,7 +738,7 @@ la	le	DET
 durée	durée	NOUN
 du	du	ADP_DET
 siècle	siècle	NOUN
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 surprises	surprise	NOUN
 initiales	initial	ADJ
 ,	,	PUNCTclause
@@ -775,7 +775,7 @@ plus	plus	ADV
 loin	loin	ADV
 mais	mais	CCONJ
 dans	dans	ADP
-la même	la même	DET
+la même	la même	PRON
 liberté	liberté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -860,7 +860,7 @@ vue	vue	NOUN
 de	de	ADP
 ensemble	ensemble	NOUN
 assurément	assurément	ADV
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -948,7 +948,7 @@ bien	bien	ADV
 d'autres	d'autre	PRON
 problèmes	problème	NOUN
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 me	me	PRON
 paraît	paraître	VERB
 être	être	AUX
@@ -1219,7 +1219,7 @@ invention	invention	NOUN
 technique	technique	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 vient	venir	VERB
@@ -1314,7 +1314,7 @@ de	de	ADP
 formulation	formulation	NOUN
 ,	,	PUNCTclause
 jamais	jamais	ADV
-moins de	moins de	PRON
+moins de	moins de	DET
 scrupules	scrupule	NOUN
 de	de	ADP
 expression	expression	NOUN
@@ -1563,5 +1563,5 @@ l'autre	l'autre	PRON
 ,	,	PUNCTclause
 une	un	DET
 remise	remise	NOUN
-en question	en question	PUNCT
+en question	en question	ADJ
 .	.	PUNCTsent

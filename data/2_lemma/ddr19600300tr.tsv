@@ -199,7 +199,7 @@ tend	tendre	VERB
 à	à	ADP
 l'	le	DET
 éliminer	éliminer	VERB
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 tend	tendre	VERB
 à	à	ADP
@@ -441,7 +441,7 @@ pouvoirs	pouvoir	NOUN
 ,	,	PUNCTclause
 raison d'état	raison d'état	NOUN
 suprême	suprême	ADJ
-en tout	en tout	PRON
+en tout	en tout	ADV
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 l'	le	DET
@@ -668,7 +668,7 @@ combats	combat	NOUN
 sera	être	AUX
 un	un	DET
 pas	pas	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 vers	vers	ADP
 la	le	DET
 paix	paix	NOUN
@@ -1232,7 +1232,7 @@ commis	commettre	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 non	non	ADV
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 ceux	ceux	PRON
 au	au	ADP_DET
 profit	profit	NOUN
@@ -1370,7 +1370,7 @@ peuples	peuple	NOUN
 libérés	libéré	ADJ
 »	»	PUNCTclause
 prendront	prendre	VERB
-la même	la même	DET
+la même	la même	PRON
 forme	forme	NOUN
 que	que	SCONJ
 l'	le	DET
@@ -1415,7 +1415,7 @@ jacobins	jacobin	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 ambition	ambition	NOUN
 de	de	ADP
 paix	paix	NOUN
@@ -1561,10 +1561,10 @@ même	même	ADJ
 origine	origine	NOUN
 ,	,	PUNCTclause
 par	par	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 coutumes	coutume	NOUN
 et	et	CCONJ
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 conceptions	conception	NOUN
 primitives	primitif	ADJ
 des	un	ADP_DET
@@ -1675,7 +1675,7 @@ couvents	couvent	NOUN
 —	—	PUNCTclause
 commencèrent	commencer	VERB
 à	à	ADP
-avoir cours	avoir cours	ADV
+avoir cours	avoir cours	VERB
 des	un	DET
 idées	idée	NOUN
 et	et	CCONJ
@@ -1807,7 +1807,7 @@ libre	libre	ADJ
 il	il	PRON
 est	être	AUX
 facile	facile	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 application	application	NOUN
 à	à	ADP
@@ -1901,7 +1901,7 @@ Europe	Europe	PROPN
 ne	ne	ADV
 en	en	PRON
 est	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 à	à	ADP
 la	le	DET
 période	période	NOUN
@@ -1923,7 +1923,7 @@ vivement	vivement	ADV
 ce	ce	DET
 processus	processus	NOUN
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	PRON
+si l'on veut	si l'on veut	ADV
 sortir	sortir	VERB
 de	de	ADP
 l'	le	DET
@@ -1938,7 +1938,7 @@ nous	nous	PRON
 vivons	vivre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 supprimer	supprimer	VERB
 la	le	DET
 guerre	guerre	NOUN
@@ -2201,7 +2201,7 @@ sans	sans	ADP
 retirer	retirer	VERB
 quelque	quelque	DET
 avantage	avantage	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 fin	fin	NOUN
 poursuivie	poursuivre	VERB
@@ -2431,7 +2431,7 @@ de	de	ADP
 distractions	distraction	NOUN
 de	de	ADP
 transporter	transporter	VERB
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 pays	pays	NOUN
 leur	leur	DET
 ennui	ennui	NOUN
@@ -2820,13 +2820,13 @@ l'autre	l'autre	PRON
 du	du	ADP_DET
 continent	continent	NOUN
 cherchent	chercher	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 choses	chose	NOUN
 et	et	CCONJ
 sont	être	AUX
 attirés	attirer	VERB
 par	par	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 buts	but	NOUN
 …	…	PUNCTsent
 »	»	PUNCTclause
@@ -3006,7 +3006,7 @@ Hegel	Hegel	PROPN
 l'	le_PRON	PRON
 a	avoir	AUX
 marquée	marquer	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 .	.	PUNCTsent
 comme	comme	ADP
 Goethe	Goethe	PROPN
@@ -3238,7 +3238,7 @@ et	et	CCONJ
 opère	opérer	VERB
 sur	sur	ADP
 lui	lui	PRON
-la première	la première	PUNCT
+la première	la première	PRON
 en	en	ADP
 date	date	NOUN
 de	de	ADP
@@ -3794,7 +3794,7 @@ et	et	CCONJ
 qui	qui	PRON
 a	avoir	AUX
 produit	produire	VERB
-la première	la première	DET
+la première	la première	PRON
 guerre mondiale	guerre mondiale	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3811,7 +3811,7 @@ des	un	ADP_DET
 nationalités	nationalité	NOUN
 »	»	PUNCTclause
 comme	comme	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 étapes	étape	NOUN
 nécessaires	nécessaire	ADJ
 de	de	ADP
@@ -3825,7 +3825,7 @@ se	se	PRON
 est	être	AUX
 trouvé	trouver	VERB
 déchaîner	déchaîner	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 des	un	DET
 passions	passion	NOUN
 que	que	SCONJ
@@ -3908,7 +3908,7 @@ et	et	CCONJ
 le	le	DET
 genre humain	genre humain	NOUN
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 la	le	DET
 liberté	liberté	NOUN
@@ -3922,7 +3922,7 @@ acquise	acquis	ADJ
 ,	,	PUNCTclause
 ne	ne	ADV
 sera	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 la	le	DET
 souveraineté	souveraineté	NOUN
 de	de	ADP
@@ -3956,7 +3956,7 @@ nécessairement	nécessairement	ADV
 la	le	DET
 guerre	guerre	NOUN
 ,	,	PUNCTclause
-au point	au point	ADP_DET
+au point	au point	ADJ
 précis	précis	ADJ
 où	où	PRON
 la	le	DET
@@ -4003,7 +4003,7 @@ opposée	opposer	VERB
 ,	,	PUNCTclause
 se	se	PRON
 empare	emparer	VERB
-sans vergogne	sans vergogne	DET
+sans vergogne	sans vergogne	ADV
 .	.	PUNCTsent
 le	le	DET
 grand	grand	ADJ
@@ -4139,7 +4139,7 @@ tout	tout	DET
 mondial	mondial	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 les	le	DET
 grands	grand	ADJ
 esprits	esprit	NOUN
@@ -4212,7 +4212,7 @@ mener	mener	VERB
 Henri	Henri	PROPN
 Heine	Heine	PROPN
 épouse	épouser	VERB
-au début	au début	PUNCT
+au début	au début	ADV
 l'	le	DET
 idéologie	idéologie	NOUN
 de	de	ADP
@@ -4463,7 +4463,7 @@ cas	cas	NOUN
 mourir	mourir	VERB
 de	de	ADP
 ennui	ennui	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 républicain	républicain	NOUN
 !	!	PUNCTsent
 pauvres	pauvre	ADJ
@@ -4658,7 +4658,7 @@ pour	pour	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-si peu que	si peu que	ADP
+si peu que	si peu que	SCONJ
 rien	rien	PRON
 même	même	ADV
 ;	;	PUNCTclause
@@ -4747,7 +4747,7 @@ reconnais	reconnaître	VERB
 ton	ton	DET
 peuple	peuple	NOUN
 !	!	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 d'autres	d'autre	PRON
 ne	ne	ADV
 osent	oser	VERB
@@ -4827,7 +4827,7 @@ et	et	CCONJ
 elle	elle	PRON
 dira	dire	VERB
 à	à	ADP
-la première	la première	NOUN
+la première	la première	PRON
 :	:	PUNCTclause
 voilà	voilà	VERB
 que	que	SCONJ
@@ -5082,7 +5082,7 @@ Piémont	Piémont	PROPN
 dont	dont	PRON
 il	il	PRON
 devint	devenir	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 ministre	ministre	NOUN
 ,	,	PUNCTclause
 Gioberti	Gioberti	PROPN
@@ -5296,7 +5296,7 @@ dialectique	dialectique	ADJ
 de	de	ADP
 la	le	DET
 nation	nation	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 cité	cité	NOUN
 agrandie	agrandir	VERB
 ,	,	PUNCTclause
@@ -5311,7 +5311,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 amphictyonie	amphictyonie	NOUN
 des	un	ADP_DET
 nations	nation	NOUN
@@ -5395,7 +5395,7 @@ unie	unir	VERB
 :	:	PUNCTclause
 une	un	DET
 nation	nation	NOUN
-en devenir	en devenir	ADP
+en devenir	en devenir	ADJ
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
@@ -5494,7 +5494,7 @@ se	se	PRON
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
-en fait	en fait	NOUN
+en fait	en fait	ADV
 se	se	PRON
 neutraliser	neutraliser	VERB
 ,	,	PUNCTclause
@@ -5928,7 +5928,7 @@ critique	critique	NOUN
 ces	ce	DET
 yeux	œil	NOUN
 saturés	saturer	VERB
-de nuit	de nuit	PUNCT
+de nuit	de nuit	ADV
 viennent	venir	VERB
 regarder	regarder	VERB
 la	le	DET
@@ -6273,8 +6273,8 @@ en	en	ADP
 ,	,	PUNCTclause
 un	un	DET
 professeur	professeur	NOUN
-de droit	de droit	ADP
-international	international	NOUN
+de droit	de droit	ADJ
+international	international	ADJ
 ,	,	PUNCTclause
 Johann	Johann	PROPN
 Gaspar	Gaspar	PROPN
@@ -6449,7 +6449,7 @@ faire	faire	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -6617,9 +6617,9 @@ repose	reposer	VERB
 et	et	CCONJ
 de	de	ADP
 où	où	PRON
-la première	la première	PUNCT
+la première	la première	PRON
 impulsion	impulsion	NOUN
-soit	soit	CCONJ
+soit	être	AUX
 donnée	donner	VERB
 …	…	PUNCTsent
 si	si	SCONJ
@@ -6730,7 +6730,7 @@ voire	voire	CCONJ
 la	le	DET
 Suisse	Suisse	PROPN
 fédéralisme	fédéralisme	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 et	et	CCONJ
@@ -6808,7 +6808,7 @@ en	en	ADP
 1837	1837	NUM
 ,	,	PUNCTclause
 paraît	paraître	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 numéro	numéro	NOUN
 de	de	ADP
 la	le	DET
@@ -7147,7 +7147,7 @@ tirons	tirer	VERB
 l'	le	DET
 épée	épée	NOUN
 ,	,	PUNCTclause
-s'il le faut	s'il le faut	NOUN
+s'il le faut	s'il le faut	ADV
 ,	,	PUNCTclause
 au nom de	au nom de	ADP
 malheureux	malheureux	ADJ
@@ -7250,7 +7250,7 @@ flambeau	flambeau	NOUN
 que	que	SCONJ
 adviendrait	advenir	VERB
 il	il	PRON
-sans cela	sans cela	CCONJ
+sans cela	sans cela	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au nom de	au nom de	ADP
@@ -7485,7 +7485,7 @@ culture	culture	NOUN
 ,	,	PUNCTclause
 a	avoir	AUX
 créé	créer	VERB
-la première	la première	DET
+la première	la première	PRON
 unité	unité	NOUN
 .	.	PUNCTsent
 sous	sous	ADP
@@ -7769,7 +7769,7 @@ est	être	AUX
 pas	pas	ADV
 de	de	ADP
 parler	parler	VERB
-la même	la même	ADP
+la même	la même	PRON
 langue	langue	NOUN
 ou	ou	CCONJ
 de	de	ADP
@@ -7794,7 +7794,7 @@ passé	passé	NOUN
 et	et	CCONJ
 de	de	ADP
 vouloir	vouloir	VERB
-en fait	en fait	PRON
+en fait	en fait	ADV
 encore	encore	ADV
 dans	dans	ADP
 l'	le	DET
@@ -7974,7 +7974,7 @@ et	et	CCONJ
 l'	le	DET
 Espagne	Espagne	PROPN
 parlent	parler	VERB
-la même	la même	ADV
+la même	la même	PRON
 langue	langue	NOUN
 et	et	CCONJ
 ne	ne	ADV
@@ -8657,7 +8657,7 @@ mettront	mettre	VERB
 plus de	plus de	DET
 temps	temps	NOUN
 à	à	ADP
-en finir	en finir	NOUN
+en finir	en finir	VERB
 avec	avec	ADP
 ce	ce	PRON
 qui	qui	PRON
@@ -8860,8 +8860,8 @@ une	un	DET
 tous	tout	ADJ
 les	le	DET
 hommes	homme	NOUN
-un peu	un peu	PUNCT
-profonds	profond	NOUN
+un peu	un peu	ADV
+profonds	profond	ADJ
 et	et	CCONJ
 de	de	ADP
 esprit	esprit	NOUN
@@ -9102,7 +9102,7 @@ aucun	aucun	PRON
 de	de	ADP
 ses	son	DET
 compatriotes	compatriote	NOUN
-au début	au début	PUNCT
+au début	au début	ADV
 de	de	ADP
 ce	ce	PRON
 siècle	siècle	NOUN
@@ -9136,8 +9136,8 @@ son	son	DET
 disciple	disciple	NOUN
 Jean	Jean	PROPN
 Variot	Variot	PROPN
-à la veille de	à la veille de	PUNCT
-la première	la première	PUNCT
+à la veille de	à la veille de	ADP
+la première	la première	PRON
 guerre mondiale	guerre mondiale	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -9182,7 +9182,7 @@ est	être	AUX
 habitée	habiter	VERB
 par	par	ADP
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 races	race	NOUN
 qui	qui	PRON
 sont	être	AUX

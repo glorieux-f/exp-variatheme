@@ -75,7 +75,7 @@ rédaction	rédaction	NOUN
 ma	mon	DET
 position	position	NOUN
 est	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 délicate	délicat	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
@@ -281,7 +281,7 @@ action	action	NOUN
 la	le	DET
 renforce	renforcer	VERB
 .	.	PUNCTsent
-de tout temps	de tout temps	DET
+de tout temps	de tout temps	ADV
 ,	,	PUNCTclause
 à	à	ADP
 l'	le	DET
@@ -544,9 +544,9 @@ vraiment	vraiment	ADV
 pour	pour	ADP
 y	y	PRON
 discuter	discuter	VERB
-une fois de plus	une fois de plus	PUNCT
-ce	ce	PRON
-voyage	voyager	VERB
+une fois de plus	une fois de plus	ADV
+ce	ce	DET
+voyage	voyage	NOUN
 aux	au	ADP_DET
 États-Unis	États-Unis	PROPN
 ?	?	PUNCTsent
@@ -556,7 +556,7 @@ ici	ici	ADV
 je	je	PRON
 dois	devoir	VERB
 revenir	revenir	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 en arrière	en arrière	ADV
 dans	dans	ADP
 mes	mon	DET
@@ -758,7 +758,7 @@ chiffres	chiffre	NOUN
 3	3	NUM
 devraient	devoir	VERB
 ,	,	PUNCTclause
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 ,	,	PUNCTclause
 être	être	AUX
 évités	éviter	VERB
@@ -939,7 +939,7 @@ ce	ce	DET
 mot	mot	NOUN
 devait	devoir	VERB
 prendre	prendre	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 dans	dans	ADP
 les	le	DET
@@ -982,7 +982,7 @@ tortures	torture	NOUN
 en	en	ADP
 moins	moins	ADV
 .	.	PUNCTsent
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 peuvent	pouvoir	VERB
 rire	rire	VERB
 de	de	ADP
@@ -1065,7 +1065,7 @@ la	le	DET
 ligue	ligue	NOUN
 ait	avoir	AUX
 contribué	contribuer	VERB
-si peu que	si peu que	ADP
+si peu que	si peu que	SCONJ
 ce	ce	DET
 fût	fût	NOUN
 ,	,	PUNCTclause
@@ -1098,7 +1098,7 @@ où	où	PRON
 elle	elle	PRON
 devenait	devenir	VERB
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 «	«	PUNCTclause
 résistance	résistance	NOUN
 »	»	PUNCTclause
@@ -1132,7 +1132,7 @@ condamné	condamner	VERB
 ne	ne	ADV
 plus	plus	ADV
 aborder	aborder	VERB
-en public	en public	ADP
+en public	en public	ADV
 que	que	SCONJ
 les	le	DET
 sujets	sujet	NOUN
@@ -1167,7 +1167,7 @@ semblait	sembler	VERB
 également	également	ADV
 intolérable	intolérable	ADJ
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 Hitler	Hitler	PROPN
 sévissait	sévir	VERB
 en	en	ADP
@@ -1181,7 +1181,7 @@ que	que	SCONJ
 dans	dans	ADP
 la	le	DET
 lutte	lutte	NOUN
-en cours	en cours	PUNCT
+en cours	en cours	ADJ
 ,	,	PUNCTclause
 provisoirement	provisoirement	ADV
 perdue	perdre	VERB
@@ -1219,7 +1219,7 @@ quoique	quoique	SCONJ
 neutre	neutre	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
-de fait	de fait	ADP
+de fait	de fait	ADJ
 la	le	DET
 guerre	guerre	NOUN
 à	à	ADP
@@ -1282,8 +1282,8 @@ que	que	SCONJ
 elles	elles	PRON
 jouèrent	jouer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 .	.	PUNCTsent
 le	le	DET
 20	20	NUM
@@ -1490,7 +1490,7 @@ Conseil	Conseil	PROPN
 fédéralisme	fédéralisme	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 dut	devoir	VERB
 être	être	AUX
@@ -1512,7 +1512,7 @@ fut	être	AUX
 «	«	PUNCTclause
 de	de	ADP
 agir	agir	VERB
-en secret	en secret	ADP
+en secret	en secret	ADV
 »	»	PUNCTclause
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -1804,7 +1804,7 @@ pas	pas	ADV
 seulement	seulement	ADV
 une	un	DET
 erreur	erreur	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 que	que	SCONJ
 l'	le	DET
 auteur	auteur	NOUN

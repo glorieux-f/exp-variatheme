@@ -389,7 +389,7 @@ ce	ce	DET
 temps	temps	NOUN
 Perdu	Perdu	PROPN
 ,	,	PUNCTclause
-tout d'un coup	tout d'un coup	DET
+tout d'un coup	tout d'un coup	ADV
 ,	,	PUNCTclause
 est	être	AUX
 encore	encore	ADV
@@ -710,9 +710,9 @@ tout	tout	ADJ
 cela	cela	PRON
 que	que	PRON
 vient	venir	VERB
-de mise	de mise	ADP
-en question	en question	DET
-l'	le_PRON	PRON
+de mise	de mise	ADJ
+en question	en question	ADJ
+l'	le	DET
 usurpateur	usurpateur	NOUN
 du	du	ADP_DET
 Hradschin	Hradschin	PROPN
@@ -723,7 +723,7 @@ il	il	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 mis	mettre	VERB
-en question	en question	DET
+en question	en question	ADJ
 et	et	CCONJ
 que	que	SCONJ
 il	il	PRON
@@ -778,7 +778,7 @@ dispense	dispense	NOUN
 le	le	DET
 temps	temps	NOUN
 de	de	ADP
-un peu	un peu	DET
+un peu	un peu	ADV
 se	se	PRON
 souvenir	souvenir	VERB
 …	…	PUNCTsent
@@ -1336,7 +1336,7 @@ aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 je	je	PRON
 sais	savoir	VERB
-pas mal de	pas mal de	PUNCT
+pas mal de	pas mal de	DET
 choses	chose	NOUN
 sur	sur	ADP
 ce	ce	DET
@@ -1434,7 +1434,7 @@ je	je	PRON
 ai	avoir	VERB
 lieu	lieu	NOUN
 de	de	ADP
-supposé que	supposé que	ADP
+supposé que	supposé que	SCONJ
 l'	le	DET
 impression	impression	NOUN
 ne	ne	ADV
@@ -1603,7 +1603,7 @@ envoyé	envoyer	VERB
 à	à	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 mes	mon	DET
 amis	ami	NOUN
 la	le	DET
@@ -1676,7 +1676,7 @@ autre	autre	PRON
 des	un	ADP_DET
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 me	me	PRON
 dit	dire	VERB
 :	:	PUNCTclause
@@ -1806,7 +1806,7 @@ de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 cette	ce	DET
 menace	menace	NOUN
@@ -1884,13 +1884,13 @@ démons	démon	NOUN
 et	et	CCONJ
 non	non	ADV
 pas	pas	ADV
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 démon	démon	NOUN
 que	que	SCONJ
 il	il	PRON
 nous	nous	PRON
 délègue	déléguer	VERB
-de temps à autre	de temps à autre	PUNCT
+de temps à autre	de temps à autre	ADV
 .	.	PUNCTsent
 le	le	DET
 combat	combat	NOUN
@@ -2298,7 +2298,7 @@ pierraille	pierraille	NOUN
 lépreuse	lépreux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 badaud	badaud	NOUN
 de	de	ADP
 un	un	DET
@@ -2308,7 +2308,7 @@ juin	juin	NOUN
 pouvait	pouvoir	VERB
 se	se	PRON
 annexer	annexer	VERB
-pour toujours	pour toujours	ADP
+pour toujours	pour toujours	ADV
 le	le	DET
 bonheur	bonheur	NOUN
 de	de	ADP
@@ -2361,7 +2361,7 @@ les	le	DET
 traces	trace	NOUN
 pacifiées	pacifier	VERB
 .	.	PUNCTsent
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 badaud	badaud	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -2628,7 +2628,7 @@ dans	dans	ADP
 une	un	DET
 mise en question	mise en question	NOUN
 générale	général	ADJ
-au pire	au pire	ADP_DET
+au pire	au pire	ADV
 moment	moment	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -2648,7 +2648,7 @@ penser	penser	VERB
 parlerons	parler	VERB
 nous	nous	PRON
 encore	encore	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 langage	langage	NOUN
 au	au	ADP_DET
 jour	jour	NOUN
@@ -2755,7 +2755,7 @@ là	là	ADV
 ,	,	PUNCTclause
 il	il	PRON
 change	changer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 :	:	PUNCTclause
 vous	vous	PRON
 ne	ne	ADV
@@ -2852,9 +2852,9 @@ on	on	PRON
 trouvait	trouver	VERB
 que	que	SCONJ
 il y a	il y a	VERB
-trop de	trop de	PUNCT
+trop de	trop de	DET
 juifs	juif	NOUN
-réfugiés	réfugié	NOUN
+réfugiés	réfugier	VERB
 .	.	PUNCTsent
 des	un	ADP_DET
 gens	gens	NOUN
@@ -2863,9 +2863,9 @@ par	par	ADP
 le	le	DET
 malheur	malheur	NOUN
 ,	,	PUNCTclause
-où que ce soit	où que ce soit	NOUN
+où que ce soit	où que ce soit	ADV
 ,	,	PUNCTclause
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 toujours	toujours	ADV
 trop	trop	ADV
 .	.	PUNCTsent
@@ -3024,7 +3024,7 @@ si	si	SCONJ
 je	je	PRON
 me	me	PRON
 retourne	retourner	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 sur	sur	ADP
 ma	mon	DET
 terrasse	terrasse	NOUN
@@ -3363,7 +3363,7 @@ Europe	Europe	PROPN
 je	je	PRON
 en	en	PRON
 connais	connaître	VERB
-par avance	par avance	ADP
+par avance	par avance	ADV
 la	le	DET
 nostalgie	nostalgie	NOUN
 .	.	PUNCTsent
@@ -3479,7 +3479,7 @@ ma	mon	DET
 hauteur	hauteur	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 bas	bas	ADJ
 ,	,	PUNCTclause
@@ -3653,7 +3653,7 @@ un	un	DET
 autre	autre	ADJ
 jour	jour	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 amour	amour	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -4118,7 +4118,7 @@ elle	elle	PRON
 a	avoir	AUX
 su	savoir	VERB
 garder	garder	VERB
-en vie	en vie	DET
+en vie	en vie	ADJ
 tant de	tant de	DET
 passé	passé	NOUN
 ,	,	PUNCTclause
@@ -4212,7 +4212,7 @@ escalier	escalier	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 basculait	basculer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 du	du	ADP_DET
 temps	temps	NOUN
 de	de	ADP
@@ -4913,7 +4913,7 @@ nous	nous	PRON
 ait	avoir	AUX
 tourné	tourner	VERB
 jusque	jusque	ADP
-au point	au point	ADP
+au point	au point	ADJ
 désiré	désirer	VERB
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -4981,7 +4981,7 @@ mer	mer	NOUN
 est	être	AUX
 blanche	blanc	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 houleuse	houleux	ADJ
 et	et	CCONJ
 cotonneuse	cotonneux	ADJ
@@ -5054,7 +5054,7 @@ nous	nous	PRON
 sommes	être	AUX
 partis	partir	VERB
 tout	tout	ADV
-au début	au début	SYM
+au début	au début	ADV
 de	de	ADP
 la	le	DET
 matinée	matinée	NOUN
@@ -5529,7 +5529,7 @@ ne	ne	ADV
 leur	leur	PRON
 plaît	plaire	VERB
 que	que	SCONJ
-à moitié	à moitié	DET
+à moitié	à moitié	ADV
 .	.	PUNCTsent
 je	je	PRON
 les	le	DET
@@ -5991,9 +5991,9 @@ mes	mon	DET
 souvenirs	souvenir	NOUN
 ,	,	PUNCTclause
 à peine	à peine	ADV
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
-ressemblant	ressemblant	ADJ
+ressemblant	ressembler	VERB
 .	.	PUNCTsent
 tout	tout	PRON
 est	être	AUX
@@ -6180,7 +6180,7 @@ contaminée	contaminer	VERB
 par	par	ADP
 le	le	DET
 gangstérisme	gangstérisme	NOUN
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -6210,9 +6210,9 @@ impression	impression	NOUN
 que	que	SCONJ
 on	on	PRON
 exagère	exagérer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 ,	,	PUNCTclause
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 le	le	DET
@@ -6398,8 +6398,8 @@ et	et	CCONJ
 que	que	SCONJ
 le	le	DET
 temps	temps	NOUN
-de fait	de fait	PUNCT
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 comptes	compte	NOUN
 est	être	AUX
 arrivé	arriver	VERB
@@ -6469,8 +6469,8 @@ devront	devoir	VERB
 donner	donner	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-le premier	le premier	DET
-devoir	devoir	NOUN
+le premier	le premier	PRON
+devoir	devoir	VERB
 de	de	ADP
 une	un	DET
 réserve	réserve	NOUN
@@ -6527,8 +6527,8 @@ les	le	DET
 de	de	ADP
 passage	passage	NOUN
 ,	,	PUNCTclause
-un peu	un peu	PUNCT
-comme	comme	ADP
+un peu	un peu	ADV
+comme	comme	SCONJ
 ces	ce	DET
 paysans	paysan	NOUN
 qui	qui	PRON
@@ -6658,7 +6658,7 @@ aux	au	ADP_DET
 gangsters	gangster	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de moins	rien de moins	PRON
+rien de moins	rien de moins	ADV
 Suisse	Suisse	PROPN
 que	que	SCONJ
 le	le	DET
@@ -6671,7 +6671,7 @@ reste	reste	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 Suisse	Suisse	PROPN
 que	que	SCONJ
 le	le	DET
@@ -6684,7 +6684,7 @@ ce	ce	PRON
 qui	qui	PRON
 dépasse	dépasser	VERB
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'on	on	PRON
 tolère	tolérer	VERB
 très	très	ADV
@@ -6908,7 +6908,7 @@ voilà	voilà	ADP
 qui	qui	PRON
 étonne	étonner	VERB
 encore	encore	ADV
-trop de	trop de	PUNCT
+trop de	trop de	DET
 braves	brave	ADJ
 gens	gens	NOUN
 ,	,	PUNCTclause
@@ -7074,7 +7074,7 @@ fonctionne	fonctionner	VERB
 on	on	PRON
 nous	nous	PRON
 promet	promettre	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus de	plus de	DET
 charbon	charbon	NOUN
 pour	pour	ADP
@@ -7131,7 +7131,7 @@ discute	discuter	VERB
 solennellement	solennellement	ADV
 leurs	leur	DET
 clauses	clause	NOUN
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 ils	ils	PRON
 gardaient	garder	VERB
 quelque	quelque	DET
@@ -7235,11 +7235,11 @@ une	un	DET
 époque	époque	NOUN
 qui	qui	PRON
 semble	sembler	VERB
-avoir peur	avoir peur	ADP
-que	que	PRON
+avoir peur	avoir peur	VERB
+que	que	SCONJ
 on	on	PRON
-la	le_PRON	PRON
-voie	voir	VERB
+la	le	DET
+voie	voie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -7359,7 +7359,7 @@ faire	faire	AUX
 tuer	tuer	VERB
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 précis	précis	ADJ
 désintégrer	désintégrer	VERB
 ,	,	PUNCTclause
@@ -7449,7 +7449,7 @@ de	de	ADP
 demain	demain	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 ,	,	PUNCTclause
 seront	être	AUX
 maintenues	maintenir	VERB

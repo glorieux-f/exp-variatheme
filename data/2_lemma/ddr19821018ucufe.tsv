@@ -603,7 +603,7 @@ de	de	ADP
 l'	le	DET
 Incarnation	Incarnation	PROPN
 porte	porter	VERB
-à l'extrême	à l'extrême	ADP
+à l'extrême	à l'extrême	ADV
 la	le	DET
 dialectique	dialectique	NOUN
 héraclitéenne	héraclitéen	ADJ
@@ -933,7 +933,7 @@ l'	le	DET
 Anglo-Normand	Anglo-Normand	PROPN
 Béroul	Béroul	PROPN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ils	ils	PRON
 sont	être	AUX
 de	de	ADP
@@ -1088,7 +1088,7 @@ celte	celte	ADJ
 III	III	NUM
 .	.	PUNCTsent
 «	«	PUNCTclause
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 commun	commun	ADJ
 à	à	ADP
 tous	tout	ADJ
@@ -1213,7 +1213,7 @@ unité	unité	NOUN
 de	de	ADP
 culture	culture	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 assez	assez	ADV
 consistante	consistant	ADJ
 pour	pour	ADP
@@ -1327,7 +1327,7 @@ supprimé	supprimer	VERB
 ces	ce	DET
 différences	différence	NOUN
 ,	,	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 l'	le	DET
 école	école	NOUN
 et	et	CCONJ
@@ -1368,7 +1368,7 @@ grecs	grec	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 un	un	DET
 suédois	suédois	NOUN
 lisant	lire	VERB
@@ -1394,26 +1394,26 @@ y	y	PRON
 prendront	prendre	VERB
 très	très	ADV
 probablement	probablement	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 plaisir	plaisir	NOUN
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 ils	ils	PRON
 y	y	PRON
 reconnaîtront	reconnaître	VERB
-les mêmes	les mêmes	DET
-passions	passion	NOUN
+les mêmes	les mêmes	PRON
+passions	passer	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 espoirs	espoir	NOUN
 et	et	CCONJ
-les mêmes	les mêmes	DET
-doutes	doute	NOUN
+les mêmes	les mêmes	PRON
+doutes	douter	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 mythes	mythe	NOUN
 ou	ou	CCONJ
-la même	la même	DET
+la même	la même	PRON
 foi	foi	NOUN
 dominant	dominer	VERB
 l'	le	DET
@@ -1493,7 +1493,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 commun	commun	ADJ
 à	à	ADP
 tous	tout	ADJ
@@ -1635,7 +1635,7 @@ Constantinople	Constantinople	PROPN
 et	et	CCONJ
 plus	plus	ADV
 encore	encore	ADV
-au lendemain de	au lendemain de	ADP_DET
+au lendemain de	au lendemain de	ADP
 grandes	grand	ADJ
 découvertes	découverte	NOUN
 .	.	PUNCTsent
@@ -1753,12 +1753,12 @@ nationalisent	nationaliser	VERB
 »	»	PUNCTclause
 une	un	DET
 langue	langue	NOUN
-jusqu'alors	jusqu'alors	ADP
+jusqu'alors	jusqu'alors	ADV
 multiforme	multiforme	ADJ
 et	et	CCONJ
 librement	librement	ADV
 foisonnante	foisonnant	ADJ
-au gré de	au gré de	PUNCT
+au gré de	au gré de	ADP
 diversités	diversité	NOUN
 provinciales	provincial	ADJ
 .	.	PUNCTsent
@@ -1791,7 +1791,7 @@ janvier	janvier	NOUN
 la	le	DET
 Constituante	Constituante	PROPN
 décide	décider	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 traduire	traduire	VERB
 les	le	DET
 nouvelles	nouveau	ADJ
@@ -1931,8 +1931,8 @@ France	France	PROPN
 (	(	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-plus de	plus de	PUNCT
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 de	de	ADP
 la	le	DET
@@ -2066,9 +2066,9 @@ et	et	CCONJ
 sa	son	DET
 culture	culture	NOUN
 nationale	national	ADJ
-les mêmes	les mêmes	PUNCT
+les mêmes	les mêmes	PRON
 procédés	procédé	NOUN
-que	que	PRON
+que	que	SCONJ
 la	le	DET
 France	France	PROPN
 fit	faire	AUX
@@ -2373,7 +2373,7 @@ elles	elles	PRON
 ne	ne	ADV
 existent	exister	VERB
 que	que	SCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 on	on	PRON
 les	le_PRON	PRON
 enseigne	enseigner	VERB
@@ -2484,8 +2484,8 @@ cours	cours	NOUN
 éclairées	éclairé	ADJ
 »	»	PUNCTclause
 ou	ou	CCONJ
-un peu	un peu	DET
-folles	fou	NOUN
+un peu	un peu	ADV
+folles	fou	ADJ
 ,	,	PUNCTclause
 sociétés	société	NOUN
 de	de	ADP
@@ -2838,8 +2838,8 @@ la	le	DET
 scène	scène	NOUN
 universitaire	universitaire	ADJ
 anglo-saxonne	anglo-saxon	ADJ
-sous le nom de	sous le nom de	PUNCT
-logical	logical	X
+sous le nom de	sous le nom de	ADP
+logical	logical	NOUN
 positivism	positivism	X
 ,	,	PUNCTclause
 nom	nom	NOUN
@@ -2915,7 +2915,7 @@ une	un	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 Paris	Paris	PROPN

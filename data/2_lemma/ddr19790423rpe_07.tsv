@@ -143,9 +143,9 @@ peuples	peuple	NOUN
 et	et	CCONJ
 le	le	DET
 discours	discours	NOUN
-pour le moins	pour le moins	ADP
+pour le moins	pour le moins	ADV
 ambigu	ambigu	ADJ
-des	un	DET
+des	un	ADP_DET
 politiciens	politicien	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -494,8 +494,8 @@ ils	ils	PRON
 ne	ne	ADV
 se	se	PRON
 contenteraient	contenter	VERB
-plus de	plus de	PUNCT
-l'	le	DET
+plus de	plus de	DET
+l'	le_PRON	PRON
 alibi	alibi	NOUN
 du	du	ADP_DET
 «	«	PUNCTclause
@@ -573,9 +573,9 @@ moyens	moyen	NOUN
 ces	ce	DET
 raisons	raison	NOUN
 sont	être	AUX
-en gros	en gros	DET
-les	le_PRON	PRON
-suivantes.	suivantes.	ADP_DET
+en gros	en gros	ADV
+les	le	DET
+suivantes.	suivantes.	NOUN
 ↵↵	↵↵	PUNCTstruct
 a	avoir	VERB
 )	)	PUNCTclause
@@ -780,7 +780,7 @@ affaire	affaire	NOUN
 de	de	ADP
 chiffres	chiffre	NOUN
 :	:	PUNCTclause
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 fusées	fusée	NOUN
 sol-sol	sol-sol	PUNCT
 ou	ou	CCONJ
@@ -1003,9 +1003,9 @@ URSS	URSS	PROPN
 exclue	exclu	ADJ
 pour	pour	ADP
 raisons	raison	NOUN
-de taille	de taille	PUNCT
+de taille	de taille	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 serait	être	AUX
 exclue	exclure	VERB
 pour	pour	ADP
@@ -1106,7 +1106,7 @@ Bruxelles.	Bruxelles.	PROPN
 ↵↵	↵↵	PUNCTstruct
 a	avoir	VERB
 )	)	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 ,	,	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -1369,7 +1369,7 @@ Francfort	Francfort	PROPN
 ou	ou	CCONJ
 Düsseldorf	Düsseldorf	PROPN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 Europe	Europe	PROPN
 ne	ne	ADV
@@ -1432,9 +1432,9 @@ unir	unir	VERB
 «	«	PUNCTclause
 je	je	PRON
 suis	être	AUX
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois ci	ADV
 d'accord avec	d'accord avec	ADP
-close	clos	X
+Close	Close	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 (	(	PUNCTclause
@@ -1683,7 +1683,7 @@ nos	nos	DET
 pays	pays	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 toutes	tout	ADJ
 les	le	DET
 bombes	bombe	NOUN
@@ -1706,7 +1706,7 @@ irriter	irriter	VERB
 l'	le	DET
 URSS	URSS	PROPN
 ,	,	PUNCTclause
-à supposer que	à supposer que	DET
+à supposer que	à supposer que	SCONJ
 elles	elles	PRON
 ne	ne	ADV
 aient	avoir	AUX
@@ -1757,8 +1757,8 @@ Russie	Russie	PROPN
 elle	elle	PRON
 pourrait	pouvoir	VERB
 faire	faire	VERB
-autant de	autant de	PRON
-mal	mal	ADV
+autant de	autant de	DET
+mal	mal	NOUN
 à	à	ADP
 l'	le	DET
 URSS	URSS	PROPN
@@ -1874,7 +1874,7 @@ la	le	DET
 défense	défense	NOUN
 plus	plus	ADV
 encore que	encore que	SCONJ
-en tout	en tout	DET
+en tout	en tout	ADV
 autre	autre	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1953,7 +1953,7 @@ armes	arme	NOUN
 nucléaires	nucléaire	ADJ
 sont	être	AUX
 offensives	offensif	ADJ
-par nature	par nature	PUNCT
+par nature	par nature	ADV
 et	et	CCONJ
 ne	ne	ADV
 peuvent	pouvoir	VERB
@@ -2205,7 +2205,7 @@ libertés	liberté	NOUN
 et	et	CCONJ
 avec	avec	ADP
 combien	combien	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 conviction	conviction	NOUN
 que	que	SCONJ
 ceux	ceux	PRON
@@ -2301,7 +2301,7 @@ défendre	défendre	VERB
 un	un	DET
 pays	pays	NOUN
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 ,	,	PUNCTclause
 voilà	voilà	ADP
@@ -2604,7 +2604,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 réduire	réduire	VERB
 le	le	DET
 gaspillage	gaspillage	NOUN
@@ -2675,13 +2675,13 @@ de	de	ADP
 donner	donner	VERB
 au	au	ADP_DET
 monde	monde	NOUN
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	PRON
 des	un	DET
 conseils	conseil	NOUN
 intéressés	intéressé	ADJ
 ,	,	PUNCTclause
-à savoir	à savoir	DET
+à savoir	à savoir	ADV
 :	:	PUNCTclause
 un	un	DET
 exemple	exemple	NOUN

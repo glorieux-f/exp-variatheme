@@ -331,7 +331,7 @@ chimiques	chimique	ADJ
 que	que	SCONJ
 on	on	PRON
 expérimente	expérimenter	VERB
-en secret	en secret	PUNCT
+en secret	en secret	ADV
 —	—	PUNCTclause
 à cause de	à cause de	ADP
 tout	tout	ADJ
@@ -369,7 +369,7 @@ fin	fin	NOUN
 l'	le	DET
 histoire	histoire	NOUN
 ,	,	PUNCTclause
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 celle	celle	PRON
 est	être	AUX
 l'	le	DET
@@ -452,7 +452,7 @@ avait	avoir	AUX
 le	le	DET
 plus	plus	ADV
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 baïonnettes	baïonnette	NOUN
 .	.	PUNCTsent
 juste	juste	ADV
@@ -495,7 +495,7 @@ avait	avoir	AUX
 le	le	DET
 plus	plus	ADV
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 mitrailleuses	mitrailleur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -515,7 +515,7 @@ nucléaires	nucléaire	ADJ
 ,	,	PUNCTclause
 avec	avec	ADP
 beaucoup	beaucoup	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 chances	chance	NOUN
 de	de	ADP
 erreur	erreur	NOUN
@@ -594,7 +594,7 @@ resterait	rester	VERB
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
-au terme de	au terme de	ADP_DET
+au terme de	au terme de	ADP
 une	un	DET
 guerre	guerre	NOUN
 atomique	atomique	ADJ
@@ -683,7 +683,7 @@ au	au	ADP_DET
 but	but	NOUN
 ,	,	PUNCTclause
 équivaudrait	équivaloir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 à	à	ADP
 l'	le	DET
 anéantissement	anéantissement	NOUN
@@ -745,7 +745,7 @@ en	en	PRON
 elle	elle	PRON
 ,	,	PUNCTclause
 ou	ou	CCONJ
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 celui	celui	PRON
 de	de	ADP
 nos	nos	DET
@@ -755,7 +755,7 @@ petits-enfants	petits-enfants	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 guerre	guerre	NOUN
 a	avoir	AUX
@@ -819,7 +819,7 @@ par-dessus	par-dessus	ADP
 leur	leur	DET
 tête	tête	NOUN
 ,	,	PUNCTclause
-au mieux	au mieux	SYM
+au mieux	au mieux	ADV
 ils	ils	PRON
 seront	être	AUX
 enterrés	enterrer	VERB
@@ -842,7 +842,7 @@ ensemble	ensemble	ADV
 ,	,	PUNCTclause
 en	en	ADP
 convivialité	convivialité	NOUN
-pour ainsi dire	pour ainsi dire	PUNCT
+pour ainsi dire	pour ainsi dire	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 avant	avant	ADP
@@ -944,7 +944,7 @@ guerre	guerre	NOUN
 nucléaire	nucléaire	ADJ
 ne	ne	ADV
 met	mettre	VERB
-en jeu	en jeu	DET
+en jeu	en jeu	ADJ
 ni	ni	CCONJ
 sang	sang	NOUN
 ni	ni	CCONJ
@@ -1030,7 +1030,7 @@ cette	ce	DET
 opposition	opposition	NOUN
 est	être	AUX
 devenue	devenir	VERB
-sans objet	sans objet	NOUN
+sans objet	sans objet	ADJ
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 la	le	DET
@@ -1205,7 +1205,7 @@ disposera	disposer	VERB
 du	du	ADP_DET
 plus	plus	ADV
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 bombes	bombe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1306,7 +1306,7 @@ de	de	ADP
 exaltation	exaltation	NOUN
 belliqueuse	belliqueux	ADJ
 ,	,	PUNCTclause
-jusqu'au moment où	jusqu'au moment où	ADP
+jusqu'au moment où	jusqu'au moment où	SCONJ
 le	le	DET
 dernier	dernier	ADJ
 laboratoire	laboratoire	NOUN
@@ -1397,8 +1397,8 @@ chances	chance	NOUN
 de	de	ADP
 renaître	renaître	VERB
 et	et	CCONJ
-moins de	moins de	PRON
-avenir	avenir	VERB
+moins de	moins de	DET
+avenir	avenir	NOUN
 que	que	SCONJ
 les	le	DET
 ordres	ordre	NOUN
@@ -1502,7 +1502,7 @@ métier	métier	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
 que	que	SCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -1727,9 +1727,9 @@ antimilitaristes	antimilitariste	ADJ
 le	le	DET
 danger	danger	NOUN
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 pour	pour	ADP
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tous	tous	PRON
@@ -2073,7 +2073,7 @@ souvient	souvenir	VERB
 des	un	ADP_DET
 coulpes	coulpe	NOUN
 battues	battre	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 ne	ne	ADV
 en	en	PRON
@@ -2136,7 +2136,7 @@ planète	planète	NOUN
 évoquent	évoquer	VERB
 à	à	ADP
 longueur	longueur	NOUN
-de jour	de jour	PUNCT
+de jour	de jour	ADV
 (	(	PUNCTclause
 et	et	CCONJ
 ça	ça	PRON

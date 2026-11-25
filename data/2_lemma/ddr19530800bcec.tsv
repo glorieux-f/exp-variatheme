@@ -48,7 +48,7 @@ de	de	ADP
 votre	votre	DET
 ministère	ministère	NOUN
 .	.	PUNCTsent
-au début	au début	ADP_DET
+au début	au début	ADV
 du	du	ADP_DET
 mois	mois	NOUN
 de	de	ADP
@@ -120,7 +120,7 @@ puissance	puissance	NOUN
 .	.	PUNCTsent
 nous	nous	PRON
 cherchons	chercher	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 si	si	SCONJ
 le	le	DET
 projet	projet	NOUN
@@ -280,7 +280,7 @@ significative	significatif	ADJ
 ↵↵	↵↵	PUNCTstruct
 voici	voici	ADP
 donc	donc	ADV
-la première	la première	PUNCT
+la première	la première	PRON
 requête	requête	NOUN
 que	que	SCONJ
 nous	nous	PRON
@@ -394,7 +394,7 @@ car	car	CCONJ
 il	il	PRON
 importe	importer	VERB
 absolument	absolument	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le_PRON	PRON
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -500,11 +500,11 @@ base	base	NOUN
 de	de	ADP
 travail	travail	NOUN
 équivaudrait	équivaloir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 à	à	ADP
 récuser	récuser	VERB
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 source	source	NOUN
 de	de	ADP
 la	le	DET
@@ -806,7 +806,7 @@ amender	amender	VERB
 ,	,	PUNCTclause
 soit	soit	CCONJ
 pour	pour	ADP
-en fait	en fait	VERB
+en fait	en fait	ADV
 un	un	DET
 meilleur	meilleur	ADJ
 instrument	instrument	NOUN
@@ -816,7 +816,7 @@ soit	soit	CCONJ
 pour	pour	ADP
 le	le	DET
 rendre	rendre	VERB
-en fait	en fait	NOUN
+en fait	en fait	ADV
 inopérant	inopérant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -982,7 +982,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 il	il	PRON
 sera	être	AUX
-lettre morte	lettre morte	DET
+lettre morte	lettre morte	NOUN
 pour	pour	ADP
 les	le	DET
 Europe	Europe	PROPN
@@ -1093,7 +1093,7 @@ soviétique	soviétique	ADJ
 ne	ne	ADV
 change	changer	VERB
 rien	rien	PRON
-au fait	au fait	PUNCT
+au fait	au fait	ADV
 fondamental	fondamental	ADJ
 que	que	SCONJ
 nos	nos	DET
@@ -1136,7 +1136,7 @@ mondiale	mondial	ADJ
 qui	qui	PRON
 nous	nous	PRON
 dépasse	dépasser	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 individus	individu	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1228,8 +1228,8 @@ condamnée	condamner	VERB
 par	par	ADP
 l'	le	DET
 histoire	histoire	NOUN
-à l'unanimité	à l'unanimité	PUNCT
-des	un	DET
+à l'unanimité	à l'unanimité	ADV
+des	un	ADP_DET
 exemples	exemple	NOUN
 connus	connaître	VERB
 .	.	PUNCTsent
@@ -1381,7 +1381,7 @@ souverainetés	souveraineté	NOUN
 existent	exister	VERB
 elles	elles	PRON
 encore	encore	ADV
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
@@ -1430,8 +1430,8 @@ contre	contre	ADP
 l'	le	DET
 attaque	attaque	NOUN
 de	de	ADP
-l'un ou l'autre	l'un ou l'autre	DET
-empire	empire	NOUN
+l'un ou l'autre	l'un ou l'autre	PRON
+empire	empirer	VERB
 ;	;	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -1565,7 +1565,7 @@ siècle	siècle	NOUN
 que	que	SCONJ
 le	le	DET
 pouvoir	pouvoir	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 lever	lever	VERB
 le	le	DET
 soleil	soleil	NOUN
@@ -1606,7 +1606,7 @@ fédérées	fédéré	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 parce que	parce que	SCONJ
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -1718,7 +1718,7 @@ ne	ne	ADV
 peut	pouvoir	VERB
 être	être	AUX
 accepté	accepter	VERB
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 une	un	DET
 seule	seul	ADJ
 des	un	ADP_DET
@@ -1747,7 +1747,7 @@ garder	garder	VERB
 de	de	ADP
 y	y	PRON
 ajouter	ajouter	VERB
-quoi que ce soit	quoi que ce soit	PUNCT
+quoi que ce soit	quoi que ce soit	PRON
 qui	qui	PRON
 viendrait	venir	VERB
 compromettre	compromettre	VERB
@@ -1793,7 +1793,7 @@ que	que	SCONJ
 personne	personne_PRON	PRON
 ne	ne	ADV
 est	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 décréter	décréter	VERB
 .	.	PUNCTsent
 le	le	DET
@@ -1804,7 +1804,7 @@ simple	simple	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 même	même	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 obscur	obscur	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
@@ -1830,7 +1830,7 @@ subtils	subtil	ADJ
 ↵↵	↵↵	PUNCTstruct
 7	7	NUM
 .	.	PUNCTsent
-pourvu que	pourvu que	PUNCT
+pourvu que	pourvu que	SCONJ
 le	le	DET
 projet	projet	NOUN
 ,	,	PUNCTclause
@@ -2012,7 +2012,7 @@ doivent	devoir	VERB
 être	être	AUX
 consentis	consentir	VERB
 par	par	ADP
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 .	.	PUNCTsent
 certains	certain	DET
 risques	risque	NOUN
@@ -2048,7 +2048,7 @@ cet	ce	DET
 empire	empire	NOUN
 qui	qui	PRON
 sombra	sombrer	VERB
-pour toujours	pour toujours	ADP
+pour toujours	pour toujours	ADV
 il y a	il y a	VERB
 cinq	cinq	NUM
 siècles	siècle	NOUN
@@ -2145,7 +2145,7 @@ ruinés	ruiner	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 refusant	refuser	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 le	le	DET
 pool	pool	NOUN
 patriotique	patriotique	ADJ

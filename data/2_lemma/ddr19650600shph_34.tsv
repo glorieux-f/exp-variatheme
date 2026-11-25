@@ -89,7 +89,7 @@ de	de	ADP
 un	un	DET
 évêché	évêché	NOUN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 Martigny	Martigny	PROPN
 en	en	ADP
 Valais	Valais	PROPN
@@ -145,7 +145,7 @@ paganisme	paganisme	NOUN
 fait	faire	VERB
 un	un	DET
 retour	retour	NOUN
-en force	en force	ADP
+en force	en force	ADV
 avec	avec	ADP
 la	le	DET
 poussée	poussée	NOUN
@@ -168,7 +168,7 @@ actuelle	actuel	ADJ
 Suisse	Suisse	PROPN
 alémanique	alémanique	ADJ
 .	.	PUNCTsent
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 traits	trait	NOUN
 typiques	typique	ADJ
 de	de	ADP
@@ -509,7 +509,7 @@ ce	ce	PRON
 qui	qui	PRON
 peut	pouvoir	VERB
 expliquer	expliquer	VERB
-en partie	en partie	ADP
+en partie	en partie	ADV
 la	le	DET
 tolérance	tolérance	NOUN
 montrée	montrer	VERB
@@ -931,19 +931,19 @@ lignes	ligne	NOUN
 la	le	DET
 proportion	proportion	NOUN
 de	de	ADP
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus de	plus de	DET
 2	2	NUM
 5	5	NUM
 de	de	ADP
 catholiques	catholique	NOUN
-pour un peu	pour un peu	ADP
-moins de	moins de	NOUN
+pour un peu	pour un peu	ADV
+moins de	moins de	DET
 3	3	NUM
 5	5	NUM
 de	de	ADP
 protestants	protestant	NOUN
-dans l'ensemble	dans l'ensemble	PUNCT
+dans l'ensemble	dans l'ensemble	ADV
 du	du	ADP_DET
 pays	pays	NOUN
 ne	ne	ADV
@@ -1211,8 +1211,8 @@ fribourgeois	fribourgeois	ADJ
 «	«	PUNCTsent
 un	un	DET
 zèle	zèle	NOUN
-un peu	un peu	PUNCT
-amer	amer	NOUN
+un peu	un peu	ADV
+amer	amer	ADJ
 et	et	CCONJ
 ambitieux	ambitieux	ADJ
 risquerait	risquer	VERB
@@ -1636,7 +1636,7 @@ pourrait	pouvoir	VERB
 luthérien	luthérien	ADJ
 ou	ou	CCONJ
 anglican	anglican	ADJ
-aussi bien que	aussi bien que	ADV
+aussi bien que	aussi bien que	CCONJ
 romain	romain	ADJ
 .	.	PUNCTsent
 la	le	DET
@@ -1668,7 +1668,7 @@ de	de	ADP
 cette	ce	DET
 coexistence	coexistence	NOUN
 physique	physique	ADJ
-au minimum	au minimum	PUNCT
+au minimum	au minimum	ADV
 ,	,	PUNCTclause
 une	un	DET
 inter-communion	inter-communion	NOUN
@@ -1814,7 +1814,7 @@ la	le	DET
 religion	religion	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 le	le	DET
 protestantisme	protestantisme	NOUN
@@ -2006,7 +2006,7 @@ paraît	paraître	VERB
 à	à	ADP
 ses	son	DET
 fidèles	fidèle	ADJ
-d'autant plus	d'autant plus	NOUN
+d'autant plus	d'autant plus	ADV
 pur	pur	ADJ
 que	que	SCONJ
 il	il	PRON
@@ -2105,7 +2105,7 @@ singerie	singerie	NOUN
 »	»	PUNCTclause
 toute	tout	ADJ
 expression	expression	NOUN
-tant soit peu	tant soit peu	PUNCT
+tant soit peu	tant soit peu	ADV
 spontanée	spontané	ADJ
 de	de	ADP
 la	le	DET
@@ -2120,8 +2120,8 @@ lui	lui	PRON
 paraît	paraître	VERB
 théâtrale	théâtral	ADJ
 .	.	PUNCTsent
-ce n'est pas que	ce n'est pas que	DET
-le	le_PRON	PRON
+ce n'est pas que	ce n'est pas que	SCONJ
+le	le	DET
 sentiment	sentiment	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -2146,7 +2146,7 @@ du	du	ADP_DET
 réveil	réveil	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
-la première	la première	DET
+la première	la première	PRON
 moitié	moitié	NOUN
 du	du	ADP_DET
 19e	19e	NUM
@@ -2445,7 +2445,7 @@ et	et	CCONJ
 20e	20e	NUM
 siècles	siècle	NOUN
 .	.	PUNCTsent
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 se	se	PRON
 accordent	accorder	VERB
 sur	sur	ADP
@@ -2842,7 +2842,7 @@ ou	ou	CCONJ
 les	le	DET
 partis	parti	NOUN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	ADJ
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 si	si	SCONJ

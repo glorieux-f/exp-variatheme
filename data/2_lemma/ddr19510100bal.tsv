@@ -219,8 +219,8 @@ abusent	abuser	VERB
 tel	tel	PRON
 est	être	AUX
 peut-être	peut-être	ADV
-le premier	le premier	DET
-point	point	NOUN
+le premier	le premier	PRON
+point	point	ADV
 de	de	ADP
 notre	notre	DET
 programme	programme	NOUN
@@ -260,7 +260,7 @@ faire	faire	VERB
 encore	encore	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 on	on	PRON
 peut	pouvoir	VERB
@@ -483,8 +483,8 @@ aiment	aimer	VERB
 la	le	DET
 paix	paix	NOUN
 ,	,	PUNCTclause
-un peu	un peu	PUNCT
-comme	comme	ADP
+un peu	un peu	ADV
+comme	comme	SCONJ
 le	le	DET
 chat	chat	NOUN
 aime	aimer	VERB
@@ -504,9 +504,9 @@ penser	penser	VERB
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
 publierons	publier	VERB
-à ce sujet	à ce sujet	PUNCT
+à ce sujet	à ce sujet	ADV
 bientôt	bientôt	ADV
-des	un	ADP_DET
+des	un	DET
 textes	texte	NOUN
 que	que	SCONJ
 les	le	DET
@@ -588,7 +588,7 @@ des	un	DET
 loups	loup	NOUN
 déclarer	déclarer	VERB
 avec	avec	ADP
-moins de	moins de	PUNCT
+moins de	moins de	DET
 pudeur	pudeur	NOUN
 leur	leur	DET
 amour	amour	NOUN
@@ -877,7 +877,7 @@ même	même	ADV
 de	de	ADP
 la	le	DET
 lutte	lutte	NOUN
-en cours	en cours	ADP
+en cours	en cours	ADJ
 qui	qui	PRON
 ,	,	PUNCTclause
 pour l'instant	pour l'instant	ADV
@@ -897,7 +897,7 @@ et	et	CCONJ
 qui	qui	PRON
 le	le_PRON	PRON
 restera	rester	VERB
-en dernière analyse	en dernière analyse	PUNCT
+en dernière analyse	en dernière analyse	ADV
 ,	,	PUNCTclause
 même si	même si	SCONJ
 la	le	DET
@@ -1071,7 +1071,7 @@ employer	employer	VERB
 les	le	DET
 enrôler	enrôler	VERB
 ,	,	PUNCTclause
-pour ainsi dire	pour ainsi dire	PUNCT
+pour ainsi dire	pour ainsi dire	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 service	service	NOUN
@@ -1466,8 +1466,8 @@ romans	roman	NOUN
 à	à	ADP
 se	se	PRON
 tenir	tenir	VERB
-un peu	un peu	PUNCT
-au courant	au courant	PUNCT
+un peu	un peu	ADV
+au courant	au courant	ADJ
 ,	,	PUNCTclause
 à	à	ADP
 jeter	jeter	VERB
@@ -1560,7 +1560,7 @@ son	son	DET
 ,	,	PUNCTclause
 ni	ni	CCONJ
 le	le_PRON	PRON
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 ses	son	DET
 habitants	habitant	NOUN
 ,	,	PUNCTclause
@@ -1587,7 +1587,7 @@ sont	être	AUX
 donc	donc	ADV
 intervenus	intervenir	VERB
 .	.	PUNCTsent
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 le	le	DET
 rayonnement	rayonnement	NOUN
 ,	,	PUNCTclause
@@ -1620,7 +1620,7 @@ système	système	NOUN
 de	de	ADP
 lois	loi	NOUN
 garantissant	garantir	VERB
-de mieux en mieux	de mieux en mieux	ADP
+de mieux en mieux	de mieux en mieux	ADV
 les	le	DET
 libertés	liberté	NOUN
 de	de	ADP
@@ -1809,11 +1809,11 @@ armées	armée	NOUN
 ennemies	ennemi	ADJ
 se	se	PRON
 mettent	mettre	VERB
-en marche	en marche	PUNCT
+en marche	en marche	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 cette	ce	DET
 phrase	phrase	NOUN
@@ -2048,13 +2048,13 @@ armées	armée	NOUN
 que	que	PRON
 il	il	PRON
 met	mettre	VERB
-en marche	en marche	DET
+en marche	en marche	ADJ
 sont	être	AUX
 plus	plus	ADV
 redoutables	redoutable	ADJ
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 celles	celle	PRON
-que	que	SCONJ
+que	que	PRON
 évoquait	évoquer	VERB
 M.	M.	NOUN
 Reynaud	Reynaud	PROPN
@@ -2065,9 +2065,9 @@ armées	armée	NOUN
 veulent	vouloir	VERB
 occuper	occuper	VERB
 bien	bien	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
-des	un	DET
+autre chose	autre chose	PRON
+que	que	PRON
+des	un	ADP_DET
 terrains	terrain	NOUN
 ,	,	PUNCTclause
 elles	elles	PRON
@@ -2106,7 +2106,7 @@ adversaire	adversaire	NOUN
 les	le_PRON	PRON
 a	avoir	AUX
 ,	,	PUNCTclause
-par avance	par avance	SYM
+par avance	par avance	ADV
 ,	,	PUNCTclause
 «	«	PUNCTclause
 occupés	occupé	ADJ

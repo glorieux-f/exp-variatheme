@@ -102,7 +102,7 @@ le	le	DET
 directeur	directeur	NOUN
 du	du	ADP_DET
 journal	journal	NOUN
-en question	en question	ADP
+en question	en question	ADJ
 censura	censurer	X
 cette	ce	DET
 partie	partie	NOUN
@@ -116,7 +116,7 @@ politique	politique	NOUN
 que	que	PRON
 on	on	PRON
 attribue	attribuer	VERB
-par erreur	par erreur	NOUN
+par erreur	par erreur	ADV
 à	à	ADP
 l'	le	DET
 autruche	autruche	NOUN
@@ -149,7 +149,7 @@ récidive	récidiver	VERB
 ,	,	PUNCTclause
 à	à	ADP
 propos	propos	NOUN
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois ci	ADV
 de	de	ADP
 l'	le	DET
 exemple	exemple	NOUN
@@ -484,7 +484,7 @@ infini	infini	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 sans	sans	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 chances	chance	NOUN
 de	de	ADP
 se	se	PRON
@@ -590,8 +590,8 @@ nous	nous	PRON
 faire	faire	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-ce n'est pas que	ce n'est pas que	DET
-les	le_PRON	PRON
+ce n'est pas que	ce n'est pas que	SCONJ
+les	le	DET
 journaux	journal	NOUN
 États-Unis	États-Unis	PROPN
 craignent	craindre	VERB
@@ -627,7 +627,7 @@ objectif	objectif	NOUN
 principal	principal	ADJ
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 ,	,	PUNCTclause
 leur	leur	DET
 arme	arme	NOUN
@@ -726,7 +726,7 @@ syndiquées	syndiqué	ADJ
 (	(	PUNCTclause
 qui	qui	PRON
 paraissent	paraître	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 jour	jour	NOUN
 dans	dans	ADP
 vingt	vingt	NUM
@@ -885,8 +885,8 @@ un	un	DET
 journal	journal	NOUN
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
-en plus	en plus	PRON
-des	un	ADP_DET
+en plus	en plus	ADV
+des	un	DET
 problèmes	problème	NOUN
 de	de	ADP
 un	un	DET
@@ -983,8 +983,8 @@ une	un	DET
 seule	seul	ADJ
 liasse	liasse	NOUN
 ,	,	PUNCTclause
-tout juste	tout juste	DET
-un	un	PRON
+tout juste	tout juste	ADV
+un	un	DET
 numéro	numéro	NOUN
 du	du	ADP_DET
 Times	Times	PROPN
@@ -1035,7 +1035,7 @@ la	le	DET
 presse	presse	NOUN
 France	France	PROPN
 .	.	PUNCTsent
-par contre	par contre	NOUN
+par contre	par contre	ADV
 ,	,	PUNCTclause
 celle	celle	PRON
 de	de	ADP
@@ -1299,7 +1299,7 @@ je	je	PRON
 me	me	PRON
 permettrais	permettre	VERB
 ,	,	PUNCTclause
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 de	de	ADP
 lui	lui	PRON
@@ -1420,7 +1420,7 @@ la	le	DET
 moyenne	moyenne	NOUN
 ou	ou	CCONJ
 même	même	ADV
-au pire	au pire	PUNCT
+au pire	au pire	ADV
 de	de	ADP
 l'autre	l'autre	PRON
 .	.	PUNCTsent

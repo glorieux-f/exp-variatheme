@@ -168,7 +168,7 @@ donne	donner	VERB
 huit	huit	NUM
 types	type	NOUN
 .	.	PUNCTsent
-autant de	autant de	ADP_DET
+autant de	autant de	DET
 familles	famille	NOUN
 catholiques	catholique	ADJ
 au	au	ADP_DET
@@ -206,7 +206,7 @@ indique	indiquer	VERB
 par exemple	par exemple	ADV
 pour	pour	ADP
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 enfants	enfant	NOUN
 vivants	vivant	ADJ
 en	en	ADP
@@ -220,7 +220,7 @@ mariée	marier	VERB
 mais	mais	CCONJ
 nous	nous	PRON
 voyons	voir	VERB
-aussitôt que	aussitôt que	ADV
+aussitôt que	aussitôt que	SCONJ
 cette	ce	DET
 moyenne	moyenne	NOUN
 ,	,	PUNCTclause
@@ -302,7 +302,7 @@ catholique	catholique	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 du	du	ADP_DET
 pays	pays	NOUN
 ,	,	PUNCTclause
@@ -476,8 +476,8 @@ Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
-les mêmes	les mêmes	DET
-régularités	régularité	NOUN
+les mêmes	les mêmes	PRON
+régularités	régularité	VERB
 se	se	PRON
 vérifient	vérifier	VERB
 ici	ici	ADV
@@ -500,7 +500,7 @@ chances	chance	NOUN
 de	de	ADP
 avoir	avoir	VERB
 le	le	DET
-plus de	plus de	SCONJ
+plus de	plus de	DET
 enfants	enfant	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -577,7 +577,7 @@ pour	pour	ADP
 femmes	femme	NOUN
 mariées	marier	VERB
 ,	,	PUNCTclause
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 divorces	divorce	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -759,7 +759,7 @@ un	un	DET
 pays	pays	NOUN
 où	où	PRON
 «	«	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 se	se	PRON
 connaît	connaître	VERB
 »	»	PUNCTclause
@@ -1007,7 +1007,7 @@ progressistes	progressiste	ADJ
 que	que	SCONJ
 les	le	DET
 autres	autre	PRON
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 plus	plus	ADV
 frappant	frapper	VERB
@@ -1287,7 +1287,7 @@ l'	le	DET
 )	)	PUNCTclause
 .	.	PUNCTsent
 et	et	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 les	le	DET
 femmes	femme	NOUN
@@ -1764,7 +1764,7 @@ la	le	DET
 pédagogie	pédagogie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 est	être	AUX
 celle	celle	PRON
 qui	qui	PRON
@@ -1947,7 +1947,7 @@ se	se	PRON
 développe	développer	VERB
 parallèlement	parallèlement	ADV
 à	à	ADP
-la première	la première	DET
+la première	la première	PRON
 ,	,	PUNCTclause
 est	être	AUX
 celle	celle	PRON
@@ -1997,7 +1997,7 @@ qui	qui	PRON
 ont	avoir	AUX
 œuvré	œuvrer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 esprit	esprit	NOUN
 :	:	PUNCTclause
 Claparède	Claparède	PROPN
@@ -2382,7 +2382,7 @@ libre	libre	ADJ
 et	et	CCONJ
 turbulent	turbulent	ADJ
 que	que	SCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 ,	,	PUNCTclause
 moins	moins	ADV
 brillant	brillant	ADJ
@@ -2391,7 +2391,7 @@ délié	délier	VERB
 de	de	ADP
 langue	langue	NOUN
 que	que	SCONJ
-le second	le second	DET
+le second	le second	PRON
 ,	,	PUNCTclause
 il	il	PRON
 tend	tendre	VERB
@@ -2524,7 +2524,7 @@ des	un	ADP_DET
 écoles	école	NOUN
 publiques	public	ADJ
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 presque	presque	ADV
 tous	tout	ADJ
@@ -2579,7 +2579,7 @@ ils	ils	PRON
 reçoivent	recevoir	VERB
 donc	donc	ADV
 côte à côte	côte à côte	ADV
-la même	la même	DET
+la même	la même	PRON
 formation	formation	NOUN
 de	de	ADP
 base	base	NOUN
@@ -2650,7 +2650,7 @@ mais	mais	CCONJ
 elle	elle	PRON
 est	être	AUX
 pratiquée	pratiquer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 partout	partout	ADV
 .	.	PUNCTsent
 quelques	quelque	DET
@@ -2754,7 +2754,7 @@ enseignement	enseignement	NOUN
 sont	être	AUX
 au contraire	au contraire	ADV
 mis	mettre	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 les	le	DET
 mieux	mieux	ADV
 exercer	exercer	VERB
@@ -2811,7 +2811,7 @@ classes	classe	NOUN
 .	.	PUNCTsent
 elles	elles	PRON
 nomment	nommer	VERB
-à cet effet	à cet effet	PUNCT
+à cet effet	à cet effet	ADV
 des	un	DET
 «	«	PUNCTclause
 commissions	commission	NOUN
@@ -2911,7 +2911,7 @@ la	le	DET
 diversité	diversité	NOUN
 résulte	résulter	VERB
 peut-être	peut-être	ADV
-moins d'une	moins d'une	ADV
+moins d'une	moins d'une	DET
 histoire	histoire	NOUN
 commune	commun	ADJ
 que	que	ADV
@@ -2924,7 +2924,7 @@ cette	ce	DET
 histoire	histoire	NOUN
 ;	;	PUNCTclause
 et	et	CCONJ
-moins d'une	moins d'une	ADV
+moins d'une	moins d'une	DET
 similitude	similitude	NOUN
 de	de	ADP
 mœurs	mœurs	NOUN
@@ -3321,8 +3321,8 @@ habitants	habitant	NOUN
 et	et	CCONJ
 pour	pour	ADP
 un	un	DET
-nombre de	nombre de	NOUN
-étudiants	étudiant	ADJ
+nombre de	nombre de	DET
+étudiants	étudiant	NOUN
 relativement	relativement	ADV
 peu	peu	ADV
 élevé	élevé	ADJ
@@ -3485,7 +3485,7 @@ qui	qui	PRON
 demeurent	demeurer	VERB
 extrêmement	extrêmement	ADV
 vivaces	vivace	ADJ
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 l'	le	DET
 idée	idée	NOUN
@@ -3786,7 +3786,7 @@ professeurs	professeur	NOUN
 et	et	CCONJ
 étudiants	étudiant	NOUN
 .	.	PUNCTsent
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 ,	,	PUNCTclause
 pour	pour	ADP
 une	un	DET
@@ -3796,15 +3796,15 @@ proportion	proportion	NOUN
 se	se	PRON
 recrutent	recruter	VERB
 dans	dans	ADP
-la même	la même	DET
+la même	la même	PRON
 ville	ville	NOUN
 ou	ou	CCONJ
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 canton	canton	NOUN
 ,	,	PUNCTclause
 parlent	parler	VERB
 avec	avec	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 accent	accent	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -4165,7 +4165,7 @@ cinq	cinq	NUM
 elle	elle	PRON
 consacre	consacrer	VERB
 à peu près	à peu près	ADV
-autant de	autant de	ADP
+autant de	autant de	DET
 heures	heure	NOUN
 à	à	ADP
 des	un	DET
@@ -4219,7 +4219,7 @@ publiques	public	ADJ
 ,	,	PUNCTclause
 y	y	PRON
 est	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 grande	grand	ADJ
 que	que	SCONJ
@@ -4634,7 +4634,7 @@ laquelle	laquelle	PRON
 il	il	PRON
 est	être	AUX
 tenu	tenir	VERB
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 chaque	chaque	DET
 jour	jour	NOUN
 une	un	DET

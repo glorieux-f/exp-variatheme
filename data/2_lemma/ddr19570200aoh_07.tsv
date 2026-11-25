@@ -37,7 +37,7 @@ Europe	Europe	PROPN
 et	et	CCONJ
 qui	qui	PRON
 subsistent	subsister	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 celle	celle	PRON
 de	de	ADP
@@ -82,9 +82,9 @@ Afrique	Afrique	PROPN
 droite	droite	NOUN
 —	—	PUNCTclause
 occupent	occuper	VERB
-un peu	un peu	PUNCT
-plus de	plus de	PUNCT
-la	le	DET
+un peu	un peu	ADV
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 inférieure	inférieur	ADJ
 de	de	ADP
@@ -244,7 +244,7 @@ par	par	ADP
 quelques	quelque	DET
 observations	observation	NOUN
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 révolution	révolution	NOUN
 substitue	substituer	VERB
 l'	le	DET
@@ -275,7 +275,7 @@ soit	être	AUX
 géographique	géographique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 les	le	DET
@@ -290,7 +290,7 @@ elle-même	elle-même	PRON
 dont	dont	PRON
 Magellan	Magellan	PROPN
 vient	venir	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 le	le	DET
 tour	tour	NOUN
 .	.	PUNCTsent
@@ -361,7 +361,7 @@ homme	homme	NOUN
 se	se	PRON
 y	y	PRON
 sent	sentir	VERB
-à l'étroit	à l'étroit	PUNCT
+à l'étroit	à l'étroit	ADV
 et	et	CCONJ
 se	se	PRON
 met	mettre	VERB
@@ -474,8 +474,8 @@ l'	le	DET
 âme	âme	NOUN
 collective	collectif	ADJ
 .	.	PUNCTsent
-la première	la première	DET
-découverte	découverte	NOUN
+la première	la première	PRON
+découverte	découvrir	VERB
 a	avoir	AUX
 précédé	précéder	VERB
 la	le	DET
@@ -634,7 +634,7 @@ une	un	DET
 manière	manière	NOUN
 convaincante	convaincant	ADJ
 à	à	ADP
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 des	un	DET
 traits	trait	NOUN
 originaux	original	ADJ
@@ -1323,7 +1323,7 @@ les	le	DET
 nations	nation	NOUN
 »	»	PUNCTclause
 désignait	désigner	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 et	et	CCONJ
 davantage	davantage	ADV
 que	que	SCONJ
@@ -1414,8 +1414,8 @@ en	en	ADP
 Extrême-Orient	Extrême-Orient	PROPN
 .	.	PUNCTsent
 dès	dès	ADP
-la première	la première	DET
-moitié	moitié	NOUN
+la première	la première	PRON
+moitié	moitié	ADV
 du	du	ADP_DET
 7e	7e	ADJ
 siècle	siècle	NOUN
@@ -1481,7 +1481,7 @@ les	le	DET
 présomptions	présomption	NOUN
 sont	être	AUX
 fortes	fort	ADJ
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 thèse	thèse	NOUN
 qui	qui	PRON
@@ -2005,7 +2005,7 @@ car	car	CCONJ
 en vérité	en vérité	ADV
 il	il	PRON
 fut	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 ouvrir	ouvrir	VERB
 les	le	DET
@@ -2026,8 +2026,8 @@ pays	pays	NOUN
 et	et	CCONJ
 royaumes	royaume	NOUN
 lointains	lointain	ADJ
-jusqu'alors	jusqu'alors	ADP
-inconnus	inconnu	NOUN
+jusqu'alors	jusqu'alors	ADV
+inconnus	inconnu	ADJ
 …	…	PUNCTsent
 son	son	DET
 nom	nom	NOUN
@@ -2067,10 +2067,10 @@ il	il	PRON
 lui	lui	PRON
 convient	convenir	VERB
 aussi	aussi	ADV
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 il	il	PRON
 fut	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 faire	faire	AUX
 venir	venir	VERB
@@ -2148,7 +2148,7 @@ démontre	démontrer	VERB
 le	le	DET
 contraire	contraire	NOUN
 :	:	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 dans	dans	ADP
 son	son	DET
 nom	nom	NOUN
@@ -2289,7 +2289,7 @@ Khan	Khan	PROPN
 et	et	CCONJ
 de	de	ADP
 rapporter	rapporter	VERB
-assez de	assez de	ADP
+assez de	assez de	DET
 or	or	NOUN
 pour	pour	ADP
 payer	payer	VERB
@@ -2309,7 +2309,7 @@ ne	ne	ADV
 furent	être	AUX
 pas	pas	ADV
 seuls	seul	ADJ
-en cause	en cause	PUNCT
+en cause	en cause	ADJ
 dans	dans	ADP
 son	son	DET
 projet	projet	NOUN
@@ -2339,7 +2339,7 @@ furent	être	AUX
 aussi	aussi	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
-par là même	par là même	PRON
+par là même	par là même	ADV
 ,	,	PUNCTclause
 seuls	seul	ADJ
 décisifs	décisif	ADJ
@@ -2726,7 +2726,7 @@ a	avoir	VERB
 donné	donner	VERB
 pouvoir	pouvoir	VERB
 de	de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ainsi	ainsi	ADV
 .	.	PUNCTsent
 des	un	ADP_DET
@@ -3421,7 +3421,7 @@ ses	son	DET
 yeux	œil	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elles	elles	PRON
 concordent	concorder	VERB
 avec	avec	ADP
@@ -3735,7 +3735,7 @@ départ	départ	NOUN
 de	de	ADP
 Colón	Colón	PROPN
 suit	suivre	VERB
-de peu	de peu	PUNCT
+de peu	de peu	ADV
 l'	le	DET
 achèvement	achèvement	NOUN
 de	de	ADP
@@ -3930,7 +3930,7 @@ pas	pas	ADV
 l'	le	DET
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 		TOKEN
 signifie	signifier	VERB
@@ -3938,7 +3938,7 @@ dollar	dollar	NOUN
 et	et	CCONJ
 travail	travail	NOUN
 parcellaire	parcellaire	ADJ
-à la chaîne	à la chaîne	PUNCT
+à la chaîne	à la chaîne	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -4571,7 +4571,7 @@ Cathay	Cathay	PROPN
 ↵↵	↵↵	PUNCTstruct
 tout	tout	PRON
 homme	homme	NOUN
-de peu	de peu	PUNCT
+de peu	de peu	ADV
 de	de	ADP
 foi	foi	NOUN
 se	se	PRON
@@ -4630,7 +4630,7 @@ futur	futur	ADJ
 à	à	ADP
 ne	ne	ADV
 être	être	AUX
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 que	que	SCONJ
 le	le	DET
 passé	passé	NOUN
@@ -4685,7 +4685,7 @@ foi	foi	NOUN
 nous	nous	PRON
 le	le_PRON	PRON
 trouvons	trouver	VERB
-en marche	en marche	ADP
+en marche	en marche	ADJ
 comme	comme	ADP
 Abraham	Abraham	PROPN
 qui	qui	PRON

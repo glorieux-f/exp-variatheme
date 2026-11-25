@@ -6,7 +6,7 @@
 # title = "[Compte rendu] Au sujet d’un roman : Sara Alelia (3 novembre 1934)"
 
 ↵↵	↵↵	PUNCTstruct
-compte rendu	compte rendu	PUNCT
+compte rendu	compte rendu	NOUN
 au sujet de	au sujet de	ADP
 un	un	DET
 roman	roman	NOUN
@@ -52,7 +52,7 @@ vous	vous	PRON
 êtes	être	AUX
 France	France	PROPN
 .	.	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 Balzac	Balzac	PROPN
 ne	ne	ADV
@@ -588,7 +588,7 @@ chrétien	chrétien	ADJ
 une	un	DET
 histoire	histoire	NOUN
 où	où	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 «	«	PUNCTclause
 se	se	PRON
 conduit	conduire	VERB
@@ -627,7 +627,7 @@ Providence	Providence	PROPN
 mise	mettre	VERB
 en	en	ADP
 action	action	NOUN
-au gré de	au gré de	ADP_DET
+au gré de	au gré de	ADP
 un	un	DET
 moraliste	moraliste	NOUN
 qui	qui	PRON
@@ -638,8 +638,8 @@ air	air	NOUN
 de	de	ADP
 l'	le	DET
 avoir	avoir	AUX
-bel et bien	bel et bien	ADP
-sondée	sondé	NOUN
+bel et bien	bel et bien	ADV
+sondée	sonder	VERB
 ?	?	PUNCTsent
 ce	ce	PRON
 serait	être	AUX
@@ -718,7 +718,7 @@ christianisme	christianisme	NOUN
 et	et	CCONJ
 l'on	on	PRON
 serait	être	AUX
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 prétendre	prétendre	VERB
 que	que	SCONJ
 un	un	DET
@@ -796,8 +796,8 @@ et	et	CCONJ
 ses	son	DET
 abîmes	abîme	NOUN
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	SCONJ
-être à même de	être à même de	PRON
+si l'on veut	si l'on veut	ADV
+être à même de	être à même de	VERB
 y	y	PRON
 voir	voir	VERB
 les	le	DET
@@ -852,7 +852,7 @@ aveu	aveu	NOUN
 même	même	ADJ
 que	que	SCONJ
 on	on	PRON
-en fait	en fait	PRON
+en fait	en fait	ADV
 est	être	AUX
 la	le	DET
 preuve	preuve	NOUN
@@ -999,14 +999,14 @@ humanité	humanité	NOUN
 si	si	ADV
 proche	proche	ADJ
 .	.	PUNCTsent
-moins de	moins de	PRON
+moins de	moins de	DET
 art	art	NOUN
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
 je	je	PRON
 veux	vouloir	VERB
 dire	dire	VERB
-moins de	moins de	PUNCT
+moins de	moins de	DET
 apparent	apparent	ADJ
 lyrisme	lyrisme	NOUN
 que	que	SCONJ
@@ -1090,8 +1090,8 @@ est	être	AUX
 un	un	DET
 vieux	vieux	ADJ
 pasteur	pasteur	NOUN
-un peu	un peu	ADP_DET
-ivrogne	ivrogne	NOUN
+un peu	un peu	ADV
+ivrogne	ivrogne	ADJ
 ,	,	PUNCTclause
 un	un	DET
 vieil	vieux	ADJ
@@ -1133,7 +1133,7 @@ et	et	CCONJ
 désormais	désormais	ADV
 l'	le	DET
 accompagne	accompagner	VERB
-en secret	en secret	PUNCT
+en secret	en secret	ADV
 tout	tout	ADV
 au	au	ADP_DET
 long	long	ADJ
@@ -1326,7 +1326,7 @@ Sara	Sara	PROPN
 Alelia	Alelia	PROPN
 une	un	DET
 poésie	poésie	NOUN
-par endroits	par endroits	ADP
+par endroits	par endroits	ADV
 bouleversante	bouleversant	ADJ
 ,	,	PUNCTclause
 une	un	DET
@@ -1420,7 +1420,7 @@ voir	voir	VERB
 l'	le	DET
 existence	existence	NOUN
 réelle	réel	ADJ
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ils	ils	PRON
 décrivent	décrire	VERB
 simplement	simplement	ADV

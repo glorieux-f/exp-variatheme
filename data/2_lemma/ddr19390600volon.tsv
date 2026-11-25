@@ -26,8 +26,8 @@ juin	juin	NOUN
 ↵↵	↵↵	PUNCTstruct
 I.	I.	PROPN
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
-partie	partie	NOUN
+la première	la première	PRON
+partie	partir	VERB
 de	de	ADP
 votre	votre	DET
 questionnaire	questionnaire	NOUN
@@ -127,7 +127,7 @@ qui	qui	PRON
 répondent	répondre	VERB
 sérieusement	sérieusement	ADV
 et	et	CCONJ
-par principe	par principe	ADP
+par principe	par principe	ADV
 aux	au	ADP_DET
 lettres	lettre	NOUN
 de	de	ADP
@@ -166,12 +166,12 @@ limité	limiter	VERB
 au	au	ADP_DET
 très	très	ADV
 petit	petit	ADJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 personnes	personne	NOUN
 qui	qui	PRON
 sont	être	AUX
-en mesure de	en mesure de	ADP
-les	le	DET
+en mesure de	en mesure de	ADJ
+les	le_PRON	PRON
 payer	payer	VERB
 .	.	PUNCTsent
 seules	seul	ADJ
@@ -292,7 +292,7 @@ en	en	ADP
 écrivait	écrire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-si l'on veut	si l'on veut	VERB
+si l'on veut	si l'on veut	ADV
 réellement	réellement	ADV
 conduire	conduire	VERB
 un	un	DET
@@ -371,7 +371,7 @@ je	je	PRON
 persiste	persister	VERB
 cependant	cependant	ADV
 à	à	ADP
-faire valoir	faire valoir	NOUN
+faire valoir	faire valoir	VERB
 ma	mon	DET
 science	science	NOUN
 ,	,	PUNCTclause
@@ -379,7 +379,7 @@ ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 par	par	ADP
 vanité	vanité	NOUN
 ou	ou	CCONJ
@@ -387,7 +387,7 @@ par	par	ADP
 orgueil	orgueil	NOUN
 ,	,	PUNCTclause
 de sorte que	de sorte que	SCONJ
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 ,	,	PUNCTclause
 au lieu de	au lieu de	ADP
 aider	aider	VERB
@@ -619,7 +619,7 @@ sans	sans	ADP
 orthodoxie	orthodoxie	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-à l'inverse	à l'inverse	ADJ
+à l'inverse	à l'inverse	ADV
 ;	;	PUNCTclause
 dès que	dès que	SCONJ
 une	un	DET
@@ -752,7 +752,7 @@ déterminations	détermination	NOUN
 ces	ce	DET
 orthodoxies	orthodoxie	NOUN
 représentent	représenter	VERB
-autant de	autant de	ADP
+autant de	autant de	DET
 usurpations	usurpation	NOUN
 ,	,	PUNCTclause
 dès l'instant que	dès l'instant que	SCONJ
@@ -886,7 +886,7 @@ donc	donc	ADV
 souhaitable	souhaitable	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 est	être	AUX
 d'accord	d'accord	ADV
 pour	pour	ADP
@@ -1162,7 +1162,7 @@ et	et	CCONJ
 dans	dans	ADP
 son	son	DET
 espérance	espérance	NOUN
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 diversités	diversité	NOUN
 confessionnelles	confessionnel	ADJ
 et	et	CCONJ
@@ -1242,7 +1242,7 @@ une	un	DET
 ,	,	PUNCTclause
 et	et	CCONJ
 encore	encore	ADV
-moins d'une	moins d'une	ADV
+moins d'une	moins d'une	DET
 retour	retour	NOUN
 au	au	ADP_DET
 christianisme	christianisme	NOUN
@@ -1282,7 +1282,7 @@ dit	dire	VERB
 viens	venir	VERB
 !	!	PUNCTsent
 »	»	PUNCTclause
-au terme de	au terme de	PUNCT
+au terme de	au terme de	ADP
 l'	le	DET
 Apocalypse	Apocalypse	PROPN
 .	.	PUNCTsent
@@ -1316,7 +1316,7 @@ qui	qui	PRON
 ait	avoir	AUX
 son	son	DET
 fondement	fondement	NOUN
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 monde	monde	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP

@@ -119,7 +119,7 @@ certains	certain	DET
 cas	cas	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-ceci dit	ceci dit	PRON
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 je	je	PRON
 aurai	avoir	VERB
@@ -377,7 +377,7 @@ et	et	CCONJ
 qualifie	qualifier	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 signes	signe	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -413,7 +413,7 @@ passer	passer	VERB
 ne	ne	ADV
 passe	passer	VERB
 que	que	ADV
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ce	ce	DET
 système	système	NOUN
 de	de	ADP
@@ -478,7 +478,7 @@ quelquefois	quelquefois	ADV
 le	le	DET
 style	style	NOUN
 ;	;	PUNCTclause
-dans ce cas	dans ce cas	NOUN
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -628,7 +628,7 @@ répertoires	répertoire	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 passer	passer	VERB
 un	un	DET
 message	message	NOUN
@@ -680,7 +680,7 @@ deux	deux	NUM
 livres	livre	NOUN
 pareils	pareil	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 peut	pouvoir	VERB
 y	y	PRON
@@ -690,7 +690,7 @@ nombre	nombre	NOUN
 considérable	considérable	ADJ
 de	de	ADP
 moyens	moyen	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 passer	passer	VERB
 une	un	DET
 même	même	ADJ
@@ -746,7 +746,7 @@ est	être	AUX
 un	un	DET
 organisme	organisme	NOUN
 formateur	formateur	ADJ
-indépendamment de	indépendamment de	PUNCT
+indépendamment de	indépendamment de	ADP
 informations	information	NOUN
 objectives	objectif	ADJ
 que	que	SCONJ
@@ -870,7 +870,7 @@ dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
 va	aller	VERB
-au-devant de	au-devant de	ADP_DET
+au-devant de	au-devant de	ADP
 cet	ce	DET
 ange	ange	NOUN
 et	et	CCONJ
@@ -1154,12 +1154,12 @@ que	que	SCONJ
 toute	tout	ADJ
 la	le	DET
 propagande	propagande	NOUN
-en faveur de	en faveur de	ADV
-livre	livrer	VERB
+en faveur de	en faveur de	ADP
+livre	livre	NOUN
 ,	,	PUNCTclause
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	PRON
+si l'on veut	si l'on veut	ADV
 sauver	sauver	VERB
 la	le	DET
 spécificité	spécificité	NOUN
@@ -1362,7 +1362,7 @@ et	et	CCONJ
 qui	qui	PRON
 veut	vouloir	VERB
 vite	vite	ADV
-en finir	en finir	PUNCT
+en finir	en finir	VERB
 de	de	ADP
 toutes	toutes	DET
 choses	chose	NOUN
@@ -1449,14 +1449,14 @@ tour	tour	NOUN
 à	à	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 questions	question	NOUN
 posées	poser	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
-ce	ce	DET
+ce	ce	PRON
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
@@ -1586,16 +1586,16 @@ on	on	PRON
 sont	être	AUX
 en fait de	en fait de	ADP
 plus	plus	ADV
-en plus	en plus	ADP
+en plus	en plus	ADV
 centralisés	centraliser	VERB
 ,	,	PUNCTclause
 contrôlés	contrôler	VERB
 ,	,	PUNCTclause
 par	par	ADP
 un	un	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 plus	plus	ADV
-en plus	en plus	ADP
+en plus	en plus	ADV
 restreint	restreindre	VERB
 de	de	ADP
 hommes	homme	NOUN
@@ -1700,7 +1700,7 @@ magnétique	magnétique	ADJ
 qui	qui	PRON
 joue	jouer	VERB
 à peu près	à peu près	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 rôle	rôle	NOUN
 que	que	SCONJ
 le	le	DET
@@ -1801,7 +1801,7 @@ il y a	il y a	VERB
 un	un	DET
 très	très	ADV
 petit	petit	ADJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 programmes	programme	NOUN
 ,	,	PUNCTclause
 vous	vous	PRON
@@ -1951,7 +1951,7 @@ nous	nous	PRON
 faut	falloir	VERB
 le	le	DET
 développer	développer	VERB
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 nous	nous	PRON
 pouvons	pouvoir	VERB
 ,	,	PUNCTclause
@@ -1988,7 +1988,7 @@ le	le	DET
 faire	faire	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 je	je	PRON
 voudrais	vouloir	VERB
@@ -2332,7 +2332,7 @@ que	que	PRON
 on	on	PRON
 a	avoir	AUX
 essayé	essayer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 jusqu'ici	jusqu'ici	ADV
 mais	mais	CCONJ
 sans	sans	ADP
@@ -2397,7 +2397,7 @@ diffuser	diffuser	VERB
 en	en	ADP
 espéranto	espéranto	NOUN
 ,	,	PUNCTclause
-à supposer que	à supposer que	DET
+à supposer que	à supposer que	SCONJ
 il y a	il y a	VERB
 beaucoup de	beaucoup de	DET
 gens	gens	NOUN
@@ -2593,7 +2593,7 @@ le	le	DET
 contremaître	contremaître	NOUN
 ,	,	PUNCTclause
 aient	avoir	AUX
-assez de	assez de	ADP
+assez de	assez de	DET
 temps	temps	NOUN
 .	.	PUNCTsent
 est-ce que	est-ce que	ADV
@@ -2638,7 +2638,7 @@ gens	gens	NOUN
 qui	qui	PRON
 ont	avoir	AUX
 le	le	DET
-plus de	plus de	SCONJ
+plus de	plus de	DET
 temps	temps	NOUN
 qui	qui	PRON
 lisent	lire	VERB
@@ -2710,9 +2710,9 @@ temps de travail	temps de travail	NOUN
 ;	;	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-au fond	au fond	SYM
-tout	tout	DET
-l'	le_PRON	PRON
+au fond	au fond	ADV
+tout	tout	ADV
+l'	le	DET
 effort	effort	NOUN
 de	de	ADP
 la	le	DET
@@ -2773,7 +2773,7 @@ de	de	ADP
 côté	côté	NOUN
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 livres	livre	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -2830,14 +2830,14 @@ est	être	AUX
 ,	,	PUNCTclause
 bien entendu	bien entendu	ADV
 ,	,	PUNCTclause
-le temps que	le temps que	DET
+le temps que	le temps que	SCONJ
 on	on	PRON
 consacre	consacrer	VERB
 au	au	ADP_DET
 travail	travail	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-gagner sa vie	gagner sa vie	NOUN
+gagner sa vie	gagner sa vie	VERB
 .	.	PUNCTsent
 et	et	CCONJ
 puis	puis	CCONJ
@@ -2853,7 +2853,7 @@ peut	pouvoir	VERB
 on	on	PRON
 se	se	PRON
 amuse	amuser	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 .	.	PUNCTsent
 il	il	PRON
 semble	sembler	VERB
@@ -2900,7 +2900,7 @@ parce que	parce que	SCONJ
 justement	justement	ADV
 ,	,	PUNCTclause
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 heures	heure	NOUN
 de	de	ADP
 travail	travail	NOUN
@@ -2913,7 +2913,7 @@ diminuer	diminuer	VERB
 beaucoup	beaucoup	ADV
 plus	plus	ADV
 rapidement	rapidement	ADV
-au fur et à mesure que	au fur et à mesure que	PUNCT
+au fur et à mesure que	au fur et à mesure que	SCONJ
 l'	le	DET
 automation	automation	NOUN
 se	se	PRON
@@ -3040,8 +3040,8 @@ pourrait	pouvoir	VERB
 compenser	compenser	VERB
 les	le	DET
 chiffres	chiffre	NOUN
-un peu	un peu	PUNCT
-pessimistes	pessimiste	NOUN
+un peu	un peu	ADV
+pessimistes	pessimiste	ADJ
 des	un	ADP_DET
 statistiques	statistique	NOUN
 disant	dire	VERB
@@ -3116,7 +3116,7 @@ livre	livre	NOUN
 de	de	ADP
 une	un	DET
 manière	manière	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus	plus	ADV
 prolongée	prolonger	VERB
 .	.	PUNCTsent

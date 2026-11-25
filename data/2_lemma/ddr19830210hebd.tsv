@@ -258,7 +258,7 @@ Allemagne	Allemagne	PROPN
 dans	dans	ADP
 un	un	DET
 chaos	chaos	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ;	;	PUNCTclause
 six	six	NUM
 millions	million	NOUN
@@ -322,8 +322,8 @@ gauche	gauche	NOUN
 ;	;	PUNCTclause
 la	le	DET
 lutte	lutte	NOUN
-sans merci	sans merci	PRON
-des	un	DET
+sans merci	sans merci	ADV
+des	un	ADP_DET
 communisme	communisme	NOUN
 contre	contre	ADP
 la	le	DET
@@ -1294,7 +1294,7 @@ composé	composer	VERB
 après	après	ADP
 coup	coup	NOUN
 par	par	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 Chaplin	Chaplin	PROPN
 ,	,	PUNCTclause
 le	le	DET
@@ -1326,7 +1326,7 @@ enragé	enrager	VERB
 et	et	CCONJ
 prostré	prostré	ADJ
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 atterrant	atterrant	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -1358,7 +1358,7 @@ un	un	DET
 Führer	Führer	PROPN
 silencieux	silencieux	ADJ
 ,	,	PUNCTclause
-non que	non que	ADV
+non que	non que	SCONJ
 il	il	PRON
 veuille	vouloir	VERB
 garder	garder	VERB
@@ -1761,7 +1761,7 @@ cela	cela	PRON
 compte	compter	VERB
 en	en	ADP
 lui	lui	PRON
-le moins du monde	le moins du monde	PUNCT
+le moins du monde	le moins du monde	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -1772,7 +1772,7 @@ un	un	DET
 destin	destin	NOUN
 pareil	pareil	NOUN
 .	.	PUNCTsent
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 démoniaque	démoniaque	ADJ
 du	du	ADP_DET
 terme	terme	NOUN
@@ -1977,7 +1977,7 @@ depuis	depuis	ADP
 la	le	DET
 formation	formation	NOUN
 de	de	ADP
-la première	la première	DET
+la première	la première	PRON
 société	société	NOUN
 .	.	PUNCTsent
 Hitler	Hitler	PROPN
@@ -2011,7 +2011,7 @@ tout	tout	PRON
 se	se	PRON
 est	être	AUX
 passé	passer	VERB
-comme si	comme si	DET
+comme si	comme si	SCONJ
 Hitler	Hitler	PROPN
 ,	,	PUNCTclause
 ayant	avoir	AUX
@@ -2145,7 +2145,7 @@ liens	lien	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 faudra	falloir	VERB
-faire appel	faire appel	NOUN
+faire appel	faire appel	VERB
 aux	au	ADP_DET
 forces	force	NOUN
 irrationnelles	irrationnel	ADJ
@@ -2300,7 +2300,7 @@ aux	au	ADP_DET
 masses	masse	NOUN
 ,	,	PUNCTclause
 car	car	CCONJ
-de tout temps	de tout temps	DET
+de tout temps	de tout temps	ADV
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
 forces	force	NOUN
@@ -2340,7 +2340,7 @@ hystérie	hystérie	NOUN
 qui	qui	PRON
 les	le_PRON	PRON
 pousse	pousser	VERB
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
@@ -2416,7 +2416,7 @@ de	de	ADP
 sa	son	DET
 parole	parole	NOUN
 .	.	PUNCTsent
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 Hitler	Hitler	PROPN
 arrivera	arriver	VERB
@@ -2668,7 +2668,7 @@ me	me	PRON
 repousse	repousser	VERB
 avec	avec	ADP
 bien	bien	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 puissance	puissance	NOUN
 ,	,	PUNCTclause
 même	même	ADV
@@ -2956,7 +2956,7 @@ du	du	ADP_DET
 sol	sol	NOUN
 ne	ne	ADV
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 selon	selon	ADP
 nous	nous	PRON
@@ -2980,7 +2980,7 @@ ceux	ceux	PRON
 de	de	ADP
 Moloch	Moloch	PROPN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 Moloch	Moloch	PROPN
 est	être	AUX
 l'	le	DET
@@ -3043,7 +3043,7 @@ de	de	ADP
 l'	le	DET
 hitlérisme	hitlérisme	NOUN
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 il	il	PRON
 annonçait	annoncer	VERB
 les	le	DET
@@ -3331,7 +3331,7 @@ il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	AUX
-en fait	en fait	VERB
+en fait	en fait	ADV
 que	que	SCONJ
 la	le	DET
 puissance	puissance	NOUN
@@ -3354,7 +3354,7 @@ résister	résister	VERB
 à	à	ADP
 la	le	DET
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 étatique	étatique	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ

@@ -9,7 +9,7 @@
 ↵↵	↵↵	PUNCTstruct
 5	5	NUM
 .	.	PUNCTsent
-en dernier ressort	en dernier ressort	NOUN
+en dernier ressort	en dernier ressort	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 quel que soit	quel que soit	ADP
@@ -115,7 +115,7 @@ de	de	ADP
 notre	notre	DET
 condition	condition	NOUN
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 intéressés	intéresser	VERB
 ,	,	PUNCTclause
 au	au	ADP_DET
@@ -368,7 +368,7 @@ la	le	DET
 haine	haine	NOUN
 pour tout	pour tout	ADP
 idéal	idéal	NOUN
-un peu	un peu	ADP_DET
+un peu	un peu	ADV
 haut	haut	ADJ
 :	:	PUNCTclause
 il	il	PRON
@@ -386,7 +386,7 @@ de	de	ADP
 le	le	DET
 lui	lui	PRON
 imposer	imposer	VERB
-de force	de force	DET
+de force	de force	ADV
 .	.	PUNCTsent
 on	on	PRON
 a	avoir	AUX
@@ -796,8 +796,8 @@ cet	ce	DET
 ordre	ordre	NOUN
 ,	,	PUNCTclause
 encore	encore	ADV
-moins de	moins de	PUNCT
-les	le	DET
+moins de	moins de	DET
+les	le_PRON	PRON
 maquiller	maquiller	VERB
 ;	;	PUNCTclause
 mais	mais	CCONJ
@@ -981,7 +981,7 @@ il	il	PRON
 me	me	PRON
 faut	falloir	VERB
 indiquer	indiquer	VERB
-pour finir	pour finir	PUNCT
+pour finir	pour finir	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 I.	I.	PROPN
@@ -1320,7 +1320,7 @@ que	que	PRON
 elle	elle	PRON
 impose	imposer	VERB
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ,	,	PUNCTclause
 seul	seul	ADJ
 ,	,	PUNCTclause
@@ -1348,7 +1348,7 @@ même	même	ADJ
 couverture	couverture	NOUN
 quelques	quelque	DET
 essais	essai	NOUN
-de circonstance	de circonstance	PUNCT
+de circonstance	de circonstance	ADJ
 qui	qui	PRON
 ne	ne	ADV
 ont	avoir	AUX
@@ -1403,7 +1403,7 @@ invitèrent	inviter	VERB
 à	à	ADP
 traiter	traiter	VERB
 sans	sans	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 précautions	précaution	NOUN
 ,	,	PUNCTclause
 se	se	PRON

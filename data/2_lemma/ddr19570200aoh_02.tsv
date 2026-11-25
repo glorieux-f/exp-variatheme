@@ -170,7 +170,7 @@ l'	le	DET
 humanité	humanité	NOUN
 qui	qui	PRON
 anime	animer	VERB
-de part et d'autre	de part et d'autre	ADP
+de part et d'autre	de part et d'autre	ADV
 les	le	DET
 meilleurs	meilleur	ADJ
 esprits	esprit	NOUN
@@ -341,7 +341,7 @@ de	de	ADP
 paix	paix	NOUN
 ,	,	PUNCTclause
 les	le	DET
-passer sous silence	passer sous silence	NOUN
+passer sous silence	passer sous silence	VERB
 ou	ou	CCONJ
 les	le	DET
 minimiser	minimiser	VERB
@@ -361,7 +361,7 @@ une	un	DET
 union	union	NOUN
 véritable	véritable	ADJ
 :	:	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 sa	son	DET
 fécondité	fécondité	NOUN
 et	et	CCONJ
@@ -802,7 +802,7 @@ cesseront	cesser	VERB
 de	de	ADP
 se	se	PRON
 affirmer	affirmer	VERB
-dans l'ensemble	dans l'ensemble	PUNCT
+dans l'ensemble	dans l'ensemble	ADV
 de	de	ADP
 notre	notre	DET
 histoire	histoire	NOUN
@@ -815,7 +815,7 @@ du	du	ADP_DET
 moyen-âge	moyen-âge	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à bien des égards	à bien des égards	DET
+à bien des égards	à bien des égards	ADV
 ,	,	PUNCTclause
 en effet	en effet	ADV
 ,	,	PUNCTclause
@@ -947,7 +947,7 @@ est	être	AUX
 maître	maître	NOUN
 Eckhart	Eckhart	PROPN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 en	en	ADP
 Inde	Inde	PROPN
 ce	ce	PRON
@@ -1120,7 +1120,7 @@ vivant	vivant	ADJ
 ne	ne	ADV
 remonte	remonter	VERB
 pas	pas	ADV
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 une	un	DET
 post-Renaissance	post-Renaissance	NOUN
 importée	importé	ADJ
@@ -1268,7 +1268,7 @@ un	un	DET
 seul	seul	ADJ
 lieu	lieu	NOUN
 sacré	sacré	ADJ
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 églises	église	NOUN
 en	en	ADP
 faux	faux	NOUN
@@ -1837,7 +1837,7 @@ et	et	CCONJ
 l'on	on	PRON
 retrouve	retrouver	VERB
 ici	ici	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 significations	signification	NOUN
 symboliques	symbolique	ADJ
 de	de	ADP
@@ -2125,9 +2125,9 @@ ceux	ceux	PRON
 ne	ne	ADV
 figurent	figurer	VERB
 pas	pas	ADV
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 l'	le	DET
-Occident	Occident	PROPN
+occident	occident	NOUN
 de	de	ADP
 la	le	DET
 Chine	Chine	PROPN
@@ -2313,7 +2313,7 @@ une	un	DET
 valeur	valeur	NOUN
 différente	différent	ADJ
 ,	,	PUNCTclause
-encore que	encore que	PRON
+encore que	encore que	SCONJ
 par	par	ADP
 sa	son	DET
 forme	forme	NOUN
@@ -2493,7 +2493,7 @@ matière	matière	NOUN
 l'	le	DET
 esprit	esprit	NOUN
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 opération	opération	NOUN
 signifie	signifier	VERB
 en	en	ADP
@@ -2692,7 +2692,7 @@ se	se	PRON
 agit	agir	VERB
 en réalité	en réalité	ADV
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 cas	cas	NOUN
 de	de	ADP
 une	un	DET
@@ -2705,7 +2705,7 @@ l'	le	DET
 homme	homme	NOUN
 ;	;	PUNCTclause
 dans	dans	ADP
-le second	le second	DET
+le second	le second	PRON
 ,	,	PUNCTclause
 de	de	ADP
 un	un	DET
@@ -3136,14 +3136,14 @@ le	le	DET
 principe	principe	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 les	le	DET
 choses	chose	NOUN
 particulières	particulier	ADJ
 ,	,	PUNCTclause
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 Dieu	Dieu	PROPN
@@ -3739,7 +3739,7 @@ Bach	Bach	NOUN
 je	je	PRON
 ne	ne	ADV
 sais	savoir	VERB
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -3990,7 +3990,7 @@ ne	ne	ADV
 semble	sembler	VERB
 moins	moins	ADV
 le	le	DET
-mettre en danger	mettre en danger	NOUN
+mettre en danger	mettre en danger	VERB
 ou	ou	CCONJ
 le	le	DET
 compromettre	compromettre	VERB
@@ -4116,8 +4116,8 @@ de	de	ADP
 histoire	histoire	NOUN
 ne	ne	ADV
 ont	avoir	AUX
-plus de	plus de	ADV
-pointe	pointer	VERB
+plus de	plus de	DET
+pointe	pointe	NOUN
 ni	ni	CCONJ
 de	de	ADP
 but	but	NOUN
@@ -4959,7 +4959,7 @@ néant	néant	NOUN
 »	»	PUNCTclause
 ?	?	PUNCTsent
 et	et	CCONJ
-à l'inverse	à l'inverse	ADJ
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 quel	quel	DET
 est	être	AUX
@@ -5038,7 +5038,7 @@ serait	être	AUX
 faux	faux	ADJ
 ,	,	PUNCTclause
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 banal	banal	ADJ
 ,	,	PUNCTclause
 de	de	ADP
@@ -5171,11 +5171,11 @@ l'	le	DET
 usage	usage	NOUN
 que	que	SCONJ
 on	on	PRON
-en fait	en fait	PRON
+en fait	en fait	ADV
 ne	ne	ADV
 est	être	AUX
 pas du tout	pas du tout	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 .	.	PUNCTsent
 la	le	DET
 foule	foule	NOUN
@@ -5269,7 +5269,7 @@ un	un	DET
 exemplaire	exemplaire	NOUN
 humain	humain	ADJ
 pris	prendre	VERB
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 )	)	PUNCTclause
 que	que	SCONJ
 on	on	PRON
@@ -5314,7 +5314,7 @@ précis	précis	ADJ
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 trouve	trouver	VERB
-le premier	le premier	SYM
+le premier	le premier	PRON
 dans	dans	ADP
 Kassner	Kassner	PROPN
 ,	,	PUNCTclause
@@ -5767,10 +5767,10 @@ le	le	DET
 pria	prier	VERB
 de	de	ADP
 ne	ne	ADV
-en rien	en rien	PRON
-faire	faire	AUX
+en rien	en rien	ADV
+faire	faire	VERB
 ,	,	PUNCTclause
-tout	tout	ADV
+tout	tout	PRON
 en	en	ADP
 confessant	confesser	VERB
 que	que	SCONJ
@@ -5791,7 +5791,7 @@ chaque	chaque	DET
 Europe	Europe	PROPN
 éprouvera	éprouver	VERB
 ici	ici	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 sentiment	sentiment	NOUN
 que	que	SCONJ
 le	le	DET
@@ -5882,7 +5882,7 @@ est	être	AUX
 pas	pas	ADV
 permis	permettre	VERB
 de	de	ADP
-porter atteinte	porter atteinte	NOUN
+porter atteinte	porter atteinte	VERB
 .	.	PUNCTsent
 ce	ce	PRON
 qui	qui	PRON
@@ -5962,7 +5962,7 @@ rapportent	rapporter	VERB
 .	.	PUNCTsent
 tous les deux	tous les deux	PRON
 établissent	établir	VERB
-la même	la même	DET
+la même	la même	PRON
 liaison	liaison	NOUN
 entre	entre	ADP
 le	le	DET
@@ -6462,11 +6462,11 @@ sur	sur	ADP
 cela	cela	PRON
 offre	offrir	VERB
 le	le	DET
-moins de	moins de	NOUN
+moins de	moins de	DET
 sens	sens	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 perd	perdre	VERB
 sa	son	DET
 pointe	pointe	NOUN

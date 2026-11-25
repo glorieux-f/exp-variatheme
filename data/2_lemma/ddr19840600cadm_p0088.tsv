@@ -256,7 +256,7 @@ un	un	NUM
 réseau	réseau	NOUN
 Europe	Europe	PROPN
 établi	établir	VERB
-au-dessus de	au-dessus de	ADP_DET
+au-dessus de	au-dessus de	ADP
 autorités	autorité	NOUN
 du	du	ADP_DET
 pays	pays	NOUN
@@ -274,7 +274,7 @@ ecclésiastique	ecclésiastique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -409,7 +409,7 @@ en quelque sorte	en quelque sorte	ADV
 mais	mais	CCONJ
 elle	elle	PRON
 sera	être	AUX
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 la	le	DET
 langue	langue	NOUN
 des	un	ADP_DET
@@ -744,7 +744,7 @@ ne	ne	ADV
 sera	être	AUX
 tranchée	trancher	VERB
 ,	,	PUNCTclause
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 temporel	temporel	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1003,7 +1003,7 @@ de	de	ADP
 Byzance	Byzance	PROPN
 ,	,	PUNCTclause
 sera	être	AUX
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 à	à	ADP
 nommer	nommer	VERB
 «	«	PUNCTclause
@@ -1059,7 +1059,7 @@ pouvoirs	pouvoir	NOUN
 suprêmes	suprême	ADJ
 jusque	jusque	ADP
 détenus	détenu	NOUN
-sans conteste	sans conteste	PUNCT
+sans conteste	sans conteste	ADV
 par	par	ADP
 la	le	DET
 papauté	papauté	NOUN
@@ -1201,7 +1201,7 @@ l'	le	DET
 état	état	NOUN
 classique	classique	ADJ
 opte	opter	VERB
-pour l'essentiel	pour l'essentiel	PUNCT
+pour l'essentiel	pour l'essentiel	ADV
 ,	,	PUNCTclause
 le	le	DET
 contrôle	contrôle	NOUN
@@ -1436,7 +1436,7 @@ l'	le	DET
 état	état	NOUN
 a	avoir	AUX
 contribué	contribuer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 partout	partout	ADV
 à	à	ADP
 façonner	façonner	VERB
@@ -1482,8 +1482,8 @@ voilà	voilà	ADP
 justifiées	justifier	VERB
 par	par	ADP
 le	le	DET
-bien des	bien des	NOUN
-états	état	ADP
+bien des	bien des	DET
+états	état	NOUN
 les	le	DET
 guerres	guerre	NOUN
 de	de	ADP
@@ -1585,7 +1585,7 @@ bienfaits	bienfait	NOUN
 soyons	être	VERB
 sérieux	sérieux	ADJ
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 doctrine	doctrine	NOUN
 de	de	ADP
 l'	le	DET
@@ -1649,7 +1649,7 @@ appelons	appeler	VERB
 l'	le	DET
 état	état	NOUN
 ,	,	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 la	le	DET
 nation	nation	NOUN
 organisée	organisé	ADJ
@@ -1715,7 +1715,7 @@ de	de	ADP
 Jean	Jean	PROPN
 Bodin	Bodin	PROPN
 est	être	AUX
-bel et bien	bel et bien	DET
+bel et bien	bel et bien	ADV
 celle	celle	PRON
 de	de	ADP
 la	le	DET
@@ -1909,7 +1909,7 @@ la	le	DET
 paix	paix	NOUN
 ,	,	PUNCTclause
 cognoistre	cognoistre	VERB
-en dernier ressort	en dernier ressort	PUNCT
+en dernier ressort	en dernier ressort	ADV
 les	le	DET
 jugements	jugement	NOUN
 de	de	ADP
@@ -1996,7 +1996,7 @@ sortes	sorte	NOUN
 de	de	ADP
 républiques	république	NOUN
 ,	,	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 la	le	DET
 monarchie	monarchie	NOUN
 ,	,	PUNCTclause
@@ -2279,9 +2279,9 @@ mêmes	même	ADJ
 on	on	PRON
 en	en	ADP
 trouverait	trouver	VERB
-autant de	autant de	PUNCT
+autant de	autant de	DET
 exemples	exemple	NOUN
-que	que	PRON
+que	que	SCONJ
 il y a	il y a	VERB
 de	de	ADP
 emplois	emploi	NOUN
@@ -2430,8 +2430,8 @@ l'	le	DET
 âge	âge	NOUN
 classique	classique	ADJ
 mélange	mélanger	VERB
-un peu	un peu	ADP_DET
-tout	tout	PRON
+un peu	un peu	ADV
+tout	tout	ADV
 ,	,	PUNCTclause
 non sans	non sans	ADP
 subtiles	subtil	ADJ
@@ -2511,7 +2511,7 @@ peuple	peuple	NOUN
 celui	celui	PRON
 qui	qui	PRON
 croit	croire	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 n'importe quoi	n'importe quoi	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2905,10 +2905,10 @@ nation	nation	NOUN
 et	et	CCONJ
 défend	défendre	VERB
 à	à	ADP
-qui que ce soit	qui que ce soit	NOUN
+qui que ce soit	qui que ce soit	PRON
 de	de	ADP
 y	y	PRON
-donner suite	donner suite	PUNCT
+donner suite	donner suite	VERB
 ,	,	PUNCTclause
 à peine de	à peine de	ADP
 être	être	AUX
@@ -2991,8 +2991,8 @@ de	de	ADP
 3	3	NUM
 membres	membre	NOUN
 dont	dont	PRON
-le premier	le premier	DET
-consul	consul	NOUN
+le premier	le premier	PRON
+Consul	Consul	PROPN
 ,	,	PUNCTclause
 non	non	ADV
 responsable	responsable	ADJ
@@ -3038,7 +3038,7 @@ concepts.	concepts.	NOUN
 a	avoir	VERB
 )	)	PUNCTclause
 au cours de	au cours de	ADP
-la première	la première	DET
+la première	la première	PRON
 étape	étape	NOUN
 de	de	ADP
 la	le	DET
@@ -3118,7 +3118,7 @@ indivisible	indivisible	ADJ
 qui	qui	PRON
 se	se	PRON
 manifeste	manifester	VERB
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois ci	ADV
 vers	vers	ADP
 l'	le	DET
 intérieur	intérieur	NOUN
@@ -3198,7 +3198,7 @@ unique	unique	ADJ
 de	de	ADP
 organiser	organiser	VERB
 et	et	CCONJ
-de fait	de fait	VERB
+de fait	de fait	ADJ
 fonctionner	fonctionner	VERB
 le	le	DET
 pouvoir	pouvoir	NOUN
@@ -3224,7 +3224,7 @@ XIV	XIV	NUM
 comme	comme	SCONJ
 tout	tout	PRON
 patron	patron	NOUN
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 divin	divin	ADJ
 ou	ou	CCONJ
 tout	tout	ADJ
@@ -3378,7 +3378,7 @@ l'	le	DET
 ce	ce	PRON
 est	être	AUX
 savoir	savoir	VERB
-au profit de	au profit de	PUNCT
+au profit de	au profit de	ADP
 qui	qui	PRON
 travaille	travailler	VERB
 l'	le	DET
@@ -3436,7 +3436,7 @@ haute	haut	ADJ
 classe	classe	NOUN
 moyenne	moyen	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 état	état	NOUN
 préclassique	préclassique	ADJ
@@ -3465,7 +3465,7 @@ l'	le	DET
 ce	ce	PRON
 est	être	AUX
 savoir	savoir	VERB
-au profit de	au profit de	PUNCT
+au profit de	au profit de	ADP
 qui	qui	PRON
 travaille	travailler	VERB
 l'	le	DET
@@ -3652,7 +3652,7 @@ Lénine	Lénine	PROPN
 ,	,	PUNCTclause
 il	il	PRON
 détruisit	détruire	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 le	le	DET
 pouvoir	pouvoir	NOUN
 des	un	ADP_DET
@@ -3913,8 +3913,8 @@ les	le	DET
 transferts	transfert	NOUN
 »	»	PUNCTclause
 sont	être	AUX
-en fait	en fait	SYM
-des	un	ADP_DET
+en fait	en fait	ADV
+des	un	DET
 achats	achat	NOUN
 faits	faire	VERB
 par	par	ADP
@@ -4024,7 +4024,7 @@ avouent	avouer	VERB
 ↵↵	↵↵	PUNCTstruct
 Hegel	Hegel	PROPN
 annonce	annoncer	VERB
-le premier	le premier	ADP
+le premier	le premier	PRON
 la	le	DET
 loi	loi	NOUN
 constitutive	constitutif	ADJ
@@ -4226,7 +4226,7 @@ plus	plus	ADV
 mécanisée	mécaniser	VERB
 que	que	SCONJ
 dans	dans	ADP
-n'importe quelle	n'importe quelle	ADJ
+n'importe quelle	n'importe quelle	DET
 société	société	NOUN
 humaine	humain	ADJ
 jusque	jusque	ADP
@@ -4238,7 +4238,7 @@ militarisé	militariser	VERB
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 mobilisable	mobilisable	ADJ
-à tout moment	à tout moment	PUNCT
+à tout moment	à tout moment	ADV
 ,	,	PUNCTclause
 esprit	esprit	NOUN
 ,	,	PUNCTclause
@@ -5308,7 +5308,7 @@ une	un	DET
 de	de	ADP
 actes	acte	NOUN
 terroristes	terroriste	ADJ
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 «	«	PUNCTclause
 à	à	ADP
 l'	le	DET
@@ -5497,7 +5497,7 @@ une	un	DET
 folle	fou	ADJ
 susceptibilité	susceptibilité	NOUN
 avertissent	avertir	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 les	le	DET
 gouvernants	gouvernant	NOUN
 de	de	ADP
@@ -5810,7 +5810,7 @@ antagonistes	antagoniste	ADJ
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
-à l'abri de	à l'abri de	DET
+à l'abri de	à l'abri de	ADP
 erreurs	erreur	NOUN
 qualifiées	qualifier	VERB
 d	d	ADP
@@ -6175,7 +6175,7 @@ l'	le	DET
 on	on	PRON
 le	le_PRON	PRON
 retrouve	retrouver	VERB
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 dans	dans	ADP
 les	le	DET
 écrits	écrit	NOUN
@@ -6298,7 +6298,7 @@ prétentions	prétention	NOUN
 .	.	PUNCTsent
 nous	nous	PRON
 verrons	voir	VERB
-aussitôt que	aussitôt que	ADV
+aussitôt que	aussitôt que	SCONJ
 tous	tout	ADJ
 ,	,	PUNCTclause
 sans	sans	ADP
@@ -6611,7 +6611,7 @@ capables	capable	ADJ
 de	de	ADP
 assurer	assurer	VERB
 ,	,	PUNCTclause
-en fait	en fait	PRON
+en fait	en fait	ADV
 ,	,	PUNCTclause
 aucune	aucun	DET
 des	un	ADP_DET
@@ -6803,8 +6803,8 @@ ni	ni	CCONJ
 ,	,	PUNCTclause
 finalement	finalement	ADV
 ,	,	PUNCTclause
-tirer parti	tirer parti	PRON
-des	un	ADP_DET
+tirer parti	tirer parti	VERB
+des	un	DET
 ressources	ressource	NOUN
 propres	propre	ADJ
 au	au	ADP_DET
@@ -6917,7 +6917,7 @@ l'	le	DET
 état	état	NOUN
 classique	classique	ADJ
 —	—	PUNCTclause
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 —	—	PUNCTclause
 puis	puis	CCONJ
 à	à	ADP
@@ -7379,7 +7379,7 @@ incarnent	incarner	VERB
 de	de	ADP
 où	où	PRON
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 les	le	DET
 définitions	définition	NOUN
@@ -7500,7 +7500,7 @@ cela	cela	PRON
 mais	mais	CCONJ
 pouvant	pouvoir	VERB
 entraîner	entraîner	VERB
-sous peu	sous peu	PUNCT
+sous peu	sous peu	ADV
 l'	le	DET
 extinction	extinction	NOUN
 de	de	ADP
@@ -7561,7 +7561,7 @@ personne	personne_PRON	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 contester	contester	VERB
-de bonne foi	de bonne foi	PUNCT
+de bonne foi	de bonne foi	ADJ
 ,	,	PUNCTclause
 quel	quel	DET
 est	être	AUX
@@ -7645,8 +7645,8 @@ actuels	actuel	ADJ
 du	du	ADP_DET
 communisme	communisme	NOUN
 nationaliste	nationaliste	ADJ
-à l'extrême	à l'extrême	ADP
-droite	droite	NOUN
+à l'extrême	à l'extrême	ADV
+droite	droit	ADJ
 jacobine	jacobin	ADJ
 et	et	CCONJ
 du	du	ADP_DET
@@ -7671,7 +7671,7 @@ une	un	DET
 et	et	CCONJ
 indivisible	indivisible	ADJ
 ,	,	PUNCTclause
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 absolutisée	absolutiser	VERB
 ,	,	PUNCTclause
 sacralisée	sacraliser	VERB
@@ -7694,7 +7694,7 @@ issues	issu	ADJ
 souhaitables	souhaitable	ADJ
 et	et	CCONJ
 possibles	possible	ADJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 certes	certes	ADV
@@ -7716,7 +7716,7 @@ négative	négatif	ADJ
 et	et	CCONJ
 très	très	ADV
 active	actif	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 telle	tel	DET
 ,	,	PUNCTclause
 est	être	AUX
@@ -8140,7 +8140,7 @@ pacte	pacte	NOUN
 ou	ou	CCONJ
 de	de	ADP
 alliance	alliance	NOUN
-de bonne foi	de bonne foi	PUNCT
+de bonne foi	de bonne foi	ADJ
 ,	,	PUNCTclause
 qui	qui	PRON
 limiterait	limiter	VERB
@@ -8182,7 +8182,7 @@ ce	ce	PRON
 est	être	AUX
 vouloir	vouloir	VERB
 ,	,	PUNCTclause
-au fait	au fait	ADP_DET
+au fait	au fait	ADV
 et	et	CCONJ
 au	au	ADP_DET
 prendre	prendre	VERB
@@ -8530,7 +8530,7 @@ grecque	grec	ADJ
 ,	,	PUNCTclause
 nous	nous	PRON
 sommes	être	AUX
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 espérer	espérer	VERB
 que	que	SCONJ
 notre	notre	DET
@@ -8541,7 +8541,7 @@ trouvera	trouver	VERB
 sa	son	DET
 solution	solution	NOUN
 —	—	PUNCTclause
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 on	on	PRON
 puisse	pouvoir	VERB
 en	en	ADP
@@ -8676,7 +8676,7 @@ aux	au	ADP_DET
 négociations	négociation	NOUN
 qui	qui	PRON
 devaient	devoir	VERB
-donner naissance	donner naissance	PRON
+donner naissance	donner naissance	VERB
 à	à	ADP
 l'	le	DET
 		TOKEN
@@ -8799,7 +8799,7 @@ souveraineté	souveraineté	NOUN
 nationale	national	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-plus de	plus de	ADV
+plus de	plus de	DET
 trente	trente	NUM
 ans	an	NOUN
 plus tard	plus tard	ADV
@@ -8963,7 +8963,7 @@ et	et	CCONJ
 des	un	DET
 mot d'ordre	mot d'ordre	NOUN
 initiant	initier	VERB
-de proche en proche	de proche en proche	ADP
+de proche en proche	de proche en proche	ADV
 des	un	DET
 changements	changement	NOUN
 de	de	ADP
@@ -9167,7 +9167,7 @@ Concurrence	Concurrence	PROPN
 compétitivité	compétitivité	NOUN
 complémentarité	complémentarité	ADV
 Prestige	Prestige	PROPN
-du chef de	du chef de	PUNCT
+du chef de	du chef de	ADP
 l'	le	DET
 état	état	NOUN
 Compétence	Compétence	PROPN
@@ -9294,7 +9294,7 @@ des	un	DET
 vertus	vertu	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 on	on	PRON
 ne	ne	ADV
@@ -9374,7 +9374,7 @@ de	de	ADP
 la	le	DET
 solidarité	solidarité	NOUN
 .	.	PUNCTsent
-indépendamment de	indépendamment de	PUNCT
+indépendamment de	indépendamment de	ADP
 tout	tout	PRON
 jugement	jugement	NOUN
 sur	sur	ADP

@@ -90,7 +90,7 @@ France	France	PROPN
 ,	,	PUNCTclause
 je	je	PRON
 trouve	trouver	VERB
-la première	la première	DET
+la première	la première	PRON
 mention	mention	NOUN
 de	de	ADP
 «	«	PUNCTclause
@@ -113,7 +113,7 @@ demie	demi	NOUN
 .	.	PUNCTsent
 l'	le	DET
 équipe	équipe	NOUN
-de nuit	de nuit	PUNCT
+de nuit	de nuit	ADV
 se	se	PRON
 installe	installer	VERB
 sans	sans	ADP
@@ -500,7 +500,7 @@ que	que	SCONJ
 il	il	PRON
 me	me	PRON
 tend	tendre	VERB
-aussitôt que	aussitôt que	ADV
+aussitôt que	aussitôt que	SCONJ
 il	il	PRON
 me	me	PRON
 voit	voir	VERB
@@ -736,7 +736,7 @@ bourru	bourru	ADJ
 ,	,	PUNCTclause
 en	en	ADP
 pénétrant	pénétrer	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 soir	soir	NOUN
 dans	dans	ADP
 le	le	DET
@@ -878,7 +878,7 @@ que	que	PRON
 il	il	PRON
 a	avoir	AUX
 fait	faire	VERB
-de plus belle	de plus belle	PUNCT
+de plus belle	de plus belle	ADV
 .	.	PUNCTsent
 tard	tard	ADV
 dans	dans	ADP
@@ -1023,7 +1023,7 @@ Garbo	Garbo	PROPN
 je	je	PRON
 ne	ne	ADV
 connais	connaître	VERB
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 charmant	charmer	VERB
 dans	dans	ADP
 tout	tout	DET
@@ -1085,7 +1085,7 @@ veut	vouloir	VERB
 plus	plus	ADV
 .	.	PUNCTsent
 (	(	PUNCTclause
-trop de	trop de	NOUN
+trop de	trop de	DET
 entretien	entretien	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -1117,7 +1117,7 @@ que	que	PRON
 forment	former	VERB
 les	le	DET
 châteaux	château	NOUN
-au fond	au fond	ADJ
+au fond	au fond	ADV
 de	de	ADP
 nos	nos	DET
 mémoires	mémoire	NOUN
@@ -1156,7 +1156,7 @@ ou	ou	CCONJ
 de	de	ADP
 Tonio	Tonio	PROPN
 à	à	ADP
-n'importe quelle	n'importe quelle	ADJ
+n'importe quelle	n'importe quelle	DET
 heure	heure	NOUN
 de	de	ADP
 la	le	DET
@@ -1220,7 +1220,7 @@ amis	ami	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 (	(	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 le	le_PRON	PRON
 sait	savoir	VERB
 à	à	ADP
@@ -1279,13 +1279,13 @@ peu	peu	ADV
 :	:	PUNCTclause
 il	il	PRON
 chantonne	chantonner	VERB
-sans arrêt	sans arrêt	PUNCT
+sans arrêt	sans arrêt	ADV
 pendant	pendant	ADP
 le	le	DET
 jeu	jeu	NOUN
 ,	,	PUNCTclause
 quelquefois	quelquefois	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 faux	faux	ADJ
 —	—	PUNCTclause
 exprès	exprès	ADV
@@ -1371,7 +1371,7 @@ nucléaire	nucléaire	ADJ
 Saint	Saint	PROPN
 Ex	Ex	PROPN
 est	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 qui	qui	PRON
 me	me	PRON
 ait	avoir	AUX
@@ -1728,7 +1728,7 @@ possibles	possible	ADJ
 scientifiquement	scientifiquement	ADV
 parlant	parler	VERB
 —	—	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 le	le	DET
 stalinisme	stalinisme	NOUN
 et	et	CCONJ
@@ -1925,7 +1925,7 @@ il	il	PRON
 me	me	PRON
 regarde	regarder	VERB
 sans	sans	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 aménité	aménité	NOUN
 .	.	PUNCTsent
 sur	sur	ADP
@@ -1949,7 +1949,7 @@ dit	dire	VERB
 Denis	Denis	PROPN
 !	!	PUNCTsent
 »	»	PUNCTclause
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -2248,7 +2248,7 @@ possible	possible	ADJ
 de	de	ADP
 rechercher	rechercher	VERB
 le	le	DET
-plus de	plus de	SCONJ
+plus de	plus de	DET
 souffrance	souffrance	NOUN
 possible	possible	ADJ
 .	.	PUNCTsent
@@ -2513,7 +2513,7 @@ algèbre	algèbre	NOUN
 …	…	PUNCTsent
 et	et	CCONJ
 tous	tout	ADJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ils	ils	PRON
 sont	être	AUX
 ainsi	ainsi	ADV
@@ -2552,7 +2552,7 @@ fais	faire	VERB
 cuire	cuire	VERB
 d'ailleurs	d'ailleurs	ADV
 tout	tout	ADV
-de travers	de travers	PUNCT
+de travers	de travers	ADV
 car	car	CCONJ
 la	le	DET
 peau	peau	NOUN

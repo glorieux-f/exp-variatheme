@@ -401,8 +401,8 @@ sens	sens	NOUN
 simplement	simplement	ADV
 physiologique	physiologique	ADJ
 ,	,	PUNCTclause
-de manière que	de manière que	DET
-l'	le_PRON	PRON
+de manière que	de manière que	SCONJ
+l'	le	DET
 histoire	histoire	NOUN
 dure	dur	ADJ
 encore	encore	ADV
@@ -703,7 +703,7 @@ peur	peur	NOUN
 —	—	PUNCTclause
 comme	comme	ADP
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -722,10 +722,10 @@ suffisamment	suffisamment	ADV
 impliqués	impliquer	VERB
 pour	pour	ADP
 dire	dire	VERB
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 «	«	PUNCTclause
-Foutez	Foutez	PROPN
+foutez	foutre	VERB
 moi	moi	PRON
 la	le	DET
 paix	paix	NOUN
@@ -1045,7 +1045,7 @@ rencontrés	rencontrer	VERB
 à	à	ADP
 Paris	Paris	PROPN
 ,	,	PUNCTclause
-la première	la première	DET
+la première	la première	PRON
 année	année	NOUN
 où	où	PRON
 je	je	PRON
@@ -1331,7 +1331,7 @@ ont	avoir	VERB
 pas du tout	pas du tout	ADV
 envie	envie	NOUN
 de	de	ADP
-avoir raison	avoir raison	PUNCT
+avoir raison	avoir raison	VERB
 ;	;	PUNCTclause
 ils	ils	PRON
 vous	vous	PRON
@@ -1346,7 +1346,7 @@ désastres	désastre	NOUN
 et	et	CCONJ
 de	de	ADP
 leur	leur	DET
-donner tort	donner tort	NOUN
+donner tort	donner tort	VERB
 en	en	ADP
 changeant	changer	VERB
 de	de	ADP
@@ -1427,10 +1427,10 @@ nation	nation	NOUN
 l'	le	DET
 état	état	NOUN
 imposant	imposant	ADJ
-les mêmes	les mêmes	PUNCT
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 territoire	territoire	NOUN
 ,	,	PUNCTclause
 aux	au	ADP_DET
@@ -1492,7 +1492,7 @@ Suisse	Suisse	PROPN
 je	je	PRON
 avoue	avouer	VERB
 que	que	SCONJ
-à ce moment-là	à ce moment-là	PRON
+à ce moment-là	à ce moment-là	ADV
 je	je	PRON
 connaissais	connaître	VERB
 assez	assez	ADV
@@ -2137,7 +2137,7 @@ auto	auto	NOUN
 ;	;	PUNCTclause
 quel	quel	DET
 est	être	AUX
-au fond	au fond	PUNCT
+au fond	au fond	ADV
 leur	leur	DET
 lien	lien	NOUN
 ?	?	PUNCTsent
@@ -2288,8 +2288,8 @@ le	le	DET
 plutonium	plutonium	NOUN
 qui	qui	PRON
 permet	permettre	VERB
-de fait	de fait	ADP
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 bombes	bombe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2327,7 +2327,7 @@ cette	ce	DET
 centralisation	centralisation	NOUN
 démentielle	démentiel	ADJ
 !	!	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 aussi	aussi	ADV
 je	je	PRON
 suis	suivre	VERB

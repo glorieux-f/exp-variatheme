@@ -47,7 +47,7 @@ le	le	DET
 plus	plus	ADV
 souvent	souvent	ADV
 cité	citer	VERB
-à ce sujet	à ce sujet	DET
+à ce sujet	à ce sujet	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
@@ -246,7 +246,7 @@ asiatique	asiatique	ADJ
 et	et	CCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 termes	terme	NOUN
 ,	,	PUNCTclause
 Élisée	Élisée	PROPN
@@ -448,7 +448,7 @@ la	le	DET
 Méditerranée	Méditerranée	PROPN
 ,	,	PUNCTclause
 puis	puis	CCONJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 Colonnes	Colonnes	PROPN
 de	de	ADP
 Hercule	Hercule	PROPN
@@ -623,7 +623,7 @@ profonde	profond	ADJ
 Himilco	Himilco	PROPN
 rapporte	rapporter	VERB
 que	que	SCONJ
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 Colonnes	Colonnes	PROPN
 ,	,	PUNCTclause
 à	à	ADP
@@ -773,7 +773,7 @@ mnémotechnie	mnémotechnie	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 aurait	avoir	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 «	«	PUNCTclause
 nommé	nommer	VERB
 les	le	DET
@@ -853,7 +853,7 @@ Strabon	Strabon	PROPN
 ,	,	PUNCTclause
 nous	nous	PRON
 donnent	donner	VERB
-la même	la même	DET
+la même	la même	PRON
 définition	définition	NOUN
 :	:	PUNCTclause
 l'	le	DET
@@ -966,7 +966,7 @@ rappeler	rappeler	VERB
 que	que	SCONJ
 Socrate	Socrate	PROPN
 fut	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 philosophe	philosophe	NOUN
 à	à	ADP
 dire	dire	VERB
@@ -1097,8 +1097,8 @@ fait	faire	VERB
 au	au	ADP_DET
 chapitre	chapitre	NOUN
 V	V	NUM
-le premier	le premier	DET
-parallèle	parallèle	NOUN
+le premier	le premier	PRON
+parallèle	parallèle	ADJ
 (	(	PUNCTclause
 ou	ou	CCONJ
 contraste	contraste	NOUN
@@ -1272,7 +1272,7 @@ de	de	ADP
 où	où	PRON
 il	il	PRON
 suit	suivre	VERB
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 les	le	DET
 peuples	peuple	NOUN
 qui	qui	PRON
@@ -1359,7 +1359,7 @@ où	où	PRON
 tout	tout	PRON
 se	se	PRON
 trouve	trouver	VERB
-en équilibre	en équilibre	ADP
+en équilibre	en équilibre	ADJ
 au milieu de	au milieu de	ADP
 tous	tout	ADJ
 les	le	DET
@@ -1419,7 +1419,7 @@ l'	le	DET
 âme	âme	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 ils	ils	PRON
@@ -1487,7 +1487,7 @@ tribulations	tribulation	NOUN
 celles	celle	PRON
 ont	avoir	AUX
 à-peu-près	à-peu-près	NOUN
-les mêmes	les mêmes	PUNCT
+les mêmes	les mêmes	PRON
 caractères	caractère	NOUN
 ,	,	PUNCTclause
 passant	passer	VERB
@@ -1968,10 +1968,10 @@ même	même	ADV
 diffèrent	différer	VERB
 entre	entre	ADP
 eux	eux	PRON
-en plus	en plus	PUNCT
+en plus	en plus	ADV
 ou	ou	CCONJ
 en	en	ADP
-moins de	moins de	NOUN
+moins de	moins de	DET
 courage	courage	NOUN
 ;	;	PUNCTclause
 et	et	CCONJ
@@ -2085,7 +2085,7 @@ de	de	ADP
 aménité	aménité	NOUN
 .	.	PUNCTsent
 par	par	ADP
-la même	la même	DET
+la même	la même	PRON
 raison	raison	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -2285,9 +2285,9 @@ ai	avoir	AUX
 point	point	ADV
 eu	avoir	VERB
 en vue de	en vue de	ADP
-en fait	en fait	DET
-le	le_PRON	PRON
-parallèle	parallèle	ADJ
+en fait	en fait	ADV
+le	le	DET
+parallèle	parallèle	NOUN
 particulier	particulier	ADJ
 .	.	PUNCTsent
 enfin	enfin	ADV
@@ -3160,8 +3160,8 @@ il	il	PRON
 se	se	PRON
 établit	établir	VERB
 entre	entre	ADP
-les unes et les autres	les unes et les autres	DET
-un	un	NUM
+les unes et les autres	les unes et les autres	PRON
+un	un	DET
 échange	échange	NOUN
 de	de	ADP
 mutuels	mutuel	ADJ
@@ -3213,7 +3213,7 @@ elles	elles	PRON
 peuvent	pouvoir	VERB
 se	se	PRON
 faire	faire	AUX
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 elles	elles	PRON
 cessent	cesser	VERB
 de	de	ADP
@@ -3262,9 +3262,9 @@ sous	sous	ADP
 le	le	DET
 nombre	nombre	NOUN
 .	.	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 là	là	ADV
 encore	encore	ADV
@@ -3335,7 +3335,7 @@ y	y	PRON
 prévaloir	prévaloir	VERB
 universellement	universellement	ADV
 ,	,	PUNCTclause
-d'autant que	d'autant que	CCONJ
+d'autant que	d'autant que	SCONJ
 on	on	PRON
 peut	pouvoir	VERB
 dire	dire	VERB
@@ -3489,7 +3489,7 @@ nourrit	nourrir	VERB
 une	un	DET
 très	très	ADV
 grande	grand	ADJ
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 bétail	bétail	NOUN
 et	et	CCONJ
 fort	fort	ADV
@@ -3575,7 +3575,7 @@ la	le	DET
 plume	plume	NOUN
 l'	le	DET
 Europe	Europe	PROPN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 elle	elle	PRON
 est	être	AUX
 connue	connaître	VERB
@@ -3807,7 +3807,7 @@ des	un	DET
 régions	région	NOUN
 occupées	occupé	ADJ
 tout	tout	PRON
-à la ronde	à la ronde	DET
+à la ronde	à la ronde	ADV
 par	par	ADP
 de	de	ADP
 âpres	âpre	ADJ
@@ -3916,7 +3916,7 @@ mais	mais	CCONJ
 il	il	PRON
 faut	falloir	VERB
 avouer	avouer	VERB
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
 sa	son	DET
@@ -3939,7 +3939,7 @@ de	de	ADP
 avoir	avoir	AUX
 vu	voir	VERB
 former	former	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 homme	homme	NOUN
 par	par	ADP
 les	le	DET
@@ -4018,9 +4018,9 @@ reçu	recevoir	VERB
 ce	ce	DET
 bienfait	bienfait	NOUN
 que	que	PRON
-par préférence	par préférence	PUNCT
+par préférence	par préférence	ADV
 ou	ou	CCONJ
-par bonheur	par bonheur	NOUN
+par bonheur	par bonheur	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 l'	le	DET
@@ -4196,7 +4196,7 @@ continent	continent	NOUN
 qui	qui	PRON
 possède	posséder	VERB
 le	le	DET
-moins de	moins de	NOUN
+moins de	moins de	DET
 richesses	richesse	NOUN
 territoriales	territorial	ADJ
 …	…	PUNCTsent
@@ -4698,7 +4698,7 @@ plaine	plaine	NOUN
 Russie	Russie	PROPN
 se	se	PRON
 perdant	perdre	VERB
-au fond	au fond	PUNCT
+au fond	au fond	ADV
 de	de	ADP
 l'	le	DET
 Asie	Asie	PROPN

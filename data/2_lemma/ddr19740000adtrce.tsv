@@ -20,7 +20,7 @@ septembre	septembre	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 table ronde	table ronde	NOUN
 ,	,	PUNCTclause
 tenue	tenir	VERB
@@ -82,7 +82,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 dorénavant	dorénavant	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 prévoir	prévoir	VERB
 les	le	DET
 événements	événement	NOUN
@@ -126,7 +126,7 @@ qui	qui	PRON
 les	le_PRON	PRON
 baigne	baigner	VERB
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 souhaitait	souhaiter	VERB
 approfondir	approfondir	VERB
 en	en	ADP
@@ -275,7 +275,7 @@ un	un	DET
 mot	mot	NOUN
 :	:	PUNCTclause
 entre	entre	ADP
-la première	la première	DET
+la première	la première	PRON
 table ronde	table ronde	NOUN
 et	et	CCONJ
 celle	celle	PRON
@@ -300,7 +300,7 @@ Rome	Rome	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-ceci dit	ceci dit	PRON
+ceci dit	ceci dit	ADV
 pour	pour	ADP
 désigner	désigner	VERB
 par	par	ADP
@@ -387,7 +387,7 @@ des	un	ADP_DET
 Europe	Europe	PROPN
 se	se	PRON
 originent	originer	VERB
-l'une et l'autre	l'une et l'autre	PUNCT
+l'une et l'autre	l'une et l'autre	PRON
 dans	dans	ADP
 nos	nos	DET
 attitudes	attitude	NOUN
@@ -422,7 +422,7 @@ moyens	moyen	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 table ronde	table ronde	NOUN
 sont	être	AUX
 nés	naître	VERB
@@ -684,7 +684,7 @@ cessé	cesser	VERB
 de	de	ADP
 le	le_PRON	PRON
 dénoncer	dénoncer	VERB
-depuis que	depuis que	PUNCT
+depuis que	depuis que	SCONJ
 je	je	PRON
 me	me	PRON
 occupe	occuper	VERB
@@ -724,7 +724,7 @@ avec	avec	ADP
 une	un	DET
 question	question	NOUN
 simple	simple	ADJ
-tout au moins	tout au moins	PUNCT
+tout au moins	tout au moins	ADV
 dans	dans	ADP
 son	son	DET
 énoncé	énoncé	NOUN
@@ -840,8 +840,8 @@ par	par	ADP
 les	le	DET
 Douze	Douze	PROPN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
-invités	inviter	VERB
+en tant que	en tant que	ADP
+invités	invité	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -853,7 +853,7 @@ par	par	ADP
 nous	nous	PRON
 tous	tous	PRON
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 citoyens	citoyen	NOUN
 .	.	PUNCTsent
 car	car	CCONJ
@@ -919,7 +919,7 @@ la	le	DET
 foi	foi	NOUN
 seule	seul	ADJ
 ,	,	PUNCTclause
-par instants	par instants	NOUN
+par instants	par instants	ADV
 ,	,	PUNCTclause
 peut	pouvoir	VERB
 saisir	saisir	VERB
@@ -1056,7 +1056,7 @@ calculables	calculable	ADJ
 .	.	PUNCTsent
 nous	nous	PRON
 pensons	penser	VERB
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 l'on	on	PRON
@@ -1266,7 +1266,7 @@ sur	sur	ADP
 ce	ce	DET
 chapitre	chapitre	NOUN
 :	:	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 a	avoir	AUX
 lu	lire	VERB
 Forrester	Forrester	PROPN
@@ -1492,7 +1492,7 @@ devrait	devoir	VERB
 inquiéter	inquiéter	VERB
 bien	bien	ADV
 plus	plus	ADV
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 les	le	DET
 prévisions	prévision	NOUN
 du	du	ADP_DET
@@ -1518,7 +1518,7 @@ monitoires	monitoire	ADJ
 et	et	CCONJ
 ne	ne	ADV
 ambitionnaient	ambitionner	VERB
-rien que	rien que	PRON
+rien que	rien que	ADV
 de	de	ADP
 être	être	AUX
 démenties	démentir	VERB
@@ -1549,7 +1549,7 @@ est	être	AUX
 là	là	ADV
 déjà	déjà	ADV
 ,	,	PUNCTclause
-bel et bien	bel et bien	ADP
+bel et bien	bel et bien	ADV
 là	là	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2127,7 +2127,7 @@ et	et	CCONJ
 avec	avec	ADP
 cela	cela	PRON
 entrent	entrer	VERB
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
@@ -2230,7 +2230,7 @@ sociale	social	ADJ
 se	se	PRON
 voient	voir	AUX
 sacrifiées	sacrifier	VERB
-sans merci	sans merci	DET
+sans merci	sans merci	ADV
 sur	sur	ADP
 l'	le	DET
 autel	autel	NOUN
@@ -2299,7 +2299,7 @@ nous	nous	PRON
 vraiment	vraiment	ADV
 consommer	consommer	VERB
 deux fois	deux fois	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 électricité	électricité	NOUN
 tous	tout	ADJ
 les	le	DET
@@ -2322,8 +2322,8 @@ multipliée	multiplier	VERB
 par	par	ADP
 16384	16384	NUM
 en	en	ADP
-un peu	un peu	DET
-moins d'une	moins d'une	NOUN
+un peu	un peu	ADV
+moins d'une	moins d'une	DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 utopie	utopie	NOUN
@@ -2335,13 +2335,13 @@ grâce à	grâce à	ADP
 24000	24000	NUM
 centrale nucléaire	centrale nucléaire	NOUN
 nécessaires	nécessaire	ADJ
-à la fin	à la fin	ADP_DET
+à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 produisant	produire	VERB
-assez de	assez de	ADP
+assez de	assez de	DET
 plutonium	plutonium	NOUN
 pour	pour	ADP
 nous	nous	PRON
@@ -2417,7 +2417,7 @@ mais	mais	CCONJ
 ils	ils	PRON
 se	se	PRON
 ramènent	ramener	VERB
-dans l'ensemble	dans l'ensemble	ADP
+dans l'ensemble	dans l'ensemble	ADV
 à	à	ADP
 un	un	DET
 dilemme	dilemme	NOUN
@@ -2930,8 +2930,8 @@ de	de	ADP
 Chalcédoine	Chalcédoine	PROPN
 ont	avoir	AUX
 posé	poser	VERB
-le premier	le premier	DET
-modèle	modèle	NOUN
+le premier	le premier	PRON
+modèle	modeler	VERB
 permettant	permettre	VERB
 de	de	ADP
 penser	penser	VERB
@@ -2947,7 +2947,7 @@ en	en	ADP
 logique	logique	NOUN
 mais	mais	CCONJ
 coexistent	coexister	VERB
-en fait	en fait	DET
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ou	ou	CCONJ
 comme	comme	ADP
@@ -3341,7 +3341,7 @@ formule	formule	NOUN
 elle	elle	PRON
 est	être	AUX
 devenue	devenir	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 un	un	DET
 modèle	modèle	NOUN
@@ -3484,7 +3484,7 @@ et	et	CCONJ
 courir	courir	VERB
 son	son	DET
 aventure	aventure	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
@@ -3511,7 +3511,7 @@ croisement	croisement	NOUN
 de	de	ADP
 chromosomes	chromosome	NOUN
 eux-mêmes	eux-mêmes	PRON
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
 de sorte que	de sorte que	SCONJ
 la	le	DET
@@ -3565,7 +3565,7 @@ le	le	DET
 But	But	PROPN
 suprême	suprême	ADJ
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 pour	pour	ADP
 tous	tous	PRON
 mais	mais	CCONJ
@@ -3590,8 +3590,8 @@ de	de	ADP
 moi	moi	PRON
 ,	,	PUNCTclause
 individu	individu	NOUN
-sans précédent	sans précédent	PUNCT
-historique	historique	NOUN
+sans précédent	sans précédent	ADJ
+historique	historique	ADJ
 ni	ni	CCONJ
 physiologique	physiologique	ADJ
 ,	,	PUNCTclause
@@ -3616,7 +3616,7 @@ nationale	national	ADJ
 :	:	PUNCTclause
 elle	elle	PRON
 conduirait	conduire	VERB
-au mieux	au mieux	ADP_DET
+au mieux	au mieux	ADV
 à	à	ADP
 quelque	quelque	DET
 capitale	capital	NOUN
@@ -3640,7 +3640,7 @@ repose	reposer	VERB
 tout	tout	DET
 instant	instant	NOUN
 ,	,	PUNCTclause
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 si	si	SCONJ
 je	je	PRON
 découvre	découvrir	VERB
@@ -3653,7 +3653,7 @@ il	il	PRON
 prévu	prévoir	VERB
 pour	pour	ADP
 moi	moi	PRON
-depuis toujours	depuis toujours	DET
+depuis toujours	depuis toujours	ADV
 ,	,	PUNCTclause
 ou	ou	CCONJ
 si	si	SCONJ
@@ -4069,7 +4069,7 @@ vous	vous	PRON
 faire	faire	AUX
 voir	voir	VERB
 que	que	SCONJ
-en fait	en fait	DET
+en fait	en fait	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 pratiquement	pratiquement	ADV
@@ -4079,7 +4079,7 @@ y	y	PRON
 croyez	croire	VERB
 ,	,	PUNCTclause
 tous	tous	PRON
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 vous	vous	PRON
 êtes	être	VERB
 .	.	PUNCTsent
@@ -4267,7 +4267,7 @@ rien	rien	PRON
 il	il	PRON
 ne	ne	ADV
 reste	rester	VERB
-rien que	rien que	DET
+rien que	rien que	ADV
 leurs	leur	DET
 livres	livre	NOUN
 ,	,	PUNCTclause
@@ -4295,7 +4295,7 @@ des	un	ADP_DET
 travailleurs	travailleur	NOUN
 ,	,	PUNCTclause
 témoignait	témoigner	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 personne	personne	NOUN
 ,	,	PUNCTclause
@@ -4728,7 +4728,7 @@ inconnue	inconnu	ADJ
 .	.	PUNCTsent
 la	le	DET
 découvrir	découvrir	VERB
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 on	on	PRON
 l'	le_PRON	PRON
 inventait	inventer	VERB
@@ -4848,7 +4848,7 @@ de	de	ADP
 loisirs	loisir	NOUN
 sont	être	AUX
 à peu près	à peu près	ADV
-les mêmes	les mêmes	PUNCT
+les mêmes	les mêmes	PRON
 à	à	ADP
 l'	le	DET
 Est	Est	PROPN
@@ -4906,7 +4906,7 @@ non	non	ADV
 sur	sur	ADP
 soi-même	soi-même	PRON
 (	(	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 )	)	PUNCTclause
 ,	,	PUNCTclause
 le	le	DET
@@ -5078,7 +5078,7 @@ sociétés	société	NOUN
 soit	soit	CCONJ
 encore	encore	ADV
 ,	,	PUNCTclause
-en dernière analyse	en dernière analyse	DET
+en dernière analyse	en dernière analyse	ADV
 ,	,	PUNCTclause
 de	de	ADP
 notre	notre	DET
@@ -5423,7 +5423,7 @@ que	que	PRON
 je	je	PRON
 puis	puis	CCONJ
 aider	aider	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -5691,7 +5691,7 @@ agit	agir	VERB
 désormais	désormais	ADV
 de	de	ADP
 recréer	recréer	VERB
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 que	que	SCONJ
 la	le	DET
 personne	personne	NOUN
@@ -5773,7 +5773,7 @@ qui	qui	PRON
 déborde	déborder	VERB
 ,	,	PUNCTclause
 non seulement	non seulement	ADV
-par en haut	par en haut	PUNCT
+par en haut	par en haut	ADV
 mais	mais	CCONJ
 par en bas	par en bas	ADV
 ,	,	PUNCTclause
@@ -6018,7 +6018,7 @@ que	que	SCONJ
 je	je	PRON
 suis	être	AUX
 venu	venir	VERB
-une fois de plus	une fois de plus	DET
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 ici	ici	ADV
 ,	,	PUNCTclause
@@ -6070,7 +6070,7 @@ entier	entier	ADJ
 —	—	PUNCTclause
 se	se	PRON
 ramène	ramener	VERB
-en dernière analyse	en dernière analyse	PUNCT
+en dernière analyse	en dernière analyse	ADV
 à	à	ADP
 cela	cela	PRON
 :	:	PUNCTclause

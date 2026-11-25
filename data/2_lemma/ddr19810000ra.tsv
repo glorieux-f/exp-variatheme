@@ -334,7 +334,7 @@ une	un	DET
 espèce	espèce	NOUN
 de	de	ADP
 sérieux	sérieux	ADJ
-quelque peu	quelque peu	NOUN
+quelque peu	quelque peu	ADV
 farfelu	farfelu	ADJ
 ,	,	PUNCTclause
 souvent	souvent	ADV
@@ -404,15 +404,15 @@ relate	relater	VERB
 ses	son	DET
 premières	premier	ADJ
 initiatives	initiative	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 modernité	modernité	NOUN
 la	le	DET
 plus	plus	ADV
 provocante	provocant	ADJ
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 avait	avoir	VERB
 encore	encore	ADV
@@ -441,7 +441,7 @@ se	se	PRON
 met	mettre	VERB
 en	en	ADP
 tête	tête	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 parler	parler	VERB
 au	au	ADP_DET
 collège	collège	NOUN
@@ -635,7 +635,7 @@ viennent	venir	VERB
 de	de	ADP
 vivre	vivre	VERB
 ensemble	ensemble	ADV
-la même	la même	PUNCT
+la même	la même	PRON
 signification	signification	NOUN
 révolutionnaire	révolutionnaire	ADJ
 que	que	SCONJ
@@ -832,7 +832,7 @@ titre	titre	NOUN
 ronflant	ronflant	ADJ
 qui	qui	PRON
 désignait	désigner	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 le	le	DET
 comité	comité	NOUN
 de	de	ADP
@@ -862,7 +862,7 @@ famille	famille	NOUN
 de	de	ADP
 Robert	Robert	PROPN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 ils	ils	PRON
 me	me	PRON
 ont	avoir	AUX
@@ -954,7 +954,7 @@ et	et	CCONJ
 Dupuis	Dupuis	PROPN
 ,	,	PUNCTclause
 seul	seul	ADJ
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 se	se	PRON
 référait	référer	VERB
 expressément	expressément	ADV
@@ -1428,7 +1428,7 @@ leurs	leur	DET
 religions	religion	NOUN
 synthétiques	synthétique	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 personne	personne	NOUN
 appelle	appeler	VERB
@@ -1681,7 +1681,7 @@ voix	voix	NOUN
 de	de	ADP
 l'	le	DET
 homme	homme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 citoyen	citoyen	NOUN
 puisse	pouvoir	VERB
 se	se	PRON
@@ -1958,8 +1958,8 @@ de	de	ADP
 le	le	DET
 dire	dire	NOUN
 aujourd'hui	aujourd'hui	ADV
-en dehors de	en dehors de	ADV
-survivants	survivant	ADJ
+en dehors de	en dehors de	ADP
+survivants	survivant	NOUN
 de	de	ADP
 l'	le	DET
 ordre	ordre	NOUN
@@ -2145,7 +2145,7 @@ est	être	AUX
 «	«	PUNCTclause
 victime	victime	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 arrestation	arrestation	NOUN
 collective	collectif	ADJ
 de	de	ADP
@@ -2340,7 +2340,7 @@ monter	monter	VERB
 en	en	ADP
 chaire	chaire	NOUN
 .	.	PUNCTsent
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 le	le	DET
 père	père	NOUN
 Chaillet	Chaillet	PROPN
@@ -2474,7 +2474,7 @@ libération	libération	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 dont	dont	PRON
-le premier	le premier	DET
+le premier	le premier	PRON
 ministre	ministre	NOUN
 et	et	CCONJ
 plusieurs	plusieurs	DET
@@ -2532,7 +2532,7 @@ union	union	NOUN
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 états-nations	État-nation	NOUN
 —	—	PUNCTclause
 terme	terme	NOUN
@@ -2592,15 +2592,15 @@ gagner	gagner	VERB
 en	en	ADP
 actualité	actualité	NOUN
 ,	,	PUNCTclause
-au point	au point	NOUN
+au point	au point	ADJ
 de	de	ADP
 en	en	PRON
 occuper	occuper	VERB
 depuis	depuis	ADP
 quelques	quelque	DET
 années	année	NOUN
-le premier	le premier	DET
-plan	plan	NOUN
+le premier	le premier	PRON
+plan	plan	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 thème	thème	NOUN
@@ -2632,10 +2632,10 @@ termes	terme	NOUN
 le	le	DET
 machinisme	machinisme	NOUN
 permettant	permettre	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 une	un	DET
 économie	économie	NOUN
-de force	de force	PUNCT
+de force	de force	ADV
 toujours	toujours	ADV
 plus	plus	ADV
 grande	grand	ADJ
@@ -2688,7 +2688,7 @@ monde	monde	NOUN
 occidental	occidental	ADJ
 en	en	ADP
 est	être	AUX
-au point	au point	ADV
+au point	au point	ADJ
 où	où	PRON
 il	il	PRON
 ne	ne	ADV
@@ -2733,7 +2733,7 @@ de	de	ADP
 les	le	DET
 prendre au sérieux	prendre au sérieux	VERB
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 le	le_PRON	PRON
 sent	sentir	VERB
 .	.	PUNCTsent
@@ -2972,7 +2972,7 @@ respect	respect	NOUN
 absolu	absolu	ADJ
 de	de	ADP
 l'autre	l'autre	PRON
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 autre	autre	PRON
 ,	,	PUNCTclause
 le	le	DET

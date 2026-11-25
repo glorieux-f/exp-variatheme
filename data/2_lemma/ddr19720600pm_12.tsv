@@ -83,7 +83,7 @@ l'	le	DET
 Allemagne	Allemagne	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -115,7 +115,7 @@ a	avoir	AUX
 paru	paraître	VERB
 en	en	ADP
 France	France	PROPN
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 ouvrages	ouvrage	NOUN
 excellents	excellent	ADJ
 sur	sur	ADP
@@ -581,7 +581,7 @@ France	France	PROPN
 l'	le	DET
 importance	importance	NOUN
 capitale	capital	ADJ
-de ce fait	de ce fait	PUNCT
+de ce fait	de ce fait	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 l'on	on	PRON
@@ -701,7 +701,7 @@ nation	nation	NOUN
 de	de	ADP
 Valmy	Valmy	PROPN
 …	…	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 France	France	PROPN
 moyen	moyen	ADJ
@@ -840,7 +840,7 @@ que	que	SCONJ
 les	le	DET
 intérêts	intérêt	NOUN
 ,	,	PUNCTclause
-d'autant plus	d'autant plus	NOUN
+d'autant plus	d'autant plus	ADV
 forte	fort	ADJ
 que	que	SCONJ
 la	le	DET
@@ -979,7 +979,7 @@ aspect	aspect	NOUN
 de	de	ADP
 une	un	DET
 volonté	volonté	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 distincte	distinct	ADJ
 du	du	ADP_DET
 nationalisme	nationalisme	NOUN
@@ -1643,7 +1643,7 @@ cela	cela	PRON
 de	de	ADP
 une	un	DET
 façon	façon	NOUN
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 frappante	frappant	ADJ
 que	que	SCONJ
 il	il	PRON
@@ -1668,7 +1668,7 @@ dont	dont	PRON
 certains	certain	PRON
 nous	nous	PRON
 paraissent	paraître	VERB
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 incompatibles	incompatible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1874,11 +1874,11 @@ action	action	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 fut	être	AUX
-la première	la première	DET
+la première	la première	PRON
 phase	phase	NOUN
 ,	,	PUNCTclause
 négative	négatif	ADJ
-par nécessité	par nécessité	NOUN
+par nécessité	par nécessité	ADV
 .	.	PUNCTsent
 elle	elle	PRON
 dura	durer	VERB
@@ -1892,7 +1892,7 @@ Allemagne	Allemagne	PROPN
 pour	pour	ADP
 des	un	DET
 raisons	raison	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 faciles	facile	ADJ
 à	à	ADP
 distinguer	distinguer	VERB
@@ -2128,7 +2128,7 @@ simple	simple	ADJ
 de	de	ADP
 une	un	DET
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 (	(	PUNCTclause
 Gleichschaltung	Gleichschaltung	PROPN
 ou	ou	CCONJ
@@ -2214,7 +2214,7 @@ on	on	PRON
 affirme	affirmer	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 mot d'ordre	mot d'ordre	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -2274,7 +2274,7 @@ dans	dans	ADP
 les	le	DET
 deux	deux	NUM
 cas	cas	NOUN
-la même	la même	DET
+la même	la même	PRON
 impression	impression	NOUN
 très	très	ADV
 pénible	pénible	ADJ
@@ -2336,7 +2336,7 @@ imposer	imposer	VERB
 l'	le	DET
 esprit	esprit	NOUN
 créateur	créateur	ADJ
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 à	à	ADP
 l'	le	DET
 esprit	esprit	NOUN
@@ -2355,7 +2355,7 @@ or	or	NOUN
 cette	ce	DET
 mesure	mesure	NOUN
 étant	être	AUX
-en fait	en fait	ADP
+en fait	en fait	ADV
 celle	celle	PRON
 qui	qui	PRON
 a	avoir	VERB
@@ -2406,7 +2406,7 @@ ou	ou	CCONJ
 fouetter	fouetter	VERB
 l'	le	DET
 enthousiasme	enthousiasme	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 énième	énième	ADJ
 Plan	Plan	PROPN
 ,	,	PUNCTclause
@@ -2480,7 +2480,7 @@ que	que	PRON
 après	après	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 rénovations	rénovation	NOUN
 matérielles	matériel	ADJ
 .	.	PUNCTsent
@@ -2490,7 +2490,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 maintenant	maintenant	ADV
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 au pas	au pas	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2531,7 +2531,7 @@ donnera	donner	VERB
 pour	pour	ADP
 bon	bon	ADJ
 argent	argent	NOUN
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 elles	elles	PRON
 ne	ne	ADV
 sont	être	AUX
@@ -2766,7 +2766,7 @@ efforcera	efforcer	VERB
 de	de	ADP
 démontrer	démontrer	VERB
 que	que	SCONJ
-d'autant plus	d'autant plus	PUNCT
+d'autant plus	d'autant plus	ADV
 l'	le	DET
 individu	individu	NOUN
 se	se	PRON
@@ -2774,7 +2774,7 @@ sacrifie	sacrifier	VERB
 au	au	ADP_DET
 parti	parti	NOUN
 ,	,	PUNCTclause
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 il	il	PRON
 acquiert	acquérir	VERB
 de	de	ADP
@@ -3147,9 +3147,9 @@ appui	appui	NOUN
 de	de	ADP
 la	le	DET
 police	police	NOUN
-au début	au début	ADP_DET
+au début	au début	ADV
 .	.	PUNCTsent
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 il	il	PRON
@@ -3513,7 +3513,7 @@ dans	dans	ADP
 les	le	DET
 deux	deux	NUM
 régimes	régime	NOUN
-la même	la même	PUNCT
+la même	la même	PRON
 condamnation	condamnation	NOUN
 orgueilleuse	orgueilleux	ADJ
 de	de	ADP

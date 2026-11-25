@@ -69,7 +69,7 @@ jeu	jeu	NOUN
 des	un	ADP_DET
 partis	parti	NOUN
 :	:	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 se	se	PRON
 en	en	ADP
 plaint	plaindre	VERB
@@ -77,7 +77,7 @@ plaint	plaindre	VERB
 mais	mais	CCONJ
 y	y	PRON
 joue	jouer	VERB
-de plus belle	de plus belle	PUNCT
+de plus belle	de plus belle	ADV
 .	.	PUNCTsent
 en	en	ADP
 États-Unis	États-Unis	PROPN
@@ -267,7 +267,7 @@ se	se	PRON
 fonde	fonder	VERB
 plus	plus	ADV
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 sur	sur	ADP
@@ -389,7 +389,7 @@ quand	quand	SCONJ
 on	on	PRON
 lui	lui	PRON
 rappelle	rappeler	VERB
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 ,	,	PUNCTclause
 elle	elle	PRON
 se	se	PRON
@@ -404,7 +404,7 @@ réalisme	réalisme	NOUN
 cependant que	cependant que	SCONJ
 elle	elle	PRON
 rate	rater	VERB
-le second	le second	PUNCT
+le second	le second	PRON
 parce que	parce que	SCONJ
 elle	elle	PRON
 se	se	PRON
@@ -428,7 +428,7 @@ et	et	CCONJ
 ses	son	DET
 moyens	moyen	NOUN
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 les	le_PRON	PRON
@@ -516,7 +516,7 @@ au lieu de	au lieu de	ADP
 transformer	transformer	VERB
 des	un	DET
 idéaux	idéal	NOUN
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 transforme	transformer	VERB
@@ -801,8 +801,8 @@ pratique	pratique	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 encore	encore	ADV
-moins de	moins de	PUNCT
-les	le	DET
+moins de	moins de	DET
+les	le_PRON	PRON
 relier	relier	VERB
 .	.	PUNCTsent
 donc	donc	ADV
@@ -887,7 +887,7 @@ nécessaire	nécessaire	ADJ
 ne	ne	ADV
 saurait	savoir	VERB
 être	être	AUX
-au mieux	au mieux	ADJ
+au mieux	au mieux	ADV
 que	que	SCONJ
 un	un	DET
 préalable	préalable	NOUN
@@ -1045,7 +1045,7 @@ compliquées	compliquer	VERB
 ,	,	PUNCTclause
 ridiculement	ridiculement	ADV
 inefficaces	inefficace	ADJ
-dans l'ensemble	dans l'ensemble	PUNCT
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
 nourrissent	nourrir	VERB
@@ -1069,7 +1069,7 @@ ni	ni	CCONJ
 en	en	PRON
 sortir	sortir	VERB
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 il	il	PRON
@@ -1174,7 +1174,7 @@ sorte	sorte	NOUN
 les	le	DET
 citoyens	citoyen	NOUN
 seront	être	AUX
-à même de	à même de	ADP
+à même de	à même de	ADJ
 juger	juger	VERB
 si	si	SCONJ
 son	son	DET
@@ -1192,7 +1192,7 @@ trahit	trahir	VERB
 .	.	PUNCTsent
 ils	ils	PRON
 seront	être	AUX
-à même de	à même de	PRON
+à même de	à même de	ADJ
 exiger	exiger	VERB
 de	de	ADP
 leur	leur	DET
@@ -1260,7 +1260,7 @@ difficultés	difficulté	NOUN
 ,	,	PUNCTclause
 celles	celle	PRON
 que	que	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 connaît	connaître	VERB
 et	et	CCONJ
 retrouve	retrouver	VERB
@@ -1343,7 +1343,7 @@ en même temps	en même temps	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 pour	pour	ADP
-la même	la même	DET
+la même	la même	PRON
 raison	raison	NOUN
 ,	,	PUNCTclause
 cet	ce	DET
@@ -1444,7 +1444,7 @@ enfin	enfin	ADV
 elle	elle	PRON
 nous	nous	PRON
 met	mettre	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 refuser	refuser	VERB
 les	le	DET
 faux	faux	NOUN
@@ -1490,7 +1490,7 @@ demi-vérités	demi-vérité	NOUN
 ou	ou	CCONJ
 demi-mensonges	demi-mensonges	NOUN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -1554,7 +1554,7 @@ le	le	DET
 partisan	partisan	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 nous	nous	PRON
 demandons	demander	VERB
 à	à	ADP
@@ -1636,7 +1636,7 @@ droite	droite	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 ,	,	PUNCTclause
 de	de	ADP
 socialisme	socialisme	NOUN
@@ -1929,7 +1929,7 @@ attitude	attitude	NOUN
 personnalisme	personnalisme	NOUN
 ne	ne	ADV
 est	être	AUX
-en fait	en fait	SYM
+en fait	en fait	ADV
 ni	ni	CCONJ
 vague	vague	NOUN
 ni	ni	CCONJ

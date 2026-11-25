@@ -412,7 +412,7 @@ trouve	trouver	VERB
 dans	dans	ADP
 ces	ce	DET
 pages	page	NOUN
-pas même	pas même	PUNCT
+pas même	pas même	ADV
 une	un	DET
 inflexion	inflexion	NOUN
 qui	qui	PRON
@@ -635,7 +635,7 @@ que	que	SCONJ
 on	on	PRON
 l'	le_PRON	PRON
 exalte	exalter	VERB
-aussi longtemps que	aussi longtemps que	PUNCT
+aussi longtemps que	aussi longtemps que	SCONJ
 on	on	PRON
 ne	ne	ADV
 l'	le_PRON	PRON
@@ -866,7 +866,7 @@ narrateur	narrateur	NOUN
 le	le	DET
 cliché	cliché	NOUN
 vient	venir	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 place	place	NOUN
 à	à	ADP
 la	le	DET
@@ -887,7 +887,7 @@ une	un	DET
 description	description	NOUN
 de	de	ADP
 Hiroshima	Hiroshima	PROPN
-au ralenti	au ralenti	PUNCT
+au ralenti	au ralenti	ADV
 .	.	PUNCTsent
 Cent-mille	Cent-mille	PROPN
 victimes	victime	NOUN
@@ -950,7 +950,7 @@ aisselle	aisselle	NOUN
 des	un	DET
 centaines	centaine	NOUN
 agonisent	agoniser	VERB
-en silence	en silence	DET
+en silence	en silence	ADV
 ,	,	PUNCTclause
 ou	ou	CCONJ
 hurlent	hurler	VERB
@@ -1292,7 +1292,7 @@ mon	mon	DET
 exemple	exemple	NOUN
 en	en	ADP
 témoignant	témoigner	VERB
-la même	la même	DET
+la même	la même	PRON
 bienveillance	bienveillance	NOUN
 à	à	ADP
 tous	tout	ADJ
@@ -1484,7 +1484,7 @@ et	et	CCONJ
 de	de	ADP
 philanthropie	philanthropie	NOUN
 ,	,	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 la	le	DET
@@ -1564,7 +1564,7 @@ dont	dont	PRON
 le	le	DET
 but	but	NOUN
 serait	être	AUX
-de fait	de fait	ADP
+de fait	de fait	ADJ
 donner	donner	VERB
 des	un	DET
 soins	soin	NOUN
@@ -1646,7 +1646,7 @@ amer	amer	NOUN
 et	et	CCONJ
 de	de	ADP
 vengeur	vengeur	NOUN
-esprit critique	esprit critique	ADJ
+esprit critique	esprit critique	NOUN
 :	:	PUNCTclause
 pas	pas	ADV
 un	un	DET
@@ -1779,8 +1779,8 @@ qui	qui	PRON
 accepta	accepter	VERB
 de	de	ADP
 présider	présider	VERB
-le premier	le premier	DET
-comité	comité	NOUN
+le premier	le premier	PRON
+comité	comité	VERB
 .	.	PUNCTsent
 reste	rester	VERB
 que	que	SCONJ
@@ -1953,8 +1953,8 @@ eus	avoir	VERB
 le	le	DET
 rare	rare	ADJ
 privilège	privilège	NOUN
-par un concours de circonstances	par un concours de circonstances	PUNCT
-particulières	particulier	NOUN
+par un concours de circonstances	par un concours de circonstances	ADV
+particulières	particulier	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 pouvoir	pouvoir	VERB
@@ -2113,8 +2113,8 @@ secrète	secret	ADJ
 en	en	ADP
 1864	1864	NUM
 ,	,	PUNCTclause
-la première	la première	DET
-convention	convention	NOUN
+la première	la première	PRON
+Convention	Convention	PROPN
 de	de	ADP
 Genève	Genève	PROPN
 est	être	AUX
@@ -2377,7 +2377,7 @@ et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
 enfin	enfin	ADV
-le premier	le premier	DET
+le premier	le premier	PRON
 prix Nobel	prix Nobel	NOUN
 de	de	ADP
 la	le	DET
@@ -2482,8 +2482,8 @@ au	au	ADP_DET
 seuil	seuil	NOUN
 sanglant	sanglant	ADJ
 de	de	ADP
-la première	la première	DET
-guerre	guerre	NOUN
+la première	la première	PRON
+Guerre	Guerre	PUNCT
 «	«	PUNCTclause
 mondiale	mondial	ADJ
 »	»	PUNCTclause
@@ -2859,7 +2859,7 @@ avouer	avouer	VERB
 à	à	ADP
 lui-même	lui-même	PRON
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 écrivait	écrire	VERB
 le	le	DET
@@ -3045,7 +3045,7 @@ doit	devoir	VERB
 faite	faire	VERB
 avec	avec	ADP
 le	le	DET
-moins de	moins de	NOUN
+moins de	moins de	DET
 barbarie	barbarie	NOUN
 possible	possible	ADJ
 »	»	PUNCTclause
@@ -3082,7 +3082,7 @@ serait	être	VERB
 une	un	DET
 chose	chose	NOUN
 odieuse	odieux	ADJ
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 de	de	ADP
 civilisation	civilisation	NOUN
 où	où	PRON
@@ -3103,14 +3103,14 @@ abominable	abominable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 déclaration	déclaration	NOUN
-pour le moins	pour le moins	ADP
+pour le moins	pour le moins	ADV
 étonnante	étonnant	ADJ
 sous la plume de	sous la plume de	ADP
 l'	le	DET
 initiateur	initiateur	NOUN
 de	de	ADP
-la première	la première	DET
-convention	convention	NOUN
+la première	la première	PRON
+Convention	Convention	PROPN
 de	de	ADP
 Genève	Genève	PROPN
 ,	,	PUNCTclause
@@ -3196,7 +3196,7 @@ réalistes	réaliste	NOUN
 ,	,	PUNCTclause
 Dunant	Dunant	VERB
 attaque	attaque	NOUN
-de front	de front	PUNCT
+de front	de front	ADV
 .	.	PUNCTsent
 il	il	PRON
 note	noter	VERB
@@ -3205,7 +3205,7 @@ ses	son	DET
 cahiers	cahier	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-en attendant que	en attendant que	PRON
+en attendant que	en attendant que	SCONJ
 d'autres	d'autre	PRON
 plus	plus	ADV
 habiles	habile	ADJ
@@ -3236,7 +3236,7 @@ le	le	DET
 militarisme	militarisme	NOUN
 ,	,	PUNCTclause
 afin de	afin de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 un	un	DET
 petit	petit	ADJ
 arsenal	arsenal	NOUN
@@ -3257,7 +3257,7 @@ il	il	PRON
 ne	ne	ADV
 se	se	PRON
 agit	agir	VERB
-plus de	plus de	ADP
+plus de	plus de	DET
 améliorer	améliorer	VERB
 la	le	DET
 peste	peste	NOUN
@@ -3311,7 +3311,7 @@ sont	être	AUX
 inévitables	inévitable	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-assez de	assez de	ADP
+assez de	assez de	DET
 raisonnements	raisonnement	NOUN
 captieux	captieux	ADJ
 tendant	tendre	VERB
@@ -3473,7 +3473,7 @@ Dunant	Dunant	PROPN
 répond	répondre	VERB
 encore	encore	ADV
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 fragment	fragment	NOUN
 intitulé	intituler	VERB
 un	un	DET
@@ -3660,7 +3660,7 @@ de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 telle	tel	DET
 que	que	SCONJ
 nous	nous	PRON
@@ -3735,8 +3735,8 @@ pacem	pacem	ADP
 para	para	NOUN
 bellum	bellum	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
-toute	toute	DET
+alors que	alors que	SCONJ
+toute	tout	ADJ
 l'	le	DET
 histoire	histoire	NOUN
 démontre	démontrer	VERB
@@ -4076,13 +4076,13 @@ apprend	apprendre	VERB
 ne	ne	ADV
 voir	voir	VERB
 «	«	PUNCTclause
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 beau	beau	ADJ
 ,	,	PUNCTclause
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 grand	grand	ADJ
 ,	,	PUNCTclause
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 noble	noble	ADJ
 que	que	SCONJ
 les	le	DET
@@ -4189,7 +4189,7 @@ générations	génération	NOUN
 l'	le	DET
 esprit	esprit	NOUN
 de	de	ADP
-bien des	bien des	NOUN
+bien des	bien des	DET
 peuples	peuple	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
@@ -4444,7 +4444,7 @@ des	un	DET
 moyens	moyen	NOUN
 si	si	ADV
 prodigieux	prodigieux	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 le	le	DET
 mal	mal	NOUN
 que	que	SCONJ
@@ -4636,7 +4636,7 @@ système	système	NOUN
 stato-national	stato-national	ADJ
 lentement	lentement	ADV
 mis	mettre	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 par	par	ADP
 le	le	DET
 19e	19e	NUM

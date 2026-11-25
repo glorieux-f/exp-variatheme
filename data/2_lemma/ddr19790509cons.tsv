@@ -124,7 +124,7 @@ de	de	ADP
 notre	notre	DET
 histoire	histoire	NOUN
 :	:	PUNCTclause
-la première	la première	DET
+la première	la première	PRON
 élection	élection	NOUN
 au	au	ADP_DET
 suffrage	suffrage	NOUN
@@ -428,7 +428,7 @@ planète	planète	NOUN
 donnez	donner	VERB
 au	au	ADP_DET
 tiers-monde	tiers-monde	NOUN
-autant de	autant de	PUNCT
+autant de	autant de	DET
 autos	auto	NOUN
 que	que	SCONJ
 il	il	PRON
@@ -555,7 +555,7 @@ niveau de vie	niveau de vie	NOUN
 diminue	diminuer	VERB
 donc	donc	ADV
 rapidement	rapidement	ADV
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -689,7 +689,7 @@ peut	pouvoir	VERB
 répondre	répondre	VERB
 seul	seul	ADJ
 .	.	PUNCTsent
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 aucun	aucun	DET
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -732,7 +732,7 @@ nationales	national	ADJ
 »	»	PUNCTclause
 ne	ne	ADV
 peuvent	pouvoir	VERB
-en fait	en fait	DET
+en fait	en fait	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -850,7 +850,7 @@ revient	revenir	VERB
 à	à	ADP
 dire	dire	VERB
 que	que	SCONJ
-en fait	en fait	VERB
+en fait	en fait	ADV
 aucun	aucun	PRON
 de	de	ADP
 nos	nos	DET
@@ -858,7 +858,7 @@ nos	nos	DET
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 accomplir	accomplir	VERB
 les	le	DET
 devoirs	devoir	NOUN
@@ -989,7 +989,7 @@ industrielle	industriel	ADJ
 sans	sans	ADP
 limites	limite	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 notre	notre	DET
 terre	terre	NOUN
 et	et	CCONJ
@@ -1001,7 +1001,7 @@ limitées	limiter	VERB
 et	et	CCONJ
 ils	ils	PRON
 obtiennent	obtenir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 l'	le	DET
 inflation	inflation	NOUN
 et	et	CCONJ
@@ -1044,7 +1044,7 @@ de	de	ADP
 progrès	progrès	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 se	se	PRON
 traduit	traduire	VERB
@@ -1074,7 +1074,7 @@ sud	sud	NOUN
 .	.	PUNCTsent
 tous	tous	PRON
 croient	croire	VERB
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 le	le	DET
 bonheur	bonheur	NOUN
 des	un	ADP_DET
@@ -1094,8 +1094,8 @@ celle	celle	PRON
 dépend	dépendre	VERB
 de	de	ADP
 la	le	DET
-quantité de	quantité de	NOUN
-Énergie	Énergie	PROPN
+quantité de	quantité de	DET
+énergie	énergie	NOUN
 consommée	consommer	VERB
 .	.	PUNCTsent
 le	le	DET
@@ -1108,8 +1108,8 @@ jour	jour	NOUN
 la	le	DET
 		TOKEN
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
-M.	M.	NOUN
+tout comme	tout comme	SCONJ
+M.	M.	PROPN
 Ritschard	Ritschard	PROPN
 l'	le_PRON	PRON
 avait	avoir	AUX
@@ -1832,8 +1832,8 @@ cela	cela	PRON
 se	se	PRON
 explique	expliquer	VERB
 par	par	ADP
-la même	la même	DET
-dynamique	dynamique	NOUN
+la même	la même	PRON
+dynamique	dynamique	ADJ
 fondamentale	fondamental	ADJ
 dont	dont	PRON
 le	le	DET
@@ -2204,7 +2204,7 @@ ce	ce	PRON
 que	que	PRON
 ils	ils	PRON
 tâchent	tâcher	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ne	ne	ADV
 réussira	réussir	VERB
 contre	contre	ADP

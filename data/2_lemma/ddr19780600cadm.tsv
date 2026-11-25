@@ -238,7 +238,7 @@ l'	le	DET
 espèce	espèce	NOUN
 de	de	ADP
 adresse	adresse	NOUN
-au jour le jour	au jour le jour	NOUN
+au jour le jour	au jour le jour	ADV
 qui	qui	PRON
 tient	tenir	VERB
 lieu	lieu	NOUN
@@ -286,7 +286,7 @@ malheur	malheur	NOUN
 des	un	ADP_DET
 temps	temps	NOUN
 :	:	PUNCTclause
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 l'	le	DET
 intellectuel	intellectuel	NOUN
 de	de	ADP
@@ -395,7 +395,7 @@ perfide	perfide	ADJ
 elle	elle	PRON
 consiste	consister	VERB
 ,	,	PUNCTclause
-en principe	en principe	DET
+en principe	en principe	ADV
 ,	,	PUNCTclause
 à	à	ADP
 exiger	exiger	VERB
@@ -436,7 +436,7 @@ le	le	DET
 fascisme	fascisme	NOUN
 a	avoir	AUX
 montré	montrer	VERB
-à nu	à nu	PUNCT
+à nu	à nu	ADJ
 ces	ce	DET
 prétentions	prétention	NOUN
 ,	,	PUNCTclause
@@ -613,7 +613,7 @@ du	du	ADP_DET
 rêveur	rêveur	NOUN
 impuissant	impuissant	ADJ
 ,	,	PUNCTclause
-la même	la même	DET
+la même	la même	PRON
 ,	,	PUNCTclause
 exactement	exactement	ADV
 ,	,	PUNCTclause
@@ -656,7 +656,7 @@ elle	elle	PRON
 avait	avoir	AUX
 cru	croire	VERB
 voir	voir	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 pouvoir	pouvoir	VERB
 choisir	choisir	VERB
@@ -697,7 +697,7 @@ des	un	ADP_DET
 souffrances	souffrance	NOUN
 morales	morale	ADJ
 ?	?	PUNCTsent
-pour peu que	pour peu que	ADV
+pour peu que	pour peu que	SCONJ
 on	on	PRON
 sorte	sortir	VERB
 de	de	ADP
@@ -770,13 +770,13 @@ que	que	PRON
 l'on	on	PRON
 écrit	écrire	VERB
 contribue	contribuer	VERB
-en quelque façon	en quelque façon	PUNCT
+en quelque façon	en quelque façon	ADV
 au	au	ADP_DET
-bien	bien	ADV
+bien	bien	NOUN
 ou	ou	CCONJ
 au	au	ADP_DET
 mal	mal	NOUN
-de beaucoup	de beaucoup	PUNCT
+de beaucoup	de beaucoup	ADV
 .	.	PUNCTsent
 lorsque	lorsque	SCONJ
 l'	le	DET
@@ -913,7 +913,7 @@ diversité	diversité	NOUN
 les	le	DET
 premières	premier	ADJ
 lignes	ligne	NOUN
-de force	de force	ADP
+de force	de force	ADV
 de	de	ADP
 une	un	DET
 nouvelle	nouveau	ADJ
@@ -937,7 +937,7 @@ la	le	DET
 doctrine	doctrine	NOUN
 Marx	Marx	PROPN
 ,	,	PUNCTclause
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 laquelle	laquelle	PRON
 se	se	PRON
 est	être	AUX
@@ -1153,7 +1153,7 @@ plus tard	plus tard	ADV
 disent	dire	VERB
 ils	ils	PRON
 ;	;	PUNCTclause
-en attendant	en attendant	PUNCT
+en attendant	en attendant	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 les	le	DET
@@ -1173,7 +1173,7 @@ mais	mais	CCONJ
 se	se	PRON
 contente	contenter	VERB
 ,	,	PUNCTclause
-en fait	en fait	DET
+en fait	en fait	ADV
 ,	,	PUNCTclause
 du	du	ADP_DET
 verbalisme	verbalisme	NOUN
@@ -1383,9 +1383,9 @@ tâche	tâche	NOUN
 précise	précis	ADJ
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
-tâche	tâche	NOUN
-des	un	ADP_DET
+la première	la première	PRON
+tâche	tâcher	VERB
+des	un	DET
 intellectuels	intellectuel	NOUN
 est	être	AUX
 ,	,	PUNCTclause
@@ -1763,8 +1763,8 @@ classe	classe	NOUN
 ouvrière	ouvrier	ADJ
 omnisciente	omniscient	ADJ
 mais	mais	CCONJ
-de toute évidence	de toute évidence	DET
-imaginaire	imaginaire	NOUN
+de toute évidence	de toute évidence	ADV
+imaginaire	imaginaire	ADJ
 ,	,	PUNCTclause
 fantasme	fantasme	NOUN
 typique	typique	ADJ
@@ -1864,7 +1864,7 @@ que	que	SCONJ
 elle	elle	PRON
 ne	ne	ADV
 a	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 condition	condition	NOUN
 concrète	concret	ADJ
 .	.	PUNCTsent
@@ -2002,7 +2002,7 @@ rappelle	rappeler	VERB
 que	que	SCONJ
 la	le	DET
 pensée	pensée	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 telle	tel	DET
 ne	ne	ADV
 est	être	AUX
@@ -2170,7 +2170,7 @@ surtout	surtout	ADV
 la	le	DET
 «	«	PUNCTclause
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 »	»	PUNCTclause
 des	un	ADP_DET
 dictatures	dictature	NOUN
@@ -2251,7 +2251,7 @@ produit	produire	VERB
 elle-même	elle-même	PRON
 la	le	DET
 provision	provision	NOUN
-de force	de force	PRON
+de force	de force	ADV
 qui	qui	PRON
 cause	causer	VERB
 sa	son	DET
@@ -2268,7 +2268,7 @@ mains	main	NOUN
 ne	ne	ADV
 peut	pouvoir	VERB
 être	être	AUX
-en tout	en tout	DET
+en tout	en tout	ADV
 temps	temps	NOUN
 que	que	SCONJ
 une	un	DET
@@ -2282,7 +2282,7 @@ ordonnatrice	ordonnateur	NOUN
 .	.	PUNCTsent
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 la	le	DET
 personne	personne	NOUN
 se	se	PRON
@@ -2573,7 +2573,7 @@ une	un	DET
 occasion	occasion	NOUN
 de	de	ADP
 refuser	refuser	VERB
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 pas	pas	ADV
 dans	dans	ADP
 l'	le	DET
@@ -2614,7 +2614,7 @@ Nietzsche	Nietzsche	PROPN
 Nietzsche	Nietzsche	PROPN
 qui	qui	PRON
 ,	,	PUNCTclause
-le premier	le premier	DET
+le premier	le premier	PRON
 ,	,	PUNCTclause
 substitua	substituer	VERB
 délibérément	délibérément	ADV
@@ -2673,7 +2673,7 @@ justifier	justifier	VERB
 son	son	DET
 intuition	intuition	NOUN
 ,	,	PUNCTclause
-rien que	rien que	PRON
+rien que	rien que	ADV
 elle	elle	PRON
 ,	,	PUNCTclause
 dégagée	dégager	VERB
@@ -2698,7 +2698,7 @@ ironie	ironie	NOUN
 chez	chez	ADP
 lui	lui	PRON
 jaillit	jaillir	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 précis	précis	ADJ
 où	où	PRON
 soudain	soudain	ADV
@@ -2874,7 +2874,7 @@ que	que	SCONJ
 ils	ils	PRON
 ne	ne	ADV
 avaient	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 berger	berger	NOUN
 ,	,	PUNCTclause
 aux	au	ADP_DET
@@ -2892,7 +2892,7 @@ se	se	PRON
 sont	être	AUX
 jetés	jeter	VERB
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 parc	parc	NOUN
 venu	venir	VERB
 ,	,	PUNCTclause
@@ -2917,8 +2917,8 @@ tout	tout	PRON
 en	en	PRON
 signant	signer	VERB
 une	un	DET
-quantité de	quantité de	NOUN
-manifestes	manifeste	ADJ
+quantité de	quantité de	DET
+manifestes	manifeste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ils	ils	PRON
@@ -3298,8 +3298,8 @@ sinon	sinon	ADV
 en	en	ADP
 intention	intention	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
-en fait	en fait	NOUN
+du moins	du moins	ADV
+en fait	en fait	ADV
 .	.	PUNCTsent
 les	le	DET
 penseurs	penseur	NOUN
@@ -3468,7 +3468,7 @@ devons	devoir	VERB
 tant de	tant de	DET
 thèses	thèse	NOUN
 célèbres	célèbre	ADJ
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 radicalement	radicalement	ADV
 contradictoires	contradictoire	ADJ
 ,	,	PUNCTclause
@@ -3561,7 +3561,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 dénoncée	dénoncer	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 complot	complot	NOUN
 germano-américain	germano-américain	ADJ
 au	au	ADP_DET
@@ -3720,7 +3720,7 @@ notre	notre	DET
 invention	invention	NOUN
 ,	,	PUNCTclause
 objectivement	objectivement	ADV
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 .	.	PUNCTsent
 voici	voici	ADP
 le	le	DET

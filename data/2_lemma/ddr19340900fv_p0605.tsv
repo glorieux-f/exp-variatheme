@@ -89,9 +89,9 @@ crise	crise	NOUN
 que	que	SCONJ
 l'on	on	PRON
 dit	dire	VERB
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
-que	que	SCONJ
+que	que	PRON
 fait	faire	VERB
 l'	le	DET
 individu	individu	NOUN
@@ -315,7 +315,7 @@ alors	alors	ADV
 les	le	DET
 bourgeois	bourgeois	NOUN
 ?	?	PUNCTsent
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 phrases	phrase	NOUN
 ,	,	PUNCTclause
 à peu près	à peu près	ADV
@@ -326,7 +326,7 @@ y	y	PRON
 croire	croire	VERB
 ,	,	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	ADP
+du moins	du moins	ADV
 sans	sans	ADP
 prouver	prouver	VERB
 par	par	ADP
@@ -637,7 +637,7 @@ longs	long	ADJ
 on	on	PRON
 montrera	montrer	VERB
 sans	sans	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 peine	peine	NOUN
 que	que	SCONJ
 ses	son	DET
@@ -659,7 +659,7 @@ des	un	ADP_DET
 braves	brave	NOUN
 chrétiens	chrétien	ADJ
 ,	,	PUNCTclause
-comme si	comme si	ADP
+comme si	comme si	SCONJ
 la	le	DET
 religion	religion	NOUN
 ,	,	PUNCTclause
@@ -708,7 +708,7 @@ extravague	extravaguer	VERB
 ;	;	PUNCTclause
 on	on	PRON
 proposera	proposer	VERB
-en public	en public	NOUN
+en public	en public	ADV
 de	de	ADP
 l'	le	DET
 interdire	interdire	VERB
@@ -734,8 +734,8 @@ que	que	SCONJ
 la	le	DET
 presse	presse	NOUN
 est	être	AUX
-de nos jours	de nos jours	DET
-l'	le_PRON	PRON
+de nos jours	de nos jours	ADV
+l'	le	DET
 obstacle	obstacle	NOUN
 décisif	décisif	ADJ
 à	à	ADP
@@ -820,7 +820,7 @@ même	même	ADV
 que	que	SCONJ
 elles	elles	PRON
 sont	être	AUX
-au pire	au pire	SYM
+au pire	au pire	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 il	il	PRON
@@ -1030,7 +1030,7 @@ opinion publique	opinion publique	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 proteste	protester	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 ce	ce	PRON
 qui	qui	PRON
 est	être	AUX
@@ -1867,7 +1867,7 @@ subsiste	subsister	VERB
 sa	son	DET
 face	face	NOUN
 hilare	hilare	ADJ
-au-dessus de	au-dessus de	PUNCT
+au-dessus de	au-dessus de	ADP
 bourreaux	bourreau	NOUN
 pantois	pantois	ADJ
 ,	,	PUNCTclause
@@ -1905,7 +1905,7 @@ d'abord	d'abord	ADV
 son	son	DET
 rire	rire	NOUN
 ,	,	PUNCTclause
-rien que	rien que	PRON
+rien que	rien que	ADV
 son	son	DET
 rire	rire	NOUN
 qui	qui	PRON
@@ -2787,7 +2787,7 @@ rit	rire	VERB
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 paraît	paraître	VERB
 le	le	DET
 rire	rire	NOUN
@@ -2963,7 +2963,7 @@ dans	dans	ADP
 l'	le	DET
 imitation	imitation	NOUN
 :	:	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ils	ils	PRON
 se	se	PRON
 sentent	sentir	VERB
@@ -3018,7 +3018,7 @@ son	son	DET
 rire	rire	NOUN
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 la	le	DET
 douleur	douleur	NOUN
 du	du	ADP_DET
@@ -3058,7 +3058,7 @@ sa	son	DET
 pensée	pensée	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 ,	,	PUNCTclause
 de	de	ADP
 son	son	DET
@@ -3186,7 +3186,7 @@ l'	le	DET
 homme	homme	NOUN
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 un	un	DET
 exemplaire	exemplaire	NOUN
 dans	dans	ADP
@@ -3506,16 +3506,16 @@ passé	passé	NOUN
 au	au	ADP_DET
 collectif	collectif	NOUN
 ,	,	PUNCTclause
-à l'avenir	à l'avenir	DET
+à l'avenir	à l'avenir	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 tout	tout	ADJ
 cela	cela	PRON
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 fuite	fuite	NOUN
-devant	devoir	VERB
+devant	devant	ADP
 notre	notre	DET
 éternel	éternel	ADJ
 présent	présent	NOUN
@@ -3759,15 +3759,15 @@ il	il	PRON
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
-rien que	rien que	ADJ
+rien que	rien que	ADV
 obéissance	obéissance	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 agit	agir	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 pénitence	pénitence	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 sa	son	DET
 vocation	vocation	NOUN
 le	le	DET
@@ -3943,7 +3943,7 @@ la	le	DET
 foule	foule	NOUN
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 la	le	DET
 fuite	fuite	NOUN
 de	de	ADP
@@ -4342,7 +4342,7 @@ elle	elle	PRON
 doit	devoir	VERB
 être	être	AUX
 vécue	vivre	VERB
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
 semble	sembler	VERB
@@ -4442,7 +4442,7 @@ qui	qui	PRON
 pourtant	pourtant	ADV
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 le	le	DET
 péché	péché	NOUN
 ,	,	PUNCTclause
@@ -4699,7 +4699,7 @@ sorte	sorte	NOUN
 de	de	ADP
 providence	providence	NOUN
 brute	brut	ADJ
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 inintelligible	inintelligible	ADJ
 est	être	AUX
 le	le	DET
@@ -4959,7 +4959,7 @@ sujet	sujet	NOUN
 mais	mais	CCONJ
 il	il	PRON
 reste	rester	VERB
-à savoir	à savoir	DET
+à savoir	à savoir	ADV
 de	de	ADP
 où	où	PRON
 vient	venir	VERB
@@ -5008,12 +5008,12 @@ pur	pur	ADJ
 ne	ne	ADV
 met	mettre	VERB
 pas	pas	ADV
-en cause	en cause	DET
+en cause	en cause	ADJ
 mon	mon	DET
 désespoir	désespoir	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 ,	,	PUNCTclause
 je	je	PRON
 peux	pouvoir	VERB
@@ -5046,7 +5046,7 @@ réveil	réveil	NOUN
 il	il	PRON
 nous	nous	PRON
 saisit	saisir	VERB
-à ce moment-là	à ce moment-là	ADP
+à ce moment-là	à ce moment-là	ADV
 précis	précis	ADJ
 où	où	PRON
 tous	tous	PRON

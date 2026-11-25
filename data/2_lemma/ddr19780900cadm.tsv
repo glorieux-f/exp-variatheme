@@ -6,9 +6,9 @@
 # title = "[Compte rendu] L’intellectuel contre l’Europe (été 1978)"
 
 ↵↵	↵↵	PUNCTstruct
-compte rendu	compte rendu	ADP_DET
-l'	le_PRON	PRON
-intellectuel	intellectuel	ADJ
+compte rendu	compte rendu	NOUN
+l'	le	DET
+intellectuel	intellectuel	NOUN
 contre	contre	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -153,7 +153,7 @@ irrésistiblement	irrésistiblement	ADV
 les	le	DET
 débats	débat	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 table ronde	table ronde	NOUN
 de	de	ADP
 l'	le	DET
@@ -187,7 +187,7 @@ pays	pays	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 venaient	venir	VERB
-l'un après l'autre	l'un après l'autre	ADP
+l'un après l'autre	l'un après l'autre	ADV
 mettre en doute	mettre en doute	VERB
 l'	le	DET
 unité	unité	NOUN
@@ -331,7 +331,7 @@ est	être	AUX
 la	le	DET
 préférence	préférence	NOUN
 accordée	accorder	VERB
-par principe	par principe	PUNCT
+par principe	par principe	ADV
 aux	au	ADP_DET
 «	«	PUNCTclause
 modèles	modèle	NOUN
@@ -579,8 +579,8 @@ tenons	tenir	VERB
 enfin	enfin	ADV
 le	le	DET
 Suisse	Suisse	PROPN
-au-dessus de	au-dessus de	PUNCT
-tout	tout	ADV
+au-dessus de	au-dessus de	ADP
+tout	tout	DET
 soupçon	soupçon	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1245,7 +1245,7 @@ est	être	AUX
 le	le	DET
 recours	recours	NOUN
 «	«	PUNCTclause
-au fond	au fond	NOUN
+au fond	au fond	ADV
 oublié	oublier	VERB
 ,	,	PUNCTclause
 primitif	primitif	ADJ
@@ -1295,7 +1295,7 @@ Blaue	Blaue	PROPN
 Reiter	Reiter	PROPN
 réunissant	réunir	VERB
 sous	sous	ADP
-la même	la même	DET
+la même	la même	PRON
 couverture	couverture	NOUN
 «	«	PUNCTclause
 les	le	DET
@@ -1623,7 +1623,7 @@ p.	p.	PUNCT
 80	80	NUM
 )	)	PUNCTclause
 .	.	PUNCTsent
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 !	!	PUNCTsent
 les	le	DET
 textes	texte	NOUN
@@ -1698,7 +1698,7 @@ je	je	PRON
 reste	rester	VERB
 témoin	témoin	NOUN
 ,	,	PUNCTclause
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -1781,7 +1781,7 @@ de	de	ADP
 tendances	tendance	NOUN
 inconciliables	inconciliable	ADJ
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 elles	elles	PRON
 se	se	PRON
 veulent	vouloir	VERB
@@ -1813,19 +1813,19 @@ de	de	ADP
 Lautréamont	Lautréamont	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 elles	elles	PRON
 ambitionnent	ambitionner	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 la	le	DET
 mode	mode	NOUN
 ,	,	PUNCTclause
 d'autres	d'autre	PRON
 avant-gardes	avant-garde	NOUN
 ou	ou	CCONJ
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 publient	publier	VERB
-des	un	ADP_DET
+des	un	DET
 revues	revue	NOUN
 que	que	ADV
 pas	pas	ADV
@@ -2135,7 +2135,7 @@ et	et	CCONJ
 voilà	voilà	ADP
 qui	qui	PRON
 évoque	évoquer	VERB
-une fois de plus	une fois de plus	ADP
+une fois de plus	une fois de plus	ADV
 l'	le	DET
 exemple	exemple	NOUN
 des	un	ADP_DET
@@ -2352,7 +2352,7 @@ sont	être	AUX
 de	de	ADP
 nature	nature	NOUN
 à	à	ADP
-couper court	couper court	NOUN
+couper court	couper court	VERB
 à	à	ADP
 tous	tout	ADJ
 les	le	DET
@@ -2377,7 +2377,7 @@ ne	ne	ADV
 le	le_PRON	PRON
 pourrait	pouvoir	VERB
 —	—	PUNCTclause
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 de	de	ADP
 suggérer	suggérer	VERB
 que	que	SCONJ
@@ -2739,7 +2739,7 @@ l'	le	DET
 Europe	Europe	PROPN
 doit	devoir	VERB
 survivre	survivre	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 civilisation	civilisation	NOUN
 et	et	CCONJ
 se	se	PRON

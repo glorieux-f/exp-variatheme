@@ -83,8 +83,8 @@ occuper	occuper	VERB
 aussi	aussi	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
-cadre	cadre	NOUN
+les mêmes	les mêmes	PRON
+cadre	cadrer	VERB
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -316,8 +316,8 @@ aujourd'hui	aujourd'hui	ADV
 et	et	CCONJ
 leur	leur	DET
 paraît	paraître	VERB
-à première vue	à première vue	PUNCT
-un peu	un peu	PUNCT
+à première vue	à première vue	ADV
+un peu	un peu	ADV
 surprenant	surprendre	VERB
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -420,7 +420,7 @@ que	que	SCONJ
 il	il	PRON
 se	se	PRON
 agit	agir	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 vivre	vivre	VERB
 tout	tout	ADV
 d'abord	d'abord	ADV
@@ -630,7 +630,7 @@ par exemple	par exemple	ADV
 y	y	PRON
 participent	participer	VERB
 vraiment	vraiment	ADV
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ils	ils	PRON
 ne	ne	ADV
 se	se	PRON
@@ -748,7 +748,7 @@ instruction	instruction	NOUN
 civique	civique	ADJ
 —	—	PUNCTclause
 ou	ou	CCONJ
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est-ce que	est-ce que	ADV
@@ -819,7 +819,7 @@ et	et	CCONJ
 ses	son	DET
 possibilités	possibilité	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 citoyen	citoyen	NOUN
 à la fois	à la fois	ADV
 libre	libre	ADJ
@@ -1033,7 +1033,7 @@ quelque chose	quelque chose	PRON
 ou	ou	CCONJ
 pour	pour	ADP
 refuser	refuser	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 quelque chose	quelque chose	PRON
 ,	,	PUNCTclause
 le	le	DET
@@ -1153,7 +1153,7 @@ collectivisme	collectivisme	NOUN
 tyrannique	tyrannique	ADJ
 .	.	PUNCTsent
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 cas	cas	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -1164,7 +1164,7 @@ pas	pas	ADV
 responsable	responsable	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
-le second	le second	DET
+le second	le second	PRON
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -1174,7 +1174,7 @@ libre	libre	ADJ
 .	.	PUNCTsent
 ni	ni	CCONJ
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 ,	,	PUNCTclause
 ni	ni	CCONJ
 dans	dans	ADP
@@ -1208,7 +1208,7 @@ l'	le	DET
 éducation	éducation	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 éducation	éducation	NOUN
 dans	dans	ADP
@@ -1691,8 +1691,8 @@ comprendre	comprendre	VERB
 .	.	PUNCTsent
 il	il	PRON
 doit	devoir	VERB
-prendre connaissance	prendre connaissance	NOUN
-des	un	ADP_DET
+prendre connaissance	prendre connaissance	VERB
+des	un	DET
 chefs-d'œuvre	chef-d'œuvre	NOUN
 ,	,	PUNCTclause
 apprendre	apprendre	VERB
@@ -1879,7 +1879,7 @@ de	de	ADP
 maîtriser	maîtriser	VERB
 une	un	DET
 technique	technique	NOUN
-de telle sorte que	de telle sorte que	PUNCT
+de telle sorte que	de telle sorte que	SCONJ
 la	le	DET
 personnalité	personnalité	NOUN
 ,	,	PUNCTclause
@@ -2089,7 +2089,7 @@ art	art	NOUN
 consiste	consister	VERB
 à	à	ADP
 maintenir	maintenir	VERB
-en équilibre	en équilibre	ADP
+en équilibre	en équilibre	ADJ
 les	le	DET
 deux	deux	NUM
 exigences	exigence	NOUN
@@ -2146,7 +2146,7 @@ ambitionne	ambitionner	VERB
 de	de	ADP
 être	être	AUX
 joué	jouer	VERB
-en public	en public	PUNCT
+en public	en public	ADV
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 que	que	SCONJ
@@ -2204,7 +2204,7 @@ créateur	créateur	NOUN
 le	le	DET
 problème	problème	NOUN
 est	être	AUX
-les mêmes	les mêmes	SYM
+les mêmes	les mêmes	PRON
 dans	dans	ADP
 sa	son	DET
 forme	forme	NOUN
@@ -2352,7 +2352,7 @@ cet	ce	DET
 en	en	ADP
 tension	tension	NOUN
 sont	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 dans	dans	ADP
 les	le	DET
 deux	deux	NUM
@@ -2636,7 +2636,7 @@ ce	ce	PRON
 est	être	AUX
 ainsi	ainsi	ADV
 que	que	SCONJ
-à l'époque	à l'époque	DET
+à l'époque	à l'époque	ADV
 du	du	ADP_DET
 cubisme	cubisme	NOUN
 et	et	CCONJ
@@ -2689,7 +2689,7 @@ se	se	PRON
 effacent	effacer	VERB
 ,	,	PUNCTclause
 —	—	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 avec	avec	ADP
 Stravinsky	Stravinsky	PROPN
 se	se	PRON
@@ -2820,7 +2820,7 @@ aucun	aucun	PRON
 ne	ne	ADV
 avait	avoir	AUX
 ressuscité	ressusciter	VERB
-autant de	autant de	ADP
+autant de	autant de	DET
 modes	mode	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -2860,7 +2860,7 @@ nourrissant	nourrir	VERB
 ,	,	PUNCTclause
 se	se	PRON
 fécondant	féconder	VERB
-l'une l'autre	l'une l'autre	PUNCT
+l'une l'autre	l'une l'autre	PRON
 .	.	PUNCTsent
 et	et	CCONJ
 l'	le	DET
@@ -3399,7 +3399,7 @@ apprennent	apprendre	VERB
 leur	leur	DET
 métier	métier	NOUN
 .	.	PUNCTsent
-au début	au début	ADP_DET
+au début	au début	ADV
 du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
@@ -3436,8 +3436,8 @@ suit	suivre	VERB
 peu de	peu de	DET
 choses	chose	NOUN
 près	près	ADV
-les mêmes	les mêmes	ADP_DET
-voies	voie	NOUN
+les mêmes	les mêmes	PRON
+voies	voir	VERB
 .	.	PUNCTsent
 or	or	NOUN
 ces	ce	DET
@@ -3537,7 +3537,7 @@ l'	le	DET
 Italie	Italie	PROPN
 actuelles	actuel	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 Grünewald	Grünewald	PROPN
 ne	ne	ADV
 est	être	AUX
@@ -3546,7 +3546,7 @@ devenu	devenir	VERB
 un	un	DET
 peintre	peintre	NOUN
 France	France	PROPN
-du fait de	du fait de	PUNCT
+du fait de	du fait de	ADP
 l'	le	DET
 annexion	annexion	NOUN
 de	de	ADP
@@ -3707,7 +3707,7 @@ humain	humain	ADJ
 ↵↵	↵↵	PUNCTstruct
 montrer	montrer	VERB
 cela	cela	PRON
-sans relâche	sans relâche	PUNCT
+sans relâche	sans relâche	ADV
 et	et	CCONJ
 en	en	ADP
 toute	toute	DET
@@ -3840,7 +3840,7 @@ seuls	seul	ADJ
 artistes	artiste	NOUN
 professionnels	professionnel	ADJ
 ?	?	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 vie quotidienne	vie quotidienne	NOUN
 et	et	CCONJ
@@ -4008,7 +4008,7 @@ reste	reste	NOUN
 étant	être	AUX
 passif	passif	ADJ
 et	et	CCONJ
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 coup	coup	NOUN
 .	.	PUNCTsent
 une	un	DET
@@ -4025,7 +4025,7 @@ la	le	DET
 communauté	communauté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ne	ne	ADV
 a	avoir	VERB
 pas	pas	ADV
@@ -4046,12 +4046,12 @@ la	le	DET
 littérature	littérature	NOUN
 et	et	CCONJ
 de	de	ADP
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 sa	son	DET
 carrière	carrier	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 a	avoir	VERB
 besoin	besoin	NOUN
 de	de	ADP
@@ -4082,7 +4082,7 @@ et	et	CCONJ
 le	le	DET
 style	style	NOUN
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 souffre	souffrir	VERB
 ,	,	PUNCTclause
 même	même	ADV
@@ -4193,7 +4193,7 @@ responsabilités	responsabilité	NOUN
 communautaires	communautaire	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 éducation	éducation	NOUN
 artistique	artistique	ADJ
@@ -4298,7 +4298,7 @@ de	de	ADP
 se	se	PRON
 exprimer	exprimer	VERB
 librement	librement	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 homme	homme	NOUN
 responsable	responsable	ADJ
 —	—	PUNCTclause

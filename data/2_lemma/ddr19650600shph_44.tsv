@@ -346,7 +346,7 @@ ne	ne	ADV
 mentionne	mentionner	VERB
 .	.	PUNCTsent
 vers	vers	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -468,7 +468,7 @@ chroniques	chronique	NOUN
 qui	qui	PRON
 décrivent	décrire	VERB
 toutes	tout	ADJ
-la même	la même	DET
+la même	la même	PRON
 épreuve	épreuve	NOUN
 de	de	ADP
 adresse	adresse	NOUN
@@ -620,7 +620,7 @@ en	en	ADP
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 histoire	histoire	NOUN
 imprimée	imprimer	VERB
 de	de	ADP
@@ -703,8 +703,8 @@ Brutus	Brutus	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 ,	,	PUNCTclause
 les	le	DET
 réformateurs	réformateur	NOUN
@@ -1126,7 +1126,7 @@ Freudenberg	Freudenberg	PROPN
 qui	qui	PRON
 va	aller	VERB
 porter	porter	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 coup	coup	NOUN
 décisif	décisif	ADJ
 à	à	ADP
@@ -1251,7 +1251,7 @@ de	de	ADP
 rappeler	rappeler	VERB
 ici	ici	ADV
 que	que	SCONJ
-la première	la première	DET
+la première	la première	PRON
 publication	publication	NOUN
 du	du	ADP_DET
 Pacte	Pacte	PROPN
@@ -1342,7 +1342,7 @@ toutefois	toutefois	ADV
 que	que	SCONJ
 au	au	ADP_DET
 siècle	siècle	NOUN
-suivant que	suivant que	PUNCT
+suivant que	suivant que	SCONJ
 une	un	DET
 école	école	NOUN
 de	de	ADP
@@ -1633,15 +1633,15 @@ Lucernois	Lucernois	PROPN
 quitte à	quitte à	ADP
 corriger	corriger	VERB
 sur	sur	ADP
-plus d'une	plus d'une	ADV
-point	point	ADV
+plus d'une	plus d'une	DET
+point	point	NOUN
 ses	son	DET
 jugements	jugement	NOUN
 certes	certes	ADV
 scrupuleux	scrupuleux	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 systématiquement	systématiquement	ADV
 iconoclastes	iconoclaste	NOUN
 .	.	PUNCTsent
@@ -1977,7 +1977,7 @@ de	de	ADP
 expliquer	expliquer	VERB
 .	.	PUNCTsent
 «	«	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 création	création	NOUN
 poétique	poétique	ADJ
 ,	,	PUNCTclause
@@ -2153,8 +2153,8 @@ Pacte	Pacte	PROPN
 de	de	ADP
 1291	1291	NUM
 et	et	CCONJ
-la première	la première	DET
-confédération	confédération	NOUN
+la première	la première	PRON
+Confédération	Confédération	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
 il	il	PRON
@@ -2175,7 +2175,7 @@ mythe	mythe	NOUN
 de	de	ADP
 Tell	Tell	PROPN
 ,	,	PUNCTclause
-par la suite	par la suite	NOUN
+par la suite	par la suite	ADV
 ,	,	PUNCTclause
 a	avoir	AUX
 joué	jouer	VERB
@@ -2223,7 +2223,7 @@ un	un	DET
 fait	fait	NOUN
 de	de	ADP
 histoire	histoire	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 réalité	réalité	NOUN
 de	de	ADP
 la	le	DET
@@ -2248,7 +2248,7 @@ un	un	DET
 bailli	bailli	NOUN
 ,	,	PUNCTclause
 est	être	AUX
-au fond	au fond	SYM
+au fond	au fond	ADV
 sans	sans	ADP
 grand	grand	ADJ
 intérêt	intérêt	NOUN
@@ -2264,7 +2264,7 @@ et	et	CCONJ
 sportif	sportif	ADJ
 ne	ne	ADV
 eût	avoir	VERB
-de toute façon	de toute façon	DET
+de toute façon	de toute façon	ADV
 rien	rien	PRON
 changé	changer	VERB
 à	à	ADP
@@ -2329,7 +2329,7 @@ motifs	motif	NOUN
 mythiques	mythique	ADJ
 ,	,	PUNCTclause
 connus	connaître	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 ,	,	PUNCTclause
 de	de	ADP

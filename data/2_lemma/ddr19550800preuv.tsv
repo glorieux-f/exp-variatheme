@@ -72,7 +72,7 @@ on	on	PRON
 se	se	PRON
 figure	figurer	VERB
 bien	bien	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 savantes	savant	ADJ
 réunions	réunion	NOUN
 de	de	ADP
@@ -220,7 +220,7 @@ l'	le	DET
 occasion	occasion	NOUN
 de	de	ADP
 intervenir	intervenir	VERB
-en force	en force	DET
+en force	en force	ADV
 .	.	PUNCTsent
 à	à	ADP
 l'	le	DET
@@ -361,7 +361,7 @@ lui-même	lui-même	PRON
 des	un	ADP_DET
 rédactions	rédaction	NOUN
 improvisées	improvisé	ADJ
-à la dernière minute	à la dernière minute	PUNCT
+à la dernière minute	à la dernière minute	ADV
 sont	être	AUX
 mises	miser	VERB
 aux	au	ADP_DET
@@ -379,7 +379,7 @@ de	de	ADP
 couloirs	couloir	NOUN
 le	le	DET
 remettent	remettre	VERB
-en question	en question	PUNCT
+en question	en question	ADJ
 le	le	DET
 lendemain	lendemain	NOUN
 .	.	PUNCTsent
@@ -389,7 +389,7 @@ de	de	ADP
 évêques	évêque	NOUN
 menace	menacer	VERB
 de	de	ADP
-s'en aller	s'en aller	DET
+s'en aller	s'en aller	VERB
 .	.	PUNCTsent
 on	on	PRON
 échange	échanger	VERB
@@ -838,17 +838,17 @@ qui	qui	PRON
 est	être	AUX
 le	le	DET
 père	père	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 créateur	créateur	NOUN
 ,	,	PUNCTclause
 le	le	DET
 fils	fils	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 rédempteur	rédempteur	NOUN
 ,	,	PUNCTclause
 le	le	DET
 Saint-Esprit	Saint-Esprit	PROPN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 Libérateur	Libérateur	PROPN
 ?	?	PUNCTsent
 comment	comment	ADV
@@ -975,7 +975,7 @@ de	de	ADP
 persona	persona	NOUN
 ,	,	PUNCTclause
 désignant	désigner	VERB
-au début	au début	PUNCT
+au début	au début	ADV
 le	le	DET
 masque	masque	NOUN
 de	de	ADP
@@ -997,7 +997,7 @@ là	là	ADV
 l'	le	DET
 homme	homme	NOUN
 lui-même	lui-même	PRON
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 doté	doter	VERB
 de	de	ADP
 droits	droit	NOUN
@@ -1274,7 +1274,7 @@ elle	elle	PRON
 pu	pouvoir	VERB
 se	se	PRON
 produire	produire	VERB
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 une	un	DET
 civilisation	civilisation	NOUN
 qui	qui	PRON
@@ -1292,7 +1292,7 @@ de	de	ADP
 la	le	DET
 science	science	NOUN
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 la	le	DET
 liberté	liberté	NOUN
 sujet	sujet	NOUN
@@ -1428,7 +1428,7 @@ l'	le	DET
 incarnation	incarnation	NOUN
 ,	,	PUNCTclause
 précisée	préciser	VERB
-à l'extrême	à l'extrême	PUNCT
+à l'extrême	à l'extrême	ADV
 par	par	ADP
 les	le	DET
 Pères	Pères	PROPN
@@ -1440,9 +1440,9 @@ par	par	ADP
 des	un	DET
 soins	soin	NOUN
 jaloux	jaloux	ADJ
-au plus	au plus	ADP_DET
-haut	haut	NOUN
-point	point	ADV
+au plus	au plus	ADV
+haut	haut	ADJ
+point	point	NOUN
 du	du	ADP_DET
 paradoxe	paradoxe	NOUN
 ,	,	PUNCTclause
@@ -1527,7 +1527,7 @@ l'	le_PRON	PRON
 orient	orient	VERB
 leur	leur	DET
 dénie	dénier	VERB
-par principe	par principe	NOUN
+par principe	par principe	ADV
 .	.	PUNCTsent
 enfin	enfin	ADV
 ,	,	PUNCTclause
@@ -1770,7 +1770,7 @@ tous	tout	ADJ
 les	le	DET
 degrés	degré	NOUN
 ,	,	PUNCTclause
-de proche en proche	de proche en proche	DET
+de proche en proche	de proche en proche	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
 tous	tout	ADJ
@@ -1895,7 +1895,7 @@ histoire	histoire	NOUN
 ?	?	PUNCTsent
 la plupart	la plupart	PRON
 mettent	mettre	VERB
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 des	un	ADP_DET
 réalités	réalité	NOUN
 purement	purement	ADV
@@ -2000,7 +2000,7 @@ pourtant	pourtant	ADV
 ces	ce	DET
 polarités	polarité	NOUN
 reproduisent	reproduire	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 type	type	NOUN
 de	de	ADP
 tension	tension	NOUN
@@ -2056,7 +2056,7 @@ Nicée	Nicée	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 devint	devenir	VERB
-par la suite	par la suite	ADP
+par la suite	par la suite	ADV
 une	un	DET
 «	«	PUNCTclause
 manière	manière	NOUN
@@ -2115,7 +2115,7 @@ secundo	secundo	ADV
 que	que	SCONJ
 il	il	PRON
 appartient	appartenir	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 à	à	ADP
 la	le	DET
 définition	définition	NOUN
@@ -2313,8 +2313,8 @@ un	un	DET
 seul	seul	ADJ
 esprit	esprit	NOUN
 .	.	PUNCTsent
-aussi longtemps que	aussi longtemps que	ADP_DET
-les	le_PRON	PRON
+aussi longtemps que	aussi longtemps que	SCONJ
+les	le	DET
 aspects	aspect	NOUN
 contradictoires	contradictoire	ADJ
 sont	être	AUX
@@ -2330,7 +2330,7 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 ,	,	PUNCTclause
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 de	de	ADP
 une	un	DET
 culture	culture	NOUN
@@ -3431,7 +3431,7 @@ ainsi	ainsi	ADV
 que	que	SCONJ
 Nietzsche	Nietzsche	PROPN
 ,	,	PUNCTclause
-le premier	le premier	DET
+le premier	le premier	PRON
 ,	,	PUNCTclause
 a	avoir	AUX
 su	savoir	VERB
@@ -3519,7 +3519,7 @@ chrétien	chrétien	NOUN
 a	avoir	AUX
 été	être	AUX
 capable	capable	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 avancer	avancer	VERB
 cette	ce	DET
 science	science	NOUN
@@ -3533,7 +3533,7 @@ contre	contre	ADP
 son	son	DET
 christianisme	christianisme	NOUN
 —	—	PUNCTclause
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 contre	contre	ADP
 chacune	chacune	PRON
 des	un	ADP_DET
@@ -3985,7 +3985,7 @@ supporter	supporter	VERB
 de	de	ADP
 être	être	AUX
 mis	mettre	VERB
-en question	en question	PUNCT
+en question	en question	ADJ
 par	par	ADP
 les	le	DET
 faits	fait	NOUN
@@ -4174,7 +4174,7 @@ qualifié	qualifier	VERB
 de	de	ADP
 matérialisme	matérialisme	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 son	son	DET
 dogme	dogme	NOUN
 central	central	ADJ
@@ -4483,7 +4483,7 @@ ai	avoir	AUX
 tenté	tenter	VERB
 plus	plus	ADV
 haut	haut	ADJ
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 lumière	lumière	NOUN
 par	par	ADP
@@ -4533,7 +4533,7 @@ matérialisme	matérialisme	NOUN
 est	être	AUX
 demeuré	demeurer	VERB
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 chez	chez	ADP
 ses	son	DET
 théoriciens	théoricien	NOUN
@@ -4649,7 +4649,7 @@ siècle	siècle	NOUN
 durent	devoir	VERB
 se	se	PRON
 sentir	sentir	VERB
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 libres	libre	ADJ
 de	de	ADP
 se	se	PRON
@@ -4665,7 +4665,7 @@ que	que	SCONJ
 ils	ils	PRON
 se	se	PRON
 posaient	poser	VERB
-moins de	moins de	PUNCT
+moins de	moins de	DET
 questions	question	NOUN
 quant à	quant à	ADP
 motifs	motif	NOUN
@@ -4753,7 +4753,7 @@ l'autre	l'autre	PRON
 côté	côté	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
-au terme de	au terme de	PUNCT
+au terme de	au terme de	ADP
 une	un	DET
 aride	aride	ADJ
 ascension	ascension	NOUN
@@ -4807,7 +4807,7 @@ la	le	DET
 matière	matière	NOUN
 et	et	CCONJ
 quelque	quelque	DET
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 »	»	PUNCTclause
 et	et	CCONJ
@@ -4821,7 +4821,7 @@ la	le	DET
 matière	matière	NOUN
 et	et	CCONJ
 «	«	PUNCTclause
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 »	»	PUNCTclause
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -4895,7 +4895,7 @@ que	que	SCONJ
 cela	cela	PRON
 ne	ne	ADV
 affecte	affecter	VERB
-en rien	en rien	ADP
+en rien	en rien	ADV
 la	le	DET
 dialectique	dialectique	NOUN
 transcendance-immanence	transcendance-immanence	PUNCT
@@ -4922,8 +4922,8 @@ tout de suite	tout de suite	ADV
 que	que	SCONJ
 cela	cela	PRON
 ruine	ruiner	VERB
-à jamais	à jamais	DET
-les	le_PRON	PRON
+à jamais	à jamais	ADV
+les	le	DET
 «	«	PUNCTclause
 certitudes	certitude	NOUN
 »	»	PUNCTclause
@@ -5192,7 +5192,7 @@ de	de	ADP
 l'	le	DET
 esprit	esprit	NOUN
 ,	,	PUNCTclause
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 ses	son	DET
 arguments	argument	NOUN
 scientifiques	scientifique	ADJ
@@ -5273,7 +5273,7 @@ une	un	DET
 science	science	NOUN
 périmée	périmer	VERB
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 les	le	DET
 rites	rite	NOUN
 des	un	ADP_DET
@@ -5321,7 +5321,7 @@ pavoiser	pavoiser	VERB
 car	car	CCONJ
 ,	,	PUNCTclause
 pour	pour	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 raisons	raison	NOUN
 ,	,	PUNCTclause
 leur	leur	DET
@@ -5540,7 +5540,7 @@ la	le	DET
 question	question	NOUN
 se	se	PRON
 ramène	ramener	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 qui	qui	PRON
 décide	décider	VERB
 ,	,	PUNCTclause
@@ -5768,7 +5768,7 @@ par	par	ADP
 leurs	leur	DET
 travaux	travail	NOUN
 bien	bien	ADV
-au-delà de	au-delà de	SCONJ
+au-delà de	au-delà de	ADP
 la	le	DET
 superstition	superstition	NOUN
 matérialiste	matérialiste	ADJ
@@ -5986,8 +5986,8 @@ de	de	ADP
 la	le	DET
 transcendance	transcendance	NOUN
 ,	,	PUNCTclause
-dès l'instant que	dès l'instant que	DET
-la première	la première	NOUN
+dès l'instant que	dès l'instant que	SCONJ
+la première	la première	PRON
 est	être	AUX
 conçue	concevoir	VERB
 comme	comme	ADP
@@ -6330,7 +6330,7 @@ ainsi	ainsi	ADV
 que	que	SCONJ
 notre	notre	DET
 esprit	esprit	NOUN
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 vient	venir	VERB
 buter	buter	VERB
 contre	contre	ADP
@@ -6402,9 +6402,9 @@ refus	refus	NOUN
 de	de	ADP
 être	être	AUX
 mis	mettre	VERB
-en question	en question	PUNCT
+en question	en question	ADJ
 par	par	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 «	«	PUNCTclause
 le	le	DET

@@ -73,7 +73,7 @@ première	premier	ADJ
 condition	condition	NOUN
 .	.	PUNCTsent
 quand	quand	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 aura	avoir	VERB
 compris	comprendre	VERB
 cela	cela	PRON
@@ -129,7 +129,7 @@ de	de	ADP
 la	le	DET
 paix	paix	NOUN
 —	—	PUNCTclause
-assez de	assez de	PUNCT
+assez de	assez de	DET
 congrès	congrès	NOUN
 bavardent	bavarder	VERB
 à	à	ADP
@@ -138,7 +138,7 @@ sujet	sujet	NOUN
 —	—	PUNCTclause
 mais	mais	CCONJ
 essayons	essayer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 quelque chose	quelque chose	PRON
 de	de	ADP
 précis	précis	ADJ
@@ -150,7 +150,7 @@ pratiquement	pratiquement	ADV
 ,	,	PUNCTclause
 je	je	PRON
 propose	proposer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -170,7 +170,7 @@ cependant	cependant	ADV
 ,	,	PUNCTclause
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 personnes	personne	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -525,7 +525,7 @@ pas	pas	ADV
 une	un	DET
 raison	raison	NOUN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 pour que	pour que	SCONJ
 nous	nous	PRON
@@ -556,9 +556,9 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 est	être	AUX
-en partie	en partie	DET
-une	un	PRON
-mesure	mesurer	VERB
+en partie	en partie	ADV
+une	un	DET
+mesure	mesure	NOUN
 de	de	ADP
 défense	défense	NOUN
 contre	contre	ADP
@@ -582,8 +582,8 @@ nos	nos	DET
 critiques	critique	NOUN
 vont	aller	VERB
 …	…	PUNCTsent
-un peu	un peu	DET
-fort	fort	NOUN
+un peu	un peu	ADV
+fort	fort	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -592,7 +592,7 @@ ils	ils	PRON
 croient	croire	VERB
 ou	ou	CCONJ
 essayent	essayer	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 croire	croire	VERB
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -674,7 +674,7 @@ il	il	PRON
 avec	avec	ADP
 candeur	candeur	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 loin	loin	ADV
 ,	,	PUNCTclause
@@ -703,7 +703,7 @@ des	un	ADP_DET
 Soviets	Soviets	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 verra	voir	VERB
 que	que	SCONJ
 ce	ce	DET
@@ -714,7 +714,7 @@ contre	contre	ADP
 les	le	DET
 Soviets	Soviets	PROPN
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 sauf	sauf	ADP
 son	son	DET
@@ -825,7 +825,7 @@ de	de	ADP
 la	le	DET
 paix	paix	NOUN
 ,	,	PUNCTclause
-pourvu que	pourvu que	PUNCT
+pourvu que	pourvu que	SCONJ
 ils	ils	PRON
 nous	nous	PRON
 la	le_PRON	PRON
@@ -1033,9 +1033,9 @@ reste	rester	VERB
 calme	calme	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
-chaud	chaud	ADJ
+chaud	chaud	ADV
 :	:	PUNCTclause
 le	le	DET
 Conseil	Conseil	PROPN

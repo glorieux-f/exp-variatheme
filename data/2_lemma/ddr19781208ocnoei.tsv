@@ -953,7 +953,7 @@ mesures	mesure	NOUN
 matérialistes	matérialiste	ADJ
 (	(	PUNCTclause
 remplaçant	remplacer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 les	le	DET
 valeurs	valeur	NOUN
 )	)	PUNCTclause
@@ -1061,8 +1061,8 @@ fédéralisme	fédéralisme	NOUN
 les	le	DET
 états-nations	État-nation	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
-tels	tel	PRON
+en tant que	en tant que	ADP
+tels	tel	DET
 ,	,	PUNCTclause
 acceptent	accepter	VERB
 les	le	DET
@@ -1242,7 +1242,7 @@ ne	ne	ADV
 empiète	empiéter	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-si peu que	si peu que	ADP
+si peu que	si peu que	SCONJ
 ce	ce	PRON
 soit	être	AUX
 ,	,	PUNCTclause
@@ -1270,9 +1270,9 @@ les	le	DET
 réalités	réalité	NOUN
 mondiales	mondial	ADJ
 que	que	SCONJ
-sous l'angle de	sous l'angle de	DET
-l'	le_PRON	PRON
-influence	influencer	VERB
+sous l'angle de	sous l'angle de	ADP
+l'	le	DET
+influence	influence	NOUN
 que	que	SCONJ
 ils	ils	PRON
 y	y	PRON
@@ -1315,7 +1315,7 @@ la	le	DET
 solidarité	solidarité	NOUN
 internationale	international	ADJ
 comme	comme	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 une	un	DET
 utopie	utopie	NOUN
@@ -1345,7 +1345,7 @@ nation	nation	NOUN
 (	(	PUNCTclause
 exception	exception	NOUN
 :	:	PUNCTclause
-en cas de	en cas de	PRON
+en cas de	en cas de	ADP
 crise	crise	NOUN
 très	très	ADV
 grave	grave	ADJ
@@ -1434,8 +1434,8 @@ etc.	etc.	NOUN
 etc.	etc.	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-les mêmes	les mêmes	DET
-réflexes	réflexe	NOUN
+les mêmes	les mêmes	PRON
+réflexes	réflexe	ADJ
 stato-national	stato-national	PRON
 qui	qui	PRON
 bloquent	bloquer	VERB
@@ -1550,7 +1550,7 @@ capable	capable	ADJ
 de	de	ADP
 leur	leur	DET
 enseigner	enseigner	VERB
-quoi que ce soit	quoi que ce soit	PUNCT
+quoi que ce soit	quoi que ce soit	PRON
 qui	qui	PRON
 diffère	différer	VERB
 tant soit peu	tant soit peu	ADV
@@ -1671,7 +1671,7 @@ dimensions	dimension	NOUN
 aux	au	ADP_DET
 différentes	différent	ADJ
 communautés	communauté	NOUN
-de taille	de taille	PUNCT
+de taille	de taille	ADJ
 correspondante	correspondant	ADJ
 :	:	PUNCTclause
 locales	local	ADJ
@@ -2408,8 +2408,8 @@ que	que	PRON
 exerce	exercer	VERB
 sur	sur	ADP
 eux	eux	PRON
-le premier	le premier	DET
-modèle	modèle	NOUN
+le premier	le premier	PRON
+modèle	modeler	VERB
 ,	,	PUNCTclause
 non seulement	non seulement	ADV
 dans	dans	ADP
@@ -2467,7 +2467,7 @@ sur	sur	ADP
 la	le	DET
 terre	terre	NOUN
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -2541,7 +2541,7 @@ se	se	PRON
 trouve	trouver	VERB
 donc	donc	ADV
 lié	lier	VERB
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 de	de	ADP
 une	un	DET
 fédération	fédération	NOUN

@@ -20,7 +20,7 @@ deux	deux	NUM
 thèses	thèse	NOUN
 principales	principal	ADJ
 .	.	PUNCTsent
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -311,9 +311,9 @@ perdues	perdre	VERB
 ,	,	PUNCTclause
 nous	nous	PRON
 commencerons	commencer	VERB
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 ce	ce	PRON
-que	que	SCONJ
+que	que	PRON
 elles	elles	PRON
 valent	valoir	VERB
 .	.	PUNCTsent
@@ -370,7 +370,7 @@ sont	être	AUX
 immenses	immense	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -405,7 +405,7 @@ exception	exception	NOUN
 peuvent	pouvoir	VERB
 nous	nous	PRON
 envier	envier	VERB
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 il	il	PRON
 semble	sembler	VERB
@@ -463,7 +463,7 @@ circuler	circuler	VERB
 de	de	ADP
 travailler	travailler	VERB
 ,	,	PUNCTclause
-de fait	de fait	ADP
+de fait	de fait	ADJ
 la	le	DET
 grève	grève	NOUN
 ,	,	PUNCTclause
@@ -550,7 +550,7 @@ la	le	DET
 Feuille	Feuille	PROPN
 locale	local	ADJ
 ,	,	PUNCTclause
-de fait	de fait	DET
+de fait	de fait	ADJ
 campagne	campagne	NOUN
 pour	pour	ADP
 n'importe quoi	n'importe quoi	PRON
@@ -577,7 +577,7 @@ droit	droit	NOUN
 de	de	ADP
 entrer	entrer	VERB
 dans	dans	ADP
-n'importe quels	n'importe quels	ADJ
+n'importe quels	n'importe quels	DET
 magasin	magasin	NOUN
 ,	,	PUNCTclause
 marché	marché	NOUN
@@ -961,7 +961,7 @@ ne	ne	ADV
 plus	plus	ADV
 croire	croire	VERB
 à	à	ADP
-rien que	rien que	NOUN
+rien que	rien que	ADV
 aux	au	ADP_DET
 réalités	réalité	NOUN
 immédiates	immédiat	ADJ
@@ -1268,7 +1268,7 @@ propre	propre	ADJ
 pensée	pensée	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-par là même	par là même	ADP
+par là même	par là même	ADV
 conscient	conscient	ADJ
 de	de	ADP
 ce	ce	PRON
@@ -1326,7 +1326,7 @@ résister	résister	VERB
 à	à	ADP
 la	le	DET
 mise	mise	NOUN
-au pas	au pas	PUNCT
+au pas	au pas	ADV
 par	par	ADP
 l'	le	DET
 état	état	NOUN
@@ -1456,7 +1456,7 @@ personne	personne	NOUN
 être	être	AUX
 libre	libre	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 faut	falloir	VERB
 forcer	forcer	VERB
@@ -1467,7 +1467,7 @@ masses	masse	NOUN
 masses	masse	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 personne	personne_PRON	PRON
 égale	égal	ADJ
 liberté	liberté	NOUN
@@ -1537,7 +1537,7 @@ de	de	ADP
 accomplir	accomplir	VERB
 ainsi	ainsi	ADV
 ,	,	PUNCTclause
-en secret	en secret	INTJ
+en secret	en secret	ADV
 bien	bien	ADV
 souvent	souvent	ADV
 ,	,	PUNCTclause
@@ -2019,7 +2019,7 @@ ne	ne	ADV
 devient	devenir	VERB
 fatal	fatal	ADJ
 que	que	SCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 nous	nous	PRON
 quittons	quitter	VERB
 la	le	DET
@@ -2039,11 +2039,11 @@ démissions	démission	NOUN
 personnelles	personnel	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 je	je	PRON
 conclurai	conclure	VERB
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 par	par	ADP
 ce	ce	DET

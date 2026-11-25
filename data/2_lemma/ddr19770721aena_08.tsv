@@ -165,7 +165,7 @@ me	me	PRON
 rappelle	rappeler	VERB
 la	le	DET
 locomotive	locomotive	NOUN
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 je	je	PRON
 l'	le_PRON	PRON
 avais	avoir	AUX
@@ -175,8 +175,8 @@ hier	hier	ADV
 car	car	CCONJ
 ce	ce	PRON
 était	être	AUX
-le premier	le premier	DET
-véhicule	véhicule	NOUN
+le premier	le premier	PRON
+véhicule	véhiculer	VERB
 non	non	ADV
 attelé	atteler	VERB
 que	que	SCONJ
@@ -198,7 +198,7 @@ le	le	DET
 transport	transport	NOUN
 automoteur	automoteur	ADJ
 …	…	PUNCTsent
-dès l'instant où	dès l'instant où	PRON
+dès l'instant où	dès l'instant où	SCONJ
 je	je	PRON
 l'	le_PRON	PRON
 aperçus	apercevoir	VERB
@@ -303,7 +303,7 @@ alors	alors	ADV
 l'	le	DET
 esprit	esprit	NOUN
 que	que	SCONJ
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 principe	principe	NOUN
 pouvait	pouvoir	VERB
 se	se	PRON
@@ -318,7 +318,7 @@ route	route	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 entend	entendre	VERB
 parler	parler	VERB
@@ -410,7 +410,7 @@ autres	autre	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 que	que	SCONJ
 en	en	ADP
@@ -710,7 +710,7 @@ auto	auto	NOUN
 que	que	PRON
 il	il	PRON
 sera	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 produire	produire	VERB
 en	en	ADP
@@ -895,8 +895,8 @@ un	un	DET
 désir	désir	NOUN
 très	très	ADV
 sincère	sincère	ADJ
-de fait	de fait	PUNCT
-du	du	DET
+de fait	de fait	ADJ
+du	du	ADP_DET
 bien	bien	NOUN
 à	à	ADP
 la	le	DET
@@ -980,7 +980,7 @@ plus	plus	ADV
 grand	grand	ADJ
 nombre	nombre	NOUN
 et	et	CCONJ
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 cher	cher	ADJ
 avec	avec	ADP
 leurs	leur	DET
@@ -1180,7 +1180,7 @@ pas	pas	ADV
 .	.	PUNCTsent
 une	un	DET
 rentabilité	rentabilité	NOUN
-tout juste	tout juste	ADJ
+tout juste	tout juste	ADV
 utile	utile	ADJ
 à	à	ADP
 la	le	DET
@@ -1711,7 +1711,7 @@ jouer	jouer	VERB
 ce	ce	DET
 jeu	jeu	NOUN
 .	.	PUNCTsent
-la même	la même	DET
+la même	la même	PRON
 année	année	NOUN
 1903	1903	NUM
 ,	,	PUNCTclause
@@ -1965,7 +1965,7 @@ d'ailleurs	d'ailleurs	ADV
 il	il	PRON
 ne	ne	ADV
 cessera	cesser	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 baisser	baisser	VERB
 son	son	DET
 prix	prix	NOUN
@@ -1991,7 +1991,7 @@ Volkswagen	Volkswagen	PROPN
 de	de	ADP
 Hitler	Hitler	PROPN
 traduit	traduire	VERB
-la même	la même	DET
+la même	la même	PRON
 idée	idée	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -2100,14 +2100,14 @@ l'	le	DET
 idée	idée	NOUN
 de	de	ADP
 partir	partir	VERB
-au hasard	au hasard	ADP_DET
+au hasard	au hasard	ADV
 des	un	ADP_DET
 chemins	chemin	NOUN
 de	de	ADP
 campagne	campagne	NOUN
 ,	,	PUNCTclause
 «	«	PUNCTclause
-n'importe où	n'importe où	PRON
+n'importe où	n'importe où	ADV
 il	il	PRON
 vous	vous	PRON
 plaît	plaire	VERB
@@ -2276,7 +2276,7 @@ journées	journée	NOUN
 de	de	ADP
 travail	travail	NOUN
 que	que	PRON
-au total	au total	PUNCT
+au total	au total	ADV
 ses	son	DET
 10000	10000	NUM
 km	km	NOUN
@@ -2305,9 +2305,9 @@ l'	le	DET
 automobile	automobile	NOUN
 est	être	AUX
 resté	rester	VERB
-jusqu'à ce jour	jusqu'à ce jour	ADP
+jusqu'à ce jour	jusqu'à ce jour	ADV
 l'un	l'un	PRON
-des	un	DET
+des	un	ADP_DET
 plus	plus	ADV
 faibles	faible	ADJ
 dans	dans	ADP
@@ -2372,12 +2372,12 @@ millions	million	NOUN
 la	le	DET
 voiture	voiture	NOUN
 est	être	AUX
-la première	la première	DET
+la première	la première	PRON
 cause	cause	NOUN
 de	de	ADP
 décès	décès	NOUN
 des	un	ADP_DET
-moins de	moins de	NOUN
+moins de	moins de	DET
 25	25	NUM
 ans	an	NOUN
 aux	au	ADP_DET
@@ -2389,7 +2389,7 @@ certes	certes	ADV
 dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 morts	mort	NOUN
 par	par	ADP
 le	le	DET
@@ -2527,7 +2527,7 @@ kilomètres	mètre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 partir	partir	VERB
-au hasard	au hasard	ADP_DET
+au hasard	au hasard	ADV
 sur	sur	ADP
 les	le	DET
 routes	route	NOUN
@@ -2761,7 +2761,7 @@ Ford	Ford	PROPN
 nous	nous	PRON
 avons	avoir	AUX
 accepté	accepter	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 l'	le	DET
 asservissement	asservissement	NOUN
 au	au	ADP_DET
@@ -2871,7 +2871,7 @@ artificiel	artificiel	ADJ
 a	avoir	AUX
 investi	investir	VERB
 en	en	ADP
-moins d'une	moins d'une	NOUN
+moins d'une	moins d'une	DET
 demi-siècle	demi-siècle	NOUN
 notre	notre	DET
 vie quotidienne	vie quotidienne	NOUN
@@ -3563,7 +3563,7 @@ agit	agir	VERB
 là	là	ADV
 de	de	ADP
 contrecoups	contrecoup	NOUN
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 accidentels	accidentel	ADJ
 du	du	ADP_DET
 développement	développement	NOUN
@@ -3612,7 +3612,7 @@ pétroliers	pétrolier	ADJ
 ,	,	PUNCTclause
 le	le	DET
 roi	roi	NOUN
-de droit	de droit	ADP_DET
+de droit	de droit	ADJ
 divin	divin	ADJ
 et	et	CCONJ
 le	le	DET
@@ -3666,8 +3666,8 @@ si	si	SCONJ
 tout	tout	PRON
 va	aller	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 ,	,	PUNCTclause
 ce	ce	PRON
 seront	être	AUX
@@ -3774,7 +3774,7 @@ y	y	PRON
 croient	croire	VERB
 pas	pas	ADV
 ou	ou	CCONJ
-du moins	du moins	ADP
+du moins	du moins	ADV
 le	le	DET
 disent	dire	VERB
 publiquement	publiquement	ADV
@@ -3905,7 +3905,7 @@ de	de	ADP
 Henry	Henry	PROPN
 Ford	Ford	PROPN
 ,	,	PUNCTclause
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 racheter	racheter	VERB
 la	le	DET
 General	General	PROPN
@@ -4086,10 +4086,10 @@ tâche	tâche	NOUN
 est	être	AUX
 impossible	impossible	ADJ
 .	.	PUNCTsent
-trop de	trop de	ADP
+trop de	trop de	DET
 facteurs	facteur	NOUN
 entreront	entrer	VERB
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 ,	,	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -4266,7 +4266,7 @@ de	de	ADP
 demande	demande	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-au point	au point	ADV
+au point	au point	ADJ
 de	de	ADP
 rendre	rendre	VERB
 cette	ce	DET
@@ -4436,7 +4436,7 @@ fournisseur	fournisseur	NOUN
 de	de	ADP
 pétrole	pétrole	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 Hitler	Hitler	PROPN
 lui-même	lui-même	PRON
 ne	ne	ADV
@@ -4770,7 +4770,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 maintenant	maintenant	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 durer	durer	VERB
 le	le	DET
 pétrole	pétrole	NOUN
@@ -4911,7 +4911,7 @@ relation	relation	NOUN
 de	de	ADP
 incertitude	incertitude	NOUN
 ,	,	PUNCTclause
-tout comme	tout comme	DET
+tout comme	tout comme	SCONJ
 le	le_PRON	PRON
 sont	être	AUX
 la	le	DET
@@ -5106,7 +5106,7 @@ ou	ou	CCONJ
 ,	,	PUNCTclause
 pour	pour	ADP
 pousser	pousser	VERB
-à la limite	à la limite	PUNCT
+à la limite	à la limite	ADV
 :	:	PUNCTclause
 l'	le	DET
 utilité	utilité	NOUN
@@ -5205,7 +5205,7 @@ communautaires	communautaire	ADJ
 —	—	PUNCTclause
 et	et	CCONJ
 ,	,	PUNCTclause
-de fait	de fait	DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 a	avoir	AUX
 été	être	AUX
@@ -5265,14 +5265,14 @@ de	de	ADP
 léser	léser	VERB
 pour	pour	ADP
 longtemps	longtemps	ADV
-au plus	au plus	PUNCT
+au plus	au plus	ADV
 intime	intime	ADJ
 de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 moderne	moderne	ADJ
 :	:	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 ses	son	DET
 besoins	besoin	NOUN
 réels	réel	ADJ
@@ -5726,7 +5726,7 @@ ne	ne	ADV
 se	se	PRON
 agit	agir	VERB
 plus	plus	ADV
-maintenant que	maintenant que	ADV
+maintenant que	maintenant que	SCONJ
 de	de	ADP
 lui	lui	PRON
 donner	donner	VERB
@@ -5883,7 +5883,7 @@ disparu	disparaître	VERB
 .	.	PUNCTsent
 il	il	PRON
 semble	sembler	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 industriel	industriel	NOUN
 ne	ne	ADV
@@ -6306,9 +6306,9 @@ envahir	envahir	VERB
 un	un	DET
 cerveau	cerveau	NOUN
 moderne	moderne	ADJ
-au point	au point	PUNCT
+au point	au point	ADJ
 de	de	ADP
-en	en	PRON
+en	en	ADP
 exclure	exclure	VERB
 toute	toute	DET
 considération	considération	NOUN
@@ -6547,14 +6547,14 @@ se	se	PRON
 empresse	empresser	VERB
 de	de	ADP
 aliéner	aliéner	VERB
-au profit de	au profit de	PUNCT
+au profit de	au profit de	ADP
 plaisirs	plaisir	NOUN
 tarifés	tarifer	VERB
 ,	,	PUNCTclause
 soumis	soumettre	VERB
 plus	plus	ADV
 subtilement	subtilement	ADV
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 son	son	DET
 travail	travail	NOUN
 aux	au	ADP_DET
@@ -6737,7 +6737,7 @@ valeurs	valeur	NOUN
 de	de	ADP
 l'	le	DET
 esprit	esprit	NOUN
-au point que	au point que	PUNCT
+au point que	au point que	SCONJ
 il	il	PRON
 ne	ne	ADV
 éprouve	éprouver	VERB
@@ -6760,7 +6760,7 @@ profondément	profondément	ADV
 ;	;	PUNCTclause
 fatigué	fatiguer	VERB
 de	de	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 satisfactions	satisfaction	NOUN
 matérielles	matériel	ADJ
 ,	,	PUNCTclause
@@ -7208,7 +7208,7 @@ engrenages	engrenage	NOUN
 où	où	PRON
 ils	ils	PRON
 risqueraient	risquer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 grain	grain	NOUN
 de	de	ADP
 sable	sable	NOUN
@@ -7373,7 +7373,7 @@ Ford	Ford	PROPN
 a	avoir	AUX
 raison	raison	NOUN
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 .	.	PUNCTsent
 pas	pas	ADV
 de	de	ADP
@@ -7420,7 +7420,7 @@ la	le	DET
 période	période	NOUN
 pré-industrielle	pré-industrielle	ADJ
 soit	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 une	un	DET
 échappatoire	échappatoire	NOUN
@@ -7729,7 +7729,7 @@ une	un	DET
 méthode	méthode	NOUN
 véritable	véritable	ADJ
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 un	un	DET
 ensemble	ensemble	NOUN
 de	de	ADP
@@ -7869,7 +7869,7 @@ consommation	consommation	NOUN
 ,	,	PUNCTclause
 sans	sans	ADP
 même	même	ADV
-se rendre compte	se rendre compte	PUNCT
+se rendre compte	se rendre compte	VERB
 que	que	SCONJ
 on	on	PRON
 le	le_PRON	PRON
@@ -8045,7 +8045,7 @@ a	avoir	AUX
 rendu	rendre	VERB
 possible	possible	ADJ
 ,	,	PUNCTclause
-en fait	en fait	PRON
+en fait	en fait	ADV
 ,	,	PUNCTclause
 par	par	ADP
 les	le	DET
@@ -8100,7 +8100,7 @@ seul	seul	ADJ
 échec	échec	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 question	question	NOUN
 à	à	ADP
 poser	poser	VERB
@@ -8112,7 +8112,7 @@ sera	être	AUX
 donc	donc	ADV
 celle	celle	PRON
 :	:	PUNCTclause
-en cas de	en cas de	DET
+en cas de	en cas de	ADP
 succès	succès	NOUN
 total	total	ADJ
 ,	,	PUNCTclause
@@ -8141,7 +8141,7 @@ induit	induire	VERB
 rejeter	rejeter	VERB
 le	le	DET
 travail	travail	NOUN
-à la chaîne	à la chaîne	ADJ
+à la chaîne	à la chaîne	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
 réduit	réduire	VERB
@@ -8248,7 +8248,7 @@ la	le	DET
 puissance	puissance	NOUN
 de	de	ADP
 quelques-uns	quelques-uns	PRON
-au mépris de	au mépris de	ADP_DET
+au mépris de	au mépris de	ADP
 mieux-être	mieux-être	NOUN
 de	de	ADP
 la	le	DET
@@ -8266,7 +8266,7 @@ Détroit	Détroit	PROPN
 ainsi	ainsi	ADV
 se	se	PRON
 renforcèrent	renforcer	VERB
-par la suite	par la suite	ADP
+par la suite	par la suite	ADV
 nos	nos	DET
 états	état	NOUN
 ,	,	PUNCTclause
@@ -8282,7 +8282,7 @@ que	que	SCONJ
 ils	ils	PRON
 sont	être	AUX
 seuls	seul	ADJ
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 financer	financer	VERB
 grâce à	grâce à	ADP
 impôts	impôt	NOUN
@@ -8346,7 +8346,7 @@ sa	son	DET
 nature	nature	NOUN
 des	un	ADP_DET
 entreprises	entreprise	NOUN
-de taille	de taille	ADP
+de taille	de taille	ADJ
 monstrueuse	monstrueux	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -8413,7 +8413,7 @@ qui	qui	PRON
 menace	menacer	VERB
 de	de	ADP
 épuiser	épuiser	VERB
-à court terme	à court terme	ADP
+à court terme	à court terme	ADV
 les	le	DET
 ressources	ressource	NOUN
 naturelles	naturel	ADJ
@@ -8604,7 +8604,7 @@ et	et	CCONJ
 supposons	supposer	VERB
 que	que	SCONJ
 dès	dès	ADP
-la première	la première	DET
+la première	la première	PRON
 réaction	réaction	NOUN
 de	de	ADP
 ces	ce	DET
@@ -8649,8 +8649,8 @@ critère	critère	NOUN
 consistera	consister	VERB
 simplement	simplement	ADV
 à	à	ADP
-faire confiance	faire confiance	NOUN
-au plus	au plus	ADP_DET
+faire confiance	faire confiance	VERB
+au plus	au plus	ADV
 sensible	sensible	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -8701,8 +8701,8 @@ décisif	décisif	ADJ
 ,	,	PUNCTclause
 quoique	quoique	SCONJ
 utile	utile	ADJ
-à savoir	à savoir	ADP
-sectoriellement	sectoriellement	NOUN
+à savoir	à savoir	ADV
+sectoriellement	sectoriellement	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 ne	ne	ADV
@@ -8736,7 +8736,7 @@ prévoir	prévoir	VERB
 ce	ce	DET
 qui	qui	PRON
 met	mettre	VERB
-en danger	en danger	ADP
+en danger	en danger	ADJ
 notre	notre	DET
 avenir	avenir	NOUN
 .	.	PUNCTsent
@@ -8759,7 +8759,7 @@ ne	ne	ADV
 font	faire	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	ADJ
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 les	le	DET
 experts	expert	NOUN
@@ -8863,7 +8863,7 @@ ces	ce	DET
 domaines	domaine	NOUN
 ,	,	PUNCTclause
 ressentent	ressentir	VERB
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 de	de	ADP
 eux-mêmes	eux-mêmes	PRON
 quelque	quelque	DET

@@ -6,7 +6,7 @@
 # title = "[Compte rendu] Au sujet d’un grand roman : La Princesse Blanche par Maurice Baring (mai 1931)"
 
 ↵↵	↵↵	PUNCTstruct
-compte rendu	compte rendu	PUNCT
+compte rendu	compte rendu	NOUN
 au sujet de	au sujet de	ADP
 un	un	DET
 grand	grand	ADJ
@@ -160,7 +160,7 @@ limitent	limiter	VERB
 ainsi	ainsi	ADV
 met	mettre	VERB
 il	il	PRON
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 les	le	DET
 deux	deux	NUM
 éléments	élément	NOUN
@@ -322,7 +322,7 @@ demander	demander	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 non	non	ADV
 ,	,	PUNCTclause
@@ -367,8 +367,8 @@ ne	ne	ADV
 se	se	PRON
 y	y	PRON
 passe	passer	VERB
-rien de plus	rien de plus	PRON
-que	que	PRON
+rien de plus	rien de plus	ADV
+que	que	SCONJ
 ce	ce	PRON
 que	que	PRON
 admet	admettre	VERB
@@ -437,7 +437,7 @@ de	de	ADP
 l'	le	DET
 action	action	NOUN
 ,	,	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 l'	le	DET
 évocation	évocation	NOUN
 de	de	ADP
@@ -459,7 +459,7 @@ lecteurs	lecteur	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 agacera	agacer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 les	le	DET
 autres	autre	ADJ
 .	.	PUNCTsent
@@ -490,7 +490,7 @@ Baring	Baring	PROPN
 se	se	PRON
 montre	montrer	VERB
 «	«	PUNCTclause
-quelque peu	quelque peu	PROPN
+quelque peu	quelque peu	ADV
 inexorable	inexorable	ADJ
 dans	dans	ADP
 la	le	DET
@@ -588,7 +588,7 @@ riche	riche	ADJ
 «	«	PUNCTclause
 conformiste	conformiste	NOUN
 »	»	PUNCTclause
-à l'extrême	à l'extrême	PUNCT
+à l'extrême	à l'extrême	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 internationale	international	ADJ
@@ -758,7 +758,7 @@ ce	ce	DET
 livre	livre	NOUN
 est	être	AUX
 sans doute	sans doute	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 sentir	sentir	VERB
 et	et	CCONJ
 «	«	PUNCTclause
@@ -915,7 +915,7 @@ le	le_PRON	PRON
 transforme	transformer	VERB
 sans cesse	sans cesse	ADV
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 attachés	attacher	VERB
@@ -1127,7 +1127,7 @@ une	un	DET
 justice	justice	NOUN
 immanente	immanent	ADJ
 .	.	PUNCTsent
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 les	le	DET
 actions	action	NOUN
 de	de	ADP
@@ -1204,7 +1204,7 @@ libérer	libérer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
-au-dessus de	au-dessus de	PUNCT
+au-dessus de	au-dessus de	ADP
 fatalités	fatalité	NOUN
 humaines	humain	ADJ
 ,	,	PUNCTclause
@@ -1307,7 +1307,7 @@ une	un	DET
 thèse	thèse	NOUN
 plus	plus	ADV
 que	que	SCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 comprendre	comprendre	VERB
 la	le	DET
 réalité	réalité	NOUN
@@ -1335,7 +1335,7 @@ Blanche	Blanche	PROPN
 .	.	PUNCTsent
 arrêtons	arrêter	VERB
 nous	nous	PRON
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 à	à	ADP
 l'	le	DET
 examen	examen	NOUN
@@ -1578,7 +1578,7 @@ sans	sans	ADP
 les	le_PRON	PRON
 mettre	mettre	VERB
 jamais	jamais	ADV
-en question	en question	PUNCT
+en question	en question	ADJ
 les	le	DET
 exigences	exigence	NOUN
 les	le	DET
@@ -1683,8 +1683,8 @@ conventionnelles	conventionnel	ADJ
 à	à	ADP
 souhait	souhait	NOUN
 (	(	PUNCTclause
-ni plus ni moins	ni plus ni moins	NOUN
-que	que	PRON
+ni plus ni moins	ni plus ni moins	ADV
+que	que	SCONJ
 la	le	DET
 majorité	majorité	NOUN
 des	un	ADP_DET
@@ -1779,7 +1779,7 @@ son	son	DET
 pasteur	pasteur	NOUN
 préféré	préféré	ADJ
 ,	,	PUNCTclause
-la même	la même	DET
+la même	la même	PRON
 tante	tante	NOUN
 Harriet	Harriet	PROPN
 a	avoir	AUX
@@ -2076,7 +2076,7 @@ changement	changement	NOUN
 de	de	ADP
 confession	confession	NOUN
 ramène	ramener	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 arguments	argument	NOUN
 qui	qui	PRON
 retiennent	retenir	VERB
@@ -2367,8 +2367,8 @@ ne	ne	ADV
 a	avoir	AUX
 répété	répéter	VERB
 avec	avec	ADP
-autant de	autant de	PRON
-force	forcer	VERB
+autant de	autant de	DET
+force	force	NOUN
 que	que	SCONJ
 Baring	Baring	PROPN
 le	le	DET
@@ -2619,7 +2619,7 @@ presque	presque	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 pas	pas	ADV
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB

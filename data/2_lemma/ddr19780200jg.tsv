@@ -262,9 +262,9 @@ des	un	ADP_DET
 centrale nucléaire	centrale nucléaire	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 grande	grand	ADJ
-entreprise	entreprise	NOUN
+entreprise	entreprendre	VERB
 de	de	ADP
 construction	construction	NOUN
 de	de	ADP
@@ -320,11 +320,11 @@ absolument	absolument	ADV
 stupéfiante	stupéfiant	ADJ
 :	:	PUNCTclause
 «	«	PUNCTsent
-au début	au début	ADP_DET
+au début	au début	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 me	me	PRON
 mettait	mettre	VERB
 en	en	ADP
@@ -439,7 +439,7 @@ auto	auto	NOUN
 peut	pouvoir	VERB
 vous	vous	PRON
 conduire	conduire	VERB
-n'importe où	n'importe où	PUNCT
+n'importe où	n'importe où	ADV
 il	il	PRON
 vous	vous	PRON
 plaira	plaire	VERB
@@ -608,7 +608,7 @@ lui	lui	PRON
 .	.	PUNCTsent
 il	il	PRON
 avait	avoir	AUX
-en fait	en fait	VERB
+en fait	en fait	ADV
 complètement	complètement	ADV
 changé	changer	VERB
 de	de	ADP
@@ -696,12 +696,12 @@ règle	règle	NOUN
 .	.	PUNCTsent
 je	je	PRON
 suis	être	AUX
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 convaincu	convaincre	VERB
 —	—	PUNCTclause
 et	et	CCONJ
-n'importe quels	n'importe quels	ADV
-industriel	industriel	ADJ
+n'importe quels	n'importe quels	DET
+industriel	industriel	NOUN
 vous	vous	PRON
 le	le_PRON	PRON
 confirmera	confirmer	VERB
@@ -745,7 +745,7 @@ que	que	SCONJ
 l'on	on	PRON
 se	se	PRON
 propose	proposer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 que	que	SCONJ
 Henry	Henry	PROPN
@@ -1116,7 +1116,7 @@ déclaration	déclaration	NOUN
 de	de	ADP
 un	un	DET
 homme	homme	NOUN
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 de	de	ADP
 sa	son	DET
 vie	vie	NOUN
@@ -1177,7 +1177,7 @@ fait	faire	VERB
 à peu près	à peu près	ADV
 soixante	soixante	NUM
 voitures	voiture	NOUN
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 …	…	PUNCTsent
 il	il	PRON
 ne	ne	ADV
@@ -1194,7 +1194,7 @@ inventeurs	inventeur	NOUN
 il	il	PRON
 a	avoir	AUX
 été	être	AUX
-de toute évidence	de toute évidence	ADP
+de toute évidence	de toute évidence	ADV
 le	le	DET
 créateur	créateur	NOUN
 de	de	ADP
@@ -1292,7 +1292,7 @@ voiture	voiture	NOUN
 ,	,	PUNCTclause
 vous	vous	PRON
 arrivez	arriver	VERB
-au point	au point	ADV
+au point	au point	ADJ
 de	de	ADP
 destination	destination	NOUN
 .	.	PUNCTsent
@@ -1335,7 +1335,7 @@ et	et	CCONJ
 découvrent	découvrir	VERB
 toute	toute	DET
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 choses	chose	NOUN
 merveilleuses	merveilleux	ADJ
 que	que	SCONJ
@@ -1344,7 +1344,7 @@ auraient	avoir	VERB
 de	de	ADP
 la	le	DET
 peine	peine	NOUN
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 autrement	autrement	ADV
 ,	,	PUNCTclause
 à	à	ADP
@@ -1378,7 +1378,7 @@ elle	elle	PRON
 les	le_PRON	PRON
 a	avoir	AUX
 réduits	réduire	VERB
-en partie	en partie	DET
+en partie	en partie	ADV
 .	.	PUNCTsent
 la	le	DET
 «	«	PUNCTclause
@@ -1475,7 +1475,7 @@ si	si	SCONJ
 vous	vous	PRON
 comparez	comparer	VERB
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 véhicules	véhicule	NOUN
 par	par	ADP
 habitant	habitant	NOUN
@@ -1516,7 +1516,7 @@ appelez	appeler	VERB
 la	le	DET
 liberté	liberté	NOUN
 .	.	PUNCTsent
-le jour où	le jour où	PRON
+le jour où	le jour où	SCONJ
 50	50	NUM
 des	un	ADP_DET
 soviétiques	soviétique	NOUN
@@ -1530,7 +1530,7 @@ voiture	voiture	NOUN
 ils	ils	PRON
 ne	ne	ADV
 accepteront	accepter	VERB
-plus de	plus de	ADV
+plus de	plus de	DET
 être	être	AUX
 bloqués	bloquer	VERB
 à	à	ADP
@@ -1895,7 +1895,7 @@ sur	sur	ADP
 les	le	DET
 routes	route	NOUN
 ,	,	PUNCTclause
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 .	.	PUNCTsent
 le	le	DET
 fugueur	fugueur	NOUN
@@ -1967,7 +1967,7 @@ rendra	rendre	VERB
 libres	libre	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
-en fait	en fait	SCONJ
+en fait	en fait	ADV
 leur	leur	DET
 véhicule	véhicule	NOUN
 leur	leur	DET
@@ -2060,8 +2060,8 @@ parfaitement	parfaitement	ADV
 acceptables	acceptable	ADJ
 ,	,	PUNCTclause
 même	même	ADV
-à la limite	à la limite	ADP
-romantiques	romantique	NOUN
+à la limite	à la limite	ADV
+romantiques	romantique	ADJ
 ,	,	PUNCTclause
 on	on	PRON
 constate	constater	VERB
@@ -2112,7 +2112,7 @@ plutôt	plutôt	ADV
 que	que	SCONJ
 la	le	DET
 voiture	voiture	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 telle	tel	DET
 .	.	PUNCTsent
 car	car	CCONJ
@@ -2120,8 +2120,8 @@ on	on	PRON
 pourrait	pouvoir	VERB
 adresser	adresser	VERB
 exactement	exactement	ADV
-les mêmes	les mêmes	DET
-critiques	critique	NOUN
+les mêmes	les mêmes	PRON
+critiques	critiquer	VERB
 à	à	ADP
 d'autres	d'autre	PRON
 produits	produire	VERB
@@ -2166,7 +2166,7 @@ faut	falloir	VERB
 reconnaître	reconnaître	VERB
 que	que	SCONJ
 il y a	il y a	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 gens	gens	NOUN
 qui	qui	PRON
 font	faire	VERB
@@ -2191,7 +2191,7 @@ déplacements	déplacement	NOUN
 à	à	ADP
 pied	pied	NOUN
 et	et	CCONJ
-de ce fait	de ce fait	PUNCT
+de ce fait	de ce fait	ADV
 réduit	réduire	VERB
 la	le	DET
 mobilité	mobilité	NOUN
@@ -2339,7 +2339,7 @@ Kräyenbühl	Kräyenbühl	PROPN
 a	avoir	AUX
 parfaitement	parfaitement	ADV
 raison	raison	NOUN
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 évidence	évidence	NOUN
 le	le	DET
@@ -2361,12 +2361,12 @@ dernière	dernier	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
 de	de	ADP
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 objet	objet	NOUN
 ,	,	PUNCTclause
 vous	vous	PRON
 pouvez	pouvoir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 une	un	DET
 bonne	bon	ADJ
 ou	ou	CCONJ
@@ -2429,7 +2429,7 @@ l'	le	DET
 extraordinaire	extraordinaire	ADJ
 prolifération	prolifération	NOUN
 du	du	ADP_DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 véhicules	véhicule	NOUN
 pose	poser	VERB
 des	un	DET
@@ -2502,7 +2502,7 @@ propos	propos	NOUN
 initial	initial	ADJ
 .	.	PUNCTsent
 en	en	ADP
-moins de	moins de	NOUN
+moins de	moins de	DET
 cinquante	cinquante	NUM
 ans	an	NOUN
 la	le	DET
@@ -2748,7 +2748,7 @@ partisans	partisan	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-porter atteinte	porter atteinte	ADV
+porter atteinte	porter atteinte	VERB
 aux	au	ADP_DET
 libertés	liberté	NOUN
 .	.	PUNCTsent
@@ -2856,8 +2856,8 @@ l'	le	DET
 .	.	PUNCTsent
 je	je	PRON
 suis	être	AUX
-pour ma part	pour ma part	ADP
-en faveur de	en faveur de	ADV
+pour ma part	pour ma part	ADV
+en faveur de	en faveur de	ADP
 un	un	DET
 système	système	NOUN
 politique	politique	ADJ
@@ -3006,7 +3006,7 @@ chaque	chaque	DET
 année	année	NOUN
 ,	,	PUNCTclause
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 voitures	voiture	NOUN
 augmente	augmenter	VERB
 ;	;	PUNCTclause
@@ -3132,7 +3132,7 @@ demander	demander	VERB
 l'	le	DET
 avis	avis	NOUN
 de	de	ADP
-qui que ce soit	qui que ce soit	NOUN
+qui que ce soit	qui que ce soit	PRON
 .	.	PUNCTsent
 nous	nous	PRON
 le	le	DET
@@ -3284,7 +3284,7 @@ derniers	dernier	ADJ
 ne	ne	ADV
 sont	être	AUX
 nullement	nullement	ADV
-de droit	de droit	ADP
+de droit	de droit	ADJ
 divin	divin	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3297,7 +3297,7 @@ qui	qui	PRON
 a	avoir	AUX
 été	être	AUX
 votée	voter	VERB
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 sur	sur	ADP
 les	le	DET
 autoroutes	autoroute	NOUN
@@ -3584,7 +3584,7 @@ obliger	obliger	VERB
 les	le	DET
 gens	gens	NOUN
 à	à	ADP
-faire attention	faire attention	DET
+faire attention	faire attention	VERB
 avant de	avant de	ADP
 multiplier	multiplier	VERB
 les	le	DET
@@ -3607,12 +3607,12 @@ est	être	AUX
 de	de	ADP
 transporter	transporter	VERB
 beaucoup	beaucoup	ADV
-trop de	trop de	ADP
+trop de	trop de	DET
 choses	chose	NOUN
 en	en	ADP
 camion	camion	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'on	on	PRON
 devrait	devoir	VERB
 davantage	davantage	ADV
@@ -3646,7 +3646,7 @@ démontré	démontrer	VERB
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 bâtit	bâtir	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 autoroutes	autoroute	NOUN
 en	en	ADP
 Suisse	Suisse	PROPN
@@ -3966,8 +3966,8 @@ distribution	distribution	NOUN
 de	de	ADP
 l'	le	DET
 espace	espace	NOUN
-en faveur de	en faveur de	ADV
-piétons	piéton	ADJ
+en faveur de	en faveur de	ADP
+piétons	piéton	NOUN
 et	et	CCONJ
 des	un	ADP_DET
 transports	transport	NOUN
@@ -4011,7 +4011,7 @@ dans	dans	ADP
 la	le	DET
 population	population	NOUN
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 semble	sembler	VERB
 d'accord	d'accord	ADV
 sur	sur	ADP
@@ -4155,8 +4155,8 @@ ville	ville	NOUN
 vous	vous	PRON
 avez	avoir	AUX
 mis	mettre	VERB
-en marche	en marche	ADP
-des	un	DET
+en marche	en marche	ADJ
+des	un	ADP_DET
 mouvements	mouvement	NOUN
 pendulaires	pendulaire	ADJ
 avec	avec	ADP
@@ -4175,7 +4175,7 @@ reviennent	revenir	VERB
 ces	ce	DET
 mouvements	mouvement	NOUN
 amènent	amener	VERB
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 des	un	DET
 véhicules	véhicule	NOUN
 en	en	ADP
@@ -4240,7 +4240,7 @@ de	de	ADP
 ces	ce	DET
 parkings	parking	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 vous	vous	PRON
 avez	avoir	AUX
 de plus en plus	de plus en plus	ADV
@@ -4313,7 +4313,7 @@ passe	passer	VERB
 en	en	ADP
 Occident	Occident	PROPN
 ,	,	PUNCTclause
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 est	être	AUX
 juste	juste	ADV
@@ -4445,7 +4445,7 @@ et	et	CCONJ
 Alfred	Alfred	PROPN
 Sauvy	Sauvy	PROPN
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 dans	dans	ADP
 plusieurs	plusieurs	DET
 ouvrages	ouvrage	NOUN
@@ -4542,7 +4542,7 @@ voilà	voilà	ADP
 encore	encore	ADV
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 effets	effet	NOUN
 objectifs	objectif	ADJ
 que	que	SCONJ
@@ -4947,10 +4947,10 @@ elle	elle	PRON
 débouche	déboucher	VERB
 sur	sur	ADP
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 emplois	emploi	NOUN
 .	.	PUNCTsent
-rien que	rien que	PRON
+rien que	rien que	ADV
 pour	pour	ADP
 la	le	DET
 Suisse	Suisse	PROPN
@@ -5134,7 +5134,7 @@ il y a	il y a	VERB
 par	par	ADP
 le	le	DET
 monde	monde	NOUN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 200000	200000	NUM
 personnes	personne	NOUN
 qui	qui	PRON
@@ -5192,8 +5192,8 @@ pas	pas	ADV
 au moins	au moins	ADV
 ,	,	PUNCTclause
 envisager	envisager	VERB
-de mise	de mise	ADP
-au point	au point	NOUN
+de mise	de mise	ADJ
+au point	au point	ADJ
 des	un	ADP_DET
 véhicules	véhicule	NOUN
 qui	qui	PRON
@@ -5557,7 +5557,7 @@ conspiration	conspiration	NOUN
 du	du	ADP_DET
 silence	silence	NOUN
 .	.	PUNCTsent
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 même si	même si	SCONJ
 certains	certain	DET
 phénomènes	phénomène	NOUN
@@ -5780,7 +5780,7 @@ responsable	responsable	ADJ
 de	de	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 maladies	maladie	NOUN
 pulmonaires	pulmonaire	ADJ
 .	.	PUNCTsent
@@ -6089,7 +6089,7 @@ le	le	DET
 déterminer	déterminer	VERB
 .	.	PUNCTsent
 et	et	CCONJ
-jusqu'à présent	jusqu'à présent	ADP
+jusqu'à présent	jusqu'à présent	ADV
 cela	cela	PRON
 ne	ne	ADV
 a	avoir	VERB
@@ -6172,7 +6172,7 @@ l'	le	DET
 initiative	initiative	NOUN
 Albatros	Albatros	PROPN
 .	.	PUNCTsent
-par contre	par contre	ADP
+par contre	par contre	ADV
 il	il	PRON
 a	avoir	AUX
 fait	faire	VERB

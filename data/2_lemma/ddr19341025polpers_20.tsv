@@ -66,10 +66,10 @@ de	de	ADP
 accent	accent	NOUN
 mis	mettre	VERB
 sur	sur	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 ou	ou	CCONJ
 sur	sur	ADP
-le second	le second	DET
+le second	le second	PRON
 membre	membre	NOUN
 de	de	ADP
 la	le	DET
@@ -299,7 +299,7 @@ domine	dominer	VERB
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
 elle	elle	PRON
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 d'ailleurs	d'ailleurs	ADV
 immédiatement	immédiatement	ADV
 ressortir	ressortir	VERB
@@ -325,7 +325,7 @@ le	le	DET
 machinisme	machinisme	NOUN
 est	être	AUX
 ,	,	PUNCTclause
-en principe	en principe	SYM
+en principe	en principe	ADV
 ,	,	PUNCTclause
 destiné	destiner	VERB
 à	à	ADP
@@ -387,7 +387,7 @@ grandes	grand	ADJ
 de	de	ADP
 loisir	loisir	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 elle	elle	PRON
 est	être	AUX
 condamnée	condamner	VERB
@@ -599,7 +599,7 @@ possibilité	possibilité	NOUN
 perpétuellement	perpétuellement	ADV
 future	futur	ADJ
 .	.	PUNCTsent
-le jour où	le jour où	PRON
+le jour où	le jour où	SCONJ
 elle	elle	PRON
 a	avoir	AUX
 cessé	cesser	VERB
@@ -760,7 +760,7 @@ ascension	ascension	NOUN
 à peu près	à peu près	ADV
 parallèle	parallèle	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 la	le	DET
 courbe	courbe	NOUN
 indiquant	indiquer	VERB
@@ -807,7 +807,7 @@ victimes	victime	NOUN
 ne	ne	ADV
 mettent	mettre	VERB
 jamais	jamais	ADV
-en question	en question	PUNCT
+en question	en question	ADJ
 les	le	DET
 buts	but	NOUN
 réels	réel	ADJ
@@ -961,7 +961,7 @@ on	on	PRON
 peut	pouvoir	VERB
 bien	bien	ADV
 dire	dire	VERB
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 dans	dans	ADP
 l'	le	DET
 histoire	histoire	NOUN
@@ -1002,7 +1002,7 @@ je	je	PRON
 ne	ne	ADV
 voudrais	vouloir	VERB
 insister	insister	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 sur	sur	ADP
 son	son	DET
 caractère	caractère	NOUN
@@ -1153,7 +1153,7 @@ brevets	brevet	NOUN
 de	de	ADP
 invention	invention	NOUN
 comme	comme	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 emplâtres	emplâtre	NOUN
 à	à	ADP
 coller	coller	VERB
@@ -1183,7 +1183,7 @@ aussi	aussi	ADV
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
-de fait	de fait	ADP
+de fait	de fait	ADJ
 sauter	sauter	VERB
 le	le	DET
 tabou	tabou	NOUN
@@ -1432,15 +1432,15 @@ parce que	parce que	SCONJ
 on	on	PRON
 peut	pouvoir	VERB
 mettre	mettre	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 aux	au	ADP_DET
 machines	machine	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 rationaliser	rationaliser	VERB
-au maximum	au maximum	PUNCT
+au maximum	au maximum	ADV
 ,	,	PUNCTclause
-bref	bref	ADJ
+bref	bref	INTJ
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 de nouveau	de nouveau	ADV
@@ -1476,7 +1476,7 @@ par	par	ADP
 les	le	DET
 philosophes	philosophe	NOUN
 ,	,	PUNCTclause
-le jour où	le jour où	PRON
+le jour où	le jour où	SCONJ
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -1535,7 +1535,7 @@ toute	toute	DET
 signification	signification	NOUN
 positive	positif	ADJ
 mais	mais	CCONJ
-bien au contraire	bien au contraire	ADJ
+bien au contraire	bien au contraire	ADV
 en	en	ADP
 figure	figurer	VERB
 la	le	DET

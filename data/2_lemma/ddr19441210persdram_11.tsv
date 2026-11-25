@@ -25,7 +25,7 @@ la	le	DET
 conscience	conscience	NOUN
 claire	clair	ADJ
 est	être	AUX
-la première	la première	DET
+la première	la première	PRON
 conquête	conquête	NOUN
 spirituelle	spirituel	ADJ
 des	un	ADP_DET
@@ -610,7 +610,7 @@ ce	ce	PRON
 est	être	AUX
 l'	le	DET
 esprit	esprit	NOUN
-à l'instant où	à l'instant où	PUNCT
+à l'instant où	à l'instant où	SCONJ
 il	il	PRON
 descend	descendre	VERB
 dans	dans	ADP
@@ -625,7 +625,7 @@ aussi	aussi	ADV
 «	«	PUNCTclause
 la	le	DET
 matière	matière	NOUN
-à l'instant où	à l'instant où	PUNCT
+à l'instant où	à l'instant où	SCONJ
 elle	elle	PRON
 se	se	PRON
 élève	élever	VERB
@@ -657,7 +657,7 @@ le	le	DET
 rêve	rêve	NOUN
 ne	ne	ADV
 révèle	révéler	VERB
-rien que	rien que	DET
+rien que	rien que	ADV
 nos	nos	DET
 secrets	secret	NOUN
 ,	,	PUNCTclause
@@ -746,7 +746,7 @@ sombre	sombre	ADJ
 que	que	SCONJ
 l'on	on	PRON
 atteint	atteindre	VERB
-au fond	au fond	NOUN
+au fond	au fond	ADV
 de	de	ADP
 l'	le	DET
 inconscient	inconscient	NOUN
@@ -899,7 +899,7 @@ toute	tout	ADJ
 la	le	DET
 poésie	poésie	NOUN
 romantique	romantique	ADJ
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 la	le	DET
 surréaliste	surréaliste	NOUN
 ,	,	PUNCTclause
@@ -963,7 +963,7 @@ fait	fait	NOUN
 que	que	SCONJ
 Freud	Freud	PROPN
 sera	être	AUX
-le premier	le premier	ADP
+le premier	le premier	PRON
 à	à	ADP
 mettre	mettre	VERB
 en plein	en plein	ADV
@@ -1031,8 +1031,8 @@ de	de	ADP
 tous	tout	ADJ
 temps	temps	NOUN
 réinventé	réinventer	VERB
-les mêmes	les mêmes	DET
-figures	figure	NOUN
+les mêmes	les mêmes	PRON
+figures	figurer	VERB
 de	de	ADP
 langage	langage	NOUN
 pour	pour	ADP
@@ -1507,7 +1507,7 @@ inspiration	inspiration	NOUN
 —	—	PUNCTclause
 tellement	tellement	ADV
 vulgarisée	vulgarisé	ADJ
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 que	que	SCONJ
 on	on	PRON
 en	en	PRON
@@ -1552,7 +1552,7 @@ sans que	sans que	SCONJ
 ils	ils	PRON
 puissent	pouvoir	VERB
 faire	faire	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 de	de	ADP
 saluer	saluer	VERB
@@ -1845,7 +1845,7 @@ ineffable	ineffable	ADJ
 la	le	DET
 «	«	PUNCTclause
 contemplation	contemplation	NOUN
-sans objet	sans objet	ADP
+sans objet	sans objet	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 il	il	PRON
@@ -1896,7 +1896,7 @@ de	de	ADP
 se	se	PRON
 être	être	AUX
 dévoué	dévoué	ADJ
-corps et âme	corps et âme	PUNCT
+corps et âme	corps et âme	ADV
 à	à	ADP
 la	le	DET
 grande	grand	ADJ
@@ -1977,7 +1977,7 @@ passer	passer	VERB
 à	à	ADP
 l'	le	DET
 élucidation	élucidation	NOUN
-de ce fait	de ce fait	PUNCT
+de ce fait	de ce fait	ADV
 le	le	DET
 plus	plus	ADV
 singulier	singulier	ADJ
@@ -2008,10 +2008,10 @@ comme	comme	SCONJ
 on	on	PRON
 l'	le_PRON	PRON
 admet	admettre	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 trop	trop	ADV
 facilement	facilement	ADV
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 —	—	PUNCTclause
 de	de	ADP
 tirer	tirer	VERB
@@ -2372,7 +2372,7 @@ déchirement	déchirement	NOUN
 «	«	PUNCTsent
 ce	ce	PRON
 était	être	AUX
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 le	le	DET
 poids	poids	NOUN
 de	de	ADP
@@ -2386,7 +2386,7 @@ que	que	SCONJ
 il	il	PRON
 dût	devoir	VERB
 ,	,	PUNCTclause
-jour pour jour	jour pour jour	INTJ
+jour pour jour	jour pour jour	ADV
 ,	,	PUNCTclause
 se	se	PRON
 lever	lever	VERB
@@ -2660,7 +2660,7 @@ tourne	tourner	VERB
 court	court	ADJ
 ,	,	PUNCTclause
 incapable	incapable	ADJ
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 de	de	ADP
 saisir	saisir	VERB
 la	le	DET
@@ -2775,7 +2775,7 @@ rêve	rêve	NOUN
 ou	ou	CCONJ
 la	le	DET
 descente	descente	NOUN
-au fond	au fond	ADJ
+au fond	au fond	ADV
 de	de	ADP
 l'	le	DET
 inconscient	inconscient	NOUN
@@ -2939,7 +2939,7 @@ des	un	ADP_DET
 romantiques	romantique	NOUN
 fournit	fournir	VERB
 ici	ici	ADV
-la même	la même	DET
+la même	la même	PRON
 réponse	réponse	NOUN
 .	.	PUNCTsent
 en effet	en effet	ADV
@@ -3110,7 +3110,7 @@ devient	devenir	VERB
 proprement	proprement	ADV
 chrétienne	chrétien	ADJ
 que	que	SCONJ
-dans le cas où	dans le cas où	DET
+dans le cas où	dans le cas où	SCONJ
 l'	le_PRON	PRON
 être	être	AUX
 aimé	aimer	VERB
@@ -3196,7 +3196,7 @@ réel	réel	ADJ
 la	le	DET
 «	«	PUNCTclause
 contemplation	contemplation	NOUN
-sans objet	sans objet	PUNCT
+sans objet	sans objet	ADJ
 »	»	PUNCTclause
 à	à	ADP
 laquelle	laquelle	PRON
@@ -3210,7 +3210,7 @@ instants	instant	NOUN
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 un	un	DET
 moyen	moyen	NOUN
 de	de	ADP
@@ -3761,7 +3761,7 @@ par	par	ADP
 des	un	DET
 sublimations	sublimation	NOUN
 :	:	PUNCTclause
-au fond	au fond	NOUN
+au fond	au fond	ADV
 de	de	ADP
 la	le	DET
 Nuit	Nuit	PROPN
@@ -4301,7 +4301,7 @@ vraie	vrai	ADJ
 communauté	communauté	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-à l'inverse	à l'inverse	PROPN
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 toute	toute	DET
 maladie	maladie	NOUN
@@ -4690,7 +4690,7 @@ par	par	ADP
 des	un	DET
 rationalistes	rationaliste	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 nous	nous	PRON
 voulons	vouloir	VERB
 une	un	DET
@@ -4699,7 +4699,7 @@ nouvelle	nouveau	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 le	le	DET
 romantique	romantique	NOUN
 oubliait	oublier	VERB
@@ -4768,7 +4768,7 @@ il	il	PRON
 ne	ne	ADV
 compte	compter	VERB
 pas	pas	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 individu	individu	NOUN
 conscient	conscient	ADJ
 ;	;	PUNCTclause
@@ -4919,7 +4919,7 @@ fait	faire	AUX
 comprendre	comprendre	VERB
 bien des	bien des	DET
 choses	chose	NOUN
-à première vue	à première vue	PUNCT
+à première vue	à première vue	ADV
 sans	sans	ADP
 liens	lien	NOUN
 intimes	intime	ADJ
@@ -5250,8 +5250,8 @@ causes	cause	NOUN
 doivent	devoir	VERB
 être	être	AUX
 recherchées	rechercher	VERB
-au plus	au plus	ADP_DET
-secret	secret	NOUN
+au plus	au plus	ADV
+secret	secret	ADJ
 de	de	ADP
 la	le	DET
 conscience	conscience	NOUN
@@ -5287,7 +5287,7 @@ ce	ce	DET
 drame	drame	NOUN
 sera	être	AUX
 toujours	toujours	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX

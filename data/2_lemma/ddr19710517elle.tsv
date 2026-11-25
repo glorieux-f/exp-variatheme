@@ -166,7 +166,7 @@ est	être	AUX
 le	le	DET
 mal	mal	NOUN
 et	et	CCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 le	le	DET
 bien	bien	NOUN
 .	.	PUNCTsent
@@ -187,9 +187,9 @@ disent	dire	VERB
 on	on	PRON
 en	en	PRON
 a	avoir	AUX
-assez de	assez de	ADP
-la	le	DET
-morale	morale	NOUN
+assez de	assez de	DET
+la	le_PRON	PRON
+morale	moral	ADJ
 !	!	PUNCTsent
 »	»	PUNCTclause
 ,	,	PUNCTclause
@@ -240,7 +240,7 @@ existe	exister	VERB
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 on	on	PRON
 commence	commencer	VERB
 à	à	ADP
@@ -317,7 +317,7 @@ de	de	ADP
 Baudelaire	Baudelaire	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 tour	tour	NOUN
 du	du	ADP_DET
 diable	diable	NOUN
@@ -453,9 +453,9 @@ esprits	esprit	NOUN
 ,	,	PUNCTclause
 la	le	DET
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 totalitaire	totalitaire	ADJ
-des	un	DET
+des	un	ADP_DET
 réflexes	réflexe	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -708,7 +708,7 @@ le	le	DET
 froid	froid	NOUN
 glacial	glacial	ADJ
 .	.	PUNCTsent
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 les	le	DET
 forces	force	NOUN
@@ -922,7 +922,7 @@ si	si	SCONJ
 ils	ils	PRON
 sont	être	AUX
 rejetés	rejeter	VERB
-au bout du compte	au bout du compte	PUNCT
+au bout du compte	au bout du compte	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -1166,7 +1166,7 @@ lorsque	lorsque	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 attaqués	attaquer	VERB
-de front	de front	PUNCT
+de front	de front	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
 faisons	faire	VERB
@@ -1483,7 +1483,7 @@ sur	sur	ADP
 le	le	DET
 diable	diable	NOUN
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 va	aller	VERB
 me	me	PRON
 croire	croire	VERB
@@ -1639,9 +1639,9 @@ arriver	arriver	VERB
 7	7	NUM
 ,	,	PUNCTclause
 le	le	DET
-nombre de	nombre de	NOUN
-la	le	DET
-création	création	NOUN
+nombre de	nombre de	DET
+la	le_PRON	PRON
+Création	Création	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -1802,7 +1802,7 @@ cela	cela	PRON
 sans	sans	ADP
 raison	raison	NOUN
 .	.	PUNCTsent
-d'un autre côté	d'un autre côté	ADP
+d'un autre côté	d'un autre côté	ADV
 ,	,	PUNCTclause
 à	à	ADP
 Song	Song	PROPN
@@ -1812,7 +1812,7 @@ on	on	PRON
 a	avoir	AUX
 massacré	massacrer	VERB
 probablement	probablement	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 cent	cent	NUM
 victimes	victime	NOUN
 ,	,	PUNCTclause
@@ -1923,7 +1923,7 @@ dis	dire	VERB
 que	que	SCONJ
 ce	ce	PRON
 est	être	AUX
-le second	le second	DET
+le second	le second	PRON
 cas	cas	NOUN
 qui	qui	PRON
 est	être	AUX
@@ -1999,7 +1999,7 @@ discipline	discipline	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
 ,	,	PUNCTclause
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 vident	vider	VERB
@@ -2037,7 +2037,7 @@ un	un	DET
 jour	jour	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-si vous voulez	si vous voulez	ADP
+si vous voulez	si vous voulez	ADV
 sérieusement	sérieusement	ADV
 trouver	trouver	VERB
 le	le	DET

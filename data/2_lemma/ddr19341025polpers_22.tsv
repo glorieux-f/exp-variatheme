@@ -88,7 +88,7 @@ opposent	opposer	VERB
 aujourd'hui	aujourd'hui	ADV
 exactement	exactement	ADV
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 que	que	SCONJ
 ils	ils	PRON
@@ -232,7 +232,7 @@ vu	voir	VERB
 le	le	DET
 plus	plus	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 révolutions	révolution	NOUN
 depuis	depuis	ADP
 cent-cinquante	cent-cinquante	NUM
@@ -257,9 +257,9 @@ de	de	ADP
 la	le	DET
 réforme	réforme	NOUN
 .	.	PUNCTsent
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 ,	,	PUNCTclause
-toute	toute	DET
+toute	tout	ADJ
 bourgeoise	bourgeois	NOUN
 que	que	SCONJ
 elle	elle	PRON
@@ -462,7 +462,7 @@ Marx	Marx	PROPN
 ,	,	PUNCTclause
 seule	seul	ADJ
 vivante	vivant	ADJ
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 peu	peu	ADV
 visible	visible	ADJ
 dans	dans	ADP
@@ -538,11 +538,11 @@ bourgeoisie	bourgeoisie	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 dégoûtée	dégoûter	VERB
-par avance	par avance	NOUN
+par avance	par avance	ADV
 du	du	ADP_DET
 Marx	Marx	PROPN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 réalisation	réalisation	NOUN
 extrême	extrême	ADJ
 des	un	ADP_DET
@@ -553,7 +553,7 @@ et	et	CCONJ
 du	du	ADP_DET
 fascisme	fascisme	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 fixation	fixation	NOUN
 brutale	brutal	ADJ
 du	du	ADP_DET
@@ -919,7 +919,7 @@ ce	ce	PRON
 qui	qui	PRON
 les	le_PRON	PRON
 unit	unir	VERB
-en principe	en principe	DET
+en principe	en principe	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
@@ -1133,7 +1133,7 @@ de	de	ADP
 leur	leur	DET
 point de départ	point de départ	NOUN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 partis	parti	NOUN
 aux	au	ADP_DET
@@ -1237,7 +1237,7 @@ se	se	PRON
 manifesteront	manifester	VERB
 de plus en plus	de plus en plus	ADV
 visiblement	visiblement	ADV
-à mesure que	à mesure que	PUNCT
+à mesure que	à mesure que	SCONJ
 le	le	DET
 développement	développement	NOUN
 de	de	ADP
@@ -1295,7 +1295,7 @@ qui	qui	PRON
 se	se	PRON
 pose	poser	VERB
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 celle	celle	PRON
 des	un	ADP_DET
 institutions	institution	NOUN
@@ -1332,7 +1332,7 @@ prolifèrent	proliférer	VERB
 des	un	DET
 cellules	cellule	NOUN
 ,	,	PUNCTclause
-autant de	autant de	ADP
+autant de	autant de	DET
 germes	germe	NOUN
 semés	semer	VERB
 dans	dans	ADP
@@ -1381,7 +1381,7 @@ dont	dont	PRON
 la	le	DET
 mise en œuvre	mise en œuvre	NOUN
 institue	instituer	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 l'	le	DET
 ordre	ordre	NOUN
 nouveau	nouveau	ADJ
@@ -1557,8 +1557,8 @@ des	un	ADP_DET
 constructeurs	constructeur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	DET
-manifeste	manifeste	NOUN
+le premier	le premier	PRON
+manifeste	manifester	VERB
 publié	publier	VERB
 par	par	ADP
 l'	le	DET
@@ -1679,7 +1679,7 @@ doctrine	doctrine	NOUN
 dont	dont	PRON
 on	on	PRON
 trouvera	trouver	VERB
-la première	la première	DET
+la première	la première	PRON
 synthèse	synthèse	NOUN
 dans	dans	ADP
 l'	le	DET
@@ -2022,7 +2022,7 @@ dit	dire	VERB
 ,	,	PUNCTclause
 ne	ne	ADV
 est	être	AUX
-rien de moins	rien de moins	PRON
+rien de moins	rien de moins	ADV
 que	que	SCONJ
 la	le	DET
 suppression	suppression	NOUN

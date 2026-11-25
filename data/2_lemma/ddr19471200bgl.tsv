@@ -153,8 +153,8 @@ particulières	particulier	ADJ
 ↵↵	↵↵	PUNCTstruct
 MachiavelDiscours	MachiavelDiscours	PROPN
 sur	sur	ADP
-la première	la première	DET
-décade	décade	NOUN
+la première	la première	PRON
+Décade	Décade	PROPN
 de	de	ADP
 Tite-Live	Tite-Live	PROPN
 ↵↵	↵↵	PUNCTstruct
@@ -223,7 +223,7 @@ mondes	monde	NOUN
 se	se	PRON
 lance	lancer	VERB
 alors	alors	ADV
-à corps perdu	à corps perdu	PUNCT
+à corps perdu	à corps perdu	ADV
 dans	dans	ADP
 une	un	DET
 accusation	accusation	NOUN
@@ -347,7 +347,7 @@ opposés	opposé	ADJ
 le	le	DET
 départ	départ	NOUN
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 »	»	PUNCTclause
 ,	,	PUNCTclause
 affirme	affirmer	VERB
@@ -482,7 +482,7 @@ la	le	DET
 sécurité	sécurité	NOUN
 du	du	ADP_DET
 pays	pays	NOUN
-en danger	en danger	PUNCT
+en danger	en danger	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 une	un	DET
@@ -519,7 +519,7 @@ de	de	ADP
 l'	le	DET
 UNESCO	UNESCO	PROPN
 .	.	PUNCTsent
-à la page	à la page	DET
+à la page	à la page	ADJ
 100	100	NUM
 de	de	ADP
 ce	ce	DET
@@ -560,8 +560,8 @@ est	être	AUX
 pour	pour	ADP
 mieux	mieux	ADV
 «	«	PUNCTclause
-passer sous silence	passer sous silence	DET
-l'	le_PRON	PRON
+passer sous silence	passer sous silence	VERB
+l'	le	DET
 hitlérisme	hitlérisme	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -610,11 +610,11 @@ Aragon	Aragon	PROPN
 je	je	PRON
 aurais	avoir	AUX
 passé	passer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 à	à	ADP
 «	«	PUNCTclause
-passer sous silence	passer sous silence	NOUN
+passer sous silence	passer sous silence	VERB
 »	»	PUNCTclause
 le	le	DET
 nazisme	nazisme	NOUN
@@ -1296,10 +1296,10 @@ des	un	ADP_DET
 Oltramare	Oltramare	PROPN
 a	avoir	AUX
 parlé	parler	VERB
-en faveur de	en faveur de	ADV
-nazis	nazi	ADJ
+en faveur de	en faveur de	ADP
+nazis	nazi	NOUN
 ,	,	PUNCTclause
-ennemis	ennemi	ADJ
+ennemis	ennemi	NOUN
 jurés	jurer	VERB
 de	de	ADP
 toute	toute	DET
@@ -1379,7 +1379,7 @@ radio	radio	NOUN
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 que	que	SCONJ
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 les	le	DET
 nazis	nazi	NOUN
 ont	avoir	AUX
@@ -1520,7 +1520,7 @@ borné	borner	VERB
 à	à	ADP
 le	le	DET
 punir	punir	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 .	.	PUNCTsent
 son	son	DET
 avocat	avocat	NOUN

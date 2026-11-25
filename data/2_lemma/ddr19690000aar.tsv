@@ -150,8 +150,8 @@ sciences exactes	sciences exactes	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 encore	encore	ADV
-moins de	moins de	PUNCT
-l'	le	DET
+moins de	moins de	DET
+l'	le_PRON	PRON
 économie	économie	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -233,7 +233,7 @@ ceux	ceux	PRON
 qui	qui	PRON
 entrent	entrer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 fleuves	fleuve	NOUN
 ,	,	PUNCTclause
 autres	autre	PRON
@@ -307,7 +307,7 @@ ne	ne	ADV
 sommes	être	AUX
 pas	pas	ADV
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 fleuves	fleuve	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -318,7 +318,7 @@ se	se	PRON
 baigner	baigner	VERB
 deux fois	deux fois	ADV
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 fleuve	fleuve	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -450,7 +450,7 @@ de	de	ADP
 ce	ce	PRON
 qui	qui	PRON
 change	changer	VERB
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 dans	dans	ADP
 un	un	DET
 trajet	trajet	NOUN
@@ -561,7 +561,7 @@ et	et	CCONJ
 sa	son	DET
 métamorphose	métamorphose	NOUN
 ;	;	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 et	et	CCONJ
 l'autre	l'autre	PRON
 vus	vu	VERB
@@ -621,7 +621,7 @@ créateur	créateur	ADJ
 III	III	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 spécifique	spécifique	ADJ
 de	de	ADP
 l'	le	DET
@@ -890,7 +890,7 @@ fleuves	fleuve	NOUN
 IV	IV	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 fluvial	fluvial	ADJ
 que	que	SCONJ
 la	le	DET
@@ -958,7 +958,7 @@ des	un	ADP_DET
 Suisse	Suisse	PROPN
 est	être	AUX
 liée	lier	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 à	à	ADP
 l'	le	DET
 océan	océan	NOUN
@@ -1600,7 +1600,7 @@ parce que	parce que	SCONJ
 elle	elle	PRON
 a	avoir	AUX
 montré	montrer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 pouvoirs	pouvoir	NOUN
 souverains	souverain	ADJ
 de	de	ADP
@@ -1715,7 +1715,7 @@ est	être	AUX
 elle	elle	PRON
 qui	qui	PRON
 va	aller	VERB
-donner naissance	donner naissance	PRON
+donner naissance	donner naissance	VERB
 à	à	ADP
 plusieurs	plusieurs	DET
 des	un	ADP_DET
@@ -1870,7 +1870,7 @@ leur	leur	DET
 vers	vers	ADP
 d'autres	d'autre	PRON
 continents	continent	NOUN
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 et	et	CCONJ
 les	le	DET
 futurs	futur	ADJ
@@ -2142,7 +2142,7 @@ international	international	ADJ
 ce	ce	PRON
 qui	qui	PRON
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 partout	partout	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -2285,7 +2285,7 @@ cœur	cœur	NOUN
 quatre	quatre	NUM
 langues	langue	NOUN
 et	et	CCONJ
-autant de	autant de	ADP
+autant de	autant de	DET
 accents	accent	NOUN
 que	que	SCONJ
 de	de	ADP
@@ -2307,7 +2307,7 @@ eaux	eau	NOUN
 des	un	DET
 routes	route	NOUN
 ,	,	PUNCTclause
-autant de	autant de	ADP
+autant de	autant de	DET
 voies	voie	NOUN
 ouvertes	ouvert	ADJ
 à	à	ADP
@@ -2355,7 +2355,7 @@ fait	faire	VERB
 du	du	ADP_DET
 redoublement	redoublement	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 —	—	PUNCTclause
 insistance	insistance	NOUN
 sur	sur	ADP

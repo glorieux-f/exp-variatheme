@@ -36,7 +36,7 @@ une	un	DET
 crise	crise	NOUN
 aiguë	aigu	ADJ
 ;	;	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 la	le	DET
 notion	notion	NOUN
 de	de	ADP
@@ -53,8 +53,8 @@ simultanéité	simultanéité	NOUN
 de	de	ADP
 cette	ce	DET
 remise	remise	NOUN
-en cause	en cause	ADP
-est	est	NOUN
+en cause	en cause	ADJ
+est	être	AUX
 elle	elle	PRON
 purement	purement	ADV
 fortuite	fortuit	ADJ
@@ -124,7 +124,7 @@ est	être	AUX
 aucunement	aucunement	ADV
 fortuite	fortuit	ADJ
 ;	;	PUNCTclause
-à mesure que	à mesure que	PUNCT
+à mesure que	à mesure que	SCONJ
 les	le	DET
 frontières	frontière	NOUN
 se	se	PRON
@@ -680,7 +680,7 @@ est	être	AUX
 arrivé	arriver	VERB
 à	à	ADP
 abaisser	abaisser	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 les	le	DET
 frontières	frontière	NOUN
 ,	,	PUNCTclause
@@ -791,7 +791,7 @@ définies	définir	VERB
 par	par	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 facteurs	facteur	NOUN
 à la fois	à la fois	ADV
 ethniques	ethnique	ADJ
@@ -1027,7 +1027,7 @@ l'	le	DET
 napoléonien	napoléonien	ADJ
 :	:	PUNCTclause
 imposer	imposer	VERB
-la même	la même	DET
+la même	la même	PRON
 frontière	frontière	NOUN
 à	à	ADP
 des	un	DET
@@ -1150,7 +1150,7 @@ elle	elle	PRON
 peut	pouvoir	VERB
 être	être	AUX
 économique	économique	ADJ
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 ethnique	ethnique	ADJ
 ,	,	PUNCTclause
 que	que	PRON
@@ -1181,7 +1181,7 @@ intéressantes	intéressant	ADJ
 qui	qui	PRON
 sont	être	AUX
 en train de	en train de	ADV
-prendre forme	prendre forme	ADV
+prendre forme	prendre forme	VERB
 en	en	ADP
 Europe	Europe	PROPN
 sont	être	AUX
@@ -1714,7 +1714,7 @@ colonisés	coloniser	VERB
 donc	donc	ADV
 les	le	DET
 raisons	raison	NOUN
-de fait	de fait	ADP
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 sont	être	AUX
@@ -1863,7 +1863,7 @@ a	avoir	AUX
 jamais	jamais	ADV
 abouti	aboutir	VERB
 à	à	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 à	à	ADP
 renforcer	renforcer	VERB
@@ -1997,7 +1997,7 @@ et	et	CCONJ
 insistant	insister	VERB
 plus	plus	ADV
 encore que	encore que	SCONJ
-n'importe quelle	n'importe quelle	PUNCT
+n'importe quelle	n'importe quelle	DET
 autre	autre	ADJ
 sur	sur	ADP
 leur	leur	DET
@@ -2035,7 +2035,7 @@ l'	le	DET
 ours	ours	NOUN
 Russie	Russie	PROPN
 .	.	PUNCTsent
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	AUX
@@ -2115,7 +2115,7 @@ nous	nous	PRON
 devons	devoir	VERB
 faire	faire	VERB
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 nous	nous	PRON
 cherchons	chercher	VERB
 à	à	ADP
@@ -2138,7 +2138,7 @@ sentiment	sentiment	NOUN
 des	un	ADP_DET
 jeunes	jeune	NOUN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 ce	ce	PRON
 sont	être	AUX
 les	le	DET
@@ -2250,7 +2250,7 @@ régionale	régional	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 phénomène	phénomène	NOUN
 se	se	PRON
 reproduit	reproduire	VERB
@@ -2320,8 +2320,8 @@ préfabriquées	préfabriqué	ADJ
 dans	dans	ADP
 les	le	DET
 bureaux	bureau	NOUN
-indépendamment de	indépendamment de	ADJ
-toute	tout	ADJ
+indépendamment de	indépendamment de	ADP
+toute	toute	DET
 consultation	consultation	NOUN
 des	un	ADP_DET
 gens	gens	NOUN
@@ -2401,7 +2401,7 @@ autonome	autonome	ADJ
 autogérée	autogéré	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 ,	,	PUNCTclause
 voir	voir	VERB
 comment	comment	ADV
@@ -2533,7 +2533,7 @@ Europe	Europe	PROPN
 »	»	PUNCTclause
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de taille	de taille	ADP
+de taille	de taille	ADJ
 Europe	Europe	PROPN
 ?	?	PUNCTsent
 ce	ce	PRON
@@ -2554,7 +2554,7 @@ est	être	AUX
 intéressant	intéressant	ADJ
 ;	;	PUNCTclause
 maintenant	maintenant	ADV
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 parle	parler	VERB
 de	de	ADP
 l'	le	DET
@@ -2566,7 +2566,7 @@ donc	donc	ADV
 faire	faire	VERB
 des	un	DET
 régions	région	NOUN
-de taille	de taille	ADP
+de taille	de taille	ADJ
 Europe	Europe	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -2578,7 +2578,7 @@ dire	dire	VERB
 quand	quand	SCONJ
 je	je	PRON
 pousse	pousser	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 les	le	DET
 gens	gens	NOUN
 qui	qui	PRON
@@ -2936,7 +2936,7 @@ qui	qui	PRON
 interdit	interdire	VERB
 l'	le	DET
 idée	idée	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 l'	le	DET
 avenir	avenir	NOUN
@@ -3095,7 +3095,7 @@ voilà	voilà	ADP
 le	le	DET
 principal	principal	ADJ
 motif	motif	NOUN
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 des	un	ADP_DET
 régions	région	NOUN
 .	.	PUNCTsent
@@ -3179,9 +3179,9 @@ la	le	DET
 France	France	PROPN
 et	et	CCONJ
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 fasse	faire	VERB
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 en même temps	en même temps	ADV
 .	.	PUNCTsent
@@ -3458,7 +3458,7 @@ internationale	international	ADJ
 qui	qui	PRON
 semble	sembler	VERB
 remettre	remettre	VERB
-en cause	en cause	ADP
+en cause	en cause	ADJ
 les	le	DET
 états-nations	État-nation	NOUN
 ,	,	PUNCTclause
@@ -3518,10 +3518,10 @@ multinationales	multinational	ADJ
 les	le	DET
 états-nations	État-nation	NOUN
 ont	avoir	AUX
-n'importe quelles	n'importe quelles	SYM
+n'importe quelles	n'importe quelles	DET
 dimensions	dimension	NOUN
 ,	,	PUNCTclause
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 des	un	ADP_DET
 traités	traité	NOUN
 et	et	CCONJ
@@ -3629,8 +3629,8 @@ et	et	CCONJ
 on	on	PRON
 dit	dire	VERB
 par exemple	par exemple	ADV
-à l'encontre de	à l'encontre de	PUNCT
-Marché	Marché	PROPN
+à l'encontre de	à l'encontre de	ADP
+marché	marché	NOUN
 commun	commun	ADJ
 :	:	PUNCTclause
 «	«	PUNCTclause
@@ -4069,7 +4069,7 @@ en	en	PRON
 aurait	avoir	VERB
 deux	deux	NUM
 :	:	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 serait	être	AUX
 un	un	DET
 pouvoir	pouvoir	NOUN
@@ -4171,7 +4171,7 @@ offert	offrir	VERB
 .	.	PUNCTsent
 à	à	ADP
 travailler	travailler	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 régions	région	NOUN
 ,	,	PUNCTclause
 on	on	PRON
@@ -4262,7 +4262,7 @@ telle ou telle	telle ou telle	DET
 région	région	NOUN
 exactement	exactement	ADV
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 que	que	SCONJ
 les	le	DET
@@ -4346,7 +4346,7 @@ mot	mot	NOUN
 un	un	DET
 pays	pays	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 elles	elles	PRON
 subsistent	subsister	VERB
 à	à	ADP
@@ -4598,7 +4598,7 @@ avais	avoir	AUX
 jamais	jamais	ADV
 pensé	penser	VERB
 :	:	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 que	que	SCONJ
 il y a	il y a	VERB
 deux	deux	NUM
@@ -4712,7 +4712,7 @@ de	de	ADP
 la	le	DET
 vie	vie	NOUN
 ;	;	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 est	être	AUX
 donc	donc	ADV
 pour	pour	ADP
@@ -4761,7 +4761,7 @@ autoréglée	autoréglée	VERB
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-la même	la même	DET
+la même	la même	PRON
 loi	loi	NOUN
 de	de	ADP
 la	le	DET
@@ -4949,7 +4949,7 @@ obstacles	obstacle	NOUN
 insurmontables	insurmontable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 nous	nous	PRON
 vivons	vivre	VERB
@@ -4994,7 +4994,7 @@ que	que	SCONJ
 elles	elles	PRON
 parviendraient	parvenir	VERB
 d'ici	d'ici	ADV
-à la fin	à la fin	ADP_DET
+à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
@@ -5005,7 +5005,7 @@ irrespirables	irrespirable	ADJ
 ,	,	PUNCTclause
 où	où	PRON
 tout	tout	PRON
-être humain	être humain	ADV
+être humain	être humain	NOUN
 disparaîtrait	disparaître	VERB
 ,	,	PUNCTclause
 où	où	PRON
@@ -5471,7 +5471,7 @@ puissance	puissance	NOUN
 non	non	ADV
 pas	pas	ADV
 le	le	DET
-bien des	bien des	NOUN
+bien des	bien des	DET
 gens	gens	NOUN
 ni	ni	CCONJ
 le	le	DET
@@ -5533,7 +5533,7 @@ et	et	CCONJ
 depuis	depuis	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 années	année	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -5588,7 +5588,7 @@ aujourd'hui	aujourd'hui	ADV
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 exacte	exact	ADJ
 .	.	PUNCTsent
 il	il	PRON
@@ -5653,7 +5653,7 @@ ils	ils	PRON
 ne	ne	ADV
 achètent	acheter	VERB
 pas	pas	ADV
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 produit	produit	NOUN
 .	.	PUNCTsent
 ils	ils	PRON
@@ -5857,7 +5857,7 @@ centre	centre	NOUN
 qui	qui	PRON
 ne	ne	ADV
 ont	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 rues	rue	NOUN
 où	où	PRON
 les	le	DET
@@ -6004,7 +6004,7 @@ mais	mais	CCONJ
 qui	qui	PRON
 fait	faire	VERB
 que	que	SCONJ
-aussitôt que	aussitôt que	ADV
+aussitôt que	aussitôt que	SCONJ
 quelqu'un	quelqu'un	PRON
 prétend	prétendre	VERB
 leur	leur	PRON
@@ -6417,7 +6417,7 @@ mœurs	mœurs	NOUN
 politiques	politique	ADJ
 sont	être	AUX
 restées	rester	VERB
-les mêmes	les mêmes	PUNCT
+les mêmes	les mêmes	PRON
 à	à	ADP
 Genève	Genève	PROPN
 à travers	à travers	ADP
@@ -6474,7 +6474,7 @@ ceci	ceci	PRON
 pour	pour	ADP
 des	un	DET
 raisons	raison	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 mystérieuses	mystérieux	ADJ
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -6706,7 +6706,7 @@ nouveau	nouveau	ADJ
 ,	,	PUNCTclause
 cela	cela	PRON
 existait	exister	VERB
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 du	du	ADP_DET
 monde	monde	NOUN
 hellénistique	hellénistique	ADJ
@@ -6901,7 +6901,7 @@ professions	profession	NOUN
 ils	ils	PRON
 étaient	être	AUX
 mis	mettre	VERB
-à l'écart	à l'écart	PUNCT
+à l'écart	à l'écart	ADV
 de	de	ADP
 la	le	DET
 communauté	communauté	NOUN
@@ -7172,7 +7172,7 @@ tout	tout	ADJ
 cela	cela	PRON
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 je	je	PRON
 pense	penser	VERB
@@ -7344,14 +7344,14 @@ voyez	voir	VERB
 vous	vous	PRON
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADP
+eh bien	eh bien	INTJ
 ce	ce	PRON
 est	être	AUX
 la	le	DET
 caserne	caserne	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 dit	dire	VERB
@@ -7617,7 +7617,7 @@ cela	cela	PRON
 ne	ne	ADV
 correspond	correspondre	VERB
 pas	pas	ADV
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 aux	au	ADP_DET
 besoins	besoin	NOUN
 de	de	ADP
@@ -7644,7 +7644,7 @@ doit	devoir	VERB
 exécuter	exécuter	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 tâches	tâche	NOUN
 (	(	PUNCTclause
 produits	produit	NOUN
@@ -7704,7 +7704,7 @@ villes	ville	NOUN
 je	je	PRON
 mets	mettre	VERB
 cela	cela	PRON
-en question	en question	PUNCT
+en question	en question	ADJ
 .	.	PUNCTsent
 l'	le	DET
 économie	économie	NOUN
@@ -8211,7 +8211,7 @@ ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 problème	problème	NOUN
 ,	,	PUNCTclause
 suivant	suivant	ADP
@@ -8307,7 +8307,7 @@ tâche	tâche	NOUN
 à	à	ADP
 exécuter	exécuter	VERB
 ,	,	PUNCTclause
-de fait	de fait	ADP
+de fait	de fait	ADJ
 coïncider	coïncider	VERB
 ces	ce	DET
 dimensions	dimension	NOUN
@@ -8360,7 +8360,7 @@ que	que	SCONJ
 il	il	PRON
 est	être	AUX
 capable	capable	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 et	et	CCONJ
 que	que	SCONJ
 ,	,	PUNCTclause
@@ -8431,7 +8431,7 @@ solidarité	solidarité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voilà	voilà	ADP
-au fond	au fond	ADJ
+au fond	au fond	ADV
 ce	ce	PRON
 que	que	PRON
 je	je	PRON

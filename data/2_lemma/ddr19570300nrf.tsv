@@ -225,7 +225,7 @@ la	le	DET
 forme	forme	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 réalités	réalité	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
@@ -387,7 +387,7 @@ année	année	NOUN
 .	.	PUNCTsent
 Buffon	Buffon	PROPN
 écrit	écrire	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -516,7 +516,7 @@ détail	détail	NOUN
 dénué	dénuer	VERB
 de	de	ADP
 intérêt	intérêt	NOUN
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 l'on	on	PRON
 considère	considérer	VERB
 les	le	DET
@@ -832,7 +832,7 @@ verra	voir	VERB
 mieux	mieux	ADV
 pourquoi	pourquoi	ADV
 ,	,	PUNCTclause
-par la suite	par la suite	NOUN
+par la suite	par la suite	ADV
 de	de	ADP
 ce	ce	DET
 chapitre	chapitre	NOUN
@@ -945,7 +945,7 @@ donc	donc	ADV
 nés	naître	VERB
 et	et	CCONJ
 morts	mourir	VERB
-depuis que	depuis que	DET
+depuis que	depuis que	SCONJ
 il y a	il y a	VERB
 des	un	DET
 hommes	homme	NOUN
@@ -1439,7 +1439,7 @@ hommes	homme	NOUN
 est	être	AUX
 née	naître	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 rupture	rupture	NOUN
 des	un	ADP_DET
 grands	grand	ADJ
@@ -1452,7 +1452,7 @@ astrologiques	astrologique	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 victoire	victoire	NOUN
 sur	sur	ADP
 les	le	DET
@@ -1476,7 +1476,7 @@ pas	pas	ADV
 un	un	DET
 hasard	hasard	NOUN
 si	si	SCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 auteur	auteur	NOUN
 de	de	ADP
 une	un	DET
@@ -1491,7 +1491,7 @@ Dei	Dei	PROPN
 —	—	PUNCTclause
 fut	être	AUX
 aussi	aussi	ADV
-le premier	le premier	DET
+le premier	le premier	PRON
 auteur	auteur	NOUN
 de	de	ADP
 une	un	DET
@@ -1630,13 +1630,13 @@ et	et	CCONJ
 de	de	ADP
 leur	leur	DET
 injustice	injustice	NOUN
-d'autant plus	d'autant plus	PUNCT
+d'autant plus	d'autant plus	ADV
 scandaleuse	scandaleux	ADJ
 que	que	SCONJ
 elle	elle	PRON
 apparaît	apparaître	VERB
 «	«	PUNCTclause
-sans précédent	sans précédent	NOUN
+sans précédent	sans précédent	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
 vraiment	vraiment	ADV
@@ -1808,7 +1808,7 @@ absolue	absolu	ADJ
 nouveauté	nouveauté	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 de	de	ADP
 scandale	scandale	NOUN
 .	.	PUNCTsent
@@ -1862,7 +1862,7 @@ change	changer	VERB
 plus	plus	ADV
 ce	ce	PRON
 est	être	AUX
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -2568,7 +2568,7 @@ ce	ce	PRON
 est	être	AUX
 la	le	DET
 croyance	croyance	NOUN
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 imminente	imminent	ADJ
 :	:	PUNCTclause
 encore	encore	ADV
@@ -2636,7 +2636,7 @@ hommes	homme	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 si	si	SCONJ
-la première	la première	DET
+la première	la première	PRON
 intervient	intervenir	VERB
 dans	dans	ADP
 la	le	DET
@@ -2752,8 +2752,8 @@ précisant	préciser	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
 dans	dans	ADP
-les mêmes	les mêmes	DET
-cadre	cadre	NOUN
+les mêmes	les mêmes	PRON
+cadre	cadrer	VERB
 indiscuté	indiscuté	ADJ
 (	(	PUNCTclause
 de	de	ADP
@@ -2773,7 +2773,7 @@ sera	être	AUX
 vraiment	vraiment	ADV
 bouleversée	bouleversé	ADJ
 que	que	SCONJ
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 du	du	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
@@ -2923,7 +2923,7 @@ heure	heure	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 progrès	progrès	NOUN
 de	de	ADP
@@ -2954,7 +2954,7 @@ du	du	ADP_DET
 mythe	mythe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 l'	le	DET
 extension	extension	NOUN
 soudaine	soudain	ADJ
@@ -3140,7 +3140,7 @@ de	de	ADP
 conséquences	conséquence	NOUN
 qui	qui	PRON
 jouent	jouer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 —	—	PUNCTclause
 mais	mais	CCONJ
 je	je	PRON
@@ -3175,7 +3175,7 @@ des	un	DET
 ères	ère	NOUN
 ,	,	PUNCTclause
 grandit	grandir	VERB
-d'autant que	d'autant que	CCONJ
+d'autant que	d'autant que	SCONJ
 à	à	ADP
 cette	ce	DET
 échelle	échelle	NOUN
@@ -3198,7 +3198,7 @@ et	et	CCONJ
 se	se	PRON
 annule	annuler	VERB
 .	.	PUNCTsent
-la même	la même	DET
+la même	la même	PRON
 raison	raison	NOUN
 veut	vouloir	VERB
 que	que	SCONJ
@@ -3357,7 +3357,7 @@ lois	loi	NOUN
 »	»	PUNCTclause
 ne	ne	ADV
 sont	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 celles	celle	PRON
 de	de	ADP
 la	le	DET
@@ -3412,7 +3412,7 @@ ignorer	ignorer	VERB
 elle	elle	PRON
 est	être	AUX
 tout	tout	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 :	:	PUNCTclause
 le	le	DET
 devenir	devenir	NOUN
@@ -3657,7 +3657,7 @@ d'autre	d'autre	PRON
 chose	chose	NOUN
 :	:	PUNCTclause
 non	non	ADV
-de mémoire	de mémoire	ADP
+de mémoire	de mémoire	ADV
 mais	mais	CCONJ
 de	de	ADP
 attitude	attitude	NOUN
@@ -4014,14 +4014,14 @@ siècle	siècle	NOUN
 me	me	PRON
 semble	sembler	VERB
 incontestable	incontestable	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 diagnostic	diagnostic	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 comment	comment	ADV
 la	le	DET
 situer	situer	VERB
-dans l'ensemble	dans l'ensemble	PUNCT
+dans l'ensemble	dans l'ensemble	ADV
 de	de	ADP
 l'	le	DET
 aventure	aventure	NOUN
@@ -4107,7 +4107,7 @@ l'une	l'une	PRON
 de	de	ADP
 l'autre	l'autre	PRON
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 elles	elles	PRON
 sont	être	AUX
 nées	naître	VERB
@@ -4324,7 +4324,7 @@ croire	croire	VERB
 l'	le	DET
 Apocalypse	Apocalypse	PROPN
 .	.	PUNCTsent
-d'ici là	d'ici là	PUNCT
+d'ici là	d'ici là	ADV
 ,	,	PUNCTclause
 nul	nul	ADJ
 soutien	soutien	NOUN
@@ -4586,7 +4586,7 @@ décide	décider	VERB
 ma	mon	DET
 place	place	NOUN
 ,	,	PUNCTclause
-de toute façon	de toute façon	DET
+de toute façon	de toute façon	ADV
 je	je	PRON
 ne	ne	ADV
 y	y	PRON
@@ -4607,7 +4607,7 @@ de	de	ADP
 ma	mon	DET
 vie	vie	NOUN
 ,	,	PUNCTclause
-de toute façon	de toute façon	DET
+de toute façon	de toute façon	ADV
 je	je	PRON
 ne	ne	ADV
 pourrais	pouvoir	VERB
@@ -4653,7 +4653,7 @@ entier	entier	ADJ
 la	le	DET
 Maya	Maya	PROPN
 ,	,	PUNCTclause
-sans plus	sans plus	ADP
+sans plus	sans plus	ADV
 rêver	rêver	VERB
 la	le	DET
 délivrance	délivrance	NOUN
@@ -4796,7 +4796,7 @@ koulaks	koulak	NOUN
 qui	qui	PRON
 vivaient	vivre	VERB
 par hasard	par hasard	ADV
-en travers	en travers	PUNCT
+en travers	en travers	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 les	le	DET
@@ -5024,7 +5024,7 @@ totalitaires	totalitaire	ADJ
 :	:	PUNCTclause
 ce	ce	PRON
 sont	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ils	ils	PRON
@@ -5154,7 +5154,7 @@ reste	rester	VERB
 tributaire	tributaire	ADJ
 —	—	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 Orient	Orient	PROPN
 ne	ne	ADV
@@ -5183,7 +5183,7 @@ est	être	AUX
 projeter	projeter	VERB
 notre	notre	DET
 angoisse	angoisse	NOUN
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 tenter	tenter	VERB
@@ -5363,9 +5363,9 @@ arrivera	arriver	VERB
 mais	mais	CCONJ
 de	de	ADP
 savoir	savoir	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 ce	ce	PRON
-que	que	SCONJ
+que	que	PRON
 nous	nous	PRON
 sommes	être	AUX
 disposés	disposer	VERB

@@ -395,7 +395,7 @@ attribue	attribuer	VERB
 chacune	chacune	PRON
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 heures	heure	NOUN
 par	par	ADP
 semaine	semaine	NOUN
@@ -713,8 +713,8 @@ examens	examen	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 sont	être	AUX
-en principe	en principe	PRON
-des	un	ADP_DET
+en principe	en principe	ADV
+des	un	DET
 «	«	PUNCTclause
 contrôles	contrôle	NOUN
 »	»	PUNCTclause
@@ -1048,8 +1048,8 @@ mesure	mesure	NOUN
 °	°	SYM
 de	de	ADP
 ingurgiter	ingurgiter	VERB
-la même	la même	DET
-quantité de	quantité de	SCONJ
+la même	la même	PRON
+quantité de	quantité de	DET
 «	«	PUNCTclause
 matière	matière	NOUN
 »	»	PUNCTclause
@@ -1060,11 +1060,11 @@ de	de	ADP
 en	en	ADP
 rendre compte	rendre compte	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 façon	façon	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1338,7 +1338,7 @@ renferment	renfermer	VERB
 rien	rien	PRON
 qui	qui	PRON
 soit	être	AUX
-de première main	de première main	ADV
+de première main	de première main	ADJ
 ,	,	PUNCTclause
 rien	rien	PRON
 qui	qui	PRON
@@ -1429,7 +1429,7 @@ peut	pouvoir	VERB
 laisser	laisser	VERB
 aux	au	ADP_DET
 élèves	élève	NOUN
-le temps que	le temps que	PUNCT
+le temps que	le temps que	SCONJ
 il	il	PRON
 faut	falloir	VERB
 pour	pour	ADP
@@ -1702,7 +1702,7 @@ et	et	CCONJ
 blanches	blanc	ADJ
 qui	qui	PRON
 marquent	marquer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 le	le	DET
 passage	passage	NOUN
@@ -1845,7 +1845,7 @@ rien	rien	PRON
 qui	qui	PRON
 ressemble	ressembler	VERB
 en	en	ADP
-quoi que ce soit	quoi que ce soit	NOUN
+quoi que ce soit	quoi que ce soit	PRON
 à	à	ADP
 aucun	aucun	DET
 état	état	NOUN
@@ -2028,11 +2028,11 @@ de	de	DET
 égalité	égalité	NOUN
 réelle	réel	ADJ
 possible	possible	ADJ
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 la	le	DET
 loi	loi	NOUN
 est	être	AUX
-la même	la même	ADV
+la même	la même	PRON
 pour	pour	ADP
 tous	tous	PRON
 .	.	PUNCTsent
@@ -2177,7 +2177,7 @@ l'	le	DET
 cet	ce	DET
 argent de poche	argent de poche	NOUN
 ,	,	PUNCTclause
-ni plus ni moins	ni plus ni moins	NOUN
+ni plus ni moins	ni plus ni moins	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
 ou	ou	CCONJ
@@ -2389,7 +2389,7 @@ est	être	AUX
 supérieure	supérieur	ADJ
 à	à	ADP
 Victoria	Victoria	PROPN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'	le	DET
 invention	invention	NOUN
 est	être	AUX
@@ -2531,8 +2531,8 @@ enflammé	enflammer	VERB
 l'	le	DET
 ambition	ambition	NOUN
 de	de	ADP
-un grand nombre de	un grand nombre de	PRON
-régents	régent	ADJ
+un grand nombre de	un grand nombre de	DET
+régents	régent	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
 laissent	laisser	VERB
@@ -2712,7 +2712,7 @@ en	en	ADP
 raison	raison	NOUN
 inverse	inverse	ADJ
 du	du	ADP_DET
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 années	année	NOUN
 de	de	ADP
 instruction publique	instruction publique	NOUN
@@ -2849,7 +2849,7 @@ mais	mais	CCONJ
 vous	vous	PRON
 êtes	être	AUX
 ,	,	PUNCTclause
-de ce fait	de ce fait	SYM
+de ce fait	de ce fait	ADV
 ,	,	PUNCTclause
 contre	contre	ADP
 le	le	DET

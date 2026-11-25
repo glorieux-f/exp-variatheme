@@ -452,8 +452,8 @@ plus	plus	ADV
 loin	loin	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -541,7 +541,7 @@ Dante	Dante	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 années	année	NOUN
 ,	,	PUNCTclause
 Valéry	Valéry	PROPN
@@ -721,7 +721,7 @@ de	de	ADP
 en	en	PRON
 être	être	AUX
 venu	venir	VERB
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 les	le	DET
@@ -739,7 +739,7 @@ de	de	ADP
 l'	le	DET
 amour	amour	NOUN
 ,	,	PUNCTclause
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 de	de	ADP
 cette	ce	DET
 forme	forme	NOUN
@@ -786,8 +786,8 @@ au	au	ADP_DET
 moyen-âge	moyen-âge	NOUN
 un	un	DET
 rôle	rôle	NOUN
-un peu	un peu	PUNCT
-analogue	analogue	NOUN
+un peu	un peu	ADV
+analogue	analogue	ADJ
 à	à	ADP
 celui	celui	PRON
 du	du	ADP_DET
@@ -1093,8 +1093,8 @@ retourner	retourner	VERB
 en	en	ADP
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-le premier	le premier	DET
-devoir	devoir	NOUN
+le premier	le premier	PRON
+devoir	devoir	VERB
 serait	être	AUX
 de	de	ADP
 fédérer	fédérer	VERB
@@ -1142,7 +1142,7 @@ Genève	Genève	PROPN
 chronologiquement	chronologiquement	ADV
 ,	,	PUNCTclause
 le	le_PRON	PRON
-point de départ	point de départ	PUNCT
+point de départ	point de départ	NOUN
 choisi	choisir	VERB
 pour	pour	ADP
 cette	ce	DET
@@ -1715,7 +1715,7 @@ absence	absence	NOUN
 ç'a	ç'a	VERB
 été	été	NOUN
 pour	pour	ADP
-prendre la parole	prendre la parole	NOUN
+prendre la parole	prendre la parole	VERB
 aux	au	ADP_DET
 rencontres	rencontre	NOUN
 internationales	international	ADJ
@@ -1842,7 +1842,7 @@ introduire	introduire	VERB
 par	par	ADP
 un	un	DET
 discours	discours	NOUN
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 congrès	congrès	NOUN
 des	un	ADP_DET
 fédéralisme	fédéralisme	NOUN
@@ -1854,7 +1854,7 @@ se	se	PRON
 tenir	tenir	VERB
 à	à	ADP
 Montreux	Montreux	PROPN
-au début	au début	ADP_DET
+au début	au début	ADV
 de	de	ADP
 septembre	septembre	NOUN
 1947	1947	NUM
@@ -1983,7 +1983,7 @@ dont	dont	PRON
 on	on	PRON
 me	me	PRON
 disait	dire	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 ce	ce	PRON
 étaient	être	AUX
 les	le	DET
@@ -2166,7 +2166,7 @@ du	du	ADP_DET
 congrès	congrès	NOUN
 a	avoir	AUX
 mis	mettre	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 non seulement	non seulement	ADV
 le	le	DET
 rapport	rapport	NOUN
@@ -2273,7 +2273,7 @@ mais	mais	CCONJ
 il	il	PRON
 devait	devoir	VERB
 être	être	AUX
-par la suite	par la suite	ADP
+par la suite	par la suite	ADV
 l'un	l'un	PRON
 des	un	ADP_DET
 intellectuels	intellectuel	ADJ
@@ -2579,9 +2579,9 @@ mouvement	mouvement	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-les mêmes	les mêmes	DET
-team	team	NOUN
-que	que	SCONJ
+les mêmes	les mêmes	PRON
+team	team	PRON
+que	que	PRON
 à	à	ADP
 la	le	DET
 Haye	Haye	PROPN
@@ -2831,7 +2831,7 @@ par	par	ADP
 une	un	DET
 énumération	énumération	NOUN
 peut-être	peut-être	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 sèche	sec	ADJ
 faute de	faute de	ADP
 temps	temps	NOUN
@@ -2856,7 +2856,7 @@ mais	mais	CCONJ
 hors de	hors de	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 ,	,	PUNCTclause
 en	en	ADP
 collaboration	collaboration	NOUN
@@ -2919,7 +2919,7 @@ qui	qui	PRON
 se	se	PRON
 est	être	AUX
 réalisé	réaliser	VERB
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 notre	notre	DET
 tout	tout	ADV
 petit	petit	ADJ
@@ -3140,7 +3140,7 @@ secondaire	secondaire	ADJ
 sur	sur	ADP
 la	le	DET
 manière	manière	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 voir	voir	VERB
 et	et	CCONJ
 valoir	valoir	VERB
@@ -3390,7 +3390,7 @@ tels	tel	PRON
 que	que	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 ,	,	PUNCTclause
 Vingt-huit	Vingt-huit	PROPN
 siècles	siècle	NOUN
@@ -3442,7 +3442,7 @@ congrès	congrès	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -3879,7 +3879,7 @@ je	je	PRON
 me	me	PRON
 sens	sentir	VERB
 en effet	en effet	ADV
-un peu	un peu	DET
+un peu	un peu	ADV
 seul	seul	ADJ
 !	!	PUNCTsent
 mais	mais	CCONJ
@@ -3989,7 +3989,7 @@ la	le	DET
 solution	solution	NOUN
 du	du	ADP_DET
 chômage	chômage	NOUN
-en tout cas	en tout cas	PUNCT
+en tout cas	en tout cas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vous	vous	PRON
@@ -4203,7 +4203,7 @@ question	question	NOUN
 ,	,	PUNCTclause
 je	je	PRON
 réponds	répondre	VERB
-depuis que	depuis que	PUNCT
+depuis que	depuis que	SCONJ
 je	je	PRON
 agis	agir	VERB
 ,	,	PUNCTclause

@@ -48,7 +48,7 @@ fait	faire	VERB
 ,	,	PUNCTclause
 blond	blond	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 pâle	pâle	ADJ
 ,	,	PUNCTclause
 avec	avec	ADP
@@ -138,7 +138,7 @@ produisaient	produire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 «	«	PUNCTclause
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 piquant	piquer	VERB
 que	que	SCONJ
 sa	son	DET
@@ -231,7 +231,7 @@ prononciation	prononciation	NOUN
 molle	mou	ADJ
 et	et	CCONJ
 quelquefois	quelquefois	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 embarrassée	embarrasser	VERB
 ,	,	PUNCTclause
 traduisaient	traduire	VERB
@@ -775,7 +775,7 @@ politique	politique	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
 revient	revenir	VERB
-en force	en force	DET
+en force	en force	ADV
 ,	,	PUNCTclause
 solidement	solidement	ADV
 alliée	allier	VERB
@@ -904,7 +904,7 @@ de	de	ADP
 idées	idée	NOUN
 ,	,	PUNCTclause
 encore	encore	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 l'	le	DET
 auteur	auteur	NOUN
 de	de	ADP
@@ -1024,7 +1024,7 @@ une	un	DET
 carrière	carrier	NOUN
 politique	politique	ADJ
 revient	revenir	VERB
-en force	en force	ADP
+en force	en force	ADV
 occuper	occuper	VERB
 le	le	DET
 terrain	terrain	NOUN
@@ -1443,8 +1443,8 @@ travaillé	travailler	VERB
 .	.	PUNCTsent
 décidément	décidément	ADV
 ,	,	PUNCTclause
-la première	la première	DET
-partie	partie	NOUN
+la première	la première	PRON
+partie	partir	VERB
 paraît	paraître	VERB
 seule	seul	ADJ
 .	.	PUNCTsent
@@ -1502,8 +1502,8 @@ janvier	janvier	NOUN
 l'	le	DET
 impression	impression	NOUN
 de	de	ADP
-la première	la première	DET
-partie	partie	NOUN
+la première	la première	PRON
+partie	partir	VERB
 va	aller	VERB
 être	être	AUX
 achevée	achever	VERB
@@ -1526,8 +1526,8 @@ devancerai	devancer	VERB
 mon	mon	DET
 imprimeur	imprimeur	NOUN
 ,	,	PUNCTclause
-pourvu que	pourvu que	DET
-les	le_PRON	PRON
+pourvu que	pourvu que	SCONJ
+les	le	DET
 événements	événement	NOUN
 ne	ne	ADV
 me	me	PRON
@@ -1563,8 +1563,8 @@ me	me	PRON
 décide	décider	VERB
 à	à	ADP
 envoyer	envoyer	VERB
-la première	la première	DET
-partie	partie	NOUN
+la première	la première	PRON
+partie	partir	VERB
 à	à	ADP
 Alexandre	Alexandre	PROPN
 le	le	DET
@@ -2173,8 +2173,8 @@ vingt	vingt	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-jusqu'à la fin	jusqu'à la fin	ADP
-des	un	DET
+jusqu'à la fin	jusqu'à la fin	ADV
+des	un	ADP_DET
 Cent-Jours	Cent-Jours	NOUN
 ,	,	PUNCTclause
 un	un	DET
@@ -2216,7 +2216,7 @@ nullement	nullement	ADV
 empêché	empêcher	VERB
 le	le	DET
 retour	retour	NOUN
-en force	en force	PUNCT
+en force	en force	ADV
 de	de	ADP
 la	le	DET
 politique	politique	NOUN
@@ -2252,9 +2252,9 @@ ait	avoir	AUX
 été	être	AUX
 décisive	décisif	ADJ
 lorsque	lorsque	SCONJ
-au lendemain de	au lendemain de	ADP_DET
-l'	le_PRON	PRON
-annonce	annoncer	VERB
+au lendemain de	au lendemain de	ADP
+l'	le	DET
+annonce	annonce	NOUN
 du	du	ADP_DET
 retour	retour	NOUN
 de	de	ADP
@@ -2283,8 +2283,8 @@ débats	débat	NOUN
 deux	deux	NUM
 articles	article	NOUN
 violents	violent	ADJ
-en faveur de	en faveur de	ADV
-Bourbons	Bourbons	PROPN
+en faveur de	en faveur de	ADP
+bourbons	bourbon	NOUN
 et	et	CCONJ
 contre	contre	ADP
 le	le	DET
@@ -2309,7 +2309,7 @@ demain	demain	NOUN
 met	mettre	VERB
 ma	mon	DET
 vie	vie	NOUN
-en danger	en danger	PUNCT
+en danger	en danger	ADJ
 .	.	PUNCTsent
 vogue	voguer	VERB
 la	le	DET
@@ -2334,7 +2334,7 @@ par	par	ADP
 cela	cela	PRON
 même	même	ADV
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 dit	dire	VERB
 que	que	SCONJ
 tout	tout	PRON
@@ -3013,7 +3013,7 @@ qui	qui	PRON
 préférable	préférable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en bref	en bref	INTJ
+en bref	en bref	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -3130,7 +3130,7 @@ opportunisme	opportunisme	NOUN
 ,	,	PUNCTclause
 bien	bien	ADV
 évidents	évident	ADJ
-de part et d'autre	de part et d'autre	PUNCT
+de part et d'autre	de part et d'autre	ADV
 ,	,	PUNCTclause
 dialoguent	dialoguer	VERB
 en	en	ADP
@@ -3201,7 +3201,7 @@ empire	empire	NOUN
 il	il	PRON
 y	y	PRON
 propose	proposer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 à	à	ADP
 la	le	DET
 signature	signature	NOUN
@@ -3280,7 +3280,7 @@ esprit	esprit	NOUN
 de	de	ADP
 conquête	conquête	NOUN
 !	!	PUNCTsent
-rien de moins	rien de moins	PRON
+rien de moins	rien de moins	ADV
 probable	probable	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
@@ -3310,7 +3310,7 @@ ceux	ceux	PRON
 dont	dont	PRON
 il	il	PRON
 parle	parler	VERB
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 des	un	ADP_DET
 Cent-Jours	Cent-Jours	NOUN
 :	:	PUNCTclause
@@ -3540,7 +3540,7 @@ inconstance	inconstance	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 injuste	injuste	ADJ
 ,	,	PUNCTclause
 on	on	PRON
@@ -4182,9 +4182,9 @@ préférence	préférence	NOUN
 une	un	DET
 faction	faction	NOUN
 ,	,	PUNCTclause
-au mieux	au mieux	ADP_DET
-un	un	PRON
-parti	partir	VERB
+au mieux	au mieux	ADV
+un	un	DET
+parti	parti	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -4243,7 +4243,7 @@ de	de	ADP
 grand	grand	ADJ
 homme d'État	homme d'État	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 le	le	DET
 jeu	jeu	NOUN
 subtil	subtil	ADJ
@@ -4615,7 +4615,7 @@ en	en	ADP
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-bel et bien	bel et bien	ADP
+bel et bien	bel et bien	ADV
 la	le	DET
 théorie	théorie	NOUN
 de	de	ADP
@@ -4670,11 +4670,11 @@ peut	pouvoir	VERB
 paraître	paraître	VERB
 démodée	démoder	VERB
 ,	,	PUNCTclause
-à première vue	à première vue	DET
+à première vue	à première vue	ADV
 .	.	PUNCTsent
 elle	elle	PRON
 traduit	traduire	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 l'	le	DET
 intuition	intuition	NOUN
 de	de	ADP
@@ -4808,8 +4808,8 @@ tout	tout	ADJ
 cela	cela	PRON
 nous	nous	PRON
 paraît	paraître	VERB
-un peu	un peu	PUNCT
-fade	fader	VERB
+un peu	un peu	ADV
+fade	fade	ADJ
 parce que	parce que	SCONJ
 ce	ce	PRON
 est	être	AUX
@@ -4827,7 +4827,7 @@ qui	qui	PRON
 a	avoir	VERB
 l'	le	DET
 avantage	avantage	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 voir	voir	VERB
 au plus	au plus	ADV
 sot	sot	NOUN
@@ -4966,7 +4966,7 @@ dira	dire	VERB
 plus tard	plus tard	ADV
 Mussolini	Mussolini	PROPN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 Bonaparte	Bonaparte	PROPN
 instaure	instaurer	VERB
 la	le	DET
@@ -5077,7 +5077,7 @@ autorité	autorité	NOUN
 ,	,	PUNCTclause
 écrira	écrire	VERB
 Constant	Constant	PROPN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -5176,9 +5176,9 @@ de	de	ADP
 la	le	DET
 «	«	PUNCTclause
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 »	»	PUNCTclause
-des	un	ADP_DET
+des	un	DET
 hitlériens	hitlérien	ADJ
 à	à	ADP
 l'	le	DET
@@ -5187,13 +5187,13 @@ sous	sous	ADP
 Staline	Staline	PROPN
 .	.	PUNCTsent
 «	«	PUNCTclause
-les mêmes	les mêmes	DET
-code	code	NOUN
+les mêmes	les mêmes	PRON
+code	coder	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
-mesures	mesure	NOUN
+les mêmes	les mêmes	PRON
+mesures	mesurer	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 règlements	règlement	NOUN
 et	et	CCONJ
 ,	,	PUNCTclause
@@ -5204,7 +5204,7 @@ y	y	PRON
 parvenir	parvenir	VERB
 graduellement	graduellement	ADV
 ,	,	PUNCTclause
-la même	la même	DET
+la même	la même	PRON
 langue	langue	NOUN
 ,	,	PUNCTclause
 voilà	voilà	ADP
@@ -5408,9 +5408,9 @@ l'	le	DET
 usurpation	usurpation	NOUN
 l'	le	DET
 avilit	avilir	VERB
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 elle	elle	PRON
-l'	le	DET
+l'	le_PRON	PRON
 opprime	opprimer	VERB
 .	.	PUNCTsent
 elle	elle	PRON
@@ -5859,7 +5859,7 @@ cela	cela	PRON
 qui	qui	PRON
 ne	ne	ADV
 fait	faire	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 germer	germer	VERB
 sous	sous	ADP
 ses	son	DET
@@ -5897,7 +5897,7 @@ et	et	CCONJ
 que	que	SCONJ
 il	il	PRON
 est	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 nommer	nommer	VERB
 dans	dans	ADP
@@ -6383,7 +6383,7 @@ du	du	ADP_DET
 centralisme	centralisme	NOUN
 jacobin	jacobin	ADJ
 poussé	pousser	VERB
-à l'extrême	à l'extrême	PUNCT
+à l'extrême	à l'extrême	ADV
 par	par	ADP
 les	le	DET
 nécessités	nécessité	NOUN
@@ -6568,7 +6568,7 @@ Constant	Constant	PROPN
 dénonce	dénoncer	VERB
 ici	ici	ADV
 ,	,	PUNCTclause
-par avance	par avance	NOUN
+par avance	par avance	ADV
 ,	,	PUNCTclause
 l'	le	DET
 utopie	utopie	NOUN

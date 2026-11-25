@@ -98,7 +98,7 @@ on	on	PRON
 ne	ne	ADV
 en	en	PRON
 parle	parler	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 vite	vite	ADV
 ,	,	PUNCTclause
 par	par	ADP
@@ -157,7 +157,7 @@ parviens	parvenir	VERB
 à	à	ADP
 me	me	PRON
 placer	placer	VERB
-aux environs de	aux environs de	ADP_DET
+aux environs de	aux environs de	ADP
 point de vue	point de vue	NOUN
 de	de	ADP
 un	un	DET
@@ -185,7 +185,7 @@ Allemagne	Allemagne	PROPN
 de	de	ADP
 bon sens	bon sens	NOUN
 et	et	CCONJ
-de bonne foi	de bonne foi	DET
+de bonne foi	de bonne foi	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -195,7 +195,7 @@ il	il	PRON
 ne	ne	ADV
 se	se	PRON
 agit	agir	VERB
-plus de	plus de	ADP
+plus de	plus de	DET
 prendre	prendre	VERB
 les	le	DET
 choses	chose	NOUN
@@ -238,7 +238,7 @@ appeler	appeler	VERB
 l'	le	DET
 étatisme	étatisme	NOUN
 ,	,	PUNCTclause
-à condition que	à condition que	PRON
+à condition que	à condition que	SCONJ
 l'on	on	PRON
 donne	donner	VERB
 au	au	ADP_DET
@@ -249,14 +249,14 @@ total	total	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 la	le	DET
 dictature	dictature	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 la	le	DET
 tendance	tendance	NOUN
@@ -294,7 +294,7 @@ réalisation	réalisation	NOUN
 systématique	systématique	ADJ
 des	un	ADP_DET
 rêveries	rêverie	NOUN
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 naïves	naïf	ADJ
 que	que	SCONJ
 nourrissent	nourrir	VERB
@@ -392,7 +392,7 @@ du	du	ADP_DET
 )	)	PUNCTclause
 est	être	AUX
 condamné	condamner	VERB
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 à	à	ADP
 se	se	PRON
 vouloir	vouloir	VERB
@@ -468,13 +468,13 @@ on	on	PRON
 peut	pouvoir	VERB
 ne	ne	ADV
 aimer	aimer	VERB
-ni l'un ni l'autre	ni l'un ni l'autre	ADV
+ni l'un ni l'autre	ni l'un ni l'autre	PRON
 ,	,	PUNCTclause
 mais	mais	CCONJ
 il	il	PRON
 serait	être	AUX
-un peu	un peu	DET
-stupide	stupide	NOUN
+un peu	un peu	ADV
+stupide	stupide	ADJ
 de	de	ADP
 croire	croire	VERB
 encore que	encore que	SCONJ
@@ -533,7 +533,7 @@ expression	expression	NOUN
 unique	unique	ADJ
 (	(	PUNCTclause
 plus	plus	ADV
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 le	le	DET
 synonyme	synonyme	NOUN
 )	)	PUNCTclause
@@ -727,7 +727,7 @@ la	le	DET
 mécanique	mécanique	NOUN
 a	avoir	AUX
 joué	jouer	VERB
-en fait	en fait	DET
+en fait	en fait	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -743,7 +743,7 @@ très	très	ADV
 dangereux	dangereux	ADJ
 .	.	PUNCTsent
 reste	rester	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 pourquoi	pourquoi	ADV
 cela	cela	PRON
 se	se	PRON
@@ -841,7 +841,7 @@ des	un	ADP_DET
 phénomènes	phénomène	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si j'ose dire	si j'ose dire	NOUN
+si j'ose dire	si j'ose dire	ADV
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -884,7 +884,7 @@ fille	fille	NOUN
 est	être	AUX
 muette	muet	ADJ
 .	.	PUNCTsent
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 théoriciens	théoricien	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -939,7 +939,7 @@ contraire	contraire	NOUN
 se	se	PRON
 soit	être	AUX
 produit	produire	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 …	…	PUNCTsent
 dernière	dernier	ADJ
 défense	défense	NOUN
@@ -966,7 +966,7 @@ disent	dire	VERB
 les	le	DET
 démocrates	démocrate	NOUN
 .	.	PUNCTsent
-autant de	autant de	ADP_DET
+autant de	autant de	DET
 mots	mot	NOUN
 vides	vide	ADJ
 ou	ou	CCONJ
@@ -1181,7 +1181,7 @@ que	que	SCONJ
 les	le	DET
 masses	masse	NOUN
 sont	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 entendre	entendre	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1546,7 +1546,7 @@ angoissée	angoissé	ADJ
 de	de	ADP
 croire	croire	VERB
 à	à	ADP
-la première	la première	NOUN
+la première	la première	PRON
 qui	qui	PRON
 se	se	PRON
 présente	présenter	VERB
@@ -1605,7 +1605,7 @@ propos	propos	NOUN
 tout	tout	PRON
 ne	ne	ADV
 est	être	AUX
-pas mal de	pas mal de	ADP
+pas mal de	pas mal de	DET
 ce	ce	PRON
 qui	qui	PRON
 se	se	PRON
@@ -1694,7 +1694,7 @@ dictatures	dictature	NOUN
 que	que	PRON
 ils	ils	PRON
 condamnent	condamner	VERB
-en principe	en principe	DET
+en principe	en principe	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -1779,7 +1779,7 @@ encore que	encore que	SCONJ
 on	on	PRON
 puisse	pouvoir	VERB
 détacher	détacher	VERB
-telle ou telle	telle ou telle	ADP
+telle ou telle	telle ou telle	DET
 mesure	mesure	NOUN
 prise	prendre	VERB
 par	par	ADP
@@ -1936,7 +1936,7 @@ résulte	résulter	VERB
 de	de	ADP
 la	le	DET
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 des	un	ADP_DET
 syndicats	syndicat	NOUN
 ?	?	PUNCTsent
@@ -2061,7 +2061,7 @@ se	se	PRON
 est	être	AUX
 effondrée	effondrer	VERB
 sans	sans	ADP
-faire usage	faire usage	NOUN
+faire usage	faire usage	VERB
 de	de	ADP
 ses	son	DET
 armes	arme	NOUN
@@ -2089,7 +2089,7 @@ du	du	ADP_DET
 régime	régime	NOUN
 demeure	demeurer	VERB
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 l'	le	DET
 église	église	NOUN
@@ -2242,7 +2242,7 @@ ne	ne	ADV
 a	avoir	AUX
 jamais	jamais	ADV
 pesé	peser	VERB
-si peu que	si peu que	ADP
+si peu que	si peu que	SCONJ
 dans	dans	ADP
 les	le	DET
 régimes	régime	NOUN
@@ -2346,7 +2346,7 @@ sont	être	AUX
 joyeusement	joyeusement	ADV
 acceptées	accepter	VERB
 »	»	PUNCTclause
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 l'	le	DET
 union	union	NOUN
 sacrée	sacré	ADJ
@@ -2545,12 +2545,12 @@ nous	nous	PRON
 à	à	ADP
 un	un	DET
 problème	problème	NOUN
-de force	de force	PUNCT
+de force	de force	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 non	non	ADV
 pas	pas	ADV
-de force	de force	DET
+de force	de force	ADV
 pour	pour	ADP
 «	«	PUNCTclause
 gagner	gagner	VERB
@@ -2798,7 +2798,7 @@ que	que	SCONJ
 ont	avoir	AUX
 résolu	résoudre	VERB
 ,	,	PUNCTclause
-vaille que vaille	vaille que vaille	NOUN
+vaille que vaille	vaille que vaille	ADV
 ,	,	PUNCTclause
 les	le	DET
 dictateurs	dictateur	NOUN
@@ -2883,7 +2883,7 @@ savoir	savoir	VERB
 si	si	SCONJ
 nous	nous	PRON
 saurons	savoir	VERB
-mettre à profit	mettre à profit	PUNCT
+mettre à profit	mettre à profit	VERB
 pour	pour	ADP
 le	le	DET
 résoudre	résoudre	VERB

@@ -112,9 +112,9 @@ pour	pour	ADP
 qui	qui	PRON
 serait	être	AUX
 tenté	tenter	VERB
-de mise	de mise	ADP
-en	en	PRON
-doute	douter	VERB
+de mise	de mise	ADJ
+en	en	ADP
+doute	doute	NOUN
 leur	leur	DET
 valeur	valeur	NOUN
 religieuse	religieux	ADJ
@@ -333,7 +333,7 @@ le	le	DET
 sentiment	sentiment	NOUN
 de	de	ADP
 unicité	unicité	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -602,7 +602,7 @@ jusque	jusque	ADP
 l'	le	DET
 exaltation	exaltation	NOUN
 ,	,	PUNCTclause
-de mise	de mise	ADP
+de mise	de mise	ADJ
 au	au	ADP_DET
 défi	défi	NOUN
 la	le	DET
@@ -765,7 +765,7 @@ sexes	sexe	NOUN
 en	en	ADP
 Occident	Occident	PROPN
 ,	,	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 le	le	DET
 jeune	jeune	ADJ
 Europe	Europe	PROPN
@@ -777,7 +777,7 @@ plus	plus	ADV
 à	à	ADP
 Tristan	Tristan	PROPN
 que	que	SCONJ
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 fidèle	fidèle	ADJ
 endimanché	endimancher	VERB
 aux	au	ADP_DET
@@ -847,11 +847,11 @@ du	du	ADP_DET
 moi	moi	PRON
 (	(	PUNCTclause
 avec	avec	ADP
-la même	la même	DET
+la même	la même	PRON
 sincérité	sincérité	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 geste	geste	NOUN
 )	)	PUNCTclause
 ;	;	PUNCTclause
@@ -1036,7 +1036,7 @@ duper	duper	VERB
 Dieu	Dieu	PROPN
 lui-même	lui-même	PRON
 .	.	PUNCTsent
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 le	le	DET
 12e	12e	ADJ
@@ -1209,10 +1209,10 @@ entreraient	entrer	VERB
 en	en	ADP
 religion	religion	NOUN
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 regard	regard	NOUN
 et	et	CCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 aveu	aveu	NOUN
 correspondent	correspondre	VERB
 aux	au	ADP_DET
@@ -1795,7 +1795,7 @@ demeure	demeurer	VERB
 spécifiquement	spécifiquement	ADV
 occidental	occidental	ADJ
 ,	,	PUNCTclause
-encore que	encore que	DET
+encore que	encore que	SCONJ
 il	il	PRON
 soit	être	AUX
 causé	causer	VERB
@@ -2218,14 +2218,14 @@ lui-même	lui-même	PRON
 cette	ce	DET
 notion	notion	NOUN
 a	avoir	AUX
-la même	la même	DET
+la même	la même	PRON
 extension	extension	NOUN
 dans	dans	ADP
 l'	le	DET
 espace	espace	NOUN
 et	et	CCONJ
-le temps que	le temps que	DET
-le	le_PRON	PRON
+le temps que	le temps que	SCONJ
+le	le	DET
 «	«	PUNCTclause
 monde	monde	NOUN
 christianisé	christianisé	ADJ
@@ -2372,7 +2372,7 @@ sa	son	DET
 religion	religion	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 le	le	DET
 christianisme	christianisme	NOUN
@@ -2415,7 +2415,7 @@ Révolution	Révolution	PROPN
 et	et	CCONJ
 conversion	conversion	NOUN
 ont	avoir	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 sens	sens	NOUN
 :	:	PUNCTclause
 ce	ce	PRON
@@ -3125,7 +3125,7 @@ théologiques	théologique	ADJ
 mais	mais	CCONJ
 militaires	militaire	ADJ
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 cas	cas	NOUN
 ,	,	PUNCTclause
 techniques	technique	NOUN
@@ -3280,7 +3280,7 @@ plus	plus	ADV
 heureux	heureux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 rendre compte	rendre compte	VERB
 à la fois	à la fois	ADV
 de	de	ADP
@@ -3388,7 +3388,7 @@ ordre	ordre	NOUN
 sont	être	AUX
 en effet	en effet	ADV
 concevables	concevable	ADJ
-à ce moment-là	à ce moment-là	PUNCT
+à ce moment-là	à ce moment-là	ADV
 .	.	PUNCTsent
 il y a	il y a	VERB
 l'	le	DET
@@ -3688,7 +3688,7 @@ par	par	ADP
 l'	le	DET
 intention	intention	NOUN
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 par	par	ADP
 le	le	DET
 succès	succès	NOUN
@@ -3965,7 +3965,7 @@ mais	mais	CCONJ
 ceux	ceux	PRON
 qui	qui	PRON
 croient	croire	VERB
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 ces	ce	DET
 révolutions	révolution	NOUN
 auraient	avoir	AUX
@@ -4131,7 +4131,7 @@ blessée	blesser	VERB
 .	.	PUNCTsent
 je	je	PRON
 attaque	attaquer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 leur	leur	DET
 religion	religion	NOUN
 .	.	PUNCTsent
@@ -4673,8 +4673,8 @@ l'	le	DET
 à l'intérieur de	à l'intérieur de	ADP
 pays	pays	NOUN
 ,	,	PUNCTclause
-la première	la première	DET
-tâche	tâche	NOUN
+la première	la première	PRON
+tâche	tâcher	VERB
 de	de	ADP
 l'	le	DET
 état	état	NOUN
@@ -4700,7 +4700,7 @@ ne	ne	ADV
 transigent	transiger	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 depuis	depuis	ADP
 l'	le	DET
 apparition	apparition	NOUN
@@ -5477,7 +5477,7 @@ y	y	PRON
 a	avoir	VERB
 plus de	plus de	DET
 Dieu	Dieu	PROPN
-au-dessus de	au-dessus de	ADP_DET
+au-dessus de	au-dessus de	ADP
 nations	nation	NOUN
 .	.	PUNCTsent
 le	le	DET
@@ -5552,7 +5552,7 @@ tirer	tirer	VERB
 ,	,	PUNCTclause
 vont	aller	VERB
 essayer	essayer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 la	le	DET
 loi	loi	NOUN
 en	en	ADP
@@ -5586,7 +5586,7 @@ tout	tout	ADJ
 ordre	ordre	NOUN
 international	international	ADJ
 impossible	impossible	ADJ
-en principe	en principe	PUNCT
+en principe	en principe	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 par définition	par définition	ADV
@@ -5798,7 +5798,7 @@ que	que	SCONJ
 nous	nous	PRON
 offre	offrir	VERB
 il	il	PRON
-en échange de	en échange de	DET
+en échange de	en échange de	ADP
 nos	nos	DET
 vies	vie	NOUN
 ?	?	PUNCTsent
@@ -6110,7 +6110,7 @@ le	le	DET
 craindre	craindre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -6293,8 +6293,8 @@ et	et	CCONJ
 fruits	fruit	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
-un peu	un peu	SYM
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 souffrance	souffrance	NOUN
 et	et	CCONJ
 elle	elle	PRON
@@ -6657,7 +6657,7 @@ le	le	DET
 savons	savon	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	ADP
+du moins	du moins	ADV
 le	le	DET
 pressentons	pressentir	VERB
 .	.	PUNCTsent
@@ -6797,8 +6797,8 @@ toutes	tout	ADJ
 les	le	DET
 trois	trois	NUM
 achèvera	achever	VERB
-de mise	de mise	DET
-en	en	PRON
+de mise	de mise	ADJ
+en	en	ADP
 lumière	lumière	NOUN
 leur	leur	DET
 relation	relation	NOUN
@@ -6900,7 +6900,7 @@ ce	ce	PRON
 qui	qui	PRON
 a	avoir	AUX
 mis	mettre	VERB
-en marche	en marche	ADP
+en marche	en marche	ADJ
 l'	le	DET
 Occident	Occident	PROPN
 et	et	CCONJ
@@ -6931,7 +6931,7 @@ il	il	PRON
 ne	ne	ADV
 accepte	accepter	VERB
 pas	pas	ADV
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 la	le	DET
 grâce	grâce	NOUN
 subvienne	subvenir	ADJ
@@ -6995,7 +6995,7 @@ ardeur	ardeur	NOUN
 l'	le	DET
 anime	animer	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 élan	élan	NOUN
 de	de	ADP
 foi	foi	NOUN
@@ -7033,7 +7033,7 @@ sa	son	DET
 soif	soif	NOUN
 ne	ne	ADV
 attendait	attendre	VERB
-rien de moins	rien de moins	PRON
+rien de moins	rien de moins	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 semblable	semblable	ADJ
@@ -7208,7 +7208,7 @@ et	et	CCONJ
 elle	elle	PRON
 le	le_PRON	PRON
 sera	être	AUX
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 un	un	DET
 obstacle	obstacle	NOUN
 réel	réel	ADJ
@@ -7421,7 +7421,7 @@ que	que	PRON
 on	on	PRON
 appelle	appeler	VERB
 bien	bien	ADV
-à tort	à tort	PUNCT
+à tort	à tort	ADV
 la	le	DET
 «	«	PUNCTclause
 dé-christianisation	dé-christianisation	NOUN
@@ -7521,7 +7521,7 @@ de	de	ADP
 la	le	DET
 Quête	Quête	PROPN
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 elles	elles	PRON
 procèdent	procéder	VERB
@@ -7613,7 +7613,7 @@ inconsciente	inconscient	ADJ
 nostalgie	nostalgie	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 notre	notre	DET
 psyché	psyché	NOUN
 occidentale	occidental	ADJ

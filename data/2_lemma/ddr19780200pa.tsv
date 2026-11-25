@@ -44,7 +44,7 @@ pas	pas	ADV
 de	de	DET
 avenir	avenir	NOUN
 humain	humain	ADJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 un	un	DET
 cataclysme	cataclysme	NOUN
 inévitable	inévitable	ADJ
@@ -146,7 +146,7 @@ années	année	NOUN
 que	que	SCONJ
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 critiques	critique	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -869,7 +869,7 @@ sacrée	sacré	ADJ
 pour	pour	ADP
 nous	nous	PRON
 ,	,	PUNCTclause
-l'une et l'autre	l'une et l'autre	ADP
+l'une et l'autre	l'une et l'autre	PRON
 ne	ne	ADV
 étaient	être	AUX
 que	que	ADV
@@ -1031,7 +1031,7 @@ parmi	parmi	ADP
 eux	eux	PRON
 70000	70000	NUM
 «	«	PUNCTclause
-moins de	moins de	NOUN
+moins de	moins de	DET
 35	35	NUM
 ans	an	NOUN
 »	»	PUNCTclause
@@ -1078,7 +1078,7 @@ est	être	AUX
 capable	capable	ADJ
 de	de	ADP
 réunir	réunir	VERB
-autant de	autant de	ADP
+autant de	autant de	DET
 gens	gens	NOUN
 .	.	PUNCTsent
 spontanément	spontanément	ADV
@@ -1280,7 +1280,7 @@ on	on	PRON
 continue	continuer	VERB
 à	à	ADP
 faire	faire	VERB
-comme si	comme si	DET
+comme si	comme si	SCONJ
 de	de	ADP
 rien	rien	PRON
 ne	ne	ADV
@@ -1315,7 +1315,7 @@ démence	démence	NOUN
 à force de	à force de	ADP
 inconscience	inconscience	NOUN
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 que	que	SCONJ
 le	le	DET
@@ -1366,7 +1366,7 @@ après	après	ADV
 il	il	PRON
 sera	être	AUX
 devenu	devenir	VERB
-hors de prix	hors de prix	NOUN
+hors de prix	hors de prix	ADJ
 et	et	CCONJ
 que	que	SCONJ
 il	il	PRON
@@ -1460,7 +1460,7 @@ pause	pause	NOUN
 réfléchissons	réfléchir	VERB
 ,	,	PUNCTclause
 trouvons	trouver	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 tout de suite	tout de suite	ADV
 !	!	PUNCTsent
@@ -1508,7 +1508,7 @@ voiture	voiture	NOUN
 électrique	électrique	ADJ
 est	être	AUX
 presque	presque	ADV
-au point	au point	ADV
+au point	au point	ADJ
 !	!	PUNCTsent
 »	»	PUNCTclause
 je	je	PRON
@@ -1561,7 +1561,7 @@ si	si	SCONJ
 grands	grand	ADJ
 intérêts	intérêt	NOUN
 financiers	financier	ADJ
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
@@ -1687,7 +1687,7 @@ nous	nous	PRON
 promettent	promettre	VERB
 ils	ils	PRON
 ,	,	PUNCTclause
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 .	.	PUNCTsent
 grâce à	grâce à	ADP
 nucléaire	nucléaire	ADJ
@@ -1831,7 +1831,7 @@ disant	dire	VERB
 ça	ça	PRON
 durera	durer	VERB
 bien	bien	ADV
-aussi longtemps que	aussi longtemps que	ADV
+aussi longtemps que	aussi longtemps que	SCONJ
 moi	moi	PRON
 !	!	PUNCTsent
 ce	ce	PRON
@@ -1985,7 +1985,7 @@ pas	pas	ADV
 question	question	NOUN
 de	de	ADP
 remettre	remettre	VERB
-en cause	en cause	ADP
+en cause	en cause	ADJ
 la	le	DET
 croissance	croissance	NOUN
 infinie	infini	ADJ
@@ -2224,7 +2224,7 @@ maîtrisés	maîtriser	VERB
 ,	,	PUNCTclause
 de	de	ADP
 l'autre	l'autre	PRON
-autant de	autant de	PUNCT
+autant de	autant de	DET
 savants	savant	NOUN
 qui	qui	PRON
 affirment	affirmer	VERB
@@ -2525,8 +2525,8 @@ monde	monde	NOUN
 uniquement	uniquement	ADV
 pour	pour	ADP
 avoir	avoir	AUX
-un peu	un peu	DET
-plus de	plus de	SCONJ
+un peu	un peu	ADV
+plus de	plus de	DET
 électricité	électricité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2535,7 +2535,7 @@ est	être	AUX
 suicidaire	suicidaire	ADJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en un sens	en un sens	ADP
+en un sens	en un sens	ADV
 ce	ce	PRON
 est	être	AUX
 criminel	criminel	ADJ
@@ -2596,7 +2596,7 @@ il	il	PRON
 ne	ne	ADV
 y	y	PRON
 a	avoir	AUX
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 aucune	aucun	DET
 différence	différence	NOUN
 .	.	PUNCTsent
@@ -2754,7 +2754,7 @@ Société	Société	PROPN
 France	France	PROPN
 théoriquement	théoriquement	ADV
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 a	avoir	AUX
@@ -2911,14 +2911,14 @@ puisque	puisque	SCONJ
 ils	ils	PRON
 ne	ne	ADV
 produiront	produire	VERB
-au mieux	au mieux	ADP_DET
-que	que	SCONJ
+au mieux	au mieux	ADV
+que	que	ADV
 30	30	NUM
 de	de	ADP
 nos	nos	DET
 besoins	besoin	NOUN
 d'ici	d'ici	ADV
-à la fin	à la fin	ADP_DET
+à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
@@ -2954,7 +2954,7 @@ pas	pas	ADV
 continuer	continuer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 faire	faire	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3085,7 +3085,7 @@ décisions	décision	NOUN
 de	de	ADP
 principe	principe	NOUN
 prises	priser	VERB
-en ce sens	en ce sens	PUNCT
+en ce sens	en ce sens	ADV
 .	.	PUNCTsent
 en	en	ADP
 Europe	Europe	PROPN
@@ -3150,7 +3150,7 @@ et	et	CCONJ
 l'	le	DET
 état	état	NOUN
 !	!	PUNCTsent
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 les	le	DET
 états-nations	État-nation	NOUN
 ne	ne	ADV
@@ -3301,7 +3301,7 @@ bien	bien	ADV
 je	je	PRON
 suis	être	AUX
 subversif	subversif	ADJ
-en ce sens	en ce sens	PUNCT
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 je	je	PRON
 suis	être	AUX
@@ -3369,7 +3369,7 @@ la	le	DET
 droite	droite	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à ce propos	à ce propos	DET
+à ce propos	à ce propos	ADV
 ,	,	PUNCTclause
 justement	justement	ADV
 ,	,	PUNCTclause
@@ -3377,7 +3377,7 @@ vous	vous	PRON
 dites	dire	VERB
 des	un	DET
 choses	chose	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 «	«	PUNCTclause
 sacrilèges	sacrilège	NOUN
 »	»	PUNCTclause
@@ -3653,7 +3653,7 @@ police	police	NOUN
 donc	donc	CCONJ
 il	il	PRON
 faut	falloir	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 …	…	PUNCTsent
 ce	ce	PRON
 que	que	PRON
@@ -3793,7 +3793,7 @@ d'autre	d'autre	PRON
 car	car	CCONJ
 ceux	ceux	PRON
 feront	faire	VERB
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 que	que	SCONJ
 ceux	ceux	PRON
@@ -3809,7 +3809,7 @@ de	de	ADP
 se	se	PRON
 lancer	lancer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 histoires	histoire	NOUN
 de	de	ADP
 courbe	courbe	NOUN
@@ -3840,7 +3840,7 @@ terre	terre	NOUN
 étaient	être	AUX
 illimitées	illimité	ADJ
 ,	,	PUNCTclause
-comme si	comme si	DET
+comme si	comme si	SCONJ
 il y a	il y a	VERB
 de	de	ADP
 l'	le	DET
@@ -3857,7 +3857,7 @@ mille	mille	NUM
 ans	an	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 ,	,	PUNCTclause
 qu'est-ce que	qu'est-ce que	ADV
 le	le	DET
@@ -3891,7 +3891,7 @@ déviation	déviation	NOUN
 du	du	ADP_DET
 christianisme	christianisme	NOUN
 .	.	PUNCTsent
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 l'	le	DET
 idée	idée	NOUN
 de	de	ADP
@@ -3998,7 +3998,7 @@ la	le	DET
 nuit	nuit	NOUN
 aussi	aussi	ADV
 .	.	PUNCTsent
-si vous voulez	si vous voulez	ADP
+si vous voulez	si vous voulez	ADV
 interroger	interroger	VERB
 ,	,	PUNCTclause
 interrogez	interroger	VERB
@@ -4012,7 +4012,7 @@ revenez	revenir	VERB
 autrement dit	autrement dit	ADV
 :	:	PUNCTclause
 interrogez	interroger	VERB
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 vous	vous	PRON
 voudrez	vouloir	VERB
 !	!	PUNCTsent

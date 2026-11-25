@@ -358,7 +358,7 @@ et	et	CCONJ
 promeut	promouvoir	VERB
 des	un	DET
 valeurs	valeur	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 différentes	différent	ADJ
 de	de	ADP
 celles	celle	PRON
@@ -403,7 +403,7 @@ du fait de	du fait de	ADP
 la	le	DET
 crise	crise	NOUN
 dont	dont	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 parle	parler	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -446,7 +446,7 @@ reposait	reposer	VERB
 sur	sur	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 «	«	PUNCTclause
 principes	principe	NOUN
 »	»	PUNCTclause
@@ -1044,8 +1044,8 @@ elle	elle	PRON
 relève	relever	VERB
 encore	encore	ADV
 beaucoup	beaucoup	ADV
-trop de	trop de	ADP
-la	le	DET
+trop de	trop de	DET
+la	le_PRON	PRON
 mentalité	mentalité	NOUN
 industrielle	industriel	ADJ
 ,	,	PUNCTclause
@@ -1075,7 +1075,7 @@ loisirs	loisir	NOUN
 l'	le	DET
 homme	homme	NOUN
 industriel	industriel	ADJ
-en principe	en principe	ADP
+en principe	en principe	ADV
 travaille	travailler	VERB
 trop	trop	ADV
 ,	,	PUNCTclause
@@ -1160,7 +1160,7 @@ pas	pas	ADV
 de	de	ADP
 société	société	NOUN
 post-industrielle	post-industriel	ADJ
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 la	le	DET
 seule	seul	ADJ
 alternative	alternative	NOUN
@@ -1452,7 +1452,7 @@ processus	processus	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-de toute évidence	de toute évidence	DET
+de toute évidence	de toute évidence	ADV
 celui	celui	PRON
 de	de	ADP
 l'	le	DET
@@ -1513,7 +1513,7 @@ Damas	Damas	PROPN
 »	»	PUNCTclause
 :	:	PUNCTclause
 «	«	PUNCTsent
-dès l'instant où	dès l'instant où	PRON
+dès l'instant où	dès l'instant où	SCONJ
 je	je	PRON
 l'	le_PRON	PRON
 aperçus	apercevoir	VERB
@@ -1600,7 +1600,7 @@ dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 guère	guère	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 voitures	voiture	NOUN
 que	que	PRON
 de	de	ADP
@@ -2096,7 +2096,7 @@ même	même	ADV
 une	un	DET
 certaine	certain	ADJ
 répugnance	répugnance	NOUN
-au début	au début	PUNCT
+au début	au début	ADV
 de	de	ADP
 ce	ce	PRON
 siècle	siècle	NOUN
@@ -2243,7 +2243,7 @@ humiliante	humiliant	ADJ
 de	de	ADP
 quelques	quelque	DET
 émirs	émir	NOUN
-de droit	de droit	ADP_DET
+de droit	de droit	ADJ
 divin	divin	ADJ
 ,	,	PUNCTclause
 avec	avec	ADP
@@ -2303,7 +2303,7 @@ de	de	ADP
 Paris	Paris	PROPN
 ,	,	PUNCTclause
 permet	permettre	VERB
-de fait	de fait	SCONJ
+de fait	de fait	ADJ
 du	du	ADP_DET
 quatre	quatre	NUM
 ou	ou	CCONJ
@@ -2359,7 +2359,7 @@ plus	plus	ADV
 accoutumés	accoutumer	VERB
 à	à	ADP
 aller	aller	VERB
-où que ce soit	où que ce soit	PUNCT
+où que ce soit	où que ce soit	ADV
 autrement	autrement	ADV
 que	que	SCONJ
 en	en	ADP
@@ -2368,7 +2368,7 @@ auto	auto	NOUN
 les	le	DET
 trains	train	NOUN
 reviennent	revenir	VERB
-à la mode	à la mode	DET
+à la mode	à la mode	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ce	ce	PRON
@@ -2462,8 +2462,8 @@ espère	espérer	VERB
 de	de	ADP
 me	me	PRON
 être	être	AUX
-un peu	un peu	DET
-étendu	étendu	ADJ
+un peu	un peu	ADV
+étendu	étendre	VERB
 sur	sur	ADP
 le	le	DET
 chapitre	chapitre	NOUN
@@ -2641,7 +2641,7 @@ profit	profit	NOUN
 en soi	en soi	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 approuve	approuver	VERB
 en	en	ADP
 pratique	pratique	NOUN
@@ -3086,7 +3086,7 @@ industrielle	industriel	ADJ
 )	)	PUNCTclause
 n'importe quoi	n'importe quoi	PRON
 par	par	ADP
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 chiffre	chiffre	NOUN
 :	:	PUNCTclause
 car	car	CCONJ
@@ -3229,7 +3229,7 @@ plus	plus	ADV
 administrables	administrable	ADJ
 ,	,	PUNCTclause
 ni	ni	CCONJ
-en fait	en fait	NOUN
+en fait	en fait	ADV
 gouvernées	gouverné	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
@@ -3319,7 +3319,7 @@ Small	Small	PROPN
 is	is	ADJ
 beautiful	beautiful	ADJ
 .	.	PUNCTsent
-non que	non que	ADV
+non que	non que	SCONJ
 la	le	DET
 petitesse	petitesse	NOUN
 soit	être	AUX
@@ -3419,8 +3419,8 @@ petits	petit	ADJ
 états	état	NOUN
 «	«	PUNCTclause
 incapables	incapable	ADJ
-de fait	de fait	PUNCT
-de	de	DET
+de fait	de fait	ADJ
+de	de	ADP
 grandes	grand	ADJ
 bêtises	bêtise	NOUN
 »	»	PUNCTclause
@@ -3466,7 +3466,7 @@ dures	dur	ADJ
 et	et	CCONJ
 polluantes	polluant	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 l'	le	DET
 énergie	énergie	NOUN
 solaire	solaire	ADJ
@@ -3483,7 +3483,7 @@ une	un	DET
 société	société	NOUN
 de	de	ADP
 gaspillage	gaspillage	NOUN
-à bout de souffle	à bout de souffle	PUNCT
+à bout de souffle	à bout de souffle	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ

@@ -199,7 +199,7 @@ la	le	DET
 commune	commun	NOUN
 —	—	PUNCTclause
 et	et	CCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 le	le	DET
 canton	canton	NOUN
 —	—	PUNCTclause
@@ -253,7 +253,7 @@ ferons	faire	VERB
 bien	bien	ADV
 de	de	ADP
 suivre	suivre	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ordre	ordre	NOUN
 ,	,	PUNCTclause
 celui	celui	PRON
@@ -457,7 +457,7 @@ le	le	DET
 droit	droit	NOUN
 et	et	CCONJ
 dont	dont	PRON
-la première	la première	ADJ
+la première	la première	PRON
 mission	mission	NOUN
 est	être	AUX
 l'	le	DET
@@ -677,7 +677,7 @@ la	le	DET
 population	population	NOUN
 qui	qui	PRON
 était	être	AUX
-à même de	à même de	ADP
+à même de	à même de	ADJ
 contrôler	contrôler	VERB
 la	le	DET
 besogne	besogne	NOUN
@@ -864,8 +864,8 @@ bourgeoisies	bourgeoisie	NOUN
 la	le	DET
 Suisse	Suisse	PROPN
 compte	compter	VERB
-un peu	un peu	DET
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 3000	3000	NUM
 communes	commun	NOUN
 .	.	PUNCTsent
@@ -1086,7 +1086,7 @@ des	un	DET
 états	état	NOUN
 souverains	souverain	ADJ
 «	«	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 leur	leur	DET
 souveraineté	souveraineté	NOUN
 ne	ne	ADV
@@ -1294,8 +1294,8 @@ chacun	chacun	PRON
 des	un	ADP_DET
 magistrats	magistrat	NOUN
 qui	qui	PRON
-en fait	en fait	VERB
-partie	partie	NOUN
+en fait	en fait	ADV
+partie	partir	VERB
 dirige	diriger	VERB
 un	un	DET
 département	département	NOUN
@@ -1582,7 +1582,7 @@ sur	sur	ADP
 l'	le	DET
 estrade	estrade	NOUN
 pour	pour	ADP
-prendre la parole	prendre la parole	NOUN
+prendre la parole	prendre la parole	VERB
 ,	,	PUNCTclause
 discuter	discuter	VERB
 ,	,	PUNCTclause
@@ -1747,7 +1747,7 @@ politesse	politesse	NOUN
 règne	régner	VERB
 néanmoins	néanmoins	ADV
 ,	,	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 il y a	il y a	VERB
 quelquefois	quelquefois	ADV
 des	un	DET
@@ -1829,8 +1829,8 @@ sont	être	AUX
 des	un	DET
 paysans	paysan	NOUN
 et	et	CCONJ
-plus de	plus de	ADP
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 vivent	vivre	VERB
 de	de	ADP
@@ -1839,7 +1839,7 @@ industrie	industrie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 avec	avec	ADP
-moins de	moins de	NOUN
+moins de	moins de	DET
 pittoresque	pittoresque	ADJ
 et	et	CCONJ
 de	de	ADP
@@ -1995,7 +1995,7 @@ encore	encore	ADV
 en	en	ADP
 membre	membre	NOUN
 de	de	ADP
-telle ou telle	telle ou telle	ADJ
+telle ou telle	telle ou telle	DET
 localité	localité	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -2037,7 +2037,7 @@ limites	limite	NOUN
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 .	.	PUNCTsent
 la	le	DET
 formule	formule	NOUN
@@ -2667,7 +2667,7 @@ nous	nous	PRON
 avons	avoir	AUX
 vu	voir	VERB
 commettre	commettre	VERB
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 en	en	ADP
 Europe	Europe	PROPN
 ont	avoir	AUX
@@ -2684,7 +2684,7 @@ commerce	commerce	NOUN
 étranger	étranger	ADJ
 qui	qui	PRON
 rencontrait	rencontrer	VERB
-autant de	autant de	ADP
+autant de	autant de	DET
 barrières	barrière	NOUN
 douanières	douanier	ADJ
 que	que	ADV
@@ -3107,7 +3107,7 @@ discutées	discuter	VERB
 séparément	séparément	ADV
 ,	,	PUNCTclause
 souvent	souvent	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 au hasard	au hasard	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -3153,7 +3153,7 @@ fausse	faux	ADJ
 ils	ils	PRON
 doivent	devoir	VERB
 ,	,	PUNCTclause
-pour ainsi dire	pour ainsi dire	PUNCT
+pour ainsi dire	pour ainsi dire	ADV
 ,	,	PUNCTclause
 servir	servir	VERB
 deux	deux	NUM
@@ -3274,7 +3274,7 @@ netteté	netteté	NOUN
 ,	,	PUNCTclause
 ce	ce	DET
 sentiment	sentiment	NOUN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 énergie	énergie	NOUN
 .	.	PUNCTsent
 ce	ce	DET
@@ -3547,7 +3547,7 @@ le	le	DET
 8	8	NUM
 avril	avril	NOUN
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 année	année	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -3608,7 +3608,7 @@ devait	devoir	VERB
 plus	plus	ADV
 être	être	AUX
 remis	remettre	VERB
-en question	en question	ADP
+en question	en question	ADJ
 jusque	jusque	ADP
 à	à	ADP
 nos	nos	DET
@@ -3667,7 +3667,7 @@ nonobstant	nonobstant	ADV
 un	un	DET
 assez	assez	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 révisions	révision	NOUN
 partielles	partiel	ADJ
 ,	,	PUNCTclause
@@ -3739,7 +3739,7 @@ cantons	canton	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
 sauvegarde	sauvegarder	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 leur	leur	DET
 existence	existence	NOUN
 distincte	distinct	ADJ
@@ -3844,7 +3844,7 @@ en vigueur	en vigueur	ADV
 dans	dans	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 états	état	NOUN
 modernes	moderne	ADJ
 ,	,	PUNCTclause
@@ -4272,7 +4272,7 @@ départements	département	NOUN
 sont	être	AUX
 logés	loger	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 bâtiment	bâtiment	NOUN
 ,	,	PUNCTclause
 nommé	nommer	VERB
@@ -4816,7 +4816,7 @@ la	le	DET
 bousculer	bousculer	VERB
 :	:	PUNCTclause
 fait	faire	VERB
-d'autant plus	d'autant plus	NOUN
+d'autant plus	d'autant plus	ADV
 remarquable	remarquable	ADJ
 que	que	SCONJ
 le	le	DET
@@ -4895,7 +4895,7 @@ fonction	fonction	NOUN
 Quatre	Quatre	NUM
 facteurs	facteur	NOUN
 entrent	entrer	VERB
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 pour	pour	ADP
 la	le	DET
 déterminer	déterminer	VERB
@@ -4925,8 +4925,8 @@ conseillers	conseiller	NOUN
 il	il	PRON
 est	être	AUX
 impossible	impossible	ADJ
-de fait	de fait	PUNCT
-droit	droit	ADJ
+de fait	de fait	ADJ
+droit	droit	NOUN
 à	à	ADP
 tant de	tant de	DET
 exigences	exigence	NOUN
@@ -4987,7 +4987,7 @@ membre	membre	NOUN
 du	du	ADP_DET
 Conseil	Conseil	PROPN
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 canton	canton	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -5045,13 +5045,13 @@ partis	parti	NOUN
 qui	qui	PRON
 sont	être	AUX
 au	au	ADP_DET
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 sept	sept	NUM
 ,	,	PUNCTclause
 et	et	CCONJ
 très	très	ADV
 inégaux	inégal	ADJ
-en force	en force	PUNCT
+en force	en force	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 doivent	devoir	VERB
@@ -5202,7 +5202,7 @@ au-dessus de	au-dessus de	ADP
 luttes	lutte	NOUN
 partisanes	partisan	ADJ
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 représente	représenter	VERB
 le	le	DET
@@ -5216,7 +5216,7 @@ corps	corps	NOUN
 de	de	ADP
 techniciens	technicien	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 administre	administrer	VERB
 les	le	DET
@@ -5235,7 +5235,7 @@ trop	trop	ADV
 aux	au	ADP_DET
 cantons	canton	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 exerce	exercer	VERB
 une	un	DET
@@ -5253,7 +5253,7 @@ la	le	DET
 fédération	fédération	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à ce propos	à ce propos	DET
+à ce propos	à ce propos	ADV
 ,	,	PUNCTclause
 il	il	PRON
 faut	falloir	VERB
@@ -5390,8 +5390,8 @@ politique	politique	ADJ
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
-partis	partir	VERB
+nombre de	nombre de	DET
+partis	parti	NOUN
 ne	ne	ADV
 existent	exister	VERB
 que	que	ADV
@@ -5421,7 +5421,7 @@ sur le plan	sur le plan	ADP
 fédéralisme	fédéralisme	NOUN
 sont	être	AUX
 au	au	ADP_DET
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 septembre	septembre	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -5484,7 +5484,7 @@ cantons	canton	NOUN
 contre	contre	ADP
 Berne	Berne	PROPN
 .	.	PUNCTsent
-à ce titre	à ce titre	DET
+à ce titre	à ce titre	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 par	par	ADP
@@ -5501,8 +5501,8 @@ proclament	proclamer	VERB
 fédéralisme	fédéralisme	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
-ce	ce	DET
+alors que	alors que	SCONJ
+ce	ce	PRON
 mot	mot	NOUN
 pourrait	pouvoir	VERB
 aussi	aussi	ADV
@@ -6096,7 +6096,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 la	le	DET
 rend	rendre	VERB
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 de plus en plus	de plus en plus	ADV
 précaire	précaire	ADJ
 .	.	PUNCTsent
@@ -6114,8 +6114,8 @@ centralisation	centralisation	NOUN
 elles	elles	PRON
 ont	avoir	AUX
 amené	amener	VERB
-l'une et l'autre	l'une et l'autre	DET
-le	le_PRON	PRON
+l'une et l'autre	l'une et l'autre	PRON
+le	le	DET
 régime	régime	NOUN
 des	un	ADP_DET
 pleins	plein	ADJ
@@ -6206,11 +6206,11 @@ distincts	distinct	ADJ
 une	un	DET
 politique	politique	NOUN
 économique	économique	ADJ
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 planifiée	planifier	VERB
 se	se	PRON
 impose	imposer	VERB
-de toute évidence	de toute évidence	DET
+de toute évidence	de toute évidence	ADV
 .	.	PUNCTsent
 on	on	PRON
 ne	ne	ADV
@@ -6244,7 +6244,7 @@ des	un	ADP_DET
 normalement	normalement	ADV
 ,	,	PUNCTclause
 se	se	PRON
-en fait	en fait	VERB
+en fait	en fait	ADV
 l'	le	DET
 organe	organe	NOUN
 .	.	PUNCTsent
@@ -6275,7 +6275,7 @@ de	de	ADP
 succès	succès	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 observateurs	observateur	NOUN
 étrangers	étranger	ADJ
 ont	avoir	AUX
@@ -6448,7 +6448,7 @@ affaires	affaire	NOUN
 personnelles	personnel	ADJ
 qui	qui	PRON
 sont	être	AUX
-en cause	en cause	PRON
+en cause	en cause	ADJ
 :	:	PUNCTclause
 son	son	DET
 salaire	salaire	NOUN
@@ -6581,7 +6581,7 @@ sans	sans	ADP
 accroc	accroc	NOUN
 sont	être	AUX
 normalement	normalement	ADV
-un peu	un peu	DET
+un peu	un peu	ADV
 ennuyeuses	ennuyeux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -6733,7 +6733,7 @@ référendum	référendum	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 éventuellement	éventuellement	ADV
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 par	par	ADP
 l'	le	DET
 initiative	initiative	NOUN
@@ -6872,7 +6872,7 @@ y	y	PRON
 a	avoir	AUX
 pas	pas	ADV
 eu	avoir	VERB
-moins de	moins de	PUNCT
+moins de	moins de	DET
 51	51	NUM
 demandes	demande	NOUN
 de	de	ADP
@@ -7019,7 +7019,7 @@ nous	nous	PRON
 verrons	voir	VERB
 au	au	ADP_DET
 chapitre	chapitre	NOUN
-suivant que	suivant que	PUNCT
+suivant que	suivant que	SCONJ
 la	le	DET
 situation	situation	NOUN
 économique	économique	ADJ
@@ -7116,7 +7116,7 @@ majorité	majorité	NOUN
 des	un	ADP_DET
 votants	votant	NOUN
 )	)	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 une	un	DET
 révision	révision	NOUN
 partielle	partiel	ADJ
@@ -7242,12 +7242,12 @@ ne	ne	ADV
 se	se	PRON
 attache	attacher	VERB
 ni	ni	CCONJ
-moins de	moins de	PRON
+moins de	moins de	DET
 poésie	poésie	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
 quelquefois	quelquefois	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 célébrité	célébrité	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -7410,7 +7410,7 @@ oppression	oppression	NOUN
 bien	bien	ADV
 plus	plus	ADV
 néfaste	néfaste	ADJ
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 dans	dans	ADP
 de	de	DET
 grands	grand	ADJ

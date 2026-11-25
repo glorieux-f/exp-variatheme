@@ -56,7 +56,7 @@ aura	avoir	VERB
 plus de	plus de	DET
 avenir	avenir	NOUN
 humain	humain	ADJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 cataclysme	cataclysme	NOUN
 inévitable	inévitable	ADJ
 que	que	PRON
@@ -140,7 +140,7 @@ ce	ce	PRON
 sont	être	AUX
 d'ailleurs	d'ailleurs	ADV
 généralement	généralement	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 —	—	PUNCTclause
 vous	vous	PRON
 le	le_PRON	PRON
@@ -286,7 +286,7 @@ monter	monter	VERB
 puissent	pouvoir	VERB
 être	être	AUX
 arrêtés	arrêter	VERB
-à temps	à temps	PUNCT
+à temps	à temps	ADV
 !	!	PUNCTsent
 je	je	PRON
 écris	écrire	VERB
@@ -301,7 +301,7 @@ elles	elles	PRON
 continuent	continuer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 cette	ce	DET
 mise au point	mise au point	NOUN
@@ -338,7 +338,7 @@ je	je	PRON
 en	en	ADP
 disant	dire	VERB
 que	que	SCONJ
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 beaucoup	beaucoup	ADV
 et	et	CCONJ
 que	que	SCONJ
@@ -468,7 +468,7 @@ tomber	tomber	VERB
 ,	,	PUNCTclause
 mourir	mourir	VERB
 et	et	CCONJ
-donner naissance	donner naissance	PRON
+donner naissance	donner naissance	VERB
 à	à	ADP
 de	de	DET
 nouvelles	nouveau	ADJ
@@ -764,7 +764,7 @@ le	le	DET
 pompiste	pompiste	NOUN
 .	.	PUNCTsent
 or	or	NOUN
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 aujourd'hui	aujourd'hui	ADV
 que	que	SCONJ
@@ -825,9 +825,9 @@ on	on	PRON
 va	aller	VERB
 faire	faire	VERB
 ?	?	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
-personne	personne	NOUN
+personne	personne_PRON	PRON
 ne	ne	ADV
 se	se	PRON
 le	le_PRON	PRON
@@ -911,7 +911,7 @@ voulons	vouloir	VERB
 rien	rien	PRON
 faire	faire	VERB
 ,	,	PUNCTclause
-eh bien	eh bien	PRON
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 nous	nous	PRON
 allons	aller	VERB
@@ -956,8 +956,8 @@ autos	auto	NOUN
 je	je	PRON
 dis	dire	VERB
 simplement	simplement	ADV
-de fait	de fait	PUNCT
-attention	attention	INTJ
+de fait	de fait	ADJ
+attention	attention	NOUN
 ,	,	PUNCTclause
 car	car	CCONJ
 si	si	SCONJ
@@ -995,8 +995,8 @@ venu	venir	VERB
 manquer	manquer	VERB
 et	et	CCONJ
 imaginez	imaginer	VERB
-les mêmes	les mêmes	DET
-incident	incident	NOUN
+les mêmes	les mêmes	PRON
+incident	incident	ADJ
 avec	avec	ADP
 le	le	DET
 pétrole	pétrole	NOUN
@@ -1031,7 +1031,7 @@ aura	avoir	VERB
 plus de	plus de	DET
 avenir	avenir	NOUN
 humain	humain	ADJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 cataclysme	cataclysme	NOUN
 inévitable	inévitable	ADJ
 que	que	PRON
@@ -1286,7 +1286,7 @@ de	de	ADP
 dire	dire	VERB
 lesquels	lesquels	PRON
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 le	le_PRON	PRON
 sait	savoir	VERB
 —	—	PUNCTclause
@@ -1362,7 +1362,7 @@ retraitement	retraitement	NOUN
 de	de	ADP
 plutonium	plutonium	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ils	ils	PRON
 ne	ne	ADV
 ont	avoir	AUX
@@ -1440,7 +1440,7 @@ ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 pour	pour	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 de	de	ADP
 imaginable	imaginable	ADJ
 que	que	SCONJ
@@ -1673,7 +1673,7 @@ mensonges	mensonge	NOUN
 par exemple	par exemple	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 posez	poser	VERB
 la	le	DET
@@ -2144,7 +2144,7 @@ maîtrisés	maîtriser	VERB
 de	de	ADP
 l'autre	l'autre	PRON
 ,	,	PUNCTclause
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 tout autant	tout autant	ADV
 ,	,	PUNCTclause
 sinon	sinon	ADV
@@ -2202,8 +2202,8 @@ ont	avoir	AUX
 signé	signer	VERB
 la	le	DET
 déclaration	déclaration	NOUN
-en faveur de	en faveur de	ADV
-centrales	centrale	ADJ
+en faveur de	en faveur de	ADP
+centrales	centrale	NOUN
 ,	,	PUNCTclause
 quatorze	quatorze	NUM
 occupent	occuper	VERB
@@ -2278,7 +2278,7 @@ masquent	masquer	VERB
 ils	ils	PRON
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 regardons	regarder	VERB
 d'abord	d'abord	ADV
@@ -2289,7 +2289,7 @@ affiché	afficher	VERB
 on	on	PRON
 nous	nous	PRON
 répète	répéter	VERB
-à satiété	à satiété	DET
+à satiété	à satiété	ADV
 :	:	PUNCTclause
 vous	vous	PRON
 ne	ne	ADV
@@ -2593,7 +2593,7 @@ voudrait	vouloir	VERB
 dire	dire	VERB
 que	que	SCONJ
 d'ici	d'ici	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 cent	cent	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -2605,7 +2605,7 @@ par	par	ADP
 la	le	DET
 production	production	NOUN
 .	.	PUNCTsent
-rien que	rien que	PRON
+rien que	rien que	ADV
 de	de	ADP
 l'	le	DET
 énoncer	énoncer	VERB
@@ -2861,8 +2861,8 @@ vous	vous	PRON
 semble	sembler	VERB
 il	il	PRON
 pas	pas	ADV
-un peu	un peu	DET
-court	court	ADJ
+un peu	un peu	ADV
+court	courir	VERB
 de	de	ADP
 réduire	réduire	VERB
 l'	le	DET
@@ -2926,12 +2926,12 @@ est	être	AUX
 l'	le	DET
 idée	idée	NOUN
 tyrannique	tyrannique	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 faire	faire	VERB
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 en même temps	en même temps	ADV
 ;	;	PUNCTclause
 ce	ce	PRON
@@ -2973,7 +2973,7 @@ ont	avoir	AUX
 émis	émettre	VERB
 l'	le	DET
 idée	idée	NOUN
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 étonnante	étonnant	ADJ
 de	de	ADP
 diviser	diviser	VERB
@@ -3131,7 +3131,7 @@ hier	hier	ADV
 parce que	parce que	SCONJ
 il y a	il y a	VERB
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 une	un	DET
 espèce	espèce	NOUN
@@ -3162,8 +3162,8 @@ technique	technique	NOUN
 nucléaire	nucléaire	ADJ
 notamment	notamment	ADV
 .	.	PUNCTsent
-la première	la première	DET
-phrase	phrase	NOUN
+la première	la première	PRON
+phrase	phraser	VERB
 de	de	ADP
 mon	mon	DET
 livre	livre	NOUN
@@ -3203,7 +3203,7 @@ responsabilité	responsabilité	NOUN
 ce	ce	PRON
 est	être	AUX
 à la fois	à la fois	ADV
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 et	et	CCONJ
 le	le	DET
 dernier	dernier	ADJ
@@ -3252,7 +3252,7 @@ dirai	dire	VERB
 que	que	SCONJ
 il	il	PRON
 faut	falloir	VERB
-en finir	en finir	PUNCT
+en finir	en finir	VERB
 avec	avec	ADP
 l'	le	DET
 état-nation	État-nation	NOUN
@@ -3302,7 +3302,7 @@ l'	le	DET
 .	.	PUNCTsent
 je	je	PRON
 précise	préciser	VERB
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 que	que	SCONJ
 je	je	PRON
 ne	ne	ADV
@@ -3362,7 +3362,7 @@ un	un	DET
 modèle	modèle	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 je	je	PRON
 pourrais	pouvoir	VERB
@@ -3599,7 +3599,7 @@ quand	quand	SCONJ
 ils	ils	PRON
 sont	être	AUX
 devenus	devenir	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 trop	trop	ADV
 nombreux	nombreux	ADJ
 pour	pour	ADP
@@ -3692,8 +3692,8 @@ expérimentalement	expérimentalement	ADV
 ,	,	PUNCTclause
 une	un	DET
 possibilité	possibilité	NOUN
-de fait	de fait	PUNCT
-autre chose	autre chose	NOUN
+de fait	de fait	ADJ
+autre chose	autre chose	PRON
 que	que	ADV
 simplement	simplement	ADV
 devenir	devenir	VERB
@@ -3763,14 +3763,14 @@ une	un	DET
 ville	ville	NOUN
 soit	soit	CCONJ
 calculée	calculer	VERB
-de telle manière que	de telle manière que	PUNCT
+de telle manière que	de telle manière que	SCONJ
 le	le	DET
 rayon	rayon	NOUN
 de	de	ADP
 la	le	DET
 ville	ville	NOUN
 soit	soit	CCONJ
-à la portée de	à la portée de	DET
+à la portée de	à la portée de	ADP
 voix	voix	NOUN
 de	de	ADP
 un	un	DET
@@ -3785,7 +3785,7 @@ ce	ce	PRON
 très	très	ADV
 sage	sage	ADJ
 parce que	parce que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 pouvait	pouvoir	VERB
 l'	le	DET
 entendre	entendre	VERB
@@ -3793,17 +3793,17 @@ et	et	CCONJ
 lui	lui	PRON
 répondre	répondre	VERB
 de	de	ADP
-n'importe quels	n'importe quels	ADV
-point	point	ADV
+n'importe quels	n'importe quels	DET
+point	point	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 est	être	AUX
 une	un	DET
 image	image	NOUN
-un peu	un peu	PUNCT
-naïve	naïf	NOUN
-de nos jours	de nos jours	PUNCT
+un peu	un peu	ADV
+naïve	naïf	ADJ
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 bien sûr	bien sûr	ADV
@@ -3973,7 +3973,7 @@ mais	mais	CCONJ
 ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 une	un	DET
 intention	intention	NOUN
 ,	,	PUNCTclause
@@ -3997,7 +3997,7 @@ le	le	DET
 dialogue	dialogue	NOUN
 ou	ou	CCONJ
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 ,	,	PUNCTclause
 la	le	DET
 concertation	concertation	NOUN
@@ -4104,7 +4104,7 @@ de	de	ADP
 une	un	DET
 coopérative	coopérative	NOUN
 ,	,	PUNCTclause
-si vous voulez	si vous voulez	DET
+si vous voulez	si vous voulez	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 elle	elle	PRON
@@ -4181,7 +4181,7 @@ ce	ce	PRON
 était	être	AUX
 conquérir	conquérir	VERB
 le	le	DET
-plus de	plus de	PUNCT
+plus de	plus de	DET
 gens	gens	NOUN
 que	que	SCONJ
 on	on	PRON
@@ -4328,7 +4328,7 @@ actualité	actualité	NOUN
 à	à	ADP
 ces	ce	DET
 propos	propos	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 théoriques	théorique	ADJ
 ,	,	PUNCTclause
 disons	dire	VERB
@@ -4423,7 +4423,7 @@ qui	qui	PRON
 est	être	AUX
 devenue	devenir	VERB
 banale	banal	ADJ
-par la suite	par la suite	NOUN
+par la suite	par la suite	ADV
 :	:	PUNCTclause
 pour	pour	ADP
 qualifier	qualifier	VERB
@@ -4578,7 +4578,7 @@ et	et	CCONJ
 je	je	PRON
 dis	dire	VERB
 toujours	toujours	ADV
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 ?	?	PUNCTsent
 oui	oui	INTJ
@@ -4628,7 +4628,7 @@ ans	an	NOUN
 ils	ils	PRON
 disent	dire	VERB
 soudain	soudain	ADJ
-la même	la même	PUNCT
+la même	la même	PRON
 chose	chose	NOUN
 que	que	PRON
 moi	moi	PRON
@@ -4811,7 +4811,7 @@ en réalité	en réalité	ADV
 ils	ils	PRON
 font	faire	VERB
 tout	tout	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 alors	alors	ADV
@@ -4839,13 +4839,13 @@ arriver	arriver	VERB
 maintenant	maintenant	ADV
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 catastrophes	catastrophe	NOUN
 qui	qui	PRON
 seront	être	AUX
 assez	assez	ADV
 mineures	mineur	ADJ
-au début	au début	PUNCT
+au début	au début	ADV
 ,	,	PUNCTclause
 comme	comme	ADP
 la	le	DET
@@ -4874,7 +4874,7 @@ a	avoir	AUX
 fait	faire	VERB
 peur	peur	NOUN
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 ça	ça	PRON
 a	avoir	AUX
@@ -4883,8 +4883,8 @@ juste	juste	ADV
 assez	assez	ADV
 grand	grand	ADJ
 pour que	pour que	SCONJ
-tout le monde	tout le monde	NOUN
-fasse	faire	AUX
+tout le monde	tout le monde	PRON
+fasse	faire	VERB
 très	très	ADV
 attention	attention	NOUN
 ;	;	PUNCTclause

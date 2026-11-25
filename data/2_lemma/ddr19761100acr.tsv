@@ -36,7 +36,7 @@ qui	qui	PRON
 me	me	PRON
 intéresse	intéresser	VERB
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 :	:	PUNCTclause
 la	le	DET
 stratégie	stratégie	NOUN
@@ -263,7 +263,7 @@ universel	universel	ADJ
 ,	,	PUNCTclause
 je	je	PRON
 observe	observer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 comportements	comportement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -285,8 +285,8 @@ l'	le	DET
 empêcher	empêcher	VERB
 de	de	ADP
 savoir	savoir	VERB
-à temps	à temps	PUNCT
-ce	ce	PRON
+à temps	à temps	ADV
+ce	ce	DET
 qui	qui	PRON
 se	se	PRON
 prépare	préparer	VERB
@@ -297,7 +297,7 @@ le	le_PRON	PRON
 placer	placer	VERB
 devant	devant	ADP
 le	le_PRON	PRON
-fait accompli	fait accompli	VERB
+fait accompli	fait accompli	NOUN
 .	.	PUNCTsent
 puis	puis	CCONJ
 ,	,	PUNCTclause
@@ -353,7 +353,7 @@ de	de	ADP
 vendeur	vendeur	NOUN
 présentés	présenter	VERB
 comme	comme	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 conclusions	conclusion	NOUN
 scientifiques	scientifique	ADJ
 .	.	PUNCTsent
@@ -425,13 +425,13 @@ objections	objection	NOUN
 et	et	CCONJ
 mes	mon	DET
 mises	mise	NOUN
-en question	en question	PUNCT
+en question	en question	ADJ
 du	du	ADP_DET
 Concorde	Concorde	PROPN
 selon	selon	ADP
 le	le	DET
 schéma	schéma	NOUN
-suivant que	suivant que	PUNCT
+suivant que	suivant que	SCONJ
 je	je	PRON
 reconstitue	reconstituer	VERB
 :	:	PUNCTclause
@@ -659,7 +659,7 @@ perdre	perdre	VERB
 quelques	quelque	DET
 heures	heure	NOUN
 supplémentaires	supplémentaire	ADJ
-au-dessus de	au-dessus de	ADP_DET
+au-dessus de	au-dessus de	ADP
 merveilleux	merveilleux	ADJ
 châteaux	château	NOUN
 de	de	ADP
@@ -784,7 +784,7 @@ fabrication	fabrication	NOUN
 de	de	ADP
 Concorde	Concorde	PROPN
 mettrait	mettre	VERB
-au chômage	au chômage	ADP
+au chômage	au chômage	ADJ
 40000	40000	NUM
 ouvriers	ouvrier	NOUN
 .	.	PUNCTsent
@@ -847,7 +847,7 @@ arrêter	arrêter	VERB
 la	le	DET
 guerre	guerre	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 industrie	industrie	NOUN
 des	un	ADP_DET
@@ -1017,7 +1017,7 @@ têtes	tête	NOUN
 ↵↵	↵↵	PUNCTstruct
 5	5	NUM
 .	.	PUNCTsent
-indépendamment de	indépendamment de	PUNCT
+indépendamment de	indépendamment de	ADP
 ces	ce	DET
 arguments	argument	NOUN
 ,	,	PUNCTclause
@@ -1032,7 +1032,7 @@ fondamentales.	fondamentales.	NOUN
 ↵↵	↵↵	PUNCTstruct
 a	avoir	VERB
 )	)	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 les	le	DET
 centrale nucléaire	centrale nucléaire	NOUN
 ,	,	PUNCTclause
@@ -1472,7 +1472,7 @@ l'	le	DET
 central	central	ADJ
 est	être	AUX
 seul	seul	ADJ
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 produire	produire	VERB
 et	et	CCONJ
 de	de	ADP
@@ -1562,7 +1562,7 @@ socialiste	socialiste	NOUN
 ,	,	PUNCTclause
 nulle	nul	ADJ
 différence	différence	NOUN
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 !	!	PUNCTsent
 )	)	PUNCTclause
 ,	,	PUNCTclause
@@ -1743,7 +1743,7 @@ l'autre	l'autre	PRON
 veut	vouloir	VERB
 la	le	DET
 sécurité	sécurité	NOUN
-par-dessus tout	par-dessus tout	PUNCT
+par-dessus tout	par-dessus tout	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
@@ -1919,7 +1919,7 @@ pas	pas	ADV
 la	le	DET
 centralisation	centralisation	NOUN
 ,	,	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 nos	nos	DET
 états	état	NOUN
 les	le	DET
@@ -1996,7 +1996,7 @@ pour	pour	ADP
 une	un	DET
 image	image	NOUN
 ,	,	PUNCTclause
-si vous voulez	si vous voulez	PRON
+si vous voulez	si vous voulez	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 je	je	PRON
@@ -2023,7 +2023,7 @@ la	le	DET
 société	société	NOUN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
-de proche en proche	de proche en proche	PUNCT
+de proche en proche	de proche en proche	ADV
 ,	,	PUNCTclause
 des	un	DET
 répercussions	répercussion	NOUN
@@ -2091,7 +2091,7 @@ que	que	SCONJ
 nous	nous	PRON
 serions	être	AUX
 alors	alors	ADV
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 découvrir	découvrir	VERB
 une	un	DET
 réalité	réalité	NOUN
@@ -2106,7 +2106,7 @@ entreprises	entreprise	NOUN
 comme	comme	ADP
 Concorde	Concorde	PROPN
 apparaîtraient	apparaître	VERB
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 incongrues	incongru	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

@@ -150,7 +150,7 @@ un	un	DET
 humour	humour	NOUN
 bonhomme	bonhomme	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 loufoque	loufoque	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -278,7 +278,7 @@ si	si	SCONJ
 vaste	vaste	ADJ
 pays	pays	NOUN
 suppose	supposer	VERB
-trop de	trop de	PUNCT
+trop de	trop de	DET
 compromissions	compromission	NOUN
 visant	viser	VERB
 au	au	ADP_DET
@@ -358,7 +358,7 @@ les	le_PRON	PRON
 empêche	empêcher	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	ADJ
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 de	de	ADP
 rechercher	rechercher	VERB
@@ -699,7 +699,7 @@ l'	le	DET
 actualité	actualité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le second	le second	DET
+le second	le second	PRON
 me	me	PRON
 a	avoir	AUX
 fait	faire	AUX
@@ -709,7 +709,7 @@ matin	matin	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 citoyen	citoyen	NOUN
 ,	,	PUNCTclause
 me	me	PRON
@@ -727,7 +727,7 @@ ce	ce	DET
 livre	livre	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 éditeur	éditeur	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1113,7 +1113,7 @@ de	de	ADP
 Boston	Boston	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	DET
+le premier	le premier	PRON
 soir	soir	NOUN
 en	en	ADP
 arrivant	arriver	VERB
@@ -1471,8 +1471,8 @@ germains	germain	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 ne	ne	ADV
-en fait	en fait	ADP_DET
-point	point	NOUN
+en fait	en fait	ADV
+point	point	ADV
 de	de	ADP
 cérémonies	cérémonie	NOUN
 grandiloquentes	grandiloquent	ADJ
@@ -1495,7 +1495,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
-à la différence de	à la différence de	DET
+à la différence de	à la différence de	ADP
 autres	autre	ADJ
 bourgs	bourg	NOUN
 de	de	ADP
@@ -1772,7 +1772,7 @@ mouche	mouche	NOUN
 au	au	ADP_DET
 menton	menton	NOUN
 .	.	PUNCTsent
-le second	le second	DET
+le second	le second	PRON
 était	être	AUX
 ivre	ivre	ADJ
 .	.	PUNCTsent
@@ -1799,7 +1799,7 @@ mai	mai	NOUN
 recette	recette	NOUN
 pour	pour	ADP
 vivre	vivre	VERB
-de peu	de peu	PUNCT
+de peu	de peu	ADV
 .	.	PUNCTsent
 —	—	PUNCTclause
 je	je	PRON
@@ -2091,8 +2091,8 @@ dans	dans	ADP
 le	le	DET
 vide	vide	NOUN
 ,	,	PUNCTclause
-pour peu que	pour peu que	PUNCT
-leur	leur	DET
+pour peu que	pour peu que	SCONJ
+leur	leur	PRON
 lecture	lecture	NOUN
 les	le	DET
 passionne	passionner	VERB
@@ -2147,7 +2147,7 @@ je	je	PRON
 me	me	PRON
 suis	être	AUX
 enfermé	enfermer	VERB
-sans plus	sans plus	ADP
+sans plus	sans plus	ADV
 bouger	bouger	VERB
 ,	,	PUNCTclause
 entre	entre	ADP
@@ -2327,7 +2327,7 @@ dîner	dîner	NOUN
 .	.	PUNCTsent
 je	je	PRON
 entre	entre	ADP
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 dans	dans	ADP
 un	un	DET
 petit	petit	ADJ
@@ -2366,7 +2366,7 @@ me	me	PRON
 servir	servir	VERB
 encore	encore	ADV
 ?	?	PUNCTsent
-au fond	au fond	NOUN
+au fond	au fond	ADV
 de	de	ADP
 la	le	DET
 salle	salle	NOUN
@@ -2803,17 +2803,17 @@ on	on	PRON
 ne	ne	ADV
 regarde	regarder	VERB
 pas	pas	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 .	.	PUNCTsent
 ou	ou	CCONJ
 dans	dans	ADP
-la même	la même	DET
+la même	la même	PRON
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV
 voit	voir	VERB
 pas	pas	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 objets	objet	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
@@ -2836,7 +2836,7 @@ de	de	ADP
 déterminer	déterminer	VERB
 le	le	DET
 degré	degré	NOUN
-de fortune	de fortune	PUNCT
+de fortune	de fortune	ADJ
 ou	ou	CCONJ
 de	de	ADP
 infortune	infortune	NOUN
@@ -3183,7 +3183,7 @@ apparaît	apparaître	VERB
 vers	vers	ADP
 cinq	cinq	NUM
 heures	heure	NOUN
-au fond	au fond	PUNCT
+au fond	au fond	ADV
 de	de	ADP
 la	le	DET
 grande	grand	ADJ
@@ -3287,7 +3287,7 @@ Dollars	Dollars	PROPN
 ,	,	PUNCTclause
 le	le	DET
 soin	soin	NOUN
-de fait	de fait	ADP
+de fait	de fait	ADJ
 monnaie	monnaie	NOUN
 de	de	ADP
 une	un	DET
@@ -3572,7 +3572,7 @@ dans	dans	ADP
 cinq	cinq	NUM
 minutes	minute	NOUN
 ,	,	PUNCTclause
-au fond	au fond	NOUN
+au fond	au fond	ADV
 de	de	ADP
 une	un	DET
 campagne	campagne	NOUN
@@ -3731,7 +3731,7 @@ demie	demi	NOUN
 .	.	PUNCTsent
 l'	le	DET
 équipe	équipe	NOUN
-de nuit	de nuit	PUNCT
+de nuit	de nuit	ADV
 se	se	PRON
 installe	installer	VERB
 sans	sans	ADP
@@ -3750,8 +3750,8 @@ il	il	PRON
 voudrait	vouloir	VERB
 bien	bien	ADV
 savoir	savoir	VERB
-un peu	un peu	PUNCT
-ce	ce	PRON
+un peu	un peu	ADV
+ce	ce	DET
 qui	qui	PRON
 se	se	PRON
 passe	passer	VERB
@@ -3885,7 +3885,7 @@ je	je	PRON
 ai	avoir	AUX
 pu	pouvoir	VERB
 annoncer	annoncer	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 raid	raid	NOUN
 Grande-Bretagne	Grande-Bretagne	PROPN
 de	de	ADP
@@ -4377,7 +4377,7 @@ faciles	facile	ADJ
 réduire	réduire	VERB
 .	.	PUNCTsent
 «	«	PUNCTclause
-gagner sa vie	gagner sa vie	NOUN
+gagner sa vie	gagner sa vie	VERB
 »	»	PUNCTclause
 ,	,	PUNCTclause
 dit	dire	VERB
@@ -4513,7 +4513,7 @@ car	car	CCONJ
 cela	cela	PRON
 signifie	signifier	VERB
 pratiquement	pratiquement	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus de	plus de	DET
 bateaux	bateau	NOUN
 vers	vers	ADP
@@ -4770,7 +4770,7 @@ bourru	bourru	ADJ
 ,	,	PUNCTclause
 en	en	ADP
 pénétrant	pénétrer	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 soir	soir	NOUN
 dans	dans	ADP
 le	le	DET
@@ -4912,7 +4912,7 @@ que	que	PRON
 il	il	PRON
 a	avoir	AUX
 fait	faire	VERB
-de plus belle	de plus belle	PUNCT
+de plus belle	de plus belle	ADV
 .	.	PUNCTsent
 tard	tard	ADV
 dans	dans	ADP
@@ -5118,7 +5118,7 @@ cas	cas	NOUN
 les	le	DET
 exigences	exigence	NOUN
 sont	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 .	.	PUNCTsent
 et	et	CCONJ
 elles	elles	PRON
@@ -5313,7 +5313,7 @@ justement	justement	ADV
 se	se	PRON
 est	être	AUX
 mise	mettre	VERB
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 défaut	défaut	NOUN
@@ -5385,7 +5385,7 @@ importantes	important	ADJ
 le	le	DET
 sont	être	AUX
 soit	être	AUX
-par nature	par nature	NOUN
+par nature	par nature	ADV
 ,	,	PUNCTclause
 soit	soit	CCONJ
 par	par	ADP
@@ -5597,7 +5597,7 @@ communes	commun	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
 quitte à	quitte à	ADP
-mettre en circulation	mettre en circulation	NOUN
+mettre en circulation	mettre en circulation	VERB
 quelques	quelque	DET
 valeurs	valeur	NOUN
 encore	encore	ADV
@@ -5611,7 +5611,7 @@ convient	convenir	VERB
 de	de	ADP
 les	le	DET
 maquiller	maquiller	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ,	,	PUNCTclause
 pour que	pour que	SCONJ
 elles	elles	PRON
@@ -5653,7 +5653,7 @@ par	par	ADP
 un	un	DET
 monstre	monstre	NOUN
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 mériter	mériter	VERB
 quelque	quelque	DET
 maîtrise	maîtrise	NOUN
@@ -5689,7 +5689,7 @@ seules	seul	ADJ
 sont	être	AUX
 acceptables	acceptable	ADJ
 ,	,	PUNCTclause
-à première vue	à première vue	DET
+à première vue	à première vue	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 seules	seul	ADJ
@@ -5908,7 +5908,7 @@ dans	dans	ADP
 une	un	DET
 mise en question	mise en question	NOUN
 générale	général	ADJ
-au pire	au pire	ADP_DET
+au pire	au pire	ADV
 moment	moment	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -5928,7 +5928,7 @@ penser	penser	VERB
 parlerons	parler	VERB
 nous	nous	PRON
 encore	encore	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 langage	langage	NOUN
 au	au	ADP_DET
 jour	jour	NOUN
@@ -6035,7 +6035,7 @@ là	là	ADV
 ,	,	PUNCTclause
 il	il	PRON
 change	changer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 :	:	PUNCTclause
 vous	vous	PRON
 ne	ne	ADV
@@ -6129,9 +6129,9 @@ nous	nous	PRON
 trouvions	trouver	VERB
 que	que	SCONJ
 il y a	il y a	VERB
-trop de	trop de	PUNCT
+trop de	trop de	DET
 juifs	juif	NOUN
-réfugiés	réfugié	NOUN
+réfugiés	réfugier	VERB
 .	.	PUNCTsent
 des	un	ADP_DET
 gens	gens	NOUN
@@ -6140,9 +6140,9 @@ par	par	ADP
 le	le	DET
 malheur	malheur	NOUN
 ,	,	PUNCTclause
-où que ce soit	où que ce soit	NOUN
+où que ce soit	où que ce soit	ADV
 ,	,	PUNCTclause
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 toujours	toujours	ADV
 trop	trop	ADV
 .	.	PUNCTsent

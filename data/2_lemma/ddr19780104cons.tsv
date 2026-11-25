@@ -24,8 +24,8 @@ janvier	janvier	NOUN
 de	de	ADP
 un	un	DET
 point de vue	point de vue	NOUN
-tout à fait	tout à fait	PUNCT
-général	général	NOUN
+tout à fait	tout à fait	ADV
+général	général	ADJ
 ,	,	PUNCTclause
 Denis	Denis	PROPN
 de	de	ADP
@@ -363,7 +363,7 @@ l'	le	DET
 occupation	occupation	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -401,7 +401,7 @@ gens	gens	NOUN
 pour	pour	ADP
 arguer	arguer	VERB
 ,	,	PUNCTclause
-à l'époque	à l'époque	DET
+à l'époque	à l'époque	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 il	il	PRON
@@ -452,7 +452,7 @@ non plus que	non plus que	ADP
 ils	ils	PRON
 aient	avoir	AUX
 gagné	gagner	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 ,	,	PUNCTclause
 hors de	hors de	ADP
 une	un	DET
@@ -510,7 +510,7 @@ la	le	DET
 violence	violence	NOUN
 se	se	PRON
 justifie	justifier	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 «	«	PUNCTclause
 réaction	réaction	NOUN
 à	à	ADP
@@ -559,8 +559,8 @@ en	en	ADP
 bonne	bon	ADJ
 partie	partie	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
-tout le monde	tout le monde	NOUN
+alors que	alors que	SCONJ
+tout le monde	tout le monde	PRON
 se	se	PRON
 retourne	retourner	VERB
 contre	contre	ADP
@@ -709,7 +709,7 @@ nouveau	nouveau	ADJ
 à	à	ADP
 instituer	instituer	VERB
 .	.	PUNCTsent
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 l'on	on	PRON
 pourrait	pouvoir	VERB
@@ -846,7 +846,7 @@ une	un	DET
 effusion	effusion	NOUN
 festive	festif	ADJ
 .	.	PUNCTsent
-cela étant	cela étant	PRON
+cela étant	cela étant	ADV
 l'on	on	PRON
 peut	pouvoir	VERB
 se	se	PRON
@@ -884,7 +884,7 @@ des	un	DET
 traces	trace	NOUN
 profondes	profond	ADJ
 .	.	PUNCTsent
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 il	il	PRON
 me	me	PRON
@@ -892,8 +892,8 @@ semble	sembler	VERB
 que	que	SCONJ
 on	on	PRON
 a	avoir	AUX
-un peu	un peu	DET
-gommé	gommé	ADJ
+un peu	un peu	ADV
+gommé	gommer	VERB
 le	le	DET
 fait	fait	NOUN
 que	que	SCONJ
@@ -924,7 +924,7 @@ intéressant	intéressant	ADJ
 de	de	ADP
 étudier	étudier	VERB
 ,	,	PUNCTclause
-sous peu	sous peu	NOUN
+sous peu	sous peu	ADV
 ,	,	PUNCTclause
 le	le	DET
 contenu	contenu	NOUN
@@ -986,7 +986,7 @@ pas	pas	ADV
 ,	,	PUNCTclause
 non plus	non plus	ADV
 ,	,	PUNCTclause
-faire preuve	faire preuve	DET
+faire preuve	faire preuve	VERB
 de	de	ADP
 hypocrisie	hypocrisie	NOUN
 :	:	PUNCTclause
@@ -1138,7 +1138,7 @@ les	le	DET
 activistes	activiste	NOUN
 ne	ne	ADV
 faisant	faire	VERB
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 que	que	SCONJ
 pousser	pousser	VERB
 à	à	ADP
@@ -1297,7 +1297,7 @@ ne	ne	ADV
 aient	avoir	VERB
 pas	pas	ADV
 suscité	susciter	VERB
-plus de	plus de	ADP
+plus de	plus de	DET
 actes	acte	NOUN
 de	de	ADP
 terrorisme	terrorisme	NOUN
@@ -1319,7 +1319,7 @@ a	avoir	AUX
 guère	guère	ADV
 de	de	ADP
 informations	information	NOUN
-à ce sujet	à ce sujet	PUNCT
+à ce sujet	à ce sujet	ADV
 .	.	PUNCTsent
 pourtant	pourtant	ADV
 ,	,	PUNCTclause
@@ -1379,7 +1379,7 @@ expérience	expérience	NOUN
 ↵↵	↵↵	PUNCTstruct
 revenons	revenir	VERB
 en	en	ADP
-au fond	au fond	NOUN
+au fond	au fond	ADV
 du	du	ADP_DET
 problème	problème	NOUN
 :	:	PUNCTclause
@@ -1401,18 +1401,18 @@ société	société	NOUN
 ↵↵	↵↵	PUNCTstruct
 oui	oui	INTJ
 ,	,	PUNCTclause
-de toute évidence	de toute évidence	DET
+de toute évidence	de toute évidence	ADV
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 cette	ce	DET
 société	société	NOUN
 ne	ne	ADV
 a	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 finalité	finalité	NOUN
 avouable	avouable	ADJ
 ,	,	PUNCTclause
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 impératifs	impératif	ADJ
 du	du	ADP_DET
 profit	profit	NOUN
@@ -1455,7 +1455,7 @@ plus	plus	ADV
 responsables	responsable	ADJ
 et	et	CCONJ
 ,	,	PUNCTclause
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 se	se	PRON
@@ -1486,13 +1486,13 @@ est	est	NOUN
 directement	directement	ADV
 proportionnelle	proportionnel	ADJ
 au	au	ADP_DET
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 étages	étage	NOUN
 des	un	ADP_DET
 tours	tour	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à ce propos	à ce propos	DET
+à ce propos	à ce propos	ADV
 ,	,	PUNCTclause
 vous	vous	PRON
 établissez	établir	VERB
@@ -1738,7 +1738,7 @@ Superphénix	Superphénix	PROPN
 ,	,	PUNCTclause
 revenant	revenir	VERB
 à	à	ADP
-couper court	couper court	NOUN
+couper court	couper court	VERB
 à	à	ADP
 tout	tout	ADJ
 débat	débat	NOUN
@@ -1945,7 +1945,7 @@ part	part	NOUN
 des	un	ADP_DET
 états	état	NOUN
 .	.	PUNCTsent
-tout au contraire	tout au contraire	ADJ
+tout au contraire	tout au contraire	ADV
 ,	,	PUNCTclause
 il	il	PRON
 se	se	PRON
@@ -2058,10 +2058,10 @@ ne	ne	ADV
 est	être	AUX
 jamais	jamais	ADV
 ,	,	PUNCTclause
-à l'abri de	à l'abri de	DET
+à l'abri de	à l'abri de	ADP
 pressions	pression	NOUN
 de	de	ADP
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 état	état	NOUN
 ,	,	PUNCTclause
 par	par	ADP

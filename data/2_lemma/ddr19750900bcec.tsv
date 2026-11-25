@@ -30,7 +30,7 @@ est	être	AUX
 que	que	SCONJ
 l'	le	DET
 objet	objet	NOUN
-en question	en question	PRON
+en question	en question	ADJ
 semble	sembler	VERB
 avoir	avoir	AUX
 fait	faire	VERB
@@ -97,7 +97,7 @@ de	de	ADP
 sa	son	DET
 réalité	réalité	NOUN
 .	.	PUNCTsent
-le second	le second	DET
+le second	le second	PRON
 cas	cas	NOUN
 est	être	AUX
 évidemment	évidemment	ADV
@@ -110,11 +110,11 @@ problème	problème	NOUN
 régional	régional	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 est	être	AUX
 discuté	discuter	VERB
-en public	en public	NOUN
+en public	en public	ADV
 ,	,	PUNCTclause
 le	le	DET
 problème	problème	NOUN
@@ -350,8 +350,8 @@ croire	croire	VERB
 que	que	SCONJ
 les	le	DET
 raisons	raison	NOUN
-de fait	de fait	ADP
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 régions	région	NOUN
 sont	être	AUX
 bien	bien	ADV
@@ -379,7 +379,7 @@ l'	le	DET
 analyse	analyse	NOUN
 scientifique	scientifique	ADJ
 .	.	PUNCTsent
-eh bien	eh bien	ADP
+eh bien	eh bien	INTJ
 non	non	ADV
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -483,7 +483,7 @@ notre	notre	DET
 volonté	volonté	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 telles	tel	DET
 seulement	seulement	ADV
 ,	,	PUNCTclause
@@ -993,7 +993,7 @@ la	le	DET
 région	région	NOUN
 .	.	PUNCTsent
 A.	A.	PROPN
-la première	la première	PUNCT
+la première	la première	PRON
 réponse	réponse	NOUN
 possible	possible	ADJ
 à	à	ADP
@@ -1112,7 +1112,7 @@ Trieste	Trieste	PROPN
 et	et	CCONJ
 cela	cela	PRON
 tient	tenir	VERB
-au fait	au fait	PUNCT
+au fait	au fait	ADV
 que	que	SCONJ
 les	le	DET
 données	donnée	NOUN
@@ -1676,7 +1676,7 @@ frontière	frontière	NOUN
 dont	dont	PRON
 on	on	PRON
 voit	voir	VERB
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 la	le	DET
 raison	raison	NOUN
 et	et	CCONJ
@@ -1737,8 +1737,8 @@ est	être	AUX
 venu	venir	VERB
 à	à	ADP
 constituer	constituer	VERB
-la première	la première	DET
-commission	commission	NOUN
+la première	la première	PRON
+commission	commission	PRON
 régionale	régional	ADJ
 transfrontalière	transfrontalier	ADJ
 reconnue	reconnaître	VERB
@@ -1794,7 +1794,7 @@ la	le	DET
 formation	formation	NOUN
 professionnelle	professionnel	ADJ
 ,	,	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 d'autres	d'autre	PRON
 élargissements	élargissement	PRON
 qui	qui	PRON
@@ -1929,7 +1929,7 @@ avant	avant	ADP
 le	le	DET
 point de non-retour	point de non-retour	NOUN
 .	.	PUNCTsent
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 considérations	considération	NOUN
 valent	valoir	VERB
 pour	pour	ADP
@@ -2133,7 +2133,7 @@ mobilité	mobilité	NOUN
 des	un	ADP_DET
 étudiants	étudiant	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 égale	égal	ADJ
 en	en	ADP
@@ -2142,7 +2142,7 @@ droit	droit	NOUN
 se	se	PRON
 voit	voir	VERB
 limitée	limité	ADJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 par	par	ADP
 l'	le	DET
 absence	absence	NOUN
@@ -2194,7 +2194,7 @@ région	région	NOUN
 lémano-alpine	lémano-alpine	ADJ
 (	(	PUNCTclause
 16	16	NUM
-pour le moment	pour le moment	PUNCT
+pour le moment	pour le moment	ADV
 ,	,	PUNCTclause
 en	en	ADP
 prolongeant	prolonger	VERB
@@ -2587,7 +2587,7 @@ tuer	tuer	VERB
 32000	32000	NUM
 fois	fois	NOUN
 chaque	chaque	DET
-être humain	être humain	ADV
+être humain	être humain	NOUN
 vivant	vivant	ADJ
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
@@ -2733,7 +2733,7 @@ géographiques	géographique	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 établies	établir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 aux	au	ADP_DET
 hasards	hasard	NOUN
 des	un	ADP_DET
@@ -2755,7 +2755,7 @@ responsabilité	responsabilité	NOUN
 après	après	ADP
 deux	deux	NUM
 siècles	siècle	NOUN
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 absolu	absolu	ADJ
 sur	sur	ADP
 la	le	DET
@@ -3241,7 +3241,7 @@ de	de	ADP
 animer	animer	VERB
 des	un	DET
 régions	région	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 unités	unité	NOUN
 de	de	ADP
 base	base	NOUN
@@ -3352,7 +3352,7 @@ social	social	ADJ
 ,	,	PUNCTclause
 moral	moral	ADJ
 et	et	CCONJ
-en dernière analyse	en dernière analyse	DET
+en dernière analyse	en dernière analyse	ADV
 ,	,	PUNCTclause
 spirituel	spirituel	ADJ
 .	.	PUNCTsent
@@ -3443,7 +3443,7 @@ de	de	ADP
 la	le	DET
 crise	crise	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'	le	DET
 obsession	obsession	NOUN
 de	de	ADP
@@ -3668,7 +3668,7 @@ existentiellement	existentiellement	ADV
 ,	,	PUNCTclause
 concrètement	concrètement	ADV
 ,	,	PUNCTclause
-au fait	au fait	ADP_DET
+au fait	au fait	ADV
 et	et	CCONJ
 au	au	ADP_DET
 prendre	prendre	VERB
@@ -3737,7 +3737,7 @@ a	avoir	AUX
 raison	raison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 refaire	refaire	VERB
 une	un	DET
 communauté	communauté	NOUN
@@ -3849,7 +3849,7 @@ de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 même	même	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 animal	animal	NOUN
 politique	politique	ADJ
 à la fois	à la fois	ADV
@@ -3858,7 +3858,7 @@ et	et	CCONJ
 relié	relier	VERB
 —	—	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 personne	personne	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

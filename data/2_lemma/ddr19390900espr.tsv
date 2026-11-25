@@ -53,7 +53,7 @@ dialogue	dialogue	NOUN
 .	.	PUNCTsent
 je	je	PRON
 ai	avoir	AUX
-d'autant moins	d'autant moins	DET
+d'autant moins	d'autant moins	ADV
 envie	envie	NOUN
 de	de	ADP
 me	me	PRON
@@ -83,8 +83,8 @@ critiquez	critiquer	VERB
 dans	dans	ADP
 un	un	DET
 rapport	rapport	NOUN
-quelque peu	quelque peu	ADP_DET
-équivoque	équivoque	NOUN
+quelque peu	quelque peu	ADV
+équivoque	équivoque	ADJ
 ,	,	PUNCTclause
 que	que	SCONJ
 il	il	PRON
@@ -308,7 +308,7 @@ il	il	PRON
 faut	falloir	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 renseignements	renseignement	NOUN
 fixes	fixe	ADJ
 et	et	CCONJ
@@ -395,7 +395,7 @@ de	de	ADP
 copie	copie	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-ceci dit	ceci dit	PRON
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -407,7 +407,7 @@ exact	exact	ADJ
 non plus	non plus	ADV
 de	de	ADP
 appliquer	appliquer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 critères	critère	NOUN
 à	à	ADP
 ce	ce	DET
@@ -421,7 +421,7 @@ ordre	ordre	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-à savoir	à savoir	VERB
+à savoir	à savoir	ADV
 :	:	PUNCTclause
 le	le	DET
 sens	sens	NOUN
@@ -485,7 +485,7 @@ du	du	ADP_DET
 mien	mien	PRON
 .	.	PUNCTsent
 car	car	CCONJ
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -656,7 +656,7 @@ que	que	PRON
 elle	elle	PRON
 authentifie	authentifier	VERB
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 érudition	érudition	NOUN
 et	et	CCONJ
 critique	critique	NOUN
@@ -674,7 +674,7 @@ le	le	DET
 refus	refus	NOUN
 de	de	ADP
 admettre	admettre	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 de	de	ADP
 ce	ce	DET
 genre	genre	NOUN
@@ -710,7 +710,7 @@ création	création	NOUN
 seul	seul	ADJ
 il	il	PRON
 est	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 la	le_PRON	PRON
 reconnaître	reconnaître	VERB
 là	là	ADV
@@ -733,7 +733,7 @@ présent	présent	NOUN
 .	.	PUNCTsent
 croyez	croire	VERB
 bien que	bien que	SCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 interprète	interprète	NOUN
 et	et	CCONJ
 théologien	théologien	NOUN
@@ -763,14 +763,14 @@ la mienne	la mienne	PRON
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 que	que	SCONJ
 nous	nous	PRON
 pouvons	pouvoir	VERB
 dialoguer	dialoguer	VERB
 .	.	PUNCTsent
 car	car	CCONJ
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
 pouvons	pouvoir	VERB
@@ -941,7 +941,7 @@ description	description	NOUN
 si	si	ADV
 enthousiaste	enthousiaste	ADJ
 que	que	SCONJ
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 ,	,	PUNCTclause
 la	le	DET
 conception	conception	NOUN
@@ -952,7 +952,7 @@ lui	lui	PRON
 oppose	opposer	VERB
 «	«	PUNCTclause
 paraît	paraître	VERB
-quelque peu	quelque peu	PUNCT
+quelque peu	quelque peu	ADV
 exsangue	exsangue	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -1013,7 +1013,7 @@ pas	pas	ADV
 rêvé	rêver	VERB
 (	(	PUNCTclause
 et	et	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 …	…	PUNCTsent
 )	)	PUNCTclause
@@ -1107,7 +1107,7 @@ ce	ce	PRON
 ne	ne	ADV
 était	être	AUX
 pas	pas	ADV
-trop de	trop de	PUNCT
+trop de	trop de	DET
 tout	tout	ADV
 un	un	DET
 pesant	pesant	ADJ
@@ -1259,7 +1259,7 @@ ma	mon	DET
 décision	décision	NOUN
 ,	,	PUNCTclause
 non	non	ADV
-telle ou telle	telle ou telle	ADJ
+telle ou telle	telle ou telle	DET
 hypothèse	hypothèse	NOUN
 «	«	PUNCTclause
 historique	historique	ADJ
@@ -1268,7 +1268,7 @@ que	que	SCONJ
 je	je	PRON
 suis	être	AUX
 tout	tout	ADV
-prêt à	prêt à	ADP
+prêt à	prêt à	ADJ
 réviser	réviser	VERB
 si	si	SCONJ
 il y a	il y a	VERB
@@ -1326,7 +1326,7 @@ l'	le	DET
 assumer	assumer	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
-eh bien	eh bien	ADP
+eh bien	eh bien	INTJ
 quoi	quoi	PRON
 ?	?	PUNCTsent
 nous	nous	PRON
@@ -1387,7 +1387,7 @@ et	et	CCONJ
 même	même	ADV
 dissonant	dissoner	VERB
 ,	,	PUNCTclause
-s'il le faut	s'il le faut	PRON
+s'il le faut	s'il le faut	ADV
 .	.	PUNCTsent
 dans	dans	ADP
 ma	mon	DET
@@ -1472,7 +1472,7 @@ me	me	PRON
 étranger	étranger	ADJ
 ;	;	PUNCTclause
 reste	rester	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 si	si	SCONJ
 je	je	PRON
 ai	avoir	VERB
@@ -1483,7 +1483,7 @@ en	en	ADP
 vanter	vanter	VERB
 ;	;	PUNCTclause
 reste	rester	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 si	si	SCONJ
 ce	ce	PRON
 ne	ne	ADV
@@ -1511,7 +1511,7 @@ peut	pouvoir	VERB
 nous	nous	PRON
 sauver	sauver	VERB
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 il	il	PRON
 sauvera	sauver	VERB
 ou	ou	CCONJ
@@ -1595,7 +1595,7 @@ de	de	ADP
 notre	notre	DET
 divergence	divergence	NOUN
 (	(	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 nos	nos	DET
 psychographes	psychographes	NOUN
 )	)	PUNCTclause
@@ -1658,7 +1658,7 @@ y	y	PRON
 a	avoir	VERB
 pas	pas	ADV
 seulement	seulement	ADV
-en cause	en cause	ADP
+en cause	en cause	ADJ
 une	un	DET
 certaine	certain	ADJ
 conception	conception	NOUN
@@ -1734,7 +1734,7 @@ placée	placer	VERB
 comme	comme	ADP
 cela	cela	PRON
 ,	,	PUNCTclause
-en conclusion	en conclusion	DET
+en conclusion	en conclusion	ADV
 de	de	ADP
 votre	votre	DET
 article	article	NOUN
@@ -1834,7 +1834,7 @@ de	de	ADP
 mon	mon	DET
 livre	livre	NOUN
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 amour	amour	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1863,7 +1863,7 @@ cœur	cœur	NOUN
 humain	humain	ADJ
 »	»	PUNCTclause
 —	—	PUNCTclause
-si vous voulez	si vous voulez	DET
+si vous voulez	si vous voulez	ADV
 …	…	PUNCTsent
 (	(	PUNCTclause
 mais	mais	CCONJ
@@ -1923,7 +1923,7 @@ ennoblissante	ennoblissante	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 le	le	DET
 désir	désir	NOUN
 est	être	AUX
@@ -2073,7 +2073,7 @@ livre	livre	NOUN
 me	me	PRON
 direz	dire	VERB
 vous	vous	PRON
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 vous	vous	PRON
 êtes	être	AUX
 «	«	PUNCTclause
@@ -2165,7 +2165,7 @@ adéquates	adéquat	ADJ
 ne	ne	ADV
 fasse	faire	VERB
 parfois	parfois	ADV
-perdre de vue	perdre de vue	PUNCT
+perdre de vue	perdre de vue	VERB
 «	«	PUNCTclause
 la	le	DET
 seule	seul	ADJ
@@ -2219,7 +2219,7 @@ la	le	DET
 fin	fin	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 cette	ce	DET
 réponse	réponse	NOUN
@@ -2413,7 +2413,7 @@ peut-être	peut-être	ADV
 au moins	au moins	ADV
 aussi	aussi	ADV
 sage	sage	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 confiance	confiance	NOUN
 à	à	ADP
 l'	le	DET

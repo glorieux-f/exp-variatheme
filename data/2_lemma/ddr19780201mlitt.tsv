@@ -88,7 +88,7 @@ quel	quel	DET
 sens	sens	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 nous	nous	PRON
 vivons	vivre	VERB
 dans	dans	ADP
@@ -141,7 +141,7 @@ nationale	national	ADJ
 ,	,	PUNCTclause
 etc.	etc.	NOUN
 ,	,	PUNCTclause
-autant de	autant de	ADP
+autant de	autant de	DET
 mythes	mythe	NOUN
 derrière	derrière	ADP
 lesquels	lesquels	PRON
@@ -236,7 +236,7 @@ aussi	aussi	ADV
 à	à	ADP
 les	le	DET
 contrôler	contrôler	VERB
-d'ici peu	d'ici peu	PUNCT
+d'ici peu	d'ici peu	ADV
 —	—	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -293,7 +293,7 @@ fait	fait	NOUN
 des	un	ADP_DET
 hommes	homme	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 est	être	AUX
 très	très	ADV
@@ -346,7 +346,7 @@ ce	ce	PRON
 est	être	AUX
 finalement	finalement	ADV
 toujours	toujours	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 jeu	jeu	NOUN
 :	:	PUNCTclause
 nous	nous	PRON
@@ -465,7 +465,7 @@ de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -688,7 +688,7 @@ totalitarismes	totalitarisme	NOUN
 dès que	dès que	SCONJ
 vous	vous	PRON
 cédez	céder	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 sur	sur	ADP
 la	le	DET
 personne	personne	NOUN
@@ -755,7 +755,7 @@ totalitaire	totalitaire	ADJ
 qui	qui	PRON
 voudrait	vouloir	VERB
 imposer	imposer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 règles	règle	NOUN
 pour	pour	ADP
 tous	tous	PRON
@@ -956,7 +956,7 @@ du	du	ADP_DET
 totalitarisme	totalitarisme	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en un sens	en un sens	NOUN
+en un sens	en un sens	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
@@ -1096,7 +1096,7 @@ moi	moi	PRON
 le	le	DET
 couple	couple	NOUN
 est	être	AUX
-la première	la première	DET
+la première	la première	PRON
 cellule	cellule	NOUN
 de	de	ADP
 ce	ce	DET
@@ -1141,7 +1141,7 @@ l'	le	DET
 amour-passion	amour-passion	NOUN
 nous	nous	PRON
 conditionne	conditionner	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 de	de	ADP
 ne	ne	ADV
 être	être	AUX
@@ -1150,7 +1150,7 @@ capable	capable	ADJ
 de	de	ADP
 aimer	aimer	VERB
 l'autre	l'autre	PRON
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 autre	autre	PRON
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -1175,7 +1175,7 @@ libre	libre	ADJ
 l'	le	DET
 état	état	NOUN
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 est	être	AUX
 comparable	comparable	ADJ
@@ -1220,7 +1220,7 @@ affaire	affaire	NOUN
 »	»	PUNCTclause
 et	et	CCONJ
 que	que	PRON
-trop de	trop de	PUNCT
+trop de	trop de	DET
 facteurs	facteur	NOUN
 interviennent	intervenir	VERB
 pour que	pour que	SCONJ
@@ -1327,8 +1327,8 @@ ne	ne	ADV
 voulait	vouloir	VERB
 ,	,	PUNCTclause
 est	être	AUX
-à l'heure actuelle	à l'heure actuelle	ADP
-la première	la première	DET
+à l'heure actuelle	à l'heure actuelle	ADV
+la première	la première	PRON
 industrie	industrie	NOUN
 mondiale	mondial	ADJ
 .	.	PUNCTsent
@@ -1409,7 +1409,7 @@ guerre	guerre	NOUN
 du	du	ADP_DET
 Kippour	Kippour	PROPN
 est	être	AUX
-pour ainsi dire	pour ainsi dire	ADP
+pour ainsi dire	pour ainsi dire	ADV
 née	naître	VERB
 du	du	ADP_DET
 croisement	croisement	NOUN
@@ -1508,9 +1508,9 @@ que	que	PRON
 ils	ils	PRON
 ont	avoir	AUX
 agi	agir	VERB
-en conséquence	en conséquence	DET
+en conséquence	en conséquence	ADV
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 gouvernements	gouvernement	NOUN
 Europe	Europe	PROPN
@@ -1563,11 +1563,11 @@ puisse	pouvoir	VERB
 prévu	prévoir	VERB
 scientifiquement	scientifiquement	ADV
 .	.	PUNCTsent
-trop de	trop de	ADP
+trop de	trop de	DET
 facteurs	facteur	NOUN
 entrent	entrer	VERB
 effectivement	effectivement	ADV
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 qui	qui	PRON
 ne	ne	ADV
 sont	être	AUX
@@ -2008,7 +2008,7 @@ seulement	seulement	ADV
 dans	dans	ADP
 les miens	les miens	PRON
 —	—	PUNCTclause
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 les	le	DET
 États-Unis	États-Unis	PROPN
 de	de	ADP
@@ -2131,7 +2131,7 @@ pas	pas	ADV
 encore	encore	ADV
 su	savoir	VERB
 faire	faire	AUX
-à temps	à temps	DET
+à temps	à temps	ADV
 ,	,	PUNCTclause
 en attendant de	en attendant de	ADP
 lui	lui	PRON
@@ -2145,7 +2145,7 @@ facilités	facilité	NOUN
 de	de	ADP
 garanties	garantie	NOUN
 …	…	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 pour	pour	ADP
 nous	nous	PRON
 redonner	redonner	VERB
@@ -2379,7 +2379,7 @@ de	de	ADP
 communauté	communauté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à l'heure actuelle	à l'heure actuelle	PRON
+à l'heure actuelle	à l'heure actuelle	ADV
 ,	,	PUNCTclause
 face à	face à	ADP
 ce	ce	DET
@@ -2391,15 +2391,15 @@ conduisant	conduire	VERB
 à	à	ADP
 ce	ce	DET
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 fasse	faire	VERB
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
 traité	traiter	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 et	et	CCONJ
 au même moment	au même moment	ADV

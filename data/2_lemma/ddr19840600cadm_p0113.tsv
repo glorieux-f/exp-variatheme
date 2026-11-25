@@ -55,12 +55,12 @@ manière	manière	NOUN
 exemplaire	exemplaire	ADJ
 une	un	DET
 situation	situation	NOUN
-ni plus ni moins	ni plus ni moins	ADP
-complexe	complexe	NOUN
-en fait	en fait	PUNCT
+ni plus ni moins	ni plus ni moins	ADV
+complexe	complexe	ADJ
+en fait	en fait	ADV
 que	que	SCONJ
 dans	dans	ADP
-n'importe quels	n'importe quels	ADJ
+n'importe quels	n'importe quels	DET
 pays	pays	NOUN
 des	un	ADP_DET
 Dix	Dix	PROPN
@@ -115,7 +115,7 @@ ses	son	DET
 compatriotes	compatriote	NOUN
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
-au début	au début	ADP_DET
+au début	au début	ADV
 de	de	ADP
 février	février	NOUN
 de	de	ADP
@@ -265,7 +265,7 @@ du	du	ADP_DET
 scrutin	scrutin	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-à savoir	à savoir	DET
+à savoir	à savoir	ADV
 :	:	PUNCTclause
 jusque	jusque	ADP
 où	où	PRON
@@ -361,7 +361,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 le	le	DET
@@ -369,7 +369,7 @@ vrai	vrai	ADJ
 problème	problème	NOUN
 se	se	PRON
 réduit	réduire	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 si	si	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
@@ -528,8 +528,8 @@ mai	mai	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-pour peu que	pour peu que	PUNCT
-Lionel	Lionel	NOUN
+pour peu que	pour peu que	SCONJ
+Lionel	Lionel	PROPN
 Jospin	Jospin	PROPN
 ironise	ironiser	VERB
 sur	sur	ADP
@@ -655,7 +655,7 @@ semble	sembler	VERB
 avoir	avoir	AUX
 imaginé	imaginer	VERB
 que	que	SCONJ
-si l'on veut	si l'on veut	PRON
+si l'on veut	si l'on veut	ADV
 que	que	PRON
 chacun	chacun	PRON
 de	de	ADP
@@ -940,7 +940,7 @@ de	de	ADP
 livres	livre	NOUN
 ,	,	PUNCTclause
 «	«	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 le	le	DET
 Labour	Labour	PROPN
 ne	ne	ADV
@@ -1016,7 +1016,7 @@ engagement	engagement	NOUN
 du	du	ADP_DET
 parti	parti	NOUN
 conservateur	conservateur	ADJ
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 communauté	communauté	NOUN
 est	être	AUX
@@ -1244,7 +1244,7 @@ Europe	Europe	PROPN
 en	en	ADP
 Italie	Italie	PROPN
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 en	en	ADP
 France	France	PROPN
 (	(	PUNCTclause
@@ -1416,7 +1416,7 @@ de	de	ADP
 la	le	DET
 		TOKEN
 identifie	identifier	VERB
-par la force des choses	par la force des choses	PUNCT
+par la force des choses	par la force des choses	ADV
 cet	ce	DET
 aspect	aspect	NOUN
 national	national	ADJ
@@ -1484,7 +1484,7 @@ de	de	ADP
 l'	le	DET
 ouest	ouest	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 état-nation	État-nation	NOUN
 chargé	charger	VERB
 désormais	désormais	ADV
@@ -1669,7 +1669,7 @@ surtout	surtout	ADV
 ,	,	PUNCTclause
 pourront	pouvoir	VERB
 réunir	réunir	VERB
-à temps	à temps	ADP
+à temps	à temps	ADV
 les	le	DET
 fonds	fond	NOUN
 nécessaires	nécessaire	ADJ
@@ -1723,7 +1723,7 @@ opposition	opposition	NOUN
 ,	,	PUNCTclause
 déclarée	déclarer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 termes	terme	NOUN
 ,	,	PUNCTclause
 aux	au	ADP_DET
@@ -1843,7 +1843,7 @@ fédérale	fédéral	ADJ
 pour	pour	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
-il va sans dire	il va sans dire	PRON
+il va sans dire	il va sans dire	ADV
 que	que	SCONJ
 «	«	PUNCTclause
 la	le	DET
@@ -1852,7 +1852,7 @@ Europe	Europe	PROPN
 devra	devoir	VERB
 se	se	PRON
 accompagner	accompagner	VERB
-à terme	à terme	ADP
+à terme	à terme	ADV
 de	de	ADP
 une	un	DET
 revendication	revendication	NOUN
@@ -2123,7 +2123,7 @@ dans	dans	ADP
 un	un	DET
 tract	tract	NOUN
 diffusé	diffuser	VERB
-au début	au début	PUNCT
+au début	au début	ADV
 de	de	ADP
 mars	mars	NOUN
 :	:	PUNCTclause
@@ -2342,7 +2342,7 @@ occurrence	occurrence	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 baptiser	baptiser	VERB
-la première	la première	PUNCT
+la première	la première	PRON
 interrégionale	interrégional	ADJ
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -2389,7 +2389,7 @@ sein	sein	NOUN
 des	un	ADP_DET
 communisme	communisme	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 écologistes	écologiste	NOUN
 ouest-allemands	ouest-allemands	PUNCT
@@ -2564,7 +2564,7 @@ sociale	social	ADJ
 pour	pour	ADP
 une	un	DET
 agriculture	agriculture	NOUN
-en équilibre	en équilibre	PUNCT
+en équilibre	en équilibre	ADJ
 avec	avec	ADP
 la	le	DET
 nature	nature	NOUN
@@ -2670,7 +2670,7 @@ ses	son	DET
 propositions	proposition	NOUN
 sont	être	AUX
 «	«	PUNCTclause
-par nature	par nature	SYM
+par nature	par nature	ADV
 et	et	CCONJ
 par définition	par définition	ADV
 ,	,	PUNCTclause
@@ -2729,7 +2729,7 @@ la	le	DET
 répartition	répartition	NOUN
 des	un	ADP_DET
 pouvoirs	pouvoir	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 communautés	communauté	NOUN
 territoriales	territorial	ADJ
 et	et	CCONJ
@@ -3030,7 +3030,7 @@ l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 semble	sembler	VERB
 avoir	avoir	AUX
 oublié	oublier	VERB
@@ -3260,7 +3260,7 @@ Europe	Europe	PROPN
 2	2	NUM
 1984	1984	NUM
 )	)	PUNCTclause
-au lendemain de	au lendemain de	PUNCT
+au lendemain de	au lendemain de	ADP
 l'	le	DET
 échec	échec	NOUN
 de	de	ADP
@@ -3503,7 +3503,7 @@ le	le	DET
 principe	principe	NOUN
 des	un	ADP_DET
 votes	vote	NOUN
-à l'unanimité	à l'unanimité	PUNCT
+à l'unanimité	à l'unanimité	ADV
 ,	,	PUNCTclause
 principe	principe	NOUN
 que	que	SCONJ

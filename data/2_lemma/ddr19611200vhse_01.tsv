@@ -121,9 +121,9 @@ cette	ce	DET
 époque	époque	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 témoins	témoin	NOUN
-des	un	ADP_DET
+des	un	DET
 origines	origine	NOUN
 de	de	ADP
 notre	notre	DET
@@ -145,8 +145,8 @@ l'	le	DET
 histoire	histoire	NOUN
 ;	;	PUNCTclause
 soit	soit	ADV
-en tant que	en tant que	CCONJ
-précurseurs	précurseur	ADJ
+en tant que	en tant que	ADP
+précurseurs	précurseur	NOUN
 ou	ou	CCONJ
 champions	champion	NOUN
 des	un	ADP_DET
@@ -162,7 +162,7 @@ yeux	œil	NOUN
 ,	,	PUNCTclause
 commencent	commencer	VERB
 à	à	ADP
-prendre corps	prendre corps	NOUN
+prendre corps	prendre corps	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -173,7 +173,7 @@ qui	qui	PRON
 va	aller	VERB
 du	du	ADP_DET
 Mythe	Mythe	PROPN
-au fait	au fait	PUNCT
+au fait	au fait	ADV
 en passant	en passant	ADV
 par	par	ADP
 les	le	DET
@@ -313,7 +313,7 @@ universelle	universel	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ,	,	PUNCTclause
-de fait	de fait	DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 universalisante	universalisante	ADJ
 .	.	PUNCTsent
@@ -464,8 +464,8 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 bien	bien	ADV
-moins de	moins de	PUNCT
-la	le	DET
+moins de	moins de	DET
+la	le_PRON	PRON
 délimiter	délimiter	VERB
 dans	dans	ADP
 le	le	DET
@@ -579,7 +579,7 @@ culture	culture	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 eut	avoir	VERB
-la première	la première	DET
+la première	la première	PRON
 idée	idée	NOUN
 de	de	ADP
 cette	ce	DET

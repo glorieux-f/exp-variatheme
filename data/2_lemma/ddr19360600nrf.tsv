@@ -22,8 +22,8 @@ Kierkegaard	Kierkegaard	PROPN
 en	en	ADP
 France	France	PROPN
 a	avoir	AUX
-les mêmes	les mêmes	DET
-dates	date	NOUN
+les mêmes	les mêmes	PRON
+dates	dater	VERB
 que	que	SCONJ
 la	le	DET
 crise	crise	NOUN
@@ -188,7 +188,7 @@ langue	langue	NOUN
 des	un	ADP_DET
 traductions	traduction	NOUN
 ,	,	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 il y a	il y a	VERB
 beaucoup	beaucoup	ADV
 à	à	ADP
@@ -229,7 +229,7 @@ un	un	DET
 auteur	auteur	NOUN
 qui	qui	PRON
 attache	attacher	VERB
-autant de	autant de	ADP
+autant de	autant de	DET
 importance	importance	NOUN
 à	à	ADP
 l'	le	DET
@@ -407,7 +407,7 @@ de	de	ADP
 fidélité	fidélité	NOUN
 essentielle	essentiel	ADJ
 ,	,	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 de	de	ADP
 finalité	finalité	NOUN
@@ -418,7 +418,7 @@ résultent	résulter	VERB
 nécessairement	nécessairement	ADV
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 malentendus	malentendu	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -861,7 +861,7 @@ foi	foi	NOUN
 certains	certain	PRON
 pensent	penser	VERB
 que	que	SCONJ
-au fond	au fond	PUNCT
+au fond	au fond	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -969,7 +969,7 @@ apparaîtraient	apparaître	VERB
 encore	encore	ADV
 plus	plus	ADV
 fortes	fort	ADJ
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON
@@ -991,7 +991,7 @@ Kierkegaard	Kierkegaard	PROPN
 ?	?	PUNCTsent
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
-à la limite	à la limite	PROPN
+à la limite	à la limite	ADV
 ,	,	PUNCTclause
 le	le	DET
 martyre	martyr	NOUN
@@ -1004,7 +1004,7 @@ sa	son	DET
 foi	foi	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 il	il	PRON
 se	se	PRON
 en	en	ADP
@@ -1050,7 +1050,7 @@ spirituelle	spirituel	ADJ
 l'	le	DET
 amère	amer	ADJ
 passion	passion	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 mourir	mourir	VERB
 un	un	DET
 témoin	témoin	NOUN
@@ -1181,7 +1181,7 @@ tu	tu	PRON
 restes	rester	VERB
 animé	animer	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 décision	décision	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1379,7 +1379,7 @@ petite	petit	ADJ
 ferme	ferme	NOUN
 ,	,	PUNCTclause
 tout	tout	DET
-au fond	au fond	NOUN
+au fond	au fond	ADV
 du	du	ADP_DET
 bocage	bocage	NOUN
 vendéen	vendéen	ADJ
@@ -1406,7 +1406,7 @@ ne	ne	ADV
 peut	pouvoir	VERB
 être	être	AUX
 que	que	SCONJ
-à contre-courant	à contre-courant	PUNCT
+à contre-courant	à contre-courant	ADV
 du	du	ADP_DET
 snobisme	snobisme	NOUN
 qui	qui	PRON
@@ -1643,7 +1643,7 @@ en	en	ADP
 reviennent	revenir	VERB
 tous	tout	ADJ
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 question	question	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1662,7 +1662,7 @@ de	de	ADP
 la	le	DET
 vérité	vérité	NOUN
 .	.	PUNCTsent
-du point de vue de	du point de vue de	DET
+du point de vue de	du point de vue de	ADP
 sérieux	sérieux	ADJ
 humain	humain	NOUN
 ,	,	PUNCTclause
@@ -1711,7 +1711,7 @@ humains	humain	ADJ
 en	en	ADP
 les	le	DET
 poussant	pousser	VERB
-à la limite	à la limite	PUNCT
+à la limite	à la limite	ADV
 où	où	PRON
 se	se	PRON
 révèle	révéler	VERB
@@ -1727,11 +1727,11 @@ l'	le	DET
 vérité	vérité	NOUN
 ne	ne	ADV
 est	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 une	un	DET
 grandiose	grandiose	ADJ
 ironie	ironie	NOUN
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 elle	elle	PRON
 ne	ne	ADV
 est	être	AUX
@@ -1786,7 +1786,7 @@ lui-même	lui-même	PRON
 la	le	DET
 vérité	vérité	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 acte	acte	NOUN
 de	de	ADP
@@ -1931,7 +1931,7 @@ dans	dans	ADP
 ma	mon	DET
 vie	vie	NOUN
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -2208,7 +2208,7 @@ et	et	CCONJ
 sérieuse	sérieux	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 fallait	falloir	VERB
 la	le	DET
@@ -2254,7 +2254,7 @@ communion	communion	NOUN
 je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 que	que	SCONJ
 un	un	DET
 seul	seul	ADJ
@@ -2295,7 +2295,7 @@ mais	mais	CCONJ
 peut	pouvoir	VERB
 on	on	PRON
 publier	publier	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 ce	ce	DET
 reste	reste	NOUN

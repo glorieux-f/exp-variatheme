@@ -120,7 +120,7 @@ noir	noir	NOUN
 éternel	éternel	ADJ
 ;	;	PUNCTclause
 en ce moment	en ce moment	ADV
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 crise	crise	NOUN
 majeure	majeur	ADJ
@@ -268,7 +268,7 @@ de	de	ADP
 être	être	AUX
 responsable	responsable	ADJ
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 il	il	PRON
 va	aller	VERB
 de	de	ADP
@@ -306,7 +306,7 @@ aura	avoir	VERB
 plus de	plus de	DET
 avenir	avenir	NOUN
 humain	humain	ADJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 cataclysme	cataclysme	NOUN
 inévitable	inévitable	ADJ
 que	que	PRON
@@ -500,8 +500,8 @@ la	le	DET
 civilisation	civilisation	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-le premier	le premier	DET
-dialogue	dialogue	NOUN
+le premier	le premier	PRON
+dialogue	dialoguer	VERB
 entre	entre	ADP
 l'	le	DET
 homme	homme	NOUN
@@ -545,7 +545,7 @@ autre	autre	ADJ
 ,	,	PUNCTclause
 toujours	toujours	ADV
 vaincus	vaincu	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 individus	individu	NOUN
 rebelles	rebelle	ADJ
 par	par	ADP
@@ -600,7 +600,7 @@ millénaires	millénaire	NOUN
 de	de	ADP
 un	un	DET
 effort	effort	NOUN
-sans relâche	sans relâche	ADJ
+sans relâche	sans relâche	ADV
 pour	pour	ADP
 se	se	PRON
 adapter	adapter	VERB
@@ -670,8 +670,8 @@ est	être	AUX
 ,	,	PUNCTclause
 en effet	en effet	ADV
 ,	,	PUNCTclause
-le premier	le premier	DET
-moyen	moyen	NOUN
+le premier	le premier	PRON
+moyen	moyen	ADJ
 de	de	ADP
 commander	commander	VERB
 à	à	ADP
@@ -757,7 +757,7 @@ refusons	refuser	VERB
 encore	encore	ADV
 de	de	ADP
 chercher	chercher	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 ,	,	PUNCTclause
 en dépit de	en dépit de	ADP
 objurgations	objurgation	NOUN
@@ -907,8 +907,8 @@ phénomènes	phénomène	NOUN
 convergents	convergent	ADJ
 que	que	PRON
 évoque	évoquer	VERB
-la première	la première	DET
-phrase	phrase	NOUN
+la première	la première	PRON
+phrase	phraser	VERB
 de	de	ADP
 ce	ce	DET
 livre	livre	NOUN
@@ -1237,7 +1237,7 @@ déclaré	déclarer	VERB
 toutes les fois que	toutes les fois que	SCONJ
 les	le	DET
 contradictions	contradiction	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 entre	entre	ADP
 deux	deux	NUM
 ensembles	ensemble	NOUN
@@ -1327,7 +1327,7 @@ secteur	secteur	NOUN
 une	un	DET
 nation	nation	NOUN
 ,	,	PUNCTclause
-au pire	au pire	ADP
+au pire	au pire	ADV
 un	un	DET
 continent	continent	NOUN
 ,	,	PUNCTclause
@@ -1352,7 +1352,7 @@ est	être	AUX
 proprement	proprement	ADV
 universel	universel	ADJ
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 chaque	chaque	DET
 crise	crise	NOUN
@@ -1391,7 +1391,7 @@ bien	bien	ADV
 ;	;	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
-tant que	tant que	PRON
+tant que	tant que	SCONJ
 leur	leur	DET
 cercle	cercle	NOUN
 vicieux	vicieux	ADJ
@@ -1417,7 +1417,7 @@ de	de	ADP
 crise	crise	NOUN
 qui	qui	PRON
 sont	être	AUX
-en jeu	en jeu	SYM
+en jeu	en jeu	ADJ
 dans	dans	ADP
 le	le	DET
 monde	monde	NOUN

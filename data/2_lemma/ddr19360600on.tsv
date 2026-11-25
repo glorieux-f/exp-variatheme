@@ -21,7 +21,7 @@ juin	juin	NOUN
 la	le	DET
 politique	politique	NOUN
 est	être	AUX
-en principe	en principe	ADP
+en principe	en principe	ADV
 ce	ce	PRON
 qui	qui	PRON
 intéresse	intéresser	VERB
@@ -238,7 +238,7 @@ doit	devoir	VERB
 être	être	AUX
 un	un	DET
 citoyen	citoyen	NOUN
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 les	le	DET
 autres	autre	ADJ
 ,	,	PUNCTclause
@@ -337,7 +337,7 @@ est	être	AUX
 conçue	concevoir	VERB
 et	et	CCONJ
 pratiquée	pratiquer	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 est	être	AUX
 une	un	DET
@@ -446,7 +446,7 @@ soit	être	AUX
 la	le	DET
 question	question	NOUN
 de	de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ou	ou	CCONJ
 de	de	ADP
 ne	ne	ADV
@@ -520,7 +520,7 @@ pour	pour	ADP
 un	un	DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 citoyens	citoyen	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -563,7 +563,7 @@ le	le	DET
 but	but	NOUN
 est	être	AUX
 d'abord	d'abord	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 triompher	triompher	VERB
 tel	tel	DET
 parti	parti	NOUN
@@ -888,7 +888,7 @@ partis	parti	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
 que	que	SCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 politique	politique	NOUN
 se	se	PRON
@@ -1080,7 +1080,7 @@ du	du	ADP_DET
 même	même	ADJ
 calibre	calibre	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 sait	savoir	VERB
 on	on	PRON
 que	que	PRON
@@ -1248,7 +1248,7 @@ Casimir	Casimir	PROPN
 qui	qui	PRON
 me	me	PRON
 paraît	paraître	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 subtile	subtil	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
@@ -1373,7 +1373,7 @@ un	un	DET
 homme	homme	NOUN
 qui	qui	PRON
 connaisse	connaître	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 les	le	DET
 potins	potin	NOUN
@@ -1662,7 +1662,7 @@ et	et	CCONJ
 l'on	on	PRON
 se	se	PRON
 croit	croire	VERB
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 «	«	PUNCTclause
 révolutionnaire	révolutionnaire	ADJ
 »	»	PUNCTclause
@@ -1836,7 +1836,7 @@ théologie	théologie	NOUN
 pures	pur	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en résumé	en résumé	NOUN
+en résumé	en résumé	ADV
 :	:	PUNCTclause
 si	si	SCONJ
 la	le	DET
@@ -1906,8 +1906,8 @@ est	être	AUX
 nos	nos	DET
 yeux	œil	NOUN
 toute	tout	ADJ
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 ce	ce	PRON
 que	que	PRON
 l'on	on	PRON
@@ -1924,7 +1924,7 @@ demande	demander	VERB
 si	si	SCONJ
 il	il	PRON
 faut	falloir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ou	ou	CCONJ
 non	non	ADV
 .	.	PUNCTsent
@@ -2207,7 +2207,7 @@ commun	commun	ADJ
 et	et	CCONJ
 l'on	on	PRON
 admet	admettre	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 existe	exister	VERB
 deux	deux	NUM
@@ -2266,7 +2266,7 @@ dans	dans	ADP
 l'	le	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 est	être	AUX
 actif	actif	ADJ
@@ -2406,7 +2406,7 @@ que	que	SCONJ
 tout	tout	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 agit	agir	VERB
 personnellement	personnellement	ADV
@@ -2656,7 +2656,7 @@ l'	le	DET
 activité	activité	NOUN
 des	un	ADP_DET
 personnes	personne	NOUN
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 dans	dans	ADP
 celle	celle	PRON
 des	un	ADP_DET
@@ -2770,7 +2770,7 @@ la	le	DET
 politique	politique	NOUN
 véritable	véritable	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 toute	toute	DET
 conduite	conduite	NOUN
 personnelle	personnel	ADJ
@@ -3085,8 +3085,8 @@ de	de	ADP
 la	le	DET
 vérité	vérité	NOUN
 ,	,	PUNCTclause
-sous prétexte que	sous prétexte que	DET
-le	le_PRON	PRON
+sous prétexte que	sous prétexte que	SCONJ
+le	le	DET
 mensonge	mensonge	NOUN
 a	avoir	AUX
 plus de	plus de	DET
@@ -3212,7 +3212,7 @@ les	le	DET
 mensonges	mensonge	NOUN
 intéressés	intéresser	VERB
 ,	,	PUNCTclause
-au bout du compte	au bout du compte	NOUN
+au bout du compte	au bout du compte	ADV
 .	.	PUNCTsent
 nous	nous	PRON
 sommes	être	AUX
@@ -3613,8 +3613,8 @@ aimez	aimer	VERB
 pas	pas	ADV
 ça	ça	PRON
 ,	,	PUNCTclause
-si vous voulez	si vous voulez	DET
-en	en	PRON
+si vous voulez	si vous voulez	ADV
+en	en	ADP
 sortir	sortir	VERB
 ,	,	PUNCTclause
 réfléchissez	réfléchir	VERB
@@ -3792,7 +3792,7 @@ et	et	CCONJ
 qui	qui	PRON
 ne	ne	ADV
 demande	demander	VERB
-rien de moins	rien de moins	ADP_DET
+rien de moins	rien de moins	ADV
 à	à	ADP
 ses	son	DET
 ingénieurs	ingénieur	NOUN

@@ -132,7 +132,7 @@ commun	commun	ADJ
 puis	puis	CCONJ
 leurs	leur	DET
 contreparties	contrepartie	NOUN
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 réussies	réussir	VERB
 dans	dans	ADP
 l'	le	DET
@@ -178,7 +178,7 @@ II	II	NUM
 simultanément	simultanément	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
-en sens inverse	en sens inverse	PRON
+en sens inverse	en sens inverse	ADV
 ,	,	PUNCTclause
 un	un	DET
 phénomène	phénomène	NOUN
@@ -249,7 +249,7 @@ ou	ou	CCONJ
 ethnies	ethnie	NOUN
 en	en	ADP
 révolte	révolte	NOUN
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 ouverte	ouvrir	VERB
 contre	contre	ADP
 le	le	DET
@@ -347,7 +347,7 @@ prononcent	prononcer	VERB
 en même temps	en même temps	ADV
 ,	,	PUNCTclause
 résultent	résulter	VERB
-en partie	en partie	ADP
+en partie	en partie	ADV
 des	un	DET
 mêmes	même	ADJ
 causes	cause	NOUN
@@ -532,7 +532,7 @@ Europe	Europe	PROPN
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 jouer un rôle	jouer un rôle	VERB
 mondial	mondial	ADJ
 ,	,	PUNCTclause
@@ -629,8 +629,8 @@ ne	ne	ADV
 saurait	savoir	VERB
 être	être	AUX
 soutenue	soutenir	VERB
-à la rigueur	à la rigueur	ADP
-que	que	PRON
+à la rigueur	à la rigueur	ADV
+que	que	SCONJ
 par	par	ADP
 la	le	DET
 Chine	Chine	PROPN
@@ -668,20 +668,20 @@ de	de	ADP
 isolation	isolation	NOUN
 paranoïaque	paranoïaque	ADJ
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 les	le	DET
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
 quoique	quoique	SCONJ
-de loin	de loin	PUNCT
+de loin	de loin	ADV
 les	le	DET
 plus	plus	ADV
 forts	fort	ADJ
 ,	,	PUNCTclause
 dépendent	dépendre	VERB
-autant de	autant de	ADP
-l'	le	DET
+autant de	autant de	DET
+l'	le_PRON	PRON
 opinion	opinion	NOUN
 mondiale	mondial	ADJ
 que	que	SCONJ
@@ -733,7 +733,7 @@ relations	relation	NOUN
 plus ou moins	plus ou moins	ADV
 contraignantes	contraignant	ADJ
 .	.	PUNCTsent
-au surplus	au surplus	ADP_DET
+au surplus	au surplus	ADV
 je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
@@ -992,7 +992,7 @@ siècle	siècle	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 renvoient	renvoyer	VERB
-l'un comme l'autre	l'un comme l'autre	PUNCT
+l'un comme l'autre	l'un comme l'autre	PRON
 à	à	ADP
 des	un	DET
 formules	formule	NOUN
@@ -1161,8 +1161,8 @@ des	un	ADP_DET
 marchandises	marchandise	NOUN
 de	de	ADP
 qualités	qualité	NOUN
-pour le moins	pour le moins	ADP
-diverses	divers	DET
+pour le moins	pour le moins	ADV
+diverses	divers	ADJ
 selon que	selon que	SCONJ
 il	il	PRON
 se	se	PRON
@@ -1325,7 +1325,7 @@ fédéralisme	fédéralisme	NOUN
 que	que	SCONJ
 on	on	PRON
 est	être	AUX
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 incriminer	incriminer	VERB
 que	que	SCONJ
 sa	son	DET
@@ -1372,7 +1372,7 @@ fédéralisme	fédéralisme	NOUN
 et	et	CCONJ
 l'on	on	PRON
 est	être	AUX
-en droit de	en droit de	PRON
+en droit de	en droit de	ADJ
 penser	penser	VERB
 que	que	SCONJ
 l'	le	DET
@@ -1505,7 +1505,7 @@ nous	nous	PRON
 apprend	apprendre	VERB
 rien	rien	PRON
 ,	,	PUNCTclause
-d'autant que	d'autant que	CCONJ
+d'autant que	d'autant que	SCONJ
 «	«	PUNCTclause
 fédératif	fédératif	ADJ
 »	»	PUNCTclause
@@ -1758,7 +1758,7 @@ autorise	autoriser	VERB
 —	—	PUNCTclause
 ou	ou	CCONJ
 incite	inciter	VERB
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 —	—	PUNCTclause
 aux	au	ADP_DET
 plus	plus	ADV
@@ -1871,7 +1871,7 @@ que	que	SCONJ
 il	il	PRON
 est	être	AUX
 .	.	PUNCTsent
-à l'inverse	à l'inverse	PRON
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 le	le	DET
 fédéralisme	fédéralisme	NOUN
@@ -2045,7 +2045,7 @@ cas	cas	NOUN
 ,	,	PUNCTclause
 lui	lui	PRON
 soit	être	AUX
-pour ainsi dire	pour ainsi dire	ADP
+pour ainsi dire	pour ainsi dire	ADV
 congénital	congénital	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2089,8 +2089,8 @@ les	le	DET
 dangers	danger	NOUN
 que	que	PRON
 entraînent	entraîner	VERB
-en fait	en fait	DET
-les	le_PRON	PRON
+en fait	en fait	ADV
+les	le	DET
 malentendus	malentendu	NOUN
 que	que	PRON
 je	je	PRON
@@ -2116,7 +2116,7 @@ de	de	ADP
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 voudrais	vouloir	VERB
@@ -2245,7 +2245,7 @@ tout	tout	ADV
 en	en	ADP
 les	le	DET
 composant	composant	NOUN
-de telle manière que	de telle manière que	PUNCT
+de telle manière que	de telle manière que	SCONJ
 la	le	DET
 résultante	résultante	NOUN
 de	de	ADP
@@ -2532,7 +2532,7 @@ deux	deux	NUM
 termes	terme	NOUN
 non	non	ADV
 pas	pas	ADV
-en équilibre	en équilibre	PUNCT
+en équilibre	en équilibre	ADJ
 neutre	neutre	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -2673,7 +2673,7 @@ pour	pour	ADP
 le	le	DET
 fédéralisme	fédéralisme	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 tel	tel	DET
 que	que	SCONJ
 je	je	PRON
@@ -2894,7 +2894,7 @@ une	un	DET
 politique	politique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 le	le	DET
 modèle	modèle	NOUN
 trinitaire	trinitaire	ADJ
@@ -3549,9 +3549,9 @@ l'	le	DET
 église	église	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-en dernière analyse	en dernière analyse	DET
+en dernière analyse	en dernière analyse	ADV
 ,	,	PUNCTclause
-des	un	ADP_DET
+des	un	DET
 vocations	vocation	NOUN
 particulières	particulier	ADJ
 au sein de	au sein de	ADP
@@ -3623,7 +3623,7 @@ part	part	NOUN
 du	du	ADP_DET
 concret	concret	ADJ
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 d'abord	d'abord	ADV
 elle	elle	PRON
@@ -3797,7 +3797,7 @@ tâches	tâche	NOUN
 ,	,	PUNCTclause
 je	je	PRON
 entends	entendre	VERB
-selon que	selon que	PUNCT
+selon que	selon que	SCONJ
 elles	elles	PRON
 intéressent	intéresser	VERB
 tous	tout	ADJ
@@ -4238,7 +4238,7 @@ d'ailleurs	d'ailleurs	ADV
 peuvent	pouvoir	VERB
 être	être	AUX
 numériques	numérique	ADJ
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 architecturales	architectural	ADJ
 :	:	PUNCTclause
 prenez	prendre	VERB
@@ -4278,7 +4278,7 @@ un	un	DET
 savoir	savoir	NOUN
 professionnel	professionnel	ADJ
 souvent	souvent	ADV
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 rentable	rentable	ADJ
 que	que	SCONJ
 il	il	PRON
@@ -4496,7 +4496,7 @@ politique	politique	ADJ
 —	—	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 mot	mot	NOUN
 ,	,	PUNCTclause
 selon	selon	ADP
@@ -4590,7 +4590,7 @@ constitution	constitution	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 type	type	NOUN
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 fédéralisme	fédéralisme	NOUN
 qui	qui	PRON
 peut	pouvoir	VERB
@@ -4624,7 +4624,7 @@ tâches	tâche	NOUN
 entreprendre	entreprendre	VERB
 ,	,	PUNCTclause
 répartir	répartir	VERB
-en conséquence	en conséquence	DET
+en conséquence	en conséquence	ADV
 les	le	DET
 pouvoirs	pouvoir	NOUN
 de	de	ADP
@@ -4764,7 +4764,7 @@ siècle	siècle	NOUN
 on	on	PRON
 se	se	PRON
 aperçoit	apercevoir	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 le	le	DET
 fédéralisme	fédéralisme	NOUN
 politique	politique	ADJ
@@ -4854,7 +4854,7 @@ ajoutait	ajouter	VERB
 le	le	DET
 fédéralisme	fédéralisme	NOUN
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 une	un	DET
 simple	simple	ADJ
@@ -4996,7 +4996,7 @@ leur	leur	DET
 composition	composition	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 méthode	méthode	NOUN
 générale	général	ADJ
 de	de	ADP

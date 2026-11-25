@@ -112,9 +112,9 @@ il	il	PRON
 eût	avoir	AUX
 été	être	AUX
 difficile	difficile	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 admettre	admettre	VERB
-des	un	ADP_DET
+des	un	DET
 représentants	représentant	NOUN
 des	un	ADP_DET
 étudiants	étudiant	NOUN
@@ -316,7 +316,7 @@ qui	qui	PRON
 leur	leur	PRON
 répondent	répondre	VERB
 .	.	PUNCTsent
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 il	il	PRON
 apparaît	apparaître	VERB
@@ -469,14 +469,14 @@ autre	autre	ADJ
 enquêteur	enquêteur	NOUN
 ,	,	PUNCTclause
 posant	poser	VERB
-la même	la même	DET
+la même	la même	PRON
 question	question	NOUN
 le	le	DET
 lendemain	lendemain	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-la même	la même	DET
-personne	personne	NOUN
+la même	la même	PRON
+personne	personne_PRON	PRON
 devra	devoir	VERB
 faire	faire	VERB
 une	un	DET
@@ -774,7 +774,7 @@ très	très	ADV
 répandu	répandu	ADJ
 ,	,	PUNCTclause
 bien	bien	ADV
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 milieux	milieu	NOUN
 de	de	ADP
 l'	le	DET
@@ -824,7 +824,7 @@ pour	pour	ADP
 publier	publier	VERB
 des	un	DET
 documents	document	NOUN
-de première main	de première main	PUNCT
+de première main	de première main	ADJ
 ,	,	PUNCTclause
 des	un	DET
 textes	texte	NOUN
@@ -920,7 +920,7 @@ assez	assez	ADV
 simples	simple	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -962,8 +962,8 @@ vous	vous	PRON
 souhaitez	souhaiter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le second	le second	DET
-moyen	moyen	NOUN
+le second	le second	PRON
+moyen	moyen	ADJ
 de	de	ADP
 information	information	NOUN
 ,	,	PUNCTclause
@@ -1044,7 +1044,7 @@ les	le	DET
 grands	grand	ADJ
 faits	fait	NOUN
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 connaît	connaître	VERB
 .	.	PUNCTsent
 prenez	prendre	VERB
@@ -1158,7 +1158,7 @@ je	je	PRON
 me	me	PRON
 trouverai	trouver	VERB
 répondre	répondre	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 personnellement	personnellement	ADV
 .	.	PUNCTsent

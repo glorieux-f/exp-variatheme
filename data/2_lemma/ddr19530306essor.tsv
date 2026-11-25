@@ -45,7 +45,7 @@ notre	notre	DET
 neutralité	neutralité	NOUN
 serait	être	AUX
 aujourd'hui	aujourd'hui	ADV
-sans objet	sans objet	PUNCT
+sans objet	sans objet	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 nous	nous	PRON
@@ -152,12 +152,12 @@ lieu	lieu	NOUN
 dans	dans	ADP
 discuter	discuter	VERB
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 cas	cas	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-le second	le second	DET
+le second	le second	PRON
 cas	cas	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
@@ -190,7 +190,7 @@ vote	vote	NOUN
 populaire	populaire	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
-ni l'une ni l'autre	ni l'une ni l'autre	ADV
+ni l'une ni l'autre	ni l'une ni l'autre	PRON
 de	de	ADP
 ces	ce	DET
 conditions	condition	NOUN
@@ -277,7 +277,7 @@ il	il	PRON
 resterait	rester	VERB
 gratuit	gratuit	ADJ
 ,	,	PUNCTclause
-au pire	au pire	ADP
+au pire	au pire	ADV
 sens	sens	NOUN
 de	de	ADP
 ce	ce	DET
@@ -547,7 +547,7 @@ pas	pas	ADV
 nous	nous	PRON
 croire	croire	VERB
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 ne	ne	ADV
@@ -577,7 +577,7 @@ ne	ne	ADV
 serait	être	AUX
 donc	donc	ADV
 changé	changer	VERB
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 nombre de	nombre de	DET
 pays	pays	NOUN
@@ -628,7 +628,7 @@ la	le	DET
 réponse	réponse	NOUN
 est	être	AUX
 que	que	ADV
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
 sommes	être	AUX
@@ -640,7 +640,7 @@ pouvoir	pouvoir	VERB
 y	y	PRON
 participer	participer	VERB
 ,	,	PUNCTclause
-le cas échéant	le cas échéant	PRON
+le cas échéant	le cas échéant	ADV
 ;	;	PUNCTclause
 nous	nous	PRON
 sommes	être	AUX
@@ -751,7 +751,7 @@ propos	propos	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
 refuser	refuser	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 face à	face à	ADP
 la	le	DET
 situation	situation	NOUN
@@ -871,8 +871,8 @@ thèse	thèse	NOUN
 II	II	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en tant que	en tant que	CCONJ
-professionnel	professionnel	ADJ
+en tant que	en tant que	ADP
+professionnel	professionnel	NOUN
 de	de	ADP
 l'	le	DET
 idée	idée	NOUN
@@ -944,7 +944,7 @@ pour	pour	ADP
 deux	deux	NUM
 raisons	raison	NOUN
 :	:	PUNCTclause
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1014,13 +1014,13 @@ aient	avoir	AUX
 froidement	froidement	ADV
 refusé	refuser	VERB
 ,	,	PUNCTclause
-l'un après l'autre	l'un après l'autre	DET
+l'un après l'autre	l'un après l'autre	ADV
 ,	,	PUNCTclause
 de	de	ADP
 aider	aider	VERB
 le	le	DET
 Centre	Centre	PROPN
-en aucune manière	en aucune manière	PUNCT
+en aucune manière	en aucune manière	ADV
 .	.	PUNCTsent
 les	le	DET
 prétextes	prétexte	NOUN
@@ -1054,8 +1054,8 @@ ordre	ordre	NOUN
 psychologique	psychologique	ADJ
 bien	bien	ADV
 plus	plus	ADV
-encore que	encore que	ADV
-politique	politique	ADJ
+encore que	encore que	SCONJ
+politique	politique	NOUN
 :	:	PUNCTclause
 toute	toute	DET
 personne	personne	NOUN
@@ -1206,7 +1206,7 @@ mesure	mesure	NOUN
 qui	qui	PRON
 serait	être	AUX
 actuellement	actuellement	ADV
-sans effet	sans effet	NOUN
+sans effet	sans effet	ADJ
 .	.	PUNCTsent
 ils	ils	PRON
 laissent	laisser	VERB
@@ -1270,7 +1270,7 @@ elle	elle	PRON
 a	avoir	AUX
 pris	prendre	VERB
 naissance	naissance	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 après	après	ADP
 le	le	DET
 milieu	milieu	NOUN
@@ -1286,7 +1286,7 @@ son	son	DET
 sort	sort	NOUN
 dépend	dépendre	VERB
 donc	donc	ADV
-à tous égards	à tous égards	DET
+à tous égards	à tous égards	ADV
 du	du	ADP_DET
 sort	sort	NOUN
 de	de	ADP
@@ -1592,11 +1592,11 @@ Europe	Europe	PROPN
 sera	être	AUX
 fédérée	fédérer	VERB
 :	:	PUNCTclause
-à ce moment-là	à ce moment-là	ADP
+à ce moment-là	à ce moment-là	ADV
 seulement	seulement	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
-de toute évidence	de toute évidence	DET
+de toute évidence	de toute évidence	ADV
 ,	,	PUNCTclause
 la	le	DET
 neutralité	neutralité	NOUN

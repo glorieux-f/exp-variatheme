@@ -292,7 +292,7 @@ accepteront	accepter	VERB
 à	à	ADP
 l'	le	DET
 origine	origine	NOUN
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 volontairement	volontairement	ADV
 —	—	PUNCTclause
 quitte à	quitte à	ADP
@@ -305,9 +305,9 @@ d'autres	d'autre	PRON
 ils	ils	PRON
 deviennent	devenir	VERB
 ,	,	PUNCTclause
-de ce fait	de ce fait	DET
+de ce fait	de ce fait	ADV
 ,	,	PUNCTclause
-des	un	ADP_DET
+des	un	DET
 hommes	homme	NOUN
 à la fois	à la fois	ADV
 libres	libre	ADJ
@@ -449,7 +449,7 @@ délèguent	déléguer	VERB
 à	à	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 gens	gens	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -534,7 +534,7 @@ de	de	ADP
 ;	;	PUNCTclause
 ils	ils	PRON
 veulent	vouloir	VERB
-en tout cas	en tout cas	ADP
+en tout cas	en tout cas	ADV
 avoir	avoir	AUX
 un	un	DET
 parti	parti	NOUN
@@ -832,7 +832,7 @@ pièce	pièce	NOUN
 il	il	PRON
 devient	devenir	VERB
 persona	persona	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 est	être	AUX
 un	un	DET
@@ -1081,7 +1081,7 @@ dire	dire	VERB
 ,	,	PUNCTclause
 pour	pour	ADP
 jouer	jouer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 avec	avec	ADP
 les	le	DET
 mots	mot	NOUN
@@ -1353,7 +1353,7 @@ et	et	CCONJ
 mieux	mieux	ADV
 relié	relier	VERB
 par	par	ADP
-la même	la même	DET
+la même	la même	PRON
 vocation	vocation	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -1390,7 +1390,7 @@ situé	situer	VERB
 jusqu'ici	jusqu'ici	ADV
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 couples	couple	NOUN
 de	de	ADP
 antinomies	antinomie	NOUN
@@ -1648,7 +1648,7 @@ est	être	AUX
 faite	faire	VERB
 de	de	ADP
 tensions	tension	NOUN
-en équilibre	en équilibre	ADP
+en équilibre	en équilibre	ADJ
 mouvant	mouvoir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2122,7 +2122,7 @@ et	et	CCONJ
 tâche	tâche	NOUN
 de	de	ADP
 les	le	DET
-faire valoir	faire valoir	NOUN
+faire valoir	faire valoir	VERB
 ,	,	PUNCTclause
 sans	sans	ADP
 faire	faire	VERB
@@ -2228,7 +2228,7 @@ demande	demander	VERB
 pas	pas	ADV
 de	de	ADP
 céder	céder	VERB
-à moitié	à moitié	PUNCT
+à moitié	à moitié	ADV
 sur	sur	ADP
 son	son	DET
 caractère	caractère	NOUN
@@ -2450,7 +2450,7 @@ la	le	DET
 vocation	vocation	NOUN
 qui	qui	PRON
 transforme	transformer	VERB
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 individu	individu	NOUN
 en	en	ADP
 son	son	DET
@@ -2720,7 +2720,7 @@ ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 un	un	DET
-au-delà de	au-delà de	SCONJ
+au-delà de	au-delà de	ADP
 la	le	DET
 voûte	voûte	NOUN
 céleste	céleste	ADJ
@@ -2873,19 +2873,19 @@ et	et	CCONJ
 la	le	DET
 personne	personne	NOUN
 ont	avoir	AUX
-les mêmes	les mêmes	DET
-ennemis	ennemi	NOUN
+les mêmes	les mêmes	PRON
+ennemis	ennemi	ADJ
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 conditions	condition	NOUN
 et	et	CCONJ
 exigences	exigence	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 critères	critère	NOUN
 .	.	PUNCTsent
-les mêmes	les mêmes	DET
-ennemis	ennemi	NOUN
+les mêmes	les mêmes	PRON
+ennemis	ennemi	ADJ
 :	:	PUNCTclause
 le	le	DET
 culte	culte	NOUN
@@ -2928,7 +2928,7 @@ anonymisantes	anonymisantes	ADJ
 ,	,	PUNCTclause
 dépersonnalisantes	dépersonnalisantes	ADJ
 .	.	PUNCTsent
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 critères	critère	NOUN
 et	et	CCONJ
 exigences	exigence	NOUN
@@ -3033,7 +3033,7 @@ a	avoir	AUX
 été	être	AUX
 la	le	DET
 remise	remise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 du	du	ADP_DET
 monde	monde	NOUN
 hellénistique	hellénistique	ADJ
@@ -3056,7 +3056,7 @@ social	social	ADJ
 que	que	PRON
 l'on	on	PRON
 valorise	valoriser	VERB
-à l'extrême	à l'extrême	DET
+à l'extrême	à l'extrême	ADV
 ,	,	PUNCTclause
 aux dépens de	aux dépens de	ADP
 la	le	DET
@@ -3139,11 +3139,11 @@ ne	ne	ADV
 l'	le_PRON	PRON
 est	être	AUX
 pas	pas	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 individu	individu	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 «	«	PUNCTclause
 symbiote	symbiote	NOUN
 »	»	PUNCTclause
@@ -3161,7 +3161,7 @@ convive	convive	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 vit	vivre	VERB
 dans	dans	ADP
@@ -3604,7 +3604,7 @@ que	que	SCONJ
 ils	ils	PRON
 se	se	PRON
 doivent	devoir	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 individus	individu	NOUN
 à	à	ADP
 la	le	DET
@@ -3636,8 +3636,8 @@ ce	ce	DET
 type	type	NOUN
 de	de	ADP
 homme	homme	NOUN
-en équilibre	en équilibre	PUNCT
-dynamique	dynamique	NOUN
+en équilibre	en équilibre	ADJ
+dynamique	dynamique	ADJ
 que	que	PRON
 je	je	PRON
 appelle	appeler	VERB
@@ -4080,7 +4080,7 @@ cet	ce	DET
 homme	homme	NOUN
 doit	devoir	VERB
 être	être	AUX
-en fait	en fait	SYM
+en fait	en fait	ADV
 continuellement	continuellement	ADV
 en	en	ADP
 garde	garde	NOUN
@@ -4182,7 +4182,7 @@ deux	deux	NUM
 réalités	réalité	NOUN
 bipolaires	bipolaire	ADJ
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 possibilités	possibilité	NOUN
 de	de	ADP
 double	double	NOUN

@@ -236,7 +236,7 @@ a	avoir	VERB
 de	de	ADP
 espoir	espoir	NOUN
 que	que	SCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'on	on	PRON
 agit	agir	VERB
 .	.	PUNCTsent
@@ -314,7 +314,7 @@ désastre	désastre	NOUN
 est	être	AUX
 fatal	fatal	ADJ
 ,	,	PUNCTclause
-eh bien	eh bien	ADP
+eh bien	eh bien	INTJ
 oui	oui	INTJ
 ,	,	PUNCTclause
 le	le	DET
@@ -326,7 +326,7 @@ nous	nous	PRON
 sommes	être	AUX
 sûrs	sûr	ADJ
 de	de	ADP
-avoir raison	avoir raison	DET
+avoir raison	avoir raison	VERB
 .	.	PUNCTsent
 mais	mais	CCONJ
 ,	,	PUNCTclause
@@ -356,7 +356,7 @@ reste	rester	VERB
 une	un	DET
 bonne	bon	ADJ
 chance	chance	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 histoire	histoire	NOUN
 ,	,	PUNCTclause
@@ -449,8 +449,8 @@ un	un	DET
 an	an	NOUN
 pour	pour	ADP
 décider	décider	VERB
-de fait	de fait	PUNCT
-autre chose	autre chose	NOUN
+de fait	de fait	ADJ
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 pour	pour	ADP
@@ -493,7 +493,7 @@ vient	venir	VERB
 .	.	PUNCTsent
 je	je	PRON
 esquisserai	esquisser	VERB
-l'un et l'autre	l'un et l'autre	PUNCT
+l'un et l'autre	l'un et l'autre	PRON
 en	en	ADP
 trois	trois	NUM
 minutes	minute	NOUN
@@ -507,7 +507,7 @@ espère	espérer	VERB
 ,	,	PUNCTclause
 de	de	ADP
 simplifier	simplifier	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
@@ -705,7 +705,7 @@ armer	armer	VERB
 l'	le	DET
 Allemagne	Allemagne	PROPN
 ?	?	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 crie	crier	VERB
 à la fois	à la fois	ADV
 ,	,	PUNCTclause
@@ -726,11 +726,11 @@ suis	être	AUX
 pas	pas	ADV
 le	le	DET
 seul	seul	ADJ
-dans ce cas	dans ce cas	NOUN
+dans ce cas	dans ce cas	ADV
 .	.	PUNCTsent
 en attendant de	en attendant de	ADP
 savoir	savoir	VERB
-au juste	au juste	PUNCT
+au juste	au juste	ADV
 ce	ce	PRON
 que	que	PRON
 ils	ils	PRON
@@ -933,7 +933,7 @@ peuples	peuple	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
 est	être	AUX
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 fédération	fédération	NOUN
 .	.	PUNCTsent
@@ -944,7 +944,7 @@ de	de	ADP
 jeunes	jeune	ADJ
 gens	gens	NOUN
 venus	venir	VERB
-de loin	de loin	ADP_DET
+de loin	de loin	ADV
 pour	pour	ADP
 manifester	manifester	VERB
 à	à	ADP
@@ -1112,8 +1112,8 @@ pour	pour	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-en dehors de	en dehors de	ADV
-politiciens	politicien	ADJ
+en dehors de	en dehors de	ADP
+politiciens	politicien	NOUN
 ,	,	PUNCTclause
 par	par	ADP
 la	le	DET

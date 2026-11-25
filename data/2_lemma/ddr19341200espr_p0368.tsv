@@ -87,7 +87,7 @@ traduit	traduire	VERB
 au contraire	au contraire	ADV
 un	un	DET
 effort	effort	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 «	«	PUNCTclause
 personnel	personnel	ADJ
 »	»	PUNCTclause
@@ -180,7 +180,7 @@ la	le	DET
 connaissance	connaissance	NOUN
 des	un	ADP_DET
 choses	chose	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 absentes	absent	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -524,7 +524,7 @@ inconnue	inconnue	NOUN
 ?	?	PUNCTsent
 examinons	examiner	VERB
 de	de	ADP
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 près	près	ADV
 les	le	DET
@@ -537,11 +537,11 @@ en présence	en présence	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 sujet	sujet	NOUN
-en tant que	en tant que	CCONJ
-actif	actif	ADJ
+en tant que	en tant que	ADP
+actif	actif	NOUN
 ,	,	PUNCTclause
 objet	objet	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 agi	agir	VERB
 ,	,	PUNCTclause
 sont	être	AUX
@@ -577,7 +577,7 @@ réunit	réunir	VERB
 les	le	DET
 confonde	confondre	VERB
 :	:	PUNCTclause
-tout au contraire	tout au contraire	NOUN
+tout au contraire	tout au contraire	ADV
 ,	,	PUNCTclause
 il	il	PRON
 les	le_PRON	PRON
@@ -704,7 +704,7 @@ sujet	sujet	NOUN
 détient	détenir	VERB
 une	un	DET
 primauté	primauté	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 il	il	PRON
 peut	pouvoir	VERB
@@ -1025,7 +1025,7 @@ que	que	SCONJ
 il	il	PRON
 agit	agir	VERB
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ils	ils	PRON
 se	se	PRON
 trompent	tromper	VERB
@@ -1137,11 +1137,11 @@ de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 homme	homme	NOUN
 ,	,	PUNCTclause
 est	être	AUX
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 incalculable	incalculable	ADJ
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -1182,7 +1182,7 @@ résoudre	résoudre	VERB
 à	à	ADP
 distance	distance	NOUN
 ;	;	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 l'	le	DET
@@ -1262,7 +1262,7 @@ de	de	ADP
 l'	le	DET
 inhumain	inhumain	ADJ
 (	(	PUNCTclause
-à la limite	à la limite	ADJ
+à la limite	à la limite	ADV
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1286,7 +1286,7 @@ purement	purement	ADV
 descriptive	descriptif	ADJ
 est	être	AUX
 exacte	exact	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elle	elle	PRON
 décrit	décrire	VERB
 notre	notre	DET
@@ -1431,7 +1431,7 @@ objet	objet	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
-par là même	par là même	ADP
+par là même	par là même	ADV
 le	le	DET
 déshumanise	déshumaniser	VERB
 .	.	PUNCTsent
@@ -1444,13 +1444,13 @@ un	un	DET
 problème	problème	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 elle	elle	PRON
 est	être	AUX
 bien	bien	ADV
 obligée	obliger	VERB
 de	de	ADP
-prendre du recul	prendre du recul	NOUN
+prendre du recul	prendre du recul	VERB
 par rapport à	par rapport à	ADP
 l'	le	DET
 homme	homme	NOUN
@@ -1538,7 +1538,7 @@ l'	le	DET
 entendement	entendement	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 rien	rien	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -1599,7 +1599,7 @@ cette	ce	DET
 humanité	humanité	NOUN
 ,	,	PUNCTclause
 sinon	sinon	ADV
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 agissants	agissant	ADJ
@@ -1838,7 +1838,7 @@ leur	leur	PRON
 répond	répondre	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-la même	la même	DET
+la même	la même	PRON
 raison	raison	NOUN
 qui	qui	PRON
 fait	faire	VERB
@@ -1972,7 +1972,7 @@ pas	pas	ADV
 la	le	DET
 vie	vie	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 drame	drame	NOUN
 est	être	AUX
@@ -2014,14 +2014,14 @@ jouer	jouer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-cela dit	cela dit	PRON
+cela dit	cela dit	ADV
 ,	,	PUNCTclause
 il	il	PRON
 reste	rester	VERB
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 pourquoi	pourquoi	ADV
-tel	tel	PRON
-figurant	figurer	VERB
+tel	tel	DET
+figurant	figurant	NOUN
 jeté	jeter	VERB
 dans	dans	ADP
 une	un	DET
@@ -2038,7 +2038,7 @@ met	mettre	VERB
 à	à	ADP
 se	se	PRON
 comporter	comporter	VERB
-tout comme	tout comme	ADV
+tout comme	tout comme	SCONJ
 si	si	SCONJ
 il	il	PRON
 connaissait	connaître	VERB
@@ -2123,9 +2123,9 @@ que	que	SCONJ
 il	il	PRON
 existe	exister	VERB
 ,	,	PUNCTclause
-en fait	en fait	DET
+en fait	en fait	ADV
 ,	,	PUNCTclause
-des	un	ADP_DET
+des	un	DET
 personnes	personne	NOUN
 ;	;	PUNCTclause
 cependant que	cependant que	SCONJ
@@ -2285,7 +2285,7 @@ font	faire	VERB
 figure	figurer	VERB
 de	de	ADP
 coups	coup	NOUN
-de force	de force	ADP
+de force	de force	ADV
 contre	contre	ADP
 toute	toute	DET
 raison	raison	NOUN
@@ -2440,7 +2440,7 @@ effets	effet	NOUN
 ,	,	PUNCTclause
 demeure	demeurer	VERB
 mystère	mystère	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 pure	pur	ADJ
 initiation	initiation	NOUN
 :	:	PUNCTclause
@@ -2621,7 +2621,7 @@ nous	nous	PRON
 ne	ne	ADV
 existe	exister	VERB
 pas	pas	ADV
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 l'	le	DET
 appel	appel	NOUN
 que	que	PRON
@@ -2687,7 +2687,7 @@ l'	le	DET
 éternel	éternel	ADJ
 ne	ne	ADV
 touche	toucher	VERB
-le temps que	le temps que	DET
+le temps que	le temps que	SCONJ
 par	par	ADP
 l'	le	DET
 individu	individu	NOUN
@@ -3063,7 +3063,7 @@ assujetti	assujettir	VERB
 notre	notre	DET
 action	action	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 la plupart de	la plupart de	DET
 nos	nos	DET
 gestes	geste	NOUN
@@ -3166,8 +3166,8 @@ neutres	neutre	ADJ
 et	et	CCONJ
 en	en	ADP
 objets	objet	NOUN
-d'autant moins	d'autant moins	ADP
-résistants	résistant	NOUN
+d'autant moins	d'autant moins	ADV
+résistants	résistant	ADJ
 que	que	SCONJ
 ils	ils	PRON
 ont	avoir	AUX
@@ -3679,8 +3679,8 @@ social	social	ADJ
 en	en	ADP
 individus	individu	NOUN
 libres	libre	ADJ
-au terme de	au terme de	ADP_DET
-une	un	PRON
+au terme de	au terme de	ADP
+une	un	DET
 évolution	évolution	NOUN
 scientifique	scientifique	ADJ
 et	et	CCONJ
@@ -3704,7 +3704,7 @@ scepticisme	scepticisme	NOUN
 :	:	PUNCTclause
 elle	elle	PRON
 renverse	renverser	VERB
-de fond en comble	de fond en comble	ADP
+de fond en comble	de fond en comble	ADV
 l'	le	DET
 ordre	ordre	NOUN
 des	un	ADP_DET
@@ -3928,12 +3928,12 @@ pas	pas	ADV
 contenir	contenir	VERB
 une	un	DET
 revendication	revendication	NOUN
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 une	un	DET
 position	position	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 la	le	DET
 voici	voici	ADP
@@ -3964,7 +3964,7 @@ expression	expression	NOUN
 ,	,	PUNCTclause
 de plus en plus	de plus en plus	ADV
 abstraite	abstrait	ADJ
-à mesure que	à mesure que	PUNCT
+à mesure que	à mesure que	SCONJ
 on	on	PRON
 se	se	PRON
 élève	élever	VERB
@@ -4318,7 +4318,7 @@ homme	homme	NOUN
 ne	ne	ADV
 se	se	PRON
 produit	produire	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 que	que	SCONJ
 au niveau de	au niveau de	ADP
 objets	objet	NOUN
@@ -4775,7 +4775,7 @@ dans	dans	ADP
 l'	le	DET
 acte	acte	NOUN
 ,	,	PUNCTclause
-l'une et l'autre	l'une et l'autre	ADP
+l'une et l'autre	l'une et l'autre	PRON
 se	se	PRON
 mesurent	mesurer	VERB
 et	et	CCONJ
@@ -4970,7 +4970,7 @@ et	et	CCONJ
 l'	le	DET
 effectue	effectuer	VERB
 .	.	PUNCTsent
-corps et âme	corps et âme	NOUN
+corps et âme	corps et âme	ADV
 sont	être	AUX
 un	un	DET
 seul	seul	ADJ
@@ -5177,7 +5177,7 @@ l'	le	DET
 immortelle	immortel	ADJ
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 l'	le	DET
 illusion	illusion	NOUN
 de	de	ADP
@@ -5254,7 +5254,7 @@ et	et	CCONJ
 comprendre	comprendre	VERB
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 envisager	envisager	VERB
 les	le	DET
 modes	mode	NOUN
@@ -5582,7 +5582,7 @@ je	je	PRON
 étais	être	VERB
 ,	,	PUNCTclause
 ni	ni	CCONJ
-rien que	rien que	PRON
+rien que	rien que	ADV
 je	je	PRON
 aie	avoir	VERB
 ,	,	PUNCTclause
@@ -5619,14 +5619,14 @@ vigilance	vigilance	NOUN
 pour	pour	ADP
 me	me	PRON
 pousser	pousser	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 loin	loin	ADV
 que	que	SCONJ
 tout	tout	PRON
 calcul	calcul	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 près de	près de	ADP
 l'	le	DET

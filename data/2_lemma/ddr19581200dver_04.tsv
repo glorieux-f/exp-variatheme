@@ -30,7 +30,7 @@ je	je	PRON
 me	me	PRON
 risque	risquer	VERB
 à	à	ADP
-prendre la parole	prendre la parole	NOUN
+prendre la parole	prendre la parole	VERB
 ,	,	PUNCTclause
 ce	ce	DET
 matin	matin	NOUN
@@ -169,7 +169,7 @@ je	je	PRON
 placerai	placer	VERB
 tout	tout	PRON
 cela	cela	PRON
-sous le signe de	sous le signe de	PUNCT
+sous le signe de	sous le signe de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -391,7 +391,7 @@ leurs	leur	DET
 élites	élite	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-aussitôt que	aussitôt que	ADV
+aussitôt que	aussitôt que	SCONJ
 l'on	on	PRON
 prend	prendre	VERB
 garde	garde	NOUN
@@ -455,7 +455,7 @@ foyer	foyer	NOUN
 créateur	créateur	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 peut	pouvoir	VERB
 le	le	DET
 redevenir	redevenir	VERB
@@ -690,7 +690,7 @@ trouvent	trouver	VERB
 avoir	avoir	AUX
 reconnu	reconnaître	VERB
 ,	,	PUNCTclause
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 le	le	DET
@@ -1090,7 +1090,7 @@ du	du	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 le	le	DET
 capitalisme	capitalisme	NOUN
 et	et	CCONJ
@@ -1165,7 +1165,7 @@ esprit	esprit	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-la première	la première	DET
+la première	la première	PRON
 moitié	moitié	NOUN
 du	du	ADP_DET
 20e	20e	ADJ
@@ -1268,7 +1268,7 @@ plainte	plainte	NOUN
 qui	qui	PRON
 fut	être	AUX
 mise	mettre	VERB
-à la mode	à la mode	ADP
+à la mode	à la mode	ADJ
 par	par	ADP
 Bergson	Bergson	PROPN
 il y a	il y a	VERB
@@ -1475,7 +1475,7 @@ lui	lui	PRON
 .	.	PUNCTsent
 je	je	PRON
 écrivais	écrire	VERB
-au lendemain de	au lendemain de	PUNCT
+au lendemain de	au lendemain de	ADP
 Hiroshima	Hiroshima	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1850,7 +1850,7 @@ mise en garde	mise en garde	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 qui	qui	PRON
-par contre	par contre	PUNCT
+par contre	par contre	ADV
 ne	ne	ADV
 fut	être	AUX
 pas	pas	ADV
@@ -1905,8 +1905,8 @@ subite	subit	ADJ
 du	du	ADP_DET
 machinisme	machinisme	NOUN
 dès	dès	ADP
-le premier	le premier	DET
-tiers	tiers	NOUN
+le premier	le premier	PRON
+tiers	tiers	ADJ
 du	du	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
@@ -1942,7 +1942,7 @@ homme	homme	NOUN
 taylorisé	tayloriser	VERB
 ,	,	PUNCTclause
 travaillant	travailler	VERB
-à la chaîne	à la chaîne	DET
+à la chaîne	à la chaîne	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 certes	certes	ADV
@@ -2005,7 +2005,7 @@ prix	prix	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 Marx	Marx	PROPN
 peut	pouvoir	VERB
 décrire	décrire	VERB
@@ -2498,7 +2498,7 @@ se	se	PRON
 verra	voir	VERB
 fatalement	fatalement	ADV
 augmenté	augmenter	VERB
-à mesure que	à mesure que	PUNCT
+à mesure que	à mesure que	SCONJ
 se	se	PRON
 développera	développer	VERB
 l'	le	DET
@@ -2524,8 +2524,8 @@ nouveaux	nouveau	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 privée	priver	VERB
-du même coup	du même coup	ADP
-du	du	DET
+du même coup	du même coup	ADV
+du	du	ADP_DET
 droit	droit	NOUN
 de	de	ADP
 se	se	PRON
@@ -2745,7 +2745,7 @@ on	on	PRON
 a	avoir	AUX
 pu	pouvoir	VERB
 craindre	craindre	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 cette	ce	DET
 technique	technique	NOUN
 asservisse	asservir	ADP
@@ -2903,7 +2903,7 @@ les	le	DET
 Sputniks	Sputniks	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 voudra	vouloir	VERB
 donc	donc	ADV
 les	le	DET
@@ -3079,7 +3079,7 @@ est	être	AUX
 un	un	DET
 poète	poète	NOUN
 France	France	PROPN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 loufoque	loufoque	ADJ
 ,	,	PUNCTclause
 Charles	Charles	PROPN
@@ -3177,7 +3177,7 @@ et	et	CCONJ
 que	que	SCONJ
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 nous	nous	PRON
 courrons	courir	VERB
 le	le	DET
@@ -3294,10 +3294,10 @@ définir	définir	VERB
 je	je	PRON
 voudrais	vouloir	VERB
 évoquer	évoquer	VERB
-à ce propos	à ce propos	DET
-un	un	PRON
-souvenir	souvenir	VERB
-personnel	personnel	NOUN
+à ce propos	à ce propos	ADV
+un	un	DET
+souvenir	souvenir	NOUN
+personnel	personnel	ADJ
 qui	qui	PRON
 me	me	PRON
 a	avoir	AUX
@@ -3528,7 +3528,7 @@ hommes	homme	NOUN
 vivent	vivre	VERB
 et	et	CCONJ
 passent	passer	VERB
-à côté	à côté	PUNCT
+à côté	à côté	ADV
 sans	sans	ADP
 soupçonner	soupçonner	VERB
 son	son	DET
@@ -3640,7 +3640,7 @@ toute	tout	ADJ
 la	le	DET
 terre	terre	NOUN
 —	—	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 eux-mêmes	eux-mêmes	PRON
 ne	ne	ADV
 avaient	avoir	AUX
@@ -3778,7 +3778,7 @@ simplifier	simplifier	VERB
 culture	culture	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
 aurons	avoir	AUX
@@ -4248,7 +4248,7 @@ Europe	Europe	PROPN
 ,	,	PUNCTclause
 puissamment	puissamment	ADV
 développée	développer	VERB
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 par	par	ADP
 les	le	DET
 États-Unis	États-Unis	PROPN
@@ -4295,7 +4295,7 @@ et	et	CCONJ
 se	se	PRON
 connaître	connaître	VERB
 mieux	mieux	ADV
-les uns les autres	les uns les autres	DET
+les uns les autres	les uns les autres	PRON
 .	.	PUNCTsent
 on	on	PRON
 peut	pouvoir	VERB
@@ -4312,7 +4312,7 @@ nier	nier	VERB
 nous	nous	PRON
 sommes	être	AUX
 donc	donc	ADV
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 constater	constater	VERB
 que	que	SCONJ
 la	le	DET
@@ -4323,7 +4323,7 @@ devenue	devenir	VERB
 au	au	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
-la première	la première	PUNCT
+la première	la première	PRON
 civilisation	civilisation	NOUN
 effectivement	effectivement	ADV
 mondiale	mondial	ADJ
@@ -4423,7 +4423,7 @@ aujourd'hui	aujourd'hui	ADV
 contre	contre	ADP
 nous	nous	PRON
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 l'	le	DET
 Europe	Europe	PROPN
@@ -4450,7 +4450,7 @@ se	se	PRON
 unir	unir	VERB
 contre	contre	ADP
 elle	elle	PRON
-sous le signe de	sous le signe de	PUNCT
+sous le signe de	sous le signe de	ADP
 congrès	congrès	NOUN
 de	de	ADP
 Bandung	Bandung	PROPN
@@ -4497,7 +4497,7 @@ aidée	aider	VERB
 mais	mais	CCONJ
 se	se	PRON
 lassent	lasser	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ,	,	PUNCTclause
 l'	le	DET
 Europe	Europe	PROPN
@@ -4775,7 +4775,7 @@ avait	avoir	AUX
 pas	pas	ADV
 découvert	découvrir	VERB
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 vraiment	vraiment	ADV
@@ -4823,7 +4823,7 @@ techniques	technique	NOUN
 étaient	être	AUX
 en train de	en train de	ADV
 accroître	accroître	VERB
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 possible	possible	ADJ
 les	le	DET
 besoins	besoin	NOUN
@@ -4907,7 +4907,7 @@ fédérer	fédérer	VERB
 nos	nos	DET
 faiblesses	faiblesse	NOUN
 pour	pour	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 une	un	DET
 grande	grand	ADJ
 force	force	NOUN

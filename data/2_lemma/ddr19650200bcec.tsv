@@ -245,7 +245,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 —	—	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	ADP
+du moins	du moins	ADV
 les	le	DET
 produits	produit	NOUN
 matériels	matériel	ADJ
@@ -493,7 +493,7 @@ admettant	admettre	VERB
 que	que	SCONJ
 elles	elles	PRON
 sont	être	AUX
-autant de	autant de	ADP
+autant de	autant de	DET
 manifestations	manifestation	NOUN
 valables	valable	ADJ
 ,	,	PUNCTclause
@@ -501,7 +501,7 @@ précieuses	précieux	ADJ
 et	et	CCONJ
 nécessaires	nécessaire	ADJ
 ,	,	PUNCTclause
-autant de	autant de	ADP
+autant de	autant de	DET
 styles	style	NOUN
 ou	ou	CCONJ
 de	de	ADP
@@ -666,7 +666,7 @@ siècle	siècle	NOUN
 .	.	PUNCTsent
 il	il	PRON
 remet	remettre	VERB
-en question	en question	ADP
+en question	en question	ADJ
 toutes	tout	ADJ
 nos	nos	DET
 valeurs	valeur	NOUN
@@ -705,7 +705,7 @@ résoudre	résoudre	VERB
 le	le	DET
 problème	problème	NOUN
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 à	à	ADP
 définir	définir	VERB
 ses	son	DET
@@ -1034,7 +1034,7 @@ matin	matin	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-la première	la première	DET
+la première	la première	PRON
 commission	commission	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1464,7 +1464,7 @@ les	le_PRON	PRON
 tiennent	tenir	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-au fond	au fond	SCONJ
+au fond	au fond	ADV
 et	et	CCONJ
 systématiquement	systématiquement	ADV
 ,	,	PUNCTclause
@@ -1555,7 +1555,7 @@ il y a	il y a	VERB
 beaucoup	beaucoup	ADV
 à	à	ADP
 dire	dire	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 l'une	l'une	PRON
 et	et	CCONJ
 de	de	ADP
@@ -1659,7 +1659,7 @@ et	et	CCONJ
 soldats	soldat	NOUN
 les	le_PRON	PRON
 jugeaient	juger	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 enfantins	enfantin	ADJ
 …	…	PUNCTsent
 imaginez	imaginer	VERB
@@ -1735,7 +1735,7 @@ valables	valable	ADJ
 il	il	PRON
 est	être	AUX
 juste	juste	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 observer	observer	VERB
 que	que	SCONJ
 des	un	DET
@@ -1759,7 +1759,7 @@ considérées	considérer	VERB
 ,	,	PUNCTclause
 partout	partout	ADV
 et	et	CCONJ
-de tout temps	de tout temps	DET
+de tout temps	de tout temps	ADV
 ,	,	PUNCTclause
 comme	comme	SCONJ
 la	le	DET
@@ -2025,7 +2025,7 @@ tiers-monde	tiers-monde	NOUN
 mais	mais	CCONJ
 bien	bien	ADV
 plutôt	plutôt	ADV
-de mise	de mise	ADP
+de mise	de mise	ADJ
 le	le	DET
 tiers-monde	tiers-monde	NOUN
 en	en	ADP
@@ -2117,10 +2117,10 @@ vertu	vertu	NOUN
 commune	commun	ADJ
 qui	qui	PRON
 est	être	AUX
-de mise	de mise	ADP
-en question	en question	DET
-les	le_PRON	PRON
-clichés	clicher	VERB
+de mise	de mise	ADJ
+en question	en question	ADJ
+les	le	DET
+clichés	cliché	NOUN
 de	de	ADP
 l'	le	DET
 économisme	économisme	NOUN
@@ -2507,8 +2507,8 @@ et	et	CCONJ
 nous	nous	PRON
 ne	ne	ADV
 étions	être	AUX
-alors que	alors que	CCONJ
-des	un	DET
+alors que	alors que	SCONJ
+des	un	ADP_DET
 sauvages	sauvage	NOUN
 —	—	PUNCTclause
 lorsque	lorsque	SCONJ
@@ -2709,7 +2709,7 @@ son	son	DET
 âme	âme	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 au	au	ADP_DET
 mode	mode	NOUN
 de	de	ADP
@@ -2918,7 +2918,7 @@ obsède	obséder	VERB
 et	et	CCONJ
 nous	nous	PRON
 fascine	fasciner	VERB
-au point	au point	ADV
+au point	au point	ADJ
 de	de	ADP
 nous	nous	PRON
 faire	faire	AUX
@@ -2993,7 +2993,7 @@ sous-développés	sous-développé	NOUN
 car	car	CCONJ
 ,	,	PUNCTclause
 sans	sans	ADP
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 la	le	DET
 seconde	second	ADJ
@@ -3013,7 +3013,7 @@ elle	elle	PRON
 voulait	vouloir	VERB
 prévenir	prévenir	VERB
 à	à	ADP
-n'importe quels	n'importe quels	NOUN
+n'importe quels	n'importe quels	DET
 prix	prix	NOUN
 ,	,	PUNCTclause
 fût	être	AUX
@@ -3065,7 +3065,7 @@ non	non	ADV
 pas	pas	ADV
 son	son	DET
 annexe	annexe	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 honteuse	honteux	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP

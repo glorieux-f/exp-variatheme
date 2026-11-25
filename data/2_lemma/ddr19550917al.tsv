@@ -412,8 +412,8 @@ pour	pour	ADP
 deux	deux	NUM
 raisons	raison	NOUN
 dont	dont	PRON
-la première	la première	DET
-relève	relève	NOUN
+la première	la première	PRON
+relève	relever	VERB
 de	de	ADP
 la	le	DET
 simple	simple	ADJ
@@ -433,7 +433,7 @@ une	un	DET
 situation	situation	NOUN
 quelconque	quelconque	ADJ
 car	car	CCONJ
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -532,7 +532,7 @@ mais	mais	CCONJ
 elle	elle	PRON
 se	se	PRON
 pose	poser	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 irrésistiblement	irrésistiblement	ADV
 ,	,	PUNCTclause
@@ -804,10 +804,10 @@ même	même	ADJ
 de	de	ADP
 l'	le	DET
 homme	homme	NOUN
-en tant que	en tant que	CCONJ
-humain	humain	ADJ
+en tant que	en tant que	ADP
+humain	humain	NOUN
 .	.	PUNCTsent
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 je	je	PRON
 y	y	PRON
 crois	croire	VERB
@@ -1030,7 +1030,7 @@ raison d'état	raison d'état	NOUN
 elle	elle	PRON
 pose	poser	VERB
 ,	,	PUNCTclause
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 une	un	DET
 possibilité	possibilité	NOUN
@@ -1217,7 +1217,7 @@ dont	dont	PRON
 l'	le	DET
 appel	appel	NOUN
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 est	être	AUX
 de	de	ADP
@@ -1340,7 +1340,7 @@ le	le_PRON	PRON
 vois	voir	VERB
 pratiquement	pratiquement	ADV
 lié	lier	VERB
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 de	de	ADP
 ce	ce	PRON
 que	que	PRON
@@ -1504,7 +1504,7 @@ quelconque	quelconque	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-en fait	en fait	VERB
+en fait	en fait	ADV
 un	un	DET
 appel	appel	NOUN
 à	à	ADP
@@ -1539,7 +1539,7 @@ offrent	offrir	VERB
 (	(	PUNCTclause
 ou	ou	CCONJ
 feignent	feindre	VERB
-en tout cas	en tout cas	PUNCT
+en tout cas	en tout cas	ADV
 de	de	ADP
 nous	nous	PRON
 offrir	offrir	VERB

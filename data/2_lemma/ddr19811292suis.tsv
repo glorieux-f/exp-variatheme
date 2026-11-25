@@ -98,7 +98,7 @@ serait	être	AUX
 un	un	DET
 progrès	progrès	NOUN
 formidable	formidable	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elle	elle	PRON
 se	se	PRON
 appliquerait	appliquer	VERB
@@ -211,7 +211,7 @@ celui	celui	PRON
 de	de	ADP
 la	le	DET
 perte	perte	NOUN
-de mémoire	de mémoire	PUNCT
+de mémoire	de mémoire	ADV
 :	:	PUNCTclause
 à force de	à force de	ADP
 tout	tout	PRON
@@ -328,7 +328,7 @@ sécurité	sécurité	NOUN
 il	il	PRON
 faut	falloir	VERB
 bien	bien	ADV
-se rendre compte	se rendre compte	SCONJ
+se rendre compte	se rendre compte	VERB
 que	que	SCONJ
 l'	le	DET
 informatique	informatique	NOUN
@@ -338,12 +338,12 @@ système	système	NOUN
 très	très	ADV
 compliqué	compliqué	ADJ
 et	et	CCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 sujet	sujet	NOUN
 à	à	ADP
 des	un	DET
 perturbations	perturbation	NOUN
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 fréquentes	fréquent	ADJ
 .	.	PUNCTsent
 je	je	PRON
@@ -415,7 +415,7 @@ Lausanne	Lausanne	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-en cas de	en cas de	NOUN
+en cas de	en cas de	ADP
 panne	panne	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -475,7 +475,7 @@ spécialistes	spécialiste	NOUN
 on	on	PRON
 est	être	AUX
 ainsi	ainsi	ADV
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 se	se	PRON
 demander	demander	VERB
 si	si	SCONJ
@@ -562,7 +562,7 @@ fonds	fond	NOUN
 ,	,	PUNCTclause
 les	le	DET
 mises	mise	NOUN
-hors service	hors service	ADP
+hors service	hors service	ADJ
 de	de	ADP
 ordinateurs	ordinateur	NOUN
 se	se	PRON
@@ -612,7 +612,7 @@ sert	servir	VERB
 ↵↵	↵↵	PUNCTstruct
 oui	oui	INTJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 l'	le	DET
 électricité	électricité	NOUN
 ,	,	PUNCTclause
@@ -869,7 +869,7 @@ de	de	ADP
 atrophier	atrophier	VERB
 nos	nos	DET
 facultés	faculté	NOUN
-de mémoire	de mémoire	PUNCT
+de mémoire	de mémoire	ADV
 ,	,	PUNCTclause
 de	de	ADP
 jugement	jugement	NOUN
@@ -954,7 +954,7 @@ maîtres	maître	NOUN
 puisque	puisque	SCONJ
 ce	ce	PRON
 sont	être	AUX
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 les	le	DET
 maîtres	maître	NOUN
 qui	qui	PRON
@@ -1033,7 +1033,7 @@ finalité	finalité	NOUN
 leur	leur	DET
 proposer	proposer	VERB
 .	.	PUNCTsent
-par contre	par contre	NOUN
+par contre	par contre	ADV
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -1063,7 +1063,7 @@ croissante	croissant	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 disposeront	disposer	VERB
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 des	un	DET
 possibilités	possibilité	NOUN
 de	de	ADP
@@ -1102,7 +1102,7 @@ l'	le	DET
 pourriez	pouvoir	VERB
 vous	vous	PRON
 ,	,	PUNCTclause
-en conclusion	en conclusion	DET
+en conclusion	en conclusion	ADV
 ,	,	PUNCTclause
 résumer	résumer	VERB
 votre	votre	DET
@@ -1199,7 +1199,7 @@ remémorer	remémorer	VERB
 :	:	PUNCTclause
 mémoire	mémoire	NOUN
 ,	,	PUNCTclause
-aussi bien que	aussi bien que	ADV
+aussi bien que	aussi bien que	CCONJ
 instruction	instruction	NOUN
 ont	avoir	AUX
 trouvé	trouver	VERB
@@ -1356,7 +1356,7 @@ de	de	ADP
 mille	mille	NUM
 choses	chose	NOUN
 ,	,	PUNCTclause
-au lieu que	au lieu que	ADP_DET
+au lieu que	au lieu que	SCONJ
 la plupart	la plupart	PRON
 du	du	ADP_DET
 temps	temps	NOUN

@@ -137,7 +137,7 @@ car	car	CCONJ
 la	le	DET
 Suisse	Suisse	PROPN
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 —	—	PUNCTclause
 elle	elle	PRON
 est	être	AUX
@@ -161,7 +161,7 @@ même	même	ADV
 élargie	élargir	VERB
 —	—	PUNCTclause
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 —	—	PUNCTclause
 elle	elle	PRON
 est	être	AUX
@@ -184,7 +184,7 @@ corrects	correct	ADJ
 et	et	CCONJ
 défendables	défendable	ADJ
 seraient	être	AUX
-en conséquence	en conséquence	DET
+en conséquence	en conséquence	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 ou bien	ou bien	CCONJ
@@ -207,8 +207,8 @@ l'	le	DET
 Europe	Europe	PROPN
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
-le premier	le premier	DET
-titre	titre	NOUN
+le premier	le premier	PRON
+titre	titrer	VERB
 ,	,	PUNCTclause
 je	je	PRON
 aurais	avoir	AUX
@@ -229,7 +229,7 @@ dépendent	dépendre	VERB
 quant à	quant à	ADP
 leur	leur	DET
 évaluation	évaluation	NOUN
-tout au moins	tout au moins	ADJ
+tout au moins	tout au moins	ADV
 —	—	PUNCTclause
 des	un	DET
 définitions	définition	NOUN
@@ -437,8 +437,8 @@ l'	le	DET
 Europe	Europe	PROPN
 est	être	AUX
 bien	bien	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 ce	ce	PRON
 que	que	PRON
 on	on	PRON
@@ -758,7 +758,7 @@ cette	ce	DET
 identité	identité	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 façon	façon	NOUN
 que	que	SCONJ
 nos	nos	DET
@@ -1032,7 +1032,7 @@ une	un	DET
 participation	participation	NOUN
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 celle	celle	PRON
 se	se	PRON
 avérerait	avérer	VERB
@@ -1064,7 +1064,7 @@ secteurs	secteur	NOUN
 ,	,	PUNCTclause
 jusque	jusque	ADP
 à	à	ADP
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 une	un	DET
 communauté	communauté	NOUN
 politique	politique	ADJ
@@ -1173,7 +1173,7 @@ intérêts	intérêt	NOUN
 immédiats	immédiat	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV
@@ -1184,7 +1184,7 @@ quelles	quel	DET
 raisons	raison	NOUN
 il y a	il y a	VERB
 lieu	lieu	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 confiance	confiance	NOUN
 aux	au	ADP_DET
 seuls	seul	ADJ
@@ -1263,7 +1263,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 se	se	PRON
 verrait	voir	VERB
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 capable	capable	ADJ
 de	de	ADP
 se	se	PRON
@@ -1321,7 +1321,7 @@ vingt-deux	vingt-deux	NUM
 ;	;	PUNCTclause
 la	le	DET
 Suisse	Suisse	PROPN
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 déjà	déjà	ADV
 partie	partie	NOUN
 ;	;	PUNCTclause
@@ -1400,7 +1400,7 @@ que	que	SCONJ
 la	le	DET
 Suisse	Suisse	PROPN
 devrait	devoir	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 produire	produire	VERB
 un	un	DET
 effort	effort	NOUN
@@ -1885,8 +1885,8 @@ faire	faire	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 se	se	PRON
 prononcent	prononcer	VERB
 aujourd'hui	aujourd'hui	ADV
@@ -1898,7 +1898,7 @@ politologues	politologue	ADJ
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 hommes	homme	NOUN
 politiques	politique	ADJ
 responsables	responsable	ADJ
@@ -2189,7 +2189,7 @@ la	le	DET
 ,	,	PUNCTclause
 doit	devoir	VERB
 prendre	prendre	VERB
-sans plus	sans plus	PUNCT
+sans plus	sans plus	ADV
 tarder	tarder	VERB
 des	un	ADP_DET
 initiatives	initiative	NOUN
@@ -2316,7 +2316,7 @@ permettrait	permettre	VERB
 de	de	ADP
 dépasser	dépasser	VERB
 simultanément	simultanément	ADV
-par en haut	par en haut	PUNCT
+par en haut	par en haut	ADV
 et	et	CCONJ
 par en bas	par en bas	ADV
 les	le	DET
@@ -2388,7 +2388,7 @@ stato-national	stato-national	ADJ
 la	le	DET
 Suisse	Suisse	PROPN
 peut	pouvoir	VERB
-avoir recours	avoir recours	ADV
+avoir recours	avoir recours	VERB
 au	au	ADP_DET
 Conseil	Conseil	PROPN
 de	de	ADP
@@ -2491,7 +2491,7 @@ de	de	ADP
 Bruxelles	Bruxelles	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-de fait	de fait	DET
+de fait	de fait	ADJ
 face	face	NOUN
 au	au	ADP_DET
 problème	problème	NOUN
@@ -2709,8 +2709,8 @@ du	du	ADP_DET
 13e	13e	ADJ
 siècle	siècle	NOUN
 ,	,	PUNCTclause
-à contre-courant	à contre-courant	ADP
-des	un	DET
+à contre-courant	à contre-courant	ADV
+des	un	ADP_DET
 évolutions	évolution	NOUN
 de	de	ADP
 ensemble	ensemble	NOUN
@@ -2758,7 +2758,7 @@ se	se	PRON
 unifiaient	unifier	VERB
 (	(	PUNCTclause
 dans	dans	ADP
-la première	la première	DET
+la première	la première	PRON
 moitié	moitié	NOUN
 du	du	ADP_DET
 19e	19e	NUM
@@ -2832,7 +2832,7 @@ nécessaire	nécessaire	ADJ
 à	à	ADP
 l'	le	DET
 Europe	Europe	PROPN
-à condition que	à condition que	PUNCT
+à condition que	à condition que	SCONJ
 elle	elle	PRON
 reste	rester	VERB
 Suisse	Suisse	PROPN
@@ -2892,10 +2892,10 @@ aura	avoir	AUX
 été	être	AUX
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
-la première	la première	DET
+la première	la première	PRON
 figuration	figuration	NOUN
 et	et	CCONJ
 la	le	DET

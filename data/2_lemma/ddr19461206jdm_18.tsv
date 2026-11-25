@@ -115,8 +115,8 @@ au	au	ADP_DET
 sien	sien	PRON
 :	:	PUNCTclause
 car	car	CCONJ
-les mêmes	les mêmes	DET
-sort	sort	NOUN
+les mêmes	les mêmes	PRON
+sort	sortir	VERB
 paradoxal	paradoxal	ADJ
 a	avoir	AUX
 décrété	décréter	VERB
@@ -285,8 +285,8 @@ et	et	CCONJ
 que	que	SCONJ
 le	le	DET
 temps	temps	NOUN
-de fait	de fait	PUNCT
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 comptes	compte	NOUN
 est	être	AUX
 arrivé	arriver	VERB
@@ -357,8 +357,8 @@ devront	devoir	VERB
 donner	donner	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-le premier	le premier	DET
-devoir	devoir	NOUN
+le premier	le premier	PRON
+devoir	devoir	VERB
 de	de	ADP
 une	un	DET
 réserve	réserve	NOUN
@@ -415,8 +415,8 @@ les	le	DET
 de	de	ADP
 passage	passage	NOUN
 ,	,	PUNCTclause
-un peu	un peu	PUNCT
-comme	comme	ADP
+un peu	un peu	ADV
+comme	comme	SCONJ
 ces	ce	DET
 paysans	paysan	NOUN
 qui	qui	PRON
@@ -546,7 +546,7 @@ aux	au	ADP_DET
 gangsters	gangster	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de moins	rien de moins	PRON
+rien de moins	rien de moins	ADV
 Suisse	Suisse	PROPN
 que	que	SCONJ
 le	le	DET
@@ -559,7 +559,7 @@ reste	reste	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 Suisse	Suisse	PROPN
 que	que	SCONJ
 le	le	DET
@@ -571,7 +571,7 @@ tout	tout	ADJ
 ce	ce	PRON
 qui	qui	PRON
 dépasse	dépasser	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'on	on	PRON
 tolère	tolérer	VERB
 très	très	ADV
@@ -795,7 +795,7 @@ voilà	voilà	ADP
 qui	qui	PRON
 étonne	étonner	VERB
 encore	encore	ADV
-trop de	trop de	PUNCT
+trop de	trop de	DET
 braves	brave	ADJ
 gens	gens	NOUN
 ,	,	PUNCTclause
@@ -959,7 +959,7 @@ fonctionne	fonctionner	VERB
 on	on	PRON
 nous	nous	PRON
 promet	promettre	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus de	plus de	DET
 charbon	charbon	NOUN
 pour	pour	ADP
@@ -1015,7 +1015,7 @@ discute	discuter	VERB
 solennellement	solennellement	ADV
 leurs	leur	DET
 clauses	clause	NOUN
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 ils	ils	PRON
 gardaient	garder	VERB
 quelque	quelque	DET
@@ -1119,11 +1119,11 @@ une	un	DET
 époque	époque	NOUN
 qui	qui	PRON
 semble	sembler	VERB
-avoir peur	avoir peur	ADP
-que	que	PRON
+avoir peur	avoir peur	VERB
+que	que	SCONJ
 on	on	PRON
-la	le_PRON	PRON
-voie	voir	VERB
+la	le	DET
+voie	voie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -1244,7 +1244,7 @@ faire	faire	AUX
 tuer	tuer	VERB
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 précis	précis	ADJ
 désintégrer	désintégrer	VERB
 ,	,	PUNCTclause
@@ -1335,7 +1335,7 @@ de	de	ADP
 demain	demain	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 ,	,	PUNCTclause
 seront	être	AUX
 maintenues	maintenir	VERB

@@ -45,8 +45,8 @@ M.	M.	NOUN
 Sartre	Sartre	PROPN
 publie	publier	VERB
 dans	dans	ADP
-la même	la même	DET
-revue	revue	NOUN
+la même	la même	PRON
+revue	revoir	VERB
 119	119	NUM
 pages	page	NOUN
 pour	pour	ADP
@@ -198,9 +198,9 @@ a	avoir	AUX
 fait	faire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en résumé	en résumé	DET
+en résumé	en résumé	ADV
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 a	avoir	AUX
 tort	tort	NOUN
 ,	,	PUNCTclause
@@ -302,7 +302,7 @@ leur	leur	PRON
 ôte	ôter	VERB
 le	le	DET
 droit	droit	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 reproche	reprocher	VERB
 à	à	ADP
 Sartre	Sartre	PROPN
@@ -541,7 +541,7 @@ adopter	adopter	VERB
 ses	son	DET
 objectifs	objectif	NOUN
 ;	;	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 on	on	PRON
 juge	juger	VERB
@@ -772,7 +772,7 @@ groupuscules	groupuscule	NOUN
 qui	qui	PRON
 se	se	PRON
 réclament	réclamer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 du	du	ADP_DET
 socialisme	socialisme	NOUN
 .	.	PUNCTsent
@@ -806,7 +806,7 @@ deux	deux	NUM
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 Sartre	Sartre	PROPN
 écrivait	écrire	VERB
 naguère	naguère	ADV
@@ -862,7 +862,7 @@ qui	qui	PRON
 font	faire	VERB
 douze	douze	NUM
 pages	page	NOUN
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 .	.	PUNCTsent
 si	si	SCONJ
 ce	ce	PRON
@@ -956,7 +956,7 @@ lassant	lassant	ADJ
 de	de	ADP
 toujours	toujours	ADV
 répéter	répéter	VERB
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1035,8 +1035,8 @@ bien	bien	ADV
 élevé	élevé	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-par-dessus le marché	par-dessus le marché	NOUN
-un	un	PRON
+par-dessus le marché	par-dessus le marché	ADV
+un	un	DET
 Suisse	Suisse	PROPN
 :	:	PUNCTclause
 le	le	DET
@@ -1199,7 +1199,7 @@ de	de	ADP
 cette	ce	DET
 chronique	chronique	NOUN
 .	.	PUNCTsent
-au fait	au fait	ADP_DET
+au fait	au fait	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 serait	être	AUX
@@ -1308,7 +1308,7 @@ parlementarisme	parlementarisme	NOUN
 il	il	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
-être question de	être question de	ADP
+être question de	être question de	VERB
 l'	le	DET
 utilisation	utilisation	NOUN
 des	un	ADP_DET
@@ -1346,7 +1346,7 @@ une	un	DET
 tolérance	tolérance	NOUN
 paradoxale	paradoxal	ADJ
 .	.	PUNCTsent
-au mieux	au mieux	ADP_DET
+au mieux	au mieux	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 constitue	constituer	VERB
@@ -1418,7 +1418,7 @@ défense	défense	NOUN
 des	un	ADP_DET
 exploités	exploité	NOUN
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 chacun	chacun	PRON
 peut	pouvoir	VERB
@@ -1447,7 +1447,7 @@ France	France	PROPN
 il	il	PRON
 ne	ne	ADV
 est	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 le	le	DET
 parti	parti	NOUN
 privilégié	privilégié	ADJ
@@ -1496,12 +1496,12 @@ serait	être	AUX
 il	il	PRON
 pas	pas	ADV
 temps	temps	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 respecter	respecter	VERB
 les	le	DET
 règles	règle	NOUN
 et	et	CCONJ
-de mise	de mise	ADP
+de mise	de mise	ADJ
 fin	fin	NOUN
 au	au	ADP_DET
 privilège	privilège	NOUN
@@ -1601,7 +1601,7 @@ les	le	DET
 caisses	caisse	NOUN
 municipales	municipal	ADJ
 .	.	PUNCTsent
-en bref	en bref	INTJ
+en bref	en bref	ADV
 ,	,	PUNCTclause
 Suzanne	Suzanne	PROPN
 Labin	Labin	PROPN
@@ -1819,8 +1819,8 @@ la	le	DET
 forme	forme	NOUN
 dialoguée	dialoguer	VERB
 permet	permettre	VERB
-de mise	de mise	DET
-en	en	PRON
+de mise	de mise	ADJ
+en	en	ADP
 relief	relief	NOUN
 toutes	tout	ADJ
 les	le	DET
@@ -1925,7 +1925,7 @@ du	du	ADP_DET
 livre	livre	NOUN
 ,	,	PUNCTclause
 serait	être	AUX
-à tous égards	à tous égards	DET
+à tous égards	à tous égards	ADV
 plus	plus	ADV
 efficace	efficace	ADJ
 .	.	PUNCTsent

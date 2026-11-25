@@ -181,7 +181,7 @@ son	son	DET
 créateur	créateur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tant et si bien que	tant et si bien que	ADP
+tant et si bien que	tant et si bien que	SCONJ
 presque	presque	ADV
 tout	tout	PRON
 le	le_PRON	PRON
@@ -314,7 +314,7 @@ une	un	DET
 même	même	ADJ
 activité	activité	NOUN
 parlait	parler	VERB
-la même	la même	DET
+la même	la même	PRON
 langue	langue	NOUN
 ,	,	PUNCTclause
 p.	p.	PUNCT
@@ -354,11 +354,11 @@ operantibus	operantibus	ADJ
 )	)	PUNCTclause
 .	.	PUNCTsent
 mais	mais	CCONJ
-autant de	autant de	ADP
+autant de	autant de	DET
 activités	activité	NOUN
 variées	varié	ADJ
 ,	,	PUNCTclause
-autant de	autant de	ADP
+autant de	autant de	DET
 idiomes	idiome	NOUN
 différents	différent	ADJ
 divisant	diviser	VERB
@@ -414,7 +414,7 @@ et	et	CCONJ
 se	se	PRON
 étaient	être	AUX
 tenus	tenir	VERB
-à l'écart	à l'écart	PUNCT
+à l'écart	à l'écart	ADV
 ,	,	PUNCTclause
 couvrant	couvrir	VERB
 de	de	ADP
@@ -901,7 +901,7 @@ qui	qui	PRON
 se	se	PRON
 ignoraient	ignorer	VERB
 jadis	jadis	ADV
-au point que	au point que	PUNCT
+au point que	au point que	SCONJ
 un	un	DET
 homme	homme	NOUN
 de	de	ADP
@@ -923,7 +923,7 @@ déjà	déjà	ADV
 l'	le	DET
 intégration	intégration	NOUN
 est	être	AUX
-à la mode	à la mode	DET
+à la mode	à la mode	ADJ
 .	.	PUNCTsent
 demain	demain	ADV
 ce	ce	PRON
@@ -935,7 +935,7 @@ universel	universel	ADJ
 après	après	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 conflits	conflit	NOUN
 peut-être	peut-être	ADV
 atroces	atroce	ADJ
@@ -1074,7 +1074,7 @@ union	union	NOUN
 uniformisation	uniformisation	NOUN
 …	…	PUNCTsent
 voilà	voilà	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 mouvement	mouvement	NOUN
 ,	,	PUNCTclause
 mondial	mondial	ADJ
@@ -1387,13 +1387,13 @@ monde	monde	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 cette	ce	DET
 culture	culture	NOUN
 se	se	PRON
 mondialise	mondialiser	VERB
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 partout	partout	ADV
 on	on	PRON
 exige	exiger	VERB
@@ -1500,7 +1500,7 @@ nos	nos	DET
 universités	université	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 ici	ici	ADV
 de	de	ADP
@@ -1511,7 +1511,7 @@ parler	parler	VERB
 :	:	PUNCTclause
 nous	nous	PRON
 assistons	assister	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 à	à	ADP
 une	un	DET
 double	double	ADJ
@@ -1636,7 +1636,7 @@ vitesse	vitesse	NOUN
 croissante	croissant	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
-autant de	autant de	PRON
+autant de	autant de	DET
 galaxies	galaxie	NOUN
 dans	dans	ADP
 le	le	DET
@@ -1680,7 +1680,7 @@ multiplicité	multiplicité	NOUN
 de	de	ADP
 langages	langage	NOUN
 spéciaux	spécial	ADJ
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 traduisibles	traduisible	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1877,7 +1877,7 @@ sont	être	AUX
 plus	plus	ADV
 guère	guère	ADV
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 que	que	PRON
 des	un	DET
@@ -1956,7 +1956,7 @@ vivant	vivre	VERB
 regardons	regarder	VERB
 cela	cela	PRON
 de	de	ADP
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 près	près	ADV
 .	.	PUNCTsent
@@ -2144,7 +2144,7 @@ images	image	NOUN
 sont	être	AUX
 probablement	probablement	ADV
 vraies	vrai	ADJ
-en gros	en gros	PUNCT
+en gros	en gros	ADV
 dans	dans	ADP
 le	le	DET
 domaine	domaine	NOUN
@@ -2203,7 +2203,7 @@ rien	rien	PRON
 de	de	ADP
 rassurant	rassurer	VERB
 ,	,	PUNCTclause
-tout au contraire	tout au contraire	ADJ
+tout au contraire	tout au contraire	ADV
 :	:	PUNCTclause
 elle	elle	PRON
 accroît	accroître	VERB
@@ -2400,7 +2400,7 @@ physicien	physicien	NOUN
 ne	ne	ADV
 serait	être	AUX
 plus	plus	ADV
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 le	le	DET
 juger	juger	VERB
 comme	comme	ADP
@@ -2623,7 +2623,7 @@ les	le	DET
 rites	rite	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 aux yeux de	aux yeux de	ADP
@@ -2838,7 +2838,7 @@ tout	tout	PRON
 instant	instant	ADJ
 être	être	AUX
 mises	miser	VERB
-en question	en question	PUNCT
+en question	en question	ADJ
 ,	,	PUNCTclause
 radicalement	radicalement	ADV
 ,	,	PUNCTclause
@@ -2870,7 +2870,7 @@ ne	ne	ADV
 être	être	AUX
 peut-être	peut-être	ADV
 plus	plus	ADV
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 vraies	vrai	ADJ
 —	—	PUNCTclause
 mais	mais	CCONJ
@@ -3070,7 +3070,7 @@ telle	tel	DET
 question	question	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 sans doute	sans doute	ADV
 on	on	PRON
 la	le_PRON	PRON
@@ -3209,7 +3209,7 @@ gênante	gênant	ADJ
 car	car	CCONJ
 nous	nous	PRON
 voici	voici	ADP
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 armés	armer	VERB
 pour	pour	ADP
 y	y	PRON
@@ -3372,7 +3372,7 @@ au	au	ADP_DET
 13e	13e	NUM
 siècle	siècle	NOUN
 —	—	PUNCTclause
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 justement	justement	ADV
 qui	qui	PRON
 a	avoir	AUX
@@ -3497,7 +3497,7 @@ ne	ne	ADV
 existe	exister	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 sagesse	sagesse	NOUN
 spirituelle	spirituel	ADJ
@@ -3510,7 +3510,7 @@ esthétique	esthétique	ADJ
 sont	être	AUX
 réglées	régler	VERB
 par	par	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 lois	loi	NOUN
 et	et	CCONJ
 ne	ne	ADV
@@ -3620,7 +3620,7 @@ de	de	ADP
 vue	vue	NOUN
 ou	ou	CCONJ
 remise	remise	NOUN
-en question	en question	PUNCT
+en question	en question	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
@@ -3758,7 +3758,7 @@ l'	le	DET
 Occident	Occident	PROPN
 christianisé	christianiser	VERB
 —	—	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 est	être	AUX
 clair	clair	ADJ
@@ -4099,7 +4099,7 @@ Europe	Europe	PROPN
 seule	seul	ADJ
 me	me	PRON
 paraît	paraître	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 résoudre	résoudre	VERB
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
@@ -4217,7 +4217,7 @@ concevables.	concevables.	NOUN
 ↵↵	↵↵	PUNCTstruct
 a	avoir	VERB
 )	)	PUNCTclause
-la première	la première	PUNCT
+la première	la première	PRON
 ,	,	PUNCTclause
 souvent	souvent	ADV
 proposée	proposer	VERB
@@ -4493,7 +4493,7 @@ trouver	trouver	VERB
 celui	celui	PRON
 exorbitant	exorbitant	ADJ
 :	:	PUNCTclause
-perdre de vue	perdre de vue	PUNCT
+perdre de vue	perdre de vue	VERB
 l'	le	DET
 ensemble	ensemble	NOUN
 humain	humain	ADJ
@@ -4538,7 +4538,7 @@ son	son	DET
 âme	âme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 la	le	DET
 spécialisation	spécialisation	NOUN
 dans	dans	ADP
@@ -4593,7 +4593,7 @@ faut	falloir	VERB
 donc	donc	ADV
 la	le	DET
 chercher	chercher	VERB
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 :	:	PUNCTclause
 accepter	accepter	VERB
 le	le	DET
@@ -4760,7 +4760,7 @@ des	un	DET
 électroniciens	électronicien	NOUN
 puisent	puiser	VERB
 dans	dans	ADP
-la même	la même	DET
+la même	la même	PRON
 théorie	théorie	NOUN
 saussurienne	saussurien	ADJ
 les	le	DET
@@ -4941,14 +4941,14 @@ l'	le	DET
 adolescence	adolescence	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 les	le	DET
 choses	chose	NOUN
 particulières	particulier	ADJ
 ,	,	PUNCTclause
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 Dieu	Dieu	PROPN
@@ -5003,7 +5003,7 @@ sûrement	sûrement	ADV
 au	au	ADP_DET
 général	général	NOUN
 ou	ou	CCONJ
-tout au moins	tout au moins	NOUN
+tout au moins	tout au moins	ADV
 au	au	ADP_DET
 seuil	seuil	NOUN
 des	un	ADP_DET
@@ -5072,7 +5072,7 @@ que	que	SCONJ
 dans	dans	ADP
 leurs	leur	DET
 implications	implication	NOUN
-jusqu'alors	jusqu'alors	ADP
+jusqu'alors	jusqu'alors	ADV
 inaperçues	inaperçu	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5191,7 +5191,7 @@ réponses	réponse	NOUN
 ,	,	PUNCTclause
 le	le	DET
 dialogue	dialogue	NOUN
-en un mot	en un mot	ADP_DET
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -5252,7 +5252,7 @@ ce	ce	PRON
 qui	qui	PRON
 importe	importer	VERB
 ,	,	PUNCTclause
-ce n'est pas que	ce n'est pas que	PRON
+ce n'est pas que	ce n'est pas que	SCONJ
 la	le	DET
 synthèse	synthèse	NOUN
 se	se	PRON
@@ -5418,8 +5418,8 @@ qui	qui	PRON
 prouveront	prouver	VERB
 leur	leur	DET
 excellence	excellence	NOUN
-en tant que	en tant que	CCONJ
-tels	tel	PRON
+en tant que	en tant que	ADP
+tels	tel	DET
 par le fait même	par le fait même	ADV
 que	que	SCONJ
 ils	ils	PRON
@@ -5491,7 +5491,7 @@ si	si	SCONJ
 nous	nous	PRON
 voulons	vouloir	VERB
 tenter	tenter	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 face	face	NOUN
 au	au	ADP_DET
 problème	problème	NOUN
@@ -5553,7 +5553,7 @@ efficacité	efficacité	NOUN
 pédagogique	pédagogique	ADJ
 ,	,	PUNCTclause
 menacées	menacer	VERB
-l'une et l'autre	l'une et l'autre	DET
+l'une et l'autre	l'une et l'autre	PRON
 par	par	ADP
 des	un	DET
 facteurs	facteur	NOUN
@@ -5563,7 +5563,7 @@ irréversibles	irréversible	ADJ
 serait	être	AUX
 de	de	ADP
 multiplier	multiplier	VERB
-sans plus	sans plus	ADP
+sans plus	sans plus	ADV
 tarder	tarder	VERB
 le	le	DET
 nombre	nombre	NOUN
@@ -5724,7 +5724,7 @@ proximité	proximité	NOUN
 —	—	PUNCTclause
 mais	mais	CCONJ
 aussi	aussi	ADV
-au maximum	au maximum	NOUN
+au maximum	au maximum	ADV
 du	du	ADP_DET
 pouvoir	pouvoir	NOUN
 créateur	créateur	NOUN
@@ -5770,7 +5770,7 @@ se	se	PRON
 fonde	fonder	VERB
 sur	sur	ADP
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 prix Nobel	prix Nobel	NOUN
 de	de	ADP
 sciences	science	NOUN
@@ -6251,7 +6251,7 @@ colloques	colloque	NOUN
 restreints	restreindre	VERB
 ,	,	PUNCTclause
 groupant	grouper	VERB
-au maximum	au maximum	ADP_DET
+au maximum	au maximum	ADV
 20	20	NUM
 personnes	personne	NOUN
 ,	,	PUNCTclause
@@ -6335,7 +6335,7 @@ ne	ne	ADV
 peuvent	pouvoir	VERB
 appartenir	appartenir	VERB
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 spécialité	spécialité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -6383,7 +6383,7 @@ des	un	ADP_DET
 sujets	sujet	NOUN
 que	que	PRON
 ,	,	PUNCTclause
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 serais	être	AUX
@@ -6442,7 +6442,7 @@ de	de	ADP
 l'	le	DET
 unité	unité	NOUN
 culturelle	culturel	ADJ
-en question	en question	PUNCT
+en question	en question	ADJ
 .	.	PUNCTsent
 le	le	DET
 problème	problème	NOUN
@@ -6740,7 +6740,7 @@ certes	certes	ADV
 ,	,	PUNCTclause
 l'on	on	PRON
 étudie	étudier	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 le	le	DET
 marché	marché	NOUN
@@ -6913,8 +6913,8 @@ recyclage	recyclage	NOUN
 et	et	CCONJ
 de	de	ADP
 remise	remise	NOUN
-en question	en question	ADP
-générale	général	NOUN
+en question	en question	ADJ
+générale	général	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -7060,7 +7060,7 @@ ce	ce	PRON
 dont	dont	PRON
 on	on	PRON
 parle	parler	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 ,	,	PUNCTclause
 plus ou moins	plus ou moins	ADV

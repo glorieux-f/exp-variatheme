@@ -495,7 +495,7 @@ la	le	DET
 source	source	NOUN
 celtique	celtique	ADJ
 .	.	PUNCTsent
-la première	la première	NOUN
+la première	la première	PRON
 apportant	apporter	VERB
 le	le	DET
 droit	droit	NOUN
@@ -662,7 +662,7 @@ l'	le	DET
 Anglo-Normand	Anglo-Normand	PROPN
 Béroul	Béroul	PROPN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ils	ils	PRON
 sont	être	AUX
 de	de	ADP
@@ -877,7 +877,7 @@ unité	unité	NOUN
 de	de	ADP
 culture	culture	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 assez	assez	ADV
 consistante	consistant	ADJ
 pour	pour	ADP
@@ -990,7 +990,7 @@ supprimé	supprimer	VERB
 ces	ce	DET
 différences	différence	NOUN
 ,	,	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 l'	le	DET
 école	école	NOUN
 et	et	CCONJ
@@ -1026,7 +1026,7 @@ grecs	grec	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 un	un	DET
 suédois	suédois	NOUN
 lisant	lire	VERB
@@ -1052,26 +1052,26 @@ y	y	PRON
 prendront	prendre	VERB
 très	très	ADV
 probablement	probablement	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 plaisir	plaisir	NOUN
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 ils	ils	PRON
 y	y	PRON
 reconnaîtront	reconnaître	VERB
-les mêmes	les mêmes	DET
-passions	passion	NOUN
+les mêmes	les mêmes	PRON
+passions	passer	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 espoirs	espoir	NOUN
 et	et	CCONJ
-les mêmes	les mêmes	DET
-doutes	doute	NOUN
+les mêmes	les mêmes	PRON
+doutes	douter	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 mythes	mythe	NOUN
 ou	ou	CCONJ
-la même	la même	DET
+la même	la même	PRON
 foi	foi	NOUN
 dominant	dominer	VERB
 l'	le	DET
@@ -1146,7 +1146,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 commun	commun	ADJ
 à	à	ADP
 tous	tout	ADJ
@@ -1281,7 +1281,7 @@ Constantinople	Constantinople	PROPN
 et	et	CCONJ
 plus	plus	ADV
 encore	encore	ADV
-au lendemain de	au lendemain de	ADP_DET
+au lendemain de	au lendemain de	ADP
 grandes	grand	ADJ
 découvertes	découverte	NOUN
 .	.	PUNCTsent
@@ -1397,9 +1397,9 @@ nationalisent	nationaliser	VERB
 »	»	PUNCTclause
 une	un	DET
 langue	langue	NOUN
-jusqu'alors	jusqu'alors	ADP
+jusqu'alors	jusqu'alors	ADV
 multiforme	multiforme	ADJ
-au gré de	au gré de	PUNCT
+au gré de	au gré de	ADP
 diversités	diversité	NOUN
 provinciales	provincial	ADJ
 .	.	PUNCTsent
@@ -1432,7 +1432,7 @@ janvier	janvier	NOUN
 la	le	DET
 Constituante	Constituante	PROPN
 décide	décider	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 traduire	traduire	VERB
 les	le	DET
 nouvelles	nouveau	ADJ
@@ -1570,8 +1570,8 @@ France	France	PROPN
 (	(	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-plus de	plus de	PUNCT
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 de	de	ADP
 la	le	DET
@@ -1949,7 +1949,7 @@ elles	elles	PRON
 ne	ne	ADV
 existent	exister	VERB
 que	que	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 enseignées	enseigner	VERB
 .	.	PUNCTsent
 si	si	SCONJ
@@ -2054,8 +2054,8 @@ cours	cours	NOUN
 éclairées	éclairé	ADJ
 »	»	PUNCTclause
 ou	ou	CCONJ
-un peu	un peu	DET
-folles	fou	NOUN
+un peu	un peu	ADV
+folles	fou	ADJ
 ,	,	PUNCTclause
 sociétés	société	NOUN
 de	de	ADP
@@ -2363,10 +2363,10 @@ la	le	DET
 scène	scène	NOUN
 universitaire	universitaire	ADJ
 anglo-saxonne	anglo-saxon	ADJ
-sous le nom de	sous le nom de	PUNCT
-logical	logical	ADJ
-positivism	positivism	NOUN
-que	que	PRON
+sous le nom de	sous le nom de	ADP
+logical	logical	NOUN
+positivism	positivism	VERB
+que	que	SCONJ
 lui	lui	PRON
 donnera	donner	VERB
 son	son	DET
@@ -2435,7 +2435,7 @@ une	un	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 Paris	Paris	PROPN
@@ -2573,7 +2573,7 @@ en deçà	en deçà	ADV
 et	et	CCONJ
 la	le	DET
 fédération	fédération	NOUN
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 cadres	cadre	NOUN
 stato-national	stato-national	ADJ
 :	:	PUNCTclause

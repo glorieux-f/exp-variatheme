@@ -96,7 +96,7 @@ et	et	CCONJ
 chaque	chaque	DET
 jour	jour	NOUN
 prête	prêt	ADJ
-au pire	au pire	PUNCT
+au pire	au pire	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 survit	survivre	VERB
@@ -154,7 +154,7 @@ a	avoir	AUX
 réussi	réussir	VERB
 ce	ce	DET
 tour	tour	NOUN
-de force	de force	PUNCT
+de force	de force	ADV
 qui	qui	PRON
 consiste	consister	VERB
 ,	,	PUNCTclause
@@ -174,7 +174,7 @@ vit	vivre	VERB
 .	.	PUNCTsent
 vivre	vivre	VERB
 fait	faire	VERB
-moins de	moins de	NOUN
+moins de	moins de	DET
 bruit	bruit	NOUN
 que	que	SCONJ
 mourir	mourir	VERB
@@ -231,7 +231,7 @@ lorsque	lorsque	SCONJ
 il	il	PRON
 se	se	PRON
 agira	agir	VERB
-moins de	moins de	PUNCT
+moins de	moins de	DET
 mourir	mourir	VERB
 ou	ou	CCONJ
 de	de	ADP
@@ -299,7 +299,7 @@ secrets	secret	ADJ
 de	de	ADP
 Goering	Goering	PROPN
 sont	être	AUX
-à l'abri	à l'abri	PRON
+à l'abri	à l'abri	ADV
 dans	dans	ADP
 les	le	DET
 banques	banque	NOUN
@@ -620,9 +620,9 @@ famille	famille	NOUN
 Suisse	Suisse	PROPN
 de	de	ADP
 conserver	conserver	VERB
-en tout	en tout	DET
+en tout	en tout	ADV
 temps	temps	NOUN
-des	un	DET
+des	un	ADP_DET
 provisions	provision	NOUN
 pour	pour	ADP
 deux	deux	NUM
@@ -648,7 +648,7 @@ les	le	DET
 états	état	NOUN
 voisins	voisin	ADJ
 que	que	SCONJ
-en cas de	en cas de	DET
+en cas de	en cas de	ADP
 violation	violation	NOUN
 de	de	ADP
 la	le	DET
@@ -687,7 +687,7 @@ bombardements	bombardement	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
 il y a	il y a	VERB
-plus de	plus de	PUNCT
+plus de	plus de	DET
 cent	cent	NUM
 mille	mille	NUM
 Allemagne	Allemagne	PROPN
@@ -728,9 +728,9 @@ on	on	PRON
 le	le_PRON	PRON
 vit	vivre	VERB
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
-au début	au début	NOUN
+au début	au début	ADV
 de	de	ADP
 septembre	septembre	NOUN
 1939	1939	NUM
@@ -1171,7 +1171,7 @@ pour	pour	ADP
 tous	tous	PRON
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 empereur	empereur	NOUN
 conféra	conférer	VERB
@@ -1409,7 +1409,7 @@ réduit	réduit	NOUN
 national	national	ADJ
 prévoit	prévoir	VERB
 que	que	SCONJ
-en cas de	en cas de	DET
+en cas de	en cas de	ADP
 agression	agression	NOUN
 contre	contre	ADP
 la	le	DET
@@ -1564,7 +1564,7 @@ Suisse	Suisse	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
 la	le	DET
@@ -2044,7 +2044,7 @@ même	même	ADJ
 et	et	CCONJ
 encadrées	encadrer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -2243,7 +2243,7 @@ la	le	DET
 paix	paix	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 solution	solution	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -2536,7 +2536,7 @@ homogène	homogène	ADJ
 ,	,	PUNCTclause
 laquelle	laquelle	PRON
 domine	dominer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 nos	nos	DET
 habitudes	habitude	NOUN
 intellectuelles	intellectuel	ADJ
@@ -2978,7 +2978,7 @@ oubliaient	oublier	VERB
 ces	ce	DET
 querelles	querelle	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 États-Unis	États-Unis	PROPN
 sera	être	AUX
@@ -3518,7 +3518,7 @@ de	de	ADP
 deux	deux	NUM
 économies	économie	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 elle	elle	PRON
 passe	passer	VERB
 au beau milieu de	au beau milieu de	ADP
@@ -3649,9 +3649,9 @@ concluez	conclure	VERB
 «	«	PUNCTclause
 messieurs	monsieur	NOUN
 ,	,	PUNCTclause
-si vous voulez	si vous voulez	PRON
+si vous voulez	si vous voulez	ADV
 faire	faire	VERB
-des	un	DET
+des	un	ADP_DET
 États-Unis	États-Unis	PROPN
 de	de	ADP
 Europe	Europe	PROPN
@@ -3711,7 +3711,7 @@ frontières	frontière	NOUN
 ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 .	.	PUNCTsent
 cessez	cesser	VERB
 de	de	ADP

@@ -70,7 +70,7 @@ cela	cela	PRON
 se	se	PRON
 situe	situer	VERB
 tout	tout	ADV
-à la fin	à la fin	SYM
+à la fin	à la fin	ADV
 du	du	ADP_DET
 deuxième	deuxième	ADJ
 tiers	tiers	NOUN
@@ -82,10 +82,10 @@ notre	notre	DET
 avant que	avant que	SCONJ
 se	se	PRON
 noue	nouer	VERB
-le premier	le premier	ADP
-germe	germe	NOUN
+le premier	le premier	PRON
+germe	germer	VERB
 de	de	ADP
-ce	ce	DET
+ce	ce	PRON
 qui	qui	PRON
 deviendra	devenir	VERB
 ,	,	PUNCTclause
@@ -250,7 +250,7 @@ traces	trace	NOUN
 monumentales	monumental	ADJ
 restent	rester	VERB
 visibles	visible	ADJ
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 cependant	cependant	ADV
@@ -270,7 +270,7 @@ présente	présenter	VERB
 Philippe	Philippe	PROPN
 le	le	DET
 Bel	Bel	PROPN
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 plan	plan	NOUN
 connu	connaître	VERB
 de	de	ADP
@@ -291,7 +291,7 @@ fédérer	fédérer	VERB
 un	un	DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 royaumes	royaume	NOUN
 ,	,	PUNCTclause
 principautés	principauté	NOUN
@@ -362,7 +362,7 @@ de	de	ADP
 cette	ce	DET
 région	région	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 «	«	PUNCTclause
 Suisse	Suisse	PROPN
 »	»	PUNCTclause
@@ -373,10 +373,10 @@ elle	elle	PRON
 pas	pas	ADV
 bien	bien	ADV
 d'autres	d'autre	PRON
-point de départ	point de départ	PUNCT
+point de départ	point de départ	NOUN
 possibles	possible	ADJ
 ,	,	PUNCTclause
-pour le moins	pour le moins	ADP
+pour le moins	pour le moins	ADV
 aussi	aussi	ADV
 convaincants	convaincant	ADJ
 que	que	SCONJ
@@ -395,7 +395,7 @@ grande	grand	ADJ
 part	part	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-de tout temps	de tout temps	ADP
+de tout temps	de tout temps	ADV
 la	le	DET
 plus	plus	ADV
 peuplée	peupler	VERB
@@ -479,7 +479,7 @@ quitter	quitter	VERB
 leur	leur	DET
 pays	pays	NOUN
 et	et	CCONJ
-de fait	de fait	NOUN
+de fait	de fait	ADJ
 de	de	ADP
 la	le	DET
 Gaule	Gaule	PROPN
@@ -573,7 +573,7 @@ avec	avec	ADP
 ses	son	DET
 légions	légion	NOUN
 levées	lever	VERB
-à la hâte	à la hâte	PUNCT
+à la hâte	à la hâte	ADV
 ,	,	PUNCTclause
 les	le	DET
 rejoint	rejoindre	VERB
@@ -607,7 +607,7 @@ Helvètes	Helvètes	PROPN
 auraient	avoir	AUX
 ils	ils	PRON
 fondé	fonder	VERB
-la première	la première	DET
+la première	la première	PRON
 Suisse	Suisse	PROPN
 bien	bien	ADV
 définie	définir	VERB
@@ -720,7 +720,7 @@ comme	comme	ADP
 devait	devoir	VERB
 l'	le	DET
 être	être	AUX
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 la	le	DET
 Rhétie	Rhétie	PROPN
@@ -832,9 +832,9 @@ siècle	siècle	NOUN
 sur	sur	ADP
 les	le	DET
 ruines	ruine	NOUN
-en partie	en partie	ADP
+en partie	en partie	ADV
 désertées	déserter	VERB
-des	un	DET
+des	un	ADP_DET
 villes	ville	NOUN
 et	et	CCONJ
 des	un	DET
@@ -1466,7 +1466,7 @@ incertaine	incertain	ADJ
 ,	,	PUNCTclause
 va	aller	VERB
 séparer	séparer	VERB
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 —	—	PUNCTclause
 cette fois-là	cette fois ci	PRON
 pour	pour	ADP
@@ -1804,7 +1804,7 @@ les	le	DET
 Habsbourg	Habsbourg	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 étendront	étendre	VERB
@@ -1979,7 +1979,7 @@ rappeler	rappeler	VERB
 la	le	DET
 succession	succession	NOUN
 furent	être	AUX
-autant de	autant de	PUNCT
+autant de	autant de	DET
 «	«	PUNCTclause
 Suisse	Suisse	PROPN
 »	»	PUNCTclause
@@ -2042,7 +2042,7 @@ domaine	domaine	NOUN
 des	un	ADP_DET
 Habsbourg	Habsbourg	PROPN
 :	:	PUNCTclause
-autant de	autant de	PUNCT
+autant de	autant de	DET
 origines	origine	NOUN
 éligibles	éligible	ADJ
 .	.	PUNCTsent
@@ -2097,7 +2097,7 @@ Schwyz	Schwyz	PROPN
 et	et	CCONJ
 de	de	ADP
 Nidwald	Nidwald	PROPN
-aux environs de	aux environs de	ADP_DET
+aux environs de	aux environs de	ADP
 1300	1300	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2258,7 +2258,7 @@ remonter	remonter	VERB
 ces	ce	DET
 données	donnée	NOUN
 premières	premier	ADJ
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 expliquer	expliquer	VERB
 notre	notre	DET
 civisme	civisme	NOUN
@@ -2505,7 +2505,7 @@ Airolo	Airolo	PROPN
 ne	ne	ADV
 a	avoir	AUX
 jamais	jamais	ADV
-moins de	moins de	PRON
+moins de	moins de	DET
 dix	dix	NUM
 pieds	pied	NOUN
 de	de	ADP
@@ -2557,7 +2557,7 @@ ce	ce	PRON
 lieu	lieu	NOUN
 remarquable	remarquable	ADJ
 qui	qui	PRON
-de tout temps	de tout temps	PUNCT
+de tout temps	de tout temps	ADV
 a	avoir	AUX
 fasciné	fasciner	VERB
 les	le	DET
@@ -3394,7 +3394,7 @@ protection	protection	NOUN
 spéciale	spécial	ADJ
 .	.	PUNCTsent
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 deux	deux	NUM
@@ -3636,7 +3636,7 @@ trois	trois	NUM
 communautés	communauté	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 chaque	chaque	DET

@@ -155,7 +155,7 @@ les	le	DET
 devoirs	devoir	NOUN
 se	se	PRON
 appuient	appuyer	VERB
-l'un l'autre	l'un l'autre	PUNCT
+l'un l'autre	l'un l'autre	PRON
 ,	,	PUNCTclause
 où	où	PRON
 l'	le	DET
@@ -258,7 +258,7 @@ locaux	local	ADJ
 ,	,	PUNCTclause
 le	le	DET
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 autorités	autorité	NOUN
 différentes	différent	ADJ
 qui	qui	PRON
@@ -329,7 +329,7 @@ de	de	ADP
 race	race	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 .	.	PUNCTsent
 une	un	DET
 troisième	troisième	ADJ
@@ -564,7 +564,7 @@ voisin	voisin	ADJ
 qui	qui	PRON
 serait	être	AUX
 tenté	tenter	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 main	main	NOUN
 basse	bas	ADJ
 sur	sur	ADP
@@ -1248,7 +1248,7 @@ universitas	universitas	PRON
 désigne	désigner	VERB
 toujours	toujours	ADV
 ,	,	PUNCTclause
-à l'époque	à l'époque	DET
+à l'époque	à l'époque	ADV
 ,	,	PUNCTclause
 un	un	DET
 corps	corps	NOUN
@@ -1256,7 +1256,7 @@ corps	corps	NOUN
 on	on	PRON
 le	le_PRON	PRON
 traduisait	traduire	VERB
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 en	en	ADP
 France	France	PROPN
 par	par	ADP
@@ -1337,7 +1337,7 @@ universitas	universitas	NOUN
 ne	ne	ADV
 désignera	désigner	VERB
 plus	plus	ADV
-n'importe quelle	n'importe quelle	ADJ
+n'importe quelle	n'importe quelle	DET
 espèce	espèce	NOUN
 de	de	ADP
 communauté	communauté	NOUN
@@ -1439,7 +1439,7 @@ impériale	impérial	ADJ
 ce	ce	PRON
 est	être	AUX
 exactement	exactement	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 mouvement	mouvement	NOUN
 qui	qui	PRON
 a	avoir	AUX
@@ -1569,7 +1569,7 @@ ils	ils	PRON
 sont	être	AUX
 des	un	DET
 problèmes	problème	NOUN
-par nature	par nature	ADP
+par nature	par nature	ADV
 interdisciplinaires	interdisciplinaire	ADJ
 et	et	CCONJ
 il	il	PRON
@@ -1656,7 +1656,7 @@ dans	dans	ADP
 les	le	DET
 universités	université	NOUN
 .	.	PUNCTsent
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -1848,7 +1848,7 @@ homme	homme	NOUN
 cultivé	cultivé	ADJ
 qui	qui	PRON
 voudrait	vouloir	VERB
-se rendre compte	se rendre compte	NOUN
+se rendre compte	se rendre compte	VERB
 de	de	ADP
 toutes	tout	ADJ
 les	le	DET
@@ -2169,7 +2169,7 @@ attention	attention	NOUN
 à	à	ADP
 toutes	toutes	DET
 les	le_PRON	PRON
-mise en garde	mise en garde	ADP_DET
+mise en garde	mise en garde	NOUN
 prodiguées	prodiguer	VERB
 par	par	ADP
 Rousseau	Rousseau	PROPN
@@ -2204,13 +2204,13 @@ lieu	lieu	NOUN
 la	le	DET
 tyrannie	tyrannie	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 on	on	PRON
 a	avoir	AUX
 pu	pouvoir	VERB
 parfois	parfois	ADV
 ,	,	PUNCTclause
-par erreur	par erreur	NOUN
+par erreur	par erreur	ADV
 ,	,	PUNCTclause
 faire	faire	VERB
 de	de	ADP
@@ -2699,7 +2699,7 @@ peut	pouvoir	VERB
 se	se	PRON
 y	y	PRON
 manifester	manifester	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 citoyen	citoyen	NOUN
 ;	;	PUNCTclause
 citoyen	citoyen	NOUN
@@ -3318,7 +3318,7 @@ est	être	AUX
 la	le	DET
 dépolitisation	dépolitisation	NOUN
 ,	,	PUNCTclause
-au pire	au pire	ADP
+au pire	au pire	ADV
 sens	sens	NOUN
 du	du	ADP_DET
 mot	mot	NOUN
@@ -3371,8 +3371,8 @@ novembre	novembre	NOUN
 1968	1968	NUM
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-la première	la première	DET
-cité	cité	NOUN
+la première	la première	PRON
+cité	citer	VERB
 grecque	grec	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -3398,7 +3398,7 @@ petit	petit	ADJ
 ,	,	PUNCTclause
 il y a	il y a	VERB
 pratiquement	pratiquement	ADV
-autant de	autant de	ADP
+autant de	autant de	DET
 magistrats	magistrat	NOUN
 que	que	ADV
 de	de	ADP
@@ -3460,7 +3460,7 @@ libre	libre	ADJ
 novembre	novembre	NOUN
 1976	1976	NUM
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 on	on	PRON
 peut	pouvoir	VERB
 définir	définir	VERB
@@ -3549,7 +3549,7 @@ culture	culture	NOUN
 grecque	grec	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 l'	le	DET
 hégémonie	hégémonie	NOUN
 était	être	AUX
@@ -3659,16 +3659,16 @@ peut	pouvoir	VERB
 multiplier	multiplier	VERB
 n'importe quoi	n'importe quoi	PRON
 par	par	ADP
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 chiffre	chiffre	NOUN
 ,	,	PUNCTclause
 pourvu que	pourvu que	SCONJ
 on	on	PRON
 trouve	trouver	VERB
-assez de	assez de	ADP
+assez de	assez de	DET
 argent	argent	NOUN
 ,	,	PUNCTclause
-assez de	assez de	ADP
+assez de	assez de	DET
 matières	matière	NOUN
 premières	premier	ADJ
 ,	,	PUNCTclause
@@ -3680,7 +3680,7 @@ rend	rendre	VERB
 pas	pas	ADV
 compte	compte	NOUN
 ,	,	PUNCTclause
-ce faisant	ce faisant	PRON
+ce faisant	ce faisant	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 on	on	PRON
@@ -4108,7 +4108,7 @@ rejoignent	rejoindre	VERB
 mais	mais	CCONJ
 se	se	PRON
 détruisent	détruire	VERB
-l'une l'autre	l'une l'autre	PUNCT
+l'une l'autre	l'une l'autre	PRON
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 il	il	PRON
@@ -4239,8 +4239,8 @@ opposer	opposer	VERB
 ,	,	PUNCTclause
 dans	dans	ADP
 toute	tout	ADJ
-la première	la première	NOUN
-partie	partie	NOUN
+la première	la première	PRON
+partie	partir	VERB
 du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
@@ -4526,7 +4526,7 @@ vie	vie	NOUN
 des	un	ADP_DET
 institutions	institution	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 place	place	NOUN
 a	avoir	AUX
@@ -4596,7 +4596,7 @@ qui	qui	PRON
 permettent	permettre	VERB
 de	de	ADP
 reconstruire	reconstruire	VERB
-au fond	au fond	PUNCT
+au fond	au fond	ADV
 toute	tout	ADJ
 notre	notre	DET
 civilisation	civilisation	NOUN
@@ -4707,7 +4707,7 @@ dans	dans	ADP
 les	le	DET
 cafés	café	NOUN
 ;	;	PUNCTclause
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 toute	tout	ADJ
@@ -5041,8 +5041,8 @@ la	le	DET
 démocratie	démocratie	NOUN
 ,	,	PUNCTclause
 devient	devenir	VERB
-tout à fait	tout à fait	DET
-autre chose	autre chose	NOUN
+tout à fait	tout à fait	ADV
+autre chose	autre chose	PRON
 :	:	PUNCTclause
 un	un	DET
 espace	espace	NOUN
@@ -5450,7 +5450,7 @@ fonction	fonction	NOUN
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 services	service	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -5636,7 +5636,7 @@ cadre	cadre	NOUN
 communal	communal	ADJ
 est	être	AUX
 dépassé	dépasser	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -5773,7 +5773,7 @@ toujours	toujours	ADV
 plus	plus	ADV
 onéreux	onéreux	ADJ
 et	et	CCONJ
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 efficace	efficace	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5803,9 +5803,9 @@ l'	le	DET
 ,	,	PUNCTclause
 et	et	CCONJ
 encore	encore	ADV
-moins de	moins de	PUNCT
-la	le	DET
-politique	politique	NOUN
+moins de	moins de	DET
+la	le_PRON	PRON
+politique	politique	ADJ
 au sens étroit	au sens étroit	ADV
 et	et	CCONJ
 partisan	partisan	ADJ
@@ -5852,7 +5852,7 @@ si	si	SCONJ
 l'on	on	PRON
 me	me	PRON
 dit	dire	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 ce	ce	PRON
 est	être	AUX
 une	un	DET

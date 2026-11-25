@@ -80,7 +80,7 @@ culturelles	culturel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 A.	A.	PROPN
-point de départ	point de départ	PUNCT
+point de départ	point de départ	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 I.	I.	VERB
@@ -581,7 +581,7 @@ directes	direct	ADJ
 ↵↵	↵↵	PUNCTstruct
 II	II	NUM
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 déclaration	déclaration	NOUN
 de	de	ADP
 M.	M.	NOUN
@@ -630,14 +630,14 @@ entre	entre	ADP
 les	le	DET
 pays	pays	NOUN
 ,	,	PUNCTclause
-indépendamment de	indépendamment de	PRON
+indépendamment de	indépendamment de	ADP
 leur	leur	DET
 régime	régime	NOUN
 social	social	ADJ
 et	et	CCONJ
 politique	politique	ADJ
 ,	,	PUNCTclause
-sur la base de	sur la base de	DET
+sur la base de	sur la base de	ADP
 respect	respect	NOUN
 des	un	ADP_DET
 droits	droit	NOUN
@@ -1036,7 +1036,7 @@ comité	comité	NOUN
 de	de	ADP
 experts	expert	NOUN
 discute	discuter	VERB
-sur la base de	sur la base de	DET
+sur la base de	sur la base de	ADP
 17	17	NUM
 points	point	NOUN
 occidentaux	occidental	ADJ
@@ -1210,9 +1210,9 @@ et	et	CCONJ
 ne	ne	ADV
 accordera	accorder	VERB
 pas	pas	ADV
-à l'avenir	à l'avenir	DET
-une	un	PRON
-telle	tel	DET
+à l'avenir	à l'avenir	ADV
+une	un	DET
+telle	tel	PRON
 «	«	PUNCTclause
 liberté	liberté	NOUN
 de	de	ADP
@@ -1308,7 +1308,7 @@ soviétique	soviétique	ADJ
 ainsi	ainsi	ADV
 que	que	SCONJ
 un	un	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 points	point	NOUN
 du	du	ADP_DET
 projet	projet	NOUN
@@ -1334,7 +1334,7 @@ le	le	DET
 régime	régime	NOUN
 intérieur	intérieur	ADJ
 de	de	ADP
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 états	état	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
@@ -1690,7 +1690,7 @@ isolement	isolement	NOUN
 ne	ne	ADV
 saurait	savoir	VERB
 durer	durer	VERB
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 .	.	PUNCTsent
 les	le	DET
 livres	livre	NOUN
@@ -1803,7 +1803,7 @@ novembre	novembre	NOUN
 )	)	PUNCTclause
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 les	le	DET
 propositions	proposition	NOUN
@@ -1911,7 +1911,7 @@ les	le	DET
 populations	population	NOUN
 soviétiques	soviétique	ADJ
 étaient	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 nous	nous	PRON
 connaître	connaître	VERB
 ,	,	PUNCTclause
@@ -2093,7 +2093,7 @@ informations	information	NOUN
 M.	M.	NOUN
 Dulles	Dulles	PROPN
 constate	constater	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 sur	sur	ADP
 les	le	DET
 17	17	NUM
@@ -2207,7 +2207,7 @@ de	de	ADP
 échanges	échange	NOUN
 )	)	PUNCTclause
 désormais	désormais	ADV
-en cours	en cours	DET
+en cours	en cours	ADJ
 ,	,	PUNCTclause
 même si	même si	SCONJ
 il	il	PRON
@@ -2285,7 +2285,7 @@ Non	Non	PROPN
 des	un	DET
 mêmes	même	ADJ
 oui	oui	INTJ
-en principe	en principe	PUNCT
+en principe	en principe	ADV
 selon	selon	ADP
 accords	accord	NOUN
 5	5	NUM

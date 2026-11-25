@@ -89,7 +89,7 @@ de	de	ADP
 un	un	DET
 évêché	évêché	NOUN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 Martigny	Martigny	PROPN
 en	en	ADP
 Valais	Valais	PROPN
@@ -174,7 +174,7 @@ paganisme	paganisme	NOUN
 fait	faire	VERB
 un	un	DET
 retour	retour	NOUN
-en force	en force	ADP
+en force	en force	ADV
 avec	avec	ADP
 la	le	DET
 poussée	poussée	NOUN
@@ -245,7 +245,7 @@ leurs	leur	DET
 prédécesseurs	prédécesseur	NOUN
 romains	romain	ADJ
 .	.	PUNCTsent
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 traits	trait	NOUN
 typiques	typique	ADJ
 de	de	ADP
@@ -624,7 +624,7 @@ ce	ce	PRON
 qui	qui	PRON
 peut	pouvoir	VERB
 expliquer	expliquer	VERB
-en partie	en partie	ADP
+en partie	en partie	ADV
 la	le	DET
 tolérance	tolérance	NOUN
 montrée	montrer	VERB
@@ -1222,13 +1222,13 @@ de	de	ADP
 5	5	NUM
 de	de	ADP
 catholiques	catholique	NOUN
-pour un peu	pour un peu	ADP
-moins de	moins de	NOUN
+pour un peu	pour un peu	ADV
+moins de	moins de	DET
 3	3	NUM
 5	5	NUM
 de	de	ADP
 protestants	protestant	NOUN
-dans l'ensemble	dans l'ensemble	PUNCT
+dans l'ensemble	dans l'ensemble	ADV
 du	du	ADP_DET
 pays	pays	NOUN
 ne	ne	ADV
@@ -1678,8 +1678,8 @@ endroit	endroit	NOUN
 ↵↵	↵↵	PUNCTstruct
 un	un	DET
 zèle	zèle	NOUN
-un peu	un peu	PUNCT
-amer	amer	NOUN
+un peu	un peu	ADV
+amer	amer	ADJ
 et	et	CCONJ
 ambitieux	ambitieux	ADJ
 risquerait	risquer	VERB
@@ -2040,7 +2040,7 @@ de	de	ADP
 Zwingli	Zwingli	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 le	le	DET
 protestantisme	protestantisme	NOUN
@@ -2250,7 +2250,7 @@ plus tard	plus tard	ADV
 ce	ce	DET
 culte	culte	NOUN
 paraît	paraître	VERB
-d'autant plus	d'autant plus	PUNCT
+d'autant plus	d'autant plus	ADV
 pur	pur	ADJ
 que	que	SCONJ
 il	il	PRON
@@ -2367,7 +2367,7 @@ singerie	singerie	NOUN
 »	»	PUNCTclause
 toute	tout	ADJ
 expression	expression	NOUN
-tant soit peu	tant soit peu	PUNCT
+tant soit peu	tant soit peu	ADV
 spontanée	spontané	ADJ
 de	de	ADP
 la	le	DET
@@ -2384,8 +2384,8 @@ paraît	paraître	VERB
 théâtrale	théâtral	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-ce n'est pas que	ce n'est pas que	DET
-le	le_PRON	PRON
+ce n'est pas que	ce n'est pas que	SCONJ
+le	le	DET
 sentiment	sentiment	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -2410,7 +2410,7 @@ du	du	ADP_DET
 réveil	réveil	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
-la première	la première	DET
+la première	la première	PRON
 moitié	moitié	NOUN
 du	du	ADP_DET
 19e	19e	NUM
@@ -2604,7 +2604,7 @@ fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
 précisons	préciser	VERB
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 que	que	SCONJ
 l'	le	DET
 adjectif	adjectif	NOUN
@@ -2639,7 +2639,7 @@ de	de	ADP
 séparatiste	séparatiste	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 églises	église	NOUN
 protestantes	protestant	ADJ
@@ -2848,7 +2848,7 @@ voire	voire	CCONJ
 Karl	Karl	PROPN
 Barth	Barth	PROPN
 .	.	PUNCTsent
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 se	se	PRON
 accordent	accorder	VERB
 sur	sur	ADP
@@ -3230,7 +3230,7 @@ il	il	PRON
 ne	ne	ADV
 l'	le_PRON	PRON
 est	être	AUX
-plus d'une	plus d'une	ADV
+plus d'une	plus d'une	DET
 manière	manière	NOUN
 agressive	agressif	ADJ
 ,	,	PUNCTclause
@@ -3262,7 +3262,7 @@ ou	ou	CCONJ
 les	le	DET
 partis	parti	NOUN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	ADJ
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 si	si	SCONJ

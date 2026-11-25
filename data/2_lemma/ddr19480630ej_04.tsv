@@ -124,8 +124,8 @@ en	en	ADP
 leur	leur	DET
 nom	nom	NOUN
 bien	bien	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 des	un	DET
 vœux	vœu	NOUN
 :	:	PUNCTclause
@@ -176,7 +176,7 @@ il	il	PRON
 a	avoir	AUX
 placé	placer	VERB
 sur	sur	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 plan	plan	NOUN
 que	que	SCONJ
 les	le	DET
@@ -249,7 +249,7 @@ considérer	considérer	VERB
 la	le	DET
 culture	culture	NOUN
 comme	comme	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 un	un	DET
 ornement	ornement	NOUN
@@ -488,7 +488,7 @@ Haye	Haye	PROPN
 une	un	DET
 chance	chance	NOUN
 unique	unique	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 valoir	valoir	VERB
 les	le	DET
 droits	droit	NOUN
@@ -551,7 +551,7 @@ de	de	ADP
 notre	notre	DET
 commission	commission	NOUN
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 ,	,	PUNCTclause
 de	de	ADP
 T.	T.	PROPN
@@ -612,14 +612,14 @@ un	un	DET
 temps	temps	NOUN
 qui	qui	PRON
 ,	,	PUNCTclause
-à dire vrai	à dire vrai	DET
+à dire vrai	à dire vrai	ADV
 ,	,	PUNCTclause
 me	me	PRON
 manque	manquer	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 le	le	DET
 miracle	miracle	NOUN
@@ -719,7 +719,7 @@ questions	question	NOUN
 ,	,	PUNCTclause
 considérées	considérer	VERB
 (	(	PUNCTclause
-à tort	à tort	SYM
+à tort	à tort	ADV
 )	)	PUNCTclause
 comme	comme	ADP
 purement	purement	ADV
@@ -796,7 +796,7 @@ continent	continent	NOUN
 je	je	PRON
 répondrai	répondre	VERB
 :	:	PUNCTclause
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 soyons	être	VERB
 sérieux	sérieux	ADJ
@@ -829,8 +829,8 @@ Paul	Paul	PROPN
 Valéry	Valéry	PROPN
 ,	,	PUNCTclause
 prévoyait	prévoir	VERB
-le jour où	le jour où	DET
-le	le_PRON	PRON
+le jour où	le jour où	SCONJ
+le	le	DET
 désir	désir	NOUN
 secret	secret	ADJ
 de	de	ADP
@@ -914,7 +914,7 @@ commission	commission	NOUN
 —	—	PUNCTclause
 disais	dire	VERB
 je	je	PRON
-en conclusion	en conclusion	PRON
+en conclusion	en conclusion	ADV
 —	—	PUNCTclause
 par	par	ADP
 le	le	DET
@@ -999,7 +999,7 @@ mois	mois	NOUN
 de	de	ADP
 rédiger	rédiger	VERB
 et	et	CCONJ
-de fait	de fait	ADP
+de fait	de fait	ADJ
 accepter	accepter	VERB
 par	par	ADP
 tous	tous	PRON
@@ -1128,7 +1128,7 @@ résolution	résolution	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
 fut	être	AUX
-mise au point	mise au point	ADV
+mise au point	mise au point	NOUN
 ,	,	PUNCTclause
 au terme de	au terme de	ADP
 débats	débat	NOUN
@@ -1273,7 +1273,7 @@ existait	exister	VERB
 ,	,	PUNCTclause
 en deçà	en deçà	ADV
 et	et	CCONJ
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 nos	nos	DET
 divisions	division	NOUN
 actuelles	actuel	ADJ
@@ -1298,9 +1298,9 @@ auquel	auquel	ADP_PRON
 il	il	PRON
 soit	être	AUX
 possible	possible	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 appel	appel	NOUN
-dès maintenant	dès maintenant	PUNCT
+dès maintenant	dès maintenant	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 notre	notre	DET
@@ -1354,7 +1354,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 met	mettre	VERB
-en cause	en cause	DET
+en cause	en cause	ADJ
 quelque chose	quelque chose	PRON
 de plus	de plus	ADV
 profond	profond	ADJ
@@ -1452,7 +1452,7 @@ débat	débat	NOUN
 historique	historique	ADJ
 qui	qui	PRON
 met	mettre	VERB
-en jeu	en jeu	DET
+en jeu	en jeu	ADJ
 notre	notre	DET
 vie	vie	NOUN
 même	même	ADJ
@@ -2202,7 +2202,7 @@ est	être	AUX
 fidèle	fidèle	ADJ
 à	à	ADP
 lui-même	lui-même	PRON
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 il	il	PRON
 accepte	accepter	VERB
 le	le	DET
@@ -2296,7 +2296,7 @@ homme	homme	NOUN
 Europe	Europe	PROPN
 nous	nous	PRON
 met	mettre	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 clarifier	clarifier	VERB
 maintenant	maintenant	ADV
 quelques-uns	quelques-uns	PRON
@@ -2359,7 +2359,7 @@ l'	le	DET
 état	état	NOUN
 ,	,	PUNCTclause
 fixant	fixer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 rigides	rigide	ADJ
 à	à	ADP
@@ -2381,7 +2381,7 @@ raison	raison	NOUN
 de	de	ADP
 se	se	PRON
 recouvrir	recouvrir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 diversité	diversité	NOUN
@@ -2480,7 +2480,7 @@ du	du	ADP_DET
 dedans	dedans	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 union	union	NOUN
 de	de	ADP
@@ -2653,7 +2653,7 @@ son	son	DET
 propre	propre	ADJ
 avenir	avenir	NOUN
 .	.	PUNCTsent
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 les	le	DET
 nations	nation	NOUN
 ne	ne	ADV
@@ -2786,7 +2786,7 @@ foi	foi	NOUN
 ce	ce	PRON
 serait	être	AUX
 d'ailleurs	d'ailleurs	ADV
-porter atteinte	porter atteinte	ADJ
+porter atteinte	porter atteinte	VERB
 aux	au	ADP_DET
 tempéraments	tempérament	NOUN
 nationaux	national	ADJ
@@ -2927,7 +2927,7 @@ que	que	SCONJ
 possède	posséder	VERB
 tout	tout	PRON
 homme	homme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3713,7 +3713,7 @@ une	un	DET
 fédération	fédération	NOUN
 qui	qui	PRON
 sera	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 pas	pas	ADV
 vers	vers	ADP
 la	le	DET
@@ -4156,7 +4156,7 @@ de	de	ADP
 l'	le	DET
 actualité	actualité	NOUN
 ,	,	PUNCTclause
-indépendamment de	indépendamment de	NOUN
+indépendamment de	indépendamment de	ADP
 interprétations	interprétation	NOUN
 et	et	CCONJ
 des	un	DET
@@ -4181,7 +4181,7 @@ satisfaction	satisfaction	NOUN
 ce	ce	DET
 droit	droit	NOUN
 ,	,	PUNCTclause
-indépendamment de	indépendamment de	PRON
+indépendamment de	indépendamment de	ADP
 toute	tout	ADJ
 pression	pression	NOUN
 ,	,	PUNCTclause
@@ -5192,8 +5192,8 @@ nations	nation	NOUN
 et	et	CCONJ
 nous	nous	PRON
 prenons	prendre	VERB
-de bonne foi	de bonne foi	DET
-l'	le_PRON	PRON
+de bonne foi	de bonne foi	ADJ
+l'	le	DET
 engagement	engagement	NOUN
 de	de	ADP
 appuyer	appuyer	VERB
@@ -5206,7 +5206,7 @@ dans	dans	ADP
 nos	nos	DET
 foyers	foyer	NOUN
 et	et	CCONJ
-en public	en public	NOUN
+en public	en public	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 nos	nos	DET

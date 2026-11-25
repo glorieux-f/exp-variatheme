@@ -212,7 +212,7 @@ on	on	PRON
 connaît	connaître	VERB
 avec	avec	ADP
 assurance	assurance	NOUN
-dès l'instant que	dès l'instant que	PUNCT
+dès l'instant que	dès l'instant que	SCONJ
 on	on	PRON
 lui	lui	PRON
 obéit	obéir	VERB
@@ -443,7 +443,7 @@ qui	qui	PRON
 nous	nous	PRON
 commande	commander	VERB
 —	—	PUNCTclause
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 elle	elle	PRON
 nous	nous	PRON
 commande	commander	VERB
@@ -451,7 +451,7 @@ vraiment	vraiment	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 est	être	AUX
 de	de	ADP
 poser question	poser question	VERB
@@ -461,7 +461,7 @@ ordre	ordre	NOUN
 solidement	solidement	ADV
 bâti	bâtir	VERB
 ,	,	PUNCTclause
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 est	être	AUX
 de	de	ADP
 découvrir	découvrir	VERB
@@ -694,8 +694,8 @@ révolution	révolution	NOUN
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 abuse	abuser	VERB
-pas mal de	pas mal de	PUNCT
-ce	ce	DET
+pas mal de	pas mal de	DET
+ce	ce	PRON
 mot	mot	NOUN
 ,	,	PUNCTclause
 trop	trop	ADV
@@ -865,10 +865,10 @@ font	faire	VERB
 jour	jour	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
-le	le_PRON	PRON
+c'est pourquoi	c'est pourquoi	ADV
+le	le	DET
 simple	simple	ADJ
-fait	faire	VERB
+fait	fait	NOUN
 que	que	SCONJ
 un	un	DET
 problème	problème	NOUN
@@ -1012,7 +1012,7 @@ de	de	ADP
 complaisance	complaisance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au point	au point	ADV
+au point	au point	ADJ
 où	où	PRON
 nous	nous	PRON
 voici	voici	ADP
@@ -1101,7 +1101,7 @@ vaste	vaste	ADJ
 ce	ce	PRON
 est	être	AUX
 donner	donner	VERB
-dès maintenant	dès maintenant	PUNCT
+dès maintenant	dès maintenant	ADV
 au	au	ADP_DET
 futur	futur	ADJ
 une	un	DET
@@ -1255,9 +1255,9 @@ d'une manière générale	d'une manière générale	ADV
 tous	tout	ADJ
 nos	nos	DET
 romanciers	romancier	NOUN
-à la mode	à la mode	DET
+à la mode	à la mode	ADJ
 ,	,	PUNCTclause
-bourgeois	bourgeois	NOUN
+bourgeois	bourgeois	ADJ
 confus	confus	ADJ
 de	de	ADP
 l'	le	DET
@@ -1367,7 +1367,7 @@ et	et	CCONJ
 de	de	ADP
 réalité	réalité	NOUN
 que	que	SCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 lutte	lutte	NOUN
 du	du	ADP_DET
 pouvoir	pouvoir	NOUN
@@ -1534,7 +1534,7 @@ bien que	bien que	SCONJ
 le	le	DET
 lecteur	lecteur	NOUN
 éprouvera	éprouver	VERB
-çà et là	çà et là	ADP
+çà et là	çà et là	ADV
 la	le	DET
 poussée	poussée	NOUN
 ,	,	PUNCTclause
@@ -1853,7 +1853,7 @@ au	au	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
 que	que	SCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 la	le	DET
 chasse	chasse	NOUN
 aux	au	ADP_DET
@@ -2105,7 +2105,7 @@ se	se	PRON
 être	être	AUX
 montrée	montrer	VERB
 «	«	PUNCTclause
-à la hauteur	à la hauteur	ADP
+à la hauteur	à la hauteur	ADJ
 »	»	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -2165,7 +2165,7 @@ et	et	CCONJ
 l'autre	l'autre	PRON
 erreur	erreur	NOUN
 ,	,	PUNCTclause
-au fait de	au fait de	ADP_DET
+au fait de	au fait de	ADP
 prince	prince	NOUN
 et	et	CCONJ
 au fait de	au fait de	ADP
@@ -2279,7 +2279,7 @@ opposer	opposer	VERB
 à	à	ADP
 leurs	leur	DET
 affaires	affaire	NOUN
-sous prétexte que	sous prétexte que	PUNCT
+sous prétexte que	sous prétexte que	SCONJ
 le	le	DET
 vrai	vrai	ADJ
 tragique	tragique	NOUN
@@ -2549,7 +2549,7 @@ que	que	SCONJ
 si	si	SCONJ
 l'on	on	PRON
 convient	convenir	VERB
-de mise	de mise	ADP
+de mise	de mise	ADJ
 au	au	ADP_DET
 second	second	ADJ
 plan	plan	NOUN
@@ -2672,7 +2672,7 @@ mots	mot	NOUN
 ce	ce	PRON
 est	être	AUX
 en effet	en effet	ADV
-le premier	le premier	DET
+le premier	le premier	PRON
 moment	moment	NOUN
 de	de	ADP
 cette	ce	DET
@@ -2827,7 +2827,7 @@ je	je	PRON
 entends	entendre	VERB
 :	:	PUNCTclause
 quand	quand	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 lit	lire	VERB
 les	le	DET
 journaux	journal	NOUN
@@ -2980,7 +2980,7 @@ mais	mais	CCONJ
 je	je	PRON
 vais	aller	VERB
 sans doute	sans doute	ADV
-un peu	un peu	DET
+un peu	un peu	ADV
 vite	vite	ADV
 .	.	PUNCTsent
 et	et	CCONJ
@@ -3043,7 +3043,7 @@ se	se	PRON
 pose	poser	VERB
 à	à	ADP
 nous	nous	PRON
-à partir du moment où	à partir du moment où	PRON
+à partir du moment où	à partir du moment où	SCONJ
 son	son	DET
 objet	objet	NOUN
 (	(	PUNCTclause
@@ -3159,8 +3159,8 @@ essais	essai	NOUN
 de	de	ADP
 restauration	restauration	NOUN
 que	que	SCONJ
-le premier	le premier	DET
-tiers	tiers	NOUN
+le premier	le premier	PRON
+tiers	tiers	ADJ
 de	de	ADP
 ce	ce	PRON
 siècle	siècle	NOUN

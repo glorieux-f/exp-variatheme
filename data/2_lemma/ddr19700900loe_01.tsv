@@ -162,7 +162,7 @@ Yougoslaves	Yougoslaves	PROPN
 vous	vous	PRON
 tous	tous	PRON
 ,	,	PUNCTclause
-en résumé	en résumé	DET
+en résumé	en résumé	ADV
 ,	,	PUNCTclause
 à	à	ADP
 qui	qui	PRON
@@ -244,7 +244,7 @@ dire	dire	VERB
 et	et	CCONJ
 ne	ne	ADV
 donne	donner	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 une	un	DET
 faible	faible	ADJ
 idée	idée	NOUN
@@ -274,7 +274,7 @@ agit	agir	VERB
 de	de	ADP
 collaborer	collaborer	VERB
 pour	pour	ADP
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 .	.	PUNCTsent
 laissez	laisser	VERB
 moi	moi	PRON
@@ -313,8 +313,8 @@ eût	avoir	AUX
 jamais	jamais	ADV
 pu	pouvoir	VERB
 devenir	devenir	VERB
-le premier	le premier	DET
-président	président	NOUN
+le premier	le premier	PRON
+président	présider	VERB
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -330,7 +330,7 @@ commencer	commencer	VERB
 ses	son	DET
 discours	discours	NOUN
 par	par	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 qu	que	PRON
 «	«	PUNCTclause
 Albanaises	Albanaises	PROPN
@@ -413,7 +413,7 @@ de	de	ADP
 l'	le	DET
 esprit	esprit	NOUN
 .	.	PUNCTsent
-à ce titre	à ce titre	PUNCT
+à ce titre	à ce titre	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -573,7 +573,7 @@ vous	vous	PRON
 France	France	PROPN
 d'abord	d'abord	ADV
 et	et	CCONJ
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 ,	,	PUNCTclause
 ou	ou	CCONJ
 tchèques	tchèque	NOUN
@@ -638,9 +638,9 @@ administrative	administratif	ADJ
 survivant	survivre	VERB
 aux	au	ADP_DET
 conditions	condition	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
-comme	comme	SCONJ
+comme	comme	ADP
 il	il	PRON
 arrive	arriver	VERB
 ,	,	PUNCTclause
@@ -706,7 +706,7 @@ vous	vous	PRON
 ne	ne	ADV
 existez	exister	VERB
 pas	pas	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 vous	vous	PRON
@@ -718,7 +718,7 @@ ou	ou	CCONJ
 pas	pas	ADV
 longtemps	longtemps	ADV
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 France	France	PROPN
 ,	,	PUNCTclause
 Tchèques	Tchèques	PROPN
@@ -728,7 +728,7 @@ Suisse	Suisse	PROPN
 vous	vous	PRON
 serez	être	AUX
 colonisés	coloniser	VERB
-l'un après l'autre	l'un après l'autre	DET
+l'un après l'autre	l'un après l'autre	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 insensiblement	insensiblement	ADV
@@ -817,7 +817,7 @@ existez	exister	VERB
 pas	pas	ADV
 auront	avoir	VERB
 raison	raison	NOUN
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 ils	ils	PRON
 entretiendront	entretenir	VERB
 vos	vos	DET
@@ -934,8 +934,8 @@ recensements	recensement	NOUN
 les	le	DET
 États-Unis	États-Unis	PROPN
 comptaient	compter	VERB
-un peu	un peu	PUNCT
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 200	200	NUM
 millions	million	NOUN
 de	de	ADP
@@ -943,8 +943,8 @@ habitants	habitant	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 URSS	URSS	PROPN
-un peu	un peu	PUNCT
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 230	230	NUM
 millions	million	NOUN
 ,	,	PUNCTclause
@@ -1119,7 +1119,7 @@ se	se	PRON
 «	«	PUNCTclause
 justifient	justifier	VERB
 »	»	PUNCTclause
-par le fait même	par le fait même	PUNCT
+par le fait même	par le fait même	ADV
 qui	qui	PRON
 les	le_PRON	PRON
 cause	causer	VERB
@@ -1160,7 +1160,7 @@ nation	nation	NOUN
 de	de	ADP
 500	500	NUM
 millions	million	NOUN
-en devenir	en devenir	PUNCT
+en devenir	en devenir	ADJ
 ,	,	PUNCTclause
 surpassant	surpasser	VERB
 ↵↵	↵↵	PUNCTstruct
@@ -1239,7 +1239,7 @@ aller	aller	VERB
 sans	sans	ADP
 nous	nous	PRON
 ,	,	PUNCTclause
-à la rigueur	à la rigueur	DET
+à la rigueur	à la rigueur	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 face à	face à	ADP
@@ -1286,7 +1286,7 @@ vivre	vivre	VERB
 l'	le	DET
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 moins	moins	ADV
 bien	bien	ADV
 sous	sous	ADP
@@ -1410,7 +1410,7 @@ le	le	DET
 peuple	peuple	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 motifs	motif	NOUN
 ,	,	PUNCTclause
 l'un	l'un	PRON
@@ -1655,7 +1655,7 @@ a	avoir	AUX
 pu	pouvoir	VERB
 lire	lire	VERB
 ,	,	PUNCTclause
-et pour cause	et pour cause	PRON
+et pour cause	et pour cause	ADV
 .	.	PUNCTsent
 tous	tous	PRON
 appellent	appeler	VERB
@@ -1933,7 +1933,7 @@ fins	fin	NOUN
 ils	ils	PRON
 ont	avoir	AUX
 préféré	préférer	VERB
-dans l'ensemble	dans l'ensemble	ADP
+dans l'ensemble	dans l'ensemble	ADV
 la	le	DET
 guerre	guerre	NOUN
 nationale	national	ADJ
@@ -2007,7 +2007,7 @@ le	le	DET
 nationalisme	nationalisme	NOUN
 qui	qui	PRON
 vient	venir	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 ses	son	DET
 preuves	preuve	NOUN
 que	que	PRON
@@ -2064,8 +2064,8 @@ dans	dans	ADP
 sa	son	DET
 stupeur	stupeur	NOUN
 devant	devant	ADP
-le premier	le premier	DET
-triomphe	triomphe	NOUN
+le premier	le premier	PRON
+triomphe	triompher	VERB
 électoral	électoral	ADJ
 de	de	ADP
 Hitler	Hitler	PROPN
@@ -2264,7 +2264,7 @@ le	le	DET
 temps	temps	NOUN
 des	un	ADP_DET
 plans	plan	NOUN
-sans suite	sans suite	ADP
+sans suite	sans suite	ADJ
 est	être	AUX
 révolu	révolu	ADJ
 .	.	PUNCTsent
@@ -2613,7 +2613,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 Churchill	Churchill	PROPN
 vient	venir	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 à	à	ADP
 Zurich	Zurich	PROPN
 son	son	DET
@@ -2747,7 +2747,7 @@ motifs	motif	NOUN
 de	de	ADP
 union	union	NOUN
 représentés	représenter	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 par	par	ADP
 ses	son	DET
 trois	trois	NUM
@@ -2908,7 +2908,7 @@ de	de	ADP
 notre	notre	DET
 union	union	NOUN
 ,	,	PUNCTclause
-la première	la première	NOUN
+la première	la première	PRON
 institution	institution	NOUN
 Europe	Europe	PROPN
 acceptée	accepter	VERB
@@ -2922,7 +2922,7 @@ or	or	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 la	le	DET
 seule	seul	ADJ
 qui	qui	PRON
@@ -3424,7 +3424,7 @@ tout	tout	ADJ
 cela	cela	PRON
 ne	ne	ADV
 concerne	concerner	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 six	six	NUM
 pays	pays	NOUN
 sur	sur	ADP
@@ -3755,8 +3755,8 @@ comme	comme	ADP
 l'	le	DET
 ont	avoir	AUX
 fait	faire	AUX
-de tout temps	de tout temps	DET
-les	le_PRON	PRON
+de tout temps	de tout temps	ADV
+les	le	DET
 vents	vent	NOUN
 et	et	CCONJ
 les	le	DET
@@ -3832,7 +3832,7 @@ colonial	colonial	ADJ
 ce	ce	PRON
 serait	être	AUX
 à peine	à peine	ADV
-assez de	assez de	ADP
+assez de	assez de	DET
 toute	tout	ADJ
 l'	le	DET
 Europe	Europe	PROPN
@@ -4003,7 +4003,7 @@ le	le	DET
 titre	titre	NOUN
 l'	le	DET
 Europe	Europe	PROPN
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 ,	,	PUNCTclause
 portait	porter	VERB
 ces	ce	DET
@@ -4128,7 +4128,7 @@ donneraient	donner	VERB
 de	de	DET
 bonnes	bon	ADJ
 chances	chance	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -4275,7 +4275,7 @@ affaire	affaire	NOUN
 et	et	CCONJ
 un	un	DET
 progrès	progrès	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 qui	qui	PRON
 évoque	évoquer	VERB
 pour	pour	ADP
@@ -4347,7 +4347,7 @@ vital	vital	ADJ
 pour	pour	ADP
 les	le	DET
 Europe	Europe	PROPN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -4546,7 +4546,7 @@ chefs	chef	NOUN
 ont	avoir	VERB
 le	le	DET
 droit	droit	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 massacrer	massacrer	VERB
 des	un	ADP_DET
 millions	million	NOUN
@@ -4614,7 +4614,7 @@ une	un	DET
 religion	religion	NOUN
 radicalement	radicalement	ADV
 et	et	CCONJ
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 incompatible	incompatible	ADJ
 avec	avec	ADP
 toute	toute	DET
@@ -4723,7 +4723,7 @@ l'	le_PRON	PRON
 espère	espérer	VERB
 ,	,	PUNCTclause
 presque	presque	ADV
-autant de	autant de	ADP
+autant de	autant de	DET
 occasions	occasion	NOUN
 de	de	ADP
 illustrer	illustrer	VERB

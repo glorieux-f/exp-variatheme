@@ -27,7 +27,7 @@ genre	genre	NOUN
 de	de	ADP
 livre	livre	NOUN
 ?	?	PUNCTsent
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 tant	tant	ADV
 sur	sur	ADP
 ce	ce	DET
@@ -47,7 +47,7 @@ sais	savoir	VERB
 .	.	PUNCTsent
 je	je	PRON
 voudrais	vouloir	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 un	un	DET
 livre	livre	NOUN
@@ -79,7 +79,7 @@ banques	banque	NOUN
 voilà	voilà	ADP
 qui	qui	PRON
 intéresserait	intéresser	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 …	…	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -188,7 +188,7 @@ livre	livre	NOUN
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 comment	comment	ADV
 écrire	écrire	VERB
@@ -388,7 +388,7 @@ proposait	proposer	VERB
 de	de	ADP
 composer	composer	VERB
 existait	exister	VERB
-bel et bien	bel et bien	DET
+bel et bien	bel et bien	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -452,7 +452,7 @@ les	le	DET
 carte postale	carte postale	NOUN
 sont	être	AUX
 incapables	incapable	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 voir	voir	VERB
 ,	,	PUNCTclause
 la	le	DET
@@ -559,7 +559,7 @@ auprès de	auprès de	ADP
 elles	elles	PRON
 des	un	ADP_DET
 documents	document	NOUN
-de seconde main	de seconde main	PUNCT
+de seconde main	de seconde main	ADJ
 —	—	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -598,7 +598,7 @@ polémiste	polémiste	NOUN
 illustre	illustre	ADJ
 ,	,	PUNCTclause
 avec	avec	ADP
-autant de	autant de	ADP
+autant de	autant de	DET
 agreste	agreste	ADJ
 poésie	poésie	NOUN
 que	que	SCONJ
@@ -747,7 +747,7 @@ passé	passé	NOUN
 bien	bien	ADV
 plus	plus	ADV
 que	que	SCONJ
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 .	.	PUNCTsent
 »	»	PUNCTclause
 sur	sur	ADP
@@ -915,7 +915,7 @@ que	que	SCONJ
 il	il	PRON
 y	y	PRON
 paraît	paraître	VERB
-à première vue	à première vue	PUNCT
+à première vue	à première vue	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Siegfried	Siegfried	PROPN
@@ -928,7 +928,7 @@ prospère	prospère	ADJ
 industrialisée	industrialisé	ADJ
 ,	,	PUNCTclause
 démocrate	démocrate	ADJ
-à l'extrême	à l'extrême	PUNCT
+à l'extrême	à l'extrême	ADV
 ,	,	PUNCTclause
 jalouse	jaloux	NOUN
 de	de	ADP
@@ -988,8 +988,8 @@ du	du	ADP_DET
 monde	monde	NOUN
 ,	,	PUNCTclause
 tour	tour	NOUN
-de force	de force	ADP
-technique	technique	NOUN
+de force	de force	ADV
+technique	technique	ADJ
 «	«	PUNCTclause
 à base de	à base de	ADP
 culture	culture	NOUN
@@ -1192,7 +1192,7 @@ de	de	ADP
 assurer	assurer	VERB
 aux	au	ADP_DET
 hommes	homme	NOUN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 bien-être	bien-être	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -1339,7 +1339,7 @@ continuait	continuer	VERB
 de	de	ADP
 être	être	AUX
 folle	fou	ADJ
-à l'unanimité	à l'unanimité	PUNCT
+à l'unanimité	à l'unanimité	ADV
 de	de	ADP
 ses	son	DET
 nations	nation	NOUN
@@ -1420,7 +1420,7 @@ ce	ce	PRON
 est-ce que	est-ce que	ADV
 pensent	penser	VERB
 aussi	aussi	ADV
-trop de	trop de	ADP
+trop de	trop de	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ

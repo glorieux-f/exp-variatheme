@@ -449,9 +449,9 @@ et	et	CCONJ
 que	que	SCONJ
 on	on	PRON
 partage	partager	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 avec	avec	ADP
-tout un chacun	tout un chacun	DET
+tout un chacun	tout un chacun	PRON
 .	.	PUNCTsent
 idiosyncrasie	idiosyncrasie	NOUN
 —	—	PUNCTclause
@@ -614,7 +614,7 @@ elle	elle	PRON
 nous	nous	PRON
 était	être	AUX
 distribuée	distribuer	VERB
-à la volée	à la volée	DET
+à la volée	à la volée	ADV
 .	.	PUNCTsent
 il	il	PRON
 va	aller	VERB
@@ -633,7 +633,7 @@ personnel	personnel	ADJ
 cette	ce	DET
 mort	mort	NOUN
 venant	venir	VERB
-de loin	de loin	ADP_DET
+de loin	de loin	ADV
 vers	vers	ADP
 moi	moi	PRON
 ,	,	PUNCTclause
@@ -792,7 +792,7 @@ qui	qui	PRON
 cherche	chercher	VERB
 à	à	ADP
 renouveler	renouveler	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -800,8 +800,8 @@ pire	pire	ADJ
 ce	ce	PRON
 est	être	AUX
 que	que	ADV
-tout le monde	tout le monde	NOUN
-le	le	DET
+tout le monde	tout le monde	PRON
+le	le_PRON	PRON
 sait	savoir	VERB
 ou	ou	CCONJ
 le	le	DET
@@ -812,7 +812,7 @@ certain	certain	ADJ
 temps	temps	NOUN
 déjà	déjà	ADV
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 ici	ici	ADV
 en	en	ADP
 États-Unis	États-Unis	PROPN
@@ -940,7 +940,7 @@ rouge	rouge	ADJ
 rase	raser	VERB
 les	le	DET
 cimes	cime	NOUN
-en silence	en silence	PUNCT
+en silence	en silence	ADV
 ,	,	PUNCTclause
 devient	devenir	VERB
 oiseau	oiseau	NOUN
@@ -996,7 +996,7 @@ un	un	DET
 jésuite	jésuite	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
-au début	au début	ADP_DET
+au début	au début	ADV
 du	du	ADP_DET
 17e	17e	ADJ
 siècle	siècle	NOUN
@@ -1544,7 +1544,7 @@ France	France	PROPN
 nous	nous	PRON
 sommes	être	VERB
 ici	ici	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus	plus	ADV
 près de	près de	ADP
 Montréal	Montréal	PROPN
@@ -1934,7 +1934,7 @@ juifs	juif	NOUN
 ont	avoir	AUX
 le	le	DET
 toupet	toupet	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 payer	payer	VERB
 la	le	DET
 pension	pension	NOUN
@@ -2077,7 +2077,7 @@ profit	profit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 vous	vous	PRON
@@ -2133,7 +2133,7 @@ ayant	avoir	AUX
 sauvé	sauver	VERB
 l'	le	DET
 honneur	honneur	NOUN
-pour ainsi dire	pour ainsi dire	PUNCT
+pour ainsi dire	pour ainsi dire	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 donné	donner	VERB
@@ -2267,7 +2267,7 @@ antisémites	antisémite	ADJ
 …	…	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-à ce propos	à ce propos	DET
+à ce propos	à ce propos	ADV
 ,	,	PUNCTclause
 un	un	DET
 mot	mot	NOUN
@@ -2452,7 +2452,7 @@ préjugés	préjugé	NOUN
 que	que	SCONJ
 il	il	PRON
 provoque	provoquer	VERB
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 on	on	PRON
 l'	le_PRON	PRON
 énonce	énoncer	VERB
@@ -2966,7 +2966,7 @@ celui	celui	PRON
 qui	qui	PRON
 a	avoir	AUX
 tiré	tirer	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 .	.	PUNCTsent
 battu	battre	VERB
 ,	,	PUNCTclause
@@ -2991,8 +2991,8 @@ celui	celui	PRON
 qui	qui	PRON
 accuse	accuser	VERB
 dans	dans	ADP
-la même	la même	DET
-phrase	phrase	NOUN
+la même	la même	PRON
+phrase	phraser	VERB
 «	«	PUNCTclause
 les	le	DET
 juifs	juif	NOUN
@@ -3246,7 +3246,7 @@ soldats	soldat	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
 le	le_PRON	PRON
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 ces	ce	DET
 petits	petit	ADJ
 services	service	NOUN
@@ -3744,7 +3744,7 @@ Russie	Russie	PROPN
 non	non	ADV
 ,	,	PUNCTclause
 il y a	il y a	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 autos	auto	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3913,7 +3913,7 @@ une	un	DET
 ville	ville	NOUN
 du	du	ADP_DET
 même	même	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 habitants	habitant	NOUN
 chez	chez	ADP
 nous	nous	PRON
@@ -4453,7 +4453,7 @@ que	que	PRON
 nous	nous	PRON
 nous	nous	PRON
 accordons	accorder	VERB
-par convention	par convention	PUNCT
+par convention	par convention	ADV
 .	.	PUNCTsent
 voulons	vouloir	VERB
 nous	nous	PRON
@@ -4556,7 +4556,7 @@ avec	avec	ADP
 ça	ça	PRON
 !	!	PUNCTsent
 allez	aller	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 autant	autant	ADV
 avec	avec	ADP
 vos	vos	DET
@@ -4596,7 +4596,7 @@ docteur	docteur	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 révèlent	révéler	VERB
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 à	à	ADP
 ses	son	DET
 yeux	œil	NOUN
@@ -4843,7 +4843,7 @@ la	le	DET
 masse	masse	NOUN
 corpusculaire	corpusculaire	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 naguère	naguère	ADV
 le	le	DET
 physicien	physicien	NOUN
@@ -4906,7 +4906,7 @@ me	me	PRON
 agace	agacer	VERB
 …	…	PUNCTsent
 inanité	inanité	NOUN
-par contre	par contre	ADP
+par contre	par contre	ADV
 me	me	PRON
 plaît	plaire	VERB
 beaucoup	beaucoup	ADV
@@ -4967,7 +4967,7 @@ mythe	mythe	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 dit	dire	VERB
 il	il	PRON
@@ -5172,7 +5172,7 @@ on	on	PRON
 se	se	PRON
 arrange	arranger	VERB
 ,	,	PUNCTclause
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 pour tout	pour tout	ADP
 le	le	DET
 monde	monde	NOUN
@@ -5202,7 +5202,7 @@ qui	qui	PRON
 vient	venir	VERB
 de	de	ADP
 réaffirmer	réaffirmer	VERB
-une fois de plus	une fois de plus	ADP
+une fois de plus	une fois de plus	ADV
 quelques	quelque	DET
 évidences	évidence	NOUN
 rassurantes	rassurant	ADJ
@@ -5237,7 +5237,7 @@ Marcel	Marcel	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-depuis que	depuis que	PUNCT
+depuis que	depuis que	SCONJ
 mon	mon	DET
 père	père	NOUN
 est	être	AUX
@@ -5808,7 +5808,7 @@ fait	faire	VERB
 rien	rien	PRON
 ,	,	PUNCTclause
 fume	fumer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 ,	,	PUNCTclause
 reprend	reprendre	VERB
 ses	son	DET
@@ -6000,7 +6000,7 @@ fois	fois	NOUN
 ,	,	PUNCTclause
 cent	cent	NUM
 fois	fois	NOUN
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 ?	?	PUNCTsent
 pas du tout	pas du tout	ADV
@@ -6156,7 +6156,7 @@ moi	moi	PRON
 et	et	CCONJ
 signé	signer	VERB
 !	!	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 authentique	authentique	ADJ
 !	!	PUNCTsent
 et	et	CCONJ
@@ -6230,7 +6230,7 @@ Marcel	Marcel	PROPN
 vous	vous	PRON
 êtes	être	AUX
 sans doute	sans doute	ADV
-le premier	le premier	DET
+le premier	le premier	PRON
 artiste	artiste	NOUN
 qui	qui	PRON
 ait	avoir	AUX
@@ -6365,7 +6365,7 @@ scientifiques	scientifique	ADJ
 je	je	PRON
 ai	avoir	AUX
 pris	prendre	VERB
-à dessein	à dessein	PUNCT
+à dessein	à dessein	ADV
 le	le	DET
 mot	mot	NOUN
 mince	mince	ADJ
@@ -6524,7 +6524,7 @@ troisième	troisième	ADJ
 dimension	dimension	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 à	à	ADP
@@ -6799,7 +6799,7 @@ toutes	tout	ADJ
 affaires	affaire	NOUN
 cessantes	cessant	ADJ
 —	—	PUNCTclause
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 simplement	simplement	ADV
 que	que	SCONJ
 elles	elles	PRON
@@ -6828,7 +6828,7 @@ sera	être	AUX
 le	le	DET
 début	début	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 de	de	ADP
 mes	mon	DET
 lettres	lettre	NOUN
@@ -6872,7 +6872,7 @@ jours	jour	NOUN
 de	de	ADP
 chaleur	chaleur	NOUN
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 est	être	AUX
 accouru	accourir	VERB
 sur	sur	ADP
@@ -6890,13 +6890,13 @@ dû	devoir	VERB
 raconter	raconter	VERB
 l'	le	DET
 histoire	histoire	NOUN
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 je	je	PRON
 revenais	revenir	VERB
 de	de	ADP
 Hiroshima	Hiroshima	PROPN
 ,	,	PUNCTclause
-comme si	comme si	PRON
+comme si	comme si	SCONJ
 je	je	PRON
 en	en	PRON
 étais	être	AUX
@@ -6978,7 +6978,7 @@ une	un	DET
 bronchite	bronchite	NOUN
 simple	simple	ADJ
 ,	,	PUNCTclause
-rien que	rien que	PRON
+rien que	rien que	ADV
 une	un	DET
 invention	invention	NOUN
 mécanique	mécanique	ADJ
@@ -7094,7 +7094,7 @@ ce	ce	PRON
 que	que	PRON
 on	on	PRON
 vient	venir	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 ajouta	ajouter	VERB
 elle	elle	PRON
@@ -7178,7 +7178,7 @@ quelconque	quelconque	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-n'empêche que	n'empêche que	ADP
+n'empêche que	n'empêche que	ADV
 la	le	DET
 bombe	bombe	NOUN
 a	avoir	AUX
@@ -7488,10 +7488,10 @@ agit	agir	VERB
 par	par	ADP
 ses	son	DET
 absences	absence	NOUN
-un peu	un peu	PUNCT
-sournoises	sournois	NOUN
+un peu	un peu	ADV
+sournoises	sournois	ADJ
 ,	,	PUNCTclause
-par petites touches	par petites touches	NOUN
+par petites touches	par petites touches	ADV
 imperceptibles	imperceptible	ADJ
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -7532,7 +7532,7 @@ de même	de même	ADV
 la	le	DET
 Mariée	Mariée	PROPN
 mise	mettre	VERB
-à nu	à nu	PUNCT
+à nu	à nu	ADJ
 par	par	ADP
 ses	son	DET
 célibataires	célibataire	NOUN
@@ -7624,7 +7624,7 @@ siècle	siècle	NOUN
 et	et	CCONJ
 la	le	DET
 suite	suite	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 inventeur	inventeur	NOUN
 de	de	ADP
 une	un	DET
@@ -7987,7 +7987,7 @@ ouvriers	ouvrier	NOUN
 ne	ne	ADV
 veulent	vouloir	VERB
 plus	plus	ADV
-depuis que	depuis que	ADV
+depuis que	depuis que	SCONJ
 les	le	DET
 salaires	salaire	NOUN
 ont	avoir	AUX
@@ -9593,7 +9593,7 @@ ou	ou	CCONJ
 que	que	SCONJ
 il	il	PRON
 vient	venir	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 foreigners	foreigners	NOUN
 …	…	PUNCTsent
 mais	mais	CCONJ
@@ -9715,7 +9715,7 @@ les	le	DET
 usines	usine	NOUN
 travaillaient	travailler	VERB
 pour	pour	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 la	le	DET
 «	«	PUNCTclause
@@ -10100,12 +10100,12 @@ sait	savoir	VERB
 des	un	ADP_DET
 haut-parleurs	haut-parleur	NOUN
 répandaient	répandre	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 l'	le	DET
-Adeste	Adeste	PROPN
-Fideles	Fideles	PROPN
+Adeste	Adeste	NOUN
+Fideles	Fideles	ADJ
 et	et	CCONJ
-des	un	ADP_DET
+des	un	DET
 carols	carols	NOUN
 transformés	transformer	VERB
 en	en	ADP
@@ -10410,7 +10410,7 @@ parce que	parce que	SCONJ
 elle	elle	PRON
 les	le_PRON	PRON
 respecte	respecter	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 trop	trop	ADV
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -10643,7 +10643,7 @@ elle	elle	PRON
 ne	ne	ADV
 le	le_PRON	PRON
 cède	céder	VERB
-en rien	en rien	ADP
+en rien	en rien	ADV
 à	à	ADP
 la	le	DET
 photographie	photographie	NOUN
@@ -10693,7 +10693,7 @@ se	se	PRON
 moque	moquer	VERB
 des	un	ADP_DET
 clichés	cliché	NOUN
-à la mode	à la mode	ADP
+à la mode	à la mode	ADJ
 au sujet de	au sujet de	ADP
 cette	ce	DET
 invention	invention	NOUN
@@ -10995,7 +10995,7 @@ inexact	inexact	ADJ
 et	et	CCONJ
 peut-être	peut-être	ADV
 inventé	inventer	VERB
-de toutes pièces	de toutes pièces	DET
+de toutes pièces	de toutes pièces	ADV
 .	.	PUNCTsent
 les	le	DET
 reportages	reportage	NOUN
@@ -11130,7 +11130,7 @@ déprimantes	déprimant	ADJ
 parce que	parce que	SCONJ
 elles	elles	PRON
 sont	être	AUX
-sans objet	sans objet	DET
+sans objet	sans objet	ADJ
 réel	réel	ADJ
 .	.	PUNCTsent
 tout	tout	PRON
@@ -11216,7 +11216,7 @@ parler	parler	VERB
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 comme	comme	ADP
 une	un	DET
 femme	femme	NOUN

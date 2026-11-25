@@ -6,7 +6,7 @@
 # title = Au-delà des nations (1967)
 
 ↵↵	↵↵	PUNCTstruct
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 nations	nation	NOUN
 (	(	PUNCTclause
 1967	1967	NUM
@@ -47,7 +47,7 @@ ouvrit	ouvrir	VERB
 Vienne	Vienne	PROPN
 en	en	ADP
 1927	1927	NUM
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 congrès	congrès	NOUN
 du	du	ADP_DET
 mouvement	mouvement	NOUN
@@ -326,8 +326,8 @@ négatives	négatif	ADJ
 et	et	CCONJ
 le	le	DET
 nationalisme	nationalisme	NOUN
-plus ou moins	plus ou moins	PUNCT
-avoué	avoué	NOUN
+plus ou moins	plus ou moins	ADV
+avoué	avouer	VERB
 qui	qui	PRON
 les	le_PRON	PRON
 inspire	inspirer	VERB
@@ -516,7 +516,7 @@ le	le	DET
 Plan	Plan	PROPN
 prudemment	prudemment	ADV
 mis	mettre	VERB
-au point	au point	ADP_DET
+au point	au point	ADJ
 de	de	ADP
 union	union	NOUN
 douanière	douanier	ADJ
@@ -677,7 +677,7 @@ gouvernements	gouvernement	NOUN
 décidés	décider	VERB
 à	à	ADP
 poursuivre	poursuivre	VERB
-coûte que coûte	coûte que coûte	PUNCT
+coûte que coûte	coûte que coûte	ADV
 la	le	DET
 politique	politique	NOUN
 de	de	ADP
@@ -953,7 +953,7 @@ devrait	devoir	VERB
 clair	clair	ADJ
 —	—	PUNCTclause
 que	que	SCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 états	état	NOUN
 souverains	souverain	ADJ
 les	le	DET
@@ -1012,7 +1012,7 @@ jamais	jamais	ADV
 que	que	SCONJ
 une	un	DET
 mesure	mesure	NOUN
-de fortune	de fortune	DET
+de fortune	de fortune	ADJ
 ,	,	PUNCTclause
 voire	voire	CCONJ
 que	que	SCONJ
@@ -1096,7 +1096,7 @@ il	il	PRON
 faut	falloir	VERB
 bâtir	bâtir	VERB
 sur	sur	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 sur	sur	ADP
 les	le	DET
@@ -1233,7 +1233,7 @@ que	que	PRON
 nous	nous	PRON
 voyons	voir	VERB
 lentement	lentement	ADV
-prendre forme	prendre forme	PUNCT
+prendre forme	prendre forme	VERB
 au	au	ADP_DET
 seuil	seuil	NOUN
 de	de	ADP
@@ -1560,7 +1560,7 @@ fédérale	fédéral	ADJ
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
 essayer	essayer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 sentir	sentir	VERB
 le	le	DET
 concret	concret	ADJ
@@ -1780,7 +1780,7 @@ logiquement	logiquement	ADV
 contradictoires	contradictoire	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 je	je	PRON
 les	le_PRON	PRON
@@ -1788,7 +1788,7 @@ vois	voir	VERB
 complémentaires	complémentaire	ADJ
 .	.	PUNCTsent
 car	car	CCONJ
-au fur et à mesure que	au fur et à mesure que	PUNCT
+au fur et à mesure que	au fur et à mesure que	SCONJ
 se	se	PRON
 dévalorisent	dévaloriser	VERB
 les	le	DET
@@ -1861,7 +1861,7 @@ tenant	tenant	NOUN
 quant à	quant à	ADP
 sous-sol	sous-sol	NOUN
 ,	,	PUNCTclause
-sous prétexte que	sous prétexte que	NOUN
+sous prétexte que	sous prétexte que	SCONJ
 à	à	ADP
 la	le	DET
 surface	surface	NOUN
@@ -2269,7 +2269,7 @@ on	on	PRON
 ne	ne	ADV
 en	en	PRON
 est	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 au	au	ADP_DET
 stade	stade	NOUN
 de	de	ADP
@@ -2284,7 +2284,7 @@ motifs	motif	NOUN
 de	de	ADP
 son	son	DET
 apparition	apparition	NOUN
-en ce moment	en ce moment	PUNCT
+en ce moment	en ce moment	ADV
 précis	précis	ADJ
 de	de	ADP
 notre	notre	DET
@@ -2376,14 +2376,14 @@ vingt	vingt	NUM
 trente	trente	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
-en admettant que	en admettant que	DET
+en admettant que	en admettant que	SCONJ
 tout	tout	PRON
 se	se	PRON
 passe	passer	VERB
 bien	bien	ADV
 plus	plus	ADV
 vite	vite	ADV
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 que	que	SCONJ
 à	à	ADP
 l'	le	DET
@@ -2447,7 +2447,7 @@ la	le	DET
 polis	poli	ADJ
 devint	devenir	VERB
 en	en	ADP
-moins d'une	moins d'une	NOUN
+moins d'une	moins d'une	DET
 siècle	siècle	NOUN
 l'	le	DET
 unité	unité	NOUN
@@ -2477,7 +2477,7 @@ la	le	DET
 politique	politique	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 la	le	DET
 polis	poli	ADJ
 —	—	PUNCTclause
@@ -2500,7 +2500,7 @@ belliqueuse	belliqueux	ADJ
 —	—	PUNCTclause
 créant	créer	VERB
 ainsi	ainsi	ADV
-la première	la première	PUNCT
+la première	la première	PRON
 civilisation	civilisation	NOUN
 Europe	Europe	PROPN
 —	—	PUNCTclause
@@ -2671,7 +2671,7 @@ nous	nous	PRON
 ne	ne	ADV
 en	en	PRON
 sommes	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 à	à	ADP
 l'	le	DET
 aube	aube	NOUN
@@ -3066,7 +3066,7 @@ fédère	fédérer	VERB
 ou	ou	CCONJ
 se	se	PRON
 unit	unir	VERB
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 initiatives	initiative	NOUN
 de	de	ADP
 l'	le	DET
@@ -3083,7 +3083,7 @@ nationales	national	ADJ
 ,	,	PUNCTclause
 chaque	chaque	DET
 jour	jour	NOUN
-un peu	un peu	DET
+un peu	un peu	ADV
 moins	moins	ADV
 efficaces	efficace	ADJ
 .	.	PUNCTsent
@@ -3150,7 +3150,7 @@ régionaliste	régionaliste	ADJ
 sera	être	AUX
 faite	faire	VERB
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 la	le	DET
 fédération	fédération	NOUN
@@ -3199,7 +3199,7 @@ la	le	DET
 deuxième	deuxième	ADJ
 guerre mondiale	guerre mondiale	NOUN
 .	.	PUNCTsent
-du moins	du moins	NOUN
+du moins	du moins	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 fédération	fédération	NOUN

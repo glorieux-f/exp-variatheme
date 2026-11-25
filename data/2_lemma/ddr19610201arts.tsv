@@ -12,7 +12,7 @@ une	un	DET
 enquête	enquête	NOUN
 l'	le	DET
 amour	amour	NOUN
-en cause	en cause	PUNCT
+en cause	en cause	ADJ
 (	(	PUNCTclause
 1	1	NUM
 er	er	NOUN
@@ -565,7 +565,7 @@ personne	personne	NOUN
 cette	ce	DET
 vie	vie	NOUN
 demeure	demeurer	VERB
-en partie	en partie	DET
+en partie	en partie	ADV
 mystérieuse	mystérieux	ADJ
 ,	,	PUNCTclause
 étant	être	AUX
@@ -1112,14 +1112,14 @@ civils	civil	ADJ
 ont	avoir	AUX
 développé	développer	VERB
 dès	dès	ADP
-la première	la première	DET
+la première	la première	PRON
 génération	génération	NOUN
 apostolique	apostolique	ADJ
 une	un	DET
 doctrine	doctrine	NOUN
 du	du	ADP_DET
 mariage	mariage	NOUN
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 spécifique	spécifique	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1142,7 +1142,7 @@ et	et	CCONJ
 des	un	DET
 évangiles	évangile	NOUN
 qui	qui	PRON
-dans l'ensemble	dans l'ensemble	PUNCT
+dans l'ensemble	dans l'ensemble	ADV
 définissent	définir	VERB
 une	un	DET
 éthique	éthique	ADJ
@@ -1319,7 +1319,7 @@ de	de	ADP
 brûler	brûler	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 aux yeux de	aux yeux de	ADP
 l'	le	DET
 Apôtre	Apôtre	PROPN
@@ -1530,7 +1530,7 @@ grâce	grâce	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 valorisé	valoriser	VERB
-à l'extrême	à l'extrême	DET
+à l'extrême	à l'extrême	ADV
 .	.	PUNCTsent
 ceci	ceci	PRON
 ne	ne	ADV
@@ -1545,7 +1545,7 @@ est	être	AUX
 pas	pas	ADV
 produit	produire	VERB
 —	—	PUNCTclause
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 la	le	DET
 sphère	sphère	NOUN
 de	de	ADP
@@ -1554,7 +1554,7 @@ du	du	ADP_DET
 christianisme	christianisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 phénomène	phénomène	NOUN
 que	que	PRON
@@ -1744,7 +1744,7 @@ dessinées	dessiner	VERB
 ,	,	PUNCTclause
 les	le	DET
 chansons	chanson	NOUN
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 ,	,	PUNCTclause
 les	le	DET
 danses	danse	NOUN
@@ -1822,7 +1822,7 @@ expression	expression	NOUN
 eux	eux	PRON
 ,	,	PUNCTclause
 sont	être	AUX
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 .	.	PUNCTsent
 la	le	DET
 culture	culture	NOUN
@@ -2165,8 +2165,8 @@ pornographie	pornographie	NOUN
 ,	,	PUNCTclause
 il y a	il y a	VERB
 tout	tout	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 une	un	DET
 réaction	réaction	NOUN
 contre	contre	ADP
@@ -2538,7 +2538,7 @@ de	de	ADP
 la	le	DET
 culture	culture	NOUN
 —	—	PUNCTclause
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 pas	pas	ADV
 si	si	SCONJ
 directement	directement	ADV
@@ -2621,10 +2621,10 @@ amour	amour	NOUN
 qui	qui	PRON
 est	être	AUX
 remis	remettre	VERB
-en question	en question	ADP
+en question	en question	ADJ
 —	—	PUNCTclause
-tout	tout	DET
-l'	le_PRON	PRON
+tout	tout	PRON
+l'	le	DET
 amour	amour	NOUN
 :	:	PUNCTclause
 sexuel	sexuel	ADJ
@@ -2956,7 +2956,7 @@ sommes	être	AUX
 en train de	en train de	ADV
 vivre	vivre	VERB
 renouvelle	renouveler	VERB
-en partie	en partie	ADP
+en partie	en partie	ADV
 celle	celle	PRON
 du	du	ADP_DET
 12e	12e	ADJ
@@ -3322,8 +3322,8 @@ dans	dans	ADP
 tout	tout	ADJ
 cela	cela	PRON
 ,	,	PUNCTclause
-autre chose	autre chose	NOUN
-que	que	ADV
+autre chose	autre chose	PRON
+que	que	SCONJ
 une	un	DET
 immense	immense	ADJ
 dépravation	dépravation	NOUN
@@ -3397,9 +3397,9 @@ on	on	PRON
 que	que	PRON
 il y a	il y a	VERB
 bien	bien	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
-la	le	DET
+autre chose	autre chose	PRON
+que	que	PRON
+la	le_PRON	PRON
 pédérastie	pédérastie	NOUN
 dans	dans	ADP
 Proust	Proust	PROPN
@@ -3488,7 +3488,7 @@ dispositions	disposition	NOUN
 se	se	PRON
 trouvent	trouver	VERB
 être	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 que	que	SCONJ
 celle	celle	PRON
 des	un	ADP_DET
@@ -3594,7 +3594,7 @@ il	il	PRON
 ne	ne	ADV
 y	y	PRON
 aurait	avoir	AUX
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 dans	dans	ADP
 notre	notre	DET
 civilisation	civilisation	NOUN
@@ -3866,8 +3866,8 @@ médias	média	NOUN
 tout	tout	PRON
 agit	agir	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 ,	,	PUNCTclause
 irréversible	irréversible	ADJ
 .	.	PUNCTsent
@@ -3876,7 +3876,7 @@ vois	voir	VERB
 bien que	bien que	SCONJ
 en	en	ADP
 remettant	remettre	VERB
-en question	en question	ADP
+en question	en question	ADJ
 l'	le	DET
 ensemble	ensemble	NOUN
 des	un	ADP_DET
@@ -3985,7 +3985,7 @@ mais	mais	CCONJ
 qui	qui	PRON
 lui	lui	PRON
 est	être	AUX
-par là même	par là même	ADP
+par là même	par là même	ADV
 comparable	comparable	ADJ
 .	.	PUNCTsent
 entre	entre	ADP
@@ -4124,9 +4124,9 @@ conduit	conduire	VERB
 peut-être	peut-être	ADV
 serons	être	VERB
 nous	nous	PRON
-un peu	un peu	ADP_DET
+un peu	un peu	ADV
 mieux	mieux	ADV
-en mesure de	en mesure de	PRON
+en mesure de	en mesure de	ADJ
 courir	courir	VERB
 notre	notre	DET
 risque	risque	NOUN
@@ -4145,7 +4145,7 @@ nous-mêmes	nous-mêmes	PRON
 peut-être	peut-être	ADV
 serons	être	AUX
 nous	nous	PRON
-un peu	un peu	ADP_DET
+un peu	un peu	ADV
 plus	plus	ADV
 libres	libre	ADJ
 .	.	PUNCTsent

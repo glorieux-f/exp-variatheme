@@ -43,7 +43,7 @@ jeu	jeu	NOUN
 de	de	ADP
 un	un	DET
 petit	petit	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 forces	force	NOUN
 principales	principal	ADJ
 et	et	CCONJ
@@ -512,7 +512,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 précédent	précédent	ADJ
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elles	elles	PRON
 étaient	être	AUX
 communes	commun	ADJ
@@ -781,7 +781,7 @@ esprits	esprit	NOUN
 et	et	CCONJ
 cela	cela	PRON
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 .	.	PUNCTsent
 on	on	PRON
@@ -797,7 +797,7 @@ frontières	frontière	NOUN
 nationales	national	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 des	un	DET
 litiges	litige	NOUN
@@ -923,7 +923,7 @@ eux-mêmes	eux-mêmes	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 que	que	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 admettait	admettre	VERB
 avec	avec	ADP
 chaleur	chaleur	NOUN
@@ -1265,7 +1265,7 @@ germains	germain	NOUN
 et	et	CCONJ
 latins	latin	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 on	on	PRON
 parle	parler	VERB
 des	un	ADP_DET
@@ -1334,7 +1334,7 @@ les	le	DET
 sudètes	sudète	NOUN
 de	de	ADP
 parler	parler	VERB
-la même	la même	ADP
+la même	la même	PRON
 langue	langue	NOUN
 que	que	SCONJ
 les	le	DET
@@ -1608,7 +1608,7 @@ couloir	couloir	NOUN
 de	de	ADP
 Dantzig	Dantzig	PROPN
 ,	,	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 l'	le	DET
 Alsace	Alsace	PROPN
 .	.	PUNCTsent
@@ -1760,7 +1760,7 @@ capitaliste	capitaliste	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 où	où	PRON
 le	le	DET
@@ -1851,7 +1851,7 @@ réformistes	réformiste	ADJ
 ou	ou	CCONJ
 révolutionnaires	révolutionnaire	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 la	le	DET
 crise	crise	NOUN
 qui	qui	PRON
@@ -1948,7 +1948,7 @@ une	un	DET
 bronchite	bronchite	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 le	le	DET
 grand	grand	ADJ
@@ -2021,7 +2021,7 @@ cours	cours	NOUN
 nationaux	national	ADJ
 se	se	PRON
 effondrèrent	effondrer	VERB
-les uns après les autres	les uns après les autres	DET
+les uns après les autres	les uns après les autres	ADV
 dès	dès	ADP
 1931	1931	NUM
 :	:	PUNCTclause
@@ -2165,7 +2165,7 @@ ces	ce	DET
 scandales	scandale	NOUN
 moraux	moral	ADJ
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 économiques	économique	ADJ
 frappent	frapper	VERB
 l'	le	DET
@@ -2244,7 +2244,7 @@ aux	au	ADP_DET
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 parle	parler	VERB
 de	de	ADP
 «	«	PUNCTclause
@@ -2252,7 +2252,7 @@ crise	crise	NOUN
 mondiale	mondial	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 la	le	DET
 crise	crise	NOUN
@@ -2325,7 +2325,7 @@ seules	seul	ADJ
 réponses	réponse	NOUN
 valables	valable	ADJ
 ,	,	PUNCTclause
-à première vue	à première vue	DET
+à première vue	à première vue	ADV
 ,	,	PUNCTclause
 seraient	être	AUX
 celles	celle	PRON
@@ -2482,7 +2482,7 @@ plus tard	plus tard	ADV
 prix Nobel	prix Nobel	NOUN
 de	de	ADP
 poésie	poésie	NOUN
-sous le nom de	sous le nom de	PUNCT
+sous le nom de	sous le nom de	ADP
 Saint-John	Saint-John	PROPN
 Perse	Perse	PROPN
 .	.	PUNCTsent
@@ -2518,7 +2518,7 @@ créant	créer	VERB
 des	un	DET
 «	«	PUNCTclause
 solidarités	solidarité	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2748,7 +2748,7 @@ que	que	SCONJ
 les	le	DET
 totalitaires	totalitaire	ADJ
 gagneront	gagner	VERB
-sans conteste	sans conteste	DET
+sans conteste	sans conteste	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -2791,7 +2791,7 @@ dès	dès	ADP
 l'	le	DET
 Allemagne	Allemagne	PROPN
 hitlérienne	hitlérien	ADJ
-la même	la même	DET
+la même	la même	PRON
 année	année	NOUN
 et	et	CCONJ
 l'	le	DET
@@ -2807,7 +2807,7 @@ pour	pour	ADP
 «	«	PUNCTclause
 réarmer	réarmer	VERB
 »	»	PUNCTclause
-à qui mieux mieux	à qui mieux mieux	PUNCT
+à qui mieux mieux	à qui mieux mieux	ADV
 et	et	CCONJ
 relancer	relancer	VERB
 de	de	ADP
@@ -2861,7 +2861,7 @@ collective	collectif	ADJ
 dans	dans	ADP
 les	le	DET
 couloirs	couloir	NOUN
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 animés	animer	VERB
 du	du	ADP_DET
 Palais	Palais	PROPN
@@ -3098,7 +3098,7 @@ et	et	CCONJ
 de	de	ADP
 la	le	DET
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 des	un	ADP_DET
 tchèques	tchèque	NOUN
 ,	,	PUNCTclause
@@ -3135,8 +3135,8 @@ pompeuses	pompeux	ADJ
 aux	au	ADP_DET
 divers	divers	ADJ
 coups	coup	NOUN
-de force	de force	ADP
-des	un	DET
+de force	de force	ADV
+des	un	ADP_DET
 totalitaires	totalitaire	ADJ
 .	.	PUNCTsent
 Staline	Staline	PROPN
@@ -3680,7 +3680,7 @@ le	le	DET
 peuple	peuple	NOUN
 ne	ne	ADV
 ont	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 vocabulaire	vocabulaire	NOUN
 ni	ni	CCONJ
 de	de	ADP
@@ -4072,7 +4072,7 @@ seront	être	AUX
 d'abord	d'abord	ADV
 sacrifiés	sacrifier	VERB
 ,	,	PUNCTclause
-de gré ou de force	de gré ou de force	DET
+de gré ou de force	de gré ou de force	ADV
 ?	?	PUNCTsent
 les	le	DET
 sauveront	sauver	VERB
@@ -4099,7 +4099,7 @@ avouer	avouer	VERB
 de	de	ADP
 porter	porter	VERB
 témoignage	témoignage	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 une	un	DET
 plus	plus	ADV
 haute	haut	ADJ
@@ -4268,7 +4268,7 @@ sont	être	AUX
 donc	donc	ADV
 données	donner	VERB
 comme	comme	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 progrès	progrès	NOUN
 culturels	culturel	ADJ
 et	et	CCONJ
@@ -4315,7 +4315,7 @@ la	le	DET
 production	production	NOUN
 qui	qui	PRON
 prendra	prendre	VERB
-le temps que	le temps que	DET
+le temps que	le temps que	SCONJ
 il	il	PRON
 faudra	falloir	VERB
 !	!	PUNCTsent
@@ -4586,7 +4586,7 @@ presque	presque	ADV
 tous	tout	ADJ
 ,	,	PUNCTclause
 feront	faire	VERB
-en public	en public	ADP
+en public	en public	ADV
 des	un	DET
 aveux	aveu	NOUN
 «	«	PUNCTclause
@@ -4598,7 +4598,7 @@ autocritique	autocritique	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
 recevront	recevoir	VERB
-en secret	en secret	PUNCT
+en secret	en secret	ADV
 une	un	DET
 balle	balle	NOUN
 dans	dans	ADP
@@ -4648,7 +4648,7 @@ et	et	CCONJ
 génocides	génocide	NOUN
 compris	comprendre	VERB
 .	.	PUNCTsent
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -4717,7 +4717,7 @@ se	se	PRON
 sont	être	AUX
 manifestées	manifester	VERB
 dès	dès	ADP
-la même	la même	DET
+la même	la même	PRON
 année	année	NOUN
 ,	,	PUNCTclause
 avec	avec	ADP
@@ -4824,7 +4824,7 @@ deux	deux	NUM
 lignes	ligne	NOUN
 ,	,	PUNCTclause
 voire	voire	CCONJ
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
 rien	rien	PRON
@@ -5265,7 +5265,7 @@ le	le	DET
 phénomène	phénomène	NOUN
 Hitler	Hitler	PROPN
 domine	dominer	VERB
-sans conteste	sans conteste	ADP
+sans conteste	sans conteste	ADV
 la	le	DET
 période	période	NOUN
 dont	dont	PRON
@@ -5568,7 +5568,7 @@ antisémitisme	antisémitisme	NOUN
 la	le	DET
 Rhénanie	Rhénanie	PROPN
 réoccupée	réoccuper	VERB
-sans coup férir	sans coup férir	PUNCT
+sans coup férir	sans coup férir	ADV
 et	et	CCONJ
 sans	sans	ADP
 réaction	réaction	NOUN
@@ -5838,7 +5838,7 @@ me	me	PRON
 repousse	repousser	VERB
 avec	avec	ADP
 bien	bien	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 puissance	puissance	NOUN
 ,	,	PUNCTclause
 même	même	ADV
@@ -6004,7 +6004,7 @@ faite	faire	AUX
 homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 Staline	Staline	PROPN
 voulait	vouloir	VERB
 incarner	incarner	VERB
@@ -6070,8 +6070,8 @@ sacro-saint	sacro-saint	ADJ
 ,	,	PUNCTclause
 le	le	DET
 pouvoir	pouvoir	NOUN
-de fait	de fait	PUNCT
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 miracles	miracle	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -6396,7 +6396,7 @@ sûrement	sûrement	ADV
 la	le	DET
 guerre civile	guerre civile	NOUN
 ,	,	PUNCTclause
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 .	.	PUNCTsent
 Hitler	Hitler	PROPN
 et	et	CCONJ
@@ -6836,7 +6836,7 @@ aux	au	ADP_DET
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 en	en	ADP
 1932	1932	NUM
 ,	,	PUNCTclause
@@ -6867,7 +6867,7 @@ que	que	SCONJ
 en	en	ADP
 France	France	PROPN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 en	en	ADP
 1933	1933	NUM
 ,	,	PUNCTclause
@@ -6926,12 +6926,12 @@ de	de	ADP
 intervenir	intervenir	VERB
 et	et	CCONJ
 a fortiori	a fortiori	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 valoir	valoir	VERB
 ses	son	DET
 idéaux	idéal	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 Allemagne	Allemagne	PROPN
 hitlérienne	hitlérien	ADJ
@@ -6995,7 +6995,7 @@ dès	dès	ADP
 1935	1935	NUM
 ,	,	PUNCTclause
 mais	mais	CCONJ
-ni l'une ni l'autre	ni l'une ni l'autre	ADP
+ni l'une ni l'autre	ni l'une ni l'autre	PRON
 ne	ne	ADV
 imposera	imposer	VERB
 son	son	DET
@@ -7261,7 +7261,7 @@ en	en	PRON
 sera	être	AUX
 pas	pas	ADV
 moins	moins	ADV
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 en	en	ADP
 Europe	Europe	PROPN
 à	à	ADP
@@ -7276,7 +7276,7 @@ sociales	social	ADJ
 voire	voire	CCONJ
 socialistes	socialiste	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 communisme	communisme	NOUN
 Russie	Russie	PROPN
@@ -7475,7 +7475,7 @@ et	et	CCONJ
 des	un	ADP_DET
 faiblesses	faiblesse	NOUN
 )	)	PUNCTclause
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 à	à	ADP
 cette	ce	DET
 époque	époque	NOUN
@@ -7596,7 +7596,7 @@ négative	négatif	ADJ
 elle	elle	PRON
 l'	le_PRON	PRON
 est	être	AUX
-en fait	en fait	SYM
+en fait	en fait	ADV
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 tous	tout	ADJ
@@ -7611,7 +7611,7 @@ politiques	politique	ADJ
 du	du	ADP_DET
 temps	temps	NOUN
 représentent	représenter	VERB
-autant de	autant de	PUNCT
+autant de	autant de	DET
 facteurs	facteur	NOUN
 de	de	ADP
 guerre	guerre	NOUN
@@ -7840,7 +7840,7 @@ fondamentale	fondamental	ADJ
 la	le	DET
 «	«	PUNCTclause
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 »	»	PUNCTclause
 des	un	ADP_DET
 consciences	conscience	NOUN
@@ -7921,7 +7921,7 @@ de	de	ADP
 ces	ce	DET
 années	année	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 exprime	exprimer	VERB
 avec	avec	ADP
@@ -7932,7 +7932,7 @@ contre	contre	ADP
 la	le	DET
 «	«	PUNCTclause
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 »	»	PUNCTclause
 générale	général	ADJ
 de	de	ADP
@@ -8039,7 +8039,7 @@ faudra	falloir	VERB
 le	le	DET
 chercher	chercher	VERB
 .	.	PUNCTsent
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 le	le_PRON	PRON
@@ -8286,7 +8286,7 @@ pour	pour	ADP
 ses	son	DET
 membres	membre	NOUN
 chrétiens	chrétien	ADJ
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 —	—	PUNCTclause
 ,	,	PUNCTclause
 le	le	DET
@@ -8355,7 +8355,7 @@ antifascistes	antifasciste	NOUN
 et	et	CCONJ
 anticommunistes	anticommuniste	NOUN
 pour	pour	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 motifs	motif	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -8381,7 +8381,7 @@ abandons	abandon	NOUN
 de	de	ADP
 souveraineté	souveraineté	NOUN
 nationale	national	ADJ
-au profit de	au profit de	ADP_DET
+au profit de	au profit de	ADP
 institutions	institution	NOUN
 régionales	régional	ADJ
 et	et	CCONJ

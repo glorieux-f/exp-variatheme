@@ -175,7 +175,7 @@ décisions	décision	NOUN
 de	de	ADP
 ce	ce	DET
 congrès	congrès	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 sont	être	AUX
 nés	naître	VERB
 :	:	PUNCTclause
@@ -379,8 +379,8 @@ réussit	réussir	VERB
 à	à	ADP
 passer	passer	VERB
 sans	sans	ADP
-trop de	trop de	NOUN
-mal	mal	ADV
+trop de	trop de	DET
+mal	mal	NOUN
 le	le	DET
 cap	cap	NOUN
 des	un	ADP_DET
@@ -540,7 +540,7 @@ pas	pas	ADV
 atteint	atteindre	VERB
 le	le	DET
 stade	stade	NOUN
-de mise	de mise	ADP
+de mise	de mise	ADJ
 en	en	ADP
 discussion	discussion	NOUN
 par	par	ADP
@@ -704,9 +704,9 @@ valeur	valeur	NOUN
 .	.	PUNCTsent
 elle	elle	PRON
 met	mettre	VERB
-en jeu	en jeu	DET
-le	le_PRON	PRON
-sort	sortir	VERB
+en jeu	en jeu	ADJ
+le	le	DET
+sort	sort	NOUN
 de plus	de plus	ADV
 de	de	ADP
 un	un	DET
@@ -726,7 +726,7 @@ descriptions	description	NOUN
 sont	être	AUX
 exactes	exact	ADJ
 ,	,	PUNCTclause
-encore que	encore que	DET
+encore que	encore que	SCONJ
 elles	elles	PRON
 apparaissent	apparaître	VERB
 contradictoires	contradictoire	ADJ
@@ -812,7 +812,7 @@ de	de	ADP
 cette	ce	DET
 situation	situation	NOUN
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 parle	parler	VERB
 de	de	ADP
 l'	le	DET
@@ -832,9 +832,9 @@ savoir	savoir	VERB
 ce	ce	DET
 qui	qui	PRON
 est	être	AUX
-en jeu	en jeu	SYM
+en jeu	en jeu	ADJ
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 prend	prendre	VERB
 position	position	NOUN
 pour	pour	ADP
@@ -905,7 +905,7 @@ la	le	DET
 France	France	PROPN
 ,	,	PUNCTclause
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 à	à	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -1014,14 +1014,14 @@ Europe	Europe	PROPN
 pourrait	pouvoir	VERB
 se	se	PRON
 faire	faire	VERB
-à court terme	à court terme	DET
+à court terme	à court terme	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 ne	ne	ADV
 pas	pas	ADV
 dire	dire	VERB
 «	«	PUNCTclause
-à la sauvette	à la sauvette	DET
+à la sauvette	à la sauvette	ADV
 »	»	PUNCTclause
 ,	,	PUNCTclause
 par	par	ADP
@@ -1058,7 +1058,7 @@ de	de	ADP
 temps	temps	NOUN
 ,	,	PUNCTclause
 un	un	DET
-à côté	à côté	NOUN
+à côté	à côté	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 scepticisme	scepticisme	NOUN
@@ -1317,7 +1317,7 @@ esprit	esprit	NOUN
 .	.	PUNCTsent
 tel	tel	DET
 étant	être	AUX
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 et	et	CCONJ
 le	le	DET
 plus	plus	ADV
@@ -1358,7 +1358,7 @@ cœurs	cœur	NOUN
 ,	,	PUNCTclause
 travail	travail	NOUN
 dont	dont	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 parle	parler	VERB
 et	et	CCONJ
 que	que	SCONJ

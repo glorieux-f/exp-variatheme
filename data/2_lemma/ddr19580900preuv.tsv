@@ -55,7 +55,7 @@ nostalgie	nostalgie	NOUN
 secrète	secret	ADJ
 .	.	PUNCTsent
 car	car	CCONJ
-l'un et l'autre	l'un et l'autre	DET
+l'un et l'autre	l'un et l'autre	PRON
 sont	être	AUX
 issus	issu	ADJ
 des	un	ADP_DET
@@ -324,7 +324,7 @@ moyenne	moyen	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-tout ou rien	tout ou rien	DET
+tout ou rien	tout ou rien	NOUN
 .	.	PUNCTsent
 que	que	SCONJ
 la	le	DET
@@ -444,7 +444,7 @@ est	être	AUX
 pas	pas	ADV
 durable	durable	ADJ
 ,	,	PUNCTclause
-outre que	outre que	ADV
+outre que	outre que	SCONJ
 elle	elle	PRON
 manque de	manque de	ADP
 dignité	dignité	NOUN
@@ -481,7 +481,7 @@ vous	vous	PRON
 disaient	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 homme	homme	NOUN
 de	de	ADP
 gauche	gauche	NOUN
@@ -523,14 +523,14 @@ phrases	phrase	NOUN
 insensées	insensé	ADJ
 .	.	PUNCTsent
 car	car	CCONJ
-en supposant que	en supposant que	PUNCT
+en supposant que	en supposant que	SCONJ
 l'	le	DET
 idéologie	idéologie	NOUN
 de	de	ADP
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 parti	parti	NOUN
 fût	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 cohérente	cohérent	ADJ
 ,	,	PUNCTclause
 le	le	DET
@@ -552,7 +552,7 @@ erreur	erreur	NOUN
 systématique	systématique	ADJ
 ,	,	PUNCTclause
 ou	ou	CCONJ
-pour le moins	pour le moins	ADP
+pour le moins	pour le moins	ADV
 multipliait	multiplier	VERB
 les	le	DET
 chances	chance	NOUN
@@ -616,7 +616,7 @@ pas	pas	ADV
 dans	dans	ADP
 les	le	DET
 réalités	réalité	NOUN
-autant de	autant de	ADP
+autant de	autant de	DET
 problèmes	problème	NOUN
 à	à	ADP
 résoudre	résoudre	VERB
@@ -625,7 +625,7 @@ après	après	ADP
 étude	étude	NOUN
 )	)	PUNCTclause
 mais	mais	CCONJ
-autant de	autant de	ADP
+autant de	autant de	DET
 prétextes	prétexte	NOUN
 à	à	ADP
 «	«	PUNCTclause
@@ -678,7 +678,7 @@ au sens propre	au sens propre	ADV
 nul	nul	PRON
 besoin	besoin	NOUN
 pour	pour	ADP
-ce faisant	ce faisant	PRON
+ce faisant	ce faisant	ADV
 de	de	ADP
 une	un	DET
 analyse	analyse	NOUN
@@ -947,9 +947,9 @@ du	du	ADP_DET
 régime	régime	NOUN
 fut	être	AUX
 atteint	atteindre	VERB
-le jour où	le jour où	DET
-l'	le_PRON	PRON
-assemblée	assembler	VERB
+le jour où	le jour où	SCONJ
+l'	le	DET
+assemblée	assemblée	NOUN
 prise	prendre	VERB
 de	de	ADP
 panique	panique	NOUN
@@ -980,7 +980,7 @@ une	un	DET
 politique	politique	NOUN
 :	:	PUNCTclause
 car	car	CCONJ
-dans ce cas	dans ce cas	PUNCT
+dans ce cas	dans ce cas	ADV
 elle	elle	PRON
 l'	le_PRON	PRON
 eût	avoir	VERB
@@ -1046,7 +1046,7 @@ donc	donc	ADV
 se	se	PRON
 livrer	livrer	VERB
 à	à	ADP
-la première	la première	NOUN
+la première	la première	PRON
 pression	pression	NOUN
 même	même	ADJ
 modérée	modéré	ADJ
@@ -1146,7 +1146,7 @@ ou	ou	CCONJ
 des	un	DET
 doctrines	doctrine	NOUN
 inconciliables	inconciliable	ADJ
-par nature	par nature	PUNCT
+par nature	par nature	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 imposer	imposer	VERB
@@ -1292,7 +1292,7 @@ faut	falloir	VERB
 provisoirement	provisoirement	ADV
 ,	,	PUNCTclause
 en attendant	en attendant	ADV
-le jour où	le jour où	PRON
+le jour où	le jour où	SCONJ
 l'on	on	PRON
 prendra	prendre	VERB
 le	le	DET
@@ -1502,7 +1502,7 @@ et	et	CCONJ
 comme	comme	SCONJ
 il	il	PRON
 semblait	sembler	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 vague	vague	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -1723,7 +1723,7 @@ initial	initial	ADJ
 et	et	CCONJ
 fondateur	fondateur	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 des	un	ADP_DET
 républiques	république	NOUN
 France	France	PROPN
@@ -1899,8 +1899,8 @@ nationalistes	nationaliste	NOUN
 soient	être	AUX
 aujourd'hui	aujourd'hui	ADV
 pour	pour	ADP
-la première	la première	DET
-formule	formule	NOUN
+la première	la première	PRON
+formule	formuler	VERB
 contre	contre	ADP
 la	le	DET
 seconde	second	NOUN
@@ -1928,14 +1928,14 @@ l'	le	DET
 avenir	avenir	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
-logique	logique	ADJ
+rien de plus	rien de plus	ADV
+logique	logique	NOUN
 ,	,	PUNCTclause
 malgré	malgré	ADP
 les	le	DET
 apparences	apparence	NOUN
-un peu	un peu	ADP_DET
-complexes	complexe	NOUN
+un peu	un peu	ADV
+complexes	complexe	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
 l'	le	DET

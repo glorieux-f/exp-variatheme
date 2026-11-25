@@ -33,7 +33,7 @@ insensé	insensé	NOUN
 selon	selon	ADP
 sa	son	DET
 folie	folie	NOUN
-de peur que	de peur que	PUNCT
+de peur que	de peur que	SCONJ
 tu	tu	PRON
 ne	ne	ADV
 lui	lui	PRON
@@ -234,7 +234,7 @@ elles	elles	PRON
 leur	leur	PRON
 donnent	donner	VERB
 raison	raison	NOUN
-en principe	en principe	PUNCT
+en principe	en principe	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 si	si	SCONJ
@@ -701,7 +701,7 @@ je	je	PRON
 ai	avoir	AUX
 cru	croire	VERB
 ,	,	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 je	je	PRON
 ai	avoir	AUX
 parlé	parler	VERB
@@ -904,7 +904,7 @@ sans	sans	ADP
 recours	recours	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 aide	aide	NOUN
 de	de	ADP
@@ -1230,7 +1230,7 @@ se	se	PRON
 est	être	AUX
 élevé	élevé	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ainsi	ainsi	ADV
 parle	parler	VERB
 le	le	DET
@@ -2016,7 +2016,7 @@ personne	personne	NOUN
 et	et	CCONJ
 qui	qui	PRON
 ne	ne	ADV
-en fait	en fait	VERB
+en fait	en fait	ADV
 point	point	ADV
 de	de	ADP
 inutiles	inutile	NOUN
@@ -2079,7 +2079,7 @@ un	un	DET
 fleuve	fleuve	NOUN
 ,	,	PUNCTclause
 produit	produire	VERB
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 un	un	DET
 amoncellement	amoncellement	NOUN
 de	de	ADP
@@ -2178,7 +2178,7 @@ le	le	DET
 mal	mal	NOUN
 que	que	SCONJ
 déploie	déployer	VERB
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 l'	le	DET
 adversaire	adversaire	NOUN
 .	.	PUNCTsent
@@ -2212,8 +2212,8 @@ sérieusement	sérieusement	ADV
 ,	,	PUNCTclause
 souhaiter	souhaiter	VERB
 de	de	ADP
-en devenir	en devenir	DET
-un	un	PRON
+en devenir	en devenir	ADJ
+un	un	DET
 ?	?	PUNCTsent
 mais	mais	CCONJ
 pour	pour	ADP
@@ -2454,7 +2454,7 @@ homme	homme	NOUN
 ,	,	PUNCTclause
 la	le	DET
 lanterne	lanterne	NOUN
-à la main	à la main	PUNCT
+à la main	à la main	ADV
 .	.	PUNCTsent
 je	je	PRON
 ne	ne	ADV
@@ -2480,8 +2480,8 @@ homme	homme	NOUN
 ce	ce	PRON
 est	être	AUX
 de	de	ADP
-en devenir	en devenir	DET
-un	un	PRON
+en devenir	en devenir	ADJ
+un	un	DET
 soi-même	soi-même	PRON
 .	.	PUNCTsent
 (	(	PUNCTclause
@@ -2560,16 +2560,16 @@ un	un	DET
 ordre	ordre	NOUN
 social	social	ADJ
 ;	;	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 nous	nous	PRON
 étant donné	étant donné	ADP
 ,	,	PUNCTclause
-le second	le second	DET
+le second	le second	PRON
 étant	être	AUX
 à	à	ADP
 donner	donner	VERB
 ;	;	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 figurant	figurer	VERB
 la	le	DET
 condition	condition	NOUN
@@ -2580,7 +2580,7 @@ tout	tout	DET
 ordre	ordre	NOUN
 personnel	personnel	ADJ
 ,	,	PUNCTclause
-le second	le second	DET
+le second	le second	PRON
 sa	son	DET
 condition	condition	NOUN
 de	de	ADP
@@ -2644,7 +2644,7 @@ ses	son	DET
 mystères	mystère	NOUN
 .	.	PUNCTsent
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 le	le	DET
 développement	développement	NOUN
@@ -2669,7 +2669,7 @@ en	en	ADP
 théorie	théorie	NOUN
 mais	mais	CCONJ
 subsistant	subsister	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 côte à côte	côte à côte	ADV
 ,	,	PUNCTclause
 indiscernablement	indiscernablement	ADV
@@ -2837,7 +2837,7 @@ que	que	PRON
 je	je	PRON
 sente	sentir	VERB
 admirable	admirable	ADJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 fascinations	fascination	NOUN
 de	de	ADP
 ma	mon	DET
@@ -3033,9 +3033,9 @@ la	le	DET
 vie	vie	NOUN
 organique	organique	ADJ
 ,	,	PUNCTclause
-à tel point que	à tel point que	DET
-un	un	PRON
-savant	savant	ADJ
+à tel point que	à tel point que	SCONJ
+un	un	DET
+savant	savant	NOUN
 ,	,	PUNCTclause
 un	un	DET
 peintre	peintre	NOUN
@@ -3082,7 +3082,7 @@ leurs	leur	DET
 justes	juste	NOUN
 conséquences	conséquence	NOUN
 jusque	jusque	ADP
-au terme de	au terme de	PUNCT
+au terme de	au terme de	ADP
 cycles	cycle	NOUN
 possibles	possible	ADJ
 .	.	PUNCTsent
@@ -3151,7 +3151,7 @@ ne	ne	ADV
 pouvons	pouvoir	VERB
 rien	rien	PRON
 ,	,	PUNCTclause
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
 le	le	DET
@@ -3294,7 +3294,7 @@ divin	divin	ADJ
 ,	,	PUNCTclause
 tout	tout	PRON
 indigne	indigner	VERB
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 je	je	PRON
 reste	rester	VERB
 ,	,	PUNCTclause
@@ -3584,7 +3584,7 @@ les	le	DET
 relations	relation	NOUN
 humaines	humain	ADJ
 ,	,	PUNCTclause
-du fait de	du fait de	DET
+du fait de	du fait de	ADP
 grandes	grand	ADJ
 distances	distance	NOUN
 ,	,	PUNCTclause
@@ -3789,7 +3789,7 @@ chacun	chacun	PRON
 comme	comme	ADP
 un	un	DET
 risque	risque	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ;	;	PUNCTclause
 que	que	SCONJ
 elle	elle	PRON
@@ -4146,18 +4146,18 @@ de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 à	à	ADP
 devenir	devenir	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 responsables	responsable	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 dignes	digne	ADJ
 de	de	ADP
 être	être	AUX
 libres	libre	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 dignes	digne	ADJ
 de	de	ADP
@@ -4183,7 +4183,7 @@ démocratie	démocratie	NOUN
 .	.	PUNCTsent
 cet	ce	DET
 «	«	PUNCTclause
-un peu	un peu	NOUN
+un peu	un peu	ADV
 »	»	PUNCTclause
 représente	représenter	VERB
 une	un	DET
@@ -4646,7 +4646,7 @@ déterminé	déterminer	VERB
 et	et	CCONJ
 compris	comprendre	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 par	par	ADP
 tous	tout	ADJ
@@ -5154,7 +5154,7 @@ la	le	DET
 mort	mort	NOUN
 seule	seul	ADJ
 met	mettre	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 d'accord	d'accord	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5348,7 +5348,7 @@ qui	qui	PRON
 ne	ne	ADV
 aime	aimer	VERB
 rien	rien	PRON
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 l'	le	DET
 équivoque	équivoque	NOUN
 flatteuse	flatteur	ADJ
@@ -5483,7 +5483,7 @@ de	de	ADP
 ses	son	DET
 prestiges	prestige	NOUN
 ;	;	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 a	avoir	AUX
 inventé	inventer	VERB
@@ -5831,7 +5831,7 @@ ces	ce	DET
 syllabes	syllabe	NOUN
 vivent	vivre	VERB
 :	:	PUNCTclause
-tout d'un coup	tout d'un coup	PRON
+tout d'un coup	tout d'un coup	ADV
 elles	elles	PRON
 nous	nous	PRON
 ont	avoir	AUX
@@ -5941,7 +5941,7 @@ libre	libre	ADJ
 parole	parole	NOUN
 »	»	PUNCTclause
 :	:	PUNCTclause
-au point	au point	PUNCT
+au point	au point	ADJ
 où	où	PRON
 elle	elle	PRON
 en	en	PRON
@@ -6072,7 +6072,7 @@ honte	honte	NOUN
 ne	ne	ADV
 nous	nous	PRON
 permettent	permettre	VERB
-plus de	plus de	PUNCT
+plus de	plus de	DET
 articuler	articuler	VERB
 même	même	ADV
 une	un	DET
@@ -6498,7 +6498,7 @@ la	le	DET
 guerre	guerre	NOUN
 nous	nous	PRON
 montre	montrer	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 quand	quand	SCONJ
 une	un	DET
@@ -6555,7 +6555,7 @@ nombre	nombre	NOUN
 et	et	CCONJ
 rapportent	rapporter	VERB
 le	le	DET
-plus de	plus de	PUNCT
+plus de	plus de	DET
 argent	argent	NOUN
 ,	,	PUNCTclause
 quand	quand	SCONJ
@@ -6784,7 +6784,7 @@ spirituelle	spirituel	ADJ
 ,	,	PUNCTclause
 la	le	DET
 justice	justice	NOUN
-à double tranchant	à double tranchant	PUNCT
+à double tranchant	à double tranchant	ADJ
 et	et	CCONJ
 l'	le	DET
 austère	austère	ADJ
@@ -6941,9 +6941,9 @@ il	il	PRON
 ne	ne	ADV
 se	se	PRON
 agit	agir	VERB
-plus de	plus de	ADP
-leur	leur	DET
-morale	morale	NOUN
+plus de	plus de	DET
+leur	leur	PRON
+morale	moral	ADJ
 qui	qui	PRON
 mourut	mourir	VERB
 sur	sur	ADP
@@ -7214,7 +7214,7 @@ pardon	pardon	NOUN
 connaît	connaître	VERB
 le	le	DET
 péché	péché	NOUN
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 le	le	DET
 diable	diable	NOUN
 lui-même	lui-même	PRON

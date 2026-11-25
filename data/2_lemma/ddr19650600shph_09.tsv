@@ -46,7 +46,7 @@ son	son	DET
 premier	premier	ADJ
 historien	historien	NOUN
 que	que	PRON
-à la fin	à la fin	SCONJ
+à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 dernier	dernier	ADJ
@@ -119,7 +119,7 @@ bas	bas	ADJ
 latin	latin	NOUN
 et	et	CCONJ
 intelligible	intelligible	ADJ
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 pays	pays	NOUN
 ,	,	PUNCTclause
 doit	devoir	VERB
@@ -141,7 +141,7 @@ un	un	DET
 phénomène	phénomène	NOUN
 relativement	relativement	ADV
 récent	récent	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 doctrine	doctrine	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -149,8 +149,8 @@ qui	qui	PRON
 ne	ne	ADV
 se	se	PRON
 manifeste	manifester	VERB
-en tant que	en tant que	CCONJ
-politique	politique	ADJ
+en tant que	en tant que	ADP
+politique	politique	NOUN
 que	que	SCONJ
 au	au	ADP_DET
 dernier	dernier	ADJ
@@ -244,11 +244,11 @@ aucune	aucun	DET
 instance	instance	NOUN
 supérieure	supérieur	ADJ
 .	.	PUNCTsent
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 en	en	ADP
 théorie	théorie	NOUN
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 ,	,	PUNCTclause
 les	le	DET
 Suisse	Suisse	PROPN
@@ -277,7 +277,7 @@ moderne	moderne	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 on	on	PRON
 l'	le_PRON	PRON
@@ -309,7 +309,7 @@ et	et	CCONJ
 de	de	ADP
 Italie	Italie	PROPN
 —	—	PUNCTclause
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 ils	ils	PRON
 y	y	PRON
 trouvèrent	trouver	VERB
@@ -583,7 +583,7 @@ extérieur	extérieur	NOUN
 par	par	ADP
 une	un	DET
 neutralité	neutralité	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 :	:	PUNCTclause
 abandon	abandon	NOUN
 progressif	progressif	ADJ
@@ -889,7 +889,7 @@ de	de	ADP
 indépendance	indépendance	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 Pictet	Pictet	PROPN
 de	de	ADP
 Rochemont	Rochemont	PROPN
@@ -1028,7 +1028,7 @@ la	le	DET
 Sainte-Alliance	Sainte-Alliance	PROPN
 ,	,	PUNCTclause
 tient	tenir	VERB
-au fait	au fait	PUNCT
+au fait	au fait	ADV
 que	que	SCONJ
 la	le	DET
 Suisse	Suisse	PROPN
@@ -1051,7 +1051,7 @@ cette	ce	DET
 clause	clause	NOUN
 Europe	Europe	PROPN
 limitait	limiter	VERB
-quelque peu	quelque peu	PUNCT
+quelque peu	quelque peu	ADV
 l'	le	DET
 absolue	absolu	ADJ
 souveraineté	souveraineté	NOUN
@@ -1150,7 +1150,7 @@ ne	ne	ADV
 avait	avoir	AUX
 accepté	accepter	VERB
 que	que	SCONJ
-à contrecœur	à contrecœur	ADP
+à contrecœur	à contrecœur	ADV
 l'	le	DET
 acte	acte	NOUN
 de	de	ADP
@@ -1243,7 +1243,7 @@ Suisse	Suisse	PROPN
 à	à	ADP
 une	un	DET
 neutralité	neutralité	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 se	se	PRON
 trouvait	trouver	VERB
@@ -1520,7 +1520,7 @@ dans	dans	ADP
 certaines	certain	DET
 circonstances	circonstance	NOUN
 ,	,	PUNCTclause
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 elle	elle	PRON
 l'	le_PRON	PRON
 estimerait	estimer	VERB
@@ -1565,7 +1565,7 @@ sécurité	sécurité	NOUN
 que	que	SCONJ
 il	il	PRON
 convient	convenir	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 obligation	obligation	NOUN
 aux	au	ADP_DET
 autorités	autorité	NOUN
@@ -1632,7 +1632,7 @@ neutralité	neutralité	NOUN
 en	en	ADP
 omettant	omettre	VERB
 de	de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 un	un	DET
 principe	principe	NOUN
 constitutionnel	constitutionnel	ADJ
@@ -1678,7 +1678,7 @@ affaires	affaire	NOUN
 intérieures	intérieur	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 à	à	ADP
 deux	deux	NUM
@@ -1773,7 +1773,7 @@ un	un	DET
 état	état	NOUN
 agresseur	agresseur	NOUN
 (	(	PUNCTclause
-à l'époque	à l'époque	SYM
+à l'époque	à l'époque	ADV
 de	de	ADP
 la	le	DET
 SDN	SDN	NOUN
@@ -1791,7 +1791,7 @@ l'	le	DET
 ouest	ouest	NOUN
 démocratique	démocratique	ADJ
 ,	,	PUNCTclause
-à l'époque	à l'époque	PRON
+à l'époque	à l'époque	ADV
 des	un	ADP_DET
 ONU	ONU	PROPN
 .	.	PUNCTsent
@@ -2060,7 +2060,7 @@ par	par	ADP
 les	le	DET
 faits	fait	NOUN
 .	.	PUNCTsent
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 il	il	PRON
 demeure	demeurer	VERB
@@ -2169,8 +2169,8 @@ de	de	ADP
 ne	ne	ADV
 mettait	mettre	VERB
 pas	pas	ADV
-en cause	en cause	DET
-l'	le_PRON	PRON
+en cause	en cause	ADJ
+l'	le	DET
 essence	essence	NOUN
 même	même	ADJ
 de	de	ADP
@@ -2254,7 +2254,7 @@ neutralité	neutralité	NOUN
 de	de	ADP
 se	se	PRON
 être tenu	être tenu	VERB
-à l'écart	à l'écart	PUNCT
+à l'écart	à l'écart	ADV
 de	de	ADP
 une	un	DET
 guerre	guerre	NOUN
@@ -2378,7 +2378,7 @@ a	avoir	AUX
 sauvé	sauver	VERB
 la	le	DET
 Suisse	Suisse	PROPN
-à ce moment-là	à ce moment-là	PUNCT
+à ce moment-là	à ce moment-là	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -2402,7 +2402,7 @@ l'	le	DET
 Axe	Axe	PROPN
 .	.	PUNCTsent
 pour	pour	ADP
-en venir à	en venir à	ADP
+en venir à	en venir à	VERB
 bout	bout	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -2485,8 +2485,8 @@ ne	ne	ADV
 la	le_PRON	PRON
 mettaient	mettre	VERB
 pas	pas	ADV
-en question	en question	DET
-en	en	PRON
+en question	en question	ADJ
+en	en	ADP
 1914	1914	NUM
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2520,7 +2520,7 @@ mêler	mêler	VERB
 ces	ce	DET
 guerres	guerre	NOUN
 .	.	PUNCTsent
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ce	ce	PRON
 est	être	AUX
 vrai	vrai	ADJ
@@ -2690,7 +2690,7 @@ aurai	avoir	VERB
 l'	le	DET
 occasion	occasion	NOUN
 ,	,	PUNCTclause
-par la suite	par la suite	NOUN
+par la suite	par la suite	ADV
 ,	,	PUNCTclause
 de	de	ADP
 confronter	confronter	VERB

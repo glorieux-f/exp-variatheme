@@ -194,8 +194,8 @@ un	un	DET
 peuple	peuple	NOUN
 ,	,	PUNCTclause
 soit	être	AUX
-le premier	le premier	DET
-saisi	saisi	ADJ
+le premier	le premier	PRON
+saisi	saisir	VERB
 par	par	ADP
 ce	ce	DET
 frisson	frisson	NOUN
@@ -328,7 +328,7 @@ se	se	PRON
 étonne	étonner	VERB
 que	que	SCONJ
 aucun	aucun	DET
-non plus	non plus	NOUN
+non plus	non plus	ADV
 ne	ne	ADV
 ait	avoir	AUX
 essayé	essayer	VERB
@@ -640,7 +640,7 @@ humiliante	humiliant	ADJ
 pour	pour	ADP
 ceux	ceux	PRON
 ,	,	PUNCTclause
-du moins	du moins	DET
+du moins	du moins	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
 ,	,	PUNCTclause
@@ -690,7 +690,7 @@ et	et	CCONJ
 se	se	PRON
 entendent	entendre	VERB
 à	à	ADP
-tirer parti	tirer parti	NOUN
+tirer parti	tirer parti	VERB
 du	du	ADP_DET
 plaisir	plaisir	NOUN
 que	que	SCONJ
@@ -740,7 +740,7 @@ de	de	ADP
 tout	tout	ADJ
 cela	cela	PRON
 ?	?	PUNCTsent
-rien que	rien que	PRON
+rien que	rien que	ADV
 une	un	DET
 évidence	évidence	NOUN
 assez	assez	ADV
@@ -821,7 +821,7 @@ psychanalyse	psychanalyse	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 avant de	avant de	ADP
-en venir à	en venir à	ADP
+en venir à	en venir à	VERB
 cette	ce	DET
 extrémité	extrémité	NOUN
 ,	,	PUNCTclause
@@ -1281,7 +1281,7 @@ beau	beau	ADJ
 ne	ne	ADV
 aller	aller	VERB
 que	que	SCONJ
-de nuit	de nuit	PUNCT
+de nuit	de nuit	ADV
 aux	au	ADP_DET
 rendez-vous	rendez-vous	NOUN
 avec	avec	ADP
@@ -1605,7 +1605,7 @@ rien	rien	PRON
 il	il	PRON
 savait	savoir	VERB
 peut-être	peut-être	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tentative	tentative	NOUN
@@ -1615,7 +1615,7 @@ interprétation	interprétation	NOUN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 reproche	reprocher	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 à	à	ADP
 la	le	DET
 psychanalyse	psychanalyse	NOUN
@@ -1697,7 +1697,7 @@ que	que	SCONJ
 du	du	ADP_DET
 tout	tout	PRON
 ?	?	PUNCTsent
-ceci dit	ceci dit	PRON
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 la	le	DET
 psychanalyse	psychanalyse	NOUN
@@ -1947,9 +1947,9 @@ lourdeur	lourdeur	NOUN
 comme si	comme si	SCONJ
 il	il	PRON
 était	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 en arrière	en arrière	ADV
-des	un	DET
+des	un	ADP_DET
 choses	chose	NOUN
 ,	,	PUNCTclause
 lent	lent	ADJ
@@ -2012,7 +2012,7 @@ lucide	lucide	ADJ
 perçant	percer	VERB
 toutes	toutes	DET
 choses	chose	NOUN
-à jour	à jour	INTJ
+à jour	à jour	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 lui-même	lui-même	PRON
@@ -2199,8 +2199,8 @@ dans	dans	ADP
 l'	le	DET
 homme	homme	NOUN
 à	à	ADP
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 à	à	ADP
 une	un	DET
 ombre	ombre	NOUN
@@ -2368,7 +2368,7 @@ soi-même	soi-même	DET
 dont	dont	PRON
 parle	parler	VERB
 Chamisso	Chamisso	PROPN
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 de	de	ADP
 son	son	DET
 conte	conte	NOUN
@@ -2503,7 +2503,7 @@ en	en	ADP
 marchant	marcher	VERB
 vers	vers	ADP
 lui	lui	PRON
-à reculons	à reculons	PUNCT
+à reculons	à reculons	ADV
 ?	?	PUNCTsent
 mais	mais	CCONJ
 chez	chez	ADP
@@ -2796,7 +2796,7 @@ angoisse	angoisse	NOUN
 de	de	ADP
 voir	voir	VERB
 révélée	révéler	VERB
-au grand jour	au grand jour	PUNCT
+au grand jour	au grand jour	ADV
 non	non	ADV
 son	son	DET
 secret	secret	NOUN
@@ -2830,7 +2830,7 @@ homme	homme	NOUN
 créateur	créateur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à l'inverse	à l'inverse	PRON
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 la	le	DET
 chasteté	chasteté	NOUN
@@ -2856,7 +2856,7 @@ au-devant de	au-devant de	ADP
 tout	tout	ADV
 ,	,	PUNCTclause
 comme	comme	ADP
-un peu	un peu	DET
+un peu	un peu	ADV
 en avant de	en avant de	ADP
 lui-même	lui-même	PRON
 ,	,	PUNCTclause
@@ -2888,7 +2888,7 @@ l'	le	DET
 âme	âme	NOUN
 chantent	chanter	VERB
 alors	alors	ADV
-à l'unisson	à l'unisson	ADP
+à l'unisson	à l'unisson	ADV
 .	.	PUNCTsent
 l'	le	DET
 esprit	esprit	NOUN
@@ -3090,7 +3090,7 @@ de	de	ADP
 l'	le	DET
 auteur	auteur	NOUN
 pour	pour	ADP
-prendre corps	prendre corps	NOUN
+prendre corps	prendre corps	VERB
 dans	dans	ADP
 l'	le	DET
 œuvre	œuvre	NOUN

@@ -42,7 +42,7 @@ de	de	ADP
 traité	traité	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 parle	parler	VERB
 depuis	depuis	ADP
 deux	deux	NUM
@@ -59,7 +59,7 @@ Europe	Europe	PROPN
 ont	avoir	AUX
 pris	prendre	VERB
 position	position	NOUN
-en public	en public	PUNCT
+en public	en public	ADV
 ou	ou	CCONJ
 dans	dans	ADP
 le	le	DET
@@ -98,8 +98,8 @@ France	France	PROPN
 il	il	PRON
 semble	sembler	VERB
 que	que	SCONJ
-un peu	un peu	DET
-moins d'une	moins d'une	NOUN
+un peu	un peu	ADV
+moins d'une	moins d'une	DET
 député	député	NOUN
 sur	sur	ADP
 dix	dix	NUM
@@ -146,7 +146,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 dépend	dépendre	VERB
-en fait	en fait	ADP_DET
+en fait	en fait	ADV
 des	un	ADP_DET
 députés	député	NOUN
 France	France	PROPN
@@ -213,7 +213,7 @@ objectivement	objectivement	ADV
 ,	,	PUNCTclause
 sans	sans	ADP
 cacher	cacher	VERB
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 mes	mon	DET
 préférences	préférence	NOUN
 .	.	PUNCTsent
@@ -470,7 +470,7 @@ contre	contre	ADP
 l'	le	DET
 opinion	opinion	NOUN
 (	(	PUNCTclause
-à l'époque	à l'époque	SYM
+à l'époque	à l'époque	ADV
 )	)	PUNCTclause
 des	un	ADP_DET
 dirigeants	dirigeant	NOUN
@@ -567,7 +567,7 @@ acier	acier	NOUN
 ,	,	PUNCTclause
 plus	plus	ADV
 connue	connaître	VERB
-sous le nom de	sous le nom de	PUNCT
+sous le nom de	sous le nom de	ADP
 plan	plan	NOUN
 Schuman	Schuman	PROPN
 .	.	PUNCTsent
@@ -600,7 +600,7 @@ votera	voter	VERB
 sans	sans	ADP
 nul	nul	PRON
 doute	douter	VERB
-d'ici peu	d'ici peu	DET
+d'ici peu	d'ici peu	ADV
 .	.	PUNCTsent
 la	le	DET
 France	France	PROPN
@@ -643,7 +643,7 @@ temps	temps	NOUN
 de	de	ADP
 voir	voir	VERB
 de	de	ADP
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 près de	près de	ADP
 quoi	quoi	PRON
@@ -710,9 +710,9 @@ son	son	DET
 propre	propre	ADJ
 compte	compte	NOUN
 ,	,	PUNCTclause
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 celles	celle	PRON
-que	que	PRON
+que	que	SCONJ
 nécessitent	nécessiter	VERB
 la	le	DET
 police	police	NOUN
@@ -869,7 +869,7 @@ Trois	Trois	NUM
 choses	chose	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
-la première	la première	DET
+la première	la première	PRON
 seulement	seulement	ADV
 sera	être	AUX
 visible	visible	ADJ
@@ -885,8 +885,8 @@ des	un	ADP_DET
 six	six	NUM
 pays	pays	NOUN
 porteront	porter	VERB
-les mêmes	les mêmes	DET
-uniforme	uniforme	NOUN
+les mêmes	les mêmes	PRON
+uniforme	uniforme	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
 mais	mais	CCONJ
@@ -914,7 +914,7 @@ pourront	pouvoir	VERB
 être	être	AUX
 choisis	choisir	VERB
 dans	dans	ADP
-n'importe lequel	n'importe lequel	ADP_PRON
+n'importe lequel	n'importe lequel	PRON
 des	un	ADP_DET
 pays	pays	NOUN
 membres	membre	NOUN
@@ -1114,7 +1114,7 @@ de	de	ADP
 l'	le	DET
 armée	armée	NOUN
 que	que	PRON
-en cas de	en cas de	PRON
+en cas de	en cas de	ADP
 agression	agression	NOUN
 qualifiée	qualifier	VERB
 contre	contre	ADP
@@ -1428,7 +1428,7 @@ nous	nous	PRON
 avons	avoir	AUX
 vu	voir	VERB
 que	que	SCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 souci	souci	NOUN
 des	un	ADP_DET
 auteurs	auteur	NOUN
@@ -1494,7 +1494,7 @@ glorieuse	glorieux	ADJ
 armée	armée	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 il	il	PRON
 réarmera	réarmer	VERB
 l'	le	DET
@@ -1524,12 +1524,12 @@ les	le	DET
 unités	unité	NOUN
 France	France	PROPN
 auront	avoir	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 statut	statut	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
-la même	la même	DET
-armée	armée	NOUN
+la même	la même	PRON
+armée	armer	VERB
 ,	,	PUNCTclause
 sur la base de	sur la base de	ADP
 même	même	ADV
@@ -1550,7 +1550,7 @@ France	France	PROPN
 il	il	PRON
 empêche	empêcher	VERB
 pour	pour	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 raisons	raison	NOUN
 la	le	DET
 réapparition	réapparition	NOUN
@@ -1590,7 +1590,7 @@ l'	le	DET
 Allemagne	Allemagne	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 le	le	DET
 traité	traité	NOUN
@@ -1677,7 +1677,7 @@ la	le	DET
 ,	,	PUNCTclause
 alors	alors	ADV
 et	et	CCONJ
-dans ce cas	dans ce cas	ADP
+dans ce cas	dans ce cas	ADV
 précisément	précisément	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
@@ -1779,7 +1779,7 @@ intérêts	intérêt	NOUN
 privés	privé	ADJ
 ,	,	PUNCTclause
 calculant	calculer	VERB
-à court terme	à court terme	DET
+à court terme	à court terme	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -1888,7 +1888,7 @@ périsse	périr	VERB
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-pourvu que	pourvu que	PUNCT
+pourvu que	pourvu que	SCONJ
 mes	mon	DET
 bénéfices	bénéfice	NOUN
 continuent	continuer	VERB
@@ -1903,7 +1903,7 @@ que	que	SCONJ
 moi	moi	PRON
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 		TOKEN
 ,	,	PUNCTclause
@@ -1976,7 +1976,7 @@ Afrique	Afrique	PROPN
 du	du	ADP_DET
 Proche-Orient	Proche-Orient	PROPN
 …	…	PUNCTsent
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 		TOKEN
 ,	,	PUNCTclause
@@ -2091,7 +2091,7 @@ France	France	PROPN
 .	.	PUNCTsent
 et	et	CCONJ
 même	même	ADV
-en admettant que	en admettant que	PUNCT
+en admettant que	en admettant que	SCONJ
 un	un	DET
 Molotov	Molotov	PROPN
 se	se	PRON

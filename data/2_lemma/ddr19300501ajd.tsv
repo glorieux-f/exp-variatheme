@@ -6,7 +6,7 @@
 # title = "[Compte rendu] Au sujet « d’un certain esprit français » (1er mai 1930)"
 
 ↵↵	↵↵	PUNCTstruct
-compte rendu	compte rendu	ADP_DET
+compte rendu	compte rendu	NOUN
 au	au	ADP_DET
 sujet	sujet	NOUN
 «	«	PUNCTclause
@@ -208,10 +208,10 @@ sympathiques	sympathique	ADJ
 l'	le	DET
 heure	heure	NOUN
 où	où	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 exagère	exagérer	VERB
 ,	,	PUNCTclause
-à qui mieux mieux	à qui mieux mieux	SYM
+à qui mieux mieux	à qui mieux mieux	ADV
 dans	dans	ADP
 le	le	DET
 sens	sens	NOUN
@@ -486,7 +486,7 @@ pour	pour	ADP
 un	un	DET
 écrivain	écrivain	NOUN
 ;	;	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 est	être	AUX
 plutôt	plutôt	ADV
@@ -580,7 +580,7 @@ l'un	l'un	PRON
 parce que	parce que	SCONJ
 il	il	PRON
 croit	croire	VERB
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 ,	,	PUNCTclause
 l'autre	l'autre	PRON
 parce que	parce que	SCONJ
@@ -608,7 +608,7 @@ tempérament	tempérament	NOUN
 .	.	PUNCTsent
 attendons	attendre	VERB
 encore	encore	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 avec	avec	ADP
 ceux	ceux	PRON
 …	…	PUNCTsent
@@ -737,7 +737,7 @@ rend	rendre	VERB
 je	je	PRON
 le	le_PRON	PRON
 trouve	trouver	VERB
-en tout cas	en tout cas	SYM
+en tout cas	en tout cas	ADV
 bien	bien	ADV
 tonique	tonique	ADJ
 ,	,	PUNCTclause
@@ -781,7 +781,7 @@ de	de	ADP
 critique	critique	NOUN
 ,	,	PUNCTclause
 impitoyable	impitoyable	ADJ
-de rigueur	de rigueur	PUNCT
+de rigueur	de rigueur	ADJ
 et	et	CCONJ
 de	de	ADP
 enthousiasme	enthousiasme	NOUN
@@ -1006,12 +1006,12 @@ métaphysique	métaphysique	NOUN
 font	faire	VERB
 preuve	preuve	NOUN
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 ambition	ambition	NOUN
 et	et	CCONJ
 témoignent	témoigner	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 impuissance	impuissance	NOUN
 .	.	PUNCTsent
 ils	ils	PRON
@@ -1335,7 +1335,7 @@ posent	poser	VERB
 pas	pas	ADV
 mieux	mieux	ADV
 ?	?	PUNCTsent
-du moins	du moins	ADP
+du moins	du moins	ADV
 ne	ne	ADV
 ont	avoir	AUX
 ils	ils	PRON
@@ -1355,7 +1355,7 @@ sur-le-champ	sur-le-champ	ADV
 .	.	PUNCTsent
 ils	ils	PRON
 mettent	mettre	VERB
-en jeu	en jeu	DET
+en jeu	en jeu	ADJ
 des	un	ADP_DET
 systèmes	système	NOUN
 de	de	ADP
@@ -1694,7 +1694,7 @@ prétention	prétention	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 méditez	méditer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 cette	ce	DET
 note	note	NOUN
 de	de	ADP
@@ -1840,7 +1840,7 @@ et	et	CCONJ
 «	«	PUNCTclause
 Kant	Kant	PROPN
 est	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 redoutable	redoutable	ADJ
 que	que	SCONJ
@@ -1884,7 +1884,7 @@ avoir	avoir	VERB
 «	«	PUNCTclause
 tracé	tracer	VERB
 peut-être	peut-être	ADV
-pour toujours	pour toujours	ADP
+pour toujours	pour toujours	ADV
 les	le	DET
 limites	limite	NOUN
 de	de	ADP
@@ -1969,7 +1969,7 @@ homme	homme	NOUN
 «	«	PUNCTclause
 assumer	assumer	VERB
 »	»	PUNCTclause
-d'autant plus	d'autant plus	PUNCT
+d'autant plus	d'autant plus	ADV
 héroïquement	héroïquement	ADV
 sa	son	DET
 vérité	vérité	NOUN
@@ -2040,7 +2040,7 @@ histoire	histoire	NOUN
 nous	nous	PRON
 voici	voici	ADP
 parvenus	parvenir	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 où	où	PRON
 cessent	cesser	VERB
 de	de	ADP
@@ -2075,7 +2075,7 @@ de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 —	—	PUNCTclause
-à condition que	à condition que	PUNCT
+à condition que	à condition que	SCONJ
 il	il	PRON
 les	le	DET
 surmonte	surmonter	VERB

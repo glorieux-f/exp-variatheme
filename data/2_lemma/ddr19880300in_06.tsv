@@ -321,7 +321,7 @@ féodal	féodal	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 étaient	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 genre	genre	NOUN
 de	de	ADP
 pluralisme	pluralisme	NOUN
@@ -373,7 +373,7 @@ réussi	réussir	VERB
 à	à	ADP
 les	le	DET
 mettre	mettre	VERB
-au pas	au pas	PUNCT
+au pas	au pas	ADV
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 les	le	DET
@@ -439,7 +439,7 @@ anarchie	anarchie	NOUN
 ou	ou	CCONJ
 de	de	ADP
 liberté	liberté	NOUN
-en tout cas	en tout cas	PUNCT
+en tout cas	en tout cas	ADV
 .	.	PUNCTsent
 il	il	PRON
 a	avoir	AUX
@@ -499,7 +499,7 @@ après	après	ADP
 la	le	DET
 réforme	réforme	NOUN
 ;	;	PUNCTclause
-en partie	en partie	NOUN
+en partie	en partie	ADV
 aussi	aussi	ADV
 ,	,	PUNCTclause
 l'	le	DET
@@ -590,7 +590,7 @@ deux	deux	NUM
 extrémités	extrémité	NOUN
 ,	,	PUNCTclause
 plus ou moins	plus ou moins	ADV
-en équilibre	en équilibre	PUNCT
+en équilibre	en équilibre	ADJ
 ,	,	PUNCTclause
 plus ou moins	plus ou moins	ADV
 près de	près de	ADP
@@ -1030,7 +1030,7 @@ décembre	décembre	NOUN
 si	si	SCONJ
 on	on	PRON
 veut	vouloir	VERB
-se rendre compte	se rendre compte	NOUN
+se rendre compte	se rendre compte	VERB
 de	de	ADP
 ce	ce	DET
 que	que	PRON
@@ -1099,7 +1099,7 @@ considérable	considérable	ADJ
 avril	avril	NOUN
 1967	1967	NUM
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	DET
+le premier	le premier	PRON
 motif	motif	NOUN
 de	de	ADP
 résistance	résistance	NOUN
@@ -1204,7 +1204,7 @@ Europe	Europe	PROPN
 du	du	ADP_DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 écoles	école	NOUN
 de	de	ADP
 pensée	pensée	NOUN
@@ -1234,7 +1234,7 @@ en	en	ADP
 styles	style	NOUN
 distincts	distinct	ADJ
 ,	,	PUNCTclause
-en bref	en bref	INTJ
+en bref	en bref	ADV
 ,	,	PUNCTclause
 tout	tout	ADJ
 ce	ce	PRON
@@ -1795,7 +1795,7 @@ paraît	paraître	VERB
 devoir	devoir	VERB
 être	être	AUX
 refaite	refaire	VERB
-de fond en comble	de fond en comble	DET
+de fond en comble	de fond en comble	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
 cette	ce	DET
@@ -1899,7 +1899,7 @@ jacobin	jacobin	ADJ
 qui	qui	PRON
 veut	vouloir	VERB
 ,	,	PUNCTclause
-tout d'un coup	tout d'un coup	PRON
+tout d'un coup	tout d'un coup	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 on	on	PRON
@@ -1990,9 +1990,9 @@ au contraire	au contraire	ADV
 ,	,	PUNCTclause
 le	le	DET
 goût	goût	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 comme	comme	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 le	le	DET
 goût	goût	NOUN
@@ -2348,7 +2348,7 @@ se	se	PRON
 porté	porter	VERB
 candidat	candidat	NOUN
 à	à	ADP
-la première	la première	DET
+la première	la première	PRON
 présidence	présidence	NOUN
 des	un	ADP_DET
 États-Unis	États-Unis	PROPN
@@ -2392,7 +2392,7 @@ a	avoir	AUX
 fait	faire	VERB
 quelques	quelque	DET
 confidences	confidence	NOUN
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 tout de même	tout de même	ADV
@@ -2431,7 +2431,7 @@ beaucoup	beaucoup	ADV
 aimé	aimer	VERB
 la	le	DET
 politique	politique	NOUN
-de-ci de-là	de-ci de-là	ADP
+de-ci de-là	de-ci de-là	ADV
 Gaulle	Gaulle	PROPN
 en	en	ADP
 France	France	PROPN
@@ -2448,7 +2448,7 @@ très	très	ADV
 bon	bon	ADJ
 président	président	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 République	République	PROPN
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -2485,11 +2485,11 @@ imaginer	imaginer	VERB
 et	et	CCONJ
 je	je	PRON
 imagine	imaginer	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 bien	bien	ADV
 d'autres	d'autre	PRON
 manières	manière	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 que	que	SCONJ
@@ -2540,7 +2540,7 @@ qui	qui	PRON
 est	être	AUX
 aussi	aussi	ADV
 celui	celui	PRON
-de beaucoup	de beaucoup	ADP_DET
+de beaucoup	de beaucoup	ADV
 de	de	ADP
 observateurs	observateur	NOUN
 —	—	PUNCTclause
@@ -2550,7 +2550,7 @@ l'on	on	PRON
 essaiera	essayer	VERB
 plus ou moins	plus ou moins	ADV
 sincèrement	sincèrement	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 certaines	certain	DET
 alliances	alliance	NOUN
 ,	,	PUNCTclause
@@ -3108,7 +3108,7 @@ de	de	ADP
 règles	règle	NOUN
 communes	commun	ADJ
 ,	,	PUNCTclause
-mise au point	mise au point	VERB
+mise au point	mise au point	NOUN
 par	par	ADP
 un	un	DET
 groupe	groupe	NOUN
@@ -3270,7 +3270,7 @@ jamais	jamais	ADV
 été	être	AUX
 imaginées	imaginer	VERB
 ,	,	PUNCTclause
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 une	un	DET
 seule	seul	ADJ
 qui	qui	PRON
@@ -3399,7 +3399,7 @@ il	il	PRON
 l'	le_PRON	PRON
 est	être	AUX
 certainement	certainement	ADV
-en partie	en partie	DET
+en partie	en partie	ADV
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -3829,8 +3829,8 @@ déléguer	déléguer	VERB
 une	un	DET
 partie	partie	NOUN
 ,	,	PUNCTclause
-à condition que	à condition que	DET
-l'	le_PRON	PRON
+à condition que	à condition que	SCONJ
+l'	le	DET
 organe	organe	NOUN
 auquel	auquel	ADP_PRON
 il	il	PRON
@@ -3881,7 +3881,7 @@ ils	ils	PRON
 y	y	PRON
 perdraient	perdre	VERB
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 une	un	DET
 partie	partie	NOUN
@@ -3897,7 +3897,7 @@ leur	leur	DET
 serait	être	AUX
 garanti	garantir	VERB
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 cela	cela	PRON
 ne	ne	ADV
 est	être	AUX
@@ -4006,17 +4006,17 @@ trouver	trouver	VERB
 non	non	ADV
 pas	pas	ADV
 le	le	DET
-plus de	plus de	PUNCT
+plus de	plus de	DET
 bonheur	bonheur	NOUN
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 le	le	DET
-plus de	plus de	PUNCT
+plus de	plus de	DET
 saveur	saveur	NOUN
 ,	,	PUNCTclause
 le	le	DET
-plus de	plus de	PUNCT
+plus de	plus de	DET
 sens	sens	NOUN
 à	à	ADP
 la	le	DET
@@ -4319,7 +4319,7 @@ sur le plan de	sur le plan de	ADP
 la	le	DET
 technique	technique	NOUN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ,	,	PUNCTclause
 par	par	ADP
 une	un	DET
@@ -4351,7 +4351,7 @@ elle-même	elle-même	PRON
 elle	elle	PRON
 pourrait	pouvoir	VERB
 devenir	devenir	VERB
-la première	la première	DET
+la première	la première	PRON
 puissance	puissance	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
@@ -4389,7 +4389,7 @@ le	le	DET
 meilleur	meilleur	NOUN
 des	un	ADP_DET
 traditions	tradition	NOUN
-au plus	au plus	ADP_DET
+au plus	au plus	ADV
 efficace	efficace	ADJ
 de	de	ADP
 l'	le	DET

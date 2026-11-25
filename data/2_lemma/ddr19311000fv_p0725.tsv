@@ -6,7 +6,7 @@
 # title = "[Compte rendu] André Gide ou le style exquis (à propos de Divers) (octobre 1931)"
 
 ↵↵	↵↵	PUNCTstruct
-compte rendu	compte rendu	ADP_DET
+compte rendu	compte rendu	NOUN
 André	André	PROPN
 Gide	Gide	PROPN
 ou	ou	CCONJ
@@ -102,7 +102,7 @@ temps	temps	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
 aura	avoir	VERB
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 le	le_PRON	PRON
 mérite	mériter	VERB
 de	de	ADP
@@ -332,7 +332,7 @@ côté	côté	NOUN
 —	—	PUNCTclause
 «	«	PUNCTclause
 causons	causer	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 »	»	PUNCTclause
 ,	,	PUNCTclause
 dit	dire	VERB
@@ -412,7 +412,7 @@ juges	juge	NOUN
 mais	mais	CCONJ
 il	il	PRON
 sait	savoir	VERB
-avoir raison	avoir raison	PUNCT
+avoir raison	avoir raison	VERB
 comme	comme	SCONJ
 en	en	ADP
 se	se	PRON
@@ -480,7 +480,7 @@ est	être	AUX
 d'ailleurs	d'ailleurs	ADV
 ,	,	PUNCTclause
 signe	signer	VERB
-de force	de force	DET
+de force	de force	ADV
 :	:	PUNCTclause
 les	le	DET
 critiques	critique	NOUN
@@ -624,7 +624,7 @@ suis	être	AUX
 prêt à	prêt à	ADP
 le	le	DET
 concéder	concéder	VERB
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 ce	ce	PRON
 que	que	SCONJ
 il	il	PRON
@@ -785,7 +785,7 @@ tenterait	tenter	VERB
 de	de	ADP
 y	y	PRON
 loger	loger	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 son	son	DET
 égoïsme	égoïsme	NOUN
@@ -923,7 +923,7 @@ critiques	critique	NOUN
 sont	être	AUX
 tout à fait	tout à fait	ADV
 significatives	significatif	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 l'on	on	PRON
 est	être	AUX
@@ -1057,9 +1057,9 @@ où	où	PRON
 je	je	PRON
 fais	faire	VERB
 fonction	fonction	NOUN
-moins de	moins de	PUNCT
+moins de	moins de	DET
 acteur	acteur	NOUN
-que	que	PRON
+que	que	SCONJ
 de	de	ADP
 spectateur	spectateur	NOUN
 ,	,	PUNCTclause
@@ -1149,7 +1149,7 @@ lui	lui	PRON
 se	se	PRON
 préoccupe	préoccuper	VERB
 sans cesse	sans cesse	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 entendre	entendre	VERB
 que	que	SCONJ
 il	il	PRON
@@ -1527,7 +1527,7 @@ phrases	phrase	NOUN
 pourraient	pouvoir	VERB
 le	le	DET
 laisser	laisser	VERB
-supposé que	supposé que	ADP
+supposé que	supposé que	SCONJ
 il	il	PRON
 écrivit	écrire	VERB
 en	en	ADP
@@ -1573,7 +1573,7 @@ le	le	DET
 héros	héros	NOUN
 de	de	ADP
 Vol	Vol	PROPN
-de nuit	de nuit	PUNCT
+de nuit	de nuit	ADV
 ,	,	PUNCTclause
 non	non	ADV
 déshumanisé	déshumaniser	VERB
@@ -1624,7 +1624,7 @@ reste	rester	VERB
 et	et	CCONJ
 la	le	DET
 littérature	littérature	NOUN
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 ne	ne	ADV
 est	être	AUX
 que	que	SCONJ
@@ -1709,8 +1709,8 @@ l'	le	DET
 ère	ère	NOUN
 ne	ne	ADV
 est	être	AUX
-plus de	plus de	ADV
-certaines	certain	DET
+plus de	plus de	DET
+certaines	certain	PRON
 complaisances	complaisance	NOUN
 ?	?	PUNCTsent
 pourquoi	pourquoi	ADV
@@ -1769,7 +1769,7 @@ de	de	ADP
 vertueux	vertueux	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 la	le	DET
 volonté	volonté	NOUN
 de	de	ADP

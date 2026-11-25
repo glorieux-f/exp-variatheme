@@ -417,7 +417,7 @@ ne	ne	ADV
 se	se	PRON
 sentent	sentir	VERB
 pas	pas	ADV
-à l'aise	à l'aise	DET
+à l'aise	à l'aise	ADV
 .	.	PUNCTsent
 leur	leur	DET
 idée	idée	NOUN
@@ -470,7 +470,7 @@ une	un	DET
 conception	conception	NOUN
 du	du	ADP_DET
 secret	secret	NOUN
-un peu	un peu	ADP_DET
+un peu	un peu	ADV
 superficielle	superficiel	ADJ
 .	.	PUNCTsent
 vous	vous	PRON
@@ -509,9 +509,9 @@ l'	le	DET
 étranger	étranger	NOUN
 ne	ne	ADV
 puisse	pouvoir	VERB
-se rendre compte	se rendre compte	ADV
+se rendre compte	se rendre compte	VERB
 de	de	ADP
-ce	ce	PRON
+ce	ce	DET
 qui	qui	PRON
 ne	ne	ADV
 existe	exister	VERB
@@ -528,7 +528,7 @@ existe	exister	VERB
 pas	pas	ADV
 exige	exiger	VERB
 bien	bien	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 précautions	précaution	NOUN
 que	que	PRON
 se	se	PRON
@@ -771,7 +771,7 @@ soviétique	soviétique	ADJ
 ils	ils	PRON
 seraient	être	AUX
 à peu près	à peu près	ADV
-les mêmes	les mêmes	PUNCT
+les mêmes	les mêmes	PRON
 si	si	SCONJ
 l'	le	DET
 URSS	URSS	PROPN
@@ -1173,7 +1173,7 @@ porte-paroles	porte-parole	NOUN
 de	de	ADP
 nos	nos	DET
 cultures	culture	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 créatrices	créateur	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -1326,7 +1326,7 @@ et	et	CCONJ
 diverse	divers	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-dans ce cas	dans ce cas	NOUN
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 il	il	PRON
 faut	falloir	VERB
@@ -1656,7 +1656,7 @@ de	de	DET
 motif	motif	NOUN
 de	de	ADP
 redouter	redouter	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 de	de	ADP
 un	un	DET
 libre	libre	ADJ
@@ -1806,7 +1806,7 @@ internationales	international	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
 rappelons	rappeler	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 les	le	DET
 conditions	condition	NOUN
 concrètes	concret	ADJ
@@ -2088,8 +2088,8 @@ assez	assez	ADV
 car	car	CCONJ
 remettre	remettre	VERB
 sans cesse	sans cesse	ADV
-en question	en question	DET
-l'	le_PRON	PRON
+en question	en question	ADJ
+l'	le	DET
 Occident	Occident	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON

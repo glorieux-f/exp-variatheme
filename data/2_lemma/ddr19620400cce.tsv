@@ -363,7 +363,7 @@ sociaux	social	ADJ
 et	et	CCONJ
 monétaires	monétaire	ADJ
 ,	,	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
 un	un	DET
@@ -388,8 +388,8 @@ problèmes	problème	NOUN
 culturels	culturel	ADJ
 ne	ne	ADV
 seraient	être	AUX
-par conséquent	par conséquent	CCONJ
-que	que	PRON
+par conséquent	par conséquent	ADV
+que	que	SCONJ
 des	un	DET
 problèmes	problème	NOUN
 marginaux	marginal	ADJ
@@ -397,8 +397,8 @@ marginaux	marginal	ADJ
 la	le	DET
 culture	culture	NOUN
 serait	être	AUX
-au mieux	au mieux	ADP_DET
-l'	le_PRON	PRON
+au mieux	au mieux	ADV
+l'	le	DET
 ornement	ornement	NOUN
 des	un	ADP_DET
 loisirs	loisir	NOUN
@@ -450,7 +450,7 @@ et	et	CCONJ
 mercantile	mercantile	ADJ
 ,	,	PUNCTclause
 est	être	AUX
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 partagée	partager	VERB
 par	par	ADP
 les	le	DET
@@ -633,7 +633,7 @@ du	du	ADP_DET
 globe	globe	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 moins	moins	ADV
 peuplée	peupler	VERB
 que	que	SCONJ
@@ -650,7 +650,7 @@ premières	premier	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 avait	avoir	AUX
-moins de	moins de	PUNCT
+moins de	moins de	DET
 chances	chance	NOUN
 matérielles	matériel	ADJ
 que	que	SCONJ
@@ -931,8 +931,8 @@ réunir	réunir	VERB
 nos	nos	DET
 peuples	peuple	NOUN
 et	et	CCONJ
-de mise	de mise	DET
-en	en	PRON
+de mise	de mise	ADJ
+en	en	ADP
 pool	pool	NOUN
 leurs	leur	DET
 ressources	ressource	NOUN
@@ -1258,9 +1258,9 @@ et	et	CCONJ
 Pierre	Pierre	PROPN
 Dubois	Dubois	PROPN
 ,	,	PUNCTclause
-au début	au début	ADP_DET
+au début	au début	ADV
 du	du	ADP_DET
-14e	14e	ADJ
+14e	14e	NUM
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 en passant	en passant	ADV
@@ -1333,7 +1333,7 @@ Briand	Briand	PROPN
 et	et	CCONJ
 Churchill	Churchill	PROPN
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 —	—	PUNCTclause
 depuis	depuis	ADP
@@ -1440,7 +1440,7 @@ les uns et les autres	les uns et les autres	PRON
 ont	avoir	AUX
 raison	raison	NOUN
 ,	,	PUNCTclause
-en ce sens	en ce sens	NOUN
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 ils	ils	PRON
 sont	être	AUX
@@ -1454,7 +1454,7 @@ soit	soit	ADV
 comme	comme	ADP
 volant	volant	NOUN
 ;	;	PUNCTclause
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 ont	avoir	AUX
 tort	tort	NOUN
 quand	quand	SCONJ
@@ -1537,7 +1537,7 @@ avenir	avenir	NOUN
 ↵↵	↵↵	PUNCTstruct
 l'	le	DET
 énergie	énergie	NOUN
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 extraordinaire	extraordinaire	ADJ
 que	que	SCONJ
 ont	avoir	AUX
@@ -1600,7 +1600,7 @@ elles-mêmes	elles-mêmes	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 deviennent	devenir	VERB
-en fait	en fait	NOUN
+en fait	en fait	ADV
 divisions	division	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -1825,7 +1825,7 @@ coopération	coopération	NOUN
 des	un	ADP_DET
 forces	force	NOUN
 culturelles	culturel	ADJ
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 frontières	frontière	NOUN
 nationales	national	ADJ
 ;	;	PUNCTclause
@@ -1885,7 +1885,7 @@ qui	qui	PRON
 ont	avoir	AUX
 tenté	tenter	VERB
 de	de	ADP
-prendre forme	prendre forme	NOUN
+prendre forme	prendre forme	VERB
 ,	,	PUNCTclause
 grâce à	grâce à	ADP
 l'	le	DET
@@ -1921,8 +1921,8 @@ nos	nos	DET
 langues	langue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
-tâche	tâche	NOUN
+la première	la première	PRON
+tâche	tâcher	VERB
 sera	être	AUX
 donc	donc	ADV
 de	de	ADP
@@ -2475,7 +2475,7 @@ sont	être	AUX
 pas	pas	ADV
 fortement	fortement	ADV
 soutenus	soutenir	VERB
-dès maintenant	dès maintenant	PUNCT
+dès maintenant	dès maintenant	ADV
 ,	,	PUNCTclause
 les	le	DET
 plus	plus	ADV
@@ -2556,7 +2556,7 @@ ou	ou	CCONJ
 remettre	remettre	VERB
 l'	le	DET
 Europe	Europe	PROPN
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 exercer	exercer	VERB
 sa	son	DET
 fonction	fonction	NOUN
@@ -2625,7 +2625,7 @@ droit	droit	NOUN
 de	de	ADP
 se	se	PRON
 occuper	occuper	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 d'autre	d'autre	PRON
 chose	chose	NOUN
 .	.	PUNCTsent
@@ -2660,19 +2660,19 @@ union	union	NOUN
 ne	ne	ADV
 pourra	pouvoir	VERB
 jamais	jamais	ADV
-prendre vie	prendre vie	NOUN
+prendre vie	prendre vie	VERB
 :	:	PUNCTclause
-trop de	trop de	NOUN
-contre-courants	contre-courant	ADP
+trop de	trop de	DET
+contre-courants	contre-courant	NOUN
 psychologiques	psychologique	ADJ
 ,	,	PUNCTclause
-trop de	trop de	ADP
+trop de	trop de	DET
 préjugés	préjugé	NOUN
 traditionnels	traditionnel	ADJ
 et	et	CCONJ
 scolaires	scolaire	ADJ
 ,	,	PUNCTclause
-trop de	trop de	ADP
+trop de	trop de	DET
 réflexes	réflexe	NOUN
 nationalistes	nationaliste	ADJ
 continueront	continuer	VERB
@@ -2702,14 +2702,14 @@ contre	contre	ADP
 l'	le	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 tel	tel	PRON
-que	que	SCONJ
+que	que	PRON
 nous	nous	PRON
-le	le	DET
+le	le_PRON	PRON
 concevons	concevoir	VERB
 .	.	PUNCTsent
-en admettant que	en admettant que	PUNCT
+en admettant que	en admettant que	SCONJ
 une	un	DET
 armature	armature	NOUN
 de	de	ADP

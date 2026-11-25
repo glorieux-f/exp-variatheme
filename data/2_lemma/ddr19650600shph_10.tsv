@@ -306,8 +306,8 @@ cantons	canton	NOUN
 qui	qui	PRON
 a	avoir	AUX
 duré	durer	VERB
-jusqu'à la fin	jusqu'à la fin	ADP
-du	du	DET
+jusqu'à la fin	jusqu'à la fin	ADV
+du	du	ADP_DET
 18e	18e	ADJ
 siècle	siècle	NOUN
 ,	,	PUNCTclause
@@ -474,7 +474,7 @@ Suisse	Suisse	PROPN
 l'	le	DET
 agresseur	agresseur	NOUN
 .	.	PUNCTsent
-l'un après l'autre	l'un après l'autre	PRON
+l'un après l'autre	l'un après l'autre	ADV
 ,	,	PUNCTclause
 les	le	DET
 états	état	NOUN
@@ -710,7 +710,7 @@ entend	entendre	VERB
 dire	dire	VERB
 ,	,	PUNCTclause
 jusque	jusque	ADP
-à satiété	à satiété	DET
+à satiété	à satiété	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 ils	ils	PRON
@@ -792,9 +792,9 @@ morale	moral	ADJ
 .	.	PUNCTsent
 ce	ce	PRON
 serait	être	AUX
-faire preuve	faire preuve	DET
+faire preuve	faire preuve	VERB
 de	de	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 optimisme	optimisme	NOUN
 historique	historique	ADJ
 .	.	PUNCTsent
@@ -902,7 +902,7 @@ fit	faire	VERB
 sa	son	DET
 perte	perte	NOUN
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1157,7 +1157,7 @@ idée	idée	NOUN
 de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 état	état	NOUN
 distinct	distinct	ADJ
 :	:	PUNCTclause
@@ -1655,7 +1655,7 @@ autonomie	autonomie	NOUN
 on	on	PRON
 admet	admettre	VERB
 que	que	PRON
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 Consul	Consul	PROPN
 espérait	espérer	VERB
 introduire	introduire	VERB
@@ -1686,7 +1686,7 @@ siècle	siècle	NOUN
 ,	,	PUNCTclause
 imposeront	imposer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 dessein	dessein	NOUN
 une	un	DET
 formule	formule	NOUN
@@ -1795,7 +1795,7 @@ autonomiste	autonomiste	ADJ
 mais	mais	CCONJ
 autoritaire	autoritaire	ADJ
 .	.	PUNCTsent
-ni l'un ni l'autre	ni l'un ni l'autre	ADV
+ni l'un ni l'autre	ni l'un ni l'autre	PRON
 de	de	ADP
 ces	ce	DET
 deux	deux	NUM
@@ -1808,9 +1808,9 @@ encore	encore	ADV
 fédéralisme	fédéralisme	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-ni l'un ni l'autre	ni l'un ni l'autre	ADP
+ni l'un ni l'autre	ni l'un ni l'autre	PRON
 ne	ne	ADV
-l'	le	DET
+l'	le_PRON	PRON
 était	être	AUX
 en vérité	en vérité	ADV
 .	.	PUNCTsent
@@ -1974,7 +1974,7 @@ on	on	PRON
 comptait	compter	VERB
 en	en	ADP
 Suisse	Suisse	PROPN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 quatre-cents	quatre-cents	NUM
 taxes	taxe	NOUN
 sur	sur	ADP
@@ -1996,7 +1996,7 @@ que	que	SCONJ
 en	en	ADP
 1803	1803	NUM
 .	.	PUNCTsent
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 partout	partout	ADV
 ,	,	PUNCTclause
 sauf	sauf	ADP
@@ -2011,7 +2011,7 @@ Tessin	Tessin	PROPN
 ne	ne	ADV
 prélevait	prélever	VERB
 pas	pas	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 treize	treize	NUM
 taxes	taxe	NOUN
 différentes	différent	ADJ
@@ -2192,7 +2192,7 @@ avons	avoir	AUX
 vu	voir	VERB
 commettre	commettre	VERB
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 en	en	ADP
 Europe	Europe	PROPN
@@ -2390,7 +2390,7 @@ dans	dans	ADP
 ses	son	DET
 aspirations	aspiration	NOUN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 le	le	DET
 peuple	peuple	NOUN
 tend	tendre	VERB
@@ -2433,7 +2433,7 @@ la	le	DET
 Diète	Diète	PROPN
 décide	décider	VERB
 enfin	enfin	ADV
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 à	à	ADP
 l'	le	DET
 étude	étude	NOUN
@@ -2488,7 +2488,7 @@ Lucerne	Lucerne	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 paraît	paraître	VERB
 Pellegrino	Pellegrino	PROPN
 Rossi	Rossi	PROPN
@@ -2504,14 +2504,14 @@ Suisse	Suisse	PROPN
 comme	comme	ADP
 réfugié	réfugié	NOUN
 politique	politique	ADJ
-au début	au début	PUNCT
+au début	au début	ADV
 de	de	ADP
 la	le	DET
 restauration	restauration	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 fut	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 professeur	professeur	NOUN
 catholique	catholique	ADJ
 à	à	ADP
@@ -2603,7 +2603,7 @@ du	du	ADP_DET
 projet	projet	NOUN
 qui	qui	PRON
 ,	,	PUNCTclause
-à tort	à tort	DET
+à tort	à tort	ADV
 du reste	du reste	ADV
 ,	,	PUNCTclause
 porte	porter	VERB
@@ -2858,7 +2858,7 @@ l'	le_PRON	PRON
 accompagnent	accompagner	VERB
 ,	,	PUNCTclause
 plane	plan	NOUN
-au-dessus de	au-dessus de	ADP_DET
+au-dessus de	au-dessus de	ADP
 traditions	tradition	NOUN
 locales	local	ADJ
 ,	,	PUNCTclause
@@ -2959,7 +2959,7 @@ netteté	netteté	NOUN
 ,	,	PUNCTclause
 ce	ce	DET
 sentiment	sentiment	NOUN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 énergie	énergie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3127,7 +3127,7 @@ voire	voire	CCONJ
 menacées	menacer	VERB
 :	:	PUNCTclause
 et	et	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 partout	partout	ADV
 ,	,	PUNCTclause
 on	on	PRON
@@ -3158,7 +3158,7 @@ majeurs	majeur	ADJ
 auxquels	auxquels	ADP_PRON
 se	se	PRON
 heurtent	heurter	VERB
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 tous	tous	PRON
 les	le	DET
 projets	projet	NOUN
@@ -3448,7 +3448,7 @@ supérieurs	supérieur	ADJ
 .	.	PUNCTsent
 elle	elle	PRON
 siège	siéger	VERB
-à huis clos	à huis clos	DET
+à huis clos	à huis clos	ADV
 cinq	cinq	NUM
 fois	fois	NOUN
 par	par	ADP
@@ -3566,7 +3566,7 @@ des	un	ADP_DET
 votants	votant	NOUN
 se	se	PRON
 prononcent	prononcer	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 projet	projet	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -3688,7 +3688,7 @@ en	en	ADP
 chantier	chantier	NOUN
 ,	,	PUNCTclause
 élaborée	élaborer	VERB
-à huis clos	à huis clos	DET
+à huis clos	à huis clos	ADV
 ,	,	PUNCTclause
 adoptée	adopter	VERB
 par	par	ADP
@@ -4068,7 +4068,7 @@ la	le	DET
 vie	vie	NOUN
 commune	commun	ADJ
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 intérêts	intérêt	NOUN
 politiques	politique	ADJ
@@ -4202,7 +4202,7 @@ sacrifié	sacrifier	VERB
 ,	,	PUNCTclause
 à vrai dire	à vrai dire	ADV
 ,	,	PUNCTclause
-ni l'une ni l'autre	ni l'une ni l'autre	ADV
+ni l'une ni l'autre	ni l'une ni l'autre	PRON
 ,	,	PUNCTclause
 on	on	PRON
 les	le_PRON	PRON
@@ -4255,7 +4255,7 @@ les	le_PRON	PRON
 cantons	canton	NOUN
 sont	être	AUX
 souverains	souverain	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 leur	leur	DET
 souveraineté	souveraineté	NOUN
 ne	ne	ADV
@@ -4383,7 +4383,7 @@ paix	paix	NOUN
 ,	,	PUNCTclause
 ainsi	ainsi	ADV
 que	que	SCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 avec	avec	ADP
 les	le	DET
 états	état	NOUN
@@ -4408,7 +4408,7 @@ commerce	commerce	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dès	dès	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 article	article	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -4510,7 +4510,7 @@ faits	fait	NOUN
 .	.	PUNCTsent
 car	car	CCONJ
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 l'	le	DET
 union	union	NOUN
@@ -4527,7 +4527,7 @@ l'	le	DET
 union	union	NOUN
 est	être	AUX
 forte	fort	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 les	le	DET
 autonomies	autonomie	NOUN
 y	y	PRON
@@ -4537,7 +4537,7 @@ et	et	CCONJ
 elles	elles	PRON
 y	y	PRON
 contribuent	contribuer	VERB
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 elles	elles	PRON
 y	y	PRON
 trouvent	trouver	VERB
@@ -4595,7 +4595,7 @@ de	de	ADP
 petits	petit	ADJ
 états	état	NOUN
 dès	dès	ADP
-le jour où	le jour où	PRON
+le jour où	le jour où	SCONJ
 ils	ils	PRON
 l'	le_PRON	PRON
 ont	avoir	AUX
@@ -4637,7 +4637,7 @@ souhaitable	souhaitable	ADJ
 se	se	PRON
 trouve	trouver	VERB
 bloqué	bloquer	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 par	par	ADP
 un	un	DET
 sophisme	sophisme	NOUN
@@ -4676,7 +4676,7 @@ nationalistes	nationaliste	ADJ
 donnent	donner	VERB
 d'ailleurs	d'ailleurs	ADV
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 sophisme	sophisme	NOUN
 quand	quand	SCONJ
 ils	ils	PRON
@@ -4684,7 +4684,7 @@ refusent	refuser	VERB
 l'	le	DET
 union	union	NOUN
 immédiate	immédiat	ADJ
-sous prétexte que	sous prétexte que	PUNCT
+sous prétexte que	sous prétexte que	SCONJ
 elle	elle	PRON
 impliquerait	impliquer	VERB
 l'	le	DET
@@ -4773,8 +4773,8 @@ heures	heure	NOUN
 en cas de	en cas de	ADP
 conflit	conflit	NOUN
 avec	avec	ADP
-l'un ou l'autre	l'un ou l'autre	DET
-des	un	DET
+l'un ou l'autre	l'un ou l'autre	PRON
+des	un	ADP_DET
 empires	empire	NOUN
 que	que	PRON
 l'on	on	PRON
@@ -4931,7 +4931,7 @@ femme	femme	NOUN
 se	se	PRON
 masculinise	masculiniser	VERB
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 si	si	SCONJ
 il	il	PRON
@@ -4981,7 +4981,7 @@ de	de	ADP
 rêver	rêver	VERB
 une	un	DET
 indépendance	indépendance	NOUN
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 qui	qui	PRON
 ne	ne	ADV
 sacrifierait	sacrifier	VERB
@@ -4989,7 +4989,7 @@ rien	rien	PRON
 à	à	ADP
 leur	leur	DET
 interdépendance	interdépendance	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 l'	le	DET
 utopie	utopie	NOUN
@@ -5108,7 +5108,7 @@ maintenir	maintenir	VERB
 ces	ce	DET
 deux	deux	NUM
 tendances	tendance	NOUN
-en équilibre	en équilibre	PUNCT
+en équilibre	en équilibre	ADJ
 ,	,	PUNCTclause
 ces	ce	DET
 deux	deux	NUM
@@ -5152,7 +5152,7 @@ des	un	DET
 préjugés	préjugé	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-rien de moins	rien de moins	NOUN
+rien de moins	rien de moins	ADV
 idéologique	idéologique	ADJ
 ,	,	PUNCTclause
 au	au	ADP_DET
@@ -5222,7 +5222,7 @@ accent	accent	NOUN
 est	être	AUX
 mis	mettre	VERB
 sur	sur	ADP
-l'une ou l'autre	l'une ou l'autre	DET
+l'une ou l'autre	l'une ou l'autre	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 au cours de	au cours de	ADP
@@ -5369,7 +5369,7 @@ tête	tête	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 adoptent	adopter	VERB
-l'un après l'autre	l'un après l'autre	ADP
+l'un après l'autre	l'un après l'autre	ADV
 l'	le	DET
 initiative	initiative	NOUN
 ,	,	PUNCTclause
@@ -5657,7 +5657,7 @@ met	mettre	VERB
 à	à	ADP
 jouer	jouer	VERB
 de nouveau	de nouveau	ADV
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 secteur	secteur	NOUN
 privé	privé	ADJ
 ,	,	PUNCTclause
@@ -5943,7 +5943,7 @@ en revanche	en revanche	ADV
 ,	,	PUNCTclause
 lors de	lors de	ADP
 discussions	discussion	NOUN
-à huis clos	à huis clos	PUNCT
+à huis clos	à huis clos	ADV
 de	de	ADP
 la	le	DET
 commission	commission	NOUN
@@ -5972,7 +5972,7 @@ pays	pays	NOUN
 tout	tout	PRON
 se	se	PRON
 passe	passer	VERB
-comme si	comme si	ADV
+comme si	comme si	SCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -6237,7 +6237,7 @@ littérature	littérature	NOUN
 consacrée	consacrer	VERB
 au	au	ADP_DET
 fédéralisme	fédéralisme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 doctrine	doctrine	NOUN
 politique	politique	ADJ
 et	et	CCONJ
@@ -6592,9 +6592,9 @@ invention	invention	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 avait	avoir	AUX
-moins de	moins de	PUNCT
-passé	passer	VERB
-que	que	SCONJ
+moins de	moins de	DET
+passé	passé	NOUN
+que	que	PRON
 de	de	ADP
 avenir	avenir	NOUN
 .	.	PUNCTsent

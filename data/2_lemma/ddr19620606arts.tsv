@@ -180,7 +180,7 @@ par	par	ADP
 ses	son	DET
 effets	effet	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 on	on	PRON
 se	se	PRON
 est	être	AUX
@@ -345,7 +345,7 @@ jusqu'ici	jusqu'ici	ADV
 ce	ce	PRON
 phénomène	phénomène	NOUN
 Europe	Europe	PROPN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 et	et	CCONJ
 sans	sans	ADP
 parallèle	parallèle	NOUN
@@ -393,7 +393,7 @@ un	un	DET
 siècle	siècle	NOUN
 scientiste	scientiste	ADJ
 et	et	CCONJ
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 sans	sans	ADP
 le	le	DET
@@ -405,7 +405,7 @@ que	que	SCONJ
 scientifique	scientifique	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-non que	non que	ADV
+non que	non que	SCONJ
 je	je	PRON
 nie	nier	VERB
 l'	le	DET
@@ -472,7 +472,7 @@ tempéré	tempérer	VERB
 dans	dans	ADP
 le	le	DET
 centre	centre	NOUN
-du moins	du moins	NOUN
+du moins	du moins	ADV
 ,	,	PUNCTclause
 permettant	permettre	VERB
 une	un	DET
@@ -768,7 +768,7 @@ continent	continent	NOUN
 qui	qui	PRON
 possède	posséder	VERB
 le	le	DET
-moins de	moins de	NOUN
+moins de	moins de	DET
 richesses	richesse	NOUN
 territoriales	territorial	ADJ
 …	…	PUNCTsent
@@ -911,7 +911,7 @@ dans	dans	ADP
 trois	trois	NUM
 régions	région	NOUN
 privilégiées	privilégié	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 :	:	PUNCTclause
 la	le	DET
 Chine	Chine	PROPN
@@ -1021,7 +1021,7 @@ France	France	PROPN
 compte	compter	VERB
 à peu près	à peu près	ADV
 les mêmes	les mêmes	PRON
-nombre de	nombre de	ADP_DET
+nombre de	nombre de	DET
 habitants	habitant	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
@@ -1048,7 +1048,7 @@ comment	comment	ADV
 se	se	PRON
 fait	faire	VERB
 il	il	PRON
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 Inde	Inde	PROPN
 ,	,	PUNCTclause
@@ -1305,8 +1305,8 @@ des	un	ADP_DET
 chrétiens	chrétien	NOUN
 ,	,	PUNCTclause
 durant	durant	ADP
-le premier	le premier	DET
-millénaire	millénaire	NOUN
+le premier	le premier	PRON
+millénaire	millénaire	ADJ
 de	de	ADP
 notre	notre	DET
 ère	ère	NOUN
@@ -1439,7 +1439,7 @@ siècle	siècle	NOUN
 a	avoir	AUX
 été	être	AUX
 ,	,	PUNCTclause
-de toute évidence	de toute évidence	SYM
+de toute évidence	de toute évidence	ADV
 ,	,	PUNCTclause
 plus	plus	ADV
 Europe	Europe	PROPN
@@ -1631,8 +1631,8 @@ elle	elle	PRON
 la	le	DET
 seule	seul	ADJ
 ou	ou	CCONJ
-la première	la première	DET
-partie	partie	NOUN
+la première	la première	PRON
+partie	partir	VERB
 du	du	ADP_DET
 monde	monde	NOUN
 qui	qui	PRON
@@ -2208,7 +2208,7 @@ laquelle	laquelle	PRON
 je	je	PRON
 attache	attacher	VERB
 ,	,	PUNCTclause
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 la	le	DET
 plus	plus	ADV
@@ -2509,7 +2509,7 @@ aventure	aventure	NOUN
 mais	mais	CCONJ
 elle	elle	PRON
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 encore	encore	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -3636,9 +3636,9 @@ pour	pour	ADP
 effet	effet	NOUN
 la	le	DET
 découverte	découverte	NOUN
-par erreur	par erreur	ADP
-des	un	DET
-Amériques	Amériques	PROPN
+par erreur	par erreur	ADV
+des	un	ADP_DET
+Amériques	Amériques	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -3787,7 +3787,7 @@ genre humain	genre humain	NOUN
 agrandies	agrandir	VERB
 et	et	CCONJ
 modifiées	modifier	VERB
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ces	ce	DET
@@ -3813,7 +3813,7 @@ Europe	Europe	PROPN
 ce	ce	PRON
 est	être	AUX
 d'abord	d'abord	ADV
-le premier	le premier	DET
+le premier	le premier	PRON
 tour	tour	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
@@ -3929,7 +3929,7 @@ fusée	fusée	NOUN
 porteuse	porteur	ADJ
 sont	être	AUX
 retombés	retomber	VERB
-l'un après l'autre	l'un après l'autre	PUNCT
+l'un après l'autre	l'un après l'autre	ADV
 :	:	PUNCTclause
 ce	ce	PRON
 était	être	AUX
@@ -3973,7 +3973,7 @@ l'	le	DET
 États-Unis	États-Unis	PROPN
 du	du	ADP_DET
 Nord	Nord	PROPN
-la première	la première	PUNCT
+la première	la première	PRON
 ,	,	PUNCTclause
 dès	dès	ADP
 la	le	DET
@@ -3986,8 +3986,8 @@ l'	le	DET
 États-Unis	États-Unis	PROPN
 latine	latin	ADJ
 pendant	pendant	ADP
-la première	la première	DET
-moitié	moitié	NOUN
+la première	la première	PRON
+moitié	moitié	ADV
 du	du	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
@@ -4272,9 +4272,9 @@ aurait	avoir	AUX
 donc	donc	ADV
 consisté	consister	VERB
 ,	,	PUNCTclause
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 et	et	CCONJ
-au total	au total	ADJ
+au total	au total	ADV
 ,	,	PUNCTclause
 à	à	ADP
 faire	faire	VERB
@@ -4308,14 +4308,14 @@ ancienne	ancien	ADJ
 poésie	poésie	NOUN
 grecque	grec	ADJ
 symbolise	symboliser	VERB
-au mieux	au mieux	PUNCT
+au mieux	au mieux	ADV
 la	le	DET
 passion	passion	NOUN
 qui	qui	PRON
 anime	animer	VERB
 cette	ce	DET
 aventure	aventure	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 :	:	PUNCTclause
 l'	le	DET
 Ulysse	Ulysse	PROPN
@@ -4528,7 +4528,7 @@ de	de	ADP
 l'	le	DET
 épopée	épopée	NOUN
 ,	,	PUNCTclause
-comme si	comme si	DET
+comme si	comme si	SCONJ
 Ulysse	Ulysse	PROPN
 ,	,	PUNCTclause
 le	le	DET
@@ -4956,8 +4956,8 @@ ne	ne	ADV
 font	faire	VERB
 en somme	en somme	ADV
 pas	pas	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 Colomb	Colomb	PROPN
 et	et	CCONJ
 que	que	SCONJ
@@ -5052,9 +5052,9 @@ de	de	ADP
 la	le	DET
 sorte	sorte	NOUN
 créer	créer	VERB
-autant de	autant de	PUNCT
+autant de	autant de	DET
 risques	risque	NOUN
-que	que	PRON
+que	que	SCONJ
 on	on	PRON
 résout	résoudre	VERB
 de	de	ADP
@@ -5119,7 +5119,7 @@ temps	temps	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 pour	pour	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 quoi	quoi	PRON
 ?	?	PUNCTsent
 nous	nous	PRON

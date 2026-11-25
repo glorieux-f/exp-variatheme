@@ -26,7 +26,7 @@ je	je	PRON
 me	me	PRON
 suis	être	AUX
 aperçu	apercevoir	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 tard	tard	ADV
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
@@ -275,7 +275,7 @@ préparation	préparation	NOUN
 qui	qui	PRON
 a	avoir	AUX
 occupé	occuper	VERB
-la première	la première	DET
+la première	la première	PRON
 journée	journée	NOUN
 .	.	PUNCTsent
 deuxième	deuxième	ADJ
@@ -315,7 +315,7 @@ toutes	tout	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 enfin	enfin	ADV
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 beaucoup	beaucoup	ADV
 d'autres	d'autre	PRON
 que	que	PRON
@@ -340,7 +340,7 @@ crois	croire	VERB
 ,	,	PUNCTclause
 un	un	DET
 exercice	exercice	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 utile	utile	ADJ
 .	.	PUNCTsent
 troisième	troisième	ADJ
@@ -489,7 +489,7 @@ pas	pas	ADV
 le	le	DET
 seul	seul	ADJ
 .	.	PUNCTsent
-sans cela	sans cela	CCONJ
+sans cela	sans cela	ADV
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -776,7 +776,7 @@ beaucoup de	beaucoup de	DET
 monde	monde	NOUN
 et	et	CCONJ
 où	où	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 peut	pouvoir	VERB
 parler	parler	VERB
 ,	,	PUNCTclause
@@ -1020,7 +1020,7 @@ colloques	colloque	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 chercher	chercher	VERB
 ce	ce	PRON
@@ -1194,7 +1194,7 @@ pratiques	pratique	ADJ
 éventuellement	éventuellement	ADV
 dangereuses	dangereux	ADJ
 pour	pour	ADP
-les uns ou les autres	les uns ou les autres	DET
+les uns ou les autres	les uns ou les autres	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -1211,7 +1211,7 @@ voudrais	vouloir	VERB
 surtout	surtout	ADV
 pas	pas	ADV
 oublier	oublier	VERB
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 valeur	valeur	NOUN
 un	un	DET
@@ -1422,7 +1422,7 @@ Byzance	Byzance	PROPN
 est	être	AUX
 devenu	devenir	VERB
 ,	,	PUNCTclause
-de toute évidence	de toute évidence	DET
+de toute évidence	de toute évidence	ADV
 ,	,	PUNCTclause
 celui	celui	PRON
 de	de	ADP
@@ -1463,7 +1463,7 @@ dans	dans	ADP
 la	le	DET
 société	société	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 toute	toute	DET
 l'	le	DET
 idée	idée	NOUN
@@ -1801,9 +1801,9 @@ appliquer	appliquer	VERB
 à	à	ADP
 l'	le	DET
 ouest	ouest	NOUN
-la même	la même	PUNCT
-analyse	analyse	NOUN
-que	que	PRON
+la même	la même	PRON
+analyse	analyser	VERB
+que	que	SCONJ
 Nivat	Nivat	PROPN
 venait	venir	VERB
 de	de	ADP
@@ -1816,13 +1816,13 @@ cela	cela	PRON
 me	me	PRON
 a	avoir	AUX
 frappé	frapper	VERB
-d'autant plus que	d'autant plus que	PUNCT
+d'autant plus que	d'autant plus que	SCONJ
 je	je	PRON
 avais	avoir	AUX
 eu	avoir	VERB
-la même	la même	DET
+la même	la même	PRON
 idée	idée	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 lui	lui	PRON
 ,	,	PUNCTclause
 sans que	sans que	SCONJ
@@ -1980,7 +1980,7 @@ parallélisme	parallélisme	NOUN
 assez	assez	ADV
 remarquable	remarquable	ADJ
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 phénomène	phénomène	NOUN
 que	que	SCONJ
 Nivat	Nivat	PROPN
@@ -2205,7 +2205,7 @@ radicalement	radicalement	ADV
 ces	ce	DET
 deux	deux	NUM
 camps	camp	NOUN
-au point	au point	ADV
+au point	au point	ADJ
 de	de	ADP
 créer	créer	VERB
 le	le	DET
@@ -2260,7 +2260,7 @@ comprendre	comprendre	VERB
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 difficile	difficile	ADJ
 à	à	ADP
 transmettre	transmettre	VERB
@@ -2407,7 +2407,7 @@ ami	ami	NOUN
 ,	,	PUNCTclause
 quelque chose	quelque chose	PRON
 de	de	ADP
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 important	important	ADJ
 .	.	PUNCTsent
 le	le	DET
@@ -2817,7 +2817,7 @@ dire	dire	VERB
 de	de	ADP
 habitude	habitude	NOUN
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 dans	dans	ADP
 les	le	DET
@@ -2913,7 +2913,7 @@ en	en	ADP
 quoi	quoi	PRON
 Rome	Rome	PROPN
 était	être	AUX
-au fond	au fond	ADJ
+au fond	au fond	ADV
 incompatible	incompatible	ADJ
 avec	avec	ADP
 Athènes	Athènes	PROPN
@@ -2931,8 +2931,8 @@ pas	pas	ADV
 tout	tout	ADV
 .	.	PUNCTsent
 il y a	il y a	VERB
-en plus	en plus	PRON
-des	un	ADP_DET
+en plus	en plus	ADV
+des	un	DET
 trois	trois	NUM
 sources	source	NOUN
 selon	selon	ADP
@@ -3036,7 +3036,7 @@ est	être	AUX
 tellement	tellement	ADV
 important	important	ADJ
 ;	;	PUNCTclause
-si l'on veut	si l'on veut	PRON
+si l'on veut	si l'on veut	ADV
 faire	faire	VERB
 des	un	DET
 fédérations	fédération	NOUN
@@ -3384,8 +3384,8 @@ et	et	CCONJ
 cela	cela	PRON
 sera	être	AUX
 juste	juste	ADV
-dans la mesure où	dans la mesure où	ADV
-ce	ce	DET
+dans la mesure où	dans la mesure où	SCONJ
+ce	ce	PRON
 seront	être	AUX
 des	un	DET
 personnes	personne	NOUN
@@ -3400,7 +3400,7 @@ leur	leur	DET
 vocation	vocation	NOUN
 unique	unique	ADJ
 ,	,	PUNCTclause
-sans précédent	sans précédent	NOUN
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
 tout	tout	ADJ
 ce	ce	PRON
@@ -3678,7 +3678,7 @@ de	de	ADP
 répéter	répéter	VERB
 cela	cela	PRON
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 conditions	condition	NOUN
 ,	,	PUNCTclause
 aussi	aussi	ADV

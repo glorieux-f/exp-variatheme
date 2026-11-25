@@ -143,7 +143,7 @@ pilote	pilote	NOUN
 fait	faire	VERB
 une	un	DET
 marque	marque	NOUN
-en secret	en secret	PUNCT
+en secret	en secret	ADV
 sur	sur	ADP
 l'	le	DET
 hélice	hélice	NOUN
@@ -395,7 +395,7 @@ est	être	AUX
 parce que	parce que	SCONJ
 elle	elle	PRON
 semble	sembler	VERB
-donner tort	donner tort	NOUN
+donner tort	donner tort	VERB
 au	au	ADP_DET
 néant	néant	NOUN
 des	un	ADP_DET
@@ -416,7 +416,7 @@ ou	ou	CCONJ
 parce que	parce que	SCONJ
 elle	elle	PRON
 est	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 moins	moins	ADV
 apparence	apparence	NOUN
 que	que	SCONJ
@@ -424,7 +424,7 @@ tout	tout	PRON
 le	le	DET
 reste	reste	NOUN
 et	et	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 apparition	apparition	NOUN
 .	.	PUNCTsent
@@ -855,7 +855,7 @@ que	que	SCONJ
 Jean-Paul	Jean-Paul	PROPN
 a	avoir	AUX
 nommée	nommer	VERB
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 ,	,	PUNCTclause
 ils	ils	PRON
 règlent	régler	VERB
@@ -898,7 +898,7 @@ qui	qui	PRON
 le	le_PRON	PRON
 reflète	refléter	VERB
 ,	,	PUNCTclause
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 objet	objet	NOUN
 pourra	pouvoir	VERB
 servir	servir	VERB
@@ -1633,7 +1633,7 @@ tait	taire	VERB
 ou	ou	CCONJ
 dit	dire	VERB
 avec	avec	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ,	,	PUNCTclause
 depuis	depuis	ADP
 trois-cent-mille	trois-cent-mille	NUM
@@ -1660,7 +1660,7 @@ là	là	ADV
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 avancerait	avancer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 en	en	ADP
 disant	dire	VERB
 :	:	PUNCTclause
@@ -1686,12 +1686,12 @@ instant	instant	NOUN
 en tapinois	en tapinois	ADV
 ,	,	PUNCTclause
 par	par	ADP
-la même	la même	DET
+la même	la même	PRON
 question	question	NOUN
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 si	si	SCONJ
 ils	ils	PRON
 suivent	suivre	VERB
@@ -1803,7 +1803,7 @@ se	se	PRON
 débat	débattre	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-pour un peu	pour un peu	ADP
+pour un peu	pour un peu	ADV
 ,	,	PUNCTclause
 me	me	PRON
 entraînait	entraîner	VERB
@@ -1941,10 +1941,10 @@ des	un	ADP_DET
 mots	mot	NOUN
 poétiques	poétique	ADJ
 :	:	PUNCTclause
-ni plus ni moins	ni plus ni moins	NOUN
+ni plus ni moins	ni plus ni moins	ADV
 .	.	PUNCTsent
-l'un et l'autre	l'un et l'autre	DET
-en	en	PRON
+l'un et l'autre	l'un et l'autre	PRON
+en	en	ADP
 joue	jouer	VERB
 ,	,	PUNCTclause
 et	et	CCONJ

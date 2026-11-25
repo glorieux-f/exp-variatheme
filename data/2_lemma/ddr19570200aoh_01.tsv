@@ -162,7 +162,7 @@ accrus	accru	ADJ
 ,	,	PUNCTclause
 remettant	remettre	VERB
 sans cesse	sans cesse	ADV
-en question	en question	PUNCT
+en question	en question	ADJ
 les	le	DET
 certitudes	certitude	NOUN
 et	et	CCONJ
@@ -509,7 +509,7 @@ venons	venir	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-à l'inverse	à l'inverse	PRON
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 la	le	DET
 recherche	recherche	NOUN
@@ -522,7 +522,7 @@ ne	ne	ADV
 nous	nous	PRON
 conduit	conduire	VERB
 jamais	jamais	ADV
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 un	un	DET
 point de départ	point de départ	NOUN
 indiscutable	indiscutable	ADJ
@@ -536,8 +536,8 @@ isoler	isoler	VERB
 dans	dans	ADP
 le	le	DET
 passé	passé	NOUN
-autant de	autant de	ADP_DET
-point de départ	point de départ	ADP_DET
+autant de	autant de	DET
+point de départ	point de départ	NOUN
 différents	différent	ADJ
 que	que	SCONJ
 il y a	il y a	VERB
@@ -622,7 +622,7 @@ que	que	SCONJ
 ils	ils	PRON
 ne	ne	ADV
 peuvent	pouvoir	VERB
-avoir raison	avoir raison	ADP_DET
+avoir raison	avoir raison	VERB
 séparément	séparément	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -790,15 +790,15 @@ elle	elle	PRON
 pris	prendre	VERB
 naissance	naissance	NOUN
 ?	?	PUNCTsent
-le jour où	le jour où	PRON
-la première	la première	PUNCT
+le jour où	le jour où	SCONJ
+la première	la première	PRON
 page	page	NOUN
 a	avoir	AUX
 été	être	AUX
 rédigée	rédiger	VERB
 ,	,	PUNCTclause
-la première	la première	DET
-touche	touche	NOUN
+la première	la première	PRON
+touche	toucher	VERB
 de	de	ADP
 couleur	couleur	NOUN
 posée	poser	VERB
@@ -809,7 +809,7 @@ mesures	mesure	NOUN
 notées	noter	VERB
 ,	,	PUNCTclause
 ou bien	ou bien	CCONJ
-le jour où	le jour où	PRON
+le jour où	le jour où	SCONJ
 l'on	on	PRON
 a	avoir	AUX
 esquissé	esquisser	VERB
@@ -985,7 +985,7 @@ l'	le	DET
 acte	acte	NOUN
 insaisissable	insaisissable	ADJ
 et	et	CCONJ
-par nature	par nature	ADP
+par nature	par nature	ADV
 non	non	ADV
 repérable	repérable	ADJ
 ,	,	PUNCTclause

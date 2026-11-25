@@ -79,7 +79,7 @@ de	de	ADP
 moyen	moyen	ADJ
 (	(	PUNCTclause
 dans	dans	ADP
-telle ou telle	telle ou telle	ADJ
+telle ou telle	telle ou telle	DET
 communauté	communauté	NOUN
 )	)	PUNCTclause
 varient	varier	VERB
@@ -146,7 +146,7 @@ même	même	ADJ
 peuple	peuple	NOUN
 et	et	CCONJ
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 époque	époque	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -241,7 +241,7 @@ le	le	DET
 camp	camp	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 lycéen	lycéen	NOUN
 France	France	PROPN
 venu	venir	VERB
@@ -331,7 +331,7 @@ originairement	originairement	ADV
 »	»	PUNCTclause
 Parmentier	Parmentier	PROPN
 venait	venir	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 accepter	accepter	VERB
 par	par	ADP
 la	le	DET
@@ -626,9 +626,9 @@ a	avoir	AUX
 valorisé	valoriser	VERB
 le	le	DET
 pétrole	pétrole	NOUN
-au point	au point	ADP_DET
+au point	au point	ADJ
 de	de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 le	le	DET
 problème	problème	NOUN
 n°	n°	SYM
@@ -854,7 +854,7 @@ le	le	DET
 besoin	besoin	NOUN
 spirituel	spirituel	ADJ
 ,	,	PUNCTclause
-selon que	selon que	PRON
+selon que	selon que	SCONJ
 il	il	PRON
 est	être	AUX
 conçu	concevoir	VERB
@@ -874,7 +874,7 @@ moi	moi	PRON
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 emprunterai	emprunter	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 exemple	exemple	NOUN
 à	à	ADP
 une	un	DET
@@ -1011,7 +1011,7 @@ gens	gens	NOUN
 voulaient	vouloir	VERB
 la	le	DET
 garder	garder	VERB
-en vie	en vie	PUNCT
+en vie	en vie	ADJ
 ,	,	PUNCTclause
 ils	ils	PRON
 aimaient	aimer	VERB
@@ -1576,7 +1576,7 @@ du	du	ADP_DET
 marketing	marketing	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la plupart	la plupart	PRON
 des	un	ADP_DET
 peuples	peuple	NOUN
@@ -1748,7 +1748,7 @@ masses	masse	NOUN
 populaires	populaire	ADJ
 et	et	CCONJ
 ,	,	PUNCTclause
-en principe	en principe	ADP
+en principe	en principe	ADV
 au moins	au moins	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -1770,7 +1770,7 @@ peuvent	pouvoir	VERB
 être	être	AUX
 pratiquement	pratiquement	ADV
 accrus	accroître	VERB
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 toute	toute	DET
 possibilité	possibilité	NOUN
 matérielle	matériel	ADJ
@@ -1812,7 +1812,7 @@ du	du	ADP_DET
 		TOKEN
 …	…	PUNCTsent
 si	si	SCONJ
-à l'inverse	à l'inverse	DET
+à l'inverse	à l'inverse	ADV
 quelques	quelque	DET
 saints	saint	NOUN
 comme	comme	ADP
@@ -1883,7 +1883,7 @@ nouveau	nouveau	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
-sans précédent	sans précédent	SCONJ
+sans précédent	sans précédent	ADJ
 )	)	PUNCTclause
 doit	devoir	VERB
 tenir compte	tenir compte	VERB
@@ -1928,13 +1928,13 @@ famines	famine	NOUN
 régionales	régional	ADJ
 ont	avoir	AUX
 été	être	AUX
-au mieux	au mieux	SYM
+au mieux	au mieux	ADV
 décevantes	décevant	ADJ
 et	et	CCONJ
-au pire	au pire	ADP
+au pire	au pire	ADV
 dénoncées	dénoncer	VERB
 comme	comme	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 trahisons	trahison	NOUN
 de	de	ADP
 leurs	leur	DET
@@ -2044,7 +2044,7 @@ facteurs	facteur	NOUN
 de	de	ADP
 rentabilité	rentabilité	NOUN
 (	(	PUNCTclause
-à court terme	à court terme	SYM
+à court terme	à court terme	ADV
 )	)	PUNCTclause
 ,	,	PUNCTclause
 de	de	ADP
@@ -2256,7 +2256,7 @@ aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 pratiquement	pratiquement	ADV
 ,	,	PUNCTclause
-en termes de	en termes de	DET
+en termes de	en termes de	ADP
 politique	politique	NOUN
 économique	économique	ADJ
 ,	,	PUNCTclause
@@ -2404,7 +2404,7 @@ profit	profit	NOUN
 de	de	ADP
 puissance	puissance	NOUN
 ,	,	PUNCTclause
-de mise	de mise	ADP
+de mise	de mise	ADJ
 au pas	au pas	ADV
 de	de	ADP
 la	le	DET
@@ -2458,7 +2458,7 @@ de	de	ADP
 les	le	DET
 majorer	majorer	VERB
 bien	bien	ADV
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 maximum	maximum	NOUN
 probable	probable	ADJ
 .	.	PUNCTsent
@@ -2551,7 +2551,7 @@ veut	vouloir	VERB
 nous	nous	PRON
 faire	faire	VERB
 prendre	prendre	VERB
-dès maintenant	dès maintenant	PUNCT
+dès maintenant	dès maintenant	ADV
 des	un	DET
 risques	risque	NOUN
 proprement	proprement	ADV
@@ -2943,7 +2943,7 @@ rien	rien	PRON
 ne	ne	ADV
 me	me	PRON
 retiendra	retenir	VERB
-plus de	plus de	PUNCT
+plus de	plus de	DET
 proposer	proposer	VERB
 que	que	SCONJ
 ,	,	PUNCTclause
@@ -3041,7 +3041,7 @@ vient	venir	VERB
 de	de	ADP
 suggérer	suggérer	VERB
 ,	,	PUNCTclause
-à savoir	à savoir	DET
+à savoir	à savoir	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -3153,7 +3153,7 @@ plus de	plus de	DET
 «	«	PUNCTclause
 besoins	besoin	NOUN
 »	»	PUNCTclause
-comme si	comme si	PRON
+comme si	comme si	SCONJ
 l'on	on	PRON
 savait	savoir	VERB
 ce	ce	PRON
@@ -3177,7 +3177,7 @@ que	que	SCONJ
 on	on	PRON
 ne	ne	ADV
 parle	parler	VERB
-plus de	plus de	ADV
+plus de	plus de	DET
 famines	famine	NOUN
 comme si	comme si	SCONJ
 il	il	PRON
@@ -3199,7 +3199,7 @@ plus de	plus de	DET
 l'	le_PRON	PRON
 avenir	avenir	VERB
 humain	humain	ADJ
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 il	il	PRON
 se	se	PRON
 agissait	agir	VERB

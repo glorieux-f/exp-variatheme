@@ -86,7 +86,7 @@ séculaire	séculaire	ADJ
 de	de	ADP
 la	le	DET
 victoire	victoire	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 remportée	remporter	VERB
 par	par	ADP
 les	le	DET
@@ -128,8 +128,8 @@ d'abord	d'abord	ADV
 examiner	examiner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au lendemain de	au lendemain de	ADP_DET
-la première	la première	NOUN
+au lendemain de	au lendemain de	ADP
+la première	la première	PRON
 guerre mondiale	guerre mondiale	NOUN
 déclenchée	déclencher	VERB
 par	par	ADP
@@ -153,7 +153,7 @@ civilisations	civilisation	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 savons	savoir	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 mortelles	mortel	ADJ
@@ -217,7 +217,7 @@ nom	nom	NOUN
 et	et	CCONJ
 nous	nous	PRON
 voyons	voir	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 l'	le	DET
 abîme	abîme	NOUN
 de	de	ADP
@@ -236,7 +236,7 @@ que	que	SCONJ
 une	un	DET
 civilisation	civilisation	NOUN
 a	avoir	AUX
-la même	la même	DET
+la même	la même	PRON
 fragilité	fragilité	NOUN
 que	que	SCONJ
 une	un	DET
@@ -388,11 +388,11 @@ civilisations	civilisation	NOUN
 ,	,	PUNCTclause
 citait	citer	VERB
 à peu près	à peu près	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 noms	nom	NOUN
 pour	pour	ADP
 illustrer	illustrer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 argument	argument	NOUN
 que	que	PRON
 Valéry	Valéry	PROPN
@@ -770,7 +770,7 @@ catastrophes	catastrophe	NOUN
 qui	qui	PRON
 ont	avoir	AUX
 fondu	fondre	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 sur	sur	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -828,7 +828,7 @@ au cours de	au cours de	ADP
 années	année	NOUN
 qui	qui	PRON
 suivent	suivre	VERB
-la première	la première	PUNCT
+la première	la première	PRON
 guerre mondiale	guerre mondiale	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -1097,7 +1097,7 @@ sans que	sans que	SCONJ
 l'autre	l'autre	PRON
 soit	être	AUX
 ruinée	ruiner	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 .	.	PUNCTsent
 chacun	chacun	PRON
 sait	savoir	VERB
@@ -1151,9 +1151,9 @@ grandeur	grandeur	NOUN
 et	et	CCONJ
 décadence	décadence	NOUN
 soit	être	AUX
-la même	la même	PUNCT
+la même	la même	PRON
 pour	pour	ADP
-toutes	toutes	PRON
+toutes	tout	ADJ
 les	le	DET
 civilisations	civilisation	NOUN
 et	et	CCONJ
@@ -1355,7 +1355,7 @@ mondial	mondial	ADJ
 elle	elle	PRON
 aurait	avoir	AUX
 été	être	AUX
-la première	la première	ADJ
+la première	la première	PRON
 et	et	CCONJ
 la	le	DET
 seule	seul	ADJ
@@ -1635,7 +1635,7 @@ ne	ne	ADV
 a	avoir	AUX
 jamais	jamais	ADV
 été	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 une	un	DET
 unité	unité	NOUN
@@ -2234,7 +2234,7 @@ joue	jouer	VERB
 pendant que	pendant que	SCONJ
 nous	nous	PRON
 vérifions	vérifier	VERB
-une fois de plus	une fois de plus	ADP
+une fois de plus	une fois de plus	ADV
 nos	nos	DET
 calculs	calcul	NOUN
 …	…	PUNCTsent
@@ -2320,7 +2320,7 @@ infime	infime	ADJ
 cela	cela	PRON
 se	se	PRON
 discute	discuter	VERB
-depuis que	depuis que	PUNCT
+depuis que	depuis que	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
 existe	exister	VERB
@@ -2588,7 +2588,7 @@ nous	nous	PRON
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 sommes	somme	NOUN
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 vous	vous	PRON
 secourir	secourir	VERB
 matériellement	matériellement	ADV
@@ -2694,7 +2694,7 @@ il y a	il y a	VERB
 lieu	lieu	NOUN
 de	de	ADP
 reconsidérer	reconsidérer	VERB
-de part et d'autre	de part et d'autre	ADP
+de part et d'autre	de part et d'autre	ADV
 la	le	DET
 relation	relation	NOUN
 entre	entre	ADP
@@ -2801,7 +2801,7 @@ son	son	DET
 sort	sort	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-à l'inverse	à l'inverse	ADJ
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV
@@ -2950,7 +2950,7 @@ de	de	ADP
 idée	idée	NOUN
 plus	plus	ADV
 exaltante	exaltant	ADJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 pour	pour	ADP
 les	le	DET
 Europe	Europe	PROPN
@@ -3126,7 +3126,7 @@ je	je	PRON
 ai	avoir	VERB
 cru	croire	VERB
 bon	bon	ADJ
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 valeur	valeur	NOUN
 ces	ce	DET
@@ -3301,7 +3301,7 @@ nos	nos	DET
 produits	produit	NOUN
 ,	,	PUNCTclause
 donc	donc	ADV
-au total	au total	PUNCT
+au total	au total	ADV
 ,	,	PUNCTclause
 à	à	ADP
 l'	le	DET
@@ -3436,7 +3436,7 @@ qui	qui	PRON
 en	en	PRON
 dérivent	dériver	VERB
 jusque	jusque	ADP
-au point	au point	ADV
+au point	au point	ADJ
 où	où	PRON
 elles	elles	PRON
 permettent	permettre	VERB
@@ -3495,7 +3495,7 @@ entrepris	entreprendre	VERB
 ,	,	PUNCTclause
 avec	avec	ADP
 non	non	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 audace	audace	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -3523,7 +3523,7 @@ la	le	DET
 terre	terre	NOUN
 entière	entier	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 aucun	aucun	DET
 autre	autre	ADJ
 peuple	peuple	NOUN
@@ -3993,7 +3993,7 @@ arts	art	NOUN
 et	et	CCONJ
 sa	son	DET
 philosophie	philosophie	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 activités	activité	NOUN
 profanes	profane	ADJ
 ,	,	PUNCTclause
@@ -4002,9 +4002,9 @@ tous	tout	ADJ
 leurs	leur	DET
 procédés	procédé	NOUN
 et	et	CCONJ
-un peu de	un peu de	ADP
-leur	leur	DET
-logique	logique	NOUN
+un peu de	un peu de	DET
+leur	leur	PRON
+logique	logique	ADJ
 …	…	PUNCTsent
 mais	mais	CCONJ
 l'	le	DET
@@ -4022,7 +4022,7 @@ de	de	ADP
 équilibres	équilibre	NOUN
 sans cesse	sans cesse	ADV
 remis	remettre	VERB
-en question	en question	DET
+en question	en question	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 tragédies	tragédie	NOUN
@@ -4062,7 +4062,7 @@ de	de	ADP
 puissance	puissance	NOUN
 matérielle	matériel	ADJ
 —	—	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 le	le	DET
 monde	monde	NOUN
@@ -4196,7 +4196,7 @@ prochain	prochain	ADJ
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
 sommes	être	AUX
-au point	au point	ADV
+au point	au point	ADJ
 de	de	ADP
 l'	le	DET
 évolution	évolution	NOUN
@@ -4579,7 +4579,7 @@ comment	comment	ADV
 expliquer	expliquer	VERB
 ce	ce	DET
 phénomène	phénomène	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 dans	dans	ADP
 toute	toute	DET
 l'	le	DET
@@ -4634,7 +4634,7 @@ pouvoir	pouvoir	VERB
 sinon	sinon	ADV
 satisfaire	satisfaire	VERB
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 séduire	séduire	VERB
 tous	tout	ADJ
 les	le	DET
@@ -4704,7 +4704,7 @@ manières	manière	NOUN
 la	le	DET
 former	former	VERB
 .	.	PUNCTsent
-par là même	par là même	ADP
+par là même	par là même	ADV
 —	—	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -4712,7 +4712,7 @@ est	être	AUX
 bien	bien	ADV
 son	son	DET
 drame	drame	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 la	le	DET
 condition	condition	NOUN
 de	de	ADP
@@ -5060,7 +5060,7 @@ aux	au	ADP_DET
 âges	âge	NOUN
 futurs	futur	ADJ
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 elle	elle	PRON
 redécouvrait	redécouvrir	VERB
 et	et	CCONJ
@@ -5155,7 +5155,7 @@ microsillons	microsillon	NOUN
 ,	,	PUNCTclause
 elles	elles	PRON
 sont	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 résister	résister	VERB
 au	au	ADP_DET
 temps	temps	NOUN
@@ -5287,7 +5287,7 @@ Europe	Europe	PROPN
 pour	pour	ADP
 être	être	AUX
 diffusées	diffuser	VERB
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 sur	sur	ADP
 toute	tout	ADJ
 la	le	DET
@@ -5453,7 +5453,7 @@ si	si	SCONJ
 les	le	DET
 civilisations	civilisation	NOUN
 mouraient	mourir	VERB
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 ,	,	PUNCTclause
 Valéry	Valéry	PROPN
 ne	ne	ADV
@@ -5557,7 +5557,7 @@ leurs	leur	DET
 livres	livre	NOUN
 sacrés	sacré	ADJ
 publiés	publier	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 et	et	CCONJ
 retrouvent	retrouver	VERB
 partout	partout	ADV
@@ -5823,7 +5823,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ils	ils	PRON
 se	se	PRON
 européanisent	européaniser	VERB
@@ -6089,7 +6089,7 @@ ce	ce	PRON
 que	que	PRON
 elle	elle	PRON
 entraîne	entraîner	VERB
-de proche en proche	de proche en proche	DET
+de proche en proche	de proche en proche	ADV
 dans	dans	ADP
 les	le	DET
 mœurs	mœurs	NOUN
@@ -6106,7 +6106,7 @@ le	le	DET
 fameux	fameux	ADJ
 «	«	PUNCTclause
 bond	bond	NOUN
-en avant	en avant	ADP
+en avant	en avant	ADV
 »	»	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -6305,7 +6305,7 @@ un	un	DET
 péril	péril	NOUN
 jaune	jaune	ADJ
 ,	,	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 le	le	DET
 péril	péril	NOUN
 noir	noir	ADJ
@@ -6320,7 +6320,7 @@ notre	notre	DET
 éclipse	éclipse	NOUN
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	ADJ
+rien que	rien que	ADV
 notre	notre	DET
 aveuglement	aveuglement	NOUN
 sur	sur	ADP
@@ -6360,7 +6360,7 @@ mondiale	mondial	ADJ
 ne	ne	ADV
 est	être	AUX
 menacée	menacer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 que	que	SCONJ
 par	par	ADP
 les	le	DET
@@ -6971,7 +6971,7 @@ moi	moi	PRON
 de	de	ADP
 vous	vous	PRON
 citer	citer	VERB
-à ce propos	à ce propos	ADP
+à ce propos	à ce propos	ADV
 deux	deux	NUM
 textes	texte	NOUN
 dont	dont	PRON
@@ -6984,7 +6984,7 @@ sujet	sujet	NOUN
 .	.	PUNCTsent
 je	je	PRON
 prendrai	prendre	VERB
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 dans	dans	ADP
 la	le	DET
 correspondance	correspondance	NOUN
@@ -6995,13 +6995,13 @@ Suisse	Suisse	PROPN
 Jacob	Jacob	PROPN
 Burckhardt	Burckhardt	PROPN
 ,	,	PUNCTclause
-à la fin	à la fin	ADP_DET
+à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 passé	passer	VERB
 ;	;	PUNCTclause
 et	et	CCONJ
-le second	le second	DET
+le second	le second	PRON
 dans	dans	ADP
 un	un	DET
 quotidien	quotidien	NOUN
@@ -7214,7 +7214,7 @@ ici	ici	ADV
 on	on	PRON
 ne	ne	ADV
 voit	voir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 petits	petit	ADJ
 groupes	groupe	NOUN
 de	de	ADP
@@ -7254,8 +7254,8 @@ au	au	ADP_DET
 petit	petit	ADJ
 bonheur	bonheur	NOUN
 est	être	AUX
-à jamais	à jamais	DET
-disparue	disparu	NOUN
+à jamais	à jamais	ADV
+disparue	disparu	ADJ
 .	.	PUNCTsent
 quel	quel	DET
 énorme	énorme	ADJ
@@ -7324,7 +7324,7 @@ sa	son	DET
 forme	forme	NOUN
 hitlérienne	hitlérien	ADJ
 ,	,	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 l'	le	DET
 organisme	organisme	NOUN
@@ -7423,7 +7423,7 @@ civilisation	civilisation	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-la première	la première	NOUN
+la première	la première	PRON
 est	être	AUX
 le	le	DET
 fédéralisme	fédéralisme	NOUN

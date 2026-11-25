@@ -20,7 +20,7 @@ nous	nous	PRON
 voyons	voir	VERB
 un	un	DET
 mythe	mythe	NOUN
-prendre corps	prendre corps	ADP
+prendre corps	prendre corps	VERB
 parmi	parmi	ADP
 les	le	DET
 ruines	ruine	NOUN
@@ -118,7 +118,7 @@ sincérité	sincérité	NOUN
 masque	masque	NOUN
 fier	fier	ADJ
 et	et	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 douloureux	douloureux	ADJ
 des	un	ADP_DET
 défaitismes	défaitisme	NOUN
@@ -142,7 +142,7 @@ du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 en	en	ADP
 parle	parler	VERB
 ,	,	PUNCTclause
@@ -449,7 +449,7 @@ une	un	DET
 sorte	sorte	NOUN
 de	de	ADP
 passage	passage	NOUN
-à la limite	à la limite	ADP
+à la limite	à la limite	ADV
 que	que	SCONJ
 les	le	DET
 faits	fait	NOUN
@@ -471,7 +471,7 @@ en premier lieu	en premier lieu	ADV
 la	le	DET
 spontanéité	spontanéité	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 Gide	Gide	PROPN
 écrit	écrire	VERB
 ailleurs	ailleurs	ADV
@@ -1102,7 +1102,7 @@ je	je	PRON
 éprouve	éprouver	VERB
 le	le	DET
 besoin	besoin	NOUN
-de fait	de fait	ADP
+de fait	de fait	ADJ
 le	le_PRON	PRON
 point	poindre	VERB
 :	:	PUNCTclause
@@ -1324,7 +1324,7 @@ quelque chose	quelque chose	PRON
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
-le second	le second	DET
+le second	le second	PRON
 .	.	PUNCTsent
 la	le	DET
 qualité	qualité	NOUN
@@ -1373,7 +1373,7 @@ la	le	DET
 méthode	méthode	NOUN
 indiquée	indiquer	VERB
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 exemple	exemple	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
@@ -1737,7 +1737,7 @@ morale	morale	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 impossibilité	impossibilité	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 mon	mon	DET
 autoportrait	autoportrait	NOUN
 moral	moral	ADJ
@@ -1750,7 +1750,7 @@ temps	temps	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 danger	danger	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 mon	mon	DET
 autoportrait	autoportrait	NOUN
 moral	moral	ADJ
@@ -1802,7 +1802,7 @@ de	de	ADP
 non	non	ADV
 .	.	PUNCTsent
 car	car	CCONJ
-à supposer que	à supposer que	PUNCT
+à supposer que	à supposer que	SCONJ
 l'	le	DET
 analyse	analyse	NOUN
 nous	nous	PRON
@@ -2042,8 +2042,8 @@ ce	ce	PRON
 est	être	AUX
 se	se	PRON
 porter	porter	VERB
-à l'extrême	à l'extrême	ADP
-pointe	pointe	NOUN
+à l'extrême	à l'extrême	ADV
+pointe	pointer	VERB
 de	de	ADP
 soi	soi	PRON
 ,	,	PUNCTclause
@@ -2306,7 +2306,7 @@ il	il	PRON
 devient	devenir	VERB
 dès lors	dès lors	ADV
 impossible	impossible	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 rien	rien	PRON
 qui	qui	PRON
 ne	ne	ADV
@@ -2340,7 +2340,7 @@ aident	aider	VERB
 —	—	PUNCTclause
 mais	mais	CCONJ
 jamais	jamais	ADV
-au point	au point	ADV
+au point	au point	ADJ
 de	de	ADP
 oublier	oublier	VERB
 la	le	DET
@@ -2530,10 +2530,10 @@ qui	qui	PRON
 me	me	PRON
 devenait	devenir	VERB
 inintelligible	inintelligible	ADJ
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 odieux	odieux	ADJ
 .	.	PUNCTsent
-au hasard	au hasard	ADP_DET
+au hasard	au hasard	ADV
 de	de	ADP
 quelques	quelque	DET
 lectures	lecture	NOUN
@@ -2569,7 +2569,7 @@ recherche	recherche	NOUN
 puissiez	pouvoir	VERB
 vous	vous	PRON
 avouer	avouer	VERB
-moins de	moins de	PUNCT
+moins de	moins de	DET
 sincérité	sincérité	NOUN
 et	et	CCONJ
 montrer	montrer	VERB
@@ -2623,7 +2623,7 @@ les mêmes	les mêmes	PRON
 qui	qui	PRON
 se	se	PRON
 ignorent	ignorer	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 personnes	personne	NOUN
 .	.	PUNCTsent
 comment	comment	ADV
@@ -2702,8 +2702,8 @@ qui	qui	PRON
 est	être	AUX
 douée	doué	ADJ
 de	de	ADP
-assez de	assez de	NOUN
-force	forcer	VERB
+assez de	assez de	DET
+force	force	NOUN
 pour	pour	ADP
 donner	donner	VERB
 de	de	ADP
@@ -2952,7 +2952,7 @@ me	me	PRON
 offrais	offrir	VERB
 un	un	DET
 visage	visage	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 crispé	crisper	VERB
 ,	,	PUNCTclause
 signe	signer	VERB
@@ -3002,7 +3002,7 @@ de	de	ADP
 ta	ton	DET
 lèvre	lèvre	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 sceptique	sceptique	ADJ
 ,	,	PUNCTclause
 quand	quand	SCONJ
@@ -3015,7 +3015,7 @@ rêve	rêve	NOUN
 de	de	ADP
 un	un	DET
 idéal	idéal	NOUN
-de fortune	de fortune	PUNCT
+de fortune	de fortune	ADJ
 ,	,	PUNCTclause
 idole	idole	NOUN
 naïve	naïf	ADJ
@@ -3034,7 +3034,7 @@ aimée	aimer	VERB
 d'autres	d'autre	PRON
 soirs	soir	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 une	un	DET
 symphonie	symphonie	NOUN
 de	de	ADP
@@ -3190,7 +3190,7 @@ que	que	SCONJ
 fidèle	fidèle	ADJ
 à	à	ADP
 soi-même	soi-même	PRON
-au plus	au plus	ADP_DET
+au plus	au plus	ADV
 profond	profond	ADJ
 de	de	ADP
 l'	le	DET
@@ -3253,7 +3253,7 @@ de	de	ADP
 l'	le	DET
 individu	individu	NOUN
 —	—	PUNCTclause
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 corps	corps	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3271,7 +3271,7 @@ jongleries	jonglerie	NOUN
 verbales	verbal	ADJ
 .	.	PUNCTsent
 regards	regard	NOUN
-au-dessus de	au-dessus de	PUNCT
+au-dessus de	au-dessus de	ADP
 l'	le	DET
 amour	amour	NOUN
 !	!	PUNCTsent
@@ -3374,7 +3374,7 @@ faiblesse	faiblesse	NOUN
 ce	ce	PRON
 est	être	AUX
 toujours	toujours	ADV
-un peu	un peu	DET
+un peu	un peu	ADV
 en	en	ADP
 prendre	prendre	VERB
 son	son	DET

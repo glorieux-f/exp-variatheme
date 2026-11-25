@@ -19,9 +19,9 @@ conclusions	conclusion	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 conclusion	conclusion	NOUN
-que	que	PRON
+que	que	SCONJ
 je	je	PRON
 tire	tirer	VERB
 de	de	ADP
@@ -379,8 +379,8 @@ bassin	bassin	NOUN
 rhodanien	rhodanien	ADJ
 .	.	PUNCTsent
 lieu	lieu	NOUN
-à tous égards	à tous égards	ADP
-privilégié	privilégié	NOUN
+à tous égards	à tous égards	ADV
+privilégié	privilégier	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 je	je	PRON
@@ -465,7 +465,7 @@ colloque	colloque	NOUN
 je	je	PRON
 avais	avoir	AUX
 passé	passer	VERB
-la première	la première	DET
+la première	la première	PRON
 année	année	NOUN
 de	de	ADP
 la	le	DET
@@ -662,7 +662,7 @@ après	après	ADP
 la	le	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 se	se	PRON
 est	être	AUX
 accordé	accorder	VERB
@@ -791,7 +791,7 @@ action	action	NOUN
 comme	comme	SCONJ
 je	je	PRON
 étais	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 responsable	responsable	ADJ
 de	de	ADP
 la	le	DET
@@ -885,7 +885,7 @@ suis	être	AUX
 arrangé	arranger	VERB
 pour	pour	ADP
 écrire	écrire	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 ,	,	PUNCTclause
 en marge de	en marge de	ADP
 cette	ce	DET
@@ -904,8 +904,8 @@ de	de	ADP
 ouvrages	ouvrage	NOUN
 publiés	publier	VERB
 ,	,	PUNCTclause
-plus de	plus de	ADP
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 parlent	parler	VERB
 d'autre	d'autre	PRON
@@ -989,7 +989,7 @@ sur	sur	ADP
 pied	pied	NOUN
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 institutions	institution	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -1507,7 +1507,7 @@ Europe	Europe	PROPN
 Strasbourg	Strasbourg	PROPN
 ,	,	PUNCTclause
 serait	être	AUX
-de beaucoup	de beaucoup	ADP
+de beaucoup	de beaucoup	ADV
 un	un	DET
 meilleur	meilleur	ADJ
 candidat	candidat	NOUN
@@ -1872,7 +1872,7 @@ ami	ami	NOUN
 Erico	Erico	PROPN
 Nicola	Nicola	PROPN
 —	—	PUNCTclause
-le premier	le premier	DET
+le premier	le premier	PRON
 homme	homme	NOUN
 qui	qui	PRON
 nous	nous	PRON
@@ -2164,7 +2164,7 @@ milliards	milliard	NOUN
 de	de	ADP
 dollars	dollar	NOUN
 —	—	PUNCTclause
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 ce	ce	PRON
 était	être	AUX
 trois fois	trois fois	ADV
@@ -2186,8 +2186,8 @@ le	le	DET
 marché	marché	NOUN
 occidental	occidental	ADJ
 —	—	PUNCTclause
-de telle manière que	de telle manière que	PUNCT
-toute	toute	DET
+de telle manière que	de telle manière que	SCONJ
+toute	tout	ADJ
 notre	notre	DET
 économie	économie	NOUN
 en	en	ADP
@@ -2342,8 +2342,8 @@ obligé	obliger	VERB
 à	à	ADP
 me	me	PRON
 éloigner	éloigner	VERB
-un peu de	un peu de	ADP
-l'	le	DET
+un peu de	un peu de	DET
+l'	le_PRON	PRON
 actualité	actualité	NOUN
 et	et	CCONJ
 des	un	DET
@@ -2495,7 +2495,7 @@ trop	trop	ADV
 difficiles	difficile	ADJ
 ou	ou	CCONJ
 trop	trop	ADV
-en avance	en avance	PUNCT
+en avance	en avance	ADV
 sur	sur	ADP
 l'	le	DET
 opinion	opinion	NOUN
@@ -2798,7 +2798,7 @@ a	avoir	AUX
 dit	dire	VERB
 :	:	PUNCTclause
 «	«	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 d'après	d'après	ADP
 mes	mon	DET
@@ -2856,12 +2856,12 @@ plus ou moins	plus ou moins	ADV
 fous	fou	NOUN
 et	et	CCONJ
 condamnés	condamner	VERB
-à terme	à terme	ADP
+à terme	à terme	ADV
 .	.	PUNCTsent
 le	le	DET
 seul	seul	ADJ
 moyen	moyen	NOUN
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 éviter	éviter	VERB
 cette	ce	DET
 guerre	guerre	NOUN
@@ -2895,7 +2895,7 @@ de	de	ADP
 l'	le	DET
 univers	univers	NOUN
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -3316,7 +3316,7 @@ créer	créer	VERB
 vite	vite	ADV
 cette	ce	DET
 Europe	Europe	PROPN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 facteur	facteur	NOUN
 de	de	ADP
 paix	paix	NOUN
@@ -3408,7 +3408,7 @@ longtemps	longtemps	ADV
 ,	,	PUNCTclause
 la	le	DET
 volonté	volonté	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 à partir de	à partir de	ADP
@@ -3468,7 +3468,7 @@ ont	avoir	VERB
 pas	pas	ADV
 l'	le	DET
 idée	idée	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 une	un	DET
 amicale	amical	NOUN
 ,	,	PUNCTclause
@@ -3516,7 +3516,7 @@ crois	croire	VERB
 que	que	SCONJ
 il	il	PRON
 serait	être	AUX
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 illusoire	illusoire	ADJ
 de	de	ADP
 donner	donner	VERB
@@ -3714,7 +3714,7 @@ la	le	DET
 non-violence	non-violence	NOUN
 ,	,	PUNCTclause
 sauf	sauf	ADP
-dans ce cas	dans ce cas	NOUN
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 à condition que	à condition que	SCONJ
 ce	ce	PRON
@@ -3818,7 +3818,7 @@ de	de	ADP
 régions	région	NOUN
 qui	qui	PRON
 serait	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 partout	partout	ADV
 :	:	PUNCTclause
 cela	cela	PRON
@@ -3950,7 +3950,7 @@ nous	nous	PRON
 avons	avoir	AUX
 beaucoup	beaucoup	ADV
 discuté	discuter	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 jour	jour	NOUN
 .	.	PUNCTsent
 plusieurs	plusieurs	PRON
@@ -4024,7 +4024,7 @@ territoire	territoire	NOUN
 en	en	ADP
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 chercheur	chercheur	NOUN
 à	à	ADP
 l'	le	DET
@@ -4034,7 +4034,7 @@ Zurich	Zurich	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 donc	donc	ADV
-à ce titre	à ce titre	ADP
+à ce titre	à ce titre	ADV
 plus ou moins	plus ou moins	ADV
 lié	lier	VERB
 au	au	ADP_DET
@@ -4174,7 +4174,7 @@ donc	donc	ADV
 ,	,	PUNCTclause
 pose	poser	VERB
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 problèmes	problème	NOUN
 auxquels	auxquels	ADP_PRON
 je	je	PRON
@@ -4298,7 +4298,7 @@ peut	pouvoir	VERB
 surmonter	surmonter	VERB
 ces	ce	DET
 complexités	complexité	NOUN
-à mesure que	à mesure que	PUNCT
+à mesure que	à mesure que	SCONJ
 l'on	on	PRON
 avance	avancer	VERB
 ,	,	PUNCTclause
@@ -4356,8 +4356,8 @@ une	un	DET
 phrase	phrase	NOUN
 qui	qui	PRON
 va	aller	VERB
-tout à fait	tout à fait	DET
-au fond	au fond	NOUN
+tout à fait	tout à fait	ADV
+au fond	au fond	ADV
 de	de	ADP
 la	le	DET
 chose	chose	NOUN
@@ -4422,7 +4422,7 @@ dans	dans	ADP
 trois	trois	NUM
 directions	direction	NOUN
 .	.	PUNCTsent
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 ce	ce	DET
 est-ce que	est-ce que	ADV
@@ -4514,7 +4514,7 @@ critiquable	critiquable	ADJ
 mais	mais	CCONJ
 courante	courant	ADJ
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 citoyen	citoyen	NOUN
 de	de	ADP
 cette	ce	DET
@@ -4614,12 +4614,12 @@ Afrique	Afrique	PROPN
 noire	noir	ADJ
 .	.	PUNCTsent
 impossible	impossible	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 rentrer	rentrer	VERB
 tout	tout	ADJ
 cela	cela	PRON
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 !	!	PUNCTsent
 du point de vue	du point de vue	ADV
@@ -4658,7 +4658,7 @@ fais	faire	VERB
 partie	partie	NOUN
 de	de	ADP
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 sociétés	société	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -4842,7 +4842,7 @@ tous	tout	ADJ
 au	au	ADP_DET
 fou	fou	NOUN
 !	!	PUNCTsent
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 ce	ce	PRON
 est-ce que	est-ce que	ADV
@@ -4878,7 +4878,7 @@ ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
 contradictoires	contradictoire	ADJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 :	:	PUNCTclause
 première	premier	ADJ
 direction	direction	NOUN
@@ -5046,7 +5046,7 @@ une	un	DET
 ville-métropole	ville-métropole	NOUN
 régionale	régional	ADJ
 .	.	PUNCTsent
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 cela	cela	PRON
 me	me	PRON
@@ -5081,7 +5081,7 @@ matin	matin	NOUN
 les	le	DET
 villes	ville	NOUN
 ,	,	PUNCTclause
-au fond	au fond	SCONJ
+au fond	au fond	ADV
 ,	,	PUNCTclause
 elles	elles	PRON
 sont	être	AUX
@@ -5535,7 +5535,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 tâches	tâche	NOUN
 sont	être	AUX
 trop	trop	ADV
@@ -5708,7 +5708,7 @@ clairement	clairement	ADV
 limité	limiter	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
-tout à fait	tout à fait	PRON
+tout à fait	tout à fait	ADV
 réel	réel	ADJ
 dans	dans	ADP
 leur	leur	DET
@@ -6007,9 +6007,9 @@ a	avoir	AUX
 toujours	toujours	ADV
 frappé	frapper	VERB
 .	.	PUNCTsent
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 frappé	frapper	VERB
-que	que	SCONJ
+que	que	ADV
 l'un	l'un	PRON
 des	un	ADP_DET
 premiers	premier	ADJ
@@ -6048,14 +6048,14 @@ ce	ce	DET
 théorème	théorème	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 les	le	DET
 choses	chose	NOUN
 particulières	particulier	ADJ
 ,	,	PUNCTclause
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 Dieu	Dieu	PROPN
@@ -6184,7 +6184,7 @@ les	le	DET
 années	année	NOUN
 1930	1930	NUM
 ,	,	PUNCTclause
-sous le nom de	sous le nom de	DET
+sous le nom de	sous le nom de	ADP
 mouvement	mouvement	NOUN
 personnalisme	personnalisme	NOUN
 ,	,	PUNCTclause
@@ -6387,7 +6387,7 @@ se	se	PRON
 soit	être	AUX
 trouvé	trouver	VERB
 que	que	SCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 rapport	rapport	NOUN
 ,	,	PUNCTclause
 celui	celui	PRON
@@ -6567,7 +6567,7 @@ qui	qui	PRON
 sont	être	AUX
 aussi	aussi	ADV
 importantes	important	ADJ
-à bien des égards	à bien des égards	PUNCT
+à bien des égards	à bien des égards	ADV
 ,	,	PUNCTclause
 plus	plus	ADV
 près de	près de	ADP
@@ -6967,7 +6967,7 @@ te	te	PRON
 encoubler	encoubler	VERB
 ?	?	PUNCTsent
 »	»	PUNCTclause
-eh bien	eh bien	PUNCT
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 ils	ils	PRON
 savent	savoir	VERB
@@ -7018,9 +7018,9 @@ des	un	DET
 rythmes	rythme	NOUN
 millénaires	millénaire	ADJ
 ,	,	PUNCTclause
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 d'autres	d'autre	PRON
-comme	comme	SCONJ
+comme	comme	ADP
 la	le	DET
 mobilité	mobilité	NOUN
 de	de	ADP
@@ -7062,7 +7062,7 @@ est	être	AUX
 89	89	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 un	un	DET
 qui	qui	PRON
 fait	faire	VERB
@@ -7156,8 +7156,8 @@ rythme	rythme	NOUN
 de	de	ADP
 mobilité	mobilité	NOUN
 est	être	AUX
-au maximum	au maximum	SYM
-centenaire	centenaire	NOUN
+au maximum	au maximum	ADV
+centenaire	centenaire	ADJ
 .	.	PUNCTsent
 donc	donc	ADV
 rythme	rythme	NOUN
@@ -7623,7 +7623,7 @@ planétaires	planétaire	ADJ
 .	.	PUNCTsent
 je	je	PRON
 crois	croire	VERB
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 une	un	DET
 conférence	conférence	NOUN
 écologique	écologique	ADJ

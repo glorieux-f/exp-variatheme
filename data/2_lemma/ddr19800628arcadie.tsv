@@ -575,7 +575,7 @@ plus de	plus de	DET
 2000	2000	NUM
 hommes	homme	NOUN
 pour	pour	ADP
-la première	la première	DET
+la première	la première	PRON
 ,	,	PUNCTclause
 ni	ni	CCONJ
 plus de	plus de	DET
@@ -601,7 +601,7 @@ bombe	bombe	NOUN
 nucléaire	nucléaire	ADJ
 qui	qui	PRON
 promet	promettre	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 d'un seul coup	d'un seul coup	ADV
 vingt	vingt	NUM
 fois	fois	NOUN
@@ -621,7 +621,7 @@ enveloppés	envelopper	VERB
 dans	dans	ADP
 beaucoup de	beaucoup de	DET
 caoutchouc	caoutchouc	NOUN
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 quelques	quelque	DET
 pas	pas	ADV
 sur	sur	ADP
@@ -825,7 +825,7 @@ choisis	choisir	VERB
 II	II	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 le	le	DET
 problème	problème	NOUN
@@ -920,7 +920,7 @@ et	et	CCONJ
 dont	dont	PRON
 elle	elle	PRON
 fut	être	AUX
-la première	la première	PUNCT
+la première	la première	PRON
 à	à	ADP
 souffrir	souffrir	VERB
 ,	,	PUNCTclause
@@ -930,8 +930,8 @@ nommerai	nommer	VERB
 six	six	NUM
 seulement	seulement	ADV
 —	—	PUNCTclause
-il y en a	il y en a	PRON
-des	un	ADP_DET
+il y en a	il y en a	VERB
+des	un	DET
 centaines	centaine	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1017,7 +1017,7 @@ aura	avoir	AUX
 diminué	diminuer	VERB
 de	de	ADP
 moitié	moitié	NOUN
-à la fin	à la fin	ADP_DET
+à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
@@ -1143,7 +1143,7 @@ importatrices	importateur	ADJ
 de	de	ADP
 eau	eau	NOUN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 réserves	réserve	NOUN
 diminuent	diminuer	VERB
@@ -1187,7 +1187,7 @@ le	le	DET
 littoral	littoral	NOUN
 déjà	déjà	ADV
 fragile	fragile	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 d'autre part	d'autre part	ADV
 ,	,	PUNCTclause
@@ -1609,7 +1609,7 @@ des	un	ADP_DET
 le	le	DET
 jeu	jeu	NOUN
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ,	,	PUNCTclause
 à	à	ADP
 ceci	ceci	PRON
@@ -1927,7 +1927,7 @@ absolue	absolu	ADJ
 des	un	ADP_DET
 états	état	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ils	ils	PRON
 sont	être	AUX
 considérés	considérer	VERB
@@ -1977,7 +1977,7 @@ la	le	DET
 crise	crise	NOUN
 actuelle	actuel	ADJ
 est	être	AUX
-sans issue	sans issue	DET
+sans issue	sans issue	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 III	III	NUM
@@ -2226,7 +2226,7 @@ l'	le	DET
 abandon	abandon	NOUN
 des	un	ADP_DET
 surgénérateurs	surgénérateur	NOUN
-au profit de	au profit de	ADP_DET
+au profit de	au profit de	ADP
 sources	source	NOUN
 de	de	ADP
 énergie	énergie	NOUN
@@ -2240,8 +2240,8 @@ biologique	biologique	ADJ
 .	.	PUNCTsent
 l'	le	DET
 option	option	NOUN
-en faveur de	en faveur de	ADV
-surgénérateurs	surgénérateur	ADP
+en faveur de	en faveur de	ADP
+surgénérateurs	surgénérateur	NOUN
 serait	être	AUX
 en effet	en effet	ADV
 irréversible	irréversible	ADJ
@@ -2259,7 +2259,7 @@ traiter	traiter	VERB
 et	et	CCONJ
 à	à	ADP
 surveiller	surveiller	VERB
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 jusque	jusque	ADP
 à	à	ADP
 l'	le	DET
@@ -2963,7 +2963,7 @@ sont	être	AUX
 les	le	DET
 états	état	NOUN
 ,	,	PUNCTclause
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 ils	ils	PRON
 couvrent	couvrir	VERB
 les	le	DET

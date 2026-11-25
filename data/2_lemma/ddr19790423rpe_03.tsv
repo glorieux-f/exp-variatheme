@@ -114,14 +114,14 @@ aux	au	ADP_DET
 hommes	homme	NOUN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
-autant de	autant de	PUNCT
+autant de	autant de	DET
 stress	stress	NOUN
-que	que	PRON
+que	que	SCONJ
 de	de	ADP
 mieux-être	mieux-être	NOUN
 ,	,	PUNCTclause
 voire	voire	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 et	et	CCONJ
 même	même	ADV
@@ -240,7 +240,7 @@ l'	le	DET
 comme	comme	ADP
 science	science	NOUN
 ,	,	PUNCTclause
-en dernière analyse	en dernière analyse	DET
+en dernière analyse	en dernière analyse	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -518,7 +518,7 @@ vie	vie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 la plupart	la plupart	PRON
 des	un	ADP_DET
@@ -695,7 +695,7 @@ théoriquement	théoriquement	ADV
 ,	,	PUNCTclause
 sont	être	AUX
 limitées	limiter	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 par	par	ADP
 les	le	DET
 exigences	exigence	NOUN
@@ -761,7 +761,7 @@ population	population	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 pose	poser	VERB
-à ce titre	à ce titre	ADP
+à ce titre	à ce titre	ADV
 un	un	DET
 des	un	ADP_DET
 problèmes	problème	NOUN
@@ -953,7 +953,7 @@ tabagiques	tabagique	ADJ
 se	se	PRON
 élèvent	élever	VERB
 à	à	ADP
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 du	du	ADP_DET
 double	double	NOUN
@@ -1134,7 +1134,7 @@ Public	Public	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 l'	le	DET
 opinion	opinion	NOUN
 créée	créer	VERB
@@ -1824,7 +1824,7 @@ seconde	second	ADJ
 guerre mondiale	guerre mondiale	NOUN
 fut	être	AUX
 achevée	achever	VERB
-pour l'essentiel	pour l'essentiel	ADP
+pour l'essentiel	pour l'essentiel	ADV
 autour de	autour de	ADP
 années	année	NOUN
 1960	1960	NUM
@@ -1846,7 +1846,7 @@ le	le	DET
 Portugal	Portugal	PROPN
 devait	devoir	VERB
 suivre	suivre	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 :	:	PUNCTclause
 Mozambique	Mozambique	PROPN
@@ -1863,7 +1863,7 @@ la	le	DET
 terre	terre	NOUN
 entière	entier	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 personne	personne_PRON	PRON
 ne	ne	ADV
 était	être	AUX
@@ -1951,7 +1951,7 @@ Europe	Europe	PROPN
 devait	devoir	VERB
 naturellement	naturellement	ADV
 accéder	accéder	VERB
-la première	la première	PUNCT
+la première	la première	PRON
 au	au	ADP_DET
 stade	stade	NOUN
 de	de	ADP
@@ -2194,7 +2194,7 @@ effets	effet	NOUN
 semblables	semblable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 économique	économique	ADJ
 au sens strict	au sens strict	ADV
 ,	,	PUNCTclause
@@ -2273,7 +2273,7 @@ un	un	DET
 état	état	NOUN
 fût	être	AUX
 ce	ce	DET
-au mépris de	au mépris de	SCONJ
+au mépris de	au mépris de	ADP
 toute	toute	DET
 autre	autre	ADJ
 «	«	PUNCTclause
@@ -2409,7 +2409,7 @@ devenue	devenir	VERB
 populaire	populaire	ADJ
 —	—	PUNCTclause
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 capitaliste	capitaliste	NOUN
 ou	ou	CCONJ
 Marx	Marx	PROPN
@@ -2446,7 +2446,7 @@ soient	être	AUX
 présentées	présenter	VERB
 comme	comme	ADP
 rentables	rentable	ADJ
-à court terme	à court terme	PUNCT
+à court terme	à court terme	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -2586,7 +2586,7 @@ chômage	chômage	NOUN
 actuel	actuel	ADJ
 est	être	AUX
 dû	devoir	VERB
-en partie	en partie	PUNCT
+en partie	en partie	ADV
 à	à	ADP
 l'	le	DET
 automation	automation	NOUN
@@ -2605,7 +2605,7 @@ machine	machine	NOUN
 l'	le	DET
 ouvrier	ouvrier	NOUN
 ;	;	PUNCTclause
-en partie	en partie	NOUN
+en partie	en partie	ADV
 aux	au	ADP_DET
 énormes	énorme	ADJ
 investissements	investissement	NOUN
@@ -2624,7 +2624,7 @@ que	que	SCONJ
 le	le	DET
 travail	travail	NOUN
 ;	;	PUNCTclause
-en partie	en partie	NOUN
+en partie	en partie	ADV
 au	au	ADP_DET
 transfert	transfert	NOUN
 (	(	PUNCTclause
@@ -2815,7 +2815,7 @@ postes	poste	NOUN
 emplois	emploi	NOUN
 sont	être	AUX
 mis	mettre	VERB
-en cause	en cause	PUNCT
+en cause	en cause	ADJ
 par	par	ADP
 l'	le	DET
 invention	invention	NOUN
@@ -2944,7 +2944,7 @@ réelles	réel	ADJ
 mais	mais	CCONJ
 qui	qui	PRON
 procèdent	procéder	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 à	à	ADP
 la	le	DET
 condamnation	condamnation	NOUN
@@ -3150,7 +3150,7 @@ technologie	technologie	NOUN
 ne	ne	ADV
 était	être	AUX
 plus	plus	ADV
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 se	se	PRON
 développer	développer	VERB
 à	à	ADP
@@ -3219,7 +3219,7 @@ la	le	DET
 distribution	distribution	NOUN
 des	un	ADP_DET
 revenus	revenu	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 travail	travail	NOUN
 et	et	CCONJ
 a	avoir	AUX
@@ -3302,7 +3302,7 @@ que	que	SCONJ
 nos	nos	DET
 états	état	NOUN
 soient	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 la	le	DET
 maîtriser	maîtriser	VERB
 chacun	chacun	PRON
@@ -3441,7 +3441,7 @@ nucléaires	nucléaire	ADJ
 —	—	PUNCTclause
 de	de	ADP
 y	y	PRON
-mettre fin	mettre fin	PUNCT
+mettre fin	mettre fin	VERB
 soit	soit	ADV
 par	par	ADP
 l'	le	DET
@@ -3462,9 +3462,9 @@ qui	qui	PRON
 se	se	PRON
 trouvent	trouver	VERB
 être	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ,	,	PUNCTclause
-à savoir	à savoir	ADP
+à savoir	à savoir	ADV
 nous	nous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3688,8 +3688,8 @@ illimitée	illimité	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-les mêmes	les mêmes	DET
-cadre	cadre	NOUN
+les mêmes	les mêmes	PRON
+cadre	cadrer	VERB
 national	national	ADJ
 où	où	PRON
 ces	ce	DET
@@ -3826,12 +3826,12 @@ la	le	DET
 vie	vie	NOUN
 »	»	PUNCTclause
 est	être	AUX
-en fait	en fait	SYM
+en fait	en fait	ADV
 une	un	DET
 politique	politique	NOUN
 qui	qui	PRON
 décentralise	décentraliser	VERB
-au maximum	au maximum	PUNCT
+au maximum	au maximum	ADV
 les	le	DET
 pouvoirs	pouvoir	NOUN
 réels	réel	ADJ
@@ -4237,7 +4237,7 @@ possibilités	possibilité	NOUN
 motivantes	motivant	ADJ
 .	.	PUNCTsent
 —	—	PUNCTclause
-jusqu'à présent	jusqu'à présent	PUNCT
+jusqu'à présent	jusqu'à présent	ADV
 on	on	PRON
 peut	pouvoir	VERB
 dire	dire	VERB
@@ -4364,7 +4364,7 @@ Europe	Europe	PROPN
 qui	qui	PRON
 non seulement	non seulement	ADV
 éviterait	éviter	VERB
-à terme	à terme	ADP
+à terme	à terme	ADV
 de	de	ADP
 passer	passer	VERB
 de	de	ADP
@@ -4560,7 +4560,7 @@ main	main	NOUN
 ne	ne	ADV
 aboutisse	aboutir	VERB
 à la fois	à la fois	ADV
-au chômage	au chômage	PUNCT
+au chômage	au chômage	ADJ
 et	et	CCONJ
 à	à	ADP
 l'	le	DET
@@ -4589,7 +4589,7 @@ sans	sans	ADP
 politique	politique	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 nous	nous	PRON
 assistons	assister	VERB
 à	à	ADP
@@ -4612,7 +4612,7 @@ des	un	DET
 menaces	menace	NOUN
 sérieuses	sérieux	ADJ
 mettent	mettre	VERB
-en danger	en danger	ADP
+en danger	en danger	ADJ
 l'	le	DET
 avenir	avenir	NOUN
 de	de	ADP
@@ -4774,7 +4774,7 @@ suffisantes	suffisant	ADJ
 une	un	DET
 fois	fois	NOUN
 atteintes	atteint	ADJ
-par chance	par chance	PUNCT
+par chance	par chance	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -5533,7 +5533,7 @@ urgence	urgence	NOUN
 il	il	PRON
 est	être	AUX
 temps	temps	NOUN
-de mise	de mise	ADP
+de mise	de mise	ADJ
 l'	le	DET
 économie	économie	NOUN
 au	au	ADP_DET
@@ -5559,7 +5559,7 @@ de	de	ADP
 le	le	DET
 faire	faire	AUX
 «	«	PUNCTclause
-pour le moment	pour le moment	SYM
+pour le moment	pour le moment	ADV
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5590,7 +5590,7 @@ survie	survie	NOUN
 de	de	ADP
 l'	le	DET
 espèce humaine	espèce humaine	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 civilisation	civilisation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5634,7 +5634,7 @@ potentiellement	potentiellement	ADV
 et	et	CCONJ
 sont	être	AUX
 ,	,	PUNCTclause
-au mieux	au mieux	SYM
+au mieux	au mieux	ADV
 ,	,	PUNCTclause
 de	de	ADP
 utilisation	utilisation	NOUN
@@ -5802,20 +5802,20 @@ dont	dont	PRON
 l'	le	DET
 unification	unification	NOUN
 prendrait	prendre	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 demanderait	demander	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 énergie	énergie	NOUN
 et	et	CCONJ
 soulèverait	soulever	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 opposition	opposition	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 vraiment	vraiment	ADV
 unir	unir	VERB
 l'	le	DET
@@ -5837,7 +5837,7 @@ il	il	PRON
 faut	falloir	VERB
 bâtir	bâtir	VERB
 sur	sur	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 sur	sur	ADP
 les	le	DET

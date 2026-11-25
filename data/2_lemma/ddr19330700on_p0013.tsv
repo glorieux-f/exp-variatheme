@@ -61,7 +61,7 @@ les	le	DET
 anciennes	ancien	ADJ
 déterminations	détermination	NOUN
 ,	,	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 l'	le	DET
 acte	acte	NOUN
@@ -200,7 +200,7 @@ en réalité	en réalité	ADV
 pour	pour	ADP
 qui	qui	PRON
 va	aller	VERB
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 des	un	ADP_DET
 choses	chose	NOUN
 ,	,	PUNCTclause
@@ -309,7 +309,7 @@ nous	nous	PRON
 l'	le	DET
 homme	homme	NOUN
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 une	un	DET
 unité	unité	NOUN
@@ -345,7 +345,7 @@ tel	tel	PRON
 est	être	AUX
 pour	pour	ADP
 nous	nous	PRON
-le premier	le premier	DET
+le premier	le premier	PRON
 acte	acte	NOUN
 :	:	PUNCTclause
 spirituel	spirituel	ADJ
@@ -376,7 +376,7 @@ toutes	tout	ADJ
 nos	nos	DET
 responsabilités	responsabilité	NOUN
 .	.	PUNCTsent
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
@@ -390,7 +390,7 @@ grandes	grand	ADJ
 trahisons	trahison	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
-mot d'esprit	mot d'esprit	PUNCT
+mot d'esprit	mot d'esprit	NOUN
 a	avoir	AUX
 couvert	couvrir	VERB
 de	de	ADP
@@ -413,7 +413,7 @@ caste	caste	NOUN
 de	de	ADP
 un	un	DET
 niveau	niveau	NOUN
-de fortune	de fortune	ADP_DET
+de fortune	de fortune	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -880,9 +880,9 @@ l'	le	DET
 ordre	ordre	NOUN
 nouveau	nouveau	ADJ
 veut	vouloir	VERB
-être humain	être humain	PUNCT
+être humain	être humain	NOUN
 et	et	CCONJ
-rien que	rien que	NOUN
+rien que	rien que	ADV
 humain	humain	ADJ
 .	.	PUNCTsent
 certes	certes	ADV
@@ -1132,7 +1132,7 @@ ne	ne	ADV
 le	le_PRON	PRON
 prive	priver	VERB
 pas	pas	ADV
-à jamais	à jamais	DET
+à jamais	à jamais	ADV
 de	de	ADP
 toute	toute	DET
 possibilité	possibilité	NOUN
@@ -1270,7 +1270,7 @@ origine	origine	NOUN
 ,	,	PUNCTclause
 non	non	ADV
 pas	pas	ADV
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 VI	VI	NUM
@@ -1567,7 +1567,7 @@ politique	politique	ADJ
 militaire	militaire	ADJ
 ,	,	PUNCTclause
 juridique	juridique	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 est	être	AUX
 efficace	efficace	ADJ
@@ -1674,7 +1674,7 @@ est	être	AUX
 elle	elle	PRON
 qui	qui	PRON
 vaincra	vaincre	VERB
-sans coup férir	sans coup férir	ADP
+sans coup férir	sans coup férir	ADV
 une	un	DET
 force	force	NOUN
 brutale	brutal	ADJ
@@ -1796,15 +1796,15 @@ il	il	PRON
 devient	devenir	VERB
 révolutionnaire	révolutionnaire	ADJ
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
-tel	tel	PRON
+en tant que	en tant que	ADP
+tel	tel	DET
 ,	,	PUNCTclause
 il	il	PRON
 appartient	appartenir	VERB
 ,	,	PUNCTclause
-de fait	de fait	DET
+de fait	de fait	ADJ
 et	et	CCONJ
-de droit	de droit	DET
+de droit	de droit	ADJ
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -1948,7 +1948,7 @@ révolution	révolution	NOUN
 se	se	PRON
 accomplit	accomplir	VERB
 matériellement	matériellement	ADV
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 son	son	DET
 privilège	privilège	NOUN
 spirituel	spirituel	ADJ

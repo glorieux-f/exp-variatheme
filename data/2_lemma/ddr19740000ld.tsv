@@ -71,7 +71,7 @@ a	avoir	AUX
 si	si	ADV
 bien	bien	ADV
 gardés	garder	VERB
-jusqu'à ce jour	jusqu'à ce jour	PUNCT
+jusqu'à ce jour	jusqu'à ce jour	ADV
 ,	,	PUNCTclause
 des	un	DET
 utopies	utopie	NOUN
@@ -123,7 +123,7 @@ le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	NOUN
+du moins	du moins	ADV
 à	à	ADP
 l'	le	DET
 échelle	échelle	NOUN
@@ -327,13 +327,13 @@ unir	unir	VERB
 entre	entre	ADP
 groupes	groupe	NOUN
 autonomes	autonome	ADJ
-à seule fin de	à seule fin de	PRON
+à seule fin de	à seule fin de	ADP
 assurer	assurer	VERB
 à	à	ADP
 tous	tous	PRON
 une	un	DET
 défense	défense	NOUN
-tout juste	tout juste	ADJ
+tout juste	tout juste	ADV
 assez	assez	ADV
 forte	fort	ADJ
 pour	pour	ADP
@@ -402,7 +402,7 @@ se	se	PRON
 gardent	garder	VERB
 soigneusement	soigneusement	ADV
 de	de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 un	un	DET
 concept	concept	NOUN
 ,	,	PUNCTclause
@@ -686,9 +686,9 @@ pacte	pacte	NOUN
 de	de	ADP
 1291	1291	NUM
 .	.	PUNCTsent
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
-personne	personne	NOUN
+personne	personne_PRON	PRON
 ne	ne	ADV
 est	être	AUX
 jamais	jamais	ADV
@@ -1129,8 +1129,8 @@ aujourd'hui	aujourd'hui	ADV
 mais	mais	CCONJ
 avant de	avant de	ADP
 se	se	PRON
-en fait	en fait	ADP_DET
-les	le_PRON	PRON
+en fait	en fait	ADV
+les	le	DET
 promoteurs	promoteur	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
@@ -1156,7 +1156,7 @@ eux	eux	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
-en finir	en finir	NOUN
+en finir	en finir	VERB
 avec	avec	ADP
 cette	ce	DET
 espèce	espèce	NOUN
@@ -1289,7 +1289,7 @@ saine	sain	ADJ
 méthode	méthode	NOUN
 fédéralisme	fédéralisme	NOUN
 veut	vouloir	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ces	ce	DET
 tâches	tâche	NOUN
 soient	être	AUX
@@ -1437,7 +1437,7 @@ l'	le	DET
 .	.	PUNCTsent
 or	or	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 Suisse	Suisse	PROPN
 bloque	bloquer	VERB
@@ -1672,7 +1672,7 @@ toute	toute	DET
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 le	le	DET
 monde	monde	NOUN
 ,	,	PUNCTclause
@@ -1713,8 +1713,8 @@ je	je	PRON
 le	le_PRON	PRON
 crains	craindre	VERB
 ,	,	PUNCTclause
-au demeurant	au demeurant	PRON
-des	un	ADP_DET
+au demeurant	au demeurant	ADV
+des	un	DET
 plus	plus	ADV
 respectables	respectable	ADJ
 .	.	PUNCTsent
@@ -1761,7 +1761,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 donc	donc	ADV
-de rigueur	de rigueur	DET
+de rigueur	de rigueur	ADJ
 :	:	PUNCTclause
 penser	penser	VERB
 juste	juste	ADV
@@ -1913,7 +1913,7 @@ toute	toute	DET
 l'	le	DET
 Europe	Europe	PROPN
 —	—	PUNCTclause
-de proche en proche	de proche en proche	DET
+de proche en proche	de proche en proche	ADV
 .	.	PUNCTsent
 (	(	PUNCTclause
 et	et	CCONJ
@@ -2070,7 +2070,7 @@ qui	qui	PRON
 les	le_PRON	PRON
 met	mettre	VERB
 partout	partout	ADV
-en danger	en danger	ADP
+en danger	en danger	ADJ
 ne	ne	ADV
 connaît	connaître	VERB
 de	de	ADP
@@ -2118,7 +2118,7 @@ l'	le	DET
 nationale	national	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 coïncider	coïncider	VERB
 ,	,	PUNCTclause
 par	par	ADP
@@ -2326,7 +2326,7 @@ accessibles	accessible	ADJ
 à	à	ADP
 tous	tout	ADJ
 ,	,	PUNCTclause
-à l'inverse de	à l'inverse de	DET
+à l'inverse de	à l'inverse de	ADP
 système	système	NOUN
 actuel	actuel	ADJ
 des	un	ADP_DET
@@ -2438,7 +2438,7 @@ celle	celle	PRON
 qui	qui	PRON
 a	avoir	VERB
 le	le	DET
-plus de	plus de	PUNCT
+plus de	plus de	DET
 chances	chance	NOUN
 de	de	ADP
 se	se	PRON
@@ -2565,7 +2565,7 @@ offrir	offrir	VERB
 à	à	ADP
 l'	le	DET
 Europe	Europe	PROPN
-rien de plus	rien de plus	PUNCT
+rien de plus	rien de plus	ADV
 valable	valable	ADJ
 ni	ni	CCONJ
 de	de	ADP

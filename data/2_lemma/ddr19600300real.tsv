@@ -61,7 +61,7 @@ oui	oui	INTJ
 ,	,	PUNCTclause
 sans doute	sans doute	ADV
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 religion	religion	NOUN
 chrétienne	chrétien	ADJ
@@ -72,7 +72,7 @@ force	force	NOUN
 historique	historique	ADJ
 ,	,	PUNCTclause
 liée	lier	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 et	et	CCONJ
 depuis	depuis	ADP
 plus d'une	plus d'une	DET
@@ -188,8 +188,8 @@ plusieurs	plusieurs	DET
 absolus	absolu	NOUN
 ,	,	PUNCTclause
 considérés	considérer	VERB
-en tant que	en tant que	CCONJ
-tels	tel	PRON
+en tant que	en tant que	ADP
+tels	tel	DET
 ,	,	PUNCTclause
 risquerait	risquer	VERB
 tout	tout	ADV
@@ -214,7 +214,7 @@ excessives	excessif	ADJ
 :	:	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-de loin	de loin	PUNCT
+de loin	de loin	ADV
 la	le	DET
 religion	religion	NOUN
 la	le	DET
@@ -231,7 +231,7 @@ du	du	ADP_DET
 monde	monde	NOUN
 par	par	ADP
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 ceux	ceux	PRON
 qui	qui	PRON
 se	se	PRON
@@ -364,7 +364,7 @@ spéculations	spéculation	NOUN
 aux	au	ADP_DET
 commentateurs	commentateur	NOUN
 politiques	politique	ADJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 frottés	frotter	VERB
 de	de	ADP
 sociologie	sociologie	NOUN
@@ -579,7 +579,7 @@ produites	produire	VERB
 il	il	PRON
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 je	je	PRON
 respecte	respecter	VERB
 au	au	ADP_DET
@@ -726,8 +726,8 @@ les	le	DET
 diversités	diversité	NOUN
 spirituelles	spirituel	ADJ
 .	.	PUNCTsent
-tant et si bien que	tant et si bien que	ADP
-au point	au point	PUNCT
+tant et si bien que	tant et si bien que	SCONJ
+au point	au point	ADJ
 où	où	PRON
 nous	nous	PRON
 en	en	PRON
@@ -738,7 +738,7 @@ nous	nous	PRON
 faut	falloir	VERB
 constater	constater	VERB
 que	que	SCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 et	et	CCONJ
 avant	avant	ADP
 tout	tout	PRON
@@ -807,7 +807,7 @@ humaine	humain	ADJ
 ne	ne	ADV
 est	être	AUX
 juge	juger	VERB
-en dernier ressort	en dernier ressort	PUNCT
+en dernier ressort	en dernier ressort	ADV
 .	.	PUNCTsent
 chaque	chaque	DET
 église	église	NOUN
@@ -937,7 +937,7 @@ pudeur	pudeur	NOUN
 spirituelle	spirituel	ADJ
 :	:	PUNCTclause
 épreuves	épreuve	NOUN
-de force	de force	PUNCT
+de force	de force	ADV
 ou	ou	CCONJ
 marchandages	marchandage	NOUN
 sur	sur	ADP
@@ -966,7 +966,7 @@ voie	voie	NOUN
 vers	vers	ADP
 l'	le	DET
 unité	unité	NOUN
-à découvert	à découvert	ADJ
+à découvert	à découvert	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 voie	voie	NOUN
@@ -1134,9 +1134,9 @@ combien	combien	ADV
 savent	savoir	VERB
 ils	ils	PRON
 ,	,	PUNCTclause
-de part et d'autre	de part et d'autre	DET
+de part et d'autre	de part et d'autre	ADV
 ,	,	PUNCTclause
-que	que	PRON
+que	que	SCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
 toutes	tout	ADJ
@@ -1198,7 +1198,7 @@ tous	tout	ADJ
 les	le	DET
 dimanches	dimanche	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 évangile	évangile	NOUN
 annoncé	annoncer	VERB
 ,	,	PUNCTclause
@@ -1262,8 +1262,8 @@ sont	être	AUX
 observées	observer	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-la même	la même	DET
-morale	morale	NOUN
+la même	la même	PRON
+morale	moral	ADJ
 enseignée	enseigner	VERB
 ;	;	PUNCTclause
 et	et	CCONJ
@@ -1324,8 +1324,8 @@ la	le	DET
 réalité	réalité	NOUN
 œcuménique	œcuménique	ADJ
 ?	?	PUNCTsent
-un peu	un peu	DET
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 connaissance	connaissance	NOUN
 mutuelle	mutuel	ADJ
 (	(	PUNCTclause
@@ -1422,7 +1422,7 @@ exemple	exemple	NOUN
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 qualifie	qualifier	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 de	de	ADP
 «	«	PUNCTclause
 catholicisants	catholicisant	NOUN
@@ -1526,8 +1526,8 @@ diverses	divers	DET
 églises	église	NOUN
 communient	communier	VERB
 dans	dans	ADP
-la même	la même	DET
-présence	présence	NOUN
+la même	la même	PRON
+Présence	Présence	PROPN
 .	.	PUNCTsent
 quant à	quant à	ADP
 ceux	ceux	PRON
@@ -1591,8 +1591,8 @@ du	du	ADP_DET
 problème	problème	NOUN
 social	social	ADJ
 (	(	PUNCTclause
-un peu	un peu	X
-forcée	forcer	VERB
+un peu	un peu	ADV
+forcée	forcé	ADJ
 )	)	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -1609,7 +1609,7 @@ l'	le	DET
 Inde	Inde	PROPN
 ,	,	PUNCTclause
 sont	être	AUX
-autant de	autant de	ADJ
+autant de	autant de	DET
 signes	signe	NOUN
 visibles	visible	ADJ
 de	de	ADP
@@ -1684,7 +1684,7 @@ et	et	CCONJ
 tous	tout	ADJ
 temps	temps	NOUN
 ,	,	PUNCTclause
-n'importe où	n'importe où	PRON
+n'importe où	n'importe où	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET

@@ -27,8 +27,8 @@ le	le	DET
 sens	sens	NOUN
 courant	courant	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
-débile	débile	NOUN
+un peu	un peu	ADV
+débile	débile	ADJ
 ,	,	PUNCTclause
 du	du	ADP_DET
 terme	terme	NOUN
@@ -104,7 +104,7 @@ nature	nature	NOUN
 de	de	ADP
 l'	le	DET
 homme	homme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 est	être	AUX
 un	un	DET
@@ -355,7 +355,7 @@ homme	homme	NOUN
 —	—	PUNCTclause
 et	et	CCONJ
 cela	cela	PRON
-d'autant plus que	d'autant plus que	PUNCT
+d'autant plus que	d'autant plus que	SCONJ
 il	il	PRON
 est	être	AUX
 plus	plus	ADV
@@ -374,7 +374,7 @@ attaché	attacher	VERB
 ↵↵	↵↵	PUNCTstruct
 3	3	NUM
 .	.	PUNCTsent
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 près de	près de	ADP
 quatre	quatre	NUM
@@ -465,7 +465,7 @@ l'	le	DET
 amour	amour	NOUN
 ,	,	PUNCTclause
 l'	le_PRON	PRON
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 tous	tout	ADJ
 les	le	DET
 lieux	lieu	NOUN
@@ -508,7 +508,7 @@ vécu	vivre	VERB
 une	un	DET
 aventure	aventure	NOUN
 que	que	SCONJ
-dès maintenant	dès maintenant	PUNCT
+dès maintenant	dès maintenant	ADV
 il	il	PRON
 vit	vivre	VERB
 par	par	ADP
@@ -523,7 +523,7 @@ décrit	décrire	VERB
 merveilleusement	merveilleusement	ADV
 ,	,	PUNCTclause
 comme	comme	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 «	«	PUNCTclause
 clins	clin	NOUN
 de	de	ADP
@@ -630,7 +630,7 @@ vient	venir	VERB
 »	»	PUNCTclause
 de	de	ADP
 l'	le	DET
-au-delà de	au-delà de	NOUN
+au-delà de	au-delà de	ADP
 temps	temps	NOUN
 .	.	PUNCTsent
 il y a	il y a	VERB
@@ -763,7 +763,7 @@ selon	selon	ADP
 Thomas	Thomas	PROPN
 More	More	PROPN
 constitue	constituer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 une	un	DET
 sécularisation	sécularisation	NOUN
 ,	,	PUNCTclause
@@ -823,7 +823,7 @@ le	le	DET
 temps	temps	NOUN
 venu	venir	VERB
 ,	,	PUNCTclause
-in illo tempore	in illo tempore	ADP
+in illo tempore	in illo tempore	ADV
 .	.	PUNCTsent
 Thomas	Thomas	PROPN
 More	More	PROPN
@@ -1337,7 +1337,7 @@ bientôt	bientôt	ADV
 le	le	DET
 cœur	cœur	NOUN
 ,	,	PUNCTclause
-en attendant	en attendant	VERB
+en attendant	en attendant	ADV
 la	le	DET
 parfaite	parfait	ADJ
 programmation	programmation	NOUN
@@ -1539,7 +1539,7 @@ une	un	DET
 université	université	NOUN
 médiévale	médiéval	ADJ
 parlant	parler	VERB
-la même	la même	DET
+la même	la même	PRON
 langue	langue	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
@@ -2049,7 +2049,7 @@ de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
 —	—	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 de	de	ADP
 celle	celle	PRON
 des	un	ADP_DET
@@ -2325,7 +2325,7 @@ utopies	utopie	NOUN
 sont	être	AUX
 «	«	PUNCTclause
 statiques	statique	ADJ
-par hypothèse	par hypothèse	NOUN
+par hypothèse	par hypothèse	ADV
 »	»	PUNCTclause
 .	.	PUNCTsent
 elles	elles	PRON
@@ -2382,8 +2382,8 @@ finir	finir	VERB
 en	en	ADP
 chute	chute	NOUN
 ,	,	PUNCTclause
-à moins que	à moins que	DET
-le	le_PRON	PRON
+à moins que	à moins que	SCONJ
+le	le	DET
 mouvement	mouvement	NOUN
 descendant	descendre	VERB
 puisse	pouvoir	VERB

@@ -245,7 +245,7 @@ mais	mais	CCONJ
 afin de	afin de	ADP
 nous	nous	PRON
 mettre	mettre	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 «	«	PUNCTclause
 prêcher	prêcher	VERB
 »	»	PUNCTclause
@@ -878,7 +878,7 @@ versant	verser	VERB
 du	du	ADP_DET
 Gothard	Gothard	PROPN
 ,	,	PUNCTclause
-aux environs de	aux environs de	ADP_DET
+aux environs de	aux environs de	ADP
 1291	1291	NUM
 .	.	PUNCTsent
 en vérité	en vérité	ADV
@@ -986,15 +986,15 @@ passèrent	passer	VERB
 le	le	DET
 col	col	NOUN
 .	.	PUNCTsent
-le premier	le premier	DET
-fait	fait	NOUN
+le premier	le premier	PRON
+fait	faire	AUX
 conditionne	conditionner	VERB
-le second	le second	DET
+le second	le second	PRON
 ,	,	PUNCTclause
 mais	mais	CCONJ
 ce	ce	PRON
 est	être	AUX
-le second	le second	DET
+le second	le second	PRON
 qui	qui	PRON
 détermine	déterminer	VERB
 des	un	DET
@@ -1004,7 +1004,7 @@ et	et	CCONJ
 surtout	surtout	ADV
 ,	,	PUNCTclause
 dominant	dominer	VERB
-l'un et l'autre	l'un et l'autre	DET
+l'un et l'autre	l'un et l'autre	PRON
 ,	,	PUNCTclause
 il y a	il y a	VERB
 l'	le	DET
@@ -1039,12 +1039,12 @@ ces	ce	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 illustre	illustrer	VERB
-les mêmes	les mêmes	DET
-équilibre	équilibre	NOUN
+les mêmes	les mêmes	PRON
+équilibre	équilibrer	VERB
 entre	entre	ADP
 les	le	DET
 conditions	condition	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 et	et	CCONJ
 les	le	DET
 volontés	volonté	NOUN
@@ -1159,8 +1159,8 @@ de	de	ADP
 hégémonie	hégémonie	NOUN
 .	.	PUNCTsent
 ainsi	ainsi	ADV
-jusqu'à la fin	jusqu'à la fin	ADP
-du	du	DET
+jusqu'à la fin	jusqu'à la fin	ADV
+du	du	ADP_DET
 15e	15e	ADJ
 siècle	siècle	NOUN
 .	.	PUNCTsent
@@ -1216,7 +1216,7 @@ Europe	Europe	PROPN
 fera	faire	VERB
 elle	elle	PRON
 un	un	PRON
-coup d'État	coup d'État	PUNCT
+coup d'État	coup d'État	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 ,	,	PUNCTclause
@@ -1233,7 +1233,7 @@ compte	compte	NOUN
 ?	?	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 éclate	éclater	VERB
 la	le	DET
 réforme	réforme	NOUN
@@ -1662,7 +1662,7 @@ de	de	ADP
 reculer	reculer	VERB
 ou	ou	CCONJ
 de	de	ADP
-tourner en rond	tourner en rond	NOUN
+tourner en rond	tourner en rond	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 II	II	NUM
@@ -2043,7 +2043,7 @@ concrètes	concret	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
-être en mesure de	être en mesure de	PRON
+être en mesure de	être en mesure de	VERB
 comprendre	comprendre	VERB
 vraiment	vraiment	ADV
 la	le	DET
@@ -2146,7 +2146,7 @@ dossiers	dossier	NOUN
 sont	être	AUX
 «	«	PUNCTclause
 mis	mettre	VERB
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 »	»	PUNCTclause
 ,	,	PUNCTclause
 alignés	aligner	VERB
@@ -2201,7 +2201,7 @@ ai	avoir	AUX
 dessus	dessus	ADV
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 je	je	PRON
 me	me	PRON
 y	y	PRON
@@ -2532,8 +2532,8 @@ par là	par là	ADV
 devient	devenir	VERB
 l'	le	DET
 allié	allié	NOUN
-au second degré	au second degré	ADP
-des	un	DET
+au second degré	au second degré	ADV
+des	un	ADP_DET
 autres	autre	ADJ
 cantons	canton	NOUN
 ;	;	PUNCTclause
@@ -2675,8 +2675,8 @@ leurs	leur	DET
 obligations	obligation	NOUN
 .	.	PUNCTsent
 (	(	PUNCTclause
-comme si	comme si	PRON
-de nos jours	de nos jours	ADP
+comme si	comme si	SCONJ
+de nos jours	de nos jours	ADV
 deux	deux	NUM
 pays	pays	NOUN
 concluaient	conclure	VERB
@@ -2779,7 +2779,7 @@ en	en	ADP
 lois	loi	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-par là même	par là même	ADP
+par là même	par là même	ADV
 soumis	soumettre	VERB
 au risque de	au risque de	ADP
 se	se	PRON
@@ -2827,7 +2827,7 @@ de	de	ADP
 manifeste	manifeste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-par la force des choses	par la force des choses	NOUN
+par la force des choses	par la force des choses	ADV
 ,	,	PUNCTclause
 l'	le	DET
 union	union	NOUN
@@ -2877,7 +2877,7 @@ un	un	DET
 antinationalisme	antinationalisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-par la force des choses	par la force des choses	NOUN
+par la force des choses	par la force des choses	ADV
 ,	,	PUNCTclause
 la	le	DET
 pratique	pratique	NOUN
@@ -2908,7 +2908,7 @@ un	un	DET
 antimarxisme	antimarxisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-par la force des choses	par la force des choses	NOUN
+par la force des choses	par la force des choses	ADV
 enfin	enfin	ADV
 ,	,	PUNCTclause
 la	le	DET
@@ -2990,7 +2990,7 @@ programme	programme	NOUN
 la	le	DET
 pratique	pratique	NOUN
 remise	remise	NOUN
-en question	en question	PUNCT
+en question	en question	ADJ
 par	par	ADP
 une	un	DET
 propagande	propagande	NOUN
@@ -3110,7 +3110,7 @@ concrètes	concret	ADJ
 ,	,	PUNCTclause
 perdant	perdre	VERB
 ainsi	ainsi	ADV
-en force	en force	PUNCT
+en force	en force	ADV
 originelle	originel	ADJ
 ce	ce	PRON
 que	que	PRON
@@ -3349,7 +3349,7 @@ systématiques	systématique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -3442,7 +3442,7 @@ ne	ne	ADV
 faut	falloir	VERB
 pas	pas	ADV
 faire	faire	VERB
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 réussir	réussir	VERB
 la	le	DET
 fédération	fédération	NOUN
@@ -3452,7 +3452,7 @@ Occident	Occident	PROPN
 ↵↵	↵↵	PUNCTstruct
 8	8	NUM
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 enseignement	enseignement	NOUN
 négatif	négatif	ADJ
 de	de	ADP
@@ -3578,7 +3578,7 @@ géométrique	géométrique	ADJ
 ↵↵	↵↵	PUNCTstruct
 9	9	NUM
 .	.	PUNCTsent
-le second	le second	DET
+le second	le second	PRON
 enseignement	enseignement	NOUN
 négatif	négatif	ADJ
 ,	,	PUNCTclause
@@ -4005,8 +4005,8 @@ l'	le	DET
 homme	homme	NOUN
 ne	ne	ADV
 a	avoir	AUX
-plus de	plus de	ADV
-prises	priser	VERB
+plus de	plus de	DET
+prises	prise	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
@@ -4092,7 +4092,7 @@ si	si	SCONJ
 elle	elle	PRON
 veut	vouloir	VERB
 rester	rester	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 exercer	exercer	VERB
 concrètement	concrètement	ADV
 sa	son	DET
@@ -4167,7 +4167,7 @@ les	le	DET
 institutions	institution	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 le	le	DET
 mouvement	mouvement	NOUN
@@ -4232,7 +4232,7 @@ plus	plus	ADV
 à	à	ADP
 faire	faire	VERB
 :	:	PUNCTclause
-n'importe quels	n'importe quels	PUNCT
+n'importe quels	n'importe quels	DET
 chef d'entreprise	chef d'entreprise	NOUN
 connaît	connaître	VERB
 exactement	exactement	ADV
@@ -4515,7 +4515,7 @@ son	son	DET
 apparition	apparition	NOUN
 en	en	ADP
 Suisse	Suisse	PROPN
-à partir du moment où	à partir du moment où	PUNCT
+à partir du moment où	à partir du moment où	SCONJ
 les	le	DET
 cantons	canton	NOUN
 ont	avoir	AUX
@@ -4781,7 +4781,7 @@ plusieurs	plusieurs	DET
 grandes	grand	ADJ
 dimensions	dimension	NOUN
 ,	,	PUNCTclause
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 limites	limite	NOUN
 de	de	ADP
 leur	leur	DET
@@ -4796,7 +4796,7 @@ pour	pour	ADP
 ce	ce	DET
 dernier	dernier	ADJ
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 tandis que	tandis que	SCONJ
 les	le	DET
@@ -4846,7 +4846,7 @@ cela	cela	PRON
 fédéralisme	fédéralisme	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ils	ils	PRON
 ruinent	ruiner	VERB
 le	le	DET
@@ -4880,7 +4880,7 @@ apparaître	apparaître	VERB
 beaucoup de	beaucoup de	DET
 Suisse	Suisse	PROPN
 négligents	négligent	ADJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 banal	banal	ADJ
 ,	,	PUNCTclause
 «	«	PUNCTclause
@@ -5223,12 +5223,12 @@ connaître	connaître	VERB
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-par tradition	par tradition	NOUN
+par tradition	par tradition	ADV
 ,	,	PUNCTclause
 par	par	ADP
 goût	goût	NOUN
 et	et	CCONJ
-par nécessité	par nécessité	NOUN
+par nécessité	par nécessité	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 la	le	DET
@@ -5237,7 +5237,7 @@ non	non	ADV
 pour	pour	ADP
 l'	le_PRON	PRON
 utiliser	utiliser	VERB
-au bénéfice de	au bénéfice de	PUNCT
+au bénéfice de	au bénéfice de	ADP
 quelque	quelque	DET
 impérialisme	impérialisme	NOUN
 ,	,	PUNCTclause
@@ -5440,7 +5440,7 @@ dernier	dernier	ADJ
 mot	mot	NOUN
 —	—	PUNCTclause
 ou	ou	CCONJ
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 de	de	ADP
 un	un	DET
 chapitre	chapitre	NOUN

@@ -181,7 +181,7 @@ national	national	ADJ
 de	de	ADP
 Hitler	Hitler	PROPN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 prévalait	prévaloir	VERB
 sur	sur	ADP
@@ -313,7 +313,7 @@ me	me	PRON
 taire	taire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 est	être	AUX
 que	que	SCONJ
 il	il	PRON
@@ -599,8 +599,8 @@ signifiaient	signifier	VERB
 dans	dans	ADP
 leur	leur	DET
 contexte	contexte	NOUN
-tout à fait	tout à fait	PUNCT
-autre chose	autre chose	NOUN
+tout à fait	tout à fait	ADV
+autre chose	autre chose	PRON
 ou	ou	CCONJ
 le	le	DET
 contraire	contraire	NOUN
@@ -812,8 +812,8 @@ de	de	ADP
 note41	note41	NUM
 )	)	PUNCTclause
 à	à	ADP
-la même	la même	DET
-Revue	Revue	PROPN
+la même	la même	PRON
+revue	revoir	VERB
 du	du	ADP_DET
 Siècle	Siècle	PROPN
 ,	,	PUNCTclause
@@ -907,7 +907,7 @@ la	le	DET
 revue	revue	NOUN
 citée	citer	VERB
 .	.	PUNCTsent
-en admettant que	en admettant que	PRON
+en admettant que	en admettant que	SCONJ
 je	je	PRON
 aie	avoir	AUX
 vraiment	vraiment	ADV
@@ -1088,7 +1088,7 @@ fait	fait	NOUN
 et	et	CCONJ
 je	je	PRON
 ajoutais	ajouter	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 loin	loin	ADV
 que	que	SCONJ
@@ -1158,7 +1158,7 @@ cela	cela	PRON
 change	changer	VERB
 tout	tout	DET
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 terme	terme	NOUN
 devient	devenir	VERB
 une	un	DET
@@ -1169,8 +1169,8 @@ guerre	guerre	NOUN
 la	le	DET
 démocratie	démocratie	NOUN
 ,	,	PUNCTclause
-le second	le second	DET
-une	un	PRON
+le second	le second	PRON
+une	un	DET
 déclaration	déclaration	NOUN
 de	de	ADP
 amour	amour	NOUN
@@ -1689,7 +1689,7 @@ dit	dire	VERB
 exactement	exactement	ADV
 »	»	PUNCTclause
 tout	tout	PRON
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	PRON
 ce	ce	PRON
 que	que	PRON
@@ -1865,7 +1865,7 @@ que	que	SCONJ
 on	on	PRON
 se	se	PRON
 reporte	reporter	VERB
-à la page	à la page	ADP
+à la page	à la page	ADJ
 indiquée	indiquer	VERB
 140	140	NUM
 .	.	PUNCTsent
@@ -1995,7 +1995,7 @@ mesure	mesure	NOUN
 de	de	ADP
 l'	le	DET
 homme	homme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 se	se	PRON
 possède	posséder	VERB
@@ -2824,13 +2824,13 @@ précédentes	précédent	ADJ
 sont	être	AUX
 concentrées	concentrer	VERB
 dans	dans	ADP
-le premier	le premier	DET
-chapitre	chapitre	NOUN
+le premier	le premier	PRON
+chapitre	chapitrer	VERB
 .	.	PUNCTsent
 la	le	DET
 dernière	dernier	ADJ
 figure	figure	NOUN
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 du	du	ADP_DET
 livre	livre	NOUN
 .	.	PUNCTsent
@@ -3040,7 +3040,7 @@ en réalité	en réalité	ADV
 pour	pour	ADP
 qui	qui	PRON
 va	aller	VERB
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 des	un	ADP_DET
 choses	chose	NOUN
 ,	,	PUNCTclause
@@ -3108,7 +3108,7 @@ l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 on	on	PRON
 dirait	dire	VERB
 que	que	SCONJ
@@ -3187,7 +3187,7 @@ critiques	critique	NOUN
 et	et	CCONJ
 leurs	leur	DET
 refus	refus	NOUN
-autant de	autant de	PUNCT
+autant de	autant de	DET
 preuves	preuve	NOUN
 de	de	ADP
 leur	leur	DET
@@ -3524,7 +3524,7 @@ France	France	PROPN
 ne	ne	ADV
 a	avoir	AUX
 publié	publier	VERB
-autant de	autant de	PUNCT
+autant de	autant de	DET
 pages	page	NOUN
 sur	sur	ADP
 et	et	CCONJ
@@ -3664,7 +3664,7 @@ ne	ne	ADV
 ont	avoir	AUX
 jamais	jamais	ADV
 débouché	déboucher	VERB
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 cénacles	cénacle	NOUN
 de	de	ADP
 l'	le	DET
@@ -3757,7 +3757,7 @@ la	le	DET
 dénonciation	dénonciation	NOUN
 du	du	ADP_DET
 personnalisme	personnalisme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 «	«	PUNCTclause
 communautaire	communautaire	ADJ
 et	et	CCONJ
@@ -3935,7 +3935,7 @@ de	de	ADP
 l'	le	DET
 ouest	ouest	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 fourrier	fourrier	NOUN
 des	un	ADP_DET
 totalitarismes	totalitarisme	NOUN
@@ -4010,7 +4010,7 @@ comme	comme	ADP
 l'	le	DET
 eût	avoir	AUX
 été	être	AUX
-à ce compte-là	à ce compte-là	ADP
+à ce compte-là	à ce compte-là	ADV
 la	le	DET
 revue	revue	NOUN
 de	de	ADP
@@ -4238,7 +4238,7 @@ organisant	organiser	VERB
 en	en	ADP
 juin	juin	NOUN
 1940	1940	NUM
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 mouvement	mouvement	NOUN
 de	de	ADP
 résistance	résistance	NOUN
@@ -4652,7 +4652,7 @@ se	se	PRON
 sont	être	AUX
 mis	mettre	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 cas	cas	NOUN
 ,	,	PUNCTclause
 auraient	avoir	VERB
@@ -4738,7 +4738,7 @@ choisies	choisir	VERB
 sans	sans	ADP
 exception	exception	NOUN
 ,	,	PUNCTclause
-de telle manière que	de telle manière que	PUNCT
+de telle manière que	de telle manière que	SCONJ
 un	un	DET
 lecteur	lecteur	NOUN
 de	de	ADP
@@ -4875,7 +4875,7 @@ Chine	Chine	PROPN
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-à la page	à la page	DET
+à la page	à la page	ADJ
 32	32	NUM
 de	de	ADP
 son	son	DET
@@ -5075,8 +5075,8 @@ que	que	SCONJ
 il	il	PRON
 est	être	AUX
 commode	commode	NOUN
-de mise	de mise	ADP
-tout	tout	DET
+de mise	de mise	ADJ
+tout	tout	PRON
 le	le_PRON	PRON
 paquet	paquet	NOUN
 dans	dans	ADP
@@ -5110,7 +5110,7 @@ aussi	aussi	ADV
 :	:	PUNCTclause
 le	le	DET
 désordre	désordre	NOUN
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 ,	,	PUNCTclause
 le	le	DET
 dégoût	dégoût	NOUN
@@ -5161,7 +5161,7 @@ convient	convenir	VERB
 lui-même	lui-même	PRON
 »	»	PUNCTclause
 )	)	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 se	se	PRON
 agit	agir	VERB
@@ -5711,7 +5711,7 @@ plus	plus	ADV
 tant	tant	ADV
 les	le	DET
 France	France	PROPN
-le jour où	le jour où	PRON
+le jour où	le jour où	SCONJ
 ils	ils	PRON
 auront	avoir	AUX
 eux	eux	PRON
@@ -5820,7 +5820,7 @@ années	année	NOUN
 dénoncés	dénoncer	VERB
 aujourd'hui	aujourd'hui	ADV
 par	par	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 Raymond	Raymond	PROPN
 Aron	Aron	PROPN
 comme	comme	ADP
@@ -5919,7 +5919,7 @@ relire	relire	VERB
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 numéro	numéro	NOUN
 de	de	ADP
 Esprit	Esprit	PROPN
@@ -6798,7 +6798,7 @@ dire	dire	VERB
 je	je	PRON
 en	en	PRON
 suis	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 honteux	honteux	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause

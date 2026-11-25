@@ -87,7 +87,7 @@ une	un	DET
 possibilité	possibilité	NOUN
 nouvelle	nouveau	ADJ
 ,	,	PUNCTclause
-sans précédent	sans précédent	NOUN
+sans précédent	sans précédent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 y	y	PRON
@@ -563,7 +563,7 @@ acte	acte	NOUN
 vrai	vrai	ADJ
 et	et	CCONJ
 vivant	vivant	ADJ
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 la	le	DET
 foi	foi	NOUN
 au	au	ADP_DET
@@ -652,7 +652,7 @@ disaient	dire	VERB
 de	de	ADP
 agir	agir	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 que	que	SCONJ
 elles	elles	PRON
@@ -716,7 +716,7 @@ et	et	CCONJ
 nous	nous	PRON
 allons	aller	VERB
 connaître	connaître	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 seul	seul	ADJ
 l'	le	DET
 acte	acte	NOUN
@@ -1179,12 +1179,12 @@ de	de	ADP
 Dieu	Dieu	PROPN
 ,	,	PUNCTclause
 —	—	PUNCTclause
-n'importe où	n'importe où	NOUN
+n'importe où	n'importe où	ADV
 et	et	CCONJ
 n'importe qui	n'importe qui	PRON
 ,	,	PUNCTclause
 à	à	ADP
-n'importe quels	n'importe quels	ADJ
+n'importe quels	n'importe quels	DET
 ordre	ordre	NOUN
 reçu	recevoir	VERB
 ,	,	PUNCTclause
@@ -1206,7 +1206,7 @@ tout	tout	ADV
 simplement	simplement	ADV
 :	:	PUNCTclause
 prends	prendre	VERB
-n'importe quelle	n'importe quelle	ADP
+n'importe quelle	n'importe quelle	DET
 règle	règle	NOUN
 de	de	ADP
 action	action	NOUN
@@ -1282,7 +1282,7 @@ comme	comme	ADP
 un	un	DET
 chrétien	chrétien	NOUN
 :	:	PUNCTclause
-au jour le jour	au jour le jour	NOUN
+au jour le jour	au jour le jour	ADV
 ,	,	PUNCTclause
 sans	sans	ADP
 assurances	assurance	NOUN
@@ -1382,7 +1382,7 @@ sa	son	DET
 sécurité	sécurité	NOUN
 ,	,	PUNCTclause
 cachée	cacher	VERB
-au plus	au plus	ADP_DET
+au plus	au plus	ADV
 secret	secret	NOUN
 du	du	ADP_DET
 risque	risque	NOUN
@@ -1409,7 +1409,7 @@ chaque	chaque	DET
 pas	pas	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 nous	nous	PRON
 considérons	considérer	VERB
 le	le	DET
@@ -1490,7 +1490,7 @@ non seulement	non seulement	ADV
 ce	ce	PRON
 est	être	AUX
 limiter	limiter	VERB
-par avance	par avance	ADP
+par avance	par avance	ADV
 le	le	DET
 rôle	rôle	NOUN
 de	de	ADP
@@ -1526,7 +1526,7 @@ chemin	chemin	NOUN
 »	»	PUNCTclause
 est	être	AUX
 invisible	invisible	ADJ
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 on	on	PRON
 ne	ne	ADV
 y	y	PRON
@@ -1578,7 +1578,7 @@ ordre	ordre	NOUN
 au lieu de	au lieu de	ADP
 croire	croire	VERB
 et	et	CCONJ
-de fait	de fait	SCONJ
+de fait	de fait	ADJ
 un	un	DET
 pas	pas	NOUN
 dans	dans	ADP
@@ -1798,7 +1798,7 @@ du	du	ADP_DET
 chemin	chemin	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 l'	le	DET
 acte	acte	NOUN
 de	de	ADP
@@ -2014,7 +2014,7 @@ préférons	préférer	VERB
 nos	nos	DET
 vies	vie	NOUN
 :	:	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 nous	nous	PRON
 vivons	vivre	VERB
 dans	dans	ADP
@@ -2035,11 +2035,11 @@ temps	temps	NOUN
 qui	qui	PRON
 viennent	venir	VERB
 ;	;	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 nous	nous	PRON
 ne	ne	ADV
 avons	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 être	être	AUX
 que	que	ADV
 par	par	ADP
@@ -2054,9 +2054,9 @@ espérées	espérer	VERB
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 la	le	DET
-Parole	Parole	PROPN
+parole	parole	NOUN
 ,	,	PUNCTclause
 parmi	parmi	ADP
 nous	nous	PRON
@@ -2115,7 +2115,7 @@ la	le	DET
 nuit	nuit	NOUN
 aussi	aussi	ADV
 !	!	PUNCTsent
-si vous voulez	si vous voulez	ADP
+si vous voulez	si vous voulez	ADV
 interroger	interroger	VERB
 ,	,	PUNCTclause
 interrogez	interroger	VERB
@@ -2247,7 +2247,7 @@ ce	ce	DET
 lien	lien	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
-si vous voulez	si vous voulez	DET
+si vous voulez	si vous voulez	ADV
 interroger	interroger	VERB
 ,	,	PUNCTclause
 interrogez	interroger	VERB
@@ -2308,7 +2308,7 @@ dans	dans	ADP
 le	le	DET
 temps	temps	NOUN
 comme	comme	ADP
-à contre-courant	à contre-courant	PUNCT
+à contre-courant	à contre-courant	ADV
 de	de	ADP
 sa	son	DET
 durée	durée	NOUN
@@ -2417,7 +2417,7 @@ gagne	gagner	VERB
 et	et	CCONJ
 ne	ne	ADV
 puis	puis	CCONJ
-plus de	plus de	ADP_DET
+plus de	plus de	DET
 toute	tout	ADJ
 éternité	éternité	NOUN
 la	le	DET
@@ -2539,7 +2539,7 @@ puisque	puisque	SCONJ
 l'	le	DET
 acte	acte	NOUN
 est	être	AUX
-à contre-courant	à contre-courant	SYM
+à contre-courant	à contre-courant	ADV
 de	de	ADP
 la	le	DET
 durée	durée	NOUN
@@ -2634,8 +2634,8 @@ puisque	puisque	SCONJ
 il	il	PRON
 est	être	AUX
 dans	dans	ADP
-les mêmes	les mêmes	DET
-instant	instant	NOUN
+les mêmes	les mêmes	PRON
+instant	instant	ADJ
 et	et	CCONJ
 la	le	DET
 mort	mort	NOUN
@@ -3370,7 +3370,7 @@ la	le	DET
 réalité	réalité	NOUN
 des	un	ADP_DET
 autres	autre	ADJ
-dans l'ensemble	dans l'ensemble	NOUN
+dans l'ensemble	dans l'ensemble	ADV
 .	.	PUNCTsent
 comment	comment	ADV
 cet	ce	DET
@@ -3424,7 +3424,7 @@ mort	mort	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -3641,7 +3641,7 @@ aimer	aimer	VERB
 toute	toute	DET
 vocation	vocation	NOUN
 est	être	AUX
-sans précédent	sans précédent	SYM
+sans précédent	sans précédent	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 car	car	CCONJ
@@ -3696,7 +3696,7 @@ dès	dès	ADP
 l'	le	DET
 origine	origine	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 homme	homme	NOUN
 a	avoir	VERB
@@ -3714,7 +3714,7 @@ pas	pas	ADV
 les	le	DET
 animaux	animal	NOUN
 ;	;	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 homme	homme	NOUN
 est	être	AUX
@@ -3821,7 +3821,7 @@ la	le	DET
 masse	masse	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 foi	foi	NOUN
 véritable	véritable	ADJ
@@ -3858,8 +3858,8 @@ l'	le	DET
 audace	audace	NOUN
 religieuse	religieux	ADJ
 ,	,	PUNCTclause
-à plus forte raison	à plus forte raison	DET
-l'	le_PRON	PRON
+à plus forte raison	à plus forte raison	ADV
+l'	le	DET
 audace	audace	NOUN
 chrétienne	chrétien	ADJ
 ,	,	PUNCTclause

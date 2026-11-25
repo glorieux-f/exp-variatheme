@@ -167,7 +167,7 @@ est	être	AUX
 pas	pas	ADV
 vrai	vrai	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 l'	le	DET
 œuvre	œuvre	NOUN
 sans	sans	ADP
@@ -734,7 +734,7 @@ cet	ce	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 sa	son	DET
 réalité	réalité	NOUN
 historique	historique	ADJ
@@ -971,7 +971,7 @@ XVI	XVI	NUM
 -17	-17	NUM
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 la	le	DET
 foi	foi	NOUN
 seule	seul	ADJ
@@ -996,8 +996,8 @@ vocation	vocation	NOUN
 singulière	singulier	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
-le temps que	le temps que	DET
-agissant	agissant	ADJ
+le temps que	le temps que	SCONJ
+agissant	agir	VERB
 par	par	ADP
 nos	nos	DET
 mains	main	NOUN
@@ -1174,7 +1174,7 @@ en	en	ADP
 ses	son	DET
 démarches	démarche	NOUN
 .	.	PUNCTsent
-en un mot	en un mot	PUNCT
+en un mot	en un mot	ADV
 ce	ce	PRON
 est	être	AUX
 l'	le	DET
@@ -1207,7 +1207,7 @@ l'	le	DET
 entreprise	entreprise	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 ces	ce	DET
@@ -1585,14 +1585,14 @@ elle	elle	PRON
 assume	assumer	VERB
 en	en	ADP
 unités	unité	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 qui	qui	PRON
 deviennent	devenir	VERB
-fait accompli	fait accompli	DET
+fait accompli	fait accompli	NOUN
 ,	,	PUNCTclause
-des	un	ADP_DET
+des	un	DET
 incompatibles	incompatible	ADJ
 donnés	donner	VERB
 .	.	PUNCTsent
@@ -1629,7 +1629,7 @@ auteur	auteur	NOUN
 ou	ou	CCONJ
 d'ailleurs	d'ailleurs	ADV
 de	de	ADP
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 homme	homme	NOUN
 responsable	responsable	ADJ
 de	de	ADP
@@ -2067,13 +2067,13 @@ que	que	SCONJ
 à	à	ADP
 titre	titre	NOUN
 ,	,	PUNCTclause
-si j'ose dire	si j'ose dire	NOUN
+si j'ose dire	si j'ose dire	ADV
 ,	,	PUNCTclause
 de	de	ADP
 métaphores	métaphore	NOUN
 critiques	critique	ADJ
 ,	,	PUNCTclause
-par là même	par là même	ADP
+par là même	par là même	ADV
 significatives	significatif	ADJ
 du	du	ADP_DET
 vrai	vrai	ADJ
@@ -2180,8 +2180,8 @@ elle	elle	PRON
 a	avoir	VERB
 l'	le	DET
 avantage	avantage	NOUN
-de mise	de mise	ADP
-l'	le	DET
+de mise	de mise	ADJ
+l'	le_PRON	PRON
 imagination	imagination	NOUN
 en	en	ADP
 mouvement	mouvement	NOUN
@@ -2196,7 +2196,7 @@ que	que	PRON
 je	je	PRON
 sois	être	AUX
 raisonnablement	raisonnablement	ADV
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 attendre	attendre	VERB
 de	de	ADP
 la	le	DET

@@ -65,7 +65,7 @@ partis	parti	NOUN
 ,	,	PUNCTclause
 voient	voir	AUX
 venir	venir	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 dangers	danger	NOUN
 et	et	CCONJ
 sont	être	AUX
@@ -118,7 +118,7 @@ exclus	exclu	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 contestés	contester	VERB
-en bloc	en bloc	DET
+en bloc	en bloc	ADV
 .	.	PUNCTsent
 il	il	PRON
 est	être	AUX
@@ -187,7 +187,7 @@ persistent	persister	VERB
 dans	dans	ADP
 leur	leur	DET
 être	être	AUX
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 ils	ils	PRON
 auront	avoir	VERB
 une	un	DET
@@ -320,7 +320,7 @@ futures	futur	ADJ
 pendant	pendant	ADP
 24000	24000	NUM
 ans	an	NOUN
-au minimum	au minimum	PUNCT
+au minimum	au minimum	ADV
 ,	,	PUNCTclause
 120000	120000	NUM
 probables	probable	ADJ
@@ -389,7 +389,7 @@ cela	cela	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 peut	pouvoir	VERB
 voir	voir	VERB
 que	que	SCONJ
@@ -475,15 +475,15 @@ celui	celui	PRON
 de	de	ADP
 savoir	savoir	VERB
 comment	comment	ADV
-se mettre d'accord	se mettre d'accord	DET
+se mettre d'accord	se mettre d'accord	VERB
 ,	,	PUNCTclause
-en temps utile	en temps utile	NOUN
+en temps utile	en temps utile	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 éviter	éviter	VERB
 ce	ce	DET
 que	que	SCONJ
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 nous	nous	PRON
 ne	ne	ADV
 voulons	vouloir	VERB
@@ -847,7 +847,7 @@ universel	universel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 créer	créer	VERB
-à cet effet	à cet effet	PUNCT
+à cet effet	à cet effet	ADV
 des	un	DET
 agences	agence	NOUN
 fédérales	fédéral	ADJ
@@ -936,7 +936,7 @@ les	le	DET
 armes	arme	NOUN
 nucléaires	nucléaire	ADJ
 (	(	PUNCTclause
-par nature	par nature	NOUN
+par nature	par nature	ADV
 offensives	offensif	ADJ
 )	)	PUNCTclause
 commandées	commander	VERB
@@ -974,7 +974,7 @@ union	union	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 pas	pas	ADV
-n'importe laquelle	n'importe laquelle	ADJ
+n'importe laquelle	n'importe laquelle	PRON
 :	:	PUNCTclause
 l'	le	DET
 union	union	NOUN
@@ -1307,7 +1307,7 @@ compétences	compétence	NOUN
 ce	ce	PRON
 serait	être	AUX
 exiger	exiger	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 que	que	SCONJ
 il	il	PRON
 se	se	PRON
@@ -1519,7 +1519,7 @@ qui	qui	PRON
 prévoit	prévoir	VERB
 l'	le	DET
 échec	échec	NOUN
-à terme	à terme	ADP
+à terme	à terme	ADV
 ,	,	PUNCTclause
 de	de	ADP
 la	le	DET
@@ -1637,7 +1637,7 @@ ne	ne	ADV
 peut	pouvoir	VERB
 aboutir	aboutir	VERB
 ,	,	PUNCTclause
-au mieux	au mieux	ADP_DET
+au mieux	au mieux	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 à	à	ADP
@@ -1854,7 +1854,7 @@ sont	être	AUX
 les	le	DET
 plus	plus	ADV
 efficaces	efficace	ADJ
-à court terme	à court terme	PUNCT
+à court terme	à court terme	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -1949,7 +1949,7 @@ satellisation	satellisation	NOUN
 de	de	ADP
 nos	nos	DET
 états	état	NOUN
-l'un après l'autre	l'un après l'autre	ADP
+l'un après l'autre	l'un après l'autre	ADV
 ;	;	PUNCTclause
 ou	ou	CCONJ
 à	à	ADP
@@ -2032,7 +2032,7 @@ ce	ce	PRON
 que	que	PRON
 ils	ils	PRON
 tâchent	tâcher	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ne	ne	ADV
 réussira	réussir	VERB
 contre	contre	ADP

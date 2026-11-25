@@ -467,7 +467,7 @@ but	but	NOUN
 est	être	AUX
 très	très	ADV
 loin	loin	ADV
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 l'	le	DET
@@ -832,7 +832,7 @@ en	en	PRON
 avez	avoir	VERB
 une	un	DET
 vision	vision	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 organique	organique	ADJ
 .	.	PUNCTsent
 cela	cela	PRON
@@ -1256,29 +1256,29 @@ des	un	DET
 cordons	cordon	NOUN
 de	de	ADP
 douane	douane	NOUN
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ce	ce	PRON
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 pays	pays	NOUN
 de	de	ADP
 un	un	DET
 seul	seul	ADJ
 tenant	tenant	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 sol	sol	NOUN
 ,	,	PUNCTclause
-la même	la même	DET
+la même	la même	PRON
 culture	culture	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 climat	climat	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 lac	lac	NOUN
 avec	avec	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 problèmes	problème	NOUN
 de	de	ADP
 pollution	pollution	NOUN
@@ -1330,7 +1330,7 @@ Berlin-Est	Berlin-Est	PROPN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 type	type	NOUN
 de	de	ADP
 absurdité	absurdité	NOUN
@@ -1464,8 +1464,8 @@ qui	qui	PRON
 ne	ne	ADV
 seront	être	AUX
 pas du tout	pas du tout	ADV
-les mêmes	les mêmes	DET
-que	que	SCONJ
+les mêmes	les mêmes	PRON
+que	que	PRON
 des	un	DET
 régions	région	NOUN
 économiques	économique	ADJ
@@ -1618,7 +1618,7 @@ ce	ce	PRON
 est	être	AUX
 ma	mon	DET
 communauté	communauté	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 écrivain	écrivain	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -1673,7 +1673,7 @@ continuer	continuer	VERB
 il	il	PRON
 faut	falloir	VERB
 donner	donner	VERB
-la même	la même	DET
+la même	la même	PRON
 frontière	frontière	NOUN
 à	à	ADP
 toutes	tout	ADJ
@@ -1702,7 +1702,7 @@ d'autres	d'autre	PRON
 qui	qui	PRON
 veulent	vouloir	VERB
 que	que	SCONJ
-la même	la même	DET
+la même	la même	PRON
 frontière	frontière	NOUN
 soit	être	AUX
 donnée	donner	VERB
@@ -1809,7 +1809,7 @@ conquis	conquérir	VERB
 le	le	DET
 monde	monde	NOUN
 en	en	ADP
-moins de	moins de	NOUN
+moins de	moins de	DET
 deux	deux	NUM
 siècles	siècle	NOUN
 …	…	PUNCTsent
@@ -2103,13 +2103,13 @@ beaucoup de	beaucoup de	DET
 tribus	tribu	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
 exactement	exactement	ADV
-les mêmes	les mêmes	DET
-réflexe	réflexe	NOUN
+les mêmes	les mêmes	PRON
+réflexe	réflexe	ADJ
 qui	qui	PRON
 a	avoir	AUX
 dû	devoir	VERB
@@ -2492,7 +2492,7 @@ personne	personne	NOUN
 ,	,	PUNCTclause
 impossible	impossible	ADJ
 de	de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 du	du	ADP_DET
 ciment	ciment	NOUN
 !	!	PUNCTsent
@@ -2644,7 +2644,7 @@ pas	pas	ADV
 la	le	DET
 vocation	vocation	NOUN
 .	.	PUNCTsent
-à ce sujet	à ce sujet	PUNCT
+à ce sujet	à ce sujet	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -2798,7 +2798,7 @@ et	et	CCONJ
 état	état	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 dans	dans	ADP
 la	le	DET
 langue	langue	NOUN
@@ -2869,7 +2869,7 @@ truc	truc	NOUN
 qui	qui	PRON
 vous	vous	PRON
 encadre	encadrer	VERB
-de force	de force	DET
+de force	de force	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
 vous	vous	PRON
@@ -2993,7 +2993,7 @@ l'	le	DET
 Europe	Europe	PROPN
 possible	possible	ADJ
 que	que	SCONJ
-sur la base de	sur la base de	PRON
+sur la base de	sur la base de	ADP
 régions	région	NOUN
 .	.	PUNCTsent
 ce	ce	DET
@@ -3010,7 +3010,7 @@ qui	qui	PRON
 se	se	PRON
 forment	former	VERB
 spontanément	spontanément	ADV
-un peu	un peu	DET
+un peu	un peu	ADV
 partout	partout	ADV
 .	.	PUNCTsent
 spontanément	spontanément	ADV
@@ -3089,7 +3089,7 @@ ensemble	ensemble	ADV
 et	et	CCONJ
 choisir	choisir	VERB
 ensemble	ensemble	ADV
-telle ou telle	telle ou telle	PUNCT
+telle ou telle	telle ou telle	DET
 agence	agence	NOUN
 spécialisée	spécialisé	ADJ
 .	.	PUNCTsent
@@ -3108,7 +3108,7 @@ avis	avis	NOUN
 des	un	ADP_DET
 experts	expert	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 circulaires	circulaire	NOUN
 qui	qui	PRON
@@ -3165,7 +3165,7 @@ ce	ce	PRON
 qui	qui	PRON
 me	me	PRON
 donne	donner	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 confiance	confiance	NOUN
 dans	dans	ADP
 le	le	DET
@@ -3249,7 +3249,7 @@ très	très	ADV
 optimiste	optimiste	ADJ
 car	car	CCONJ
 ,	,	PUNCTclause
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 cela	cela	PRON
 fait	faire	VERB
 20	20	NUM

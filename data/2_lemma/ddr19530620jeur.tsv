@@ -137,7 +137,7 @@ France	France	PROPN
 retrouvant	retrouver	VERB
 des	un	ADP_DET
 cousins	cousin	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 ,	,	PUNCTclause
 je	je	PRON
@@ -398,7 +398,7 @@ ce	ce	PRON
 est	être	AUX
 donc	donc	ADV
 bien	bien	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 fédéralisme	fédéralisme	NOUN
 que	que	SCONJ
 je	je	PRON
@@ -771,10 +771,10 @@ et	et	CCONJ
 moi-même	moi-même	PRON
 ,	,	PUNCTclause
 bien	bien	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
-l'	le	DET
-entrée	entrée	NOUN
+autre chose	autre chose	PRON
+que	que	PRON
+l'	le_PRON	PRON
+entrée	entrer	VERB
 dans	dans	ADP
 un	un	DET
 parti	parti	NOUN
@@ -1114,7 +1114,7 @@ ouvrir	ouvrir	VERB
 par	par	ADP
 un	un	DET
 discours	discours	NOUN
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 congrès	congrès	NOUN
 fédéralisme	fédéralisme	NOUN
 qui	qui	PRON
@@ -1138,7 +1138,7 @@ je	je	PRON
 ne	ne	ADV
 avais	avoir	AUX
 pu	pouvoir	VERB
-suivant que	suivant que	PRON
+suivant que	suivant que	SCONJ
 de	de	DET
 très	très	ADV
 loin	loin	ADV
@@ -1237,7 +1237,7 @@ enfin	enfin	ADV
 par	par	ADP
 une	un	DET
 double	double	NOUN
-prise de conscience	prise de conscience	ADP
+prise de conscience	prise de conscience	NOUN
 historique	historique	ADJ
 ,	,	PUNCTclause
 provoquée	provoquer	VERB
@@ -1531,7 +1531,7 @@ seul	seul	ADJ
 réaliste	réaliste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 ne	ne	ADV
@@ -1616,7 +1616,7 @@ résument	résumer	VERB
 parfaitement	parfaitement	ADV
 notre	notre	DET
 isolationnisme	isolationnisme	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 mesquin	mesquin	ADJ
 et	et	CCONJ
 la	le	DET
@@ -1640,7 +1640,7 @@ en	en	ADP
 rendre compte	rendre compte	VERB
 .	.	PUNCTsent
 voici	voici	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 :	:	PUNCTclause
 le	le	DET
 Suisse	Suisse	PROPN
@@ -1654,7 +1654,7 @@ paisiblement	paisiblement	ADV
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
 voici	voici	ADP
-le second	le second	DET
+le second	le second	PRON
 :	:	PUNCTclause
 la	le	DET
 Suisse	Suisse	PROPN

@@ -46,7 +46,7 @@ audience	audience	NOUN
 par	par	ADP
 Hitler	Hitler	PROPN
 au moment de	au moment de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 crise	crise	NOUN
 polonaise	polonais	ADJ
 ,	,	PUNCTclause
@@ -800,7 +800,7 @@ parle	parler	VERB
 trop	trop	ADV
 ,	,	PUNCTclause
 il	il	PRON
-en fait	en fait	VERB
+en fait	en fait	ADV
 trop	trop	ADV
 ,	,	PUNCTclause
 il	il	PRON
@@ -865,7 +865,7 @@ doutent	douter	VERB
 pas	pas	ADV
 que	que	SCONJ
 pécher	pécher	VERB
-par défaut	par défaut	PUNCT
+par défaut	par défaut	ADV
 est	être	AUX
 bien	bien	ADV
 plus	plus	ADV
@@ -1143,7 +1143,7 @@ envoyé	envoyer	VERB
 à	à	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 mes	mon	DET
 amis	ami	NOUN
 la	le	DET
@@ -1218,7 +1218,7 @@ autre	autre	PRON
 des	un	ADP_DET
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 me	me	PRON
 dit	dire	VERB
 :	:	PUNCTclause
@@ -1348,7 +1348,7 @@ de	de	ADP
 aujourd'hui	aujourd'hui	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 cette	ce	DET
 menace	menace	NOUN
@@ -1412,13 +1412,13 @@ démons	démon	NOUN
 et	et	CCONJ
 non	non	ADV
 pas	pas	ADV
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 démon	démon	NOUN
 que	que	SCONJ
 il	il	PRON
 nous	nous	PRON
 délègue	déléguer	VERB
-de temps à autre	de temps à autre	PUNCT
+de temps à autre	de temps à autre	ADV
 .	.	PUNCTsent
 le	le	DET
 combat	combat	NOUN
@@ -1650,7 +1650,7 @@ sur	sur	ADP
 toutes	tout	ADJ
 les	le	DET
 tables	table	NOUN
-de nuit	de nuit	PUNCT
+de nuit	de nuit	ADV
 de	de	ADP
 ces	ce	DET
 hospices	hospice	NOUN
@@ -1856,7 +1856,7 @@ agression	agression	NOUN
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 à	à	ADP
-la première	la première	DET
+la première	la première	PRON
 heure	heure	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -2235,7 +2235,7 @@ terre	terre	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 rétrécit	rétrécir	VERB
-de jour en jour	de jour en jour	PUNCT
+de jour en jour	de jour en jour	ADV
 et	et	CCONJ
 de	de	ADP
 heure	heure	NOUN
@@ -2396,7 +2396,7 @@ déjà	déjà	ADV
 tout	tout	ADV
 recommence	recommencer	VERB
 ,	,	PUNCTclause
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 cet	ce	DET
@@ -2409,7 +2409,7 @@ moi	moi	PRON
 voulant	vouloir	VERB
 quoi	quoi	PRON
 ,	,	PUNCTclause
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 ?	?	PUNCTsent
 voulant	vouloir	VERB
 ma	mon	DET
@@ -2673,9 +2673,9 @@ en	en	ADP
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-en dehors de	en dehors de	ADV
-partis	partir	VERB
-politiques	politique	NOUN
+en dehors de	en dehors de	ADP
+partis	parti	NOUN
+politiques	politique	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -3237,7 +3237,7 @@ pierraille	pierraille	NOUN
 lépreuse	lépreux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 badaud	badaud	NOUN
 de	de	ADP
 un	un	DET
@@ -3247,7 +3247,7 @@ juin	juin	NOUN
 pouvait	pouvoir	VERB
 se	se	PRON
 annexer	annexer	VERB
-pour toujours	pour toujours	ADP
+pour toujours	pour toujours	ADV
 le	le	DET
 bonheur	bonheur	NOUN
 de	de	ADP
@@ -3300,7 +3300,7 @@ les	le	DET
 traces	trace	NOUN
 pacifiées	pacifier	VERB
 .	.	PUNCTsent
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 badaud	badaud	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -3547,7 +3547,7 @@ parachutistes	parachutiste	NOUN
 je	je	PRON
 la	le	DET
 regarde	regarder	VERB
-de temps à autre	de temps à autre	PUNCT
+de temps à autre	de temps à autre	ADV
 en	en	ADP
 écartant	écarter	VERB
 le	le	DET
@@ -3720,7 +3720,7 @@ escalier	escalier	NOUN
 il	il	PRON
 me	me	PRON
 paraît	paraître	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 sentimental	sentimental	ADJ
 ,	,	PUNCTclause
 je	je	PRON
@@ -3894,7 +3894,7 @@ chefs d'État	chef d'État	NOUN
 .	.	PUNCTsent
 vous	vous	PRON
 mettez	mettre	VERB
-en danger	en danger	ADP
+en danger	en danger	ADJ
 la	le	DET
 sécurité	sécurité	NOUN
 de	de	ADP
@@ -4406,7 +4406,7 @@ par	par	ADP
 heure	heure	NOUN
 ,	,	PUNCTclause
 accumule	accumuler	VERB
-par petites touches	par petites touches	NOUN
+par petites touches	par petites touches	ADV
 précises	précis	ADJ
 les	le	DET
 éléments	élément	NOUN
@@ -4528,7 +4528,7 @@ nasille	nasiller	VERB
 puis	puis	CCONJ
 se	se	PRON
 précise	préciser	VERB
-à mesure que	à mesure que	ADJ
+à mesure que	à mesure que	SCONJ
 l'	le	DET
 appareil	appareil	NOUN
 se	se	PRON
@@ -4612,7 +4612,7 @@ quinze	quinze	NUM
 jours	jour	NOUN
 de	de	ADP
 arrêts	arrêt	NOUN
-de rigueur	de rigueur	PUNCT
+de rigueur	de rigueur	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET
@@ -4707,9 +4707,9 @@ tout	tout	DET
 prix	prix	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
-rencontre	rencontre	NOUN
-des	un	ADP_DET
+la première	la première	PRON
+rencontre	rencontrer	VERB
+des	un	DET
 dix	dix	NUM
 «	«	PUNCTclause
 conjurés	conjurer	VERB

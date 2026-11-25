@@ -112,7 +112,7 @@ est	être	AUX
 que	que	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-l'un et l'autre	l'un et l'autre	DET
+l'un et l'autre	l'un et l'autre	PRON
 cas	cas	NOUN
 ,	,	PUNCTclause
 on	on	PRON
@@ -223,7 +223,7 @@ pays	pays	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 déclare	déclarer	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 fédération	fédération	NOUN
 .	.	PUNCTsent
@@ -276,7 +276,7 @@ générale	général	ADJ
 «	«	PUNCTsent
 êtes	être	AUX
 vous	vous	PRON
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 l'	le	DET
 idée	idée	NOUN
 de	de	ADP
@@ -333,7 +333,7 @@ si	si	SCONJ
 l'	le	DET
 opinion publique	opinion publique	NOUN
 était	être	AUX
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 une	un	DET
 suppression	suppression	NOUN
 des	un	ADP_DET
@@ -442,7 +442,7 @@ la	le	DET
 majorité	majorité	NOUN
 de	de	ADP
 71	71	NUM
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 la	le	DET
 suppression	suppression	NOUN
 des	un	ADP_DET
@@ -455,7 +455,7 @@ tombe	tomber	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-au total	au total	ADJ
+au total	au total	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 après que	après que	SCONJ
@@ -477,7 +477,7 @@ se	se	PRON
 est	être	AUX
 reformée	reformer	VERB
 ,	,	PUNCTclause
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 l'	le	DET
 union	union	NOUN
 immédiate	immédiat	ADJ
@@ -556,7 +556,7 @@ majorité	majorité	NOUN
 et	et	CCONJ
 que	que	SCONJ
 ,	,	PUNCTclause
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 acceptent	accepter	VERB
@@ -658,8 +658,8 @@ curieuse	curieux	ADJ
 :	:	PUNCTclause
 nous	nous	PRON
 trouvons	trouver	VERB
-les mêmes	les mêmes	DET
-chiffres	chiffre	NOUN
+les mêmes	les mêmes	PRON
+chiffres	chiffrer	VERB
 dans	dans	ADP
 les	le	DET
 deux	deux	NUM
@@ -705,8 +705,8 @@ union	union	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 que	que	SCONJ
-plus de	plus de	SCONJ
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 de	de	ADP
 nos	nos	DET
@@ -750,7 +750,7 @@ poche	poche	NOUN
 au contraire	au contraire	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 conditions	condition	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -773,7 +773,7 @@ dans	dans	ADP
 leur	leur	DET
 cas	cas	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 est	être	AUX
 de	de	ADP
@@ -833,7 +833,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-du moins	du moins	ADP
+du moins	du moins	ADV
 ce	ce	PRON
 que	que	PRON
 prouvent	prouver	VERB
@@ -844,7 +844,7 @@ mais	mais	CCONJ
 ils	ils	PRON
 prouvent	prouver	VERB
 aussi	aussi	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vous	vous	PRON
@@ -918,7 +918,7 @@ d'accord	d'accord	ADV
 pour	pour	ADP
 affirmer	affirmer	VERB
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -932,7 +932,7 @@ bonne	bon	ADJ
 pour	pour	ADP
 eux	eux	PRON
 d'abord	d'abord	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 individus	individu	NOUN
 (	(	PUNCTclause
 55	55	NUM

@@ -173,11 +173,11 @@ et	et	CCONJ
 le	le	DET
 marchand	marchand	NOUN
 adoraient	adorer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 Dieu	Dieu	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 langage	langage	NOUN
 ;	;	PUNCTclause
 cette	ce	DET
@@ -279,7 +279,7 @@ données	donnée	NOUN
 du	du	ADP_DET
 problème	problème	NOUN
 avaient	avoir	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 changé	changer	VERB
 ,	,	PUNCTclause
 —	—	PUNCTclause
@@ -443,7 +443,7 @@ qui	qui	PRON
 a	avoir	AUX
 changé	changer	VERB
 .	.	PUNCTsent
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 elle	elle	PRON
 cessait	cesser	VERB
 de	de	ADP
@@ -620,7 +620,7 @@ il	il	PRON
 pas	pas	ADV
 évident	évident	ADJ
 ,	,	PUNCTclause
-à première vue	à première vue	DET
+à première vue	à première vue	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 le	le	DET
@@ -674,7 +674,7 @@ exercer	exercer	VERB
 une	un	DET
 vocation	vocation	NOUN
 condamnée	condamner	VERB
-par avance	par avance	PUNCT
+par avance	par avance	ADV
 à	à	ADP
 demeurer	demeurer	VERB
 inefficace	inefficace	ADJ
@@ -690,7 +690,7 @@ secret	secret	NOUN
 qui	qui	PRON
 lui	lui	PRON
 permettrait	permettre	VERB
-de fait	de fait	DET
+de fait	de fait	ADJ
 plus	plus	ADV
 ou	ou	CCONJ
 mieux	mieux	ADV
@@ -843,7 +843,7 @@ intellectuel	intellectuel	NOUN
 laïque	laïque	ADJ
 quelconque	quelconque	ADJ
 apparaît	apparaître	VERB
-tout à fait	tout à fait	PRON
+tout à fait	tout à fait	ADV
 dérisoire	dérisoire	ADJ
 dans	dans	ADP
 la	le	DET
@@ -1068,7 +1068,7 @@ absurdité	absurdité	NOUN
 .	.	PUNCTsent
 sommes	être	AUX
 nous	nous	PRON
-bien des	bien des	ADP_DET
+bien des	bien des	DET
 David	David	PROPN
 prêts	prêt	ADJ
 à	à	ADP
@@ -1680,7 +1680,7 @@ ce	ce	PRON
 à	à	ADP
 dire	dire	VERB
 que	que	SCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 chrétiens	chrétien	NOUN
 nous	nous	PRON
 échappons	échapper	VERB
@@ -1806,7 +1806,7 @@ le	le	DET
 chrétien	chrétien	NOUN
 découvre	découvrir	VERB
 pire	pire	ADJ
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 ne	ne	ADV
 le	le_PRON	PRON
 pensaient	penser	VERB
@@ -1839,9 +1839,9 @@ transformation	transformation	NOUN
 que	que	SCONJ
 nous	nous	PRON
 appartenons	appartenir	VERB
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 ,	,	PUNCTclause
-dès l'instant où	dès l'instant où	ADP
+dès l'instant où	dès l'instant où	SCONJ
 nous	nous	PRON
 l'	le	DET
 annonçons	annoncer	VERB
@@ -2732,12 +2732,12 @@ rien	rien	PRON
 voir	voir	VERB
 au-delà	au-delà	ADV
 .	.	PUNCTsent
-trop de	trop de	ADP
+trop de	trop de	DET
 chefs	chef	NOUN
 nous	nous	PRON
 crient	crier	VERB
 :	:	PUNCTclause
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 !	!	PUNCTsent
 sans	sans	ADP
 avoir	avoir	AUX
@@ -2755,7 +2755,7 @@ leurs	leur	DET
 bottes	botte	NOUN
 .	.	PUNCTsent
 leur	leur	DET
-en avant	en avant	SCONJ
+en avant	en avant	ADV
 ne	ne	ADV
 sait	savoir	VERB
 pas	pas	ADV
@@ -2857,7 +2857,7 @@ pas	pas	ADV
 qui	qui	PRON
 d'autre	d'autre	PRON
 est	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 assumer	assumer	VERB
 cette	ce	DET
 charge	charge	NOUN
@@ -2922,7 +2922,7 @@ résolu	résoudre	VERB
 ces	ce	DET
 questions	question	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 cela	cela	PRON
 se	se	PRON
 peut	pouvoir	VERB
@@ -2952,9 +2952,9 @@ grand	grand	ADJ
 signe	signe	NOUN
 de	de	ADP
 interrogation	interrogation	NOUN
-au-dessus de	au-dessus de	PUNCT
-ce	ce	PRON
-que	que	PRON
+au-dessus de	au-dessus de	ADP
+ce	ce	DET
+que	que	SCONJ
 je	je	PRON
 ai	avoir	VERB
 à	à	ADP
@@ -3036,7 +3036,7 @@ chrétiens	chrétien	NOUN
 ?	?	PUNCTsent
 telle	tel	DET
 est	être	AUX
-la première	la première	DET
+la première	la première	PRON
 question	question	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
@@ -3062,7 +3062,7 @@ un	un	DET
 chrétien	chrétien	NOUN
 entre	entre	ADP
 dans	dans	ADP
-l'un ou l'autre	l'un ou l'autre	DET
+l'un ou l'autre	l'un ou l'autre	PRON
 des	un	ADP_DET
 partis	parti	NOUN
 existants	existant	ADJ
@@ -3129,7 +3129,7 @@ chrétien	chrétien	ADJ
 commandant	commander	VERB
 aux	au	ADP_DET
 chrétiens	chrétien	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 la	le	DET
 guerre	guerre	NOUN
 ,	,	PUNCTclause
@@ -3368,9 +3368,9 @@ l'	le	DET
 évangile	évangile	NOUN
 ,	,	PUNCTclause
 ou bien	ou bien	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 triompher	triompher	VERB
-telle ou telle	telle ou telle	PUNCT
+telle ou telle	telle ou telle	DET
 doctrine	doctrine	NOUN
 sociale	social	ADJ
 adoptée	adopter	VERB
@@ -3652,7 +3652,7 @@ croient	croire	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-ceci dit	ceci dit	DET
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 une	un	DET
@@ -3745,7 +3745,7 @@ de	de	ADP
 l'	le	DET
 adhésion	adhésion	NOUN
 à	à	ADP
-l'un ou l'autre	l'un ou l'autre	DET
+l'un ou l'autre	l'un ou l'autre	PRON
 des	un	ADP_DET
 partis	parti	NOUN
 politiques	politique	ADJ
@@ -3759,7 +3759,7 @@ ne	ne	ADV
 puis	puis	CCONJ
 songer	songer	VERB
 à	à	ADP
-passer en revue	passer en revue	NOUN
+passer en revue	passer en revue	VERB
 les	le	DET
 principaux	principal	ADJ
 partis	parti	NOUN
@@ -3867,7 +3867,7 @@ conduit	conduire	VERB
 au	au	ADP_DET
 socialisme	socialisme	NOUN
 .	.	PUNCTsent
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 confesse	confesser	VERB
@@ -3888,7 +3888,7 @@ saurait	savoir	VERB
 me	me	PRON
 apparaître	apparaître	VERB
 ,	,	PUNCTclause
-à première vue	à première vue	DET
+à première vue	à première vue	ADV
 ,	,	PUNCTclause
 plus	plus	ADV
 conforme	conforme	ADJ
@@ -3957,7 +3957,7 @@ gens	gens	NOUN
 condamnent	condamner	VERB
 cet	ce	DET
 idéal	idéal	NOUN
-en bloc	en bloc	PUNCT
+en bloc	en bloc	ADV
 ,	,	PUNCTclause
 à cause de	à cause de	ADP
 erreurs	erreur	NOUN
@@ -4023,7 +4023,7 @@ car	car	CCONJ
 si	si	SCONJ
 nous	nous	PRON
 condamnons	condamner	VERB
-en bloc	en bloc	ADP
+en bloc	en bloc	ADV
 le	le	DET
 socialisme	socialisme	NOUN
 ,	,	PUNCTclause
@@ -4058,9 +4058,9 @@ pas	pas	ADV
 mieux	mieux	ADV
 que	que	SCONJ
 lui	lui	PRON
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
-gardons	gardon	NOUN
+gardons	garder	VERB
 nous	nous	PRON
 de	de	ADP
 l'	le	DET
@@ -4181,7 +4181,7 @@ oui	oui	INTJ
 ces	ce	DET
 mot d'ordre	mot d'ordre	NOUN
 sont	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 pour	pour	ADP
 le	le	DET
 chrétien	chrétien	NOUN
@@ -4195,7 +4195,7 @@ l'	le	DET
 sentimental	sentimental	ADJ
 est	être	AUX
 peut-être	peut-être	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ,	,	PUNCTclause
 les	le	DET
 revendications	revendication	NOUN
@@ -4203,7 +4203,7 @@ pratiques	pratique	ADJ
 seront	être	AUX
 peut-être	peut-être	ADV
 aussi	aussi	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ,	,	PUNCTclause
 dans	dans	ADP
 bien des	bien des	DET
@@ -4629,7 +4629,7 @@ parti	parti	NOUN
 ,	,	PUNCTclause
 précisément	précisément	ADV
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 fait	faire	VERB
 aujourd'hui	aujourd'hui	ADV
 le	le	DET
@@ -4907,7 +4907,7 @@ va	aller	VERB
 on	on	PRON
 nous	nous	PRON
 renvoyer	renvoyer	VERB
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 à	à	ADP
 ce	ce	DET
 recours	recours	NOUN
@@ -4916,7 +4916,7 @@ Dieu	Dieu	PROPN
 tout-puissant	tout-puissant	ADJ
 qui	qui	PRON
 permet	permettre	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 si	si	SCONJ
 belles	beau	ADJ
@@ -5042,8 +5042,8 @@ qui	qui	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-cette fois-là	cette fois ci	PRON
-une	un	PRON
+cette fois-là	cette fois ci	ADV
+une	un	DET
 utopie	utopie	NOUN
 .	.	PUNCTsent
 cela	cela	PRON
@@ -5052,7 +5052,7 @@ passe	passer	VERB
 au	au	ADP_DET
 Japon	Japon	PROPN
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 certains	certain	PRON
@@ -5169,7 +5169,7 @@ se	se	PRON
 dire	dire	VERB
 vraiment	vraiment	ADV
 chrétien	chrétien	NOUN
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 il	il	PRON
 ne	ne	ADV
 aura	avoir	VERB
@@ -5392,7 +5392,7 @@ injurié	injurier	VERB
 battu	battre	VERB
 ,	,	PUNCTclause
 exploité	exploité	NOUN
-sans vergogne	sans vergogne	PUNCT
+sans vergogne	sans vergogne	ADV
 par	par	ADP
 tous	tout	ADJ
 les	le	DET
@@ -5554,7 +5554,7 @@ il	il	PRON
 ne	ne	ADV
 agit	agir	VERB
 pas	pas	ADV
-au bénéfice de	au bénéfice de	PUNCT
+au bénéfice de	au bénéfice de	ADP
 un	un	DET
 parti	parti	NOUN
 .	.	PUNCTsent
@@ -5827,18 +5827,18 @@ il	il	PRON
 pas	pas	ADV
 de	de	ADP
 travailler	travailler	VERB
-en tant que	en tant que	CCONJ
-intellectuels	intellectuel	ADJ
+en tant que	en tant que	ADP
+intellectuels	intellectuel	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
-de même que	de même que	CCONJ
-le premier	le premier	DET
-devoir	devoir	NOUN
+de même que	de même que	SCONJ
+le premier	le premier	PRON
+devoir	devoir	VERB
 de	de	ADP
 l'	le	DET
 ingénieur	ingénieur	NOUN
 reste	rester	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 des	un	DET
 plans	plan	NOUN
 et	et	CCONJ
@@ -6111,7 +6111,7 @@ et	et	CCONJ
 le	le	DET
 prolétariat	prolétariat	NOUN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 les	le	DET
 intellectuels	intellectuel	NOUN
 ,	,	PUNCTclause
@@ -6143,7 +6143,7 @@ monde	monde	NOUN
 et	et	CCONJ
 financier	financier	ADJ
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 que	que	SCONJ
 la	le	DET
@@ -6272,7 +6272,7 @@ sont	être	AUX
 atteintes	atteint	ADJ
 !	!	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 toute	tout	ADJ
 réforme	réforme	NOUN
 de	de	ADP
@@ -6289,7 +6289,7 @@ vouées	vouer	VERB
 l'	le	DET
 échec	échec	NOUN
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 on	on	PRON
 ne	ne	ADV
 aura	avoir	VERB
@@ -6412,7 +6412,7 @@ de	de	ADP
 action	action	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 simplifier	simplifier	VERB
@@ -6876,7 +6876,7 @@ pour	pour	ADP
 l'	le	DET
 opinion publique	opinion publique	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 elle	elle	PRON
 ne	ne	ADV
 est	être	AUX
@@ -7051,7 +7051,7 @@ toutes	tout	ADJ
 incroyances	incroyance	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -7413,7 +7413,7 @@ exige	exiger	VERB
 votre	votre	DET
 foi	foi	NOUN
 ,	,	PUNCTclause
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 raison	raison	NOUN
 de plus	de plus	ADV
@@ -7581,7 +7581,7 @@ est	être	AUX
 venue	venir	VERB
 de	de	ADP
 essayer	essayer	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 de	de	ADP
 essayer	essayer	VERB
@@ -7993,7 +7993,7 @@ vocation	vocation	NOUN
 pourrait	pouvoir	VERB
 se	se	PRON
 exercer	exercer	VERB
-dès maintenant	dès maintenant	PUNCT
+dès maintenant	dès maintenant	ADV
 dans	dans	ADP
 leur	leur	DET
 domaine	domaine	NOUN
@@ -8132,7 +8132,7 @@ vocation	vocation	NOUN
 de	de	ADP
 agir	agir	VERB
 ,	,	PUNCTclause
-de fait	de fait	ADP
+de fait	de fait	ADJ
 acte	acte	NOUN
 de	de	ADP
 présence	présence	NOUN

@@ -128,7 +128,7 @@ vivant	vivant	NOUN
 que	que	SCONJ
 un	un	DET
 petit	petit	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 récits	récit	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -204,14 +204,14 @@ un	un	DET
 cauchemar	cauchemar	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 tant de	tant de	DET
 poètes	poète	NOUN
 se	se	PRON
 efforçaient	efforcer	VERB
 ,	,	PUNCTclause
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 époque	époque	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -355,8 +355,8 @@ sentiment	sentiment	NOUN
 de	de	ADP
 étrangeté	étrangeté	NOUN
 qui	qui	PRON
-par moments	par moments	PUNCT
-l'	le	DET
+par moments	par moments	ADV
+l'	le_PRON	PRON
 accompagne	accompagner	VERB
 en	en	ADP
 sourdine	sourdine	NOUN
@@ -371,7 +371,7 @@ plus	plus	ADV
 «	«	PUNCTclause
 logique	logique	NOUN
 »	»	PUNCTclause
-sitôt que	sitôt que	PUNCT
+sitôt que	sitôt que	SCONJ
 on	on	PRON
 les	le_PRON	PRON
 rapporte	rapporter	VERB
@@ -491,7 +491,7 @@ fut	être	AUX
 l'un	l'un	PRON
 des	un	ADP_DET
 premiers	premier	ADJ
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 au	au	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
@@ -678,7 +678,7 @@ leur	leur	DET
 objective	objectif	ADJ
 incohérence	incohérence	NOUN
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 il	il	PRON
 se	se	PRON
 refuse	refuser	VERB
@@ -700,7 +700,7 @@ hommes	homme	NOUN
 pour	pour	ADP
 «	«	PUNCTclause
 faire	faire	VERB
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 »	»	PUNCTclause
 leur	leur	DET
 vie	vie	NOUN
@@ -1199,7 +1199,7 @@ possible	possible	ADJ
 de	de	ADP
 sortir	sortir	VERB
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'on	on	PRON
 connaît	connaître	VERB
 ses	son	DET
@@ -1373,7 +1373,7 @@ savoir	savoir	VERB
 car	car	CCONJ
 nous	nous	PRON
 saurions	savoir	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 réellement	réellement	ADV
 il	il	PRON
 ne	ne	ADV
@@ -1387,7 +1387,7 @@ nous	nous	PRON
 sauver	sauver	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-à moins que	à moins que	ADV
+à moins que	à moins que	SCONJ
 une	un	DET
 main	main	NOUN
 nous	nous	PRON
@@ -1467,7 +1467,7 @@ de	de	ADP
 cette	ce	DET
 vie	vie	NOUN
 .	.	PUNCTsent
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -1519,7 +1519,7 @@ autrement dit	autrement dit	ADV
 du	du	ADP_DET
 dépassé	dépassé	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 roman	roman	NOUN
 de	de	ADP
@@ -2007,7 +2007,7 @@ avec	avec	ADP
 le	le	DET
 Juge	Juge	PROPN
 !	!	PUNCTsent
-du moins	du moins	ADP
+du moins	du moins	ADV
 nous	nous	PRON
 le	le_PRON	PRON
 laissent	laisser	VERB
@@ -2032,7 +2032,7 @@ prestige	prestige	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 même	même	ADV
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 envoûtant	envoûter	VERB
 que	que	SCONJ
 nous	nous	PRON
@@ -2941,7 +2941,7 @@ l'	le	DET
 homme	homme	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-de telle sorte que	de telle sorte que	DET
+de telle sorte que	de telle sorte que	SCONJ
 nulle	nul	ADJ
 communication	communication	NOUN
 ne	ne	ADV
@@ -2965,7 +2965,7 @@ a	avoir	AUX
 été	être	AUX
 établie	établir	VERB
 ,	,	PUNCTclause
-en sens inverse	en sens inverse	DET
+en sens inverse	en sens inverse	ADV
 ,	,	PUNCTclause
 de	de	ADP
 Dieu	Dieu	PROPN
@@ -3021,7 +3021,7 @@ ce	ce	DET
 chemin	chemin	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 refusait	refuser	VERB
 de	de	ADP
@@ -3702,7 +3702,7 @@ chacun	chacun	PRON
 puisse	pouvoir	VERB
 les	le	DET
 lire	lire	NOUN
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 il	il	PRON
 se	se	PRON
 agissait	agir	VERB
@@ -3910,7 +3910,7 @@ bonne volonté	bonne volonté	NOUN
 succès	succès	NOUN
 décevants	décevant	ADJ
 dus	devoir	VERB
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 ou	ou	CCONJ
 au	au	ADP_DET
 caprice	caprice	NOUN
@@ -4179,8 +4179,8 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 pas	pas	ADV
-de fait	de fait	DET
-accompli	accompli	ADJ
+de fait	de fait	ADJ
+accompli	accomplir	VERB
 :	:	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -4312,7 +4312,7 @@ ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
 réellement	réellement	ADV
-droit de cité	droit de cité	PUNCT
+droit de cité	droit de cité	NOUN
 au	au	ADP_DET
 village	village	NOUN
 ,	,	PUNCTclause
@@ -4529,7 +4529,7 @@ par	par	ADP
 Faust	Faust	PROPN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 me	me	PRON
 est	être	AUX
@@ -4602,11 +4602,11 @@ sens	sens	NOUN
 naturel	naturel	ADJ
 ,	,	PUNCTclause
 raisonnable	raisonnable	ADJ
-aussi bien que	aussi bien que	SCONJ
+aussi bien que	aussi bien que	CCONJ
 physique	physique	ADJ
 .	.	PUNCTsent
 mais	mais	CCONJ
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 l'	le	DET
 esprit	esprit	NOUN
 en	en	ADP
@@ -4756,7 +4756,7 @@ cela	cela	PRON
 signifie	signifier	VERB
 et	et	CCONJ
 suppose	supposer	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ?	?	PUNCTsent
 mais	mais	CCONJ
 il	il	PRON
@@ -4934,7 +4934,7 @@ de	de	ADP
 sa	son	DET
 délivrance	délivrance	NOUN
 .	.	PUNCTsent
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 on	on	PRON
 ne	ne	ADV
@@ -5412,7 +5412,7 @@ et	et	CCONJ
 se	se	PRON
 y	y	PRON
 promener	promener	VERB
-comme si	comme si	ADV
+comme si	comme si	SCONJ
 de	de	ADP
 rien	rien	PRON
 ne	ne	ADV
@@ -5721,7 +5721,7 @@ pas	pas	ADV
 tout	tout	ADV
 instant	instant	ADJ
 devenir	devenir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ce	ce	PRON
 que	que	PRON
 elle	elle	PRON
@@ -5756,9 +5756,9 @@ que	que	SCONJ
 il	il	PRON
 est	être	AUX
 ,	,	PUNCTclause
-en fait	en fait	SYM
+en fait	en fait	ADV
 ,	,	PUNCTclause
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 un	un	DET
 percepteur	percepteur	NOUN

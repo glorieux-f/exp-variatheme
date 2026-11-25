@@ -157,7 +157,7 @@ ils	ils	PRON
 se	se	PRON
 trouvent	trouver	VERB
 jeter	jeter	VERB
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 sur	sur	ADP
 leur	leur	DET
 propre	propre	ADJ
@@ -372,7 +372,7 @@ scientifique	scientifique	ADJ
 ne	ne	ADV
 existe	exister	VERB
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 tel	tel	DET
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -778,7 +778,7 @@ vouloir	vouloir	VERB
 notre	notre	DET
 union	union	NOUN
 prouve	prouver	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 leur	leur	DET
 lucidité	lucidité	NOUN
 ;	;	PUNCTclause
@@ -841,9 +841,9 @@ groupes	groupe	NOUN
 de	de	ADP
 idéologues	idéologue	NOUN
 .	.	PUNCTsent
-à supposer que	à supposer que	PRON
+à supposer que	à supposer que	SCONJ
 je	je	PRON
-sois	être	AUX
+sois	être	VERB
 contre	contre	ADP
 l'	le	DET
 union	union	NOUN
@@ -973,7 +973,7 @@ supprime	supprimer	VERB
 .	.	PUNCTsent
 et	et	CCONJ
 ,	,	PUNCTclause
-par la suite	par la suite	NOUN
+par la suite	par la suite	ADV
 ,	,	PUNCTclause
 ce	ce	DET
 ne	ne	ADV
@@ -999,8 +999,8 @@ on	on	PRON
 me	me	PRON
 dira	dire	VERB
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
-le	le	DET
+tout le monde	tout le monde	PRON
+le	le_PRON	PRON
 sait	savoir	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1058,7 +1058,7 @@ totalitaire	totalitaire	ADJ
 sans	sans	ADP
 lui	lui	PRON
 concéder	concéder	VERB
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 les	le	DET
 privilèges	privilège	NOUN
 que	que	PRON
@@ -1302,7 +1302,7 @@ préjugés	préjugé	NOUN
 symbolisant	symboliser	VERB
 leurs	leur	DET
 différences	différence	NOUN
-à première vue	à première vue	PUNCT
+à première vue	à première vue	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -1328,7 +1328,7 @@ et	et	CCONJ
 je	je	PRON
 doute	douter	VERB
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 il	il	PRON
@@ -1494,7 +1494,7 @@ grand-chose	grand-chose	PRON
 se	se	PRON
 dire	dire	VERB
 ,	,	PUNCTclause
-à supposer que	à supposer que	PRON
+à supposer que	à supposer que	SCONJ
 ils	ils	PRON
 trouvent	trouver	VERB
 une	un	DET
@@ -1544,7 +1544,7 @@ nations	nation	NOUN
 qui	qui	PRON
 allons	aller	VERB
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
 rencontrer	rencontrer	VERB
@@ -1593,8 +1593,8 @@ nous	nous	PRON
 causer	causer	VERB
 réciproquement	réciproquement	ADV
 ,	,	PUNCTclause
-à mesure que	à mesure que	DET
-en	en	PRON
+à mesure que	à mesure que	SCONJ
+en	en	ADP
 travaillant	travailler	VERB
 ensemble	ensemble	ADV
 pour	pour	ADP
@@ -1665,7 +1665,7 @@ cette	ce	DET
 phrase	phrase	NOUN
 ,	,	PUNCTclause
 inventée	inventer	VERB
-de toutes pièces	de toutes pièces	DET
+de toutes pièces	de toutes pièces	ADV
 ,	,	PUNCTclause
 comme	comme	ADP
 justifiant	justifier	VERB

@@ -147,7 +147,7 @@ de	de	ADP
 la	le	DET
 voiture	voiture	NOUN
 encore	encore	ADV
-en marche	en marche	PUNCT
+en marche	en marche	ADJ
 à	à	ADP
 l'	le	DET
 arrêt	arrêt	NOUN
@@ -160,7 +160,7 @@ vers	vers	ADP
 la	le	DET
 maison	maison	NOUN
 .	.	PUNCTsent
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 je	je	PRON
 passe	passer	VERB
 le	le	DET
@@ -514,8 +514,8 @@ Ozenfant	Ozenfant	PROPN
 Georges	Georges	PROPN
 Duthuit	Duthuit	PROPN
 formaient	former	VERB
-la première	la première	DET
-équipe	équipe	NOUN
+la première	la première	PRON
+équipe	équiper	VERB
 ,	,	PUNCTclause
 Pierre	Pierre	PROPN
 Baudet	Baudet	PROPN
@@ -551,7 +551,7 @@ personnelle	personnel	ADJ
 vécue	vivre	VERB
 bien	bien	ADV
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 littéraire	littéraire	ADJ
 :	:	PUNCTclause
 amitié	amitié	NOUN
@@ -636,7 +636,7 @@ en	en	PRON
 remettent	remettre	VERB
 pas	pas	ADV
 moins	moins	ADV
-en question	en question	PUNCT
+en question	en question	ADJ
 notre	notre	DET
 image	image	NOUN
 du	du	ADP_DET
@@ -849,7 +849,7 @@ nettement	nettement	ADV
 perçus	percevoir	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 ,	,	PUNCTclause
 donc	donc	ADV
 rien	rien	PRON
@@ -1291,7 +1291,7 @@ diable	diable	NOUN
 et	et	CCONJ
 me	me	PRON
 enferme	enfermer	VERB
-sans plus	sans plus	ADP
+sans plus	sans plus	ADV
 bouger	bouger	VERB
 ni	ni	CCONJ
 plus	plus	ADV
@@ -1401,7 +1401,7 @@ faim	faim	NOUN
 .	.	PUNCTsent
 je	je	PRON
 entre	entre	ADP
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 dans	dans	ADP
 un	un	DET
 petit	petit	ADJ
@@ -1440,7 +1440,7 @@ me	me	PRON
 servir	servir	VERB
 encore	encore	ADV
 ?	?	PUNCTsent
-au fond	au fond	NOUN
+au fond	au fond	ADV
 de	de	ADP
 la	le	DET
 salle	salle	NOUN
@@ -1508,7 +1508,7 @@ de	de	ADP
 électricité	électricité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au moment où	au moment où	ADP
+au moment où	au moment où	SCONJ
 je	je	PRON
 naissais	naître	VERB
 au	au	ADP_DET
@@ -1610,7 +1610,7 @@ calculable	calculable	ADJ
 vers	vers	ADP
 une	un	DET
 apocalypse	apocalypse	NOUN
-à court terme	à court terme	ADJ
+à court terme	à court terme	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 je	je	PRON
@@ -1619,7 +1619,7 @@ que	que	SCONJ
 «	«	PUNCTclause
 nous	nous	PRON
 arrivons	arriver	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 où	où	PRON
 le	le	DET
 moteur	moteur	NOUN

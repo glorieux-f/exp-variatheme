@@ -34,8 +34,8 @@ notre	notre	DET
 presse	presse	NOUN
 ont	avoir	AUX
 été	être	AUX
-dans l'ensemble	dans l'ensemble	ADP
-pour le moins	pour le moins	ADP
+dans l'ensemble	dans l'ensemble	ADV
+pour le moins	pour le moins	ADV
 réservées	réserver	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -144,7 +144,7 @@ charbon-acier	charbon-acier	PUNCT
 comme	comme	SCONJ
 on	on	PRON
 appelait	appeler	VERB
-à l'époque	à l'époque	SCONJ
+à l'époque	à l'époque	ADV
 la	le	DET
 Ceca	Ceca	PROPN
 :	:	PUNCTclause
@@ -180,7 +180,7 @@ Trois	Trois	NUM
 jours	jour	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
-le premier	le premier	DET
+le premier	le premier	PRON
 train	train	NOUN
 de	de	ADP
 charbon	charbon	NOUN
@@ -255,7 +255,7 @@ l'	le	DET
 Europe	Europe	PROPN
 se	se	PRON
 avérait	avérer	VERB
-bel et bien	bel et bien	ADP
+bel et bien	bel et bien	ADV
 réalisable	réalisable	ADJ
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
@@ -645,7 +645,7 @@ fait	faire	AUX
 maintes	maint	DET
 fois	fois	NOUN
 ,	,	PUNCTclause
-depuis que	depuis que	ADV
+depuis que	depuis que	SCONJ
 au	au	ADP_DET
 16e	16e	NUM
 siècle	siècle	NOUN
@@ -706,14 +706,14 @@ décidé	décider	VERB
 de	de	ADP
 interdire	interdire	VERB
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 l'	le	DET
 accès	accès	NOUN
 au	au	ADP_DET
 col	col	NOUN
 du	du	ADP_DET
 Saint-Gothard	Saint-Gothard	PROPN
-sous prétexte que	sous prétexte que	PUNCT
+sous prétexte que	sous prétexte que	SCONJ
 ils	ils	PRON
 étaient	être	AUX
 chargés	charger	VERB
@@ -807,7 +807,7 @@ mesure	mesure	NOUN
 on	on	PRON
 peut	pouvoir	VERB
 limiter	limiter	VERB
-le second	le second	DET
+le second	le second	PRON
 terme	terme	NOUN
 au nom de	au nom de	ADP
 premier	premier	ADJ
@@ -850,7 +850,7 @@ et	et	CCONJ
 militaire	militaire	ADJ
 a	avoir	AUX
 ,	,	PUNCTclause
-en fait	en fait	SYM
+en fait	en fait	ADV
 ,	,	PUNCTclause
 complètement	complètement	ADV
 transformé	transformer	VERB
@@ -871,7 +871,7 @@ cette	ce	DET
 dernière	dernier	ADJ
 est	être	AUX
 devenue	devenir	VERB
-en partie	en partie	NOUN
+en partie	en partie	ADV
 factice	factice	ADJ
 .	.	PUNCTsent
 la	le	DET
@@ -885,7 +885,7 @@ participer	participer	VERB
 sans	sans	ADP
 réserve	réserve	NOUN
 et	et	CCONJ
-de plein droit	de plein droit	ADP
+de plein droit	de plein droit	ADV
 »	»	PUNCTclause
 à	à	ADP
 l'	le	DET
@@ -1003,7 +1003,7 @@ chances	chance	NOUN
 de	de	ADP
 leur	leur	DET
 retour	retour	NOUN
-à l'avenir	à l'avenir	ADP
+à l'avenir	à l'avenir	ADV
 ;	;	PUNCTclause
 2	2	NUM
 °	°	SYM
@@ -1874,7 +1874,7 @@ ce	ce	PRON
 est	être	AUX
 à	à	ADP
 nous	nous	PRON
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 valoir	valoir	VERB
 dans	dans	ADP
 les	le	DET
@@ -1950,7 +1950,7 @@ cantonales	cantonal	ADJ
 et	et	CCONJ
 il	il	PRON
 est	être	AUX
-pour le moins	pour le moins	ADP
+pour le moins	pour le moins	ADV
 bizarre	bizarre	ADJ
 que	que	SCONJ
 un	un	DET
@@ -2025,8 +2025,8 @@ citée	citer	VERB
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-tout à fait	tout à fait	DET
-étranger	étranger	NOUN
+tout à fait	tout à fait	ADV
+étranger	étranger	ADJ
 .	.	PUNCTsent
 si	si	SCONJ
 il	il	PRON
@@ -2084,7 +2084,7 @@ du	du	ADP_DET
 «	«	PUNCTclause
 mal	mal	NOUN
 »	»	PUNCTclause
-en question	en question	PUNCT
+en question	en question	ADJ
 ,	,	PUNCTclause
 si	si	SCONJ
 ce	ce	PRON
@@ -2131,7 +2131,7 @@ de	de	ADP
 union	union	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 à	à	ADP
@@ -2160,7 +2160,7 @@ de	de	ADP
 gras	gras	NOUN
 pâturages	pâturage	NOUN
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 «	«	PUNCTclause
@@ -2290,7 +2290,7 @@ changera	changer	VERB
 rien	rien	PRON
 .	.	PUNCTsent
 (	(	PUNCTclause
-à moins que	à moins que	PUNCT
+à moins que	à moins que	SCONJ
 notre	notre	DET
 isolement	isolement	NOUN
 ne	ne	ADV

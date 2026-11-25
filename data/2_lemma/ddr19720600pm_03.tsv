@@ -46,13 +46,13 @@ celui	celui	PRON
 de	de	ADP
 culture	culture	NOUN
 ;	;	PUNCTclause
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 peu	peu	ADV
 que	que	SCONJ
 l'on	on	PRON
 emploie	employer	VERB
 avec	avec	ADP
-autant de	autant de	ADP
+autant de	autant de	DET
 irréflexion	irréflexion	NOUN
 .	.	PUNCTsent
 une	un	DET
@@ -208,8 +208,8 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 de	de	ADP
-prendre connaissance	prendre connaissance	NOUN
-si l'on veut	si l'on veut	PUNCT
+prendre connaissance	prendre connaissance	VERB
+si l'on veut	si l'on veut	ADV
 être	être	AUX
 un	un	DET
 «	«	PUNCTclause
@@ -246,12 +246,12 @@ distinction	distinction	NOUN
 que	que	PRON
 l'on	on	PRON
 acquiert	acquérir	VERB
-en partie	en partie	DET
+en partie	en partie	ADV
 par	par	ADP
 l'	le	DET
 étude	étude	NOUN
 ,	,	PUNCTclause
-en partie	en partie	NOUN
+en partie	en partie	ADV
 par	par	ADP
 le	le	DET
 rang	rang	NOUN
@@ -306,14 +306,14 @@ classe	classe	NOUN
 .	.	PUNCTsent
 en somme	en somme	ADV
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 se	se	PRON
 accorde	accorder	VERB
 ,	,	PUNCTclause
 ou	ou	CCONJ
 se	se	PRON
 accorderait	accorder	VERB
-le cas échéant	le cas échéant	PUNCT
+le cas échéant	le cas échéant	ADV
 —	—	PUNCTclause
 car	car	CCONJ
 la plupart	la plupart	PRON
@@ -398,7 +398,7 @@ spirituel	spirituel	ADJ
 et	et	CCONJ
 de	de	ADP
 puissance	puissance	NOUN
-en marche	en marche	PUNCT
+en marche	en marche	ADJ
 .	.	PUNCTsent
 pour	pour	ADP
 reprendre	reprendre	VERB
@@ -434,7 +434,7 @@ production	production	NOUN
 ↵↵	↵↵	PUNCTstruct
 or	or	NOUN
 si	si	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 commence	commencer	VERB
 à	à	ADP
 distinguer	distinguer	VERB
@@ -551,9 +551,9 @@ sous-consommation	sous-consommation	NOUN
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 dilemme	dilemme	NOUN
-que	que	PRON
+que	que	SCONJ
 nous	nous	PRON
 pose	poser	VERB
 le	le	DET
@@ -721,7 +721,7 @@ initiés	initié	NOUN
 qui	qui	PRON
 se	se	PRON
 considèrent	considérer	VERB
-les uns les autres	les uns les autres	DET
+les uns les autres	les uns les autres	PRON
 avec	avec	ADP
 méfiance	méfiance	NOUN
 et	et	CCONJ
@@ -773,7 +773,7 @@ mystères	mystère	NOUN
 dont	dont	PRON
 il	il	PRON
 croit	croire	VERB
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 ils	ils	PRON
 détiennent	détenir	VERB
 les	le	DET
@@ -963,7 +963,7 @@ et	et	CCONJ
 Sorel	Sorel	PROPN
 —	—	PUNCTclause
 restera	rester	VERB
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 témoignage	témoignage	NOUN
 important	important	ADJ
 de	de	ADP
@@ -985,7 +985,7 @@ aussi	aussi	ADV
 que	que	SCONJ
 il	il	PRON
 est	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 définir	définir	VERB
 une	un	DET
@@ -1050,7 +1050,7 @@ acte	acte	NOUN
 ,	,	PUNCTclause
 en passant	en passant	ADV
 ,	,	PUNCTclause
-de ce fait	de ce fait	SCONJ
+de ce fait	de ce fait	ADV
 :	:	PUNCTclause
 le	le	DET
 prophète	prophète	NOUN
@@ -1177,7 +1177,7 @@ des	un	ADP_DET
 fins	fin	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 la	le	DET
 vigueur	vigueur	NOUN
 de	de	ADP
@@ -1262,7 +1262,7 @@ prétend	prétendre	VERB
 remplacer	remplacer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 culture	culture	NOUN
 bourgeoise	bourgeois	ADJ
@@ -1280,8 +1280,8 @@ bourgeoise	bourgeois	ADJ
 ,	,	PUNCTclause
 on	on	PRON
 est	être	AUX
-en droit de	en droit de	ADP
-supposé que	supposé que	ADP
+en droit de	en droit de	ADJ
+supposé que	supposé que	SCONJ
 cette	ce	DET
 culture	culture	NOUN
 procède	procéder	VERB
@@ -1307,7 +1307,7 @@ début	début	NOUN
 du	du	ADP_DET
 14e	14e	ADJ
 siècle	siècle	NOUN
-la première	la première	PUNCT
+la première	la première	PRON
 accession	accession	NOUN
 de	de	ADP
 une	un	DET
@@ -1470,7 +1470,7 @@ et	et	CCONJ
 l'	le	DET
 église	église	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 directrice	directeur	NOUN
 du	du	ADP_DET
 devoir	devoir	NOUN
@@ -1541,7 +1541,7 @@ une	un	DET
 révolution	révolution	NOUN
 radicale	radical	ADJ
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 le	le	DET
 travail	travail	NOUN
 du	du	ADP_DET
@@ -1637,7 +1637,7 @@ siècle	siècle	NOUN
 suivant	suivant	ADJ
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-dès l'instant où	dès l'instant où	ADP
+dès l'instant où	dès l'instant où	SCONJ
 la	le	DET
 bourgeoisie	bourgeoisie	NOUN
 se	se	PRON
@@ -1677,7 +1677,7 @@ encore	encore	ADV
 de	de	ADP
 Man	Man	PROPN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 longuement	longuement	ADV
 ,	,	PUNCTclause
 la	le	DET
@@ -1688,7 +1688,7 @@ la	le	DET
 peine	peine	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 cette	ce	DET
 classe	classe	NOUN
 (	(	PUNCTclause
@@ -1774,7 +1774,7 @@ au	au	ADP_DET
 pouvoir	pouvoir	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 style	style	NOUN
@@ -1805,7 +1805,7 @@ chute	chute	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 mirent	mettre	VERB
-en majeure partie	en majeure partie	ADP
+en majeure partie	en majeure partie	ADV
 à	à	ADP
 placer	placer	VERB
 leurs	leur	DET
@@ -1970,7 +1970,7 @@ révolution	révolution	NOUN
 ↵↵	↵↵	PUNCTstruct
 ils	ils	PRON
 pouvaient	pouvoir	VERB
-d'autant moins	d'autant moins	ADP
+d'autant moins	d'autant moins	ADV
 l'	le	DET
 éviter	éviter	VERB
 que	que	SCONJ
@@ -2252,7 +2252,7 @@ rabaisse	rabaisser	VERB
 le	le	DET
 travail	travail	NOUN
 .	.	PUNCTsent
-ce faisant	ce faisant	PUNCT
+ce faisant	ce faisant	ADV
 elle	elle	PRON
 adopte	adopter	VERB
 une	un	DET
@@ -2466,11 +2466,11 @@ spirituel	spirituel	ADJ
 la	le	DET
 description	description	NOUN
 historique	historique	ADJ
-de-ci de-là	de-ci de-là	PUNCT
+de-ci de-là	de-ci de-là	ADV
 Man	Man	PROPN
 se	se	PRON
 fonde	fonder	VERB
-en dernière analyse	en dernière analyse	PUNCT
+en dernière analyse	en dernière analyse	ADV
 sur	sur	ADP
 une	un	DET
 thèse	thèse	NOUN
@@ -2516,7 +2516,7 @@ antagonismes	antagonisme	NOUN
 .	.	PUNCTsent
 il	il	PRON
 accorde	accorder	VERB
-autant de	autant de	ADP
+autant de	autant de	DET
 importance	importance	NOUN
 aux	au	ADP_DET
 facteurs	facteur	NOUN
@@ -2526,7 +2526,7 @@ l'	le	DET
 histoire	histoire	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-par là même	par là même	ADP
+par là même	par là même	ADV
 sa	son	DET
 critique	critique	NOUN
 se	se	PRON
@@ -2652,8 +2652,8 @@ soutenir	soutenir	VERB
 que	que	SCONJ
 ce	ce	PRON
 est	être	AUX
-au fond	au fond	PUNCT
-la même	la même	DET
+au fond	au fond	ADV
+la même	la même	PRON
 éthique	éthique	ADJ
 qui	qui	PRON
 fait	faire	VERB

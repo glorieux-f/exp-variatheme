@@ -377,7 +377,7 @@ le	le	DET
 prisonnier	prisonnier	NOUN
 de	de	ADP
 un	un	DET
-au-delà de	au-delà de	NOUN
+au-delà de	au-delà de	ADP
 jour	jour	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -475,7 +475,7 @@ tous deux	tous deux	PRON
 ont	avoir	AUX
 l'	le	DET
 épée	épée	NOUN
-à la main	à la main	PUNCT
+à la main	à la main	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ou	ou	CCONJ
@@ -559,7 +559,7 @@ saurait	savoir	VERB
 se	se	PRON
 exprimer	exprimer	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 en termes de	en termes de	ADP
 histoire	histoire	NOUN
@@ -589,7 +589,7 @@ enfin	enfin	ADV
 leur	leur	DET
 coexistence	coexistence	NOUN
 statistique	statistique	ADJ
-dans l'ensemble	dans l'ensemble	PUNCT
+dans l'ensemble	dans l'ensemble	ADV
 de	de	ADP
 une	un	DET
 société	société	NOUN
@@ -603,17 +603,17 @@ nôtre	nôtre	PRON
 l'	le	DET
 éthique	éthique	NOUN
 condamne	condamner	VERB
-en principe	en principe	ADP
+en principe	en principe	ADV
 les	le	DET
 deux	deux	NUM
 mythes	mythe	NOUN
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 exige	exiger	VERB
 que	que	SCONJ
-à tout le moins	à tout le moins	PUNCT
+à tout le moins	à tout le moins	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 l'un	l'un	PRON
@@ -629,8 +629,8 @@ soit	être	AUX
 au prix de	au prix de	ADP
 l'	le	DET
 exclusion	exclusion	NOUN
-d'autant plus	d'autant plus	ADP
-radicale	radical	NOUN
+d'autant plus	d'autant plus	ADV
+radicale	radical	ADJ
 de	de	ADP
 l'autre	l'autre	PRON
 .	.	PUNCTsent
@@ -695,7 +695,7 @@ en permanence	en permanence	ADV
 .	.	PUNCTsent
 au surplus	au surplus	ADV
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 conduite	conduite	NOUN
 ,	,	PUNCTclause
@@ -829,7 +829,7 @@ invention	invention	NOUN
 du	du	ADP_DET
 18e	18e	ADJ
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 ce	ce	PRON
 siècle	siècle	NOUN
 a	avoir	AUX
@@ -870,7 +870,7 @@ qui	qui	PRON
 lui	lui	PRON
 a	avoir	AUX
 imprimé	imprimer	VERB
-pour toujours	pour toujours	ADP
+pour toujours	pour toujours	ADV
 ces	ce	DET
 deux	deux	NUM
 traits	trait	NOUN
@@ -984,7 +984,7 @@ de	de	ADP
 la	le	DET
 nation	nation	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 retour	retour	NOUN
 de	de	ADP
@@ -1297,14 +1297,14 @@ paysan	paysan	NOUN
 Mazetto	Mazetto	PROPN
 semble	sembler	VERB
 savoir	savoir	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ce	ce	PRON
 que	que	PRON
 il	il	PRON
 en	en	PRON
 est	être	AUX
 .	.	PUNCTsent
-en ce sens	en ce sens	NOUN
+en ce sens	en ce sens	ADV
 ,	,	PUNCTclause
 uniquement	uniquement	ADV
 ,	,	PUNCTclause
@@ -1421,7 +1421,7 @@ au	au	ADP_DET
 mariage	mariage	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-au point	au point	PUNCT
+au point	au point	ADJ
 de	de	ADP
 départ	départ	NOUN
 de	de	ADP
@@ -1512,8 +1512,8 @@ de	de	ADP
 soit	être	AUX
 positive	positif	ADJ
 pour	pour	ADP
-l'une et l'autre	l'une et l'autre	DET
-des	un	DET
+l'une et l'autre	l'une et l'autre	PRON
+des	un	ADP_DET
 personnes	personne	NOUN
 composant	composer	VERB
 le	le	DET
@@ -1676,7 +1676,7 @@ renier	renier	VERB
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 mythes	mythe	NOUN
 se	se	PRON
@@ -2204,7 +2204,7 @@ fins	fin	NOUN
 de	de	ADP
 nos	nos	DET
 vies	vie	NOUN
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 survivre	survivre	VERB
 ,	,	PUNCTclause
 travailler	travailler	VERB
@@ -2266,7 +2266,7 @@ veut	vouloir	VERB
 la	le	DET
 durée	durée	NOUN
 :	:	PUNCTclause
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 naturel	naturel	ADJ
 que	que	SCONJ
 les	le	DET
@@ -2291,9 +2291,9 @@ naît	naître	VERB
 l'	le	DET
 ennui	ennui	NOUN
 :	:	PUNCTclause
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 beaucoup	beaucoup	ADV
-les	le_PRON	PRON
+les	le	DET
 confondent	confondre	VERB
 .	.	PUNCTsent
 je	je	PRON
@@ -2375,7 +2375,7 @@ la	le	DET
 durée	durée	NOUN
 ,	,	PUNCTclause
 l'autre	l'autre	PRON
-en fait	en fait	PRON
+en fait	en fait	ADV
 fi	fi	INTJ
 .	.	PUNCTsent
 l'un	l'un	PRON
@@ -2547,7 +2547,7 @@ vois	voir	VERB
 une	un	DET
 autre	autre	ADJ
 :	:	PUNCTclause
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 raisonnable	raisonnable	ADJ
 que	que	SCONJ
 de	de	ADP
@@ -2734,7 +2734,7 @@ don	don	NOUN
 ,	,	PUNCTclause
 entre	entre	ADP
 humains	humain	NOUN
-tout au moins	tout au moins	ADJ
+tout au moins	tout au moins	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 l'on	on	PRON
@@ -2766,7 +2766,7 @@ vient	venir	VERB
 de	de	ADP
 citer	citer	VERB
 reste	rester	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 court	court	ADJ
 .	.	PUNCTsent
 il	il	PRON
@@ -2917,7 +2917,7 @@ phantasme	phantasme	NOUN
 excitant	excitant	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 impératrice	impératrice	NOUN
 Théodora	Théodora	PROPN
@@ -3089,7 +3089,7 @@ absurdité	absurdité	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 mettrait	mettre	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 répondre	répondre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3214,7 +3214,7 @@ sa	son	DET
 vie	vie	NOUN
 est	être	AUX
 seul	seul	ADJ
-en mesure de	en mesure de	PUNCT
+en mesure de	en mesure de	ADJ
 condamner	condamner	VERB
 Don Juan	Don Juan	PROPN
 et	et	CCONJ
@@ -3284,7 +3284,7 @@ faux	faux	ADJ
 .	.	PUNCTsent
 il	il	PRON
 ne	ne	ADV
-en fait	en fait	VERB
+en fait	en fait	ADV
 pas	pas	ADV
 moins	moins	ADV
 ricaner	ricaner	VERB
@@ -3427,7 +3427,7 @@ dualité	dualité	NOUN
 est	être	AUX
 normale	normal	ADJ
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elle	elle	PRON
 ne	ne	ADV
 fait	faire	VERB
@@ -3538,7 +3538,7 @@ synthèse	synthèse	NOUN
 des	un	ADP_DET
 protéines	protéine	NOUN
 .	.	PUNCTsent
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 les	le	DET
 deux	deux	NUM
 sont	être	AUX
@@ -3930,7 +3930,7 @@ reparaît	reparaître	VERB
 peu	peu	ADV
 après	après	ADV
 dans	dans	ADP
-le second	le second	DET
+le second	le second	PRON
 Zarathoustra	Zarathoustra	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -4498,7 +4498,7 @@ de	de	ADP
 servir	servir	VERB
 son	son	DET
 maître	maître	NOUN
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 il	il	PRON
 le	le	DET
 paye	paye	NOUN
@@ -4770,7 +4770,7 @@ une	un	DET
 parole	parole	NOUN
 qui	qui	PRON
 mettait	mettre	VERB
-en question	en question	ADP
+en question	en question	ADJ
 la	le	DET
 foi	foi	NOUN
 même	même	ADJ
@@ -4969,7 +4969,7 @@ ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
 dit	dire	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 avant	avant	ADP
 eux	eux	PRON
 ,	,	PUNCTclause

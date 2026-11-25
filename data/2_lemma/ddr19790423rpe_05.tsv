@@ -44,7 +44,7 @@ des	un	DET
 dynamiques	dynamique	ADJ
 du	du	ADP_DET
 vivant	vivant	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ils	ils	PRON
 sont	être	AUX
 menacés	menacer	VERB
@@ -123,7 +123,7 @@ de	de	ADP
 une	un	DET
 civilisation	civilisation	NOUN
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 prévision	prévision	NOUN
 des	un	ADP_DET
 conditions	condition	NOUN
@@ -444,7 +444,7 @@ de	de	ADP
 nos	nos	DET
 pays	pays	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ils	ils	PRON
 se	se	PRON
 sentent	sentir	VERB
@@ -718,7 +718,7 @@ aurait	avoir	VERB
 des	un	ADP_DET
 conséquences	conséquence	NOUN
 désastreuses	désastreux	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 :	:	PUNCTclause
 elle	elle	PRON
 pourrait	pouvoir	VERB
@@ -915,7 +915,7 @@ tous	tout	ADJ
 les	le	DET
 scientifiques	scientifique	NOUN
 ont	avoir	VERB
-dès maintenant	dès maintenant	VERB
+dès maintenant	dès maintenant	ADV
 pour	pour	ADP
 devoir	devoir	VERB
 de	de	ADP
@@ -998,7 +998,7 @@ finale	final	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ajoutons	ajouter	VERB
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 les	le	DET
 dommages	dommage	NOUN
 à	à	ADP
@@ -1104,7 +1104,7 @@ aura	avoir	AUX
 diminué	diminuer	VERB
 de	de	ADP
 moitié	moitié	NOUN
-à la fin	à la fin	ADP_DET
+à la fin	à la fin	ADV
 du	du	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
@@ -1329,7 +1329,7 @@ la	le	DET
 commission	commission	NOUN
 les	le	DET
 juge	juge	NOUN
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 «	«	PUNCTclause
 indissociables	indissociable	ADJ
 »	»	PUNCTclause
@@ -1494,7 +1494,7 @@ importatrices	importateur	ADJ
 de	de	ADP
 eau	eau	NOUN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 réserves	réserve	NOUN
 diminuent	diminuer	VERB
@@ -1538,7 +1538,7 @@ un	un	DET
 littoral	littoral	NOUN
 déjà	déjà	ADV
 fragile	fragile	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 d'autre part	d'autre part	ADV
 ,	,	PUNCTclause
@@ -1960,7 +1960,7 @@ des	un	ADP_DET
 le	le_PRON	PRON
 jeu	jeu	NOUN
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ,	,	PUNCTclause
 à	à	ADP
 ceci	ceci	PRON
@@ -2159,7 +2159,7 @@ fin	fin	NOUN
 de	de	ADP
 non-recevoir	non-recevoir	NOUN
 anticipée	anticiper	VERB
-dès l'instant où	dès l'instant où	ADP
+dès l'instant où	dès l'instant où	SCONJ
 une	un	DET
 solution	solution	NOUN
 communautaire	communautaire	ADJ
@@ -2338,7 +2338,7 @@ absolue	absolu	ADJ
 des	un	ADP_DET
 états	état	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ils	ils	PRON
 sont	être	AUX
 considérés	considérer	VERB
@@ -2388,7 +2388,7 @@ la	le	DET
 crise	crise	NOUN
 actuelle	actuel	ADJ
 est	être	AUX
-sans issue	sans issue	DET
+sans issue	sans issue	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 3	3	NUM
@@ -2679,7 +2679,7 @@ l'	le	DET
 abandon	abandon	NOUN
 des	un	ADP_DET
 surgénérateurs	surgénérateur	NOUN
-au profit de	au profit de	ADP_DET
+au profit de	au profit de	ADP
 sources	source	NOUN
 de	de	ADP
 énergie	énergie	NOUN
@@ -2693,8 +2693,8 @@ biologique	biologique	ADJ
 .	.	PUNCTsent
 l'	le	DET
 option	option	NOUN
-en faveur de	en faveur de	ADV
-surgénérateurs	surgénérateur	ADP
+en faveur de	en faveur de	ADP
+surgénérateurs	surgénérateur	NOUN
 serait	être	AUX
 en effet	en effet	ADV
 irréversible	irréversible	ADJ
@@ -2712,7 +2712,7 @@ traiter	traiter	VERB
 et	et	CCONJ
 à	à	ADP
 surveiller	surveiller	VERB
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 jusque	jusque	ADP
 à	à	ADP
 l'	le	DET
@@ -2950,7 +2950,7 @@ avant-garde	avant-garde	NOUN
 ;	;	PUNCTclause
 limitation	limitation	NOUN
 du	du	ADP_DET
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 étages	étage	NOUN
 ;	;	PUNCTclause
 rues	rue	NOUN
@@ -3048,7 +3048,7 @@ l'	le	DET
 environnement	environnement	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 ce	ce	DET
@@ -3076,8 +3076,8 @@ nos	nos	DET
 pays	pays	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
-mesure	mesure	NOUN
+la première	la première	PRON
+mesure	mesurer	VERB
 générale	général	ADJ
 indispensable	indispensable	ADJ
 étant	être	AUX
@@ -3100,9 +3100,9 @@ pays	pays	NOUN
 les	le	DET
 moins	moins	ADV
 exigeants	exigeant	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 (	(	PUNCTclause
-procédé	procédé	NOUN
+procédé	procéder	VERB
 auquel	auquel	ADP_PRON
 recourent	recourir	VERB
 habituellement	habituellement	ADV

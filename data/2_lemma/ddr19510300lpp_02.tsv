@@ -184,8 +184,8 @@ le	le_PRON	PRON
 pousse	pousser	VERB
 à	à	ADP
 faire	faire	VERB
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 son	son	DET
 père	père	NOUN
 :	:	PUNCTclause
@@ -321,7 +321,7 @@ guident	guider	VERB
 plus	plus	ADV
 le	le	DET
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 nos	nos	DET
 contemporains	contemporain	NOUN
 .	.	PUNCTsent
@@ -427,7 +427,7 @@ puisque	puisque	SCONJ
 tout	tout	PRON
 est	être	AUX
 possible	possible	ADJ
-en principe	en principe	PUNCT
+en principe	en principe	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 réponse	réponse	NOUN
@@ -536,8 +536,8 @@ avec	avec	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
 après	après	ADP
-la première	la première	DET
-guerre	guerre	NOUN
+la première	la première	PRON
+Guerre	Guerre	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 que	que	PRON
@@ -721,7 +721,7 @@ prêtes	prêt	ADJ
 fournir	fournir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 les	le	DET
 démocraties	démocratie	NOUN
 occidentales	occidental	ADJ
@@ -732,7 +732,7 @@ mesuré	mesurer	VERB
 leur	leur	DET
 carence	carence	NOUN
 fondamentale	fondamental	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 elles	elles	PRON
 ne	ne	ADV
@@ -826,7 +826,7 @@ description	description	NOUN
 du	du	ADP_DET
 stalinisme	stalinisme	NOUN
 .	.	PUNCTsent
-en conséquence	en conséquence	DET
+en conséquence	en conséquence	ADV
 ,	,	PUNCTclause
 je	je	PRON
 me	me	PRON
@@ -858,7 +858,7 @@ pourquoi	pourquoi	ADV
 tant de	tant de	DET
 hommes	homme	NOUN
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 fuyant	fuir	VERB
 une	un	DET
@@ -892,7 +892,7 @@ ordre	ordre	NOUN
 ,	,	PUNCTclause
 une	un	DET
 mise en ordre	mise en ordre	NOUN
-tout au moins	tout au moins	ADJ
+tout au moins	tout au moins	ADV
 .	.	PUNCTsent
 nous	nous	PRON
 touchons	toucher	VERB
@@ -983,8 +983,8 @@ je	je	PRON
 leur	leur	PRON
 dis	dire	VERB
 ,	,	PUNCTclause
-un peu	un peu	DET
-étonné	étonné	ADJ
+un peu	un peu	ADV
+étonné	étonner	VERB
 :	:	PUNCTclause
 —	—	PUNCTclause
 mais	mai	NOUN
@@ -1144,7 +1144,7 @@ loin de	loin de	ADP
 se	se	PRON
 sentir	sentir	VERB
 plus	plus	ADV
-à l'aise	à l'aise	PUNCT
+à l'aise	à l'aise	ADV
 dans	dans	ADP
 notre	notre	DET
 atmosphère	atmosphère	NOUN
@@ -1287,7 +1287,7 @@ le	le_PRON	PRON
 rassure	rassurer	VERB
 .	.	PUNCTsent
 et	et	CCONJ
-ce n'est pas que	ce n'est pas que	PRON
+ce n'est pas que	ce n'est pas que	SCONJ
 il	il	PRON
 aime	aimer	VERB
 la	le	DET
@@ -1467,7 +1467,7 @@ et	et	CCONJ
 en	en	ADP
 vertus	vertu	NOUN
 ,	,	PUNCTclause
-aussi longtemps que	aussi longtemps que	ADV
+aussi longtemps que	aussi longtemps que	SCONJ
 son	son	DET
 parti	parti	NOUN
 aura	avoir	VERB
@@ -1490,7 +1490,7 @@ qui	qui	PRON
 le	le_PRON	PRON
 poussent	pousser	VERB
 puissamment	puissamment	ADV
-en sens inverse	en sens inverse	PRON
+en sens inverse	en sens inverse	ADV
 de	de	ADP
 ses	son	DET
 revendications	revendication	NOUN
@@ -1637,7 +1637,7 @@ brève	bref	ADJ
 période	période	NOUN
 de	de	ADP
 transition	transition	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 pénible	pénible	ADJ
 mais	mais	CCONJ
 indispensable	indispensable	ADJ
@@ -1669,7 +1669,7 @@ de	de	ADP
 lui	lui	PRON
 montrer	montrer	VERB
 que	que	SCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ce	ce	PRON
 est	être	AUX
 justement	justement	ADV
@@ -1881,7 +1881,7 @@ plus ou moins	plus ou moins	ADV
 capitalistes	capitaliste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 un	un	DET
 certain	certain	ADJ
 minimum	minimum	NOUN
@@ -1894,7 +1894,7 @@ assuré	assurer	VERB
 tout	tout	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 il	il	PRON
 craindra	craindre	VERB
 de	de	ADP
@@ -1921,7 +1921,7 @@ former	former	VERB
 des	un	DET
 projets	projet	NOUN
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 l'	le_PRON	PRON
 homme	homme	NOUN
 moderne	moderne	ADJ
@@ -2003,7 +2003,7 @@ remède	remède	NOUN
 éducation	éducation	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 l'	le	DET
 essentiel	essentiel	ADJ
 du	du	ADP_DET
@@ -2228,7 +2228,7 @@ liberté	liberté	NOUN
 c'est-à-dire	c'est-à-dire	CCONJ
 la	le	DET
 remise	remise	NOUN
-en marche	en marche	PUNCT
+en marche	en marche	ADJ
 du	du	ADP_DET
 progrès	progrès	NOUN
 en	en	ADP
@@ -2358,7 +2358,7 @@ effets	effet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ceux	ceux	PRON
 qui	qui	PRON
 nous	nous	PRON
@@ -2492,7 +2492,7 @@ mais	mais	CCONJ
 morte	mourir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 on	on	PRON
 se	se	PRON
 attaque	attaquer	VERB
@@ -2747,7 +2747,7 @@ les	le	DET
 névrosés	névrosé	NOUN
 mentent	mentir	VERB
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 ils	ils	PRON
 affirment	affirmer	VERB
@@ -2757,7 +2757,7 @@ non seulement	non seulement	ADV
 de	de	ADP
 la	le	DET
 vérité	vérité	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 mais	mais	CCONJ
 aussi	aussi	ADV
 de	de	ADP

@@ -6,8 +6,8 @@
 # title = "[Compte rendu] Une histoire de la Réforme en France (15 décembre 1934)"
 
 ↵↵	↵↵	PUNCTstruct
-compte rendu	compte rendu	ADP_DET
-Une	Une	NUM
+compte rendu	compte rendu	NOUN
+une	un	DET
 histoire	histoire	NOUN
 de	de	ADP
 la	le	DET
@@ -181,7 +181,7 @@ vient	venir	VERB
 de	de	ADP
 mourir	mourir	VERB
 presque	presque	ADV
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 un	un	DET
 autre	autre	ADJ
 grand	grand	ADJ
@@ -224,8 +224,8 @@ réforme	réforme	NOUN
 France	France	PROPN
 .	.	PUNCTsent
 plus	plus	ADV
-encore que	encore que	ADV
-le premier	le premier	PUNCT
+encore que	encore que	SCONJ
+le premier	le premier	PRON
 tome	tome	NOUN
 de	de	ADP
 cet	ce	DET
@@ -240,7 +240,7 @@ de	de	ADP
 Nantes	Nantes	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-le second	le second	DET
+le second	le second	PRON
 tome	tome	NOUN
 qui	qui	PRON
 vient	venir	VERB
@@ -345,7 +345,7 @@ a	avoir	AUX
 réussi	réussir	VERB
 le	le	DET
 tour	tour	NOUN
-de force	de force	ADP
+de force	de force	ADV
 de	de	ADP
 parler	parler	VERB
 de	de	ADP
@@ -403,7 +403,7 @@ de	de	ADP
 la	le	DET
 réforme	réforme	NOUN
 comme	comme	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 conquêtes	conquête	NOUN
 de	de	ADP
 la	le	DET
@@ -418,7 +418,7 @@ de	de	ADP
 la	le	DET
 foi	foi	NOUN
 .	.	PUNCTsent
-ceci dit	ceci dit	PRON
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 l'on	on	PRON
 ne	ne	ADV
@@ -516,7 +516,7 @@ leur	leur	DET
 brûlante	brûlant	ADJ
 saveur	saveur	NOUN
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 excitant	exciter	VERB
 pour	pour	ADP
 l'	le	DET
@@ -662,7 +662,7 @@ nouveaux	nouveau	ADJ
 pour	pour	ADP
 la plupart	la plupart	PRON
 ,	,	PUNCTclause
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 rassemblés	rassembler	VERB
 pour	pour	ADP
 la première fois	la première fois	ADV
@@ -839,7 +839,7 @@ faire	faire	VERB
 de	de	ADP
 la	le	DET
 France	France	PROPN
-la première	la première	PUNCT
+la première	la première	PRON
 organisatrice	organisateur	NOUN
 de	de	ADP
 une	un	DET
@@ -865,7 +865,7 @@ papal	papal	ADJ
 introduisent	introduire	VERB
 en	en	ADP
 France	France	PROPN
-au début	au début	PUNCT
+au début	au début	ADV
 du	du	ADP_DET
 17e	17e	ADJ
 siècle	siècle	NOUN
@@ -1012,7 +1012,7 @@ mesures	mesure	NOUN
 de	de	ADP
 «	«	PUNCTclause
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 »	»	PUNCTclause
 prises	priser	VERB
 par	par	ADP
@@ -1201,7 +1201,7 @@ vieilli	vieillir	VERB
 Viénot	Viénot	PROPN
 cite	citer	VERB
 ,	,	PUNCTclause
-à ce propos	à ce propos	DET
+à ce propos	à ce propos	ADV
 ,	,	PUNCTclause
 un	un	DET
 texte	texte	NOUN
@@ -1380,7 +1380,7 @@ rage	rage	NOUN
 ?	?	PUNCTsent
 certes	certes	ADV
 ,	,	PUNCTclause
-ni l'un ni l'autre	ni l'un ni l'autre	ADP
+ni l'un ni l'autre	ni l'un ni l'autre	PRON
 ne	ne	ADV
 empêchera	empêcher	VERB
 que	que	ADV
@@ -1544,7 +1544,7 @@ cette	ce	DET
 lecture	lecture	NOUN
 plus	plus	ADV
 édifié	édifier	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 révolté	révolter	VERB
 .	.	PUNCTsent
 mais	mais	CCONJ

@@ -486,8 +486,8 @@ grands	grand	ADJ
 écrivains	écrivain	NOUN
 Europe	Europe	PROPN
 de	de	ADP
-la première	la première	DET
-moitié	moitié	NOUN
+la première	la première	PRON
+moitié	moitié	ADV
 du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
@@ -539,8 +539,8 @@ Dante	Dante	PROPN
 1308	1308	NUM
 ,	,	PUNCTclause
 comme	comme	ADP
-le premier	le premier	PUNCT
-manifeste	manifeste	NOUN
+le premier	le premier	PRON
+manifeste	manifester	VERB
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 philosophique	philosophique	ADJ
@@ -640,7 +640,7 @@ pape	pape	NOUN
 Anagni	Anagni	PROPN
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 que	que	SCONJ
 il	il	PRON
@@ -995,7 +995,7 @@ Silvius	Silvius	PROPN
 au	au	ADP_DET
 pontificat	pontificat	NOUN
 .	.	PUNCTsent
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1301,7 +1301,7 @@ telles	tel	DET
 que	que	SCONJ
 «	«	PUNCTclause
 solidarités	solidarité	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
 «	«	PUNCTclause
@@ -1943,7 +1943,7 @@ européocentrisme	européocentrisme	NOUN
 ne	ne	ADV
 le	le	DET
 cède	céder	VERB
-en rien	en rien	ADP
+en rien	en rien	ADV
 à	à	ADP
 celui	celui	PRON
 de	de	ADP
@@ -2104,8 +2104,8 @@ et	et	CCONJ
 pourtant	pourtant	ADV
 ,	,	PUNCTclause
 durant	durant	ADP
-le premier	le premier	DET
-tiers	tiers	NOUN
+le premier	le premier	PRON
+tiers	tiers	ADJ
 du	du	ADP_DET
 20e	20e	ADJ
 siècle	siècle	NOUN
@@ -2343,7 +2343,7 @@ ou	ou	CCONJ
 seulement	seulement	ADV
 à	à	ADP
 influencer	influencer	VERB
-si peu que	si peu que	ADP
+si peu que	si peu que	SCONJ
 ce	ce	PRON
 soit	être	AUX
 la	le	DET
@@ -2403,7 +2403,7 @@ encore	encore	ADV
 peu	peu	ADV
 connus	connaître	VERB
 —	—	PUNCTclause
-et pour cause	et pour cause	PUNCT
+et pour cause	et pour cause	ADV
 :	:	PUNCTclause
 ils	ils	PRON
 ont	avoir	VERB
@@ -2815,7 +2815,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 confrontation	confrontation	NOUN
 des	un	ADP_DET
 intellectuels	intellectuel	NOUN
@@ -2895,7 +2895,7 @@ principales	principal	ADJ
 ont	avoir	AUX
 été	être	AUX
 reprises	reprendre	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 (	(	PUNCTclause
 notamment	notamment	ADV
@@ -3142,7 +3142,7 @@ les	le	DET
 finalités	finalité	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-à tout le moins	à tout le moins	ADP
+à tout le moins	à tout le moins	ADV
 les	le	DET
 conclusions	conclusion	NOUN
 .	.	PUNCTsent
@@ -3214,7 +3214,7 @@ de	de	ADP
 la	le	DET
 culture	culture	NOUN
 :	:	PUNCTclause
-l'un et l'autre	l'un et l'autre	PUNCT
+l'un et l'autre	l'un et l'autre	PRON
 seront	être	AUX
 inaugurés	inaugurer	VERB
 deux	deux	NUM
@@ -3323,7 +3323,7 @@ un	un	DET
 temps	temps	NOUN
 qui	qui	PRON
 ,	,	PUNCTclause
-à dire vrai	à dire vrai	DET
+à dire vrai	à dire vrai	ADV
 ,	,	PUNCTclause
 me	me	PRON
 manque	manquer	VERB
@@ -3344,7 +3344,7 @@ congrès	congrès	NOUN
 (	(	PUNCTclause
 150	150	NUM
 personnes	personne	NOUN
-au plus	au plus	PUNCT
+au plus	au plus	ADV
 ,	,	PUNCTclause
 contre	contre	ADP
 300	300	NUM
@@ -3497,7 +3497,7 @@ la	le	DET
 lecture	lecture	NOUN
 des	un	ADP_DET
 romans	roman	NOUN
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 ,	,	PUNCTclause
 ni	ni	CCONJ
 comme	comme	SCONJ
@@ -3986,7 +3986,7 @@ défendre	défendre	VERB
 la	le	DET
 culture	culture	NOUN
 France	France	PROPN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 telle	tel	DET
 ?	?	PUNCTsent
 à	à	ADP
@@ -4034,12 +4034,12 @@ il	il	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 plus	plus	ADV
-être question de	être question de	ADP
+être question de	être question de	VERB
 une	un	DET
 culture	culture	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 de	de	ADP
 une	un	DET
 culture	culture	NOUN
@@ -4256,7 +4256,7 @@ côté	côté	NOUN
 ↵↵	↵↵	PUNCTstruct
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 Sartre	Sartre	PROPN
 déclare	déclarer	VERB
 que	que	SCONJ

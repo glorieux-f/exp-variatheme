@@ -347,7 +347,7 @@ dialogue	dialogue	NOUN
 dont	dont	PRON
 nous	nous	PRON
 cherchons	chercher	VERB
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 les	le	DET
 bases	base	NOUN
 ,	,	PUNCTclause
@@ -361,7 +361,7 @@ elles	elles	PRON
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
 éliminerons	éliminer	VERB
-par principe	par principe	ADP
+par principe	par principe	ADV
 toutes	tout	ADJ
 les	le	DET
 propositions	proposition	NOUN
@@ -495,7 +495,7 @@ professionnels	professionnel	ADJ
 ,	,	PUNCTclause
 etc.	etc.	NOUN
 ↵↵	↵↵	PUNCTstruct
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 intellectuels	intellectuel	ADJ
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -524,7 +524,7 @@ aussi	aussi	ADV
 que	que	SCONJ
 il	il	PRON
 est	être	AUX
-hors de question	hors de question	ADV
+hors de question	hors de question	ADJ
 que	que	SCONJ
 elles	elles	PRON
 puissent	pouvoir	VERB
@@ -645,7 +645,7 @@ il	il	PRON
 faut	falloir	VERB
 donc	donc	ADV
 trouver	trouver	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 imaginer	imaginer	VERB
 d'autres	d'autre	PRON
@@ -676,7 +676,7 @@ par	par	ADP
 de	de	DET
 telles	tel	PRON
 données	donner	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 la	le	DET
 base	base	NOUN
@@ -729,7 +729,7 @@ est	être	AUX
 également	également	ADV
 une	un	DET
 donnée	donnée	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 elle	elle	PRON
 nous	nous	PRON
@@ -752,9 +752,9 @@ tenté	tenter	VERB
 ,	,	PUNCTclause
 —	—	PUNCTclause
 et	et	CCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 doit	devoir	VERB
-l'	le_PRON	PRON
+l'	le	DET
 être	être	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -847,7 +847,7 @@ et	et	CCONJ
 la	le	DET
 propagande	propagande	NOUN
 dans	dans	ADP
-l'un ou l'autre	l'un ou l'autre	DET
+l'un ou l'autre	l'un ou l'autre	PRON
 camp	camp	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1306,7 +1306,7 @@ pour	pour	ADP
 une	un	DET
 première	premier	ADJ
 rencontre	rencontre	NOUN
-en tout cas	en tout cas	ADP_DET
+en tout cas	en tout cas	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1325,8 +1325,8 @@ Europe	Europe	PROPN
 étant	être	AUX
 tous	tout	ADJ
 choisis	choisir	VERB
-en dehors de	en dehors de	ADV
-partis	partir	VERB
+en dehors de	en dehors de	ADP
+partis	parti	NOUN
 communisme	communisme	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -1363,7 +1363,7 @@ conformément	conformément	ADV
 aux	au	ADP_DET
 principes	principe	NOUN
 en vigueur	en vigueur	ADV
-de part et d'autre	de part et d'autre	PUNCT
+de part et d'autre	de part et d'autre	ADV
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1402,7 +1402,7 @@ elle-même	elle-même	PRON
 ,	,	PUNCTclause
 soit	être	AUX
 huit	huit	NUM
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 .	.	PUNCTsent
 après	après	ADP
 élimination	élimination	NOUN
@@ -1411,8 +1411,8 @@ sujets	sujet	NOUN
 jugés	juger	VERB
 inopportuns	inopportun	ADJ
 par	par	ADP
-l'une ou l'autre	l'une ou l'autre	DET
-partie	partie	NOUN
+l'une ou l'autre	l'une ou l'autre	PRON
+partie	partir	VERB
 (	(	PUNCTclause
 ou	ou	CCONJ
 des	un	DET
@@ -1464,8 +1464,8 @@ tous	tout	ADJ
 sujets	sujet	NOUN
 considérés	considérer	VERB
 par	par	ADP
-l'une ou l'autre	l'une ou l'autre	DET
-partie	partie	NOUN
+l'une ou l'autre	l'une ou l'autre	PRON
+partie	partir	VERB
 comme	comme	ADP
 susceptibles	susceptible	ADJ
 de	de	ADP
@@ -1736,7 +1736,7 @@ connaître	connaître	VERB
 et	et	CCONJ
 à	à	ADP
 préciser	préciser	VERB
-de part et d'autre	de part et d'autre	PUNCT
+de part et d'autre	de part et d'autre	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 activités	activité	NOUN
@@ -1782,7 +1782,7 @@ littéraire	littéraire	ADJ
 pourraient	pouvoir	VERB
 être	être	AUX
 organisées	organiser	VERB
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 séances	séance	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1827,7 +1827,7 @@ nous	nous	PRON
 ignorons	ignorer	VERB
 aujourd'hui	aujourd'hui	ADV
 .	.	PUNCTsent
-dans ce cas	dans ce cas	NOUN
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
 souhaiterions	souhaiter	VERB
@@ -1890,7 +1890,7 @@ ce	ce	DET
 dialogue	dialogue	NOUN
 .	.	PUNCTsent
 répondons	répondre	VERB
-par avance	par avance	NOUN
+par avance	par avance	ADV
 en	en	ADP
 toute	toute	DET
 franchise	franchise	NOUN
@@ -1933,7 +1933,7 @@ par	par	ADP
 un	un	DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 intellectuels	intellectuel	ADJ
 soviétiques	soviétique	NOUN
 avec	avec	ADP
@@ -2139,14 +2139,14 @@ des	un	DET
 résultats	résultat	NOUN
 utiles	utile	ADJ
 pour	pour	ADP
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 ,	,	PUNCTclause
 rapproche	rapprocher	VERB
 mieux	mieux	ADV
 les	le	DET
 esprits	esprit	NOUN
 que	que	PRON
-n'importe quelle	n'importe quelle	PRON
+n'importe quelle	n'importe quelle	DET
 discussion	discussion	NOUN
 sur	sur	ADP
 les	le	DET
@@ -2195,7 +2195,7 @@ trouve	trouver	VERB
 être	être	AUX
 aussi	aussi	ADV
 celui	celui	PRON
-de beaucoup	de beaucoup	ADP_DET
+de beaucoup	de beaucoup	ADV
 de	de	ADP
 chercheurs	chercheur	NOUN
 Europe	Europe	PROPN
@@ -2271,14 +2271,14 @@ d'autres	d'autre	PRON
 de	de	ADP
 se	se	PRON
 poursuivre	poursuivre	VERB
-indépendamment de	indépendamment de	PUNCT
+indépendamment de	indépendamment de	ADP
 a priori	a priori	ADV
 idéologiques	idéologique	ADJ
 ou	ou	CCONJ
 politiques	politique	ADJ
 ,	,	PUNCTclause
 —	—	PUNCTclause
-quitte à ce que	quitte à ce que	PRON
+quitte à ce que	quitte à ce que	SCONJ
 chaque	chaque	DET
 partie	partie	NOUN
 tire	tirer	VERB
@@ -2538,7 +2538,7 @@ conclusions	conclusion	NOUN
 politiques	politique	ADJ
 absurdes	absurde	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 nous	nous	PRON
 proposons	proposer	VERB
 des	un	DET
@@ -2615,7 +2615,7 @@ dans	dans	ADP
 les	le	DET
 précautions	précaution	NOUN
 prises	priser	VERB
-de part et d'autre	de part et d'autre	PUNCT
+de part et d'autre	de part et d'autre	ADV
 pour	pour	ADP
 empêcher	empêcher	VERB
 que	que	SCONJ
@@ -2924,7 +2924,7 @@ la	le	DET
 nécessité	nécessité	NOUN
 de	de	ADP
 présenter	présenter	VERB
-de part et d'autre de	de part et d'autre de	DET
+de part et d'autre de	de part et d'autre de	ADP
 expositions	exposition	NOUN
 de	de	ADP
 livres	livre	NOUN
@@ -3075,7 +3075,7 @@ se	se	PRON
 verraient	voir	VERB
 obligés	obliger	VERB
 ,	,	PUNCTclause
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 de	de	ADP
 penser	penser	VERB
@@ -3106,7 +3106,7 @@ de	de	ADP
 sérieux	sérieux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-dans ce cas	dans ce cas	NOUN
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 les	le	DET
 intellectuels	intellectuel	ADJ
@@ -3249,7 +3249,7 @@ de	de	ADP
 totalement	totalement	ADV
 libres	libre	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 nous	nous	PRON
 sommes	être	AUX
 prêts	prêt	ADJ
@@ -3283,7 +3283,7 @@ désir	désir	NOUN
 de	de	ADP
 aboutir	aboutir	VERB
 à	à	ADP
-si peu que	si peu que	ADP
+si peu que	si peu que	SCONJ
 ce	ce	DET
 soit	être	AUX
 qui	qui	PRON
@@ -3295,7 +3295,7 @@ paix	paix	NOUN
 —	—	PUNCTclause
 objectif	objectif	NOUN
 proclamé	proclamer	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 par	par	ADP
 les	le	DET
 Soviétiques	Soviétiques	PROPN
@@ -3321,7 +3321,7 @@ de	de	ADP
 l'	le	DET
 intelligentsia	intelligentsia	NOUN
 soviétique	soviétique	ADJ
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 échanges	échange	NOUN
 culturels	culturel	ADJ
 —	—	PUNCTclause
@@ -3396,7 +3396,7 @@ seront	être	AUX
 donc	donc	ADV
 fatalement	fatalement	ADV
 mis	mettre	VERB
-au pas	au pas	PUNCT
+au pas	au pas	ADV
 ou	ou	CCONJ
 condamnés	condamner	VERB
 ,	,	PUNCTclause

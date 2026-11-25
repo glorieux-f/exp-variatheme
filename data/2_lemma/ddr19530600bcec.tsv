@@ -137,9 +137,9 @@ militants	militant	NOUN
 personne	personne_PRON	PRON
 ne	ne	ADV
 parle	parler	VERB
-plus de	plus de	ADP
-la	le	DET
-constitution	constitution	NOUN
+plus de	plus de	DET
+la	le_PRON	PRON
+Constitution	Constitution	PROPN
 .	.	PUNCTsent
 on	on	PRON
 ne	ne	ADV
@@ -288,7 +288,7 @@ elle	elle	PRON
 serait	être	AUX
 prête	prêt	ADJ
 à	à	ADP
-passer outre	passer outre	DET
+passer outre	passer outre	VERB
 ,	,	PUNCTclause
 sans	sans	ADP
 la	le	DET
@@ -358,7 +358,7 @@ l'	le	DET
 économie	économie	NOUN
 )	)	PUNCTclause
 sont	être	AUX
-sans issue	sans issue	DET
+sans issue	sans issue	ADJ
 dans	dans	ADP
 le	le	DET
 cadre	cadre	NOUN
@@ -429,7 +429,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-trop de	trop de	ADP
+trop de	trop de	DET
 gens	gens	NOUN
 posent	poser	VERB
 encore	encore	ADV
@@ -477,7 +477,7 @@ pourra	pouvoir	VERB
 jamais	jamais	ADV
 satisfaire	satisfaire	VERB
 .	.	PUNCTsent
-trop de	trop de	ADP
+trop de	trop de	DET
 gens	gens	NOUN
 refusent	refuser	VERB
 encore	encore	ADV
@@ -519,7 +519,7 @@ est	être	AUX
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
-trop de	trop de	ADP
+trop de	trop de	DET
 gens	gens	NOUN
 pensent	penser	VERB
 encore	encore	ADV
@@ -566,7 +566,7 @@ enfin	enfin	ADV
 et	et	CCONJ
 surtout	surtout	ADV
 ,	,	PUNCTclause
-trop de	trop de	ADP
+trop de	trop de	DET
 gens	gens	NOUN
 oublient	oublier	VERB
 que	que	SCONJ
@@ -619,7 +619,7 @@ agit	agir	VERB
 de	de	ADP
 sauver	sauver	VERB
 transcende	transcender	VERB
-par nature	par nature	ADP
+par nature	par nature	ADV
 les	le	DET
 intérêts	intérêt	NOUN
 de	de	ADP
@@ -1053,7 +1053,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 aujourd'hui	aujourd'hui	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -1080,7 +1080,7 @@ sinon	sinon	CCONJ
 par	par	ADP
 raison	raison	NOUN
 ,	,	PUNCTclause
-du moins	du moins	DET
+du moins	du moins	ADV
 par	par	ADP
 consigne	consigne	NOUN
 ;	;	PUNCTclause
@@ -1233,7 +1233,7 @@ réels	réel	ADJ
 elle	elle	PRON
 est	être	AUX
 tout à fait	tout à fait	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 je	je	PRON
 ne	ne	ADV
@@ -1250,8 +1250,8 @@ le	le	DET
 couronnement	couronnement	NOUN
 est	être	AUX
 tout à fait	tout à fait	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 la	le	DET
 somme	somme	NOUN
 des	un	ADP_DET
@@ -1416,9 +1416,9 @@ jamais	jamais	ADV
 ils	ils	PRON
 se	se	PRON
 déplacent	déplacer	VERB
-les uns les autres	les uns les autres	DET
+les uns les autres	les uns les autres	PRON
 ,	,	PUNCTclause
-tout au plus	tout au plus	PRON
+tout au plus	tout au plus	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
@@ -1462,8 +1462,8 @@ un	un	DET
 journal	journal	NOUN
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
-n'importe lequel	n'importe lequel	ADP
-au hasard	au hasard	NOUN
+n'importe lequel	n'importe lequel	PRON
+au hasard	au hasard	ADV
 .	.	PUNCTsent
 l'	le	DET
 éditorial	éditorial	NOUN
@@ -1991,7 +1991,7 @@ des	un	ADP_DET
 nationalistes	nationaliste	NOUN
 psychopathes	psychopathe	NOUN
 contre	contre	ADP
-n'importe quelle	n'importe quelle	NOUN
+n'importe quelle	n'importe quelle	DET
 forme	forme	NOUN
 de	de	ADP
 initiative	initiative	NOUN
@@ -2254,9 +2254,9 @@ armée	armée	NOUN
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
 pour	pour	ADP
-les uns et les autres	les uns et les autres	DET
-une	un	PRON
-armée	armé	ADJ
+les uns et les autres	les uns et les autres	PRON
+une	un	DET
+armée	armée	NOUN
 Russie	Russie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2308,7 +2308,7 @@ en	en	ADP
 quelques	quelque	DET
 mois	mois	NOUN
 :	:	PUNCTclause
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus de	plus de	DET
 engourdissement	engourdissement	NOUN
 de	de	ADP
@@ -2324,14 +2324,14 @@ diffusées	diffuser	VERB
 par	par	ADP
 Moscou	Moscou	PROPN
 ,	,	PUNCTclause
-un peu	un peu	DET
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 scepticisme	scepticisme	NOUN
 des	un	ADP_DET
 élites	élite	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 discrédit	discrédit	NOUN
 jeté	jeter	VERB
 par	par	ADP
@@ -2341,8 +2341,8 @@ les	le	DET
 institutions	institution	NOUN
 parlementaires	parlementaire	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 atlantisme	atlantisme	NOUN
 pour	pour	ADP
 ne	ne	ADV
@@ -2392,8 +2392,8 @@ motiver	motiver	VERB
 son	son	DET
 occupation	occupation	NOUN
 par	par	ADP
-l'un ou l'autre	l'un ou l'autre	DET
-empire	empire	NOUN
+l'un ou l'autre	l'un ou l'autre	PRON
+empire	empirer	VERB
 ,	,	PUNCTclause
 ou	ou	CCONJ
 par	par	ADP
@@ -2412,7 +2412,7 @@ que	que	SCONJ
 ils	ils	PRON
 se	se	PRON
 proposent	proposer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 nos	nos	DET
 usines	usine	NOUN
@@ -2431,7 +2431,7 @@ erreur	erreur	NOUN
 de	de	ADP
 diagnostic	diagnostic	NOUN
 ,	,	PUNCTclause
-tant mieux	tant mieux	ADV
+tant mieux	tant mieux	INTJ
 .	.	PUNCTsent
 mais	mais	CCONJ
 que	que	SCONJ
@@ -2485,7 +2485,7 @@ tel	tel	PRON
 destin	destin	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	ADP
+le premier	le premier	PRON
 venu	venir	VERB
 les	le	DET
 énumère	énumérer	VERB
@@ -2515,7 +2515,7 @@ religieuses	religieux	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 que	que	SCONJ
-l'une ou l'autre	l'une ou l'autre	DET
+l'une ou l'autre	l'une ou l'autre	PRON
 se	se	PRON
 manifeste	manifester	VERB
 sans	sans	ADP
@@ -2674,7 +2674,7 @@ redressement	redressement	NOUN
 possible	possible	ADJ
 réside	résider	VERB
 ,	,	PUNCTclause
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -2695,7 +2695,7 @@ l'	le	DET
 inconscience	inconscience	NOUN
 générale	général	ADJ
 annule	annuler	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 les	le	DET
 forces	force	NOUN
 que	que	PRON

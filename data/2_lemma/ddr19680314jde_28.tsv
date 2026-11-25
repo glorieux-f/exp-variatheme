@@ -441,7 +441,7 @@ seul	seul	ADJ
 et	et	CCONJ
 je	je	PRON
 connais	connaître	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 ping-pong	ping-pong	NOUN
 avec	avec	ADP
@@ -491,7 +491,7 @@ les	le	DET
 ponts	pont	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 saute	sauter	VERB
 dans	dans	ADP
 la	le	DET
@@ -648,7 +648,7 @@ ailleurs	ailleurs	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 soleil	soleil	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -1361,7 +1361,7 @@ distance	distance	NOUN
 de	de	ADP
 leur	leur	DET
 porte	porte	NOUN
-au début	au début	PUNCT
+au début	au début	ADV
 de	de	ADP
 la	le	DET
 rue	rue	NOUN
@@ -1485,7 +1485,7 @@ se	se	PRON
 est	être	AUX
 point	point	ADV
 passé	passer	VERB
-de jour	de jour	ADP
+de jour	de jour	ADV
 que	que	SCONJ
 on	on	PRON
 ne	ne	ADV
@@ -1666,7 +1666,7 @@ me	me	PRON
 empêche	empêcher	VERB
 de	de	ADP
 parler	parler	VERB
-à la dernière minute	à la dernière minute	PUNCT
+à la dernière minute	à la dernière minute	ADV
 .	.	PUNCTsent
 la	le	DET
 propagande	propagande	NOUN
@@ -1921,7 +1921,7 @@ fauteuil	fauteuil	NOUN
 vous	vous	PRON
 en	en	PRON
 savez	savoir	VERB
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 plus	plus	ADV
 que	que	SCONJ
 moi	moi	PRON
@@ -2038,8 +2038,8 @@ douzaine	douzaine	NOUN
 de	de	ADP
 centimètres	mètre	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
-tordue	tordu	ADJ
+un peu	un peu	ADV
+tordue	tordre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -2107,7 +2107,7 @@ machine à coudre	machine à coudre	NOUN
 entre	entre	ADP
 autres	autre	PRON
 .	.	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 monsieur	monsieur	NOUN
 ,	,	PUNCTclause
@@ -2414,7 +2414,7 @@ me	me	PRON
 a	avoir	AUX
 enrichi	enrichir	VERB
 .	.	PUNCTsent
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 ,	,	PUNCTclause
 mon	mon	DET
 assiette	assiette	NOUN
@@ -2556,7 +2556,7 @@ la	le	DET
 voiture	voiture	NOUN
 nous	nous	PRON
 suivra	suivre	VERB
-de loin	de loin	PUNCT
+de loin	de loin	ADV
 .	.	PUNCTsent
 devant	devant	ADP
 nous	nous	PRON
@@ -2937,7 +2937,7 @@ en	en	PRON
 compte	compter	VERB
 pas	pas	ADV
 moins	moins	ADV
-bon nombre de	bon nombre de	ADP
+bon nombre de	bon nombre de	DET
 noms	nom	NOUN
 Italie	Italie	PROPN
 ,	,	PUNCTclause
@@ -2990,7 +2990,7 @@ les	le	DET
 palaces	palace	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 événement	événement	NOUN
 mondain	mondain	ADJ
@@ -3121,8 +3121,8 @@ l'	le	DET
 Europe	Europe	PROPN
 centrale	central	ADJ
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
-citadin	citadin	ADJ
+rien de plus	rien de plus	ADV
+citadin	citadin	NOUN
 ,	,	PUNCTclause
 de plus	de plus	ADV
 cosmopolite	cosmopolite	ADJ
@@ -3350,7 +3350,7 @@ faible	faible	ADJ
 densité	densité	NOUN
 humaine	humain	ADJ
 .	.	PUNCTsent
-dans l'ensemble	dans l'ensemble	NOUN
+dans l'ensemble	dans l'ensemble	ADV
 du	du	ADP_DET
 monde	monde	NOUN
 ,	,	PUNCTclause
@@ -3365,7 +3365,7 @@ font	faire	VERB
 la	le	DET
 norme	norme	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 le	le	DET
 renversement	renversement	NOUN
 des	un	ADP_DET
@@ -3544,7 +3544,7 @@ que	que	SCONJ
 ici	ici	ADV
 ,	,	PUNCTclause
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 au	au	ADP_DET
 Canada	Canada	PROPN
 et	et	CCONJ
@@ -3736,7 +3736,7 @@ on	on	PRON
 la	le_PRON	PRON
 laisse	laisser	VERB
 remplie	rempli	ADJ
-aux trois quarts	aux trois quarts	PUNCT
+aux trois quarts	aux trois quarts	ADV
 quand	quand	SCONJ
 le	le	DET
 domestique	domestique	NOUN
@@ -3896,7 +3896,7 @@ jours	jour	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 facile	facile	ADJ
 .	.	PUNCTsent
 sa	son	DET
@@ -4034,7 +4034,7 @@ ni	ni	CCONJ
 rien	rien	PRON
 perdu	perdre	VERB
 ,	,	PUNCTclause
-pas même	pas même	DET
+pas même	pas même	ADV
 votre	votre	DET
 chemin	chemin	NOUN
 .	.	PUNCTsent
@@ -4139,7 +4139,7 @@ voir	voir	VERB
 ,	,	PUNCTclause
 le	le	DET
 cheval	cheval	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 ayant	avoir	AUX
 poussé	pousser	VERB
 le	le	DET
@@ -4748,7 +4748,7 @@ violent	violent	ADJ
 sous	sous	ADP
 un	un	DET
 ciel	ciel	NOUN
-en partie	en partie	ADP
+en partie	en partie	ADV
 voilé	voiler	VERB
 de	de	ADP
 une	un	DET
@@ -4757,7 +4757,7 @@ et	et	CCONJ
 grisâtre	grisâtre	ADJ
 nuée	nuée	NOUN
 ,	,	PUNCTclause
-en partie	en partie	NOUN
+en partie	en partie	ADV
 clair	clair	ADJ
 ,	,	PUNCTclause
 de	de	ADP
@@ -5229,7 +5229,7 @@ leur	leur	DET
 .	.	PUNCTsent
 »	»	PUNCTclause
 )	)	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 meneur	meneur	NOUN
 venu	venir	VERB
 les	le	DET
@@ -5518,7 +5518,7 @@ pire	pire	ADJ
 effet	effet	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 8	8	NUM
@@ -5922,7 +5922,7 @@ qui	qui	PRON
 disent	dire	VERB
 adieu	adieu	NOUN
 .	.	PUNCTsent
-l'un après l'autre	l'un après l'autre	ADP
+l'un après l'autre	l'un après l'autre	ADV
 les	le	DET
 œillets	œillet	NOUN
 lancés	lancer	VERB

@@ -180,7 +180,7 @@ signification	signification	NOUN
 de	de	ADP
 notre	notre	DET
 vie	vie	NOUN
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 notre	notre	DET
 mémoire	mémoire	NOUN
 individuelle	individuel	ADJ
@@ -189,7 +189,7 @@ vers	vers	ADP
 ce	ce	DET
 passé	passé	NOUN
 qui	qui	PRON
-sans relâche	sans relâche	PRON
+sans relâche	sans relâche	ADV
 se	se	PRON
 passe	passer	VERB
 en	en	ADP
@@ -212,7 +212,7 @@ de	de	ADP
 sens	sens	NOUN
 pour	pour	ADP
 nous	nous	PRON
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 .	.	PUNCTsent
 je	je	PRON
 voudrais	vouloir	VERB
@@ -448,7 +448,7 @@ parcs	parc	NOUN
 dans	dans	ADP
 chacune	chacune	PRON
 habiteront	habiter	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ses	son	DET
 fils	fils	NOUN
@@ -511,12 +511,12 @@ Bovétie	Bovétie	PROPN
 Areuse	Areuse	PROPN
 sera	être	AUX
 donc	donc	ADV
-le premier	le premier	DET
+le premier	le premier	PRON
 pôle	pôle	NOUN
 ,	,	PUNCTclause
 Grandchamp	Grandchamp	PROPN
 ,	,	PUNCTclause
-le second	le second	DET
+le second	le second	PRON
 .	.	PUNCTsent
 Dix	Dix	NUM
 minutes	minute	NOUN
@@ -1086,8 +1086,8 @@ début	début	NOUN
 éducative	éducatif	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
-influence	influence	NOUN
+la première	la première	PRON
+influence	influencer	VERB
 morave	morave	ADJ
 se	se	PRON
 exerce	exercer	VERB
@@ -1674,7 +1674,7 @@ ce	ce	DET
 couvent	couvent	NOUN
 protestant	protestant	ADJ
 —	—	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 de	de	ADP
 sa	son	DET
 sorte	sorte	NOUN
@@ -1686,7 +1686,7 @@ continent	continent	NOUN
 mon	mon	DET
 père	père	NOUN
 fut	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 chapelain	chapelain	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1770,7 +1770,7 @@ heure	heure	NOUN
 de	de	ADP
 prière	prière	NOUN
 .	.	PUNCTsent
-à ce sujet	à ce sujet	PUNCT
+à ce sujet	à ce sujet	ADV
 ,	,	PUNCTclause
 le	le	DET
 pasteur	pasteur	NOUN
@@ -1984,12 +1984,12 @@ Maine de Biran	Maine de Biran	PROPN
 ,	,	PUNCTclause
 Joubert	Joubert	PROPN
 et	et	CCONJ
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 Cioran	Cioran	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 un	un	DET
 écrivain	écrivain	NOUN
 de	de	ADP
@@ -2237,7 +2237,7 @@ sauve	sauf	ADJ
 (	(	PUNCTclause
 sinon	sinon	ADV
 sanctifie	sanctifier	VERB
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 …	…	PUNCTsent
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -2924,7 +2924,7 @@ l'	le	DET
 institut	institut	NOUN
 Rousseau	Rousseau	PROPN
 .	.	PUNCTsent
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 je	je	PRON
 voudrais	vouloir	VERB
 ajouter	ajouter	VERB
@@ -2939,14 +2939,14 @@ traits	trait	NOUN
 qui	qui	PRON
 lui	lui	PRON
 furent	être	AUX
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 particuliers	particulier	ADJ
 et	et	CCONJ
 personnels	personnel	ADJ
 que	que	SCONJ
 ils	ils	PRON
 sont	être	AUX
-en fait	en fait	SYM
+en fait	en fait	ADV
 paradoxaux	paradoxal	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3053,7 +3053,7 @@ fonde	fonder	VERB
 ans	an	NOUN
 à	à	ADP
 Neuchâtel	Neuchâtel	PROPN
-la première	la première	PUNCT
+la première	la première	PRON
 section	section	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -3069,7 +3069,7 @@ que	que	SCONJ
 il	il	PRON
 eût	avoir	AUX
 été	être	VERB
-à ce titre	à ce titre	ADP
+à ce titre	à ce titre	ADV
 là	là	ADV
 comme	comme	SCONJ
 à	à	ADP
@@ -3275,8 +3275,8 @@ qui	qui	PRON
 me	me	PRON
 paraît	paraître	VERB
 résumer	résumer	VERB
-au mieux	au mieux	ADP_DET
-les	le_PRON	PRON
+au mieux	au mieux	ADV
+les	le	DET
 apparentes	apparent	ADJ
 contradictions	contradiction	NOUN
 de	de	ADP
@@ -3351,7 +3351,7 @@ celle	celle	PRON
 que	que	PRON
 je	je	PRON
 tirais	tirer	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 au temps de	au temps de	ADP
 ma	mon	DET
@@ -3366,14 +3366,14 @@ de	de	ADP
 Spinoza	Spinoza	PROPN
 :	:	PUNCTclause
 «	«	PUNCTsent
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 les	le	DET
 choses	chose	NOUN
 particulières	particulier	ADJ
 ,	,	PUNCTclause
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 nous	nous	PRON
 connaissons	connaître	VERB
 Dieu	Dieu	PROPN
@@ -3431,7 +3431,7 @@ un	un	DET
 pacifiste	pacifiste	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 raisons	raison	NOUN
 que	que	SCONJ
 il	il	PRON
@@ -3499,7 +3499,7 @@ il	il	PRON
 se	se	PRON
 agit	agir	VERB
 bien	bien	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 réprimer	réprimer	VERB
 que	que	SCONJ
 de	de	ADP

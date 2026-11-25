@@ -252,7 +252,7 @@ les	le	DET
 astres	astre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 je	je	PRON
 ai	avoir	AUX
 borné	borner	VERB
@@ -274,9 +274,9 @@ ai	avoir	AUX
 choisi	choisir	VERB
 ces	ce	DET
 signes	signe	NOUN
-à dessein	à dessein	PUNCT
+à dessein	à dessein	ADV
 aussi	aussi	ADV
-divers	divers	ADJ
+divers	divers	DET
 et	et	CCONJ
 précis	précis	ADJ
 que	que	PRON
@@ -515,7 +515,7 @@ est	être	AUX
 que	que	SCONJ
 plus ou moins	plus ou moins	ADV
 fidèle	fidèle	ADJ
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 que	que	SCONJ
 elle	elle	PRON
 prépare	préparer	VERB
@@ -823,7 +823,7 @@ mènent	mener	VERB
 encore	encore	ADV
 une	un	DET
 vie	vie	NOUN
-à bien des égards	à bien des égards	ADP
+à bien des égards	à bien des égards	ADV
 plus	plus	ADV
 facile	facile	ADJ
 et	et	CCONJ
@@ -838,7 +838,7 @@ ont	avoir	AUX
 gardé	garder	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 possibilités	possibilité	NOUN
 dont	dont	PRON
 les	le	DET
@@ -898,8 +898,8 @@ dans	dans	ADP
 le	le	DET
 fond	fond	NOUN
 et	et	CCONJ
-dans l'ensemble	dans l'ensemble	DET
-cynique	cynique	NOUN
+dans l'ensemble	dans l'ensemble	ADV
+cynique	cynique	ADJ
 ,	,	PUNCTclause
 sceptique	sceptique	ADJ
 et	et	CCONJ
@@ -909,7 +909,7 @@ facilités	faciliter	VERB
 virtuelles	virtuel	ADJ
 et	et	CCONJ
 pessimisme	pessimisme	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 :	:	PUNCTclause
 ces	ce	DET
 deux	deux	NUM
@@ -942,7 +942,7 @@ se	se	PRON
 en	en	ADP
 vantent	vanter	VERB
 d'ailleurs	d'ailleurs	ADV
-de moins en moins	de moins en moins	PUNCT
+de moins en moins	de moins en moins	ADV
 .	.	PUNCTsent
 en	en	ADP
 France	France	PROPN
@@ -994,7 +994,7 @@ la	le	DET
 misère	misère	NOUN
 ne	ne	ADV
 est	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 à	à	ADP
 la	le	DET
 porte	porte	NOUN
@@ -1074,7 +1074,7 @@ ont	avoir	AUX
 sacrifié	sacrifier	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 possibilités	possibilité	NOUN
 théoriquement	théoriquement	ADV
 fort	fort	ADJ
@@ -1278,7 +1278,7 @@ se	se	PRON
 en	en	ADP
 plaignent	plaindre	VERB
 d'ailleurs	d'ailleurs	ADV
-de moins en moins	de moins en moins	PUNCT
+de moins en moins	de moins en moins	ADV
 .	.	PUNCTsent
 en	en	ADP
 Russie	Russie	PROPN
@@ -1363,7 +1363,7 @@ avenir	avenir	NOUN
 de	de	ADP
 joie	joie	NOUN
 et	et	CCONJ
-de force	de force	DET
+de force	de force	ADV
 .	.	PUNCTsent
 on	on	PRON
 a	avoir	AUX
@@ -1479,7 +1479,7 @@ est	être	AUX
 faite	faire	VERB
 .	.	PUNCTsent
 —	—	PUNCTclause
-au terme de	au terme de	PUNCT
+au terme de	au terme de	ADP
 libéralisme	libéralisme	NOUN
 ,	,	PUNCTclause
 à	à	ADP
@@ -2020,7 +2020,7 @@ affranchir	affranchir	VERB
 par	par	ADP
 la	le	DET
 mystique	mystique	ADJ
-au point	au point	NOUN
+au point	au point	ADJ
 de	de	ADP
 ne	ne	ADV
 plus	plus	ADV
@@ -2165,7 +2165,7 @@ sans	sans	ADP
 classe	classe	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 comprendre	comprendre	VERB
 ce	ce	DET
 temps	temps	NOUN
@@ -2195,11 +2195,11 @@ du	du	ADP_DET
 peuple	peuple	NOUN
 Russie	Russie	PROPN
 pour	pour	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 plan	plan	NOUN
 quinquennal	quinquennal	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 famine	famine	NOUN
 régnait	régner	VERB
@@ -2211,7 +2211,7 @@ et	et	CCONJ
 l'	le	DET
 écrasante	écrasant	ADJ
 majorité	majorité	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 l'	le	DET
 Allemagne	Allemagne	PROPN
 hitlérienne	hitlérien	ADJ
@@ -2550,7 +2550,7 @@ l'	le	DET
 individu	individu	NOUN
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	SCONJ
+rien que	rien que	ADV
 la	le	DET
 liberté	liberté	NOUN
 du	du	ADP_DET
@@ -2732,7 +2732,7 @@ siècle	siècle	NOUN
 mais	mais	CCONJ
 elle	elle	PRON
 agit	agir	VERB
-en sens inverse	en sens inverse	DET
+en sens inverse	en sens inverse	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 elle	elle	PRON
@@ -2792,7 +2792,7 @@ affirme	affirmer	VERB
 à nouveau	à nouveau	ADV
 l'	le	DET
 église	église	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 société	société	NOUN
 de	de	ADP
 ceux	ceux	PRON
@@ -2857,7 +2857,7 @@ tout	tout	ADJ
 cela	cela	PRON
 ne	ne	ADV
 est	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 prodromes	prodrome	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -2997,7 +2997,7 @@ reste	rester	VERB
 superficiel	superficiel	ADJ
 et	et	CCONJ
 arbitraire	arbitraire	ADJ
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 il	il	PRON
 ne	ne	ADV
 tient	tenir	VERB
@@ -3052,7 +3052,7 @@ filets	filet	NOUN
 papillons	papillon	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-par contre	par contre	NOUN
+par contre	par contre	ADV
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -3507,7 +3507,7 @@ sur	sur	ADP
 l'	le	DET
 Allemagne	Allemagne	PROPN
 ,	,	PUNCTclause
-tout au contraire	tout au contraire	ADJ
+tout au contraire	tout au contraire	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 si	si	SCONJ
@@ -3622,7 +3622,7 @@ leurs	leur	DET
 cérémonies	cérémonie	NOUN
 ,	,	PUNCTclause
 vibrer	vibrer	VERB
-à l'unisson	à l'unisson	ADP
+à l'unisson	à l'unisson	ADV
 de	de	ADP
 leur	leur	DET
 panique	panique	NOUN
@@ -3936,7 +3936,7 @@ mesure	mesure	NOUN
 de	de	ADP
 l'	le	DET
 homme	homme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 se	se	PRON
 possède	posséder	VERB

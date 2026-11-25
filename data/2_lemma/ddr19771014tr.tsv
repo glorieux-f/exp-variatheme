@@ -137,7 +137,7 @@ et	et	CCONJ
 Paris	Paris	PROPN
 ,	,	PUNCTclause
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 révolution	révolution	NOUN
 qui	qui	PRON
 soit	être	AUX
@@ -358,7 +358,7 @@ Napoléon	Napoléon	PROPN
 a	avoir	AUX
 fait	faire	VERB
 de	de	ADP
-la première	la première	DET
+la première	la première	PRON
 République	République	PROPN
 ,	,	PUNCTclause
 devenue	devenir	VERB
@@ -451,9 +451,9 @@ la	le	DET
 Révolution	Révolution	PROPN
 ,	,	PUNCTclause
 mis	mettre	VERB
-au point	au point	ADP_DET
+au point	au point	ADJ
 par	par	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 consul	consul	NOUN
 puis	puis	CCONJ
 par	par	ADP
@@ -695,7 +695,7 @@ révolution	révolution	NOUN
 prolétarienne	prolétarien	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 révolution	révolution	NOUN
 —	—	PUNCTclause
 France	France	PROPN
@@ -772,7 +772,7 @@ socialistes	socialiste	ADJ
 .	.	PUNCTsent
 de	de	ADP
 où	où	PRON
-la première	la première	DET
+la première	la première	PRON
 grande	grand	ADJ
 guerre	guerre	NOUN
 Europe	Europe	PROPN
@@ -836,7 +836,7 @@ contre-pied	contre-pied	NOUN
 des	un	ADP_DET
 résultats	résultat	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 :	:	PUNCTclause
 non seulement	non seulement	ADV
 elle	elle	PRON
@@ -929,7 +929,7 @@ août	août	NOUN
 et	et	CCONJ
 septembre	septembre	NOUN
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 année	année	NOUN
 ,	,	PUNCTclause
 a	avoir	AUX
@@ -939,7 +939,7 @@ les	le	DET
 révolutions	révolution	NOUN
 bourgeoises	bourgeois	ADJ
 ,	,	PUNCTclause
-jusqu'alors	jusqu'alors	DET
+jusqu'alors	jusqu'alors	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 ont	avoir	AUX
@@ -1152,7 +1152,7 @@ historique	historique	ADJ
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-par malheur	par malheur	NOUN
+par malheur	par malheur	ADV
 ,	,	PUNCTclause
 aux	au	ADP_DET
 yeux	œil	NOUN
@@ -1167,7 +1167,7 @@ nous	nous	PRON
 serons	être	VERB
 toujours	toujours	ADV
 «	«	PUNCTclause
-en ce moment	en ce moment	NOUN
+en ce moment	en ce moment	ADV
 »	»	PUNCTclause
 où	où	PRON
 la	le	DET
@@ -1333,7 +1333,7 @@ ne	ne	ADV
 l'	le_PRON	PRON
 a	avoir	AUX
 donné	donner	VERB
-en fait	en fait	DET
+en fait	en fait	ADV
 que	que	SCONJ
 aux	au	ADP_DET
 potentats	potentat	NOUN
@@ -1369,7 +1369,7 @@ décisions	décision	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
+la première	la première	PRON
 révolution	révolution	NOUN
 ,	,	PUNCTclause
 bourgeoise	bourgeois	ADJ
@@ -1382,8 +1382,8 @@ a	avoir	AUX
 donc	donc	ADV
 provoqué	provoquer	VERB
 ,	,	PUNCTclause
-un peu	un peu	DET
-plus d'une	plus d'une	PUNCT
+un peu	un peu	ADV
+plus d'une	plus d'une	DET
 siècle	siècle	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
@@ -1427,7 +1427,7 @@ militarisés	militariser	VERB
 ,	,	PUNCTclause
 ont	avoir	AUX
 mené	mener	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 à	à	ADP
 la	le	DET
 guerre	guerre	NOUN
@@ -1666,9 +1666,9 @@ les	le	DET
 sociétés	société	NOUN
 capitalistes	capitaliste	NOUN
 exactement	exactement	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 «	«	PUNCTclause
-idéaux	idéal	NOUN
+idéaux	idéal	ADJ
 »	»	PUNCTclause
 de	de	ADP
 production	production	NOUN
@@ -1733,7 +1733,7 @@ ceux	ceux	PRON
 que	que	PRON
 on	on	PRON
 nomme	nommer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 trop	trop	ADV
 facilement	facilement	ADV
 «	«	PUNCTclause
@@ -1764,10 +1764,10 @@ ne	ne	ADV
 seront	être	AUX
 libres	libre	ADJ
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ils	ils	PRON
 cesseront	cesser	VERB
 de	de	ADP
@@ -1868,7 +1868,7 @@ libérale	libéral	ADJ
 parce que	parce que	SCONJ
 chacun	chacun	PRON
 ,	,	PUNCTclause
-en fait	en fait	DET
+en fait	en fait	ADV
 ,	,	PUNCTclause
 sera	être	AUX
 plus	plus	ADV
@@ -1925,7 +1925,7 @@ de	de	ADP
 Lénine	Lénine	PROPN
 a	avoir	AUX
 été	être	AUX
-la même	la même	DET
+la même	la même	PRON
 que	que	SCONJ
 celle	celle	PRON
 des	un	ADP_DET

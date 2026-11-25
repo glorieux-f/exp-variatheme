@@ -21,7 +21,7 @@ vivre	vivre	VERB
 ,	,	PUNCTclause
 ne	ne	ADV
 est	être	AUX
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 un	un	DET
 art	art	NOUN
 de	de	ADP
@@ -418,7 +418,7 @@ très	très	ADV
 simple	simple	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 narquois	narquois	ADJ
 ils	ils	PRON
 me	me	PRON
@@ -433,7 +433,7 @@ me	me	PRON
 sentis	sentir	VERB
 nu	nu	ADJ
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 devait	devoir	VERB
 voir	voir	VERB
 en	en	ADP
@@ -531,7 +531,7 @@ rire	rire	VERB
 .	.	PUNCTsent
 cette	ce	DET
 amertume	amertume	NOUN
-au fond	au fond	ADJ
+au fond	au fond	ADV
 de	de	ADP
 tous	tout	ADJ
 les	le	DET
@@ -575,9 +575,9 @@ prêtais	prêter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 je	je	PRON
-le	le	DET
+le	le_PRON	PRON
 découvrais	découvrir	VERB
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -1081,7 +1081,7 @@ est	être	AUX
 à	à	ADP
 l'	le	DET
 intelligence	intelligence	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 primer	primer	VERB
 la	le	DET
 vie	vie	NOUN
@@ -1260,7 +1260,7 @@ que	que	SCONJ
 je	je	PRON
 me	me	PRON
 enorgueillis	enorgueillir	VERB
-un peu de	un peu de	PRON
+un peu de	un peu de	DET
 connaître	connaître	VERB
 ;	;	PUNCTclause
 et	et	CCONJ
@@ -1361,7 +1361,7 @@ un	un	DET
 ensemble	ensemble	NOUN
 social	social	ADJ
 et	et	CCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 je	je	PRON
 en	en	PRON
 dépends	dépendre	VERB
@@ -1462,7 +1462,7 @@ puissance	puissance	NOUN
 de	de	ADP
 jouir	jouir	VERB
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 ma	mon	DET
 puissance	puissance	NOUN
 de	de	ADP
@@ -1533,14 +1533,14 @@ me	me	PRON
 tiens	tenir	VERB
 —	—	PUNCTclause
 plisser	plisser	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 mes	mon	DET
 lèvres	lèvre	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 se	se	PRON
 affirmer	affirmer	VERB
-à mesure que	à mesure que	PUNCT
+à mesure que	à mesure que	SCONJ
 je	je	PRON
 le	le_PRON	PRON
 décris	décrire	VERB
@@ -1643,8 +1643,8 @@ se	se	PRON
 je	je	PRON
 vais	aller	VERB
 écrire	écrire	VERB
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 moi	moi	PRON
 ,	,	PUNCTclause
 je	je	PRON
@@ -1746,7 +1746,7 @@ rend	rendre	VERB
 fort	fort	ADV
 pour	pour	ADP
 —	—	PUNCTclause
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 …	…	PUNCTsent
 )	)	PUNCTclause
 ô	ô	INTJ

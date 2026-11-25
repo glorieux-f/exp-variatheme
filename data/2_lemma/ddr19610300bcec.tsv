@@ -201,7 +201,7 @@ elle	elle	PRON
 ;	;	PUNCTclause
 doublement	doublement	ADV
 remise	remise	NOUN
-en question	en question	PUNCT
+en question	en question	ADJ
 ,	,	PUNCTclause
 l'	le	DET
 Europe	Europe	PROPN
@@ -753,7 +753,7 @@ elle	elle	PRON
 distribue	distribuer	VERB
 ,	,	PUNCTclause
 comme	comme	ADP
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 ,	,	PUNCTclause
 une	un	DET
 certaine	certain	ADJ
@@ -918,7 +918,7 @@ instruction	instruction	NOUN
 afin de	afin de	ADP
 le	le	DET
 mettre	mettre	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 réaliser	réaliser	VERB
 sa	son	DET
 propre	propre	ADJ
@@ -1081,7 +1081,7 @@ la	le	DET
 manière	manière	NOUN
 prescrite	prescrire	VERB
 ,	,	PUNCTclause
-à l'extrême	à l'extrême	PRON
+à l'extrême	à l'extrême	ADV
 de	de	ADP
 la	le	DET
 précision	précision	NOUN
@@ -1299,7 +1299,7 @@ réactionnaire	réactionnaire	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 ,	,	PUNCTclause
 de	de	ADP
 condamnable	condamnable	ADJ
@@ -1313,11 +1313,11 @@ moderne	moderne	ADJ
 progressiste	progressiste	ADJ
 et	et	CCONJ
 louable	louable	ADJ
-en tous les cas	en tous les cas	PUNCT
+en tous les cas	en tous les cas	ADV
 .	.	PUNCTsent
 car	car	CCONJ
-en fait	en fait	PUNCT
-toute	toute	DET
+en fait	en fait	ADV
+toute	tout	ADJ
 éducation	éducation	NOUN
 digne	digne	ADJ
 du	du	ADP_DET
@@ -1519,7 +1519,7 @@ dans	dans	ADP
 l'	le	DET
 enseignement	enseignement	NOUN
 ,	,	PUNCTclause
-au point	au point	ADV
+au point	au point	ADJ
 de	de	ADP
 y	y	PRON
 provoquer	provoquer	VERB
@@ -1609,7 +1609,7 @@ ne	ne	ADV
 a	avoir	VERB
 pas	pas	ADV
 envie	envie	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 l'	le	DET
 arithmétique	arithmétique	NOUN
@@ -1636,7 +1636,7 @@ a	avoir	VERB
 que	que	ADV
 à	à	ADP
 faire	faire	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 les	le	DET
 méthodes	méthode	NOUN
@@ -1761,7 +1761,7 @@ l'on	on	PRON
 peut	pouvoir	VERB
 craindre	craindre	VERB
 que	que	SCONJ
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 elles	elles	PRON
 ne	ne	ADV
 remplacent	remplacer	VERB
@@ -1836,7 +1836,7 @@ intelligents	intelligent	ADJ
 ,	,	PUNCTclause
 ils	ils	PRON
 trouvent	trouver	VERB
-de moins en moins	de moins en moins	DET
+de moins en moins	de moins en moins	ADV
 de	de	ADP
 incitations	incitation	NOUN
 à	à	ADP
@@ -2713,12 +2713,12 @@ vocation	vocation	NOUN
 se	se	PRON
 exercera	exercer	VERB
 .	.	PUNCTsent
-trop de	trop de	ADP
+trop de	trop de	DET
 liberté	liberté	NOUN
 sans	sans	ADP
 effort	effort	NOUN
 ,	,	PUNCTclause
-trop de	trop de	ADP
+trop de	trop de	DET
 effort	effort	NOUN
 imposé	imposer	VERB
 sans	sans	ADP
@@ -2797,7 +2797,7 @@ que	que	SCONJ
 ils	ils	PRON
 se	se	PRON
 doivent	devoir	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 individus	individu	NOUN
 à	à	ADP
 la	le	DET
@@ -2828,7 +2828,7 @@ ce	ce	DET
 type	type	NOUN
 de	de	ADP
 homme	homme	NOUN
-en équilibre	en équilibre	PUNCT
+en équilibre	en équilibre	ADJ
 dynamique	dynamique	ADJ
 qui	qui	PRON
 mérite	mériter	VERB
@@ -2897,7 +2897,7 @@ autorité	autorité	NOUN
 aux	au	ADP_DET
 		TOKEN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 se	se	PRON
 font	faire	VERB
 jour	jour	NOUN
@@ -3313,7 +3313,7 @@ le	le	DET
 principe	principe	NOUN
 est	être	AUX
 toujours	toujours	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 :	:	PUNCTclause
 équilibre	équilibre	NOUN
 entre	entre	ADP
@@ -3477,7 +3477,7 @@ discipline	discipline	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 prenez	prendre	VERB
-n'importe lequel	n'importe lequel	PUNCT
+n'importe lequel	n'importe lequel	PRON
 de	de	ADP
 nos	nos	DET
 problèmes	problème	NOUN
@@ -3605,7 +3605,7 @@ de	de	ADP
 degré	degré	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 admet	admettre	VERB
 tacitement	tacitement	ADV
 que	que	SCONJ
@@ -3657,7 +3657,7 @@ pas	pas	ADV
 sans	sans	ADP
 l'autre	l'autre	PRON
 .	.	PUNCTsent
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 la	le	DET
 règle	règle	NOUN
 de	de	ADP
@@ -3913,7 +3913,7 @@ permettrai	permettre	VERB
 de	de	ADP
 vous	vous	PRON
 signaler	signaler	VERB
-à ce propos	à ce propos	DET
+à ce propos	à ce propos	ADV
 deux	deux	NUM
 déviations	déviation	NOUN
 du	du	ADP_DET
@@ -4166,7 +4166,7 @@ moyens	moyen	NOUN
 si	si	SCONJ
 je	je	PRON
 avais	avoir	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 à	à	ADP
 vous	vous	PRON
 recommander	recommander	VERB
@@ -4338,7 +4338,7 @@ choses	chose	NOUN
 et	et	CCONJ
 une	un	DET
 troisième	troisième	ADJ
-en plus	en plus	NOUN
+en plus	en plus	ADV
 .	.	PUNCTsent
 nous	nous	PRON
 voulons	vouloir	VERB
@@ -4440,7 +4440,7 @@ elle	elle	PRON
 ne	ne	ADV
 doit	devoir	VERB
 pas	pas	ADV
-perdre de vue	perdre de vue	PUNCT
+perdre de vue	perdre de vue	VERB
 ,	,	PUNCTclause
 pour autant	pour autant	ADV
 ,	,	PUNCTclause
@@ -4459,7 +4459,7 @@ la	le	DET
 culture générale	culture générale	NOUN
 .	.	PUNCTsent
 car	car	CCONJ
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 de	de	ADP
 cet	ce	DET
@@ -4760,7 +4760,7 @@ tous	tous	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 préparer	préparer	VERB
-au mieux	au mieux	ADP_DET
+au mieux	au mieux	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 elle	elle	PRON
@@ -4831,7 +4831,7 @@ pas	pas	ADV
 au	au	ADP_DET
 particulier	particulier	NOUN
 .	.	PUNCTsent
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 nous	nous	PRON
 décidons	décider	VERB
 de	de	ADP
@@ -4866,7 +4866,7 @@ de	de	ADP
 bonne	bon	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 de	de	ADP
 pires	pire	ADJ
 que	que	PRON
@@ -4931,7 +4931,7 @@ serez	être	AUX
 de	de	DET
 bons	bon	ADJ
 éducateurs	éducateur	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 vous	vous	PRON
 serez	être	AUX
 vous-mêmes	vous-mêmes	PRON
@@ -4967,7 +4967,7 @@ une	un	DET
 autre	autre	ADJ
 version	version	NOUN
 plus	plus	ADV
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 .	.	PUNCTsent
 l'	le	DET
 homme	homme	NOUN

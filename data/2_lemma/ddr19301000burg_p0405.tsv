@@ -62,7 +62,7 @@ en bas	en bas	ADV
 ,	,	PUNCTclause
 il y a	il y a	VERB
 juste	juste	ADV
-autant de	autant de	ADP_DET
+autant de	autant de	DET
 vieilles	vieux	ADJ
 dames	dame	NOUN
 et	et	CCONJ
@@ -232,7 +232,7 @@ de	de	ADP
 ce	ce	DET
 bal	bal	NOUN
 ,	,	PUNCTclause
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 la	le	DET
 phrase	phrase	NOUN
@@ -312,7 +312,7 @@ cette	ce	DET
 perspective	perspective	NOUN
 de	de	ADP
 voyage	voyage	NOUN
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 et	et	CCONJ
 commencé	commencer	VERB
 dans	dans	ADP
@@ -463,9 +463,9 @@ noms	nom	NOUN
 on	on	PRON
 échange	échanger	VERB
 ,	,	PUNCTclause
-à la dérobée	à la dérobée	DET
+à la dérobée	à la dérobée	ADV
 ,	,	PUNCTclause
-des	un	ADP_DET
+des	un	DET
 coups d'œil	coups d'œil	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -738,7 +738,7 @@ des	un	ADP_DET
 fêtes	fête	NOUN
 populaires	populaire	ADJ
 ,	,	PUNCTclause
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 des	un	ADP_DET
 boutiques	boutique	NOUN
 de	de	ADP
@@ -777,7 +777,7 @@ que	que	SCONJ
 je	je	PRON
 chercherai	chercher	VERB
 sans doute	sans doute	ADV
-jusqu'à la fin	jusqu'à la fin	ADP
+jusqu'à la fin	jusqu'à la fin	ADV
 des	un	DET
 fins	fin	NOUN
 …	…	PUNCTsent
@@ -1483,7 +1483,7 @@ sur	sur	ADP
 des	un	DET
 maisons	maison	NOUN
 pauvres	pauvre	ADJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus	plus	ADV
 bas	bas	ADJ
 ,	,	PUNCTclause
@@ -1565,8 +1565,8 @@ paraît	paraître	VERB
 impossible	impossible	ADJ
 de	de	ADP
 situer	situer	VERB
-dans l'ensemble	dans l'ensemble	ADP
-des	un	DET
+dans l'ensemble	dans l'ensemble	ADV
+des	un	ADP_DET
 constructions	construction	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
@@ -1657,7 +1657,7 @@ chauve	chauve	ADJ
 les	le	DET
 hongrois	hongrois	NOUN
 ,	,	PUNCTclause
-par erreur	par erreur	NOUN
+par erreur	par erreur	ADV
 ,	,	PUNCTclause
 en	en	ADP
 ont	avoir	AUX
@@ -1869,7 +1869,7 @@ heures	heure	NOUN
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
 voyage	voyager	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 de	de	ADP
 une	un	DET
 façon	façon	NOUN
@@ -1898,7 +1898,7 @@ archéologiques	archéologique	ADJ
 d'ailleurs	d'ailleurs	ADV
 mensongers	mensonger	ADJ
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 dans	dans	ADP
 ce	ce	DET
 domaine	domaine	NOUN
@@ -1906,7 +1906,7 @@ domaine	domaine	NOUN
 plus	plus	ADV
 visiblement	visiblement	ADV
 que	que	SCONJ
-en tout	en tout	DET
+en tout	en tout	ADV
 autre	autre	PRON
 ,	,	PUNCTclause
 un	un	DET
@@ -2035,7 +2035,7 @@ sentiment	sentiment	NOUN
 disait	dire	VERB
 on	on	PRON
 ,	,	PUNCTclause
-du temps que	du temps que	ADP
+du temps que	du temps que	SCONJ
 l'on	on	PRON
 parlait	parler	VERB
 France	France	PROPN
@@ -2096,9 +2096,9 @@ devoirs	devoir	NOUN
 nous	nous	PRON
 voici	voici	ADP
 plus	plus	ADV
-à l'aise	à l'aise	PUNCT
+à l'aise	à l'aise	ADV
 .	.	PUNCTsent
-eh bien	eh bien	ADP
+eh bien	eh bien	INTJ
 oui	oui	INTJ
 :	:	PUNCTclause
 je	je	PRON
@@ -2201,7 +2201,7 @@ je	je	PRON
 poursuivrai	poursuivre	VERB
 mon	mon	DET
 discours	discours	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 l'	le	DET
 inutile	inutile	NOUN
 ,	,	PUNCTclause
@@ -2384,14 +2384,14 @@ en	en	ADP
 Hongrie	Hongrie	PROPN
 .	.	PUNCTsent
 et	et	CCONJ
-ce n'est pas que	ce n'est pas que	PRON
+ce n'est pas que	ce n'est pas que	SCONJ
 je	je	PRON
 trouve	trouver	VERB
 ce	ce	PRON
 raisonnement	raisonnement	NOUN
 fin	fin	NOUN
 ,	,	PUNCTclause
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 juste	juste	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -2453,7 +2453,7 @@ tellement	tellement	ADV
 l'	le	DET
 air	air	NOUN
 de	de	ADP
-rien que	rien que	NOUN
+rien que	rien que	ADV
 nous	nous	PRON
 sommes	être	AUX
 presque	presque	ADV
@@ -2578,7 +2578,7 @@ la	le	DET
 4e	4e	ADJ
 est	être	AUX
 occupée	occuper	VERB
-en partie	en partie	PUNCT
+en partie	en partie	ADV
 par	par	ADP
 le	le	DET
 comptoir	comptoir	NOUN
@@ -2594,7 +2594,7 @@ tarif	tarif	NOUN
 pengö	pengö	NOUN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-en partie	en partie	NOUN
+en partie	en partie	ADV
 par	par	ADP
 un	un	DET
 poêle	poêle	NOUN
@@ -2618,7 +2618,7 @@ des	un	DET
 bouteilles	bouteille	NOUN
 sont	être	AUX
 placées	placer	VERB
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 dans	dans	ADP
 l'	le	DET
 espace	espace	NOUN
@@ -2639,7 +2639,7 @@ quelques	quelque	DET
 bougres	bougre	NOUN
 isolés	isoler	VERB
 produisent	produire	VERB
-en silence	en silence	DET
+en silence	en silence	ADV
 cette	ce	DET
 fumée	fumée	NOUN
 ,	,	PUNCTclause
@@ -2706,7 +2706,7 @@ tristement	tristement	ADV
 les	le	DET
 lumières	lumière	NOUN
 .	.	PUNCTsent
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 aussi	aussi	ADV
 qui	qui	PRON
 se	se	PRON
@@ -2828,7 +2828,7 @@ transitions	transition	NOUN
 et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'on	on	PRON
 est	être	AUX
 tenté	tenter	VERB
@@ -2977,7 +2977,7 @@ ne	ne	ADV
 fût	être	AUX
 ce	ce	PRON
 que	que	SCONJ
-de loin	de loin	PUNCT
+de loin	de loin	ADV
 ,	,	PUNCTclause
 —	—	PUNCTclause
 ce	ce	PRON
@@ -3095,7 +3095,7 @@ tout	tout	ADJ
 ceci	ceci	PRON
 ne	ne	ADV
 est	être	AUX
-rien que	rien que	PRON
+rien que	rien que	ADV
 le	le	DET
 voyage	voyage	NOUN
 du	du	ADP_DET
@@ -3251,7 +3251,7 @@ sacrifice	sacrifice	NOUN
 ↵↵	↵↵	PUNCTstruct
 …	…	PUNCTsent
 feuilletons	feuilleton	NOUN
-un peu	un peu	INTJ
+un peu	un peu	ADV
 ma	mon	DET
 Hongrie	Hongrie	PROPN
 .	.	PUNCTsent
@@ -3498,7 +3498,7 @@ comtes	comte	NOUN
 Szechenyi	Szechenyi	PROPN
 qui	qui	PRON
 construisirent	construire	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 pont	pont	NOUN
 sur	sur	ADP
 le	le	DET
@@ -3656,7 +3656,7 @@ vautrés	vautrer	VERB
 ,	,	PUNCTclause
 la	le	DET
 casquette	casquette	NOUN
-de travers	de travers	PUNCT
+de travers	de travers	ADV
 sur	sur	ADP
 leurs	leur	DET
 idées	idée	NOUN
@@ -3699,9 +3699,9 @@ reliques	relique	NOUN
 ?	?	PUNCTsent
 elles	elles	PRON
 conservent	conserver	VERB
-du moins	du moins	ADP
+du moins	du moins	ADV
 toute	toute	DET
-leur	leur	PRON
+leur	leur	DET
 efficace	efficace	ADJ
 .	.	PUNCTsent
 voici	voici	ADP
@@ -3737,7 +3737,7 @@ on	on	PRON
 salue	saluer	VERB
 profondément	profondément	ADV
 ,	,	PUNCTclause
-en silence	en silence	NOUN
+en silence	en silence	ADV
 (	(	PUNCTclause
 cliquetis	cliquetis	NOUN
 des	un	ADP_DET
@@ -3760,9 +3760,9 @@ une	un	DET
 auto	auto	NOUN
 encore	encore	ADV
 ,	,	PUNCTclause
-en retard	en retard	DET
-le	le_PRON	PRON
-président	présider	VERB
+en retard	en retard	ADV
+le	le	DET
+président	président	NOUN
 du	du	ADP_DET
 Conseil	Conseil	PROPN
 ,	,	PUNCTclause
@@ -3937,7 +3937,7 @@ salut	salut	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 se	se	PRON
 déplient	déplier	VERB
 les	le	DET
@@ -4273,7 +4273,7 @@ agence	agence	NOUN
 les	le	DET
 journalistes	journaliste	NOUN
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	DET
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 passent	passer	VERB
 à côté de	à côté de	ADP
@@ -4343,7 +4343,7 @@ pour	pour	ADP
 ce	ce	PRON
 qui	qui	PRON
 est	être	AUX
-du moins	du moins	DET
+du moins	du moins	ADV
 ,	,	PUNCTclause
 de	de	ADP
 mentir	mentir	VERB
@@ -4958,7 +4958,7 @@ du	du	ADP_DET
 Prince	Prince	PROPN
 Primat	Primat	PROPN
 .	.	PUNCTsent
-au-dessus de	au-dessus de	ADP_DET
+au-dessus de	au-dessus de	ADP
 palais	palais	NOUN
 de	de	ADP
 l'	le	DET

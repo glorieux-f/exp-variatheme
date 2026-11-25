@@ -241,7 +241,7 @@ majeur	majeur	ADJ
 que	que	PRON
 l'on	on	PRON
 dresse	dresser	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 contre	contre	ADP
 toute	toute	DET
 union	union	NOUN
@@ -279,12 +279,12 @@ illimitée	illimité	ADJ
 ,	,	PUNCTclause
 sacro-sainte	sacro-saint	ADJ
 mais	mais	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 toujours	toujours	ADV
 plus	plus	ADV
 illusoire	illusoire	ADJ
 ,	,	PUNCTclause
-sauf que	sauf que	DET
+sauf que	sauf que	SCONJ
 elle	elle	PRON
 bloque	bloquer	VERB
 tout	tout	ADV
@@ -403,13 +403,13 @@ de	de	ADP
 toute	toute	DET
 éternité	éternité	NOUN
 ;	;	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 en vérité	en vérité	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 la plupart	la plupart	PRON
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 état	état	NOUN
 et	et	CCONJ
 en	en	ADP
@@ -627,7 +627,7 @@ et	et	CCONJ
 parlant	parler	VERB
 entre	entre	ADP
 eux	eux	PRON
-la même	la même	PUNCT
+la même	la même	PRON
 langue	langue	NOUN
 :	:	PUNCTclause
 nation	nation	NOUN
@@ -641,7 +641,7 @@ Italie	Italie	PROPN
 ,	,	PUNCTclause
 ce	ce	DET
 était	être	AUX
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 comme	comme	ADP
 nos	nos	DET
 maisons	maison	NOUN
@@ -778,7 +778,7 @@ question	question	NOUN
 de	de	ADP
 les	le	DET
 enfermer	enfermer	VERB
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 dans	dans	ADP
 les	le	DET
 frontières	frontière	NOUN
@@ -887,7 +887,7 @@ se	se	PRON
 amputer	amputer	VERB
 ,	,	PUNCTclause
 pour	pour	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 motif	motif	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -1011,7 +1011,7 @@ sont	être	AUX
 étroitement	étroitement	ADV
 apparentées	apparenter	VERB
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 en	en	ADP
 Chine	Chine	PROPN
 on	on	PRON
@@ -1116,7 +1116,7 @@ dominantes	dominant	ADJ
 de	de	ADP
 l'	le	DET
 Italie	Italie	PROPN
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 du	du	ADP_DET
 moyen-âge	moyen-âge	NOUN
 ,	,	PUNCTclause
@@ -1141,7 +1141,7 @@ et	et	CCONJ
 de	de	ADP
 l'	le	DET
 anglo-américain	anglo-américain	ADJ
-de nos jours	de nos jours	NOUN
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -1200,7 +1200,7 @@ termes	terme	NOUN
 techniques	technique	ADJ
 .	.	PUNCTsent
 vues	vue	NOUN
-de loin	de loin	ADP_DET
+de loin	de loin	ADV
 ,	,	PUNCTclause
 de	de	ADP
 l'	le	DET
@@ -1220,7 +1220,7 @@ des	un	DET
 sœurs	sœur	NOUN
 .	.	PUNCTsent
 Vue	Vue	PROPN
-de loin	de loin	PUNCT
+de loin	de loin	ADV
 ,	,	PUNCTclause
 l'	le	DET
 unité	unité	NOUN
@@ -1354,8 +1354,8 @@ qui	qui	PRON
 est	être	AUX
 clair	clair	ADJ
 ,	,	PUNCTclause
-à condition que	à condition que	DET
-un	un	PRON
+à condition que	à condition que	SCONJ
+un	un	DET
 esprit	esprit	NOUN
 fort	fort	ADJ
 (	(	PUNCTclause
@@ -1376,15 +1376,15 @@ est	est	NOUN
 de	de	ADP
 cette	ce	DET
 chaîne	chaîne	NOUN
-les mêmes	les mêmes	PUNCT
-catalans	catalan	NOUN
+les mêmes	les mêmes	PRON
+Catalans	Catalans	PROPN
 sur	sur	ADP
 les	le	DET
 deux	deux	NUM
 versants	versant	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 Basques	Basques	PROPN
 à	à	ADP
 l'	le	DET
@@ -1789,7 +1789,7 @@ faudrait	falloir	VERB
 promouvoir	promouvoir	VERB
 et	et	CCONJ
 vexe	vexer	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ;	;	PUNCTclause
 beau	beau	ADJ
 symbole	symbole	NOUN
@@ -1933,7 +1933,7 @@ or	or	NOUN
 ,	,	PUNCTclause
 je	je	PRON
 mets	mettre	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 que	que	SCONJ
 dans la plupart des cas	dans la plupart des cas	ADV
 ,	,	PUNCTclause
@@ -1976,7 +1976,7 @@ mieux	mieux	ADV
 avec	avec	ADP
 ceux	ceux	PRON
 de	de	ADP
-n'importe où	n'importe où	PRON
+n'importe où	n'importe où	ADV
 que	que	SCONJ
 avec	avec	ADP
 les	le	DET
@@ -2018,7 +2018,7 @@ nationales	national	ADJ
 vous	vous	PRON
 ne	ne	ADV
 appauvrirez	appauvrir	VERB
-en rien	en rien	ADP
+en rien	en rien	ADV
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -2191,7 +2191,7 @@ création	création	NOUN
 qui	qui	PRON
 sans cesse	sans cesse	ADV
 remettent	remettre	VERB
-en question	en question	PUNCT
+en question	en question	ADJ
 et	et	CCONJ
 renouvellent	renouveler	VERB
 les	le	DET

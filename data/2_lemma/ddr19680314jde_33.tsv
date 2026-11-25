@@ -246,7 +246,7 @@ comme	comme	ADP
 on	on	PRON
 le	le_PRON	PRON
 sent	sentir	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 après	après	ADP
 Valence	Valence	PROPN
 quand	quand	SCONJ
@@ -526,9 +526,9 @@ des	un	ADP_DET
 autres	autre	ADJ
 ,	,	PUNCTclause
 conserver	conserver	VERB
-la même	la même	DET
+la même	la même	PRON
 liberté	liberté	NOUN
-que	que	ADV
+que	que	SCONJ
 dans	dans	ADP
 sa	son	DET
 propre	propre	ADJ
@@ -610,7 +610,7 @@ mouvoir	mouvoir	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 usage	usage	NOUN
 simplement	simplement	ADV
 …	…	PUNCTsent
@@ -659,7 +659,7 @@ pouvoir	pouvoir	NOUN
 de	de	ADP
 dessécher	dessécher	VERB
 tout	tout	ADV
-être humain	être humain	ADV
+être humain	être humain	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 animal	animal	NOUN
@@ -1210,8 +1210,8 @@ trop	trop	ADV
 je	je	PRON
 en	en	PRON
 serai	être	AUX
-le premier	le premier	DET
-gêné	gêné	ADJ
+le premier	le premier	PRON
+gêné	gêner	VERB
 .	.	PUNCTsent
 que	que	SCONJ
 on	on	PRON
@@ -1224,7 +1224,7 @@ car	car	CCONJ
 lui	lui	PRON
 seul	seul	ADJ
 est	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 estimer	estimer	VERB
 ses	son	DET
 besoins	besoin	NOUN
@@ -1237,7 +1237,7 @@ dans	dans	ADP
 ce	ce	PRON
 régime	régime	NOUN
 pas	pas	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 abus	abus	NOUN
 que	que	SCONJ
 vos	vos	DET
@@ -1304,7 +1304,7 @@ tirer	tirer	VERB
 —	—	PUNCTclause
 qui	qui	PRON
 permet	permettre	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 en	en	ADP
 un	un	DET
 quart d'heure	quart d'heure	NOUN
@@ -1887,7 +1887,7 @@ carrosse	carrosse	NOUN
 de	de	ADP
 Washington	Washington	PROPN
 ,	,	PUNCTclause
-à l'abandon	à l'abandon	DET
+à l'abandon	à l'abandon	ADJ
 .	.	PUNCTsent
 la	le	DET
 peinture	peinture	NOUN
@@ -2303,7 +2303,7 @@ en	en	ADP
 aboyant	aboyer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 de	de	ADP
 une	un	DET
 pièce	pièce	NOUN
@@ -2360,7 +2360,7 @@ lustre	lustre	NOUN
 enfin	enfin	ADV
 se	se	PRON
 allume	allumer	VERB
-par degrés	par degrés	PUNCT
+par degrés	par degrés	ADV
 .	.	PUNCTsent
 elle	elle	PRON
 court	courir	VERB
@@ -2416,7 +2416,7 @@ de	de	ADP
 tonnerre	tonnerre	NOUN
 se	se	PRON
 succèdent	succéder	VERB
-sans répit	sans répit	PUNCT
+sans répit	sans répit	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 parfois	parfois	ADV
@@ -2447,7 +2447,7 @@ des	un	DET
 verres	verre	NOUN
 de	de	ADP
 whisky	whisky	NOUN
-à la main	à la main	PUNCT
+à la main	à la main	ADV
 .	.	PUNCTsent
 Deux	Deux	NUM
 femmes	femme	NOUN
@@ -2457,8 +2457,8 @@ et	et	CCONJ
 vont	aller	VERB
 se	se	PRON
 asseoir	asseoir	VERB
-un peu	un peu	PUNCT
-à l'écart	à l'écart	PUNCT
+un peu	un peu	ADV
+à l'écart	à l'écart	ADV
 de	de	ADP
 notre	notre	DET
 groupe	groupe	NOUN
@@ -2612,7 +2612,7 @@ peur	peur	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-eh bien	eh bien	NOUN
+eh bien	eh bien	INTJ
 ?	?	PUNCTsent
 me	me	PRON
 ont	avoir	AUX
@@ -3059,7 +3059,7 @@ mal	mal	NOUN
 pousser	pousser	VERB
 leurs	leur	DET
 efforts	effort	NOUN
-au maximum	au maximum	PUNCT
+au maximum	au maximum	ADV
 .	.	PUNCTsent
 la	le	DET
 guerre	guerre	NOUN
@@ -3216,7 +3216,7 @@ se	se	PRON
 en	en	ADP
 est	être	AUX
 fallu	falloir	VERB
-de peu	de peu	PUNCT
+de peu	de peu	ADV
 que	que	SCONJ
 je	je	PRON
 ne	ne	ADV
@@ -3628,7 +3628,7 @@ Assignment	Assignment	ADV
 in	in	X
 Brittany	Brittany	X
 ,	,	PUNCTclause
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 d'autres	d'autre	PRON
 .	.	PUNCTsent
 je	je	PRON
@@ -3673,7 +3673,7 @@ raid	raid	NOUN
 de	de	ADP
 commandos	commando	NOUN
 sauvait	sauver	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 comme	comme	SCONJ
 dans	dans	ADP
 les	le	DET
@@ -3686,7 +3686,7 @@ je	je	PRON
 regardais	regarder	VERB
 ces	ce	DET
 amis	ami	NOUN
-du coin de l'œil	du coin de l'œil	PUNCT
+du coin de l'œil	du coin de l'œil	ADV
 :	:	PUNCTclause
 en	en	ADP
 critiquant	critiquer	VERB
@@ -3736,7 +3736,7 @@ bien	bien	ADV
 je	je	PRON
 en	en	PRON
 retiens	retenir	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 que	que	SCONJ
 ils	ils	PRON
 présentent	présenter	VERB

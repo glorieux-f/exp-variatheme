@@ -112,7 +112,7 @@ avons	avoir	VERB
 nul	nul	ADJ
 besoin	besoin	NOUN
 de	de	ADP
-en rien	en rien	PRON
+en rien	en rien	ADV
 connaître	connaître	VERB
 pour	pour	ADP
 reconnaître	reconnaître	VERB
@@ -419,7 +419,7 @@ déterminée	déterminer	VERB
 par	par	ADP
 des	un	DET
 facteurs	facteur	NOUN
-en partie	en partie	ADP
+en partie	en partie	ADV
 mesurables	mesurable	ADJ
 (	(	PUNCTclause
 géographiques	géographique	ADJ
@@ -434,7 +434,7 @@ formulables	formulable	NOUN
 dans	dans	ADP
 notre	notre	DET
 langage	langage	NOUN
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 naïvement	naïvement	ADV
 positiviste	positiviste	ADJ
 .	.	PUNCTsent
@@ -485,7 +485,7 @@ plus	plus	ADV
 petite	petit	ADJ
 raison	raison	NOUN
 de	de	ADP
-supposé que	supposé que	ADP
+supposé que	supposé que	SCONJ
 le	le	DET
 peuple	peuple	NOUN
 de	de	ADP
@@ -879,7 +879,7 @@ l'	le_PRON	PRON
 y	y	PRON
 conduit	conduire	VERB
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 son	son	DET
 télos	télos	NOUN
 (	(	PUNCTclause
@@ -1027,7 +1027,7 @@ se	se	PRON
 voient	voir	AUX
 par trop	par trop	ADV
 négligés	négliger	VERB
-au profit de	au profit de	PUNCT
+au profit de	au profit de	ADP
 on	on	PRON
 ne	ne	ADV
 sait	savoir	VERB
@@ -1082,9 +1082,9 @@ homme	homme	NOUN
 »	»	PUNCTclause
 …	…	PUNCTsent
 mais	mais	CCONJ
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 ,	,	PUNCTclause
-des	un	ADP_DET
+des	un	DET
 prophètes	prophète	NOUN
 reviennent	revenir	VERB
 pour	pour	ADP
@@ -1181,7 +1181,7 @@ vocation	vocation	NOUN
 libératrice	libérateur	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 cette	ce	DET
 révolte	révolte	NOUN
 ,	,	PUNCTclause
@@ -1304,7 +1304,7 @@ la	le	DET
 fin	fin	NOUN
 du	du	ADP_DET
 peuple	peuple	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 il	il	PRON
 est	être	AUX
 un	un	DET
@@ -1348,7 +1348,7 @@ plus	plus	ADV
 neutre	neutre	ADJ
 ou	ou	CCONJ
 laissé	laisser	VERB
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 ,	,	PUNCTclause
 tout	tout	PRON
 est	être	AUX
@@ -1669,7 +1669,7 @@ on	on	PRON
 porte	porter	VERB
 l'	le	DET
 arche	arche	NOUN
-au-devant de	au-devant de	ADP_DET
+au-devant de	au-devant de	ADP
 armées	armée	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -1875,7 +1875,7 @@ que	que	SCONJ
 les	le	DET
 prophètes	prophète	NOUN
 annoncent	annoncer	VERB
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
@@ -1951,7 +1951,7 @@ auteur	auteur	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 lettre	lettre	NOUN
 tue	tuer	VERB
@@ -2173,7 +2173,7 @@ entretenir	entretenir	VERB
 que	que	SCONJ
 de	de	ADP
 avoir	avoir	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 sentiments	sentiment	NOUN
 de	de	ADP
 la	le	DET
@@ -2194,7 +2194,7 @@ vivre	vivre	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 coutumes	coutume	NOUN
 ;	;	PUNCTclause
 car	car	CCONJ
@@ -2226,7 +2226,7 @@ commun	commun	ADJ
 qui	qui	PRON
 disent	dire	VERB
 chacun	chacun	PRON
-au hasard	au hasard	ADP_DET
+au hasard	au hasard	ADV
 ce	ce	PRON
 qui	qui	PRON
 leur	leur	PRON
@@ -2457,7 +2457,7 @@ communiquer	communiquer	VERB
 ni	ni	CCONJ
 se	se	PRON
 animer	animer	VERB
-les uns les autres	les uns les autres	DET
+les uns les autres	les uns les autres	PRON
 ,	,	PUNCTclause
 chacun	chacun	PRON
 se	se	PRON
@@ -2471,8 +2471,8 @@ forgeant	forger	VERB
 une	un	DET
 langue	langue	NOUN
 singulière	singulier	ADJ
-au mépris de	au mépris de	PUNCT
-tout	tout	ADV
+au mépris de	au mépris de	ADP
+tout	tout	DET
 «	«	PUNCTclause
 sens	sens	NOUN
 »	»	PUNCTclause
@@ -2631,7 +2631,7 @@ est	être	AUX
 pas	pas	ADV
 bon	bon	ADJ
 à	à	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 Israël	Israël	PROPN
 portait	porter	VERB
@@ -2718,7 +2718,7 @@ de	de	ADP
 Israël	Israël	PROPN
 sera	être	AUX
 pauvre	pauvre	ADJ
-à raison	à raison	PUNCT
+à raison	à raison	ADV
 même	même	ADV
 de	de	ADP
 sa	son	DET
@@ -2782,7 +2782,7 @@ par	par	ADP
 la	le	DET
 fin	fin	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 sa	son	DET
 pauvreté	pauvreté	NOUN
 même	même	ADJ
@@ -2987,7 +2987,7 @@ Occident	Occident	PROPN
 chrétien	chrétien	ADJ
 sera	être	AUX
 grande	grand	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elle	elle	PRON
 sera	être	AUX
 biblique	biblique	ADJ
@@ -2995,7 +2995,7 @@ ou	ou	CCONJ
 grecque	grec	ADJ
 ,	,	PUNCTclause
 sublime	sublime	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 synthèse	synthèse	NOUN
 des	un	ADP_DET
@@ -4041,7 +4041,7 @@ primitive	primitif	ADJ
 se	se	PRON
 regardait	regarder	VERB
 comme	comme	ADP
-le second	le second	DET
+le second	le second	PRON
 Israël	Israël	PROPN
 ,	,	PUNCTclause
 l'	le	DET
@@ -4254,7 +4254,7 @@ détruire	détruire	VERB
 il	il	PRON
 ne	ne	ADV
 saurait	savoir	VERB
-être question de	être question de	DET
+être question de	être question de	VERB
 retracer	retracer	VERB
 ici	ici	ADV
 dans	dans	ADP
@@ -4350,7 +4350,7 @@ dans	dans	ADP
 les	le	DET
 églises	église	NOUN
 évangéliques	évangélique	ADJ
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 ?	?	PUNCTsent
 dès	dès	ADP
 les	le	DET
@@ -4659,7 +4659,7 @@ choisis	choisir	VERB
 pour	pour	ADP
 témoins	témoin	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 collectivité	collectivité	NOUN
 ,	,	PUNCTclause
 peuple	peuple	NOUN
@@ -4719,7 +4719,7 @@ ne	ne	ADV
 abandonne	abandonner	VERB
 pas	pas	ADV
 .	.	PUNCTsent
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 la	le	DET
 loi	loi	NOUN
 de	de	ADP
@@ -4906,7 +4906,7 @@ mais	mais	CCONJ
 je	je	PRON
 retiens	retenir	VERB
 que	que	SCONJ
-l'une et l'autre	l'une et l'autre	PUNCT
+l'une et l'autre	l'une et l'autre	PRON
 hypothèse	hypothèse	NOUN
 rattache	rattacher	VERB
 le	le	DET
@@ -4971,7 +4971,7 @@ l'	le	DET
 éthique	éthique	NOUN
 puritaine	puritain	ADJ
 ,	,	PUNCTclause
-à mesure que	à mesure que	DET
+à mesure que	à mesure que	SCONJ
 elles	elles	PRON
 «	«	PUNCTclause
 réussissaient	réussir	VERB
@@ -5016,7 +5016,7 @@ Allemagne	Allemagne	PROPN
 capitalistes	capitaliste	NOUN
 ,	,	PUNCTclause
 avec	avec	ADP
-d'autant plus	d'autant plus	NOUN
+d'autant plus	d'autant plus	ADV
 de	de	ADP
 amertume	amertume	NOUN
 que	que	SCONJ
@@ -5390,7 +5390,7 @@ un	un	DET
 arrêt	arrêt	NOUN
 éternel	éternel	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 Dieu	Dieu	PROPN
 prédestine	prédestiner	ADJ
 tout	tout	PRON
@@ -5681,7 +5681,7 @@ de peur que	de peur que	SCONJ
 vous	vous	PRON
 ne	ne	ADV
 présumiez	présumer	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 votre	votre	DET
 sagesse	sagesse	NOUN
 :	:	PUNCTclause
@@ -5789,7 +5789,7 @@ ainsi	ainsi	ADV
 la	le	DET
 vocation	vocation	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 cette	ce	DET
 vocation	vocation	NOUN
 —	—	PUNCTclause
@@ -5882,7 +5882,7 @@ peuple	peuple	NOUN
 de	de	ADP
 Dieu	Dieu	PROPN
 ,	,	PUNCTclause
-en ce sens	en ce sens	NOUN
+en ce sens	en ce sens	ADV
 ,	,	PUNCTclause
 après que	après que	SCONJ
 les	le	DET
@@ -5919,7 +5919,7 @@ que	que	SCONJ
 les	le	DET
 juifs	juif	NOUN
 tiendront	tenir	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 lieu	lieu	NOUN
 ,	,	PUNCTclause
 comme	comme	SCONJ
@@ -5993,7 +5993,7 @@ Freud	Freud	PROPN
 que	que	PRON
 ont	avoir	AUX
 eus	avoir	VERB
-de tout temps	de tout temps	ADP
+de tout temps	de tout temps	ADV
 les	le	DET
 chrétiens	chrétien	NOUN
 à l'égard de	à l'égard de	ADP

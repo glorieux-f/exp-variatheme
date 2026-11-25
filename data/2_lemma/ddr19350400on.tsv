@@ -100,7 +100,7 @@ même	même	ADJ
 mais	mais	CCONJ
 on	on	PRON
 invoque	invoquer	VERB
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois ci	ADV
 les	le	DET
 droits	droit	NOUN
 sacrés	sacré	ADJ
@@ -142,7 +142,7 @@ il	il	PRON
 «	«	PUNCTclause
 apaisé	apaiser	VERB
 »	»	PUNCTclause
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 ,	,	PUNCTclause
 en	en	ADP
 imposant	imposer	VERB
@@ -204,7 +204,7 @@ politique	politique	ADJ
 Henri	Henri	PROPN
 IV	IV	NUM
 prétendit	prétendre	VERB
-mettre fin	mettre fin	NOUN
+mettre fin	mettre fin	VERB
 à	à	ADP
 la	le	DET
 lutte	lutte	NOUN
@@ -305,7 +305,7 @@ paix	paix	NOUN
 d'abord	d'abord	ADV
 ,	,	PUNCTclause
 à	à	ADP
-n'importe quels	n'importe quels	NOUN
+n'importe quels	n'importe quels	DET
 prix	prix	NOUN
 .	.	PUNCTsent
 on	on	PRON
@@ -542,7 +542,7 @@ roi	roi	NOUN
 exaspère	exaspérer	VERB
 les	le	DET
 catholiques	catholique	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 il	il	PRON
 oblige	obliger	VERB
 les	le	DET
@@ -770,7 +770,7 @@ temples	temple	NOUN
 —	—	PUNCTclause
 il	il	PRON
 suffisait	suffire	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 entrer	entrer	VERB
 par	par	ADP
 ruse	ruse	NOUN
@@ -829,7 +829,7 @@ l'	le	DET
 état	état	NOUN
 prétend	prétendre	VERB
 assurer	assurer	VERB
-au mépris de	au mépris de	PUNCT
+au mépris de	au mépris de	ADP
 réalités	réalité	NOUN
 spirituelles	spirituel	ADJ
 ,	,	PUNCTclause
@@ -891,7 +891,7 @@ application	application	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 sont	être	AUX
-bel et bien	bel et bien	DET
+bel et bien	bel et bien	ADV
 les mêmes	les mêmes	PRON
 qui	qui	PRON
 devaient	devoir	VERB
@@ -917,9 +917,9 @@ justement	justement	ADV
 instaurée	instaurer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en résumé	en résumé	DET
+en résumé	en résumé	ADV
 ,	,	PUNCTclause
-telle	tel	PRON
+telle	tel	DET
 est	être	AUX
 l'	le	DET
 évolution	évolution	NOUN
@@ -1001,7 +1001,7 @@ tension	tension	NOUN
 sans	sans	ADP
 détriment	détriment	NOUN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 la	le	DET
@@ -1024,7 +1024,7 @@ force	force	NOUN
 ,	,	PUNCTclause
 sans	sans	ADP
 être	être	AUX
-en rien	en rien	ADP
+en rien	en rien	ADV
 résolu	résoudre	VERB
 pour autant	pour autant	ADV
 ,	,	PUNCTclause
@@ -1437,14 +1437,14 @@ cet	ce	DET
 obstacle	obstacle	NOUN
 légal	légal	ADJ
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 l'	le	DET
 édit	édit	NOUN
 a	avoir	AUX
 été	être	AUX
 appliqué	appliquer	VERB
-de telle sorte que	de telle sorte que	PUNCT
+de telle sorte que	de telle sorte que	SCONJ
 on	on	PRON
 a	avoir	AUX
 déjà	déjà	ADV
@@ -1502,7 +1502,7 @@ maintenir	maintenir	VERB
 dès lors	dès lors	ADV
 un	un	DET
 édit	édit	NOUN
-sans objet	sans objet	PUNCT
+sans objet	sans objet	ADJ
 ?	?	PUNCTsent
 ce	ce	PRON
 délicat	délicat	ADJ
@@ -1563,7 +1563,7 @@ du	du	ADP_DET
 clergé	clergé	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 le	le	DET
 triomphe	triomphe	NOUN
@@ -1575,7 +1575,7 @@ l'	le	DET
 état	état	NOUN
 ,	,	PUNCTclause
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 celui	celui	PRON
 du	du	ADP_DET
 pape	pape	NOUN
@@ -1876,7 +1876,7 @@ leur	leur	DET
 repos	repos	NOUN
 et	et	CCONJ
 achetaient	acheter	VERB
-l'un et l'autre	l'un et l'autre	DET
+l'un et l'autre	l'un et l'autre	PRON
 par	par	ADP
 des	un	DET
 abjurations	abjuration	NOUN
@@ -2106,7 +2106,7 @@ octroi	octroi	NOUN
 de	de	ADP
 l'	le	DET
 édit	édit	NOUN
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 à	à	ADP
 sa	son	DET
 révocation	révocation	NOUN
@@ -2139,7 +2139,7 @@ acte	acte	NOUN
 de	de	ADP
 révocation	révocation	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ils	ils	PRON
 aboutissent	aboutir	VERB
 à	à	ADP
@@ -2171,7 +2171,7 @@ simplement	simplement	ADV
 l'	le_PRON	PRON
 affligeante	affligeant	ADJ
 absence	absence	NOUN
-de rigueur	de rigueur	PUNCT
+de rigueur	de rigueur	ADJ
 du	du	ADP_DET
 système	système	NOUN
 parlementaire	parlementaire	ADJ
@@ -2205,7 +2205,7 @@ en vérité	en vérité	ADV
 ,	,	PUNCTclause
 l'on	on	PRON
 est	être	AUX
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 douter	douter	VERB
 que	que	SCONJ
 tous	tout	ADJ
@@ -2299,7 +2299,7 @@ la	le	DET
 Personne	Personne	PROPN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 la	le	DET
 considération	considération	NOUN
 de	de	ADP

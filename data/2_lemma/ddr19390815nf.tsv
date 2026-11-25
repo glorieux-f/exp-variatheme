@@ -829,7 +829,7 @@ marche	marche	NOUN
 à	à	ADP
 six	six	NUM
 heures	heure	NOUN
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ici	ici	ADV
 .	.	PUNCTsent
 compris	comprendre	VERB
@@ -942,11 +942,11 @@ la	le	DET
 vie	vie	NOUN
 te	te	PRON
 pousse	pousser	VERB
-à l'écart	à l'écart	PUNCT
+à l'écart	à l'écart	ADV
 ,	,	PUNCTclause
 doucement	doucement	ADV
 .	.	PUNCTsent
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 peut-être	peut-être	ADV
 ,	,	PUNCTclause
@@ -1557,8 +1557,8 @@ par	par	ADP
 l'	le	DET
 église	église	NOUN
 .	.	PUNCTsent
-à Dieu ne plaise	à Dieu ne plaise	PRON
-que	que	PRON
+à Dieu ne plaise	à Dieu ne plaise	INTJ
+que	que	SCONJ
 je	je	PRON
 trahisse	trahir	VERB
 jamais	jamais	ADV
@@ -1660,8 +1660,8 @@ justice	justice	NOUN
 ne	ne	ADV
 te	te	PRON
 mêle	mêler	VERB
-plus de	plus de	PUNCT
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 guerre	guerre	NOUN
 .	.	PUNCTsent
 attends	attendre	VERB
@@ -2062,7 +2062,7 @@ garder	garder	VERB
 l'	le	DET
 Accusé	Accusé	PROPN
 .	.	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 tant pis	tant pis	ADV
 pour	pour	ADP
@@ -2324,7 +2324,7 @@ que	que	SCONJ
 ceux	ceux	PRON
 qui	qui	PRON
 jugent	juger	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 plaignant	plaindre	VERB
 lèvent	lever	VERB
 la	le	DET
@@ -2342,7 +2342,7 @@ que	que	SCONJ
 ceux	ceux	PRON
 qui	qui	PRON
 jugent	juger	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 l'	le	DET
 accusé	accusé	NOUN
 lèvent	lever	VERB
@@ -3080,7 +3080,7 @@ Dorothée	Dorothée	PROPN
 faiblement	faiblement	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Nicolas	Nicolas	PROPN
@@ -3188,9 +3188,9 @@ immolé	immoler	VERB
 ↵↵	↵↵	PUNCTstruct
 Dorothée	Dorothée	PROPN
 .	.	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 !	!	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 !	!	PUNCTsent
 ho	ho	INTJ
 !	!	PUNCTsent
@@ -3508,7 +3508,7 @@ maintenant	maintenant	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 lit	lit	NOUN
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 !	!	PUNCTsent
 venez	venir	VERB
 embrasser	embrasser	VERB
@@ -3521,7 +3521,7 @@ embrassent	embrasser	VERB
 leur	leur	DET
 père	père	NOUN
 ,	,	PUNCTclause
-l'un après l'autre	l'un après l'autre	DET
+l'un après l'autre	l'un après l'autre	ADV
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -3654,7 +3654,7 @@ tu	tu	PRON
 le	le	DET
 vois	voir	VERB
 ,	,	PUNCTclause
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 :	:	PUNCTclause
 tout	tout	PRON
 mon	mon	DET
@@ -3699,7 +3699,7 @@ me	me	PRON
 était	être	AUX
 donné	donner	VERB
 !	!	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 ,	,	PUNCTclause
 secours	secours	NOUN
 moi	moi	PRON
@@ -3837,9 +3837,9 @@ fermée	fermer	VERB
 ↵↵	↵↵	PUNCTstruct
 Nicolas	Nicolas	PROPN
 .	.	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 et	et	CCONJ
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 ,	,	PUNCTclause
 ôte	ôter	VERB
 de	de	ADP
@@ -3853,9 +3853,9 @@ de	de	ADP
 toi	toi	PRON
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 et	et	CCONJ
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 ,	,	PUNCTclause
 donne	donner	VERB
 moi	moi	PRON
@@ -3868,9 +3868,9 @@ de	de	ADP
 toi	toi	PRON
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 et	et	CCONJ
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 ,	,	PUNCTclause
 arrache	arracher	VERB
 moi	moi	PRON
@@ -3949,7 +3949,7 @@ veux	vouloir	VERB
 tu	tu	PRON
 te	te	PRON
 placer	placer	VERB
-corps et âme	corps et âme	PUNCT
+corps et âme	corps et âme	ADV
 en	en	ADP
 notre	notre	DET
 pouvoir	pouvoir	NOUN
@@ -4845,7 +4845,7 @@ me	me	PRON
 environnent	environner	VERB
 !	!	PUNCTsent
 ô	ô	INTJ
-mon dieu	mon dieu	PROPN
+mon dieu	mon dieu	INTJ
 ,	,	PUNCTclause
 as	as	NOUN
 tu	tu	PRON
@@ -5788,7 +5788,7 @@ vient	venir	VERB
 il	il	PRON
 chaque	chaque	DET
 jour	jour	NOUN
-autant de	autant de	ADP_DET
+autant de	autant de	DET
 monde	monde	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5928,7 +5928,7 @@ arrivent	arriver	VERB
 de	de	ADP
 partout	partout	ADV
 ,	,	PUNCTclause
-rien que	rien que	PRON
+rien que	rien que	ADV
 pour	pour	ADP
 le	le_PRON	PRON
 voir	voir	VERB
@@ -6258,7 +6258,7 @@ manger	manger	VERB
 il	il	PRON
 ne	ne	ADV
 a	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 chaleur	chaleur	NOUN
 naturelle	naturel	ADJ
 ,	,	PUNCTclause
@@ -6315,8 +6315,8 @@ jours	jour	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 était	être	AUX
-à moitié	à moitié	DET
-mort	mort	NOUN
+à moitié	à moitié	ADV
+mort	mourir	VERB
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 3	3	NUM
@@ -6335,7 +6335,7 @@ Claus	Claus	PROPN
 .	.	PUNCTsent
 ils	ils	PRON
 font	faire	VERB
-rien que	rien que	DET
+rien que	rien que	ADV
 prier	prier	VERB
 toute	tout	ADJ
 la	le	DET
@@ -6830,7 +6830,7 @@ Nicolas	Nicolas	PROPN
 je	je	PRON
 ne	ne	ADV
 ai	avoir	VERB
-rien que	rien que	PRON
+rien que	rien que	ADV
 ma	mon	DET
 robe	robe	NOUN
 ,	,	PUNCTclause
@@ -7362,7 +7362,7 @@ Nicolas	Nicolas	PROPN
 vous	vous	PRON
 avez	avoir	AUX
 perdu	perdre	VERB
-l'un et l'autre	l'un et l'autre	PUNCT
+l'un et l'autre	l'un et l'autre	PRON
 !	!	PUNCTsent
 Dieu	Dieu	PROPN
 me	me	PRON
@@ -7956,7 +7956,7 @@ dans	dans	ADP
 nos	nos	DET
 champs	champ	NOUN
 .	.	PUNCTsent
-par chance	par chance	ADP
+par chance	par chance	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 les	le	DET
@@ -8289,7 +8289,7 @@ vous	vous	PRON
 ne	ne	ADV
 avez	avoir	VERB
 pas	pas	ADV
-assez de	assez de	PUNCT
+assez de	assez de	DET
 pain	pain	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -8603,7 +8603,7 @@ Ulrich	Ulrich	PROPN
 et	et	CCONJ
 quel	quel	DET
 est	être	AUX
-le second	le second	DET
+le second	le second	PRON
 visiteur	visiteur	NOUN
 ?	?	PUNCTsent
 peut	pouvoir	VERB
@@ -8926,7 +8926,7 @@ Hornek	Hornek	PROPN
 il	il	PRON
 ne	ne	ADV
 attend	attendre	VERB
-rien que	rien que	DET
+rien que	rien que	ADV
 votre	votre	DET
 paix	paix	NOUN
 !	!	PUNCTsent
@@ -9237,7 +9237,7 @@ moi	moi	PRON
 je	je	PRON
 vois	voir	VERB
 que	que	SCONJ
-l'un et l'autre	l'un et l'autre	DET
+l'un et l'autre	l'un et l'autre	PRON
 chérissent	chérir	VERB
 moins	moins	ADV
 nos	nos	DET
@@ -10089,9 +10089,9 @@ Nicolas	Nicolas	PROPN
 genoux	genou	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 et	et	CCONJ
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 ,	,	PUNCTclause
 toi	toi	PRON
 seul	seul	ADJ
@@ -10980,7 +10980,7 @@ font	faire	VERB
 un	un	DET
 pas	pas	NOUN
 lourd	lourd	ADJ
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 et	et	CCONJ
 dressent	dresser	VERB
 de	de	ADP
@@ -12270,7 +12270,7 @@ sa	son	DET
 proie	proie	NOUN
 !	!	PUNCTsent
 »	»	PUNCTclause
-eh bien	eh bien	PUNCT
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 après	après	ADP
 Grandson	Grandson	PROPN
@@ -12590,7 +12590,7 @@ Ambassadeur	Ambassadeur	PROPN
 		TOKEN
 France	France	PROPN
 .	.	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 voilà	voilà	ADP
 du	du	ADP_DET
@@ -13224,7 +13224,7 @@ petits	petit	ADJ
 ,	,	PUNCTclause
 bannissons	bannir	VERB
 tout	tout	ADV
-esprit de clocher	esprit de clocher	SYM
+esprit de clocher	esprit de clocher	NOUN
 ,	,	PUNCTclause
 jetons	jeter	VERB
 ici	ici	ADV
@@ -13463,7 +13463,7 @@ guerre	guerre	NOUN
 à	à	ADP
 vous	vous	PRON
 !	!	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 je	je	PRON
 dis	dire	VERB
@@ -13594,7 +13594,7 @@ car	car	CCONJ
 nos	nos	DET
 libertés	liberté	NOUN
 sont	être	AUX
-en cause	en cause	DET
+en cause	en cause	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 nos	nos	DET
@@ -13688,7 +13688,7 @@ principes	principe	NOUN
 ce	ce	PRON
 qui	qui	PRON
 est	être	AUX
-en cause	en cause	ADP
+en cause	en cause	ADJ
 ici	ici	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -13850,7 +13850,7 @@ cris	cri	NOUN
 		TOKEN
 Compagnons	Compagnons	PROPN
 .	.	PUNCTsent
-assez de	assez de	ADP
+assez de	assez de	DET
 par-lottes	par-lottes	NOUN
 !	!	PUNCTsent
 à	à	ADP
@@ -14408,7 +14408,7 @@ Haimo	Haimo	PROPN
 ,	,	PUNCTclause
 le	le	DET
 bâton	bâton	NOUN
-à la main	à la main	PUNCT
+à la main	à la main	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
 se	se	PRON
@@ -14630,7 +14630,7 @@ dans	dans	ADP
 vos	vos	DET
 frontières	frontière	NOUN
 ,	,	PUNCTclause
-si vous voulez	si vous voulez	ADP
+si vous voulez	si vous voulez	ADV
 garder	garder	VERB
 vos	vos	DET
 libertés	liberté	NOUN
@@ -14854,7 +14854,7 @@ adieu	adieu	NOUN
 au	au	ADP_DET
 monde	monde	NOUN
 ,	,	PUNCTclause
-pour toujours	pour toujours	DET
+pour toujours	pour toujours	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Haimo	Haimo	PROPN
@@ -15116,7 +15116,7 @@ lui-même	lui-même	PRON
 est	être	AUX
 descendu	descendre	VERB
 !	!	PUNCTsent
-mon dieu	mon dieu	PROPN
+mon dieu	mon dieu	INTJ
 se	se	PRON
 est	être	AUX
 abaissé	abaisser	VERB
@@ -15132,9 +15132,9 @@ pour	pour	ADP
 vivre	vivre	VERB
 seul	seul	ADJ
 avec	avec	ADP
-mon dieu	mon dieu	PROPN
+mon dieu	mon dieu	INTJ
 ,	,	PUNCTclause
-tout	tout	PRON
+tout	tout	ADJ
 près de	près de	ADP
 ciel	ciel	NOUN
 .	.	PUNCTsent
@@ -15430,9 +15430,9 @@ sans	sans	ADP
 un	un	DET
 mot	mot	NOUN
 !	!	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 !	!	PUNCTsent
-mon dieu	mon dieu	NOUN
+mon dieu	mon dieu	INTJ
 !	!	PUNCTsent
 soutiens	soutien	NOUN
 ton	ton	DET
@@ -15567,7 +15567,7 @@ tant que	tant que	SCONJ
 il	il	PRON
 parle	parler	VERB
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 il	il	PRON
 prie	prier	VERB
 ô	ô	ADP
@@ -16599,7 +16599,7 @@ devoir	devoir	NOUN
 ,	,	PUNCTclause
 partout	partout	ADV
 et	et	CCONJ
-en tout	en tout	DET
+en tout	en tout	ADV
 lieu	lieu	NOUN
 ,	,	PUNCTclause
 de	de	ADP

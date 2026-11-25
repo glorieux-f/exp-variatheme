@@ -417,7 +417,7 @@ telles	tel	DET
 par	par	ADP
 les	le	DET
 masses	masse	NOUN
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 par	par	ADP
 le	le	DET
 bourgeois	bourgeois	NOUN
@@ -722,13 +722,13 @@ ne	ne	ADV
 existent	exister	VERB
 réellement	réellement	ADV
 que	que	SCONJ
-à partir du moment où	à partir du moment où	ADP
+à partir du moment où	à partir du moment où	SCONJ
 l'	le	DET
 homme	homme	NOUN
 ne	ne	ADV
 existe	exister	VERB
 plus	plus	ADV
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 tel.	tel.	PUNCT
 que	que	SCONJ
 l'	le	DET
@@ -838,7 +838,7 @@ des	un	ADP_DET
 «	«	PUNCTclause
 masses	masse	NOUN
 »	»	PUNCTclause
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 les	le	DET
 masses	masse	NOUN
 ne	ne	ADV
@@ -899,7 +899,7 @@ plus	plus	ADV
 distinguer	distinguer	VERB
 l'	le	DET
 homme	homme	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 homme	homme	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -992,7 +992,7 @@ distingue	distinguer	VERB
 dans	dans	ADP
 ce	ce	DET
 culte	culte	NOUN
-le premier	le premier	ADP
+le premier	le premier	PRON
 temps	temps	NOUN
 du	du	ADP_DET
 refoulement	refoulement	NOUN
@@ -1136,9 +1136,9 @@ déduire	déduire	VERB
 ceci	ceci	PRON
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-la première	la première	DET
-tâche	tâche	NOUN
-des	un	ADP_DET
+la première	la première	PRON
+tâche	tâcher	VERB
+des	un	DET
 intellectuels	intellectuel	NOUN
 est	être	AUX
 ,	,	PUNCTclause

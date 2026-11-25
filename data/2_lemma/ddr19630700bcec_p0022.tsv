@@ -29,7 +29,7 @@ au moment où	au moment où	ADP
 nous	nous	PRON
 nous	nous	PRON
 efforçons	efforcer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 une	un	DET
 vaste	vaste	ADJ
 union	union	NOUN
@@ -168,7 +168,7 @@ qui	qui	PRON
 ne	ne	ADV
 ont	avoir	AUX
 pas du tout	pas du tout	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 ou	ou	CCONJ
 extensions	extension	NOUN
@@ -308,7 +308,7 @@ est	être	AUX
 née	naître	VERB
 en	en	ADP
 Europe	Europe	PROPN
-de toute évidence	de toute évidence	PUNCT
+de toute évidence	de toute évidence	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
@@ -401,7 +401,7 @@ elle	elle	PRON
 nous	nous	PRON
 jette	jeter	VERB
 .	.	PUNCTsent
-ceci étant	ceci étant	PRON
+ceci étant	ceci étant	ADV
 valable	valable	ADJ
 également	également	ADV
 pour	pour	ADP
@@ -491,7 +491,7 @@ est	être	AUX
 un	un	DET
 progrès	progrès	NOUN
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 elle	elle	PRON
 augmente	augmenter	VERB
@@ -518,7 +518,7 @@ un	un	DET
 exemple	exemple	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 connaît	connaître	VERB
 ,	,	PUNCTclause
 je	je	PRON
@@ -745,7 +745,7 @@ de	de	ADP
 la	le	DET
 porter	porter	VERB
 bien	bien	ADV
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 milieux	milieu	NOUN
 où	où	PRON
 elle	elle	PRON
@@ -762,7 +762,7 @@ autrefois	autrefois	ADV
 les	le	DET
 chances	chance	NOUN
 augmentant	augmenter	VERB
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 les	le	DET
 risques	risque	NOUN
 .	.	PUNCTsent
@@ -884,10 +884,10 @@ pour	pour	ADP
 le	le	DET
 spécialiste	spécialiste	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 cela	cela	PRON
-le	le_PRON	PRON
-ferme	fermer	VERB
+le	le	DET
+ferme	ferme	NOUN
 à	à	ADP
 tout	tout	DET
 autre	autre	ADJ
@@ -906,8 +906,8 @@ même	même	ADV
 de	de	ADP
 sa	son	DET
 spécialité	spécialité	NOUN
-dans l'ensemble	dans l'ensemble	ADP
-des	un	DET
+dans l'ensemble	dans l'ensemble	ADV
+des	un	ADP_DET
 activités	activité	NOUN
 humaines	humain	ADJ
 .	.	PUNCTsent
@@ -1221,7 +1221,7 @@ les	le	DET
 études	étude	NOUN
 générales	général	ADJ
 ;	;	PUNCTclause
-à tel point que	à tel point que	PUNCT
+à tel point que	à tel point que	SCONJ
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET
@@ -1376,7 +1376,7 @@ geste	geste	NOUN
 comme	comme	ADP
 les	le	DET
 ouvriers	ouvrier	NOUN
-à la chaîne	à la chaîne	PUNCT
+à la chaîne	à la chaîne	ADV
 du	du	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
@@ -1820,7 +1820,7 @@ terme	terme	NOUN
 elles	elles	PRON
 coupent	couper	VERB
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 nos	nos	DET
 frontières	frontière	NOUN
 actuelles	actuel	ADJ
@@ -1829,7 +1829,7 @@ qui	qui	PRON
 ne	ne	ADV
 étaient	être	AUX
 pas	pas	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ou	ou	CCONJ
 ne	ne	ADV
 existaient	exister	VERB
@@ -1974,7 +1974,7 @@ métropoles	métropole	NOUN
 »	»	PUNCTclause
 qui	qui	PRON
 soient	être	AUX
-autant de	autant de	ADP
+autant de	autant de	DET
 expressions	expression	NOUN
 locales	local	ADJ
 ou	ou	CCONJ
@@ -1996,7 +1996,7 @@ l'	le	DET
 accent	accent	NOUN
 mis	mettre	VERB
 sur	sur	ADP
-tels ou tels	tels ou tels	NOUN
+tels ou tels	tels ou tels	DET
 aspect	aspect	NOUN
 de	de	ADP
 la	le	DET
@@ -2104,7 +2104,7 @@ se	se	PRON
 agit	agir	VERB
 bien	bien	ADV
 plutôt	plutôt	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 participer	participer	VERB
 l'	le	DET
 ensemble	ensemble	NOUN
@@ -2173,7 +2173,7 @@ recevoir	recevoir	VERB
 les	le	DET
 dons	don	NOUN
 que	que	PRON
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 fait	faire	VERB
 un	un	DET
@@ -2238,7 +2238,7 @@ lequel	lequel	PRON
 va	aller	VERB
 naturellement	naturellement	ADV
 bien	bien	ADV
-au-delà de	au-delà de	SCONJ
+au-delà de	au-delà de	ADP
 sa	son	DET
 source	source	NOUN
 .	.	PUNCTsent
@@ -2458,7 +2458,7 @@ cela	cela	PRON
 ,	,	PUNCTclause
 qui	qui	PRON
 offraient	offrir	VERB
-en plus	en plus	ADP
+en plus	en plus	ADV
 des	un	DET
 titres	titre	NOUN
 et	et	CCONJ
@@ -2527,7 +2527,7 @@ quoi	quoi	PRON
 l'on	on	PRON
 pourrait	pouvoir	VERB
 ajouter	ajouter	VERB
-à l'avenir	à l'avenir	ADP
+à l'avenir	à l'avenir	ADV
 bien des	bien des	DET
 choses	chose	NOUN
 :	:	PUNCTclause
@@ -3074,7 +3074,7 @@ loi	loi	NOUN
 doit	devoir	VERB
 être	être	AUX
 déposé	déposer	VERB
-à cet effet	à cet effet	PUNCT
+à cet effet	à cet effet	ADV
 devant	devant	ADP
 le	le	DET
 Conseil	Conseil	PROPN
@@ -3177,7 +3177,7 @@ que	que	PRON
 ils	ils	PRON
 doivent	devoir	VERB
 attendre	attendre	VERB
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 et	et	CCONJ
 de	de	ADP
 ce	ce	PRON

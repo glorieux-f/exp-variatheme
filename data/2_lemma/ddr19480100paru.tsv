@@ -825,7 +825,7 @@ oreilles	oreille	NOUN
 ;	;	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 comme si	comme si	SCONJ
 je	je	PRON
 avais	avoir	AUX
@@ -1015,7 +1015,7 @@ découvert	découvrir	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 …	…	PUNCTsent
 «	«	PUNCTclause
 la	le	DET
@@ -1053,7 +1053,7 @@ mais	mais	CCONJ
 la	le	DET
 bombe	bombe	NOUN
 a	avoir	AUX
-du moins	du moins	ADP
+du moins	du moins	ADV
 l'	le	DET
 avantage	avantage	NOUN
 de	de	ADP
@@ -1150,7 +1150,7 @@ l'	le	DET
 URSS	URSS	PROPN
 finisse	finir	VERB
 par	par	ADP
-se rendre compte	se rendre compte	NOUN
+se rendre compte	se rendre compte	VERB
 que	que	SCONJ
 son	son	DET
 avantage	avantage	NOUN
@@ -1656,7 +1656,7 @@ relèveraient	relever	VERB
 se	se	PRON
 imposeraient	imposer	VERB
 .	.	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 non	non	ADV
 .	.	PUNCTsent
@@ -1843,7 +1843,7 @@ ont	avoir	AUX
 pas	pas	ADV
 été	être	AUX
 transformées	transformer	VERB
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 .	.	PUNCTsent
 voilà	voilà	ADP
 pourquoi	pourquoi	ADV
@@ -1858,7 +1858,7 @@ on	on	PRON
 entend	entendre	VERB
 ,	,	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	ADP
+du moins	du moins	ADV
 que	que	PRON
 on	on	PRON
 écoute	écouter	VERB
@@ -1868,7 +1868,7 @@ autres	autre	PRON
 ne	ne	ADV
 en	en	PRON
 sont	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 aux	au	ADP_DET
 balbutiements	balbutiement	NOUN
 .	.	PUNCTsent
@@ -1890,7 +1890,7 @@ bar	bar	NOUN
 souterrain	souterrain	ADJ
 règne	régner	VERB
 toujours	toujours	ADV
-la même	la même	DET
+la même	la même	PRON
 pénombre	pénombre	NOUN
 crépusculaire	crépusculaire	ADJ
 .	.	PUNCTsent
@@ -2001,12 +2001,12 @@ leurs	leur	DET
 paroles	parole	NOUN
 acquièrent	acquérir	VERB
 le	le	DET
-plus de	plus de	SCONJ
+plus de	plus de	DET
 efficacité	efficacité	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 ,	,	PUNCTclause
-en conséquence	en conséquence	NOUN
+en conséquence	en conséquence	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 deviennent	devenir	VERB
@@ -2267,7 +2267,7 @@ important	important	ADJ
 il	il	PRON
 se	se	PRON
 forme	forme	NOUN
-de proche en proche	de proche en proche	PUNCT
+de proche en proche	de proche en proche	ADV
 ,	,	PUNCTclause
 par le moyen de	par le moyen de	ADP
 personnes	personne	NOUN
@@ -2287,7 +2287,7 @@ gouvernements	gouvernement	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 ces	ce	DET
 gouvernements	gouvernement	NOUN
 ,	,	PUNCTclause
@@ -2352,7 +2352,7 @@ présence	présence	NOUN
 au	au	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 la	le	DET
 guerre	guerre	NOUN
 et	et	CCONJ
@@ -2386,7 +2386,7 @@ il	il	PRON
 ne	ne	ADV
 faut	falloir	VERB
 pas	pas	ADV
-avoir peur	avoir peur	PUNCT
+avoir peur	avoir peur	VERB
 de	de	ADP
 ces	ce	DET
 complexités	complexité	NOUN
@@ -2492,7 +2492,7 @@ répète	répéter	VERB
 ;	;	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 toutes	tout	ADJ
 les	le	DET
 aspirations	aspiration	NOUN
@@ -2551,8 +2551,8 @@ partie	partie	NOUN
 sera	être	AUX
 plus	plus	ADV
 que	que	SCONJ
-à moitié	à moitié	DET
-gagnée	gagné	ADJ
+à moitié	à moitié	ADV
+gagnée	gagner	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voici	voici	ADP
@@ -2617,8 +2617,8 @@ travaux	travail	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 achèvera	achever	VERB
-de mise	de mise	ADP
-au point	au point	PUNCT
+de mise	de mise	ADJ
+au point	au point	ADJ
 le	le	DET
 prochain	prochain	ADJ
 livre	livre	NOUN

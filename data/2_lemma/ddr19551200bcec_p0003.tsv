@@ -117,8 +117,8 @@ slaves	slave	ADJ
 que	que	SCONJ
 Charlemagne	Charlemagne	PROPN
 ,	,	PUNCTclause
-un peu	un peu	DET
-avant	avant	NOUN
+un peu	un peu	ADV
+avant	avant	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 était	être	AUX
@@ -455,7 +455,7 @@ Russie	Russie	PROPN
 et	et	CCONJ
 l'	le	DET
 Europe	Europe	PROPN
-jusqu'à la fin	jusqu'à la fin	ADP
+jusqu'à la fin	jusqu'à la fin	ADV
 du	du	ADP_DET
 17e	17e	ADJ
 siècle	siècle	NOUN
@@ -549,7 +549,7 @@ Grand	Grand	PROPN
 il	il	PRON
 fut	être	AUX
 «	«	PUNCTclause
-le premier	le premier	SYM
+le premier	le premier	PRON
 technocrate	technocrate	NOUN
 de	de	ADP
 l'	le	DET
@@ -567,9 +567,9 @@ sa	son	DET
 réforme	réforme	NOUN
 ne	ne	ADV
 fut	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
-la première	la première	DET
+la première	la première	PRON
 révolution	révolution	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -680,7 +680,7 @@ civilisation	civilisation	NOUN
 par	par	ADP
 des	un	DET
 moyens	moyen	NOUN
-de fortune	de fortune	PUNCT
+de fortune	de fortune	ADJ
 et	et	CCONJ
 en	en	ADP
 faisant	faire	VERB
@@ -706,7 +706,7 @@ Russie	Russie	PROPN
 :	:	PUNCTclause
 celle	celle	PRON
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 reçoit	recevoir	VERB
 d'ailleurs	d'ailleurs	ADV
@@ -753,7 +753,7 @@ et	et	CCONJ
 de	de	ADP
 se	se	PRON
 vêtir	vêtir	VERB
-à la mode	à la mode	ADP
+à la mode	à la mode	ADJ
 occidentale	occidental	ADJ
 .	.	PUNCTsent
 des	un	DET
@@ -1074,7 +1074,7 @@ Russie	Russie	PROPN
 ne	ne	ADV
 ressemble	ressembler	VERB
 plus	plus	ADV
-en rien	en rien	PUNCT
+en rien	en rien	ADV
 à	à	ADP
 la	le	DET
 technolâtrie	technolâtrie	NOUN
@@ -1207,7 +1207,7 @@ ne	ne	ADV
 la	le	DET
 comprenait	comprendre	VERB
 que	que	PRON
-à moitié	à moitié	PUNCT
+à moitié	à moitié	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 ne	ne	ADV
@@ -1241,7 +1241,7 @@ en	en	ADP
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 comparable	comparable	ADJ
-à la mode	à la mode	ADP
+à la mode	à la mode	ADJ
 chinoise	chinois	ADJ
 de	de	ADP
 l'	le	DET
@@ -1268,7 +1268,7 @@ XV	XV	NUM
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
 est	être	AUX
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 impossible	impossible	ADJ
 de	de	ADP
 imaginer	imaginer	VERB
@@ -1411,13 +1411,13 @@ Russie	Russie	PROPN
 certains	certain	DET
 égards	égard	NOUN
 ,	,	PUNCTclause
-le second	le second	DET
+le second	le second	PRON
 mouvement	mouvement	NOUN
 apparaît	apparaître	VERB
 plus	plus	ADV
 puissant	puissant	ADJ
-encore que	encore que	NOUN
-le premier	le premier	PUNCT
+encore que	encore que	SCONJ
+le premier	le premier	PRON
 .	.	PUNCTsent
 la	le	DET
 Russie	Russie	PROPN
@@ -1781,7 +1781,7 @@ Alexandre	Alexandre	PROPN
 1er	1er	NUM
 ,	,	PUNCTclause
 et	et	CCONJ
-à bien des égards	à bien des égards	ADP
+à bien des égards	à bien des égards	ADV
 cette	ce	DET
 domination	domination	NOUN
 se	se	PRON
@@ -1800,7 +1800,7 @@ le	le	DET
 France	France	PROPN
 a	avoir	AUX
 été	être	AUX
-la première	la première	DET
+la première	la première	PRON
 langue	langue	NOUN
 étrangère	étranger	ADJ
 que	que	SCONJ
@@ -1858,7 +1858,7 @@ chaque fois que	chaque fois que	SCONJ
 il	il	PRON
 se	se	PRON
 agissait	agir	VERB
-de mise	de mise	ADP
+de mise	de mise	ADJ
 quelque	quelque	DET
 clarté	clarté	NOUN
 dans	dans	ADP
@@ -2137,7 +2137,7 @@ Pouchkine	Pouchkine	PROPN
 l'	le_PRON	PRON
 Europe	Europe	PROPN
 est	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 grand	grand	ADJ
 écrivain	écrivain	NOUN
 Russie	Russie	PROPN
@@ -2463,7 +2463,7 @@ science	science	NOUN
 ne	ne	ADV
 saurait	savoir	VERB
 faire	faire	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 suivre	suivre	VERB
 la	le	DET
@@ -2517,7 +2517,7 @@ parenté	parenté	NOUN
 essentielle	essentiel	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'	le	DET
 influence	influence	NOUN
 inverse	inverse	ADJ
@@ -2640,7 +2640,7 @@ la	le	DET
 culture	culture	NOUN
 Russie	Russie	PROPN
 ,	,	PUNCTclause
-ce n'est pas que	ce n'est pas que	DET
+ce n'est pas que	ce n'est pas que	SCONJ
 elle	elle	PRON
 se	se	PRON
 y	y	PRON
@@ -2762,7 +2762,7 @@ meilleure	meilleur	ADJ
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 ,	,	PUNCTclause
 une	un	DET
 meilleure	meilleur	ADJ
@@ -2996,7 +2996,7 @@ et	et	CCONJ
 l'on	on	PRON
 croit	croire	VERB
 voir	voir	VERB
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 à travers	à travers	ADP
 les	le	DET
@@ -3153,7 +3153,7 @@ tsar	tsar	NOUN
 se	se	PRON
 en	en	ADP
 émut	émouvoir	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 de	de	ADP
 statuer	statuer	VERB
 que	que	SCONJ
@@ -3241,7 +3241,7 @@ ans	an	NOUN
 ;	;	PUNCTclause
 il	il	PRON
 est	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 théoricien	théoricien	NOUN
 de	de	ADP
 envergure	envergure	NOUN
@@ -3298,7 +3298,7 @@ interprétation	interprétation	NOUN
 du	du	ADP_DET
 destin	destin	NOUN
 Russie	Russie	PROPN
-en tout point	en tout point	PUNCT
+en tout point	en tout point	ADV
 différente	différent	ADJ
 de	de	ADP
 celle	celle	PRON
@@ -3395,7 +3395,7 @@ slavophilie	slavophilie	NOUN
 tout	tout	ADV
 entière	entier	ADJ
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 système	système	NOUN
 de	de	ADP
 idées	idée	NOUN
@@ -3467,7 +3467,7 @@ des	un	DET
 réactionnaires	réactionnaire	NOUN
 obtus	obtus	ADJ
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 révolutionnaire	révolutionnaire	ADJ
 Russie	Russie	PROPN
 ,	,	PUNCTclause
@@ -3566,7 +3566,7 @@ intelligentsia	intelligentsia	NOUN
 terme	terme	NOUN
 latin	latin	ADJ
 russifié	russifier	VERB
-à la hâte	à la hâte	DET
+à la hâte	à la hâte	ADV
 —	—	PUNCTclause
 qui	qui	PRON
 apparaît	apparaître	VERB
@@ -4028,7 +4028,7 @@ nous	nous	PRON
 devons	devoir	VERB
 nous	nous	PRON
 aimer	aimer	VERB
-les uns les autres	les uns les autres	DET
+les uns les autres	les uns les autres	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
@@ -4396,7 +4396,7 @@ années	année	NOUN
 mais	mais	CCONJ
 une	un	DET
 censure	censure	NOUN
-en sens inverse	en sens inverse	ADP
+en sens inverse	en sens inverse	ADV
 est	être	AUX
 exercée	exercer	VERB
 par	par	ADP
@@ -4408,7 +4408,7 @@ la	le	DET
 censure	censure	NOUN
 officielle	officiel	ADJ
 sévit	sévir	VERB
-à l'aveugle	à l'aveugle	PUNCT
+à l'aveugle	à l'aveugle	ADV
 et	et	CCONJ
 commet	commettre	VERB
 des	un	DET
@@ -4528,13 +4528,13 @@ en	en	ADP
 ont	avoir	AUX
 été	être	AUX
 persécutés	persécuter	VERB
-sans relâche	sans relâche	ADP
+sans relâche	sans relâche	ADV
 leur	leur	DET
 vie	vie	NOUN
 durant	durant	ADP
 ,	,	PUNCTclause
 et	et	CCONJ
-jusqu'à ce jour	jusqu'à ce jour	NOUN
+jusqu'à ce jour	jusqu'à ce jour	ADV
 ,	,	PUNCTclause
 grâce à	grâce à	ADP
 son	son	DET
@@ -4558,7 +4558,7 @@ place	place	NOUN
 qui	qui	PRON
 leur	leur	PRON
 revient	revenir	VERB
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -4591,7 +4591,7 @@ le	le	DET
 silence	silence	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-du moins	du moins	ADP
+du moins	du moins	ADV
 ne	ne	ADV
 ordonnait	ordonner	VERB
 elle	elle	PRON
@@ -4685,7 +4685,7 @@ et	et	CCONJ
 fructueux	fructueux	ADJ
 .	.	PUNCTsent
 rappelons	rappeler	VERB
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 quelques	quelque	DET
 exemples	exemple	NOUN
 bien	bien	ADV
@@ -4758,7 +4758,7 @@ révélés	révéler	VERB
 à	à	ADP
 Paris	Paris	PROPN
 au cours de	au cours de	ADP
-la première	la première	DET
+la première	la première	PRON
 saison	saison	NOUN
 des	un	ADP_DET
 Ballets	Ballets	PROPN
@@ -4818,7 +4818,7 @@ que	que	SCONJ
 Russie	Russie	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 le	le	DET
 symbolisme	symbolisme	NOUN
 et	et	CCONJ
@@ -4888,7 +4888,7 @@ portée	portée	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 que	que	SCONJ
 l'	le	DET
@@ -5100,7 +5100,7 @@ passionnément	passionnément	ADV
 admirés	admirer	VERB
 en	en	ADP
 Russie	Russie	PROPN
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ils	ils	PRON
 étaient	être	AUX
 encore	encore	ADV
@@ -5262,7 +5262,7 @@ or	or	NOUN
 Apollon	Apollon	PROPN
 se	se	PRON
 intéressaient	intéresser	VERB
-pour le moins	pour le moins	ADP
+pour le moins	pour le moins	ADV
 autant	autant	ADV
 aux	au	ADP_DET
 lettres	lettre	NOUN
@@ -5426,7 +5426,7 @@ cette	ce	DET
 ne	ne	ADV
 est	être	AUX
 concevable	concevable	ADJ
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 ces	ce	DET
 nouvelles	nouveau	ADJ
 connaissances	connaissance	NOUN

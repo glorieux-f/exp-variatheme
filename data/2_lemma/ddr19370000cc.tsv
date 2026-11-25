@@ -240,7 +240,7 @@ elle	elle	PRON
 a	avoir	AUX
 pu	pouvoir	VERB
 se	se	PRON
-mise en marche	mise en marche	ADV
+mise en marche	mise en marche	NOUN
 et	et	CCONJ
 agir	agir	VERB
 au niveau de	au niveau de	ADP
@@ -350,7 +350,7 @@ et	et	CCONJ
 ne	ne	ADV
 parle	parler	VERB
 même	même	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 sa	son	DET
 suppression	suppression	NOUN
 future	futur	ADJ
@@ -400,7 +400,7 @@ dialectique	dialectique	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 l'	le	DET
 obéissance	obéissance	NOUN
@@ -1009,7 +1009,7 @@ d'abord	d'abord	ADV
 le	le	DET
 Marx	Marx	PROPN
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 le	le	DET
 chrétien	chrétien	NOUN
 ,	,	PUNCTclause
@@ -1173,7 +1173,7 @@ pour	pour	ADP
 le	le	DET
 Marx	Marx	PROPN
 ,	,	PUNCTclause
-aussi bien que	aussi bien que	ADV
+aussi bien que	aussi bien que	CCONJ
 pour	pour	ADP
 le	le	DET
 chrétien	chrétien	NOUN
@@ -1277,7 +1277,7 @@ formulée	formuler	VERB
 et	et	CCONJ
 résumée	résumer	VERB
 ,	,	PUNCTclause
-de part et d'autre	de part et d'autre	DET
+de part et d'autre	de part et d'autre	ADV
 ,	,	PUNCTclause
 par	par	ADP
 deux	deux	NUM
@@ -1435,14 +1435,14 @@ se	se	PRON
 agit	agir	VERB
 de	de	ADP
 transformer	transformer	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 l'on	on	PRON
 est	être	AUX
 proprement	proprement	ADV
 humain	humain	ADJ
 (	(	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 l'on	on	PRON
 obéit	obéir	VERB
 à	à	ADP
@@ -1453,7 +1453,7 @@ pour	pour	ADP
 Paul	Paul	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 l'on	on	PRON
 fait	faire	VERB
 la	le	DET
@@ -1570,7 +1570,7 @@ bien	bien	ADV
 au	au	ADP_DET
 clair	clair	NOUN
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	PRON
+si l'on veut	si l'on veut	ADV
 comprendre	comprendre	VERB
 pourquoi	pourquoi	ADV
 la	le	DET
@@ -1684,7 +1684,7 @@ sens	sens	NOUN
 vulgaire	vulgaire	ADJ
 ,	,	PUNCTclause
 que	que	PRON
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 la	le	DET
 mentalité	mentalité	NOUN
 de	de	ADP
@@ -1786,7 +1786,7 @@ homme	homme	NOUN
 intérieur	intérieur	ADJ
 »	»	PUNCTclause
 et	et	CCONJ
-rien que	rien que	PRON
+rien que	rien que	ADV
 lui	lui	PRON
 .	.	PUNCTsent
 ce	ce	PRON
@@ -1810,7 +1810,7 @@ elle	elle	PRON
 ne	ne	ADV
 empêchait	empêcher	VERB
 nullement	nullement	ADV
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 des	un	ADP_DET
 affaires	affaire	NOUN
 .	.	PUNCTsent
@@ -2144,7 +2144,7 @@ que	que	SCONJ
 il	il	PRON
 doit	devoir	VERB
 servir	servir	VERB
-au bout du compte	au bout du compte	ADP
+au bout du compte	au bout du compte	ADV
 la	le	DET
 vérité	vérité	NOUN
 —	—	PUNCTclause
@@ -2267,7 +2267,7 @@ ne	ne	ADV
 fut	être	AUX
 guère	guère	ADV
 que	que	SCONJ
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 de	de	ADP
 sa	son	DET
 carrière	carrier	NOUN
@@ -2413,7 +2413,7 @@ elle	elle	PRON
 le	le_PRON	PRON
 pratique	pratiquer	VERB
 elle-même	elle-même	PRON
-sans vergogne	sans vergogne	PUNCT
+sans vergogne	sans vergogne	ADV
 ,	,	PUNCTclause
 tout	tout	PRON
 en	en	ADP
@@ -2947,8 +2947,8 @@ que	que	PRON
 de	de	ADP
 parler	parler	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 de	de	ADP
 une	un	DET
 «	«	PUNCTclause
@@ -4189,7 +4189,7 @@ il	il	PRON
 pas	pas	ADV
 «	«	PUNCTclause
 aller	aller	VERB
-au plus	au plus	PUNCT
+au plus	au plus	ADV
 pressé	pressé	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
@@ -4227,10 +4227,10 @@ l'on	on	PRON
 dit	dire	VERB
 réaliste	réaliste	NOUN
 ,	,	PUNCTclause
-à supposer que	à supposer que	DET
-le	le_PRON	PRON
+à supposer que	à supposer que	SCONJ
+le	le	DET
 «	«	PUNCTclause
-parti	partir	VERB
+parti	parti	NOUN
 chrétien	chrétien	ADJ
 »	»	PUNCTclause
 eût	avoir	AUX
@@ -4299,7 +4299,7 @@ non	non	ADV
 pas	pas	ADV
 dictateur	dictateur	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 son	son	DET
 message	message	NOUN
 nous	nous	PRON
@@ -4692,7 +4692,7 @@ insuffisante	insuffisant	ADJ
 ce	ce	PRON
 qui	qui	PRON
 explique	expliquer	VERB
-en dernier ressort	en dernier ressort	DET
+en dernier ressort	en dernier ressort	ADV
 le	le	DET
 succès	succès	NOUN
 «	«	PUNCTclause
@@ -4833,7 +4833,7 @@ des	un	ADP_DET
 conformismes	conformisme	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-du moins	du moins	NOUN
+du moins	du moins	ADV
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
@@ -4879,7 +4879,7 @@ le	le	DET
 monde	monde	NOUN
 moderne	moderne	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 les	le	DET
 reproches	reproche	NOUN
 du	du	ADP_DET
@@ -4898,7 +4898,7 @@ chrétien	chrétien	NOUN
 au	au	ADP_DET
 Marx	Marx	PROPN
 .	.	PUNCTsent
-en gros	en gros	DET
+en gros	en gros	ADV
 :	:	PUNCTclause
 si	si	SCONJ
 Marx	Marx	PROPN
@@ -4941,7 +4941,7 @@ fidèle	fidèle	ADJ
 partant	partir	VERB
 plus	plus	ADV
 douloureuse	douloureux	ADJ
-de ce fait	de ce fait	PUNCT
+de ce fait	de ce fait	ADV
 ,	,	PUNCTclause
 je	je	PRON
 crois	croire	VERB
@@ -4953,14 +4953,14 @@ attaquer	attaquer	VERB
 le	le	DET
 Marx	Marx	PROPN
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 termes	terme	NOUN
 que	que	SCONJ
 la	le	DET
 réaction	réaction	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-ceci dit	ceci dit	DET
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 maintenu	maintenir	VERB
@@ -4972,7 +4972,7 @@ en	en	ADP
 doctrine	doctrine	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-indépendamment de	indépendamment de	PRON
+indépendamment de	indépendamment de	ADP
 toutes	tout	ADJ
 nos	nos	DET
 fautes	faute	NOUN
@@ -4984,7 +4984,7 @@ ne	ne	ADV
 vaut	valoir	VERB
 rien	rien	PRON
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 objection	objection	NOUN
 chrétienne	chrétien	ADJ
@@ -5010,7 +5010,7 @@ et	et	CCONJ
 qui	qui	PRON
 ne	ne	ADV
 affecte	affecter	VERB
-en rien	en rien	ADP
+en rien	en rien	ADV
 le	le	DET
 cours	cours	NOUN
 des	un	ADP_DET
@@ -5091,7 +5091,7 @@ reproches	reprocher	VERB
 ce	ce	PRON
 est	être	AUX
 ,	,	PUNCTclause
-en fait	en fait	SYM
+en fait	en fait	ADV
 ,	,	PUNCTclause
 de	de	ADP
 ne	ne	ADV
@@ -5179,7 +5179,7 @@ la mienne	la mienne	PRON
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-par contre	par contre	NOUN
+par contre	par contre	ADV
 ,	,	PUNCTclause
 quand	quand	SCONJ
 je	je	PRON
@@ -5251,7 +5251,7 @@ convaincu	convaincre	VERB
 ,	,	PUNCTclause
 non	non	ADV
 point	point	ADV
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'on	on	PRON
 trahit	trahir	VERB
 le	le	DET
@@ -5295,7 +5295,7 @@ essentiel	essentiel	ADJ
 du	du	ADP_DET
 Marx	Marx	PROPN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 critique	critique	NOUN
 Marx	Marx	PROPN
@@ -5349,7 +5349,7 @@ ne	ne	ADV
 peut	pouvoir	VERB
 conduire	conduire	VERB
 que	que	SCONJ
-à l'excès	à l'excès	DET
+à l'excès	à l'excès	ADV
 du	du	ADP_DET
 matérialisme	matérialisme	NOUN
 ,	,	PUNCTclause
@@ -5421,7 +5421,7 @@ toute	toute	DET
 équivoque	équivoque	NOUN
 grossière	grossier	ADJ
 dissipée	dissiper	VERB
-en principe	en principe	DET
+en principe	en principe	ADV
 ,	,	PUNCTclause
 au lieu de	au lieu de	ADP
 la	le	DET
@@ -5566,7 +5566,7 @@ marquer	marquer	VERB
 les	le	DET
 limites	limite	NOUN
 existant	exister	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -5655,7 +5655,7 @@ permette	permettre	VERB
 ici	ici	ADV
 de	de	ADP
 être	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 schématique	schématique	ADJ
 pour	pour	ADP
 plus de	plus de	DET
@@ -5721,7 +5721,7 @@ tous deux	tous deux	PRON
 sont	être	AUX
 eschatologiques	eschatologique	ADJ
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 ils	ils	PRON
 rapportent	rapporter	VERB
@@ -5826,7 +5826,7 @@ présent	présent	ADJ
 dans	dans	ADP
 notre	notre	DET
 cœur	cœur	NOUN
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 eschaton	eschaton	NOUN
 Marx	Marx	PROPN
@@ -5967,7 +5967,7 @@ la	le	DET
 plus	plus	ADV
 intime	intime	ADJ
 .	.	PUNCTsent
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 sa	son	DET
 personne	personne	NOUN
 est	être	AUX
@@ -5992,8 +5992,8 @@ dès maintenant	dès maintenant	ADV
 elle	elle	PRON
 porte	porter	VERB
 témoignage	témoignage	NOUN
-en faveur de	en faveur de	ADV
-fait accompli	fait accompli	PUNCT
+en faveur de	en faveur de	ADP
+fait accompli	fait accompli	NOUN
 de	de	ADP
 une	un	DET
 révolution	révolution	NOUN
@@ -6164,9 +6164,9 @@ réalisée	réaliser	VERB
 ,	,	PUNCTclause
 me	me	PRON
 montre	montrer	VERB
-dès maintenant	dès maintenant	ADP
-un peu de	un peu de	ADP
-la	le	DET
+dès maintenant	dès maintenant	ADV
+un peu de	un peu de	DET
+la	le_PRON	PRON
 réalité	réalité	NOUN
 de	de	ADP
 mes	mon	DET
@@ -6401,7 +6401,7 @@ l'	le	DET
 homme	homme	NOUN
 est	être	AUX
 seul	seul	ADJ
-en jeu	en jeu	PUNCT
+en jeu	en jeu	ADJ
 —	—	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -6587,7 +6587,7 @@ par	par	ADP
 des	un	DET
 actes	acte	NOUN
 visibles	visible	ADJ
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 retour	retour	NOUN
 de	de	ADP
 un	un	DET
@@ -6624,7 +6624,7 @@ qui	qui	PRON
 ne	ne	ADV
 sauraient	savoir	VERB
 être	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 dans	dans	ADP
 les	le	DET
 deux	deux	NUM
@@ -6690,10 +6690,10 @@ l'	le	DET
 chrétienne	chrétien	ADJ
 ,	,	PUNCTclause
 détruirait	détruire	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 cette	ce	DET
 église	église	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 elle	elle	PRON
 vit	vivre	VERB
 dans	dans	ADP
@@ -6748,9 +6748,9 @@ présent	présent	NOUN
 je	je	PRON
 perds	perdre	VERB
 tout	tout	ADV
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
-présent	présent	NOUN
+présent	présent	ADJ
 ,	,	PUNCTclause
 futur	futur	ADJ
 ,	,	PUNCTclause
@@ -6972,14 +6972,14 @@ jusque	jusque	ADP
 à	à	ADP
 la	le	DET
 guerre	guerre	NOUN
-s'il le faut	s'il le faut	PUNCT
+s'il le faut	s'il le faut	ADV
 ,	,	PUNCTclause
 sont	être	AUX
 des	un	DET
 moyens	moyen	NOUN
 parfaitement	parfaitement	ADV
 acceptables	acceptable	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ils	ils	PRON
 servent	servir	VERB
 le	le	DET
@@ -7026,7 +7026,7 @@ est	être	AUX
 pas	pas	ADV
 pour	pour	ADP
 eux	eux	PRON
-de toute façon	de toute façon	PUNCT
+de toute façon	de toute façon	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 pour	pour	ADP
@@ -7053,7 +7053,7 @@ au	au	ADP_DET
 parti	parti	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 du	du	ADP_DET
 parti	parti	NOUN
 ,	,	PUNCTclause
@@ -7069,7 +7069,7 @@ utiles	utile	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 imaginez	imaginer	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 un	un	DET
 vrai	vrai	ADJ
 chrétien	chrétien	NOUN
@@ -7175,7 +7175,7 @@ saboteur	saboteur	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
-à tout le moins	à tout le moins	ADP
+à tout le moins	à tout le moins	ADV
 un	un	DET
 militant	militant	NOUN
 suspect	suspect	ADJ
@@ -7474,7 +7474,7 @@ et	et	CCONJ
 politiques	politique	ADJ
 que	que	SCONJ
 implique	impliquer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 leur	leur	DET
 attitude	attitude	NOUN
 ?	?	PUNCTsent
@@ -7491,7 +7491,7 @@ groupes	groupe	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 représentent	représenter	VERB
-à l'heure actuelle	à l'heure actuelle	ADP
+à l'heure actuelle	à l'heure actuelle	ADV
 le	le	DET
 christianisme	christianisme	NOUN
 le	le	DET
@@ -7630,7 +7630,7 @@ succès	succès	NOUN
 du	du	ADP_DET
 Marx	Marx	PROPN
 .	.	PUNCTsent
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 les	le	DET
 chrétiens	chrétien	NOUN
 ne	ne	ADV
@@ -7670,7 +7670,7 @@ se	se	PRON
 en	en	ADP
 trouvera	trouver	VERB
 justifié	justifier	VERB
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -7806,7 +7806,7 @@ entre	entre	ADP
 tous	tous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -7832,7 +7832,7 @@ est	être	AUX
 la	le	DET
 «	«	PUNCTclause
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 »	»	PUNCTclause
 de	de	ADP
 nos	nos	DET
@@ -7928,9 +7928,9 @@ organisées	organiser	VERB
 on	on	PRON
 parle	parler	VERB
 ,	,	PUNCTclause
-à tort	à tort	PUNCT
+à tort	à tort	ADV
 ou	ou	CCONJ
-à raison	à raison	DET
+à raison	à raison	ADV
 ,	,	PUNCTclause
 de	de	ADP
 états	état	NOUN
@@ -7984,7 +7984,7 @@ des	un	DET
 formes	forme	NOUN
 religieuses	religieux	ADJ
 ,	,	PUNCTclause
-du moins	du moins	DET
+du moins	du moins	ADV
 dans	dans	ADP
 des	un	DET
 formes	forme	NOUN
@@ -8045,12 +8045,12 @@ conscience	conscience	NOUN
 ne	ne	ADV
 avons	avoir	AUX
 nous	nous	PRON
-rien que	rien que	PRON
+rien que	rien que	ADV
 nous-mêmes	nous-mêmes	PRON
 à	à	ADP
 sauver	sauver	VERB
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 nos	nos	DET
 erreurs	erreur	NOUN
 passées	passer	VERB
@@ -8148,7 +8148,7 @@ calviniste	calviniste	NOUN
 doit	devoir	VERB
 être	être	AUX
 ici	ici	ADV
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 répondre	répondre	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -8213,7 +8213,7 @@ réfractaires	réfractaire	ADJ
 à	à	ADP
 certaine	certain	ADJ
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 .	.	PUNCTsent
 il	il	PRON
 serait	être	AUX
@@ -8237,7 +8237,7 @@ calvinistes	calviniste	ADJ
 défendaient	défendre	VERB
 alors	alors	ADV
 ,	,	PUNCTclause
-par principe	par principe	NOUN
+par principe	par principe	ADV
 ,	,	PUNCTclause
 un	un	DET
 régime	régime	NOUN
@@ -8286,9 +8286,9 @@ XIV	XIV	NUM
 nous	nous	PRON
 constatons	constater	VERB
 que	que	SCONJ
-la première	la première	DET
+la première	la première	PRON
 discipline	discipline	NOUN
-que	que	PRON
+que	que	SCONJ
 se	se	PRON
 donnent	donner	VERB
 les	le	DET
@@ -8490,10 +8490,10 @@ pas	pas	ADV
 restreindre	restreindre	VERB
 la	le	DET
 portée	portée	NOUN
-de ce fait	de ce fait	PUNCT
+de ce fait	de ce fait	ADV
 en	en	ADP
-l'	le	DET
-opposant	opposant	NOUN
+l'	le_PRON	PRON
+opposant	opposer	VERB
 ,	,	PUNCTclause
 comme	comme	SCONJ
 il	il	PRON
@@ -8815,7 +8815,7 @@ telle	tel	PRON
 entreprise	entreprendre	VERB
 ,	,	PUNCTclause
 pour	pour	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 raisons	raison	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -8895,7 +8895,7 @@ généreuses	généreux	ADJ
 du	du	ADP_DET
 Marx	Marx	PROPN
 sont	être	AUX
-autant de	autant de	ADP
+autant de	autant de	DET
 essais	essai	NOUN
 de	de	ADP
 sauvetage	sauvetage	NOUN
@@ -8992,7 +8992,7 @@ en	en	PRON
 sont	être	AUX
 responsables	responsable	ADJ
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elles	elles	PRON
 cédèrent	céder	VERB
 ,	,	PUNCTclause
@@ -9039,7 +9039,7 @@ sommes	être	AUX
 les	le	DET
 responsables	responsable	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 nous	nous	PRON
 cultivons	cultiver	VERB
 un	un	DET
@@ -9067,7 +9067,7 @@ ce	ce	PRON
 est	être	AUX
 à	à	ADP
 lui	lui	PRON
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 pénitence	pénitence	NOUN
 ,	,	PUNCTclause
 car	car	CCONJ

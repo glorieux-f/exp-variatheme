@@ -91,7 +91,7 @@ individus	individu	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 cas	cas	NOUN
 il	il	PRON
 doit	devoir	VERB
@@ -116,7 +116,7 @@ le	le	DET
 parlement	parlement	NOUN
 actuel	actuel	ADJ
 (	(	PUNCTclause
-depuis que	depuis que	ADV
+depuis que	depuis que	SCONJ
 les	le	DET
 grands	grand	ADJ
 bourgeois	bourgeois	NOUN
@@ -177,7 +177,7 @@ l'autre	l'autre	PRON
 ,	,	PUNCTclause
 aboutissant	aboutir	VERB
 ,	,	PUNCTclause
-en un mot	en un mot	NOUN
+en un mot	en un mot	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 désordre	désordre	NOUN
@@ -654,10 +654,10 @@ une	un	DET
 action	action	NOUN
 précise	précis	ADJ
 mais	mais	CCONJ
-par là même	par là même	ADP
-meurtrière	meurtrier	NOUN
+par là même	par là même	ADV
+meurtrière	meurtrier	ADJ
 et	et	CCONJ
-destructrice	destructeur	NOUN
+destructrice	destructeur	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -695,7 +695,7 @@ conseil municipal	conseil municipal	NOUN
 est	être	AUX
 chaque	chaque	DET
 jour	jour	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus	plus	ADV
 dans	dans	ADP
 la	le	DET
@@ -828,7 +828,7 @@ devrait	devoir	VERB
 être	être	AUX
 protégé	protéger	VERB
 est	être	AUX
-en fait	en fait	SYM
+en fait	en fait	ADV
 empêché	empêcher	VERB
 par	par	ADP
 le	le	DET
@@ -880,7 +880,7 @@ ce	ce	DET
 dernier	dernier	ADJ
 ,	,	PUNCTclause
 livré	livrer	VERB
-au pire	au pire	ADP
+au pire	au pire	ADV
 capitalisme	capitalisme	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -919,7 +919,7 @@ le	le_PRON	PRON
 nomme	nommer	VERB
 ?	?	PUNCTsent
 plus	plus	ADV
-rien que	rien que	ADJ
+rien que	rien que	ADV
 une	un	DET
 machine	machine	NOUN
 à	à	ADP
@@ -965,12 +965,12 @@ est	être	AUX
 sans	sans	ADP
 efficacité	efficacité	NOUN
 puisque	puisque	SCONJ
-tout le monde	tout le monde	NOUN
-l'	le	DET
+tout le monde	tout le monde	PRON
+l'	le_PRON	PRON
 obtient	obtenir	VERB
 ,	,	PUNCTclause
 mais	mais	CCONJ
-par là même	par là même	ADP
+par là même	par là même	ADV
 elle	elle	PRON
 est	être	AUX
 nécessaire	nécessaire	ADJ

@@ -224,7 +224,7 @@ peu à peu	peu à peu	ADV
 de	de	ADP
 son	son	DET
 élite	élite	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 de	de	ADP
 ses	son	DET
 parasites	parasite	NOUN
@@ -274,11 +274,11 @@ mais	mais	CCONJ
 peut-être	peut-être	ADV
 est	être	AUX
 ce	ce	DET
-trop de	trop de	NOUN
+trop de	trop de	DET
 optimisme	optimisme	NOUN
 que	que	SCONJ
 de	de	ADP
-supposé que	supposé que	ADP
+supposé que	supposé que	SCONJ
 un	un	DET
 plan	plan	NOUN
 quelconque	quelconque	ADJ
@@ -346,7 +346,7 @@ y	y	PRON
 engage	engager	VERB
 ,	,	PUNCTclause
 inclassable	inclassable	ADJ
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 ni	ni	CCONJ
 fuyard	fuyard	NOUN
@@ -667,15 +667,15 @@ désarmée	désarmer	VERB
 et	et	CCONJ
 soudain	soudain	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
-avant	avant	NOUN
+un peu	un peu	ADV
+avant	avant	ADP
 Nîmes	Nîmes	PROPN
 ,	,	PUNCTclause
 deux	deux	NUM
 motocyclistes	motocycliste	NOUN
 Allemagne	Allemagne	PROPN
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 se	se	PRON
 est	être	AUX
 tu	taire	VERB
@@ -782,8 +782,8 @@ leur	leur	DET
 absence	absence	NOUN
 représente	représenter	VERB
 bien	bien	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 une	un	DET
 «	«	PUNCTclause
 restriction	restriction	NOUN
@@ -903,7 +903,7 @@ réduit	réduire	VERB
 quelques	quelque	DET
 bombes	bombe	NOUN
 jetées	jeter	VERB
-par erreur	par erreur	PUNCT
+par erreur	par erreur	ADV
 sur	sur	ADP
 Lausanne	Lausanne	PROPN
 et	et	CCONJ
@@ -1039,7 +1039,7 @@ civilisations	civilisation	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 savons	savoir	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 mortelles	mortel	ADJ
@@ -1049,7 +1049,7 @@ oui	oui	INTJ
 ,	,	PUNCTclause
 nous	nous	PRON
 savons	savoir	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 ce	ce	PRON
 est	être	AUX
 possible	possible	ADJ
@@ -1109,7 +1109,7 @@ ne	ne	ADV
 se	se	PRON
 conserveront	conserver	VERB
 guère	guère	ADV
-plus d'une	plus d'une	ADV
+plus d'une	plus d'une	DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -1224,13 +1224,13 @@ Ciano	Ciano	PROPN
 et	et	CCONJ
 Molotov	Molotov	PROPN
 :	:	PUNCTclause
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 fournissait	fournir	VERB
 les	le	DET
 avions	avion	NOUN
 ,	,	PUNCTclause
-le second	le second	DET
-les	le_PRON	PRON
+le second	le second	PRON
+les	le	DET
 troupes	troupe	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -1472,7 +1472,7 @@ dont	dont	PRON
 ils	ils	PRON
 ont	avoir	AUX
 le	le	DET
-moins de	moins de	NOUN
+moins de	moins de	DET
 raisons	raison	NOUN
 de	de	ADP
 attendre	attendre	VERB
@@ -1506,7 +1506,7 @@ il	il	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 ramassée	ramasser	VERB
-en vitesse	en vitesse	DET
+en vitesse	en vitesse	ADV
 et	et	CCONJ
 se	se	PRON
 est	être	AUX
@@ -1700,7 +1700,7 @@ ils	ils	PRON
 se	se	PRON
 retrouveront	retrouver	VERB
 dans	dans	ADP
-la même	la même	DET
+la même	la même	PRON
 situation	situation	NOUN
 ,	,	PUNCTclause
 sans plus de	sans plus de	ADP
@@ -1915,7 +1915,7 @@ qui	qui	PRON
 ne	ne	ADV
 se	se	PRON
 inquiète	inquiéter	VERB
-plus de	plus de	PUNCT
+plus de	plus de	DET
 vous	vous	PRON
 une fois que	une fois que	SCONJ
 vous	vous	PRON
@@ -1970,7 +1970,7 @@ et	et	CCONJ
 brillante	brillant	ADJ
 que	que	SCONJ
 décrivaient	décrire	VERB
-à satiété	à satiété	PUNCT
+à satiété	à satiété	ADV
 —	—	PUNCTclause
 l'un	l'un	PRON
 copiant	copier	VERB
@@ -2116,7 +2116,7 @@ dans	dans	ADP
 la	le	DET
 seule	seul	ADJ
 intention	intention	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 maintenir	maintenir	VERB
 un	un	DET
 certain	certain	ADJ
@@ -2311,7 +2311,7 @@ arrosent	arroser	VERB
 de	de	ADP
 pépins	pépin	NOUN
 crachés	cracher	VERB
-à la ronde	à la ronde	DET
+à la ronde	à la ronde	ADV
 .	.	PUNCTsent
 ici	ici	ADV
 au moins	au moins	ADV
@@ -2450,7 +2450,7 @@ dit	dire	VERB
 on	on	PRON
 ,	,	PUNCTclause
 que	que	SCONJ
-à la dernière minute	à la dernière minute	ADP
+à la dernière minute	à la dernière minute	ADV
 la	le	DET
 police	police	NOUN
 retienne	retenir	VERB
@@ -3168,7 +3168,7 @@ air	air	NOUN
 de	de	ADP
 se	se	PRON
 attendre	attendre	VERB
-au pire	au pire	PUNCT
+au pire	au pire	ADV
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
 ils	ils	PRON
@@ -3259,7 +3259,7 @@ compte	compter	VERB
 bien	bien	ADV
 ,	,	PUNCTclause
 guère	guère	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 vingt-deux	vingt-deux	NUM
 heures	heure	NOUN
 ,	,	PUNCTclause
@@ -3456,7 +3456,7 @@ pour	pour	ADP
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 un	un	DET
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -3470,7 +3470,7 @@ elle	elle	PRON
 conservera	conserver	VERB
 son	son	DET
 autonomie	autonomie	NOUN
-tant que	tant que	PUNCT
+tant que	tant que	SCONJ
 la	le	DET
 décision	décision	NOUN
 entre	entre	ADP
@@ -3680,7 +3680,7 @@ peu de	peu de	DET
 esprit	esprit	NOUN
 offensif	offensif	ADJ
 ,	,	PUNCTclause
-trop de	trop de	ADP
+trop de	trop de	DET
 freins	frein	NOUN
 moraux	moral	ADJ
 et	et	CCONJ
@@ -3768,7 +3768,7 @@ concevable	concevable	ADJ
 là-bas	là-bas	ADV
 .	.	PUNCTsent
 essayer	essayer	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 du	du	ADP_DET
 roman	roman	NOUN
 ,	,	PUNCTclause
@@ -4115,7 +4115,7 @@ prévu	prévoir	VERB
 les	le	DET
 choses	chose	NOUN
 …	…	PUNCTsent
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 les	le	DET
 étrangers	étranger	NOUN
@@ -4199,7 +4199,7 @@ sa	son	DET
 femme	femme	NOUN
 qui	qui	PRON
 attendait	attendre	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 en arrière	en arrière	ADV
 :	:	PUNCTclause
 «	«	PUNCTsent
@@ -4209,7 +4209,7 @@ de nouveau	de nouveau	ADV
 ce	ce	PRON
 est	être	AUX
 toujours	toujours	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 petites	petit	ADJ
 histoires	histoire	NOUN
 …	…	PUNCTsent
@@ -4487,7 +4487,7 @@ se	se	PRON
 comportent	comporter	VERB
 en	en	ADP
 propriétaires	propriétaire	NOUN
-de droit	de droit	ADP_DET
+de droit	de droit	ADJ
 divin	divin	ADJ
 de	de	ADP
 la	le	DET
@@ -4679,7 +4679,7 @@ nature	nature	NOUN
 à	à	ADP
 la	le	DET
 voir	voir	VERB
-la première	la première	NOUN
+la première	la première	PRON
 et	et	CCONJ
 de	de	ADP
 si	si	ADV
@@ -4718,8 +4718,8 @@ riches	riche	ADJ
 ,	,	PUNCTclause
 touffus	touffu	ADJ
 et	et	CCONJ
-un peu	un peu	DET
-fous	fou	NOUN
+un peu	un peu	ADV
+fous	fou	ADJ
 !	!	PUNCTsent
 et	et	CCONJ
 ces	ce	DET
@@ -4798,8 +4798,8 @@ claire	clair	ADJ
 et	et	CCONJ
 neuve	neuf	ADJ
 :	:	PUNCTclause
-la première	la première	DET
-rue	rue	NOUN
+la première	la première	PRON
+rue	ruer	VERB
 États-Unis	États-Unis	PROPN
 !	!	PUNCTsent
 nous	nous	PRON
@@ -4813,8 +4813,8 @@ vers	vers	ADP
 l'	le	DET
 avant	avant	NOUN
 ,	,	PUNCTclause
-un peu	un peu	PRON
-au-dessus de	au-dessus de	PUNCT
+un peu	un peu	ADV
+au-dessus de	au-dessus de	ADP
 la	le	DET
 poupe	poupe	NOUN
 ,	,	PUNCTclause
@@ -4933,7 +4933,7 @@ mâts	mât	NOUN
 pendant	pendant	ADP
 deux	deux	NUM
 heures	heure	NOUN
-au ralenti	au ralenti	ADP_DET
+au ralenti	au ralenti	ADV
 ,	,	PUNCTclause
 à travers	à travers	ADP
 les	le	DET
@@ -5014,7 +5014,7 @@ sans	sans	ADP
 préparation	préparation	NOUN
 .	.	PUNCTsent
 reçu	recevoir	VERB
-de justesse	de justesse	DET
+de justesse	de justesse	ADV
 .	.	PUNCTsent
 passez	passer	VERB
 à	à	ADP
@@ -5135,7 +5135,7 @@ tant de	tant de	DET
 insondables	insondable	ADJ
 exigences	exigence	NOUN
 !	!	PUNCTsent
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 que	que	SCONJ
 vont	aller	VERB
@@ -5244,7 +5244,7 @@ dimensions	dimension	NOUN
 ont	avoir	AUX
 changé	changer	VERB
 …	…	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 regarde	regarder	VERB
 du	du	ADP_DET
 même	même	ADJ

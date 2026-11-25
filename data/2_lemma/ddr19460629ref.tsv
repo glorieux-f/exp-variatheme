@@ -65,12 +65,12 @@ qui	qui	PRON
 d'ailleurs	d'ailleurs	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 pas	pas	ADV
 de	de	ADP
 secret	secret	NOUN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 voilà	voilà	ADP
@@ -163,12 +163,12 @@ que	que	SCONJ
 cela	cela	PRON
 donnerait	donner	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
-savant	savant	NOUN
+les mêmes	les mêmes	PRON
+savant	savant	ADJ
 lui	lui	PRON
 a	avoir	AUX
 écrit	écrire	VERB
-aussitôt que	aussitôt que	ADV
+aussitôt que	aussitôt que	SCONJ
 ,	,	PUNCTclause
 d'après	d'après	ADP
 ses	son	DET
@@ -299,7 +299,7 @@ tort	tort	NOUN
 de	de	ADP
 ricaner	ricaner	VERB
 .	.	PUNCTsent
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 que	que	SCONJ
 le	le	DET
@@ -313,7 +313,7 @@ voudrait	vouloir	VERB
 finir	finir	VERB
 sa	son	DET
 vie	vie	NOUN
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 celle	celle	PRON
 du	du	ADP_DET
 monde	monde	NOUN
@@ -704,7 +704,7 @@ monde	monde	NOUN
 qui	qui	PRON
 souhaitent	souhaiter	VERB
 de	de	ADP
-en finir	en finir	NOUN
+en finir	en finir	VERB
 avec	avec	ADP
 la	le	DET
 vie	vie	NOUN
@@ -1133,7 +1133,7 @@ Transports	Transports	PROPN
 planétaires	planétaire	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
-rien que	rien que	NOUN
+rien que	rien que	ADV
 de	de	ADP
 raisonnable	raisonnable	ADJ
 ,	,	PUNCTclause
@@ -1233,7 +1233,7 @@ de	de	ADP
 guerre	guerre	NOUN
 ,	,	PUNCTclause
 etc.	etc.	NOUN
-ce n'est pas que	ce n'est pas que	PUNCT
+ce n'est pas que	ce n'est pas que	SCONJ
 une	un	DET
 angoisse	angoisse	NOUN
 diffuse	diffus	ADJ
@@ -1252,7 +1252,7 @@ esprits	esprit	NOUN
 mais	mais	CCONJ
 une	un	DET
 paralysie	paralysie	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 se	se	PRON
 est	être	AUX
 emparée	emparer	VERB
@@ -1308,7 +1308,7 @@ dans	dans	ADP
 ce	ce	DET
 pays	pays	NOUN
 que	que	SCONJ
-la première	la première	DET
+la première	la première	PRON
 Bombe	Bombe	PROPN
 vient	venir	VERB
 de	de	ADP
@@ -1561,7 +1561,7 @@ agonie	agonie	NOUN
 de	de	ADP
 la	le	DET
 terre	terre	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus	plus	ADV
 longue	long	ADJ
 ,	,	PUNCTclause
@@ -1836,7 +1836,7 @@ d'abord	d'abord	ADV
 ,	,	PUNCTclause
 vous	vous	PRON
 refusez	refuser	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 le	le	DET
 choix	choix	NOUN
 de	de	ADP
@@ -1890,7 +1890,7 @@ et	et	CCONJ
 nous	nous	PRON
 en	en	PRON
 sommes	être	AUX
-au point	au point	ADV
+au point	au point	ADJ
 où	où	PRON
 il	il	PRON
 devient	devenir	VERB

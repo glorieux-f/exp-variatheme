@@ -103,7 +103,7 @@ notions	notion	NOUN
 ont	avoir	AUX
 suivi	suivre	VERB
 à peu près	à peu près	ADV
-la même	la même	DET
+la même	la même	PRON
 évolution	évolution	NOUN
 sémantique	sémantique	ADJ
 .	.	PUNCTsent
@@ -225,7 +225,7 @@ exercent	exercer	VERB
 les	le	DET
 artistes	artiste	NOUN
 ,	,	PUNCTclause
-plus ou moins	plus ou moins	DET
+plus ou moins	plus ou moins	ADV
 séparés	séparer	VERB
 de	de	ADP
 la	le	DET
@@ -308,14 +308,14 @@ qui	qui	PRON
 est	être	AUX
 récente	récent	ADJ
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 la	le	DET
 diffusion	diffusion	NOUN
 de	de	ADP
 la	le	DET
 culture	culture	NOUN
-au-delà de	au-delà de	PUNCT
+au-delà de	au-delà de	ADP
 élites	élite	NOUN
 traditionnelles	traditionnel	ADJ
 est	être	AUX
@@ -585,7 +585,7 @@ des	un	DET
 valeurs	valeur	NOUN
 culturelles	culturel	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 en	en	ADP
 sortant	sortir	VERB
 du	du	ADP_DET
@@ -760,7 +760,7 @@ partage	partager	VERB
 nullement	nullement	ADV
 le	le	DET
 pessimisme	pessimisme	NOUN
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 …	…	PUNCTsent
 de	de	ADP
 hier	hier	ADV
@@ -803,7 +803,7 @@ hier	hier	ADV
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 vedettes	vedette	NOUN
 célébrées	célébrer	VERB
 par	par	ADP
@@ -839,7 +839,7 @@ des	un	DET
 lauréats	lauréat	NOUN
 de	de	ADP
 prix	prix	NOUN
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 culturels	culturel	ADJ
 distribués	distribuer	VERB
 chaque	chaque	DET
@@ -852,7 +852,7 @@ de	de	ADP
 ces	ce	DET
 savants	savant	NOUN
 qui	qui	PRON
-tout d'un coup	tout d'un coup	PRON
+tout d'un coup	tout d'un coup	ADV
 atteignent	atteindre	VERB
 à	à	ADP
 la	le	DET
@@ -934,7 +934,7 @@ fin	fin	NOUN
 de	de	ADP
 comptes	compte	NOUN
 et	et	CCONJ
-au total	au total	NOUN
+au total	au total	ADV
 ,	,	PUNCTclause
 il	il	PRON
 sert	servir	VERB
@@ -1187,7 +1187,7 @@ public	public	NOUN
 .	.	PUNCTsent
 quelle	quel	DET
 est	être	AUX
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 la	le	DET
 situation	situation	NOUN
 actuelle	actuel	ADJ
@@ -1196,7 +1196,7 @@ justifie	justifier	VERB
 elle	elle	PRON
 le	le_PRON	PRON
 pessimisme	pessimisme	NOUN
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -1233,7 +1233,7 @@ est	être	AUX
 donc	donc	ADV
 une	un	DET
 industrie	industrie	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 nouvelle	nouveau	ADJ
 .	.	PUNCTsent
 les	le	DET
@@ -1321,7 +1321,7 @@ vulgaire	vulgaire	ADJ
 a	avoir	AUX
 donc	donc	ADV
 permis	permettre	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 connaître	connaître	VERB
 des	un	DET
 œuvres	œuvre	NOUN
@@ -1461,7 +1461,7 @@ domaine	domaine	NOUN
 du	du	ADP_DET
 livre	livre	NOUN
 .	.	PUNCTsent
-depuis que	depuis que	PUNCT
+depuis que	depuis que	SCONJ
 je	je	PRON
 connais	connaître	VERB
 les	le	DET
@@ -1486,7 +1486,7 @@ ils	ils	PRON
 ne	ne	ADV
 peuvent	pouvoir	VERB
 imprimer	imprimer	VERB
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 ouvrage	ouvrage	NOUN
 parce que	parce que	SCONJ
 il	il	PRON
@@ -1497,7 +1497,7 @@ de	de	DET
 public	public	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 il	il	PRON
@@ -1641,7 +1641,7 @@ dire	dire	VERB
 «	«	PUNCTsent
 vous	vous	PRON
 aurez	avoir	VERB
-la première	la première	DET
+la première	la première	PRON
 année	année	NOUN
 500	500	NUM
 abonnés	abonné	NOUN
@@ -1850,7 +1850,7 @@ elles	elles	PRON
 ont	avoir	AUX
 fait	faire	VERB
 surgir	surgir	VERB
-plus de	plus de	PUNCT
+plus de	plus de	DET
 2	2	NUM
 millions	million	NOUN
 de	de	ADP
@@ -2001,12 +2001,12 @@ statistiques	statistique	ADJ
 nous	nous	PRON
 pouvons	pouvoir	VERB
 tirer	tirer	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 deux	deux	NUM
 conclusions	conclusion	NOUN
 majeures	majeur	ADJ
 .	.	PUNCTsent
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -2135,7 +2135,7 @@ disques	disque	NOUN
 meilleur	meilleur	ADJ
 marché	marché	NOUN
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 se	se	PRON
 accroît	accroître	VERB
 le	le	DET

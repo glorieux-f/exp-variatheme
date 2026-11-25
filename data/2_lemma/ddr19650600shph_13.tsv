@@ -133,7 +133,7 @@ depuis	depuis	ADP
 ,	,	PUNCTclause
 sauf	sauf	ADP
 le	le_PRON	PRON
-nombre de	nombre de	ADP_DET
+nombre de	nombre de	DET
 nos	nos	DET
 cantons	canton	NOUN
 .	.	PUNCTsent
@@ -170,7 +170,7 @@ de	de	ADP
 l'	le	DET
 économie	économie	NOUN
 ,	,	PUNCTclause
-en admettant que	en admettant que	DET
+en admettant que	en admettant que	SCONJ
 cette	ce	DET
 dernière	dernier	ADJ
 représente	représenter	VERB
@@ -269,7 +269,7 @@ l'	le	DET
 administration	administration	NOUN
 que	que	SCONJ
 appartient	appartenir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 la	le	DET
 paternité	paternité	NOUN
 de	de	ADP
@@ -425,8 +425,8 @@ déjà	déjà	ADV
 connues	connaître	VERB
 .	.	PUNCTsent
 et	et	CCONJ
-plus de	plus de	PUNCT
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 des	un	ADP_DET
 membres	membre	NOUN
@@ -434,7 +434,7 @@ du	du	ADP_DET
 Conseil	Conseil	PROPN
 national	national	ADJ
 sont	être	AUX
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 les	le	DET
 porte-paroles	porte-parole	NOUN
 des	un	ADP_DET
@@ -455,7 +455,7 @@ fédéralisme	fédéralisme	NOUN
 laisse	laisser	VERB
 l'	le	DET
 affaire	affaire	NOUN
-en suspens	en suspens	PUNCT
+en suspens	en suspens	ADJ
 ,	,	PUNCTclause
 sauf à	sauf à	ADP
 la	le	DET
@@ -578,7 +578,7 @@ forme	forme	NOUN
 nouvelle	nouveau	ADJ
 ,	,	PUNCTclause
 acceptée	accepter	VERB
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois ci	ADV
 sans	sans	ADP
 opposition	opposition	NOUN
 —	—	PUNCTclause
@@ -598,7 +598,7 @@ bureaux	bureau	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 quoique	quoique	SCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 simplifié	simplifier	VERB
 et	et	CCONJ
 stylisé	styliser	VERB
@@ -692,7 +692,7 @@ dérange	déranger	VERB
 trop	trop	ADV
 souvent	souvent	ADV
 —	—	PUNCTclause
-d'autant que	d'autant que	CCONJ
+d'autant que	d'autant que	SCONJ
 on	on	PRON
 tient	tenir	VERB
 peu	peu	ADV
@@ -1028,7 +1028,7 @@ finances	finance	NOUN
 et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 essor	essor	NOUN
 économique	économique	ADJ
 normal	normal	ADJ
@@ -1053,7 +1053,7 @@ or	or	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 serait	être	AUX
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 illusoire	illusoire	ADJ
 de	de	ADP
 espérer	espérer	VERB
@@ -1095,7 +1095,7 @@ affirme	affirmer	VERB
 indiscutablement	indiscutablement	ADV
 la	le	DET
 prédominance	prédominance	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 l'	le	DET
 économique	économique	NOUN
@@ -1337,7 +1337,7 @@ ne	ne	ADV
 exclut	exclure	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	ADJ
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 les	le	DET
 relations	relation	NOUN
@@ -1773,7 +1773,7 @@ bien	bien	ADV
 peu de	peu de	DET
 communes	commun	NOUN
 seraient	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 se	se	PRON
 charger	charger	VERB
 de	de	ADP
@@ -2084,7 +2084,7 @@ il	il	PRON
 est	être	AUX
 clair	clair	ADJ
 que	que	SCONJ
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 précisément	précisément	ADV
 ,	,	PUNCTclause
@@ -2106,7 +2106,7 @@ fédéralisme	fédéralisme	NOUN
 devrait	devoir	VERB
 jouer	jouer	VERB
 ici	ici	ADV
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 une	un	DET
 intervention	intervention	NOUN
 de	de	ADP
@@ -2139,7 +2139,7 @@ taille	taille	NOUN
 du	du	ADP_DET
 nôtre	nôtre	PRON
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 les	le	DET
 dimensions	dimension	NOUN
 des	un	ADP_DET
@@ -2236,7 +2236,7 @@ conception	conception	NOUN
 de	de	ADP
 la	le	DET
 nation	nation	NOUN
-tout à fait	tout à fait	PUNCT
+tout à fait	tout à fait	ADV
 étrangère	étranger	ADJ
 à	à	ADP
 notre	notre	DET
@@ -2361,7 +2361,7 @@ l'	le	DET
 extension	extension	NOUN
 du	du	ADP_DET
 système	système	NOUN
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 stade	stade	NOUN
 national	national	ADJ
 ,	,	PUNCTclause

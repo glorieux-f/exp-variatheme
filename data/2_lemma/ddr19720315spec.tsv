@@ -85,7 +85,7 @@ amour	amour	NOUN
 et	et	CCONJ
 l'	le	DET
 Occident	Occident	PROPN
-au début	au début	PUNCT
+au début	au début	ADV
 des	un	ADP_DET
 années	année	NOUN
 1939	1939	NUM
@@ -366,7 +366,7 @@ et	et	CCONJ
 irresponsable	irresponsable	ADJ
 collectivité	collectivité	NOUN
 où	où	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 est	être	AUX
 réuni	réunir	VERB
 comme	comme	ADP
@@ -673,8 +673,8 @@ est	être	AUX
 ,	,	PUNCTclause
 en somme	en somme	ADV
 ,	,	PUNCTclause
-le premier	le premier	DET
-livre	livre	NOUN
+le premier	le premier	PRON
+livre	livrer	VERB
 sur	sur	ADP
 l'	le	DET
 engagement	engagement	NOUN
@@ -701,7 +701,7 @@ qui	qui	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 dit	dire	VERB
-en premier	en premier	PUNCT
+en premier	en premier	ADV
 ,	,	PUNCTclause
 de	de	ADP
 Mounier	Mounier	PROPN
@@ -710,7 +710,7 @@ de	de	ADP
 moi	moi	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 un	un	DET
@@ -735,8 +735,8 @@ réunissait	réunir	VERB
 des	un	DET
 textes	texte	NOUN
 écrits	écrit	ADJ
-au début	au début	PUNCT
-des	un	DET
+au début	au début	ADV
+des	un	ADP_DET
 années	année	NOUN
 1930	1930	NUM
 ,	,	PUNCTclause
@@ -1131,7 +1131,7 @@ des	un	ADP_DET
 deux	deux	NUM
 devient	devenir	VERB
 personne	personne	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 agit	agir	VERB
 librement	librement	ADV
@@ -1218,7 +1218,7 @@ fédéralisme	fédéralisme	NOUN
 et	et	CCONJ
 à	à	ADP
 transposer	transposer	VERB
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 notre	notre	DET
 doctrine	doctrine	NOUN
 personnalisme	personnalisme	NOUN
@@ -1233,7 +1233,7 @@ le	le	DET
 fédéralisme	fédéralisme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 vous	vous	PRON
 êtes	être	AUX
 Suisse	Suisse	PROPN
@@ -1630,7 +1630,7 @@ engagement	engagement	NOUN
 était	être	AUX
 alors	alors	ADV
 fort	fort	ADV
-à la mode	à la mode	ADP
+à la mode	à la mode	ADJ
 à	à	ADP
 Paris	Paris	PROPN
 .	.	PUNCTsent
@@ -1670,7 +1670,7 @@ se	se	PRON
 était	être	AUX
 jamais	jamais	ADV
 intéressé	intéresser	VERB
-le moins du monde	le moins du monde	PUNCT
+le moins du monde	le moins du monde	ADV
 à	à	ADP
 la	le	DET
 politique	politique	NOUN
@@ -1730,8 +1730,8 @@ conférences	conférence	NOUN
 il	il	PRON
 répétait	répéter	VERB
 tout	tout	ADV
-le temps que	le temps que	DET
-l'	le_PRON	PRON
+le temps que	le temps que	SCONJ
+l'	le	DET
 homme	homme	NOUN
 est	être	AUX
 à la fois	à la fois	ADV
@@ -2066,7 +2066,7 @@ une	un	DET
 fédération	fédération	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 vous	vous	PRON
 vouliez	vouloir	VERB
@@ -3082,7 +3082,7 @@ fédération	fédération	NOUN
 est	être	AUX
 l'	le	DET
 art	art	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 vivre	vivre	VERB
 ensemble	ensemble	ADV
 des	un	ADP_DET
@@ -3231,9 +3231,9 @@ que	que	PRON
 je	je	PRON
 voudrais	vouloir	VERB
 étendre	étendre	VERB
-de proche en proche	de proche en proche	PUNCT
+de proche en proche	de proche en proche	ADV
 à	à	ADP
-toute	tout	ADJ
+toute	toute	DET
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -3271,7 +3271,7 @@ il y a	il y a	VERB
 en	en	ADP
 Europe	Europe	PROPN
 une	un	DET
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 régions	région	NOUN
 qui	qui	PRON
 sont	être	AUX
@@ -3350,7 +3350,7 @@ le	le	DET
 marché	marché	NOUN
 commun	commun	ADJ
 ,	,	PUNCTclause
-à condition que	à condition que	DET
+à condition que	à condition que	SCONJ
 celui	celui	PRON
 reste	rester	VERB
 dans	dans	ADP
@@ -3649,7 +3649,7 @@ on	on	PRON
 a	avoir	AUX
 voulu	vouloir	VERB
 imposer	imposer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 à	à	ADP
 des	un	DET
@@ -3800,10 +3800,10 @@ qui	qui	PRON
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 frontières	frontière	NOUN
 ni	ni	CCONJ
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 langues	langue	NOUN
 que	que	SCONJ
 le	le	DET
@@ -3830,7 +3830,7 @@ qui	qui	PRON
 a	avoir	VERB
 des	un	DET
 limites	limite	NOUN
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 différentes	différent	ADJ
 du	du	ADP_DET
 canton	canton	NOUN
@@ -3941,7 +3941,7 @@ partie	partie	NOUN
 de	de	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 sociétés	société	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -3964,7 +3964,7 @@ est	être	AUX
 plus	plus	ADV
 simple	simple	ADJ
 .	.	PUNCTsent
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 ,	,	PUNCTclause
 nous	nous	PRON
 vivons	vivre	VERB
@@ -4117,7 +4117,7 @@ l'	le	DET
 état-nation	État-nation	NOUN
 nous	nous	PRON
 empêche	empêcher	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -4134,7 +4134,7 @@ sinon	sinon	ADV
 nous	nous	PRON
 serons	être	AUX
 colonisés	coloniser	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 que	que	SCONJ
 nous	nous	PRON
@@ -4185,7 +4185,7 @@ elles	elles	PRON
 pas	pas	ADV
 de	de	ADP
 connaître	connaître	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 phénomène	phénomène	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -4193,7 +4193,7 @@ cette	ce	DET
 comparaison	comparaison	NOUN
 relève	relever	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 forme	forme	NOUN
 de	de	ADP
 pensée	pensée	NOUN
@@ -4298,7 +4298,7 @@ subordination	subordination	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 sont	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 termes	terme	NOUN
 que	que	PRON
 je	je	PRON
@@ -4567,7 +4567,7 @@ que	que	PRON
 je	je	PRON
 estime	estimer	VERB
 valables	valable	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il y a	il y a	VERB
 des	un	DET
 tempéraments	tempérament	NOUN
@@ -4616,7 +4616,7 @@ seule	seul	ADJ
 croyance	croyance	NOUN
 imposée	imposer	VERB
 à	à	ADP
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vous	vous	PRON
@@ -4707,7 +4707,7 @@ jusqu'à présent	jusqu'à présent	ADV
 elle	elle	PRON
 se	se	PRON
 développait	développer	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 au hasard	au hasard	ADV
 ;	;	PUNCTclause
 on	on	PRON
@@ -4880,7 +4880,7 @@ ans	an	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 dont	dont	PRON
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 parle	parler	VERB
 ,	,	PUNCTclause
 heureusement	heureusement	ADV
@@ -5171,7 +5171,7 @@ les	le_PRON	PRON
 trouve	trouver	VERB
 funestes	funeste	ADJ
 .	.	PUNCTsent
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ils	ils	PRON
 sont	être	AUX
 des	un	DET
@@ -5288,15 +5288,15 @@ complètement	complètement	ADV
 arbitraire	arbitraire	ADJ
 ,	,	PUNCTclause
 fait	faire	VERB
-au hasard	au hasard	NOUN
-des	un	ADP_DET
+au hasard	au hasard	ADV
+des	un	DET
 traités	traité	NOUN
 et	et	CCONJ
 des	un	DET
 campagnes	campagne	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 de	de	ADP
 l'	le	DET
 ignorance	ignorance	NOUN

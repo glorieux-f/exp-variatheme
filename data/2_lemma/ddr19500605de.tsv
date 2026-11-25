@@ -78,7 +78,7 @@ dit	dire	VERB
 que	que	SCONJ
 ce	ce	DET
 plan	plan	NOUN
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 commun	commun	ADJ
 des	un	ADP_DET
@@ -206,7 +206,7 @@ Paris	Paris	PROPN
 ,	,	PUNCTclause
 nous	nous	PRON
 pouvons	pouvoir	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 faire	faire	VERB
 deux	deux	NUM
 constatations	constatation	NOUN
@@ -218,7 +218,7 @@ au	au	ADP_DET
 projet	projet	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -413,7 +413,7 @@ pratiquement	pratiquement	ADV
 ,	,	PUNCTclause
 ils	ils	PRON
 refusent	refuser	VERB
-la première	la première	DET
+la première	la première	PRON
 condition	condition	NOUN
 de	de	ADP
 l'	le	DET
@@ -446,7 +446,7 @@ quelque	quelque	DET
 tour	tour	NOUN
 cycliste	cycliste	ADJ
 ,	,	PUNCTclause
-en attendant	en attendant	ADP
+en attendant	en attendant	ADV
 la	le	DET
 Bombe	Bombe	PROPN
 et	et	CCONJ
@@ -560,12 +560,12 @@ experts	expert	NOUN
 ↵↵	↵↵	PUNCTstruct
 parlons	parler	VERB
 donc	donc	ADV
-un peu de	un peu de	ADP
+un peu de	un peu de	DET
 ces	ce	DET
 messieurs	monsieur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 toujours	toujours	ADV
 eu	avoir	VERB
 ,	,	PUNCTclause
@@ -672,7 +672,7 @@ or	or	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
 peuvent	pouvoir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 les	le	DET
 experts	expert	NOUN
 ?	?	PUNCTsent
@@ -798,8 +798,8 @@ décidé	décider	VERB
 ou	ou	CCONJ
 forcé	forcer	VERB
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
-experts	expert	NOUN
+les mêmes	les mêmes	PRON
+experts	expert	ADJ
 qui	qui	PRON
 démontraient	démontrer	VERB
 chiffres	chiffre	NOUN
@@ -867,7 +867,7 @@ vocation	vocation	NOUN
 si	si	SCONJ
 l'on	on	PRON
 va	aller	VERB
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 des	un	ADP_DET
 choses	chose	NOUN
 ,	,	PUNCTclause

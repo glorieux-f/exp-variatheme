@@ -235,7 +235,7 @@ Garbo	Garbo	PROPN
 je	je	PRON
 ne	ne	ADV
 connais	connaître	VERB
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 charmant	charmer	VERB
 dans	dans	ADP
 tout	tout	DET
@@ -324,7 +324,7 @@ que	que	PRON
 forment	former	VERB
 les	le	DET
 châteaux	château	NOUN
-au fond	au fond	ADJ
+au fond	au fond	ADV
 de	de	ADP
 nos	nos	DET
 mémoires	mémoire	NOUN
@@ -434,7 +434,7 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 guère	guère	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 Europe	Europe	PROPN
 que	que	SCONJ
 de	de	ADP
@@ -453,8 +453,8 @@ exposé	exposé	NOUN
 et	et	CCONJ
 le	le	DET
 méthodisme	méthodisme	NOUN
-un peu	un peu	PUNCT
-pédant	pédant	NOUN
+un peu	un peu	ADV
+pédant	pédant	ADJ
 des	un	ADP_DET
 discussions	discussion	NOUN
 (	(	PUNCTclause
@@ -489,7 +489,7 @@ mordant	mordant	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 en fin de compte	en fin de compte	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 efficacité	efficacité	NOUN
 quand	quand	SCONJ
 il	il	PRON
@@ -507,7 +507,7 @@ concret	concret	ADJ
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 la	le	DET
 section	section	NOUN
@@ -797,7 +797,7 @@ justement	justement	ADV
 parce que	parce que	SCONJ
 il	il	PRON
 expérimente	expérimenter	VERB
-sans relâche	sans relâche	NOUN
+sans relâche	sans relâche	ADV
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
@@ -900,7 +900,7 @@ invente	inventer	VERB
 sans cesse	sans cesse	ADV
 :	:	PUNCTclause
 mais	mais	CCONJ
-en fait	en fait	SCONJ
+en fait	en fait	ADV
 elle	elle	PRON
 ne	ne	ADV
 trouve	trouver	VERB
@@ -1091,7 +1091,7 @@ laboratoires	laboratoire	NOUN
 du	du	ADP_DET
 monde entier	monde entier	NOUN
 (	(	PUNCTclause
-pour autant que	pour autant que	ADP
+pour autant que	pour autant que	SCONJ
 il	il	PRON
 ne	ne	ADV
 se	se	PRON
@@ -1256,7 +1256,7 @@ on	on	PRON
 répète	répéter	VERB
 le	le	DET
 manège	manège	NOUN
-un grand nombre de	un grand nombre de	ADP_DET
+un grand nombre de	un grand nombre de	DET
 fois	fois	NOUN
 ,	,	PUNCTclause
 pour	pour	ADP
@@ -1273,7 +1273,7 @@ la	le	DET
 sirène	sirène	NOUN
 se	se	PRON
 met	mettre	VERB
-en marche	en marche	DET
+en marche	en marche	ADJ
 .	.	PUNCTsent
 sirène	sirène	NOUN
 —	—	PUNCTclause
@@ -1305,7 +1305,7 @@ sujets	sujet	NOUN
 conditionnés	conditionner	VERB
 »	»	PUNCTclause
 dans	dans	ADP
-la même	la même	DET
+la même	la même	PRON
 chambre	chambre	NOUN
 .	.	PUNCTsent
 la	le	DET
@@ -1643,7 +1643,7 @@ progrès	progrès	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 tiendra	tenir	VERB
 le	le	DET
@@ -1733,7 +1733,7 @@ langage	langage	NOUN
 des	un	ADP_DET
 homme d'État	homme d'État	NOUN
 sont	être	AUX
-à court terme	à court terme	DET
+à court terme	à court terme	ADV
 ,	,	PUNCTclause
 quand	quand	SCONJ
 les	le	DET
@@ -1755,7 +1755,7 @@ ces	ce	DET
 prudences	prudence	NOUN
 sont	être	AUX
 du	du	ADP_DET
-plus ou moins	plus ou moins	PUNCT
+plus ou moins	plus ou moins	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -1833,9 +1833,9 @@ du	du	ADP_DET
 suprême	suprême	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	ADP_DET
+de fait	de fait	ADJ
 ,	,	PUNCTclause
-que	que	SCONJ
+que	que	PRON
 opposons	opposer	VERB
 nous	nous	PRON
 à	à	ADP
@@ -1872,7 +1872,7 @@ un	un	DET
 sens critique	sens critique	NOUN
 aigu	aigu	ADJ
 .	.	PUNCTsent
-rien que	rien que	PRON
+rien que	rien que	ADV
 une	un	DET
 plus	plus	ADV
 grande	grand	ADJ
@@ -1949,7 +1949,7 @@ vrai	vrai	ADJ
 que	que	SCONJ
 nous	nous	PRON
 manquons	manquer	VERB
-de peu	de peu	PUNCT
+de peu	de peu	ADV
 de	de	ADP
 choses	chose	NOUN
 encore	encore	ADV
@@ -2004,7 +2004,7 @@ que	que	SCONJ
 l'	le	DET
 armée	armée	NOUN
 vient	venir	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 de	de	ADP
 gros	gros	ADJ
 achats	achat	NOUN
@@ -2073,7 +2073,7 @@ a	avoir	AUX
 été	être	AUX
 formée	former	VERB
 en	en	ADP
-moins de	moins de	NOUN
+moins de	moins de	DET
 deux	deux	NUM
 ans	an	NOUN
 .	.	PUNCTsent
@@ -2283,7 +2283,7 @@ nom	nom	NOUN
 ,	,	PUNCTclause
 vous	vous	PRON
 pensez	penser	VERB
-aussitôt que	aussitôt que	PUNCT
+aussitôt que	aussitôt que	SCONJ
 elles	elles	PRON
 doivent	devoir	VERB
 être	être	AUX
@@ -2347,7 +2347,7 @@ vous	vous	PRON
 ce	ce	PRON
 est	être	AUX
 bien	bien	ADV
-par chance	par chance	ADP
+par chance	par chance	ADV
 que	que	SCONJ
 vous	vous	PRON
 me	me	PRON
@@ -2417,7 +2417,7 @@ mais	mais	CCONJ
 je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 du	du	ADP_DET
 glamour	glamour	NOUN
 .	.	PUNCTsent
@@ -2507,7 +2507,7 @@ trompe	tromper	VERB
 cependant	cependant	ADV
 mes	mon	DET
 chances	chance	NOUN
-de fait	de fait	ADP
+de fait	de fait	ADJ
 la	le	DET
 guerre	guerre	NOUN
 dans	dans	ADP
@@ -2532,7 +2532,7 @@ de	de	ADP
 entraînement	entraînement	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-d'ici là	d'ici là	PUNCT
+d'ici là	d'ici là	ADV
 …	…	PUNCTsent
 ou bien	ou bien	CCONJ
 l'on	on	PRON
@@ -2721,7 +2721,7 @@ cas	cas	NOUN
 les	le	DET
 exigences	exigence	NOUN
 sont	être	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 .	.	PUNCTsent
 et	et	CCONJ
 elles	elles	PRON
@@ -2851,7 +2851,7 @@ justement	justement	ADV
 se	se	PRON
 était	être	AUX
 mise	mettre	VERB
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 .	.	PUNCTsent
 on	on	PRON
 ne	ne	ADV
@@ -2984,7 +2984,7 @@ importantes	important	ADJ
 le	le	DET
 sont	être	AUX
 soit	être	AUX
-par nature	par nature	NOUN
+par nature	par nature	ADV
 ,	,	PUNCTclause
 soit	soit	CCONJ
 par	par	ADP
@@ -3195,7 +3195,7 @@ communes	commun	ADJ
 .	.	PUNCTsent
 (	(	PUNCTclause
 quitte à	quitte à	ADP
-mettre en circulation	mettre en circulation	NOUN
+mettre en circulation	mettre en circulation	VERB
 quelques	quelque	DET
 valeurs	valeur	NOUN
 encore	encore	ADV
@@ -3209,7 +3209,7 @@ convient	convenir	VERB
 de	de	ADP
 les	le	DET
 maquiller	maquiller	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ,	,	PUNCTclause
 pour que	pour que	SCONJ
 elles	elles	PRON
@@ -3254,7 +3254,7 @@ par	par	ADP
 un	un	DET
 monstre	monstre	NOUN
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 mériter	mériter	VERB
 quelque	quelque	DET
 maîtrise	maîtrise	NOUN
@@ -3290,7 +3290,7 @@ seules	seul	ADJ
 sont	être	AUX
 acceptables	acceptable	ADJ
 ,	,	PUNCTclause
-à première vue	à première vue	DET
+à première vue	à première vue	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 seules	seul	ADJ
@@ -3439,7 +3439,7 @@ ma	mon	DET
 façon	façon	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-de fait	de fait	VERB
+de fait	de fait	ADJ
 connaissance	connaissance	NOUN
 avec	avec	ADP
 les	le	DET
@@ -3647,7 +3647,7 @@ si	si	SCONJ
 je	je	PRON
 me	me	PRON
 retourne	retourner	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 sur	sur	ADP
 ma	mon	DET
 terrasse	terrasse	NOUN
@@ -3987,7 +3987,7 @@ Europe	Europe	PROPN
 je	je	PRON
 en	en	PRON
 connais	connaître	VERB
-par avance	par avance	ADP
+par avance	par avance	ADV
 la	le	DET
 nostalgie	nostalgie	NOUN
 .	.	PUNCTsent
@@ -4103,7 +4103,7 @@ ma	mon	DET
 hauteur	hauteur	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 bas	bas	ADJ
 ,	,	PUNCTclause
@@ -4278,7 +4278,7 @@ un	un	DET
 autre	autre	ADJ
 jour	jour	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 amour	amour	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ

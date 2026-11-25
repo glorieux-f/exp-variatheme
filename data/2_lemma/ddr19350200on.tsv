@@ -68,7 +68,7 @@ est	être	AUX
 pas	pas	ADV
 .	.	PUNCTsent
 )	)	PUNCTclause
-à la différence de	à la différence de	PUNCT
+à la différence de	à la différence de	ADP
 ce	ce	PRON
 que	que	PRON
 on	on	PRON
@@ -342,7 +342,7 @@ qui	qui	PRON
 refusent	refuser	VERB
 de	de	ADP
 enseigner	enseigner	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 même	même	ADV
@@ -380,7 +380,7 @@ l'	le	DET
 etc.	etc.	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 sont	être	AUX
 irresponsables	irresponsable	ADJ
 de	de	ADP
@@ -730,7 +730,7 @@ féconde	fécond	ADJ
 .	.	PUNCTsent
 nous	nous	PRON
 voyons	voir	VERB
-aussitôt que	aussitôt que	PUNCT
+aussitôt que	aussitôt que	SCONJ
 la	le	DET
 «	«	PUNCTclause
 mesure	mesure	NOUN
@@ -779,7 +779,7 @@ est	être	AUX
 pas	pas	ADV
 un	un	DET
 «	«	PUNCTclause
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 or	or	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
@@ -821,7 +821,7 @@ vie	vie	NOUN
 or	or	NOUN
 nous	nous	PRON
 voyons	voir	VERB
-la même	la même	DET
+la même	la même	PRON
 erreur	erreur	NOUN
 héritée	hérité	VERB
 par	par	ADP
@@ -906,7 +906,7 @@ erreur	erreur	NOUN
 initiale	initial	ADJ
 identique	identique	ADJ
 ,	,	PUNCTclause
-par là même	par là même	ADP
+par là même	par là même	ADV
 plus	plus	ADV
 apte	apte	ADJ
 à	à	ADP
@@ -1023,7 +1023,7 @@ principe	principe	NOUN
 universel	universel	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-quand bien même	quand bien même	ADV
+quand bien même	quand bien même	SCONJ
 tous	tout	ADJ
 les	le	DET
 hommes	homme	NOUN
@@ -1110,7 +1110,7 @@ agréger	agréger	VERB
 le	le	DET
 plus	plus	ADV
 grand	grand	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 hommes	homme	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
@@ -1514,7 +1514,7 @@ la	le	DET
 Révolution	Révolution	PROPN
 appartient	appartenir	VERB
 à	à	ADP
-la première	la première	DET
+la première	la première	PRON
 communauté	communauté	NOUN
 personnalisme	personnalisme	NOUN
 qui	qui	PRON
@@ -1539,9 +1539,9 @@ Révolution	Révolution	PROPN
 «	«	PUNCTclause
 appartient	appartenir	VERB
 »	»	PUNCTclause
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 et	et	CCONJ
-de droit	de droit	PUNCT
+de droit	de droit	ADJ
 à	à	ADP
 cette	ce	DET
 première	premier	ADJ
@@ -1551,7 +1551,7 @@ mais	mais	CCONJ
 il	il	PRON
 faut	falloir	VERB
 dire	dire	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 une	un	DET
 telle	tel	PRON
 communauté	communauté	NOUN
@@ -1843,7 +1843,7 @@ de	de	ADP
 la	le	DET
 personne	personne	NOUN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 le	le	DET
 révolutionnaire	révolutionnaire	NOUN
@@ -1855,8 +1855,8 @@ tant	tant	ADV
 par	par	ADP
 goût	goût	NOUN
 que	que	SCONJ
-par nécessité	par nécessité	DET
-interne	interne	NOUN
+par nécessité	par nécessité	ADV
+interne	interne	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ

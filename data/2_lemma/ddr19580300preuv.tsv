@@ -541,7 +541,7 @@ terre	terre	NOUN
 unie	unir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 l'	le	DET
 unité	unité	NOUN
 de	de	ADP
@@ -741,7 +741,7 @@ la	le	DET
 terre	terre	NOUN
 ,	,	PUNCTclause
 vue	vue	NOUN
-de loin	de loin	PUNCT
+de loin	de loin	ADV
 ,	,	PUNCTclause
 devient	devenir	VERB
 objet	objet	NOUN
@@ -947,8 +947,8 @@ fait	fait	NOUN
 au bout de	au bout de	ADP
 compte	compte	NOUN
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
-le	le	DET
+tout comme	tout comme	SCONJ
+le	le_PRON	PRON
 fut	être	AUX
 la	le	DET
 découverte	découverte	NOUN
@@ -957,7 +957,7 @@ la	le	DET
 terre	terre	NOUN
 et	et	CCONJ
 pour	pour	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 raisons	raison	NOUN
 profondes	profond	ADJ
 .	.	PUNCTsent
@@ -1012,7 +1012,7 @@ Vénus	Vénus	PROPN
 :	:	PUNCTclause
 ils	ils	PRON
 ont	avoir	AUX
-moins de	moins de	PRON
+moins de	moins de	DET
 pudeur	pudeur	NOUN
 à	à	ADP
 rompre	rompre	VERB
@@ -1194,8 +1194,8 @@ or	or	NOUN
 rêvé	rêver	VERB
 .	.	PUNCTsent
 à	à	ADP
-la première	la première	DET
-classe	classe	NOUN
+la première	la première	PRON
+classe	classer	VERB
 appartiennent	appartenir	VERB
 Swift	Swift	PROPN
 ,	,	PUNCTclause
@@ -1290,7 +1290,7 @@ de	de	ADP
 voler	voler	VERB
 ne	ne	ADV
 fait	faire	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 de	de	ADP
 naître	naître	VERB
 ;	;	PUNCTclause
@@ -1395,8 +1395,8 @@ si	si	SCONJ
 la	le	DET
 psychologie	psychologie	NOUN
 reste	rester	VERB
-à la mode	à la mode	ADP
-du	du	DET
+à la mode	à la mode	ADJ
+du	du	ADP_DET
 temps	temps	NOUN
 et	et	CCONJ
 ne	ne	ADV
@@ -1486,7 +1486,7 @@ tout	tout	PRON
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB
-faire attention	faire attention	DET
+faire attention	faire attention	VERB
 .	.	PUNCTsent
 car	car	CCONJ
 la	le	DET
@@ -1761,7 +1761,7 @@ intelligents	intelligent	ADJ
 ,	,	PUNCTclause
 verront	voir	VERB
 ils	ils	PRON
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 dans	dans	ADP
 nos	nos	DET
 œuvres	œuvre	NOUN

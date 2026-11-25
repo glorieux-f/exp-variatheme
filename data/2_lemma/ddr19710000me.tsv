@@ -40,7 +40,7 @@ un	un	DET
 certain	certain	ADJ
 avenir	avenir	NOUN
 et	et	CCONJ
-par avance	par avance	ADP
+par avance	par avance	ADV
 le	le	DET
 limite	limite	NOUN
 .	.	PUNCTsent
@@ -92,7 +92,7 @@ trois	trois	NUM
 sens	sens	NOUN
 possibles	possible	ADJ
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 pour	pour	ADP
 un	un	DET
 Europe	Europe	PROPN
@@ -373,10 +373,10 @@ tout	tout	PRON
 héritage	héritage	NOUN
 culturel	culturel	ADJ
 est	être	AUX
-en partie	en partie	ADP
+en partie	en partie	ADV
 offert	offrir	VERB
 mais	mais	CCONJ
-en partie	en partie	PRON
+en partie	en partie	ADV
 subi	subir	VERB
 .	.	PUNCTsent
 devant	devant	ADP
@@ -523,7 +523,7 @@ tête	tête	NOUN
 croit	croire	VERB
 encore	encore	ADV
 ,	,	PUNCTclause
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 «	«	PUNCTclause
 naïvement	naïvement	ADV
 »	»	PUNCTclause
@@ -549,7 +549,7 @@ deuxièmes	deuxième	NOUN
 programmes	programme	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-se tenir au courant	se tenir au courant	NOUN
+se tenir au courant	se tenir au courant	VERB
 de	de	ADP
 l'	le	DET
 évolution	évolution	NOUN
@@ -591,7 +591,7 @@ voit	voir	VERB
 que	que	SCONJ
 elle	elle	PRON
 représente	représenter	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 tout	tout	ADJ
 ce	ce	PRON
 que	que	PRON
@@ -823,7 +823,7 @@ créatrices	créateur	ADJ
 mais	mais	CCONJ
 encore	encore	ADV
 ,	,	PUNCTclause
-à la différence de	à la différence de	DET
+à la différence de	à la différence de	ADP
 grandes	grand	ADJ
 cultures	culture	NOUN
 du	du	ADP_DET
@@ -1106,7 +1106,7 @@ totaliser	totaliser	VERB
 ces	ce	DET
 trois	trois	NUM
 puissances	puissance	NOUN
-de mise	de mise	ADP
+de mise	de mise	ADJ
 en	en	ADP
 ordre	ordre	NOUN
 ,	,	PUNCTclause
@@ -1263,7 +1263,7 @@ responsable	responsable	ADJ
 et	et	CCONJ
 tous	tout	ADJ
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 ,	,	PUNCTclause
@@ -1278,7 +1278,7 @@ des	un	ADP_DET
 milliards	milliard	NOUN
 de	de	ADP
 possibles	possible	ADJ
-sans relâche	sans relâche	NOUN
+sans relâche	sans relâche	ADV
 rythmé	rythmé	ADJ
 et	et	CCONJ
 rompu	rompre	VERB
@@ -1291,7 +1291,7 @@ Europe	Europe	PROPN
 un	un	DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 combinaisons	combinaison	NOUN
 ,	,	PUNCTclause
 voire	voire	CCONJ
@@ -1337,7 +1337,7 @@ Europe	Europe	PROPN
 Hitler	Hitler	PROPN
 et	et	CCONJ
 Staline	Staline	PROPN
-en travers	en travers	PUNCT
+en travers	en travers	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -1520,7 +1520,7 @@ mémoire	mémoire	NOUN
 interne	interne	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-quantité de	quantité de	ADP
+quantité de	quantité de	DET
 chances	chance	NOUN
 culturelles	culturel	ADJ
 et	et	CCONJ
@@ -1848,7 +1848,7 @@ il	il	PRON
 «	«	PUNCTclause
 offre	offrir	VERB
 le	le	DET
-plus de	plus de	PUNCT
+plus de	plus de	DET
 richesses	richesse	NOUN
 à	à	ADP
 qui	qui	PRON
@@ -1982,7 +1982,7 @@ pas	pas	ADV
 l'	le	DET
 union	union	NOUN
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 ne	ne	ADV
@@ -2205,7 +2205,7 @@ enrichir	enrichir	VERB
 en retour	en retour	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 commun	commun	ADJ
 à	à	ADP
 toutes	tout	ADJ
@@ -2223,7 +2223,7 @@ une	un	DET
 vocation	vocation	NOUN
 originale	original	ADJ
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 caractéristique	caractéristique	ADJ
 du	du	ADP_DET
 véritable	véritable	ADJ
@@ -2404,7 +2404,7 @@ chronique	chronique	NOUN
 en	en	ADP
 latin	latin	NOUN
 rédigée	rédiger	VERB
-au début	au début	PUNCT
+au début	au début	ADV
 du	du	ADP_DET
 11e	11e	ADJ
 siècle	siècle	NOUN
@@ -2588,7 +2588,7 @@ prédisposent	prédisposer	NOUN
 ou	ou	CCONJ
 le	le	DET
 commandent	commander	VERB
-en partie	en partie	NOUN
+en partie	en partie	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 ses	son	DET
@@ -2678,7 +2678,7 @@ contre	contre	ADP
 un	un	DET
 autre	autre	ADJ
 ,	,	PUNCTclause
-indépendamment de	indépendamment de	PRON
+indépendamment de	indépendamment de	ADP
 leurs	leur	DET
 buts	but	NOUN
 allégués	alléguer	VERB
@@ -2912,7 +2912,7 @@ sociales	social	ADJ
 et	et	CCONJ
 personnelles	personnel	ADJ
 et	et	CCONJ
-quantité de	quantité de	SCONJ
+quantité de	quantité de	DET
 maladies	maladie	NOUN
 «	«	PUNCTclause
 nerveuses	nerveux	NOUN
@@ -3117,7 +3117,7 @@ ils	ils	PRON
 ont	avoir	AUX
 causé	causer	VERB
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 les	le	DET
 grands	grand	ADJ
@@ -3293,7 +3293,7 @@ prépare	préparer	VERB
 des	un	DET
 clivages	clivage	NOUN
 sociaux	social	ADJ
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 .	.	PUNCTsent
 elle	elle	PRON
 annonce	annoncer	VERB
@@ -3378,7 +3378,7 @@ devient	devenir	VERB
 athée	athée	NOUN
 (	(	PUNCTclause
 ou	ou	CCONJ
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 antichrétien	antichrétien	ADJ
 )	)	PUNCTclause
 et	et	CCONJ
@@ -3562,10 +3562,10 @@ de	de	ADP
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
 l'	le_PRON	PRON
-esprit critique	esprit critique	ADP_DET
+esprit critique	esprit critique	NOUN
 ou	ou	CCONJ
 remise	remise	NOUN
-en question	en question	ADP
+en question	en question	ADJ
 perpétuelle	perpétuel	ADJ
 de	de	ADP
 toutes	toutes	DET
@@ -3887,7 +3887,7 @@ exacte	exact	ADJ
 ,	,	PUNCTclause
 de	de	ADP
 l'autre	l'autre	PRON
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 tel	tel	DET
 ,	,	PUNCTclause
 et	et	CCONJ

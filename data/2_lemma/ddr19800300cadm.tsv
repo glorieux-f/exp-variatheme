@@ -293,7 +293,7 @@ un	un	DET
 territoire	territoire	NOUN
 donné	donner	VERB
 .	.	PUNCTsent
-par analogie	par analogie	NOUN
+par analogie	par analogie	ADV
 ,	,	PUNCTclause
 le	le	DET
 terme	terme	NOUN
@@ -983,7 +983,7 @@ une	un	DET
 prétention	prétention	NOUN
 —	—	PUNCTclause
 est	être	AUX
-à ce moment-là	à ce moment-là	ADP
+à ce moment-là	à ce moment-là	ADV
 pleine	plein	ADJ
 et	et	CCONJ
 entière	entier	ADJ
@@ -995,7 +995,7 @@ qui	qui	PRON
 ne	ne	ADV
 se	se	PRON
 appelle	appeler	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 la	le	DET
 chrétienté	chrétienté	NOUN
 ,	,	PUNCTclause
@@ -1114,7 +1114,7 @@ plus	plus	ADV
 la	le	DET
 scolastique	scolastique	ADJ
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 mode	mode	NOUN
 de	de	ADP
 connaissance	connaissance	NOUN
@@ -1257,7 +1257,7 @@ admirable	admirable	ADJ
 ,	,	PUNCTclause
 l'	le	DET
 université	université	NOUN
-en question	en question	PUNCT
+en question	en question	ADJ
 dont	dont	PRON
 je	je	PRON
 déduis	déduire	VERB
@@ -1278,7 +1278,7 @@ notre	notre	DET
 croit	croire	VERB
 avoir	avoir	AUX
 inventé	inventer	VERB
-sous le nom de	sous le nom de	NOUN
+sous le nom de	sous le nom de	ADP
 		TOKEN
 (	(	PUNCTclause
 unités	unité	NOUN
@@ -1323,7 +1323,7 @@ l'	le	DET
 institution	institution	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 l'	le	DET
 histoire	histoire	NOUN
@@ -1397,7 +1397,7 @@ de	de	ADP
 se	se	PRON
 attirer	attirer	VERB
 pour	pour	ADP
-ce faisant	ce faisant	PUNCT
+ce faisant	ce faisant	ADV
 les	le	DET
 faveurs	faveur	NOUN
 du	du	ADP_DET
@@ -1507,9 +1507,9 @@ mène	mener	VERB
 à	à	ADP
 la	le	DET
 mise	mise	NOUN
-au pas	au pas	ADP_DET
+au pas	au pas	ADV
 napoléonienne	napoléonien	ADJ
-des	un	DET
+des	un	ADP_DET
 écoles	école	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
@@ -2007,7 +2007,7 @@ gigantisme	gigantisme	NOUN
 —	—	PUNCTclause
 elle	elle	PRON
 comptait	compter	VERB
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 près de	près de	ADP
 180000	180000	NUM
 étudiants	étudiant	NOUN
@@ -2025,20 +2025,20 @@ instituts	institut	NOUN
 distincts	distinct	ADJ
 ,	,	PUNCTclause
 qualifiés	qualifier	VERB
-tout à fait	tout à fait	DET
+tout à fait	tout à fait	ADV
 abusivement	abusivement	ADV
 d	d	ADP
 «	«	PUNCTclause
 universités	université	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 ne	ne	ADV
 se	se	PRON
 agit	agir	VERB
-en fait	en fait	ADP_DET
-que	que	SCONJ
+en fait	en fait	ADV
+que	que	ADV
 de	de	ADP
 facultés	faculté	VERB
 au	au	ADP_DET
@@ -2066,9 +2066,9 @@ autres	autre	ADJ
 en	en	ADP
 droit	droit	NOUN
 comme	comme	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
-compte	compte	NOUN
+compte	compter	VERB
 autant	autant	ADV
 ou	ou	CCONJ
 plus de	plus de	DET
@@ -2178,9 +2178,9 @@ l'	le	DET
 interdisciplinaire	interdisciplinaire	ADJ
 qui	qui	PRON
 est	être	AUX
-en fait	en fait	DET
-échange	échange	NOUN
-des	un	ADP_DET
+en fait	en fait	ADV
+échange	échanger	VERB
+des	un	DET
 point de vue	point de vue	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
@@ -2243,7 +2243,7 @@ universités	université	NOUN
 Europe	Europe	PROPN
 sont	être	AUX
 donc	donc	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 que	que	SCONJ
 celles	celle	PRON
 dont	dont	PRON
@@ -2423,7 +2423,7 @@ qui	qui	PRON
 se	se	PRON
 est	être	AUX
 fait	faire	VERB
-par la suite	par la suite	NOUN
+par la suite	par la suite	ADV
 à	à	ADP
 Florence	Florence	PROPN
 ,	,	PUNCTclause
@@ -2658,7 +2658,7 @@ colloques	colloque	NOUN
 restreints	restreindre	VERB
 ,	,	PUNCTclause
 groupant	grouper	VERB
-au maximum	au maximum	ADP
+au maximum	au maximum	ADV
 vingt	vingt	NUM
 personnes	personne	NOUN
 ,	,	PUNCTclause
@@ -2714,7 +2714,7 @@ cherche	chercher	VERB
 en	en	ADP
 commun	commun	ADJ
 ,	,	PUNCTclause
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 .	.	PUNCTsent
 au sein de	au sein de	ADP
 colloques	colloque	NOUN
@@ -2741,7 +2741,7 @@ ne	ne	ADV
 peuvent	pouvoir	VERB
 appartenir	appartenir	VERB
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 spécialité	spécialité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2789,7 +2789,7 @@ de	de	ADP
 ceux	ceux	PRON
 que	que	PRON
 ,	,	PUNCTclause
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 serais	être	AUX
@@ -2846,7 +2846,7 @@ de	de	ADP
 l'	le	DET
 unité	unité	NOUN
 culturelle	culturel	ADJ
-en question	en question	PUNCT
+en question	en question	ADJ
 .	.	PUNCTsent
 le	le	DET
 problème	problème	NOUN
@@ -3137,7 +3137,7 @@ certes	certes	ADV
 ,	,	PUNCTclause
 l'on	on	PRON
 étudie	étudier	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 le	le	DET
 marché	marché	NOUN
@@ -3287,8 +3287,8 @@ recyclage	recyclage	NOUN
 et	et	CCONJ
 de	de	ADP
 remise	remise	NOUN
-en question	en question	ADP
-générale	général	NOUN
+en question	en question	ADJ
+générale	général	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -3407,7 +3407,7 @@ ce	ce	PRON
 dont	dont	PRON
 on	on	PRON
 parle	parler	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 partout	partout	ADV
 ,	,	PUNCTclause
 plus ou moins	plus ou moins	ADV

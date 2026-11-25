@@ -120,8 +120,8 @@ et	et	CCONJ
 capables	capable	ADJ
 de	de	ADP
 attaquer	attaquer	VERB
-n'importe quels	n'importe quels	ADV
-point	point	ADV
+n'importe quels	n'importe quels	DET
+point	point	NOUN
 de	de	ADP
 la	le	DET
 planète	planète	NOUN
@@ -427,7 +427,7 @@ pas	pas	ADV
 trop	trop	ADV
 brillant	brillant	ADJ
 sur	sur	ADP
-le second	le second	DET
+le second	le second	PRON
 chef	chef	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -444,7 +444,7 @@ experts	expert	NOUN
 en	en	ADP
 urbanisme	urbanisme	NOUN
 ,	,	PUNCTclause
-du moins	du moins	ADP
+du moins	du moins	ADV
 la	le	DET
 seule	seul	ADJ
 que	que	SCONJ
@@ -455,7 +455,7 @@ communiquer	communiquer	VERB
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 rentrer	rentrer	VERB
 les	le	DET
 villes	ville	NOUN
@@ -526,15 +526,15 @@ tout	tout	ADV
 à	à	ADP
 parier	parier	VERB
 que	que	SCONJ
-la première	la première	DET
-bombe	bombe	NOUN
+la première	la première	PRON
+bombe	bomber	VERB
 serait	être	VERB
 pour	pour	ADP
 New York	New York	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 mettrait	mettre	VERB
-hors d'usage	hors d'usage	NOUN
+hors d'usage	hors d'usage	ADJ
 en	en	ADP
 une	un	DET
 seconde	second	ADJ
@@ -644,7 +644,7 @@ maisons	maison	NOUN
 se	se	PRON
 déplaceraient	déplacer	VERB
 ,	,	PUNCTclause
-au lieu que	au lieu que	ADP_DET
+au lieu que	au lieu que	SCONJ
 ce	ce	PRON
 soient	être	AUX
 leurs	leur	DET
@@ -782,7 +782,7 @@ affreux	affreux	ADJ
 nous	nous	PRON
 ne	ne	ADV
 aurions	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 racines	racine	NOUN
 nulle part	nulle part	ADV
 !	!	PUNCTsent
@@ -832,8 +832,8 @@ Bombe	Bombe	PROPN
 tout	tout	PRON
 va	aller	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 .	.	PUNCTsent
 on	on	PRON
 nous	nous	PRON
@@ -1009,7 +1009,7 @@ sont	être	AUX
 devenues	devenir	VERB
 blanches	blanc	ADJ
 à la suite de	à la suite de	ADP
-la première	la première	DET
+la première	la première	PRON
 expérience	expérience	NOUN
 de	de	ADP
 explosion	explosion	NOUN
@@ -1033,8 +1033,8 @@ chat	chat	NOUN
 noir	noir	ADJ
 est	être	AUX
 devenu	devenir	VERB
-à moitié	à moitié	DET
-blanc	blanc	NOUN
+à moitié	à moitié	ADV
+blanc	blanc	ADJ
 .	.	PUNCTsent
 un	un	DET
 cowboy	cowboy	NOUN
@@ -1082,7 +1082,7 @@ ville	ville	NOUN
 Washington	Washington	PROPN
 ,	,	PUNCTclause
 D.C.	D.C.	PROPN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 cinq-mille	cinq-mille	NOUN
 produits	produire	VERB
 et	et	CCONJ
@@ -1138,8 +1138,8 @@ le	le	DET
 fait	fait	NOUN
 est	être	AUX
 dû	devoir	VERB
-à la fin	à la fin	PUNCT
-des	un	DET
+à la fin	à la fin	ADV
+des	un	ADP_DET
 hostilités	hostilité	NOUN
 ,	,	PUNCTclause
 plutôt	plutôt	ADV
@@ -1259,7 +1259,7 @@ lois	loi	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à ce sujet	à ce sujet	PUNCT
+à ce sujet	à ce sujet	ADV
 ,	,	PUNCTclause
 je	je	PRON
 vous	vous	PRON
@@ -1527,7 +1527,7 @@ pour le moment	pour le moment	ADV
 mais	mais	CCONJ
 veuillez	vouloir	VERB
 supposer	supposer	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 dans	dans	ADP
 quelques	quelque	DET
 siècles	siècle	NOUN

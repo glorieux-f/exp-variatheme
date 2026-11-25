@@ -35,7 +35,7 @@ bon	bon	ADJ
 état	état	NOUN
 .	.	PUNCTsent
 reste	rester	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 si	si	SCONJ
 le	le	DET
 sujet	sujet	NOUN
@@ -212,7 +212,7 @@ de	de	ADP
 origine	origine	NOUN
 psychique	psychique	ADJ
 .	.	PUNCTsent
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 consiste	consister	VERB
@@ -259,7 +259,7 @@ traditionnelle	traditionnel	ADJ
 et	et	CCONJ
 créatrice	créateur	ADJ
 .	.	PUNCTsent
-en bref	en bref	INTJ
+en bref	en bref	ADV
 ,	,	PUNCTclause
 cette	ce	DET
 maladie	maladie	NOUN
@@ -320,7 +320,7 @@ périr	périr	VERB
 deux	deux	NUM
 reprises	repris	NOUN
 dans	dans	ADP
-la première	la première	DET
+la première	la première	PRON
 moitié	moitié	NOUN
 de	de	ADP
 notre	notre	DET
@@ -415,7 +415,7 @@ nationalistes	nationaliste	ADJ
 et	et	CCONJ
 de	de	ADP
 libérer	libérer	VERB
-par là même	par là même	ADP
+par là même	par là même	ADV
 le	le	DET
 jeu	jeu	NOUN
 normal	normal	ADJ
@@ -440,7 +440,7 @@ du	du	ADP_DET
 corps	corps	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elle	elle	PRON
 prendra	prendre	VERB
 pour	pour	ADP
@@ -601,7 +601,7 @@ l'autre	l'autre	PRON
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX
-en gros	en gros	DET
+en gros	en gros	ADV
 celle	celle	PRON
 du	du	ADP_DET
 marché	marché	NOUN
@@ -623,7 +623,7 @@ la	le	DET
 position	position	NOUN
 maximaliste	maximaliste	ADJ
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 insiste	insister	VERB
 avant	avant	ADP
 tout	tout	ADV
@@ -684,7 +684,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 a	avoir	AUX
 mis	mettre	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 le	le	DET
 prototype	prototype	NOUN
 :	:	PUNCTclause
@@ -817,7 +817,7 @@ motifs	motif	NOUN
 des	un	ADP_DET
 grands	grand	NOUN
 débats	débat	NOUN
-en cours	en cours	PUNCT
+en cours	en cours	ADJ
 ,	,	PUNCTclause
 sans	sans	ADP
 les	le	DET
@@ -894,9 +894,9 @@ elle	elle	PRON
 remonte	remonter	VERB
 très	très	ADV
 précisément	précisément	ADV
-au début	au début	PUNCT
+au début	au début	ADV
 du	du	ADP_DET
-14e	14e	ADJ
+14e	14e	NUM
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -1035,7 +1035,7 @@ union	union	NOUN
 Europe	Europe	PROPN
 se	se	PRON
 ramènent	ramener	VERB
-en dernière analyse	en dernière analyse	PUNCT
+en dernière analyse	en dernière analyse	ADV
 à	à	ADP
 quelques	quelque	DET
 thèmes	thème	NOUN
@@ -1056,7 +1056,7 @@ et	et	CCONJ
 les	le	DET
 écoles	école	NOUN
 ,	,	PUNCTclause
-l'un ou l'autre	l'un ou l'autre	ADP
+l'un ou l'autre	l'un ou l'autre	PRON
 prenne	prendre	VERB
 plus de	plus de	DET
 importance	importance	NOUN
@@ -1205,7 +1205,7 @@ jusque	jusque	ADP
 au	au	ADP_DET
 marché	marché	NOUN
 commun	commun	ADJ
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 le	le	DET
@@ -1273,7 +1273,7 @@ les	le	DET
 Deux-Grands-qui-ont-la-bombe	Deux-Grands-qui-ont-la-bombe	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ce	ce	DET
 motif	motif	NOUN
@@ -1868,7 +1868,7 @@ se	se	PRON
 oppose	opposer	VERB
 l'	le	DET
 empirisme	empirisme	NOUN
-sans vergogne	sans vergogne	PUNCT
+sans vergogne	sans vergogne	ADV
 de	de	ADP
 l'	le	DET
 avocat	avocat	NOUN
@@ -2367,7 +2367,7 @@ essayait	essayer	VERB
 vainement	vainement	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -2389,7 +2389,7 @@ et	et	CCONJ
 qui	qui	PRON
 avait	avoir	AUX
 été	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 parler	parler	VERB
 de	de	ADP
@@ -2511,7 +2511,7 @@ contribuer	contribuer	VERB
 à	à	ADP
 cet	ce	DET
 effort	effort	NOUN
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 ordre	ordre	NOUN
 ,	,	PUNCTclause
@@ -2571,7 +2571,7 @@ a	avoir	AUX
 pris	prendre	VERB
 ce	ce	DET
 terme	terme	NOUN
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 impliquant	impliquer	VERB
 le	le	DET
@@ -2780,7 +2780,7 @@ bien que	bien que	SCONJ
 ils	ils	PRON
 en	en	PRON
 redécouvrent	redécouvrir	VERB
-en partie	en partie	PUNCT
+en partie	en partie	ADV
 ou	ou	CCONJ
 en	en	ADP
 complètent	compléter	VERB
@@ -2874,7 +2874,7 @@ est	être	AUX
 celui	celui	PRON
 qui	qui	PRON
 parut	paraître	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 et	et	CCONJ
 qui	qui	PRON
 resta	rester	VERB
@@ -2952,7 +2952,7 @@ Otan	Otan	PROPN
 ;	;	PUNCTclause
 2	2	NUM
 °	°	SYM
-mettre fin	mettre fin	NOUN
+mettre fin	mettre fin	VERB
 à	à	ADP
 la	le	DET
 guerre	guerre	NOUN
@@ -2965,8 +2965,8 @@ les	le	DET
 religions	religion	NOUN
 tendent	tendre	VERB
 à	à	ADP
-la même	la même	DET
-fin	fin	NOUN
+la même	la même	PRON
+fin	fin	ADV
 de	de	ADP
 adoration	adoration	NOUN
 et	et	CCONJ
@@ -3145,7 +3145,7 @@ cité	cité	NOUN
 jamais	jamais	ADV
 lu	lire	VERB
 ,	,	PUNCTclause
-et pour cause	et pour cause	DET
+et pour cause	et pour cause	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 ne	ne	ADV
@@ -3409,7 +3409,7 @@ patrie	patrie	NOUN
 Europe	Europe	PROPN
 ;	;	PUNCTclause
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 nous	nous	PRON
 devons	devoir	VERB
 tout	tout	PRON
@@ -3667,7 +3667,7 @@ demeure	demeurer	VERB
 sans	sans	ADP
 exécution	exécution	NOUN
 ,	,	PUNCTclause
-ce n'est pas que	ce n'est pas que	DET
+ce n'est pas que	ce n'est pas que	SCONJ
 il	il	PRON
 soit	être	AUX
 chimérique	chimérique	ADJ
@@ -3880,8 +3880,8 @@ décrété	décréter	VERB
 citoyen	citoyen	NOUN
 France	France	PROPN
 par	par	ADP
-la même	la même	DET
-convention	convention	NOUN
+la même	la même	PRON
+Convention	Convention	PROPN
 ,	,	PUNCTclause
 le	le	DET
 célèbre	célèbre	ADJ
@@ -3951,10 +3951,10 @@ le	le	DET
 dire	dire	NOUN
 ,	,	PUNCTclause
 resta	rester	VERB
-sans suite	sans suite	PUNCT
+sans suite	sans suite	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 le	le	DET
@@ -4074,7 +4074,7 @@ mais	mais	CCONJ
 le	le	DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	DET
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 est	être	AUX
@@ -4108,7 +4108,7 @@ démocrates	démocrate	NOUN
 ,	,	PUNCTclause
 verra	voir	VERB
 naître	naître	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 les	le	DET
 nationalismes	nationalisme	NOUN
 populaires	populaire	ADJ
@@ -4290,8 +4290,8 @@ M.	M.	NOUN
 Hugo	Hugo	PROPN
 .	.	PUNCTsent
 —	—	PUNCTclause
-le premier	le premier	NOUN
-peuple	peuple	NOUN
+le premier	le premier	PRON
+peuple	peupler	VERB
 du	du	ADP_DET
 monde	monde	NOUN
 a	avoir	AUX
@@ -4363,7 +4363,7 @@ même	même	ADJ
 du	du	ADP_DET
 continent	continent	NOUN
 monarchique	monarchique	ADJ
-la première	la première	PUNCT
+la première	la première	PRON
 assise	asseoir	VERB
 de	de	ADP
 cet	ce	DET
@@ -4908,7 +4908,7 @@ le	le	DET
 19e	19e	NUM
 siècle	siècle	NOUN
 ,	,	PUNCTclause
-en fait	en fait	PRON
+en fait	en fait	ADV
 ,	,	PUNCTclause
 vit	vivre	VERB
 au contraire	au contraire	ADV
@@ -5163,8 +5163,8 @@ eut	avoir	VERB
 une	un	DET
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au lendemain de	au lendemain de	ADP_DET
-la première	la première	NOUN
+au lendemain de	au lendemain de	ADP
+la première	la première	PRON
 guerre mondiale	guerre mondiale	NOUN
 ,	,	PUNCTclause
 Paul	Paul	PROPN
@@ -5193,7 +5193,7 @@ civilisations	civilisation	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 savons	savoir	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 mortelles	mortel	ADJ
@@ -5633,7 +5633,7 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 Churchill	Churchill	PROPN
 vient	venir	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 à	à	ADP
 Zurich	Zurich	PROPN
 son	son	DET
@@ -5768,7 +5768,7 @@ traditionnels	traditionnel	ADJ
 de	de	ADP
 union	union	NOUN
 représentés	représenter	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 par	par	ADP
 ses	son	DET
 trois	trois	NUM
@@ -5941,7 +5941,7 @@ en	en	ADP
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 (	(	PUNCTclause
-soit dit en passant	soit dit en passant	SYM
+soit dit en passant	soit dit en passant	ADV
 :	:	PUNCTclause
 si	si	SCONJ
 il	il	PRON
@@ -5978,7 +5978,7 @@ par	par	ADP
 l'	le	DET
 angoisse	angoisse	NOUN
 ,	,	PUNCTclause
-la première	la première	NOUN
+la première	la première	PRON
 institution	institution	NOUN
 Europe	Europe	PROPN
 acceptée	accepter	VERB
@@ -5995,7 +5995,7 @@ la	le	DET
 or	or	NOUN
 ce	ce	PRON
 est	être	AUX
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 la	le	DET
 seule	seul	ADJ
 qui	qui	PRON
@@ -6297,7 +6297,7 @@ cet	ce	DET
 élan	élan	NOUN
 doive	devoir	VERB
 trouver	trouver	VERB
-sous peu	sous peu	PUNCT
+sous peu	sous peu	ADV
 son	son	DET
 couronnement	couronnement	NOUN
 politique	politique	ADJ

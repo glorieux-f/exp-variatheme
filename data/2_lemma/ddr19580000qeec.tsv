@@ -60,7 +60,7 @@ institution	institution	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
-au surplus	au surplus	ADP
+au surplus	au surplus	ADV
 la	le	DET
 culture	culture	NOUN
 Europe	Europe	PROPN
@@ -169,7 +169,7 @@ Europe	Europe	PROPN
 se	se	PRON
 divise	diviser	VERB
 en	en	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 cultures	culture	NOUN
 que	que	SCONJ
 elle	elle	PRON
@@ -512,7 +512,7 @@ de	de	ADP
 se	se	PRON
 unir	unir	VERB
 :	:	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 le	le_PRON	PRON
 sait	savoir	VERB
 ;	;	PUNCTclause
@@ -642,7 +642,7 @@ formés	former	VERB
 pour	pour	ADP
 la plupart	la plupart	PRON
 depuis	depuis	ADP
-moins de	moins de	PUNCT
+moins de	moins de	DET
 cent	cent	NUM
 ans	an	NOUN
 …	…	PUNCTsent
@@ -781,7 +781,7 @@ fait	faire	VERB
 dans	dans	ADP
 ce	ce	DET
 sens	sens	NOUN
-depuis que	depuis que	PUNCT
+depuis que	depuis que	SCONJ
 la	le	DET
 grande	grand	ADJ
 question	question	NOUN
@@ -1274,7 +1274,7 @@ deux	deux	NUM
 vérités	vérité	NOUN
 primordiales	primordial	ADJ
 ,	,	PUNCTclause
-à savoir	à savoir	DET
+à savoir	à savoir	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
@@ -1400,7 +1400,7 @@ la	le	DET
 culture	culture	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-sans attendre	sans attendre	ADP
+sans attendre	sans attendre	ADV
 que	que	SCONJ
 ce	ce	DET
 problème	problème	NOUN
@@ -1459,7 +1459,7 @@ illustrer	illustrer	VERB
 les	le	DET
 considérations	considération	NOUN
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 théoriques	théorique	ADJ
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1889,7 +1889,7 @@ et	et	CCONJ
 notre	notre	DET
 civilisation	civilisation	NOUN
 ,	,	PUNCTclause
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 nations	nation	NOUN
 actuelles	actuel	ADJ
 ;	;	PUNCTclause
@@ -2124,7 +2124,7 @@ sur	sur	ADP
 l'	le	DET
 Europe	Europe	PROPN
 est	être	AUX
-en cours	en cours	DET
+en cours	en cours	ADJ
 de	de	ADP
 réalisation	réalisation	NOUN
 .	.	PUNCTsent
@@ -2395,7 +2395,7 @@ un	un	DET
 mal	mal	NOUN
 en soi	en soi	ADV
 ,	,	PUNCTclause
-bien au contraire	bien au contraire	ADJ
+bien au contraire	bien au contraire	ADV
 .	.	PUNCTsent
 cette	ce	DET
 multiplicité	multiplicité	NOUN
@@ -2456,8 +2456,8 @@ actions	action	NOUN
 communes	commun	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-de mise	de mise	DET
-en	en	PRON
+de mise	de mise	ADJ
+en	en	ADP
 pool	pool	NOUN
 celles	celle	PRON
 de	de	ADP
@@ -2587,7 +2587,7 @@ colonialisme	colonialisme	NOUN
 mais	mais	CCONJ
 la	le	DET
 maintiennent	maintenir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 sous	sous	ADP
 la	le	DET
 pression	pression	NOUN
@@ -2750,7 +2750,7 @@ Europe	Europe	PROPN
 mise	mettre	VERB
 au	au	ADP_DET
 défi	défi	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ensemble	ensemble	NOUN
 culturel	culturel	ADJ
 ,	,	PUNCTclause
@@ -2802,10 +2802,10 @@ et	et	CCONJ
 nous	nous	PRON
 poussent	pousser	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 .	.	PUNCTsent
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 efficace	efficace	ADJ
 pour	pour	ADP
 unir	unir	VERB
@@ -2870,5 +2870,5 @@ vocation	vocation	NOUN
 ,	,	PUNCTclause
 donc	donc	ADV
 ouverte	ouvrir	VERB
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 .	.	PUNCTsent

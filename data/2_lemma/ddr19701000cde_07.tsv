@@ -68,7 +68,7 @@ est	est	NOUN
 ,	,	PUNCTclause
 amputé	amputer	VERB
 ;	;	PUNCTclause
-un grand nombre de	un grand nombre de	ADP
+un grand nombre de	un grand nombre de	DET
 ses	son	DET
 cités	cité	NOUN
 ,	,	PUNCTclause
@@ -450,7 +450,7 @@ guerre	guerre	NOUN
 totale	total	ADJ
 est	être	AUX
 sorti	sortir	VERB
-le premier	le premier	ADP
+le premier	le premier	PRON
 régime	régime	NOUN
 totalitaire	totalitaire	ADJ
 ,	,	PUNCTclause
@@ -520,7 +520,7 @@ totalitarisme	totalitarisme	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
 sont	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 les	le	DET
 symptômes	symptôme	NOUN
 de	de	ADP
@@ -575,7 +575,7 @@ et	et	CCONJ
 les	le	DET
 résultats	résultat	NOUN
 ,	,	PUNCTclause
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 de	de	ADP
 la	le	DET
 civilisation	civilisation	NOUN
@@ -663,7 +663,7 @@ la	le	DET
 technique	technique	NOUN
 ont	avoir	AUX
 détruit	détruire	VERB
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 ,	,	PUNCTclause
 sans que	sans que	SCONJ
 il y a	il y a	VERB
@@ -833,7 +833,7 @@ de	de	ADP
 Freud	Freud	PROPN
 ,	,	PUNCTclause
 illustrent	illustrer	VERB
-la première	la première	NOUN
+la première	la première	PRON
 tendance	tendance	NOUN
 ;	;	PUNCTclause
 ceux	ceux	PRON
@@ -886,7 +886,7 @@ essence	essence	NOUN
 de	de	ADP
 l'	le	DET
 article	article	NOUN
-les uns et les autres	les uns et les autres	PUNCT
+les uns et les autres	les uns et les autres	PRON
 paraissent	paraître	VERB
 obscurs	obscur	ADJ
 au	au	ADP_DET
@@ -933,7 +933,7 @@ ceux	ceux	PRON
 qui	qui	PRON
 remettent	remettre	VERB
 tout	tout	ADV
-en question	en question	SYM
+en question	en question	ADJ
 ;	;	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
@@ -1062,7 +1062,7 @@ leurs	leur	DET
 lois	loi	NOUN
 propres	propre	ADJ
 ,	,	PUNCTclause
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 acceptables	acceptable	ADJ
 pour	pour	ADP
 l'	le	DET
@@ -1147,7 +1147,7 @@ tous	tous	PRON
 ne	ne	ADV
 est	être	AUX
 plus	plus	ADV
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 «	«	PUNCTclause
 dire	dire	VERB
 le	le	DET
@@ -1219,7 +1219,7 @@ que	que	SCONJ
 il	il	PRON
 faut	falloir	VERB
 remonter	remonter	VERB
-si l'on veut	si l'on veut	SCONJ
+si l'on veut	si l'on veut	ADV
 expliquer	expliquer	VERB
 les	le	DET
 phénomènes	phénomène	NOUN
@@ -1234,7 +1234,7 @@ guerre	guerre	NOUN
 et	et	CCONJ
 totalitarisme	totalitarisme	NOUN
 sont	être	AUX
-autant de	autant de	ADP
+autant de	autant de	DET
 réactions	réaction	NOUN
 mécaniques	mécanique	ADJ
 et	et	CCONJ
@@ -1282,7 +1282,7 @@ réagir	réagir	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 réagit	réagir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 à	à	ADP
 cette	ce	DET
@@ -1351,8 +1351,8 @@ le	le_PRON	PRON
 pousse	pousser	VERB
 à	à	ADP
 faire	faire	VERB
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 son	son	DET
 père	père	NOUN
 :	:	PUNCTclause
@@ -1767,8 +1767,8 @@ avec	avec	ADP
 lui	lui	PRON
 ,	,	PUNCTclause
 après	après	ADP
-la première	la première	DET
-guerre	guerre	NOUN
+la première	la première	PRON
+Guerre	Guerre	PROPN
 .	.	PUNCTsent
 ce	ce	PRON
 que	que	PRON
@@ -1851,7 +1851,7 @@ et	et	CCONJ
 qui	qui	PRON
 la	le_PRON	PRON
 garantisse	garantir	VERB
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 il	il	PRON
 lui	lui	PRON
 enseigne	enseigner	VERB
@@ -1911,7 +1911,7 @@ prêtes	prêt	ADJ
 fournir	fournir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 les	le	DET
 démocraties	démocratie	NOUN
 occidentales	occidental	ADJ
@@ -2000,7 +2000,7 @@ description	description	NOUN
 du	du	ADP_DET
 stalinisme	stalinisme	NOUN
 .	.	PUNCTsent
-en conséquence	en conséquence	DET
+en conséquence	en conséquence	ADV
 ,	,	PUNCTclause
 je	je	PRON
 me	me	PRON
@@ -2115,7 +2115,7 @@ il	il	PRON
 serait	être	AUX
 naïf	naïf	ADJ
 de	de	ADP
-supposé que	supposé que	ADP
+supposé que	supposé que	SCONJ
 les	le	DET
 hommes	homme	NOUN
 politiques	politique	ADJ
@@ -2250,7 +2250,7 @@ fassent	faire	VERB
 pour	pour	ADP
 elle	elle	PRON
 au moins	au moins	ADV
-un peu de	un peu de	PUNCT
+un peu de	un peu de	DET
 ce	ce	PRON
 que	que	SCONJ
 un	un	DET
@@ -2358,7 +2358,7 @@ elle	elle	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 le	le	DET
 matérialisme	matérialisme	NOUN
 de	de	ADP
@@ -2450,7 +2450,7 @@ totalitaires	totalitaire	ADJ
 aucun	aucun	DET
 ne	ne	ADV
 est	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 y	y	PRON
 prétendre	prétendre	VERB
 ,	,	PUNCTclause
@@ -2666,7 +2666,7 @@ la	le	DET
 réalité	réalité	NOUN
 contemporaine	contemporain	ADJ
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 écrivains	écrivain	NOUN
 ,	,	PUNCTclause
 artistes	artiste	NOUN
@@ -2917,7 +2917,7 @@ pour	pour	ADP
 prendre	prendre	VERB
 des	un	DET
 exemples	exemple	NOUN
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 —	—	PUNCTclause
 ne	ne	ADV
 peuvent	pouvoir	VERB
@@ -3223,7 +3223,7 @@ civilisation	civilisation	NOUN
 dans	dans	ADP
 ce	ce	DET
 mouvement	mouvement	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
 je	je	PRON
 entrevois	entrevoir	VERB
@@ -3401,7 +3401,7 @@ Vychinski	Vychinski	PROPN
 condamnant	condamner	VERB
 l'	le	DET
 Occident	Occident	PROPN
-en bloc	en bloc	PUNCT
+en bloc	en bloc	ADV
 et	et	CCONJ
 proclamant	proclamer	VERB
 ainsi	ainsi	ADV
@@ -3444,7 +3444,7 @@ se	se	PRON
 faire	faire	VERB
 pratiquement	pratiquement	ADV
 ,	,	PUNCTclause
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 les	le	DET
 Europe	Europe	PROPN
 ne	ne	ADV
@@ -3582,7 +3582,7 @@ la	le	DET
 littérature	littérature	NOUN
 romantique	romantique	ADJ
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 aux	au	ADP_DET
 origines	origine	NOUN
@@ -4364,7 +4364,7 @@ plus	plus	ADV
 le	le_PRON	PRON
 monde	monde	NOUN
 moderne	moderne	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 tel	tel	DET
 peut	pouvoir	VERB
 être	être	AUX
@@ -4511,7 +4511,7 @@ la	le	DET
 culture	culture	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 l'	le	DET
 avenir	avenir	NOUN
 paraît	paraître	VERB
@@ -4782,7 +4782,7 @@ se	se	PRON
 agit	agir	VERB
 aujourd'hui	aujourd'hui	ADV
 bien	bien	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 définir	définir	VERB
 que	que	SCONJ
 de	de	ADP
@@ -4909,7 +4909,7 @@ en	en	ADP
 divergence	divergence	NOUN
 ,	,	PUNCTclause
 comme	comme	ADP
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 ,	,	PUNCTclause
 par	par	ADP
 l'	le	DET
@@ -4999,11 +4999,11 @@ qui	qui	PRON
 précède	précéder	VERB
 vous	vous	PRON
 concerne	concerner	VERB
-aussi bien que	aussi bien que	ADV
+aussi bien que	aussi bien que	CCONJ
 nous	nous	PRON
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-pour l'essentiel	pour l'essentiel	PUNCT
+pour l'essentiel	pour l'essentiel	ADV
 .	.	PUNCTsent
 car	car	CCONJ
 si	si	SCONJ
@@ -5174,7 +5174,7 @@ des	un	ADP_DET
 mass	mass	NOUN
 médias	média	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 surtout	surtout	ADV
@@ -5275,7 +5275,7 @@ refuser	refuser	VERB
 simplifions	simplifier	VERB
 ,	,	PUNCTclause
 posons	poser	VERB
-moins de	moins de	PUNCT
+moins de	moins de	DET
 questions	question	NOUN
 ,	,	PUNCTclause
 tout	tout	PRON
@@ -5384,8 +5384,8 @@ vous	vous	PRON
 mais	mais	CCONJ
 craignez	craindre	VERB
 que	que	SCONJ
-un peu	un peu	DET
-plus de	plus de	PUNCT
+un peu	un peu	ADV
+plus de	plus de	DET
 conscience	conscience	NOUN
 ou	ou	CCONJ
 une	un	DET
@@ -5463,8 +5463,8 @@ attendons	attendre	VERB
 de	de	ADP
 vous	vous	PRON
 bien	bien	ADV
-autre chose	autre chose	NOUN
-que	que	SCONJ
+autre chose	autre chose	PRON
+que	que	PRON
 des	un	DET
 dollars	dollar	NOUN
 —	—	PUNCTclause

@@ -47,14 +47,14 @@ rues	rue	NOUN
 claustrés	claustrer	VERB
 ,	,	PUNCTclause
 imaginant	imaginer	VERB
-de loin	de loin	PUNCT
+de loin	de loin	ADV
 .	.	PUNCTsent
 (	(	PUNCTclause
 que	que	SCONJ
 elle	elle	PRON
 soit	être	AUX
 habitable	habitable	ADJ
-au surplus	au surplus	PUNCT
+au surplus	au surplus	ADV
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -333,7 +333,7 @@ avenues	avenue	NOUN
 angle	angle	NOUN
 droit	droit	ADJ
 :	:	PUNCTclause
-autant de	autant de	ADP
+autant de	autant de	DET
 étages	étage	NOUN
 .	.	PUNCTsent
 au	au	ADP_DET
@@ -419,7 +419,7 @@ je	je	PRON
 l'	le_PRON	PRON
 ai	avoir	AUX
 senti	sentir	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 soir	soir	NOUN
 de	de	ADP
 octobre	octobre	NOUN
@@ -447,7 +447,7 @@ crêtes	crête	NOUN
 des	un	ADP_DET
 parois	paroi	NOUN
 rocheuses	rocheux	ADJ
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 vallée	vallée	NOUN
 se	se	PRON
@@ -461,7 +461,7 @@ et	et	CCONJ
 je	je	PRON
 étais	être	AUX
 bien	bien	ADV
-au fond	au fond	ADJ
+au fond	au fond	ADV
 de	de	ADP
 une	un	DET
 gorge	gorge	NOUN
@@ -963,7 +963,7 @@ seul	seul	ADJ
 coin	coin	NOUN
 de	de	ADP
 terre	terre	NOUN
-à nu	à nu	PUNCT
+à nu	à nu	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 plus	plus	ADV
@@ -1093,7 +1093,7 @@ plaines	plaine	NOUN
 environnantes	environnant	ADJ
 paraît	paraître	VERB
 encore	encore	ADV
-à nu	à nu	PUNCT
+à nu	à nu	ADJ
 dans	dans	ADP
 les	le	DET
 cours	cours	NOUN
@@ -1187,7 +1187,7 @@ du	du	ADP_DET
 ciel	ciel	NOUN
 ,	,	PUNCTclause
 se	se	PRON
-en fait	en fait	VERB
+en fait	en fait	ADV
 un	un	DET
 dôme	dôme	NOUN
 à	à	ADP
@@ -1389,7 +1389,7 @@ si	si	SCONJ
 je	je	PRON
 me	me	PRON
 retourne	retourner	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 sur	sur	ADP
 ma	mon	DET
 terrasse	terrasse	NOUN
@@ -1728,7 +1728,7 @@ Europe	Europe	PROPN
 je	je	PRON
 en	en	PRON
 connais	connaître	VERB
-par avance	par avance	ADP
+par avance	par avance	ADV
 la	le	DET
 nostalgie	nostalgie	NOUN
 .	.	PUNCTsent
@@ -1844,7 +1844,7 @@ ma	mon	DET
 hauteur	hauteur	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 bas	bas	ADJ
 ,	,	PUNCTclause
@@ -2020,7 +2020,7 @@ un	un	DET
 autre	autre	ADJ
 jour	jour	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 amour	amour	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -2368,7 +2368,7 @@ seulement	seulement	ADV
 pressés	pressé	ADJ
 ,	,	PUNCTclause
 puis	puis	CCONJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 affamés	affamer	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -2415,7 +2415,7 @@ grippé	grippé	ADJ
 il	il	PRON
 faut	falloir	VERB
 projeter	projeter	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 idée	idée	NOUN
@@ -2784,7 +2784,7 @@ un	un	DET
 stylo	stylo	NOUN
 ,	,	PUNCTclause
 sans	sans	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 rigueur	rigueur	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ

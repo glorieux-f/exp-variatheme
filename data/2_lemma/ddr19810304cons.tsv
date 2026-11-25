@@ -227,7 +227,7 @@ disait	dire	VERB
 ça	ça	PRON
 peut	pouvoir	VERB
 tuer	tuer	VERB
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ou	ou	CCONJ
 très	très	ADV
 peu de	peu de	DET
@@ -274,7 +274,7 @@ aurait	avoir	VERB
 plus	plus	ADV
 personne	personne	NOUN
 pour	pour	ADP
-en fait	en fait	NOUN
+en fait	en fait	ADV
 d'autres	d'autre	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -285,7 +285,7 @@ les	le	DET
 états	état	NOUN
 ont	avoir	AUX
 dépensé	dépenser	VERB
-plus de	plus de	PUNCT
+plus de	plus de	DET
 500	500	NUM
 milliards	milliard	NOUN
 de	de	ADP
@@ -295,7 +295,7 @@ des	un	DET
 armements	armement	NOUN
 qui	qui	PRON
 ,	,	PUNCTclause
-au mieux	au mieux	ADP_DET
+au mieux	au mieux	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 serviront	servir	VERB
@@ -314,7 +314,7 @@ dit	dire	VERB
 empêcher	empêcher	VERB
 les	le	DET
 autres	autre	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 la	le	DET
 guerre	guerre	NOUN
 .	.	PUNCTsent
@@ -361,7 +361,7 @@ défaveur	défaveur	NOUN
 des	un	ADP_DET
 Russie	Russie	PROPN
 et	et	CCONJ
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 républiques	république	NOUN
 asiatiques	asiatique	ADJ
 .	.	PUNCTsent
@@ -562,7 +562,7 @@ paix	paix	NOUN
 non	non	ADV
 !	!	PUNCTsent
 quand	quand	SCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 prépare	préparer	VERB
 la	le	DET
 guerre	guerre	NOUN
@@ -616,7 +616,7 @@ rien	rien	PRON
 ne	ne	ADV
 dit	dire	VERB
 que	que	SCONJ
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 il	il	PRON
 ne	ne	ADV
@@ -793,7 +793,7 @@ ne	ne	ADV
 ai	avoir	VERB
 pas	pas	ADV
 besoin	besoin	NOUN
-de mise	de mise	ADP
+de mise	de mise	ADJ
 ici	ici	ADV
 les	le	DET
 points	point	NOUN
@@ -834,7 +834,7 @@ espèce	espèce	NOUN
 de	de	ADP
 rapport	rapport	NOUN
 ,	,	PUNCTclause
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 voyez	voir	VERB
 l'	le	DET
@@ -854,7 +854,7 @@ nous	nous	PRON
 aurons	avoir	VERB
 le	le	DET
 temps	temps	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 prendre conscience	prendre conscience	VERB
 aux	au	ADP_DET
 populations	population	NOUN
@@ -865,7 +865,7 @@ elles	elles	PRON
 courent	courir	VERB
 en	en	ADP
 brûlant	brûler	VERB
-trop de	trop de	ADP
+trop de	trop de	DET
 électricité	électricité	NOUN
 ,	,	PUNCTclause
 en	en	ADP
@@ -905,7 +905,7 @@ est	être	AUX
 le	le	DET
 meilleur	meilleur	ADJ
 moyen	moyen	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 disparaître	disparaître	VERB
 l'	le	DET
 humanité	humanité	NOUN
@@ -954,7 +954,7 @@ nationales	national	ADJ
 de	de	ADP
 électricité	électricité	NOUN
 .	.	PUNCTsent
-eh bien	eh bien	ADV
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 les	le	DET
 producteurs	producteur	NOUN
@@ -1012,7 +1012,7 @@ je	je	PRON
 place	placer	VERB
 encore	encore	ADV
 ,	,	PUNCTclause
-si j'ose dire	si j'ose dire	DET
+si j'ose dire	si j'ose dire	ADV
 ,	,	PUNCTclause
 quelque	quelque	DET
 espoir	espoir	NOUN
@@ -1172,7 +1172,7 @@ ne	ne	ADV
 y	y	PRON
 peut	pouvoir	VERB
 rien	rien	PRON
-de toute manière	de toute manière	PUNCT
+de toute manière	de toute manière	ADV
 ,	,	PUNCTclause
 buvons	boire	VERB
 et	et	CCONJ
@@ -1532,7 +1532,7 @@ abris	abri	NOUN
 !	!	PUNCTsent
 ici	ici	ADV
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 se	se	PRON
 y	y	PRON
 met	mettre	VERB
@@ -1544,7 +1544,7 @@ devoir	devoir	NOUN
 national	national	ADJ
 !	!	PUNCTsent
 »	»	PUNCTclause
-eh bien	eh bien	PUNCT
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 cette	ce	DET
 fièvre	fièvre	NOUN
@@ -1566,8 +1566,8 @@ a	avoir	AUX
 tiré	tirer	VERB
 des	un	ADP_DET
 conclusions	conclusion	NOUN
-tout à fait	tout à fait	PUNCT
-analogues	analogue	NOUN
+tout à fait	tout à fait	ADV
+analogues	analogue	ADJ
 à	à	ADP
 celles	celle	PRON
 que	que	SCONJ
@@ -1723,14 +1723,14 @@ usines	usine	NOUN
 ,	,	PUNCTclause
 ils	ils	PRON
 pourraient	pouvoir	VERB
-se passer de	se passer de	PRON
-bombes	bomber	VERB
+se passer de	se passer de	VERB
+bombes	bombe	NOUN
 atomiques	atomique	ADJ
 puisque	puisque	SCONJ
 il	il	PRON
 leur	leur	PRON
 suffirait	suffire	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 sauter	sauter	VERB
 nos	nos	DET
 propres	propre	ADJ
@@ -1908,7 +1908,7 @@ brillant	brillant	ADJ
 qui	qui	PRON
 allait	aller	VERB
 faire	faire	VERB
-pas mal de	pas mal de	PUNCT
+pas mal de	pas mal de	DET
 voix	voix	NOUN
 contre	contre	ADP
 Guisan	Guisan	PROPN
@@ -2091,7 +2091,7 @@ satellites	satellite	NOUN
 compris	comprendre	VERB
 ,	,	PUNCTclause
 représente	représenter	VERB
-au total	au total	PUNCT
+au total	au total	ADV
 520	520	NUM
 millions	million	NOUN
 de	de	ADP
@@ -2626,7 +2626,7 @@ argent	argent	NOUN
 à	à	ADP
 certains	certain	DET
 ,	,	PUNCTclause
-du moins	du moins	NOUN
+du moins	du moins	ADV
 pendant	pendant	ADP
 un	un	DET
 temps	temps	NOUN
@@ -2651,7 +2651,7 @@ de	de	ADP
 enrichir	enrichir	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 gens	gens	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -2664,8 +2664,8 @@ travail	travail	NOUN
 à	à	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
-ouvriers	ouvrier	ADJ
+nombre de	nombre de	DET
+ouvriers	ouvrier	NOUN
 .	.	PUNCTsent
 il	il	PRON
 faut	falloir	VERB
@@ -2733,10 +2733,10 @@ neutralité	neutralité	NOUN
 puisque	puisque	SCONJ
 elles	elles	PRON
 sont	être	AUX
-par nature	par nature	ADP
-offensives	offensive	NOUN
+par nature	par nature	ADV
+offensives	offensif	ADJ
 (	(	PUNCTclause
-le premier	le premier	SYM
+le premier	le premier	PRON
 qui	qui	PRON
 tire	tirer	VERB
 a	avoir	AUX
@@ -2867,7 +2867,7 @@ effort	effort	NOUN
 communautaire	communautaire	ADJ
 de	de	ADP
 défense	défense	NOUN
-en partie	en partie	PUNCT
+en partie	en partie	ADV
 non	non	ADV
 violente	violent	ADJ
 ,	,	PUNCTclause
@@ -2887,7 +2887,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 la	le	DET
 solution	solution	NOUN
@@ -3146,7 +3146,7 @@ de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
 ,	,	PUNCTclause
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 de	de	ADP
 l'	le	DET
 humanité	humanité	NOUN
@@ -3236,12 +3236,12 @@ permettent	permettre	VERB
 à	à	ADP
 d'autres	d'autre	PRON
 pays	pays	NOUN
-de fait	de fait	PUNCT
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 centrale nucléaire	centrale nucléaire	NOUN
 et	et	CCONJ
 ,	,	PUNCTclause
-à partir de là	à partir de là	ADP
+à partir de là	à partir de là	ADV
 ,	,	PUNCTclause
 voyez	voir	VERB
 l'	le	DET
@@ -3260,7 +3260,7 @@ Suisse	Suisse	PROPN
 prenait	prendre	VERB
 une	un	DET
 position	position	NOUN
-en flèche	en flèche	PRON
+en flèche	en flèche	ADV
 ,	,	PUNCTclause
 cela	cela	PRON
 donnerait	donner	VERB
@@ -3513,7 +3513,7 @@ mal	mal	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 nous	nous	PRON
 sommes	être	AUX
 actifs	actif	ADJ
@@ -3543,7 +3543,7 @@ personnes	personne	NOUN
 qui	qui	PRON
 auront	avoir	AUX
 essayé	essayer	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 quelque chose	quelque chose	PRON
 .	.	PUNCTsent
 et	et	CCONJ
@@ -3578,7 +3578,7 @@ meilleur	meilleur	ADJ
 emploi	emploi	NOUN
 pourrais	pouvoir	VERB
 je	je	PRON
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 que	que	SCONJ
 de	de	ADP
 me	me	PRON

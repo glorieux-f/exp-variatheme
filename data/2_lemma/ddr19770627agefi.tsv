@@ -8,7 +8,7 @@
 ↵↵	↵↵	PUNCTstruct
 du	du	ADP_DET
 passé	passé	NOUN
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 de	de	ADP
 une	un	DET
 région	région	NOUN
@@ -292,7 +292,7 @@ Suisse	Suisse	PROPN
 mais	mais	CCONJ
 restera	rester	VERB
 longtemps	longtemps	ADV
-à l'écart	à l'écart	PUNCT
+à l'écart	à l'écart	ADV
 de	de	ADP
 la	le	DET
 vie	vie	NOUN
@@ -816,7 +816,7 @@ met	mettre	VERB
 exister	exister	VERB
 comme	comme	ADP
 telle	tel	DET
-dans le cadre de	dans le cadre de	NOUN
+dans le cadre de	dans le cadre de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
 confédérale	confédéral	ADJ
@@ -927,7 +927,7 @@ est	être	AUX
 sans	sans	ADP
 nul	nul	NOUN
 doute	doute	NOUN
-le premier	le premier	DET
+le premier	le premier	PRON
 théoricien	théoricien	NOUN
 du	du	ADP_DET
 fédéralisme	fédéralisme	NOUN
@@ -1005,7 +1005,7 @@ cela	cela	PRON
 ,	,	PUNCTclause
 peu	peu	ADV
 après que	après que	SCONJ
-en sens inverse	en sens inverse	PUNCT
+en sens inverse	en sens inverse	ADV
 ,	,	PUNCTclause
 l'	le	DET
 école	école	NOUN
@@ -1018,7 +1018,7 @@ dans	dans	ADP
 le	le	DET
 monde	monde	NOUN
 germanique	germanique	ADJ
-la première	la première	PUNCT
+la première	la première	PRON
 connaissance	connaissance	NOUN
 de	de	ADP
 Dante	Dante	PROPN
@@ -1039,7 +1039,7 @@ comme	comme	ADP
 «	«	PUNCTclause
 Suisse	Suisse	PROPN
 »	»	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 elle	elle	PRON
 remplit	remplir	VERB
 une	un	DET
@@ -1054,7 +1054,7 @@ le	le	DET
 monde	monde	NOUN
 latin	latin	ADJ
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 les	le	DET
 maîtres	maître	NOUN
 et	et	CCONJ
@@ -1451,8 +1451,8 @@ deux	deux	NUM
 clichés	cliché	NOUN
 ne	ne	ADV
 sont	être	AUX
-rien de plus	rien de plus	PRON
-que	que	PRON
+rien de plus	rien de plus	ADV
+que	que	SCONJ
 des	un	DET
 clichés	cliché	NOUN
 .	.	PUNCTsent
@@ -1462,8 +1462,8 @@ le	le	DET
 Vaudois	Vaudois	PROPN
 une	un	DET
 bonhomie	bonhomie	NOUN
-un peu	un peu	PUNCT
-cynique	cynique	NOUN
+un peu	un peu	ADV
+cynique	cynique	ADJ
 ,	,	PUNCTclause
 une	un	DET
 sorte	sorte	NOUN
@@ -1487,7 +1487,7 @@ que	que	SCONJ
 Rousseau	Rousseau	PROPN
 ,	,	PUNCTclause
 bien	bien	ADV
-à tort	à tort	PUNCT
+à tort	à tort	ADV
 ,	,	PUNCTclause
 qualifiait	qualifier	VERB
 de	de	ADP
@@ -1624,7 +1624,7 @@ aux	au	ADP_DET
 yeux	œil	NOUN
 des	un	ADP_DET
 étrangers	étranger	NOUN
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 ,	,	PUNCTclause
 le	le	DET
 Suisse	Suisse	PROPN
@@ -1858,7 +1858,7 @@ je	je	PRON
 me	me	PRON
 suis	être	AUX
 étendu	étendre	VERB
-quelque peu	quelque peu	PUNCT
+quelque peu	quelque peu	ADV
 sur	sur	ADP
 la	le	DET
 genèse	genèse	NOUN
@@ -1912,8 +1912,8 @@ former	former	VERB
 une	un	DET
 entité	entité	NOUN
 que	que	PRON
-à la faveur de	à la faveur de	PRON
-leur	leur	PRON
+à la faveur de	à la faveur de	ADP
+leur	leur	DET
 rattachement	rattachement	NOUN
 tardif	tardif	ADJ
 (	(	PUNCTclause
@@ -2087,7 +2087,7 @@ ces	ce	DET
 conflits	conflit	NOUN
 sont	être	AUX
 apaisés	apaiser	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 voilà	voilà	ADP
 qui	qui	PRON
@@ -2481,7 +2481,7 @@ moment	moment	NOUN
 ne	ne	ADV
 soit	être	AUX
 remise	remiser	VERB
-en question	en question	ADP
+en question	en question	ADJ
 l'	le	DET
 irréversible	irréversible	ADJ
 et	et	CCONJ
@@ -2644,7 +2644,7 @@ toutes	toutes	PRON
 étant	être	AUX
 cependant	cependant	ADV
 transfrontalières	transfrontalier	ADJ
-par nature	par nature	NOUN
+par nature	par nature	ADV
 et	et	CCONJ
 fonction	fonction	NOUN
 .	.	PUNCTsent
@@ -2828,7 +2828,7 @@ de	de	ADP
 aire	aire	NOUN
 différente	différent	ADJ
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 ,	,	PUNCTclause
 mais	mais	CCONJ
 elle	elle	PRON
@@ -3141,7 +3141,7 @@ nos	nos	DET
 populations	population	NOUN
 du	du	ADP_DET
 9e	9e	ADJ
-au début	au début	NOUN
+au début	au début	ADV
 du	du	ADP_DET
 19e	19e	NUM
 siècles	siècle	NOUN

@@ -56,7 +56,7 @@ deux	deux	NUM
 camps	camp	NOUN
 en présence	en présence	ADV
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 il	il	PRON
 se	se	PRON
 agit	agir	VERB
@@ -125,10 +125,10 @@ il y a	il y a	VERB
 derrière	derrière	ADP
 ce	ce	DET
 jeu	jeu	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 puéril	puéril	ADJ
 ,	,	PUNCTclause
-un peu	un peu	DET
+un peu	un peu	ADV
 gratuit	gratuit	ADJ
 ,	,	PUNCTclause
 deux	deux	NUM
@@ -246,8 +246,8 @@ risque	risque	NOUN
 de	de	ADP
 déplaire	déplaire	VERB
 à	à	ADP
-tout le monde	tout le monde	NOUN
-ce	ce	DET
+tout le monde	tout le monde	PRON
+ce	ce	PRON
 soir	soir	NOUN
 en	en	ADP
 suspendant	suspendre	VERB
@@ -377,10 +377,10 @@ a priori	a priori	ADV
 contre	contre	ADP
 le	le	DET
 		TOKEN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 projet	projet	NOUN
 lié	lier	VERB
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 du	du	ADP_DET
 CERN	CERN	NOUN
 :	:	PUNCTclause
@@ -495,7 +495,7 @@ au	au	ADP_DET
 monde	monde	NOUN
 ne	ne	ADV
 est	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 démontrer	démontrer	VERB
 que	que	SCONJ
 le	le	DET
@@ -532,7 +532,7 @@ terre	terre	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tout	tout	PRON
-cela dit	cela dit	PRON
+cela dit	cela dit	ADV
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	VERB
@@ -540,7 +540,7 @@ accepté	accepter	VERB
 sans	sans	ADP
 hésiter	hésiter	VERB
 de	de	ADP
-prendre la parole	prendre la parole	NOUN
+prendre la parole	prendre la parole	VERB
 ce	ce	DET
 soir	soir	NOUN
 ,	,	PUNCTclause
@@ -683,7 +683,7 @@ informatisés	informatiser	VERB
 selon	selon	ADP
 la	le	DET
 formule	formule	NOUN
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
@@ -742,8 +742,8 @@ qui	qui	PRON
 passionne	passionner	VERB
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
-scientifiques	scientifique	ADJ
+nombre de	nombre de	DET
+scientifiques	scientifique	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 les	le	DET
@@ -962,7 +962,7 @@ le	le	DET
 		TOKEN
 ,	,	PUNCTclause
 prise	prise	NOUN
-en principe	en principe	PUNCT
+en principe	en principe	ADV
 par	par	ADP
 les	le	DET
 12	12	NUM
@@ -1015,7 +1015,7 @@ des	un	ADP_DET
 études	étude	NOUN
 de	de	ADP
 impact	impact	NOUN
-en cours	en cours	PUNCT
+en cours	en cours	ADJ
 ,	,	PUNCTclause
 la	le	DET
 décision	décision	NOUN
@@ -1062,7 +1062,7 @@ de	de	ADP
 Gex	Gex	PROPN
 aient	avoir	AUX
 pu	pouvoir	VERB
-faire valoir	faire valoir	DET
+faire valoir	faire valoir	VERB
 ,	,	PUNCTclause
 pratiquement	pratiquement	ADV
 ,	,	PUNCTclause
@@ -1103,7 +1103,7 @@ portée	portée	NOUN
 plus	plus	ADV
 générale	général	ADJ
 ,	,	PUNCTclause
-à terme	à terme	ADP
+à terme	à terme	ADV
 .	.	PUNCTsent
 je	je	PRON
 me	me	PRON
@@ -1145,7 +1145,7 @@ là	là	ADV
 nous	nous	PRON
 ne	ne	ADV
 avons	avoir	AUX
-ni les uns ni les autres	ni les uns ni les autres	SYM
+ni les uns ni les autres	ni les uns ni les autres	PRON
 évité	éviter	VERB
 tous	tout	ADJ
 les	le	DET
@@ -1156,7 +1156,7 @@ genre	genre	NOUN
 de	de	ADP
 exercice	exercice	NOUN
 .	.	PUNCTsent
-le premier	le premier	ADP
+le premier	le premier	PRON
 est	être	AUX
 de	de	ADP
 céder	céder	VERB
@@ -1214,7 +1214,7 @@ pas	pas	ADV
 gagné	gagner	VERB
 !	!	PUNCTsent
 »	»	PUNCTclause
-trop de	trop de	PUNCT
+trop de	trop de	DET
 questions	question	NOUN
 sont	être	AUX
 restées	rester	VERB
@@ -1358,8 +1358,8 @@ plus de	plus de	DET
 précautions	précaution	NOUN
 que	que	SCONJ
 pour	pour	ADP
-la première	la première	DET
-traversée	traversée	NOUN
+la première	la première	PRON
+traversée	traverser	VERB
 du	du	ADP_DET
 Titanic	Titanic	PROPN
 …	…	PUNCTsent
@@ -1388,7 +1388,7 @@ très	très	ADV
 ouvert	ouvert	ADJ
 ,	,	PUNCTclause
 visant	viser	VERB
-au maximum	au maximum	ADP_DET
+au maximum	au maximum	ADV
 de	de	ADP
 transparence	transparence	NOUN
 et	et	CCONJ
@@ -1788,7 +1788,7 @@ ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 question	question	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 une	un	DET
 expérience	expérience	NOUN
 en	en	ADP
@@ -1835,7 +1835,7 @@ savoir	savoir	VERB
 ,	,	PUNCTclause
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 générations	génération	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1899,7 +1899,7 @@ qui	qui	PRON
 pourrait	pouvoir	VERB
 résulter	résulter	VERB
 de	de	ADP
-quoi que ce soit	quoi que ce soit	NOUN
+quoi que ce soit	quoi que ce soit	PRON
 ,	,	PUNCTclause
 une	un	DET
 fois	fois	NOUN
@@ -1935,7 +1935,7 @@ serait	être	AUX
 bon	bon	ADJ
 ,	,	PUNCTclause
 serait	être	AUX
-en principe	en principe	DET
+en principe	en principe	ADV
 meilleur	meilleur	ADJ
 que	que	SCONJ
 ce	ce	PRON
@@ -2099,7 +2099,7 @@ applications	application	NOUN
 technologiques	technologique	ADJ
 ,	,	PUNCTclause
 encore	encore	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 retombées	retombée	NOUN
 militaires	militaire	ADJ
 .	.	PUNCTsent
@@ -2117,7 +2117,7 @@ la	le	DET
 possibilité	possibilité	NOUN
 ,	,	PUNCTclause
 surtout	surtout	ADV
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -2177,7 +2177,7 @@ en réalité	en réalité	ADV
 vérifiable	vérifiable	ADJ
 et	et	CCONJ
 lisible	lisible	ADJ
-dans l'ensemble	dans l'ensemble	ADP
+dans l'ensemble	dans l'ensemble	ADV
 des	un	DET
 recherches	recherche	NOUN
 que	que	SCONJ
@@ -2296,7 +2296,7 @@ notre	notre	DET
 société	société	NOUN
 qui	qui	PRON
 déterminent	déterminer	VERB
-en fait	en fait	SYM
+en fait	en fait	ADV
 (	(	PUNCTclause
 pas	pas	ADV
 toujours	toujours	ADV
@@ -2319,7 +2319,7 @@ or	or	NOUN
 elles	elles	PRON
 conduisent	conduire	VERB
 ,	,	PUNCTclause
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -2502,7 +2502,7 @@ science	science	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 trouve	trouver	VERB
-par là même	par là même	ADP
+par là même	par là même	ADV
 sans	sans	ADP
 défense	défense	NOUN
 contre	contre	ADP
@@ -2715,7 +2715,7 @@ amène	amener	VERB
 à	à	ADP
 proposer	proposer	VERB
 ,	,	PUNCTclause
-en conclusion	en conclusion	NOUN
+en conclusion	en conclusion	ADV
 ,	,	PUNCTclause
 une	un	DET
 idée	idée	NOUN
@@ -2840,7 +2840,7 @@ des	un	DET
 réalités	réalité	NOUN
 trop	trop	ADV
 négligées	négligé	ADJ
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 mais	mais	CCONJ
 aussi	aussi	ADV
@@ -2929,7 +2929,7 @@ nouveau	nouveau	ADJ
 capable	capable	ADJ
 de	de	ADP
 remettre	remettre	VERB
-en cause	en cause	ADP
+en cause	en cause	ADJ
 la	le	DET
 nature	nature	NOUN
 même	même	ADV
@@ -3055,7 +3055,7 @@ je	je	PRON
 en	en	PRON
 tirerais	tirer	VERB
 ,	,	PUNCTclause
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 une	un	DET
 nouvelle	nouveau	ADJ

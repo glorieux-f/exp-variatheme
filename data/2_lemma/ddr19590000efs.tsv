@@ -398,7 +398,7 @@ du	du	ADP_DET
 col	col	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ,	,	PUNCTclause
 au début	au début	ADV
 du	du	ADP_DET
@@ -487,7 +487,7 @@ durer	durer	VERB
 perpétuité	perpétuité	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 ,	,	PUNCTclause
 il	il	PRON
 a	avoir	AUX
@@ -609,7 +609,7 @@ fin	fin	NOUN
 du	du	ADP_DET
 13e	13e	ADJ
 siècle	siècle	NOUN
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 du	du	ADP_DET
 18e	18e	ADJ
 siècle	siècle	NOUN
@@ -791,7 +791,7 @@ homme	homme	NOUN
 sage	sage	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
-en conséquence	en conséquence	NOUN
+en conséquence	en conséquence	ADV
 ,	,	PUNCTclause
 l'	le	DET
 empereur	empereur	NOUN
@@ -970,7 +970,7 @@ collective	collectif	ADJ
 et	et	CCONJ
 à	à	ADP
 unifier	unifier	VERB
-quelque peu	quelque peu	PUNCT
+quelque peu	quelque peu	ADV
 leur	leur	DET
 politique	politique	NOUN
 étrangère	étranger	ADJ
@@ -1266,7 +1266,7 @@ en	en	ADP
 1848	1848	NUM
 ,	,	PUNCTclause
 que	que	PRON
-au lendemain de	au lendemain de	PUNCT
+au lendemain de	au lendemain de	ADP
 une	un	DET
 guerre civile	guerre civile	NOUN
 qui	qui	PRON
@@ -1399,7 +1399,7 @@ nous	nous	PRON
 avons	avoir	AUX
 vu	voir	VERB
 commettre	commettre	VERB
-de nos jours	de nos jours	PUNCT
+de nos jours	de nos jours	ADV
 en	en	ADP
 Europe	Europe	PROPN
 ont	avoir	AUX
@@ -1472,7 +1472,7 @@ on	on	PRON
 ne	ne	ADV
 comptait	compter	VERB
 pas	pas	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 400	400	NUM
 taxes	taxe	NOUN
 et	et	CCONJ
@@ -1498,7 +1498,7 @@ une	un	DET
 autre	autre	ADJ
 .	.	PUNCTsent
 «	«	PUNCTclause
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 partout	partout	ADV
 ,	,	PUNCTclause
 sauf	sauf	ADP
@@ -1524,7 +1524,7 @@ Tessin	Tessin	PROPN
 ne	ne	ADV
 prélevait	prélever	VERB
 pas	pas	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 treize	treize	NUM
 taxes	taxe	NOUN
 différentes	différent	ADJ
@@ -2290,7 +2290,7 @@ discutées	discuter	VERB
 séparément	séparément	ADV
 ,	,	PUNCTclause
 souvent	souvent	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 au hasard	au hasard	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -2337,7 +2337,7 @@ fausse	faux	ADJ
 ils	ils	PRON
 doivent	devoir	VERB
 ,	,	PUNCTclause
-pour ainsi dire	pour ainsi dire	PUNCT
+pour ainsi dire	pour ainsi dire	ADV
 ,	,	PUNCTclause
 servir	servir	VERB
 deux	deux	NUM
@@ -2458,7 +2458,7 @@ netteté	netteté	NOUN
 ,	,	PUNCTclause
 ce	ce	DET
 sentiment	sentiment	NOUN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 énergie	énergie	NOUN
 .	.	PUNCTsent
 ce	ce	DET
@@ -2712,7 +2712,7 @@ de	de	ADP
 «	«	PUNCTclause
 national	national	ADJ
 »	»	PUNCTclause
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -2979,7 +2979,7 @@ la	le	DET
 France	France	PROPN
 lui	lui	PRON
 fournit	fournir	VERB
-en secret	en secret	PUNCT
+en secret	en secret	ADV
 des	un	DET
 canons	canon	NOUN
 et	et	CCONJ
@@ -3435,7 +3435,7 @@ pur	pur	ADJ
 intellectuel	intellectuel	ADJ
 .	.	PUNCTsent
 dès	dès	ADP
-la première	la première	DET
+la première	la première	PRON
 réunion	réunion	NOUN
 ,	,	PUNCTclause
 ils	ils	PRON
@@ -3445,7 +3445,7 @@ leurs	leur	DET
 débats	débat	NOUN
 se	se	PRON
 tiendraient	tenir	VERB
-à huis clos	à huis clos	PUNCT
+à huis clos	à huis clos	ADV
 ,	,	PUNCTclause
 ceci	ceci	PRON
 surtout	surtout	ADV
@@ -3510,7 +3510,7 @@ de	de	ADP
 17	17	NUM
 articles	article	NOUN
 .	.	PUNCTsent
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 ces	ce	DET
 articles	article	NOUN
 se	se	PRON
@@ -3650,8 +3650,8 @@ une	un	DET
 dernière	dernier	ADJ
 fois	fois	NOUN
 pour	pour	ADP
-prendre connaissance	prendre connaissance	NOUN
-des	un	ADP_DET
+prendre connaissance	prendre connaissance	VERB
+des	un	DET
 résultats	résultat	NOUN
 :	:	PUNCTclause
 15	15	NUM
@@ -3717,7 +3717,7 @@ devait	devoir	VERB
 plus	plus	ADV
 être	être	AUX
 remis	remettre	VERB
-en question	en question	ADP
+en question	en question	ADJ
 jusque	jusque	ADP
 à	à	ADP
 nos	nos	DET
@@ -3850,12 +3850,12 @@ on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
 choisir	choisir	VERB
-plus d'une	plus d'une	ADV
+plus d'une	plus d'une	DET
 de	de	ADP
 ses	son	DET
 membres	membre	NOUN
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 canton	canton	NOUN
 .	.	PUNCTsent
 un	un	DET
@@ -3864,8 +3864,8 @@ fédéralisme	fédéralisme	NOUN
 connaît	connaître	VERB
 des	un	DET
 différends	différend	NOUN
-de droit	de droit	PUNCT
-civil	civil	NOUN
+de droit	de droit	ADJ
+civil	civil	ADJ
 entre	entre	ADP
 l'	le	DET
 état	état	NOUN
@@ -3966,7 +3966,7 @@ les	le	DET
 cantons	canton	NOUN
 sont	être	AUX
 souverains	souverain	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 leur	leur	DET
 souveraineté	souveraineté	NOUN
 ne	ne	ADV
@@ -4140,7 +4140,7 @@ procédure	procédure	NOUN
 de	de	ADP
 révision	révision	NOUN
 «	«	PUNCTclause
-en tout	en tout	ADP_DET
+en tout	en tout	ADV
 temps	temps	NOUN
 »	»	PUNCTclause
 par	par	ADP
@@ -4175,7 +4175,7 @@ générale	général	ADJ
 (	(	PUNCTclause
 de	de	ADP
 tendance	tendance	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus	plus	ADV
 centralisatrice	centralisateur	ADJ
 )	)	PUNCTclause
@@ -4188,7 +4188,7 @@ en	en	PRON
 ont	avoir	AUX
 changé	changer	VERB
 depuis	depuis	ADP
-plus d'une	plus d'une	ADV
+plus d'une	plus d'une	DET
 siècle	siècle	NOUN
 ni	ni	CCONJ
 l'	le	DET
@@ -4327,7 +4327,7 @@ en vigueur	en vigueur	ADV
 effective	effectif	ADJ
 ,	,	PUNCTclause
 paraît	paraître	VERB
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 remarquable	remarquable	ADJ
 que	que	SCONJ
 ce	ce	DET
@@ -4335,7 +4335,7 @@ processus-éclair	processus-éclair	NOUN
 (	(	PUNCTclause
 9	9	NUM
 mois	mois	NOUN
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 !	!	PUNCTsent
 )	)	PUNCTclause
 succédait	succéder	VERB
@@ -4404,7 +4404,7 @@ futur	futur	ADJ
 .	.	PUNCTsent
 plus	plus	ADV
 révolutionnaire	révolutionnaire	ADJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 que	que	SCONJ
 les	le	DET
 chartes	charte	NOUN
@@ -4828,7 +4828,7 @@ nationale	national	ADJ
 ↵↵	↵↵	PUNCTstruct
 si	si	SCONJ
 ,	,	PUNCTclause
-à bien des égards	à bien des égards	DET
+à bien des égards	à bien des égards	ADV
 ,	,	PUNCTclause
 la	le	DET
 formation	formation	NOUN
@@ -4861,7 +4861,7 @@ elle	elle	PRON
 se	se	PRON
 produisit	produire	VERB
 comme	comme	ADP
-à contre-courant	à contre-courant	PUNCT
+à contre-courant	à contre-courant	ADV
 de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
@@ -4974,7 +4974,7 @@ partout	partout	ADV
 ailleurs	ailleurs	ADV
 étouffé	étouffer	VERB
 après	après	ADP
-la première	la première	DET
+la première	la première	PRON
 explosion	explosion	NOUN
 de	de	ADP
 enthousiasme	enthousiasme	NOUN
@@ -5061,7 +5061,7 @@ fédéralisme	fédéralisme	NOUN
 efficace	efficace	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 ceux	ceux	PRON

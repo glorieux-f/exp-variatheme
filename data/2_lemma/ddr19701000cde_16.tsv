@@ -177,7 +177,7 @@ Europe	Europe	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
-la première	la première	DET
+la première	la première	PRON
 question	question	NOUN
 ,	,	PUNCTclause
 portant	porter	VERB
@@ -243,8 +243,8 @@ satisfait	satisfaire	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 cessera	cesser	VERB
-de mise	de mise	ADP
-des	un	DET
+de mise	de mise	ADJ
+des	un	ADP_DET
 annonces	annonce	NOUN
 dans	dans	ADP
 le	le	DET
@@ -260,7 +260,7 @@ parler	parler	VERB
 est	être	AUX
 en réalité	en réalité	ADV
 tout	tout	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -477,7 +477,7 @@ gens	gens	NOUN
 voulaient	vouloir	VERB
 la	le	DET
 garder	garder	VERB
-en vie	en vie	PUNCT
+en vie	en vie	ADJ
 ,	,	PUNCTclause
 ils	ils	PRON
 aimaient	aimer	VERB
@@ -645,7 +645,7 @@ l'	le	DET
 inconnu	inconnu	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 sa	son	DET
 faim	faim	NOUN
 était	être	AUX
@@ -847,7 +847,7 @@ cet	ce	DET
 horizon	horizon	NOUN
 dernier	dernier	ADJ
 reste	rester	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 ,	,	PUNCTclause
 quel que soit	quel que soit	ADP
 le	le	DET
@@ -1044,11 +1044,11 @@ l'	le	DET
 homme	homme	NOUN
 des	un	ADP_DET
 masses	masse	NOUN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 sécurité	sécurité	NOUN
 et	et	CCONJ
 beaucoup	beaucoup	ADV
-moins de	moins de	PRON
+moins de	moins de	DET
 problèmes	problème	NOUN
 que	que	SCONJ
 nos	nos	DET
@@ -1476,14 +1476,14 @@ l'	le	DET
 expérience	expérience	NOUN
 vérifiante	vérifiante	ADJ
 .	.	PUNCTsent
-la même	la même	DET
+la même	la même	PRON
 exigence	exigence	NOUN
-de rigueur	de rigueur	PUNCT
+de rigueur	de rigueur	ADJ
 ,	,	PUNCTclause
 qui	qui	PRON
 d'une part	d'une part	ADV
 ,	,	PUNCTclause
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 ,	,	PUNCTclause
 vient	venir	VERB
 remettre en question	remettre en question	VERB
@@ -1632,8 +1632,8 @@ pratique	pratique	NOUN
 de	de	ADP
 une	un	DET
 remise	remise	NOUN
-en question	en question	ADP
-permanente	permanent	NOUN
+en question	en question	ADJ
+permanente	permanent	ADJ
 de	de	ADP
 tout	tout	DET
 ,	,	PUNCTclause
@@ -1679,7 +1679,7 @@ désordre	désordre	NOUN
 ,	,	PUNCTclause
 désarroi	désarroi	NOUN
 :	:	PUNCTclause
-autant de	autant de	PUNCT
+autant de	autant de	DET
 causes	cause	NOUN
 de	de	ADP
 faiblesses	faiblesse	NOUN
@@ -1737,7 +1737,7 @@ navigateurs	navigateur	NOUN
 de	de	ADP
 la	le	DET
 Renaissance	Renaissance	PROPN
-à découvert	à découvert	PUNCT
+à découvert	à découvert	ADV
 les	le	DET
 autres	autre	ADJ
 peuples	peuple	NOUN
@@ -1753,7 +1753,7 @@ les	le	DET
 dominer	dominer	VERB
 .	.	PUNCTsent
 (	(	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 nous	nous	PRON
 .	.	PUNCTsent
 Europe	Europe	PROPN
@@ -1809,7 +1809,7 @@ de	de	ADP
 risquer	risquer	VERB
 ,	,	PUNCTclause
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 époque	époque	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
@@ -1916,7 +1916,7 @@ technique	technique	NOUN
 conduit	conduire	VERB
 donc	donc	ADV
 ,	,	PUNCTclause
-en fait	en fait	DET
+en fait	en fait	ADV
 ,	,	PUNCTclause
 vers	vers	ADP
 une	un	DET

@@ -34,7 +34,7 @@ pour	pour	ADP
 en	en	PRON
 dire	dire	VERB
 à la fois	à la fois	ADV
-moins de	moins de	PUNCT
+moins de	moins de	DET
 bien	bien	ADV
 et	et	CCONJ
 un	un	DET
@@ -54,7 +54,7 @@ le	le	DET
 monde entier	monde entier	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-moins de	moins de	PUNCT
+moins de	moins de	DET
 bien	bien	ADV
 :	:	PUNCTclause
 car	car	CCONJ
@@ -74,7 +74,7 @@ prophète	prophète	NOUN
 que	que	PRON
 l'on	on	PRON
 célèbre	célébrer	VERB
-à l'unisson	à l'unisson	ADP
+à l'unisson	à l'unisson	ADV
 .	.	PUNCTsent
 et	et	CCONJ
 cela	cela	PRON
@@ -237,8 +237,8 @@ présidence	présidence	NOUN
 de	de	ADP
 Churchill	Churchill	PROPN
 ,	,	PUNCTclause
-le premier	le premier	DET
-congrès	congrès	NOUN
+le premier	le premier	PRON
+congrès	congrès	VERB
 de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -375,7 +375,7 @@ pas	pas	ADV
 ,	,	PUNCTclause
 de	de	ADP
 rédiger	rédiger	VERB
-la première	la première	DET
+la première	la première	PRON
 constitution	constitution	NOUN
 fédérale	fédéral	ADJ
 du	du	ADP_DET
@@ -630,7 +630,7 @@ comme	comme	ADP
 une	un	DET
 abdication	abdication	NOUN
 latente	latent	ADJ
-au fond	au fond	PUNCT
+au fond	au fond	ADV
 de	de	ADP
 l'	le	DET
 âme	âme	NOUN
@@ -899,7 +899,7 @@ indépendante	indépendant	ADJ
 .	.	PUNCTsent
 pour	pour	ADP
 réaliser	réaliser	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 but	but	NOUN
 ,	,	PUNCTclause
 il	il	PRON
@@ -1107,7 +1107,7 @@ Paix	Paix	PROPN
 ↵↵	↵↵	PUNCTstruct
 voilà	voilà	ADP
 donc	donc	ADV
-le premier	le premier	DET
+le premier	le premier	PRON
 grand	grand	ADJ
 But	But	PROPN
 atteint	atteindre	VERB
@@ -1216,7 +1216,7 @@ ce	ce	PRON
 est	être	AUX
 le	le	DET
 côté	côté	NOUN
-un peu	un peu	ADP_DET
+un peu	un peu	ADV
 Tintin	Tintin	PROPN
 de	de	ADP
 ce	ce	DET
@@ -1228,7 +1228,7 @@ avons	avoir	AUX
 nous	nous	PRON
 conscience	conscience	NOUN
 ?	?	PUNCTsent
-sans relâche	sans relâche	DET
+sans relâche	sans relâche	ADV
 ,	,	PUNCTclause
 à	à	ADP
 toutes	toutes	DET
@@ -1290,11 +1290,11 @@ gavés	gaver	VERB
 de	de	DET
 nouvelles	nouveau	ADJ
 posant	poser	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 problèmes	problème	NOUN
 ,	,	PUNCTclause
 proposant	proposer	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 choix	choix	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -1308,7 +1308,7 @@ qui	qui	PRON
 compte	compter	VERB
 en fin de compte	en fin de compte	ADV
 —	—	PUNCTclause
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 angles	angle	NOUN
 de	de	ADP
 vision	vision	NOUN
@@ -1494,7 +1494,7 @@ de	de	ADP
 l'	le	DET
 agent	agent	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 ne	ne	ADV
 en	en	PRON
@@ -1511,7 +1511,7 @@ clairs	clair	ADJ
 le	le	DET
 simple	simple	ADJ
 fait	fait	NOUN
-de mise	de mise	PUNCT
+de mise	de mise	ADJ
 en	en	ADP
 fiches	fiche	NOUN
 les	le	DET
@@ -1852,7 +1852,7 @@ vite	vite	ADV
 la	le	DET
 valeur	valeur	NOUN
 et	et	CCONJ
-par voie de conséquence	par voie de conséquence	ADP
+par voie de conséquence	par voie de conséquence	ADV
 l'	le	DET
 usage	usage	NOUN
 .	.	PUNCTsent
@@ -1910,12 +1910,12 @@ abus	abus	NOUN
 que	que	SCONJ
 l'	le	DET
 homme	homme	NOUN
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 .	.	PUNCTsent
 au lendemain de	au lendemain de	ADP
 Hiroshima	Hiroshima	PROPN
 ,	,	PUNCTclause
-en conclusion	en conclusion	NOUN
+en conclusion	en conclusion	ADV
 de	de	ADP
 un	un	DET
 petit	petit	ADJ
@@ -2161,7 +2161,7 @@ autant	autant	ADV
 que	que	SCONJ
 politique	politique	NOUN
 .	.	PUNCTsent
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 le	le_PRON	PRON
@@ -2199,7 +2199,7 @@ problème	problème	NOUN
 des	un	ADP_DET
 régions	région	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 unités	unité	NOUN
 de	de	ADP
 base	base	NOUN
@@ -2416,7 +2416,7 @@ ans	an	NOUN
 à peu près	à peu près	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-le premier	le premier	DET
+le premier	le premier	PRON
 numéro	numéro	NOUN
 de	de	ADP
 la	le	DET
@@ -2470,7 +2470,7 @@ serviles	servile	ADJ
 .	.	PUNCTsent
 or	or	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 cela	cela	PRON
 réussit	réussir	VERB
 ,	,	PUNCTclause
@@ -2533,7 +2533,7 @@ quand	quand	SCONJ
 on	on	PRON
 ne	ne	ADV
 parlait	parler	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 «	«	PUNCTclause
 de	de	ADP
 automation	automation	NOUN
@@ -2576,9 +2576,9 @@ progrès	progrès	NOUN
 technique	technique	ADJ
 crée	créer	VERB
 au moins	au moins	ADV
-autant de	autant de	PUNCT
+autant de	autant de	DET
 emplois	emploi	NOUN
-que	que	PRON
+que	que	SCONJ
 il	il	PRON
 en	en	PRON
 supprime	supprimer	VERB
@@ -2630,7 +2630,7 @@ chômage	chômage	NOUN
 essayons	essayer	VERB
 de	de	ADP
 voir	voir	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ce	ce	PRON
 que	que	PRON
 nous	nous	PRON
@@ -2673,7 +2673,7 @@ en	en	ADP
 1981	1981	NUM
 et	et	CCONJ
 traduit	traduire	VERB
-la même	la même	DET
+la même	la même	PRON
 année	année	NOUN
 par	par	ADP
 la	le	DET
@@ -2683,7 +2683,7 @@ France	France	PROPN
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 emplois	emploi	NOUN
 que	que	SCONJ
 l'	le	DET
@@ -2800,7 +2800,7 @@ automatisation	automatisation	NOUN
 prévoit	prévoir	VERB
 que	que	SCONJ
 le	le_PRON	PRON
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 ses	son	DET
 adhérents	adhérent	NOUN
 va	aller	VERB
@@ -3017,7 +3017,7 @@ qui	qui	PRON
 inquiète	inquiéter	VERB
 le	le	DET
 plus	plus	ADV
-en tout	en tout	ADJ
+en tout	en tout	ADV
 cela	cela	PRON
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -3033,7 +3033,7 @@ syndicats	syndicat	NOUN
 aux	au	ADP_DET
 		TOKEN
 plus	plus	ADV
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 en	en	ADP
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -3146,9 +3146,9 @@ de	de	ADP
 créer	créer	VERB
 «	«	PUNCTclause
 au moins	au moins	ADV
-autant de	autant de	PUNCT
+autant de	autant de	DET
 emplois	emploi	NOUN
-que	que	PRON
+que	que	SCONJ
 elle	elle	PRON
 en	en	PRON
 touchera	toucher	VERB
@@ -3258,7 +3258,7 @@ hier	hier	ADV
 encore	encore	ADV
 le	le	DET
 travail	travail	NOUN
-à la chaîne	à la chaîne	ADP
+à la chaîne	à la chaîne	ADV
 —	—	PUNCTclause
 souvenez	souvenir	VERB
 vous	vous	PRON
@@ -3339,7 +3339,7 @@ se	se	PRON
 sentent	sentir	VERB
 aujourd'hui	aujourd'hui	ADV
 mis	mettre	VERB
-au pas	au pas	PUNCT
+au pas	au pas	ADV
 et	et	CCONJ
 contrôlés	contrôler	VERB
 par	par	ADP
@@ -3391,7 +3391,7 @@ de	de	ADP
 à	à	ADP
 40	40	NUM
 pendant	pendant	ADP
-la première	la première	DET
+la première	la première	PRON
 heure	heure	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -3445,13 +3445,13 @@ de	de	ADP
 un	un	DET
 «	«	PUNCTclause
 travail	travail	NOUN
-à la chaîne	à la chaîne	PUNCT
+à la chaîne	à la chaîne	ADV
 mental	mental	ADJ
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tout	tout	PRON
-cela dit	cela dit	PRON
+cela dit	cela dit	ADV
 ,	,	PUNCTclause
 demeure	demeurer	VERB
 ma	mon	DET
@@ -3855,7 +3855,7 @@ Express	Express	PROPN
 je	je	PRON
 vous	vous	PRON
 prie	prier	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 la	le	DET
 part	part	NOUN
 de	de	ADP
@@ -3869,7 +3869,7 @@ mais	mais	CCONJ
 de	de	ADP
 vous	vous	PRON
 rappeler	rappeler	VERB
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 les	le	DET
 propos	propos	NOUN
 les	le	DET
@@ -4045,7 +4045,7 @@ que	que	SCONJ
 il	il	PRON
 remet	remettre	VERB
 ainsi	ainsi	ADV
-en question	en question	ADP
+en question	en question	ADJ
 la	le	DET
 nature	nature	NOUN
 humaine	humain	ADJ
@@ -4239,7 +4239,7 @@ machine	machine	NOUN
 ne	ne	ADV
 a	avoir	AUX
 pas	pas	ADV
-de mémoire	de mémoire	DET
+de mémoire	de mémoire	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 a	avoir	AUX
@@ -4322,7 +4322,7 @@ de	de	ADP
 ajouter	ajouter	VERB
 :	:	PUNCTclause
 «	«	PUNCTclause
-au bénéfice de	au bénéfice de	PRON
+au bénéfice de	au bénéfice de	ADP
 qui	qui	PRON
 ?	?	PUNCTsent
 et	et	CCONJ
@@ -4555,7 +4555,7 @@ industries	industrie	NOUN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 demande	demander	VERB
-à savoir	à savoir	PUNCT
+à savoir	à savoir	ADV
 pourquoi	pourquoi	ADV
 l'on	on	PRON
 prend	prendre	VERB
@@ -4564,7 +4564,7 @@ risque	risque	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 dimension	dimension	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 dans	dans	ADP
 toute	toute	DET
 l'	le	DET

@@ -55,7 +55,7 @@ si	si	SCONJ
 ils	ils	PRON
 savent	savoir	VERB
 que	que	SCONJ
-il y en a	il y en a	PUNCT
+il y en a	il y en a	VERB
 une	un	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -73,7 +73,7 @@ ne	ne	ADV
 était	être	AUX
 le	le	DET
 latin	latin	NOUN
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 de	de	ADP
 la	le	DET
 Renaissance	Renaissance	PROPN
@@ -197,7 +197,7 @@ mais	mais	CCONJ
 encore	encore	ADV
 il	il	PRON
 existe	exister	VERB
-autant de	autant de	ADP
+autant de	autant de	DET
 ces	ce	DET
 latins	latin	NOUN
 que	que	SCONJ
@@ -221,8 +221,8 @@ mots	mot	NOUN
 ne	ne	ADV
 ont	avoir	AUX
 plus	plus	ADV
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 pour	pour	ADP
 les	le	DET
 intellectuels	intellectuel	NOUN
@@ -243,8 +243,8 @@ ils	ils	PRON
 ne	ne	ADV
 ont	avoir	VERB
 plus	plus	ADV
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 pour	pour	ADP
 les	le	DET
 divers	divers	ADJ
@@ -451,7 +451,7 @@ et	et	CCONJ
 se	se	PRON
 en	en	ADP
 allait	aller	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 loin	loin	ADV
 .	.	PUNCTsent
@@ -470,7 +470,7 @@ le	le	DET
 terrain	terrain	NOUN
 en	en	ADP
 hurlant	hurler	VERB
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 son	son	DET
 cri	cri	NOUN
 de	de	ADP
@@ -527,7 +527,7 @@ anarchie	anarchie	NOUN
 distribuant	distribuer	VERB
 des	un	DET
 condamnations	condamnation	NOUN
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 excessives	excessif	ADJ
 d'ailleurs	d'ailleurs	ADV
 que	que	SCONJ
@@ -537,7 +537,7 @@ se	se	PRON
 soucie	soucier	VERB
 de	de	ADP
 les	le	DET
-mettre à exécution	mettre à exécution	NOUN
+mettre à exécution	mettre à exécution	VERB
 .	.	PUNCTsent
 «	«	PUNCTclause
 vous	vous	PRON
@@ -729,8 +729,8 @@ de	de	ADP
 ces	ce	DET
 mots	mot	NOUN
 avait	avoir	AUX
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 pour tout	pour tout	ADP
 le	le	DET
 monde	monde	NOUN
@@ -774,7 +774,7 @@ esprit	esprit	NOUN
 si	si	SCONJ
 je	je	PRON
 interroge	interroger	VERB
-au hasard	au hasard	PUNCT
+au hasard	au hasard	ADV
 ceux	ceux	PRON
 qui	qui	PRON
 veulent	vouloir	VERB
@@ -952,7 +952,7 @@ jouer	jouer	VERB
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 ou	ou	CCONJ
 presque	presque	ADV
 veut	vouloir	VERB
@@ -1014,7 +1014,7 @@ cas	cas	NOUN
 :	:	PUNCTclause
 émeute	émeute	NOUN
 ,	,	PUNCTclause
-prise de pouvoir	prise de pouvoir	ADP
+prise de pouvoir	prise de pouvoir	NOUN
 légal	légal	ADJ
 ,	,	PUNCTclause
 désordre	désordre	NOUN
@@ -1350,7 +1350,7 @@ et	et	CCONJ
 discuté	discuter	VERB
 par	par	ADP
 beaucoup	beaucoup	ADV
-plus de	plus de	PUNCT
+plus de	plus de	DET
 personnes	personne	NOUN
 que	que	SCONJ
 Descartes	Descartes	PROPN
@@ -1492,7 +1492,7 @@ l'	le	DET
 esprit	esprit	NOUN
 me	me	PRON
 paraît	paraître	VERB
-tout à fait	tout à fait	ADJ
+tout à fait	tout à fait	ADV
 improbable	improbable	ADJ
 dans l'état actuel	dans l'état actuel	ADV
 du	du	ADP_DET
@@ -1503,7 +1503,7 @@ est	être	AUX
 à tout le moins	à tout le moins	ADV
 invérifiable	invérifiable	ADJ
 .	.	PUNCTsent
-par contre	par contre	NOUN
+par contre	par contre	ADV
 ,	,	PUNCTclause
 on	on	PRON
 peut	pouvoir	VERB
@@ -1648,13 +1648,13 @@ leurs	leur	DET
 conseils	conseil	NOUN
 paraissent	paraître	VERB
 obscurs	obscur	ADJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ils	ils	PRON
 se	se	PRON
 veulent	vouloir	VERB
 scrupuleux	scrupuleux	ADJ
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 la plupart	la plupart	PRON
 renoncent	renoncer	VERB
 à	à	ADP
@@ -1915,7 +1915,7 @@ sacrée	sacré	ADJ
 ainsi	ainsi	ADV
 toujours	toujours	ADV
 :	:	PUNCTclause
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 le	le	DET
 sens	sens	NOUN
 des	un	ADP_DET
@@ -1939,7 +1939,7 @@ observée	observer	VERB
 l'on	on	PRON
 assiste	assister	VERB
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 dégradation	dégradation	NOUN
 des	un	ADP_DET
 instruments	instrument	NOUN
@@ -2465,10 +2465,10 @@ on	on	PRON
 lui	lui	PRON
 donnera	donner	VERB
 donc	donc	ADV
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 :	:	PUNCTclause
-les mêmes	les mêmes	DET
-choses	chose	NOUN
+les mêmes	les mêmes	PRON
+choses	choser	VERB
 sous	sous	ADP
 d'autres	d'autre	PRON
 noms	nom	NOUN

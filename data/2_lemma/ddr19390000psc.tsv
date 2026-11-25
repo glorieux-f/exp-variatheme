@@ -77,7 +77,7 @@ et	et	CCONJ
 même	même	ADV
 ,	,	PUNCTclause
 quoique	quoique	SCONJ
-un peu	un peu	ADP_DET
+un peu	un peu	ADV
 plus	plus	ADV
 rarement	rarement	ADV
 ,	,	PUNCTclause
@@ -119,11 +119,11 @@ vue	vue	NOUN
 ,	,	PUNCTclause
 ici	ici	ADV
 ,	,	PUNCTclause
-telle ou telle	telle ou telle	ADJ
+telle ou telle	telle ou telle	DET
 déclaration	déclaration	NOUN
 précise	précis	ADJ
 ,	,	PUNCTclause
-telle ou telle	telle ou telle	ADJ
+telle ou telle	telle ou telle	DET
 personnalité	personnalité	NOUN
 ou	ou	CCONJ
 tendance	tendance	NOUN
@@ -174,10 +174,10 @@ Suisse	Suisse	PROPN
 chrétienne	chrétien	ADJ
 »	»	PUNCTclause
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 éviter	éviter	VERB
-que	que	SCONJ
-des	un	DET
+que	que	PRON
+des	un	ADP_DET
 malentendus	malentendu	NOUN
 déjà	déjà	ADV
 possibles	possible	ADJ
@@ -460,7 +460,7 @@ chrétien	chrétien	NOUN
 »	»	PUNCTclause
 pour	pour	ADP
 désigner	désigner	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 l'	le	DET
 homme	homme	NOUN
@@ -580,8 +580,8 @@ doctrine	doctrine	NOUN
 calviniste	calviniste	ADJ
 par exemple	par exemple	ADV
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
-tous	tout	ADJ
+alors que	alors que	SCONJ
+tous	tous	PRON
 les	le	DET
 membres	membre	NOUN
 de	de	ADP
@@ -621,8 +621,8 @@ les	le	DET
 citoyens	citoyen	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-en tout cas	en tout cas	DET
-le	le_PRON	PRON
+en tout cas	en tout cas	ADV
+le	le	DET
 plus	plus	ADV
 grand	grand	ADJ
 nombre	nombre	NOUN
@@ -816,7 +816,7 @@ plus	plus	ADV
 suspectes	suspect	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 est	être	AUX
 une	un	DET
 tendance	tendance	NOUN
@@ -1134,7 +1134,7 @@ celle	celle	PRON
 que	que	PRON
 on	on	PRON
 espère	espérer	VERB
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 .	.	PUNCTsent
 de	de	ADP
 celle	celle	PRON
@@ -1145,7 +1145,7 @@ du	du	ADP_DET
 Conseil	Conseil	PROPN
 fédéralisme	fédéralisme	NOUN
 décréterait	décréter	VERB
-du jour au lendemain	du jour au lendemain	PUNCT
+du jour au lendemain	du jour au lendemain	ADV
 «	«	PUNCTclause
 chrétienne	chrétien	ADJ
 »	»	PUNCTclause

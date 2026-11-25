@@ -239,7 +239,7 @@ droit	droit	NOUN
 l'	le	DET
 Apocalypse	Apocalypse	PROPN
 —	—	PUNCTclause
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 telle	tel	DET
 que	que	SCONJ
 nous	nous	PRON
@@ -271,7 +271,7 @@ humanité	humanité	NOUN
 .	.	PUNCTsent
 alors	alors	ADV
 ,	,	PUNCTclause
-dans ce cas	dans ce cas	DET
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 oui	oui	INTJ
 ,	,	PUNCTclause
@@ -383,14 +383,14 @@ pure	pur	ADJ
 .	.	PUNCTsent
 il	il	PRON
 suffit	suffire	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 un	un	DET
 petit	petit	ADJ
 calcul	calcul	NOUN
 pour	pour	ADP
-se rendre compte	se rendre compte	NOUN
+se rendre compte	se rendre compte	VERB
 que	que	SCONJ
-ce	ce	PRON
+ce	ce	DET
 est	être	AUX
 absolument	absolument	ADV
 irréalisable	irréalisable	ADJ
@@ -669,7 +669,7 @@ nos	nos	DET
 choix	choix	NOUN
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au fond	au fond	NOUN
+au fond	au fond	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 je	je	PRON
@@ -867,14 +867,14 @@ son	son	DET
 autonomie	autonomie	NOUN
 énergétique	énergétique	ADJ
 ,	,	PUNCTclause
-à plus forte raison	à plus forte raison	DET
-un	un	PRON
+à plus forte raison	à plus forte raison	ADV
+un	un	DET
 village	village	NOUN
 ,	,	PUNCTclause
 des	un	DET
 régions	région	NOUN
 et	et	CCONJ
-ainsi de suite	ainsi de suite	NOUN
+ainsi de suite	ainsi de suite	ADV
 …	…	PUNCTsent
 et	et	CCONJ
 l'on	on	PRON
@@ -923,7 +923,7 @@ maison	maison	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -1062,7 +1062,7 @@ voulait	vouloir	VERB
 y	y	PRON
 rabattre	rabattre	VERB
 le	le	DET
-plus de	plus de	SCONJ
+plus de	plus de	DET
 monde	monde	NOUN
 possible	possible	ADJ
 .	.	PUNCTsent
@@ -1285,7 +1285,7 @@ pouvoir	pouvoir	NOUN
 et	et	CCONJ
 qui	qui	PRON
 fasse	faire	VERB
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 l'	le_PRON	PRON
 ayant	avoir	AUX
@@ -1320,7 +1320,7 @@ séance	séance	NOUN
 tenante	tenant	ADJ
 …	…	PUNCTsent
 et	et	CCONJ
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 je	je	PRON
 ne	ne	ADV
 vois	voir	VERB
@@ -1341,7 +1341,7 @@ comme	comme	ADP
 le	le	DET
 capitalisme	capitalisme	NOUN
 partagent	partager	VERB
-la même	la même	DET
+la même	la même	PRON
 religion	religion	NOUN
 fondamentale	fondamental	ADJ
 de	de	ADP
@@ -1359,7 +1359,7 @@ hommes	homme	NOUN
 envisagé	envisager	VERB
 selon	selon	ADP
 le	le	DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 objets	objet	NOUN
 mis	mettre	VERB
 à	à	ADP
@@ -1393,7 +1393,7 @@ politiques	politique	ADJ
 à	à	ADP
 la	le	DET
 jeunesse	jeunesse	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 telle	tel	DET
 ,	,	PUNCTclause
 ni	ni	CCONJ
@@ -1419,7 +1419,7 @@ ni	ni	CCONJ
 à	à	ADP
 la	le	DET
 révolution	révolution	NOUN
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 prise	prise	NOUN
 du	du	ADP_DET
 pouvoir	pouvoir	NOUN
@@ -1566,9 +1566,9 @@ de	de	ADP
 l'	le	DET
 énergie	énergie	NOUN
 ,	,	PUNCTclause
-n'importe quels	n'importe quels	ADV
-technicien	technicien	ADJ
-un peu	un peu	PUNCT
+n'importe quels	n'importe quels	DET
+technicien	technicien	NOUN
+un peu	un peu	ADV
 sérieux	sérieux	ADJ
 vous	vous	PRON
 le	le_PRON	PRON
@@ -1892,7 +1892,7 @@ et	et	CCONJ
 comment	comment	ADV
 voulez	vouloir	VERB
 vous	vous	PRON
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 l'	le	DET
 ouvrier	ouvrier	NOUN
 défendu	défendre	VERB
@@ -1980,7 +1980,7 @@ ne	ne	ADV
 y	y	PRON
 a	avoir	VERB
 pas	pas	ADV
-assez de	assez de	PUNCT
+assez de	assez de	DET
 matières	matière	NOUN
 premières	premier	ADJ
 dans	dans	ADP
@@ -2018,7 +2018,7 @@ régions	région	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 tenterait	tenter	VERB
-de fait	de fait	ADP
+de fait	de fait	ADJ
 l'	le	DET
 économie	économie	NOUN
 de	de	ADP
@@ -2404,10 +2404,10 @@ ne	ne	ADV
 ont	avoir	AUX
 pas	pas	ADV
 nécessairement	nécessairement	ADV
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 délimitations	délimitation	NOUN
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 elles	elles	PRON
 ne	ne	ADV
@@ -2438,7 +2438,7 @@ près	près	ADV
 aux	au	ADP_DET
 réalités	réalité	NOUN
 .	.	PUNCTsent
-au fond	au fond	ADP_DET
+au fond	au fond	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -2457,7 +2457,7 @@ cadre	cadre	NOUN
 abstrait	abstrait	ADJ
 plaqué	plaqué	ADJ
 sur	sur	ADP
-n'importe quelle	n'importe quelle	ADJ
+n'importe quelle	n'importe quelle	DET
 réalité	réalité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -2726,8 +2726,8 @@ essayé	essayer	VERB
 avec	avec	ADP
 quelques	quelque	DET
 amis	ami	NOUN
-de fait	de fait	PUNCT
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 calculs	calcul	NOUN
 ;	;	PUNCTclause
 il	il	PRON
@@ -2902,8 +2902,8 @@ passe	passer	VERB
 …	…	PUNCTsent
 on	on	PRON
 est	être	AUX
-un peu	un peu	DET
-écrasé	écrasé	ADJ
+un peu	un peu	ADV
+écrasé	écraser	VERB
 par	par	ADP
 la	le	DET
 somme	somme	NOUN
@@ -2990,7 +2990,7 @@ je	je	PRON
 les	le_PRON	PRON
 ai	avoir	AUX
 revus	revoir	VERB
-mot à mot	mot à mot	PUNCT
+mot à mot	mot à mot	ADV
 avec	avec	ADP
 l'un	l'un	PRON
 de	de	ADP
@@ -3002,7 +3002,7 @@ des	un	ADP_DET
 derniers	dernier	ADJ
 survivants	survivant	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 génération	génération	NOUN
 des	un	ADP_DET
 grands	grand	ADJ
@@ -3057,7 +3057,7 @@ d'autres	d'autre	PRON
 …	…	PUNCTsent
 suis	être	AUX
 je	je	PRON
-pour autant	pour autant	ADP
+pour autant	pour autant	ADV
 une	un	DET
 exception	exception	NOUN
 ?	?	PUNCTsent
@@ -3069,7 +3069,7 @@ pas	pas	ADV
 .	.	PUNCTsent
 il	il	PRON
 existe	exister	VERB
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 esprits	esprit	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -3082,8 +3082,8 @@ qui	qui	PRON
 sont	être	AUX
 mus	mouvoir	VERB
 par	par	ADP
-les mêmes	les mêmes	DET
-passions	passion	NOUN
+les mêmes	les mêmes	PRON
+passions	passer	VERB
 fondamentales	fondamental	ADJ
 que	que	SCONJ
 moi	moi	PRON
@@ -3091,7 +3091,7 @@ et	et	CCONJ
 qui	qui	PRON
 sont	être	AUX
 ,	,	PUNCTclause
-par conséquent	par conséquent	CCONJ
+par conséquent	par conséquent	ADV
 obligés	obliger	VERB
 de	de	ADP
 dépasser	dépasser	VERB
@@ -3115,7 +3115,7 @@ poser	poser	VERB
 ,	,	PUNCTclause
 une	un	DET
 question	question	NOUN
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 anecdotique	anecdotique	ADJ
 peut-être	peut-être	ADV
 :	:	PUNCTclause
@@ -3311,7 +3311,7 @@ efforts	effort	NOUN
 je	je	PRON
 dois	devoir	VERB
 préciser	préciser	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 mon	mon	DET
 éditeur	éditeur	NOUN
 habituel	habituel	ADJ
@@ -3333,7 +3333,7 @@ et	et	CCONJ
 gauche	gauche	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-pour finir	pour finir	PUNCT
+pour finir	pour finir	ADV
 ,	,	PUNCTclause
 je	je	PRON
 aimerais	aimer	VERB

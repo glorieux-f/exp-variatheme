@@ -345,7 +345,7 @@ valeurs	valeur	NOUN
 et	et	CCONJ
 y	y	PRON
 croyant	croire	VERB
-pour l'essentiel	pour l'essentiel	ADP
+pour l'essentiel	pour l'essentiel	ADV
 ;	;	PUNCTclause
 mais	mais	CCONJ
 également	également	ADV
@@ -921,7 +921,7 @@ guère	guère	ADV
 étudiée	étudier	VERB
 par	par	ADP
 celles	celle	PRON
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 ensemble	ensemble	ADV
 ou	ou	CCONJ
 unité	unité	NOUN
@@ -995,8 +995,8 @@ la	le	DET
 culture	culture	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-en tant que	en tant que	CCONJ
-ensemble	ensemble	ADV
+en tant que	en tant que	ADP
+ensemble	ensemble	NOUN
 plus ou moins	plus ou moins	ADV
 cohérent	cohérent	ADJ
 )	)	PUNCTclause
@@ -1178,7 +1178,7 @@ le	le	DET
 dialogue	dialogue	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 on	on	PRON
 ne	ne	ADV
 sait	savoir	VERB
@@ -1227,7 +1227,7 @@ travailler	travailler	VERB
 .	.	PUNCTsent
 il	il	PRON
 faudrait	falloir	VERB
-maintenant que	maintenant que	PUNCT
+maintenant que	maintenant que	SCONJ
 chacune	chacune	PRON
 des	un	ADP_DET
 autres	autre	ADJ
@@ -1517,7 +1517,7 @@ moyens	moyen	NOUN
 existants	existant	ADJ
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien de plus	rien de plus	PRON
+rien de plus	rien de plus	ADV
 difficile	difficile	ADJ
 que	que	SCONJ
 de	de	ADP
@@ -1779,7 +1779,7 @@ qui	qui	PRON
 devrait	devoir	VERB
 être	être	AUX
 mis	mettre	VERB
-à jour	à jour	PUNCT
+à jour	à jour	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -1968,7 +1968,7 @@ affaires étrangères	Affaires étrangères	NOUN
 contribuent	contribuer	VERB
 aux	au	ADP_DET
 échanges	échange	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 ils	ils	PRON
 peuvent	pouvoir	VERB
 répondre	répondre	VERB
@@ -2334,7 +2334,7 @@ que	que	SCONJ
 ces	ce	DET
 ouvrages	ouvrage	NOUN
 ,	,	PUNCTclause
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 répandent	répandre	VERB
 plus de	plus de	DET
@@ -2875,7 +2875,7 @@ plaindre	plaindre	VERB
 (	(	PUNCTclause
 en	en	ADP
 Occident	Occident	PROPN
-du moins	du moins	PUNCT
+du moins	du moins	ADV
 )	)	PUNCTclause
 :	:	PUNCTclause
 instituts	institut	NOUN
@@ -2920,8 +2920,8 @@ que	que	SCONJ
 le	le	DET
 problème	problème	NOUN
 est	être	AUX
-moins de	moins de	PUNCT
-les	le	DET
+moins de	moins de	DET
+les	le_PRON	PRON
 multiplier	multiplier	VERB
 que	que	PRON
 de	de	ADP
@@ -2955,7 +2955,7 @@ devient	devenir	VERB
 difficile	difficile	ADJ
 de	de	ADP
 trouver	trouver	VERB
-assez de	assez de	ADP
+assez de	assez de	DET
 hommes	homme	NOUN
 qui	qui	PRON
 aient	avoir	VERB
@@ -3794,7 +3794,7 @@ d'autre	d'autre	PRON
 unité	unité	NOUN
 certaine	certain	ADJ
 ,	,	PUNCTclause
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 traditions	tradition	NOUN
 religieuses	religieux	ADJ
 issues	issu	ADJ
@@ -3894,7 +3894,7 @@ régions	région	NOUN
 culturelles	culturel	ADJ
 qui	qui	PRON
 constituent	constituer	VERB
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 des	un	ADP_DET
 «	«	PUNCTclause
 champs	champ	NOUN
@@ -4203,7 +4203,7 @@ propagande	propagande	NOUN
 celle	celle	PRON
 pouvant	pouvoir	VERB
 être	être	AUX
-la même	la même	ADV
+la même	la même	PRON
 vers	vers	ADP
 l'	le	DET
 intérieur	intérieur	NOUN
@@ -4434,7 +4434,7 @@ propagandes	propagande	NOUN
 politiques	politique	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-de fait	de fait	DET
+de fait	de fait	ADJ
 face	face	NOUN
 avec	avec	ADP
 des	un	DET
@@ -4483,7 +4483,7 @@ l'	le	DET
 automation	automation	NOUN
 non	non	ADV
 pas	pas	ADV
-au chômage	au chômage	PUNCT
+au chômage	au chômage	ADJ
 mais	mais	CCONJ
 aux	au	ADP_DET
 loisirs	loisir	NOUN
@@ -5070,7 +5070,7 @@ leur	leur	DET
 disponibilité	disponibilité	NOUN
 éventuelle	éventuel	ADJ
 pour	pour	ADP
-tels ou tels	tels ou tels	ADJ
+tels ou tels	tels ou tels	DET
 congrès	congrès	NOUN
 ,	,	PUNCTclause
 stage	stage	NOUN
@@ -5124,7 +5124,7 @@ donné	donner	VERB
 et	et	CCONJ
 puisse	pouvoir	VERB
 y	y	PRON
-faire appel	faire appel	PUNCT
+faire appel	faire appel	VERB
 quand	quand	SCONJ
 besoin	besoin	NOUN
 est	être	VERB
@@ -5136,7 +5136,7 @@ exemple	exemple	NOUN
 le	le	DET
 		TOKEN
 est	être	AUX
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 répondre	répondre	VERB
 aux	au	ADP_DET
 questions	question	NOUN
@@ -5523,9 +5523,9 @@ nécessité	nécessité	NOUN
 mais	mais	CCONJ
 ils	ils	PRON
 seraient	être	AUX
-en tout cas	en tout cas	DET
-les	le_PRON	PRON
-moyens	moyen	ADJ
+en tout cas	en tout cas	ADV
+les	le	DET
+moyens	moyen	NOUN
 de	de	ADP
 détecter	détecter	VERB
 ces	ce	DET
@@ -5802,7 +5802,7 @@ régions	région	NOUN
 mutatis mutandis	mutatis mutandis	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de toute manière	de toute manière	PUNCT
+de toute manière	de toute manière	ADV
 ,	,	PUNCTclause
 il	il	PRON
 nous	nous	PRON
@@ -5864,7 +5864,7 @@ développer	développer	VERB
 ce	ce	DET
 dialogue	dialogue	NOUN
 ,	,	PUNCTclause
-en temps utile	en temps utile	DET
+en temps utile	en temps utile	ADV
 ,	,	PUNCTclause
 avant que	avant que	SCONJ
 l'on	on	PRON

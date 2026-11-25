@@ -33,7 +33,7 @@ date	date	NOUN
 du	du	ADP_DET
 premier	premier	ADJ
 essai	essai	NOUN
-quelque peu	quelque peu	PUNCT
+quelque peu	quelque peu	ADV
 développé	développer	VERB
 dans	dans	ADP
 lequel	lequel	PRON
@@ -405,7 +405,7 @@ déjà	déjà	ADV
 pas	pas	ADV
 assez	assez	ADV
 difficile	difficile	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le_PRON	PRON
 Europe	Europe	PROPN
 avec	avec	ADP
@@ -489,7 +489,7 @@ pas	pas	ADV
 justement	justement	ADV
 trop	trop	ADV
 difficile	difficile	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le_PRON	PRON
 Europe	Europe	PROPN
 politique	politique	ADJ
@@ -1159,7 +1159,7 @@ de	de	ADP
 ses	son	DET
 membres	membre	NOUN
 ,	,	PUNCTclause
-plus ou moins	plus ou moins	DET
+plus ou moins	plus ou moins	ADV
 citoyens	citoyen	NOUN
 ou	ou	CCONJ
 sujets	sujet	NOUN
@@ -1582,11 +1582,11 @@ départements	département	NOUN
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
 région	région	NOUN
-en tant que	en tant que	CCONJ
-état-nation	État-nation	NOUN
+en tant que	en tant que	ADP
+État-nation	État-nation	PROPN
 réduit	réduire	VERB
 —	—	PUNCTclause
-c'est-à-dire	c'est-à-dire	CCONJ
+c'est-à-dire	c'est-à-dire	NOUN
 gouvernée	gouverner	VERB
 par	par	ADP
 un	un	DET
@@ -1689,7 +1689,7 @@ nous	nous	PRON
 laisse	laisser	VERB
 froids	froid	ADJ
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 fédéralisme	fédéralisme	NOUN
 intégraux	intégral	ADJ
 .	.	PUNCTsent
@@ -1705,7 +1705,7 @@ que	que	SCONJ
 elle	elle	PRON
 va	aller	VERB
 constituer	constituer	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 stade	stade	NOUN
 ,	,	PUNCTclause
 non	non	ADV
@@ -1736,7 +1736,7 @@ Europe	Europe	PROPN
 (	(	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ce	ce	PRON
 que	que	PRON
 l'on	on	PRON
@@ -1836,7 +1836,7 @@ paraît	paraître	VERB
 mieux	mieux	ADV
 assuré	assurer	VERB
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 par	par	ADP
 les	le	DET
@@ -2004,7 +2004,7 @@ esprit	esprit	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 cherche	chercher	VERB
-en tout	en tout	DET
+en tout	en tout	ADV
 et	et	CCONJ
 avant	avant	ADP
 tout	tout	PRON
@@ -2305,7 +2305,7 @@ de	de	ADP
 un	un	DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 réseaux	réseau	NOUN
 de	de	ADP
 relations	relation	NOUN
@@ -2417,8 +2417,8 @@ dues	devoir	VERB
 aux	au	ADP_DET
 moyens	moyen	NOUN
 techniques	technique	ADJ
-de mise	de mise	ADP
-au pas	au pas	NOUN
+de mise	de mise	ADJ
+au pas	au pas	ADV
 de	de	ADP
 une	un	DET
 nation	nation	NOUN
@@ -2437,7 +2437,7 @@ est	être	AUX
 indéniable	indéniable	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-ce n'est pas que	ce n'est pas que	PRON
+ce n'est pas que	ce n'est pas que	SCONJ
 je	je	PRON
 récuse	récuser	VERB
 l'	le	DET
@@ -2489,14 +2489,14 @@ du	du	ADP_DET
 phénomène	phénomène	NOUN
 état	état	NOUN
 en	en	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 foyers	foyer	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 sa	son	DET
 répartition	répartition	NOUN
 à	à	ADP
-autant de	autant de	NOUN
+autant de	autant de	DET
 niveaux	niveau	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -2935,7 +2935,7 @@ ne	ne	ADV
 sont	être	AUX
 pas	pas	ADV
 ,	,	PUNCTclause
-en principe	en principe	DET
+en principe	en principe	ADV
 ,	,	PUNCTclause
 superposables	superposable	ADJ
 aux	au	ADP_DET
@@ -2955,7 +2955,7 @@ leurs	leur	DET
 structures	structure	NOUN
 propres	propre	ADJ
 :	:	PUNCTclause
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 se	se	PRON
 chevauchent	chevaucher	VERB
 ,	,	PUNCTclause

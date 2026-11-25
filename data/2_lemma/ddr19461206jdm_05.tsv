@@ -153,7 +153,7 @@ peur	peur	NOUN
 et	et	CCONJ
 sans	sans	ADP
 préparation	préparation	NOUN
-dès l'instant que	dès l'instant que	PUNCT
+dès l'instant que	dès l'instant que	SCONJ
 elles	elles	PRON
 deviennent	devenir	VERB
 présentes	présent	ADJ
@@ -207,9 +207,9 @@ secteurs	secteur	NOUN
 minuscules	minuscule	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
-au hasard	au hasard	NOUN
+au hasard	au hasard	ADV
 ,	,	PUNCTclause
-que	que	PRON
+que	que	SCONJ
 on	on	PRON
 voit	voir	VERB
 de	de	ADP
@@ -516,7 +516,7 @@ amusons	amuser	VERB
 nous	nous	PRON
 à	à	ADP
 dire	dire	VERB
-un peu de	un peu de	ADP
+un peu de	un peu de	DET
 quoi	quoi	PRON
 se	se	PRON
 fait	faire	VERB
@@ -664,7 +664,7 @@ numérotés	numéroté	ADJ
 perdus	perdre	VERB
 ,	,	PUNCTclause
 récupérés	récupérer	VERB
-à la volée	à la volée	PUNCT
+à la volée	à la volée	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -689,7 +689,7 @@ la	le	DET
 faculté	faculté	NOUN
 de	de	ADP
 constater	constater	VERB
-quoi que ce soit	quoi que ce soit	ADV
+quoi que ce soit	quoi que ce soit	PRON
 ,	,	PUNCTclause
 hors	hors	ADP
 l'	le	DET
@@ -702,7 +702,7 @@ se	se	PRON
 coucher	coucher	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 !	!	PUNCTsent
 de	de	ADP
 tout	tout	ADJ
@@ -914,7 +914,7 @@ ce	ce	PRON
 que	que	PRON
 l'on	on	PRON
 nomme	nommer	VERB
-par convention	par convention	ADP
+par convention	par convention	ADV
 le	le	DET
 mauvais	mauvais	ADJ
 temps	temps	NOUN
@@ -1195,7 +1195,7 @@ gauche	gauche	NOUN
 quand	quand	SCONJ
 on	on	PRON
 lève	lever	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 le	le	DET
 nez	nez	NOUN
 pour	pour	ADP
@@ -1223,7 +1223,7 @@ par	par	ADP
 le	le	DET
 corps	corps	NOUN
 —	—	PUNCTclause
-pourvu que	pourvu que	PUNCT
+pourvu que	pourvu que	SCONJ
 ça	ça	PRON
 dure	durer	VERB
 encore	encore	ADV
@@ -1455,7 +1455,7 @@ vie	vie	NOUN
 mis	mettre	VERB
 en marge	en marge	ADV
 pour	pour	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 ,	,	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -1675,7 +1675,7 @@ dit	dire	VERB
 à part	à part	ADP
 moi	moi	PRON
 :	:	PUNCTclause
-eh bien	eh bien	ADP
+eh bien	eh bien	INTJ
 oui	oui	INTJ
 !	!	PUNCTsent
 bande	bande	NOUN
@@ -1848,7 +1848,7 @@ physique	physique	ADJ
 de	de	ADP
 sa	son	DET
 mise	mise	NOUN
-au pas	au pas	PUNCT
+au pas	au pas	ADV
 militaire	militaire	ADJ
 ,	,	PUNCTclause
 de	de	ADP
@@ -2055,7 +2055,7 @@ agit	agir	VERB
 de	de	ADP
 voir	voir	VERB
 que	que	SCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 nous	nous	PRON
@@ -2087,7 +2087,7 @@ fascisme	fascisme	NOUN
 feraient	faire	VERB
 marcher	marcher	VERB
 cela	cela	PRON
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 nous	nous	PRON
 ,	,	PUNCTclause
 peut-être	peut-être	ADV
@@ -2263,7 +2263,7 @@ mais	mais	CCONJ
 je	je	PRON
 y	y	PRON
 suis	être	AUX
-pour peu que	pour peu que	PUNCT
+pour peu que	pour peu que	SCONJ
 je	je	PRON
 y	y	PRON
 pense	penser	VERB
@@ -2575,7 +2575,7 @@ tout	tout	PRON
 au bas	au bas	ADV
 ,	,	PUNCTclause
 tout	tout	PRON
-au fond	au fond	SYM
+au fond	au fond	ADV
 de	de	ADP
 l'	le	DET
 ombre	ombre	NOUN
@@ -2729,7 +2729,7 @@ ici	ici	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 annoncent	annoncer	VERB
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 l'	le	DET
 approche	approche	NOUN
 des	un	ADP_DET
@@ -2870,7 +2870,7 @@ nettes	net	ADJ
 .	.	PUNCTsent
 nul	nul	PRON
 disparate	disparate	ADJ
-en tout	en tout	PUNCT
+en tout	en tout	ADV
 cela	cela	PRON
 :	:	PUNCTclause
 voilà	voilà	ADP
@@ -3160,8 +3160,8 @@ désespérées	désespéré	ADJ
 ,	,	PUNCTclause
 les	le	DET
 mises	mise	NOUN
-au pas	au pas	ADP_DET
-brutalisantes	brutalisantes	NOUN
+au pas	au pas	ADV
+brutalisantes	brutalisantes	ADJ
 et	et	CCONJ
 le	le	DET
 triomphe	triomphe	NOUN
@@ -3206,7 +3206,7 @@ de	de	ADP
 la	le	DET
 paix	paix	NOUN
 .	.	PUNCTsent
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 est	être	AUX
 la	le	DET
 Suisse	Suisse	PROPN
@@ -3218,7 +3218,7 @@ sa	son	DET
 vérité	vérité	NOUN
 séculaire	séculaire	ADJ
 ,	,	PUNCTclause
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 les	le	DET
 bureaux	bureau	NOUN
 où	où	PRON
@@ -3254,7 +3254,7 @@ journée	journée	NOUN
 —	—	PUNCTclause
 me	me	PRON
 décourage	décourager	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 ,	,	PUNCTclause
 ce	ce	DET
 soir	soir	NOUN
@@ -3386,8 +3386,8 @@ en	en	ADP
 viennent	venir	VERB
 à	à	ADP
 louer	louer	VERB
-les mêmes	les mêmes	DET
-traits	trait	NOUN
+les mêmes	les mêmes	PRON
+traits	traire	VERB
 .	.	PUNCTsent
 je	je	PRON
 me	me	PRON
@@ -3422,7 +3422,7 @@ notre	notre	DET
 et	et	CCONJ
 tous les trois	tous les trois	PRON
 disent	dire	VERB
-la même	la même	DET
+la même	la même	PRON
 chose	chose	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -3529,7 +3529,7 @@ bibliothèque	bibliothèque	NOUN
 ↵↵	↵↵	PUNCTstruct
 ce	ce	PRON
 est	être	AUX
-du moins	du moins	ADP
+du moins	du moins	ADV
 ce	ce	DET
 que	que	SCONJ
 je	je	PRON
@@ -3829,7 +3829,7 @@ aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
 je	je	PRON
 sais	savoir	VERB
-pas mal de	pas mal de	PUNCT
+pas mal de	pas mal de	DET
 choses	chose	NOUN
 sur	sur	ADP
 ce	ce	DET
@@ -3926,7 +3926,7 @@ je	je	PRON
 ai	avoir	VERB
 lieu	lieu	NOUN
 de	de	ADP
-supposé que	supposé que	ADP
+supposé que	supposé que	SCONJ
 l'	le	DET
 impression	impression	NOUN
 ne	ne	ADV
@@ -4096,7 +4096,7 @@ Hitler	Hitler	PROPN
 avec	avec	ADP
 plus de	plus de	DET
 pertinence	pertinence	NOUN
-encore que	encore que	PUNCT
+encore que	encore que	SCONJ
 de	de	ADP
 Napoléon	Napoléon	PROPN
 ,	,	PUNCTclause
@@ -4698,7 +4698,7 @@ du	du	ADP_DET
 temps	temps	NOUN
 —	—	PUNCTclause
 de	de	ADP
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 sans doute	sans doute	ADV
@@ -4707,8 +4707,8 @@ mais	mais	CCONJ
 ce	ce	PRON
 est	être	AUX
 encore	encore	ADV
-les mêmes	les mêmes	DET
-rythme	rythme	NOUN
+les mêmes	les mêmes	PRON
+rythme	rythmer	VERB
 de	de	ADP
 vie	vie	NOUN
 —	—	PUNCTclause
@@ -5318,7 +5318,7 @@ et	et	CCONJ
 tout	tout	PRON
 se	se	PRON
 passe	passer	VERB
-comme si	comme si	PUNCT
+comme si	comme si	SCONJ
 le	le	DET
 souci	souci	NOUN
 de	de	ADP
@@ -5573,11 +5573,11 @@ acceptation	acceptation	NOUN
 des	un	ADP_DET
 choses	chose	NOUN
 ,	,	PUNCTclause
-à toutes fins utiles	à toutes fins utiles	DET
+à toutes fins utiles	à toutes fins utiles	ADV
 ou	ou	CCONJ
 spirituelles	spirituel	ADJ
 ,	,	PUNCTclause
-à la volée	à la volée	DET
+à la volée	à la volée	ADV
 de	de	ADP
 une	un	DET
 imagination	imagination	NOUN
@@ -5868,7 +5868,7 @@ des	un	DET
 catéchismes	catéchisme	NOUN
 illustrés	illustrer	VERB
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 sa	son	DET
 danse	danse	NOUN
 des	un	ADP_DET
@@ -5877,7 +5877,7 @@ en	en	ADP
 était	être	AUX
 un	un	DET
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 jeu	jeu	NOUN
 se	se	PRON
 termine	terminer	VERB
@@ -5970,7 +5970,7 @@ que	que	SCONJ
 il	il	PRON
 a	avoir	AUX
 fait	faire	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 tous	tout	ADJ
 les	le	DET
 métiers	métier	NOUN
@@ -6193,7 +6193,7 @@ la	le	DET
 cité	cité	NOUN
 ne	ne	ADV
 a	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 vraies	vrai	ADJ
 mesures	mesure	NOUN
 ,	,	PUNCTclause
@@ -6264,8 +6264,8 @@ Renaissance	Renaissance	PROPN
 »	»	PUNCTclause
 .	.	PUNCTsent
 rappelons	rappeler	VERB
-alors que	alors que	CCONJ
-ce	ce	PRON
+alors que	alors que	SCONJ
+ce	ce	DET
 guerrier	guerrier	NOUN
 fut	être	AUX
 bon	bon	ADJ
@@ -6355,7 +6355,7 @@ mais	mais	CCONJ
 je	je	PRON
 me	me	PRON
 aperçois	apercevoir	VERB
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 tard	tard	ADV
 que	que	SCONJ
 je	je	PRON
@@ -6406,7 +6406,7 @@ excuser	excuser	VERB
 comme si	comme si	SCONJ
 il	il	PRON
 croyait	croire	VERB
-au fond	au fond	SCONJ
+au fond	au fond	ADV
 que	que	SCONJ
 on	on	PRON
 devrait	devoir	VERB
@@ -6425,7 +6425,7 @@ de	de	ADP
 la	le	DET
 Renaissance	Renaissance	PROPN
 ,	,	PUNCTclause
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 .	.	PUNCTsent
 je	je	PRON
 crois	croire	VERB
@@ -6529,7 +6529,7 @@ cierge	cierge	NOUN
 qui	qui	PRON
 se	se	PRON
 consume	consumer	VERB
-d'autant plus	d'autant plus	ADP
+d'autant plus	d'autant plus	ADV
 vite	vite	ADV
 que	que	SCONJ
 il	il	PRON
@@ -6580,7 +6580,7 @@ lui	lui	PRON
 nous	nous	PRON
 montre	montrer	VERB
 ,	,	PUNCTclause
-à la fin	à la fin	PROPN
+à la fin	à la fin	ADV
 de	de	ADP
 sa	son	DET
 vie	vie	NOUN
@@ -6690,7 +6690,7 @@ dans	dans	ADP
 l'autre	l'autre	PRON
 monde	monde	NOUN
 ,	,	PUNCTclause
-au début	au début	NOUN
+au début	au début	ADV
 de	de	ADP
 l'	le	DET
 été	été	NOUN
@@ -6923,7 +6923,7 @@ au ras de	au ras de	ADP
 la	le	DET
 plaine	plaine	NOUN
 .	.	PUNCTsent
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 avant	avant	ADP
 la	le	DET
 sortie	sortie	NOUN

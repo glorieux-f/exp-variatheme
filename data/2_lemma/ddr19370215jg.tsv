@@ -151,7 +151,7 @@ en	en	PRON
 chercher	chercher	VERB
 l'	le	DET
 explication	explication	NOUN
-au-delà de	au-delà de	ADP_DET
+au-delà de	au-delà de	ADP
 frontières	frontière	NOUN
 immédiates	immédiat	ADJ
 de	de	ADP
@@ -181,7 +181,7 @@ sait	savoir	VERB
 déclaré	déclarer	VERB
 une	un	DET
 guerre	guerre	NOUN
-sans merci	sans merci	INTJ
+sans merci	sans merci	ADV
 à	à	ADP
 toutes	tout	ADJ
 les	le	DET
@@ -327,7 +327,7 @@ l'	le	DET
 argent	argent	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 milieux	milieu	NOUN
 directement	directement	ADV
 intéressés	intéressé	ADJ
@@ -349,7 +349,7 @@ des	un	ADP_DET
 .	.	PUNCTsent
 l'on	on	PRON
 se	se	PRON
-en fait	en fait	VERB
+en fait	en fait	ADV
 une	un	DET
 idée	idée	NOUN
 romantique	romantique	ADJ
@@ -652,7 +652,7 @@ médecin	médecin	NOUN
 .	.	PUNCTsent
 voire	voire	CCONJ
 !	!	PUNCTsent
-outre que	outre que	ADV
+outre que	outre que	SCONJ
 les	le	DET
 cas	cas	NOUN
 de	de	ADP
@@ -876,7 +876,7 @@ littérature	littérature	NOUN
 pure	pur	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 écrivains	écrivain	NOUN
 des	un	ADP_DET
 mieux	mieux	ADV
@@ -952,8 +952,8 @@ me	me	PRON
 paraît	paraître	VERB
 tendre	tendre	ADJ
 vers	vers	ADP
-la même	la même	DET
-limite	limite	NOUN
+la même	la même	PRON
+limite	limiter	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 à	à	ADP
@@ -1022,7 +1022,7 @@ ensemble	ensemble	NOUN
 ,	,	PUNCTclause
 étant	être	AUX
 faite	faire	VERB
-de telle sorte que	de telle sorte que	PUNCT
+de telle sorte que	de telle sorte que	SCONJ
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
@@ -1069,8 +1069,8 @@ par ailleurs	par ailleurs	ADV
 ,	,	PUNCTclause
 se	se	PRON
 moquent	moquer	VERB
-un peu de	un peu de	ADP
-la	le	DET
+un peu de	un peu de	DET
+la	le_PRON	PRON
 culture	culture	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1080,7 +1080,7 @@ il	il	PRON
 est	être	AUX
 grand	grand	ADJ
 temps	temps	NOUN
-de mise	de mise	ADP
+de mise	de mise	ADJ
 un	un	DET
 ordre	ordre	NOUN
 neuf	neuf	ADJ

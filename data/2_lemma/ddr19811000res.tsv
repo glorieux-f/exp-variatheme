@@ -79,7 +79,7 @@ l'	le	DET
 homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 je	je	PRON
 suggère	suggérer	VERB
 de	de	ADP
@@ -588,13 +588,13 @@ intox	intox	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 présente	présenter	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 caractères	caractère	NOUN
 de	de	ADP
 ambivalence	ambivalence	NOUN
 ,	,	PUNCTclause
-les mêmes	les mêmes	DET
-potentialités	potentialité	NOUN
+les mêmes	les mêmes	PRON
+potentialités	potentialité	VERB
 antinomiques	antinomique	ADJ
 de	de	ADP
 libération	libération	NOUN
@@ -800,7 +800,7 @@ l'	le	DET
 informatique	informatique	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	DET
+le premier	le premier	PRON
 ordinateur	ordinateur	NOUN
 ,	,	PUNCTclause
 l'	le	DET
@@ -1026,7 +1026,7 @@ que	que	PRON
 on	on	PRON
 en	en	PRON
 tire	tirer	VERB
-à la mode	à la mode	ADP
+à la mode	à la mode	ADJ
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
 je	je	PRON
@@ -1036,7 +1036,7 @@ décidé	décider	VERB
 à	à	ADP
 les	le_PRON	PRON
 utiliser	utiliser	VERB
-au maximum	au maximum	PUNCT
+au maximum	au maximum	ADV
 pour	pour	ADP
 mes	mon	DET
 recherches	recherche	NOUN
@@ -1248,7 +1248,7 @@ de	de	ADP
 atrophier	atrophier	VERB
 nos	nos	DET
 facultés	faculté	NOUN
-de mémoire	de mémoire	PUNCT
+de mémoire	de mémoire	ADV
 ,	,	PUNCTclause
 de	de	ADP
 jugement	jugement	NOUN
@@ -1379,7 +1379,7 @@ de	de	ADP
 révolutionnaires	révolutionnaire	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 elles	elles	PRON
 ne	ne	ADV
 seront	être	AUX
@@ -1428,7 +1428,7 @@ la	le	DET
 productivité	productivité	NOUN
 en	en	ADP
 moyens	moyen	NOUN
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 vivre	vivre	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1472,7 +1472,7 @@ je	je	PRON
 ne	ne	ADV
 suppose	supposer	VERB
 pas	pas	ADV
-le moins du monde	le moins du monde	DET
+le moins du monde	le moins du monde	ADV
 que	que	SCONJ
 après	après	ADP
 concertation	concertation	NOUN
@@ -1870,7 +1870,7 @@ pas	pas	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 même	même	ADV
-de moins en moins	de moins en moins	PUNCT
+de moins en moins	de moins en moins	ADV
 ,	,	PUNCTclause
 si	si	SCONJ
 il	il	PRON
@@ -2077,7 +2077,7 @@ soumettre	soumettre	VERB
 à	à	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 critères	critère	NOUN
 de	de	ADP
 usage	usage	NOUN
@@ -2086,7 +2086,7 @@ innovation	innovation	NOUN
 technique	technique	ADJ
 qui	qui	PRON
 réclame	réclamer	VERB
-droit de cité	droit de cité	DET
+droit de cité	droit de cité	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 de	de	ADP
@@ -2124,7 +2124,7 @@ l'	le	DET
 informatique	informatique	NOUN
 laisserait	laisser	VERB
 prévoir	prévoir	VERB
-dès maintenant	dès maintenant	PUNCT
+dès maintenant	dès maintenant	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	PRON
@@ -2189,7 +2189,7 @@ lexical	lexical	ADJ
 .	.	PUNCTsent
 il	il	PRON
 établit	établir	VERB
-à première vue	à première vue	PUNCT
+à première vue	à première vue	ADV
 une	un	DET
 distinction	distinction	NOUN
 très	très	ADV
@@ -2311,8 +2311,8 @@ formation	formation	NOUN
 par	par	ADP
 les	le	DET
 données	donnée	NOUN
-de fait	de fait	PUNCT
-observées	observer	VERB
+de fait	de fait	ADJ
+observées	observé	ADJ
 et	et	CCONJ
 les	le	DET
 expériences	expérience	NOUN
@@ -2340,7 +2340,7 @@ pris	prendre	VERB
 le	le	DET
 mot	mot	NOUN
 ,	,	PUNCTclause
-à l'époque	à l'époque	PRON
+à l'époque	à l'époque	ADV
 des	un	ADP_DET
 mass	mass	NOUN
 médias	média	NOUN
@@ -2462,7 +2462,7 @@ pas	pas	ADV
 encore	encore	ADV
 sagesse	sagesse	NOUN
 ;	;	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 sagesse	sagesse	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -2938,7 +2938,7 @@ absolument	absolument	ADV
 rien	rien	PRON
 dire	dire	VERB
 ,	,	PUNCTclause
-pour peu que	pour peu que	ADV
+pour peu que	pour peu que	SCONJ
 l'on	on	PRON
 pense	penser	VERB
 à	à	ADP
@@ -2970,8 +2970,8 @@ inaugura	inaugurer	VERB
 en	en	ADP
 1899	1899	NUM
 ,	,	PUNCTclause
-la première	la première	DET
-fabrique	fabrique	NOUN
+la première	la première	PRON
+fabrique	fabriquer	VERB
 de	de	ADP
 automobiles	automobile	NOUN
 ,	,	PUNCTclause
@@ -3040,7 +3040,7 @@ places	place	NOUN
 du	du	ADP_DET
 palmarès	palmarès	NOUN
 mondial	mondial	ADJ
-de fortune	de fortune	PUNCT
+de fortune	de fortune	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 le	le	DET
@@ -3060,7 +3060,7 @@ du	du	ADP_DET
 golfe	golfe	NOUN
 persique	persique	ADJ
 .	.	PUNCTsent
-la première	la première	DET
+la première	la première	PRON
 question	question	NOUN
 à	à	ADP
 poser	poser	VERB
@@ -3071,7 +3071,7 @@ technique	technique	ADJ
 est	être	AUX
 donc	donc	ADV
 :	:	PUNCTclause
-en cas de	en cas de	DET
+en cas de	en cas de	ADP
 succès	succès	NOUN
 total	total	ADJ
 ,	,	PUNCTclause
@@ -3099,7 +3099,7 @@ induit	induire	VERB
 rejeter	rejeter	VERB
 le	le	DET
 travail	travail	NOUN
-à la chaîne	à la chaîne	ADJ
+à la chaîne	à la chaîne	ADV
 ,	,	PUNCTclause
 qui	qui	PRON
 réduit	réduire	VERB
@@ -3234,7 +3234,7 @@ sa	son	DET
 nature	nature	NOUN
 des	un	ADP_DET
 entreprises	entreprise	NOUN
-de taille	de taille	ADP
+de taille	de taille	ADJ
 monstrueuse	monstrueux	ADJ
 et	et	CCONJ
 des	un	ADP_DET
@@ -3299,7 +3299,7 @@ qui	qui	PRON
 menace	menacer	VERB
 de	de	ADP
 épuiser	épuiser	VERB
-à court terme	à court terme	ADP
+à court terme	à court terme	ADV
 les	le	DET
 ressources	ressource	NOUN
 naturelles	naturel	ADJ
@@ -3445,7 +3445,7 @@ de	de	ADP
 appliquer	appliquer	VERB
 cette	ce	DET
 technique	technique	NOUN
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 le	le	DET
 doute	doute	NOUN
 ne	ne	ADV
@@ -3652,7 +3652,7 @@ défendre	défendre	VERB
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 serai	être	AUX
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 long	long	ADJ
 sur	sur	ADP
@@ -3703,7 +3703,7 @@ le	le	DET
 plus	plus	ADV
 souvent	souvent	ADV
 invoqué	invoquer	VERB
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 l'	le	DET
 informatique	informatique	NOUN
 est	être	AUX
@@ -3759,7 +3759,7 @@ où	où	PRON
 l'	le	DET
 informatique	informatique	NOUN
 est	être	AUX
-sans conteste	sans conteste	DET
+sans conteste	sans conteste	ADV
 avantageuse	avantageux	ADJ
 ,	,	PUNCTclause
 la	le	DET
@@ -3850,7 +3850,7 @@ informations	information	NOUN
 par	par	ADP
 jour	jour	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 on	on	PRON
 l'	le_PRON	PRON
 en	en	PRON
@@ -3921,7 +3921,7 @@ car	car	CCONJ
 il	il	PRON
 lui	lui	PRON
 faudra	falloir	VERB
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 pour	pour	ADP
 comprendre	comprendre	VERB
@@ -4478,7 +4478,7 @@ intéressant	intéressant	ADJ
 connaître	connaître	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en bref	en bref	NOUN
+en bref	en bref	ADV
 ,	,	PUNCTclause
 la	le	DET
 technique	technique	NOUN
@@ -4777,7 +4777,7 @@ un	un	DET
 terminal	terminal	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-dans ce cas	dans ce cas	NOUN
+dans ce cas	dans ce cas	ADV
 ,	,	PUNCTclause
 l'	le	DET
 école	école	NOUN
@@ -4832,8 +4832,8 @@ maîtres	maître	NOUN
 puisque	puisque	SCONJ
 ce	ce	PRON
 sont	être	AUX
-en fait	en fait	PRON
-des	un	ADP_DET
+en fait	en fait	ADV
+des	un	DET
 maîtres	maître	NOUN
 qui	qui	PRON
 ont	avoir	AUX
@@ -4987,7 +4987,7 @@ finalités	finalité	NOUN
 leur	leur	DET
 proposer	proposer	VERB
 .	.	PUNCTsent
-par contre	par contre	NOUN
+par contre	par contre	ADV
 ,	,	PUNCTclause
 il	il	PRON
 est	être	AUX
@@ -5109,7 +5109,7 @@ facilités	facilité	NOUN
 aux	au	ADP_DET
 jeunes	jeune	NOUN
 de	de	ADP
-moins de	moins de	NOUN
+moins de	moins de	DET
 18	18	NUM
 ans	an	NOUN
 (	(	PUNCTclause
@@ -5172,7 +5172,7 @@ croissante	croissant	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 disposeront	disposer	VERB
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 des	un	DET
 possibilités	possibilité	NOUN
 de	de	ADP
@@ -5569,7 +5569,7 @@ défaillances	défaillance	NOUN
 des	un	ADP_DET
 réseaux	réseau	NOUN
 ?	?	PUNCTsent
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 ils	ils	PRON
 ne	ne	ADV
 savent	savoir	VERB
@@ -5675,7 +5675,7 @@ Lausanne	Lausanne	PROPN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-en cas de	en cas de	NOUN
+en cas de	en cas de	ADP
 panne	panne	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -5732,7 +5732,7 @@ rares	rare	ADJ
 spécialistes	spécialiste	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 les	le	DET
 calculettes	calculette	NOUN
 permettent	permettre	VERB
@@ -5742,8 +5742,8 @@ des	un	DET
 millions	million	NOUN
 de	de	ADP
 gens	gens	NOUN
-de fait	de fait	PUNCT
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 calculs	calcul	NOUN
 sans	sans	ADP
 faire	faire	AUX
@@ -5848,7 +5848,7 @@ gens	gens	NOUN
 mettent	mettre	VERB
 des	un	DET
 ordinateurs	ordinateur	NOUN
-hors d'usage	hors d'usage	PUNCT
+hors d'usage	hors d'usage	ADJ
 en	en	ADP
 déversant	déverser	VERB
 sur	sur	ADP
@@ -5876,7 +5876,7 @@ que	que	SCONJ
 je	je	PRON
 voulais	vouloir	VERB
 relever	relever	VERB
-en conclusion	en conclusion	DET
+en conclusion	en conclusion	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 la	le	DET
@@ -5906,7 +5906,7 @@ en	en	ADP
 lui	lui	PRON
 .	.	PUNCTsent
 mais	mais	CCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 le	le	DET
 mauvais	mauvais	ADJ
 a	avoir	AUX
@@ -5914,7 +5914,7 @@ des	un	DET
 chances	chance	NOUN
 de	de	ADP
 profiter	profiter	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 plus	plus	ADV
 que	que	SCONJ
 le	le	DET

@@ -158,7 +158,7 @@ devrait	devoir	VERB
 clair	clair	ADJ
 —	—	PUNCTclause
 que	que	SCONJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 états	état	NOUN
 souverains	souverain	ADJ
 les	le	DET
@@ -322,7 +322,7 @@ les	le	DET
 ont	avoir	AUX
 jamais	jamais	ADV
 prises	priser	VERB
-le moins du monde	le moins du monde	PUNCT
+le moins du monde	le moins du monde	ADV
 au	au	ADP_DET
 sérieux	sérieux	ADJ
 .	.	PUNCTsent
@@ -338,7 +338,7 @@ situation	situation	NOUN
 ↵↵	↵↵	PUNCTstruct
 R.	R.	PROPN
 —	—	PUNCTclause
-au fait	au fait	PUNCT
+au fait	au fait	ADV
 que	que	SCONJ
 les	le	DET
 états-nations	État-nation	NOUN
@@ -392,7 +392,7 @@ la	le	DET
 plus	plus	ADV
 évidente	évident	ADJ
 .	.	PUNCTsent
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 l'	le	DET
 incapacité	incapacité	NOUN
 où	où	PRON
@@ -454,7 +454,7 @@ les	le	DET
 barrières	barrière	NOUN
 douanières	douanier	ADJ
 .	.	PUNCTsent
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 ces	ce	DET
 interdictions	interdiction	NOUN
 et	et	CCONJ
@@ -540,7 +540,7 @@ Europe	Europe	PROPN
 à partir de	à partir de	ADP
 états	état	NOUN
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 on	on	PRON
 a	avoir	AUX
 fait	faire	VERB
@@ -722,7 +722,7 @@ la	le	DET
 Belgique	Belgique	PROPN
 ,	,	PUNCTclause
 fabriquée	fabriquer	VERB
-de toutes pièces	de toutes pièces	ADP_DET
+de toutes pièces	de toutes pièces	ADV
 au	au	ADP_DET
 siècle	siècle	NOUN
 dernier	dernier	ADJ
@@ -753,7 +753,7 @@ Grande-Bretagne	Grande-Bretagne	PROPN
 la	le	DET
 régionalisation	régionalisation	NOUN
 est	être	AUX
-en marche	en marche	DET
+en marche	en marche	ADJ
 ,	,	PUNCTclause
 par	par	ADP
 un	un	DET
@@ -982,7 +982,7 @@ une	un	DET
 unité	unité	NOUN
 continentale	continental	ADJ
 est	être	AUX
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 indispensable	indispensable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1014,7 +1014,7 @@ il	il	PRON
 faut	falloir	VERB
 bâtir	bâtir	VERB
 sur	sur	ADP
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 que	que	SCONJ
 sur	sur	ADP
 les	le	DET
@@ -1355,7 +1355,7 @@ par	par	ADP
 les	le	DET
 statistiques	statistique	NOUN
 (	(	PUNCTclause
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 échanges	échange	NOUN
 téléphoniques	téléphonique	ADJ
 ,	,	PUNCTclause
@@ -1391,7 +1391,7 @@ mais	mais	CCONJ
 par	par	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 kilowatts	watt	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1434,10 +1434,10 @@ ces	ce	DET
 facteurs	facteur	NOUN
 sont	être	AUX
 au	au	ADP_DET
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 deux	deux	NUM
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 ,	,	PUNCTclause
 déjà	déjà	ADV
 mentionné	mentionner	VERB
@@ -1455,7 +1455,7 @@ animer	animer	VERB
 ses	son	DET
 régions	région	NOUN
 :	:	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 il	il	PRON
 les	le_PRON	PRON
@@ -1553,7 +1553,7 @@ de	de	ADP
 par	par	ADP
 année	année	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 en	en	ADP
 Belgique	Belgique	PROPN
 ,	,	PUNCTclause
@@ -1611,7 +1611,7 @@ de	de	ADP
 150	150	NUM
 km	km	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 Paris	Paris	PROPN
 se	se	PRON
 trouve	trouver	VERB
@@ -1622,7 +1622,7 @@ km	km	NOUN
 d'autres	d'autre	PRON
 expériences	expérience	NOUN
 sont	être	AUX
-en cours	en cours	DET
+en cours	en cours	ADJ
 dans	dans	ADP
 nombre de	nombre de	DET
 pays	pays	NOUN
@@ -1719,7 +1719,7 @@ fédère	fédérer	VERB
 ou	ou	CCONJ
 se	se	PRON
 unit	unir	VERB
-en dehors de	en dehors de	ADV
+en dehors de	en dehors de	ADP
 initiatives	initiative	NOUN
 de	de	ADP
 l'	le	DET
@@ -1736,7 +1736,7 @@ nationales	national	ADJ
 ,	,	PUNCTclause
 chaque	chaque	DET
 jour	jour	NOUN
-un peu	un peu	DET
+un peu	un peu	ADV
 moins	moins	ADV
 efficaces	efficace	ADJ
 .	.	PUNCTsent
@@ -1806,7 +1806,7 @@ l'	le	DET
 harmonisation	harmonisation	NOUN
 indispensable	indispensable	ADJ
 de	de	ADP
-quantité de	quantité de	NOUN
+quantité de	quantité de	DET
 secteurs	secteur	NOUN
 de	de	ADP
 la	le	DET
@@ -1829,7 +1829,7 @@ ce	ce	PRON
 que	que	PRON
 a	avoir	AUX
 été	être	AUX
-en fait	en fait	VERB
+en fait	en fait	ADV
 le	le	DET
 fédéralisme	fédéralisme	NOUN
 à	à	ADP
@@ -2068,7 +2068,7 @@ où	où	PRON
 nous	nous	PRON
 ne	ne	ADV
 sommes	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 à	à	ADP
 zéro	zéro	NOUN
 ,	,	PUNCTclause
@@ -2548,7 +2548,7 @@ pourront	pouvoir	VERB
 jamais	jamais	ADV
 se	se	PRON
 constituer	constituer	VERB
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 ne	ne	ADV
 existera	exister	VERB
 pas	pas	ADV
@@ -2569,7 +2569,7 @@ ne	ne	ADV
 se	se	PRON
 formera	former	VERB
 pas	pas	ADV
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 les	le	DET
 états-nations	État-nation	NOUN
 seront	être	AUX
@@ -2652,7 +2652,7 @@ nous	nous	PRON
 ne	ne	ADV
 en	en	PRON
 sommes	être	AUX
-encore que	encore que	ADV
+encore que	encore que	SCONJ
 à	à	ADP
 l'	le	DET
 aube	aube	NOUN
@@ -2894,7 +2894,7 @@ tunnel	tunnel	NOUN
 du	du	ADP_DET
 Mont-Blanc	Mont-Blanc	PROPN
 —	—	PUNCTclause
-d'un autre côté	d'un autre côté	ADP
+d'un autre côté	d'un autre côté	ADV
 .	.	PUNCTsent
 cette	ce	DET
 région	région	NOUN
@@ -2994,7 +2994,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 est	être	AUX
 maintenue	maintenir	VERB
-à l'heure actuelle	à l'heure actuelle	PUNCT
+à l'heure actuelle	à l'heure actuelle	ADV
 de	de	ADP
 l'	le	DET
 extérieur	extérieur	NOUN
@@ -3120,9 +3120,9 @@ fait	faire	VERB
 endosser	endosser	VERB
 aux	au	ADP_DET
 cantons	canton	NOUN
-les mêmes	les mêmes	PUNCT
-uniforme	uniforme	NOUN
-que	que	ADV
+les mêmes	les mêmes	PRON
+uniforme	uniforme	ADJ
+que	que	SCONJ
 aux	au	ADP_DET
 états	état	NOUN
 .	.	PUNCTsent
@@ -3156,7 +3156,7 @@ pas	pas	ADV
 une	un	DET
 région	région	NOUN
 uniforme	uniforme	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 telle	tel	DET
 ;	;	PUNCTclause
 mais	mais	CCONJ
@@ -3244,7 +3244,7 @@ les	le	DET
 Europe	Europe	PROPN
 sont	être	AUX
 pressés	presser	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -3301,12 +3301,12 @@ sur	sur	ADP
 les	le	DET
 états-nations	État-nation	NOUN
 est	être	AUX
-en panne	en panne	ADP
+en panne	en panne	ADJ
 depuis	depuis	ADP
 vingt	vingt	NUM
 ans	an	NOUN
 !	!	PUNCTsent
-n'importe quels	n'importe quels	ADV
+n'importe quels	n'importe quels	DET
 autre	autre	ADJ
 système	système	NOUN
 de	de	ADP

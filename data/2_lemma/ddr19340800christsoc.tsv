@@ -151,7 +151,7 @@ la	le_PRON	PRON
 foi	foi	NOUN
 nous	nous	PRON
 dit	dire	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en dépit de	en dépit de	ADP
@@ -271,7 +271,7 @@ politique	politique	NOUN
 de	de	ADP
 la	le	DET
 camisole	camisole	NOUN
-de force	de force	PUNCT
+de force	de force	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 tel	tel	PRON
@@ -626,7 +626,7 @@ de	de	ADP
 l'	le	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 elle	elle	PRON
 connaît	connaître	VERB
 et	et	CCONJ
@@ -1099,13 +1099,13 @@ synthèse	synthèse	NOUN
 humaine	humain	ADJ
 ne	ne	ADV
 aura	avoir	VERB
-de droit	de droit	ADV
+de droit	de droit	ADJ
 sur	sur	ADP
 nous	nous	PRON
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 personnes	personne	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 vocations	vocation	NOUN
 .	.	PUNCTsent
 surtout	surtout	ADV
@@ -1456,7 +1456,7 @@ association	association	NOUN
 Sully	Sully	PROPN
 a	avoir	AUX
 publié	publier	VERB
-pas mal de	pas mal de	PUNCT
+pas mal de	pas mal de	DET
 tracts	tract	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -1504,7 +1504,7 @@ nationalisme	nationalisme	NOUN
 mystique	mystique	ADJ
 qui	qui	PRON
 ,	,	PUNCTclause
-par malheur	par malheur	NOUN
+par malheur	par malheur	ADV
 ,	,	PUNCTclause
 caractérise	caractériser	VERB
 les	le	DET
@@ -1928,7 +1928,7 @@ deux	deux	NUM
 remarques	remarque	NOUN
 seulement	seulement	ADV
 .	.	PUNCTsent
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 l'	le	DET
 objection	objection	NOUN
 est	être	AUX
@@ -1954,7 +1954,7 @@ de	de	ADP
 cette	ce	DET
 enquête	enquête	NOUN
 .	.	PUNCTsent
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elle	elle	PRON
 devient	devenir	VERB
 l'	le	DET
@@ -2031,7 +2031,7 @@ sectarisme	sectarisme	NOUN
 que	que	SCONJ
 il	il	PRON
 faudrait	falloir	VERB
-sans cela	sans cela	CCONJ
+sans cela	sans cela	ADV
 leur	leur	DET
 adresser	adresser	VERB
 .	.	PUNCTsent
@@ -2130,7 +2130,7 @@ je	je	PRON
 me	me	PRON
 suis	être	AUX
 rallié	rallier	VERB
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 III	III	NUM
@@ -2587,7 +2587,7 @@ ce	ce	PRON
 qui	qui	PRON
 les	le_PRON	PRON
 unit	unir	VERB
-en principe	en principe	DET
+en principe	en principe	ADV
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
@@ -2801,7 +2801,7 @@ de	de	ADP
 leur	leur	DET
 point de départ	point de départ	NOUN
 .	.	PUNCTsent
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 partis	parti	NOUN
 aux	au	ADP_DET
@@ -2904,7 +2904,7 @@ se	se	PRON
 manifesteront	manifester	VERB
 de plus en plus	de plus en plus	ADV
 visiblement	visiblement	ADV
-à mesure que	à mesure que	PUNCT
+à mesure que	à mesure que	SCONJ
 le	le	DET
 développement	développement	NOUN
 de	de	ADP
@@ -2962,7 +2962,7 @@ qui	qui	PRON
 se	se	PRON
 pose	poser	VERB
 ,	,	PUNCTclause
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 celle	celle	PRON
 des	un	ADP_DET
 institutions	institution	NOUN
@@ -2999,7 +2999,7 @@ prolifèrent	proliférer	VERB
 des	un	DET
 cellules	cellule	NOUN
 ,	,	PUNCTclause
-autant de	autant de	ADP
+autant de	autant de	DET
 germes	germe	NOUN
 semés	semer	VERB
 dans	dans	ADP
@@ -3048,7 +3048,7 @@ dont	dont	PRON
 la	le	DET
 mise en œuvre	mise en œuvre	NOUN
 institue	instituer	VERB
-dès maintenant	dès maintenant	ADP
+dès maintenant	dès maintenant	ADV
 l'	le	DET
 ordre	ordre	NOUN
 nouveau	nouveau	ADJ
@@ -3224,8 +3224,8 @@ des	un	ADP_DET
 constructeurs	constructeur	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le premier	le premier	DET
-manifeste	manifeste	NOUN
+le premier	le premier	PRON
+manifeste	manifester	VERB
 publié	publier	VERB
 par	par	ADP
 l'	le	DET
@@ -3345,7 +3345,7 @@ doctrine	doctrine	NOUN
 dont	dont	PRON
 on	on	PRON
 trouvera	trouver	VERB
-la première	la première	DET
+la première	la première	PRON
 synthèse	synthèse	NOUN
 dans	dans	ADP
 l'	le	DET
@@ -3999,7 +3999,7 @@ si	si	SCONJ
 je	je	PRON
 me	me	PRON
 suis	être	AUX
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 étendu	étendre	VERB
 sur	sur	ADP
 les	le	DET
@@ -4085,7 +4085,7 @@ réforme	réforme	NOUN
 ↵↵	↵↵	PUNCTstruct
 esprit	esprit	NOUN
 est	être	AUX
-en majeure partie	en majeure partie	DET
+en majeure partie	en majeure partie	ADV
 de	de	ADP
 inspiration	inspiration	NOUN
 catholique	catholique	ADJ
@@ -4112,7 +4112,7 @@ aucune	aucun	DET
 question	question	NOUN
 confessionnelle	confessionnel	ADJ
 .	.	PUNCTsent
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 le	le	DET
 fondement	fondement	NOUN
 spirituel	spirituel	ADJ
@@ -4226,7 +4226,7 @@ bien	bien	ADV
 pires	pire	ADJ
 erreurs	erreur	NOUN
 dans	dans	ADP
-n'importe quels	n'importe quels	ADJ
+n'importe quels	n'importe quels	DET
 parti	parti	NOUN
 ,	,	PUNCTclause
 aussi	aussi	ADV

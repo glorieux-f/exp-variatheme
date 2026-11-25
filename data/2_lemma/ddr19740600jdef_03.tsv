@@ -208,7 +208,7 @@ Vienne	Vienne	PROPN
 mon	mon	DET
 absence	absence	NOUN
 ,	,	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 seul	seul	ADJ
 orateur	orateur	NOUN
 France	France	PROPN
@@ -516,7 +516,7 @@ pointe	pointe	NOUN
 ,	,	PUNCTclause
 réels	réel	ADJ
 ou	ou	CCONJ
-à la mode	à la mode	DET
+à la mode	à la mode	ADJ
 ,	,	PUNCTclause
 sont	être	AUX
 traités	traiter	VERB
@@ -776,7 +776,7 @@ culture	culture	NOUN
 en	en	ADP
 Europe	Europe	PROPN
 durant	durant	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -784,7 +784,7 @@ ce	ce	DET
 est-ce que	est-ce que	ADV
 je	je	PRON
 tenterai	tenter	VERB
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 le	le	DET
 lendemain	lendemain	NOUN
 matin	matin	NOUN
@@ -914,9 +914,9 @@ combat	combat	NOUN
 en	en	ADP
 retraite	retrait	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 on	on	PRON
-le	le_PRON	PRON
+le	le	DET
 somme	somme	NOUN
 de	de	ADP
 se	se	PRON
@@ -1106,7 +1106,7 @@ restaurer	restaurer	VERB
 l'	le	DET
 unité	unité	NOUN
 culturelle	culturel	ADJ
-si l'on veut	si l'on veut	PUNCT
+si l'on veut	si l'on veut	ADV
 que	que	SCONJ
 l'	le	DET
 union	union	NOUN
@@ -1227,7 +1227,7 @@ cette	ce	DET
 situation	situation	NOUN
 ,	,	PUNCTclause
 courant	courant	NOUN
-au plus	au plus	PUNCT
+au plus	au plus	ADV
 pressé	pressé	ADJ
 ,	,	PUNCTclause
 la	le	DET
@@ -1471,7 +1471,7 @@ paix	paix	NOUN
 mais	mais	CCONJ
 l'	le	DET
 Europe	Europe	PROPN
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
@@ -1486,7 +1486,7 @@ années	année	NOUN
 il	il	PRON
 était	être	AUX
 difficile	difficile	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 passer	passer	VERB
 le	le	DET
 moindre	moindre	ADJ
@@ -1835,7 +1835,7 @@ souverain	souverain	NOUN
 comme	comme	ADP
 un	un	DET
 monarque	monarque	NOUN
-de droit	de droit	ADP_DET
+de droit	de droit	ADJ
 divin	divin	ADJ
 dans	dans	ADP
 ses	son	DET
@@ -1925,7 +1925,7 @@ se	se	PRON
 est	être	AUX
 développée	développer	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 contre	contre	ADP
 l'	le	DET
@@ -2105,7 +2105,7 @@ mais	mais	CCONJ
 elle	elle	PRON
 serait	être	AUX
 ,	,	PUNCTclause
-au mieux	au mieux	SYM
+au mieux	au mieux	ADV
 ,	,	PUNCTclause
 très	très	ADV
 indirecte	indirect	ADJ
@@ -2137,7 +2137,7 @@ est	être	AUX
 certes	certes	ADV
 pas	pas	ADV
 antieuropéenne	antieuropéen	ADJ
-par principe	par principe	NOUN
+par principe	par principe	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 départ	départ	NOUN
@@ -2403,7 +2403,7 @@ ou	ou	CCONJ
 politiquement	politiquement	ADV
 opportune	opportun	ADJ
 .	.	PUNCTsent
-un peu	un peu	DET
+un peu	un peu	ADV
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 des	un	DET
@@ -2701,7 +2701,7 @@ siècle	siècle	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 l'	le	DET
 Europe	Europe	PROPN
 »	»	PUNCTclause
@@ -2742,8 +2742,8 @@ autant	autant	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-les mêmes	les mêmes	DET
-sens	sens	NOUN
+les mêmes	les mêmes	PRON
+sens	sentir	VERB
 ,	,	PUNCTclause
 du	du	ADP_DET
 cancer	cancer	NOUN
@@ -3333,7 +3333,7 @@ action	action	NOUN
 concrète	concret	ADJ
 ,	,	PUNCTclause
 culturelles	culturel	ADJ
-tout autant	tout autant	PUNCT
+tout autant	tout autant	ADV
 que	que	SCONJ
 politiques	politique	ADJ
 ,	,	PUNCTclause
@@ -4078,7 +4078,7 @@ une	un	DET
 génération	génération	NOUN
 ,	,	PUNCTclause
 qu'est-ce	qu'est-ce	NOUN
-au juste	au juste	PUNCT
+au juste	au juste	ADV
 qui	qui	PRON
 se	se	PRON
 est	être	AUX

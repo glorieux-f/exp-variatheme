@@ -43,7 +43,7 @@ entreprises	entreprise	NOUN
 de	de	ADP
 une	un	DET
 envergure	envergure	NOUN
-sans précédent	sans précédent	PUNCT
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
 ne	ne	ADV
 sont	être	AUX
@@ -271,7 +271,7 @@ exemple	exemple	NOUN
 du	du	ADP_DET
 récent	récent	ADJ
 changement	changement	NOUN
-de front	de front	PUNCT
+de front	de front	ADV
 opéré	opérer	VERB
 par	par	ADP
 le	le	DET
@@ -379,7 +379,7 @@ conceptions	conception	NOUN
 proclamées	proclamer	VERB
 —	—	PUNCTclause
 voilà	voilà	ADP
-autant de	autant de	PRON
+autant de	autant de	DET
 facteurs	facteur	NOUN
 de	de	ADP
 indétermination	indétermination	NOUN
@@ -499,7 +499,7 @@ les	le	DET
 deux	deux	NUM
 régimes	régime	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 leurs	leur	DET
 fins	fin	NOUN
 sont	être	AUX
@@ -518,7 +518,7 @@ mesure	mesure	NOUN
 réelle	réel	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
-l'un et l'autre	l'un et l'autre	DET
+l'un et l'autre	l'un et l'autre	PRON
 cas	cas	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
@@ -624,7 +624,7 @@ communion	communion	NOUN
 vraiment	vraiment	ADV
 vivante	vivant	ADJ
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 ne	ne	ADV
@@ -638,7 +638,7 @@ de	de	ADP
 la	le	DET
 propagande	propagande	NOUN
 est	être	AUX
-par nature	par nature	NOUN
+par nature	par nature	ADV
 contraire	contraire	ADJ
 à	à	ADP
 toute	toute	DET
@@ -743,7 +743,7 @@ nouveau	nouveau	ADJ
 —	—	PUNCTclause
 en	en	ADP
 Allemagne	Allemagne	PROPN
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 en	en	ADP
 URSS	URSS	PROPN
 .	.	PUNCTsent
@@ -761,7 +761,7 @@ de	de	ADP
 une	un	DET
 mauvaise conscience	mauvaise conscience	NOUN
 ,	,	PUNCTclause
-en tout cas	en tout cas	NOUN
+en tout cas	en tout cas	ADV
 de	de	ADP
 un	un	DET
 sentiment	sentiment	NOUN
@@ -870,7 +870,7 @@ des	un	ADP_DET
 universités	université	NOUN
 est	être	AUX
 caractéristique	caractéristique	ADJ
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 chaque	chaque	DET
 progrès	progrès	NOUN
@@ -926,8 +926,8 @@ bourgeois	bourgeois	ADJ
 mettait	mettre	VERB
 l'	le	DET
 esprit	esprit	NOUN
-au-dessus de	au-dessus de	ADP_DET
-tout	tout	ADV
+au-dessus de	au-dessus de	ADP
+tout	tout	DET
 ,	,	PUNCTclause
 si bien que	si bien que	SCONJ
 l'	le	DET
@@ -951,7 +951,7 @@ sur	sur	ADP
 le	le	DET
 primat	primat	NOUN
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 et	et	CCONJ
 en	en	ADP
 droit	droit	NOUN
@@ -1097,9 +1097,9 @@ il	il	PRON
 entraînera	entraîner	VERB
 nécessairement	nécessairement	ADV
 ,	,	PUNCTclause
-le jour où	le jour où	DET
-les	le_PRON	PRON
-contraintes	contraint	ADJ
+le jour où	le jour où	SCONJ
+les	le	DET
+contraintes	contrainte	NOUN
 policières	policier	ADJ
 se	se	PRON
 relâcheront	relâcher	VERB
@@ -1138,7 +1138,7 @@ ne	ne	ADV
 pouvions	pouvoir	VERB
 pas	pas	ADV
 faire	faire	AUX
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 .	.	PUNCTsent
 nos	nos	DET
 circonstances	circonstance	NOUN
@@ -1360,7 +1360,7 @@ vous	vous	PRON
 en	en	PRON
 serez	être	AUX
 bientôt	bientôt	ADV
-au point	au point	PUNCT
+au point	au point	ADJ
 où	où	PRON
 nous	nous	PRON
 étions	être	AUX
@@ -1447,7 +1447,7 @@ d'autre	d'autre	PRON
 vous	vous	PRON
 en	en	PRON
 étiez	être	AUX
-au point	au point	PUNCT
+au point	au point	ADJ
 où	où	PRON
 l'	le	DET
 homme	homme	NOUN
@@ -1498,7 +1498,7 @@ ont	avoir	AUX
 pas	pas	ADV
 été	être	AUX
 résolus	résoudre	VERB
-pour autant	pour autant	PUNCT
+pour autant	pour autant	ADV
 .	.	PUNCTsent
 vous	vous	PRON
 avez	avoir	AUX

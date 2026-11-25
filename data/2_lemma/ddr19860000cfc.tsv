@@ -153,7 +153,7 @@ socialiste	socialiste	ADJ
 on	on	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
-passer sous silence	passer sous silence	ADV
+passer sous silence	passer sous silence	VERB
 la	le	DET
 doctrine	doctrine	NOUN
 du	du	ADP_DET
@@ -187,7 +187,7 @@ révélés	révéler	VERB
 Arnaud	Arnaud	PROPN
 Dandieu	Dandieu	PROPN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 ils	ils	PRON
 ne	ne	ADV
 étaient	être	AUX
@@ -281,7 +281,7 @@ est	être	AUX
 que	que	SCONJ
 vous	vous	PRON
 faisiez	faire	VERB
-à l'époque	à l'époque	SCONJ
+à l'époque	à l'époque	ADV
 déjà	déjà	ADV
 ce	ce	PRON
 que	que	PRON
@@ -452,9 +452,9 @@ de	de	ADP
 pensée	pensée	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout à fait	tout à fait	DET
-l'	le_PRON	PRON
-inverse	inverser	VERB
+tout à fait	tout à fait	ADV
+l'	le	DET
+inverse	inverse	NOUN
 .	.	PUNCTsent
 on	on	PRON
 ne	ne	ADV
@@ -548,7 +548,7 @@ sa	son	DET
 famille	famille	NOUN
 et	et	CCONJ
 ,	,	PUNCTclause
-de proche en proche	de proche en proche	DET
+de proche en proche	de proche en proche	ADV
 ,	,	PUNCTclause
 de	de	ADP
 sa	son	DET
@@ -570,7 +570,7 @@ faire	faire	VERB
 .	.	PUNCTsent
 il y a	il y a	VERB
 beaucoup	beaucoup	ADV
-trop de	trop de	ADP
+trop de	trop de	DET
 communes	commun	NOUN
 ,	,	PUNCTclause
 par exemple	par exemple	ADV
@@ -788,8 +788,8 @@ théorie	théorie	NOUN
 qui	qui	PRON
 me	me	PRON
 est	être	AUX
-un peu	un peu	DET
-particulière	particulier	NOUN
+un peu	un peu	ADV
+particulière	particulier	ADJ
 .	.	PUNCTsent
 dans	dans	ADP
 le	le	DET
@@ -838,11 +838,11 @@ en soi	en soi	ADV
 on	on	PRON
 se	se	PRON
 arrange	arranger	VERB
-par convention	par convention	PUNCT
+par convention	par convention	ADV
 pour que	pour que	SCONJ
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 gens	gens	NOUN
 dans	dans	ADP
 la	le	DET
@@ -1001,7 +1001,7 @@ pays	pays	NOUN
 ils	ils	PRON
 sont	être	AUX
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 langue	langue	NOUN
 ,	,	PUNCTclause
 ils	ils	PRON
@@ -1121,10 +1121,10 @@ un	un	DET
 être	être	NOUN
 ,	,	PUNCTclause
 de	de	ADP
-en fait	en fait	DET
-un	un	PRON
+en fait	en fait	ADV
+un	un	DET
 simple	simple	ADJ
-exemplaire	exemplaire	ADJ
+exemplaire	exemplaire	NOUN
 de	de	ADP
 l'	le	DET
 espèce	espèce	NOUN
@@ -1180,8 +1180,8 @@ Mussolini	Mussolini	PROPN
 :	:	PUNCTclause
 l'	le	DET
 état	état	NOUN
-au-dessus de	au-dessus de	ADP_DET
-tout	tout	ADV
+au-dessus de	au-dessus de	ADP
+tout	tout	PRON
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
@@ -1252,7 +1252,7 @@ présentait	présenter	VERB
 des	un	DET
 éléments	élément	NOUN
 pris	prendre	VERB
-par malheur	par malheur	ADP
+par malheur	par malheur	ADV
 au plus	au plus	ADV
 bas	bas	ADJ
 ,	,	PUNCTclause
@@ -1297,7 +1297,7 @@ qui	qui	PRON
 se	se	PRON
 affirmaient	affirmer	VERB
 tous	tout	ADJ
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 agnostiques	agnostique	NOUN
 ,	,	PUNCTclause
 juifs	juif	ADJ
@@ -1321,7 +1321,7 @@ nietzschéens	nietzschéen	ADJ
 comme	comme	ADP
 on	on	PRON
 disait	dire	VERB
-à l'époque	à l'époque	PUNCT
+à l'époque	à l'époque	ADV
 .	.	PUNCTsent
 cela	cela	PRON
 voulait	vouloir	VERB
@@ -1517,7 +1517,7 @@ professeur	professeur	NOUN
 de	de	ADP
 théologie	théologie	NOUN
 ,	,	PUNCTclause
-tout comme	tout comme	ADP
+tout comme	tout comme	SCONJ
 Nietzsche	Nietzsche	PROPN
 ,	,	PUNCTclause
 d'ailleurs	d'ailleurs	ADV
@@ -1646,7 +1646,7 @@ dimanche	dimanche	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 je	je	PRON
 ai	avoir	AUX
 découvert	découvrir	VERB
@@ -1886,7 +1886,7 @@ où	où	PRON
 il	il	PRON
 avait	avoir	AUX
 été	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 donner	donner	VERB
 des	un	DET
@@ -2412,7 +2412,7 @@ le	le	DET
 masque	masque	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 mot	mot	NOUN
 était	être	AUX
 devenu	devenir	VERB
@@ -2547,7 +2547,7 @@ l'	le	DET
 individu	individu	NOUN
 ne	ne	ADV
 a	avoir	AUX
-plus de	plus de	ADV
+plus de	plus de	DET
 valence	valence	NOUN
 civique	civique	ADJ
 ,	,	PUNCTclause
@@ -2588,8 +2588,8 @@ tout	tout	ADJ
 en	en	ADP
 lui	lui	PRON
 demandant	demander	VERB
-de fait	de fait	PUNCT
-tout	tout	PRON
+de fait	de fait	ADJ
+tout	tout	ADV
 le	le	DET
 travail	travail	NOUN
 ,	,	PUNCTclause
@@ -2765,8 +2765,8 @@ salle	salle	NOUN
 il	il	PRON
 leur	leur	PRON
 ordonne	ordonner	VERB
-de fait	de fait	PUNCT
-des	un	DET
+de fait	de fait	ADJ
+des	un	ADP_DET
 choses	chose	NOUN
 extravagantes	extravagant	ADJ
 ,	,	PUNCTclause
@@ -3188,7 +3188,7 @@ justifie	justifier	VERB
 les	le	DET
 moyens	moyen	NOUN
 ,	,	PUNCTclause
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elle	elle	PRON
 crée	créer	VERB
 les	le	DET
@@ -3246,7 +3246,7 @@ car	car	CCONJ
 il	il	PRON
 tuait	tuer	VERB
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 pour	pour	ADP
 la	le	DET
@@ -3290,7 +3290,7 @@ et	et	CCONJ
 qui	qui	PRON
 avait	avoir	AUX
 mis	mettre	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 sur	sur	ADP
 ce	ce	DET
 sujet	sujet	NOUN
@@ -3348,7 +3348,7 @@ morale	morale	NOUN
 des	un	ADP_DET
 moyens	moyen	NOUN
 .	.	PUNCTsent
-eh bien	eh bien	ADP
+eh bien	eh bien	INTJ
 non	non	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
@@ -3427,7 +3427,7 @@ circonstances	circonstance	NOUN
 qui	qui	PRON
 sont	être	AUX
 tentantes	tentant	ADJ
-à bien des égards	à bien des égards	PUNCT
+à bien des égards	à bien des égards	ADV
 ,	,	PUNCTclause
 et	et	CCONJ
 tout d'un coup	tout d'un coup	ADV
@@ -3528,13 +3528,13 @@ populaire	populaire	ADJ
 l'	le	DET
 Absolu	Absolu	PROPN
 ,	,	PUNCTclause
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 peut	pouvoir	VERB
 l'	le	DET
 accepter	accepter	VERB
 ,	,	PUNCTclause
 car	car	CCONJ
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sent	sentir	VERB
 que	que	SCONJ
 il y a	il y a	VERB
@@ -3556,8 +3556,8 @@ et	et	CCONJ
 ce	ce	PRON
 doit	devoir	VERB
 être	être	AUX
-les mêmes	les mêmes	DET
-but	but	NOUN
+les mêmes	les mêmes	PRON
+but	boire	VERB
 pour	pour	ADP
 tous	tous	PRON
 les	le	DET
@@ -3671,7 +3671,7 @@ le	le	DET
 principe	principe	NOUN
 même	même	ADJ
 .	.	PUNCTsent
-en ce sens	en ce sens	NOUN
+en ce sens	en ce sens	ADV
 ,	,	PUNCTclause
 vous	vous	PRON
 êtes	être	AUX
@@ -3695,13 +3695,13 @@ hommes	homme	NOUN
 qui	qui	PRON
 doivent	devoir	VERB
 faire	faire	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 chemin	chemin	NOUN
 pour	pour	ADP
 aller	aller	VERB
 vers	vers	ADP
-les mêmes	les mêmes	DET
-but	but	NOUN
+les mêmes	les mêmes	PRON
+but	boire	VERB
 ,	,	PUNCTclause
 qui	qui	PRON
 est	être	AUX
@@ -3716,7 +3716,7 @@ un	un	DET
 endroit	endroit	NOUN
 qui	qui	PRON
 est	être	AUX
-sans précédent	sans précédent	ADV
+sans précédent	sans précédent	ADJ
 ,	,	PUNCTclause
 pour	pour	ADP
 devenir	devenir	VERB
@@ -3828,7 +3828,7 @@ ne	ne	ADV
 mon	mon	DET
 sentier	sentier	NOUN
 que	que	SCONJ
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 je	je	PRON
 ai	avoir	AUX
 le	le	DET
@@ -3900,7 +3900,7 @@ nationales	national	ADJ
 ,	,	PUNCTclause
 je	je	PRON
 arriverais	arriver	VERB
-au mieux	au mieux	PUNCT
+au mieux	au mieux	ADV
 à	à	ADP
 la	le	DET
 capitale	capital	NOUN
@@ -3913,7 +3913,7 @@ donc	donc	ADV
 je	je	PRON
 resterais	rester	VERB
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 plan	plan	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -4089,7 +4089,7 @@ Goethe	Goethe	PROPN
 —	—	PUNCTclause
 qui	qui	PRON
 est	être	AUX
-en fait	en fait	VERB
+en fait	en fait	ADV
 une	un	DET
 télé-création	télé-création	NOUN
 parce que	parce que	SCONJ
@@ -4338,8 +4338,8 @@ dire	dire	VERB
 que	que	SCONJ
 vous	vous	PRON
 faisiez	faire	VERB
-un peu	un peu	DET
-figure	figure	NOUN
+un peu	un peu	ADV
+figure	figurer	VERB
 de	de	ADP
 prophète	prophète	NOUN
 —	—	PUNCTclause
@@ -4442,7 +4442,7 @@ gens	gens	NOUN
 ce	ce	PRON
 est	être	AUX
 une	un	DET
-autre chose	autre chose	NOUN
+autre chose	autre chose	PRON
 qui	qui	PRON
 est	être	AUX
 tout à fait	tout à fait	ADV
@@ -4497,7 +4497,7 @@ suis	être	AUX
 toujours	toujours	ADV
 considéré	considérer	VERB
 avant	avant	ADP
-tout comme	tout comme	DET
+tout comme	tout comme	SCONJ
 écrivain	écrivain	NOUN
 .	.	PUNCTsent
 la	le	DET
@@ -4533,10 +4533,10 @@ pour	pour	ADP
 moi	moi	PRON
 une	un	DET
 question	question	NOUN
-de rigueur	de rigueur	ADP
+de rigueur	de rigueur	ADJ
 —	—	PUNCTclause
 doit	devoir	VERB
-avoir	avoir	VERB
+avoir	avoir	AUX
 une	un	DET
 valeur	valeur	NOUN
 littéraire	littéraire	ADJ
@@ -4607,7 +4607,7 @@ admirés	admirer	VERB
 ou	ou	CCONJ
 vénérés	vénérer	VERB
 de	de	ADP
-la même	la même	DET
+la même	la même	PRON
 manière	manière	NOUN
 que	que	PRON
 des	un	DET
@@ -4632,7 +4632,7 @@ ai	avoir	AUX
 à peine	à peine	ADV
 rencontré	rencontrer	VERB
 .	.	PUNCTsent
-il y en a	il y en a	PRON
+il y en a	il y en a	VERB
 d'autres	d'autre	PRON
 que	que	PRON
 je	je	PRON
@@ -4652,7 +4652,7 @@ moins	moins	ADV
 que	que	SCONJ
 d'autres	d'autre	PRON
 ,	,	PUNCTclause
-en fait	en fait	DET
+en fait	en fait	ADV
 .	.	PUNCTsent
 je	je	PRON
 l'	le_PRON	PRON
@@ -4756,7 +4756,7 @@ ce	ce	PRON
 un	un	DET
 ami	ami	NOUN
 ,	,	PUNCTclause
-tout à fait	tout à fait	PRON
+tout à fait	tout à fait	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vous	vous	PRON
@@ -4842,7 +4842,7 @@ dans	dans	ADP
 un	un	DET
 mois	mois	NOUN
 —	—	PUNCTclause
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 je	je	PRON
 ne	ne	ADV
@@ -4897,7 +4897,7 @@ survivant	survivre	VERB
 des	un	DET
 personnalisme	personnalisme	NOUN
 de	de	ADP
-la première	la première	NOUN
+la première	la première	PRON
 génération	génération	NOUN
 .	.	PUNCTsent
 Lourde	Lourde	PROPN

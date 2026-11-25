@@ -133,7 +133,7 @@ leurs	leur	DET
 paysages	paysage	NOUN
 célèbres	célèbre	ADJ
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -383,7 +383,7 @@ la	le	DET
 Suisse	Suisse	PROPN
 .	.	PUNCTsent
 mais	mais	CCONJ
-dans l'ensemble	dans l'ensemble	DET
+dans l'ensemble	dans l'ensemble	ADV
 ,	,	PUNCTclause
 l'	le	DET
 économie	économie	NOUN
@@ -524,7 +524,7 @@ que	que	SCONJ
 les	le	DET
 machines	machine	NOUN
 mettaient	mettre	VERB
-en mesure de	en mesure de	ADP
+en mesure de	en mesure de	ADJ
 se	se	PRON
 transformer	transformer	VERB
 en	en	ADP
@@ -562,7 +562,7 @@ celles	celle	PRON
 qui	qui	PRON
 ,	,	PUNCTclause
 venant	venir	VERB
-de loin	de loin	ADP_DET
+de loin	de loin	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
 coûtaient	coûter	VERB
@@ -758,7 +758,7 @@ et	et	CCONJ
 telle	tel	DET
 est	être	AUX
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 la	le	DET
@@ -838,7 +838,7 @@ comme	comme	ADP
 les	le	DET
 autres	autre	ADJ
 travaillaient	travailler	VERB
-à la main	à la main	PUNCT
+à la main	à la main	ADV
 et	et	CCONJ
 au	au	ADP_DET
 métier	métier	NOUN
@@ -1022,7 +1022,7 @@ des	un	ADP_DET
 Suisse	Suisse	PROPN
 (	(	PUNCTclause
 romands	romand	NOUN
-aussi bien que	aussi bien que	PUNCT
+aussi bien que	aussi bien que	CCONJ
 Alémaniques	Alémaniques	PROPN
 )	)	PUNCTclause
 :	:	PUNCTclause
@@ -1052,7 +1052,7 @@ bien	bien	ADV
 moins	moins	ADV
 pour	pour	ADP
 en	en	PRON
-tirer profit	tirer profit	PRON
+tirer profit	tirer profit	VERB
 que	que	SCONJ
 par	par	ADP
 l'	le	DET
@@ -1154,11 +1154,11 @@ les	le	DET
 plans	plan	NOUN
 détaillés	détaillé	ADJ
 de	de	ADP
-la première	la première	NOUN
-turbine	turbine	NOUN
+la première	la première	PRON
+turbine	turbiner	VERB
 .	.	PUNCTsent
 à	à	ADP
-la même	la même	DET
+la même	la même	PRON
 époque	époque	NOUN
 (	(	PUNCTclause
 18e	18e	NUM
@@ -1473,8 +1473,8 @@ emploie	employer	VERB
 un	un	DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	NOUN
-savants	savant	ADJ
+nombre de	nombre de	DET
+savants	savant	NOUN
 (	(	PUNCTclause
 parfois	parfois	ADV
 professeurs	professeur	NOUN
@@ -1534,7 +1534,7 @@ population	population	NOUN
 la	le	DET
 Suisse	Suisse	PROPN
 est	être	AUX
-le premier	le premier	DET
+le premier	le premier	PRON
 pays	pays	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
@@ -1723,7 +1723,7 @@ serait	être	AUX
 curieux	curieux	ADJ
 de	de	ADP
 décrire	décrire	VERB
-en détail	en détail	ADP
+en détail	en détail	ADV
 le	le	DET
 contraste	contraste	NOUN
 entre	entre	ADP
@@ -1831,7 +1831,7 @@ la	le	DET
 propreté	propreté	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tout le monde	tout le monde	NOUN
+tout le monde	tout le monde	PRON
 sait	savoir	VERB
 que	que	SCONJ
 la	le	DET
@@ -1848,7 +1848,7 @@ propret	propret	ADJ
 elle	elle	PRON
 le	le_PRON	PRON
 doit	devoir	VERB
-en partie	en partie	NOUN
+en partie	en partie	ADV
 à	à	ADP
 son	son	DET
 électrification	électrification	NOUN
@@ -1889,8 +1889,8 @@ sont	être	AUX
 l'	le	DET
 électricité	électricité	NOUN
 ,	,	PUNCTclause
-plus de	plus de	ADP
-la	le	DET
+plus de	plus de	DET
+la	le_PRON	PRON
 moitié	moitié	NOUN
 sont	être	AUX
 pourvues	pourvoir	VERB
@@ -2283,7 +2283,7 @@ eux-mêmes	eux-mêmes	PRON
 .	.	PUNCTsent
 elles	elles	PRON
 tiennent	tenir	VERB
-le second	le second	DET
+le second	le second	PRON
 rang	rang	NOUN
 pour	pour	ADP
 la	le	DET
@@ -2368,7 +2368,7 @@ qualité	qualité	NOUN
 ,	,	PUNCTclause
 des	un	DET
 tours	tour	NOUN
-de force	de force	PUNCT
+de force	de force	ADV
 de	de	ADP
 ajustage	ajustage	NOUN
 et	et	CCONJ
@@ -2389,8 +2389,8 @@ mais	mais	CCONJ
 se	se	PRON
 enorgueillira	enorgueillir	VERB
 plutôt	plutôt	ADV
-de mise	de mise	ADP
-au point	au point	ADV
+de mise	de mise	ADJ
+au point	au point	ADJ
 la	le	DET
 plus	plus	ADV
 petite	petit	ADJ
@@ -2432,7 +2432,7 @@ l'	le	DET
 ouvrier	ouvrier	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 observations	observation	NOUN
 pourraient	pouvoir	VERB
 être	être	AUX
@@ -2559,7 +2559,7 @@ depuis	depuis	ADP
 un	un	DET
 siècle	siècle	NOUN
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 elles	elles	PRON
 constituent	constituer	VERB
@@ -2630,7 +2630,7 @@ se	se	PRON
 est	être	AUX
 donc	donc	ADV
 accrue	accroître	VERB
-en même temps que	en même temps que	ADP
+en même temps que	en même temps que	SCONJ
 les	le	DET
 barrières	barrière	NOUN
 douanières	douanier	ADJ
@@ -2664,7 +2664,7 @@ une	un	DET
 série	série	NOUN
 de	de	ADP
 tours	tour	NOUN
-de force	de force	PUNCT
+de force	de force	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 pour	pour	ADP
@@ -2804,7 +2804,7 @@ l'	le	DET
 équilibre	équilibre	NOUN
 des	un	ADP_DET
 échanges	échange	NOUN
-au profit de	au profit de	ADP_DET
+au profit de	au profit de	ADP
 pays	pays	NOUN
 extra-européens	extra-européen	ADJ
 .	.	PUNCTsent
@@ -2882,7 +2882,7 @@ sa	son	DET
 production	production	NOUN
 globale	global	ADJ
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 États-Unis	États-Unis	PROPN
 ne	ne	ADV
@@ -3121,7 +3121,7 @@ faisait	faire	AUX
 pas	pas	ADV
 sentir	sentir	VERB
 avec	avec	ADP
-autant de	autant de	ADP
+autant de	autant de	DET
 acuité	acuité	NOUN
 que	que	SCONJ
 dans	dans	ADP
@@ -3186,10 +3186,10 @@ la	le	DET
 neutralité	neutralité	NOUN
 devait	devoir	VERB
 être	être	AUX
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 respectée	respecter	VERB
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 ,	,	PUNCTclause
 dès	dès	ADP
 1938	1938	NUM
@@ -3378,7 +3378,7 @@ inquiétant	inquiétant	ADJ
 en dépit de	en dépit de	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 facteurs	facteur	NOUN
 favorables	favorable	ADJ
 .	.	PUNCTsent
@@ -3413,7 +3413,7 @@ locales	local	ADJ
 qui	qui	PRON
 étaient	être	AUX
 au	au	ADP_DET
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 17584	17584	NUM
 en	en	ADP
 1940	1940	NUM
@@ -3457,7 +3457,7 @@ des	un	ADP_DET
 campagnes	campagne	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-il n'en reste pas moins que	il n'en reste pas moins que	ADP
+il n'en reste pas moins que	il n'en reste pas moins que	ADV
 la	le	DET
 Suisse	Suisse	PROPN
 doit	devoir	VERB
@@ -3508,7 +3508,7 @@ ce	ce	PRON
 est	être	AUX
 dire	dire	VERB
 ,	,	PUNCTclause
-une fois de plus	une fois de plus	PRON
+une fois de plus	une fois de plus	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 le	le	DET
@@ -3594,7 +3594,7 @@ comment	comment	ADV
 un	un	DET
 bon sens	bon sens	NOUN
 souvent	souvent	ADV
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 étroit	étroit	ADJ
 ,	,	PUNCTclause
 un	un	DET
@@ -3689,7 +3689,7 @@ vastes	vaste	ADJ
 ressources	ressource	NOUN
 naturelles	naturel	ADJ
 .	.	PUNCTsent
-bien au contraire	bien au contraire	NOUN
+bien au contraire	bien au contraire	ADV
 ,	,	PUNCTclause
 sa	son	DET
 naissance	naissance	NOUN
@@ -3716,7 +3716,7 @@ plus	plus	ADV
 solides	solide	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 l'on	on	PRON
 peut	pouvoir	VERB
 affirmer	affirmer	VERB
@@ -3730,7 +3730,7 @@ ce	ce	DET
 peuple	peuple	NOUN
 se	se	PRON
 sent	sentir	VERB
-à l'aise	à l'aise	PUNCT
+à l'aise	à l'aise	ADV
 dans	dans	ADP
 son	son	DET
 économie	économie	NOUN
@@ -3985,7 +3985,7 @@ total	total	NOUN
 des	un	ADP_DET
 gains	gain	NOUN
 étant	être	AUX
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois ci	ADV
 de	de	ADP
 10389	10389	NUM
 frs	frs	NOUN
@@ -3993,7 +3993,7 @@ frs	frs	NOUN
 l'	le	DET
 employé	employé	NOUN
 dépense	dépenser	VERB
-un peu	un peu	DET
+un peu	un peu	ADV
 moins	moins	ADV
 que	que	SCONJ
 l'	le	DET
@@ -4006,7 +4006,7 @@ en	en	ADP
 chiffres	chiffre	NOUN
 absolus	absolu	ADJ
 )	)	PUNCTclause
-un peu	un peu	PUNCT
+un peu	un peu	ADV
 plus	plus	ADV
 pour	pour	ADP
 son	son	DET
@@ -4074,7 +4074,7 @@ appareils	appareil	NOUN
 il	il	PRON
 ressemble	ressembler	VERB
 ,	,	PUNCTclause
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 ,	,	PUNCTclause
 au	au	ADP_DET
 Scandinave	Scandinave	PROPN
@@ -4136,7 +4136,7 @@ assurance	assurance	NOUN
 celles	celle	PRON
 sont	être	AUX
 au	au	ADP_DET
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 48	48	NUM
 en	en	ADP
 Suisse	Suisse	PROPN
@@ -4149,7 +4149,7 @@ réassurance	réassurance	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 détiennent	détenir	VERB
-le premier	le premier	DET
+le premier	le premier	PRON
 rang	rang	NOUN
 dans	dans	ADP
 le	le	DET
@@ -4702,7 +4702,7 @@ qui	qui	PRON
 ont	avoir	AUX
 triplé	tripler	VERB
 durant	durant	ADP
-la même	la même	DET
+la même	la même	PRON
 période	période	NOUN
 ,	,	PUNCTclause
 on	on	PRON
@@ -4747,7 +4747,7 @@ de	de	ADP
 environ	environ	ADV
 73	73	NUM
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 la	le	DET
 hausse	hausse	NOUN
 ne	ne	ADV
@@ -5077,7 +5077,7 @@ etc.	etc.	NOUN
 environ	environ	ADV
 200000	200000	NUM
 membres	membre	NOUN
-au total	au total	ADJ
+au total	au total	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
 ces	ce	DET
@@ -5087,7 +5087,7 @@ distinguent	distinguer	VERB
 des	un	ADP_DET
 syndicats	syndicat	NOUN
 États-Unis	États-Unis	PROPN
-en ce sens	en ce sens	PUNCT
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 elles	elles	PRON
 ne	ne	ADV
@@ -5114,7 +5114,7 @@ France	France	PROPN
 ou	ou	CCONJ
 Italie	Italie	PROPN
 ,	,	PUNCTclause
-en ce sens	en ce sens	ADP
+en ce sens	en ce sens	ADV
 que	que	SCONJ
 elles	elles	PRON
 sont	être	AUX
@@ -5363,7 +5363,7 @@ activité	activité	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-au point que	au point que	PUNCT
+au point que	au point que	SCONJ
 les	le	DET
 syndicats	syndicat	NOUN
 romands	romand	ADJ
@@ -5510,8 +5510,8 @@ ou	ou	CCONJ
 de	de	ADP
 artisans	artisan	NOUN
 offrent	offrir	VERB
-les mêmes	les mêmes	DET
-caractéristiques	caractéristique	NOUN
+les mêmes	les mêmes	PRON
+caractéristiques	caractéristique	ADJ
 que	que	SCONJ
 les	le	DET
 syndicats	syndicat	NOUN
@@ -5650,7 +5650,7 @@ particulière	particulier	ADJ
 elles	elles	PRON
 font	faire	AUX
 revivre	revivre	VERB
-de nos jours	de nos jours	ADP
+de nos jours	de nos jours	ADV
 la	le	DET
 plus	plus	ADV
 ancienne	ancien	ADJ
@@ -5960,8 +5960,8 @@ de	de	ADP
 ordre	ordre	NOUN
 idéologique	idéologique	ADJ
 ,	,	PUNCTclause
-en tout cas	en tout cas	DET
-le	le_PRON	PRON
+en tout cas	en tout cas	ADV
+le	le	DET
 sont	être	AUX
 moins	moins	ADV
 que	que	SCONJ
@@ -6250,7 +6250,7 @@ aient	avoir	AUX
 parfois	parfois	ADV
 bénéficiaires	bénéficiaire	ADJ
 ,	,	PUNCTclause
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 )	)	PUNCTclause
 .	.	PUNCTsent
 les	le	DET
@@ -6263,8 +6263,8 @@ aux	au	ADP_DET
 mains	main	NOUN
 des	un	ADP_DET
 corporations	corporation	NOUN
-de droit	de droit	ADP_DET
-public	public	NOUN
+de droit	de droit	ADJ
+public	public	ADJ
 .	.	PUNCTsent
 l'	le	DET
 état	état	NOUN
@@ -6466,7 +6466,7 @@ et	et	CCONJ
 il	il	PRON
 apparaît	apparaître	VERB
 ,	,	PUNCTclause
-au total	au total	ADJ
+au total	au total	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 la	le	DET

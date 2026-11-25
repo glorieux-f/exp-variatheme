@@ -30,7 +30,7 @@ la	le	DET
 pensée	pensée	NOUN
 occidentale	occidental	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 l'	le	DET
 église	église	NOUN
 ,	,	PUNCTclause
@@ -228,8 +228,8 @@ ne	ne	ADV
 en	en	PRON
 demeure	demeurer	VERB
 pas	pas	ADV
-moins de	moins de	PRON
-fait	faire	VERB
+moins de	moins de	DET
+fait	fait	NOUN
 et	et	CCONJ
 de	de	ADP
 nature	nature	NOUN
@@ -288,7 +288,7 @@ la	le	DET
 dialectique	dialectique	NOUN
 hégélienne	hégélien	ADJ
 .	.	PUNCTsent
-de nos jours	de nos jours	DET
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 le	le	DET
 vocabulaire	vocabulaire	NOUN
@@ -320,7 +320,7 @@ scolastique	scolastique	ADJ
 —	—	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-du moins	du moins	ADP
+du moins	du moins	ADV
 ce	ce	PRON
 que	que	PRON
 proclament	proclamer	VERB
@@ -561,7 +561,7 @@ vraiment	vraiment	ADV
 sans	sans	ADP
 conséquence	conséquence	NOUN
 pour	pour	ADP
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 pour	pour	ADP
@@ -615,7 +615,7 @@ l'	le	DET
 ,	,	PUNCTclause
 elle	elle	PRON
 est	être	AUX
-en droit de	en droit de	ADP
+en droit de	en droit de	ADJ
 laisser	laisser	VERB
 à	à	ADP
 d'autres	d'autre	PRON
@@ -757,7 +757,7 @@ certes	certes	ADV
 ,	,	PUNCTclause
 je	je	PRON
 suis	être	AUX
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 à	à	ADP
 redouter	redouter	VERB
 que	que	SCONJ
@@ -846,7 +846,7 @@ de même	de même	ADV
 ,	,	PUNCTclause
 je	je	PRON
 suis	être	AUX
-le premier	le premier	PUNCT
+le premier	le premier	PRON
 à	à	ADP
 protester	protester	VERB
 contre	contre	ADP
@@ -854,12 +854,12 @@ ces	ce	DET
 citations	citation	NOUN
 de	de	ADP
 auteurs	auteur	NOUN
-à la mode	à la mode	ADP
+à la mode	à la mode	ADJ
 —	—	PUNCTclause
 ou	ou	CCONJ
 plus	plus	ADV
 souvent	souvent	ADV
-à la mode	à la mode	PUNCT
+à la mode	à la mode	ADJ
 de	de	ADP
 il y a	il y a	VERB
 cinquante	cinquante	NUM
@@ -1007,13 +1007,13 @@ ceci	ceci	PRON
 je	je	PRON
 le	le_PRON	PRON
 répète	répéter	VERB
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 théologiens	théologien	NOUN
 ,	,	PUNCTclause
 non	non	ADV
 point	point	ADV
-en tant que	en tant que	CCONJ
-écrivains-amateurs	écrivains-amateurs	PUNCT
+en tant que	en tant que	ADP
+écrivains-amateurs	écrivains-amateurs	NOUN
 ou	ou	CCONJ
 gens	gens	NOUN
 de	de	ADP
@@ -1072,7 +1072,7 @@ propres	propre	ADJ
 à	à	ADP
 rétablir	rétablir	VERB
 ,	,	PUNCTclause
-petit à petit	petit à petit	ADJ
+petit à petit	petit à petit	ADV
 ,	,	PUNCTclause
 des	un	DET
 éléments	élément	NOUN
@@ -1091,7 +1091,7 @@ même	même	ADJ
 homme	homme	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-ceci dit	ceci dit	PRON
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 je	je	PRON
 en	en	PRON
@@ -1276,7 +1276,7 @@ la	le	DET
 littérature	littérature	NOUN
 moderne	moderne	ADJ
 .	.	PUNCTsent
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -1331,9 +1331,9 @@ bien que	bien que	SCONJ
 vulgarisée	vulgarisé	ADJ
 et	et	CCONJ
 déprimée	déprimer	VERB
-au point	au point	PUNCT
+au point	au point	ADJ
 de	de	ADP
-en devenir	en devenir	DET
+en devenir	en devenir	ADJ
 méconnaissable	méconnaissable	ADJ
 .	.	PUNCTsent
 petit	petit	ADJ
@@ -1432,7 +1432,7 @@ de	de	ADP
 l'	le	DET
 avant-garde	avant-garde	NOUN
 ,	,	PUNCTclause
-d'autant que	d'autant que	CCONJ
+d'autant que	d'autant que	SCONJ
 ils	ils	PRON
 jouent	jouer	VERB
 ,	,	PUNCTclause
@@ -1498,7 +1498,7 @@ bourgeoise	bourgeois	ADJ
 ,	,	PUNCTclause
 plutôt	plutôt	ADV
 que	que	SCONJ
-de rigueur	de rigueur	ADP
+de rigueur	de rigueur	ADJ
 théologique	théologique	ADJ
 ?	?	PUNCTsent
 au nom de	au nom de	ADP
@@ -1533,7 +1533,7 @@ secours	secours	NOUN
 va	aller	VERB
 on	on	PRON
 lui	lui	PRON
-tourner le dos	tourner le dos	PUNCT
+tourner le dos	tourner le dos	VERB
 parce que	parce que	SCONJ
 elle	elle	PRON
 est	être	AUX
@@ -1707,7 +1707,7 @@ sur	sur	ADP
 un	un	DET
 très	très	ADV
 grand	grand	ADJ
-nombre de	nombre de	PUNCT
+nombre de	nombre de	DET
 poètes	poète	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -1832,7 +1832,7 @@ voir	voir	VERB
 dans	dans	ADP
 les	le	DET
 dogmes	dogme	NOUN
-autant de	autant de	ADP
+autant de	autant de	DET
 entraves	entrave	NOUN
 à	à	ADP
 l'	le	DET
@@ -1852,7 +1852,7 @@ des	un	DET
 gênes	gêne	NOUN
 fécondes	fécond	ADJ
 .	.	PUNCTsent
-le premier	le premier	DET
+le premier	le premier	PRON
 ,	,	PUNCTclause
 semblable	semblable	ADJ
 à	à	ADP
@@ -1930,7 +1930,7 @@ doctrine	doctrine	NOUN
 de	de	ADP
 Calvin	Calvin	PROPN
 .	.	PUNCTsent
-à l'inverse	à l'inverse	DET
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 je	je	PRON
 soupçonne	soupçonner	VERB
@@ -2200,7 +2200,7 @@ de	de	ADP
 la	le	DET
 littérature	littérature	NOUN
 devra	devoir	VERB
-mise en garde	mise en garde	VERB
+mise en garde	mise en garde	NOUN
 son	son	DET
 public	public	NOUN
 contre	contre	ADP
@@ -2319,7 +2319,7 @@ immodéré	immodéré	ADJ
 je	je	PRON
 connais	connaître	VERB
 un	un	DET
-bon nombre de	bon nombre de	NOUN
+bon nombre de	bon nombre de	DET
 ouvrages	ouvrage	NOUN
 religieux	religieux	ADJ
 dont	dont	PRON
@@ -2345,7 +2345,7 @@ cette	ce	DET
 réalité	réalité	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-en fait	en fait	SCONJ
+en fait	en fait	ADV
 il	il	PRON
 échoue	échouer	VERB
 à	à	ADP
@@ -2361,7 +2361,7 @@ efforts	effort	NOUN
 visibles	visible	ADJ
 de	de	ADP
 propagande	propagande	NOUN
-en faveur de	en faveur de	ADV
+en faveur de	en faveur de	ADP
 «	«	PUNCTclause
 valeurs	valeur	NOUN
 spirituelles	spirituel	ADJ

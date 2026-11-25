@@ -90,7 +90,7 @@ preuves	preuve	NOUN
 écrites	écrire	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-à tout le moins	à tout le moins	ADP
+à tout le moins	à tout le moins	ADV
 quatre	quatre	NUM
 mille	mille	NUM
 ans	an	NOUN
@@ -462,7 +462,7 @@ pas	pas	ADV
 de	de	ADP
 tabous	tabou	NOUN
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 tout	tout	PRON
 érotisme	érotisme	NOUN
 en	en	ADP
@@ -544,7 +544,7 @@ notamment	notamment	ADV
 mais	mais	CCONJ
 leur	leur	DET
 dénient	dénier	NOUN
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 toute	tout	ADJ
 valeur	valeur	NOUN
 spirituelle	spirituel	ADJ
@@ -904,7 +904,7 @@ non	non	ADV
 de	de	ADP
 l'	le	DET
 excès	excès	NOUN
-de rigueur	de rigueur	PUNCT
+de rigueur	de rigueur	ADJ
 de	de	ADP
 un	un	DET
 code	code	NOUN
@@ -1205,7 +1205,7 @@ seigneur	seigneur	NOUN
 féodal	féodal	ADJ
 .	.	PUNCTsent
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 temps	temps	NOUN
 ,	,	PUNCTclause
 la	le	DET
@@ -1254,7 +1254,7 @@ de	de	ADP
 ,	,	PUNCTclause
 et	et	CCONJ
 que	que	SCONJ
-le premier	le premier	DET
+le premier	le premier	PRON
 troubadour	troubadour	NOUN
 ,	,	PUNCTclause
 Guillaume	Guillaume	PROPN
@@ -1696,7 +1696,7 @@ fonder	fonder	VERB
 le	le	DET
 mariage	mariage	NOUN
 ,	,	PUNCTclause
-en principe	en principe	DET
+en principe	en principe	ADV
 ,	,	PUNCTclause
 sur	sur	ADP
 le	le	DET
@@ -1708,7 +1708,7 @@ est	être	AUX
 absurde	absurde	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
-en fait	en fait	NOUN
+en fait	en fait	ADV
 sur	sur	ADP
 l'	le	DET
 héritage	héritage	NOUN
@@ -1807,7 +1807,7 @@ compte	compter	VERB
 de	de	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	ADP
+nombre de	nombre de	DET
 faits	fait	NOUN
 importants	important	ADJ
 de	de	ADP
@@ -1844,7 +1844,7 @@ libération	libération	NOUN
 quoi	quoi	PRON
 se	se	PRON
 ramène	ramener	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 la	le	DET
 «	«	PUNCTclause
 libération	libération	NOUN
@@ -1946,7 +1946,7 @@ la	le	DET
 «	«	PUNCTclause
 libération	libération	NOUN
 »	»	PUNCTclause
-en cause	en cause	PUNCT
+en cause	en cause	ADJ
 .	.	PUNCTsent
 vers	vers	ADP
 1950	1950	NUM
@@ -2202,7 +2202,7 @@ nos	nos	DET
 existences	existence	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-du même coup	du même coup	ADP
+du même coup	du même coup	ADV
 ,	,	PUNCTclause
 la	le	DET
 psychanalyse	psychanalyse	NOUN
@@ -2234,10 +2234,10 @@ sexualité	sexualité	NOUN
 de	de	ADP
 groupe	groupe	NOUN
 .	.	PUNCTsent
-du moins	du moins	ADP
+du moins	du moins	ADV
 est	être	AUX
-ce	ce	PRON
-le	le	DET
+ce	ce	DET
+le	le_PRON	PRON
 cas	cas	NOUN
 en	en	ADP
 Occident	Occident	PROPN
@@ -2275,14 +2275,14 @@ pratiques	pratique	NOUN
 onanistes	onaniste	ADJ
 »	»	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 termes	terme	NOUN
 que	que	SCONJ
 le	le	DET
 fameux	fameux	ADJ
 docteur	docteur	NOUN
 Tissot	Tissot	PROPN
-à la fin	à la fin	PUNCT
+à la fin	à la fin	ADV
 du	du	ADP_DET
 18e	18e	ADJ
 siècle	siècle	NOUN

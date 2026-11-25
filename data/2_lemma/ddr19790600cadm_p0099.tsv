@@ -62,9 +62,9 @@ raisons	raison	NOUN
 les	le	DET
 plus	plus	ADV
 raisonnables	raisonnable	ADJ
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 confiance	confiance	NOUN
-à l'avenir	à l'avenir	ADP
+à l'avenir	à l'avenir	ADV
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -90,10 +90,10 @@ Gaulle	Gaulle	PROPN
 invoqué	invoquer	VERB
 rituellement	rituellement	ADV
 par	par	ADP
-les uns et les autres	les uns et les autres	DET
+les uns et les autres	les uns et les autres	PRON
 ,	,	PUNCTclause
-leur	leur	PRON
-donne	donner	VERB
+leur	leur	DET
+donne	donne	NOUN
 à	à	ADP
 tous	tous	PRON
 des	un	DET
@@ -266,7 +266,7 @@ non	non	ADV
 on	on	PRON
 voit	voir	VERB
 que	que	SCONJ
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 la	le	DET
 France	France	PROPN
 ,	,	PUNCTclause
@@ -304,7 +304,7 @@ les	le	DET
 deux	deux	NUM
 étant	être	AUX
 îles	île	NOUN
-de surcroît	de surcroît	ADP_DET
+de surcroît	de surcroît	ADV
 )	)	PUNCTclause
 ,	,	PUNCTclause
 de	de	ADP
@@ -357,7 +357,7 @@ pensée	pensée	NOUN
 gaullienne	gaullien	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 article	article	NOUN
 ,	,	PUNCTclause
 citons	citer	VERB
@@ -432,7 +432,7 @@ force	force	NOUN
 nucléaire	nucléaire	ADJ
 se	se	PRON
 trouvera	trouver	VERB
-petit à petit	petit à petit	PUNCT
+petit à petit	petit à petit	ADV
 démantelée	démanteler	VERB
 ;	;	PUNCTclause
 naturellement	naturellement	ADV
@@ -529,7 +529,7 @@ anglophones	anglophone	ADJ
 ,	,	PUNCTclause
 ou bien	ou bien	CCONJ
 ,	,	PUNCTclause
-en tout cas	en tout cas	DET
+en tout cas	en tout cas	ADV
 ,	,	PUNCTclause
 éloignés	éloigner	VERB
 du	du	ADP_DET
@@ -574,7 +574,7 @@ voir	voir	VERB
 mais	mais	CCONJ
 il	il	PRON
 deviendra	devenir	VERB
-de moins en moins	de moins en moins	ADP
+de moins en moins	de moins en moins	ADV
 probable	probable	ADJ
 que	que	SCONJ
 la	le	DET
@@ -759,7 +759,7 @@ pratique	pratique	ADJ
 .	.	PUNCTsent
 il	il	PRON
 suffirait	suffire	VERB
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 les	le	DET
 fonctionnaires	fonctionnaire	NOUN
 de	de	ADP
@@ -933,7 +933,7 @@ les	le	DET
 Europe	Europe	PROPN
 qui	qui	PRON
 doit	devoir	VERB
-donner naissance	donner naissance	PRON
+donner naissance	donner naissance	VERB
 à	à	ADP
 la	le	DET
 fédération	fédération	NOUN
@@ -1528,7 +1528,7 @@ l'	le	DET
 index	index	NOUN
 général	général	ADJ
 .	.	PUNCTsent
-il n'empêche que	il n'empêche que	ADP
+il n'empêche que	il n'empêche que	ADV
 les	le	DET
 principaux	principal	ADJ
 ténors	ténor	NOUN
@@ -1842,7 +1842,7 @@ amants	amant	NOUN
 de	de	ADP
 se	se	PRON
 quitter	quitter	VERB
-une fois de plus	une fois de plus	PUNCT
+une fois de plus	une fois de plus	ADV
 .	.	PUNCTsent
 mais	mais	CCONJ
 ce	ce	PRON
@@ -1950,7 +1950,7 @@ du	du	ADP_DET
 général	général	NOUN
 de	de	ADP
 Gaulle	Gaulle	PROPN
-plus de	plus de	PUNCT
+plus de	plus de	DET
 confirmation	confirmation	NOUN
 que	que	SCONJ
 l'	le	DET
@@ -1967,7 +1967,7 @@ Jean	Jean	PROPN
 Mauriac	Mauriac	PROPN
 a	avoir	AUX
 noté	noter	VERB
-au jour le jour	au jour le jour	PUNCT
+au jour le jour	au jour le jour	ADV
 et	et	CCONJ
 parfois	parfois	ADV
 de	de	ADP
@@ -2051,7 +2051,7 @@ intention	intention	NOUN
 du	du	ADP_DET
 général	général	NOUN
 était	être	AUX
-de mise	de mise	ADP
+de mise	de mise	ADJ
 la	le	DET
 régionalisation	régionalisation	NOUN
 en	en	ADP
@@ -2089,7 +2089,7 @@ général	général	NOUN
 déclare	déclarer	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-eh bien	eh bien	DET
+eh bien	eh bien	INTJ
 ,	,	PUNCTclause
 je	je	PRON
 vais	aller	VERB
@@ -2192,7 +2192,7 @@ lendemain	lendemain	NOUN
 il	il	PRON
 réitère	réitérer	VERB
 ,	,	PUNCTclause
-cette fois-là	cette fois ci	PRON
+cette fois-là	cette fois ci	ADV
 à	à	ADP
 la	le	DET
 		TOKEN
@@ -2315,7 +2315,7 @@ sur	sur	ADP
 la	le	DET
 participation	participation	NOUN
 essentielle	essentiel	ADJ
-à l'avenir	à l'avenir	PUNCT
+à l'avenir	à l'avenir	ADV
 de	de	ADP
 la	le	DET
 France.	France.	PROPN
@@ -2350,7 +2350,7 @@ en	en	ADP
 étroite	étroit	ADJ
 dépendance	dépendance	NOUN
 .	.	PUNCTsent
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
@@ -2673,7 +2673,7 @@ de	de	ADP
 l'	le	DET
 affaiblir	affaiblir	VERB
 .	.	PUNCTsent
-en fait	en fait	NOUN
+en fait	en fait	ADV
 ,	,	PUNCTclause
 ce	ce	DET
 régime	régime	NOUN
@@ -2900,7 +2900,7 @@ de	de	ADP
 Gaulle	Gaulle	PROPN
 a	avoir	AUX
 été	être	AUX
-le premier	le premier	SYM
+le premier	le premier	PRON
 à	à	ADP
 déclarer	déclarer	VERB
 que	que	SCONJ
@@ -3059,7 +3059,7 @@ l'	le	DET
 évolution	évolution	NOUN
 se	se	PRON
 prononce	prononcer	VERB
-dans l'ensemble	dans l'ensemble	ADP
+dans l'ensemble	dans l'ensemble	ADV
 —	—	PUNCTclause
 avec	avec	ADP
 des	un	DET
@@ -3216,7 +3216,7 @@ l'	le	DET
 Espagne	Espagne	PROPN
 a	avoir	AUX
 restitué	restituer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 et	et	CCONJ
 en	en	ADP
 droit	droit	NOUN
@@ -3347,7 +3347,7 @@ article	article	NOUN
 à	à	ADP
 158	158	NUM
 définissent	définir	VERB
-en détail	en détail	ADP
+en détail	en détail	ADV
 les	le	DET
 compétences	compétence	NOUN
 et	et	CCONJ
@@ -3743,7 +3743,7 @@ Copenhague	Copenhague	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 adoptée	adopter	VERB
-à l'unanimité	à l'unanimité	PUNCT
+à l'unanimité	à l'unanimité	ADV
 le	le	DET
 21	21	NUM
 septembre	septembre	NOUN
@@ -3885,7 +3885,7 @@ cohésion	cohésion	NOUN
 autour de	autour de	ADP
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 critères	critère	NOUN
 variables	variable	ADJ
 ,	,	PUNCTclause

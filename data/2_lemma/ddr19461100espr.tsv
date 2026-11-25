@@ -44,7 +44,7 @@ disait	dire	VERB
 en	en	ADP
 France	France	PROPN
 ,	,	PUNCTclause
-n'importe quels	n'importe quels	ADJ
+n'importe quels	n'importe quels	DET
 problème	problème	NOUN
 de	de	ADP
 ajustement	ajustement	NOUN
@@ -288,8 +288,8 @@ des	un	ADP_DET
 matières	matière	NOUN
 premières	premier	ADJ
 et	et	CCONJ
-d'une façon générale	d'une façon générale	ADP
-toute	toute	DET
+d'une façon générale	d'une façon générale	ADV
+toute	tout	ADJ
 l'	le	DET
 économie	économie	NOUN
 de	de	ADP
@@ -343,7 +343,7 @@ après	après	ADP
 l'autre	l'autre	PRON
 ,	,	PUNCTclause
 sans	sans	ADP
-trop de	trop de	NOUN
+trop de	trop de	DET
 histoires	histoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -403,7 +403,7 @@ lutte	lutte	NOUN
 des	un	ADP_DET
 partis	parti	NOUN
 .	.	PUNCTsent
-c'est pourquoi	c'est pourquoi	PRON
+c'est pourquoi	c'est pourquoi	ADV
 les	le	DET
 partis	parti	NOUN
 ne	ne	ADV
@@ -589,7 +589,7 @@ même	même	ADV
 où	où	PRON
 il	il	PRON
 devait	devoir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 un	un	DET
 usage	usage	NOUN
 maximum	maximum	ADJ
@@ -953,7 +953,7 @@ qui	qui	PRON
 nous	nous	PRON
 créent	créer	VERB
 le	le	DET
-plus de	plus de	SCONJ
+plus de	plus de	DET
 ennuis	ennui	NOUN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1237,9 +1237,9 @@ de	de	ADP
 la	le	DET
 vie	vie	NOUN
 humaine	humain	ADJ
-en gros	en gros	PUNCT
+en gros	en gros	ADV
 et	et	CCONJ
-en détail	en détail	NOUN
+en détail	en détail	ADV
 ,	,	PUNCTclause
 de	de	ADP
 ce	ce	DET
@@ -1355,7 +1355,7 @@ vie privée	vie privée	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 avons	avoir	AUX
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 goût	goût	NOUN
 de	de	ADP
 la	le	DET
@@ -1519,7 +1519,7 @@ pincent	pincer	VERB
 les	le	DET
 lèvres	lèvre	NOUN
 ,	,	PUNCTclause
-comme si	comme si	PRON
+comme si	comme si	SCONJ
 l'on	on	PRON
 venait	venir	VERB
 de	de	ADP
@@ -1746,7 +1746,7 @@ belle	beau	ADJ
 énergie	énergie	NOUN
 et	et	CCONJ
 beaucoup	beaucoup	ADV
-moins de	moins de	PRON
+moins de	moins de	DET
 naïveté	naïveté	NOUN
 que	que	SCONJ
 nous	nous	PRON
@@ -1787,7 +1787,7 @@ nombre	nombre	NOUN
 en	en	ADP
 tire	tire	NOUN
 le	le	DET
-plus de	plus de	SCONJ
+plus de	plus de	DET
 profit	profit	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1816,7 +1816,7 @@ ne	ne	ADV
 arrangerait	arranger	VERB
 pas	pas	ADV
 grand-chose	grand-chose	PRON
-à cet égard	à cet égard	ADP
+à cet égard	à cet égard	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 qui	qui	PRON
@@ -2067,7 +2067,7 @@ notre	notre	DET
 condition	condition	NOUN
 humaine	humain	ADJ
 ,	,	PUNCTclause
-de même que	de même que	CCONJ
+de même que	de même que	SCONJ
 le	le	DET
 goût	goût	NOUN
 des	un	ADP_DET
@@ -2104,10 +2104,10 @@ impunément	impunément	ADV
 se	se	PRON
 vêtir	vêtir	VERB
 de	de	ADP
-n'importe quelle	n'importe quelle	NOUN
+n'importe quelle	n'importe quelle	DET
 couleur	couleur	NOUN
 ,	,	PUNCTclause
-sous prétexte que	sous prétexte que	ADJ
+sous prétexte que	sous prétexte que	SCONJ
 cela	cela	PRON
 «	«	PUNCTclause
 fait	faire	VERB
@@ -2405,7 +2405,7 @@ imaginent	imaginer	VERB
 que	que	ADV
 un	un	DET
 certain	certain	ADJ
-nombre de	nombre de	NOUN
+nombre de	nombre de	DET
 recettes	recette	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -2487,7 +2487,7 @@ ne	ne	ADV
 les	le_PRON	PRON
 rend	rendre	VERB
 pas	pas	ADV
-d'autant plus	d'autant plus	DET
+d'autant plus	d'autant plus	ADV
 fortes	fort	ADJ
 et	et	CCONJ
 fréquentes	fréquent	ADJ
@@ -2656,7 +2656,7 @@ confiance	confiance	NOUN
 en soi	en soi	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-ceci dit	ceci dit	PRON
+ceci dit	ceci dit	ADV
 ,	,	PUNCTclause
 je	je	PRON
 me	me	PRON
@@ -2670,7 +2670,7 @@ je	je	PRON
 leur	leur	PRON
 dis	dire	VERB
 :	:	PUNCTclause
-si vous voulez	si vous voulez	SCONJ
+si vous voulez	si vous voulez	ADV
 que	que	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
@@ -2784,7 +2784,7 @@ apprenons	apprendre	VERB
 de	de	ADP
 eux	eux	PRON
 à	à	ADP
-tenir parole	tenir parole	NOUN
+tenir parole	tenir parole	VERB
 ,	,	PUNCTclause
 à	à	ADP
 nous	nous	PRON
@@ -2807,7 +2807,7 @@ pas	pas	ADV
 couper	couper	VERB
 les	le	DET
 files	file	NOUN
-par principe	par principe	PUNCT
+par principe	par principe	ADV
 ,	,	PUNCTclause
 à	à	ADP
 observer	observer	VERB
@@ -2815,7 +2815,7 @@ les	le	DET
 règles	règle	NOUN
 du	du	ADP_DET
 jeu	jeu	NOUN
-dans la mesure où	dans la mesure où	ADV
+dans la mesure où	dans la mesure où	SCONJ
 elles	elles	PRON
 sont	être	AUX
 raisonnables	raisonnable	ADJ
@@ -2960,7 +2960,7 @@ il	il	PRON
 dépend	dépendre	VERB
 de	de	ADP
 nous	nous	PRON
-de fait	de fait	PUNCT
+de fait	de fait	ADJ
 .	.	PUNCTsent
 cette	ce	DET
 attitude	attitude	NOUN
@@ -2979,7 +2979,7 @@ de	de	ADP
 liberté	liberté	NOUN
 réelle	réel	ADJ
 que	que	ADV
-en avant	en avant	PUNCT
+en avant	en avant	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 tous	tout	ADJ
@@ -2991,7 +2991,7 @@ chaque	chaque	DET
 instant	instant	NOUN
 ,	,	PUNCTclause
 —	—	PUNCTclause
-si l'on veut	si l'on veut	NOUN
+si l'on veut	si l'on veut	ADV
 bien	bien	ADV
 y	y	PRON
 réfléchir	réfléchir	VERB

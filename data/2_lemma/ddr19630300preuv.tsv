@@ -20,7 +20,7 @@ mars	mars	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au lendemain de	au lendemain de	ADP_DET
+au lendemain de	au lendemain de	ADP
 29	29	NUM
 janvier	janvier	NOUN
 ,	,	PUNCTclause
@@ -157,7 +157,7 @@ petite	petit	ADJ
 Europe	Europe	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 a	avoir	AUX
 réaffirmé	réaffirmer	VERB
@@ -324,7 +324,7 @@ l'	le	DET
 atlantique	atlantique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 indiquait	indiquer	VERB
 le	le	DET
 transfert	transfert	NOUN
@@ -356,7 +356,7 @@ occidentale	occidental	ADJ
 se	se	PRON
 imaginait	imaginer	VERB
 que	que	SCONJ
-la première	la première	DET
+la première	la première	PRON
 était	être	AUX
 celle	celle	PRON
 de	de	ADP
@@ -402,7 +402,7 @@ la	le	DET
 supranationalité	supranationalité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la première	la première	NOUN
+la première	la première	PRON
 de	de	ADP
 ces	ce	DET
 deux	deux	NUM
@@ -519,7 +519,7 @@ des	un	ADP_DET
 patries	patrie	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-pas plus que	pas plus que	ADP
+pas plus que	pas plus que	CCONJ
 de	de	ADP
 une	un	DET
 «	«	PUNCTclause
@@ -545,7 +545,7 @@ se	se	PRON
 bornait	borner	VERB
 à	à	ADP
 tolérer	tolérer	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
@@ -628,7 +628,7 @@ nous	nous	PRON
 ce	ce	PRON
 qui	qui	PRON
 revient	revenir	VERB
-en fait	en fait	PUNCT
+en fait	en fait	ADV
 ,	,	PUNCTclause
 sinon	sinon	ADV
 en	en	ADP
@@ -646,7 +646,7 @@ fut	être	AUX
 son	son	DET
 œuvre	œuvre	NOUN
 )	)	PUNCTclause
-en tant que	en tant que	CCONJ
+en tant que	en tant que	ADP
 proprement	proprement	ADV
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -956,7 +956,7 @@ nul	nul	ADJ
 ne	ne	ADV
 veut	vouloir	VERB
 .	.	PUNCTsent
-à l'inverse	à l'inverse	PRON
+à l'inverse	à l'inverse	ADV
 ,	,	PUNCTclause
 l'	le	DET
 Europe	Europe	PROPN
@@ -1087,7 +1087,7 @@ ne	ne	ADV
 sens	sentir	VERB
 plus	plus	ADV
 ,	,	PUNCTclause
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 aucune	aucun	DET
 raison	raison	NOUN
@@ -1197,12 +1197,12 @@ rentre	rentrer	VERB
 mon	mon	DET
 foyer	foyer	NOUN
 ,	,	PUNCTclause
-non que	non que	ADV
+non que	non que	SCONJ
 je	je	PRON
 le	le_PRON	PRON
 quitte	quitter	VERB
 …	…	PUNCTsent
-pour ma part	pour ma part	ADP
+pour ma part	pour ma part	ADV
 ,	,	PUNCTclause
 je	je	PRON
 suis	être	AUX
@@ -1269,7 +1269,7 @@ leurs	leur	DET
 pouvoirs	pouvoir	NOUN
 .	.	PUNCTsent
 dans	dans	ADP
-les mêmes	les mêmes	DET
+les mêmes	les mêmes	PRON
 numéro	numéro	NOUN
 de	de	ADP
 Encounter	Encounter	PROPN
@@ -1346,7 +1346,7 @@ les	le	DET
 années	année	NOUN
 1950	1950	NUM
 ,	,	PUNCTclause
-alors que	alors que	CCONJ
+alors que	alors que	SCONJ
 il	il	PRON
 ne	ne	ADV
 tenait	tenir	VERB
@@ -1384,7 +1384,7 @@ de	de	ADP
 Gaulle	Gaulle	PROPN
 aura	avoir	VERB
 raison	raison	NOUN
-tant que	tant que	ADV
+tant que	tant que	SCONJ
 une	un	DET
 telle	tel	PRON
 opinion	opinion	NOUN
