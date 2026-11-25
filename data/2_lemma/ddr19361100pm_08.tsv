@@ -54,10 +54,7 @@ si	si	SCONJ
 ils	ils	PRON
 savent	savoir	VERB
 que	que	SCONJ
-il	il	PRON
-y	y	PRON
-en	en	PRON
-a	avoir	VERB
+il y en a	il y en a	PUNCT
 une	un	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -75,9 +72,7 @@ ne	ne	ADV
 était	être	AUX
 le	le	DET
 latin	latin	NOUN
-à	à	ADP
-l'	le	DET
-époque	époque	NOUN
+à l'époque	à l'époque	PUNCT
 de	de	ADP
 la	le	DET
 Renaissance	Renaissance	PROPN
@@ -201,8 +196,7 @@ mais	mais	CCONJ
 encore	encore	ADV
 il	il	PRON
 existe	exister	VERB
-autant	autant	ADV
-de	de	ADP
+autant de	autant de	ADP
 ces	ce	DET
 latins	latin	NOUN
 que	que	SCONJ
@@ -226,8 +220,7 @@ mots	mot	NOUN
 ne	ne	ADV
 ont	avoir	AUX
 plus	plus	ADV
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 sens	sens	NOUN
 pour	pour	ADP
 les	le	DET
@@ -249,8 +242,7 @@ ils	ils	PRON
 ne	ne	ADV
 ont	avoir	VERB
 plus	plus	ADV
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 sens	sens	NOUN
 pour	pour	ADP
 les	le	DET
@@ -458,8 +450,7 @@ et	et	CCONJ
 se	se	PRON
 en	en	ADP
 allait	aller	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 plus	plus	ADV
 loin	loin	ADV
 .	.	PUNCTsent
@@ -478,8 +469,7 @@ le	le	DET
 terrain	terrain	NOUN
 en	en	ADP
 hurlant	hurler	VERB
-au	au	ADP_DET
-hasard	hasard	NOUN
+au hasard	au hasard	PUNCT
 son	son	DET
 cri	cri	NOUN
 de	de	ADP
@@ -508,8 +498,7 @@ nos	nos	DET
 problèmes	problème	NOUN
 se	se	PRON
 déplacent	déplacer	VERB
-au	au	ADP_DET
-hasard	hasard	NOUN
+au hasard	au hasard	ADV
 ,	,	PUNCTclause
 chacun	chacun	PRON
 joue	jouer	VERB
@@ -537,8 +526,7 @@ anarchie	anarchie	NOUN
 distribuant	distribuer	VERB
 des	un	DET
 condamnations	condamnation	NOUN
-d'autant	d'autant	ADV
-plus	plus	ADV
+d'autant plus	d'autant plus	ADP
 excessives	excessif	ADJ
 d'ailleurs	d'ailleurs	ADV
 que	que	SCONJ
@@ -548,9 +536,7 @@ se	se	PRON
 soucie	soucier	VERB
 de	de	ADP
 les	le	DET
-mettre	mettre	VERB
-à	à	ADP
-exécution	exécution	NOUN
+mettre à exécution	mettre à exécution	NOUN
 .	.	PUNCTsent
 «	«	PUNCTclause
 vous	vous	PRON
@@ -741,9 +727,8 @@ chacun	chacun	PRON
 de	de	ADP
 ces	ce	DET
 mots	mot	NOUN
-avait	avoir	VERB
-le	le	DET
-même	même	ADJ
+avait	avoir	AUX
+les mêmes	les mêmes	DET
 sens	sens	NOUN
 pour tout	pour tout	ADP
 le	le	DET
@@ -788,8 +773,7 @@ esprit	esprit	NOUN
 si	si	SCONJ
 je	je	PRON
 interroge	interroger	VERB
-au	au	ADP_DET
-hasard	hasard	NOUN
+au hasard	au hasard	PUNCT
 ceux	ceux	PRON
 qui	qui	PRON
 veulent	vouloir	VERB
@@ -1029,9 +1013,7 @@ cas	cas	NOUN
 :	:	PUNCTclause
 émeute	émeute	NOUN
 ,	,	PUNCTclause
-prise	prendre	VERB
-de	de	ADP
-pouvoir	pouvoir	NOUN
+prise de pouvoir	prise de pouvoir	ADP
 légal	légal	ADJ
 ,	,	PUNCTclause
 désordre	désordre	NOUN
@@ -1310,10 +1292,8 @@ de	de	ADP
 repère	repère	NOUN
 ,	,	PUNCTclause
 a	avoir	AUX
-tout	tout	ADV
-au	au	ADP_DET
-plus	plus	ADV
-triplé	triplé	NOUN
+tout au plus	tout au plus	ADV
+triplé	tripler	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 ce	ce	PRON
@@ -1369,8 +1349,7 @@ et	et	CCONJ
 discuté	discuter	VERB
 par	par	ADP
 beaucoup	beaucoup	ADV
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	PUNCT
 personnes	personne	NOUN
 que	que	SCONJ
 Descartes	Descartes	PROPN
@@ -1512,9 +1491,7 @@ l'	le	DET
 esprit	esprit	NOUN
 me	me	PRON
 paraît	paraître	VERB
-tout	tout	ADJ
-à	à	ADP
-fait	fait	NOUN
+tout à fait	tout à fait	ADJ
 improbable	improbable	ADJ
 dans l'état actuel	dans l'état actuel	ADV
 du	du	ADP_DET
@@ -1522,14 +1499,10 @@ régime	régime	NOUN
 .	.	PUNCTsent
 elle	elle	PRON
 est	être	AUX
-à	à	ADP
-tout	tout	DET
-le	le_PRON	PRON
-moins	moins	ADV
+à tout le moins	à tout le moins	ADV
 invérifiable	invérifiable	ADJ
 .	.	PUNCTsent
-par	par	ADP
-contre	contre	NOUN
+par contre	par contre	NOUN
 ,	,	PUNCTclause
 on	on	PRON
 peut	pouvoir	VERB
@@ -1680,9 +1653,7 @@ se	se	PRON
 veulent	vouloir	VERB
 scrupuleux	scrupuleux	ADJ
 .	.	PUNCTsent
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 la plupart	la plupart	PRON
 renoncent	renoncer	VERB
 à	à	ADP
@@ -1725,8 +1696,7 @@ expression	expression	NOUN
 qui	qui	PRON
 ne	ne	ADV
 a	avoir	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 mission	mission	NOUN
 réelle	réel	ADJ
 .	.	PUNCTsent
@@ -1945,9 +1915,7 @@ sacrée	sacré	ADJ
 ainsi	ainsi	ADV
 toujours	toujours	ADV
 :	:	PUNCTclause
-pour	pour	ADP
-peu	peu	ADV
-que	que	SCONJ
+pour peu que	pour peu que	PUNCT
 le	le	DET
 sens	sens	NOUN
 des	un	ADP_DET
@@ -1971,8 +1939,7 @@ observée	observer	VERB
 l'on	on	PRON
 assiste	assister	VERB
 à	à	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 dégradation	dégradation	NOUN
 des	un	ADP_DET
 instruments	instrument	NOUN
@@ -2165,8 +2132,7 @@ ils	ils	PRON
 échangent	échanger	VERB
 des	un	DET
 paroles	parole	NOUN
-en	en	ADP
-plus	plus	ADV
+en plus	en plus	ADV
 grand	grand	ADJ
 nombre	nombre	NOUN
 que	que	SCONJ
@@ -2291,9 +2257,8 @@ là	là	ADV
 où	où	PRON
 elle	elle	PRON
 ne	ne	ADV
-a	avoir	VERB
-pas	pas	ADV
-même	même	ADV
+a	avoir	AUX
+pas même	pas même	ADV
 laissé	laisser	VERB
 les	le	DET
 traces	trace	NOUN
@@ -2433,10 +2398,7 @@ donnent	donner	VERB
 des	un	DET
 idoles	idole	NOUN
 faites	faire	VERB
-à	à	ADP
-l'	le	DET
-image	image	NOUN
-des	un	ADP_DET
+à l'image de	à l'image de	ADP
 terreurs	terreur	NOUN
 de	de	ADP
 l'	le	DET
@@ -2500,8 +2462,7 @@ donnera	donner	VERB
 donc	donc	ADV
 autre chose	autre chose	NOUN
 :	:	PUNCTclause
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 choses	chose	NOUN
 sous	sous	ADP
 d'autres	d'autre	PRON

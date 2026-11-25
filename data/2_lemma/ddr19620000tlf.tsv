@@ -450,9 +450,8 @@ la	le	DET
 littérature	littérature	NOUN
 France	France	PROPN
 ,	,	PUNCTclause
-encore	encore	ADV
-que	que	SCONJ
-les	le	DET
+encore que	encore que	DET
+les	le_PRON	PRON
 vertus	vertu	NOUN
 de	de	ADP
 clarté	clarté	NOUN
@@ -466,8 +465,7 @@ dans	dans	ADP
 les	le	DET
 termes	terme	NOUN
 et	et	CCONJ
-de	de	ADP
-rigueur	rigueur	NOUN
+de rigueur	de rigueur	NOUN
 dans	dans	ADP
 l'	le	DET
 articulation	articulation	NOUN
@@ -503,9 +501,7 @@ ce	ce	PRON
 que	que	PRON
 on	on	PRON
 entend	entendre	VERB
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	DET
 par	par	ADP
 «	«	PUNCTclause
 la	le	DET
@@ -538,8 +534,7 @@ sa	son	DET
 place	place	NOUN
 et	et	CCONJ
 ,	,	PUNCTclause
-de	de	ADP
-fait	fait	NOUN
+de fait	de fait	DET
 ,	,	PUNCTclause
 ne	ne	ADV
 joue	jouer	VERB
@@ -680,9 +675,7 @@ inflexible	inflexible	ADJ
 discipline	discipline	NOUN
 intime	intime	ADJ
 .	.	PUNCTsent
-rien	rien	PRON
-de	de	ADP
-moins	moins	ADV
+rien de moins	rien de moins	PRON
 sec	sec	ADJ
 ,	,	PUNCTclause
 d'ailleurs	d'ailleurs	ADV
@@ -795,15 +788,12 @@ désir	désir	NOUN
 de	de	ADP
 profiter	profiter	VERB
 ,	,	PUNCTclause
-que	que	PRON
-encore	encore	ADV
-que	que	PRON
+que	que	SCONJ
+encore que	encore que	SCONJ
 je	je	PRON
 ne	ne	ADV
-quittasse	quitter	VERB
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+quittasse	quitter	PRON
+pas du tout	pas du tout	ADV
 les	le	DET
 autres	autre	ADJ
 études	étude	NOUN
@@ -862,8 +852,7 @@ d'autant que	d'autant que	CCONJ
 de	de	ADP
 un	un	DET
 naturel	naturel	ADJ
-un	un	DET
-peu	peu	ADV
+un peu	un peu	NOUN
 sauvage	sauvage	ADJ
 et	et	CCONJ
 honteux	honteux	ADJ
@@ -908,9 +897,7 @@ toutes	tout	ADJ
 retraites	retrait	NOUN
 et	et	CCONJ
 lieux	lieu	NOUN
-à	à	ADP
-l'	le	DET
-écart	écart	NOUN
+à l'écart	à l'écart	PUNCT
 me	me	PRON
 étaient	être	AUX
 comme	comme	ADP
@@ -927,8 +914,7 @@ ce	ce	DET
 but	but	NOUN
 de	de	ADP
 vivre	vivre	VERB
-en	en	ADP
-privé	privé	NOUN
+en privé	en privé	PUNCT
 sans	sans	ADP
 être	être	AUX
 connu	connaître	VERB
@@ -974,8 +960,7 @@ lumière	lumière	NOUN
 et	et	CCONJ
 fait	faire	AUX
 venir	venir	VERB
-en	en	ADP
-jeu	jeu	NOUN
+en jeu	en jeu	PUNCT
 ,	,	PUNCTclause
 comme	comme	SCONJ
 on	on	PRON
@@ -1060,8 +1045,8 @@ vivre	vivre	VERB
 caché	cacher	VERB
 ,	,	PUNCTclause
 connu	connaître	VERB
+de peu	de peu	PUNCT
 de	de	ADP
-peu de	peu de	DET
 gens	gens	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
@@ -1079,9 +1064,7 @@ pour	pour	ADP
 les	le	DET
 calomnier	calomnier	VERB
 plus	plus	ADV
-à	à	ADP
-l'	le	DET
-aise	aise	NOUN
+à l'aise	à l'aise	ADV
 ,	,	PUNCTclause
 l'	le	DET
 obligent	obliger	VERB
@@ -1249,8 +1232,7 @@ une	un	DET
 adjuration	adjuration	NOUN
 épouvantable	épouvantable	ADJ
 ,	,	PUNCTclause
-comme	comme	SCONJ
-si	si	SCONJ
+comme si	comme si	SCONJ
 Dieu	Dieu	PROPN
 eût	avoir	VERB
 de	de	ADP
@@ -1349,8 +1331,7 @@ devient	devenir	VERB
 le	le	DET
 pasteur	pasteur	NOUN
 de	de	ADP
-la	le	DET
-première	premier	ADJ
+la première	la première	NOUN
 église	église	NOUN
 réformée	réformé	ADJ
 ,	,	PUNCTclause
@@ -1640,8 +1621,7 @@ cette	ce	DET
 juste	juste	ADJ
 défaite	défaite	NOUN
 infligée	infliger	VERB
-sans	sans	ADP
-relâche	relâche	NOUN
+sans relâche	sans relâche	ADP
 à	à	ADP
 l'	le	DET
 individu	individu	NOUN
@@ -1662,8 +1642,7 @@ appeler	appeler	VERB
 et	et	CCONJ
 le	le	DET
 réalise	réaliser	VERB
-à	à	ADP
-jamais	jamais	ADV
+à jamais	à jamais	PUNCT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 toutes	tout	ADJ
@@ -1715,9 +1694,7 @@ proverbes	proverbe	NOUN
 de	de	ADP
 frustes	fruste	ADJ
 apologues	apologue	NOUN
-à	à	ADP
-la	le	DET
-volée	volée	NOUN
+à la volée	à la volée	PUNCT
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -1753,8 +1730,7 @@ nous	nous	PRON
 jugeons	juger	VERB
 pittoresques	pittoresque	ADJ
 ,	,	PUNCTclause
-par	par	ADP
-erreur	erreur	NOUN
+par erreur	par erreur	NOUN
 ,	,	PUNCTclause
 des	un	DET
 tours	tour	NOUN
@@ -1981,8 +1957,7 @@ un	un	DET
 Dieu-roi	Dieu-roi	PROPN
 formidablement	formidablement	ADV
 exalté	exalter	VERB
-au-dessus	au-dessus	ADV
-des	un	ADP_DET
+au-dessus de	au-dessus de	PUNCT
 puissants	puissant	ADJ
 de	de	ADP
 la	le	DET

@@ -13,8 +13,7 @@ Europe	Europe	PROPN
 —	—	PUNCTclause
 l'	le	DET
 Europe	Europe	PROPN
-en	en	ADP
-marche	marche	NOUN
+en marche	en marche	PUNCT
 (	(	PUNCTclause
 21	21	NUM
 février	février	NOUN
@@ -196,10 +195,7 @@ composent	composer	VERB
 autour de	autour de	ADP
 nous	nous	PRON
 ,	,	PUNCTclause
-de	de	ADP
-jour	jour	NOUN
-en	en	ADP
-jour	jour	NOUN
+de jour en jour	de jour en jour	DET
 .	.	PUNCTsent
 vous	vous	PRON
 savez	savoir	VERB
@@ -300,8 +296,7 @@ plus tard	plus tard	ADV
 l'	le	DET
 école	école	NOUN
 ,	,	PUNCTclause
-tout	tout	ADV
-comme	comme	SCONJ
+tout comme	tout comme	PRON
 on	on	PRON
 vous	vous	PRON
 apprit	apprendre	VERB
@@ -322,8 +317,7 @@ cent	cent	NUM
 ans	an	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	PRON
 de	de	ADP
 ces	ce	DET
 résultats	résultat	NOUN
@@ -386,8 +380,7 @@ je	je	PRON
 commenterai	commenter	VERB
 cette	ce	DET
 décision	décision	NOUN
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	PUNCT
 dans	dans	ADP
 notre	notre	DET
 histoire	histoire	NOUN
@@ -814,11 +807,7 @@ seront	être	AUX
 annexés	annexer	VERB
 ou	ou	CCONJ
 colonisés	coloniser	VERB
-les	le	DET
-uns	un	PRON
-après	après	ADP
-les	le	DET
-autres	autre	ADJ
+les uns après les autres	les uns après les autres	DET
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 2	2	NUM
@@ -917,10 +906,9 @@ laissera	laisser	VERB
 peu de	peu de	DET
 monde	monde	NOUN
 pour	pour	ADP
-en	en	PRON
-faire	faire	VERB
-une	un	DET
-nouvelle	nouvelle	NOUN
+en fait	en fait	DET
+une	un	PRON
+nouvelle	nouveau	ADJ
 …	…	PUNCTsent
 mais	mais	CCONJ
 aussi	aussi	ADV
@@ -1102,13 +1090,10 @@ côté	côté	NOUN
 ,	,	PUNCTclause
 ils	ils	PRON
 seraient	être	AUX
-en	en	ADP
-mesure	mesure	NOUN
-de	de	ADP
+en mesure de	en mesure de	ADP
 agir	agir	VERB
 ,	,	PUNCTclause
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	ADP
 réfléchir	réfléchir	VERB
 l'	le	DET
 agresseur	agresseur	NOUN
@@ -1179,11 +1164,9 @@ personne	personne_PRON	PRON
 ne	ne	ADV
 ose	oser	VERB
 dire	dire	VERB
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 ,	,	PUNCTclause
-pas	pas	ADV
-même	même	ADJ
+pas même	pas même	ADV
 les	le	DET
 staliniens	stalinien	ADJ
 (	(	PUNCTclause
@@ -1311,9 +1294,7 @@ que	que	SCONJ
 pourra	pouvoir	VERB
 on	on	PRON
 faire	faire	VERB
-en	en	ADP
-temps	temps	NOUN
-utile	utile	ADJ
+en temps utile	en temps utile	DET
 ,	,	PUNCTclause
 pour que	pour que	SCONJ
 la	le	DET
@@ -1338,8 +1319,7 @@ un	un	DET
 beau	beau	ADJ
 rêve	rêve	NOUN
 .	.	PUNCTsent
-en	en	ADP
-attendant	attendre	VERB
+en attendant	en attendant	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -1437,8 +1417,7 @@ avons	avoir	AUX
 nous	nous	PRON
 le	le	DET
 temps	temps	NOUN
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 encore	encore	ADV
 ,	,	PUNCTclause
 —	—	PUNCTclause
@@ -1456,8 +1435,7 @@ lundi	lundi	NOUN
 soir	soir	NOUN
 ,	,	PUNCTclause
 à	à	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 heure	heure	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON

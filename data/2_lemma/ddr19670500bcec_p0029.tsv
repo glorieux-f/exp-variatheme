@@ -19,9 +19,7 @@ mai	mai	NOUN
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
 .	.	PUNCTsent
-mise	mettre	VERB
-en	en	ADP
-garde	garde	NOUN
+mise en garde	mise en garde	NOUN
 préalable	préalable	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -74,9 +72,7 @@ de	de	ADP
 utiliser	utiliser	VERB
 l'	le	DET
 enseignement	enseignement	NOUN
-au	au	ADP_DET
-profit	profit	NOUN
-de	de	ADP
+au profit de	au profit de	ADP
 une	un	DET
 bonne	bon	ADJ
 cause	cause	NOUN
@@ -173,11 +169,10 @@ au	au	ADP_DET
 sens	sens	NOUN
 moderne	moderne	ADJ
 ,	,	PUNCTclause
-soit	soit	CCONJ
-en	en	ADP
-partie	partie	NOUN
-le	le	DET
-produit	produit	NOUN
+soit	être	AUX
+en partie	en partie	DET
+le	le_PRON	PRON
+produit	produire	VERB
 de	de	ADP
 certains	certain	DET
 auteurs	auteur	NOUN
@@ -240,8 +235,7 @@ ne	ne	ADV
 se	se	PRON
 agit	agir	VERB
 pas	pas	ADV
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 de	de	ADP
 «	«	PUNCTclause
 dégager	dégager	VERB
@@ -291,8 +285,7 @@ se	se	PRON
 est	être	AUX
 jamais	jamais	ADV
 préoccupé	préoccuper	VERB
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 un	un	DET
 «	«	PUNCTclause
 apport	apport	NOUN
@@ -368,13 +361,10 @@ telle	tel	DET
 autre	autre	ADJ
 ,	,	PUNCTclause
 née	naître	VERB
-au	au	ADP_DET
-même	même	ADJ
-moment	moment	NOUN
+au même moment	au même moment	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 milieu	milieu	NOUN
 )	)	PUNCTclause
 .	.	PUNCTsent
@@ -542,8 +532,7 @@ Brecht	Brecht	PROPN
 et	et	CCONJ
 seulement	seulement	ADV
 ,	,	PUNCTclause
-par	par	ADP
-exception	exception	NOUN
+par exception	par exception	INTJ
 ,	,	PUNCTclause
 parce que	parce que	SCONJ
 ce	ce	PRON
@@ -741,9 +730,7 @@ qui	qui	PRON
 se	se	PRON
 est	être	AUX
 ,	,	PUNCTclause
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 âges	âge	NOUN
 ,	,	PUNCTclause
 à la fois	à la fois	ADV
@@ -821,9 +808,7 @@ Europe	Europe	PROPN
 dans	dans	ADP
 ce	ce	DET
 domaine	domaine	NOUN
-en	en	ADP
-tout	tout	DET
-cas	cas	NOUN
+en tout cas	en tout cas	PUNCT
 ,	,	PUNCTclause
 nous	nous	PRON
 ne	ne	ADV
@@ -1070,8 +1055,7 @@ vénération	vénération	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 sans	sans	ADP
-esprit	esprit	NOUN
-critique	critique	ADJ
+esprit critique	esprit critique	NOUN
 :	:	PUNCTclause
 ceci	ceci	PRON
 les	le	DET
@@ -1309,9 +1293,7 @@ Goethe	Goethe	PROPN
 .	.	PUNCTsent
 ou	ou	CCONJ
 ,	,	PUNCTclause
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	ADV
 ,	,	PUNCTclause
 les	le	DET
 Mille	Mille	PROPN
@@ -2155,8 +2137,7 @@ l'	le	DET
 Allemagne	Allemagne	PROPN
 littéraire	littéraire	ADJ
 à	à	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 époque	époque	NOUN
 .	.	PUNCTsent
 le	le	DET
@@ -2202,8 +2183,7 @@ le	le	DET
 France	France	PROPN
 est	être	AUX
 la	le	DET
-langue	langue	NOUN
-maternelle	maternel	ADJ
+langue maternelle	langue maternelle	NOUN
 de	de	ADP
 communautés	communauté	NOUN
 appartenant	appartenir	VERB
@@ -2239,8 +2219,7 @@ structurelle	structurel	ADJ
 que	que	SCONJ
 spirituelle	spirituel	ADJ
 ,	,	PUNCTclause
-au-delà	au-delà	ADV
-des	un	ADP_DET
+au-delà de	au-delà de	ADP
 diversités	diversité	NOUN
 linguistiques.	linguistiques.	PUNCT
 ↵↵	↵↵	PUNCTstruct
@@ -2334,8 +2313,7 @@ langue	langue	NOUN
 ,	,	PUNCTclause
 celui	celui	PRON
 que	que	PRON
-en	en	PRON
-fait	faire	VERB
+en fait	en fait	PUNCT
 un	un	DET
 vrai	vrai	ADJ
 poète	poète	NOUN
@@ -2443,8 +2421,7 @@ commune	commun	ADJ
 ;	;	PUNCTclause
 elle	elle	PRON
 signifie	signifier	VERB
-bien	bien	ADV
-au contraire	au contraire	ADV
+bien au contraire	bien au contraire	NOUN
 une	un	DET
 pluralité	pluralité	NOUN
 des	un	ADP_DET
@@ -2661,11 +2638,9 @@ nation	nation	NOUN
 :	:	PUNCTclause
 les	le	DET
 effacer	effacer	VERB
-de	de	ADP
-force	force	NOUN
+de force	de force	PUNCT
 ,	,	PUNCTclause
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 et	et	CCONJ
 en	en	ADP
 droit	droit	NOUN

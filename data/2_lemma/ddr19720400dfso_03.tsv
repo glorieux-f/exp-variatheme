@@ -55,9 +55,7 @@ global	global	ADJ
 de	de	ADP
 interrégulations	interrégulations	NOUN
 .	.	PUNCTsent
-compte	compte	NOUN
-tenu	tenir	VERB
-du	du	ADP_DET
+compte tenu de	compte tenu de	ADP
 fantastique	fantastique	NOUN
 enchevêtrement	enchevêtrement	NOUN
 des	un	ADP_DET
@@ -321,10 +319,7 @@ surpopulation	surpopulation	NOUN
 )	)	PUNCTclause
 puis	puis	CCONJ
 ,	,	PUNCTclause
-sur	sur	ADP
-la	le	DET
-base	base	NOUN
-de	de	ADP
+sur la base de	sur la base de	ADP
 observations	observation	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -533,9 +528,7 @@ augmenter	augmenter	VERB
 ou	ou	CCONJ
 à	à	ADP
 diminuer	diminuer	VERB
-l'un	l'un	PRON
-ou	ou	CCONJ
-l'autre	l'autre	PRON
+l'un ou l'autre	l'un ou l'autre	DET
 ,	,	PUNCTclause
 ou	ou	CCONJ
 deux	deux	NUM
@@ -651,8 +644,7 @@ années	année	NOUN
 —	—	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 ,	,	PUNCTclause
-à	à	ADP
-supposé que	supposé que	ADP
+à supposer que	à supposer que	SCONJ
 cela	cela	PRON
 se	se	PRON
 passe	passer	VERB
@@ -672,8 +664,7 @@ deux	deux	NUM
 décennies	décennie	NOUN
 ,	,	PUNCTclause
 catastrophe	catastrophe	NOUN
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	PUNCT
 dans	dans	ADP
 l'	le	DET
 histoire	histoire	NOUN
@@ -694,8 +685,7 @@ bas	bas	ADJ
 fait	faire	VERB
 une	un	DET
 remontée	remontée	NOUN
-en	en	ADP
-flèche	flèche	NOUN
+en flèche	en flèche	PUNCT
 pour	pour	ADP
 les	le	DET
 2	2	NUM
@@ -763,8 +753,7 @@ de	de	ADP
 imaginer	imaginer	VERB
 et	et	CCONJ
 encore	encore	ADV
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	PUNCT
 nous	nous	PRON
 faire	faire	AUX
 accepter	accepter	VERB
@@ -830,8 +819,7 @@ réduction	réduction	NOUN
 suivants	suivant	ADJ
 ,	,	PUNCTclause
 appliqués	appliquer	VERB
-par	par	ADP
-hypothèse	hypothèse	NOUN
+par hypothèse	par hypothèse	ADP
 dès	dès	ADP
 1970	1970	NUM
 :	:	PUNCTclause
@@ -931,8 +919,7 @@ années	année	NOUN
 ,	,	PUNCTclause
 «	«	PUNCTclause
 peut-être	peut-être	ADV
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	PUNCT
 années	année	NOUN
 que	que	SCONJ
 il	il	PRON
@@ -1036,9 +1023,7 @@ déjà	déjà	ADV
 —	—	PUNCTclause
 des	un	ADP_DET
 objections	objection	NOUN
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 irritées	irriter	VERB
 .	.	PUNCTsent
 je	je	PRON
@@ -1098,9 +1083,7 @@ ne	ne	ADV
 était	être	AUX
 pas	pas	ADV
 simplifié	simplifier	VERB
-à	à	ADP
-l'	le	DET
-extrême	extrême	ADJ
+à l'extrême	à l'extrême	PUNCT
 il	il	PRON
 ne	ne	ADV
 serait	être	AUX
@@ -1134,8 +1117,7 @@ interactions	interaction	NOUN
 ,	,	PUNCTclause
 mécanismes	mécanisme	NOUN
 .	.	PUNCTsent
-au	au	ADP_DET
-surplus	surplus	NOUN
+au surplus	au surplus	ADV
 ,	,	PUNCTclause
 il	il	PRON
 faut	falloir	VERB
@@ -1163,8 +1145,9 @@ agit	agir	VERB
 pour	pour	ADP
 Forrester	Forrester	PROPN
 que	que	SCONJ
-de	de	ADP
-mettre en lumière	mettre en lumière	VERB
+de mise	de mise	DET
+en	en	PRON
+lumière	lumière	NOUN
 les	le	DET
 interactions	interaction	NOUN
 dynamiques	dynamique	ADJ
@@ -1204,9 +1187,7 @@ en	en	ADP
 si	si	SCONJ
 nous	nous	PRON
 prenions	prendre	VERB
-telle	tel	DET
-ou	ou	CCONJ
-telle	tel	DET
+telle ou telle	telle ou telle	ADP
 mesure	mesure	NOUN
 en	en	ADP
 1970	1970	NUM
@@ -1278,8 +1259,7 @@ plus	plus	ADV
 que	que	SCONJ
 partout	partout	ADV
 ailleurs	ailleurs	ADV
-en	en	ADP
-danger	danger	NOUN
+en danger	en danger	PUNCT
 de	de	ADP
 prendre	prendre	VERB
 ses	son	DET
@@ -1621,10 +1601,7 @@ modèle	modèle	NOUN
 napoléonien	napoléonien	ADJ
 …	…	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-quoi que	quoi que	SCONJ
-il	il	PRON
-en	en	PRON
-soit	être	AUX
+quoi qu'il en soit	quoi qu'il en soit	ADV
 d'ailleurs	d'ailleurs	ADV
 de	de	ADP
 ces	ce	DET
@@ -1677,8 +1654,7 @@ MIT	MIT	PROPN
 Forrester	Forrester	PROPN
 aura	avoir	AUX
 été	être	AUX
-le	le_PRON	PRON
-premier	premier	ADJ
+le premier	le premier	SYM
 à	à	ADP
 montrer	montrer	VERB
 l'	le	DET
@@ -1700,8 +1676,7 @@ une	un	DET
 concentration	concentration	NOUN
 globale	global	ADJ
 ,	,	PUNCTclause
-au-delà	au-delà	ADV
-du	du	ADP_DET
+au-delà de	au-delà de	ADP
 stade	stade	NOUN
 de	de	ADP
 croissance	croissance	NOUN

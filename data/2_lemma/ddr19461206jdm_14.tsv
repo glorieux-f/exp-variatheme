@@ -59,9 +59,7 @@ pour	pour	ADP
 ma	mon	DET
 santé	santé	NOUN
 .	.	PUNCTsent
-à	à	ADP
-mesure	mesure	NOUN
-que	que	SCONJ
+à mesure que	à mesure que	SCONJ
 la	le	DET
 victoire	victoire	NOUN
 des	un	ADP_DET
@@ -253,8 +251,7 @@ comme	comme	ADP
 on	on	PRON
 le	le_PRON	PRON
 sent	sentir	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 après	après	ADP
 Valence	Valence	PROPN
 quand	quand	SCONJ
@@ -531,10 +528,9 @@ des	un	ADP_DET
 autres	autre	ADJ
 ,	,	PUNCTclause
 conserver	conserver	VERB
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 liberté	liberté	NOUN
-que	que	SCONJ
+que	que	ADV
 dans	dans	ADP
 sa	son	DET
 propre	propre	ADJ
@@ -616,8 +612,7 @@ mouvoir	mouvoir	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
-en	en	PRON
-faire	faire	VERB
+en fait	en fait	NOUN
 usage	usage	NOUN
 ,	,	PUNCTclause
 simplement	simplement	ADV
@@ -667,8 +662,7 @@ pouvoir	pouvoir	NOUN
 de	de	ADP
 dessécher	dessécher	VERB
 tout	tout	ADV
-être	être	AUX
-humain	humain	ADJ
+être humain	être humain	ADV
 ,	,	PUNCTclause
 ou	ou	CCONJ
 animal	animal	NOUN
@@ -1135,9 +1129,7 @@ lui-même	lui-même	PRON
 les	le	DET
 vocations	vocation	NOUN
 ,	,	PUNCTclause
-au	au	ADP_DET
-nom	nom	NOUN
-du	du	ADP_DET
+au nom de	au nom de	ADP
 peuple	peuple	NOUN
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
@@ -1217,9 +1209,8 @@ trop	trop	ADV
 ,	,	PUNCTclause
 je	je	PRON
 en	en	PRON
-serai	être	VERB
-le	le	DET
-premier	premier	ADJ
+serai	être	AUX
+le premier	le premier	DET
 gêné	gêné	ADJ
 .	.	PUNCTsent
 que	que	SCONJ
@@ -1233,9 +1224,7 @@ car	car	CCONJ
 lui	lui	PRON
 seul	seul	ADJ
 est	être	AUX
-en	en	ADP
-mesure	mesure	NOUN
-de	de	ADP
+en mesure de	en mesure de	ADP
 estimer	estimer	VERB
 ses	son	DET
 besoins	besoin	NOUN
@@ -1248,8 +1237,7 @@ dans	dans	ADP
 ce	ce	PRON
 régime	régime	NOUN
 pas	pas	ADV
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	PUNCT
 abus	abus	NOUN
 que	que	SCONJ
 vos	vos	DET
@@ -1316,8 +1304,7 @@ tirer	tirer	VERB
 —	—	PUNCTclause
 qui	qui	PRON
 permet	permettre	VERB
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 en	en	ADP
 un	un	DET
 quart d'heure	quart d'heure	NOUN
@@ -1827,9 +1814,7 @@ du	du	ADP_DET
 lierre	lierre	NOUN
 partout	partout	ADV
 .	.	PUNCTsent
-çà	çà	ADV
-et	et	CCONJ
-là	là	ADV
+çà et là	çà et là	ADV
 ,	,	PUNCTclause
 des	un	DET
 statues	statue	NOUN
@@ -1895,9 +1880,7 @@ carrosse	carrosse	NOUN
 de	de	ADP
 Washington	Washington	PROPN
 ,	,	PUNCTclause
-à	à	ADP
-l'	le	DET
-abandon	abandon	NOUN
+à l'abandon	à l'abandon	DET
 .	.	PUNCTsent
 la	le	DET
 peinture	peinture	NOUN
@@ -2315,8 +2298,7 @@ en	en	ADP
 aboyant	aboyer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au	au	ADP_DET
-fond	fond	NOUN
+au fond	au fond	ADP_DET
 de	de	ADP
 une	un	DET
 pièce	pièce	NOUN
@@ -2373,8 +2355,7 @@ lustre	lustre	NOUN
 enfin	enfin	ADV
 se	se	PRON
 allume	allumer	VERB
-par	par	ADP
-degrés	degré	NOUN
+par degrés	par degrés	PUNCT
 .	.	PUNCTsent
 elle	elle	PRON
 court	courir	VERB
@@ -2430,8 +2411,7 @@ de	de	ADP
 tonnerre	tonnerre	NOUN
 se	se	PRON
 succèdent	succéder	VERB
-sans	sans	ADP
-répit	répit	NOUN
+sans répit	sans répit	PUNCT
 ,	,	PUNCTclause
 et	et	CCONJ
 parfois	parfois	ADV
@@ -2462,9 +2442,7 @@ des	un	DET
 verres	verre	NOUN
 de	de	ADP
 whisky	whisky	NOUN
-à	à	ADP
-la	le	DET
-main	main	NOUN
+à la main	à la main	PUNCT
 .	.	PUNCTsent
 Deux	Deux	NUM
 femmes	femme	NOUN
@@ -2474,11 +2452,8 @@ et	et	CCONJ
 vont	aller	VERB
 se	se	PRON
 asseoir	asseoir	VERB
-un	un	DET
-peu	peu	ADV
-à	à	ADP
-l'	le	DET
-écart	écart	NOUN
+un peu	un peu	PUNCT
+à l'écart	à l'écart	PUNCT
 de	de	ADP
 notre	notre	DET
 groupe	groupe	NOUN
@@ -2633,8 +2608,7 @@ peur	peur	NOUN
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
-hé	hé	INTJ
-bien	bien	ADV
+eh bien	eh bien	NOUN
 ?	?	PUNCTsent
 me	me	PRON
 ont	avoir	AUX
@@ -2776,9 +2750,7 @@ est	être	AUX
 peut-être	peut-être	ADV
 pas	pas	ADV
 seulement	seulement	ADV
-à	à	ADP
-cause	cause	NOUN
-du	du	ADP_DET
+à cause de	à cause de	ADP
 contrôle	contrôle	NOUN
 policier	policier	ADJ
 .	.	PUNCTsent
@@ -2999,8 +2971,7 @@ philosophes	philosophe	NOUN
 se	se	PRON
 taisent	taire	VERB
 ,	,	PUNCTclause
-depuis	depuis	ADP
-que	que	SCONJ
+depuis que	depuis que	SCONJ
 Heidegger	Heidegger	PROPN
 a	avoir	AUX
 formulé	formuler	VERB
@@ -3083,8 +3054,7 @@ mal	mal	NOUN
 pousser	pousser	VERB
 leurs	leur	DET
 efforts	effort	NOUN
-au	au	ADP_DET
-maximum	maximum	NOUN
+au maximum	au maximum	PUNCT
 .	.	PUNCTsent
 la	le	DET
 guerre	guerre	NOUN
@@ -3241,8 +3211,7 @@ se	se	PRON
 en	en	ADP
 est	être	AUX
 fallu	falloir	VERB
-de	de	ADP
-peu	peu	ADV
+de peu	de peu	PUNCT
 que	que	SCONJ
 je	je	PRON
 ne	ne	ADV
@@ -3355,10 +3324,7 @@ plaisir	plaisir	NOUN
 ,	,	PUNCTclause
 la	le	DET
 jugeaient	juger	VERB
-sur	sur	ADP
-la	le	DET
-foi	foi	NOUN
-de	de	ADP
+sur la foi de	sur la foi de	ADP
 ses	son	DET
 vedettes	vedette	NOUN
 .	.	PUNCTsent
@@ -3585,8 +3551,7 @@ résistance	résistance	NOUN
 ne	ne	ADV
 nous	nous	PRON
 montrent	montrer	VERB
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	SCONJ
 le	le	DET
 peuple	peuple	NOUN
 de	de	ADP
@@ -3659,10 +3624,7 @@ Assignment	Assignment	ADV
 in	in	X
 Brittany	Brittany	X
 ,	,	PUNCTclause
-il	il	PRON
-y	y	PRON
-en	en	PRON
-a	avoir	AUX
+il y en a	il y en a	PRON
 d'autres	d'autre	PRON
 .	.	PUNCTsent
 je	je	PRON
@@ -3720,8 +3682,7 @@ je	je	PRON
 regardais	regarder	VERB
 ces	ce	DET
 amis	ami	NOUN
-du	du	ADP_DET
-coin de l'œil	coin de l'œil	NOUN
+du coin de l'œil	du coin de l'œil	PUNCT
 :	:	PUNCTclause
 en	en	ADP
 critiquant	critiquer	VERB
@@ -3813,8 +3774,7 @@ et	et	CCONJ
 souvent	souvent	ADV
 par	par	ADP
 la	le	DET
-faute	faute	NOUN
-des	un	ADP_DET
+faute de	faute de	ADP
 élites	élite	NOUN
 parisiennes	parisien	ADJ
 :	:	PUNCTclause
@@ -4156,8 +4116,7 @@ se	se	PRON
 savent	savoir	VERB
 battus	battre	VERB
 .	.	PUNCTsent
-depuis	depuis	ADP
-que	que	SCONJ
+depuis que	depuis que	SCONJ
 ils	ils	PRON
 ont	avoir	AUX
 rencontré	rencontrer	VERB

@@ -59,9 +59,8 @@ le	le	DET
 sens	sens	NOUN
 traditionnel	traditionnel	ADJ
 et	et	CCONJ
-un	un	DET
-peu	peu	ADV
-vague	vague	ADJ
+un peu	un peu	DET
+vague	vague	NOUN
 des	un	ADP_DET
 mots	mot	NOUN
 peuple	peuple	NOUN
@@ -88,9 +87,8 @@ du	du	ADP_DET
 peuple	peuple	NOUN
 ,	,	PUNCTclause
 est	être	AUX
-en	en	ADP
-fait	fait	NOUN
-le	le	DET
+en fait	en fait	DET
+le	le_PRON	PRON
 régime	régime	NOUN
 choisi	choisir	VERB
 par	par	ADP
@@ -182,9 +180,8 @@ est	être	AUX
 peut-être	peut-être	ADV
 moins	moins	ADV
 absurde	absurde	ADJ
-en	en	ADP
-fait	fait	NOUN
-que	que	SCONJ
+en fait	en fait	PUNCT
+que	que	PRON
 ne	ne	ADV
 le	le_PRON	PRON
 font	faire	AUX
@@ -265,9 +262,7 @@ l'	le	DET
 «	«	PUNCTclause
 populaire	populaire	ADJ
 »	»	PUNCTclause
-par	par	ADP
-contraste	contraste	NOUN
-avec	avec	ADP
+par contraste avec	par contraste avec	PUNCT
 les	le	DET
 «	«	PUNCTclause
 élites	élite	NOUN
@@ -521,10 +516,7 @@ pas	pas	ADV
 le	le	DET
 peuple	peuple	NOUN
 ,	,	PUNCTclause
-dès	dès	ADP
-l'	le	DET
-instant	instant	NOUN
-que	que	SCONJ
+dès l'instant que	dès l'instant que	SCONJ
 il	il	PRON
 vote	voter	VERB
 pour	pour	ADP
@@ -726,18 +718,14 @@ l'	le	DET
 interdire	interdire	VERB
 ,	,	PUNCTclause
 car	car	CCONJ
-au	au	ADP_DET
-fait	fait	NOUN
+au fait	au fait	PUNCT
 ,	,	PUNCTclause
 il	il	PRON
 ne	ne	ADV
 sert	servir	VERB
 à	à	ADP
 rien	rien	PRON
-dès	dès	ADP
-l'	le	DET
-instant	instant	NOUN
-que	que	SCONJ
+dès l'instant que	dès l'instant que	PUNCT
 chacun	chacun	PRON
 se	se	PRON
 déclare	déclarer	VERB
@@ -875,8 +863,7 @@ une	un	DET
 infime	infime	ADJ
 minorité	minorité	NOUN
 ,	,	PUNCTclause
-pourvu	pourvoir	VERB
-que	que	SCONJ
+pourvu que	pourvu que	SCONJ
 elle	elle	PRON
 ait	avoir	AUX
 pris	prendre	VERB
@@ -924,9 +911,7 @@ populace	populace	NOUN
 ou	ou	CCONJ
 prolétariat	prolétariat	NOUN
 ,	,	PUNCTclause
-par	par	ADP
-contraste	contraste	NOUN
-avec	avec	ADP
+par contraste avec	par contraste avec	ADP
 populus	populus	NOUN
 ,	,	PUNCTclause
 le	le	DET
@@ -1093,9 +1078,7 @@ on	on	PRON
 peut	pouvoir	VERB
 dire	dire	VERB
 ,	,	PUNCTclause
-dans	dans	ADP
-ce	ce	DET
-cas	cas	NOUN
+dans ce cas	dans ce cas	NOUN
 ,	,	PUNCTclause
 ou bien	ou bien	CCONJ
 que	que	SCONJ
@@ -1627,8 +1610,7 @@ il	il	PRON
 que	que	SCONJ
 un	un	DET
 certain	certain	ADJ
-nombre	nombre	NOUN
-de	de	ADP
+nombre de	nombre de	NOUN
 personnes	personne	NOUN
 ,	,	PUNCTclause
 maltraitées	maltraiter	VERB
@@ -1717,9 +1699,7 @@ offre	offrir	VERB
 amour	amour	NOUN
 et	et	CCONJ
 foi	foi	NOUN
-en	en	ADP
-échange	échange	NOUN
-de	de	ADP
+en échange de	en échange de	ADP
 son	son	DET
 aide	aide	NOUN
 et	et	CCONJ
@@ -1974,8 +1954,7 @@ monarque	monarque	NOUN
 ne	ne	ADV
 a	avoir	VERB
 rien	rien	PRON
-au-dessus	au-dessus	ADV
-de	de	ADP
+au-dessus de	au-dessus de	ADP
 lui	lui	PRON
 qui	qui	PRON
 le	le_PRON	PRON
@@ -2004,8 +1983,7 @@ devient	devenir	VERB
 fatalement	fatalement	ADV
 abusif	abusif	ADJ
 .	.	PUNCTsent
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 Gaulle	Gaulle	PROPN
@@ -2106,10 +2084,9 @@ et	et	CCONJ
 de	de	ADP
 Staline	Staline	PROPN
 étaient	être	AUX
-légitimés	légitimé	ADJ
+légitimés	légitimer	VERB
 ,	,	PUNCTclause
-bien	bien	ADV
-au contraire	au contraire	ADV
+bien au contraire	bien au contraire	NOUN
 ,	,	PUNCTclause
 par	par	ADP
 la	le	DET
@@ -2290,15 +2267,13 @@ sens	sens	NOUN
 civique	civique	ADJ
 que	que	SCONJ
 on	on	PRON
-est	être	AUX
-en	en	ADP
-droit	droit	NOUN
-de	de	ADP
+est	être	VERB
+en droit de	en droit de	ADP
 dire	dire	VERB
 «	«	PUNCTclause
 adulte	adulte	NOUN
 »	»	PUNCTclause
-cette fois ci	cette fois ci	PRON
+cette fois-là	cette fois ci	PRON
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP

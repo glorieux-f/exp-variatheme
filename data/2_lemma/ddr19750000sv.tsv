@@ -37,8 +37,7 @@ je	je	PRON
 écrit	écrire	VERB
 ,	,	PUNCTclause
 il y a	il y a	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 dix	dix	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
@@ -167,9 +166,7 @@ conseillers	conseiller	NOUN
 fédéralisme	fédéralisme	NOUN
 ne	ne	ADV
 sont	être	AUX
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 l'	le	DET
 émanation	émanation	NOUN
 des	un	ADP_DET
@@ -218,11 +215,10 @@ commun	commun	ADJ
 à	à	ADP
 Bruxelles	Bruxelles	PROPN
 ,	,	PUNCTclause
-compte	compter	VERB
-autant	autant	ADV
-de	de	ADP
+compte	compte	NOUN
+autant de	autant de	PUNCT
 commissaires	commissaire	NOUN
-que	que	SCONJ
+que	que	PRON
 de	de	ADP
 pays	pays	NOUN
 membres	membre	NOUN
@@ -320,9 +316,7 @@ est	être	AUX
 l'	le	DET
 école	école	NOUN
 ,	,	PUNCTclause
-une	un	DET
-fois	fois	NOUN
-de plus	de plus	ADV
+une fois de plus	une fois de plus	DET
 ,	,	PUNCTclause
 qui	qui	PRON
 a	avoir	AUX
@@ -408,9 +402,7 @@ choses	chose	NOUN
 se	se	PRON
 sont	être	AUX
 passées	passer	VERB
-tout	tout	ADV
-à	à	ADP
-fait	fait	NOUN
+tout à fait	tout à fait	PUNCT
 autrement	autrement	ADV
 .	.	PUNCTsent
 le	le	DET
@@ -419,10 +411,7 @@ Suisse	Suisse	PROPN
 se	se	PRON
 est	être	AUX
 formé	former	VERB
-sur	sur	ADP
-la	le	DET
-base	base	NOUN
-des	un	ADP_DET
+sur la base de	sur la base de	ADP
 communes	commun	NOUN
 de	de	ADP
 Uri	Uri	PROPN
@@ -505,11 +494,10 @@ les	le	DET
 trois	trois	NUM
 ,	,	PUNCTclause
 elles	elles	PRON
-avaient	avoir	VERB
+avaient	avoir	AUX
 juste	juste	ADV
-assez	assez	ADV
-de	de	ADP
-force	force	NOUN
+assez de	assez de	X
+force	forcer	VERB
 pour	pour	ADP
 préserver	préserver	VERB
 ,	,	PUNCTclause
@@ -567,9 +555,7 @@ or	or	NOUN
 la	le	DET
 justice	justice	NOUN
 ,	,	PUNCTclause
-à	à	ADP
-l'	le	DET
-époque	époque	NOUN
+à l'époque	à l'époque	ADV
 ,	,	PUNCTclause
 ce	ce	PRON
 était	être	AUX
@@ -618,10 +604,7 @@ Suisse	Suisse	PROPN
 a	avoir	AUX
 changé	changer	VERB
 ,	,	PUNCTclause
-sous	sous	ADP
-l'	le	DET
-influence	influence	NOUN
-des	un	ADP_DET
+sous l'influence de	sous l'influence de	ADP
 états	état	NOUN
 voisins	voisin	ADJ
 ,	,	PUNCTclause
@@ -706,9 +689,8 @@ la	le	DET
 Suisse	Suisse	PROPN
 a	avoir	AUX
 toujours	toujours	ADV
-été	été	NOUN
-à	à	ADP
-contre-courant	contre-courant	NOUN
+été	être	AUX
+à contre-courant	à contre-courant	SYM
 de	de	ADP
 ce	ce	DET
 qui	qui	PRON
@@ -1149,8 +1131,7 @@ créateur	créateur	NOUN
 des	un	ADP_DET
 communes	commun	NOUN
 primitives	primitif	ADJ
-autour	autour	ADV
-du	du	ADP_DET
+autour de	autour de	ADP
 Gothard	Gothard	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1180,8 +1161,7 @@ apparences	apparence	NOUN
 on	on	PRON
 retrouve	retrouver	VERB
 toujours	toujours	ADV
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 conflit	conflit	NOUN
 entre	entre	ADP
 les	le	DET
@@ -1340,8 +1320,7 @@ phénomène	phénomène	NOUN
 comparable	comparable	ADJ
 aujourd'hui	aujourd'hui	ADV
 ,	,	PUNCTclause
-autour	autour	ADV
-du	du	ADP_DET
+autour de	autour de	ADP
 coude	coude	NOUN
 du	du	ADP_DET
 Rhin	Rhin	PROPN
@@ -1367,8 +1346,7 @@ démence	démence	NOUN
 pure	pur	ADJ
 .	.	PUNCTsent
 aux yeux de	aux yeux de	ADP
-n'importe	n'importe	INTJ
-quel	quel	DET
+n'importe quels	n'importe quels	ADV
 savant	savant	NOUN
 sérieux	sérieux	ADJ
 et	et	CCONJ
@@ -1647,9 +1625,7 @@ comme	comme	ADP
 de	de	ADP
 droite	droite	NOUN
 ,	,	PUNCTclause
-une	un	DET
-fois	fois	NOUN
-de plus	de plus	ADV
+une fois de plus	une fois de plus	PRON
 —	—	PUNCTclause
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -1736,8 +1712,7 @@ Guillaume	Guillaume	PROPN
 Tell	Tell	PROPN
 aurait	avoir	AUX
 été	être	AUX
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 manifestant	manifestant	NOUN
 de	de	ADP
 Kaiseraugst	Kaiseraugst	PROPN
@@ -1798,9 +1773,8 @@ justice	justice	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 vous	vous	PRON
-êtes	être	VERB
-au	au	ADP_DET
-surplus	surplus	NOUN
+êtes	être	AUX
+au surplus	au surplus	ADV
 en	en	ADP
 état	état	NOUN
 de	de	ADP
@@ -1886,8 +1860,7 @@ est-ce que	est-ce que	ADV
 on	on	PRON
 attache	attacher	VERB
 vraiment	vraiment	ADV
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 importance	importance	NOUN
 au	au	ADP_DET
 «	«	PUNCTclause
@@ -1898,9 +1871,7 @@ que	que	SCONJ
 la	le	DET
 liberté	liberté	NOUN
 ?	?	PUNCTsent
-dans	dans	ADP
-ce	ce	DET
-cas	cas	NOUN
+dans ce cas	dans ce cas	DET
 ,	,	PUNCTclause
 autant	autant	ADV
 faire	faire	VERB
@@ -1961,8 +1932,7 @@ elle	elle	PRON
 deviendrait	devenir	VERB
 semblable	semblable	ADJ
 à	à	ADP
-n'importe	n'importe	INTJ
-lequel	lequel	PRON
+n'importe lequel	n'importe lequel	PRON
 des	un	ADP_DET
 états-nations	État-nation	NOUN
 actuels	actuel	ADJ
@@ -2089,10 +2059,7 @@ que	que	SCONJ
 ils	ils	PRON
 vont	aller	VERB
 changer	changer	VERB
-tout	tout	ADV
-de	de	ADP
-un	un	DET
-coup	coup	NOUN
+tout d'un coup	tout d'un coup	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 les	le	DET
@@ -2138,8 +2105,7 @@ alors	alors	ADV
 sur	sur	ADP
 un	un	DET
 certain	certain	ADJ
-nombre	nombre	NOUN
-de	de	ADP
+nombre de	nombre de	NOUN
 désastres	désastre	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -2156,10 +2122,8 @@ les	le	DET
 Suisse	Suisse	PROPN
 ne	ne	ADV
 aiment	aimer	VERB
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
-ce	ce	PRON
+pas du tout	pas du tout	ADV
+ce	ce	DET
 mot	mot	NOUN
 .	.	PUNCTsent
 les	le	DET
@@ -2336,8 +2300,7 @@ les	le	DET
 ,	,	PUNCTclause
 qui	qui	PRON
 sont	être	AUX
-de	de	ADP
-loin	loin	ADV
+de loin	de loin	ADV
 la	le	DET
 plus	plus	ADV
 grande	grand	ADJ
@@ -2462,8 +2425,7 @@ créé	créer	VERB
 les	le	DET
 institutions	institution	NOUN
 de	de	ADP
-la	le	DET
-première	premier	ADJ
+la première	la première	NOUN
 confédération	confédération	NOUN
 .	.	PUNCTsent
 elle	elle	PRON
@@ -2477,11 +2439,7 @@ des	un	DET
 discours	discours	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-par	par	ADP
-la	le	DET
-force	force	NOUN
-des	un	ADP_DET
-choses	chose	NOUN
+par la force des choses	par la force des choses	DET
 .	.	PUNCTsent
 par	par	ADP
 la	le	DET

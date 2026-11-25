@@ -55,17 +55,12 @@ manière	manière	NOUN
 exemplaire	exemplaire	ADJ
 une	un	DET
 situation	situation	NOUN
-ni	ni	CCONJ
-plus	plus	ADV
-ni	ni	CCONJ
-moins	moins	ADV
-complexe	complexe	ADJ
-en	en	ADP
-fait	fait	NOUN
+ni plus ni moins	ni plus ni moins	ADP
+complexe	complexe	NOUN
+en fait	en fait	PUNCT
 que	que	SCONJ
 dans	dans	ADP
-n'importe	n'importe	INTJ
-quel	quel	DET
+n'importe quels	n'importe quels	ADJ
 pays	pays	NOUN
 des	un	ADP_DET
 Dix	Dix	PROPN
@@ -120,8 +115,7 @@ ses	son	DET
 compatriotes	compatriote	NOUN
 ,	,	PUNCTclause
 lorsque	lorsque	SCONJ
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	ADP_DET
 de	de	ADP
 février	février	NOUN
 de	de	ADP
@@ -271,8 +265,7 @@ du	du	ADP_DET
 scrutin	scrutin	NOUN
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-à	à	ADP
-savoir	savoir	VERB
+à savoir	à savoir	DET
 :	:	PUNCTclause
 jusque	jusque	ADP
 où	où	PRON
@@ -292,8 +285,7 @@ placera	placer	VERB
 elle	elle	PRON
 l'	le	DET
 opposition	opposition	NOUN
-au-dessus	au-dessus	ADV
-de	de	ADP
+au-dessus de	au-dessus de	ADP
 la	le	DET
 barre	barre	NOUN
 des	un	ADP_DET
@@ -369,8 +361,7 @@ de	de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-bien	bien	ADV
-au contraire	au contraire	ADV
+bien au contraire	bien au contraire	NOUN
 ,	,	PUNCTclause
 puisque	puisque	SCONJ
 le	le	DET
@@ -378,8 +369,7 @@ vrai	vrai	ADJ
 problème	problème	NOUN
 se	se	PRON
 réduit	réduire	VERB
-à	à	ADP
-savoir	savoir	VERB
+à savoir	à savoir	PUNCT
 si	si	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
@@ -538,10 +528,8 @@ mai	mai	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-pour	pour	ADP
-peu	peu	ADV
-que	que	SCONJ
-Lionel	Lionel	PROPN
+pour peu que	pour peu que	PUNCT
+Lionel	Lionel	NOUN
 Jospin	Jospin	PROPN
 ironise	ironiser	VERB
 sur	sur	ADP
@@ -659,10 +647,7 @@ faut	falloir	VERB
 unir	unir	VERB
 d'abord	d'abord	ADV
 .	.	PUNCTsent
-ni	ni	CCONJ
-l'un	l'un	PRON
-ni	ni	CCONJ
-l'autre	l'autre	PRON
+ni l'un ni l'autre	ni l'un ni l'autre	PRON
 des	un	ADP_DET
 debaters	debater	NOUN
 ne	ne	ADV
@@ -670,9 +655,7 @@ semble	sembler	VERB
 avoir	avoir	AUX
 imaginé	imaginer	VERB
 que	que	SCONJ
-si	si	SCONJ
-l'on	on	PRON
-veut	vouloir	VERB
+si l'on veut	si l'on veut	PRON
 que	que	PRON
 chacun	chacun	PRON
 de	de	ADP
@@ -755,9 +738,7 @@ ou	ou	CCONJ
 la	le	DET
 droite	droite	NOUN
 étaient	être	AUX
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 cohérentes	cohérent	ADJ
 avec	avec	ADP
 leur	leur	DET
@@ -1229,10 +1210,7 @@ toujours	toujours	ADV
 plus	plus	ADV
 âpres	âpre	ADJ
 ,	,	PUNCTclause
-en	en	ADP
-l'	le	DET
-absence	absence	NOUN
-de	de	ADP
+en l'absence de	en l'absence de	ADP
 toute	toute	DET
 passion	passion	NOUN
 manifeste	manifester	VERB
@@ -1266,8 +1244,7 @@ Europe	Europe	PROPN
 en	en	ADP
 Italie	Italie	PROPN
 ,	,	PUNCTclause
-tout	tout	ADV
-comme	comme	ADP
+tout comme	tout comme	ADP
 en	en	ADP
 France	France	PROPN
 (	(	PUNCTclause
@@ -1439,11 +1416,7 @@ de	de	ADP
 la	le	DET
 		TOKEN
 identifie	identifier	VERB
-par	par	ADP
-la	le	DET
-force	force	NOUN
-des	un	ADP_DET
-choses	chose	NOUN
+par la force des choses	par la force des choses	PUNCT
 cet	ce	DET
 aspect	aspect	NOUN
 national	national	ADJ
@@ -1570,9 +1543,7 @@ cette	ce	DET
 situation	situation	NOUN
 que	que	SCONJ
 les	le	DET
-prises	prise	NOUN
-de	de	ADP
-position	position	NOUN
+prise de position	prise de position	NOUN
 des	un	ADP_DET
 partis	parti	NOUN
 «	«	PUNCTclause
@@ -1605,9 +1576,7 @@ non	non	ADV
 ,	,	PUNCTclause
 avec	avec	ADP
 des	un	DET
-prises	prise	NOUN
-de	de	ADP
-position	position	NOUN
+prise de position	prise de position	NOUN
 soit	soit	CCONJ
 pour	pour	ADP
 l'	le	DET
@@ -1700,8 +1669,7 @@ surtout	surtout	ADV
 ,	,	PUNCTclause
 pourront	pouvoir	VERB
 réunir	réunir	VERB
-à	à	ADP
-temps	temps	NOUN
+à temps	à temps	ADP
 les	le	DET
 fonds	fond	NOUN
 nécessaires	nécessaire	ADJ
@@ -1755,8 +1723,7 @@ opposition	opposition	NOUN
 ,	,	PUNCTclause
 déclarée	déclarer	VERB
 dans	dans	ADP
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 termes	terme	NOUN
 ,	,	PUNCTclause
 aux	au	ADP_DET
@@ -1876,10 +1843,7 @@ fédérale	fédéral	ADJ
 pour	pour	ADP
 eux	eux	PRON
 ,	,	PUNCTclause
-il	il	PRON
-va	aller	VERB
-sans	sans	ADP
-dire	dire	VERB
+il va sans dire	il va sans dire	PRON
 que	que	SCONJ
 «	«	PUNCTclause
 la	le	DET
@@ -1989,10 +1953,7 @@ date	date	NOUN
 les	le	DET
 régions	région	NOUN
 ,	,	PUNCTclause
-dans	dans	ADP
-le	le	DET
-cadre	cadre	NOUN
-de	de	ADP
+dans le cadre de	dans le cadre de	ADP
 l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
@@ -2162,8 +2123,7 @@ dans	dans	ADP
 un	un	DET
 tract	tract	NOUN
 diffusé	diffuser	VERB
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	PUNCT
 de	de	ADP
 mars	mars	NOUN
 :	:	PUNCTclause
@@ -2382,8 +2342,7 @@ occurrence	occurrence	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 baptiser	baptiser	VERB
-la	le	DET
-première	premier	ADJ
+la première	la première	PUNCT
 interrégionale	interrégional	ADJ
 Europe	Europe	PROPN
 .	.	PUNCTsent
@@ -2605,8 +2564,7 @@ sociale	social	ADJ
 pour	pour	ADP
 une	un	DET
 agriculture	agriculture	NOUN
-en	en	ADP
-équilibre	équilibre	NOUN
+en équilibre	en équilibre	PUNCT
 avec	avec	ADP
 la	le	DET
 nature	nature	NOUN
@@ -2712,8 +2670,7 @@ ses	son	DET
 propositions	proposition	NOUN
 sont	être	AUX
 «	«	PUNCTclause
-par	par	ADP
-nature	nature	NOUN
+par nature	par nature	SYM
 et	et	CCONJ
 par définition	par définition	ADV
 ,	,	PUNCTclause
@@ -2874,9 +2831,7 @@ peuples	peuple	NOUN
 et	et	CCONJ
 des	un	DET
 régions	région	NOUN
-au	au	ADP_DET
-sein	sein	NOUN
-du	du	ADP_DET
+au sein de	au sein de	ADP
 parlement	parlement	NOUN
 de	de	ADP
 Strasbourg	Strasbourg	PROPN
@@ -2974,8 +2929,7 @@ les	le_PRON	PRON
 concernent	concerner	VERB
 directement	directement	ADV
 ,	,	PUNCTclause
-grâce	grâce	NOUN
-aux	au	ADP_DET
+grâce à	grâce à	ADP
 «	«	PUNCTclause
 référendums	référendum	NOUN
 et	et	CCONJ
@@ -3214,8 +3168,7 @@ l'	le	DET
 ex-ambassadrice	ex-ambassadrice	NOUN
 des	un	ADP_DET
 		TOKEN
-auprès	auprès	ADV
-des	un	ADP_DET
+auprès de	auprès de	ADP
 ONU	ONU	PROPN
 ,	,	PUNCTclause
 messieurs	monsieur	NOUN
@@ -3307,9 +3260,7 @@ Europe	Europe	PROPN
 2	2	NUM
 1984	1984	NUM
 )	)	PUNCTclause
-au	au	ADP_DET
-lendemain	lendemain	NOUN
-de	de	ADP
+au lendemain de	au lendemain de	PUNCT
 l'	le	DET
 échec	échec	NOUN
 de	de	ADP
@@ -3334,9 +3285,7 @@ se	se	PRON
 être	être	AUX
 arrogé	arroger	VERB
 ,	,	PUNCTclause
-au	au	ADP_DET
-mépris	mépris	NOUN
-des	un	ADP_DET
+au mépris de	au mépris de	ADP
 traités	traité	NOUN
 qui	qui	PRON
 les	le	DET
@@ -3365,9 +3314,7 @@ une	un	DET
 si	si	SCONJ
 constante	constant	ADJ
 impéritie	impéritie	NOUN
-au	au	ADP_DET
-sein	sein	NOUN
-du	du	ADP_DET
+au sein de	au sein de	ADP
 Conseil	Conseil	PROPN
 des	un	ADP_DET
 communautés	communauté	NOUN
@@ -3556,9 +3503,7 @@ le	le	DET
 principe	principe	NOUN
 des	un	ADP_DET
 votes	vote	NOUN
-à	à	ADP
-l'	le	DET
-unanimité	unanimité	NOUN
+à l'unanimité	à l'unanimité	PUNCT
 ,	,	PUNCTclause
 principe	principe	NOUN
 que	que	SCONJ
@@ -3635,8 +3580,7 @@ souveraineté	souveraineté	NOUN
 Europe	Europe	PROPN
 »	»	PUNCTclause
 —	—	PUNCTclause
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	SCONJ
 elle	elle	PRON
 reste	rester	VERB
 à	à	ADP

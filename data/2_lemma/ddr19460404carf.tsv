@@ -48,9 +48,7 @@ radio	radio	NOUN
 ,	,	PUNCTclause
 me	me	PRON
 interviewa	interviewer	VERB
-au	au	ADP_DET
-sujet	sujet	NOUN
-du	du	ADP_DET
+au sujet de	au sujet de	ADP
 petit	petit	ADJ
 livre	livre	NOUN
 que	que	PRON
@@ -79,8 +77,7 @@ France	France	PROPN
 parce que	parce que	SCONJ
 elle	elle	PRON
 donnait	donner	VERB
-plus	plus	ADV
-de	de	DET
+plus de	plus de	DET
 nouvelles	nouveau	ADJ
 du	du	ADP_DET
 monde	monde	NOUN
@@ -105,8 +102,7 @@ le	le	DET
 directeur	directeur	NOUN
 du	du	ADP_DET
 journal	journal	NOUN
-en	en	ADP
-question	question	NOUN
+en question	en question	ADP
 censura	censurer	X
 cette	ce	DET
 partie	partie	NOUN
@@ -120,8 +116,7 @@ politique	politique	NOUN
 que	que	PRON
 on	on	PRON
 attribue	attribuer	VERB
-par	par	ADP
-erreur	erreur	NOUN
+par erreur	par erreur	NOUN
 à	à	ADP
 l'	le	DET
 autruche	autruche	NOUN
@@ -154,7 +149,7 @@ récidive	récidiver	VERB
 ,	,	PUNCTclause
 à	à	ADP
 propos	propos	NOUN
-cette fois ci	cette fois ci	PRON
+cette fois-là	cette fois ci	PRON
 de	de	ADP
 l'	le	DET
 exemple	exemple	NOUN
@@ -189,10 +184,7 @@ ils	ils	PRON
 l'	le	DET
 admettent	admettre	VERB
 justement	justement	ADV
-à	à	ADP
-l'	le	DET
-occasion	occasion	NOUN
-des	un	ADP_DET
+à l'occasion de	à l'occasion de	ADP
 débats	débat	NOUN
 les	le	DET
 plus	plus	ADV
@@ -492,8 +484,7 @@ infini	infini	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 sans	sans	ADP
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	NOUN
 chances	chance	NOUN
 de	de	ADP
 se	se	PRON
@@ -599,12 +590,8 @@ nous	nous	PRON
 faire	faire	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-ce	ce	PRON
-ne	ne	ADV
-est	être	AUX
-pas	pas	ADV
-que	que	SCONJ
-les	le	DET
+ce n'est pas que	ce n'est pas que	DET
+les	le_PRON	PRON
 journaux	journal	NOUN
 États-Unis	États-Unis	PROPN
 craignent	craindre	VERB
@@ -640,12 +627,10 @@ objectif	objectif	NOUN
 principal	principal	ADJ
 ,	,	PUNCTclause
 ou	ou	CCONJ
-si	si	SCONJ
-l'on	on	PRON
-veut	vouloir	VERB
+si l'on veut	si l'on veut	NOUN
 ,	,	PUNCTclause
-leur	leur	PRON
-arme	armer	VERB
+leur	leur	DET
+arme	arme	NOUN
 favorite	favori	ADJ
 ,	,	PUNCTclause
 reste	rester	VERB
@@ -741,8 +726,7 @@ syndiquées	syndiqué	ADJ
 (	(	PUNCTclause
 qui	qui	PRON
 paraissent	paraître	VERB
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 jour	jour	NOUN
 dans	dans	ADP
 vingt	vingt	NUM
@@ -901,9 +885,8 @@ un	un	DET
 journal	journal	NOUN
 États-Unis	États-Unis	PROPN
 ,	,	PUNCTclause
-en	en	ADP
-plus	plus	ADV
-des	un	DET
+en plus	en plus	PRON
+des	un	ADP_DET
 problèmes	problème	NOUN
 de	de	ADP
 un	un	DET
@@ -1000,9 +983,8 @@ une	un	DET
 seule	seul	ADJ
 liasse	liasse	NOUN
 ,	,	PUNCTclause
-tout	tout	PRON
-juste	juste	ADV
-un	un	DET
+tout juste	tout juste	DET
+un	un	PRON
 numéro	numéro	NOUN
 du	du	ADP_DET
 Times	Times	PROPN
@@ -1028,9 +1010,7 @@ roman-feuilleton	roman-feuilleton	NOUN
 ↵↵	↵↵	PUNCTstruct
 Trois	Trois	NUM
 remarques	remarque	NOUN
-au	au	ADP_DET
-sujet	sujet	NOUN
-des	un	ADP_DET
+au sujet de	au sujet de	ADP
 rubriques	rubrique	NOUN
 régulières	régulier	ADJ
 .	.	PUNCTsent
@@ -1047,8 +1027,7 @@ attendrait	attendre	VERB
 ne	ne	ADV
 tient	tenir	VERB
 pas	pas	ADV
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 place	place	NOUN
 que	que	SCONJ
 dans	dans	ADP
@@ -1056,8 +1035,7 @@ la	le	DET
 presse	presse	NOUN
 France	France	PROPN
 .	.	PUNCTsent
-par	par	ADP
-contre	contre	NOUN
+par contre	par contre	NOUN
 ,	,	PUNCTclause
 celle	celle	PRON
 de	de	ADP
@@ -1321,9 +1299,7 @@ je	je	PRON
 me	me	PRON
 permettrais	permettre	VERB
 ,	,	PUNCTclause
-dans	dans	ADP
-ce	ce	DET
-cas	cas	NOUN
+dans ce cas	dans ce cas	DET
 ,	,	PUNCTclause
 de	de	ADP
 lui	lui	PRON
@@ -1444,8 +1420,7 @@ la	le	DET
 moyenne	moyenne	NOUN
 ou	ou	CCONJ
 même	même	ADV
-au	au	ADP_DET
-pire	pire	NOUN
+au pire	au pire	PUNCT
 de	de	ADP
 l'autre	l'autre	PRON
 .	.	PUNCTsent
@@ -1490,7 +1465,6 @@ je	je	PRON
 ai	avoir	AUX
 voulu	vouloir	VERB
 courir	courir	VERB
-au	au	ADP_DET
-plus	plus	ADV
-pressé	pressé	ADJ
+au plus	au plus	ADV
+pressé	presser	VERB
 .	.	PUNCTsent

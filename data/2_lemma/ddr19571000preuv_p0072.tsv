@@ -54,13 +54,11 @@ et	et	CCONJ
 littérature	littérature	NOUN
 ,	,	PUNCTclause
 donne	donner	VERB
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 impression	impression	NOUN
 générale	général	ADJ
 —	—	PUNCTclause
-comme	comme	SCONJ
-si	si	SCONJ
+comme si	comme si	PUNCT
 le	le	DET
 cynisme	cynisme	NOUN
 était	être	AUX
@@ -201,8 +199,7 @@ enfilade	enfilade	NOUN
 de	de	ADP
 situations	situation	NOUN
 «	«	PUNCTclause
-sans	sans	ADP
-issue	issue	NOUN
+sans issue	sans issue	ADJ
 »	»	PUNCTclause
 dont	dont	PRON
 on	on	PRON
@@ -316,9 +313,8 @@ en	en	ADP
 tirent	tirer	VERB
 beaucoup de	beaucoup de	DET
 succès	succès	NOUN
-auprès	auprès	ADV
-des	un	ADP_DET
-jeunes	jeune	NOUN
+auprès de	auprès de	ADP
+jeunes	jeune	ADJ
 et	et	CCONJ
 du	du	ADP_DET
 public	public	NOUN
@@ -357,19 +353,14 @@ en effet	en effet	ADV
 la	le	DET
 convention	convention	NOUN
 commune	commun	ADJ
-à	à	ADP
-l'	le	DET
-extrême	extrême	ADJ
+à l'extrême	à l'extrême	ADP
 droite	droite	NOUN
 et	et	CCONJ
 à	à	ADP
 la	le	DET
 gauche	gauche	NOUN
 .	.	PUNCTsent
-à	à	ADP
-l'	le	DET
-exception	exception	NOUN
-du	du	ADP_DET
+à l'exception de	à l'exception de	DET
 seul	seul	ADJ
 Kipling	Kipling	PROPN
 peut-être	peut-être	ADV
@@ -505,8 +496,7 @@ elles	elles	PRON
 et	et	CCONJ
 sans	sans	ADP
 rapports	rapport	NOUN
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 avec	avec	ADP
 ce	ce	PRON
 qui	qui	PRON
@@ -535,8 +525,7 @@ pessimisme	pessimisme	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
 tragique	tragique	NOUN
-sans	sans	ADP
-issue	issue	NOUN
+sans issue	sans issue	ADJ
 ,	,	PUNCTclause
 du	du	ADP_DET
 délire	délire	NOUN
@@ -597,9 +586,7 @@ les	le	DET
 trouveraient	trouver	VERB
 révoltantes	révoltant	ADJ
 ou	ou	CCONJ
-en	en	ADP
-tout	tout	PRON
-cas	cas	NOUN
+en tout cas	en tout cas	DET
 pointless	pointless	NOUN
 .	.	PUNCTsent
 ne	ne	ADV
@@ -623,8 +610,7 @@ ces	ce	DET
 hommes	homme	NOUN
 politiques	politique	ADJ
 ont	avoir	AUX
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 âge	âge	NOUN
 que	que	SCONJ
 ces	ce	DET
@@ -674,10 +660,7 @@ elle	elle	PRON
 met	mettre	VERB
 le	le	DET
 cynisme	cynisme	NOUN
-à	à	ADP
-la	le	DET
-portée	portée	NOUN
-de	de	ADP
+à la portée de	à la portée de	ADP
 toutes	tout	ADJ
 les	le	DET
 bourses	bourse	NOUN
@@ -723,16 +706,12 @@ qui	qui	PRON
 nous	nous	PRON
 déplaisent	déplaire	VERB
 ,	,	PUNCTclause
-soit	soit	CCONJ
-à	à	ADP
-cause	cause	NOUN
-des	un	ADP_DET
+soit	être	AUX
+à cause de	à cause de	ADP
 recettes	recette	NOUN
 ,	,	PUNCTclause
-soit	soit	CCONJ
-à	à	ADP
-cause	cause	NOUN
-du	du	ADP_DET
+soit	être	AUX
+à cause de	à cause de	ADP
 bonheur	bonheur	NOUN
 .	.	PUNCTsent
 nous	nous	PRON
@@ -817,9 +796,7 @@ je	je	PRON
 ne	ne	ADV
 les	le_PRON	PRON
 trouve	trouver	VERB
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 moins	moins	ADV
 cyniques	cynique	ADJ
 dans	dans	ADP
@@ -843,8 +820,7 @@ Genet	Genet	PROPN
 dont	dont	PRON
 Sartre	Sartre	PROPN
 essaya	essayer	VERB
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 un	un	DET
 saint	saint	NOUN
 ,	,	PUNCTclause
@@ -990,8 +966,7 @@ français	français	ADJ
 Mauriac	Mauriac	PROPN
 …	…	PUNCTsent
 »	»	PUNCTclause
-hé	hé	INTJ
-bien	bien	ADV
+eh bien	eh bien	PUNCT
 ?	?	PUNCTsent
 je	je	PRON
 avoue	avouer	VERB
@@ -1056,8 +1031,7 @@ France	France	PROPN
 de	de	ADP
 volonté	volonté	NOUN
 ,	,	PUNCTclause
-de	de	ADP
-rigueur	rigueur	NOUN
+de rigueur	de rigueur	DET
 ,	,	PUNCTclause
 de	de	ADP
 allure	allure	NOUN
@@ -1261,9 +1235,8 @@ partout	partout	ADV
 présente	présent	ADJ
 et	et	CCONJ
 vive	vif	ADJ
-au	au	ADP_DET
-plus	plus	ADV
-brûlant	brûlant	ADJ
+au plus	au plus	PUNCT
+brûlant	brûler	VERB
 du	du	ADP_DET
 débat	débat	NOUN
 de	de	ADP
@@ -1601,8 +1574,7 @@ courant	courir	VERB
 une	un	DET
 nouvelle	nouveau	ADJ
 aventure	aventure	NOUN
-au-delà	au-delà	ADV
-des	un	ADP_DET
+au-delà de	au-delà de	ADP
 bonheurs	bonheur	NOUN
 assurés	assurer	VERB
 .	.	PUNCTsent
@@ -1770,8 +1742,7 @@ Non	Non	PROPN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 changez	changer	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 vos	vos	DET
 mesures	mesure	NOUN
 de	de	ADP

@@ -157,10 +157,8 @@ a	avoir	AUX
 créé	créer	VERB
 et	et	CCONJ
 diffusé	diffuser	VERB
-à	à	ADP
-partir	partir	VERB
-du	du	ADP_DET
-16e	16e	NUM
+à partir de	à partir de	ADP
+16e	16e	ADJ
 siècle	siècle	NOUN
 dans	dans	ADP
 le	le	DET
@@ -865,10 +863,7 @@ de	de	ADP
 à	à	ADP
 1970	1970	NUM
 ,	,	PUNCTclause
-sous	sous	ADP
-le	le	DET
-nom	nom	NOUN
-de	de	ADP
+sous le nom de	sous le nom de	ADP
 progrès	progrès	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -958,8 +953,7 @@ mesures	mesure	NOUN
 matérialistes	matérialiste	ADJ
 (	(	PUNCTclause
 remplaçant	remplacer	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 les	le	DET
 valeurs	valeur	NOUN
 )	)	PUNCTclause
@@ -1276,12 +1270,9 @@ les	le	DET
 réalités	réalité	NOUN
 mondiales	mondial	ADJ
 que	que	SCONJ
-sous	sous	ADP
-l'	le	DET
-angle	angle	NOUN
-de	de	ADP
-l'	le	DET
-influence	influence	NOUN
+sous l'angle de	sous l'angle de	DET
+l'	le_PRON	PRON
+influence	influencer	VERB
 que	que	SCONJ
 ils	ils	PRON
 y	y	PRON
@@ -1289,9 +1280,7 @@ peuvent	pouvoir	VERB
 exercer	exercer	VERB
 ,	,	PUNCTclause
 mesurée	mesurer	VERB
-en	en	ADP
-termes	terme	NOUN
-de	de	ADP
+en termes de	en termes de	ADP
 prestige	prestige	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -1356,9 +1345,7 @@ nation	nation	NOUN
 (	(	PUNCTclause
 exception	exception	NOUN
 :	:	PUNCTclause
-en	en	PRON
-cas	cas	NOUN
-de	de	ADP
+en cas de	en cas de	PRON
 crise	crise	NOUN
 très	très	ADV
 grave	grave	ADJ
@@ -1447,10 +1434,9 @@ etc.	etc.	NOUN
 etc.	etc.	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 réflexes	réflexe	NOUN
-stato-national	stato-national	PUNCT
+stato-national	stato-national	PRON
 qui	qui	PRON
 bloquent	bloquer	VERB
 la	le	DET
@@ -1459,9 +1445,7 @@ des	un	ADP_DET
 peuples	peuple	NOUN
 Europe	Europe	PROPN
 (	(	PUNCTclause
-en	en	ADP
-dépit	dépit	NOUN
-du	du	ADP_DET
+en dépit de	en dépit de	ADP
 lip	lip	NOUN
 service	service	NOUN
 que	que	PRON
@@ -1566,15 +1550,11 @@ capable	capable	ADJ
 de	de	ADP
 leur	leur	DET
 enseigner	enseigner	VERB
-quoi que	quoi que	SCONJ
-ce	ce	DET
-soit	être	AUX
+quoi que ce soit	quoi que ce soit	PUNCT
 qui	qui	PRON
 diffère	différer	VERB
-tant	tant	ADV
-soit	soit	ADV
-peu	peu	ADV
-des	un	ADP_DET
+tant soit peu	tant soit peu	ADV
+des	un	DET
 utopies	utopie	NOUN
 du	du	ADP_DET
 progrès	progrès	NOUN
@@ -1583,9 +1563,7 @@ matériel	matériel	NOUN
 encore	encore	ADV
 partout	partout	ADV
 régnantes	régnant	ADJ
-en	en	ADP
-dépit	dépit	NOUN
-des	un	ADP_DET
+en dépit de	en dépit de	ADP
 démentis	démenti	NOUN
 que	que	SCONJ
 leur	leur	PRON
@@ -1693,8 +1671,7 @@ dimensions	dimension	NOUN
 aux	au	ADP_DET
 différentes	différent	ADJ
 communautés	communauté	NOUN
-de	de	ADP
-taille	taille	NOUN
+de taille	de taille	PUNCT
 correspondante	correspondant	ADJ
 :	:	PUNCTclause
 locales	local	ADJ
@@ -1755,9 +1732,7 @@ heures	heure	NOUN
 de	de	ADP
 travail	travail	NOUN
 ,	,	PUNCTclause
-pouvoirs	pouvoir	NOUN
-de	de	ADP
-achat	achat	NOUN
+pouvoir d'achat	pouvoir d'achat	NOUN
 ,	,	PUNCTclause
 calories	calorie	NOUN
 ,	,	PUNCTclause
@@ -2171,8 +2146,7 @@ l'autre	l'autre	PRON
 ils	ils	PRON
 savent	savoir	VERB
 ,	,	PUNCTclause
-au	au	ADP_DET
-surplus	surplus	NOUN
+au surplus	au surplus	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 l'	le	DET
@@ -2249,10 +2223,7 @@ agora	agora	NOUN
 Aristote	Aristote	PROPN
 )	)	PUNCTclause
 ,	,	PUNCTclause
-de	de	ADP
-telle	tel	DET
-manière	manière	NOUN
-que	que	SCONJ
+de telle manière que	de telle manière que	SCONJ
 l'on	on	PRON
 puisse	pouvoir	VERB
 lui	lui	PRON
@@ -2347,19 +2318,14 @@ c'est-à-dire	c'est-à-dire	CCONJ
 l'	le	DET
 Europe	Europe	PROPN
 fédérée	fédérer	VERB
-sur	sur	ADP
-la	le	DET
-base	base	NOUN
-des	un	ADP_DET
+sur la base de	sur la base de	ADP
 régions	région	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
 se	se	PRON
 fera	faire	VERB
 que	que	ADV
-en	en	ADP
-dépit	dépit	NOUN
-des	un	ADP_DET
+en dépit de	en dépit de	ADP
 partis	parti	NOUN
 existants	existant	ADJ
 ,	,	PUNCTclause
@@ -2442,8 +2408,7 @@ que	que	PRON
 exerce	exercer	VERB
 sur	sur	ADP
 eux	eux	PRON
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 modèle	modèle	NOUN
 ,	,	PUNCTclause
 non seulement	non seulement	ADV
@@ -2502,9 +2467,7 @@ sur	sur	ADP
 la	le	DET
 terre	terre	NOUN
 ,	,	PUNCTclause
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	DET
 ,	,	PUNCTclause
 et	et	CCONJ
 de	de	ADP
@@ -2578,9 +2541,7 @@ se	se	PRON
 trouve	trouver	VERB
 donc	donc	ADV
 lié	lier	VERB
-à	à	ADP
-l'	le	DET
-avenir	avenir	NOUN
+à l'avenir	à l'avenir	PUNCT
 de	de	ADP
 une	un	DET
 fédération	fédération	NOUN

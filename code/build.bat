@@ -14,4 +14,4 @@ for %%P in (ddr19770721aena ddr19721100ao) do (
 
 )
 :skip
-python corpus_keywords.py ..\data\3_contingency\ddr- --out ..\results\corpus\ --scorers js kl simpleridf bm25 --aggregators power satloss --vocab nostops --top 50
+python corpus_keywords.py ..\data\3_contingency\ddr- --out ..\results\corpus\ --scorers jslog --js-tau 100 --vocab nostops --top 50

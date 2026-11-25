@@ -112,8 +112,7 @@ chai	chai	NOUN
 à	à	ADP
 droite	droite	NOUN
 .	.	PUNCTsent
-au-delà	au-delà	ADV
-de	de	ADP
+au-delà de	au-delà de	ADP
 la	le	DET
 cour	cour	NOUN
 ,	,	PUNCTclause
@@ -177,8 +176,7 @@ maison	maison	NOUN
 on	on	PRON
 ne	ne	ADV
 voit	voir	VERB
-rien	rien	PRON
-que	que	SCONJ
+rien que	rien que	ADJ
 le	le	DET
 ciel	ciel	NOUN
 au-delà	au-delà	ADV
@@ -287,8 +285,7 @@ petit	petit	ADJ
 escalier	escalier	NOUN
 qui	qui	PRON
 prend	prendre	VERB
-au	au	ADP_DET
-fond	fond	NOUN
+au fond	au fond	ADV
 de	de	ADP
 la	le	DET
 cuisine	cuisine	NOUN
@@ -349,8 +346,7 @@ chai	chai	NOUN
 à	à	ADP
 la	le	DET
 porte	porte	NOUN
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 trop	trop	ADV
 basse	bas	ADJ
 ,	,	PUNCTclause
@@ -479,8 +475,7 @@ pensées	pensée	NOUN
 je	je	PRON
 les	le_PRON	PRON
 occupe	occuper	VERB
-en	en	ADP
-attendant	attendre	VERB
+en attendant	en attendant	PUNCT
 à	à	ADP
 de	de	DET
 petits	petit	ADJ
@@ -628,8 +623,7 @@ clocher	clocher	NOUN
 il	il	PRON
 est	être	AUX
 seul	seul	ADJ
-au-dessus	au-dessus	ADV
-du	du	ADP_DET
+au-dessus de	au-dessus de	ADP_DET
 pays	pays	NOUN
 .	.	PUNCTsent
 je	je	PRON
@@ -724,10 +718,8 @@ que	que	SCONJ
 je	je	PRON
 veux	vouloir	VERB
 retenir	retenir	VERB
-pour	pour	ADP
-le	le	DET
-moment	moment	NOUN
-des	un	ADP_DET
+pour le moment	pour le moment	ADV
+des	un	DET
 gens	gens	NOUN
 d'ici	d'ici	ADV
 .	.	PUNCTsent
@@ -793,8 +785,7 @@ confiance	confiance	NOUN
 .	.	PUNCTsent
 je	je	PRON
 sens	sentir	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 elle	elle	PRON
 veut	vouloir	VERB
 me	me	PRON
@@ -981,8 +972,7 @@ les	le	DET
 clients	client	NOUN
 qui	qui	PRON
 attendaient	attendre	VERB
-en	en	ADP
-silence	silence	NOUN
+en silence	en silence	DET
 ,	,	PUNCTclause
 le	le	DET
 nez	nez	NOUN
@@ -1211,9 +1201,7 @@ a	avoir	VERB
 rien	rien	PRON
 de	de	ADP
 écrit	écrire	VERB
-à	à	ADP
-la	le	DET
-main	main	NOUN
+à la main	à la main	PUNCT
 ?	?	PUNCTsent
 —	—	PUNCTclause
 si	si	SCONJ
@@ -1222,9 +1210,7 @@ il y a	il y a	VERB
 des	un	DET
 corrections	correction	NOUN
 écrites	écrire	VERB
-à	à	ADP
-la	le	DET
-main	main	NOUN
+à la main	à la main	ADV
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 Pédenaud	Pédenaud	PROPN
@@ -1550,15 +1536,13 @@ de	de	ADP
 recette	recette	NOUN
 auxiliaire	auxiliaire	ADJ
 !	!	PUNCTsent
-depuis	depuis	ADP
-lors	lors	ADV
+depuis lors	depuis lors	ADV
 ,	,	PUNCTclause
 il	il	PRON
 rougit	rougir	VERB
 et	et	CCONJ
 transpire	transpirer	VERB
-rien	rien	PRON
-que	que	ADV
+rien que	rien que	NOUN
 à	à	ADP
 me	me	PRON
 voir	voir	VERB
@@ -1567,8 +1551,7 @@ entrer	entrer	VERB
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 cause	causer	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 ,	,	PUNCTclause
 pour	pour	ADP
 me	me	PRON
@@ -1631,10 +1614,9 @@ je	je	PRON
 ne	ne	ADV
 arrive	arriver	VERB
 pas	pas	ADV
-à	à	ADP
-savoir	savoir	VERB
+à savoir	à savoir	PUNCT
 combien	combien	ADV
-ce	ce	DET
+ce	ce	PRON
 petit	petit	ADJ
 commerce	commerce	NOUN
 lui	lui	PRON
@@ -1716,8 +1698,7 @@ décembre	décembre	NOUN
 1933	1933	NUM
 ↵↵	↵↵	PUNCTstruct
 derrière	derrière	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 pile	pile	NOUN
 de	de	ADP
 assiettes	assiette	NOUN
@@ -1815,9 +1796,7 @@ la	le	DET
 critique	critique	NOUN
 littéraire	littéraire	ADJ
 .	.	PUNCTsent
-à	à	ADP
-la	le	DET
-page	page	NOUN
+à la page	à la page	DET
 43	43	NUM
 de	de	ADP
 l'	le	DET
@@ -2202,8 +2181,7 @@ encore	encore	ADV
 passer	passer	VERB
 deux	deux	NUM
 heures	heure	NOUN
-en	en	ADP
-attendant	attendre	VERB
+en attendant	en attendant	ADP
 le	le	DET
 départ	départ	NOUN
 de	de	ADP
@@ -2349,10 +2327,7 @@ pour	pour	ADP
 celui	celui	PRON
 qui	qui	PRON
 vit	vivre	VERB
-au	au	ADP_DET
-jour	jour	NOUN
-le	le	DET
-jour	jour	NOUN
+au jour le jour	au jour le jour	PUNCT
 ,	,	PUNCTclause
 il	il	PRON
 se	se	PRON

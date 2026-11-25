@@ -71,8 +71,7 @@ ces	ce	DET
 ,	,	PUNCTclause
 et	et	CCONJ
 encore	encore	ADV
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	PUNCT
 les	le	DET
 juger	juger	VERB
 .	.	PUNCTsent
@@ -143,8 +142,7 @@ en	en	ADP
 réclament	réclamer	VERB
 ouvertement	ouvertement	ADV
 .	.	PUNCTsent
-dès	dès	ADP
-maintenant	maintenant	ADV
+dès maintenant	dès maintenant	ADV
 ,	,	PUNCTclause
 il	il	PRON
 agit	agir	VERB
@@ -170,9 +168,7 @@ de	de	ADP
 une	un	DET
 tentation	tentation	NOUN
 ,	,	PUNCTclause
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 inconsciente	inconscient	ADJ
 ou	ou	CCONJ
 honteuse	honteux	ADJ
@@ -281,9 +277,8 @@ indifférents	indifférent	ADJ
 et	et	CCONJ
 les	le	DET
 coups	coup	NOUN
-de	de	ADP
-force	force	NOUN
-périodiques	périodique	ADJ
+de force	de force	ADP
+périodiques	périodique	NOUN
 des	un	ADP_DET
 dictateurs	dictateur	NOUN
 ,	,	PUNCTclause
@@ -489,8 +484,7 @@ régimes	régime	NOUN
 qui	qui	PRON
 ne	ne	ADV
 sont	être	AUX
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	ADV
 que	que	SCONJ
 les	le	DET
 phénomènes	phénomène	NOUN
@@ -566,8 +560,7 @@ est	être	AUX
 fait	faire	VERB
 là-bas	là-bas	ADV
 ,	,	PUNCTclause
-loin de	loin de	ADP
-là	là	ADV
+loin de là	loin de là	ADV
 .	.	PUNCTsent
 je	je	PRON
 tiendrai	tenir	VERB
@@ -619,8 +612,7 @@ politique	politique	NOUN
 et	et	CCONJ
 je	je	PRON
 compte	compter	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 mes	mon	DET
 propos	propos	NOUN
 ne	ne	ADV
@@ -684,8 +676,7 @@ l'	le	DET
 empire	empire	NOUN
 carolingien	carolingien	ADJ
 jusque	jusque	ADP
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	NOUN
 de	de	ADP
 la	le	DET
 Renaissance	Renaissance	PROPN
@@ -713,8 +704,7 @@ de	de	ADP
 individualisme	individualisme	NOUN
 réel	réel	ADJ
 ,	,	PUNCTclause
-du	du	ADP_DET
-moins	moins	ADV
+du moins	du moins	DET
 de	de	ADP
 ambition	ambition	NOUN
 individualiste	individualiste	ADJ
@@ -747,8 +737,7 @@ troisième	troisième	ADJ
 période	période	NOUN
 ,	,	PUNCTclause
 retour	retour	NOUN
-en	en	ADP
-force	force	NOUN
+en force	en force	PUNCT
 du	du	ADP_DET
 collectivisme	collectivisme	NOUN
 ,	,	PUNCTclause
@@ -892,9 +881,7 @@ communisme	communisme	NOUN
 ou	ou	CCONJ
 fascisme	fascisme	NOUN
 .	.	PUNCTsent
-au	au	ADP_DET
-regard	regard	NOUN
-du	du	ADP_DET
+au regard de	au regard de	ADP
 phénomène	phénomène	NOUN
 profond	profond	ADJ
 ,	,	PUNCTclause
@@ -941,9 +928,8 @@ pour	pour	ADP
 le	le	DET
 mauvais	mauvais	ADJ
 plaisir	plaisir	NOUN
-de	de	ADP
-faire	faire	VERB
-du	du	DET
+de fait	de fait	PUNCT
+du	du	ADP_DET
 paradoxe	paradoxe	NOUN
 et	et	CCONJ
 de	de	ADP
@@ -1067,11 +1053,8 @@ socialiste	socialiste	NOUN
 ni	ni	CCONJ
 capitaliste	capitaliste	NOUN
 —	—	PUNCTclause
-encore	encore	ADV
-que	que	SCONJ
-il	il	PRON
-y	y	PRON
-ait	avoir	VERB
+encore que	encore que	PUNCT
+il y a	il y a	VERB
 des	un	DET
 différences	différence	NOUN
 de	de	ADP
@@ -1180,9 +1163,7 @@ droite	droite	NOUN
 qui	qui	PRON
 ont	avoir	AUX
 conduit	conduire	VERB
-telle	tel	DET
-ou	ou	CCONJ
-telle	tel	DET
+telle ou telle	telle ou telle	PUNCT
 révolution	révolution	NOUN
 ,	,	PUNCTclause
 tous	tout	ADJ
@@ -1209,8 +1190,7 @@ une	un	DET
 classe	classe	NOUN
 ,	,	PUNCTclause
 il n'en reste pas moins que	il n'en reste pas moins que	ADP
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 ,	,	PUNCTclause
 on	on	PRON
 exerce	exercer	VERB
@@ -1261,8 +1241,7 @@ qui	qui	PRON
 coule	couler	VERB
 tout	tout	ADV
 dans	dans	ADP
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 gabarit	gabarit	NOUN
 .	.	PUNCTsent
 il	il	PRON
@@ -1326,11 +1305,9 @@ cela	cela	PRON
 fasse	faire	VERB
 une	un	DET
 différence	différence	NOUN
-telle	tel	PRON
+telle	tel	DET
 que	que	SCONJ
-il	il	PRON
-y	y	PRON
-ait	avoir	VERB
+il y a	il y a	VERB
 lieu	lieu	NOUN
 de	de	ADP
 se	se	PRON
@@ -1347,8 +1324,7 @@ la	le	DET
 maladie	maladie	NOUN
 est	être	AUX
 bien	bien	ADV
-la	le	DET
-même	même	ADJ
+la même	la même	ADJ
 dans	dans	ADP
 les	le	DET
 deux	deux	NUM
@@ -1414,8 +1390,7 @@ yeux	œil	NOUN
 insoluble	insoluble	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-au	au	ADP_DET
-surplus	surplus	NOUN
+au surplus	au surplus	ADV
 sans	sans	ADP
 intérêt	intérêt	NOUN
 urgent	urgent	ADJ
@@ -1425,8 +1400,7 @@ savoir	savoir	VERB
 si	si	SCONJ
 le	le	DET
 mal	mal	NOUN
-en	en	ADP
-question	question	NOUN
+en question	en question	PUNCT
 est	être	AUX
 une	un	DET
 pneumonie	pneumonie	NOUN
@@ -1465,8 +1439,7 @@ patient	patient	NOUN
 et	et	CCONJ
 pour	pour	ADP
 revenir	revenir	VERB
-au	au	ADP_DET
-fait	fait	NOUN
+au fait	au fait	PUNCT
 présent	présent	ADJ
 ,	,	PUNCTclause
 entre	entre	ADP
@@ -1848,8 +1821,7 @@ abstraite	abstrait	ADJ
 quitte à	quitte à	ADP
 payer	payer	VERB
 le	le	DET
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	NOUN
 impôts	impôt	NOUN
 possible	possible	ADJ
 .	.	PUNCTsent
@@ -1893,8 +1865,7 @@ stade	stade	NOUN
 de	de	ADP
 division	division	NOUN
 sociale	social	ADJ
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	PUNCT
 ,	,	PUNCTclause
 je	je	PRON
 crois	croire	VERB
@@ -2257,9 +2228,7 @@ sans	sans	ADP
 religion	religion	NOUN
 ;	;	PUNCTclause
 et	et	CCONJ
-à	à	ADP
-l'	le	DET
-inverse	inverse	NOUN
+à l'inverse	à l'inverse	PRON
 dès que	dès que	SCONJ
 paraît	paraître	VERB
 une	un	DET
@@ -2460,13 +2429,9 @@ des	un	ADP_DET
 dictatures	dictature	NOUN
 ne	ne	ADV
 est	être	AUX
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 dans	dans	ADP
-telle	tel	DET
-ou	ou	CCONJ
-telle	tel	DET
+telle ou telle	telle ou telle	ADJ
 manœuvre	manœuvre	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -2783,8 +2748,7 @@ angoissée	angoissé	ADJ
 de	de	ADP
 croire	croire	VERB
 à	à	ADP
-la	le	DET
-première	premier	ADJ
+la première	la première	DET
 réalité	réalité	NOUN
 qui	qui	PRON
 se	se	PRON
@@ -3238,8 +3202,7 @@ lis	lire	VERB
 ailleurs	ailleurs	ADV
 ,	,	PUNCTclause
 sous	sous	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 plume	plume	NOUN
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
@@ -3326,8 +3289,7 @@ de même	de même	ADV
 nous	nous	PRON
 croyons	croire	VERB
 avec	avec	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 conviction	conviction	NOUN
 profonde	profond	ADJ
 que	que	SCONJ
@@ -3460,8 +3422,7 @@ la	le	DET
 charge	charge	NOUN
 vraiment	vraiment	ADV
 écrasante	écrasant	ADJ
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 lever	lever	VERB
 le	le	DET
 soleil	soleil	NOUN
@@ -3811,12 +3772,9 @@ ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
 seulement	seulement	ADV
-sur	sur	ADP
-la	le	DET
-base	base	NOUN
-des	un	ADP_DET
+sur la base de	sur la base de	ADP
 textes	texte	NOUN
-que	que	PRON
+que	que	SCONJ
 je	je	PRON
 vous	vous	PRON
 citais	citer	VERB
@@ -3844,8 +3802,7 @@ donner	donner	VERB
 deux	deux	NUM
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-la	le	DET
-première	premier	ADJ
+la première	la première	NOUN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
@@ -3950,9 +3907,7 @@ revient	revenir	VERB
 au	au	ADP_DET
 même	même	ADV
 ,	,	PUNCTclause
-au	au	ADP_DET
-nom	nom	NOUN
-du	du	ADP_DET
+au nom de	au nom de	ADP
 peuple	peuple	NOUN
 .	.	PUNCTsent
 or	or	NOUN
@@ -4167,8 +4122,7 @@ christianisme	christianisme	NOUN
 ne	ne	ADV
 doit	devoir	VERB
 gêner	gêner	VERB
-en	en	ADP
-rien	rien	PRON
+en rien	en rien	ADP
 les	le	DET
 droits	droit	NOUN
 absolus	absolu	ADJ
@@ -4186,10 +4140,8 @@ le	le	DET
 droit	droit	NOUN
 de	de	ADP
 être	être	AUX
-chrétien	chrétien	NOUN
-à	à	ADP
-condition	condition	NOUN
-que	que	SCONJ
+chrétien	chrétien	ADJ
+à condition que	à condition que	PUNCT
 cela	cela	PRON
 ne	ne	ADV
 se	se	PRON
@@ -4358,8 +4310,7 @@ une	un	DET
 religion	religion	NOUN
 qui	qui	PRON
 est	être	AUX
-au-dessus	au-dessus	ADV
-des	un	ADP_DET
+au-dessus de	au-dessus de	ADP
 nations	nation	NOUN
 et	et	CCONJ
 des	un	ADP_DET
@@ -4412,8 +4363,7 @@ mais	mais	CCONJ
 cette	ce	DET
 hypocrisie	hypocrisie	NOUN
 est	être	AUX
-par	par	ADP
-trop	trop	ADV
+par trop	par trop	ADV
 éclatante	éclatant	ADJ
 .	.	PUNCTsent
 il	il	PRON
@@ -4610,10 +4560,7 @@ elle	elle	PRON
 l'	le_PRON	PRON
 a	avoir	AUX
 crucifié	crucifier	VERB
-dès	dès	ADP
-l'	le	DET
-instant	instant	NOUN
-où	où	PRON
+dès l'instant où	dès l'instant où	DET
 elle	elle	PRON
 a	avoir	AUX
 compris	comprendre	VERB
@@ -4650,8 +4597,7 @@ cœur	cœur	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
 savons	savoir	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 ce	ce	PRON
 est	être	AUX
 encore	encore	ADV
@@ -4762,9 +4708,7 @@ la	le	DET
 nation	nation	NOUN
 déifiée	déifier	VERB
 .	.	PUNCTsent
-à	à	ADP
-condition	condition	NOUN
-que	que	SCONJ
+à condition que	à condition que	PRON
 l'on	on	PRON
 prenne	prendre	VERB
 ces	ce	DET
@@ -4919,11 +4863,9 @@ su	savoir	VERB
 capter	capter	VERB
 et	et	CCONJ
 mettre	mettre	VERB
-au	au	ADP_DET
-pas	pas	NOUN
+au pas	au pas	PUNCT
 ,	,	PUNCTclause
-jusque	jusque	ADP
-au moment où	au moment où	ADP
+jusqu'au moment où	jusqu'au moment où	ADP
 le	le	DET
 pouvoir	pouvoir	NOUN
 a	avoir	AUX
@@ -4989,8 +4931,7 @@ aux	au	ADP_DET
 idées	idée	NOUN
 abstraites	abstrait	ADJ
 .	.	PUNCTsent
-par	par	ADP
-contre	contre	NOUN
+par contre	par contre	NOUN
 ,	,	PUNCTclause
 on	on	PRON
 l'	le_PRON	PRON
@@ -5175,8 +5116,7 @@ considérable	considérable	ADJ
 mais	mais	CCONJ
 il	il	PRON
 est	être	AUX
-d'autant	d'autant	ADV
-plus	plus	ADV
+d'autant plus	d'autant plus	ADP
 frappant	frapper	VERB
 de	de	ADP
 voir	voir	VERB
@@ -5522,8 +5462,7 @@ jugeaient	juger	VERB
 mais	mais	CCONJ
 on	on	PRON
 sait	savoir	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 il	il	PRON
 ne	ne	ADV
 en	en	PRON
@@ -5558,8 +5497,7 @@ gens	gens	NOUN
 de	de	ADP
 gauche	gauche	NOUN
 ,	,	PUNCTclause
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	SCONJ
 il	il	PRON
 soit	être	AUX
 juste	juste	ADV
@@ -5569,8 +5507,7 @@ que	que	SCONJ
 ils	ils	PRON
 se	se	PRON
 méfient	méfier	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	PUNCT
 Staline	Staline	PROPN
 que	que	SCONJ
 les	le	DET
@@ -5791,13 +5728,11 @@ ne	ne	ADV
 insiste	insister	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	SCONJ
 il	il	PRON
 soit	être	AUX
 aisé	aisé	ADJ
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 cent	cent	NUM
 remarques	remarque	NOUN
 analogues	analogue	ADJ
@@ -5949,11 +5884,8 @@ ne	ne	ADV
 le	le_PRON	PRON
 font	faire	VERB
 pas	pas	ADV
-sur	sur	ADP
-la	le	DET
-base	base	NOUN
-de	de	ADP
-une	un	DET
+sur la base de	sur la base de	DET
+une	un	PRON
 connaissance	connaissance	NOUN
 des	un	ADP_DET
 faits	fait	NOUN
@@ -5962,10 +5894,7 @@ ils	ils	PRON
 le	le_PRON	PRON
 font	faire	VERB
 au contraire	au contraire	ADV
-sur	sur	ADP
-la	le	DET
-base	base	NOUN
-de	de	ADP
+sur la base de	sur la base de	ADP
 une	un	DET
 furieuse	furieux	ADJ
 ignorance	ignorance	NOUN
@@ -6084,8 +6013,7 @@ et	et	CCONJ
 cette	ce	DET
 injure	injure	NOUN
 est	être	AUX
-d'autant	d'autant	ADV
-plus	plus	ADV
+d'autant plus	d'autant plus	ADV
 facile	facile	ADJ
 que	que	SCONJ
 on	on	PRON
@@ -6098,8 +6026,7 @@ parle	parler	VERB
 .	.	PUNCTsent
 ensuite	ensuite	ADV
 ,	,	PUNCTclause
-à	à	ADP
-supposé que	supposé que	ADP
+à supposer que	à supposer que	SCONJ
 on	on	PRON
 aboutisse	aboutir	VERB
 à	à	ADP
@@ -6430,11 +6357,7 @@ ce	ce	PRON
 est	être	AUX
 ainsi	ainsi	ADV
 que	que	SCONJ
-les	le	DET
-uns	un	PRON
-et	et	CCONJ
-les	le	DET
-autres	autre	PRON
+les uns et les autres	les uns et les autres	DET
 apportent	apporter	VERB
 leur	leur	DET
 petite	petit	ADJ
@@ -6457,9 +6380,7 @@ sans	sans	ADP
 malice	malice	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-au	au	ADP_DET
-nom	nom	NOUN
-du	du	ADP_DET
+au nom de	au nom de	ADP
 bon sens	bon sens	NOUN
 .	.	PUNCTsent
 ils	ils	PRON
@@ -6506,14 +6427,11 @@ sainte	saint	ADJ
 simplicité	simplicité	NOUN
 pour	pour	ADP
 croire	croire	VERB
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	SCONJ
 on	on	PRON
 puisse	pouvoir	VERB
 détacher	détacher	VERB
-telle	tel	DET
-ou	ou	CCONJ
-telle	tel	DET
+telle ou telle	telle ou telle	ADJ
 pièce	pièce	NOUN
 de	de	ADP
 ces	ce	DET
@@ -6602,8 +6520,7 @@ admirer	admirer	VERB
 les	le	DET
 totalitaires	totalitaire	ADJ
 .	.	PUNCTsent
-comme	comme	SCONJ
-si	si	SCONJ
+comme si	comme si	SCONJ
 le	le	DET
 mot	mot	NOUN
 totalitaire	totalitaire	ADJ
@@ -6647,8 +6564,7 @@ dans	dans	ADP
 l'	le	DET
 intention	intention	NOUN
 philanthropique	philanthropique	ADJ
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 partir	partir	VERB
 les	le	DET
 trains	train	NOUN
@@ -6897,8 +6813,7 @@ empêcheraient	empêcher	VERB
 de	de	ADP
 marcher	marcher	VERB
 bien	bien	ADV
-au	au	ADP_DET
-pas	pas	NOUN
+au pas	au pas	ADV
 .	.	PUNCTsent
 il	il	PRON
 se	se	PRON
@@ -7110,10 +7025,8 @@ Allemagne	Allemagne	PROPN
 cela	cela	PRON
 ne	ne	ADV
 signifie	signifier	VERB
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
-que	que	PRON
+pas du tout	pas du tout	ADV
+que	que	SCONJ
 il	il	PRON
 est	être	AUX
 devenu	devenir	VERB
@@ -7164,9 +7077,7 @@ Autriche	Autriche	PROPN
 ou	ou	CCONJ
 de	de	ADP
 réarmer	réarmer	VERB
-en	en	ADP
-dépit	dépit	NOUN
-des	un	ADP_DET
+en dépit de	en dépit de	ADP
 traités	traité	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -7364,8 +7275,7 @@ le	le	DET
 droit	droit	NOUN
 de	de	ADP
 se	se	PRON
-faire	faire	AUX
-valoir	valoir	VERB
+faire valoir	faire valoir	VERB
 comme	comme	ADP
 le	le	DET
 plus	plus	ADV
@@ -7425,11 +7335,10 @@ la	le	DET
 Corse	Corse	PROPN
 .	.	PUNCTsent
 elle	elle	PRON
-a	avoir	VERB
-la	le	DET
-même	même	ADJ
+a	avoir	AUX
+la même	la même	DET
 «	«	PUNCTclause
-morale	moral	ADJ
+morale	morale	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -7438,8 +7347,7 @@ peut	pouvoir	VERB
 dire	dire	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 susceptibilités	susceptibilité	NOUN
 .	.	PUNCTsent
 de plus	de plus	ADV
@@ -7501,8 +7409,7 @@ instincts	instinct	NOUN
 de	de	ADP
 un	un	DET
 certain	certain	ADJ
-nombre	nombre	NOUN
-de	de	ADP
+nombre de	nombre de	ADP
 nos	nos	DET
 contemporains	contemporain	NOUN
 ,	,	PUNCTclause
@@ -7703,8 +7610,7 @@ elle	elle	PRON
 a	avoir	AUX
 tout de même	tout de même	ADV
 ,	,	PUNCTclause
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	SYM
 ,	,	PUNCTclause
 quelques	quelque	DET
 voisins	voisin	NOUN
@@ -7755,9 +7661,7 @@ totalitaire	totalitaire	ADJ
 ce	ce	PRON
 est	être	AUX
 l'	le	DET
-état	état	NOUN
-de	de	ADP
-guerre	guerre	NOUN
+état de guerre	état de guerre	NOUN
 .	.	PUNCTsent
 nés	naître	VERB
 de	de	ADP
@@ -7963,8 +7867,7 @@ guerre	guerre	NOUN
 seule	seul	ADJ
 ,	,	PUNCTclause
 porte	porter	VERB
-au	au	ADP_DET
-maximum	maximum	NOUN
+au maximum	au maximum	SYM
 de	de	ADP
 tension	tension	NOUN
 toutes	tout	ADJ
@@ -8350,10 +8253,9 @@ rhétorique	rhétorique	ADJ
 .	.	PUNCTsent
 on	on	PRON
 sent	sentir	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 l'	le	DET
-important	important	NOUN
+important	important	ADJ
 ,	,	PUNCTclause
 ici	ici	ADV
 ,	,	PUNCTclause
@@ -8435,8 +8337,7 @@ de	de	ADP
 la	le	DET
 nation	nation	NOUN
 ,	,	PUNCTclause
-à	à	ADP
-défaut	défaut	NOUN
+à défaut	à défaut	DET
 d'autre	d'autre	PRON
 foi	foi	NOUN
 réelle	réel	ADJ
@@ -8567,9 +8468,7 @@ passion	passion	NOUN
 exalte	exalter	VERB
 la	le	DET
 vie	vie	NOUN
-à	à	ADP
-l'	le	DET
-extrême	extrême	ADJ
+à l'extrême	à l'extrême	ADJ
 des	un	ADP_DET
 puissances	puissance	NOUN
 humaines	humain	ADJ

@@ -9,8 +9,10 @@ aggregated independently with:
 
 Without --aggregators, reproduce the previous default behavior:
   bm25 -> sum; all other local scorers -> tf-l2.
-The corpus-level ``kl`` (sqrt(CF) × KL) and ``js`` (sqrt(CF) ×
-Jensen–Shannon divergence) scorers need no aggregation.
+The corpus-level ``kl`` (sqrt(CF) × KL), ``js`` (sqrt(CF) ×
+Jensen–Shannon), and ``jslog`` (log1p(CF/tau) × Jensen–Shannon)
+scorers need no aggregation. ``--families`` shows automatically inferred
+term neighborhoods using document-level excess co-occurrence.
 
 Vocabulary selection is a post-ranking filter: all scorer statistics always
 refer to the complete original corpus.
@@ -24,6 +26,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
+from scipy import sparse
 
 from scorers import BM25, make_scorer
 
@@ -146,8 +149,8 @@ def kl(corpus, tid, did, tf):
     return scores
 
 
-def js(corpus, tid, did, tf):
-    """Corpus-wide sqrt(CF) × Jensen–Shannon divergence, in natural logs.
+def js_divergence(corpus, tid, did, tf):
+    """Corpus-wide Jensen–Shannon divergence, in natural logs.
 
     Compare q_d = tf_d / CF with p_d = length_d / collection_length.
     Avoid a dense term-document array by accounting for absent terms using
@@ -161,10 +164,68 @@ def js(corpus, tid, did, tf):
     total = np.bincount(tid, weights=correction, minlength=len(cf))
     scores = np.zeros(len(cf), dtype=np.float64)
     valid = cf > 0
-    scores[valid] = np.log(cf[valid]) * np.maximum(
-        0.0, np.log(2.0) - 0.5 * total[valid]
-    )
+    scores[valid] = np.maximum(0.0, np.log(2.0) - 0.5 * total[valid])
     return scores
+
+
+def js(corpus, tid, did, tf):
+    """Original sqrt(CF) × Jensen–Shannon score."""
+    return np.sqrt(corpus.cf) * js_divergence(corpus, tid, did, tf)
+
+
+def jslog(corpus, tid, did, tf, tau):
+    """Jensen–Shannon weighted by log(1 + CF/tau), with tau > 0."""
+    return np.log1p(corpus.cf / tau) * js_divergence(corpus, tid, did, tf)
+
+
+def make_family_profiles(corpus, tid, did, tf):
+    """Build normalized term vectors of positive length-adjusted excess use."""
+    expected = corpus.cf[tid] * corpus.doc_len[did] / corpus.collection_len
+    weights = np.sqrt(tf) * np.maximum(0.0, np.log((tf + 0.5) / (expected + 0.5)))
+    matrix = sparse.csr_matrix(
+        (weights, (tid, did)), shape=(len(corpus.cf), len(corpus.doc_len))
+    )
+    norms = np.sqrt(np.asarray(matrix.multiply(matrix).sum(axis=1)).ravel())
+    inverse = np.zeros(len(norms))
+    np.divide(1.0, norms, out=inverse, where=norms > 0)
+    return sparse.diags(inverse) @ matrix
+
+
+def term_neighborhoods(corpus, matrix, seeds, mask, size, minimum_similarity):
+    """Find nearest terms by cosine similarity of the excess-use profiles."""
+    # Exclude terms with little evidence and very ubiquitous vocabulary.
+    candidates = (mask & (corpus.cf >= 20) & (corpus.df >= 10)
+                  & (corpus.df <= 0.8 * corpus.n_docs))
+    families = []
+    for seed in seeds:
+        similarities = (matrix @ matrix.getrow(int(seed)).T).toarray().ravel()
+        similarities[~candidates] = -1.0
+        similarities[seed] = -1.0
+        ranked = np.argsort(-similarities, kind="stable")[:max(size - 1, 0)]
+        neighbors = [(int(j), float(similarities[j])) for j in ranked
+                     if similarities[j] >= minimum_similarity]
+        families.append((int(seed), neighbors))
+    return families
+
+
+def write_families(path, families, lemmas):
+    """Write one seed and its nearest associated terms on each line."""
+    with path.open("w", encoding="utf-8", newline="\n") as stream:
+        for seed, neighbors in families:
+            words = ", ".join(lemmas[term_id] for term_id, _ in neighbors)
+            stream.write(f"{lemmas[seed]}: {words}\n" if words
+                         else f"{lemmas[seed]}\n")
+
+
+def write_family_edges(path, families, lemmas):
+    """Export the cosine associations underlying the readable family lists."""
+    with path.open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.writer(stream, delimiter="\t")
+        writer.writerow(("rank", "seed_id", "seed", "neighbor_id", "neighbor", "cosine"))
+        for rank, (seed, neighbors) in enumerate(families, 1):
+            for neighbor, similarity in neighbors:
+                writer.writerow((rank, seed, lemmas[seed], neighbor, lemmas[neighbor],
+                                 f"{similarity:.6f}"))
 
 
 def bm25_saturation_loss(corpus, tid, did, tf, k1, b):
@@ -254,7 +315,17 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("prefix", help="TSV file prefix, e.g. ./ddr-")
     parser.add_argument("--scorers", nargs="+", default=["kl", "bm25", "simpleridf"],
-                        help="kl, js, or any scorer code supported by scorers.py")
+                        help="kl, js, jslog, or any scorer code supported by scorers.py")
+    parser.add_argument("--js-tau", type=float, default=500.0,
+                        help="positive CF transition scale for jslog, default 500")
+    parser.add_argument("--families", action="store_true",
+                        help="print one inferred term neighborhood per ranked keyword")
+    parser.add_argument("--family-size", type=int, default=5,
+                        help="maximum terms per neighborhood, including its seed (default 5)")
+    parser.add_argument("--family-sim", type=float, default=0.30,
+                        help="minimum length-adjusted cosine similarity (default 0.30)")
+    parser.add_argument("--family-seeds", nargs="+", default=None,
+                        help="inspect specified lemma neighborhoods instead of ranked seeds")
     parser.add_argument("--aggregators", nargs="+", choices=["sum", "tf-l2", "power", "satloss"],
                         default=None, help="apply each selected aggregator to each local scorer; "
                         "omit to preserve previous scorer-specific defaults")
@@ -273,6 +344,12 @@ def main():
                         "default: stopwords.txt beside script")
     args = parser.parse_args()
 
+    if not np.isfinite(args.js_tau) or args.js_tau <= 0:
+        parser.error("--js-tau must be positive and finite")
+    if args.family_size < 2 or not 0 <= args.family_sim <= 1:
+        parser.error("--family-size must be >= 2 and --family-sim must be in [0,1]")
+    if args.family_seeds and not args.families:
+        parser.error("--family-seeds requires --families")
     if not np.isfinite(args.power) or args.power < 1.0:
         parser.error("--power must be finite and >= 1")
     if args.top <= 0 or not np.isfinite(args.k1) or args.k1 <= 0:
@@ -305,11 +382,15 @@ def main():
     if args.aggregators is not None and "satloss" in args.aggregators:
         loss = bm25_saturation_loss(corpus, tid, did, tf, args.k1, args.b)
 
+    family_profiles = None
     for name in dict.fromkeys(args.scorers):
-        if name in ("kl", "js"):
+        if name in ("kl", "js", "jslog"):
             # Corpus-level divergences do not use document-score aggregators.
-            rankings = [(name, kl(corpus, tid, did, tf) if name == "kl"
-                         else js(corpus, tid, did, tf))]
+            scores = (kl(corpus, tid, did, tf) if name == "kl"
+                      else js(corpus, tid, did, tf) if name == "js"
+                      else jslog(corpus, tid, did, tf, args.js_tau))
+            label = f"jslog-tau{args.js_tau:g}" if name == "jslog" else name
+            rankings = [(label, scores)]
         else:
             try:
                 local, is_bm25 = local_scores(
@@ -334,13 +415,35 @@ def main():
                 selected = filtered[:args.top]
                 # Keep legacy filenames exactly for the unfiltered vocabulary.
                 stem = f"corpus-{label}" + ("" if mode == "all" else f"-{mode}")
-                write_results(args.out / f"{stem}-all.tsv", filtered, lemmas,
-                              corpus.cf, corpus.df, scores)
-                write_results(args.out / f"{stem}-top{args.top}.tsv", selected,
-                              lemmas, corpus.cf, corpus.df, scores)
                 display = label if mode == "all" else f"{label} / {mode}"
-                print(f"\n{display} top {len(selected)}:", flush=True)
-                print(", ".join(lemmas[term_id] for term_id in selected), flush=True)
+                if args.families:
+                    if args.family_seeds:
+                        by_name = {lemma: i for i, lemma in enumerate(lemmas)}
+                        missing = [word for word in args.family_seeds if word not in by_name]
+                        if missing:
+                            parser.error(f"Unknown family seeds: {', '.join(missing)}")
+                        selected = np.array([by_name[word] for word in args.family_seeds])
+                    if family_profiles is None:
+                        family_profiles = make_family_profiles(corpus, tid, did, tf)
+                    families = term_neighborhoods(
+                        corpus, family_profiles, selected, masks[mode],
+                        args.family_size, args.family_sim
+                    )
+                    path = args.out / f"{stem}-families-top{len(selected)}.txt"
+                    write_families(path, families, lemmas)
+                    write_family_edges(path.with_suffix(".tsv"), families, lemmas)
+                    print(f"\n{display} neighborhoods ({len(families)}):", flush=True)
+                    for seed, neighbors in families:
+                        words = ", ".join(lemmas[i] for i, _ in neighbors)
+                        print(f"{lemmas[seed]}: {words}" if words else lemmas[seed], flush=True)
+                    print(f"Saved: {path}", flush=True)
+                else:
+                    write_results(args.out / f"{stem}-all.tsv", filtered, lemmas,
+                                  corpus.cf, corpus.df, scores)
+                    write_results(args.out / f"{stem}-top{args.top}.tsv", selected,
+                                  lemmas, corpus.cf, corpus.df, scores)
+                    print(f"\n{display} top {len(selected)}:", flush=True)
+                    print(", ".join(lemmas[term_id] for term_id in selected), flush=True)
 
 
 if __name__ == "__main__":

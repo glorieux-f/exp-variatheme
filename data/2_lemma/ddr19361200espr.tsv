@@ -93,8 +93,7 @@ son	son	DET
 message	message	NOUN
 unique	unique	ADJ
 et	et	CCONJ
-par là	par là	ADV
-même	même	ADV
+par là même	par là même	ADP
 généralement	généralement	ADV
 humain	humain	ADJ
 .	.	PUNCTsent
@@ -183,8 +182,7 @@ venant	venir	VERB
 je	je	PRON
 me	me	PRON
 sens	sentir	VERB
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	NOUN
 curiosité	curiosité	NOUN
 pour	pour	ADP
 les	le	DET
@@ -423,9 +421,7 @@ aurait	avoir	AUX
 choisi	choisir	VERB
 Venise	Venise	PROPN
 ,	,	PUNCTclause
-en	en	ADP
-dépit	dépit	NOUN
-du	du	ADP_DET
+en dépit de	en dépit de	ADP
 progrès	progrès	NOUN
 historique	historique	ADJ
 .	.	PUNCTsent
@@ -466,11 +462,10 @@ là	là	ADV
 de	de	ADP
 une	un	DET
 description	description	NOUN
-un	un	DET
-peu	peu	ADV
+un peu	un peu	ADP_DET
 plus	plus	ADV
-que	que	ADV
-amicale	amical	ADJ
+que	que	SCONJ
+amicale	amical	NOUN
 du	du	ADP_DET
 régime	régime	NOUN
 de	de	ADP
@@ -601,8 +596,7 @@ l'une	l'une	PRON
 prononcée	prononcer	VERB
 par	par	ADP
 Gide	Gide	PROPN
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	PUNCT
 de	de	ADP
 son	son	DET
 voyage	voyage	NOUN
@@ -614,9 +608,7 @@ retour	retour	NOUN
 en	en	ADP
 France	France	PROPN
 .	.	PUNCTsent
-point	point	NOUN
-de	de	ADP
-départ	départ	NOUN
+point de départ	point de départ	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 le	le	DET
@@ -644,9 +636,7 @@ de	de	ADP
 Gorki	Gorki	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
-point	point	ADV
-de	de	ADP
-arrivée	arrivée	NOUN
+point d'arrivée	point d'arrivée	NOUN
 :	:	PUNCTclause
 «	«	PUNCTsent
 rien	rien	PRON
@@ -657,8 +647,7 @@ cet	ce	DET
 état d'esprit	état d'esprit	NOUN
 (	(	PUNCTclause
 de	de	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 URSS	URSS	PROPN
 )	)	PUNCTclause
 ne	ne	ADV
@@ -723,9 +712,7 @@ et	et	CCONJ
 je	je	PRON
 ne	ne	ADV
 dis	dire	VERB
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 :	:	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -763,9 +750,8 @@ succès	succès	NOUN
 de	de	ADP
 l'	le	DET
 URSS	URSS	PROPN
-auprès	auprès	ADV
-des	un	ADP_DET
-intellectuels	intellectuel	NOUN
+auprès de	auprès de	ADP
+intellectuels	intellectuel	ADJ
 France	France	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -832,8 +818,7 @@ de	de	ADP
 un	un	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 celle	celle	PRON
 des	un	ADP_DET
 prolétaires	prolétaire	NOUN
@@ -920,8 +905,7 @@ le	le	DET
 mépris	mépris	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-tout	tout	ADV
-au moins	au moins	ADV
+tout au moins	tout au moins	ADV
 l'	le	DET
 indifférence	indifférence	NOUN
 ,	,	PUNCTclause
@@ -938,10 +922,7 @@ bon	bon	ADJ
 côté	côté	NOUN
 ,	,	PUNCTclause
 marquent	marquer	VERB
-à	à	ADP
-l'	le	DET
-égard	égard	NOUN
-des	un	ADP_DET
+à l'égard de	à l'égard de	ADP
 inférieurs	inférieur	NOUN
 ,	,	PUNCTclause
 des	un	DET
@@ -968,9 +949,8 @@ pauvres	pauvre	NOUN
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
-a	avoir	VERB
-plus	plus	ADV
-de	de	ADP
+a	avoir	AUX
+plus de	plus de	DET
 classes	classe	NOUN
 en	en	ADP
 URSS	URSS	PROPN
@@ -984,10 +964,7 @@ il y a	il y a	VERB
 des	un	DET
 pauvres	pauvre	NOUN
 .	.	PUNCTsent
-il	il	PRON
-y	y	PRON
-en	en	PRON
-a	avoir	VERB
+il y en a	il y en a	PRON
 trop	trop	ADV
 ,	,	PUNCTclause
 beaucoup	beaucoup	ADV
@@ -1479,8 +1456,7 @@ que	que	SCONJ
 il	il	PRON
 laisse	laisser	VERB
 encore	encore	ADV
-en	en	ADP
-suspens	suspens	NOUN
+en suspens	en suspens	PUNCT
 .	.	PUNCTsent
 les	le	DET
 staliniens	stalinien	ADJ
@@ -1595,8 +1571,7 @@ nourrice	nourrice	NOUN
 .	.	PUNCTsent
 elle	elle	PRON
 veut	vouloir	VERB
-en	en	PRON
-faire	faire	VERB
+en fait	en fait	PUNCT
 un	un	DET
 dieu	dieu	NOUN
 ,	,	PUNCTclause

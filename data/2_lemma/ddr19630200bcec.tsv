@@ -201,14 +201,11 @@ ils	ils	PRON
 sont	être	AUX
 fréquents	fréquent	ADJ
 ,	,	PUNCTclause
-depuis	depuis	ADP
-que	que	SCONJ
-le	le	DET
+depuis que	depuis que	DET
+le	le_PRON	PRON
 sujet	sujet	NOUN
 est	être	AUX
-à	à	ADP
-la	le	DET
-mode	mode	NOUN
+à la mode	à la mode	DET
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 les	le	DET
@@ -676,8 +673,7 @@ remarques	remarque	NOUN
 fondamentales	fondamental	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	ADP
 livres	livre	NOUN
 sur	sur	ADP
 l'	le	DET
@@ -734,9 +730,7 @@ des	un	DET
 siècles	siècle	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	DET
 .	.	PUNCTsent
 chacun	chacun	PRON
 brûle	brûler	VERB
@@ -788,17 +782,14 @@ Europe	Europe	PROPN
 je	je	PRON
 en	en	ADP
 doute	doute	NOUN
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 .	.	PUNCTsent
 (	(	PUNCTclause
 mais	mais	CCONJ
 il y a	il y a	VERB
 bien	bien	ADV
 d'autres	d'autre	PRON
-raisons	raison	NOUN
-de	de	ADP
-être	être	AUX
+raison d'être	raison d'être	PUNCT
 optimiste	optimiste	ADJ
 .	.	PUNCTsent
 )	)	PUNCTclause
@@ -813,9 +804,7 @@ ouvrages	ouvrage	NOUN
 ils	ils	PRON
 sont	être	AUX
 écrits	écrire	VERB
-à	à	ADP
-la	le	DET
-hâte	hâte	NOUN
+à la hâte	à la hâte	DET
 ,	,	PUNCTclause
 pour	pour	ADP
 «	«	PUNCTclause
@@ -879,12 +868,9 @@ etc.	etc.	NOUN
 et	et	CCONJ
 de	de	ADP
 exprimer	exprimer	VERB
-au	au	ADP_DET
-sujet	sujet	NOUN
-des	un	ADP_DET
+au sujet de	au sujet de	ADP
 actions	action	NOUN
-en	en	ADP
-cours	cours	NOUN
+en cours	en cours	ADP
 son	son	DET
 appréciation	appréciation	NOUN
 personnelle	personnel	ADJ
@@ -904,8 +890,7 @@ est	être	AUX
 improvisé	improviser	VERB
 et	et	CCONJ
 manque	manquer	VERB
-un	un	DET
-peu de	peu de	DET
+un peu de	un peu de	DET
 rigueur	rigueur	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
@@ -1028,10 +1013,8 @@ demander	demander	VERB
 d'abord	d'abord	ADV
 si	si	SCONJ
 ce	ce	PRON
-était	être	VERB
-à	à	ADP
-la	le	DET
-mode	mode	NOUN
+était	être	AUX
+à la mode	à la mode	PUNCT
 ,	,	PUNCTclause
 si	si	SCONJ
 cela	cela	PRON
@@ -1115,8 +1098,7 @@ mesure	mesurer	VERB
 aussi	aussi	ADV
 au	au	ADP_DET
 grand	grand	ADJ
-nombre	nombre	NOUN
-de	de	ADP
+nombre de	nombre de	NOUN
 ceux	ceux	PRON
 qui	qui	PRON
 se	se	PRON
@@ -1156,12 +1138,12 @@ se	se	PRON
 féliciter	féliciter	VERB
 de	de	ADP
 voir	voir	VERB
-autant	autant	ADV
-de	de	ADP
+autant de	autant de	PUNCT
 esprits	esprit	NOUN
 préoccupés	préoccuper	VERB
-de	de	ADP
-mise en ordre	mise en ordre	NOUN
+de mise	de mise	ADP
+en	en	PRON
+ordre	ordre	NOUN
 leurs	leur	DET
 idées	idée	NOUN
 sur	sur	ADP
@@ -1197,19 +1179,15 @@ montrer	montrer	VERB
 plus	plus	ADV
 difficiles	difficile	ADJ
 .	.	PUNCTsent
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	DET
 ouvrages	ouvrage	NOUN
-de	de	ADP
-seconde	second	ADJ
-main	main	NOUN
+de seconde main	de seconde main	PUNCT
 sur	sur	ADP
 l'	le	DET
 Europe	Europe	PROPN
 risquent	risquer	VERB
-de	de	ADP
-faire	faire	VERB
-du	du	DET
+de fait	de fait	PUNCT
+du	du	ADP_DET
 tort	tort	NOUN
 à	à	ADP
 la	le	DET
@@ -1244,8 +1222,7 @@ qui	qui	PRON
 se	se	PRON
 est	être	AUX
 fait	faire	VERB
-jusque	jusque	ADP
-à présent	à présent	ADV
+jusqu'à présent	jusqu'à présent	ADV
 :	:	PUNCTclause
 ils	ils	PRON
 verraient	voir	VERB
@@ -1349,8 +1326,7 @@ de	de	ADP
 éviter	éviter	VERB
 désormais	désormais	ADV
 .	.	PUNCTsent
-la	le	DET
-première	premier	ADJ
+la première	la première	DET
 fut	être	AUX
 de	de	ADP
 limiter	limiter	VERB
@@ -1463,8 +1439,7 @@ succès	succès	NOUN
 que	que	PRON
 ont	avoir	AUX
 remporté	remporter	VERB
-depuis	depuis	ADV
-lors	lors	ADV
+depuis lors	depuis lors	ADV
 deux	deux	NUM
 au moins	au moins	ADV
 des	un	ADP_DET
@@ -1669,8 +1644,7 @@ possibles	possible	ADJ
 ,	,	PUNCTclause
 les	le	DET
 projets	projet	NOUN
-en	en	ADP
-cours	cours	NOUN
+en cours	en cours	PUNCT
 ,	,	PUNCTclause
 et	et	CCONJ
 ceux	ceux	PRON

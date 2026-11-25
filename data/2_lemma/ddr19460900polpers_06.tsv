@@ -9,9 +9,7 @@
 ↵↵	↵↵	PUNCTstruct
 5	5	NUM
 .	.	PUNCTsent
-en	en	ADP
-dernier	dernier	ADJ
-ressort	ressort	NOUN
+en dernier ressort	en dernier ressort	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 quel que soit	quel que soit	ADP
@@ -370,8 +368,7 @@ la	le	DET
 haine	haine	NOUN
 pour tout	pour tout	ADP
 idéal	idéal	NOUN
-un	un	DET
-peu	peu	ADV
+un peu	un peu	ADP_DET
 haut	haut	ADJ
 :	:	PUNCTclause
 il	il	PRON
@@ -389,8 +386,7 @@ de	de	ADP
 le	le	DET
 lui	lui	PRON
 imposer	imposer	VERB
-de	de	ADP
-force	force	NOUN
+de force	de force	DET
 .	.	PUNCTsent
 on	on	PRON
 a	avoir	AUX
@@ -413,9 +409,7 @@ l'	le	DET
 idéal	idéal	NOUN
 premier	premier	ADJ
 .	.	PUNCTsent
-en	en	ADP
-échange	échange	NOUN
-de	de	ADP
+en échange de	en échange de	ADP
 leur	leur	DET
 promesse	promesse	NOUN
 de	de	ADP
@@ -802,8 +796,7 @@ cet	ce	DET
 ordre	ordre	NOUN
 ,	,	PUNCTclause
 encore	encore	ADV
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	PUNCT
 les	le	DET
 maquiller	maquiller	VERB
 ;	;	PUNCTclause
@@ -988,8 +981,7 @@ il	il	PRON
 me	me	PRON
 faut	falloir	VERB
 indiquer	indiquer	VERB
-pour	pour	ADP
-finir	finir	VERB
+pour finir	pour finir	PUNCT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 I.	I.	PROPN
@@ -1035,8 +1027,7 @@ nouveau	nouveau	ADJ
 :	:	PUNCTclause
 on	on	PRON
 voit	voir	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 elles	elles	PRON
 sont	être	AUX
 sans	sans	ADP
@@ -1278,9 +1269,7 @@ l'	le	DET
 humain	humain	NOUN
 en	en	ADP
 agissant	agir	VERB
-au	au	ADP_DET
-mépris	mépris	NOUN
-des	un	ADP_DET
+au mépris de	au mépris de	ADP
 humains	humain	NOUN
 .	.	PUNCTsent
 on	on	PRON
@@ -1331,9 +1320,7 @@ que	que	PRON
 elle	elle	PRON
 impose	imposer	VERB
 .	.	PUNCTsent
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 ,	,	PUNCTclause
 seul	seul	ADJ
 ,	,	PUNCTclause
@@ -1361,8 +1348,7 @@ même	même	ADJ
 couverture	couverture	NOUN
 quelques	quelque	DET
 essais	essai	NOUN
-de	de	ADP
-circonstance	circonstance	NOUN
+de circonstance	de circonstance	PUNCT
 qui	qui	PRON
 ne	ne	ADV
 ont	avoir	AUX
@@ -1417,8 +1403,7 @@ invitèrent	inviter	VERB
 à	à	ADP
 traiter	traiter	VERB
 sans	sans	ADP
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	NOUN
 précautions	précaution	NOUN
 ,	,	PUNCTclause
 se	se	PRON

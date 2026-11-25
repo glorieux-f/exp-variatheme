@@ -92,8 +92,7 @@ dirais	dire	VERB
 même	même	ADV
 ,	,	PUNCTclause
 sans	sans	ADP
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	NOUN
 paradoxe	paradoxe	NOUN
 ,	,	PUNCTclause
 que	que	SCONJ
@@ -195,14 +194,10 @@ un	un	DET
 système	système	NOUN
 qui	qui	PRON
 serait	être	AUX
-en	en	ADP
-équilibre	équilibre	NOUN
+en équilibre	en équilibre	ADP
 permanent	permanent	ADJ
 ,	,	PUNCTclause
-à	à	ADP
-l'	le	DET
-abri	abri	NOUN
-des	un	ADP_DET
+à l'abri de	à l'abri de	ADP
 menaces	menace	NOUN
 grossières	grossier	ADJ
 comme	comme	ADP
@@ -506,8 +501,7 @@ l'	le	DET
 ;	;	PUNCTclause
 l'	le	DET
 organiser	organiser	VERB
-au-delà	au-delà	ADV
-des	un	ADP_DET
+au-delà de	au-delà de	ADP_DET
 états	état	NOUN
 en	en	ADP
 une	un	DET
@@ -614,8 +608,7 @@ dans	dans	ADP
 la	le	DET
 réalité	réalité	NOUN
 ,	,	PUNCTclause
-du	du	ADP_DET
-moins	moins	ADV
+du moins	du moins	NOUN
 dans	dans	ADP
 les	le	DET
 déclarations	déclaration	NOUN
@@ -657,8 +650,7 @@ les	le	DET
 gouvernements	gouvernement	NOUN
 travaillent	travailler	VERB
 encore	encore	ADV
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 ,	,	PUNCTclause
 dans	dans	ADP
 le	le	DET
@@ -710,10 +702,7 @@ l'	le	DET
 effort	effort	NOUN
 de	de	ADP
 invention	invention	NOUN
-à	à	ADP
-la	le	DET
-hauteur	hauteur	NOUN
-du	du	ADP_DET
+à la hauteur de	à la hauteur de	ADP
 siècle	siècle	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -725,8 +714,7 @@ en	en	ADP
 septembre	septembre	NOUN
 dernier	dernier	ADJ
 ,	,	PUNCTclause
-lors	lors	ADV
-du	du	ADP_DET
+lors de	lors de	ADP
 congrès	congrès	NOUN
 de	de	ADP
 l'	le	DET
@@ -816,9 +804,7 @@ même	même	ADV
 à	à	ADP
 lui	lui	PRON
 survivre	survivre	VERB
-aussi	aussi	ADV
-longtemps	longtemps	ADV
-que	que	SCONJ
+aussi longtemps que	aussi longtemps que	ADV
 possible	possible	ADJ
 avec	avec	ADP
 l'	le	DET
@@ -973,9 +959,7 @@ mois	mois	NOUN
 plus tard	plus tard	ADV
 ,	,	PUNCTclause
 parlant	parler	VERB
-au	au	ADP_DET
-nom	nom	NOUN
-des	un	ADP_DET
+au nom de	au nom de	ADP
 gouvernants	gouvernant	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -984,8 +968,8 @@ leur	leur	DET
 situation	situation	NOUN
 embarrassée	embarrasser	VERB
 ,	,	PUNCTclause
-le	le	DET
-premier ministre	Premier ministre	NOUN
+le premier	le premier	DET
+ministre	ministre	NOUN
 Belgique	Belgique	PROPN
 ,	,	PUNCTclause
 monsieur	monsieur	NOUN
@@ -1120,9 +1104,7 @@ visons	viser	VERB
 tous	tous	PRON
 ,	,	PUNCTclause
 à	à	ADP
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 brève	bref	ADJ
 échéance	échéance	NOUN
 .	.	PUNCTsent
@@ -1194,8 +1176,7 @@ nécessaires	nécessaire	ADJ
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
 voulons	vouloir	VERB
-au-dessus	au-dessus	ADV
-des	un	ADP_DET
+au-dessus de	au-dessus de	ADP
 états	état	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -1264,8 +1245,7 @@ conscience	conscience	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-par-dessus	par-dessus	ADP
-tout	tout	PRON
+par-dessus tout	par-dessus tout	ADV
 ,	,	PUNCTclause
 dominant	dominer	VERB
 ces	ce	DET
@@ -1404,9 +1384,7 @@ isolés	isoler	VERB
 nous	nous	PRON
 serons	être	AUX
 colonisés	coloniser	VERB
-l'un	l'un	PRON
-après	après	ADP
-l'autre	l'autre	PRON
+l'un après l'autre	l'un après l'autre	PUNCT
 en	en	ADP
 toute	tout	ADJ
 souveraineté	souveraineté	NOUN
@@ -1483,11 +1461,8 @@ d'abord	d'abord	ADV
 notre	notre	DET
 prospérité	prospérité	NOUN
 ,	,	PUNCTclause
-bien	bien	ADV
-que	que	SCONJ
-l'une	l'une	PRON
-et	et	CCONJ
-l'autre	l'autre	PRON
+bien que	bien que	SCONJ
+l'une et l'autre	l'une et l'autre	PUNCT
 en	en	ADP
 dépendent	dépendre	VERB
 ,	,	PUNCTclause
@@ -1513,9 +1488,7 @@ au	au	ADP_DET
 siècle	siècle	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 la	le	DET
 hiérarchie	hiérarchie	NOUN
 des	un	ADP_DET
@@ -1632,8 +1605,7 @@ leur	leur	DET
 conflit	conflit	NOUN
 se	se	PRON
 déclare	déclarer	VERB
-sans	sans	ADP
-issue	issue	NOUN
+sans issue	sans issue	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 Europe	Europe	PROPN

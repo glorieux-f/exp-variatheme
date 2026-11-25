@@ -452,8 +452,7 @@ plus	plus	ADV
 loin	loin	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 sens	sens	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -476,7 +475,6 @@ contre	contre	ADP
 elle	elle	PRON
 ,	,	PUNCTclause
 il y a	il y a	VERB
-eu	avoir	VERB
 la	le	DET
 littérature	littérature	NOUN
 ,	,	PUNCTclause
@@ -543,8 +541,7 @@ Dante	Dante	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 années	année	NOUN
 ,	,	PUNCTclause
 Valéry	Valéry	PROPN
@@ -724,8 +721,7 @@ de	de	ADP
 en	en	PRON
 être	être	AUX
 venu	venir	VERB
-à	à	ADP
-découvrir	découvrir	VERB
+à découvert	à découvert	PUNCT
 ,	,	PUNCTclause
 dans	dans	ADP
 les	le	DET
@@ -743,9 +739,7 @@ de	de	ADP
 l'	le	DET
 amour	amour	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-tout	tout	PRON
-cas	cas	NOUN
+en tout cas	en tout cas	NOUN
 de	de	ADP
 cette	ce	DET
 forme	forme	NOUN
@@ -792,9 +786,8 @@ au	au	ADP_DET
 moyen-âge	moyen-âge	NOUN
 un	un	DET
 rôle	rôle	NOUN
-un	un	DET
-peu	peu	ADV
-analogue	analogue	ADJ
+un peu	un peu	PUNCT
+analogue	analogue	NOUN
 à	à	ADP
 celui	celui	PRON
 du	du	ADP_DET
@@ -1100,8 +1093,7 @@ retourner	retourner	VERB
 en	en	ADP
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 devoir	devoir	NOUN
 serait	être	AUX
 de	de	ADP
@@ -1139,8 +1131,7 @@ l'	le	DET
 Esprit	Esprit	PROPN
 Europe	Europe	PROPN
 »	»	PUNCTclause
-lors	lors	ADV
-des	un	ADP_DET
+lors de	lors de	ADP
 premières	premier	ADJ
 rencontres	rencontre	NOUN
 internationales	international	ADJ
@@ -1150,10 +1141,8 @@ Genève	Genève	PROPN
 ↵↵	↵↵	PUNCTstruct
 chronologiquement	chronologiquement	ADV
 ,	,	PUNCTclause
-le	le	DET
-point	point	NOUN
-de	de	ADP
-départ	départ	NOUN
+le	le_PRON	PRON
+point de départ	point de départ	PUNCT
 choisi	choisir	VERB
 pour	pour	ADP
 cette	ce	DET
@@ -1165,9 +1154,7 @@ après-guerre	après-guerre	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 votre	votre	DET
-prise	prise	NOUN
-de	de	ADP
-conscience	conscience	NOUN
+prise de conscience	prise de conscience	NOUN
 et	et	CCONJ
 votre	votre	DET
 engagement	engagement	NOUN
@@ -1467,9 +1454,7 @@ d'abord	d'abord	ADV
 les	le	DET
 communes	commun	NOUN
 .	.	PUNCTsent
-à	à	ADP
-mesure	mesure	NOUN
-que	que	SCONJ
+à mesure que	à mesure que	SCONJ
 les	le	DET
 dimensions	dimension	NOUN
 des	un	ADP_DET
@@ -1535,9 +1520,7 @@ de	de	ADP
 Résistance	Résistance	PROPN
 ,	,	PUNCTclause
 puis	puis	CCONJ
-au	au	ADP_DET
-lendemain	lendemain	NOUN
-de	de	ADP
+au lendemain de	au lendemain de	ADP
 la	le	DET
 guerre	guerre	NOUN
 ,	,	PUNCTclause
@@ -1732,9 +1715,7 @@ absence	absence	NOUN
 ç'a	ç'a	VERB
 été	été	NOUN
 pour	pour	ADP
-prendre	prendre	VERB
-la	le	DET
-parole	parole	NOUN
+prendre la parole	prendre la parole	NOUN
 aux	au	ADP_DET
 rencontres	rencontre	NOUN
 internationales	international	ADJ
@@ -1861,8 +1842,7 @@ introduire	introduire	VERB
 par	par	ADP
 un	un	DET
 discours	discours	NOUN
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	PUNCT
 congrès	congrès	NOUN
 des	un	ADP_DET
 fédéralisme	fédéralisme	NOUN
@@ -1874,8 +1854,7 @@ se	se	PRON
 tenir	tenir	VERB
 à	à	ADP
 Montreux	Montreux	PROPN
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	ADP_DET
 de	de	ADP
 septembre	septembre	NOUN
 1947	1947	NUM
@@ -2004,8 +1983,7 @@ dont	dont	PRON
 on	on	PRON
 me	me	PRON
 disait	dire	VERB
-maintenant	maintenant	ADV
-que	que	SCONJ
+maintenant que	maintenant que	PUNCT
 ce	ce	PRON
 étaient	être	AUX
 les	le	DET
@@ -2096,7 +2074,6 @@ fédérée	fédéré	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
-eu	avoir	VERB
 d'abord	d'abord	ADV
 le	le	DET
 congrès	congrès	NOUN
@@ -2189,8 +2166,7 @@ du	du	ADP_DET
 congrès	congrès	NOUN
 a	avoir	AUX
 mis	mettre	VERB
-au	au	ADP_DET
-point	point	NOUN
+au point	au point	PUNCT
 non seulement	non seulement	ADV
 le	le	DET
 rapport	rapport	NOUN
@@ -2265,8 +2241,7 @@ Haye	Haye	PROPN
 ,	,	PUNCTclause
 qui	qui	PRON
 rassembla	rassembler	VERB
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	ADV
 de	de	ADP
 mai	mai	NOUN
 1948	1948	NUM
@@ -2298,12 +2273,10 @@ mais	mais	CCONJ
 il	il	PRON
 devait	devoir	VERB
 être	être	AUX
-par	par	ADP
-la	le	DET
-suite	suite	NOUN
+par la suite	par la suite	ADP
 l'un	l'un	PRON
-des	un	DET
-intellectuels	intellectuel	NOUN
+des	un	ADP_DET
+intellectuels	intellectuel	ADJ
 les	le	DET
 plus	plus	ADV
 «	«	PUNCTclause
@@ -2592,8 +2565,7 @@ fédéralisme	fédéralisme	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 réunit	réunir	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 200	200	NUM
 participants	participant	NOUN
 ,	,	PUNCTclause
@@ -2607,8 +2579,7 @@ mouvement	mouvement	NOUN
 Europe	Europe	PROPN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 team	team	NOUN
 que	que	SCONJ
 à	à	ADP
@@ -2651,9 +2622,7 @@ Paul-Henri	Paul-Henri	PROPN
 Spaak	Spaak	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 quatre	quatre	NUM
 journées	journée	NOUN
 et	et	CCONJ
@@ -2767,8 +2736,7 @@ Centre	Centre	PROPN
 va	aller	VERB
 être	être	AUX
 inauguré	inaugurer	VERB
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	ADV
 de	de	ADP
 octobre	octobre	NOUN
 1950	1950	NUM
@@ -2863,8 +2831,7 @@ par	par	ADP
 une	un	DET
 énumération	énumération	NOUN
 peut-être	peut-être	ADV
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 sèche	sec	ADJ
 faute de	faute de	ADP
 temps	temps	NOUN
@@ -2883,15 +2850,13 @@ qui	qui	PRON
 se	se	PRON
 sont	être	AUX
 réalisées	réaliser	VERB
-grâce	grâce	NOUN
-au	au	ADP_DET
+grâce à	grâce à	ADP
 Centre	Centre	PROPN
 mais	mais	CCONJ
 hors de	hors de	ADP
 lui	lui	PRON
 .	.	PUNCTsent
-la	le	DET
-première	premier	ADJ
+la première	la première	DET
 ,	,	PUNCTclause
 en	en	ADP
 collaboration	collaboration	NOUN
@@ -3091,8 +3056,7 @@ lieu	lieu	NOUN
 de	de	ADP
 rencontre	rencontre	NOUN
 —	—	PUNCTclause
-nombre	nombre	NOUN
-de	de	ADP
+nombre de	nombre de	DET
 associations	association	NOUN
 comme	comme	ADP
 celle	celle	PRON
@@ -3176,8 +3140,7 @@ secondaire	secondaire	ADJ
 sur	sur	ADP
 la	le	DET
 manière	manière	NOUN
-de	de	ADP
-faire	faire	AUX
+de fait	de fait	PUNCT
 voir	voir	VERB
 et	et	CCONJ
 valoir	valoir	VERB
@@ -3427,8 +3390,7 @@ tels	tel	PRON
 que	que	SCONJ
 l'	le	DET
 Europe	Europe	PROPN
-en	en	ADP
-jeu	jeu	NOUN
+en jeu	en jeu	PUNCT
 ,	,	PUNCTclause
 Vingt-huit	Vingt-huit	PROPN
 siècles	siècle	NOUN
@@ -3480,8 +3442,7 @@ congrès	congrès	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
 dans	dans	ADP
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 je	je	PRON
@@ -3652,9 +3613,7 @@ manière	manière	NOUN
 exemplaire	exemplaire	ADJ
 dans	dans	ADP
 les	le	DET
-prises	prise	NOUN
-de	de	ADP
-position	position	NOUN
+prise de position	prise de position	NOUN
 successives	successif	ADJ
 de	de	ADP
 J.-P.	J.-P.	PROPN
@@ -3885,9 +3844,7 @@ des	un	ADP_DET
 structures	structure	NOUN
 du	du	ADP_DET
 discours	discours	NOUN
-au	au	ADP_DET
-niveau	niveau	NOUN
-du	du	ADP_DET
+au niveau de	au niveau de	ADP
 nombril	nombril	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3922,8 +3879,7 @@ je	je	PRON
 me	me	PRON
 sens	sentir	VERB
 en effet	en effet	ADV
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 seul	seul	ADJ
 !	!	PUNCTsent
 mais	mais	CCONJ
@@ -4033,9 +3989,7 @@ la	le	DET
 solution	solution	NOUN
 du	du	ADP_DET
 chômage	chômage	NOUN
-en	en	ADP
-tout	tout	PRON
-cas	cas	NOUN
+en tout cas	en tout cas	PUNCT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 vous	vous	PRON
@@ -4148,10 +4102,7 @@ acte	acte	NOUN
 volontaire	volontaire	ADJ
 ,	,	PUNCTclause
 que	que	SCONJ
-sur	sur	ADP
-la	le	DET
-base	base	NOUN
-de	de	ADP
+sur la base de	sur la base de	ADP
 l'	le	DET
 unité	unité	NOUN
 de	de	ADP
@@ -4252,8 +4203,7 @@ question	question	NOUN
 ,	,	PUNCTclause
 je	je	PRON
 réponds	répondre	VERB
-depuis	depuis	ADV
-que	que	SCONJ
+depuis que	depuis que	PUNCT
 je	je	PRON
 agis	agir	VERB
 ,	,	PUNCTclause

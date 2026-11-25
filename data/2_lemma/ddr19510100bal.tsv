@@ -141,8 +141,7 @@ synonymes	synonyme	ADJ
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 espère	espérer	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 vous	vous	PRON
 êtes	être	VERB
 de	de	ADP
@@ -194,8 +193,7 @@ garde	garde	NOUN
 vigilante	vigilant	ADJ
 et	et	CCONJ
 continue	continuer	VERB
-autour	autour	ADV
-du	du	ADP_DET
+autour de	autour de	ADP
 sens	sens	NOUN
 humain	humain	ADJ
 ,	,	PUNCTclause
@@ -221,8 +219,7 @@ abusent	abuser	VERB
 tel	tel	PRON
 est	être	AUX
 peut-être	peut-être	ADV
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 point	point	NOUN
 de	de	ADP
 notre	notre	DET
@@ -263,8 +260,7 @@ faire	faire	VERB
 encore	encore	ADV
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-hé	hé	INTJ
-bien	bien	ADV
+eh bien	eh bien	DET
 !	!	PUNCTsent
 on	on	PRON
 peut	pouvoir	VERB
@@ -298,9 +294,7 @@ notre	notre	DET
 part	part	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
-pour	pour	ADP
-l'	le	DET
-instant	instant	NOUN
+pour l'instant	pour l'instant	ADV
 encore	encore	ADV
 ,	,	PUNCTclause
 ne	ne	ADV
@@ -489,9 +483,8 @@ aiment	aimer	VERB
 la	le	DET
 paix	paix	NOUN
 ,	,	PUNCTclause
-un	un	DET
-peu	peu	ADV
-comme	comme	SCONJ
+un peu	un peu	PUNCT
+comme	comme	ADP
 le	le	DET
 chat	chat	NOUN
 aime	aimer	VERB
@@ -511,9 +504,7 @@ penser	penser	VERB
 ↵↵	↵↵	PUNCTstruct
 nous	nous	PRON
 publierons	publier	VERB
-à	à	ADP
-ce	ce	DET
-sujet	sujet	NOUN
+à ce sujet	à ce sujet	PUNCT
 bientôt	bientôt	ADV
 des	un	ADP_DET
 textes	texte	NOUN
@@ -560,9 +551,7 @@ la	le	DET
 paix	paix	NOUN
 ne	ne	ADV
 est	être	AUX
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 de	de	ADP
 servir	servir	VERB
 une	un	DET
@@ -599,8 +588,7 @@ des	un	DET
 loups	loup	NOUN
 déclarer	déclarer	VERB
 avec	avec	ADP
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	PUNCT
 pudeur	pudeur	NOUN
 leur	leur	DET
 amour	amour	NOUN
@@ -854,7 +842,7 @@ la	le	DET
 tâche	tâche	NOUN
 ,	,	PUNCTclause
 honnêtement	honnêtement	ADV
-cette fois ci	cette fois ci	PRON
+cette fois-là	cette fois ci	PRON
 ,	,	PUNCTclause
 cartes	carte	NOUN
 sur	sur	ADP
@@ -889,13 +877,10 @@ même	même	ADV
 de	de	ADP
 la	le	DET
 lutte	lutte	NOUN
-en	en	ADP
-cours	cours	NOUN
+en cours	en cours	ADP
 qui	qui	PRON
 ,	,	PUNCTclause
-pour	pour	ADP
-l'	le	DET
-instant	instant	NOUN
+pour l'instant	pour l'instant	ADV
 ,	,	PUNCTclause
 encore	encore	ADV
 ,	,	PUNCTclause
@@ -912,9 +897,7 @@ et	et	CCONJ
 qui	qui	PRON
 le	le_PRON	PRON
 restera	rester	VERB
-en	en	ADP
-dernière	dernier	ADJ
-analyse	analyse	NOUN
+en dernière analyse	en dernière analyse	PUNCT
 ,	,	PUNCTclause
 même si	même si	SCONJ
 la	le	DET
@@ -986,9 +969,8 @@ donner	donner	VERB
 ce	ce	DET
 nom	nom	NOUN
 ,	,	PUNCTclause
-bien	bien	ADV
-que	que	SCONJ
-ce	ce	DET
+bien que	bien que	SCONJ
+ce	ce	PRON
 nom	nom	NOUN
 soit	être	AUX
 très	très	ADV
@@ -1089,9 +1071,7 @@ employer	employer	VERB
 les	le	DET
 enrôler	enrôler	VERB
 ,	,	PUNCTclause
-pour	pour	ADP
-ainsi	ainsi	ADV
-dire	dire	VERB
+pour ainsi dire	pour ainsi dire	PUNCT
 ,	,	PUNCTclause
 au	au	ADP_DET
 service	service	NOUN
@@ -1224,8 +1204,7 @@ responsabilités	responsabilité	NOUN
 nous	nous	PRON
 savons	savoir	VERB
 très	très	ADV
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 nos	nos	DET
 libertés	liberté	NOUN
 démocratiques	démocratique	ADJ
@@ -1487,10 +1466,8 @@ romans	roman	NOUN
 à	à	ADP
 se	se	PRON
 tenir	tenir	VERB
-un	un	DET
-peu	peu	ADV
-au	au	ADP_DET
-courant	courant	NOUN
+un peu	un peu	PUNCT
+au courant	au courant	PUNCT
 ,	,	PUNCTclause
 à	à	ADP
 jeter	jeter	VERB
@@ -1582,9 +1559,8 @@ son	son	DET
 étendue	étendue	NOUN
 ,	,	PUNCTclause
 ni	ni	CCONJ
-le	le	DET
-nombre	nombre	NOUN
-de	de	ADP
+le	le_PRON	PRON
+nombre de	nombre de	ADP
 ses	son	DET
 habitants	habitant	NOUN
 ,	,	PUNCTclause
@@ -1611,8 +1587,7 @@ sont	être	AUX
 donc	donc	ADV
 intervenus	intervenir	VERB
 .	.	PUNCTsent
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 le	le	DET
 rayonnement	rayonnement	NOUN
 ,	,	PUNCTclause
@@ -1637,8 +1612,7 @@ un	un	DET
 pouvoir	pouvoir	NOUN
 de	de	ADP
 invention	invention	NOUN
-sans	sans	ADP
-égal	égal	ADJ
+sans égal	sans égal	ADJ
 et	et	CCONJ
 de	de	ADP
 un	un	DET
@@ -1646,10 +1620,7 @@ système	système	NOUN
 de	de	ADP
 lois	loi	NOUN
 garantissant	garantir	VERB
-de	de	ADP
-mieux	mieux	ADV
-en	en	ADP
-mieux	mieux	ADV
+de mieux en mieux	de mieux en mieux	ADP
 les	le	DET
 libertés	liberté	NOUN
 de	de	ADP
@@ -1705,8 +1676,7 @@ cependant	cependant	ADV
 ,	,	PUNCTclause
 hélas	hélas	INTJ
 !	!	PUNCTsent
-de	de	ADP
-beaucoup	beaucoup	ADV
+de beaucoup	de beaucoup	ADV
 ,	,	PUNCTclause
 que	que	SCONJ
 la plupart de	la plupart de	DET
@@ -1839,13 +1809,11 @@ armées	armée	NOUN
 ennemies	ennemi	ADJ
 se	se	PRON
 mettent	mettre	VERB
-en	en	ADP
-marche	marche	NOUN
+en marche	en marche	PUNCT
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-hé	hé	INTJ
-bien	bien	ADV
+eh bien	eh bien	DET
 !	!	PUNCTsent
 cette	ce	DET
 phrase	phrase	NOUN
@@ -2080,15 +2048,13 @@ armées	armée	NOUN
 que	que	PRON
 il	il	PRON
 met	mettre	VERB
-en	en	ADP
-marche	marche	NOUN
+en marche	en marche	DET
 sont	être	AUX
 plus	plus	ADV
 redoutables	redoutable	ADJ
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	PUNCT
 celles	celle	PRON
-que	que	PRON
+que	que	SCONJ
 évoquait	évoquer	VERB
 M.	M.	NOUN
 Reynaud	Reynaud	PROPN
@@ -2140,8 +2106,7 @@ adversaire	adversaire	NOUN
 les	le_PRON	PRON
 a	avoir	AUX
 ,	,	PUNCTclause
-par	par	ADP
-avance	avance	NOUN
+par avance	par avance	SYM
 ,	,	PUNCTclause
 «	«	PUNCTclause
 occupés	occupé	ADJ

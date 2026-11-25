@@ -118,8 +118,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 ralliant	rallier	VERB
-autour	autour	ADV
-du	du	ADP_DET
+autour de	autour de	ADP
 petit	petit	ADJ
 noyau	noyau	NOUN
 fédéralisme	fédéralisme	NOUN
@@ -176,8 +175,7 @@ décisions	décision	NOUN
 de	de	ADP
 ce	ce	DET
 congrès	congrès	NOUN
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	PUNCT
 sont	être	AUX
 nés	naître	VERB
 :	:	PUNCTclause
@@ -381,9 +379,8 @@ réussit	réussir	VERB
 à	à	ADP
 passer	passer	VERB
 sans	sans	ADP
-trop	trop	ADV
-de	de	ADP
-mal	mal	NOUN
+trop de	trop de	NOUN
+mal	mal	ADV
 le	le	DET
 cap	cap	NOUN
 des	un	ADP_DET
@@ -524,8 +521,7 @@ une	un	DET
 façade	façade	NOUN
 fédérale	fédéral	ADJ
 —	—	PUNCTclause
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 rédigé	rédiger	VERB
 depuis	depuis	ADP
 près de	près de	ADP
@@ -544,8 +540,7 @@ pas	pas	ADV
 atteint	atteindre	VERB
 le	le	DET
 stade	stade	NOUN
-de	de	ADP
-mise	mise	NOUN
+de mise	de mise	ADP
 en	en	ADP
 discussion	discussion	NOUN
 par	par	ADP
@@ -709,10 +704,9 @@ valeur	valeur	NOUN
 .	.	PUNCTsent
 elle	elle	PRON
 met	mettre	VERB
-en	en	ADP
-jeu	jeu	NOUN
-le	le	DET
-sort	sort	NOUN
+en jeu	en jeu	DET
+le	le_PRON	PRON
+sort	sortir	VERB
 de plus	de plus	ADV
 de	de	ADP
 un	un	DET
@@ -732,8 +726,7 @@ descriptions	description	NOUN
 sont	être	AUX
 exactes	exact	ADJ
 ,	,	PUNCTclause
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	DET
 elles	elles	PRON
 apparaissent	apparaître	VERB
 contradictoires	contradictoire	ADJ
@@ -839,8 +832,7 @@ savoir	savoir	VERB
 ce	ce	DET
 qui	qui	PRON
 est	être	AUX
-en	en	ADP
-jeu	jeu	NOUN
+en jeu	en jeu	SYM
 .	.	PUNCTsent
 tout le monde	tout le monde	NOUN
 prend	prendre	VERB
@@ -913,8 +905,7 @@ la	le	DET
 France	France	PROPN
 ,	,	PUNCTclause
 plus	plus	ADV
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	ADV
 à	à	ADP
 l'	le	DET
 Europe	Europe	PROPN
@@ -1023,18 +1014,14 @@ Europe	Europe	PROPN
 pourrait	pouvoir	VERB
 se	se	PRON
 faire	faire	VERB
-à	à	ADP
-court	courir	VERB
-terme	terme	NOUN
+à court terme	à court terme	DET
 ,	,	PUNCTclause
 pour	pour	ADP
 ne	ne	ADV
 pas	pas	ADV
 dire	dire	VERB
 «	«	PUNCTclause
-à	à	ADP
-la	le	DET
-sauvette	sauvette	NOUN
+à la sauvette	à la sauvette	DET
 »	»	PUNCTclause
 ,	,	PUNCTclause
 par	par	ADP
@@ -1070,9 +1057,8 @@ perte	perte	NOUN
 de	de	ADP
 temps	temps	NOUN
 ,	,	PUNCTclause
-un	un	PRON
-à	à	ADP
-côté	côté	NOUN
+un	un	DET
+à côté	à côté	NOUN
 .	.	PUNCTsent
 ce	ce	PRON
 scepticisme	scepticisme	NOUN
@@ -1329,10 +1315,9 @@ de	de	ADP
 l'	le	DET
 esprit	esprit	NOUN
 .	.	PUNCTsent
-tel	tel	PRON
+tel	tel	DET
 étant	être	AUX
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	PUNCT
 et	et	CCONJ
 le	le	DET
 plus	plus	ADV

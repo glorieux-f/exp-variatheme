@@ -27,9 +27,8 @@ le	le	DET
 sens	sens	NOUN
 courant	courant	ADJ
 ,	,	PUNCTclause
-un	un	DET
-peu	peu	ADV
-débile	débile	ADJ
+un peu	un peu	DET
+débile	débile	NOUN
 ,	,	PUNCTclause
 du	du	ADP_DET
 terme	terme	NOUN
@@ -293,9 +292,7 @@ les	le	DET
 cieux	cieux	NOUN
 est	être	AUX
 notre	notre	DET
-droit	droit	NOUN
-de	de	ADP
-cité	cité	NOUN
+droit de cité	droit de cité	NOUN
 »	»	PUNCTclause
 (	(	PUNCTclause
 notre	notre	DET
@@ -358,9 +355,7 @@ homme	homme	NOUN
 —	—	PUNCTclause
 et	et	CCONJ
 cela	cela	PRON
-d'autant	d'autant	ADV
-plus	plus	ADV
-que	que	SCONJ
+d'autant plus que	d'autant plus que	PUNCT
 il	il	PRON
 est	être	AUX
 plus	plus	ADV
@@ -368,9 +363,7 @@ spirituel	spirituel	ADJ
 ou	ou	CCONJ
 libéré	libérer	VERB
 ,	,	PUNCTclause
-d'autant	d'autant	ADV
-moins	moins	ADV
-que	que	SCONJ
+d'autant moins que	d'autant moins que	SCONJ
 il	il	PRON
 demeure	demeurer	VERB
 plus	plus	ADV
@@ -381,8 +374,7 @@ attaché	attacher	VERB
 ↵↵	↵↵	PUNCTstruct
 3	3	NUM
 .	.	PUNCTsent
-de	de	ADP
-fait	fait	NOUN
+de fait	de fait	ADP_DET
 ,	,	PUNCTclause
 près de	près de	ADP
 quatre	quatre	NUM
@@ -407,9 +399,7 @@ grammatical	grammatical	ADJ
 ,	,	PUNCTclause
 mais	mais	CCONJ
 non	non	ADV
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 spirituel	spirituel	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
@@ -474,10 +464,9 @@ de	de	ADP
 l'	le	DET
 amour	amour	NOUN
 ,	,	PUNCTclause
-l'	le	DET
-au-delà	au-delà	ADV
-de	de	ADP
-tous	tous	PRON
+l'	le_PRON	PRON
+au-delà de	au-delà de	ADP_DET
+tous	tout	ADJ
 les	le	DET
 lieux	lieu	NOUN
 de	de	ADP
@@ -518,9 +507,8 @@ vécu	vivre	VERB
 ,	,	PUNCTclause
 une	un	DET
 aventure	aventure	NOUN
-que	que	ADV
-dès	dès	ADP
-maintenant	maintenant	ADV
+que	que	SCONJ
+dès maintenant	dès maintenant	PUNCT
 il	il	PRON
 vit	vivre	VERB
 par	par	ADP
@@ -535,8 +523,7 @@ décrit	décrire	VERB
 merveilleusement	merveilleusement	ADV
 ,	,	PUNCTclause
 comme	comme	ADP
-autant	autant	ADV
-de	de	ADP
+autant de	autant de	NOUN
 «	«	PUNCTclause
 clins	clin	NOUN
 de	de	ADP
@@ -618,10 +605,8 @@ la	le	DET
 Nouvelle	Nouvelle	PROPN
 Jérusalem	Jérusalem	PROPN
 est	être	AUX
-à	à	ADP
-la	le	DET
-fin	fin	NOUN
-des	un	ADP_DET
+à la fin	à la fin	ADV
+des	un	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
 bien	bien	ADV
@@ -645,8 +630,7 @@ vient	venir	VERB
 »	»	PUNCTclause
 de	de	ADP
 l'	le	DET
-au-delà	au-delà	ADV
-du	du	ADP_DET
+au-delà de	au-delà de	NOUN
 temps	temps	NOUN
 .	.	PUNCTsent
 il y a	il y a	VERB
@@ -779,8 +763,7 @@ selon	selon	ADP
 Thomas	Thomas	PROPN
 More	More	PROPN
 constitue	constituer	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 une	un	DET
 sécularisation	sécularisation	NOUN
 ,	,	PUNCTclause
@@ -1045,9 +1028,7 @@ la	le	DET
 technique	technique	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-à	à	ADP
-partir	partir	VERB
-des	un	DET
+à partir de	à partir de	ADP
 mêmes	même	ADJ
 attitudes	attitude	NOUN
 mentales	mental	ADJ
@@ -1125,10 +1106,7 @@ a-systémique	a-systémique	ADJ
 ,	,	PUNCTclause
 se	se	PRON
 établissant	établir	VERB
-à	à	ADP
-la	le	DET
-faveur	faveur	NOUN
-de	de	ADP
+à la faveur de	à la faveur de	ADP
 une	un	DET
 «	«	PUNCTclause
 suspension	suspension	NOUN
@@ -1264,9 +1242,7 @@ incorruptibles	incorruptible	ADJ
 ,	,	PUNCTclause
 —	—	PUNCTclause
 non	non	ADV
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 moralement	moralement	ADV
 ,	,	PUNCTclause
 par	par	ADP
@@ -1292,9 +1268,7 @@ de	de	ADP
 l'	le	DET
 environnement	environnement	NOUN
 :	:	PUNCTclause
-au	au	ADP_DET
-lieu	lieu	NOUN
-du	du	ADP_DET
+au lieu de	au lieu de	ADP
 bois	bois	NOUN
 ,	,	PUNCTclause
 des	un	ADP_DET
@@ -1363,8 +1337,7 @@ bientôt	bientôt	ADV
 le	le	DET
 cœur	cœur	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-attendant	attendre	VERB
+en attendant	en attendant	VERB
 la	le	DET
 parfaite	parfait	ADJ
 programmation	programmation	NOUN
@@ -1566,8 +1539,7 @@ une	un	DET
 université	université	NOUN
 médiévale	médiéval	ADJ
 parlant	parler	VERB
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 langue	langue	NOUN
 ,	,	PUNCTclause
 puis	puis	CCONJ
@@ -1778,9 +1750,7 @@ de	de	ADP
 Europe	Europe	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-en	en	ADP
-vertu	vertu	NOUN
-du	du	ADP_DET
+en vertu de	en vertu de	ADP
 principe	principe	NOUN
 qui	qui	PRON
 sera	être	AUX
@@ -1939,9 +1909,7 @@ impôts	impôt	NOUN
 au	au	ADP_DET
 nom	nom	NOUN
 et	et	CCONJ
-au	au	ADP_DET
-profit	profit	NOUN
-de	de	ADP
+au profit de	au profit de	ADP
 la	le	DET
 seule	seul	ADJ
 capitale	capital	NOUN
@@ -2081,8 +2049,7 @@ de	de	ADP
 l'	le	DET
 histoire	histoire	NOUN
 —	—	PUNCTclause
-du	du	ADP_DET
-moins	moins	ADV
+du moins	du moins	NOUN
 de	de	ADP
 celle	celle	PRON
 des	un	ADP_DET
@@ -2358,8 +2325,7 @@ utopies	utopie	NOUN
 sont	être	AUX
 «	«	PUNCTclause
 statiques	statique	ADJ
-par	par	ADP
-hypothèse	hypothèse	NOUN
+par hypothèse	par hypothèse	NOUN
 »	»	PUNCTclause
 .	.	PUNCTsent
 elles	elles	PRON
@@ -2416,10 +2382,8 @@ finir	finir	VERB
 en	en	ADP
 chute	chute	NOUN
 ,	,	PUNCTclause
-à	à	ADP
-moins	moins	ADV
-que	que	SCONJ
-le	le	DET
+à moins que	à moins que	DET
+le	le_PRON	PRON
 mouvement	mouvement	NOUN
 descendant	descendre	VERB
 puisse	pouvoir	VERB

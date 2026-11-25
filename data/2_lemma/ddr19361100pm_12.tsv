@@ -43,8 +43,7 @@ entreprises	entreprise	NOUN
 de	de	ADP
 une	un	DET
 envergure	envergure	NOUN
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	PUNCT
 ,	,	PUNCTclause
 ne	ne	ADV
 sont	être	AUX
@@ -272,8 +271,7 @@ exemple	exemple	NOUN
 du	du	ADP_DET
 récent	récent	ADJ
 changement	changement	NOUN
-de	de	ADP
-front	front	NOUN
+de front	de front	PUNCT
 opéré	opérer	VERB
 par	par	ADP
 le	le	DET
@@ -369,8 +367,7 @@ le	le	DET
 défaut	défaut	NOUN
 complet	complet	ADJ
 ,	,	PUNCTclause
-jusque	jusque	ADP
-à présent	à présent	ADV
+jusqu'à présent	jusqu'à présent	ADV
 ,	,	PUNCTclause
 de	de	DET
 grandes	grand	ADJ
@@ -382,8 +379,7 @@ conceptions	conception	NOUN
 proclamées	proclamer	VERB
 —	—	PUNCTclause
 voilà	voilà	ADP
-autant	autant	ADV
-de	de	ADP
+autant de	autant de	PRON
 facteurs	facteur	NOUN
 de	de	ADP
 indétermination	indétermination	NOUN
@@ -522,9 +518,7 @@ mesure	mesure	NOUN
 réelle	réel	ADJ
 ,	,	PUNCTclause
 dans	dans	ADP
-l'un	l'un	PRON
-et	et	CCONJ
-l'autre	l'autre	PRON
+l'un et l'autre	l'un et l'autre	DET
 cas	cas	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
@@ -590,8 +584,7 @@ les	le	DET
 deux	deux	NUM
 cas	cas	NOUN
 ,	,	PUNCTclause
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 le	le	DET
 but	but	NOUN
 soit	soit	CCONJ
@@ -631,8 +624,7 @@ communion	communion	NOUN
 vraiment	vraiment	ADV
 vivante	vivant	ADJ
 .	.	PUNCTsent
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 ,	,	PUNCTclause
 elle	elle	PRON
 ne	ne	ADV
@@ -646,8 +638,7 @@ de	de	ADP
 la	le	DET
 propagande	propagande	NOUN
 est	être	AUX
-par	par	ADP
-nature	nature	NOUN
+par nature	par nature	NOUN
 contraire	contraire	ADJ
 à	à	ADP
 toute	toute	DET
@@ -656,8 +647,7 @@ imaginable	imaginable	ADJ
 .	.	PUNCTsent
 il	il	PRON
 peut	pouvoir	VERB
-au	au	ADP_DET
-plus	plus	ADV
+au plus	au plus	ADV
 favoriser	favoriser	VERB
 l'	le	DET
 instruction	instruction	NOUN
@@ -753,9 +743,7 @@ nouveau	nouveau	ADJ
 —	—	PUNCTclause
 en	en	ADP
 Allemagne	Allemagne	PROPN
-aussi	aussi	ADV
-bien	bien	ADV
-que	que	SCONJ
+aussi bien que	aussi bien que	PUNCT
 en	en	ADP
 URSS	URSS	PROPN
 .	.	PUNCTsent
@@ -773,9 +761,7 @@ de	de	ADP
 une	un	DET
 mauvaise conscience	mauvaise conscience	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-tout	tout	PRON
-cas	cas	NOUN
+en tout cas	en tout cas	NOUN
 de	de	ADP
 un	un	DET
 sentiment	sentiment	NOUN
@@ -940,9 +926,8 @@ bourgeois	bourgeois	ADJ
 mettait	mettre	VERB
 l'	le	DET
 esprit	esprit	NOUN
-au-dessus	au-dessus	ADV
-de	de	ADP
-tout	tout	DET
+au-dessus de	au-dessus de	ADP_DET
+tout	tout	ADV
 ,	,	PUNCTclause
 si bien que	si bien que	SCONJ
 l'	le	DET
@@ -966,8 +951,7 @@ sur	sur	ADP
 le	le	DET
 primat	primat	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 et	et	CCONJ
 en	en	ADP
 droit	droit	NOUN
@@ -1113,11 +1097,9 @@ il	il	PRON
 entraînera	entraîner	VERB
 nécessairement	nécessairement	ADV
 ,	,	PUNCTclause
-le	le	DET
-jour	jour	NOUN
-où	où	PRON
-les	le	DET
-contraintes	contrainte	NOUN
+le jour où	le jour où	DET
+les	le_PRON	PRON
+contraintes	contraint	ADJ
 policières	policier	ADJ
 se	se	PRON
 relâcheront	relâcher	VERB
@@ -1378,8 +1360,7 @@ vous	vous	PRON
 en	en	PRON
 serez	être	AUX
 bientôt	bientôt	ADV
-au	au	ADP_DET
-point	point	NOUN
+au point	au point	PUNCT
 où	où	PRON
 nous	nous	PRON
 étions	être	AUX
@@ -1465,9 +1446,8 @@ d'autre	d'autre	PRON
 .	.	PUNCTsent
 vous	vous	PRON
 en	en	PRON
-étiez	être	VERB
-au	au	ADP_DET
-point	point	NOUN
+étiez	être	AUX
+au point	au point	PUNCT
 où	où	PRON
 l'	le	DET
 homme	homme	NOUN
@@ -1518,8 +1498,7 @@ ont	avoir	AUX
 pas	pas	ADV
 été	être	AUX
 résolus	résoudre	VERB
-pour	pour	ADP
-autant	autant	ADV
+pour autant	pour autant	PUNCT
 .	.	PUNCTsent
 vous	vous	PRON
 avez	avoir	AUX
@@ -1556,8 +1535,7 @@ trouveront	trouver	VERB
 un	un	DET
 jour	jour	NOUN
 futur	futur	ADJ
-en face	en face	ADV
-des	un	ADP_DET
+en face de	en face de	ADP
 mêmes	même	ADJ
 tâches	tâche	NOUN
 décisives	décisif	ADJ

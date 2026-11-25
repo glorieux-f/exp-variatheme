@@ -119,9 +119,7 @@ diverses	divers	DET
 formes	forme	NOUN
 de	de	ADP
 éducation	éducation	NOUN
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 âges	âge	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -261,9 +259,7 @@ par	par	ADP
 la	le	DET
 communication	communication	NOUN
 —	—	PUNCTclause
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 autoritaire	autoritaire	ADJ
 —	—	PUNCTclause
 de	de	ADP
@@ -369,9 +365,9 @@ sens critique	sens critique	NOUN
 qui	qui	PRON
 lui	lui	PRON
 permettra	permettre	VERB
-de	de	ADP
-mise en question	mise en question	NOUN
-les	le	DET
+de mise	de mise	ADP
+en question	en question	DET
+les	le_PRON	PRON
 «	«	PUNCTclause
 résultats	résultat	NOUN
 »	»	PUNCTclause
@@ -493,9 +489,7 @@ le	le	DET
 sens	sens	NOUN
 contraire	contraire	ADJ
 .	.	PUNCTsent
-à	à	ADP
-l'	le	DET
-extrême	extrême	ADJ
+à l'extrême	à l'extrême	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 tend	tendre	VERB
@@ -509,9 +503,7 @@ conformismes	conformisme	NOUN
 pour	pour	ADP
 le	le	DET
 mettre	mettre	VERB
-en	en	ADP
-mesure	mesure	NOUN
-de	de	ADP
+en mesure de	en mesure de	ADP
 réaliser	réaliser	VERB
 sa	son	DET
 vocation	vocation	NOUN
@@ -573,8 +565,7 @@ de	de	ADP
 initiative	initiative	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en	en	ADP
-résumé	résumer	VERB
+en résumé	en résumé	DET
 :	:	PUNCTclause
 à	à	ADP
 ce	ce	PRON
@@ -676,9 +667,7 @@ la	le	DET
 manière	manière	NOUN
 prescrite	prescrire	VERB
 ,	,	PUNCTclause
-à	à	ADP
-l'	le	DET
-extrême	extrême	ADJ
+à l'extrême	à l'extrême	PRON
 de	de	ADP
 la	le	DET
 précision	précision	NOUN
@@ -987,11 +976,9 @@ mais	mais	CCONJ
 à condition de	à condition de	ADP
 ne	ne	ADV
 jamais	jamais	ADV
-perdre	perdre	VERB
-de	de	ADP
-vue	vue	NOUN
-le	le_PRON	PRON
-fait	faire	VERB
+perdre de vue	perdre de vue	VERB
+le	le	DET
+fait	fait	NOUN
 que	que	SCONJ
 ces	ce	DET
 tendances	tendance	NOUN
@@ -1017,8 +1004,7 @@ des	un	DET
 succès	succès	NOUN
 alternés	alterner	VERB
 ,	,	PUNCTclause
-la	le	DET
-première	premier	ADJ
+la première	la première	DET
 dominant	dominer	VERB
 au	au	ADP_DET
 moyen-âge	moyen-âge	NOUN
@@ -1143,9 +1129,7 @@ Europe	Europe	PROPN
 l'	le	DET
 est	est	NOUN
 et	et	CCONJ
-à	à	ADP
-l'	le	DET
-extrême	extrême	ADJ
+à l'extrême	à l'extrême	ADP
 ouest	ouest	NOUN
 ,	,	PUNCTclause
 nous	nous	PRON
@@ -1208,8 +1192,7 @@ dans	dans	ADP
 l'	le	DET
 enseignement	enseignement	NOUN
 ,	,	PUNCTclause
-au	au	ADP_DET
-point	point	NOUN
+au point	au point	ADV
 de	de	ADP
 y	y	PRON
 provoquer	provoquer	VERB
@@ -1311,8 +1294,7 @@ ne	ne	ADV
 a	avoir	VERB
 pas	pas	ADV
 envie	envie	NOUN
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 de	de	ADP
 l'	le	DET
 arithmétique	arithmétique	NOUN
@@ -1464,9 +1446,7 @@ l'on	on	PRON
 peut	pouvoir	VERB
 craindre	craindre	VERB
 que	que	SCONJ
-à	à	ADP
-la	le	DET
-fin	fin	NOUN
+à la fin	à la fin	PUNCT
 elles	elles	PRON
 ne	ne	ADV
 remplacent	remplacer	VERB
@@ -1501,8 +1481,7 @@ niveau	niveau	NOUN
 se	se	PRON
 abaisse	abaisser	VERB
 jusque	jusque	ADP
-au	au	ADP_DET
-plus	plus	ADV
+au plus	au plus	ADV
 bas	bas	ADJ
 commun	commun	ADJ
 dénominateur	dénominateur	NOUN
@@ -1542,10 +1521,7 @@ intelligents	intelligent	ADJ
 ,	,	PUNCTclause
 ils	ils	PRON
 trouvent	trouver	VERB
-de	de	ADP
-moins	moins	ADV
-en	en	ADP
-moins	moins	ADV
+de moins en moins	de moins en moins	DET
 de	de	ADP
 incitations	incitation	NOUN
 à	à	ADP
@@ -1667,8 +1643,7 @@ schools	schools	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
 ou	ou	CCONJ
-au	au	ADP_DET
-plus tard	plus tard	ADV
+au plus tard	au plus tard	ADV
 dès	dès	ADP
 5	5	NUM
 ans	an	NOUN
@@ -1691,10 +1666,7 @@ pendant	pendant	ADP
 les	le	DET
 leçons	leçon	NOUN
 mais	mais	CCONJ
-par	par	ADP
-le	le	DET
-moyen	moyen	NOUN
-de	de	ADP
+par le moyen de	par le moyen de	ADP
 innombrables	innombrable	ADJ
 activités	activité	NOUN
 «	«	PUNCTclause
@@ -1789,8 +1761,7 @@ Marx	Marx	PROPN
 de	de	ADP
 étiquette	étiquette	NOUN
 ,	,	PUNCTclause
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 en réalité	en réalité	ADV
 technocratique	technocratique	ADJ
 ,	,	PUNCTclause
@@ -1916,9 +1887,7 @@ studium	studium	NOUN
 generale	generale	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
-à	à	ADP
-moins	moins	ADV
-que	que	SCONJ
+à moins que	à moins que	SCONJ
 on	on	PRON
 ne	ne	ADV
 qualifie	qualifier	VERB
@@ -2005,9 +1974,7 @@ préparer	préparer	VERB
 un	un	DET
 doctorat	doctorat	NOUN
 .	.	PUNCTsent
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 dernières	dernier	ADJ
 vingt-cinq	vingt-cinq	NUM
 années	année	NOUN
@@ -2076,9 +2043,7 @@ la	le	DET
 pratique	pratique	NOUN
 États-Unis	États-Unis	PROPN
 .	.	PUNCTsent
-à	à	ADP
-l'	le	DET
-excès	excès	NOUN
+à l'excès	à l'excès	ADV
 de	de	ADP
 liberté	liberté	NOUN
 dans	dans	ADP
@@ -2314,10 +2279,7 @@ est	être	AUX
 lui	lui	PRON
 communiquer	communiquer	VERB
 ,	,	PUNCTclause
-par	par	ADP
-le	le	DET
-moyen	moyen	NOUN
-de	de	ADP
+par le moyen de	par le moyen de	ADP
 disciplines	discipline	NOUN
 souples	souple	ADJ
 mais	mais	CCONJ
@@ -2342,14 +2304,12 @@ vocation	vocation	NOUN
 se	se	PRON
 exercera	exercer	VERB
 .	.	PUNCTsent
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	ADP
 liberté	liberté	NOUN
 sans	sans	ADP
 effort	effort	NOUN
 ,	,	PUNCTclause
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	ADP
 effort	effort	NOUN
 imposé	imposer	VERB
 sans	sans	ADP
@@ -2459,8 +2419,7 @@ ce	ce	DET
 type	type	NOUN
 de	de	ADP
 homme	homme	NOUN
-en	en	ADP
-équilibre	équilibre	NOUN
+en équilibre	en équilibre	PUNCT
 dynamique	dynamique	ADJ
 qui	qui	PRON
 mérite	mériter	VERB
@@ -2539,10 +2498,7 @@ les	le	DET
 mélanger	mélanger	VERB
 ou	ou	CCONJ
 combiner	combiner	VERB
-à	à	ADP
-la	le	DET
-faveur	faveur	NOUN
-de	de	ADP
+à la faveur de	à la faveur de	ADP
 un	un	DET
 savant	savant	NOUN
 dosage	dosage	NOUN
@@ -2588,8 +2544,7 @@ ne	ne	ADV
 deviendrait	devenir	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-pour	pour	ADP
-autant	autant	ADV
+pour autant	pour autant	ADV
 ,	,	PUNCTclause
 un	un	DET
 citoyen	citoyen	NOUN
@@ -2690,8 +2645,7 @@ offrir	offrir	VERB
 au	au	ADP_DET
 jeune	jeune	ADJ
 homme	homme	NOUN
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	PUNCT
 liberté	liberté	NOUN
 que	que	PRON
 de	de	ADP
@@ -2851,8 +2805,7 @@ trop	trop	ADV
 grandes	grand	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-au	au	ADP_DET
-surplus	surplus	NOUN
+au surplus	au surplus	ADV
 trop	trop	ADV
 mal	mal	ADV
 connues	connaître	VERB
@@ -2969,8 +2922,7 @@ d'ailleurs	d'ailleurs	ADV
 sont	être	AUX
 pour	pour	ADP
 lui	lui	PRON
-autant	autant	ADV
-de	de	ADP
+autant de	autant de	PUNCT
 mystères	mystère	NOUN
 ,	,	PUNCTclause
 dont	dont	PRON
@@ -3110,10 +3062,7 @@ que	que	SCONJ
 il	il	PRON
 souhaitait	souhaiter	VERB
 ,	,	PUNCTclause
-sur	sur	ADP
-la	le	DET
-foi	foi	NOUN
-de	de	ADP
+sur la foi de	sur la foi de	ADP
 son	son	DET
 journal	journal	NOUN
 et	et	CCONJ
@@ -3227,9 +3176,8 @@ qui	qui	PRON
 lui	lui	PRON
 échappent	échapper	VERB
 d'ailleurs	d'ailleurs	ADV
-tout	tout	ADV
-autant	autant	ADV
-que	que	ADV
+tout autant	tout autant	ADV
+que	que	SCONJ
 à	à	ADP
 son	son	DET
 électeur	électeur	NOUN
@@ -3304,9 +3252,7 @@ des	un	DET
 cadres	cadre	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
-si	si	SCONJ
-l'on	on	PRON
-veut	vouloir	VERB
+si l'on veut	si l'on veut	NOUN
 ,	,	PUNCTclause
 de	de	ADP
 responsables	responsable	NOUN
@@ -3358,14 +3304,12 @@ par	par	ADP
 les	le	DET
 faits	fait	NOUN
 ,	,	PUNCTclause
-tant	tant	ADV
-que	que	SCONJ
+tant que	tant que	ADV
 on	on	PRON
 veut	vouloir	VERB
 —	—	PUNCTclause
 mais	mais	CCONJ
-du	du	ADP_DET
-moins	moins	ADV
+du moins	du moins	ADP
 le	le	DET
 militant	militant	NOUN
 communisme	communisme	NOUN
@@ -3421,9 +3365,7 @@ informer	informer	VERB
 ce	ce	DET
 jeune	jeune	ADJ
 homme	homme	NOUN
-au	au	ADP_DET
-sujet	sujet	NOUN
-des	un	ADP_DET
+au sujet de	au sujet de	ADP
 réalités	réalité	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
@@ -3554,8 +3496,7 @@ l'	le	DET
 Europe	Europe	PROPN
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-tant	tant	ADV
-que	que	SCONJ
+tant que	tant que	ADV
 ce	ce	DET
 travail	travail	NOUN
 de	de	ADP
@@ -3599,12 +3540,8 @@ union	union	NOUN
 comme	comme	ADP
 une	un	DET
 nécessité	nécessité	NOUN
-que	que	ADV
-à	à	ADP
-partir	partir	VERB
-du	du	ADP_DET
-moment	moment	NOUN
-où	où	PRON
+que	que	SCONJ
+à partir du moment où	à partir du moment où	PRON
 ils	ils	PRON
 auront	avoir	AUX
 appris	apprendre	VERB
@@ -3879,10 +3816,7 @@ pensée	pensée	NOUN
 plus	plus	ADV
 généraux	général	ADJ
 .	.	PUNCTsent
-de	de	ADP
-proche	proche	ADJ
-en	en	ADP
-proche	proche	ADJ
+de proche en proche	de proche en proche	DET
 ,	,	PUNCTclause
 il	il	PRON
 comprendra	comprendre	VERB
@@ -3939,8 +3873,7 @@ sens	sens	NOUN
 un	un	DET
 prolongement	prolongement	NOUN
 possible	possible	ADJ
-au-delà	au-delà	ADV
-de	de	ADP
+au-delà de	au-delà de	ADP
 son	son	DET
 horizon	horizon	NOUN
 .	.	PUNCTsent
@@ -4108,8 +4041,7 @@ de	de	ADP
 se	se	PRON
 étendre	étendre	VERB
 vers	vers	ADP
-la	le	DET
-première	premier	ADJ
+la première	la première	DET
 enfance	enfance	NOUN
 (	(	PUNCTclause
 dressage	dressage	NOUN
@@ -4170,13 +4102,10 @@ vie	vie	NOUN
 qui	qui	PRON
 prennent	prendre	VERB
 place	place	NOUN
-à	à	ADP
-côté	côté	NOUN
-des	un	ADP_DET
+à côté de	à côté de	ADP
 heures	heure	NOUN
 et	et	CCONJ
-au-delà	au-delà	ADV
-des	un	ADP_DET
+au-delà de	au-delà de	ADP
 périodes	période	NOUN
 scolaires	scolaire	ADJ
 .	.	PUNCTsent
@@ -4198,8 +4127,7 @@ peut	pouvoir	VERB
 arriver	arriver	VERB
 à	à	ADP
 connaître	connaître	VERB
-en	en	ADP
-détail	détail	NOUN
+en détail	en détail	PUNCT
 ,	,	PUNCTclause
 l'	le	DET
 information	information	NOUN
@@ -4257,9 +4185,7 @@ une	un	DET
 enquête	enquête	NOUN
 sur	sur	ADP
 la	le	DET
-mise	mise	NOUN
-en	en	ADP
-valeur	valeur	NOUN
+mise en valeur	mise en valeur	NOUN
 du	du	ADP_DET
 lieu	lieu	NOUN
 ,	,	PUNCTclause
@@ -4271,8 +4197,7 @@ entreprise	entreprise	NOUN
 commune	commun	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
-autant	autant	ADV
-de	de	ADP
+autant de	autant de	NOUN
 occasions	occasion	NOUN
 de	de	ADP
 agir	agir	VERB

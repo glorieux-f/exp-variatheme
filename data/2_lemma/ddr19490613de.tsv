@@ -84,8 +84,7 @@ cas	cas	NOUN
 ,	,	PUNCTclause
 même	même	ADV
 impuissance	impuissance	NOUN
-vis-à-vis	vis-à-vis	ADV
-des	un	ADP_DET
+vis-à-vis de	vis-à-vis de	ADP
 grands	grand	ADJ
 voisins	voisin	NOUN
 ,	,	PUNCTclause
@@ -137,10 +136,8 @@ cantons	canton	NOUN
 tout	tout	PRON
 aussi	aussi	ADV
 divisés	diviser	VERB
-à	à	ADP
-l'	le	DET
-époque	époque	NOUN
-que	que	PRON
+à l'époque	à l'époque	PUNCT
+que	que	SCONJ
 ne	ne	ADV
 le	le_PRON	PRON
 sont	être	AUX
@@ -197,9 +194,7 @@ les	le	DET
 maux	mal	NOUN
 dont	dont	PRON
 souffre	souffrir	VERB
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	ADP
 l'	le	DET
 économie	économie	NOUN
 Europe	Europe	PROPN
@@ -262,10 +257,7 @@ se	se	PRON
 élèvent	élever	VERB
 sans cesse	sans cesse	ADV
 ,	,	PUNCTclause
-à	à	ADP
-tel	tel	DET
-point	point	NOUN
-que	que	SCONJ
+à tel point que	à tel point que	SCONJ
 la	le	DET
 traversée	traversée	NOUN
 de	de	ADP
@@ -331,8 +323,7 @@ maladie	maladie	NOUN
 chronique	chronique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-hé	hé	INTJ
-bien	bien	ADV
+eh bien	eh bien	PRON
 ,	,	PUNCTclause
 nos	nos	DET
 cantons	canton	NOUN
@@ -349,8 +340,7 @@ tous	tout	ADJ
 ces	ce	DET
 maux	mal	NOUN
 ,	,	PUNCTclause
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 ,	,	PUNCTclause
 exactement	exactement	ADV
 .	.	PUNCTsent
@@ -384,8 +374,7 @@ comptait	compter	VERB
 en	en	ADP
 1847	1847	NUM
 ,	,	PUNCTclause
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 400	400	NUM
 taxes	taxe	NOUN
 sur	sur	ADP
@@ -393,10 +382,7 @@ le	le	DET
 trafic	trafic	NOUN
 des	un	ADP_DET
 marchandises	marchandise	NOUN
-à	à	ADP
-l'	le	DET
-intérieur	intérieur	NOUN
-du	du	ADP_DET
+à l'intérieur de	à l'intérieur de	ADP
 pays	pays	NOUN
 !	!	PUNCTsent
 on	on	PRON
@@ -561,9 +547,7 @@ en	en	PRON
 va	aller	VERB
 pas	pas	ADV
 autrement	autrement	ADV
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	DET
 ,	,	PUNCTclause
 pour	pour	ADP
 le	le	DET
@@ -639,9 +623,7 @@ et	et	CCONJ
 tout le monde	tout le monde	NOUN
 le	le_PRON	PRON
 voit	voir	VERB
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	DET
 .	.	PUNCTsent
 cependant	cependant	ADV
 ,	,	PUNCTclause
@@ -737,10 +719,7 @@ industries	industrie	NOUN
 locales	local	ADJ
 qui	qui	PRON
 ,	,	PUNCTclause
-du	du	ADP_DET
-jour	jour	NOUN
-au	au	ADP_DET
-lendemain	lendemain	NOUN
+du jour au lendemain	du jour au lendemain	SCONJ
 ,	,	PUNCTclause
 seront	être	AUX
 ruinées	ruiner	VERB
@@ -756,9 +735,7 @@ passé	passer	VERB
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 en	en	ADP
-moins	moins	ADV
-de	de	ADP
-un	un	NUM
+moins d'une	moins d'une	NOUN
 an	an	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -838,22 +815,19 @@ en	en	ADP
 .	.	PUNCTsent
 ce	ce	PRON
 était	être	AUX
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 chaos	chaos	NOUN
 économique	économique	ADJ
 ,	,	PUNCTclause
 produit	produire	VERB
 par	par	ADP
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 divisions	division	NOUN
 .	.	PUNCTsent
 on	on	PRON
 répétait	répéter	VERB
 tous	tous	PRON
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 arguments	argument	NOUN
 contre	contre	ADP
 la	le	DET
@@ -948,12 +922,10 @@ disions	dire	VERB
 nos	nos	DET
 gouvernements	gouvernement	NOUN
 :	:	PUNCTclause
-assez	assez	ADV
-de	de	ADP
+assez de	assez de	PUNCT
 absurdités	absurdité	NOUN
 ,	,	PUNCTclause
-assez	assez	ADV
-de	de	ADP
+assez de	assez de	ADV
 petits	petit	ADJ
 calculs	calcul	NOUN
 ,	,	PUNCTclause
@@ -964,9 +936,7 @@ planter	planter	VERB
 des	un	DET
 choux	chou	NOUN
 ,	,	PUNCTclause
-si	si	SCONJ
-vous	vous	PRON
-voulez	vouloir	VERB
+si vous voulez	si vous voulez	PRON
 faire	faire	VERB
 des	un	DET
 économies	économie	NOUN

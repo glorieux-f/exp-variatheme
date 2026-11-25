@@ -136,8 +136,7 @@ le	le	DET
 sens commun	sens commun	NOUN
 joue	jouer	VERB
 dans	dans	ADP
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 sens	sens	NOUN
 que	que	SCONJ
 notre	notre	DET
@@ -297,9 +296,7 @@ inquiet	inquiet	ADJ
 —	—	PUNCTclause
 elle	elle	PRON
 passe	passer	VERB
-au	au	ADP_DET
-milieu	milieu	NOUN
-du	du	ADP_DET
+au milieu de	au milieu de	ADP
 lac	lac	NOUN
 ,	,	PUNCTclause
 dit	dire	VERB
@@ -418,8 +415,7 @@ en	en	ADP
 une	un	DET
 autre	autre	ADJ
 occasion	occasion	NOUN
-le	le	DET
-même	même	ADV
+les mêmes	les mêmes	PUNCT
 Bidault	Bidault	PROPN
 —	—	PUNCTclause
 ;	;	PUNCTclause
@@ -473,8 +469,7 @@ neuf-cents	neuf-cents	NUM
 fois	fois	NOUN
 par	par	ADP
 jour	jour	NOUN
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	PUNCT
 questions	question	NOUN
 convenues	convenu	ADJ
 (	(	PUNCTclause
@@ -653,10 +648,9 @@ produit	produire	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
-aurait	avoir	VERB
+aurait	avoir	AUX
 encore	encore	ADV
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	DET
 chance	chance	NOUN
 de	de	ADP
 survenir	survenir	VERB
@@ -666,9 +660,7 @@ cas	cas	NOUN
 de	de	ADP
 régions	région	NOUN
 définies	défini	ADJ
-en	en	ADP
-termes	terme	NOUN
-de	de	ADP
+en termes de	en termes de	ADP
 écologies	écologie	NOUN
 ou	ou	CCONJ
 de	de	ADP
@@ -688,10 +680,8 @@ exemple	exemple	NOUN
 des	un	ADP_DET
 diverses	divers	ADJ
 régions	région	NOUN
-que	que	SCONJ
-il	il	PRON
-y	y	PRON
-aurait	avoir	VERB
+que	que	ADV
+il y a	il y a	VERB
 lieu	lieu	NOUN
 de	de	ADP
 organiser	organiser	VERB
@@ -787,9 +777,7 @@ définit	définir	VERB
 une	un	DET
 région	région	NOUN
 différente	différent	ADJ
-en	en	ADP
-termes	terme	NOUN
-de	de	ADP
+en termes de	en termes de	ADP
 territoire	territoire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -848,8 +836,7 @@ ville	ville	NOUN
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
 ,	,	PUNCTclause
-autour	autour	ADV
-du	du	ADP_DET
+autour de	autour de	ADP
 Léman	Léman	PROPN
 ,	,	PUNCTclause
 une	un	DET
@@ -974,9 +961,7 @@ enseignement	enseignement	NOUN
 supérieur	supérieur	ADJ
 ,	,	PUNCTclause
 densité	densité	NOUN
-tout	tout	ADJ
-à	à	ADP
-fait	fait	NOUN
+tout à fait	tout à fait	PUNCT
 exceptionnelle	exceptionnel	ADJ
 ,	,	PUNCTclause
 entre	entre	ADP
@@ -1052,8 +1037,7 @@ Genève	Genève	PROPN
 —	—	PUNCTclause
 et	et	CCONJ
 encore	encore	ADV
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	PUNCT
 Lyon	Lyon	PROPN
 —	—	PUNCTclause
 une	un	DET
@@ -1102,8 +1086,7 @@ et	et	CCONJ
 leur	leur	DET
 contenu	contenu	NOUN
 ,	,	PUNCTclause
-sans	sans	ADP
-plus	plus	ADV
+sans plus	sans plus	ADP
 se	se	PRON
 laisser	laisser	VERB
 paralyser	paralyser	VERB
@@ -1203,8 +1186,7 @@ Léman	Léman	PROPN
 )	)	PUNCTclause
 .	.	PUNCTsent
 il y a	il y a	VERB
-depuis	depuis	ADP
-toujours	toujours	ADV
+depuis toujours	depuis toujours	ADP
 deux	deux	NUM
 races	race	NOUN
 ,	,	PUNCTclause
@@ -1296,12 +1278,8 @@ pas	pas	ADV
 .	.	PUNCTsent
 ce	ce	PRON
 est	être	AUX
-à	à	ADP
-partir	partir	VERB
-du	du	ADP_DET
-coup	coup	NOUN
-de	de	ADP
-force	force	NOUN
+à partir de	à partir de	ADP
+coup de force	coup de force	NOUN
 de	de	ADP
 Poincaré	Poincaré	PROPN
 que	que	SCONJ
@@ -1360,12 +1338,9 @@ simples	simple	ADJ
 bisbilles	bisbille	NOUN
 ,	,	PUNCTclause
 ont	avoir	AUX
-en	en	PRON
-fait	faire	VERB
+en fait	en fait	SYM
 disparu	disparaître	VERB
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	PUNCT
 :	:	PUNCTclause
 les	le	DET
 races	race	NOUN
@@ -1457,8 +1432,7 @@ Constant	Constant	PROPN
 et	et	CCONJ
 Stendhal	Stendhal	PROPN
 .	.	PUNCTsent
-rien	rien	PRON
-de plus	de plus	ADV
+rien de plus	rien de plus	PRON
 aisé	aisé	ADJ
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -1468,13 +1442,11 @@ que	que	SCONJ
 ils	ils	PRON
 ont	avoir	AUX
 aimé	aimer	VERB
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 paysages	paysage	NOUN
 ,	,	PUNCTclause
 subi	subir	VERB
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 bises	bise	NOUN
 noires	noir	ADJ
 ,	,	PUNCTclause
@@ -1499,8 +1471,7 @@ eux	eux	PRON
 ,	,	PUNCTclause
 on	on	PRON
 parlait	parler	VERB
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 dialecte	dialecte	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1562,9 +1533,8 @@ convaincus	convaincre	VERB
 que	que	SCONJ
 nous	nous	PRON
 étions	être	AUX
-différents	différent	ADJ
-au	au	ADP_DET
-point	point	NOUN
+différents	différent	DET
+au point	au point	NOUN
 de	de	ADP
 ne	ne	ADV
 pouvoir	pouvoir	VERB
@@ -1591,9 +1561,7 @@ l'	le	DET
 des	un	ADP_DET
 citoyens	citoyen	NOUN
 ,	,	PUNCTclause
-à	à	ADP
-partir	partir	VERB
-des	un	ADP_DET
+à partir de	à partir de	ADP
 réalités	réalité	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
@@ -1622,9 +1590,7 @@ de	de	ADP
 l'	le	DET
 éducation	éducation	NOUN
 ,	,	PUNCTclause
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 trois	trois	NUM
 lustres	lustre	NOUN
 qui	qui	PRON

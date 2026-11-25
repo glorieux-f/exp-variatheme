@@ -132,9 +132,8 @@ depuis	depuis	ADP
 1848	1848	NUM
 ,	,	PUNCTclause
 sauf	sauf	ADP
-le	le	DET
-nombre	nombre	NOUN
-de	de	ADP
+le	le_PRON	PRON
+nombre de	nombre de	ADP_DET
 nos	nos	DET
 cantons	canton	NOUN
 .	.	PUNCTsent
@@ -171,9 +170,7 @@ de	de	ADP
 l'	le	DET
 économie	économie	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-admettant	admettre	VERB
-que	que	SCONJ
+en admettant que	en admettant que	DET
 cette	ce	DET
 dernière	dernier	ADJ
 représente	représenter	VERB
@@ -272,8 +269,7 @@ l'	le	DET
 administration	administration	NOUN
 que	que	SCONJ
 appartient	appartenir	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 la	le	DET
 paternité	paternité	NOUN
 de	de	ADP
@@ -367,9 +363,7 @@ le	le	DET
 Conseil	Conseil	PROPN
 fédéralisme	fédéralisme	NOUN
 fait	faire	VERB
-mettre	mettre	VERB
-au	au	ADP_DET
-point	point	NOUN
+mise au point	mise au point	NOUN
 par	par	ADP
 le	le	DET
 département	département	NOUN
@@ -431,8 +425,7 @@ déjà	déjà	ADV
 connues	connaître	VERB
 .	.	PUNCTsent
 et	et	CCONJ
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	PUNCT
 la	le	DET
 moitié	moitié	NOUN
 des	un	ADP_DET
@@ -441,8 +434,7 @@ du	du	ADP_DET
 Conseil	Conseil	PROPN
 national	national	ADJ
 sont	être	AUX
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 les	le	DET
 porte-paroles	porte-parole	NOUN
 des	un	ADP_DET
@@ -463,8 +455,7 @@ fédéralisme	fédéralisme	NOUN
 laisse	laisser	VERB
 l'	le	DET
 affaire	affaire	NOUN
-en	en	ADP
-suspens	suspens	NOUN
+en suspens	en suspens	PUNCT
 ,	,	PUNCTclause
 sauf à	sauf à	ADP
 la	le	DET
@@ -503,9 +494,7 @@ trois	trois	NUM
 mois	mois	NOUN
 avant	avant	ADP
 la	le	DET
-mise	mise	NOUN
-en	en	ADP
-application	application	NOUN
+mise en application	mise en application	NOUN
 de	de	ADP
 la	le	DET
 loi	loi	NOUN
@@ -589,7 +578,7 @@ forme	forme	NOUN
 nouvelle	nouveau	ADJ
 ,	,	PUNCTclause
 acceptée	accepter	VERB
-cette fois ci	cette fois ci	PRON
+cette fois-là	cette fois ci	PRON
 sans	sans	ADP
 opposition	opposition	NOUN
 —	—	PUNCTclause
@@ -609,8 +598,7 @@ bureaux	bureau	NOUN
 )	)	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 quoique	quoique	SCONJ
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 simplifié	simplifier	VERB
 et	et	CCONJ
 stylisé	styliser	VERB
@@ -655,8 +643,7 @@ que	que	PRON
 se	se	PRON
 joue	jouer	VERB
 dans	dans	ADP
-bien	bien	ADV
-des	un	ADP_DET
+bien des	bien des	DET
 cas	cas	NOUN
 le	le	DET
 sort	sort	NOUN
@@ -1041,8 +1028,7 @@ finances	finance	NOUN
 et	et	CCONJ
 ce	ce	PRON
 est	être	AUX
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 essor	essor	NOUN
 économique	économique	ADJ
 normal	normal	ADJ
@@ -1059,10 +1045,7 @@ et	et	CCONJ
 de	de	ADP
 chaque	chaque	DET
 Suisse	Suisse	PROPN
-à	à	ADP
-l'	le	DET
-égard	égard	NOUN
-du	du	ADP_DET
+à l'égard de	à l'égard de	ADP
 monde	monde	NOUN
 extérieur	extérieur	ADJ
 .	.	PUNCTsent
@@ -1070,9 +1053,7 @@ or	or	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 serait	être	AUX
-tout	tout	ADV
-à	à	ADP
-fait	fait	NOUN
+tout à fait	tout à fait	DET
 illusoire	illusoire	ADJ
 de	de	ADP
 espérer	espérer	VERB
@@ -1114,8 +1095,7 @@ affirme	affirmer	VERB
 indiscutablement	indiscutablement	ADV
 la	le	DET
 prédominance	prédominance	NOUN
-de	de	ADP
-fait	fait	NOUN
+de fait	de fait	PUNCT
 de	de	ADP
 l'	le	DET
 économique	économique	NOUN
@@ -1212,8 +1192,7 @@ romantique	romantique	ADJ
 .	.	PUNCTsent
 nous	nous	PRON
 savons	savoir	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 l'	le	DET
 autarcie	autarcie	NOUN
 économique	économique	ADJ
@@ -1261,8 +1240,7 @@ indépendance	indépendance	NOUN
 politique	politique	ADJ
 ne	ne	ADV
 est	être	AUX
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	ADV
 que	que	SCONJ
 une	un	DET
 manière	manière	NOUN
@@ -1359,8 +1337,7 @@ ne	ne	ADV
 exclut	exclure	VERB
 pas	pas	ADV
 ,	,	PUNCTclause
-bien	bien	ADV
-au contraire	au contraire	ADV
+bien au contraire	bien au contraire	ADJ
 ,	,	PUNCTclause
 les	le	DET
 relations	relation	NOUN
@@ -1758,8 +1735,7 @@ commune	commun	NOUN
 l'autre	l'autre	PRON
 ,	,	PUNCTclause
 ou	ou	CCONJ
-au	au	ADP_DET
-mieux	mieux	ADV
+au mieux	au mieux	ADV
 de	de	ADP
 un	un	DET
 canton	canton	NOUN
@@ -1797,9 +1773,7 @@ bien	bien	ADV
 peu de	peu de	DET
 communes	commun	NOUN
 seraient	être	AUX
-en	en	ADP
-mesure	mesure	NOUN
-de	de	ADP
+en mesure de	en mesure de	ADP
 se	se	PRON
 charger	charger	VERB
 de	de	ADP
@@ -1957,8 +1931,7 @@ atomique	atomique	ADJ
 en revanche	en revanche	ADV
 ,	,	PUNCTclause
 est	être	AUX
-en	en	ADP
-retard	retard	NOUN
+en retard	en retard	ADV
 dans	dans	ADP
 ce	ce	DET
 pays	pays	NOUN
@@ -2111,9 +2084,7 @@ il	il	PRON
 est	être	AUX
 clair	clair	ADJ
 que	que	SCONJ
-dans	dans	ADP
-ce	ce	DET
-cas	cas	NOUN
+dans ce cas	dans ce cas	DET
 ,	,	PUNCTclause
 précisément	précisément	ADV
 ,	,	PUNCTclause
@@ -2259,18 +2230,13 @@ associés	associer	VERB
 si	si	SCONJ
 maintenant	maintenant	ADV
 —	—	PUNCTclause
-sous	sous	ADP
-l'	le	DET
-influence	influence	NOUN
-de	de	ADP
+sous l'influence de	sous l'influence de	ADP
 une	un	DET
 conception	conception	NOUN
 de	de	ADP
 la	le	DET
 nation	nation	NOUN
-tout	tout	ADJ
-à	à	ADP
-fait	fait	NOUN
+tout à fait	tout à fait	PUNCT
 étrangère	étranger	ADJ
 à	à	ADP
 notre	notre	DET
@@ -2345,9 +2311,7 @@ régression	régression	NOUN
 matérielle	matériel	ADJ
 qui	qui	PRON
 ,	,	PUNCTclause
-par	par	ADP
-la	le	DET
-suite	suite	NOUN
+par la suite	par la suite	ADV
 ,	,	PUNCTclause
 aboutirait	aboutir	VERB
 nécessairement	nécessairement	ADV
@@ -2397,8 +2361,7 @@ l'	le	DET
 extension	extension	NOUN
 du	du	ADP_DET
 système	système	NOUN
-au-delà	au-delà	ADV
-du	du	ADP_DET
+au-delà de	au-delà de	ADP_DET
 stade	stade	NOUN
 national	national	ADJ
 ,	,	PUNCTclause

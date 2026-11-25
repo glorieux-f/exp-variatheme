@@ -298,10 +298,8 @@ ces	ce	DET
 brochures	brochure	NOUN
 .	.	PUNCTsent
 mais	mais	CCONJ
-si	si	ADV
-l'un	l'un	PRON
-ou	ou	CCONJ
-l'autre	l'autre	PRON
+si	si	SCONJ
+l'un ou l'autre	l'un ou l'autre	PRON
 se	se	PRON
 avisait	aviser	VERB
 de	de	ADP
@@ -328,8 +326,7 @@ car	car	CCONJ
 il	il	PRON
 est	être	AUX
 interdit	interdire	VERB
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 de	de	ADP
 la	le	DET
 politique	politique	NOUN
@@ -373,8 +370,7 @@ la	le	DET
 politique	politique	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 ,	,	PUNCTclause
 écologie	écologie	NOUN
 est	être	AUX
@@ -553,8 +549,7 @@ guerre mondiale	guerre mondiale	NOUN
 ,	,	PUNCTclause
 signifiant	signifier	VERB
 alors	alors	ADV
-bien	bien	ADV
-des	un	ADP_DET
+bien des	bien des	DET
 choses	chose	NOUN
 sympathiques	sympathique	ADJ
 mais	mais	CCONJ
@@ -684,8 +679,7 @@ mais	mais	CCONJ
 si	si	SCONJ
 nous	nous	PRON
 prenons	prendre	VERB
-un	un	DET
-peu de	peu de	DET
+un peu de	un peu de	DET
 recul	recul	NOUN
 pour	pour	ADP
 considérer	considérer	VERB
@@ -771,9 +765,7 @@ est	être	AUX
 manifesté	manifester	VERB
 avec	avec	ADP
 force	force	NOUN
-au	au	ADP_DET
-lendemain	lendemain	NOUN
-de	de	ADP
+au lendemain de	au lendemain de	ADP
 Hiroshima	Hiroshima	PROPN
 et	et	CCONJ
 se	se	PRON
@@ -992,9 +984,7 @@ que	que	SCONJ
 le	le	DET
 phénomène	phénomène	NOUN
 ,	,	PUNCTclause
-au	au	ADP_DET
-lendemain	lendemain	NOUN
-de	de	ADP
+au lendemain de	au lendemain de	ADP
 la	le	DET
 deuxième	deuxième	ADJ
 guerre mondiale	guerre mondiale	NOUN
@@ -1355,10 +1345,7 @@ les	le	DET
 deux	deux	NUM
 réalités	réalité	NOUN
 .	.	PUNCTsent
-il	il	PRON
-y	y	PRON
-en	en	PRON
-a	avoir	AUX
+il y en a	il y en a	PRON
 d'autres	d'autre	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1454,8 +1441,7 @@ action	action	NOUN
 ↵↵	↵↵	PUNCTstruct
 voilà	voilà	ADP
 donc	donc	ADV
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 temps	temps	NOUN
 :	:	PUNCTclause
 l'	le	DET
@@ -1470,8 +1456,7 @@ mais	mais	CCONJ
 l'	le	DET
 obstacle	obstacle	NOUN
 est	être	AUX
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 dans	dans	ADP
 les	le	DET
 deux	deux	NUM
@@ -1548,8 +1533,7 @@ fédéralisme	fédéralisme	NOUN
 ↵↵	↵↵	PUNCTstruct
 or	or	NOUN
 ,	,	PUNCTclause
-au-delà	au-delà	ADV
-des	un	ADP_DET
+au-delà de	au-delà de	ADP
 exigences	exigence	NOUN
 écologiques	écologique	ADJ
 régionales	régional	ADJ
@@ -1672,8 +1656,7 @@ renouvelables	renouvelable	ADJ
 tout	tout	PRON
 État-nation	État-nation	PROPN
 ,	,	PUNCTclause
-par	par	ADP
-nature	nature	NOUN
+par nature	par nature	NOUN
 ,	,	PUNCTclause
 se	se	PRON
 oppose	opposer	VERB
@@ -1684,11 +1667,9 @@ qui	qui	PRON
 le	le_PRON	PRON
 dépasse	dépasser	VERB
 tant	tant	ADV
-par	par	ADP
-en haut	en haut	ADV
+par en haut	par en haut	ADV
 que	que	SCONJ
-par	par	ADP
-en bas	en bas	ADV
+par en bas	par en bas	ADV
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
 que	que	SCONJ
@@ -1704,8 +1685,7 @@ existe	exister	VERB
 ou	ou	CCONJ
 voudrait	vouloir	VERB
 exister	exister	VERB
-indépendamment	indépendamment	ADV
-de	de	ADP
+indépendamment de	indépendamment de	PUNCT
 son	son	DET
 contrôle	contrôle	NOUN
 .	.	PUNCTsent
@@ -2076,9 +2056,7 @@ se	se	PRON
 agit	agir	VERB
 donc	donc	ADV
 ,	,	PUNCTclause
-si	si	SCONJ
-l'on	on	PRON
-veut	vouloir	VERB
+si l'on veut	si l'on veut	PRON
 arriver	arriver	VERB
 à	à	ADP
 des	un	DET
@@ -2264,8 +2242,7 @@ faire	faire	AUX
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 dans	dans	ADP
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 sens	sens	NOUN
 se	se	PRON
 prononcent	prononcer	VERB
@@ -2277,8 +2254,7 @@ politologues	politologue	ADJ
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 et	et	CCONJ
-nombre	nombre	NOUN
-de	de	ADP
+nombre de	nombre de	ADP
 hommes	homme	NOUN
 politiques	politique	ADJ
 responsables	responsable	NOUN
@@ -2327,11 +2303,7 @@ centrale nucléaire	centrale nucléaire	NOUN
 ,	,	PUNCTclause
 qui	qui	PRON
 exigent	exiger	VERB
-les	le	DET
-unes	un	PRON
-et	et	CCONJ
-les	le	DET
-autres	autre	PRON
+les unes et les autres	les unes et les autres	DET
 une	un	PRON
 centralisation	centralisation	NOUN
 ombrageuse	ombrageux	ADJ
@@ -2468,8 +2440,7 @@ de	de	ADP
 la	le	DET
 campagne	campagne	NOUN
 pour	pour	ADP
-la	le	DET
-première	premier	ADJ
+la première	la première	DET
 élection	élection	NOUN
 du	du	ADP_DET
 parlement	parlement	NOUN
@@ -2577,12 +2548,9 @@ organisations	organisation	NOUN
 écologistes	écologiste	ADJ
 devraient	devoir	VERB
 entrer	entrer	VERB
-au	au	ADP_DET
-plus	plus	ADV
+au plus	au plus	ADV
 vite	vite	ADV
-en	en	ADP
-relation	relation	NOUN
-avec	avec	ADP
+en relation avec	en relation avec	ADP
 les	le	DET
 organisations	organisation	NOUN
 régionalistes	régionaliste	ADJ

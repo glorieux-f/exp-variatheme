@@ -259,8 +259,7 @@ viser	viser	VERB
 la	le	DET
 dépasser	dépasser	VERB
 à la fois	à la fois	ADV
-par	par	ADP
-en haut	en haut	ADV
+par en haut	par en haut	ADV
 ,	,	PUNCTclause
 en	en	ADP
 créant	créer	VERB
@@ -272,8 +271,7 @@ l'	le	DET
 continentale	continental	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-par	par	ADP
-en bas	en bas	ADV
+par en bas	par en bas	ADV
 en	en	ADP
 organisant	organiser	VERB
 les	le	DET
@@ -726,9 +724,8 @@ ne	ne	ADV
 remet	remettre	VERB
 elle	elle	PRON
 pas	pas	ADV
-en	en	ADP
-cause	cause	NOUN
-le	le	DET
+en cause	en cause	PRON
+le	le_PRON	PRON
 parlementarisme	parlementarisme	NOUN
 ,	,	PUNCTclause
 lequel	lequel	PRON
@@ -796,9 +793,7 @@ au	au	ADP_DET
 niveau	niveau	NOUN
 communal	communal	ADJ
 ,	,	PUNCTclause
-au	au	ADP_DET
-niveau	niveau	NOUN
-des	un	ADP_DET
+au niveau de	au niveau de	ADP
 groupements	groupement	NOUN
 de	de	ADP
 communes	commun	NOUN
@@ -822,8 +817,7 @@ régions	région	NOUN
 qui	qui	PRON
 se	se	PRON
 élaborent	élaborer	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 partout	partout	ADV
 en	en	ADP
 Europe	Europe	PROPN
@@ -862,8 +856,7 @@ est	être	AUX
 que	que	SCONJ
 il	il	PRON
 existe	exister	VERB
-au-dessus	au-dessus	ADV
-des	un	ADP_DET
+au-dessus de	au-dessus de	ADP
 régions	région	NOUN
 et	et	CCONJ
 à	à	ADP
@@ -1049,11 +1042,8 @@ comment	comment	ADV
 peut	pouvoir	VERB
 on	on	PRON
 croire	croire	VERB
-encore	encore	ADV
-que	que	SCONJ
-il	il	PRON
-y	y	PRON
-ait	avoir	VERB
+encore que	encore que	ADV
+il y a	il y a	VERB
 des	un	DET
 économies	économie	NOUN
 nationales	national	ADJ
@@ -1083,9 +1073,8 @@ qui	qui	PRON
 ont	avoir	AUX
 été	être	AUX
 fixées	fixer	VERB
-au	au	ADP_DET
-hasard	hasard	NOUN
-des	un	ADP_DET
+au hasard	au hasard	PUNCT
+des	un	DET
 guerres	guerre	NOUN
 et	et	CCONJ
 des	un	DET
@@ -1138,8 +1127,7 @@ au	au	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
 ou	ou	CCONJ
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	NOUN
 du	du	ADP_DET
 19e	19e	NUM
 siècle	siècle	NOUN
@@ -1337,10 +1325,7 @@ par	par	ADP
 régions	région	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-dans	dans	ADP
-le	le	DET
-cadre	cadre	NOUN
-de	de	ADP
+dans le cadre de	dans le cadre de	ADP
 une	un	DET
 politique	politique	NOUN
 commune	commun	ADJ
@@ -1393,8 +1378,7 @@ Austerlitz	Austerlitz	PROPN
 ,	,	PUNCTclause
 ce	ce	PRON
 est	être	AUX
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 loin	loin	ADV
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1416,9 +1400,7 @@ histoire	histoire	NOUN
 et	et	CCONJ
 la	le	DET
 géographie	géographie	NOUN
-à	à	ADP
-partir	partir	VERB
-du	du	ADP_DET
+à partir de	à partir de	ADP
 seul	seul	ADJ
 cadre	cadre	NOUN
 national	national	ADJ
@@ -1738,8 +1720,7 @@ pollution	pollution	NOUN
 les	le	DET
 poissons	poisson	NOUN
 sont	être	AUX
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	PRON
 des	un	ADP_DET
 deux	deux	NUM
 côtés	côté	NOUN
@@ -1750,8 +1731,7 @@ ils	ils	PRON
 y	y	PRON
 crèvent	crever	VERB
 de	de	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 façon	façon	NOUN
 !	!	PUNCTsent
 ↵↵	↵↵	PUNCTstruct

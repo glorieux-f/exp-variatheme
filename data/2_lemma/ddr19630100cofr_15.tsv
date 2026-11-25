@@ -35,10 +35,9 @@ que	que	SCONJ
 mon	mon	DET
 optimisme	optimisme	NOUN
 trouble	trouble	ADJ
-comme	comme	ADP
+comme	comme	SCONJ
 étant	être	AUX
-par	par	ADP
-trop	trop	ADV
+par trop	par trop	ADV
 séculier	séculier	ADJ
 :	:	PUNCTclause
 si	si	SCONJ
@@ -82,11 +81,9 @@ réussissent	réussir	VERB
 à	à	ADP
 résoudre	résoudre	VERB
 ,	,	PUNCTclause
-à	à	ADP
-la	le	DET
-fin	fin	NOUN
+à la fin	à la fin	ADV
 de	de	ADP
-ce	ce	DET
+ce	ce	PRON
 siècle	siècle	NOUN
 ,	,	PUNCTclause
 les	le	DET
@@ -207,9 +204,8 @@ fait	fait	NOUN
 est	être	AUX
 que	que	SCONJ
 elles	elles	PRON
-ont	avoir	VERB
-plus	plus	ADV
-de	de	ADP
+ont	avoir	AUX
+plus de	plus de	DET
 chances	chance	NOUN
 que	que	SCONJ
 jamais	jamais	ADV
@@ -217,9 +213,7 @@ de	de	ADP
 l'	le	DET
 être	être	AUX
 ,	,	PUNCTclause
-en	en	ADP
-tout	tout	PRON
-cas	cas	NOUN
+en tout cas	en tout cas	SYM
 partiellement	partiellement	ADV
 .	.	PUNCTsent
 et	et	CCONJ
@@ -377,11 +371,8 @@ conquise	conquérir	VERB
 ↵↵	↵↵	PUNCTstruct
 d'ailleurs	d'ailleurs	ADV
 ,	,	PUNCTclause
-dans	dans	ADP
-l'	le	DET
-hypothèse	hypothèse	NOUN
-où	où	PRON
-le	le	DET
+dans l'hypothèse où	dans l'hypothèse où	DET
+le	le_PRON	PRON
 progrès	progrès	NOUN
 réussirait	réussir	VERB
 ,	,	PUNCTclause
@@ -411,8 +402,7 @@ faute de	faute de	ADP
 emploi	emploi	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-tout	tout	ADV
-autant	autant	ADV
+tout autant	tout autant	ADV
 ,	,	PUNCTclause
 ou	ou	CCONJ
 plus	plus	ADV
@@ -589,11 +579,9 @@ du	du	ADP_DET
 progrès	progrès	NOUN
 ,	,	PUNCTclause
 sont	être	AUX
-les	le_PRON	PRON
+les	le	DET
 suites	suite	NOUN
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	PUNCT
 directes	direct	ADJ
 ou	ou	CCONJ
 légitimes	légitime	ADJ
@@ -752,9 +740,7 @@ du	du	ADP_DET
 progrès	progrès	NOUN
 ne	ne	ADV
 serait	être	AUX
-en	en	ADP
-tout	tout	PRON
-cas	cas	NOUN
+en tout cas	en tout cas	ADV
 pas	pas	ADV
 le	le	DET
 christianisme	christianisme	NOUN
@@ -921,9 +907,7 @@ processus	processus	NOUN
 et	et	CCONJ
 donnerait	donner	VERB
 le	le	DET
-coup	coup	NOUN
-de	de	ADP
-pouce	pouce	NOUN
+coup de pouce	coup de pouce	NOUN
 nécessaire	nécessaire	ADJ
 pour que	pour que	SCONJ
 l'	le	DET
@@ -932,9 +916,7 @@ rejoigne	rejoindre	VERB
 l'	le	DET
 axe	axe	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-dépit	dépit	NOUN
-des	un	ADP_DET
+en dépit de	en dépit de	ADP
 lois	loi	NOUN
 mécaniques	mécanique	ADJ
 .	.	PUNCTsent
@@ -1014,9 +996,7 @@ que	que	SCONJ
 quelques	quelque	DET
 intellectuels	intellectuel	NOUN
 naguère	naguère	ADV
-à	à	ADP
-la	le	DET
-mode	mode	NOUN
+à la mode	à la mode	PUNCT
 dans	dans	ADP
 les	le	DET
 capitales	capital	NOUN
@@ -1117,8 +1097,7 @@ hommes	homme	NOUN
 si	si	SCONJ
 nous	nous	PRON
 admettons	admettre	VERB
-au	au	ADP_DET
-surplus	surplus	NOUN
+au surplus	au surplus	ADV
 que	que	SCONJ
 les	le	DET
 loisirs	loisir	NOUN
@@ -1135,8 +1114,7 @@ la	le	DET
 culture	culture	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-par là	par là	ADV
-même	même	ADV
+par là même	par là même	ADP
 l'	le	DET
 inquiétude	inquiétude	NOUN
 métaphysique	métaphysique	ADJ
@@ -1363,9 +1341,7 @@ l'	le	DET
 église	église	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-plus	plus	ADV
-de	de	ADP
-un	un	DET
+plus d'une	plus d'une	DET
 fidèle	fidèle	ADJ
 invoquera	invoquer	VERB
 les	le	DET
@@ -1469,10 +1445,7 @@ et	et	CCONJ
 les	le	DET
 confondant	confondre	VERB
 toutes	tout	ADJ
-sous	sous	ADP
-le	le	DET
-nom	nom	NOUN
-de	de	ADP
+sous le nom de	sous le nom de	ADP
 paganisme	paganisme	NOUN
 ,	,	PUNCTclause
 synonyme	synonyme	ADJ
@@ -1480,8 +1453,7 @@ de	de	ADP
 erreur	erreur	NOUN
 scandaleuse	scandaleux	ADJ
 et	et	CCONJ
-de	de	ADP
-nuit	nuit	NOUN
+de nuit	de nuit	PUNCT
 de	de	ADP
 l'	le	DET
 esprit	esprit	NOUN
@@ -1537,11 +1509,7 @@ structures	structure	NOUN
 de	de	ADP
 organisation	organisation	NOUN
 ,	,	PUNCTclause
-les	le	DET
-unes	un	PRON
-et	et	CCONJ
-les	le	DET
-autres	autre	PRON
+les unes et les autres	les unes et les autres	DET
 constituées	constituer	VERB
 bien	bien	ADV
 avant	avant	ADP
@@ -1625,9 +1593,7 @@ actuelles	actuel	ADJ
 ,	,	PUNCTclause
 se	se	PRON
 détacher	détacher	VERB
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 des	un	DET
 cadres	cadre	NOUN
 et	et	CCONJ
@@ -1708,8 +1674,7 @@ se	se	PRON
 en	en	ADP
 distingue	distinguer	VERB
 pas	pas	ADV
-moins	moins	ADV
-de	de	ADP
+moins de	moins de	PUNCT
 la	le	DET
 rêverie	rêverie	NOUN
 utopique	utopique	ADJ
@@ -1777,9 +1742,7 @@ existence	existence	NOUN
 actuelle	actuel	ADJ
 .	.	PUNCTsent
 et	et	CCONJ
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 je	je	PRON
 ai	avoir	AUX
 pu	pouvoir	VERB
@@ -2010,9 +1973,7 @@ choses	chose	NOUN
 ,	,	PUNCTclause
 à	à	ADP
 copier	copier	VERB
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 expressément	expressément	ADV
 ou	ou	CCONJ
 consciemment	consciemment	ADV
@@ -2113,8 +2074,7 @@ monde	monde	NOUN
 dit	dire	VERB
 païen	païen	ADJ
 ,	,	PUNCTclause
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 au	au	ADP_DET
 prix	prix	NOUN
 du	du	ADP_DET
@@ -2219,8 +2179,7 @@ que	que	SCONJ
 en	en	ADP
 y	y	PRON
 entrant	entrer	VERB
-à	à	ADP
-reculons	reculer	VERB
+à reculons	à reculons	PUNCT
 ,	,	PUNCTclause
 tardivement	tardivement	ADV
 et	et	CCONJ
@@ -2405,8 +2364,7 @@ tsars	tsar	NOUN
 ↵↵	↵↵	PUNCTstruct
 je	je	PRON
 observe	observer	VERB
-au	au	ADP_DET
-surplus	surplus	NOUN
+au surplus	au surplus	ADV
 que	que	SCONJ
 les	le	DET
 seules	seul	ADJ
@@ -2500,8 +2458,7 @@ contre	contre	ADP
 lui	lui	PRON
 sa	son	DET
 propension	propension	NOUN
-de	de	ADP
-fait	fait	NOUN
+de fait	de fait	PUNCT
 à	à	ADP
 la	le	DET
 dispersion	dispersion	NOUN
@@ -2597,9 +2554,7 @@ que	que	SCONJ
 ils	ils	PRON
 y	y	PRON
 aient	avoir	VERB
-l'un	l'un	PRON
-et	et	CCONJ
-l'autre	l'autre	PRON
+l'un et l'autre	l'un et l'autre	DET
 abondamment	abondamment	ADV
 cédé	céder	VERB
 depuis	depuis	ADP
@@ -2665,8 +2620,7 @@ signes	signe	NOUN
 positifs	positif	ADJ
 ?	?	PUNCTsent
 sur	sur	ADP
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 point	point	NOUN
 ,	,	PUNCTclause
 pas	pas	ADV
@@ -2722,17 +2676,14 @@ confessions	confession	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 sur	sur	ADP
-le	le	DET
-second	second	ADJ
+le second	le second	DET
 point	point	NOUN
 ,	,	PUNCTclause
 je	je	PRON
 ai	avoir	AUX
 relevé	relever	VERB
 ,	,	PUNCTclause
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 précédents	précédent	NOUN
 chapitres	chapitre	NOUN
 ,	,	PUNCTclause
@@ -2856,9 +2807,7 @@ est	être	AUX
 manifesté	manifester	VERB
 et	et	CCONJ
 prononcé	prononcer	VERB
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 trois	trois	NUM
 ou	ou	CCONJ
 quatre	quatre	NUM
@@ -2911,8 +2860,7 @@ dans	dans	ADP
 la	le	DET
 diversité	diversité	NOUN
 ,	,	PUNCTclause
-au-delà	au-delà	ADV
-de	de	ADP
+au-delà de	au-delà de	ADP
 l'	le	DET
 ère	ère	NOUN
 des	un	ADP_DET
@@ -2924,8 +2872,7 @@ fanatique	fanatique	ADJ
 multipliant	multiplier	VERB
 et	et	CCONJ
 durcissant	durcir	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 les	le	DET
 divisions	division	NOUN
 .	.	PUNCTsent
@@ -2976,9 +2923,7 @@ certaine	certain	ADJ
 théologie	théologie	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
-en	en	ADP
-tout	tout	DET
-cas	cas	NOUN
+en tout cas	en tout cas	DET
 ni	ni	CCONJ
 rationnelle	rationnel	ADJ
 ni	ni	CCONJ
@@ -3053,9 +2998,7 @@ romain	romain	ADJ
 de	de	ADP
 Occident	Occident	PROPN
 .	.	PUNCTsent
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 seize	seize	NUM
 siècles	siècle	NOUN
 qui	qui	PRON
@@ -3266,8 +3209,7 @@ nul	nul	PRON
 doute	douter	VERB
 .	.	PUNCTsent
 car	car	CCONJ
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 complexe	complexe	NOUN
 culturel	culturel	ADJ
 ,	,	PUNCTclause
@@ -3369,8 +3311,7 @@ civilisation	civilisation	NOUN
 sinon	sinon	CCONJ
 chrétienne	chrétien	ADJ
 ,	,	PUNCTclause
-du	du	ADP_DET
-moins	moins	ADV
+du moins	du moins	ADP
 christianisée	christianiser	VERB
 dès	dès	ADP
 sa	son	DET
@@ -3431,16 +3372,14 @@ type	type	NOUN
 occidental	occidental	ADJ
 se	se	PRON
 soumettent	soumettre	VERB
-par là	par là	ADV
-même	même	ADV
+par là même	par là même	ADV
 à	à	ADP
 l'	le	DET
 influence	influence	NOUN
 secrète	secret	ADJ
 des	un	DET
 champs	champ	NOUN
-de	de	ADP
-force	force	NOUN
+de force	de force	ADP
 spirituels	spirituel	ADJ
 que	que	SCONJ
 transportent	transporter	VERB
@@ -3780,9 +3719,7 @@ travaillé	travailler	VERB
 par	par	ADP
 un	un	DET
 christianisme	christianisme	NOUN
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 fidèlement	fidèlement	ADV
 et	et	CCONJ
 légitimement	légitimement	ADV
@@ -3855,8 +3792,7 @@ si	si	SCONJ
 l'on	on	PRON
 admet	admettre	VERB
 que	que	SCONJ
-en	en	ADP
-fait	faire	VERB
+en fait	en fait	PUNCT
 l'	le	DET
 extension	extension	NOUN
 de	de	ADP
@@ -3956,10 +3892,9 @@ l'	le	DET
 islam	islam	NOUN
 ,	,	PUNCTclause
 sans	sans	ADP
-leur	leur	PRON
+leur	leur	DET
 substituer	substituer	VERB
-pour	pour	ADP
-autant	autant	ADV
+pour autant	pour autant	PUNCT
 les	le	DET
 valeurs	valeur	NOUN
 chrétiennes	chrétien	ADJ
@@ -3967,9 +3902,7 @@ de	de	ADP
 origine	origine	NOUN
 ,	,	PUNCTclause
 oubliées	oublier	VERB
-au	au	ADP_DET
-cours	cours	NOUN
-du	du	ADP_DET
+au cours de	au cours de	ADP
 transport	transport	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3993,8 +3926,7 @@ la	le	DET
 et	et	CCONJ
 mettez	mettre	VERB
 la	le	DET
-en	en	ADP
-marche	marche	NOUN
+en marche	en marche	NOUN
 au milieu de	au milieu de	ADP
 une	un	DET
 communauté	communauté	NOUN
@@ -4056,8 +3988,7 @@ elle	elle	PRON
 risque	risquer	VERB
 de	de	ADP
 produire	produire	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 mal	mal	NOUN
 que	que	PRON
 de	de	ADP
@@ -4310,9 +4241,7 @@ peuples	peuple	NOUN
 nordiques	nordique	ADJ
 qui	qui	PRON
 ,	,	PUNCTclause
-par	par	ADP
-la	le	DET
-suite	suite	NOUN
+par la suite	par la suite	ADV
 ,	,	PUNCTclause
 adoptèrent	adopter	VERB
 cette	ce	DET
@@ -4416,8 +4345,7 @@ par	par	ADP
 l'	le	DET
 évolution	évolution	NOUN
 vers	vers	ADP
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 égalité	égalité	NOUN
 sociale	social	ADJ
 .	.	PUNCTsent
@@ -4645,11 +4573,9 @@ efforts	effort	NOUN
 apparemment	apparemment	ADV
 contradictoires	contradictoire	ADJ
 convergent	converger	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 vers	vers	ADP
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 fin	fin	NOUN
 :	:	PUNCTclause
 ce	ce	PRON
@@ -4702,9 +4628,7 @@ traduits	traduire	VERB
 eux	eux	PRON
 aussi	aussi	ADV
 ,	,	PUNCTclause
-en	en	ADP
-termes	terme	NOUN
-de	de	ADP
+en termes de	en termes de	ADP
 réalités	réalité	NOUN
 correspondant	correspondre	VERB
 aux	au	ADP_DET
@@ -4775,8 +4699,7 @@ mais	mais	CCONJ
 ceci	ceci	PRON
 ne	ne	ADV
 est	être	AUX
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	ADV
 un	un	DET
 signe	signe	NOUN
 secondaire	secondaire	ADJ
@@ -5010,10 +4933,7 @@ traduction	traduction	NOUN
 linguistique	linguistique	ADJ
 en	en	ADP
 entraînera	entraîner	VERB
-de	de	ADP
-proche	proche	ADJ
-en	en	PRON
-proche	proche	ADJ
+de proche en proche	de proche en proche	DET
 bien	bien	ADV
 d'autres	d'autre	PRON
 ,	,	PUNCTclause
@@ -5045,9 +4965,7 @@ empruntés	emprunter	VERB
 par	par	ADP
 le	le	DET
 christianisme	christianisme	NOUN
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 âges	âge	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
@@ -5186,9 +5104,7 @@ des	un	DET
 moyens	moyen	NOUN
 de	de	ADP
 traduire	traduire	VERB
-en	en	ADP
-termes	terme	NOUN
-de	de	ADP
+en termes de	en termes de	ADP
 vérité	vérité	NOUN
 spirituelle	spirituel	ADJ
 commune	commun	ADJ
@@ -5230,8 +5146,7 @@ esprit	esprit	NOUN
 de	de	ADP
 tolérance	tolérance	NOUN
 mutuelle	mutuel	ADJ
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 condescendante	condescendant	ADJ
 ,	,	PUNCTclause
 de	de	ADP
@@ -5273,8 +5188,7 @@ qui	qui	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	NOUN
 (	(	PUNCTclause
 voir	voir	VERB
 l'	le	DET
@@ -5338,8 +5252,7 @@ de	de	ADP
 être	être	AUX
 traduite	traduire	VERB
 dans	dans	ADP
-n'importe	n'importe	INTJ
-quel	quel	DET
+n'importe quels	n'importe quels	ADJ
 contexte	contexte	NOUN
 culturel	culturel	ADJ
 ,	,	PUNCTclause
@@ -5359,10 +5272,9 @@ universelle	universel	ADJ
 première	premier	ADJ
 inspiratrice	inspirateur	NOUN
 et	et	CCONJ
-par là	par là	ADV
-même	même	ADV
-modératrice	modérateur	ADJ
-prédestinée	prédestiner	VERB
+par là même	par là même	ADP
+modératrice	modérateur	NOUN
+prédestinée	prédestiné	ADJ
 de	de	ADP
 la	le	DET
 civilisation	civilisation	NOUN

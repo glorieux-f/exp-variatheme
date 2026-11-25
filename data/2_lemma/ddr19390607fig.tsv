@@ -38,8 +38,7 @@ depuis	depuis	ADP
 vingt	vingt	NUM
 ans	an	NOUN
 .	.	PUNCTsent
-comme	comme	SCONJ
-si	si	SCONJ
+comme si	comme si	DET
 rien	rien	PRON
 de	de	ADP
 pire	pire	ADJ
@@ -47,13 +46,11 @@ ne	ne	ADV
 était	être	AUX
 imaginable	imaginable	ADJ
 .	.	PUNCTsent
-comme	comme	SCONJ
-si	si	SCONJ
+comme si	comme si	SCONJ
 le	le	DET
 désordre	désordre	NOUN
 était	être	AUX
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	PUNCT
 et	et	CCONJ
 sans	sans	ADP
 lendemain	lendemain	NOUN
@@ -91,16 +88,11 @@ accroît	accroître	VERB
 de	de	ADP
 une	un	DET
 anxiété	anxiété	NOUN
-de	de	ADP
-jour	jour	NOUN
-en	en	ADP
-jour	jour	NOUN
+de jour en jour	de jour en jour	ADP
 plus	plus	ADV
 justifiée	justifier	VERB
 ,	,	PUNCTclause
-à	à	ADP
-cause	cause	NOUN
-des	un	ADP_DET
+à cause de	à cause de	ADP
 crises	crise	NOUN
 sociales	social	ADJ
 et	et	CCONJ
@@ -186,8 +178,7 @@ qui	qui	PRON
 nous	nous	PRON
 met	mettre	VERB
 ,	,	PUNCTclause
-en	en	ADP
-question	question	NOUN
+en question	en question	NOUN
 ,	,	PUNCTclause
 ne	ne	ADV
 oublions	oublier	VERB
@@ -211,13 +202,11 @@ apparue	apparaître	VERB
 comme	comme	ADP
 une	un	DET
 réalité	réalité	NOUN
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	PUNCT
 ,	,	PUNCTclause
 à	à	ADP
 ceux	ceux	PRON
-du	du	ADP_DET
-moins	moins	ADV
+du moins	du moins	ADP_DET
 qui	qui	PRON
 osaient	oser	VERB
 la	le	DET
@@ -240,9 +229,7 @@ terribles	terrible	ADJ
 que	que	SCONJ
 les nôtres	les nôtres	PRON
 ,	,	PUNCTclause
-au	au	ADP_DET
-lendemain	lendemain	NOUN
-des	un	ADP_DET
+au lendemain de	au lendemain de	ADP_DET
 grandes	grand	ADJ
 invasions	invasion	NOUN
 ,	,	PUNCTclause
@@ -409,17 +396,14 @@ dont	dont	PRON
 la	le	DET
 presse	presse	NOUN
 ,	,	PUNCTclause
-de	de	ADP
-nos	nos	DET
-jours	jour	NOUN
+de nos jours	de nos jours	DET
 ,	,	PUNCTclause
 nous	nous	PRON
 prive	priver	VERB
 avec	avec	ADP
 acharnement	acharnement	NOUN
 .	.	PUNCTsent
-du	du	ADP_DET
-moins	moins	ADV
+du moins	du moins	ADP
 voudrait	vouloir	VERB
 on	on	PRON
 rappeler	rappeler	VERB
@@ -447,9 +431,7 @@ expression	expression	NOUN
 …	…	PUNCTsent
 oui	oui	INTJ
 ,	,	PUNCTclause
-de	de	ADP
-tout	tout	DET
-temps	temps	NOUN
+de tout temps	de tout temps	DET
 ,	,	PUNCTclause
 le	le	DET
 sort	sort	NOUN
@@ -492,9 +474,7 @@ fait	faire	VERB
 pour	pour	ADP
 vivre	vivre	VERB
 en	en	ADP
-état	état	NOUN
-de	de	ADP
-guerre	guerre	NOUN
+état de guerre	état de guerre	NOUN
 ,	,	PUNCTclause
 au	au	ADP_DET
 sens	sens	NOUN
@@ -559,11 +539,9 @@ l'	le	DET
 usage	usage	NOUN
 que	que	PRON
 l'on	on	PRON
-en	en	PRON
-fait	faire	VERB
+en fait	en fait	PUNCT
 .	.	PUNCTsent
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 poison	poison	NOUN
 ,	,	PUNCTclause
 selon	selon	ADP
@@ -709,8 +687,7 @@ aussi	aussi	ADV
 ,	,	PUNCTclause
 pourrait	pouvoir	VERB
 être	être	AUX
-sans	sans	ADP
-précédent	précédent	NOUN
+sans précédent	sans précédent	SYM
 .	.	PUNCTsent
 comme	comme	ADP
 toute	tout	ADJ
@@ -761,8 +738,7 @@ aussi	aussi	ADV
 ce	ce	PRON
 est	être	AUX
 toujours	toujours	ADV
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 drame	drame	NOUN
 que	que	SCONJ
 nous	nous	PRON
@@ -795,9 +771,7 @@ matériel	matériel	NOUN
 et	et	CCONJ
 le	le	DET
 bonheur	bonheur	NOUN
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 grand	grand	ADJ
 de	de	ADP
 la	le	DET
@@ -838,10 +812,7 @@ découvrent	découvrir	VERB
 l'	le	DET
 existence	existence	NOUN
 ,	,	PUNCTclause
-à	à	ADP
-la	le	DET
-faveur	faveur	NOUN
-de	de	ADP
+à la faveur de	à la faveur de	ADP
 ces	ce	DET
 vicissitudes	vicissitude	NOUN
 acceptées	accepter	VERB

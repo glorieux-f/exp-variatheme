@@ -115,8 +115,7 @@ au	au	ADP_DET
 sien	sien	PRON
 :	:	PUNCTclause
 car	car	CCONJ
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 sort	sort	NOUN
 paradoxal	paradoxal	ADJ
 a	avoir	AUX
@@ -151,9 +150,7 @@ sans	sans	ADP
 me	me	PRON
 concerner	concerner	VERB
 sur	sur	ADP
-plus	plus	ADV
-de	de	ADP
-un	un	DET
+plus d'une	plus d'une	DET
 point	point	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -288,8 +285,7 @@ et	et	CCONJ
 que	que	SCONJ
 le	le	DET
 temps	temps	NOUN
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 des	un	DET
 comptes	compte	NOUN
 est	être	AUX
@@ -323,9 +319,7 @@ ont	avoir	AUX
 constitué	constituer	VERB
 la	le	DET
 réserve	réserve	NOUN
-au	au	ADP_DET
-cours	cours	NOUN
-du	du	ADP_DET
+au cours de	au cours de	ADP
 dernier	dernier	ADJ
 épisode	épisode	NOUN
 ,	,	PUNCTclause
@@ -362,8 +356,7 @@ devront	devoir	VERB
 donner	donner	VERB
 »	»	PUNCTclause
 .	.	PUNCTsent
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 devoir	devoir	NOUN
 de	de	ADP
 une	un	DET
@@ -403,11 +396,7 @@ ce	ce	DET
 beau	beau	ADJ
 pays	pays	NOUN
 ,	,	PUNCTclause
-ce	ce	DET
-ne	ne	ADV
-est	être	AUX
-pas	pas	ADV
-que	que	SCONJ
+ce n'est pas que	ce n'est pas que	SCONJ
 il	il	PRON
 soit	être	AUX
 si	si	ADV
@@ -425,9 +414,8 @@ les	le	DET
 de	de	ADP
 passage	passage	NOUN
 ,	,	PUNCTclause
-un	un	DET
-peu	peu	ADV
-comme	comme	SCONJ
+un peu	un peu	PUNCT
+comme	comme	ADP
 ces	ce	DET
 paysans	paysan	NOUN
 qui	qui	PRON
@@ -532,10 +520,8 @@ que	que	SCONJ
 il	il	PRON
 ne	ne	ADV
 y	y	PRON
-a	avoir	VERB
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+a	avoir	AUX
+pas du tout	pas du tout	ADV
 de	de	ADP
 bienveillance	bienveillance	NOUN
 universelle	universel	ADJ
@@ -559,9 +545,7 @@ aux	au	ADP_DET
 gangsters	gangster	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-rien	rien	PRON
-de	de	ADP
-moins	moins	ADV
+rien de moins	rien de moins	PRON
 Suisse	Suisse	PROPN
 que	que	SCONJ
 le	le	DET
@@ -574,8 +558,7 @@ reste	reste	NOUN
 du	du	ADP_DET
 monde	monde	NOUN
 .	.	PUNCTsent
-rien	rien	PRON
-de plus	de plus	ADV
+rien de plus	rien de plus	PRON
 Suisse	Suisse	PROPN
 que	que	SCONJ
 le	le	DET
@@ -647,8 +630,7 @@ Suisse	Suisse	PROPN
 découvrent	découvrir	VERB
 que	que	SCONJ
 pécher	pécher	VERB
-par	par	ADP
-défaut	défaut	NOUN
+par défaut	par défaut	ADV
 ,	,	PUNCTclause
 dans	dans	ADP
 ce	ce	DET
@@ -813,8 +795,7 @@ voilà	voilà	ADP
 qui	qui	PRON
 étonne	étonner	VERB
 encore	encore	ADV
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	PUNCT
 braves	brave	ADJ
 gens	gens	NOUN
 ,	,	PUNCTclause
@@ -981,10 +962,8 @@ fonctionne	fonctionner	VERB
 on	on	PRON
 nous	nous	PRON
 promet	promettre	VERB
-un	un	DET
-peu	peu	ADV
-plus	plus	ADV
-de	de	ADP
+un peu	un peu	PUNCT
+plus de	plus de	DET
 charbon	charbon	NOUN
 pour	pour	ADP
 cet	ce	DET
@@ -1040,8 +1019,7 @@ discute	discuter	VERB
 solennellement	solennellement	ADV
 leurs	leur	DET
 clauses	clause	NOUN
-comme	comme	SCONJ
-si	si	SCONJ
+comme si	comme si	PUNCT
 ils	ils	PRON
 gardaient	garder	VERB
 quelque	quelque	DET
@@ -1145,12 +1123,11 @@ une	un	DET
 époque	époque	NOUN
 qui	qui	PRON
 semble	sembler	VERB
-avoir	avoir	VERB
-peur	peur	NOUN
-que	que	SCONJ
+avoir peur	avoir peur	ADP
+que	que	PRON
 on	on	PRON
-la	le	DET
-voie	voie	NOUN
+la	le_PRON	PRON
+voie	voir	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il	il	PRON
@@ -1177,10 +1154,7 @@ beaucoup de	beaucoup de	DET
 pays	pays	NOUN
 ,	,	PUNCTclause
 parfois	parfois	ADV
-à	à	ADP
-la	le	DET
-faveur	faveur	NOUN
-de	de	ADP
+à la faveur de	à la faveur de	ADP
 la	le	DET
 détresse	détresse	NOUN
 des	un	ADP_DET
@@ -1191,10 +1165,7 @@ déportées	déporter	VERB
 ,	,	PUNCTclause
 parfois	parfois	ADV
 aussi	aussi	ADV
-à	à	ADP
-la	le	DET
-faveur	faveur	NOUN
-de	de	ADP
+à la faveur de	à la faveur de	ADP
 un	un	DET
 acte	acte	NOUN
 de	de	ADP
@@ -1276,9 +1247,7 @@ faire	faire	AUX
 tuer	tuer	VERB
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-dans	dans	ADP
-ce	ce	DET
-cas	cas	NOUN
+dans ce cas	dans ce cas	DET
 précis	précis	ADJ
 désintégrer	désintégrer	VERB
 ,	,	PUNCTclause
@@ -1368,10 +1337,7 @@ de	de	ADP
 demain	demain	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
-il	il	PRON
-y	y	PRON
-en	en	PRON
-a	avoir	VERB
+il y en a	il y en a	PRON
 ,	,	PUNCTclause
 seront	être	AUX
 maintenues	maintenir	VERB

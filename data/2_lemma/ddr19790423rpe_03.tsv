@@ -114,16 +114,14 @@ aux	au	ADP_DET
 hommes	homme	NOUN
 de	de	ADP
 aujourd'hui	aujourd'hui	ADV
-autant	autant	ADV
-de	de	ADP
+autant de	autant de	PUNCT
 stress	stress	NOUN
-que	que	ADV
+que	que	PRON
 de	de	ADP
 mieux-être	mieux-être	NOUN
 ,	,	PUNCTclause
 voire	voire	CCONJ
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 plus	plus	ADV
 et	et	CCONJ
 même	même	ADV
@@ -242,9 +240,7 @@ l'	le	DET
 comme	comme	ADP
 science	science	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-dernière	dernier	ADJ
-analyse	analyse	NOUN
+en dernière analyse	en dernière analyse	DET
 ,	,	PUNCTclause
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -522,8 +518,7 @@ vie	vie	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 ,	,	PUNCTclause
 la plupart	la plupart	PRON
 des	un	ADP_DET
@@ -643,10 +638,7 @@ travail	travail	NOUN
 ont	avoir	AUX
 empiré	empirer	VERB
 dans	dans	ADP
-un	un	DET
-grand	grand	ADJ
-nombre	nombre	NOUN
-de	de	ADP
+un grand nombre de	un grand nombre de	DET
 industries	industrie	NOUN
 :	:	PUNCTclause
 accidents	accident	NOUN
@@ -703,8 +695,7 @@ théoriquement	théoriquement	ADV
 ,	,	PUNCTclause
 sont	être	AUX
 limitées	limiter	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 par	par	ADP
 les	le	DET
 exigences	exigence	NOUN
@@ -748,8 +739,7 @@ préjugés	préjugé	NOUN
 ,	,	PUNCTclause
 aux dépens de	aux dépens de	ADP
 l'	le	DET
-esprit	esprit	NOUN
-critique	critique	ADJ
+esprit critique	esprit critique	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -771,9 +761,7 @@ population	population	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 pose	poser	VERB
-à	à	ADP
-ce	ce	DET
-titre	titre	NOUN
+à ce titre	à ce titre	ADP
 un	un	DET
 des	un	ADP_DET
 problèmes	problème	NOUN
@@ -921,8 +909,7 @@ que	que	SCONJ
 le	le	DET
 tabac	tabac	NOUN
 fait	faire	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 morts	mort	NOUN
 que	que	SCONJ
 l'	le	DET
@@ -966,8 +953,7 @@ tabagiques	tabagique	ADJ
 se	se	PRON
 élèvent	élever	VERB
 à	à	ADP
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 plus	plus	ADV
 du	du	ADP_DET
 double	double	NOUN
@@ -1091,8 +1077,7 @@ a	avoir	AUX
 produit	produire	VERB
 autant	autant	ADV
 ou	ou	CCONJ
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 misère	misère	NOUN
 pour	pour	ADP
 un	un	DET
@@ -1149,8 +1134,7 @@ Public	Public	PROPN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 c'est-à-dire	c'est-à-dire	CCONJ
-en	en	ADP
-fait	faire	VERB
+en fait	en fait	PUNCT
 l'	le	DET
 opinion	opinion	NOUN
 créée	créer	VERB
@@ -1165,9 +1149,7 @@ ont	avoir	AUX
 été	être	AUX
 d'accord	d'accord	ADV
 ,	,	PUNCTclause
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 trente	trente	NUM
 dernières	dernier	ADJ
 années	année	NOUN
@@ -1263,8 +1245,7 @@ urbanisation	urbanisation	NOUN
 chaotique	chaotique	ADJ
 ;	;	PUNCTclause
 les	le	DET
-services	service	NOUN
-publics	public	ADJ
+service public	service public	NOUN
 (	(	PUNCTclause
 transports	transport	NOUN
 ,	,	PUNCTclause
@@ -1384,10 +1365,7 @@ les	le	DET
 réactions	réaction	NOUN
 de	de	ADP
 rejet	rejet	NOUN
-à	à	ADP
-l'	le	DET
-égard	égard	NOUN
-des	un	ADP_DET
+à l'égard de	à l'égard de	ADP
 groupes	groupe	NOUN
 marginaux	marginal	ADJ
 ou	ou	CCONJ
@@ -1536,8 +1514,7 @@ le	le_PRON	PRON
 poussent	pousser	VERB
 vers	vers	ADP
 toujours	toujours	ADV
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 consommation	consommation	NOUN
 ,	,	PUNCTclause
 de	de	ADP
@@ -1821,9 +1798,7 @@ son	son	DET
 plus	plus	ADV
 grand	grand	ADJ
 essor	essor	NOUN
-à	à	ADP
-partir	partir	VERB
-des	un	ADP_DET
+à partir de	à partir de	ADP
 années	année	NOUN
 1880	1880	NUM
 ,	,	PUNCTclause
@@ -1849,11 +1824,8 @@ seconde	second	ADJ
 guerre mondiale	guerre mondiale	NOUN
 fut	être	AUX
 achevée	achever	VERB
-pour	pour	ADP
-l'	le	DET
-essentiel	essentiel	ADJ
-autour	autour	NOUN
-des	un	ADP_DET
+pour l'essentiel	pour l'essentiel	ADP
+autour de	autour de	ADP
 années	année	NOUN
 1960	1960	NUM
 ,	,	PUNCTclause
@@ -1874,8 +1846,7 @@ le	le	DET
 Portugal	Portugal	PROPN
 devait	devoir	VERB
 suivre	suivre	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 plus tard	plus tard	ADV
 :	:	PUNCTclause
 Mozambique	Mozambique	PROPN
@@ -1980,8 +1951,7 @@ Europe	Europe	PROPN
 devait	devoir	VERB
 naturellement	naturellement	ADV
 accéder	accéder	VERB
-la	le	DET
-première	premier	ADJ
+la première	la première	PUNCT
 au	au	ADP_DET
 stade	stade	NOUN
 de	de	ADP
@@ -2179,8 +2149,7 @@ raisonnable	raisonnable	ADJ
 ou	ou	CCONJ
 une	un	DET
 fuite	fuite	NOUN
-en	en	ADP
-avant	avant	NOUN
+en avant	en avant	ADV
 vers	vers	ADP
 le	le	DET
 suicide	suicide	NOUN
@@ -2304,9 +2273,7 @@ un	un	DET
 état	état	NOUN
 fût	être	AUX
 ce	ce	DET
-au	au	ADP_DET
-mépris	mépris	NOUN
-de	de	ADP
+au mépris de	au mépris de	SCONJ
 toute	toute	DET
 autre	autre	ADJ
 «	«	PUNCTclause
@@ -2442,8 +2409,7 @@ devenue	devenir	VERB
 populaire	populaire	ADJ
 —	—	PUNCTclause
 plus	plus	ADV
-encore	encore	ADV
-que	que	ADV
+encore que	encore que	ADV
 capitaliste	capitaliste	NOUN
 ou	ou	CCONJ
 Marx	Marx	PROPN
@@ -2480,9 +2446,7 @@ soient	être	AUX
 présentées	présenter	VERB
 comme	comme	ADP
 rentables	rentable	ADJ
-à	à	ADP
-court	court	ADJ
-terme	terme	NOUN
+à court terme	à court terme	PUNCT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -2532,9 +2496,7 @@ complices	complice	ADJ
 on	on	PRON
 connaît	connaître	VERB
 l'	le	DET
-ordre	ordre	NOUN
-de	de	ADP
-grandeur	grandeur	NOUN
+ordre de grandeur	ordre de grandeur	NOUN
 des	un	ADP_DET
 taux	taux	NOUN
 de	de	ADP
@@ -2603,10 +2565,8 @@ non	non	ADV
 satisfaites	satisfaire	VERB
 dans	dans	ADP
 les	le	DET
-neuf	neuf	NOUN
-à	à	ADP
-la	le	DET
-fin	fin	NOUN
+Neuf	Neuf	PROPN
+à la fin	à la fin	ADV
 de	de	ADP
 1978	1978	NUM
 ,	,	PUNCTclause
@@ -2626,8 +2586,7 @@ chômage	chômage	NOUN
 actuel	actuel	ADJ
 est	être	AUX
 dû	devoir	VERB
-en	en	ADP
-partie	partie	NOUN
+en partie	en partie	PUNCT
 à	à	ADP
 l'	le	DET
 automation	automation	NOUN
@@ -2646,8 +2605,7 @@ machine	machine	NOUN
 l'	le	DET
 ouvrier	ouvrier	NOUN
 ;	;	PUNCTclause
-en	en	ADP
-partie	partie	NOUN
+en partie	en partie	NOUN
 aux	au	ADP_DET
 énormes	énorme	ADJ
 investissements	investissement	NOUN
@@ -2666,8 +2624,7 @@ que	que	SCONJ
 le	le	DET
 travail	travail	NOUN
 ;	;	PUNCTclause
-en	en	ADP
-partie	partie	NOUN
+en partie	en partie	NOUN
 au	au	ADP_DET
 transfert	transfert	NOUN
 (	(	PUNCTclause
@@ -2858,8 +2815,7 @@ postes	poste	NOUN
 emplois	emploi	NOUN
 sont	être	AUX
 mis	mettre	VERB
-en	en	ADP
-cause	cause	NOUN
+en cause	en cause	PUNCT
 par	par	ADP
 l'	le	DET
 invention	invention	NOUN
@@ -2988,8 +2944,7 @@ réelles	réel	ADJ
 mais	mais	CCONJ
 qui	qui	PRON
 procèdent	procéder	VERB
-sans	sans	ADP
-relâche	relâche	NOUN
+sans relâche	sans relâche	ADP
 à	à	ADP
 la	le	DET
 condamnation	condamnation	NOUN
@@ -3147,27 +3102,21 @@ de	de	ADP
 la	le	DET
 crise	crise	NOUN
 :	:	PUNCTclause
-au	au	ADP_DET
-bout	bout	NOUN
-des	un	ADP_DET
+au bout de	au bout de	ADP
 périodes	période	NOUN
 de	de	ADP
 contrôle	contrôle	NOUN
 il y a	il y a	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 chômage	chômage	NOUN
 ,	,	PUNCTclause
-au	au	ADP_DET
-bout	bout	NOUN
-des	un	ADP_DET
+au bout de	au bout de	ADP
 périodes	période	NOUN
 de	de	ADP
 relance	relance	NOUN
 ,	,	PUNCTclause
 il y a	il y a	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 inflation	inflation	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
@@ -3201,9 +3150,7 @@ technologie	technologie	NOUN
 ne	ne	ADV
 était	être	AUX
 plus	plus	ADV
-en	en	ADP
-mesure	mesure	NOUN
-de	de	ADP
+en mesure de	en mesure de	ADP
 se	se	PRON
 développer	développer	VERB
 à	à	ADP
@@ -3272,9 +3219,7 @@ la	le	DET
 distribution	distribution	NOUN
 des	un	ADP_DET
 revenus	revenu	NOUN
-en	en	ADP
-faveur	faveur	NOUN
-du	du	ADP_DET
+en faveur de	en faveur de	ADV
 travail	travail	NOUN
 et	et	CCONJ
 a	avoir	AUX
@@ -3357,9 +3302,7 @@ que	que	SCONJ
 nos	nos	DET
 états	état	NOUN
 soient	être	AUX
-en	en	ADP
-mesure	mesure	NOUN
-de	de	ADP
+en mesure de	en mesure de	ADP
 la	le	DET
 maîtriser	maîtriser	VERB
 chacun	chacun	PRON
@@ -3383,9 +3326,7 @@ voir	voir	VERB
 de	de	ADP
 une	un	DET
 manière	manière	NOUN
-tant	tant	ADV
-soit	être	AUX
-peu	peu	ADV
+tant soit peu	tant soit peu	ADV
 convaincante	convaincant	ADJ
 comment	comment	ADV
 sortir	sortir	VERB
@@ -3500,9 +3441,8 @@ nucléaires	nucléaire	ADJ
 —	—	PUNCTclause
 de	de	ADP
 y	y	PRON
-mettre	mettre	VERB
-fin	fin	NOUN
-soit	soit	CCONJ
+mettre fin	mettre fin	PUNCT
+soit	soit	ADV
 par	par	ADP
 l'	le	DET
 asservissement	asservissement	NOUN
@@ -3522,11 +3462,9 @@ qui	qui	PRON
 se	se	PRON
 trouvent	trouver	VERB
 être	être	AUX
-les	le	DET
-mêmes	même	ADJ
+les mêmes	les mêmes	DET
 ,	,	PUNCTclause
-à	à	ADP
-savoir	savoir	VERB
+à savoir	à savoir	ADP
 nous	nous	PRON
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -3741,9 +3679,7 @@ les	le_PRON	PRON
 ont	avoir	AUX
 abordés	aborder	VERB
 en effet	en effet	ADV
-au	au	ADP_DET
-nom	nom	NOUN
-des	un	ADP_DET
+au nom de	au nom de	ADP
 mêmes	même	ADJ
 principes	principe	NOUN
 de	de	ADP
@@ -3752,8 +3688,7 @@ illimitée	illimité	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 dans	dans	ADP
-le	le	DET
-même	même	ADJ
+les mêmes	les mêmes	DET
 cadre	cadre	NOUN
 national	national	ADJ
 où	où	PRON
@@ -3891,14 +3826,12 @@ la	le	DET
 vie	vie	NOUN
 »	»	PUNCTclause
 est	être	AUX
-en	en	ADP
-fait	faire	VERB
+en fait	en fait	SYM
 une	un	DET
 politique	politique	NOUN
 qui	qui	PRON
 décentralise	décentraliser	VERB
-au	au	ADP_DET
-maximum	maximum	NOUN
+au maximum	au maximum	PUNCT
 les	le	DET
 pouvoirs	pouvoir	NOUN
 réels	réel	ADJ
@@ -4304,8 +4237,7 @@ possibilités	possibilité	NOUN
 motivantes	motivant	ADJ
 .	.	PUNCTsent
 —	—	PUNCTclause
-jusque	jusque	ADP
-à présent	à présent	ADV
+jusqu'à présent	jusqu'à présent	PUNCT
 on	on	PRON
 peut	pouvoir	VERB
 dire	dire	VERB
@@ -4408,8 +4340,7 @@ entend	entendre	VERB
 subordonner	subordonner	VERB
 l'	le	DET
 économie	économie	NOUN
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 au	au	ADP_DET
 profit	profit	NOUN
 mais	mais	CCONJ
@@ -4488,8 +4419,7 @@ ce	ce	DET
 projet	projet	NOUN
 ,	,	PUNCTclause
 étendu	étendre	VERB
-sur le plan	sur le plan	ADP
-de	de	ADP
+sur le plan de	sur le plan de	ADP
 la	le	DET
 recherche	recherche	NOUN
 fondamentale	fondamental	ADJ
@@ -4558,9 +4488,8 @@ et	et	CCONJ
 de	de	ADP
 substitution	substitution	NOUN
 généralisée	généraliser	VERB
-des	un	ADP_DET
-services	service	NOUN
-publics	public	ADJ
+des	un	DET
+service public	service public	NOUN
 aux	au	ADP_DET
 autos	auto	NOUN
 privées	privé	ADJ
@@ -4631,8 +4560,7 @@ main	main	NOUN
 ne	ne	ADV
 aboutisse	aboutir	VERB
 à la fois	à la fois	ADV
-au	au	ADP_DET
-chômage	chômage	NOUN
+au chômage	au chômage	PUNCT
 et	et	CCONJ
 à	à	ADP
 l'	le	DET
@@ -4684,8 +4612,7 @@ des	un	DET
 menaces	menace	NOUN
 sérieuses	sérieux	ADJ
 mettent	mettre	VERB
-en	en	ADP
-danger	danger	NOUN
+en danger	en danger	ADP
 l'	le	DET
 avenir	avenir	NOUN
 de	de	ADP
@@ -4847,8 +4774,7 @@ suffisantes	suffisant	ADJ
 une	un	DET
 fois	fois	NOUN
 atteintes	atteint	ADJ
-par	par	ADP
-chance	chance	NOUN
+par chance	par chance	PUNCT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 de	de	ADP
@@ -4906,9 +4832,8 @@ avenir	avenir	NOUN
 il	il	PRON
 ne	ne	ADV
 a	avoir	VERB
-plus	plus	ADV
-de	de	ADP
-pouvoir	pouvoir	VERB
+plus de	plus de	DET
+pouvoir	pouvoir	NOUN
 sur	sur	ADP
 eux	eux	PRON
 .	.	PUNCTsent
@@ -5256,9 +5181,7 @@ suivantes	suivant	ADJ
 —	—	PUNCTclause
 raccourcir	raccourcir	VERB
 le	le	DET
-temps	temps	NOUN
-de	de	ADP
-travail	travail	NOUN
+temps de travail	temps de travail	NOUN
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 —	—	PUNCTclause
@@ -5281,8 +5204,7 @@ loisirs	loisir	NOUN
 ,	,	PUNCTclause
 ou	ou	CCONJ
 le	le	DET
-temps	temps	NOUN
-libre	libre	ADJ
+temps libre	temps libre	NOUN
 pour	pour	ADP
 d'autres	d'autre	PRON
 activités	activité	NOUN
@@ -5611,8 +5533,7 @@ urgence	urgence	NOUN
 il	il	PRON
 est	être	AUX
 temps	temps	NOUN
-de	de	ADP
-mettre	mettre	VERB
+de mise	de mise	ADP
 l'	le	DET
 économie	économie	NOUN
 au	au	ADP_DET
@@ -5625,8 +5546,7 @@ notre	notre	DET
 société	société	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 de	de	ADP
 prétendus	prétendre	VERB
 «	«	PUNCTclause
@@ -5639,9 +5559,7 @@ de	de	ADP
 le	le	DET
 faire	faire	AUX
 «	«	PUNCTclause
-pour	pour	ADP
-le	le	DET
-moment	moment	NOUN
+pour le moment	pour le moment	SYM
 »	»	PUNCTclause
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -5716,8 +5634,7 @@ potentiellement	potentiellement	ADV
 et	et	CCONJ
 sont	être	AUX
 ,	,	PUNCTclause
-au	au	ADP_DET
-mieux	mieux	ADV
+au mieux	au mieux	SYM
 ,	,	PUNCTclause
 de	de	ADP
 utilisation	utilisation	NOUN
@@ -5885,25 +5802,20 @@ dont	dont	PRON
 l'	le	DET
 unification	unification	NOUN
 prendrait	prendre	VERB
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	ADP
 temps	temps	NOUN
 ,	,	PUNCTclause
 demanderait	demander	VERB
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	ADP
 énergie	énergie	NOUN
 et	et	CCONJ
 soulèverait	soulever	VERB
-trop	trop	ADV
-de	de	ADP
+trop de	trop de	ADP
 opposition	opposition	NOUN
 .	.	PUNCTsent
 »	»	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-si	si	SCONJ
-l'on	on	PRON
-veut	vouloir	VERB
+si l'on veut	si l'on veut	PUNCT
 vraiment	vraiment	ADV
 unir	unir	VERB
 l'	le	DET

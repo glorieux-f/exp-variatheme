@@ -44,19 +44,16 @@ et	et	CCONJ
 symbolique	symbolique	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au	au	ADP_DET
-cours	cours	NOUN
-des	un	ADP_DET
+au cours de	au cours de	ADP
 derniers	dernier	ADJ
 mois	mois	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 semble	sembler	VERB
-bien	bien	ADV
-que	que	SCONJ
+bien que	bien que	SCONJ
 nous	nous	PRON
-l'	le	DET
-ayions	ayions	NOUN
+l'	le_PRON	PRON
+ayions	ayions	AUX
 redécouverte	redécouverte	NOUN
 .	.	PUNCTsent
 Liehburg	Liehburg	PROPN
@@ -128,8 +125,7 @@ perdu	perdre	VERB
 de	de	ADP
 son	son	DET
 importance	importance	NOUN
-par suite	par suite	ADV
-des	un	DET
+par suite de	par suite de	ADP
 très	très	ADV
 profondes	profond	ADJ
 transformations	transformation	NOUN
@@ -289,8 +285,7 @@ ce	ce	PRON
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 le	le	DET
 «	«	PUNCTclause
 soldat	soldat	NOUN
@@ -311,8 +306,7 @@ et	et	CCONJ
 qui	qui	PRON
 ne	ne	ADV
 est	être	AUX
-rien	rien	PRON
-que	que	SCONJ
+rien que	rien que	PRON
 un	un	DET
 rouage	rouage	NOUN
 de	de	ADP
@@ -716,9 +710,7 @@ mission	mission	NOUN
 qui	qui	PRON
 est	être	AUX
 notre	notre	DET
-raison	raison	NOUN
-de	de	ADP
-être	être	NOUN
+raison d'être	raison d'être	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 à	à	ADP
@@ -823,8 +815,7 @@ la	le	DET
 force	force	NOUN
 militaire	militaire	ADJ
 .	.	PUNCTsent
-par là	par là	ADV
-même	même	ADV
+par là même	par là même	ADV
 ,	,	PUNCTclause
 elle	elle	PRON
 se	se	PRON
@@ -892,9 +883,7 @@ la	le	DET
 conscience	conscience	NOUN
 impérieuse	impérieux	ADJ
 des	un	ADP_DET
-raisons	raison	NOUN
-de	de	ADP
-être	être	NOUN
+raison d'être	raison d'être	NOUN
 de	de	ADP
 la	le	DET
 Suisse	Suisse	PROPN
@@ -918,8 +907,7 @@ même	même	ADJ
 .	.	PUNCTsent
 je	je	PRON
 vois	voir	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 partout	partout	ADV
 des	un	DET
 signes	signe	NOUN
@@ -931,8 +919,7 @@ en	en	PRON
 ai	avoir	AUX
 relevé	relever	VERB
 trois	trois	NUM
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	NOUN
 de	de	ADP
 cet	ce	DET
 article	article	NOUN
@@ -950,10 +937,7 @@ et	et	CCONJ
 assez	assez	ADV
 neufs	neuf	ADJ
 .	.	PUNCTsent
-il	il	PRON
-y	y	PRON
-en	en	PRON
-a	avoir	AUX
+il y en a	il y en a	PRON
 d'autres	d'autre	PRON
 ,	,	PUNCTclause
 très	très	ADV
@@ -1138,10 +1122,7 @@ cela	cela	PRON
 et	et	CCONJ
 le	le	DET
 devenir	devenir	NOUN
-de	de	ADP
-mieux	mieux	ADV
-en	en	ADP
-mieux	mieux	ADV
+de mieux en mieux	de mieux en mieux	ADP_DET
 ,	,	PUNCTclause
 que	que	SCONJ
 nous	nous	PRON
@@ -1172,9 +1153,7 @@ totalitaire	totalitaire	ADJ
 ,	,	PUNCTclause
 nous	nous	PRON
 essayons	essayer	VERB
-plus	plus	ADV
-ou	ou	CCONJ
-moins	moins	ADV
+plus ou moins	plus ou moins	ADV
 sérieusement	sérieusement	ADV
 de	de	ADP
 devenir	devenir	VERB
@@ -1197,9 +1176,7 @@ car	car	CCONJ
 nous	nous	PRON
 perdrons	perdre	VERB
 notre	notre	DET
-raison	raison	NOUN
-de	de	ADP
-être	être	NOUN
+raison d'être	raison d'être	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
 il	il	PRON
@@ -1218,13 +1195,10 @@ qui	qui	PRON
 a	avoir	AUX
 perdu	perdre	VERB
 sa	son	DET
-raison	raison	NOUN
-de	de	ADP
-être	être	AUX
+raison d'être	raison d'être	NOUN
 y	y	PRON
 survive	survivre	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 quelques	quelque	DET
 années	année	NOUN
 .	.	PUNCTsent
@@ -1410,8 +1384,7 @@ pays	pays	NOUN
 pour	pour	ADP
 la	le	DET
 perfectionner	perfectionner	VERB
-au	au	ADP_DET
-maximum	maximum	NOUN
+au maximum	au maximum	PUNCT
 .	.	PUNCTsent
 ce	ce	PRON
 qui	qui	PRON
@@ -1476,11 +1449,8 @@ rester	rester	VERB
 et	et	CCONJ
 de	de	ADP
 devenir	devenir	VERB
-de	de	ADP
-mieux	mieux	ADV
-en	en	ADP
-mieux	mieux	ADV
-le	le_PRON	PRON
+de mieux en mieux	de mieux en mieux	ADP
+le	le	DET
 seul	seul	ADJ
 espoir	espoir	NOUN
 de	de	ADP

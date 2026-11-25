@@ -87,11 +87,9 @@ traduit	traduire	VERB
 au contraire	au contraire	ADV
 un	un	DET
 effort	effort	NOUN
-tout	tout	ADJ
-à	à	ADP
-fait	fait	NOUN
+tout à fait	tout à fait	ADJ
 «	«	PUNCTclause
-personnel	personnel	NOUN
+personnel	personnel	ADJ
 »	»	PUNCTclause
 pour	pour	ADP
 exprimer	exprimer	VERB
@@ -225,16 +223,12 @@ idéalisme	idéalisme	NOUN
 .	.	PUNCTsent
 )	)	PUNCTclause
 pour que	pour que	SCONJ
-il	il	PRON
-y	y	PRON
-ait	avoir	VERB
+il y a	il y a	VERB
 une	un	DET
 réalité	réalité	NOUN
 ,	,	PUNCTclause
 pour que	pour que	SCONJ
-il	il	PRON
-y	y	PRON
-ait	avoir	AUX
+il y a	il y a	VERB
 quelque chose	quelque chose	PRON
 de	de	ADP
 concret	concret	ADJ
@@ -530,8 +524,7 @@ inconnue	inconnue	NOUN
 ?	?	PUNCTsent
 examinons	examiner	VERB
 de	de	ADP
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 plus	plus	ADV
 près	près	ADV
 les	le	DET
@@ -584,8 +577,7 @@ réunit	réunir	VERB
 les	le	DET
 confonde	confondre	VERB
 :	:	PUNCTclause
-tout	tout	PRON
-au contraire	au contraire	ADV
+tout au contraire	tout au contraire	NOUN
 ,	,	PUNCTclause
 il	il	PRON
 les	le_PRON	PRON
@@ -620,8 +612,7 @@ lorsque	lorsque	SCONJ
 il	il	PRON
 est	être	AUX
 mis	mettre	VERB
-en présence	en présence	ADV
-du	du	ADP_DET
+en présence de	en présence de	ADP
 sujet	sujet	NOUN
 ne	ne	ADV
 est	être	AUX
@@ -713,8 +704,7 @@ sujet	sujet	NOUN
 détient	détenir	VERB
 une	un	DET
 primauté	primauté	NOUN
-de	de	ADP
-fait	fait	NOUN
+de fait	de fait	PUNCT
 .	.	PUNCTsent
 il	il	PRON
 peut	pouvoir	VERB
@@ -1035,9 +1025,7 @@ que	que	SCONJ
 il	il	PRON
 agit	agir	VERB
 .	.	PUNCTsent
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 ils	ils	PRON
 se	se	PRON
 trompent	tromper	VERB
@@ -1153,8 +1141,7 @@ en tant que	en tant que	CCONJ
 homme	homme	NOUN
 ,	,	PUNCTclause
 est	être	AUX
-à	à	ADP
-jamais	jamais	ADV
+à jamais	à jamais	DET
 incalculable	incalculable	ADJ
 ,	,	PUNCTclause
 si	si	SCONJ
@@ -1195,9 +1182,7 @@ résoudre	résoudre	VERB
 à	à	ADP
 distance	distance	NOUN
 ;	;	PUNCTclause
-en	en	ADP
-un	un	DET
-mot	mot	NOUN
+en un mot	en un mot	NOUN
 ,	,	PUNCTclause
 si	si	SCONJ
 l'	le	DET
@@ -1277,9 +1262,7 @@ de	de	ADP
 l'	le	DET
 inhumain	inhumain	ADJ
 (	(	PUNCTclause
-à	à	ADP
-la	le	DET
-limite	limite	NOUN
+à la limite	à la limite	ADJ
 )	)	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -1448,8 +1431,7 @@ objet	objet	NOUN
 »	»	PUNCTclause
 ,	,	PUNCTclause
 et	et	CCONJ
-par là	par là	ADV
-même	même	ADV
+par là même	par là même	ADP
 le	le	DET
 déshumanise	déshumaniser	VERB
 .	.	PUNCTsent
@@ -1462,16 +1444,13 @@ un	un	DET
 problème	problème	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
-pour	pour	ADP
-autant	autant	ADV
+pour autant	pour autant	PUNCT
 elle	elle	PRON
 est	être	AUX
 bien	bien	ADV
 obligée	obliger	VERB
 de	de	ADP
-prendre	prendre	VERB
-du	du	ADP_DET
-recul	recul	NOUN
+prendre du recul	prendre du recul	NOUN
 par rapport à	par rapport à	ADP
 l'	le	DET
 homme	homme	NOUN
@@ -1559,9 +1538,7 @@ l'	le	DET
 entendement	entendement	NOUN
 .	.	PUNCTsent
 et	et	CCONJ
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 rien	rien	PRON
 ne	ne	ADV
 peut	pouvoir	VERB
@@ -1743,10 +1720,7 @@ ils	ils	PRON
 représentent	représenter	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-à	à	ADP
-la	le	DET
-faveur	faveur	NOUN
-de	de	ADP
+à la faveur de	à la faveur de	ADP
 cette	ce	DET
 image	image	NOUN
 ,	,	PUNCTclause
@@ -1864,8 +1838,7 @@ leur	leur	PRON
 répond	répondre	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
-la	le	DET
-même	même	ADJ
+la même	la même	DET
 raison	raison	NOUN
 qui	qui	PRON
 fait	faire	VERB
@@ -1955,9 +1928,8 @@ placer	placer	VERB
 ainsi	ainsi	ADV
 donc	donc	ADV
 ,	,	PUNCTclause
-encore	encore	ADV
-que	que	SCONJ
-ce	ce	DET
+encore que	encore que	SCONJ
+ce	ce	PRON
 drame	drame	NOUN
 puisse	pouvoir	VERB
 être	être	AUX
@@ -2000,9 +1972,7 @@ pas	pas	ADV
 la	le	DET
 vie	vie	NOUN
 .	.	PUNCTsent
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 le	le	DET
 drame	drame	NOUN
 est	être	AUX
@@ -2044,25 +2014,21 @@ jouer	jouer	VERB
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 mais	mais	CCONJ
-cela	cela	PRON
-dit	dire	VERB
+cela dit	cela dit	PRON
 ,	,	PUNCTclause
 il	il	PRON
 reste	rester	VERB
-à	à	ADP
-savoir	savoir	VERB
+à savoir	à savoir	ADP
 pourquoi	pourquoi	ADV
-tel	tel	DET
-figurant	figurant	NOUN
+tel	tel	PRON
+figurant	figurer	VERB
 jeté	jeter	VERB
 dans	dans	ADP
 une	un	DET
 intrigue	intrigue	NOUN
 insaisissable	insaisissable	ADJ
 devient	devenir	VERB
-tout	tout	ADV
-à	à	ADP
-coup	coup	NOUN
+tout à coup	tout à coup	ADV
 un	un	DET
 acteur	acteur	NOUN
 ,	,	PUNCTclause
@@ -2072,8 +2038,7 @@ met	mettre	VERB
 à	à	ADP
 se	se	PRON
 comporter	comporter	VERB
-tout	tout	ADV
-comme	comme	SCONJ
+tout comme	tout comme	ADV
 si	si	SCONJ
 il	il	PRON
 connaissait	connaître	VERB
@@ -2086,9 +2051,7 @@ de	de	ADP
 où	où	PRON
 lui	lui	PRON
 vient	venir	VERB
-tout	tout	ADV
-à	à	ADP
-coup	coup	NOUN
+tout à coup	tout à coup	ADV
 l'	le	DET
 assurance	assurance	NOUN
 que	que	PRON
@@ -2160,10 +2123,9 @@ que	que	SCONJ
 il	il	PRON
 existe	exister	VERB
 ,	,	PUNCTclause
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	DET
 ,	,	PUNCTclause
-des	un	DET
+des	un	ADP_DET
 personnes	personne	NOUN
 ;	;	PUNCTclause
 cependant que	cependant que	SCONJ
@@ -2254,10 +2216,7 @@ acte	acte	NOUN
 ,	,	PUNCTclause
 personne	personne	NOUN
 .	.	PUNCTsent
-à	à	ADP
-tel	tel	DET
-point	point	NOUN
-que	que	SCONJ
+à tel point que	à tel point que	SCONJ
 la	le	DET
 vraie	vrai	ADJ
 définition	définition	NOUN
@@ -2326,8 +2285,7 @@ font	faire	VERB
 figure	figurer	VERB
 de	de	ADP
 coups	coup	NOUN
-de	de	ADP
-force	force	NOUN
+de force	de force	ADP
 contre	contre	ADP
 toute	toute	DET
 raison	raison	NOUN
@@ -2729,9 +2687,7 @@ l'	le	DET
 éternel	éternel	ADJ
 ne	ne	ADV
 touche	toucher	VERB
-le	le	DET
-temps	temps	NOUN
-que	que	ADV
+le temps que	le temps que	DET
 par	par	ADP
 l'	le	DET
 individu	individu	NOUN
@@ -2858,10 +2814,7 @@ dans	dans	ADP
 le	le	DET
 temps	temps	NOUN
 ,	,	PUNCTclause
-par	par	ADP
-le	le	DET
-moyen	moyen	NOUN
-de	de	ADP
+par le moyen de	par le moyen de	ADP
 l'	le	DET
 homme	homme	NOUN
 ,	,	PUNCTclause
@@ -3110,9 +3063,7 @@ assujetti	assujettir	VERB
 notre	notre	DET
 action	action	NOUN
 .	.	PUNCTsent
-ce	ce	PRON
-est	être	AUX
-pourquoi	pourquoi	ADV
+c'est pourquoi	c'est pourquoi	PRON
 la plupart de	la plupart de	DET
 nos	nos	DET
 gestes	geste	NOUN
@@ -3215,9 +3166,8 @@ neutres	neutre	ADJ
 et	et	CCONJ
 en	en	ADP
 objets	objet	NOUN
-d'autant	d'autant	ADV
-moins	moins	ADV
-résistants	résistant	ADJ
+d'autant moins	d'autant moins	ADP
+résistants	résistant	NOUN
 que	que	SCONJ
 ils	ils	PRON
 ont	avoir	AUX
@@ -3729,10 +3679,8 @@ social	social	ADJ
 en	en	ADP
 individus	individu	NOUN
 libres	libre	ADJ
-au	au	ADP_DET
-terme	terme	NOUN
-de	de	ADP
-une	un	DET
+au terme de	au terme de	ADP_DET
+une	un	PRON
 évolution	évolution	NOUN
 scientifique	scientifique	ADJ
 et	et	CCONJ
@@ -3756,10 +3704,7 @@ scepticisme	scepticisme	NOUN
 :	:	PUNCTclause
 elle	elle	PRON
 renverse	renverser	VERB
-de	de	ADP
-fond	fond	NOUN
-en	en	ADP
-comble	comble	NOUN
+de fond en comble	de fond en comble	ADP
 l'	le	DET
 ordre	ordre	NOUN
 des	un	ADP_DET
@@ -3983,14 +3928,12 @@ pas	pas	ADV
 contenir	contenir	VERB
 une	un	DET
 revendication	revendication	NOUN
-de	de	ADP
-droit	droit	NOUN
+de droit	de droit	PUNCT
 ,	,	PUNCTclause
 mais	mais	CCONJ
 une	un	DET
 position	position	NOUN
-de	de	ADP
-fait	fait	NOUN
+de fait	de fait	PUNCT
 .	.	PUNCTsent
 la	le	DET
 voici	voici	ADP
@@ -4021,9 +3964,7 @@ expression	expression	NOUN
 ,	,	PUNCTclause
 de plus en plus	de plus en plus	ADV
 abstraite	abstrait	ADJ
-à	à	ADP
-mesure	mesure	NOUN
-que	que	SCONJ
+à mesure que	à mesure que	PUNCT
 on	on	PRON
 se	se	PRON
 élève	élever	VERB
@@ -4163,9 +4104,7 @@ personne	personne	NOUN
 ne	ne	ADV
 sera	être	AUX
 pas	pas	ADV
-au	au	ADP_DET
-terme	terme	NOUN
-de	de	ADP
+au terme de	au terme de	ADP
 une	un	DET
 société	société	NOUN
 parfaite	parfait	ADJ
@@ -4379,12 +4318,9 @@ homme	homme	NOUN
 ne	ne	ADV
 se	se	PRON
 produit	produire	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 que	que	SCONJ
-au	au	ADP_DET
-niveau	niveau	NOUN
-des	un	ADP_DET
+au niveau de	au niveau de	ADP
 objets	objet	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -4498,8 +4434,7 @@ il	il	PRON
 nous	nous	PRON
 a	avoir	AUX
 fait	faire	VERB
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 mal	mal	NOUN
 ,	,	PUNCTclause
 et	et	CCONJ
@@ -4840,9 +4775,7 @@ dans	dans	ADP
 l'	le	DET
 acte	acte	NOUN
 ,	,	PUNCTclause
-l'une	l'une	PRON
-et	et	CCONJ
-l'autre	l'autre	PRON
+l'une et l'autre	l'une et l'autre	ADP
 se	se	PRON
 mesurent	mesurer	VERB
 et	et	CCONJ
@@ -4896,8 +4829,7 @@ a	avoir	VERB
 mal	mal	ADV
 distingués	distinguer	VERB
 .	.	PUNCTsent
-du point de vue	du point de vue	ADV
-de	de	ADP
+du point de vue de	du point de vue de	ADP
 la	le	DET
 personne	personne	NOUN
 ,	,	PUNCTclause
@@ -4958,9 +4890,7 @@ essentielle	essentiel	ADJ
 de	de	ADP
 l'	le	DET
 homme	homme	NOUN
-au	au	ADP_DET
-sein	sein	NOUN
-du	du	ADP_DET
+au sein de	au sein de	ADP
 monde	monde	NOUN
 des	un	ADP_DET
 objets	objet	NOUN
@@ -5040,9 +4970,7 @@ et	et	CCONJ
 l'	le	DET
 effectue	effectuer	VERB
 .	.	PUNCTsent
-Corps	Corps	PROPN
-et	et	CCONJ
-âme	âme	NOUN
+corps et âme	corps et âme	NOUN
 sont	être	AUX
 un	un	DET
 seul	seul	ADJ
@@ -5249,8 +5177,7 @@ l'	le	DET
 immortelle	immortel	ADJ
 ne	ne	ADV
 est	être	AUX
-rien	rien	PRON
-que	que	SCONJ
+rien que	rien que	PRON
 l'	le	DET
 illusion	illusion	NOUN
 de	de	ADP
@@ -5327,8 +5254,7 @@ et	et	CCONJ
 comprendre	comprendre	VERB
 ne	ne	ADV
 est	être	AUX
-rien	rien	PRON
-que	que	SCONJ
+rien que	rien que	PRON
 envisager	envisager	VERB
 les	le	DET
 modes	mode	NOUN
@@ -5656,8 +5582,7 @@ je	je	PRON
 étais	être	VERB
 ,	,	PUNCTclause
 ni	ni	CCONJ
-rien	rien	PRON
-que	que	SCONJ
+rien que	rien que	PRON
 je	je	PRON
 aie	avoir	VERB
 ,	,	PUNCTclause
@@ -5694,16 +5619,14 @@ vigilance	vigilance	NOUN
 pour	pour	ADP
 me	me	PRON
 pousser	pousser	VERB
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 plus	plus	ADV
 loin	loin	ADV
 que	que	SCONJ
 tout	tout	PRON
 calcul	calcul	NOUN
 ,	,	PUNCTclause
-un	un	DET
-peu	peu	ADV
+un peu	un peu	DET
 plus	plus	ADV
 près de	près de	ADP
 l'	le	DET
@@ -5721,8 +5644,7 @@ me	me	PRON
 jeter	jeter	VERB
 dans	dans	ADP
 le	le	DET
-fait	fait	NOUN
-accompli	accomplir	VERB
+fait accompli	fait accompli	NOUN
 de	de	ADP
 une	un	DET
 évidente	évident	ADJ

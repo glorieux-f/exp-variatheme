@@ -61,9 +61,7 @@ les	le	DET
 anciennes	ancien	ADJ
 déterminations	détermination	NOUN
 ,	,	PUNCTclause
-en	en	ADP
-un	un	DET
-mot	mot	NOUN
+en un mot	en un mot	NOUN
 ,	,	PUNCTclause
 l'	le	DET
 acte	acte	NOUN
@@ -202,8 +200,7 @@ en réalité	en réalité	ADV
 pour	pour	ADP
 qui	qui	PRON
 va	aller	VERB
-au	au	ADP_DET
-fond	fond	NOUN
+au fond	au fond	ADP_DET
 des	un	ADP_DET
 choses	chose	NOUN
 ,	,	PUNCTclause
@@ -348,8 +345,7 @@ tel	tel	PRON
 est	être	AUX
 pour	pour	ADP
 nous	nous	PRON
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 acte	acte	NOUN
 :	:	PUNCTclause
 spirituel	spirituel	ADJ
@@ -380,12 +376,10 @@ toutes	tout	ADJ
 nos	nos	DET
 responsabilités	responsabilité	NOUN
 .	.	PUNCTsent
-bien	bien	ADV
-au contraire	au contraire	ADV
+bien au contraire	bien au contraire	NOUN
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 il y a	il y a	VERB
-eu	avoir	VERB
 ,	,	PUNCTclause
 en	en	ADP
 ce	ce	PRON
@@ -395,10 +389,8 @@ de	de	DET
 grandes	grand	ADJ
 trahisons	trahison	NOUN
 .	.	PUNCTsent
-ce	ce	DET
-mot	mot	NOUN
-de	de	ADP
-esprit	esprit	NOUN
+ce	ce	PRON
+mot d'esprit	mot d'esprit	PUNCT
 a	avoir	AUX
 couvert	couvrir	VERB
 de	de	ADP
@@ -421,8 +413,7 @@ caste	caste	NOUN
 de	de	ADP
 un	un	DET
 niveau	niveau	NOUN
-de	de	ADP
-fortune	fortune	NOUN
+de fortune	de fortune	ADP_DET
 ,	,	PUNCTclause
 de	de	ADP
 une	un	DET
@@ -458,8 +449,7 @@ esprit	esprit	NOUN
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 pour	pour	ADP
 nous	nous	PRON
 cette	ce	DET
@@ -698,9 +688,7 @@ acte	acte	NOUN
 on	on	PRON
 ne	ne	ADV
 part	partir	VERB
-pas	pas	ADV
-du	du	ADP_DET
-tout	tout	PRON
+pas du tout	pas du tout	ADV
 ;	;	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
 B	B	X
@@ -761,8 +749,7 @@ ne	ne	ADV
 se	se	PRON
 trouvera	trouver	VERB
 pas	pas	ADV
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 dans	dans	ADP
 ses	son	DET
 conséquences	conséquence	NOUN
@@ -770,11 +757,9 @@ pratiques	pratique	ADJ
 ;	;	PUNCTclause
 d'autre part	d'autre part	ADV
 ,	,	PUNCTclause
-en	en	ADP
-vertu	vertu	NOUN
-des	un	ADP_DET
+en vertu de	en vertu de	ADP
 évidences	évidence	NOUN
-que	que	PRON
+que	que	SCONJ
 nous	nous	PRON
 venons	venir	VERB
 de	de	ADP
@@ -805,8 +790,7 @@ vitale	vital	ADJ
 de	de	ADP
 passer	passer	VERB
 ,	,	PUNCTclause
-dès	dès	ADP
-maintenant	maintenant	ADV
+dès maintenant	dès maintenant	ADV
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -878,8 +862,7 @@ libéral	libéral	ADJ
 .	.	PUNCTsent
 aucune	aucun	DET
 confusion	confusion	NOUN
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 ,	,	PUNCTclause
 entre	entre	ADP
 le	le	DET
@@ -897,11 +880,9 @@ l'	le	DET
 ordre	ordre	NOUN
 nouveau	nouveau	ADJ
 veut	vouloir	VERB
-être	être	AUX
-humain	humain	ADJ
+être humain	être humain	PUNCT
 et	et	CCONJ
-rien	rien	PRON
-que	que	SCONJ
+rien que	rien que	NOUN
 humain	humain	ADJ
 .	.	PUNCTsent
 certes	certes	ADV
@@ -1151,8 +1132,7 @@ ne	ne	ADV
 le	le_PRON	PRON
 prive	priver	VERB
 pas	pas	ADV
-à	à	ADP
-jamais	jamais	ADV
+à jamais	à jamais	DET
 de	de	ADP
 toute	toute	DET
 possibilité	possibilité	NOUN
@@ -1175,8 +1155,7 @@ révolution	révolution	NOUN
 ne	ne	ADV
 est	être	AUX
 pas	pas	ADV
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 une	un	DET
 façon	façon	NOUN
 de	de	ADP
@@ -1291,9 +1270,7 @@ origine	origine	NOUN
 ,	,	PUNCTclause
 non	non	ADV
 pas	pas	ADV
-à	à	ADP
-la	le	DET
-fin	fin	NOUN
+à la fin	à la fin	PUNCT
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 VI	VI	NUM
@@ -1697,9 +1674,7 @@ est	être	AUX
 elle	elle	PRON
 qui	qui	PRON
 vaincra	vaincre	VERB
-sans	sans	ADP
-coup	coup	NOUN
-férir	férir	VERB
+sans coup férir	sans coup férir	ADP
 une	un	DET
 force	force	NOUN
 brutale	brutal	ADJ
@@ -1827,11 +1802,9 @@ tel	tel	PRON
 il	il	PRON
 appartient	appartenir	VERB
 ,	,	PUNCTclause
-de	de	ADP
-fait	fait	NOUN
+de fait	de fait	DET
 et	et	CCONJ
-de	de	ADP
-droit	droit	NOUN
+de droit	de droit	DET
 ,	,	PUNCTclause
 à	à	ADP
 la	le	DET
@@ -1988,8 +1961,7 @@ résistance	résistance	NOUN
 :	:	PUNCTclause
 elle	elle	PRON
 va	aller	VERB
-d'autant	d'autant	ADV
-plus	plus	ADV
+d'autant plus	d'autant plus	ADV
 loin	loin	ADV
 que	que	SCONJ
 ce	ce	DET

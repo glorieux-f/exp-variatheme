@@ -12,9 +12,7 @@ et	et	CCONJ
 nucléaire	nucléaire	ADJ
 :	:	PUNCTclause
 une	un	DET
-mise	mise	NOUN
-au	au	ADP_DET
-point	point	NOUN
+mise au point	mise au point	NOUN
 (	(	PUNCTclause
 28	28	NUM
 juin	juin	NOUN
@@ -156,8 +154,9 @@ rédacteur	rédacteur	NOUN
 a	avoir	AUX
 jugé	juger	VERB
 bon	bon	ADJ
-de	de	ADP
-mettre en exergue	mettre en exergue	VERB
+de mise	de mise	PUNCT
+en	en	ADP
+exergue	exergue	NOUN
 ,	,	PUNCTclause
 à la suite de	à la suite de	ADP
 son	son	DET
@@ -172,10 +171,7 @@ par	par	ADP
 M.	M.	NOUN
 Desmeules	Desmeules	PROPN
 .	.	PUNCTsent
-à	à	ADP
-l'	le	DET
-intention	intention	NOUN
-de	de	ADP
+à l'intention de	à l'intention de	ADP
 vos	vos	DET
 lecteurs	lecteur	NOUN
 ,	,	PUNCTclause
@@ -204,8 +200,7 @@ portée	portée	NOUN
 ↵↵	↵↵	PUNCTstruct
 1	1	NUM
 .	.	PUNCTsent
-la	le	DET
-première	premier	ADJ
+la première	la première	DET
 citation	citation	NOUN
 ,	,	PUNCTclause
 pronucléaire	pronucléaire	ADJ
@@ -261,9 +256,7 @@ je	je	PRON
 ai	avoir	AUX
 fait	faire	VERB
 cette	ce	DET
-mise	mise	NOUN
-au	au	ADP_DET
-point	point	NOUN
+mise au point	mise au point	NOUN
 le	le	DET
 26	26	NUM
 janvier	janvier	NOUN
@@ -312,16 +305,13 @@ juin	juin	NOUN
 ,	,	PUNCTclause
 il y a	il y a	VERB
 donc	donc	ADV
-un	un	DET
-peu	peu	ADV
-plus	plus	ADV
-de	de	ADP
+un peu	un peu	PUNCT
+plus de	plus de	DET
 vingt	vingt	NUM
 ans	an	NOUN
 ,	,	PUNCTclause
 devant	devant	ADP
-le	le	DET
-premier	premier	ADJ
+le premier	le premier	DET
 congrès	congrès	NOUN
 de	de	ADP
 l'	le	DET
@@ -393,9 +383,7 @@ ne	ne	ADV
 avait	avoir	AUX
 pas	pas	ADV
 découvert	découvrir	VERB
-une	un	DET
-fois	fois	NOUN
-de plus	de plus	ADV
+une fois de plus	une fois de plus	PUNCT
 ,	,	PUNCTclause
 et	et	CCONJ
 vraiment	vraiment	ADV
@@ -444,8 +432,7 @@ techniques	technique	NOUN
 étaient	être	AUX
 en train de	en train de	ADV
 accroître	accroître	VERB
-au-delà	au-delà	ADV
-du	du	ADP_DET
+au-delà de	au-delà de	PUNCT
 possible	possible	ADJ
 les	le	DET
 besoins	besoin	NOUN
@@ -594,9 +581,7 @@ qui	qui	PRON
 me	me	PRON
 autorise	autoriser	VERB
 à	à	ADP
-prendre	prendre	VERB
-la	le	DET
-parole	parole	NOUN
+prendre la parole	prendre la parole	NOUN
 parmi	parmi	ADP
 vous	vous	PRON
 .	.	PUNCTsent
@@ -616,9 +601,7 @@ des	un	ADP_DET
 moindres	moindre	ADJ
 ,	,	PUNCTclause
 partageaient	partager	VERB
-à	à	ADP
-l'	le	DET
-époque	époque	NOUN
+à l'époque	à l'époque	PUNCT
 mes	mon	DET
 illusions	illusion	NOUN
 ,	,	PUNCTclause
@@ -665,9 +648,7 @@ excuser	excuser	VERB
 de	de	ADP
 avoir	avoir	AUX
 appris	apprendre	VERB
-pas	pas	ADV
-mal	mal	ADV
-de	de	ADP
+pas mal de	pas mal de	ADP_DET
 choses	chose	NOUN
 depuis	depuis	ADP
 ,	,	PUNCTclause
@@ -699,8 +680,7 @@ la	le	DET
 rappelle	rappeler	VERB
 :	:	PUNCTclause
 ↵↵	↵↵	PUNCTstruct
-selon	selon	ADP
-que	que	SCONJ
+selon que	selon que	SCONJ
 (	(	PUNCTclause
 notre	notre	DET
 )	)	PUNCTclause
@@ -747,8 +727,7 @@ que	que	SCONJ
 je	je	PRON
 me	me	PRON
 contredis	contredire	VERB
-sans	sans	ADP
-vergogne	vergogne	NOUN
+sans vergogne	sans vergogne	DET
 .	.	PUNCTsent
 (	(	PUNCTclause
 «	«	PUNCTclause
@@ -797,8 +776,7 @@ décidément	décidément	ADV
 et	et	CCONJ
 beaucoup	beaucoup	ADV
 plus	plus	ADV
-encore	encore	ADV
-que	que	SCONJ
+encore que	encore que	SCONJ
 on	on	PRON
 ne	ne	ADV
 le	le_PRON	PRON
@@ -823,10 +801,9 @@ moi	moi	PRON
 et	et	CCONJ
 ne	ne	ADV
 traduit	traduire	VERB
-en	en	ADP
-rien	rien	PRON
+en rien	en rien	ADP
 notre	notre	DET
-idéal	idéal	ADJ
+idéal	idéal	NOUN
 ,	,	PUNCTclause
 mais	mais	CCONJ
 formule	formuler	VERB
@@ -895,9 +872,7 @@ sont	être	AUX
 pas	pas	ADV
 dangereuses	dangereux	ADJ
 ,	,	PUNCTclause
-à	à	ADP
-condition	condition	NOUN
-que	que	SCONJ
+à condition que	à condition que	SCONJ
 elles	elles	PRON
 soient	être	AUX
 exploitées	exploiter	VERB

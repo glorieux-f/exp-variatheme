@@ -48,8 +48,7 @@ de	de	ADP
 votre	votre	DET
 ministère	ministère	NOUN
 .	.	PUNCTsent
-au	au	ADP_DET
-début	début	NOUN
+au début	au début	ADP_DET
 du	du	ADP_DET
 mois	mois	NOUN
 de	de	ADP
@@ -121,8 +120,7 @@ puissance	puissance	NOUN
 .	.	PUNCTsent
 nous	nous	PRON
 cherchons	chercher	VERB
-à	à	ADP
-savoir	savoir	VERB
+à savoir	à savoir	PUNCT
 si	si	SCONJ
 le	le	DET
 projet	projet	NOUN
@@ -141,9 +139,7 @@ siècle	siècle	NOUN
 telle	tel	PRON
 est	être	AUX
 la	le	DET
-raison	raison	NOUN
-de	de	ADP
-être	être	AUX
+raison d'être	raison d'être	NOUN
 de	de	ADP
 notre	notre	DET
 groupe	groupe	NOUN
@@ -218,8 +214,7 @@ nous	nous	PRON
 ne	ne	ADV
 sommes	être	AUX
 pas	pas	ADV
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 une	un	DET
 simple	simple	ADJ
 académie	académie	NOUN
@@ -285,8 +280,7 @@ significative	significatif	ADJ
 ↵↵	↵↵	PUNCTstruct
 voici	voici	ADP
 donc	donc	ADV
-la	le	DET
-première	premier	ADJ
+la première	la première	PUNCT
 requête	requête	NOUN
 que	que	SCONJ
 nous	nous	PRON
@@ -356,9 +350,7 @@ des	un	DET
 risques	risque	NOUN
 éventuels	éventuel	ADJ
 pour	pour	ADP
-l'une	l'une	PRON
-ou	ou	CCONJ
-l'autre	l'autre	PRON
+l'une ou l'autre	l'une ou l'autre	PRON
 des	un	ADP_DET
 parties	partie	NOUN
 traitantes	traitant	ADJ
@@ -402,9 +394,8 @@ car	car	CCONJ
 il	il	PRON
 importe	importer	VERB
 absolument	absolument	ADV
-de	de	ADP
-faire	faire	VERB
-l'	le	DET
+de fait	de fait	PUNCT
+l'	le_PRON	PRON
 Europe	Europe	PROPN
 ,	,	PUNCTclause
 tandis que	tandis que	SCONJ
@@ -509,8 +500,7 @@ base	base	NOUN
 de	de	ADP
 travail	travail	NOUN
 équivaudrait	équivaloir	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 à	à	ADP
 récuser	récuser	VERB
 ,	,	PUNCTclause
@@ -615,9 +605,7 @@ peut	pouvoir	VERB
 il	il	PRON
 être	être	AUX
 accepté	accepter	VERB
-pour	pour	ADP
-le	le	DET
-moment	moment	NOUN
+pour le moment	pour le moment	ADV
 ?	?	PUNCTsent
 or	or	NOUN
 ,	,	PUNCTclause
@@ -818,10 +806,9 @@ amender	amender	VERB
 ,	,	PUNCTclause
 soit	soit	CCONJ
 pour	pour	ADP
-en	en	PRON
-faire	faire	VERB
+en fait	en fait	VERB
 un	un	DET
-meilleur	meilleur	NOUN
+meilleur	meilleur	ADJ
 instrument	instrument	NOUN
 fédéralisme	fédéralisme	NOUN
 ,	,	PUNCTclause
@@ -829,8 +816,7 @@ soit	soit	CCONJ
 pour	pour	ADP
 le	le	DET
 rendre	rendre	VERB
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 inopérant	inopérant	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -996,14 +982,12 @@ Europe	Europe	PROPN
 .	.	PUNCTsent
 il	il	PRON
 sera	être	AUX
-lettre	lettre	NOUN
-morte	mourir	VERB
+lettre morte	lettre morte	DET
 pour	pour	ADP
 les	le	DET
 Europe	Europe	PROPN
 ,	,	PUNCTclause
-tant	tant	ADV
-que	que	SCONJ
+tant que	tant que	SCONJ
 ceux	ceux	PRON
 ne	ne	ADV
 auront	avoir	VERB
@@ -1109,8 +1093,7 @@ soviétique	soviétique	ADJ
 ne	ne	ADV
 change	changer	VERB
 rien	rien	PRON
-au	au	ADP_DET
-fait	fait	NOUN
+au fait	au fait	PUNCT
 fondamental	fondamental	ADJ
 que	que	SCONJ
 nos	nos	DET
@@ -1231,8 +1214,7 @@ elle	elle	PRON
 ne	ne	ADV
 sera	être	AUX
 pas	pas	ADV
-non	non	ADV
-plus	plus	ADV
+non plus	non plus	ADV
 une	un	DET
 Sainte-Alliance	Sainte-Alliance	PROPN
 ,	,	PUNCTclause
@@ -1246,10 +1228,8 @@ condamnée	condamner	VERB
 par	par	ADP
 l'	le	DET
 histoire	histoire	NOUN
-à	à	ADP
-l'	le	DET
-unanimité	unanimité	NOUN
-des	un	ADP_DET
+à l'unanimité	à l'unanimité	PUNCT
+des	un	DET
 exemples	exemple	NOUN
 connus	connaître	VERB
 .	.	PUNCTsent
@@ -1389,7 +1369,7 @@ souveraineté	souveraineté	NOUN
 nouvelle	nouveau	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
-cette fois ci	cette fois ci	PRON
+cette fois-là	cette fois ci	PRON
 réelle	réel	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
@@ -1401,8 +1381,7 @@ souverainetés	souveraineté	NOUN
 existent	exister	VERB
 elles	elles	PRON
 encore	encore	ADV
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	PUNCT
 ?	?	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
 on	on	PRON
@@ -1444,18 +1423,15 @@ pourrait	pouvoir	VERB
 pas	pas	ADV
 se	se	PRON
 défendre	défendre	VERB
-au-delà	au-delà	ADV
-de	de	ADP
+au-delà de	au-delà de	ADP
 quelques	quelque	DET
 heures	heure	NOUN
 contre	contre	ADP
 l'	le	DET
 attaque	attaque	NOUN
 de	de	ADP
-l'un	l'un	PRON
-ou	ou	CCONJ
-l'autre	l'autre	PRON
-empire	empirer	VERB
+l'un ou l'autre	l'un ou l'autre	DET
+empire	empire	NOUN
 ;	;	PUNCTclause
 qui	qui	PRON
 ne	ne	ADV
@@ -1589,8 +1565,7 @@ siècle	siècle	NOUN
 que	que	SCONJ
 le	le	DET
 pouvoir	pouvoir	NOUN
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 lever	lever	VERB
 le	le	DET
 soleil	soleil	NOUN
@@ -1631,8 +1606,7 @@ fédérées	fédéré	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 parce que	parce que	SCONJ
-en	en	ADP
-fait	fait	NOUN
+en fait	en fait	NOUN
 ,	,	PUNCTclause
 dans	dans	ADP
 une	un	DET
@@ -1709,9 +1683,7 @@ de	de	ADP
 en	en	ADP
 retirer	retirer	VERB
 (	(	PUNCTclause
-pour	pour	ADP
-l'	le	DET
-instant	instant	NOUN
+pour l'instant	pour l'instant	ADV
 )	)	PUNCTclause
 certaines	certain	DET
 dispositions	disposition	NOUN
@@ -1746,8 +1718,7 @@ ne	ne	ADV
 peut	pouvoir	VERB
 être	être	AUX
 accepté	accepter	VERB
-tant	tant	ADV
-que	que	SCONJ
+tant que	tant que	ADV
 une	un	DET
 seule	seul	ADJ
 des	un	ADP_DET
@@ -1776,9 +1747,7 @@ garder	garder	VERB
 de	de	ADP
 y	y	PRON
 ajouter	ajouter	VERB
-quoi que	quoi que	SCONJ
-ce	ce	DET
-soit	être	AUX
+quoi que ce soit	quoi que ce soit	PUNCT
 qui	qui	PRON
 viendrait	venir	VERB
 compromettre	compromettre	VERB
@@ -1824,9 +1793,7 @@ que	que	SCONJ
 personne	personne_PRON	PRON
 ne	ne	ADV
 est	être	AUX
-en	en	ADP
-mesure	mesure	NOUN
-de	de	ADP
+en mesure de	en mesure de	ADP
 décréter	décréter	VERB
 .	.	PUNCTsent
 le	le	DET
@@ -1837,8 +1804,7 @@ simple	simple	ADJ
 ,	,	PUNCTclause
 et	et	CCONJ
 même	même	ADV
-un	un	DET
-peu	peu	ADV
+un peu	un peu	PUNCT
 obscur	obscur	ADJ
 ,	,	PUNCTclause
 comme	comme	ADP
@@ -1864,8 +1830,7 @@ subtils	subtil	ADJ
 ↵↵	↵↵	PUNCTstruct
 7	7	NUM
 .	.	PUNCTsent
-pourvu	pourvoir	VERB
-que	que	SCONJ
+pourvu que	pourvu que	PUNCT
 le	le	DET
 projet	projet	NOUN
 ,	,	PUNCTclause
@@ -2047,11 +2012,7 @@ doivent	devoir	VERB
 être	être	AUX
 consentis	consentir	VERB
 par	par	ADP
-les	le	DET
-uns	un	PRON
-et	et	CCONJ
-les	le	DET
-autres	autre	PRON
+les uns et les autres	les uns et les autres	DET
 .	.	PUNCTsent
 certains	certain	DET
 risques	risque	NOUN
@@ -2087,8 +2048,7 @@ cet	ce	DET
 empire	empire	NOUN
 qui	qui	PRON
 sombra	sombrer	VERB
-pour	pour	ADP
-toujours	toujours	ADV
+pour toujours	pour toujours	ADP
 il y a	il y a	VERB
 cinq	cinq	NUM
 siècles	siècle	NOUN
@@ -2185,8 +2145,7 @@ ruinés	ruiner	VERB
 ,	,	PUNCTclause
 et	et	CCONJ
 refusant	refuser	VERB
-de	de	ADP
-faire	faire	VERB
+de fait	de fait	PUNCT
 le	le	DET
 pool	pool	NOUN
 patriotique	patriotique	ADJ
@@ -2225,8 +2184,7 @@ après	après	ADP
 trois	trois	NUM
 jours	jour	NOUN
 à	à	ADP
-plus	plus	ADV
-de	de	ADP
+plus de	plus de	DET
 100	100	NUM
 millions	million	NOUN
 ,	,	PUNCTclause
@@ -2289,9 +2247,7 @@ Europe	Europe	PROPN
 nouvelle	nouveau	ADJ
 .	.	PUNCTsent
 ↵↵	↵↵	PUNCTstruct
-au	au	ADP_DET
-nom	nom	NOUN
-du	du	ADP_DET
+au nom de	au nom de	ADP
 groupe	groupe	NOUN
 des	un	ADP_DET
 Vingt	Vingt	PROPN
